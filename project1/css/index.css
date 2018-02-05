@@ -62,3 +62,98 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+a{
+	color:gray;
+	text-decoration:none;
+}
+li {
+	display:inline;
+	margin:0 70px 0 70px;
+}
+ul{
+	margin:0 0 80px 0;
+}
+button{
+	background-color:white;
+	border-radius:0px;
+	padding:10px 40px 10px 40px;
+	border-style:solid;
+	margin:20px 0px 0px 100px;
+}
+footer p{
+	margin-top:1300px;
+	margin-left:400px;
+}
+.logo{
+	position:relative;
+	float:right;
+	margin:0 0 0 200px;
+}
+.cta img {
+	background-color:green;
+	position:relative;
+	float:right;
+}
+.cta-text{
+	float:left;
+	margin: 0 0 0 200px;
+}
+.top-content .text-content p{
+	width:300px;
+	position:absolute;
+	margin: 0 200px 0 0;
+	height:100px;
+	
+}
+
+.text-content{
+	margin-top:40px;
+	float:left;
+}
+.middle-img{
+	float:left;
+	margin-top:220px;
+	margin-left:35px;
+}
+
+.top-content .text-content:first-child{
+	width:2000px;
+	border-top:3px solid black;
+	position:absolute;
+	top:500px;
+	padding-left:40px;
+	padding-top:20px;
+}
+.top-content .text-content:nth-child(2){
+	position:absolute;
+	top:500px;
+	left:300px;
+	margin-left:200px;
+	padding-top:20px;
+
+}
+
+.bottom-content{
+	position:absolute;
+	margin-top:600px;
+	padding-left:40px;
+	padding-top:200px;
+}
+.bottom-content p{
+	width:250px;
+	margin-right:100px;
+}
+.contact{
+	padding-left:40px;
+	position:absolute;
+	border-top:3px solid black;
+	margin-top:1000px;
+	width:2000px;
+}
+.contact p{
+	margin-top:15px;
+}
+.cta-text h1{
+	font-size:70px;
+	text-align:center;
+}
