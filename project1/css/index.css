@@ -62,3 +62,128 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	width: 99%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+header {
+	width: 100%;
+	clear: both;
+
+}
+
+/* Nav Bar */
+nav {
+	float: left;
+}
+
+nav li {
+	display: inline;
+	padding: 0 0 0 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: darkslategray;
+}
+
+.logo {
+	position: relative;
+	top: -10px;
+	height: 100%;
+	padding-left: 10px;
+	float: right;
+	
+}
+/* Nav bar end */
+
+.cta {
+	padding: 50px 0 0 0;
+	clear: both;
+}
+
+.cta-text {
+	height: 379px;
+	width: 50%;
+	float: left;
+	padding-top: 50px;
+
+}
+
+.cta-text h1 {
+	font-size: 5em;
+	text-align: center;
+	
+}
+
+.cta-img {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.cta button {
+	width: 175px;
+	height: 30px;
+	background: white;
+	border: 1px solid black;
+	font-size: 16px;
+	display: block;
+	margin: auto;
+}
+
+
+
+.main-content {
+	float: left;
+	margin-top: 75px;
+	padding: 50px 0 50px 0;
+	border-top: 1px solid black;
+	display: block;
+	clear: both;
+	line-height:20px;
+}
+
+.top-content .text-content {
+	float:left;
+	width: 50%;
+	padding-left: 10px;
+}
+
+.middle-img {
+	display: block;
+	margin: auto;
+	padding: 50px 0 50px 0;
+}
+
+.bottom-content .text-content {
+	float:left;
+	width: 33.33%;
+	padding-left: 10px;
+	
+}
+
+.contact {
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	border-top: 1px solid black;
+	line-height:20px;
+}
+
+.contact p {
+	display: block;
+	padding: 10px;
+}
+
+footer {
+	text-align:center;
+}
