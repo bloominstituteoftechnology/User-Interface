@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header {
+    height: 200px;
+}
+header nav ul {
+    display: inline-block;
+    width: 85%;
+    margin: 20px 0px 20px 40px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px 50px 0px 50px;
+}
+
+header img {
+    float: right;
+    margin: -60px 100px 0px 30px;
+    width: 220px;
+    height: 60px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+.cta {
+    width: 100%;
+    height: 400px;
+    border-bottom: solid black 1px;
+    
+}
+.cta .cta-text {
+    display: inline-block;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    left: 160px;
+
+}
+
+.cta .cta-text button {
+    background-color: white;
+    width: 210px;
+    height: 40px;
+    border: solid black 1px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: relative;
+   top: -40px;
+}
+
+.cta img {
+    float: right;
+    position: relative;
+    right: 140px;
+    bottom: 80px;
+}
+
+.top-content .text-content {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.main-content img {
+    width: 96%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 30%;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid black 1px;
+}
+
+footer {
+    text-align: center;
+}
+
