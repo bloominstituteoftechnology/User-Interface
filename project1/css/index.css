@@ -62,3 +62,12 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+}
