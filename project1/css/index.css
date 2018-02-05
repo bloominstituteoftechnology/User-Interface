@@ -43,7 +43,28 @@ section button {
 	margin: 120px 160px;
 }
 
-div .top-content{
+.top-content {
 	clear: both;
+	display: flex;
+	
+	
 }
 
+.text-content {
+	display: inline-block;
+	
+	
+}
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.middle-img {
+	margin-left: 20%;
+}
+
+footer {
+	text-align: center;
+}
