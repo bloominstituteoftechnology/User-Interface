@@ -1,5 +1,5 @@
 div li {
-	display: inline;
+	display: inline-block;
 	list-style: none;
 	margin-left: 60px;
 	text-decoration: none;
