@@ -62,11 +62,19 @@ header{
 
 /* title */
 
+.cta{
+   display: inline-flex;
+   width: 100%;
+   padding: 20px 0 0 0;
+}
+
 .cta-text{
-    margin: 120px 0 0 0;
-    padding: 0 750px 0 0;
+    margin: 85px 300px 75px 445px;
+    padding: 0 0 0 0;
     text-align: center;
     font-size: 90px;
+
+    
 }
 
 .cta-text button{
@@ -74,10 +82,12 @@ header{
     margin: 0 0 0 10px;
     padding: 5px 20px;
     font-size: 30%;
+    
 }
 
 .cta-img{
-    margin: -415px 0 50px 1090px;
+width: 25%;
+height: 25%;
 }
 
 /* content */
