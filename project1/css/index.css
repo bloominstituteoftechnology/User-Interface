@@ -122,16 +122,13 @@ button {
 	margin: 0 80px 25px 0;
 }
 
-hr { 
-    display: block;
-    margin: 100px 0 20px 0;
-    border-style: inset;
-    border-width: 1px;
-}
-
-
 .main-content {
-	/* clear: both; */
+	/* border: 1px solid red; */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 50px auto;
+	padding: 25px 0;
+	width: 875px;
 }
 
 .top-content {
@@ -141,8 +138,8 @@ hr {
 }
 
 .top-content .text-content {
-	width: 450px;
-	margin: 5px 5%;
+	width: 350px;
+	margin-top: 5px;
 }
 
 .features {
@@ -153,4 +150,29 @@ hr {
 .about {
 	/* border: 1px solid red; */
 	float: right;
+}
+
+.main-content .middle-img {
+	margin-top: -55px;
+}
+
+.bottom-content div {
+	width: 33%;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.contact {
+	width: 875px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.contact p {
+	padding: 10px 0;
+}
+
+footer {
+	margin-bottom: 150px;
+	text-align: center;
 }
