@@ -33,9 +33,24 @@ body {
 }
 ol, ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white
+}
+li{
+	float: left;
 }
 blockquote, q {
 	quotes: none;
+}
+
+li a{
+	display: block;
+	color:gray;
+	text-align: center;
+	padding: 14px 75px;
+	text-decoration: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -45,7 +60,32 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	border: 10px black;
 }
+
+.logo{
+position: fixed;
+right: 45px;
+top:30px;
+margin: 0px;
+padding: 0px;
+}
+
+.cta{
+	float:left;
+	display: fixed;
+	margin: 50px;
+}
+.cta-text{
+	float: left;
+	width: 900px;
+	height: 350px;
+	padding: 50px;
+	margin: 50px;
+	text-align: center;
+	font-size: 60px;
+}
+
 
 /* Set every element's box-sizing to border-box */
 * {
