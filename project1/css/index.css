@@ -67,6 +67,10 @@ nav ul {
 	list-style: none;
 }
 
-nav li {
+header nav li {
 	display: inline;
+}
+
+.logo {
+	float: right;
 }
