@@ -63,19 +63,16 @@ a {
 }
 
 section.cta {
-display: block;
-
+font-size: 70px;
+display: inline-block;
 }
 
-div.cta-text {
-	display: inline-block;
-	font-size: 70px;
-	text-align: center;
-	padding: 10px;
+ .cta .cta-text h1 {
+	text-align: center
 }
 
-img {
-object-position: right;
+.cta img {
+	float: right;
 }
 
 blockquote, q {
