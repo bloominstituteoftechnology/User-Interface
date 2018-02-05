@@ -66,9 +66,13 @@ a{
 	color:gray;
 	text-decoration:none;
 }
+ul{
+	position:relative;
+	top:8px;
+}
 li {
 	display:inline;
-	margin:0 70px 0 70px;
+	margin:0 50px 0 50px;
 }
 ul{
 	margin:0 0 80px 0;
@@ -85,10 +89,10 @@ footer p{
 	margin-left:400px;
 }
 .logo{
-	position:relative;
+	position:absolute;
 	float:right;
-	margin:0 0 0 200px;
-	padding-bottom:20px;
+	top:0px;
+	margin:0 0 0 920px;
 }
 .cta img {
 	position:relative;
