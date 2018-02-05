@@ -78,7 +78,7 @@ button{
 	border-radius:0px;
 	padding:10px 40px 10px 40px;
 	border-style:solid;
-	margin:20px 0px 0px 100px;
+	margin:20px 0px 0px 80px;
 }
 footer p{
 	margin-top:1300px;
@@ -88,9 +88,9 @@ footer p{
 	position:relative;
 	float:right;
 	margin:0 0 0 200px;
+	padding-bottom:20px;
 }
 .cta img {
-	background-color:green;
 	position:relative;
 	float:right;
 }
@@ -112,7 +112,7 @@ footer p{
 }
 .middle-img{
 	float:left;
-	margin-top:220px;
+	margin-top:180px;
 	margin-left:35px;
 }
 
@@ -144,6 +144,7 @@ footer p{
 	margin-right:100px;
 }
 .contact{
+	padding-top:30px;
 	padding-left:40px;
 	position:absolute;
 	border-top:3px solid black;
