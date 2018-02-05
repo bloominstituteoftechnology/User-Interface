@@ -62,3 +62,93 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.logo{
+	position:absolute;
+	top:0px;
+	right:0px;
+	float:right;
+	padding:25px 15% 22px 30px;
+}
+
+nav{
+	float:left;
+	list-style: none;
+	min-width:65%;
+	padding:35px 35px 35px 55px;
+
+}
+nav ul{
+	display: flex;
+	justify-content:space-between;
+	list-style-type: none;
+}
+
+nav a{
+	color:gray;
+	font-family:arial;
+	text-decoration: none;
+}
+.cta button{
+	position:absolute;
+	width:70%;
+	top:110%;
+	left:50px;
+	font-family:arial;
+	background-color:white;
+	color:black;
+	border:solid 1px;
+	font-size:22%;
+	text-align: center;
+	padding: 10px 35px 10px 35px;
+}
+.cta{
+	position:absolute;
+	top:10%;
+	height:40%;
+	width:80%;
+	padding:30px;
+	margin:0px;
+	left:20%;
+}
+.cta-text{
+	width:30%;
+	position:relative;
+	text-align: center;
+	top:20px;
+	right:90px;
+	justify-content: center;
+
+	font-size:510%;
+	
+}
+#splashimg{
+	position: absolute;
+	right:20%;
+	top:0px;
+}
+.main-content{
+	position:absolute;
+	bottom:10%;
+	width:90%;
+	padding:5%;
+	
+}
+.main-content p{
+	font-size:20px;
+}
+.main-content h4{
+	font-size:20px;
+}
+.top-content{
+
+}
+.contact{
+	position:absolute;
+	bottom:5%;
+}
+footer{
+	position:absolute;
+	bottom:1%;
+	width:90%;
+}
