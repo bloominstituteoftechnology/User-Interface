@@ -62,3 +62,88 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+
+
+/*  Ajmal Jalal's code starts here  */
+
+h1{
+	clear: both;
+	font-size: 70px;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+button{
+	clear: both;
+	display: block;
+	margin-left: 60px;
+	background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	
+}
+section img {
+	float: right;
+	clear:right;
+}
+
+nav {
+	margin: 50px;
+	display: block;
+}
+nav ul {
+	float: left;
+	display: block;
+	padding-left: 50px;
+}
+nav ul li{
+	margin: 20px;
+	display: block;
+	float: left;
+	padding: 0px 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	display:inline-block;
+	
+}
+
+.logo{
+	float: right;
+	margin-right: 150px;
+}
+.cta {
+	margin-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	display: inline-block;
+}
+.cta-text{
+	padding-left: 50px;
+	float: left;
+	clear:both;
+	text-align: center;
+	margin-left: 150px;
+	margin-top: 60px;
+	margin-right: 200px;
+}
+.main-content{
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	display: inline-block;
+
+
+}
