@@ -62,3 +62,117 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* My CSS starts here */
+
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+/* Navagation Starts */
+
+header {
+	width: 100%;	
+}
+
+header nav { 
+	float: left;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding-right: 30px;
+}
+
+header nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	float: right;
+}
+
+/* Navagation Ends */
+
+
+/* Logo of the page starts */
+.cta {
+	padding: 60px 0px 60px 50px;
+}
+
+.cta .cta-text {
+	text-align: center;
+	float: left;
+	font-size: 80px;
+	padding: 0px 100px;	
+	margin-top: 35px;
+
+}
+
+.cta .cta-text button {
+	height: 50px;
+	width: 170px;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+/* Logo of the page ends */
+
+/* Main content of the page starts */
+.main-content .top-content {
+	border-top: 1px solid black;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.main-content .text-content {
+	width: 45%;
+	margin-right: 50px;
+	padding-bottom: 30px;
+	display: inline-block;
+
+}
+
+.main-content .middle-img {
+	width: 100%;
+}
+
+.main-content .bottom-content {
+	padding-top: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 30%;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+
+/* Main content of the page ends ends */
+
+/* Contact section starts*/
+.contact {
+	margin: 30px 0 30px 0;
+}
+
+.contact p {
+	margin: 20px 0 20px 0;
+}
+/* Contact section ends*/
+
+
+
+/* footer section starts */
+
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0 50px 0;
+}
+
+/* footer ends */
