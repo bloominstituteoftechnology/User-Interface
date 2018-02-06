@@ -62,3 +62,77 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/*               Beginning of my code                 */
+
+
+li {
+	display: inline;
+	word-spacing: 150px;
+	top: 20px;
+	position: relative;
+	left: 100px;
+}
+
+li a{
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	position: absolute;
+	top: 8px;
+	right: 80px;
+}
+
+.container .cta .cta-text {
+	font-size: 100px;
+	position: relative;
+	top: 200px;
+	right: 200px;
+	text-align: center;
+	
+	
+}
+
+.container .cta .cta-text button {
+	width: 200px;
+	height: 50px;
+	background: white;
+	border: 1px solid black;
+	font-size: 20px;
+	position: relative;
+	bottom: 50px;
+	display: inline-block;
+
+}
+
+.container .cta img {
+	position: relative;
+	float: right;
+	top: -250px;
+	right: 300px;
+	
+	
+	
+}
+
+.container .main-content .top-content {
+	display: inline-block;
+	border-top: 5px solid black;
+	text-align: justify;
+	margin: 50px;
+	
+}
+
+.container .main-content .top-content .text-content {
+	height: 200px;
+	width: 400px;
+	border: 1px solid red;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	
+	
+}
+
