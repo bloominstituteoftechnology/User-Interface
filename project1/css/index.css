@@ -64,70 +64,56 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 99%;
+	width: 900px;
 	margin: 0 auto;
-	padding: 50px;
 }
 
 header {
-	width: 100%;
-	clear: both;
-
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
 }
 
-/* Nav Bar */
 nav {
-	float: left;
+	flex: 1;
+	height: 100%;
+	align-items: center;
+	padding: 0 50px  0;
 }
 
-nav li {
-	display: inline;
-	padding: 0 0 0 50px;
+nav ul{
+	display: flex;
+	justify-content: space-around;
+
+
 }
 
-nav a {
+nav li a {		
 	text-decoration: none;
 	color: grey;
-}
-
-nav a:hover {
-	text-decoration: none;
-	color: darkslategray;
-}
-
-.logo {
-	position: relative;
-	top: -10px;
-	height: 100%;
-	padding-left: 10px;
-	float: right;
+	font-size: 15px;
 	
 }
-/* Nav bar end */
+
+nav li a:hover {		
+	color: darkslategray;
+
+}
 
 .cta {
-	padding: 50px 0 0 0;
-	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
 }
 
 .cta-text {
-	height: 379px;
-	width: 50%;
-	float: left;
-	padding-top: 50px;
-
+	flex: 3;
+	text-align: center;
 }
 
 .cta-text h1 {
 	font-size: 5em;
-	text-align: center;
-	
-}
-
-.cta-img {
-	width: 50%;
-	float: left;
-	text-align: center;
 }
 
 .cta button {
@@ -136,54 +122,51 @@ nav a:hover {
 	background: white;
 	border: 1px solid black;
 	font-size: 16px;
-	display: block;
-	margin: auto;
 }
 
-
-
 .main-content {
-	float: left;
-	margin-top: 75px;
-	padding: 50px 0 50px 0;
-	border-top: 1px solid black;
-	display: block;
-	clear: both;
-	line-height:20px;
+border-top: 1px solid black;
+margin: 50px 0;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
 }
 
 .top-content .text-content {
-	float:left;
-	width: 50%;
-	padding-left: 10px;
+	margin: 50px 0;
 }
 
 .middle-img {
-	display: block;
-	margin: auto;
-	padding: 50px 0 50px 0;
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 50px 0;
+	justify-content: space-around;
+
 }
 
 .bottom-content .text-content {
-	float:left;
-	width: 33.33%;
+	flex: 1;
 	padding-left: 10px;
-	
+
 }
 
 .contact {
-	width: 100%;
-	float: left;
-	padding-top: 50px;
+	padding: 50px 0 0 0;
 	border-top: 1px solid black;
-	line-height:20px;
 }
 
 .contact p {
-	display: block;
-	padding: 10px;
+	line-height: 20px;
+	padding: 10px 0 0 0;
 }
 
 footer {
-	text-align:center;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
 }
