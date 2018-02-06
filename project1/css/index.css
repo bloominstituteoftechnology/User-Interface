@@ -23,6 +23,58 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+.container{
+	width: 900px;
+	margin:0 auto;
+
+}
+header{
+	width: 100%;
+
+	
+
+}
+header nav ul li{
+	display:inline-block;
+	padding: 10px;
+	
+}
+header nav ul li a{
+	text-decoration:none;
+	color:gray;
+}
+header nav ul li a:hover{
+	color:blue;
+}
+
+header .logo{
+	float:right;
+	margin-top: 0px;
+	margin-right: 100px;
+
+}
+
+
+
+.cta .cta-text h1{
+	width:250px;
+	font-size:60px;
+	text-align: center;
+	
+	
+}
+.cta .cta-text button{
+	width:100px;
+	font-size:16px;
+	background: white;
+	margin-left: 100px;
+
+}
+.cta img{
+float:right;
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
