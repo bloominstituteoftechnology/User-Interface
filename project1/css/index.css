@@ -96,8 +96,12 @@ nav ul li {
 }
 
 .button {
-	border-color: black;
-	border-width: 10px;
+	width: 175px;
+	height: 35px;
+	border: 1px solid black;
+	font-size 16px;
+	display: block;
+	margin: 20px auto 0;
 }
 
 .cta-text {
