@@ -40,7 +40,7 @@ section button {
 
 .cta img {
 	float: right;
-	margin: 120px 160px;
+	margin: 120px 160px 0 0;
 }
 
 .top-content {
