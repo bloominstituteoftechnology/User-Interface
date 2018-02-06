@@ -12,49 +12,108 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
     line-height: 1;
 }
 
+header {
+    display: flex;
+}
+
+nav {
+    width: 85%;
+    height: 100%;
+}
+
+ol, ul {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+}
+
 button {
-    background: white;
     height: 30px;
-    width: 140px;
+    width: 180px;
+    background: white;
     border: 1px solid black;
 }
 
-ol, ul, {
-    display: block;
-    list-style: none;
+.top-content {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
 }
 
-li {
-    display: inline;
-    float: left;
+.middle-img {
+    padding: 20px 0 20px 275px;
+    width: 1500px;
 }
 
-    li a {
-        display: block;
-        padding: 8px 80px;
-        text-decoration: none;
-        color: gray;
-    }
+
+.top-content .text-content {
+    padding: 20px 0 20px 0;
+    width: 450px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-content .text-content {
+    padding: 20px 0 20px 0;
+    width: 450px;
+}
+
+.contact {
+    border-top: 1px solid black;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    margin: 0 auto;
+}
 
 blockquote, q {
     quotes: none;
@@ -71,45 +130,7 @@ table {
     border-spacing: 0;
 }
 
-.logo {
-    float: right;
-    padding: 8px 160px;
-}
-
-.cta {
-    display: block;
-    margin: 20px 20px 0 30px;
-    padding: 40px 500px;
-}
-.cta-text {
-    display: inline-block;
-    font-size: 90px;
-    text-align: center;
-    padding: 80px 0 0 0;
-}
-
-.top-content {
-    display: flex;
-    border-top: 1px solid black;
-    margin: 20px 20px 20px 20px;
-    padding: 20px 20px 20px 20px;
-}
-
-.top-content .text-content p {
-    padding:20px 120px;
-}
-
-.middle-img {
-    padding: 0 0 0 500px;
-}
-
-.bottom-content {
-display: flex;
-border-bottom: 1px solid black;
-}
-
 /* Set every element's box-sizing to border-box */
-
 * {
     box-sizing: border-box;
 }
