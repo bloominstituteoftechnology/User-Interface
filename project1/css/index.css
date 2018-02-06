@@ -152,7 +152,9 @@ nav ul li a {
 
 
 
-/*second way */
+/*second way  
+
+
 .container{
 	width: 100%;
 	margin: 0px auto;
@@ -224,3 +226,116 @@ header nav ul li a:hover{
 	border-top: 1px solid black;
 	margin: 0px auto;
 }
+
+*/ 
+
+
+
+/* FLEX-BOX solution to the challeng1 */
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 70%;
+}
+.container header{
+	width: 100%;
+	height: 5em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+	margin-bottom: 3em;
+
+
+}
+.container header nav ul {
+	display: flex;
+	width: 50em;
+	justify-content: space-around;
+}
+
+.container header nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3em;
+}
+
+.cta .cta-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.cta .cta-text h1{
+	font-size: 85px;
+	text-align: center;
+
+}
+
+.cta .cta-text button{
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	padding: 1em 3em;
+	display: block;
+}
+
+.main-content{
+	align-content: space-around;
+}
+
+.main-content .top-content{
+	display: flex;
+
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 0;
+	
+}
+
+.main-content img{
+	width: 100%;
+}
+
+.main-content .bottom-content{
+	display: flex;
+	padding: 2em 0;
+}
+
+
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2em 0;
+
+}
+
+.contact p {
+	margin: 1em 0;
+}
+
+footer{
+	width: 100%;
+	align-items: flex-start;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5em;
+
+}
+
