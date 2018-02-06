@@ -63,30 +63,78 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-/* Nav Bar */
-header li, header img{
-	display: inline-block;
-	padding: 50px 50px 50px 50px;
+/* Styling */
+.container {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 20px;
 }
-header img {
-	position: relative;
-	float: right;
-	bottom: 125px;
-	margin-right: 30px;
+header li {
+	font-size: 16px;
+	color: grey;
 }
-
-/* Top Banner */
-.top-banner div, .top-banner img{
-display: inline-block;
+.top-banner {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-.top-banner img {
-	float: right;
+.top-banner h1 {
+	font-size: 70px;
+	padding-bottom: 30px;
 }
-/* Main */
+.top-banner button {
+	border-radius: 0px;
+	border: 1px solid black;
+	height: 28px;
+	width: 160px;
+	font-size: 14px;
+}
+.main-mid {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main-mid img {
+	width: 100%;
+}
 .main-content {
-	display: inline-block;
+	padding-bottom: 20px;
 }
-/* Main Mid */
-/* Main Bot */
-
-/* Footer */
+.pad-right {
+	padding-right: 20px;
+}
+.main-content h2, .contact h2 {
+	font-size: 20px;
+}
+.contact p {
+	padding-top: 20px;
+}
+footer {
+	padding-top: 60px;
+	height: 300px;
+}
+hr {
+	color: black;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/* Flexbox */
+header nav ul, .top-banner, .main-top, .main-mid, .main-bot, footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.main-mid {
+	justify-content: space-between;
+}
+header nav ul {
+	justify-content: space-around;
+}
+.top-banner h1, .top-banner button {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+footer {
+	align-content: center;
+	align-items: baseline;
+}
