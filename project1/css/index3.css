@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
     width: 900px;
+    margin: 0 auto;
 }
 
 header {
@@ -78,15 +79,15 @@ header nav {
     width: 70%;
 }
 
-ul {
+header nav ul {
     display: flex;
     justify-content: space-around;
 }
 
-ul li {
+header nav ul li {
 }
 
-ul a {
+header nav ul li a {
 	text-decoration: none;
 	color: grey;
 }
@@ -98,7 +99,8 @@ ul a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-	height: 400px;
+    height: 400px;
+    margin: 40px 0px;
 }
 
 .cta .cta-text {
@@ -124,7 +126,7 @@ section img {
 
 .main-content {
     width: 900px;
-    height: 450px;
+    height: 500px;
 	border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     display: flex;
@@ -138,7 +140,7 @@ section img {
 }
 
 .top-content .text-content {
-	width: 425px;
+    width: 425px;
 }
 
 .bottom-content {
@@ -146,7 +148,7 @@ section img {
     justify-content: space-between;
 }
 .bottom-content .text-content {
-	width: 280px;
+    width: 280px;
 }
 .middle-img {
     width: 100%;
