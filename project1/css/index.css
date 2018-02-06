@@ -20,85 +20,61 @@ vertical-align: baseline;
 }  
 /* HTML5 display-role reset for older browsers */
  
-
-.container header nav ul li a {
+.container {
+	width: 800px;
+	margin: 0 auto;
+  }
+  
+  header {
+	display: flex;
+	width: 100%;
+	border: 1px solid red;
+  }
+  
+  header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+  }
+  
+  header nav {
+	border: 1px solid blue;
+	width: 600px;
+	flex-grow: 1
+  }
+  
+  header nav ul li a {
 	text-decoration: none;
 	color: grey;
-
-}
-div {
-	border: 1px solid grey;
-}
-
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-*{
-    box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-	display: inline;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	margin-bottom: 10px;
-}
-
-header nav ul {
-    display: flex;
-	flex-direction: row;
-    justify-content: space-between;
-}
-
-header nav ul li {
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-.cta {
-	   display: flex;
-	   flex-direction: row;
-	   justify-content: space-around;
-	   margin-top: 50px;
-	   margin-bottom: 50px;
-   }
-
-header {
+  }
+  
+  header .logo {
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+  }
+  
+  .cta {
 	display: flex;
 	justify-content: space-around;
-}
-
-.cta .cta-text {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.cta .cta-text h1 {
+  }
+  
+  .cta .cta-text h1 {
 	font-size: 72px;
-    text-align: center;
-}
-
+  }
+  
+  .cta .cta-text {
+	  font-size: 100px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: space-around;
+  }
+  
+  .cta .cta-text button{
+	  font-size: 20px;
+	  color: gray;
+	  background-color: white;
+	  border: 1px solid gray;
+  }
