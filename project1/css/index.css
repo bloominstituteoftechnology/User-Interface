@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -55,10 +55,161 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+
+		width:1024px;
+    vertical-align:middle;
+    margin:auto;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+		margin-bottom: 10px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box {
+	min-width: 250px;
+	list-style: none;
+	padding: 30px 35px;
+}
+
+.box li {
+	/* Inline seems to be the only way of overriding flex-container. */
+	display: inline;
+	color: gray;
+	list-style: none;
+}
+
+.logo {
+	align-self: flex-end;
+	/* float: right; */
+}
+
+a:link {
+	text-decoration: none;
+	color: Black;
+}
+
+a:hover {
+	color:darkgrey;
+}
+
+.logo2 {
+	/* display: inline-block; */
+	margin: 25px;
+	align-self: flex-end;
+	/* float: right; */
+	height: 455px
+
+}
+
+.cta {
+	font-size: 72px;
+	display: flex;
+		/* border: 10px solid black; */
+}
+
+.cta .cta-text {
+	width: 455px;
+	height: 500px;
+	/* display: inline-block; */
+	/* float: left; */
+	vertical-align: top;
+	padding-top: 100px;
+	/* align-items: center; */
+}
+
+.cta .cta-text h1 {
+	text-align: center;
+}
+
+.cta .cta-text button {
+	width: 175px;
+	height: 35px;
+	background: white;
+	border: 1px solid black;
+	font-size: 16px;
+	display: block;
+	margin: 20px auto 0;
+
+	/* border: 10px solid black; */
+}
+
+.main-content {
+	border-top: 1px solid black;
+	padding-top: 20px;
+
+	/* Margin, Padding, Display, Maybe Inline Block, line height */
+}
+
+.top-content .text-content {
+	/* display: inline-block; */
+	float: left;
+	align-self: baseline;
+	/* vertical-align: top; */
+	padding-left: 10px;
+	width: 50%;
+
+	/* border: 5px solid purple; */
+}
+
+.top-content .text-content p {
+	/* display: inline-block; */
+	float: left;
+	align-self: baseline;
+	vertical-align: top;
+	max-width: 425px;
+
+	/* border: 5px solid purple; */
+}
+
+.middle-img {
+	/* display: block; */
+	align-self: center;
+	/* margin: 0 auto; */
+	padding: 20px 0px;
+	width: 1000px;
+}
+
+.bottom-content .text-content {
+	/* display: inline-block; */
+	float: left;
+	align-self: baseline;
+	/* vertical-align: top; */
+	padding-left: 10px;
+	width: 31%;
+}
+
+.bottom-content .text-content p {
+	/* display: inline-block; */
+	float: left;
+	align-self: baseline;
+	vertical-align: top;
+	max-width: 425px;
+
+	padding-bottom: 10%;
+
+	/* border: 5px solid purple; */
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+.contact p {
+	padding: 10px 0px;
+}
+
+footer {
+	/* text-align: center; */
+	align-self: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
 }
