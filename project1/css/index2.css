@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* Begin CSS Customization */
+body {
+	width: 900px;
+	height: auto;
+}
+
+header {
+}
+
+header nav {
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+ul {
+}
+
+ul li {
+	display: inline-flex;
+	flex-direction: column;
+	width: 110px;
+	text-align: center;
+}
+
+ul a {
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {	
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.cta {
+	display: block;
+	height: 400px;
+	margin: 50px 0px;
+	display: flex;
+}
+
+.cta .cta-text {
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 80px;
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section img {
+	margin-left: 80px;
+}
+
+.main-content {
+	width: 900px;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+.top-content {
+	display: inline-flex;
+}
+
+.top-content .text-content {
+	width: 425px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+}
+
+.bottom-content {
+	display: inline-flex;
+}
+
+.bottom-content .text-content {
+	width: 280px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+}
+.middle-img {
+	float: right;
+	margin-right: 10px;
+}
+
+.contact {
+	width: 900px;
+	margin-top: 20px;
+}
+
+footer {
+	width: 900px;
+	text-align: center
+}
+
+#telephone {
+	margin: 10px 0px;
+}
