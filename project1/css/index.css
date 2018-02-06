@@ -62,3 +62,127 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+header{
+	position: relative;
+	height: 50px;
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	height: 100%;
+	width: 80%;
+	background-color: white;
+	color: grey;
+}
+
+li {
+	height: 100%;
+	width: 16%;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+a {
+	
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	height: 80%;
+	width: 20%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.cta {
+	height: 500px;
+	width: 1500 px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 0 0 0;
+}
+
+.cta .cta-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 70px;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+	height: 100%;
+	width: 50%;
+}
+
+.cta .cta-text button {
+	width: 150px;
+	height: 25px;
+	background-color: white;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+.cta img {
+	float: right;
+	padding: 0 300px 0 0;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+}
+
+.main-content .top-content .text-content {
+	font-family: 'Titillium Web', sans-serif;
+	width: 45%;
+	display: inline-block;
+	padding: 30px;
+}
+
+.main-content .top-content .text-content h4 {
+	padding: 0 0 20px 0;
+}
+
+.main-content .middle-img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content .bottom-content .text-content {
+	font-family: 'Titillium Web', sans-serif;
+	width: 30%;
+	display: inline-block;
+	padding: 20px;
+}
+
+.main-content .bottom-content .text-content h4 {
+	padding: 0 0 20px 0;
+}
+
+.contact h4 {
+	padding: 100px 15px 15x 0;
+}
+
+.contact p {
+	padding: 15px 10px 15px 0;
+}
+
+.footer {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
