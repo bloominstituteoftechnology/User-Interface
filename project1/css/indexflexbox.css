@@ -66,29 +66,34 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-/*-----My code here-----*/
-/*Since we're not worrying about responsiveness, for sake of ease, let's define a 1024px width and center it up*/
+/* My code here */
 body {
-	width:1024px;
-	vertical-align:middle;
-	margin:auto;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
 }
 
 header {
-	height:75px;
+height:75px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
 nav {
-	display:inline-block;
+width:calc(100% - 183px);
 }
 
 nav ul {
-	margin-left:30px;
+display:flex;
+justify-content:flex-start;
+flex-wrap:wrap;
 }
 
 nav ul li {
-	display:inline-block;
-	margin:20px 40px;
+flex-grow:0.15;
 }
 
 nav ul li a {
@@ -98,64 +103,61 @@ nav ul li a {
 	}
 
 header .logo {
-	float: right;
-	margin:10px 30px 20px 10px;
+margin-right:20px;
 }
 
 section.cta {
+display:flex;
+justify-content:center;
+align-items:center;
 border-bottom:1px solid black;
-padding-bottom: 50px;
+padding: 50px 30px;
+justify-content:space-around;
 }
 
 div.cta-text {
-	display:inline-block;
-	vertical-align:top;
-	height:379px;
-	margin-left:150px;
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 
 div.cta-text h1 {
 	font-size:72px;
 	text-align:center;
-	margin-top:50px;
 }
 
 section.cta img {
-float:right;
-margin-right:30px;
+
 }
 
 div.cta-text button {
-border:1px solid black;
-text-align:center;
-height:20px;
-width:150px;
-margin: -20px -75px;
-position:relative;
-top:50%;
-left:50%;
+	border:1px solid black;
+	text-align:center;
+	height:20px;
+	width:150px;
 }
 
 .middle-img {
-display:block;
-margin:10px auto;
-}
 
-div.top-content .text-content {
-	width:480px;
-	display:inline-block;
-	margin:20px 5px;
-}
-
-div.bottom-content .text-content {
-	width:320px;
-	display:inline-block;
-	margin:20px 5px;
 }
 
 section.main-content {
-	border-bottom:1px solid black;
-	padding-bottom: 20px;
+display:flex;
+flex-direction:column;
+border-bottom:1px solid black;
+padding-bottom: 20px;
+}
+
+div.top-content {
+	display:flex;
+}
+
+div.bottom-content {
+	display:flex;
+}
+
+div.top-content .text-content, div.bottom-content .text-content {
+	margin:20px 10px;
 }
 
 section.contact, footer {
