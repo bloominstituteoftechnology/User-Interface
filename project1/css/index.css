@@ -40,7 +40,7 @@ header {
 body {
 	line-height: 1;
 	width: 900px;
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 nav {
@@ -66,12 +66,12 @@ a {
 
 section {
 	width: 900px;
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 section.cta {
 	font-size: 72px;
-  display: inline-block;
+	display: inline-block;
 	border-bottom: 1px solid black;
 	padding-bottom: 70px;
 	padding-top: 60px;
@@ -91,7 +91,7 @@ div.cta-text h1 {
 
 .cta img {
 	float: right;
-  display: inline-block;
+	display: inline-block;
 }
 
 button {
