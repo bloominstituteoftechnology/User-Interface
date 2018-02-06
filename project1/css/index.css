@@ -62,3 +62,124 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* Start of code by Zack Hitchcock for Project 1 Challenge 2 */
+
+.container {
+
+}
+
+/* navbar */
+
+.headerClass {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.container header {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.container header nav ul {
+	display: flex;
+	flex-direction: row;
+	width: 800px;
+	justify-content: space-between;
+}
+
+.container header nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+.container header nav ul li a:hover {
+	color: rgb(99, 96, 96);
+	text-decoration: none;
+}
+
+/* jumbotron */
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+.cta-text {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cta .cta-text .cta-col {
+	display: flex;
+	flex-direction: column;
+}
+
+/* main content */
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+}
+
+.main-content .top-content {
+	display: flex;
+	width: 80%;
+	height: 100px;
+	justify-content: space-between;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	width: 80%;
+}
+
+.contact {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact .contactDiv {
+	display: flex;
+	width: 80%;
+}
+
+.contact .contactDiv .moreDiv {
+	width: 300px;
+}
+
+footer {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
