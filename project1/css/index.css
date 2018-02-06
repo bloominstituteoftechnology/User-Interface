@@ -23,6 +23,77 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	border: 0;
+	padding-top: 10px;
+}
+
+.logo {
+	margin: -20px 65px 0 0;
+	float: right;
+}
+
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+header nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.cta {
+	font-size: 72px;
+	text-align: center;
+}
+
+.cta .cta-text {
+	width: 500px;
+	height: 500px;
+	margin: 0 0 0 0;
+	padding: 125px 100px 0 0;
+	border: 0;
+	display: left;
+}
+
+.cta .cta-text h1 {
+	text-align: center;
+}
+
+.cta .cta-text button {
+	width: 175px;
+	height: 35px;
+	background: white;
+	border: 1px solid black;
+	font-size: 16px;
+	display: block;
+	margin: 20px auto 0;
+}
+
+section.cta img {
+	position: absolute;
+	top: 130px;
+	right: 30%;
+	border: 0;	
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
