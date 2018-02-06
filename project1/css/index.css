@@ -64,7 +64,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-	margin-bottom: 10px;
+		margin-bottom: 10px;
 }
 
 .flex-container {
@@ -80,13 +80,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .box li {
+	/* Inline seems to be the only way of overriding flex-container. */
 	display: inline;
 	color: gray;
 	list-style: none;
 }
 
 .logo {
-	float: right;
+	align-self: flex-end;
+	/* float: right; */
 }
 
 a:link {
@@ -99,25 +101,28 @@ a:hover {
 }
 
 .logo2 {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 25px;
-	float: right;
+	align-self: flex-end;
+	/* float: right; */
 	height: 455px
 
 }
 
 .cta {
 	font-size: 72px;
+	display: flex;
 		/* border: 10px solid black; */
 }
 
 .cta .cta-text {
 	width: 455px;
 	height: 500px;
-	display: inline-block;
-	float: left;
+	/* display: inline-block; */
+	/* float: left; */
 	vertical-align: top;
 	padding-top: 100px;
+	/* align-items: center; */
 }
 
 .cta .cta-text h1 {
@@ -132,6 +137,8 @@ a:hover {
 	font-size: 16px;
 	display: block;
 	margin: 20px auto 0;
+
+	/* border: 10px solid black; */
 }
 
 .main-content {
@@ -144,6 +151,7 @@ a:hover {
 .top-content .text-content {
 	/* display: inline-block; */
 	float: left;
+	align-self: baseline;
 	/* vertical-align: top; */
 	padding-left: 10px;
 	width: 50%;
@@ -152,8 +160,9 @@ a:hover {
 }
 
 .top-content .text-content p {
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
+	align-self: baseline;
 	vertical-align: top;
 	max-width: 425px;
 
@@ -161,8 +170,9 @@ a:hover {
 }
 
 .middle-img {
-	display: block;
-	margin: 0 auto;
+	/* display: block; */
+	align-self: center;
+	/* margin: 0 auto; */
 	padding: 20px 0px;
 	width: 1000px;
 }
@@ -170,14 +180,16 @@ a:hover {
 .bottom-content .text-content {
 	/* display: inline-block; */
 	float: left;
+	align-self: baseline;
 	/* vertical-align: top; */
 	padding-left: 10px;
 	width: 31%;
 }
 
 .bottom-content .text-content p {
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
+	align-self: baseline;
 	vertical-align: top;
 	max-width: 425px;
 
@@ -196,7 +208,8 @@ a:hover {
 }
 
 footer {
-	text-align: center;
+	/* text-align: center; */
+	align-self: center;
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 }
