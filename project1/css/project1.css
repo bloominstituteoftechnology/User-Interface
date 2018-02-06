@@ -47,78 +47,96 @@ table {
 }
 
 .container {
-    width: 900;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+   
   }
   
   header {
-      display: inline-block;
-      position: relative;
-      right: -390px;
-    width: 86%;
-    height: 35px;
-    padding-top: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     
   }
   
   header nav ul li {
-      
-    display: inline-block;
-    margin-right: 40px;
-    color: grey;
-    
+      display:inline-flex;
+      margin: 30px;
   }
   
   header nav ul li a {
-    
+    color: grey;  
     text-decoration: none;
-    margin-left: 100px;
+    
     
   }
   
+
 
   
    .logo{
-      display: inline-block;
-      position: relative;
-      top: -32px;
-      right: -800px;
-      width: 250px;
-      height: 60px;
+      
+      width: 200px;
+      height: 40px;
       
   }
 
-  .jumbotron {
-    font-size: 72px;
-    display: inline-block;
-    position: relative;
-    top: 0px;
+  .cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
   }
-  
-  .jumbotron .jumbotron-cta {
-    width: 555px;
-    height: 500px;
+
+  .cta .cta-text{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
    
-    display: inline-block;
-    position: relative;
-    top: 150px;
-    left: 400px;
+    
+  }
+  .cta .jumbotron {
+    font-size: 72px;
+    
+    
+    
     
   }
   
-  .jumbotron .jumbotron-cta button {
+  .cta .jumbotron .jumbotron-cta {
+  
+    
+   
+    
+    
+  }
+  
+  .cta .jumbotron .jumbotron-cta button {
     width: 175px;
     height: 35px;
     background: white;
-    border: 1px solid black;
+    
     font-size: 16px;
-    display: block;
-    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    
+   
+    
   }
   
+ 
+
   .jumbotron .jumbotron-cta h1 {
-    text-align: center;  
+     
   }
   
   
@@ -126,12 +144,98 @@ table {
   .jumbotron .main-img {
     width: 300px;
     height: 300px;
-    position: relative;
-    left: 400px;
-    top: 200px;
-    display: inline-block;
     
-    margin: 20px;
+    margin-right: 40px; 
+   
+    
   }
 
+  .main-content{
+ display: flex;
+flex-direction: column;
+  }
+  .main-content .top-content{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  
+  
  
+  }
+
+  .main-content .top-content .text-content1{
+  width: 400px;
+  height: 300px;
+  font-size: 18px;
+  margin-right: 70px;
+  
+  
+  }
+
+  .main-content .top-content .text-content2{
+  width: 400px;
+  height: 300px;
+  font-size: 18px;
+    
+  }
+
+  .main-content .middle-img{
+    align-self: center;
+
+  }
+  
+  
+  
+  
+
+  .main-content .bottom-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+  
+    
+    
+    
+    height: 200px;
+    margin-right:235px;
+    margin-left: 235px;
+    
+  }
+
+  .main-content .bottom-content .text-content1{
+   width: 250px;
+   height: 300px;
+   align-self: flex-start;
+   margin: 20px;
+   font-size: 18px;
+   
+  }
+
+  .main-content .bottom-content .text-content2{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    font-size: 18px;
+  }
+ 
+  .main-content .bottom-content .text-content3{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .contact{
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 18px;
+  }
+  .footer{
+    margin-top: 100px;
+    align-self: center;
+    
+  }
