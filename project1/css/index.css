@@ -78,17 +78,16 @@ section.cta {
 div.cta-text {
 	border: 1px solid black;
 	display: inline-block;
+	padding-top: 60px;
 
 }
 
 div.cta-text h1 {
 	text-align: center;
-	border: 1px solid black;
 	width: 500px;
 }
 
 .cta img {
-	border: 1px solid black;
 	float: right;
   display: inline-block;
 }
