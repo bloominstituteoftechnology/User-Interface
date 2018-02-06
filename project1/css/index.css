@@ -62,3 +62,75 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+.container{
+	width:65%;
+	height:100%;
+	background-color: white;
+	margin: 10px;
+}
+.container .left{
+	float: left;
+	color: grey;
+	text-align: justify;
+	padding: 30px;
+	margin: 10px;
+} 
+.container .logo{
+	float: inline-end;
+	padding: 20px;
+	margin: 10px;
+	clear: right;
+} /*we can use display:inline-block instead of float to bring things on the same line*/
+.cta{
+	width:"100%";
+}
+.cta .cta-text{
+	width:50%;
+	font-size: 65px;
+	text-align: center;
+	color: black;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: gray;
+}
+button{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 16px;
+	margin: 20px auto 0;
+	display:block;
+	width:175px;
+}
+.main-content{
+	width:"100%";
+}
+.main-content .top-content{
+	text-align: left;
+	color: black;
+	float: inline-end;
+}
+.main-content .top-content .text-content{
+	width: 50%;
+	float: left;
+}
+.main-content .bottom-content{
+	text-align: left;
+	color: black;
+	float: inline-end;
+}
+.main-content .bottom-content .text-content{
+	width: 33.3%;
+	float: left;
+}
+.newLine{
+	word-wrap: break-word;
+}
+footer{
+	position: left;
+	clear:both;
+	text-align: center;
+	margin-left: -50%;
+	margin-right: -50%;
+}
