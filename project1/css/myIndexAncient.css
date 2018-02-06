@@ -1,0 +1,91 @@
+/************************************************Top half****************************************/
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+    text-align: center;
+}
+
+header nav {
+    float: left;
+    padding: 0 0 0 400px;
+}
+
+.logo {
+    float: clear;
+    padding: 0 400px 0 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.cta {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cta-text {
+    float: left;
+    padding: 0 0 0 400px;
+    text-align: center;
+}
+
+.cta-text h1 {
+    float: clear;
+    font-size: 5pc;
+}
+
+.cta-text button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+
+.cta img {
+    padding: 0 400px 0 0;
+}
+
+/******************************************Bottom half******************************************/
+
+.top-content {
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    margin: 10px;
+}
+
+.top-content .text-content {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.middle-img {
+    clear: left;
+    text-align: center;
+}
+
+.bottom-content {
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    margin: 10px;
+}
+
+.bottom-content .text-content {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
