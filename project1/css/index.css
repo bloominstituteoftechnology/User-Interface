@@ -47,15 +47,38 @@ header nav ul li a {
 	}
 	
 .main-content{
-	display: inline-block;
-	border: 1px solid red;
+	display: flex;
+	flex-flow: column;
+	border-top: 2px solid black;
+	
 }
 
 .main-content .top-content{
-		width: 500px;
+		width: 100%;
 		height: 200px;
-		display: inline-block;
-		text-align: center;
-		border: 1px solid red;
+		display: flex;
+		text-align: left;
+	
 		
+}
+.middle-img{
+	display: flex;
+	flex-direction: column;
+}
+.bottom-content{
+	display: flex;
+	flex-flow: column;
+	
+}
+.main-content .bottom-content {
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction: initial;
+		text-align: left;
+		border-bottom: 2px solid black;
+}
+footer p {
+	display: flex;
+	justify-content: center;
 }
