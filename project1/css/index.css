@@ -72,29 +72,26 @@ h1, h2, h3, h4, h5 {
 }
 
 nav{
-	float:left;
-	list-style: none;
-	min-width:65%;
-	padding:35px 35px 35px 55px;
-
+	padding:35px;
+	text-align: justify;
+	width:90%;
 }
-nav ul{
-	display: flex;
-	justify-content:space-between;
-	list-style-type: none;
+
+nav li{
+	display:inline;
+	font-size:1.05em;
+	padding-right: 40px;
+	padding-left:20px;
 }
 
 nav a{
 	color:gray;
-	font-family:arial;
 	text-decoration: none;
 }
 .cta button{
-	position:absolute;
-	width:70%;
-	top:110%;
-	left:50px;
-	font-family:arial;
+	position:relative;
+	top:-30px;
+	left:10px;
 	background-color:white;
 	color:black;
 	border:solid 1px;
@@ -103,52 +100,64 @@ nav a{
 	padding: 10px 35px 10px 35px;
 }
 .cta{
-	position:absolute;
-	top:10%;
-	height:40%;
-	width:80%;
-	padding:30px;
-	margin:0px;
-	left:20%;
+	width:900px;
+	padding:10px 20px 30px 30px;
 }
 .cta-text{
-	width:30%;
-	position:relative;
+	position: relative;
+	top:-40px;
+	right:-100px;
+	display:inline-block;
 	text-align: center;
-	top:20px;
-	right:90px;
 	justify-content: center;
-
-	font-size:510%;
-	
+	font-size:480%;
+	padding:0px;
 }
 #splashimg{
-	position: absolute;
-	right:20%;
-	top:0px;
+	display:inline-block;
+	padding:0px;
+	position: relative;
+	right:-20%;
 }
 .main-content{
-	position:absolute;
-	bottom:10%;
-	width:90%;
-	padding:5%;
-	
+	align-content: center;
+	width:900px;
+	padding:0px 0px 30px 30px;
+	display:inline-block;
 }
 .main-content p{
-	font-size:20px;
+	
+	font-size:18px;
 }
 .main-content h4{
 	font-size:20px;
 }
-.top-content{
-
+.top-content .text-content{
+	display:inline-block;
+	width:432px;
+	padding:20px;
+}
+.middle-img{
+	padding:10px;
+}
+.bottom-content{
+	padding:0px 0px 5px 20px;
+}
+.bottom-content .text-content{
+	display:inline-block;
+	width:33%;
+	padding:10px;
 }
 .contact{
-	position:absolute;
-	bottom:5%;
+	padding:0px 0px 30px 30px;
+}
+.contact h4{
+	padding:5px;
+}
+.contact p{
+	padding:10px;
 }
 footer{
-	position:absolute;
-	bottom:1%;
-	width:90%;
+	width:100%;
+	text-align: center;
 }
