@@ -70,91 +70,77 @@ h1, h2, h3, h4, h5 {
 
 header {
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
 }
+
 header nav {
-	display: inline-block;
-	margin: 0;
+	flex-grow: 1;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: gray;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+	color: blue;;
 }
 
 header nav ul {
-	margin-right: 0px;
-}
-
-header nav li {
-	display: inline-block;
-	padding: 0 10px 2px;
-	margin: 0 30px 10px 0;
-}
-
-header nav li a {
-	color: gray;
-	text-decoration: none;
-}
-
-header nav li a:hover {
-	color: blue;
-	text-decoration: underline;
-}
-
-header nav li a:visited {
-	color: purple;
-	text-decoration: underline;
-}
-header .logo {
-	margin-bottom: -10px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .cta {
-	margin: 0;
-	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.cta .cta-text {
-	display: inline-block;
+
+.cta .cta-text{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.cta .cta-text h1{
 	font-size: 76px;
-	text-align: center;
-	margin: 0 60px 20px 60px;
-}
-.cta .cta-text h1 {
-	margin-bottom: -30px;
 }
 
 .cta .cta-text button{
-	padding: 5px 30px;
-	font-size: 18px;
+	font-size: 20px;
 	color: gray;
-	margin-top: -50px;
-}
-.cta img {
-	padding-left: 30px;
-	padding-top: 70px;
+	background-color: white;
+	border: 1px solid gray;
 }
 
-.top-content{
+.top-content {
+	display: flex;
+	justify-content: space-between;
 	border-top: 1px solid gray;
-	margin-top: 40px;
+	margin: 40px 0;
 	padding-top: 40px;
-	padding-bottom: 40px;
-}
+} 
 
-.top-content .text-content{
-	display: inline-block;
-	width: 49%;
-}
-
-.bottom-content .text-content{
-	display: inline-block;
-	width: 33%;
-}
-
-.bottom-content{
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
 	border-bottom: 1px solid gray;
-	margin-bottom: 40px;
-	padding-top: 40px;
+	margin: 40px 0;
 	padding-bottom: 40px;
+} 
+
+.bottom-content .text-content{ 
+	padding: 10px;
 }
 
-.contact p {
-	margin-bottom: 20px;
+.contact p{
+	padding: 10px 0;
 }
 
 footer p {
