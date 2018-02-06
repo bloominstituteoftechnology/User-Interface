@@ -62,3 +62,95 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+header{
+	padding-top:15px;
+	display:flex;
+	justify-content: space-around;
+	min-width: 435px;
+	width:90vw;
+	align-items: center;
+}
+.logo{
+	padding-right:10%;
+	padding-left:10px;
+}
+nav li{
+	display:inline;
+	font-size:1.05em;
+	padding-right: 40px;
+	padding-left:20px;
+}
+nav a{
+	color:gray;
+	text-decoration: none;
+}
+.cta{
+	display:flex;
+	justify-content:center;
+	width:95vw;
+	padding:5% 0px 2% 0px;
+}
+.cta-text{
+	padding-top:50px;
+	padding-right: 50px;
+	font-size:490%;
+	text-align: center;
+	vertical-align: middle;
+}
+#splashimg{
+	padding-right:5%;
+}
+.cta button{
+	background-color:white;
+	color:black;
+	border:solid 1px;
+	font-size:22%;
+	text-align: center;
+	padding: 10px 35px 10px 35px;
+}
+.main-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:80vw;
+	padding:10px 0px 30px 5%;
+	display:inline-block;
+}
+.main-content p{
+	font-size:18px;
+}
+.main-content h4{
+	font-size:20px;
+}
+.top-content .text-content{
+	align-self: center;
+	display:inline-block;
+	width:35vw;
+	padding:20px;
+}
+.middle-img{
+	width:100%;
+	padding:10px 5% 10px 2%;
+}
+.bottom-content{
+	padding:0px 0px 5px 20px;
+}
+.bottom-content .text-content{
+	display:inline-block;
+	width:33%;
+	padding:10px;
+}
+.contact{
+	width:20vh;
+	padding:0px 0px 30px 5%;
+}
+.contact h4{
+	padding:5px;
+}
+.contact p{
+	padding:10px;
+}
+footer{
+	width:100%;
+	text-align: center;
+}
