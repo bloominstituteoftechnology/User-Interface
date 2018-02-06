@@ -94,12 +94,10 @@ a:hover {
 }
 
 .cta {
-	border: solid blue;
 	width: 900px;
 }
 
 .cta-text {
-	border: solid red;
 	font-size: 70px;
 	width: 400px;
 	height: 400px;
@@ -115,14 +113,12 @@ a:hover {
 	width: 175px;
   	height: 35px;
  	background: white;
-  	border: 1px solid black;
 	font-size: 16px;
 	display: block;
   	margin: 20px auto 0;
 }
 
 .cta img {
-	border: 1px solid purple;
 	width: 350px;
 	float: right;
 	display: inline-block;
