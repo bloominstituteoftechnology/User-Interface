@@ -54,11 +54,99 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+
+
+.logo{
+
+	float: right;
+	margin: -60px 20px 20px 0px;
+}
+
+nav ul{
+	margin: 30px;
+	text-align: center;
+	color: grey;
+}
+
+nav ul li{
+	display:inline;
+	margin: 0 auto;
+	padding: 40px 5px 40px 40px;
+	color: grey;
+}
+
+nav ul li a{
+	color: grey;
+	text-decoration: none;
+}
+.cta button{
+	width: 175px;
+	height: 35px;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 100px auto;
+	background-color: white;
+}
+.cta-text{
+	display: inline-block;
+	text-align: center;
+	font-size: 90px;
+	padding: 80px 20px 40px 30%;
+}
+.header-image{
+	padding: 10px 5px 0px 88%
+}
+.main-content{
+	
+	text-align: center;
+	display: inline-block;
+}
+.top-content{
+	border-top: 2px solid black;
+}
+.top-content .text-content{
+	text-align: justify;
+	display: inline-block;
+	font-size: 20px;
+	height: 130px;
+	width: 400px;
+	margin: 50px auto 40px 100px;
+}
+.middle-image{
+display: block;
+}
+.bottom-content{
+	border-bottom: 2px solid black;
+	
+}
+.bottom-content .text-content{
+	text-align: justify;
+	display: inline-block;
+	font-size: 20px;
+	height: 130px;
+	width: 400px;
+	margin: 50px auto 40px 100px;
+	padding: 0 auto;
+}
+
+.contact{
+	margin: 40px auto;
+}
+
+.contact p{
+	padding: 10px;
+	
+}
+
+footer{
+	text-align: center;
 }
