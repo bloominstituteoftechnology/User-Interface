@@ -62,3 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+.container{
+  width:900px;
+  margin:0 auto;
+}
+
+header {
+  width :100%;
+  height:150px;
+  border: 1px solid red;
+  }
+header nav ul li {
+  display: inline-block;
+  margin-right:30px;
+    
+}
+header nav ul li a {
+  color: gray;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+.logo {
+  margin-left:600px ;
+  margin-top: 150px;
+}
+
+.cta {
+  font-size: 30px;
+  text-align: center;
+  color:#997300;
+}
+.cta .cta-text{
+  width:333px;
+  height:100%;
+  border:1px solid black;
+  
+}
+ 
+.main-content .top-content .text-content  {
+  margin: 5px;
+  color:blue;
+  width : 200px;
+  height : 200px;
+  text-align: auto;
+  border:1px solid black;
+  padding:10px;
+  display:block;
+  float: right;
+  
+}
+.main-content .bottom-content .text-content {
+ 
+  margin: 5px;
+  color:blue;
+  width : 200px;
+  height : 200px;
+  text-align: auto;
+  border:1px solid black;
+  padding: 10px;
+   display:block;
+  float: right;
+}
+
+.contact  {
+  font-size: 15px;
+  text-align: center;
+  color:#997300;
+  margin-bottom : 10px;
+}
+
+
+
