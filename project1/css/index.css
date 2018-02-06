@@ -15,7 +15,10 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video 
+
+{
+
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -62,3 +65,44 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+.logo {float: right;
+	vertical-align: top;
+	display: inline-block;}
+.container {
+	width : 900px;
+	margin : 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	border: 1px solid red;
+}
+header nav ul li {display: inline-block;
+	margin-right: 30px;
+	vertical-align: bottom;
+}
+
+header nav ul li a {color:grey;
+	text-decoration: none;}
+
+header nav ul li a:hover {text-decoration: underline;}
+.cta {font-size: 72px;
+}
+.cta .cta-text {
+	width: 365px;
+	height:450px;
+	border: 1px solid red;
+	display: inline-block;
+}
+.cta .code { 
+	float: right;
+
+	width:250;
+	height: 250; 
+	margin-left: 200;
+    margin-right: 10;
+	display: inline-block;}
+	
+	.cta .cta-text h1{text-align: center;}
+	.cta .cta-text button{ padding-left: 100px;}
