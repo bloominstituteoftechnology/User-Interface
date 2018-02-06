@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -62,3 +62,125 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+body {
+	margin: 20px;
+}
+
+section {
+	border-bottom: 1px solid gray;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	/* background: lightcyan; */
+	align-items: center;
+}
+
+nav {
+	flex: 3;
+	height: 100%;
+	align-items: center;
+	margin: 0 50px 0 0;
+}
+
+nav ul{
+	display: flex;
+	/* background: yellow;	 */
+	justify-content: space-around;
+
+
+}
+
+nav li a {		
+	text-decoration: none;
+	color: grey;
+	font-size: 14px;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	/* border: 1px solid rgb(134, 17, 170); */
+}
+
+.cta-text{
+	height: 100%;
+	text-align: center;
+	flex:3;
+	/* border:1px solid yellow;	 */
+}
+
+.cta-text h1 {
+	font-size: 60px;
+}
+
+.cta-text button{
+	background: white;
+	border: 1px solid black;
+	width: 175px;
+}
+
+.cta img {
+	/* border:1px solid rgb(120, 219, 178); */
+	padding: 50px;
+}
+
+.main-content {
+	/* border: 1px solid rgb(106, 193, 228); */
+}
+
+.top-content {
+	display: flex;
+	/* border: 1px solid rgb(4, 158, 74); */
+	justify-content: space-between;
+}
+
+
+.top-content .text-content {
+	margin: 40px 0;
+
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	/* border: 1px solid rgb(145, 49, 32); */
+	justify-content: space-between;
+}
+
+.bottom-content .text-content {
+	margin: 40px 0;
+}
+
+.contact {	
+	/* border: 1px solid rgb(4, 97, 141); */
+	border-bottom: none;
+	margin: 30px 0;
+}
+
+.contact p {
+	margin: 0 0 15px 0;
+}
+
+footer {	
+	/* border: 1px solid rgb(233, 15, 149); */
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
