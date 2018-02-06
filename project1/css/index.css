@@ -73,6 +73,8 @@ section.cta {
 	font-size: 72px;
   display: inline-block;
 	border-bottom: 1px solid black;
+	padding-bottom: 70px;
+	padding-top: 60px;
 
 }
 
@@ -102,8 +104,13 @@ button {
 	display: block;
 }
 
-div.text-content {
+div.top-content {
 	display: inline-block;
+
+}
+
+div.text-content {
+	margin-top: 30px;
 }
 
 blockquote, q {
