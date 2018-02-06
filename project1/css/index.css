@@ -71,12 +71,12 @@ section {
 
 section.cta {
 	font-size: 72px;
-  border: 1px solid black;
   display: inline-block;
+	border-bottom: 1px solid black;
+
 }
 
 div.cta-text {
-	border: 1px solid black;
 	display: inline-block;
 	padding-top: 60px;
 
@@ -100,6 +100,10 @@ button {
 	font-size: 16px;
 	margin: 20px auto 0;
 	display: block;
+}
+
+div.text-content {
+	display: inline-block;
 }
 
 blockquote, q {
