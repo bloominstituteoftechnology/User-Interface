@@ -73,11 +73,11 @@ section.cta {
 	font-size: 72px;
   border: 1px solid black;
   display: inline-block;
-	float: left;
 }
 
 div.cta-text {
 	border: 1px solid black;
+	display: inline-block;
 
 }
 
@@ -85,15 +85,12 @@ div.cta-text h1 {
 	text-align: center;
 	border: 1px solid black;
 	width: 500px;
-	display: inline-block;
-
 }
 
 .cta img {
 	border: 1px solid black;
 	float: right;
   display: inline-block;
-  margin: 20px;
 }
 
 button {
