@@ -62,3 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+	
+	width: 100%;
+	margin-top: 20px;
+
+}
+header nav {
+	width: 600px;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: grey;
+}
+
+header .logo {
+	display: inline-block;
+	width: 183px;
+	height: 36px;
+	vertical-align: top;
+	margin: 0 0 0 10px;
+}
+
+.cta {
+	font-family: 'Bangers', cursive;
+	font-size: 72px;
+}
+
+.cta .cta-text {
+	width: 350px;
+	height: 400px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.cta .cta-text button {
+	height: 45px;
+	width: 175px;
+	border: 1px solid black;
+	background: white;
+	font-size: 16px;
+	display: block;
+	margin: 25px auto 0;
+}
+.cta .cta-text h1 {
+	text-align: center;
+}
+
+.cta .innovation {
+	height: 379px;
+	width: 379px;
+	display: inline-block;
+	margin: 25px;
+	vertical-align: top;
+}
+.main-content {
+	border-top: 1px solid black;
+	width: 900px;
+	padding: 20px 0 0 0;
+	}
+
+.main-content .top-content {
+	margin: 20px 0 0 0;
+	border: 1px solid black;
+	width: 400px;	
+}
