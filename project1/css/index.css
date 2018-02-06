@@ -86,7 +86,13 @@ nav ul a {
 	align-items: center;
 	margin-top: 50px;
 	padding-bottom: 40px;
+}
+
+.shortborder {
 	border-bottom: 1px solid black;
+	width: 90%;
+	position: relative;
+	left: 5%;
 }
 
 .cta .cta-text {
@@ -126,7 +132,6 @@ nav ul a {
 	display: flex;
 	margin-top: 25px;
 	padding: 20px 20px 30px 20px;
-	border-bottom: solid black 1px;
 }
 
 .contact {
@@ -136,6 +141,7 @@ nav ul a {
 	align-content: left;
 	height: 180px;
 	margin-top: 30px;
+	padding-left: 20px;
 }
 
 footer {
