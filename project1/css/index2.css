@@ -98,15 +98,14 @@ ul a {
 }
 
 .cta {
-	display: block;
 	height: 400px;
 	margin: 50px 0px;
 	display: flex;
+	justify-content: center;
 }
 
 .cta .cta-text {
 	margin-top: 50px;
-	margin-left: 100px;
 	text-align: center;
 }
 
