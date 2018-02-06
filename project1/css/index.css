@@ -62,3 +62,118 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* My CSS starts here */
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Navagation Starts */
+
+header {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 15px;	
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	padding-right: 30px;
+}
+
+header nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+/* Navagation Ends */
+
+
+/* Logo of the page starts */
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 35px;
+}
+
+.cta .cta-text button {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	width: 170px;
+	font-size: 24px;
+	margin-left:70px;
+}
+/* Logo of the page ends */
+
+/* Main content of the page starts */
+.main-content .top-content {
+	display: flex;
+	margin-top: 30px;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+.main-content .text-content {
+	margin-right: 50px;
+	padding-bottom: 30px;
+}
+
+.main-content .middle-img {
+	width: 100%;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 30px 0px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 30%;
+	margin-right: 20px;
+}
+
+
+/* Main content of the page ends ends */
+
+/* Contact section starts*/
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.contact p {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+/* Contact section ends*/
+
+
+
+/* footer section starts */
+
+footer {
+	display: flex; 
+	justify-content: center;
+	padding: 30px 0 50px 0;
+}
+
+/* footer ends */
