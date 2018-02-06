@@ -137,3 +137,9 @@ nav ul a {
 	height: 180px;
 	margin-top: 30px;
 }
+
+footer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
