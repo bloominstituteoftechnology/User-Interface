@@ -68,16 +68,13 @@ body {
 }
 
 header {
-	border: 1px solid blue;	
 }
 
 header nav {
-	border: 2px solid orange;
 	display: inline-block;
 }
 
 ul {
-	border: 1px solid red;
 }
 
 ul li {
@@ -91,53 +88,50 @@ ul a {
 }
 
 .logo {	
-	border: 2px green solid;
 	display: inline-block;
 	float: right;
 	margin: 1px;
 }
 
 .cta {
-	border: 2px purple solid;
 	display: block;
 	height: 400px;
+	margin: 50px auto;
 }
 
 .cta .cta-text {
-	font-size: 60px;
-	border: 2px teal solid;
 	display: inline-block;
 	margin-top: 50px;
-	margin-left: 60px;
+	margin-left: 100px;
 	float: left;
 	text-align: center;
 }
 
 .cta .cta-text h1 {
+	font-size: 80px;
 	text-align: center;
 	margin: 0px;
 }
 
 button {
-	width: 120px;
-	height: 20px;
+	width: 150px;
+	height: 30px;
 	border: 1px solid black;
 	background-color: white;
 	display: inline-block;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 section img {
 	display: inline-block;
 	text-align: center;
-	border: 2px solid grey;
 	float: left;
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 .main-content {
 	width: 900px;
-	border: 2px lime solid;
 	border-top: 2px solid grey;
 	border-bottom: 2px solid grey;
 }
@@ -148,7 +142,6 @@ section img {
 .top-content .text-content {
 	display: inline-block;
 	width: 425px;
-	border: 1px solid black;
 	margin-top: 25px;
 	margin-left: 10px;
 	margin-bottom: 25px;
@@ -157,7 +150,6 @@ section img {
 .bottom-content .text-content {
 	display: inline-block;
 	width: 280px;
-	border: 1px solid black;
 	margin-top: 25px;
 	margin-left: 10px;
 	margin-bottom: 25px;
@@ -170,12 +162,10 @@ section img {
 .contact {
 	width: 900px;
 	margin-top: 20px;
-	border: 2px solid pink;
 }
 
 footer {
 	width: 900px;
-	border: 2px solid cyan;
 	text-align: center
 }
 
