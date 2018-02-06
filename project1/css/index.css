@@ -31,12 +31,15 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -61,4 +64,107 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+/*-----My code here-----*/
+/*Since we're not worrying about responsiveness, for sake of ease, let's define a 1024px width and center it up*/
+body {
+	width:1024px;
+	vertical-align:middle;
+	margin:auto;
+}
+
+header {
+	height:75px;
+}
+
+nav {
+	display:inline-block;
+}
+
+nav ul {
+	margin-left:30px;
+}
+
+nav ul li {
+	display:inline-block;
+	margin:20px 40px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:gray;
+	font-size:12px;
+	}
+
+header .logo {
+	float: right;
+	margin:10px 30px 20px 10px;
+}
+
+section.cta {
+border-bottom:1px solid black;
+padding-bottom: 50px;
+}
+
+div.cta-text {
+	display:inline-block;
+	vertical-align:top;
+	height:379px;
+	margin-left:150px;
+}
+
+div.cta-text h1 {
+	font-size:72px;
+	text-align:center;
+	margin-top:50px;
+}
+
+section.cta img {
+float:right;
+margin-right:30px;
+}
+
+div.cta-text button {
+border:1px solid black;
+text-align:center;
+height:20px;
+width:150px;
+margin: -20px -75px;
+position:relative;
+top:50%;
+left:50%;
+}
+
+.middle-img {
+display:block;
+margin:10px auto;
+}
+
+div.top-content .text-content {
+	width:480px;
+	display:inline-block;
+	margin:20px 5px;
+}
+
+div.bottom-content .text-content {
+	width:320px;
+	display:inline-block;
+	margin:20px 5px;
+}
+
+section.main-content {
+	border-bottom:1px solid black;
+	padding-bottom: 20px;
+}
+
+section.contact, footer {
+	margin-top:20px;
+}
+
+section.contact p {
+	margin-bottom: 18px;
+}
+footer {
+	text-align:center;
 }
