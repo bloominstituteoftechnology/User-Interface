@@ -79,6 +79,7 @@ header {
 nav ul {
 	list-style: none;
 	text-align: center;
+	display: flex;
 
 }
 
@@ -86,12 +87,12 @@ nav li {
 	font-size: 1.2em;
   line-height: 40px;
 	height: 40px;
-	display: inline-block;
+	
 	margin: 10px 30px 30px 30px
 }
 
 nav a  {
-	display: block;
+	display: flex;
 }
 
 .cta {
@@ -103,10 +104,7 @@ nav a  {
 
 
 .cta .cta-text {
-	
 	margin-right: 35px;
-	
-	
 }
 
 .cta img {
@@ -116,7 +114,6 @@ nav a  {
 h1 {
 	font-size: 4em;
 	text-align: center;
-	
 }
 
 .btn {
@@ -124,38 +121,37 @@ h1 {
 	background-color: white;
 	padding: 5px 35px 5px 35px;
 	margin: 0 0 0 55px;
-	
-	
 }
 
 .blackLine {
-	
 	height: .5px;
 	width: 100%;
 	border: .5px solid black;
 	margin: 20px 0 20px 0;
 }
+.top-content {
+	display: flex;
+}
 
 .top-content .text-content {
-	display: inline-block;
 	width: 450px;
-	margin: 20px 0px 20px 0px;
-	
+	margin: 20px 10px 20px 10px;
 }
 
 .middle-img {
-	margin-bottom: 20px;
+	margin: 20px 10px 20px 30px;
 }
-
+.bottom-content {
+	display: flex;
+	
+}
 .bottom-content .text-content {
-	display: inline-block;
 	width: 300px;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 10px 20px 10px;
 }
 
 .contact p {
 	margin-bottom: 20px;
-	
 }
 
 footer p {
