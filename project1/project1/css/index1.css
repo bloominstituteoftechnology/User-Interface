@@ -1,0 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+div {
+	border: 1px solid black;
+  }
+
+  header {
+    margin-top: 0px;
+    width: 200px;
+    border: 2px solid blue;
+    display: inline;
+    }
+  
+.container {
+  display: block;
+  margin-top: 0px;
+	border: red 3px solid;
+  }
+
+nav {
+border: 1px solid green;
+width: 100px;
+height: 50px;
+display: inline;
+}
+
+.container img {
+  align: right;
+}
+
+
+  
+  header nav ul li {
+	display: inline;
+  }
+  
+  header nav ul li a {
+	color: gray;
+	text-decoration: none;
+  }
+  
+  .logo {
+  margin-top : 0;
+	align: right;
+	width: 200px;
+	border: 1px solid red;
+  }
+  

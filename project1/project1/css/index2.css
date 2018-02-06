@@ -1,0 +1,20 @@
+.header {
+    display: block;
+    border: 3px solid red;
+}
+
+.toplogo {
+    display: block;
+    border: 5px solid green;
+    
+}
+
+.nav {
+    display: block;
+    border: 1px solid blue;
+}
+
+.random {
+    border: 1px solid black;
+    
+}
