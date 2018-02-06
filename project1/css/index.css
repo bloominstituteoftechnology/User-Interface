@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,10 +24,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -61,4 +62,87 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+	margin: 40px 70px;
+}
+
+.logo {
+	margin-top: 10px;
+	margin-left: 75px;
+}
+
+.text-content {
+	display: inline-block;
+}
+
+
+.top-content {
+	display: inline-block;
+}
+
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin: 25px 50px 50px 50px;
+	padding: ;
+	}
+
+.cta {
+
+}
+
+.button {
+	border-color: black;
+	border-width: 10px;
+}
+
+.cta-text {
+	padding: 50px 50px 50px 50px;
+	margin: 50px 50px 50px 250px;
+	text-align: center;
+	float: left;
+}
+
+.cta img {
+	height: 38%;
+	width: 38%;
+	padding: 50px 50px 50px 50px;
+	margin: -35px 170px 50px 50px;
+	float: right;
+}
+
+.main-content {
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: thin;
+	padding-top: 50px;
+	clear: both;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: silver;
+}
+
+h1 {
+	font-size: 90px;
+}
+
+.contact p {
+	text-align: left;
+	line-height: 30px;
+}
+
+.middle-img {
+	margin: 20px 20px 20px 20px;
+}
+
+footer {
+	text-align: center;
 }
