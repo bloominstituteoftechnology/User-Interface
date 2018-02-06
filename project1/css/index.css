@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,80 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+/* Styling */
+.container {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 20px;
+}
+header li {
+	font-size: 16px;
+	color: grey;
+}
+.top-banner {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.top-banner h1 {
+	font-size: 70px;
+	padding-bottom: 30px;
+}
+.top-banner button {
+	border-radius: 0px;
+	border: 1px solid black;
+	height: 28px;
+	width: 160px;
+	font-size: 14px;
+}
+.main-mid {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main-mid img {
+	width: 100%;
+}
+.main-content {
+	padding-bottom: 20px;
+}
+.pad-right {
+	padding-right: 20px;
+}
+.main-content h2, .contact h2 {
+	font-size: 20px;
+}
+.contact p {
+	padding-top: 20px;
+}
+footer {
+	padding-top: 60px;
+	height: 300px;
+}
+hr {
+	color: black;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/* Flexbox */
+header nav ul, .top-banner, .main-top, .main-mid, .main-bot, footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.main-mid {
+	justify-content: space-between;
+}
+header nav ul {
+	justify-content: space-around;
+}
+.top-banner h1, .top-banner button {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+footer {
+	align-content: center;
+	align-items: baseline;
 }
