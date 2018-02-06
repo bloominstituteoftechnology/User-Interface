@@ -23,13 +23,70 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 20px 20px;
+	padding: 20px 20px;
+}
+
+header nav ul li a {
+	color: grey;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	float: right;
+	margin: -65px;
+}
+
+.cta .cta-text {
+	display: inline;
+	font-size: 75px;
+	margin: 30px;
+	padding: 30px;
+}
+
+.cta .cta-text button {
+	display: block;
+	font-size: 20px;
+	margin: 15px;
+	
+}
+
+.cta img {
+	float: right;
+	width: 350px;
+	height: 350px;
+	margin-top: -350px;
+	padding: 15px;
+
+}
+
+.main-content {
+	width: 100%;
+	height: 60px;
+	border-top: 1px solid black;
+}
+
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
