@@ -30,7 +30,6 @@ div {
 	border: 1px solid grey;
 }
 
-
 body {
 	line-height: 1;
 }
@@ -56,23 +55,50 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	display: inline;
 	font-family: 'Titillium Web', sans-serif;
-	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 10px;
-	box-sizing: border-box;
 }
-</div> class="box">
 
-	   <p> this is a box. this is a box. this
-	   is a box. this is a box. this is a box. 
-	   this is a box.</p>
-      </nav>
- <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-      </nav>
-</div>
+nav ul {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+	float: left;
+	margin-top: -22px; 
+	margin-right: 98px;
+}
+.cta {
+	   display: flex;
+	   flex-direction: row;
+	   justify-content: space-around;
+	   margin-top: 50px;
+	   margin-bottom: 50px;
+   }
+
+header {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cta .cta-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cta .cta-text h1 {
+	font-size: 72px;
+    text-align: center;
+}
+
