@@ -66,17 +66,17 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 10px;
 }
 
-nav ul {
+header nav ul {
     display: flex;
 	flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.logo {
-	float: left;
-	margin-top: -22px; 
-	margin-right: 98px;
+header nav ul li {
+	margin-left: 25px;
+	margin-right: 25px;
 }
+
 .cta {
 	   display: flex;
 	   flex-direction: row;
