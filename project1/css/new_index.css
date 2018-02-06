@@ -63,89 +63,97 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-nav ul {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 5px;
+header {
+    height: 200px;
+}
+header nav ul {
+    display: inline-block;
+    width: 85%;
+    margin: 20px 0px 20px 40px;
 }
 
-nav ul a {
-	text-decoration: none;
-	color: gray;
+header nav ul li {
+    display: inline-block;
+    margin: 20px 50px 0px 50px;
 }
 
-.logo {
-	float: right;
+header img {
+    float: right;
+    margin: -60px 100px 0px 30px;
+    width: 220px;
+    height: 60px;
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
 
 .cta {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 50px;
-	padding-bottom: 40px;
+    width: 100%;
+    height: 400px;
+    border-bottom: solid black 1px;
+    
 }
-
-.shortborder {
-	border-bottom: 1px solid black;
-	width: 96%;
-	position: relative;
-	left: 2%;
-}
-
 .cta .cta-text {
-	font-size: 80px;
-	text-align: center;
+    display: inline-block;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    left: 160px;
+
 }
 
 .cta .cta-text button {
-	background-color: white;
-	width: 200px;
-	height: 40px;
-	outline: none;
-	border: solid black 2px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 15px;
+    background-color: white;
+    width: 210px;
+    height: 40px;
+    border: solid black 1px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: relative;
+   top: -40px;
 }
 
-.top-content {
-	display: flex;
-	margin-top: 40px;
+.cta img {
+    float: right;
+    position: relative;
+    right: 140px;
+    bottom: 80px;
 }
 
 .top-content .text-content {
-	padding: 0px 30px 15px 30px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 45%;
+    margin-bottom: 50px;
 }
 
 .main-content img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
-	height: 160px;
-	margin-bottom: 15px;
+    width: 96%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 30px;
 }
 
-.bottom-content {
-	display: flex;
-	margin-top: 25px;
-	padding: 20px 20px 30px 20px;
-}
-
-.contact {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-content: left;
-	height: 180px;
-	margin-top: 30px;
-	padding-left: 20px;
+.bottom-content .text-content {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 30%;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid black 1px;
 }
 
 footer {
-	display: flex;
-	align-content: center;
-	justify-content: center;
+    text-align: center;
 }
+
