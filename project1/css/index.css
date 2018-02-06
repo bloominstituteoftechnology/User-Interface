@@ -88,7 +88,6 @@ ul a {
 }
 
 .logo {	
-	display: inline-block;
 	float: right;
 	margin: 1px;
 }
@@ -100,7 +99,6 @@ ul a {
 }
 
 .cta .cta-text {
-	display: inline-block;
 	margin-top: 50px;
 	margin-left: 100px;
 	float: left;
@@ -109,8 +107,6 @@ ul a {
 
 .cta .cta-text h1 {
 	font-size: 80px;
-	text-align: center;
-	margin: 0px;
 }
 
 button {
@@ -119,13 +115,11 @@ button {
 	border: 1px solid black;
 	background-color: white;
 	display: inline-block;
-	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 section img {
-	display: inline-block;
-	text-align: center;
 	float: left;
 	margin-left: 80px;
 }
