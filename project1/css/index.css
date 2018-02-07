@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
   header {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
+	margin: 20px;
   }
   
   header nav ul {
@@ -134,18 +134,13 @@ h1, h2, h3, h4, h5 {
 	  padding-top: 20px;
 	  padding-bottom: 20px;
   }
+section .contact h4 p {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
 
-  .contact {
-	  display: flex;
-	  flex-direction: column;
-	  align-content: space-between;
-  }
-
-  .contact h4 p {
-	  justify-content: space-between;
-  }
-
-  footer {
+footer {
 	  display: flex;
 	  justify-content: center;
   }
