@@ -31,57 +31,109 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .container {
-	width: 900px;
+	width: 800px;
 	margin: 0 auto;
+	
 }
 
-header nav ul li {
-	display: inline-block;
-	margin: 20px 20px;
-	padding: 20px 20px;
+header {
+	display: flex;
+	width: 100%;
+	
 }
 
+header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+header nav {
+	width: 600px;
+	flex-grow: 1;
+}
 header nav ul li a {
 	color: grey;
 	text-decoration: none;
+	padding: 20px;
+	font-size: 18px;
 }
 
 header nav ul li a:hover {
 	text-decoration: underline;
 }
 
-.logo {
-	float: right;
-	margin: -65px;
+.cta {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cta .cta-text h1 {
+	font-size: 72px;
 }
 
 .cta .cta-text {
-	display: inline;
-	font-size: 75px;
-	margin: 30px;
-	padding: 30px;
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
 }
 
 .cta .cta-text button {
-	display: block;
 	font-size: 20px;
-	margin: 15px;
+	color: gray;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+section img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+/*.main-content {
+	width: 100%;
+} */
+
+.top-content {
+	width: 100%;
+	border-top: 1px solid black;
+}
+.top-content .text-content {
+	display: flex;
+	border: 5px solid blueviolet;
+	flex-wrap: wrap;
+	justify-content: center;
 	
 }
 
-.cta img {
-	float: right;
-	width: 350px;
-	height: 350px;
-	margin-top: -350px;
-	padding: 15px;
 
+.middle-img {
+	width: 100%;
+	padding-top: 20px;
 }
 
-.main-content {
+.bottom-content .text-content {
+	display: flex;
+	border: 5px solid blueviolet;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact {
 	width: 100%;
-	height: 60px;
 	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
 }
 
 body {
