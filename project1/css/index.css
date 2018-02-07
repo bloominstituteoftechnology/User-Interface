@@ -63,7 +63,10 @@ letter-spacing: 1px;
 margin-bottom: 10px;
 }
 /*....................................*/
-
+body {
+	display: flex;
+	justify-content: center;
+ }
 .container {
 	width: 900px;
 	padding: 10px 20px;
