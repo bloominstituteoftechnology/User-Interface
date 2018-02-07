@@ -50,7 +50,7 @@ header nav {
 header nav ul {
 	list-style: none;
 	display: flex;
-  justify-content: space-around;
+	justify-content: space-around;
 }
 
 header nav ul li a {
@@ -65,11 +65,11 @@ section.cta {
 }
 
 div.cta-text {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
 }
 
 div.cta-text h1 {
@@ -80,11 +80,11 @@ div.cta-text h1 {
 }
 
 button {
-	width: 175px;
-	height: 35px;
-	background: white;
-	border: 1px solid black;
-	font-size: 16px;
+
+	background-color: white;
+	border: 1px solid grey;
+	font-size: 20px;
+	color: grey;
 }
 
 div.top-content {
