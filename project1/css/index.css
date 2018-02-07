@@ -174,11 +174,11 @@ Inline-Block / Float Ending
 	height: 1500px;
 	width: 1000px;
 	margin: 0 auto;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 header {
 	width: 100%;
-	margin: 10px 0;
+	
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -218,7 +218,7 @@ header img {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
-	margin: 50px 0;
+	
 
 }
 
@@ -278,11 +278,10 @@ header img {
 }
 
 .contact {
-	margin: 20px 0px;
-}
-
-.contact p {
-	margin: 10px 0;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 footer {
