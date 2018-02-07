@@ -63,114 +63,133 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-/* my code */
+/*
+
+/* my code with Flexbox */
 
 .container {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
-}
-
-header {
+  }
+  
+  header {
+	display: flex;
+	align-items: center; 
 	width: 100%;
-	height: 60px;
-	border: 1px solid white;
-}
+	margin-top: 30px; 
 
-header nav ul li {
-	display: inline-block;
-	margin-right: 40px; 
-	margin-top: 28px; 
-}
-
-header nav ul li a {
-	color: gray;
-	text-decoration: none;
-}
-
-header nav ul li a:hover {
-	text-decoration: underline;
-}
-
-header .logo {
-	float: right; 
-	margin-top: -25px;
-}
-
-.cta {
-	font-size: 55px;
-}
-
-.cta .cta-text {
-	width: 555px;
-	height: 400px;
-	border: 1px solid white;
-	margin: 60px 0 50px 0; 
-	display: inline-block;
-	font-size: 75px; 
-
-}
-
-.cta .cta-text button {
-	width: 175px;
-	height: 35px;
-	background: white;
-	border: 1px solid black;
-	font-size: 16px;
-	display: block;
-	margin: 20px auto 0;
-}
-
-.cta .cta-text h1 {
-	text-align: center;  
-	margin: 70px auto 0; 
+  }
+  
+  header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
 	
-}
+  }
+  
+  header nav {
+	width: 600px;
+	flex-grow: 1;
+	padding: 0 100px 0 0;
+	
 
-.cta img {
-	width: 340px;
-	height: 340px;
-	float: right; 
-	border: 1px solid white;
-	margin: 90px 0 0 0;  
-}
+  }
+  
+  header nav ul li a {
+	text-decoration: none;
+	color: grey;
+  }
+  
+  header .logo {
+	display: flex; 
+	justify-content: space-around; 
+  }
+  
+  .cta {
+	display: flex;
+	justify-content: space-around;
+	justify-content: space-between; 
+	padding: 80px 0 80px 0; 
+	
+	
+  }
+  
+  .cta .cta-text h1 {
+	font-size: 72px;
+	display: flex;
+	align-content: center;
+	 
+  }
+  
+  .cta .cta-text {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: space-around;
+	  justify-content: center;
+	  padding: 20px 10px 5px 100px;
+	  
+  }
+
+  .cta .cta-text h1 {
+	  font-size: 100px;
+  }
+  
+  .cta .cta-text button{
+	  font-size: 18px;
+	  color: gray;
+	  background-color: white;
+	  border: 1px solid gray;
+	  padding: 3px 30px; 
+  }
+
 
 .main-content {
-	border-top: 1px solid black;
-	padding-top: 40px;
-	border-bottom: 1px solid black;
-	padding-bottom: 250px;
+	margin: 30px 0; 
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black; 
 }
 
-
-.main-content .top-content .text-content {
-	width: 50%; 
-	padding-left: 10px;
-	float: left; 
+.main-content .top-content {
+	display: flex; 
+	padding: 30px 0; 
 }
 
-.main-content .bottom-content .text-content {
-	width: 33.33%;
-	float: left;
-	padding: 16px; 
-	
+.main-content .text-content h4 {
+	padding-bottom: 8px; 
 }
 
-.middle-img {
-	margin: 50px 0 50px 0;
+.main-content .top-content .text-content p {
+	padding-right: 20px; 
 }
 
+.main-content .bottom-content {
+	display: flex; 
+	padding: 30px 0; 
+}
 
- .contact h4{
-	margin-top: 40px;
-	margin-bottom: 20px; 
+.main-content .top-content .bottom-content .text-content p {
+	display: flex;
+	justify-content: space-around;
+}
+
+		
+.main-content .middle-img {
+	width: 100%;  
+	align-content: stretch;
+	padding: 10px 0; 
 }
 
 .contact p {
-	padding: 15px;
-	padding-left: 0px;
+	display: flex;
+	height: 50px; 
+	align-items: center; 
 }
 
-footer {
-	text-align: center;
-	padding-bottom: 50px;
+footer p {
+	display: flex;
+	justify-content: center; 
+	padding-top: 30px; 
+
 }
