@@ -62,11 +62,29 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-li {
-	float: left;
-	text-align: center;
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+nav {
+	flex: 1;
+	align-items: center;
+	
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
 	font-size: 20px;
-	padding: 0 25px 0 25px;	
+	margin: 10px;
 }
 
 a {
@@ -76,8 +94,12 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+.cta {
+	display: flex;
+}
+
 .cta-text {
-	display: inline-block;
 	text-align: center;
 	font-size: 80px;
 	
@@ -85,41 +107,57 @@ a:hover {
 .cta button {
 	font-size: 40px;
 	background: white;
-	margin-bottom: 20px;
 }
+
+.cta button:hover {
+    background-color: gray;
+}
+
 .cta img {
-	margin-top: 10px;
-	padding: 0 10px 0 100px;
-	display: inline-block;
-	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
 }
+
+.main-content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;	
+}
+
+.top-content {
+	display: flex;
+  justify-content: space-around;
+  align-items: justify;
+  width: 100%;
+  height: 275px;
+  font size: 100%;
+  text-align: justify;
+}
+
 .text-content {
-	display: inline-block;
-	width: 300px;
-	height: 275px;
-	border: 1px white;
-	font-size: 28px;
-	margin-bottom: 20px;
-	
+    width: 300px;
+    height: 275px;
+    border: 1px white;
+	font-size: 25px;
 }
-.text-content2 {
-	display: inline-block;
-	width: 300px;
-	height: 275px;
-	border: 1px white;
-	font-size: 28px;
-	text-align: justify;
-	
+
+.bottom-content {
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: auto;
 }
-.text-content3 {
-	display: inline-block;
+
+.contact {
 	width: 200px;
 	height: 200px;
 	border: 1px white;
-	margin-bottom: 20px;
-	
+	font-size: 20px;	
 }
-.footer {
-	text-align: center;
 
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
