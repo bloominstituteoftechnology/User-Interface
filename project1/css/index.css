@@ -62,3 +62,101 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+container{display: flex;
+  width:800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;}
+
+
+ .logo{
+   width: 80px;
+  display: flex;
+  height: 50px;
+  }
+
+header nav {
+  width: 100%;
+  flex-grow: 1;
+  color: gray;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  flex-direction: row;
+  justify-content:center;
+  width: 20px;
+  height: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+  
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.cta .cta-text {
+    font-size: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.cta .cta-text bottom-content{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gold;
+}
+
+.main-content{
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    margin: 40px 0;
+    padding-top: 40px;
+} 
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin: 40px 0;
+    padding-bottom: 40px;
+} 
+
+
+.contact  { 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
