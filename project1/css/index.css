@@ -62,91 +62,84 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-
-
-
-.logo{
-
-	float: right;
-	margin: -60px 20px 20px 0px;
+body{
+	display: flex;
+	justify-content: center;
+}
+.container {
+  width: 800px;
 }
 
-nav ul{
-	margin: 30px;
-	text-align: center;
-	color: grey;
+header {
+  display: flex;
+  width: 100%;
+  
 }
 
-nav ul li{
-	display:inline;
-	margin: 0 auto;
-	padding: 40px 5px 40px 40px;
-	color: grey;
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
 
-nav ul li a{
-	color: grey;
-	text-decoration: none;
+header nav {
+  
+  width: 600px;
+  flex-grow: 1
 }
-.cta button{
-	width: 175px;
-	height: 35px;
-	font-size: 16px;
-	border: 1px solid black;
-	padding: 100px auto;
-	background-color: white;
+
+header nav ul li a {
+  text-decoration: none;
+  color: grey;
 }
-.cta-text{
-	display: inline-block;
-	text-align: center;
-	font-size: 90px;
-	padding: 80px 20px 40px 30%;
+
+.logo {
+justify-content: flex-end;
+  vertical-align: top;
 }
-.header-image{
-	padding: 10px 5px 0px 88%
+
+.cta {
+  display: flex;
+  justify-content: space-around;
 }
+
+.cta .cta-text h1 {
+  font-size: 72px;
+}
+
+.cta .cta-text {
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cta .cta-text button{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
+
 .main-content{
-	
-	text-align: center;
-	display: inline-block;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 .top-content{
-	border-top: 2px solid black;
-}
-.top-content .text-content{
-	text-align: justify;
-	display: inline-block;
-	font-size: 20px;
-	height: 130px;
-	width: 400px;
-	margin: 50px auto 40px 100px;
-}
-.middle-image{
-display: block;
+	border-top: 1px solid black;
 }
 .bottom-content{
-	border-bottom: 2px solid black;
-	
+	border-bottom: 1px solid black;
 }
-.bottom-content .text-content{
-	text-align: justify;
-	display: inline-block;
-	font-size: 20px;
-	height: 130px;
-	width: 400px;
-	margin: 50px auto 40px 100px;
-	padding: 0 auto;
-}
-
 .contact{
-	margin: 40px auto;
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+.footer{
+	text-align:
 }
 
-.contact p{
-	padding: 10px;
-	
-}
-
-footer{
-	text-align: center;
-}
