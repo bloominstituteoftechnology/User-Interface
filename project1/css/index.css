@@ -41,25 +41,17 @@ header {
 }
 
 .logo {
-	padding: 15px;
+
 }
 
-body {
-	line-height: 1;
-	width: 900px;
-}
 
-nav {
-	padding-top: 10px;
-	padding-bottom: 10px;
+header nav {
 }
 
 header nav ul {
 	list-style: none;
 	display: flex;
-	
 }
-
 
 a {
 	color: grey;
