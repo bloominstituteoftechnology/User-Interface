@@ -63,74 +63,74 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 .container{
-	width:65%;
-	height:100%;
-	background-color: white;
-	margin: 10px;
+	width:800px;
+	margin: 30px auto;
 }
-.container .left{
-	float: left;
-	color: grey;
-	text-align: justify;
-	padding: 30px;
-	margin: 10px;
-} 
-.container .logo{
-	float: inline-end;
-	padding: 20px;
-	margin: 10px;
-	clear: right;
-} /*we can use display:inline-block instead of float to bring things on the same line*/
-.cta{
-	width:"100%";
+header{
+  display:flex;
+	width:100%;
+	align-content:center;
 }
-.cta .cta-text{
-	width:50%;
-	font-size: 65px;
-	text-align: center;
-	color: black;
+header nav{
+	width:800px;
+}
+header nav ul{
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+}
+header nav ul li{
+  margin-right:30px;
 }
 header nav ul li a{
-	text-decoration: none;
-	color: gray;
+  text-decoration:none;
+  color:gray;
 }
-button{
-	background-color: white;
-	border: 1px solid black;
-	padding: 5px;
-	font-size: 16px;
-	margin: 20px auto 0;
-	display:block;
-	width:175px;
+.cta{
+  display:flex;
+  justify-content:space-around;
+  margin: 20px;
 }
+.cta .cta-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.cta .cta-text h1{
+    font-size: 76px;
+}
+
+.cta .cta-text button{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
+
 .main-content{
-	width:"100%";
+	width:800px;
 }
 .main-content .top-content{
-	text-align: left;
+	display:flex;
 	color: black;
-	float: inline-end;
+
 }
 .main-content .top-content .text-content{
-	width: 50%;
-	float: left;
+	width: 48%;
 }
 .main-content .bottom-content{
-	text-align: left;
+	display:flex;
 	color: black;
-	float: inline-end;
 }
 .main-content .bottom-content .text-content{
-	width: 33.3%;
-	float: left;
+	width: 33%;
 }
 .newLine{
 	word-wrap: break-word;
 }
 footer{
-	position: left;
-	clear:both;
-	text-align: center;
-	margin-left: -50%;
-	margin-right: -50%;
+	display:flex;
+	justify-content: center;
 }
