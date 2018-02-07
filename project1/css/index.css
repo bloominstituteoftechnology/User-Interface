@@ -142,35 +142,40 @@ button {
 .main-content {
 	display: flex;
 	flex-wrap: wrap;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	justify-content: center;
 	align-items: center;
 	height: 450px;
 }
 
 .main-content .top-content {
+	border-top: 1px solid black;
 	display: flex;
 	width: 80%;
 	height: 100px;
 	justify-content: space-between;
+	padding-top: 20px;
 }
 
 .main-content .bottom-content {
+	border-bottom: 1px solid black;
 	display: flex;
 	width: 80%;
+	padding-bottom: 20px;
 }
 
 .contact {
-	height: 100px;
+	padding-top: 10px;
+	height: 150px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: space-between;
 }
 
 .contact .contactDiv {
 	display: flex;
 	width: 80%;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .contact .contactDiv .moreDiv {
