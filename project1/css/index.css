@@ -1,52 +1,24 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
 .container {
 	width: 900px;
 	margin: 0 auto;
 }
 
 header {
-	width: 100%;
-	height: 60px;
-	border: 0;
-	padding-top: 10px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.logo {
-	margin: -20px 65px 0 0;
-	float: right;
+header nav {
+	padding-right: 70px;
+	flex-grow: 1;
 }
 
-
-header nav ul li {
-	display: inline-block;
-	margin-left: 10px;
-	margin-right: 40px;
-	margin-top: 20px;
+header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
 }
 
 header nav ul li a {
@@ -54,74 +26,55 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-header nav ul li a:hover {
-	text-decoration: underline;
+header .logo {
+	width: 180px;
+	height: 40px;
 }
 
 .cta {
-	font-size: 72px;
-	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 70px 0 70px 0;
 }
 
-.cta .cta-text {
-	width: 500px;
-	height: 500px;
-	margin: 0 0 0 0;
-	padding: 125px 100px 0 0;
-	border: 0;
-	display: left;
+div.cta-text {
+	text-align: center;
 }
 
 .cta .cta-text h1 {
-	text-align: center;
+	font-size: 50px
 }
 
 .cta .cta-text button {
-	width: 175px;
-	height: 35px;
-	background: white;
+	background-color: white;
 	border: 1px solid black;
-	font-size: 16px;
-	display: block;
-	margin: 20px auto 0;
+	width: 120px;
+	height: 25px;
 }
 
-section.cta img {
-	position: absolute;
-	top: 130px;
-	right: 30%;
-	border: 0;	
+/* section.main-content {
+} */
+
+div.top-content {
+	padding: 15px;
+	display: flex;
+	border-top: 1px solid black;
 }
 
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+div.bottom-content {
+	padding: 13px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+footer {
+	display: flex;
+	justify-content: center;
 }
+
+/* font setting below this line */
 
 html, body {
     height: 100%;
