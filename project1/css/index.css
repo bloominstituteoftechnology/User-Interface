@@ -62,3 +62,89 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 900px;
+    height: 60px;
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container header nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    color: gray;
+}
+
+header nav ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: relative;
+    left: 700px;
+    top: -15px;
+}
+
+.cta{
+    width:900px;
+    padding:10px 20px 30px 30px;
+}
+.cta-text{
+    position: relative;
+    top:-40px;
+    right:-10px;
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    font-size:480%;
+    padding:0px;
+}
+
+.cta button {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    height: 50px;
+    width: 160px;
+    text-align: auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.cta img { 
+    display:inline-block;
+    padding:0px;
+    position: relative;
+    right: -100px;
+}
+
+.top-content .text-content {
+    display: inline-block;
+    position: relative;
+}
+
+.top-content .text-content h4{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+
+
+
