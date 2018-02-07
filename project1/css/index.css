@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,13 +17,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,6 +54,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -60,5 +63,148 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+header {
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav {
+	flex-grow: 1;
+	align-self: center;
+}
+
+header nav ul {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul li a { 
+	text-decoration: none;
+	color: grey;
+}
+
+.logo{
+	align-self: center;
+}
+
+.cta {
+	height: 450px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-size: 80px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.cta .cta-text button {	
+	background-color: white;
+	font-size: 15px;
+	width: 150px;
+	height: 30px;
+	color: black;
+	border: 1px solid black;
+	align-self: center;
+}
+
+
+header{
+	margin-bottom: 75px;
+	
+}
+
+
+
+li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 50px;
+	padding: 20px 30px 0 0;
+	font-size: 15px;
+}	
+
+.logo { 
+	height: 40px;
+	width: 250px;
+	float: right;
+	margin-top: -25px;
+	padding-left: 50px;
+	align-content: top;
+}
+
+.cta{
+	text-align: right;
+	margin-bottom: 100px;
+	padding-left: 50px;
+}
+
+.cta .cta-text {
+	text-align: center;
+	font-size: 90px;
+	float: left;
+	margin: 50px 100px 0 100px;
+	padding: 20px 0 0 40px;
+}
+
+/* .cta .cta-text h1 {
+	margin-bottom: -40px;
+} */
+
+
+
+/* .main-content{ 
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 0 2px 0;
+	padding: 30px 0 30px 0;
+}
+
+.main-content h4 {
+	font-size: 40px bold;
+	padding-bottom: 20px;
+}
+
+.top-content{
+	text-align: left;
+	column-count: 2;
+}
+
+
+.middle-img{
+	width: 100%;
+	height: 200px;
+	margin: 20px 0 20px 0;
+}
+
+.bottom-content {
+	text-align: left;
+	column-count: 3;
+}
+
+.contact {
+	padding-top: 40px; 
+}
+.contact p {
+	padding: 10px 0 10px 0;
+}
+
+footer {
+	margin-top: 40px;
+	text-align: center;
+} */
