@@ -115,9 +115,10 @@ header .logo {
 
 .cta-text {
   font-size: 90px;
-  width: 560px;
-  height: 560px;
+  width: 480px;
+  height: 480px;
   text-align: center;
+  justify-content: space-around;
 }
 
 .cta .cta-text button {
@@ -127,18 +128,54 @@ header .logo {
   font-size: 18px;
 }
 
+.cta .img {
+  height: 150px;
+  width: 150px;
+}
+
 .middle-img {
 display: flex;
-justify-content: center;
+justify-content: space-around;
+align-content: center;
+margin-right: 40px;
+margin-bottom: 130px;
 }
 
 .main-content {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   height: 780px;
   width: 1050px;
-  border: 1px solid red;
 }
 
 .main-content .top-content {
   display: flex;
+  justify-content: space-between;
 }
+
+.main-content .bottom-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-img {
+  height: 400px;
+  width: 400px;
+}
+
+div .top-content {
+  border-top: 1px solid black;
+}
+
+.contact {
+  border-top: 1px solid black;
+}
+
+.main-content .top-content .text-content {
+  display: flex;
+  align-content: center;
+}
+
+
 
