@@ -24,5 +24,15 @@
 
 a {
 	text-decoration: none;
+	color: grey;
+	font-family: sans-serif;
 }
 
+.cta {
+	display: flex;
+	flex-direction: row;
+}
+
+.innovation {
+	font-family: bangers;
+}
