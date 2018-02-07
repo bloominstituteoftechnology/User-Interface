@@ -55,3 +55,12 @@ a {
 	border-radius: 5px;
 }
 
+.main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
+}
