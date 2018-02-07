@@ -55,7 +55,7 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	padding: 3%;
+	padding: 2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,15 +64,29 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+nav {
+	width: 95%;
+}
+
 header li {
-	width: 10%;
+	width: 12%;
 	float: left;
-	padding: 15px;
+	padding: 10px;
 }
 
 header a {
 	text-decoration: none;
 	color: grey;
+}
+
+header .img .logo {
+	float: right;
+	margin: 5px;
+	width: 15%;
+}
+
+header {
+	margin-bottom: 50px;
 }
 
 button {
@@ -82,8 +96,8 @@ button {
 	height: 30px;
 }
 
-header .img .logo {
-	float: right;
+h4 {
+	padding-bottom: 5px;
 }
 
 .cta {
@@ -137,6 +151,12 @@ header .img .logo {
 	padding-top: 20px;
 }
 
+p:nth-last-child(2) {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 footer {
 	text-align: center;
+	margin: 70px;
 }
