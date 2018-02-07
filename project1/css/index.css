@@ -29,49 +29,50 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+.container {
+	width: 800px;
+
+}
+
 header {
+	display: flex;
+	width: 100%;
+	border: 1px solid black;
 }
 
 .logo {
-	float: right;
 	padding: 15px;
 }
 
 body {
 	line-height: 1;
 	width: 900px;
-	margin: 0 auto;
 }
 
 nav {
-	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-ol, ul {
+header nav ul {
 	list-style: none;
+	display: flex;
+	
 }
 
-li {
-	display: inline-block;
-}
 
 a {
-	color: lightgrey;
+	color: grey;
 	text-decoration: none;
-	display: block;
 	padding: 1rem;
 }
 
 section {
 	width: 900px;
-	margin: 0 auto;
 }
 
 section.cta {
 	font-size: 72px;
-	display: inline-block;
 	border-bottom: 1px solid black;
 	padding-bottom: 70px;
 	padding-top: 60px;
@@ -79,7 +80,6 @@ section.cta {
 }
 
 div.cta-text {
-	display: inline-block;
 	padding-top: 60px;
 
 }
@@ -90,8 +90,6 @@ div.cta-text h1 {
 }
 
 .cta img {
-	float: right;
-	display: inline-block;
 }
 
 button {
@@ -100,17 +98,13 @@ button {
 	background: white;
 	border: 1px solid black;
 	font-size: 16px;
-	margin: 20px auto 0;
-	display: block;
 }
 
 div.top-content {
-	display: inline-block;
 
 }
 
 div.text-content {
-	margin-top: 30px;
 }
 
 blockquote, q {
@@ -130,9 +124,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-	box-sizing: border-box;
-}
+
 
 html, body {
 	height: 100%;
