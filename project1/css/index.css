@@ -32,6 +32,8 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	border-bottom: 1px solid black;
+	padding-bottom: 10%;
 }
 
 .innovation {
