@@ -126,6 +126,20 @@ justify-content: space-around;
 .bottom-content{
     /* border: solid 2px black; */
      display: flex;
-     flex-flow: column wrap;
+     flex-flow: row;
      text-align: left;
+}
+
+/* contact / footer */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
