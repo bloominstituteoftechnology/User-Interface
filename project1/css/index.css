@@ -15,7 +15,10 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video 
+
+{
+
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -57,8 +60,83 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+.container {
+	width: 800px;
+	margin: 0 auto;
+  }
+  
+  header {
+	display:flex;
+	width: 100%;
+	border: 1px solid red;
+  }
+  header nav ul {
+	display: flex;
+	list-style:none;
+	justify-content: space-around;
+	
+  }
+  header nav ul li a {color:grey;
+	  text-decoration: none;}
+  
+  header nav {
+	border: 1px solid blue;
+	width: 75%;
+  
+  }
+  
+  header nav ul li {
+  
+  /* margin-right: 30px;*/
+  }
+  
+  header .logo {
+   
+	width: 150px;
+	height: 50px;
+	/*vertical-align: top;
+	/*margin: 0 0 0 135px;*/
+  }
+  .cta {
+	display:flex;
+	justify-content:space-around;
+  }
+  .cta .cta-text h1 {
+   
+	font-size:72px;
+	font-family: 'Bangers', cursive;
+	
+	text-align:center;
+  }
+  .cta .cta-text{
+	font-size:100px;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-around;
+	
+  }
+  .main-content {
+	display:flex;
+	flex-direction:column;
+	/*flex-wrap: wrap;	
+	justify-content: center;
+	border: 1px solid red;
+	*/
+  }
+  .top-content{
+	  display: flex;
+	  
+
+
+
+  }
+  
+.bottom-content {
+
+	display: flex;
 }
+text-content h4 {
+	font-weight: bold;
+}
+  
