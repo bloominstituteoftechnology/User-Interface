@@ -116,3 +116,33 @@ header nav ul li a:hover {
   display: block;
   margin: 20px auto 0;
 }
+.top-content {
+  width: 900px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-content {
+  width: 900px;
+  height: 175px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact {
+  width: 900px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer {
+  text-align: center;
+}
+.middle-img {
+  width: 900px;
+}
+p {
+  margin-right: 10px;
+}
