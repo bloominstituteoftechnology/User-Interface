@@ -62,3 +62,116 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 40px;
+    margin-top: 40px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 75px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #aaa;
+    line-height: 35px;
+}
+
+header img {
+    display: inline-block;
+    float: right;
+}
+
+.cta {
+    border-bottom: 2px solid black;
+    height: 520px;
+    padding: 60px 0px;
+}
+
+.cta-text {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cta img {
+    float: right;
+}
+
+.cta h1 {
+    font-size: 80px;
+}
+
+.cta button {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 0px 40px 3px;
+    font-family: inherit;
+}
+
+.top-content .text-content {
+    display: inline-block;
+    width: 50%;
+    padding: 40px 0;
+}
+
+
+.top-content :first-child {
+    float: left;
+}
+
+.top-content :last-child {
+    float: right;
+}
+
+.text-content p {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.text-content h4 {
+    font-size: 18px;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.bottom-content {
+    padding: 40px 0;
+    border-bottom: 2px solid black;
+}
+
+.bottom-content .text-content {
+    display: inline-block;
+    width: 33%;
+
+}
+
+.contact {
+    padding: 40px 0;
+}
+
+.contact p {
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
