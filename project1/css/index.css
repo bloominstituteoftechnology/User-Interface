@@ -66,25 +66,35 @@ h1, h2, h3, h4, h5 {
 .container{
 width: auto;
 margin: 0 auto;
-border: 1px solid black;
+display:flex;
+flex-direction: column;
+
 
 }
 
 header{
 	width: auto;
 	height: 65px;
-	border: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
 	
 	
 
 }
 
+header nav ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 nav ul li{
-	display: inline-block;
-	width: 80px;
-	margin-right: 40px;
-	margin-top: 21px;
-	border: 1px solid black; 
+	
+	width: 150px;
+
+	
 
 }
 
@@ -93,29 +103,74 @@ nav ul li a{
 	text-decoration: none;
 }
 
-div .logo {
-	float: right;
-	margin-top: -22px;
-	margin-right: 90px; 
+header .logo{
+	width: 150px;
+	height:45px; 
+
 }
 
-.cta {
-	display: inline-block;
+.cta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 550px;
+
 }
-.cta .cta-text {
+
+.cta-text{
 	height: 400px;
-	width: 400px;
-	font-size: 100px;
-	margin-left: 30px;
-	border: 1px solid blue;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
 
 }
 
-.cta .cta-text h1 {
+.cta-text h1{
+	font-size: 85px;
+	text-align: center;
+	padding: 40px 0 10px 0;
+}
+
+.cta-text button{
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+	
+	
+}
+
+.top-content{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+
+}
+
+.middle-img{
+	width: 100%;
+	padding: 0 20px;
+}
+
+
+.bottom-content{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+
+}
+
+footer{
 	text-align: center;
 }
-
-
-
-
-
