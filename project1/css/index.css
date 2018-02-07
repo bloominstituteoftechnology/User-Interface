@@ -1,5 +1,15 @@
+html,body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
 .container {
-	width: 900px;
+	width: 950px;
 	margin: 0 auto;
 }
 
@@ -72,7 +82,7 @@ header nav {
 .bottom-content {
 	display: flex;
 	justify-content: space-between;
-	margin: 5px;
+	margin-right: 10px;
 }
 
 footer {
