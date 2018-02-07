@@ -49,12 +49,14 @@ table {
 
  /*Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
+		
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,7 +65,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-
+/*My code stars here*/
 .container {
 	width: 1200px;
 	margin: 0 auto;
@@ -72,8 +74,9 @@ h1, h2, h3, h4, h5 {
   .logo {
 	  float: right;
 	  margin-top: -25px
-  }
-  .cta img {
+	}
+	
+  .cta img { /*image next to Inovation on Demand*/
 
    margin-top: 100px; 
 
@@ -103,11 +106,10 @@ h1, h2, h3, h4, h5 {
   .cta {
 	font-size: 72px;
   }
-  
+	
   .cta .cta-text {
 	width: 650px;
 	height: 400px;
-	display: inline-block;
 	float: left;
 	margin-top: 150px;
   }
@@ -124,8 +126,38 @@ h1, h2, h3, h4, h5 {
   
   .cta .cta-text h1 {
 	text-align: center;  
-  }
-  
+	}
+	.main-content{
+		width: 1200px;
+		flex-direction: column;
+		display: flex;
+		 
+		
+	}
+	.top-content{
+		display: flex;
+		flex-direction: row;
+		
+	}
+	.middle-img{
+		padding-top: 50px;
+		padding-bottom: 50px
+	}
+
+	.bottom-content{
+		display: flex;
+		padding-right: 10px;
+	}
+
+	.contact{
+		padding-top: 200px;
+	}
+  footer{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		display: flex;
+		justify-content: center;
+	}
 	  
   
   
