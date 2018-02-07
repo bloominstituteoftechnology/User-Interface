@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -61,4 +61,99 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+header nav {
+  border: 1px solid blue;
+  width: 600px;
+  display: inline-block;
+}
+
+header nav ul li {
+  display: inline-block; 
+  margin-right: 30px;
+}
+
+header .logo {
+  display: inline-block;
+  width: 0px;
+  height: 50px;
+  vertical-align: top;
+  margin: 0 0 0 120px;
+}
+
+.cta {
+  display: inline-block;
+  width: 100%;
+}
+
+.cta-text h1{
+  font-size: 48px;
+  width: 100px;
+  height: 150px;  
+}
+
+.cta .cta-text {
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  vertical-align: top;
+}
+
+.main-content {
+  display:inline-block;
+  width: 100%;
+}
+
+.main-content .top-content {
+  display: inline-block;
+  
+}
+
+.top-content .text-content {
+  display: inline-block;
+  width: 49%;
+  height: 120px;
+}
+
+.main-content .middle-img {
+  margin: 40px 0 40px 0;
+}
+
+.main-content .bottom-content {
+  display: inline-block;
+}
+
+.bottom-content .text-content {
+  display: inline-block;
+  width: 33%;
+  height: 120px;
+  margin-bottom: 40px
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  display:inline-block;
+  margin: 0 0 0 40%;
 }
