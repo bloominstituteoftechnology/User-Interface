@@ -36,6 +36,12 @@ a {
 	padding-bottom: 10%;
 }
 
+.cta-text {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .innovation {
 	font-family: bangers;
 	font-size: 450%;
