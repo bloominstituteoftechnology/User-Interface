@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,41 +24,115 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
+.container {
+	width: 800px;
+	margin: 0 auto;
 }
-ol, ul {
+
+header {
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header nav {
+	width: 600px;
+}
+
+header nav ul {
 	list-style: none;
+	display: flex;
+	justify-content: space-around;
 }
+
+header nav ul li a {
+	color: grey;
+	text-decoration: none;
+}
+
+section.cta {
+	display: flex;
+	font-size: 72px;
+	justify-content: space-around;
+	padding-bottom: 30px;
+}
+
+div.cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+div.cta-text h1 {
+	text-align: center;
+}
+
+
+button {
+	background-color: white;
+	border: 1px solid grey;
+	font-size: 20px;
+	color: grey;
+}
+
+.main-content {
+}
+
+div.top-content {
+	display: flex;
+	border-top: 1px solid grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.text-content p {
+	padding: 10px;
+}
+
+div.text-content h4 {
+	padding: 10px;
+}
+
+div.bottom-content {
+	display: flex;
+	border-top: 1px solid grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
 }
