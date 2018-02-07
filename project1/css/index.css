@@ -61,12 +61,15 @@ header nav ul li a {
 section.cta {
 	display: flex;
 	font-size: 72px;
-	border-bottom: 1px solid black;
 	justify-content: space-around;
-
 }
 
 div.cta-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: space-around;
 }
 
 div.cta-text h1 {
