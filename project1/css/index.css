@@ -32,7 +32,6 @@ footer, header, hgroup, menu, nav, section {
 .container {
 	width: 800px;
 	margin: 0 auto;
-
 }
 
 header {
@@ -40,7 +39,6 @@ header {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
 }
 
 header nav {
@@ -77,9 +75,6 @@ div.cta-text h1 {
 	text-align: center;
 }
 
-.cta img {
-
-}
 
 button {
 	background-color: white;
@@ -111,7 +106,6 @@ div.bottom-content {
 	border-top: 1px solid grey;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
 }
 
 
@@ -128,7 +122,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-
 }
 
 /* Set every element's box-sizing to border-box */
