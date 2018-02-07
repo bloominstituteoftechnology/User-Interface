@@ -62,3 +62,103 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+  }
+  
+  header {
+	display: flex; 	
+	flex-direction: row;
+	justify-content: space-around;
+  }
+  
+  header nav ul li {
+	display: inline-block;
+	margin-right: 40px;
+	
+  }
+  
+  header nav ul li a {
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+	text-decoration: underline;
+  }
+
+  section {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-around; 
+	  margin-bottom: 50px;
+	  margin-top: 50px; 
+  }
+
+  .cta-text h1{
+	  font-size: 72px; 
+	  text-align: center;
+  }
+
+  .cta-text {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+  }
+
+  .cta .cta-text button {
+	  width: 250px;
+	  height: 40px;
+	  background-color: white;
+	  border: 1px solid black;
+	  font-size: 15px;
+  }
+  nav {
+	  margin-top: 10px;
+  }
+
+  .main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+  }
+
+  .top-content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2%;
+  }
+
+  .bottom-content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 2%;
+  }
+
+  .contact{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+
+  footer{
+	  display: flex;
+	  justify-content: center;
+	  padding-bottom: 
+  }
+
+  .text-content {
+	  padding: 2%;
+  }
