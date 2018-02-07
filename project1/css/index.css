@@ -62,3 +62,113 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px 60px;
+}
+
+header {
+	margin-bottom: 100px;
+}
+
+header nav {
+	float: left;
+}
+
+header nav ul li {
+	float: left;
+	margin-right: 60px;
+	line-height: 36px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: silver;
+}
+
+img.logo {
+	float: right;
+}
+
+section.cta {
+	clear: both;
+}
+
+section.cta .cta-text {
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+
+section.cta .cta-text h1 {
+	font-size: 5rem;
+	margin-top: 40px;
+}
+
+section.cta .cta-text button {
+	background-color: #fff;
+    color: #000;
+	border: 1px solid #000;
+	padding: 10px 40px;
+}
+
+section.cta img {
+	float: right;
+	display: block;
+	margin-bottom: 80px;
+}
+
+section.main-content {
+	clear: both;
+	border: #000 1px solid;
+	border-left: none;
+	border-right: none;
+	height: 100%;
+}
+
+.top-content, .bottom-content {
+	display: inline-block;
+}
+
+.text-content {
+	padding: 40px 0;
+}
+
+.top-content .text-content {
+	width: 50%;
+	float: left;
+}
+
+img.middle-img {
+	width: 100%;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	float: left;
+	padding-right: 10px;
+}
+
+.contact {
+	clear: both;
+	margin-top:40px;
+}
+
+.contact p {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+}
+
+h4 { 
+	display: block;
+    font-size: 1em;
+}
