@@ -62,3 +62,107 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	width: 800 px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	border: 1px white;
+	align-content: center;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav {
+	border: 1px white;
+	width: 600px;
+	flex-grow: 1;
+	margin-top: 10px;
+}
+
+header nav ul li a {
+	vertical-align: center;
+	text-decoration: none;
+	color: gray;
+}
+
+.cta {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	margin-bottom: 20px;
+}
+
+.cta .cta-text h1 {
+	font-size: 64px;
+}
+
+.cta .cta-text {
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.cta .cta-text button {
+	font-size: 20px;
+	color: gray;
+	align-self: center;
+}
+
+section.cta img {
+	width: 350px;
+	height: auto;
+}
+
+.main-content {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	align-content: space-between;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-around; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+} 
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+	margin-top: 30px;
+	margin-bottom: 30px;
+} 
+
+.main-content img {
+	width: 100%;	
+}
+
+.contact h4 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.contact p {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
