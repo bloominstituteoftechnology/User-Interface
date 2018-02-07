@@ -16,9 +16,13 @@
 }
 
 .navButtons {
-	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 
