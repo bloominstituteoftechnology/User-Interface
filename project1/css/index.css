@@ -58,9 +58,15 @@ a {
 .main-content {
 	display: flex;
 	flex-direction: column;
+	border-bottom: 1px solid black;
 }
 
 .top-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.bottom-content {
 	display: flex;
 	flex-direction: row;
 }
