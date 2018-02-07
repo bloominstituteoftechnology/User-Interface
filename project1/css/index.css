@@ -46,22 +46,26 @@ header {
 
 
 header nav {
+	border: 1px solid black;
+	width: 600px;
+
 }
 
 header nav ul {
 	list-style: none;
 	display: flex;
+	border: 1px solid black;
+
 }
 
-a {
+header nav ul li a {
 	color: grey;
 	text-decoration: none;
 	padding: 1rem;
+	border: 1px solid black;
+
 }
 
-section {
-	width: 900px;
-}
 
 section.cta {
 	font-size: 72px;
