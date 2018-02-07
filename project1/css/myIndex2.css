@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+/******************************************TOP***************************************/
+
+body {
+    margin: 25px 500px;
+}
+
+header {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    /* border: solid yellow; */
+    flex-grow: 1;
+}
+
+ul {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.extraSpace {
+    padding: 25px 25px;
+}
+
+.logo {
+    /* border: solid yellow; */
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cta-text {
+    /* border: solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 5pc;
+}
+
+button {
+    font-size: 1pc;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 75px;
+}
+
+/************************************BOTTOM****************************************/
+
+.top-content {
+    /* border: solid yellow; */
+    border-top: 1px solid black;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-img {
+    /* border: solid yellow; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-content {
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    /* border: solid yellow; */
+    margin: 5px;
+}
+
+.contact {
+    /* border: solid yellow; */
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4 {
+    padding: 5px 0;
+}
+
+p {
+    padding: 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
