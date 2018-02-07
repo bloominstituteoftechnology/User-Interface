@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,14 +24,106 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+.container {
+	width: 900px;
+	margin: auto;
+}
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+header nav {
+	width: 600px;
+}
+header nav ul {
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+a {
+	color: gray;
+	text-decoration: none;
+}
+.cta {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:  45px 0;
+}
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+.cta .cta-text h1 {
+	font-size: 75px;
+}
+button {
+	background-color: white;
+	font-size: 16px;
+	border: black solid 1px;
+	width: 170px;
+	padding: 10px;
+}
+.main-content {
+	border-top: black solid 1px;
+
+}
+.top-content {
+	display: flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	align-content: center;
+	padding: 30px 0;
+}
+.top-content .text-content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.2em;
+}
+.middle-img {
+	width: 100%;
+}
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.bottom-content .text-content {
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.2em;
+	width: 280px;
+}
+.contact {
+	border-top:  black solid 1px;
+	height: 200px;
+	padding-top: 50px;
+}
+.contact p {
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+footer {
+	padding: 50px;
+	text-align: center;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ul li {
 	list-style: none;
 }
 blockquote, q {
