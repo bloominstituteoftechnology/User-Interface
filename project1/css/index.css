@@ -23,6 +23,28 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/* Default button style reset */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -95,13 +117,17 @@ nav ul li {
 
 }
 
-.button {
+button {
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
 	width: 175px;
 	height: 35px;
 	border: 1px solid black;
-	font-size 16px;
+	font-size: 16px;
 	display: block;
 	margin: 20px auto 0;
+	cursor: pointer;
 }
 
 .cta-text {
