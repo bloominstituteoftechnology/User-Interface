@@ -26,7 +26,87 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
+
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+  }
+  
+  header {
+	display: flex;
+	width: 100%;
+
+  }
+  
+  header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	margin: 10px;
+  }
+  
+  header nav {
+
+	width: 600px;
+	flex-grow: 1
+  }
+  header nav ul li {
+	  margin: 10 px;
+  }
+  
+  header nav ul li a {
+	text-decoration: none;
+	color: grey;
+	margin: 10px;
+  }
+  
+  header .logo {
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+  }
+  
+  .cta {
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  .cta .cta-text h1 {
+	font-size: 72px;
+  }
+  
+  .cta .cta-text {
+	  font-size: 100px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: space-around;
+  }
+  
+  .cta .cta-text button{
+	  font-size: 20px;
+	  color: gray;
+	  background-color: white;
+	  border: 1px solid gray;
+  }
+}
+header nav li {
+	margin: 10px;
+	border: 1px solid rosybrown;
+	justify-content: space-around;
+
+	align-items: center;
+	
+}
+header nav li ul a{
+	color: grey;
+	font-style: none;
+}
+.cta{
+	font-size: 70px;
 }
 body {
 	line-height: 1;
@@ -46,19 +126,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.top-content{
+	display: flex;
+	
+}
+.top-content .text-content{
+	margin: 10px;
+}
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.middle-iamge{
+	display: flex;
+align-items: center;
+
+}
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.bottom-content{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.contact p{
+	justify-content: space-around;
+	margin: 10px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+	margin-bottom: 10px; 
+	
 }
