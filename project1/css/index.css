@@ -38,9 +38,9 @@ footer, header, hgroup, menu, nav, section {
 header {
 	display: flex;
 	width: 100%;
-}
+	padding-top: 20px;
+	padding-bottom: 20px;
 
-header .logo {
 }
 
 header nav {
@@ -62,6 +62,7 @@ section.cta {
 	display: flex;
 	font-size: 72px;
 	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 div.cta-text {
@@ -77,10 +78,10 @@ div.cta-text h1 {
 }
 
 .cta img {
+
 }
 
 button {
-
 	background-color: white;
 	border: 1px solid grey;
 	font-size: 20px;
@@ -88,11 +89,17 @@ button {
 }
 
 div.top-content {
+	display: flex;
+	border-top: 1px solid grey;
+	padding-top: 20px;
 
 }
 
-div.text-content {
+div.text-content p {
+	padding: 10px;
 }
+
+
 
 blockquote, q {
 	quotes: none;
