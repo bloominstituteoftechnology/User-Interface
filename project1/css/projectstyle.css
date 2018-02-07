@@ -78,6 +78,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0 0 20px 0;
 }
 
 .cta-text{
@@ -106,6 +107,10 @@ height: 25%;
     display: flex;
     flex-flow: column;
     align-items: center;
+    align-content: center;
+    padding: 35px 0 40px 0;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
   
    /* border: dotted 2px green; */
 }
@@ -115,6 +120,8 @@ height: 25%;
 display: flex;
 flex-flow: row;
 justify-content: space-around;
+width: 90%;
+font-size: 125%;
 
 }
 
@@ -128,6 +135,8 @@ justify-content: space-around;
      display: flex;
      flex-flow: row;
      text-align: left;
+     width: 90%;
+     font-size: 125%;
 }
 
 /* contact / footer */
@@ -135,8 +144,11 @@ justify-content: space-around;
 .contact{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: left;
     justify-content: space-around;
     align-content: space-around;
+    width: 17%;
 }
 
 footer{
