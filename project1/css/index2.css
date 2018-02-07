@@ -63,23 +63,28 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+/* Begin CSS Customization */
 body {
 	width: 900px;
+	height: auto;
 }
 
 header {
 }
 
 header nav {
-	display: inline-block;
+	display: inline-flex;
+	vertical-align: middle;
 }
 
 ul {
 }
 
 ul li {
-	display: inline-block;
-	margin: 10px 30px;
+	display: inline-flex;
+	flex-direction: column;
+	width: 110px;
+	text-align: center;
 }
 
 ul a {
@@ -88,20 +93,19 @@ ul a {
 }
 
 .logo {	
-	float: right;
-	margin: 1px;
+	vertical-align: middle;
+	margin-left: 10px;
 }
 
 .cta {
-	display: block;
 	height: 400px;
-	margin: 50px auto;
+	margin: 50px 0px;
+	display: flex;
+	justify-content: center;
 }
 
 .cta .cta-text {
 	margin-top: 50px;
-	margin-left: 100px;
-	float: left;
 	text-align: center;
 }
 
@@ -114,13 +118,11 @@ button {
 	height: 30px;
 	border: 1px solid black;
 	background-color: white;
-	display: inline-block;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 section img {
-	float: left;
 	margin-left: 80px;
 }
 
@@ -131,18 +133,21 @@ section img {
 }
 
 .top-content {
+	display: inline-flex;
 }
 
 .top-content .text-content {
-	display: inline-block;
 	width: 425px;
 	margin-top: 25px;
 	margin-left: 10px;
 	margin-bottom: 25px;
 }
 
+.bottom-content {
+	display: inline-flex;
+}
+
 .bottom-content .text-content {
-	display: inline-block;
 	width: 280px;
 	margin-top: 25px;
 	margin-left: 10px;

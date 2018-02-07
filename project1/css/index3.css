@@ -63,50 +63,55 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-body {
-	width: 900px;
+.container {
+    width: 900px;
+    margin: 0 auto;
 }
 
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
 }
 
 header nav {
-	display: inline-block;
+    width: 70%;
 }
 
-ul {
+header nav ul {
+    display: flex;
+    justify-content: space-around;
 }
 
-ul li {
-	display: inline-block;
-	margin: 10px 30px;
+header nav ul li {
 }
 
-ul a {
+header nav ul li a {
 	text-decoration: none;
 	color: grey;
 }
 
 .logo {	
-	float: right;
-	margin: 1px;
 }
 
 .cta {
-	display: block;
-	height: 400px;
-	margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    margin: 40px 0px;
 }
 
 .cta .cta-text {
-	margin-top: 50px;
-	margin-left: 100px;
-	float: left;
-	text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cta .cta-text h1 {
-	font-size: 80px;
+    font-size: 80px;
 }
 
 button {
@@ -114,48 +119,44 @@ button {
 	height: 30px;
 	border: 1px solid black;
 	background-color: white;
-	display: inline-block;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 section img {
-	float: left;
-	margin-left: 80px;
 }
 
 .main-content {
-	width: 900px;
+    width: 900px;
+    height: 500px;
 	border-top: 2px solid grey;
-	border-bottom: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .top-content {
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-content .text-content {
-	display: inline-block;
-	width: 425px;
-	margin-top: 25px;
-	margin-left: 10px;
-	margin-bottom: 25px;
+    width: 425px;
 }
 
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
 .bottom-content .text-content {
-	display: inline-block;
-	width: 280px;
-	margin-top: 25px;
-	margin-left: 10px;
-	margin-bottom: 25px;
+    width: 280px;
 }
 .middle-img {
-	float: right;
-	margin-right: 10px;
+    width: 100%;
 }
 
 .contact {
 	width: 900px;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 footer {
