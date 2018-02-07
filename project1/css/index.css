@@ -28,11 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body { 
 	line-height: 1;
 }
+.container {
+	padding: 10px;
+	display: block;
+	color: black;
+}
 ol, ul {
-	list-style: none;
+	list-style: horizontal;
+	display: inline;
+	margin-right: 10px;
+	text-align: top;
+}
+li {
+	display: inline;
+	padding: 20px;
+
+
 }
 blockquote, q {
 	quotes: none;
