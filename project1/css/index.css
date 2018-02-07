@@ -38,3 +38,11 @@ a {
 	font-family: bangers;
 	font-size: 450%;
 }
+
+.getStarted {
+	font-family: sans-serif;
+	background-color: white;
+	width: 14vw;
+	height: 7vh;
+	border-radius: 5px;
+}
