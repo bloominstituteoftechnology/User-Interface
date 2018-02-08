@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,32 +73,34 @@ h1, h2, h3, h4, h5 {
 
 header {
 	margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav {
-	float: left;
+	width: 600px;
+    
 }
 
-header nav ul li {
-	float: left;
-	margin-right: 60px;
-	line-height: 36px;
+header nav ul {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    
 }
 header nav ul li a {
 	text-decoration: none;
 	color: silver;
 }
 
-img.logo {
-	float: right;
-}
-
 section.cta {
-	clear: both;
+	display: flex;
+    justify-content: space-around;    
 }
 
 section.cta .cta-text {
-	float: left;
 	text-align: center;
 	width: 50%;
 }
@@ -114,44 +118,29 @@ section.cta .cta-text button {
 }
 
 section.cta img {
-	float: right;
-	display: block;
 	margin-bottom: 80px;
 }
 
 section.main-content {
-	clear: both;
 	border: #000 1px solid;
 	border-left: none;
 	border-right: none;
-	height: 100%;
 }
 
 .top-content, .bottom-content {
-	display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .text-content {
-	padding: 40px 0;
-}
-
-.top-content .text-content {
-	width: 50%;
-	float: left;
+	padding: 40px 10px 40px 0;
 }
 
 img.middle-img {
-	width: 100%;
-}
-
-.bottom-content .text-content {
-	width: 33%;
-	float: left;
-	padding-right: 10px;
+    width: 100%;
 }
 
 .contact {
-	clear: both;
 	margin-top:40px;
 }
 
@@ -164,11 +153,9 @@ footer {
 }
 
 h1 { 
-    display: block;
     font-size: 2em;
 }
 
 h4 { 
-	display: block;
     font-size: 1em;
 }
