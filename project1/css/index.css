@@ -62,3 +62,280 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+
+
+/*  Ajmal Jalal's code starts here  */
+/*
+h1{
+	clear: both;
+	font-size: 70px;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+button{
+	clear: both;
+	display: block;
+	margin-left: 60px;
+	background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	
+}
+section img {
+	float: right;
+	clear:right;
+}
+
+nav {
+	margin: 50px;
+	display: block;
+}
+nav ul {
+	float: left;
+	display: block;
+	padding-left: 50px;
+}
+nav ul li{
+	margin: 20px;
+	display: block;
+	float: left;
+	padding: 0px 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	display:inline-block;
+	
+}
+
+.logo{
+	float: right;
+	margin-right: 150px;
+}
+.cta {
+	margin-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	display: inline-block;
+}
+.cta-text{
+	padding-left: 50px;
+	float: left;
+	clear:both;
+	text-align: center;
+	margin-left: 150px;
+	margin-top: 60px;
+	margin-right: 200px;
+}
+.main-content{
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	display: inline-block;
+
+
+}
+*/
+
+
+
+
+/*second way  
+
+
+.container{
+	width: 100%;
+	margin: 0px auto;
+}
+
+header{
+	width: 100%;
+	margin: 20px auto;
+	padding: 40px;
+	
+}
+
+header nav{
+	display: inline-block;
+	margin: 0px 100px;
+}
+header nav ul li {
+	display: inline;
+	margin-right: 70px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:grey;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.logo{
+	margin-left: 40px;
+}
+.cta{
+	widows: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.cta .cta-text{
+	display: inline-block;
+	margin-right: 100px;
+	font-size: 85px;
+	padding-bottom: 60px;
+}
+.cta .cta-text h1{
+	display:block;
+	padding-bottom:60px;
+	margin: 0px; 
+}
+
+.cta .cta-text button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+	padding: 5px 30px;
+	display: block;
+	margin: 0px auto;
+}
+
+.cta img{
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 100px;
+}
+.main-content{
+	width: 90%;
+	padding: 20px;
+	border-top: 1px solid black;
+	margin: 0px auto;
+}
+
+*/ 
+
+
+
+/* FLEX-BOX solution to the challeng1 */
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 70%;
+}
+.container header{
+	width: 100%;
+	height: 5em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+	margin-bottom: 3em;
+
+
+}
+.container header nav ul {
+	display: flex;
+	width: 50em;
+	justify-content: space-around;
+}
+
+.container header nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3em;
+}
+
+.cta .cta-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.cta .cta-text h1{
+	font-size: 85px;
+	text-align: center;
+
+}
+
+.cta .cta-text button{
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	padding: 1em 3em;
+	display: block;
+}
+
+.main-content{
+	align-content: space-around;
+}
+
+.main-content .top-content{
+	display: flex;
+
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 0;
+	
+}
+
+.main-content img{
+	width: 100%;
+}
+
+.main-content .bottom-content{
+	display: flex;
+	padding: 2em 0;
+}
+
+
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2em 0;
+
+}
+
+.contact p {
+	margin: 1em 0;
+}
+
+footer{
+	width: 100%;
+	align-items: flex-start;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5em;
+
+}
+
