@@ -55,10 +55,107 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px 60px;
+}
+
+header {
+	margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+	width: 600px;
+    
+}
+
+header nav ul {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    
+}
+header nav ul li a {
+	text-decoration: none;
+	color: silver;
+}
+
+section.cta {
+	display: flex;
+    justify-content: space-around;    
+}
+
+section.cta .cta-text {
+	text-align: center;
+	width: 50%;
+}
+
+section.cta .cta-text h1 {
+	font-size: 5rem;
+	margin-top: 40px;
+}
+
+section.cta .cta-text button {
+	background-color: #fff;
+    color: #000;
+	border: 1px solid #000;
+	padding: 10px 40px;
+}
+
+section.cta img {
+	margin-bottom: 80px;
+}
+
+section.main-content {
+	border: #000 1px solid;
+	border-left: none;
+	border-right: none;
+}
+
+.top-content, .bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+	padding: 40px 10px 40px 0;
+}
+
+img.middle-img {
+    width: 100%;
+}
+
+.contact {
+	margin-top:40px;
+}
+
+.contact p {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 { 
+    font-size: 2em;
+}
+
+h4 { 
+    font-size: 1em;
 }
