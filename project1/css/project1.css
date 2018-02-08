@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    
+
+   
+  }
+  
+  header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  
+  header nav ul li {
+      display:inline-flex;
+      margin: 30px;
+  }
+  
+  header nav ul li a {
+    color: grey;  
+    text-decoration: none;
+    
+    
+  }
+  
+
+
+  
+   .logo{
+      
+      width: 200px;
+      height: 40px;
+      
+  }
+
+  .cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .cta .cta-text{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+   
+    
+  }
+  .cta .jumbotron {
+    font-size: 72px;
+    
+    
+    
+    
+  }
+  
+  .cta .jumbotron .jumbotron-cta {
+  
+    
+   
+    
+    
+  }
+  
+  .cta .jumbotron .jumbotron-cta button {
+    width: 175px;
+    height: 35px;
+    background: white;
+    
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+  }
+  
+ 
+
+  .jumbotron .jumbotron-cta h1 {
+     
+  }
+  
+  
+  
+  .jumbotron .main-img {
+    width: 300px;
+    height: 300px;
+    
+    margin-right: 40px; 
+   
+    
+  }
+
+  .main-content{
+ display: flex;
+flex-direction: column;
+  }
+  .main-content .top-content{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  
+  
+ 
+  }
+
+  .main-content .top-content .text-content1{
+  width: 400px;
+  height: 300px;
+  font-size: 18px;
+  margin-right: 70px;
+  
+  
+  }
+
+  .main-content .top-content .text-content2{
+  width: 400px;
+  height: 300px;
+  font-size: 18px;
+    
+  }
+
+  .main-content .middle-img{
+    align-self: center;
+
+  }
+  
+  
+  
+  
+
+  .main-content .bottom-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+  
+    
+    
+    
+    height: 200px;
+    margin-right:235px;
+    margin-left: 235px;
+    
+  }
+
+  .main-content .bottom-content .text-content1{
+   width: 250px;
+   height: 300px;
+   align-self: flex-start;
+   margin: 20px;
+   font-size: 18px;
+   
+  }
+
+  .main-content .bottom-content .text-content2{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    font-size: 18px;
+  }
+ 
+  .main-content .bottom-content .text-content3{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .contact{
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 18px;
+  }
+  .footer{
+    margin-top: 100px;
+    align-self: center;
+    
+  }
