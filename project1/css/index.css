@@ -67,41 +67,37 @@ h1, h2, h3, h4, h5 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
-    border: 1px solid green;
+/*    border: 1px solid green;*/
 }
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    border: 1px solid green;
+    justify-content: space-around;
+    align-content: center;
+    align-items: baseline;
+/*    border: 1px solid green;*/
     width: 100%;
     margin: 20px;
 }
 header nav {
 /*    width: 600px;*/
     margin-bottom: 10px;
-    border: 2px solid black;
+/*    border: 2px solid black;*/
     width: 70%
     
     
 }
 nav ul li {
 	 display: inline;
-     margin-right: 30px;
+     margin-right: 50px;
 }
 nav ul li a {
 	text-decoration: none;
     color: grey;
     font-size: 14px;
-    margin: 5px;
+    margin: 10px;
  } 
 .logo {
-/*	display: inline;
-    border: 1px solid red;
-    margin: 20px;
-    width: 30%;
-/*    align-self: baseline;*/
 }
 .cta {
     margin: 20px;
@@ -116,7 +112,7 @@ nav ul li a {
     font-size: 60px;
     text-align: center;
     padding: 70px 0;
-    border: 1px solid purple;
+/*    border: 1px solid purple;*/
     width: 50%
     
 }
@@ -128,12 +124,12 @@ nav ul li a {
 }
 .cta img {
     margin: 20px;
-    border: 1px solid grey;
+/*    border: 1px solid grey;*/
 }
 .middle-img {
 /*	grid-auto-columns: */
     margin: 40px;
-/*    align-self: center;*/
+    align-self: center;
 /*
     justify-content: center;
     align-content: center;
@@ -170,7 +166,7 @@ nav ul li a {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    border: 1px solid teal;
+/*    border: 1px solid teal;*/
 /*
     display: block;
     margin-left: auto;
@@ -187,14 +183,20 @@ nav ul li a {
 	column-count: 3;
 	column-gap: 1em;
 }
-* .contact {
+.contact {
     margin:
 	display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: flex-end;
     padding-left: 35px;
-    border: 1px solid silver;
+    padding-bottom: 40px;
+/*    border: 1px solid silver;*/
+
+}
+.contact p {
+/*    content: "\A";*/
+/*    white-space: pre-line;*/
 }
 footer {
     margin:20px;
@@ -202,5 +204,6 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: space-around;
-    border: 1px solid green;
+/*    border: 1px solid green;*/
+    padding-bottom: 60px;
 }
