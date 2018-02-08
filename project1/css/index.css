@@ -98,21 +98,17 @@ header {
 	margin-bottom: 50px;
 }
 
+.cta {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
 button {
 	width: 35%;
 	background-color: white;
 	border: 1px solid black;
 	height: 30px;
-}
-
-h4 {
-	padding-bottom: 5px;
-}
-
-.cta {
-	margin-bottom: 50px;
-	display: flex;
-	align-items: center;
 }
 
 .cta-text{
@@ -126,13 +122,17 @@ h4 {
 	border-bottom: 1px solid black;
 }
 
+h4 {
+	padding-bottom: 5px;
+}
+
 .top-content {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .top-content .text-content {
-	width: 45%;
+	width: 50%;
 	display: inline-block;
 	padding-bottom: 35px;
 	padding-top: 35px;
@@ -144,11 +144,12 @@ h4 {
 
 .bottom-content {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-content: center;
 }
 
 .bottom-content .text-content{
-	width: 30%;
+	width: 32%;
 	display: inline-block;
 	padding-top: 35px;
 	padding-bottom: 35px;
