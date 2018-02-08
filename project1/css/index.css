@@ -1,64 +1,100 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+header {
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+header ul {
+    display: flex;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+header li {
+    margin-right: 75px;
 }
+
+header li a {
+    text-decoration: none;
+    color: #aaa;
+    line-height: 35px;
+}
+
+.cta {
+    border-bottom: 2px solid black;
+    height: 520px;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta-text {
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cta img {
+    float: right;
+}
+
+.cta h1 {
+    font-size: 80px;
+}
+
+.cta button {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 0px 40px 3px;
+    font-family: inherit;
+}
+
+.top-content {
+    display: flex;
+}
+
+.top-content .text-content {
+    width: 50%;
+    padding: 40px 0;
+}
+
+.text-content p {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.text-content h4 {
+    font-size: 18px;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.bottom-content {
+    padding: 40px 0;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.bottom-content .text-content {
+    width: 33%;
+}
+
+.contact {
+    padding: 40px 0;
+}
+
+.contact p {
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
