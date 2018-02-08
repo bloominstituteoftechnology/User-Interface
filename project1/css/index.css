@@ -55,10 +55,108 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 45%;
+    height: 100%;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    margin: 0 30% 0 30%;
+    text-decoration: none;
+    color: silver;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6% 0 6% 0;
+}
+
+.cta-text {
+    text-align: center;
+}
+
+.cta-text h1 {
+    font-size: 75px;
+}
+
+.cta-text button {
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+}
+
+.main-content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.top-content {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-content .text-content {
+    text-align: left;
+}
+
+.middle-img {
+    width: 100%;
+    margin: 2% 0 2% 0;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0 3% 0;
+}
+
+.bottom-content .text-content {
+    text-align: left;
+    font-size: 16px
+}
+
+.contact {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3%;
+}
+
+.contact p {
+    padding: 1% 0 1% 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
