@@ -58,20 +58,31 @@ html, body {
 	padding: 2%;
 }
 
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
+header {
+	display: flex;
+	align-content: space-around;
+	align-items: center;
+}
+
 nav {
-	width: 95%;
+	width: 80%;
 }
 
 header li {
-	width: 12%;
-	float: left;
-	padding: 10px;
+	width: 15%;
+	display: inline-block;
+	font-size: 1em;
 }
 
 header a {
@@ -80,8 +91,6 @@ header a {
 }
 
 header .img .logo {
-	float: right;
-	margin: 5px;
 	width: 15%;
 }
 
@@ -102,19 +111,24 @@ h4 {
 
 .cta {
 	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
 }
 
 .cta-text{
 	width: 50%;
-	float: left;
 	text-align: center;
-	font-size: 50px;
-	padding-top: 55px;	
+	font-size: 60px;
 }
 
 .main-content {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
 }
 
 .top-content .text-content {
@@ -124,12 +138,13 @@ h4 {
 	padding-top: 35px;
 }
 
-.top-content .text-content:first-child {
-	margin-right: 30px;
-}
-
 .img .middle-image {
 	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
 }
 
 .bottom-content .text-content{
@@ -137,14 +152,6 @@ h4 {
 	display: inline-block;
 	padding-top: 35px;
 	padding-bottom: 35px;
-}
-
-.bottom-content .text-content:first-child {
-	margin-right: 35px;
-}
-
-.bottom-content .text-content:last-child {
-	margin-left: 35px;
 }
 
 .contact {
@@ -157,6 +164,7 @@ p:nth-last-child(2) {
 }
 
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	margin: 70px;
 }
