@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -60,5 +60,76 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+	font-weight: bold; 
+}
+
+
+/* ========================================================================================================== */
+a:link {
+	text-decoration: none;
+}
+.menu {
+	width: 75%;
+	justify-content: space-around;
+
+}
+.menu ul {
+	display: flex;
+}
+.menu li {
+	margin: 10px;
+}
+
+
+.cta {
+	display: flex;
+	margin: 5em;
+	justify-content: space-around;
+}
+
+.cta-text{
+	align-self: center;
+	text-align: center;
+	font-size: 4em;
+}
+
+.cta button {
+	width: 10em;
+}
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+.top-content {
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between
+}
+
+.bottom-content {
+	display: flex;
+	margin-top: 40px;
+}
+hr {
+	margin: 25px;
+}
+.middle-img{
+	display: flex;
+}
+
+.contact {
+	margin: 25px;
+	height: 125px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
 }
