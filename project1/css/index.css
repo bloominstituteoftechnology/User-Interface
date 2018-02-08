@@ -54,11 +54,118 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 2%;
+}
+
+.container {
+	width: 876px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+header {
+	display: flex;
+	align-content: space-around;
+	align-items: center;
+}
+
+nav {
+	width: 80%;
+}
+
+header li {
+	width: 15%;
+	display: inline-block;
+	font-size: 1em;
+}
+
+header a {
+	text-decoration: none;
+	color: grey;
+}
+
+header .img .logo {
+	width: 15%;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.cta {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+button {
+	width: 35%;
+	background-color: white;
+	border: 1px solid black;
+	height: 30px;
+}
+
+.cta-text{
+	width: 50%;
+	text-align: center;
+	font-size: 60px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h4 {
+	padding-bottom: 5px;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-content .text-content {
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+
+.img .middle-image {
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.bottom-content .text-content{
+	width: 32%;
+	display: inline-block;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.contact {
+	padding-top: 20px;
+}
+
+p:nth-last-child(2) {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 70px;
 }
