@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: inline-block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -66,28 +66,32 @@ h1, h2, h3, h4, h5 {
 
 
 /* ========================================================================================================== */
+a:link {
+	text-decoration: none;
+}
 .menu {
-	display: inline-block;
+	width: 75%;
+	justify-content: space-around;
+
+}
+.menu ul {
+	display: flex;
 }
 .menu li {
-	display:inline-block;
-	margin:2em;
-}
-.logo {
-	display:inline-block;
+	margin: 10px;
 }
 
+
 .cta {
-	display: inline-block;
+	display: flex;
 	margin: 5em;
+	justify-content: space-around;
 }
 
 .cta-text{
+	align-self: center;
 	text-align: center;
-	display: inline-block;
 	font-size: 4em;
-	padding-right: 2em;
-	transform: translate(0%, -25%)
 }
 
 .cta button {
@@ -95,12 +99,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-content {
-	margin:50px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px;
 }
 .top-content {
-	column-count: 2;
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between
 }
 
 .bottom-content {
-	column-count: 3
+	display: flex;
+	margin-top: 40px;
+}
+hr {
+	margin: 25px;
+}
+.middle-img{
+	display: flex;
+}
+
+.contact {
+	margin: 25px;
+	height: 125px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
 }
