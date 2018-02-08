@@ -1,33 +1,43 @@
-body {
-    display: flex;
-    justify-content: center;
+/*body {
     
-  }
+    display: flex;
+    justify-content: flex-start;
+    
+  }*/
   
   .container {
-    border: 1px solid red;
-    width: 800px;
-    display: flex;
-    flex-direction: column;
+    
+    border: 3px solid red;
+    width: 900px;
+    /*display: flex;
+    /*flex-direction: column;*/
   }
   
   header {
-    border: 1px solid blue;
+    width: 100%;
+    
+    border: 2px solid rgb(9, 9, 172);
     display: flex;
-    flex direction: row;
+    
     justify-content: space-around;
+  }
+
+  nav {
+    display: flex;
+    /* not needed may jam errthing together 
+    justify-content: space-around;*/
+    
   }
   
   header nav ul {
     display: flex;
-    flex direction: row;
+    /*list-style: none;*/
     justify-content: space-around;
-    a
   }
   
   header nav ul li {
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: space-around;
   }
   
@@ -35,21 +45,28 @@ body {
     display: flex;
     text-decoration: none;
     color: gray;
-    justify-self: space-around;
+    justify-self: flex-end;
+    margin: 20px;
     
     
   }
   
   .cta {
+    
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-content: flex-start;
     
   }
   
   .cta-text {
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
-    justify-content: ;
-    font-size: 30px;
+    justify-content: center;
+    /*ustify-content: space-between;*/
+    text-align: center;
+    font-size: 35px;
   }
+
