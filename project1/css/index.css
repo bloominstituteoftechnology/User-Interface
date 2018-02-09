@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -62,3 +63,160 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+body {
+	margin: auto;
+	width: 80%;
+}
+
+header {
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-evenly;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 20px 50px 20px 0;
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 50px 0;
+}
+
+.cta-text {
+
+	font-size: 75px;
+}
+
+.cta-text button {
+	font-size: 20px;
+	margin: 0 0 0 50px;
+	width: 175px;
+}
+
+.main-content {
+	flex-direction: column;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.top-content .text-content {
+	/* margin-right: 10px;	 */
+	width: 50%;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 30px 0 30px 0;
+}
+
+.bottom-content {
+	display: flex;
+}
+
+.bottom-content .text-content {
+	margin-right: 10px;	
+}
+
+hr {
+	margin: 50px 0 25px 0;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 130px;
+}
+
+.contact h4 {
+	margin: 0;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin: 40px 0 0 0;
+}
+
+/* nav li {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 6%;
+	margin-top: 15px;
+}
+
+.logo {
+	margin: 10px 5% 0 5px;
+	float: right;
+}
+
+.cta {
+	text-align: center;
+	padding-top: 75px;
+	clear: both;
+}
+
+.cta-text {
+	font-size: 75px;
+	display: inline;
+	margin: 75px 0 0 75px;
+	float: left;
+}
+
+.cta-text button {
+	font-size: 20px;
+	margin-bottom: 120px;
+}
+
+hr {
+	margin: 50px 0 25px 0;
+	clear: both;
+}
+
+.main-content {
+	clear: both;
+}
+
+.top-content .text-content {
+	float: left;
+	width: 50%;
+	padding-right: 10px;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 30px 0 30px 0;
+}
+
+.bottom-content .text-content {
+	float: left;
+	width: 33%;
+	padding-right: 10px;
+	margin-bottom: 25px;
+}
+
+.contact {
+	clear: both;
+}
+
+p {
+	margin: 15px 0 0 0;
+}
+
+footer {
+	text-align: center;
+	margin: 40px 0 0 0;
+} */
