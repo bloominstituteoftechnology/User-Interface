@@ -62,3 +62,75 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+.container{
+	width:800px;
+	margin: 30px auto;
+}
+header{
+  display:flex;
+	width:100%;
+	align-content:center;
+}
+header nav{
+	width:800px;
+}
+header nav ul{
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+}
+header nav ul li{
+  margin-right:30px;
+}
+header nav ul li a{
+  text-decoration:none;
+  color:gray;
+}
+.cta{
+  display:flex;
+  justify-content:space-around;
+  margin: 20px;
+}
+.cta .cta-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.cta .cta-text h1{
+    font-size: 76px;
+}
+
+.cta .cta-text button{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.main-content{
+	width:800px;
+}
+.main-content .top-content{
+	display:flex;
+	color: black;
+
+}
+.main-content .top-content .text-content{
+	width: 48%;
+}
+.main-content .bottom-content{
+	display:flex;
+	color: black;
+}
+.main-content .bottom-content .text-content{
+	width: 33%;
+}
+.newLine{
+	word-wrap: break-word;
+}
+footer{
+	display:flex;
+	justify-content: center;
+}
