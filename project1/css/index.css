@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,24 +24,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -61,4 +48,94 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+	width: 876;
+	margin: 25 auto 0 auto;
+}
+header {  /* // use because there's only one header */
+	display: flex;
+}
+header nav {
+flex-grow: 1;
+margin: 0 75px 0 0;
+}
+
+header nav ul {
+	display: flex;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+}
+/* CTA */
+.cta {
+	margin: 50px 0 100px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta .cta-text {  /* why do i need this if .cta-text is unique */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta img {
+	display: flex;
+	justify-content: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	font-size: 18px;
+	height: 30px;
+	width: 150px;
+}
+/* main content */
+.main-content {
+	margin: 30px;
+}
+
+.main-content .middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+
+.main-content .top-content, .main-content .bottom-content {
+	display: flex;
+	text-align: center;
+}
+
+.text-content {
+	margin: 30px 0;
+}
+/* contact */
+.contact {
+	margin: 30px 0;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px 100px 50px 100px;
 }
