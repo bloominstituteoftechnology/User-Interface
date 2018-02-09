@@ -63,76 +63,89 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 .container {
-	width: 1000px;
-	margin: 0 auto;
+    width: 900px;
+    margin: 25px auto 0 auto;
+    
 }
 
 header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+    display: flex;
+  
 }
 
-header nav ul li {
-	display: inline-block;
-	margin: 50px;
+ header nav {
+     flex-grow: 1;
+ }
+ 
+header nav ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 75px 0 0;
 }
 
 header nav ul li a {
-	color: gray;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
 }
 
-.logo {
-	width: 100px;
-}
+.cta {
 
-section {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+    margin: 50px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
 }
-
-.cta-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.cta .cta-text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
 .cta-text h1 {
-	text-align: center;
+font-size: 75px;
+display:flex;
+text-align: center;
+
+}   
+
+.cta .cta-text button {
+    font-size: 20px;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
 }
 
 .main-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.text-content {
+    margin: 30px 0;
+}
+.main-content .top-content, .main-content .bottom-content {
+    display: flex;
 }
 
-.top-content {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
+.bottom-content .text-content {
+    padding-right: 10px;
 }
 
-.middle-img {
-	padding: 50px;
-}
-
-.bottom-content {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 50px;
+.contact {
+    margin: 30px 0;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 footer {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px 0;
 }
-.contact {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-}
+
+
+
