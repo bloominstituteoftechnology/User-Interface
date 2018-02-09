@@ -129,20 +129,17 @@ button {
 
 
 .top-content {
-	column-count: 2;
-	column-gap: 20px;
-	padding-top: 25px;
+	display: flex;
+	margin: 25px 0;
 }
 
 .middle-img {
-	padding-top: 25px;
+	flex-grow: 1;
 }
 
 .bottom-content {
-	column-count: 3;
-	column-gap: 20px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	display: flex;
+	margin: 25px 0;
 }
 
 .contact {
@@ -153,7 +150,9 @@ button {
 
 footer {
 	/* display: inline-block; */
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin; 50px 0 100px 0;
 }
 
 
