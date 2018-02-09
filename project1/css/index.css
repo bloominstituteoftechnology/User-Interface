@@ -76,7 +76,7 @@ header {
 }
 
 nav {
-	width: 80%;
+	flex-grow: 1;
 }
 
 header li {
@@ -90,30 +90,30 @@ header a {
 	color: grey;
 }
 
-header .img .logo {
-	width: 15%;
-}
-
 header {
 	margin-bottom: 5%;
 }
 
+/* call to action */
 .cta {
 	margin-bottom: 5%;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 button {
-	width: 35%;
+	width: 45%;
 	background-color: white;
 	border: 1px solid black;
 	height: 2em;
 }
 
-.cta-text{
-	width: 50%;
+.cta-text {
 	text-align: center;
+}
+
+.cta-text h1 {
 	font-size: 4em;
 }
 
@@ -126,37 +126,24 @@ h4 {
 	padding-bottom: 5px;
 }
 
-.top-content {
-	display: flex;
-	justify-content: space-between;
-}
-
-.top-content .text-content {
-	width: 50%;
-	display: inline-block;
-	padding-bottom: 2em;
-	padding-top: 2em;
-}
-
-.img .middle-image {
-	width: 100%;
-}
-
-.bottom-content {
+.top-content, .bottom-content {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
 }
 
-.bottom-content .text-content{
-	width: 32%;
-	display: inline-block;
-	padding-top: 2em;
-	padding-bottom: 2em;
+.bottom-content .text-content {
+	padding-right: 10px;
+}
+
+.text-content {
+	margin: 30px 0px;
 }
 
 .contact {
-	padding-top: 2em;
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
 }
 
 p:nth-last-child(2) {
