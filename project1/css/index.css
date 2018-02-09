@@ -69,7 +69,89 @@ body {
 	width: 80%;
 }
 
-nav li {
+header {
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-evenly;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 20px 50px 20px 0;
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 50px 0;
+}
+
+.cta-text {
+
+	font-size: 75px;
+}
+
+.cta-text button {
+	font-size: 20px;
+	margin: 0 0 0 50px;
+	width: 175px;
+}
+
+.main-content {
+	flex-direction: column;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.top-content .text-content {
+	/* margin-right: 10px;	 */
+	width: 50%;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 30px 0 30px 0;
+}
+
+.bottom-content {
+	display: flex;
+}
+
+.bottom-content .text-content {
+	margin-right: 10px;	
+}
+
+hr {
+	margin: 50px 0 25px 0;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 130px;
+}
+
+.contact h4 {
+	margin: 0;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin: 40px 0 0 0;
+}
+
+/* nav li {
 	float: left;
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 6%;
@@ -89,14 +171,14 @@ nav li {
 
 .cta-text {
 	font-size: 75px;
-	/* display: inline; */
+	display: inline;
 	margin: 75px 0 0 75px;
 	float: left;
 }
 
 .cta-text button {
 	font-size: 20px;
-	/* margin-bottom: 120px; */
+	margin-bottom: 120px;
 }
 
 hr {
@@ -137,4 +219,4 @@ p {
 footer {
 	text-align: center;
 	margin: 40px 0 0 0;
-}
+} */
