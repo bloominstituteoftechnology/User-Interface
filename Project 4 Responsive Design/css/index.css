@@ -222,7 +222,10 @@ header nav ul li a:hover {
     color: black;
 }
 
-md{
+.dropdown{
+	display:none;
+}
+.hamburger{
 	display:none;
 }
 
@@ -342,6 +345,7 @@ footer {
     header nav ul {
         width: 100%;
         margin: 20px 0;
+		display:flex;
     }
 
     header .logo {
@@ -394,14 +398,17 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-
+	.hamburger{
+		display:none;
+	}
     header nav{
        width: 100%;
     }
 	header nav ul li a{
 		display: none;
 	}
-	md{
+	/* The container <div> - needed to position the dropdown content */
+	.dropdown{
 		display: flex;
         text-align: center;
 		justify-content:center;
@@ -424,23 +431,17 @@ footer {
 		
 	}
 
-	/* The container <div> - needed to position the dropdown content */
-	.dropdown {
-		display: flex;
-		justify-content:center;
-	}
-
 	/* Dropdown Content (Hidden by Default) */
 	.dropdown-content {
-		width:320px;
+		width:100%;
 		margin-top:52px;
 		cursor: pointer;
 		display: none;
 		position: absolute;
 		background-color: #f1f1f1;
-		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
+		align-items: center;
 	}	
 
 	/* Links inside the dropdown */
@@ -449,7 +450,7 @@ footer {
 		padding: 12px 16px;
 		text-decoration: none;
 		display: flex;
-		text-align:center;
+		
 	}
 
 	/* Change color of dropdown links on hover */
@@ -464,7 +465,7 @@ footer {
 		flex-flow:column;
 	}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+	/* Change the background color of the dropdown button when the dropdown content is shown */
 	.dropdown:hover .dropbtn {
 		background-color: black;
 		color:white;
