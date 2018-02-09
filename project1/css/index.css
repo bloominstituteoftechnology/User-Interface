@@ -63,14 +63,23 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-.menu {
-	display: inline-block;
+container {
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
 	text-align: center;
 	margin: 50px;
-    top: 0;
-	left: 0;
-	float: left;
 	word-spacing: 50px;
+	align-items: center;
+}
+
+.menu {
+	flex-grow: 1;
+	font-size: 15pt;
+	margin: 0 75px 0 0;
 }
 
 a:link {
@@ -78,30 +87,28 @@ a:link {
 	color: gray;
 }
 
-.logo {
-	float: right;
-	margin: 40px;
-}
-
 .cta {
-	display: inline-block;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
 }
 
 .cta-text {
-	display: inline-block;
-	position: relative;
-	left: 100px;
+	/* display: inline-block; */
+	/* position: relative; */
+	/* left: 100px; */
 	text-align: center;
-	transform: translate(0%, -25%);
+	/* transform: translate(0%, -25%); */
 }
 
 h1 {
 	font-size: 4em;
 }
 .snippet {
-	transform: translate(75%, 0%);
-	position: relative;
-	right: 75px;
+	/* transform: translate(75%, 0%); */
+	/* position: relative; */
+	/* right: 75px; */
 }
 
 
@@ -139,13 +146,14 @@ button {
 }
 
 .contact {
-	margin-left: 50px;
+	/* display: inline-block; */
+	margin: 50px;
+
 }
 
 footer {
+	/* display: inline-block; */
 	text-align: center;
-	margin-left: 375px;
-	padding-bottom: 25px;	
 }
 
 
