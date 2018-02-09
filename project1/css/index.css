@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -62,3 +62,100 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+container {
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 50px;
+	word-spacing: 50px;
+	align-items: center;
+}
+
+.menu {
+	flex-grow: 1;
+	font-size: 15pt;
+	margin: 0 75px 0 0;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.cta-text {
+	/* display: inline-block; */
+	/* position: relative; */
+	/* left: 100px; */
+	text-align: center;
+	/* transform: translate(0%, -25%); */
+}
+
+h1 {
+	font-size: 4em;
+}
+.snippet {
+	/* transform: translate(75%, 0%); */
+	/* position: relative; */
+	/* right: 75px; */
+}
+
+
+button {
+	border-radius: rgb(29, 27, 27);
+	border-width: 5px;
+	font-size: 120%;
+	font: inherit;
+	padding: 10px;
+	width: 150px;
+	background-color: white;
+	color: rgb(29, 27, 27);
+}
+
+.main-content {
+	margin: 50px;
+}
+
+
+.top-content {
+	display: flex;
+	margin: 25px 0;
+}
+
+.middle-img {
+	flex-grow: 1;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 25px 0;
+}
+
+.contact {
+	/* display: inline-block; */
+	margin: 50px;
+
+}
+
+footer {
+	/* display: inline-block; */
+	display: flex;
+	justify-content: center;
+	margin; 50px 0 100px 0;
+}
+
+
+
+
+
