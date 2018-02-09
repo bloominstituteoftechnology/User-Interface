@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -62,3 +62,93 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.menu {
+	display: inline-block;
+	text-align: center;
+	margin: 50px;
+    top: 0;
+	left: 0;
+	float: left;
+	word-spacing: 50px;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	float: right;
+	margin: 40px;
+}
+
+.cta {
+	display: inline-block;
+}
+
+.cta-text {
+	display: inline-block;
+	position: relative;
+	left: 100px;
+	text-align: center;
+	transform: translate(0%, -25%);
+}
+
+h1 {
+	font-size: 4em;
+}
+.snippet {
+	transform: translate(75%, 0%);
+	position: relative;
+	right: 75px;
+}
+
+
+button {
+	border-radius: rgb(29, 27, 27);
+	border-width: 5px;
+	font-size: 120%;
+	font: inherit;
+	padding: 10px;
+	width: 150px;
+	background-color: white;
+	color: rgb(29, 27, 27);
+}
+
+.main-content {
+	margin: 50px;
+}
+
+
+.top-content {
+	column-count: 2;
+	column-gap: 20px;
+	padding-top: 25px;
+}
+
+.middle-img {
+	padding-top: 25px;
+}
+
+.bottom-content {
+	column-count: 3;
+	column-gap: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.contact {
+	margin-left: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-left: 375px;
+	padding-bottom: 25px;	
+}
+
+
+
+
+
