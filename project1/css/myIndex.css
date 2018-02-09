@@ -1,0 +1,89 @@
+/* body {
+    background-color: lightgreen;
+} */
+
+/********************************Top half********************************/
+.container {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    /* border: solid black; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+}
+
+ul li {
+    padding: 10px 50px;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-size: .8pc;
+    color: lightgrey;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.cta-text {
+    padding: 0 100px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    text-align: center;
+}
+
+.cta-text h1 {
+    font-size: 5pc;
+}
+
+.cta-text button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+
+/************************************Bottom half************************************/
+.main-content {
+    /* border: solid pink; */
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    align-items: center;
+    border-top: solid black;
+    border-bottom: sol      id black;
+    margin: auto;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 25px 0 10px 0;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 10px 0 25px 0;
+}
+
