@@ -76,7 +76,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -87,103 +86,115 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	margin: 40px 70px;
+	height: 60%;
+	width: 80%;
+	margin: auto;
+	padding: 3%;
+	/*border: thin solid red;*/
 }
 
-.logo {
-	margin-top: 10px;
-	margin-left: 75px;
+header {
+	display: flex;
+	width: 100%;
+	/*border: thin solid blue;*/
+	justify-content: space-between;
+	padding-right: 5%;
+	padding-left: 5%;
+
 }
 
-nav ul li {
-	display: inline-block;
-	float: left;
-	width: 100px;
-	height: 50px;
-	text-align: center;
-	margin: 25px 50px 50px 50px;
-	}
+header nav {
+	width: 70%;
+	/*border: thin solid gold;*/
+	align-self: center;
+}
 
-	nav ul li a {
-		text-decoration: none;
-		color: silver;
-	}
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	/*border: thin solid brown;*/
+}
 
-	h1 {
-		font-size: 90px;
-	}
+header nav ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: grey;
+}
+
+header .logo {
+
+}
+
+.cta .cta-text h1 {
+	font-size: 72px;
+}
 
 .cta {
-
+	margin: 10%;
+	display: flex;
+	justify-content: space-around;
 }
 
-button {
-	background-color: white;
+.cta .cta-text button {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+	padding: 8px 40px;
+}
+
+
+.cta .cta-text {
+	font-size: 100px;
 	text-align: center;
-	text-decoration: none;
-	width: 175px;
-	height: 35px;
-	border: 1px solid black;
-	font-size: 16px;
-	display: block;
-	margin: 20px auto 0;
-	cursor: pointer;
 }
 
-.cta-text {
-	padding: 50px;
-	margin: 50px 50px 50px 250px;
-	text-align: center;
-	float: left;
-}
 
 .cta img {
 	height: 38%;
 	width: 38%;
-	padding: 50px;
-	margin: -35px 170px 50px 50px;
-	float: right;
 }
 
 .main-content {
 	border-top-color: black;
 	border-top-style: solid;
 	border-top-width: thin;
-	padding-top: 50px;
-	clear: both;
 }
 
 .top-content {
-	display: inline-block;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display: flex;
 }
 
 .text-content {
-	display: inline-block;
-	margin: 15px;
-	padding: 15px;
 }
 
 .bottom-content {
+	margin-top: 3%;
+	padding-bottom: 3%;
+	margin-bottom: 3%;
+	display: flex;
 	border-bottom-color: black;
 	border-bottom-style: solid;
 	border-bottom-width: thin;
-	padding-bottom: 50px;
-	margin-bottom: 30px;
+
 }
 
 .contact p {
+	/*border: 1px solid red;*/
 	text-align: left;
-	line-height: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 1%;
 }
 
 .middle-img {
-	display: block;
-	margin: 0 auto;
 	width: 100%;
 }
 
 footer {
+	margin-top: 5%;
 	text-align: center;
-	padding-bottom: 50px;
-	padding-top: 20px;
 }
