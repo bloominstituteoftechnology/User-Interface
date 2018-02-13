@@ -90,13 +90,11 @@ h1, h2, h3, h4, h5 {
 	width: 80%;
 	margin: auto;
 	padding: 3%;
-	/*border: thin solid red;*/
 }
 
 header {
 	display: flex;
 	width: 100%;
-	/*border: thin solid blue;*/
 	justify-content: space-between;
 	padding-right: 5%;
 	padding-left: 5%;
@@ -105,14 +103,12 @@ header {
 
 header nav {
 	width: 70%;
-	/*border: thin solid gold;*/
 	align-self: center;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: space-between;
-	/*border: thin solid brown;*/
 }
 
 header nav ul li a {
@@ -182,7 +178,6 @@ header .logo {
 }
 
 .contact p {
-	/*border: 1px solid red;*/
 	text-align: left;
 	display: flex;
 	flex-direction: column;
