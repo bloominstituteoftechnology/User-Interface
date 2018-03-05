@@ -162,7 +162,7 @@ nav li {
 }
 
 .contact {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	display: inline-block;
 	margin-left: 40px;
 }
@@ -170,6 +170,16 @@ nav li {
 .contact p {
 	margin-bottom: 15px;
 }
+
+footer {
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-bottom: 15%;
+}
+
+
+
+
 
 
 
