@@ -70,16 +70,18 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: inline-block;
+	margin-top: 20px;
 }
 
 nav {
 	display: inline-block;
-	margin: 40px 60px;
+	margin-left: 80px;
+	margin-right: 100px;
 }
 
 nav ul li {
 	display: inline-block;
-	margin: 10px 35px;
+	margin: 20px;
 }
 
 .cta {
