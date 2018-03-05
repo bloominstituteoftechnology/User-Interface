@@ -88,4 +88,39 @@ nav li {
 	margin: 0 40px;
 }
 
+.cta {
+	/*border: 1px solid red;*/
+	margin-bottom: 40px;
+}
+
+.cta .cta-text {
+	/*border: 1px solid blue;*/
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 15%;
+}
+
+.cta .cta-text button {
+	border: 1px solid black;
+	font-size: 16px;
+	margin-top: 10px;
+/*	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;*/
+	padding: 5px 40px 5px 40px;
+	vertical-align: top;
+}
+
+.cta img {
+	/*border: 1px solid blue;*/
+	display: inline block;
+	margin-left: 15%;
+}
+
+
+
+
+
 
