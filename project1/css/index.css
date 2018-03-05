@@ -162,3 +162,16 @@ header nav li {
 .main-content img {
   width: 100%;
 }
+
+/* Section 3 - .contact */
+
+.contact * {
+  margin: 20px 70px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin: 50px 0 100px;
+}
