@@ -70,7 +70,9 @@ nav {
 
 nav a {
 	display: inline-block;
-	margin: 0 50px;
+	margin: 0 55px;
+	text-decoration:none;
+	color: grey;
 }
 
 .logoA {
@@ -80,10 +82,13 @@ nav a {
 
 .logo {
 	display: inline-block;
-	margin-left: 500px;
+	margin-left: 150px;
+	margin-top: 40px;
 }
 
 .cta-text {
 	display: inline-block;
-	margin: 400px 150px;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 250px;
 }
