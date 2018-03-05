@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container header {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .cta .cta-text {
-	margin: 60px 0px 0px 40px;
+	margin: 70px 0px 0px 80px;
 	font-size: 60px;
 	vertical-align: top;
 	text-align: center;
@@ -107,6 +107,26 @@ h1, h2, h3, h4, h5 {
 }
 
 .cta img {
-	margin: 10px 0px 0px 40px;
+	margin: 20px 0px 0px 80px;
+	display: inline-block;
+}
+
+.main-content {
+	margin: 60px 0px;
+	border-width: 1px 0px 1px 0px;
+	border-color: grey;
+	border-style: solid;
+	display: inline-block;
+}
+
+.text-content {
+	margin: 25px 40px;
+	width: 350px;
+	display: inline-block;
+}
+
+.bottom-content .text-content {
+	margin: 25px 40px;
+	width: 200px;
 	display: inline-block;
 }
