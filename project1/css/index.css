@@ -62,3 +62,35 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	height: 60%;
+	width: 80%;
+	margin: auto;
+	padding: 3%;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+}
+header nav ul li {
+	margin-right: 30px;
+}
+header nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	text-decoration: underline;
+}
