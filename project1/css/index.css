@@ -136,3 +136,29 @@ header nav li {
 .main-content {
   clear: both;
 }
+
+/* Section 2 - .main-content */
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0 50px;
+}
+
+.main-content .text-content {
+  display: inline-block;
+}
+
+.main-content .top-content .text-content {
+  width: 40%;
+  margin: 50px 4%;
+}
+
+.main-content .bottom-content .text-content {
+  width: 25%;
+  margin: 50px 3%;
+}
+
+.main-content img {
+  width: 100%;
+}
