@@ -150,6 +150,7 @@ nav li {
 
 .main-content .bottom-content {
 	/*border: 1px solid red;*/
+	margin-bottom: 30px;
 }
 
 .main-content .bottom-content .text-content{
@@ -159,4 +160,17 @@ nav li {
 	padding: 10px;
 	width: 30%;
 }
+
+.contact {
+	border: 1px solid red;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.contact p {
+	margin-bottom: 15px;
+}
+
+
+
 
