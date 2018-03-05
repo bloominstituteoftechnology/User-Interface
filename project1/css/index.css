@@ -79,6 +79,7 @@ h4 {
 
 p {
 	font-size: 30px;
+	padding: 10px 0px;
 }
 
 button {
@@ -101,7 +102,7 @@ li {
 	display: inline-block;
 	margin: 15px 20px;
 	padding: 20px 35px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .logo {
@@ -142,7 +143,7 @@ section.cta img {
 }
 
 .text-content {
-	margin: 35px 0px;
+	margin: 50px 0px;
 	padding: 0px 5px 0px 0px;
 	display: inline-block;
 	text-align: start;
@@ -161,7 +162,7 @@ section.cta img {
 }
 
 .contact {
-	margin: 25px 0px;
+	margin: 50px 0px;
 	text-align: start;
 }
 
@@ -172,4 +173,8 @@ footer {
 
 .clear {
 	clear: both;
+}
+
+br {
+	padding: 50px 0px;
 }
