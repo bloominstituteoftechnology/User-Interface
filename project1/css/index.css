@@ -184,3 +184,7 @@ header .logo {
 .cta img {
   display: inline-block;
 }
+
+hr {
+  width: 1100px;
+}
