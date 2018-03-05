@@ -62,3 +62,36 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+header nav {
+	display: inline-block;
+}
+
+header nav ul li {
+	display: inline-block;
+	width: 200px;
+}
+
+.cta {
+	display: inline-block;
+}
+
+.cta-text {
+	display: inline-block;
+	font-size: 4vw;
+	text-align: center;
+}
+
+.top-content {
+	display: inline-block;
+}
+
+.text-content {
+	display: block;
+	text-align: center;
+}
+
+.middle-img {
+	display: inline-block;
+	align: center;
+}
