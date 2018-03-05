@@ -62,3 +62,97 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	margin: 40px 60px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px 35px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 160px;
+}
+
+.cta .cta-text {
+	display: flex;
+	font-size: 70px;
+	margin-top: 50px;
+	text-align: center;
+	flex-direction: column;
+}
+
+.cta .cta-text button {
+	text-align: center;
+	justify-content: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: white;
+}
+
+.cta img {
+	display: flex;
+}
+
+
+.top-content {
+	display: flex;
+	margin: 40px 0px;
+}
+
+.top-content .text-content {
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.main-content {
+	display: flex;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 40px 0px;
+}
+
+.bottom-content .text-content {
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 100px;
+}
+
+.contact p {
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
