@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+/* where i started*/
+
+header nav {
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: rgba(220, 200, 220, 1);
+}
+
+header img.logo {
+  float: right;
+  margin-top: -20px;
+}
+.cta .cta-text {
+  display: inline block;
+  color: black;
+  font-size: 100px;
+  padding-top: 200px;
+  padding-left: 200px;
+  margin-right: 1200px;
+  text-align: center;
+}
+.cta img {
+  /*border: 1px solid blue;*/
+  display: inline block;
+  margin-left: 50%;
+}
+.cta-text button {
+  background-color: white;
+  border-color: black;
+  padding: 5px 50px;
+  font-size: 25px;
+}
+/* header nav{
+    display:inline-block;
+
+}
+header img{
+	display:inline-block;
+
+	padding-top: 60px;
+	  padding-left: 200px;
+
+  }
+  header nav li a{
+	display: inline-block;
+
+	margin-left: 115px;
+	padding-right:50px;
+
+font-size:20px;
+	color: gray;
+	text-decoration: none;
+
+}
+a{
+
+}
+.cta{
+	display:inline block;
+	border: 1px solid green;
+}
+.cta-text{
+	display: inline block;
+	color:black;
+	border: 1px solid red;
+	font-size:100px;
+	padding-top:200px;
+	padding-left:200px;
+	margin-right: 1200px;
+	text-align: center;
+} */
