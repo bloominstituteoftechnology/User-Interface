@@ -71,23 +71,21 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0 auto;
-	border: 10px solid blueviolet;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .list {
-	border: 5px solid blue;
 	display: inline-block;
 	margin: 20px;
 }
 
 li {
-	border: 2px solid green;
 	display: inline-block;
 	margin: 15px 20px;
 }
 
 .logo {
-	border: 5px solid sandybrown;
 	float: right;
 	align-content: center;
 	margin: 20px;
@@ -95,9 +93,8 @@ li {
 
 }
 
-
-.cta {
-	border: 5px solid indianred;
+section.cta {
+	margin: 20px 0px 50px;
 }
 
 div.cta-text {
@@ -106,57 +103,55 @@ div.cta-text {
 	font-size: 50px;
 	text-align: center;
 	align-content: center;
-	padding: 15%;
+	margin: 5px;
 }
 
 img.cta {
 	width: 10%;
 	display: inline-block;
-	padding: 15%;
 }
 
 .main-content {
-	border: 5px solid green;
 	display: inline-block;
 }
 
 .main-content .top-content {
-	border: 5px solid sienna;
+	width: 100%;
+	border-top: 1px solid black;
 }
 
 .main-content .middle-img {
-	border: 5px solid cornflowerblue;
-	width: 90%;
+	width: 100%;
 	display: block;
-	margin: 0 auto;
 }
 
 .text-content {
-	border: 5px solid orange;
-	padding: 10px;
+	margin: 35px 0px;
+	padding: 0px 5px 0px 0px;
 	display: inline-block;
+	text-align: start;
 }
 
 .top-content .text-content {
-	width: 45%;
+	width: 49%;
 }
 
 .bottom-content .text-content {
-	width: 30%;
-	padding 3%;
+	width: 33%;
 }
 
 .main-content .bottom-content {
-	border: 5px solid rebeccapurple
+	border-bottom: 1px solid black;
 }
 
 .contact {
-	border: 5px solid purple;
+	margin: 25px 0px;
+	text-align: start;
 }
 
 footer {
-	border: 5px solid black;
 	text-align: center;
+	margin: 40px;
 }
 
 .clear {
