@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Code written by Devon Bacon */
 
 body {
-  min-width: 675px;
+  min-width: 750px;
 }
 
 /* Header */
@@ -83,7 +83,7 @@ header > * {
 }
 
 header nav {
-  margin: 30px 10px;
+  margin: 30px 0 30px 50px;
   vertical-align: top;
 }
 
@@ -93,7 +93,46 @@ header nav li {
 
 .logo {
   float: right;
-  margin: 20px;
-  margin-left: 0;
+  margin: 20px 10% 20px 0;
 }
 
+/* Section 1 - .cta */
+
+.cta > * {
+  display: inline-block;
+}
+
+.cta {
+  width: 675px;
+  height: 350px;
+  margin: 50px auto;
+}
+
+.cta-text {
+  text-align: center;
+  vertical-align: top;
+  margin: 50px 0 0 20px;
+  font-size: 60px;
+}
+
+.cta-text h1 {
+  margin-bottom: -20px;
+}
+
+.cta-text button {
+  padding: 5px 25px;
+  font-size: 14px;
+  border: 1px solid grey;
+  background-color: white;
+  -webkit-appearance: none;
+}
+
+.cta img {
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+}
+
+.main-content {
+  clear: both;
+}
