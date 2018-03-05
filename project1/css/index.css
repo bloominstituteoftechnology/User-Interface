@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 90%;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -63,6 +65,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 /*CODE ONLY BELOW THIS LINE///////////////////////////////////////////////////*/
+hr {
+	width: 100%;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
 header {
 	width: 100%;
 	height: auto;
@@ -71,7 +81,7 @@ header {
 
 nav li{
 	display: inline-block;
-	margin-left: 5%;
+	margin-right: 5%;
 }
 
 nav {
@@ -90,8 +100,13 @@ nav a {
 .logo {
 	display: inline-block;
 	margin-top: 1rem;
+	position: relative;
+	top: .3rem;
 }
-
+.cta {
+	margin-top: 7%;
+	margin-bottom: 10%;
+}
 .cta-text {
 	display: inline-block;
 	font-size: 5rem;
@@ -100,6 +115,7 @@ nav a {
 
 .cta-text h1 {
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .cta-wrapper {
@@ -107,4 +123,49 @@ nav a {
 	margin: 0 0 0 20%;
 }
 
+.cta a {
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: black;
+	border: .5px solid black;
+	padding: .2rem 1.5rem;
+	margin-left: 25%;
+}
 
+.main-content {
+	width: 100%;
+}
+
+.top-content .text-content {
+	width: 50%;
+	display: inline-block;
+	padding: 5%;
+}
+
+.middle-img {
+	width: 90%;
+	margin-left: 5%;
+	height: 30vh;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+	padding: 5%;
+}
+
+.contact, footer {
+	margin-left: 5%;
+}
+
+.contact {
+	line-height: 2.5
+}
+
+.contact-together {
+	line-height: 1;
+}
+
+footer {
+	text-align: center;
+}
