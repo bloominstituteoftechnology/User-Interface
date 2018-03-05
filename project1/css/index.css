@@ -68,78 +68,67 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-header nav {
+header {
+	display: flex;
+	justify-content: space-between;
 }
 
 header nav li {
+	margin: 15px;
 	display: inline-block;
-	margin-right: 40px;
-	margin-top: 20px;
 }
 
 header nav li a {
 	text-decoration: none;
-	color: rgba(220,200,220,1);
+	color: rgba(200,200,200,1);
 }
 
-header img.logo {
-	float: right;
-	margin-top: -20px;
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px;
 }
 
-section.cta {
-	padding: 50px;
+.cta img {
+	flex-basis: 400px;
 }
 
-.cta-text {
-	display: inline-block;
+.cta .cta-text {
 	font-size: 68px;
-	width: 40%;
+	margin-top: 30px;
 	text-align: center;
-	margin-right: 80px;
+	flex-basis: 400px;
+	margin-right: 40px;
 }
 
 .cta .cta-text button {
 	font-size: 18px;
-	background-color: #fff;
-	border: 1px solid black;
 	padding: 5px 40px;
+	border: 1px solid #000;
+	background-color: #fff;
 }
 
-.cta img {
-	width: 40%;
-	margin-top: 20px;
+.main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 5px;
 }
 
-
-.top-content .text-content {
-	display: inline-block;
-	width: 49%;
-	margin: 30px 0;
-}
-
-.main-content .middle-image {
-	display: inline-block;
-}
-
-.bottom-content .text-content {
-	display: inline-block;
-	width: 32.3333%;
-	margin: 30px 0;
+.main-content .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 5px;
 }
 
 .contact {
-	margin: 30px 5px;
+	margin: 40px 0;
 }
 
-p.phone {
+.phone {
 	margin: 20px 0;
 }
 
 footer {
-	text-align: center;
-}
-
-hr {
-	color: #000;
+	display: flex;
+	justify-content: center;
 }
