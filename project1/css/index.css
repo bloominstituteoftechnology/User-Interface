@@ -62,3 +62,83 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+div.container {
+	margin: auto;
+}
+header {
+	text-align: center;
+}
+header nav {
+	display: inline-block;
+}
+
+div.container header nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+header img {
+	margin-left: 25px;
+}
+header nav ul li {
+	display: inline-block;
+
+	margin: 0 40px;
+}
+
+section.cta img {
+	display: inline-block;
+}
+
+section.cta div.cta-text {
+	text-align: center;
+	display: inline-block;
+	font-size: 75px;
+	margin: 0 100px;
+	
+}
+
+section.main-content {
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	margin: 50px;
+	padding: 25px;
+}
+
+div.top-content div.text-content{
+	display: inline-block;
+	width: 450px;
+	margin-top: 10px;
+}
+
+section.main-content img {
+	padding: 10px;
+	width: 900px;
+}
+div.bottom-content div.text-content {
+	display: inline-block;
+	width: 250px;
+	margin: 15px;
+	margin-top: 10px;
+	}
+
+button {
+	border: 1px solid black;
+	padding: 0px 50px;
+	margin-bottom: -100px;
+	}
+section.contact {
+	margin-left: 50px;
+}
+section.contact p {
+	margin-top: 25px;
+}
+
+footer {
+	margin-left: 475px;
+}
+
+div.container section.cta {
+	margin: 50px;
+}
