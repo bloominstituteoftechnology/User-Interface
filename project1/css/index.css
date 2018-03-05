@@ -150,7 +150,7 @@ h5 {
 }
 /* body  */
 .container {
-  margin: 0px 45px;
+  margin: 0px 60px;
 }
 
 /* Navigation section */
@@ -185,11 +185,13 @@ header img {
   margin-top: 18px;
 }
 
+.container section {
+  border-bottom: 2px black solid;
+  width: 100%;
+}
 /* above the fold */
 .cta {
   height: 400px;
-  border-bottom: 2px black solid;
-  width: 100%;
 }
 
 .cta-text {
@@ -220,4 +222,31 @@ header img {
   width: 150px;
   margin-left: 70px;
   background-color: rgb(239, 239, 239);
+}
+
+/* main content */
+.main-content {
+  height: auto;
+}
+
+.top-content {
+  width: 100%;
+}
+
+.text-content {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.top-content .text-content {
+  width: 49%;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-content .text-content {
+  width: 30%;
 }
