@@ -92,3 +92,14 @@ nav a {
 	text-align: center;
 	margin-left: 250px;
 }
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 38px;
+}
+
+.line1 {
+	width: 80px;
+}
