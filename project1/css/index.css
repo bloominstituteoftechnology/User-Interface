@@ -77,7 +77,7 @@ body {
 }
 
 header {
-	margin-bottom: 50px;
+	margin-bottom: 65px;
 }
 
 header * {
@@ -100,14 +100,19 @@ nav a{
 }
 
 .cta-text {
-	display: inline-block;
-	vertical-align: middle;
+	margin-left: 80px;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 75px;
 }
 
 .cta img {
-	margin-left: 400px;
+	margin-left: 100px;
 }
 
 .cta-text, .cta img {
 	vertical-align: middle;
+	display: inline-block;
 }
