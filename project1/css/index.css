@@ -77,14 +77,20 @@ h1, h2, h3, h4, h5 {
 .list {
 	border: 5px solid blue;
 	display: inline-block;
-	align-content: stretch;
+	margin: 20px;
+}
+
+li {
+	border: 2px solid green;
+	display: inline-block;
+	margin: 15px 20px;
 }
 
 .logo {
 	border: 5px solid sandybrown;
 	float: right;
 	align-content: center;
-	margin-top: 20px;
+	margin: 20px;
 	width: 23%;
 
 }
