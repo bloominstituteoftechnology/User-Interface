@@ -69,10 +69,27 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
+h1 {
+	font-size: 125px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 30px;
+}
+
+button {
+	font-size: 30px;
+	margin: 30px;
+}
+
 .container {
 	margin: 0 auto;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .list {
@@ -83,6 +100,8 @@ h1, h2, h3, h4, h5 {
 li {
 	display: inline-block;
 	margin: 15px 20px;
+	padding: 20px 35px;
+	font-size: 20px;
 }
 
 .logo {
@@ -90,25 +109,22 @@ li {
 	align-content: center;
 	margin: 20px;
 	width: 23%;
-
 }
 
 section.cta {
-	margin: 20px 0px 50px;
+	margin: 80px 0px 50px;
 }
 
 div.cta-text {
 	width: 50%;
 	display: inline-block;
-	font-size: 50px;
 	text-align: center;
 	align-content: center;
-	margin: 5px;
+	margin-bottom: 20px;
 }
 
-img.cta {
-	width: 10%;
-	display: inline-block;
+section.cta img {
+	width: 35%;
 }
 
 .main-content {
