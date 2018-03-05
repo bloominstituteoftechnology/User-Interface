@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-  margin: 0;
+  margin-right: 100px;
 }
 
 .container {
@@ -119,7 +119,7 @@ header .logo {
 }
 .logo {
   height: 45px;
-  width: 150px;
+  width: 160px;
 }
 
 .cta {
@@ -165,7 +165,8 @@ margin-bottom: 130px;
 
 .main-content .top-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 70px;
 }
 
 .main-content .bottom-content {
@@ -178,18 +179,35 @@ margin-bottom: 130px;
   width: 400px;
 }
 
-div .top-content {
-  border-top: 1px solid black;
+.top-content {
+  border-top: 2px solid gray;
+}
+
+.bottom-content {
+border-bottom: 2px solid black;
 }
 
 .contact {
-  border-top: 1px solid black;
+line-height: 1.5;
 }
 
 .main-content .top-content .text-content {
-  display: flex;
-  align-content: center;
+  display: inline-block;
+  width: 490px;
+  line-height: 1.2;
 }
+
+.main-content .bottom-content .text-content {
+  display: inline-block;
+  align-content: center;
+  line-height: 1.2;
+}
+
+.main-content .top-content .text-content p {
+  width: 475px;
+}
+
+
 
 
 
