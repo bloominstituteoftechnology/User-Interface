@@ -62,3 +62,38 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* Code written by Devon Bacon */
+
+body {
+  min-width: 675px;
+}
+
+/* Header */
+
+header * {
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+}
+
+header > * {
+  margin: 10px;
+  padding: 0 auto;
+}
+
+header nav {
+  margin: 30px 10px;
+  vertical-align: top;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+.logo {
+  float: right;
+  margin: 20px;
+  margin-left: 0;
+}
+
