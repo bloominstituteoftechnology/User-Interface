@@ -217,3 +217,14 @@ hr {
 .main-content .bottom-content .text-content:nth-child(3) {
   margin: 15px 5px 15px 5px;
 }
+
+.contact {
+  display: inline-block;
+  width: 26%;
+  margin: 15px 5px 15px 143px;
+}
+
+.contact .address,
+.contact .telephone {
+  margin-bottom: 15px;
+}
