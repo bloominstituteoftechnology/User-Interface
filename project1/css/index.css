@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,13 +27,81 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	
 }
 body {
 	line-height: 1;
 }
+
+
+header nav  {
+margin-top: 40px;
+
+}
+li {
+	display: inline-block;
+	padding-right:60px;
+	padding-top:20px;
+}
+header img {
+	padding-left: 1200px;
+    margin-top:0px;
+	display: inline-block;
+}
+
+
 ol, ul {
 	list-style: none;
+    padding-left: 100px;
+    display: inline-block;
+	
+}
+.cta{
+	padding-top: 100px;
+}
+
+.cta-text{
+	display: inline-block;
+	font-size: 80px;
+	padding-top: 50px;
+	padding-left: 300px;
+	text-align: center;
+}
+.cta button {
+	font-size: 30px;
+}
+
+.cta img {
+	display: inline-block;
+	padding-left: 300px;
+}
+.main-content{
+padding: 60px;
+
+
+}
+
+.top-content {
+
+ padding-top: 30px;
+ border-top: 1px solid black;
+ 
+}
+
+
+.top-content .text-content {
+padding:20px;
+margin-left:20px;
+width:600px;
+display: inline-block;
+height:150px;
+}
+
+
+.main-content img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width:1320px;
 }
 blockquote, q {
 	quotes: none;
