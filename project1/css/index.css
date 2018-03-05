@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,84 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.container header {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.container header nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.container header nav li {
+	display: inline-block;
+}
+
+.container header img {
+	display: inline-block;
+	margin-left:20px;
+}
+
+.cta {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.cta .cta-text {
+	margin: 70px 0px 0px 80px;
+	font-size: 60px;
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+}
+
+.cta .cta-text button {
+	background-color: white;
+	color: black;
+	width: 160px;
+	height: 30px;
+}
+
+.cta img {
+	margin: 20px 0px 0px 80px;
+	display: inline-block;
+}
+
+.main-content {
+	margin: 60px 0px;
+	border-width: 1px 0px 1px 0px;
+	border-color: grey;
+	border-style: solid;
+	display: inline-block;
+}
+
+.text-content {
+	margin: 25px 40px;
+	width: 350px;
+	display: inline-block;
+}
+
+.bottom-content .text-content {
+	margin: 25px 40px;
+	width: 200px;
+	display: inline-block;
+}
+
+.contact p {
+	margin: 0px 0px 20px 0px;
+}
+
+footer {
+	width: 300px;
+	margin: 0 auto;
+	padding: 40px 0px;
+	text-align: center;
 }
