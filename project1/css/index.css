@@ -62,3 +62,87 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* Jared's custom styles */
+body {
+	background-color: #161616; 
+}
+
+.container {
+	width: 876px;
+	margin: 0px auto;
+	padding: 25px 70px;
+	background-color: #FFFFFF;
+}
+
+.container, .main-content, header, 
+.cta, .top-content, .bottom-content,
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container, .main-content {
+	flex-direction: column;
+}
+
+header, .cta, .top-content, .bottom-content {
+	align-items: center;
+}
+
+.cta, .main-content {
+	margin-top: 60px;
+}
+
+.main-content img,
+.bottom-content, .contact, footer {
+	margin-top: 40px;
+}
+
+.main-content, .contact {
+	border-top: 1px solid #0D0D0D;
+	padding-top: 40px;
+}
+
+nav {
+	width: 65%;
+}
+
+nav a{
+	color: #BBBBBB;
+	text-decoration: none;
+}
+
+.cta-text {
+	margin: auto;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 75px;
+}
+
+.cta-text button {
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	padding: 8px 50px;
+	border: 1px solid #0D0D0D;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.text-content {
+	margin-right: 20px;
+}
+
+.text-content:last-child {
+	margin: 0px;
+}
+
+.contact p {
+	margin: 15px 0px;
+}
+
+footer {
+	text-align: center;
+}
