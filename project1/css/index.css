@@ -107,8 +107,17 @@ header img{
 }
 .cta-text{
 	display: inline-block;
+	margin-left: 100px;
+	text-align: center;
+}
+.cta-text h1{
+ font-size: 60px;
+ 
 }
 .cta img{
 	display: inline-block;
 	border: solid 1px purple;
+	margin-left: 180px;
 }
+}
+
