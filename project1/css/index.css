@@ -57,10 +57,23 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.container {
+	width: 1100px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
 header {
 	/*border: 1px solid red;*/
 	display: block;
 	padding-top: 30px;
+	margin-bottom: 50px;
 
 }
 
@@ -75,14 +88,4 @@ nav li {
 	margin: 0 40px;
 }
 
-.logo {
-	display: inline-block;
-	/*border: 1px solid orange;*/
-	margin-left: 200px;
-}
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
