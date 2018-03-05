@@ -163,9 +163,10 @@ header nav ul li a {
   text-decoration: none;
 }
 
-header img {
+header .logo {
   display: inline-block;
   margin-left: 150px;
+  margin-top: 10px;
 }
 
 .cta .cta-text {
