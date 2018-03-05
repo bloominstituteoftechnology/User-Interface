@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+hr {
+	border: 1px solid gray;
+	width: 92%;
+}
+
 .container {
 	width: 1100px;
 	border: 1px solid red;
