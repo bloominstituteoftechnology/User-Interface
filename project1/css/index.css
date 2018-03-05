@@ -62,3 +62,49 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+/*CODE ONLY BELOW THIS LINE///////////////////////////////////////////////////*/
+header {
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+nav {
+	width: 75%;
+	display: inline-block;
+}
+
+nav a {
+	color: #708090;
+	font-size: 1rem;
+	text-decoration: none;
+	margin: 1rem;
+
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 1rem;
+}
+
+.cta-text {
+	display: inline-block;
+	font-size: 5rem;
+	margin-right: 10rem;
+}
+
+.cta-text h1 {
+	margin-bottom: 0;
+}
+
+.cta-wrapper {
+	width: 100%;
+	margin: 0 0 0 20%;
+}
+
+
