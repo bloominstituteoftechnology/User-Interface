@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5 {
 
 .cta {
 	display: inline-block;
+	padding-top: 20px;
 }
 
 .cta .cta-text {
@@ -129,4 +130,15 @@ h1, h2, h3, h4, h5 {
 	margin: 25px 40px;
 	width: 200px;
 	display: inline-block;
+}
+
+.contact p {
+	margin: 0px 0px 20px 0px;
+}
+
+footer {
+	width: 300px;
+	margin: 0 auto;
+	padding: 40px 0px;
+	text-align: center;
 }
