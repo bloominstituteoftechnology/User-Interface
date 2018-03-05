@@ -62,3 +62,52 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* Jared's custom styles */
+body {
+	background-color: #161616; 
+}
+
+.container {
+	width: 876px;
+	box-sizing: content-box;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	padding: 25px 60px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+header * {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+header img {
+	margin-left: 40px;
+}
+
+nav a{
+	color: #BBBBBB;
+	text-decoration: none;
+	margin-right: 55px;
+}
+
+.cta {
+	margin-bottom: 50px;
+}
+
+.cta-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cta img {
+	margin-left: 400px;
+}
+
+.cta-text, .cta img {
+	vertical-align: middle;
+}
