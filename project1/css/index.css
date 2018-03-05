@@ -62,3 +62,65 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/*####################### My Code ######################*/
+
+
+
+header {
+	border: 1px solid black;
+	margin: 30px;	
+}
+
+header nav {
+	display: inline-block;
+	border: 1px solid red;
+	width: 1000px;
+	
+}
+
+header nav ul li{
+	display: inline-block;
+	border: 1px solid blue;
+	margin: 50px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: gray;
+}
+
+header img {
+	display: inline-block;
+	border: 1px solid green;
+	
+
+}
+
+.cta {
+	border: 3px solid black;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	width: 850px;
+	vertical-align: top;
+	border: 1px solid gold;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.cta .cta-text h1 {
+	font-size: 80px;
+	
+}
+
+.cta .cta-text button {
+	width: 180px;
+	font-size: 20px;
+	background-color: white;
+}
+
+.cta img {
+	display: inline-block;
+}
