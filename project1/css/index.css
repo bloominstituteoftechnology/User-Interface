@@ -62,3 +62,105 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 60px;
+}
+
+header img {
+	float: right;
+	margin-top: 10px;
+	margin-right: 15%;
+}
+
+nav {
+	margin-top: 20px;
+	width: 55%;
+	display: inline-block;
+	float: center;
+}
+
+header {
+	text-align: center;
+	margin: auto;
+}
+
+nav li a {
+	text-decoration: none;
+	color: gray;
+}
+
+.cta {
+	clear: both;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.cta .cta-text {
+	margin-left: 20%;
+	margin-top: 45px;
+}
+
+.cta-text {
+	float: left;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 75px;
+}
+
+.main-content {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.contact {
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
