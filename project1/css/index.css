@@ -62,3 +62,41 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+header nav ul li {
+  color: grey;
+  display: inline-block;
+  vertical-align: top;
+}
+header nav ul {
+  word-spacing: 30px;
+}
+header a {
+  color:grey;
+}
+.logo {
+  border: 1px solid red;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 650px;
+  }
+
+section h1 {
+  font-size: 50px;
+  margin-left: 50px;
+}
+section img {
+  display: inline-block;
+  margin-left: 400px;
+}
+section button {
+  margin-left: 50px;
+}
+.main-content {
+  margin: 50px;
+  display:inline;
+}
+.text-content h4{
+  border: 1px solid red;
+  display: inline-block;
+}
