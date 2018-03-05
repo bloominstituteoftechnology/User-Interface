@@ -107,17 +107,23 @@ header img{
 }
 .cta-text{
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 180px;
 	text-align: center;
+	vertical-align: top;
+	margin-top: 170px	
+
 }
 .cta-text h1{
  font-size: 60px;
  
 }
 .cta img{
+
+	vertical-align: top;
 	display: inline-block;
 	border: solid 1px purple;
-	margin-left: 180px;
+	margin-left: 100px;
+	margin-top: 80px;
 }
-}
+
 
