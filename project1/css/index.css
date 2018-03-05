@@ -62,3 +62,97 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* ----------------------------------------- */
+
+*{
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	border: 10px solid blueviolet;
+}
+
+.list {
+	border: 5px solid blue;
+	display: inline-block;
+	align-content: stretch;
+}
+
+.logo {
+	border: 5px solid sandybrown;
+	float: right;
+	align-content: center;
+	margin-top: 20px;
+	width: 23%;
+
+}
+
+
+.cta {
+	border: 5px solid indianred;
+}
+
+div.cta-text {
+	width: 50%;
+	display: inline-block;
+	font-size: 50px;
+	text-align: center;
+	align-content: center;
+	padding: 15%;
+}
+
+img.cta {
+	width: 10%;
+	display: inline-block;
+	padding: 15%;
+}
+
+.main-content {
+	border: 5px solid green;
+	display: inline-block;
+}
+
+.main-content .top-content {
+	border: 5px solid sienna;
+}
+
+.main-content .middle-img {
+	border: 5px solid cornflowerblue;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.text-content {
+	border: 5px solid orange;
+	padding: 10px;
+	display: inline-block;
+}
+
+.top-content .text-content {
+	width: 45%;
+}
+
+.bottom-content .text-content {
+	width: 30%;
+	padding 3%;
+}
+
+.main-content .bottom-content {
+	border: 5px solid rebeccapurple
+}
+
+.contact {
+	border: 5px solid purple;
+}
+
+footer {
+	border: 5px solid black;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
