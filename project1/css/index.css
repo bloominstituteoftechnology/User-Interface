@@ -225,6 +225,12 @@ hr {
 }
 
 .contact .address,
-.contact .telephone {
+.contact .telephone,
+.contact .email {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
   margin-bottom: 15px;
 }
