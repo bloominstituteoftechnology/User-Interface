@@ -145,6 +145,9 @@ nav li {
 .main-content {
 	/*border: 1px solid blue;*/
 	margin-bottom: 30px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
 
 .main-content .top-content {
@@ -175,6 +178,7 @@ nav li {
 	width: 92%;*/
 	padding: 10px;
 	margin: 20px;
+	width: 100%;
 }
 
 .main-content .bottom-content {
