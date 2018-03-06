@@ -113,6 +113,34 @@ li {
 }
 
 header img {
-  /* border: 1px solid black; */
-  /* align-self: flex-end; */
+}
+
+section.cta {
+  /* width: 650px; */
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.cta-text {
+  text-align: center;
+
+  font-size: 52px;
+  /* padding-top: 60px; */
+  /* padding-left: 130px; */
+}
+
+section.cta img {
+  zoom: 80%;
+}
+
+section.cta button {
+  border: solid 1px black;
+  padding: 5px 30px;
+}
+
+hr {
+  margin: 35px 0;
 }
