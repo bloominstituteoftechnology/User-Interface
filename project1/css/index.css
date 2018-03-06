@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* ----------------------------------------- */
-
+/*
 *{
 	box-sizing: border-box;
 }
@@ -179,4 +179,140 @@ section.cta img {
 footer {
 	text-align: center;
 	margin: 40px 0px 200px 0px;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+h1 {
+	font-size: 125px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+li {
+    font-size: 25px;
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	display: inline-block;	
+	font-size: 30px;
+	margin: 30px;
+	padding: 7px 60px;
+}
+
+.container {
+    margin: 0% 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    flex-grow: 6;
+    flex-basis: 0;
+}
+
+header img {
+    flex-grow: 2;
+    flex-basis: 0;
+    width: 10%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 120px;
+}
+
+div.cta-text {
+    text-align: center;
+}
+
+section.cta img {
+    width: 40%;
+}
+
+section.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+section.main-content img {
+    width: 100%;
+}
+
+div.top-content {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.bottom-content {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-content {
+    display: flex;
+    flex-direction: column;    
+}
+
+.top-content .text-content {
+    width: 49%;
+}
+
+.bottom-content .text-content {
+    width: 32%;
+}
+.text-content {
+    margin: 50px 0px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+	text-align: center;
+    margin-bottom: 200px;
+}
+
+footer p {
+    font-size: 23px;    
 }
