@@ -196,16 +196,23 @@ nav li {
 	/*border: 1px solid red;*/
 	/*display: inline-block;
 	margin-left: 40px;*/
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	text-align: left;
+	margin-top : 30px;
+	padding: 10px;
 }
 
 .contact p {
-	/*margin-bottom: 15px;*/
+	margin-bottom: 15px;
+
 }
 
 footer {
 	/*border: 1px solid red;*/
 	/*text-align: center;*/
-	/*margin-bottom: 15%;*/
+	margin-bottom: 15%;
 }
 
 
