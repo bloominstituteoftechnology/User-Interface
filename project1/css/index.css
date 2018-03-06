@@ -24,12 +24,36 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
+	display: block;
+}*/
+u2{
+	display: inline-block;
+}
+.header{
+	display: inline-block;
+	text-align: right;
+	height: 200px;
+}
+
+header img {
+	display: inline-block;
+}
+header.container{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+}
+h1{
+	font-size: 80px;
 	display: block;
 }
 body {
 	line-height: 1;
+	width: 1100px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +85,45 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+header img {
+	display: inline-block;
+	height: 36px;
+	padding-left: 50px;
+	width: 20%;
+	margin-top: 18px;
+}
+header nav {
+	position: relative;
+	width: 600px;
+}
+nav ul li{
+	display: inline-block;
+	top:50px;
+	padding: 10px;
+	width: auto;
+}
+nav ul{
+	padding: 70px;
+	padding-top: 20px;
+}
+.logo {
+	display: inline-block;
+	width: auto;
+	position: absolute;
+	top: 0;
+	right: 20%; 
+}
+div.cta-text {
+	display: inline-block;
+	width: 500px;
+}
+section.cta{
+	display: inline-block;
+	width: 1200px;
+}
+.cta img {
+	display:inline-block;
+	width: auto;
 }
