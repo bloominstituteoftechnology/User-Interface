@@ -69,14 +69,14 @@ body {
 }
 
 .container {
-	border: 1px black solid; /*this is temp*/	
+	//border: 1px black solid; /*this is temp*/	
   	width: 1000px;  	
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 40px;
+	padding: 10px 60px;
 	//border: 2px red solid; /*this is temp*/
 }
 
@@ -88,7 +88,6 @@ header ul {
 }
 
 header li {	
-  	//margin: 0px 70px 0px 5px;
   	font-size: 12px;
 	padding-top: 15px;
 }
@@ -103,17 +102,15 @@ header img {
 }
 
 .cta {
-  	border: 1px blue solid; /*this is temp*/
+  	//border: 1px blue solid; /*this is temp*/
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-  	//width: 1000px;
-  	padding: 20px;
+  	padding: 40px;
 }
 
 .cta-text {
- 	//padding: 70px;
- 	//padding-left: 100px;
+ 	padding-left: 90px;
   	font-size: 70px;
   	text-align: center;	  
 }
@@ -126,52 +123,41 @@ header img {
 	font-size: 14px;
 }
 
-.cta img {
-	//padding-left: 80px;
-}
-
 .main-content {
-	border: 1px orange solid; /*tempy temp temp*/
+	//border: 1px orange solid; /*tempy temp temp*/
 	border-top: 1px black solid;
-	border-bottom: 1px black solid;
-	display: inline-block;
-	width: 100%;
+	border-bottom: 1px black solid;	
 }
 
 .top-content {
-	display: inline-block;
+	display: flex;	
+	margin: 30px 60px;	
 }
 
 .top-content .text-content {
-	display: inline-block;
-	width: 35%;
-	margin: 20px 60px;
-	border: 1px solid black; /*tempy temp temp*/
+	//border: 1px solid black; /*tempy temp temp*/
 }
 
-.middle-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.middle-img {
+	//border: 10px orange solid; /*tempy temp temp*/
+	display: flex;
+	margin: 0 auto;	
 }
 
 .bottom-content {
-	display: inline-block;
-	margin-right: 0px;
-	margin-left: 60px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 60px;
 }
 
 .bottom-content .text-content {
-	border: 1px solid red; /*tempy temp temp*/
-	display: inline-block;	
-	padding: 30px 20px 30px 0px;
-	padding-right: 20px;
-	width: 30%;
+	//border: 1px solid red; /*tempy temp temp*/	
+	height: 130px;
+	width: 33%; 	
 }
 
 .contact {
-	display: inline-block;
-	border: 1px green solid; /*tempy temp temp*/
+	//border: 1px green solid; /*tempy temp temp*/
 	padding-top: 30px;
 	margin-left: 60px;
 }
