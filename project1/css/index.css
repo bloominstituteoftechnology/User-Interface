@@ -28,11 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body { 
 	line-height: 1;
 }
+.container {
+	padding: 10px;
+	display: block;
+	color: black;
+}
 ol, ul {
-	list-style: none;
+	list-style: horizontal;
+	display: inline;
+	margin-right: 10px;
+	text-align: top;
+}
+li {
+	display: inline;
+	padding: 20px;
+
+
 }
 blockquote, q {
 	quotes: none;
@@ -47,7 +61,6 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -60,5 +73,147 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
 }
+
+body {
+  margin-right: 0px;
+}
+
+.container {
+  width: 980px;         /* Reminder! DO NOT excede this width! */
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+ }
+
+header nav ul {
+display: flex;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  position: center;
+}
+
+header nav ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+  display: flex;
+}
+.logo {
+  height: 45px;
+  width: 160px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-text {
+  font-size: 90px;
+  width: 480px;
+  height: 480px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.cta .cta-text button {
+	width: 175px;
+	height: 35px;
+	background: white;
+  font-size: 18px;
+}
+
+.cta .img {
+  height: 150px;
+  width: 150px;
+}
+
+.middle-img {
+display: flex;
+justify-content: space-around;
+width: 980px;
+align-content: center;
+margin-bottom: 130px;
+}
+
+.main-content {
+  display:flex;
+  flex-wrap: wrap;             
+  justify-content: space-around;
+  height: 780px;
+  width: 980px;
+}
+
+.main-content .top-content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;                  /* Remove this padding if possible */
+}
+
+.main-content .bottom-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-img {
+  height: 400px;
+  width: 400px;
+}
+
+.top-content {
+  border-top: 2px solid gray;   /* Reviewer please inform me if there is a better way to get these lines on the page */
+}
+
+.bottom-content {
+border-bottom: 2px solid black;
+}
+
+.contact {
+line-height: 1.5;
+margin-top: 30px;
+}
+
+.main-content .top-content .text-content {
+  display: flex;
+  flex-wrap: wrap;      /* Flex wrap moved paragraph titles to correct place */
+  width: 490px;
+  line-height: 1.2;
+}
+
+.main-content .bottom-content .text-content {
+  display: flex;
+  line-height: 1.2;
+  width: 320px;
+  flex-wrap: wrap;       /* Same as above with flex wrap */
+}
+
+.main-content .top-content .text-content p {
+  width: 475px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
