@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1100px;
-	border: 1px solid red; 
 	margin: 0 auto;
 	color: black;
 }
@@ -74,7 +73,6 @@ li {
 	float: left;
 	margin-left: 50px;
 	display: inline-block;
-	border: 1px solid green;
     padding: 10px 10px;
 	margin-top: 40px;
 }
@@ -87,7 +85,6 @@ header img {
 	padding: 10px 20px;
 	margin-top: 30px;
 	margin-left: 80px;
-	border: 1px solid orange;
 	display: inline-block;
 }
 
@@ -95,7 +92,6 @@ header img {
 .cta {
 	display: block;
  	vertical-align: middle;
-	border: 1px solid grey;
 	margin-left: auto;
 	margin-right: auto;
 	width: 72%
@@ -104,19 +100,16 @@ header img {
 	font-size: 80px;
 	text-align: center;
 	display: inline-block;
-	border: 1px solid red;
 	margin-right: 70px;
 }
 
 .cta img {
-	border: 1px solid blue;
 	display: inline-block;
 }
 /* end of attention */
 
 .top-content {
 	display: block;
-	border: 1px solid greenyellow;
 	margin: 20px auto;
 	width: 79%;
 }
@@ -127,12 +120,10 @@ header img {
 	height: 200px;
 	text-align: left;
 	margin: 15px;
-	border: 1px solid black;
 }
 
 .main-content img {
 	display: block;
-	border: 1px solid purple;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -140,7 +131,6 @@ header img {
 
 .bottom-content {
 	display: block;
-	border: 1px solid greenyellow;
 	margin: 20px auto;
 	width: 90%;
 }
@@ -151,14 +141,12 @@ header img {
 	height: 200px;
 	text-align: left;
 	margin: 15px;
-	border: 1px solid black;
 }
  
  /*  contact info */
 .contact {
 	margin-left: 5%;
 	display: inline-block;
-	border: 1px solid red;
 
 }
 .contact h4{
