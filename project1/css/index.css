@@ -62,3 +62,141 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+/* start coding */
+
+hr {
+	width:100%; 
+	height:1px; 
+	background:black;
+	margin: 3% 0;
+}
+
+/* done. just change the fonts and nitty gritties */
+.container {
+	width: 1030px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+	color: black;
+	padding: 2% 3.8%;
+}
+header {
+	display: flex;
+	border: 1px solid transparent;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid transparent;
+}
+
+li {
+	padding: 10px 60px 10px 5px;
+	font-size: 15px;
+	color: lightgrey;
+	border: 1px solid red;
+}
+
+nav {
+	color: black;
+	
+  }
+
+header img {
+	border: 1px solid transparent;
+}
+/* end of */
+
+/* fix the box size and font */
+.cta {
+	display: flex;
+	border: 1px solid transparent;
+	justify-content: space-around;
+	padding: 7% 7% 2% 7%;
+	
+}
+.cta .cta-text {
+	font-size: 80px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 70px;
+	border: 1px solid transparent;
+}
+
+.cta .cta-text button {
+	
+	background-color: white;
+	border: 1px solid rgb(75, 72, 72);
+	font-size: 20px;
+	color: rgb(75, 72, 72);
+	padding: 8px 2px;
+	transition-duration: 0.4s;
+	margin: 0 20%; /* change size */ 
+}
+.cta .cta-text button:hover {
+	background-color: rgb(225, 253, 63);
+	color: rgb(75, 72, 72);
+}
+
+.cta .cta-text h1 {
+	border: 1px solid transparent;
+}
+
+/* end of */
+
+/* start of */
+
+.top-content {
+	display: flex;
+	border: 1px solid transparent;
+	height: 105px;
+}
+
+.top-content .text-content{
+	width: 48%;
+	display: flex;
+	border: 1px solid transparent;
+	flex-direction: column;
+	flex-grow: 1;
+	text-align: left;
+}
+
+.main-content img {
+	display: block;
+	margin: 3% auto;
+}
+
+.bottom-content {
+	display: flex;
+	border: 1px solid transparent;
+	height: 125px;
+}
+
+.bottom-content .text-content {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	text-align: left;
+}
+ 
+ /*  contact info */
+.contact {
+	display: flex;
+	flex-direction: column;
+	height: 125px;
+	border: 1px solid transparent;
+	justify-content: space-between;	
+	
+}
+
+footer {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
