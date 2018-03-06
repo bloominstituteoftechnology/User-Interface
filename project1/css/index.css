@@ -96,8 +96,15 @@ header {
 	margin: 50px 0;
 	width: 100%;
 	text-align: center;
-	border: 3px dashed orange;
-	
+	border: 3px dashed orange;	
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	font-size: 22px;
+	padding: 9px 55px;
 }
 
 .cta-text{
@@ -150,4 +157,10 @@ h4, p{
 .contact {
 	display: inline-block;
 	text-align: left;
+	width: 222px;
+}
+
+footer{
+	margin: 22px 0 0 0;
+	text-align: center;
 }
