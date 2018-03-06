@@ -62,3 +62,168 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* end reset */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+hr {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+}
+
+nav ul {
+    align-self: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.cta-text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 75px;
+    text-align: center;
+}
+
+.cta-text button {
+    background-color: white;
+    border-color: black;
+    padding: 5px 50px;
+    font-size: 20px;
+}
+
+.top-content {
+    display: flex;
+    margin: 25px 0;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.contact {
+    margin: 25px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+}
+
+/*
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+hr {
+    color: black;
+}
+
+header {
+}
+
+nav {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.cta {
+    margin: 50px 0;
+}
+
+.cta-text {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 75px;
+}
+
+.cta-text button {
+    background-color: white;
+    border-color: black;
+    padding: 5px 50px;
+    font-size: 20px;
+}
+
+.cta img {
+    margin: 25px;
+    width: 30%;
+}
+
+.top-content {
+    margin: 25px 0;
+}
+
+.top-content .text-content {
+    display: inline-block;
+    width: 49%;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.bottom-content {
+    margin: 25px 0;
+}
+
+.bottom-content .text-content {
+    display: inline-block;
+    width: 33%;
+}
+
+.contact {
+    margin: 25px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+}*/
