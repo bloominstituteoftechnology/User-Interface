@@ -62,3 +62,125 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+/* Code written by Devon Bacon */
+
+/* header */
+header {
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-around;
+}
+
+header nav {
+  flex-grow: 1;
+  margin: 30px 0 -35px 0;
+}
+
+header ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+header ul li {
+  margin: 5px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.logo {
+  margin: 20px 50px -15px;
+}
+
+/* section 1 - .cta */
+
+.cta {
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-around;
+  margin: 75px 50px;
+}
+
+.cta-text {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  font-size: 60px;
+  text-align: center;
+  width: 250px;
+}
+
+.cta-text button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid grey;
+  -webkit-appearance: none;
+}
+
+.cta img {
+  margin-bottom: 20px;
+}
+
+/* section 2 - .main-content */
+
+.main-content {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin: 0 50px;
+}
+
+.middle-img {
+  width: 100%;
+  min-height: 150px;
+}
+
+.top-content, .bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-content {
+  margin: 50px 0;
+}
+
+.top-content .text-content {
+  width: 45%;
+}
+
+.bottom-content .text-content {
+  width: 30%;
+}
+
+/* section 3 - .contact */
+
+.contact {
+  margin: 50px;
+}
+
+.contact * {
+  margin: 20px 0;
+}
+
+/* footer */
+
+footer {
+  margin: 80px 0 150px;
+  text-align: center;
+}
+
+/* media query to adjust flex flow */
+@media screen and (max-width: 600px) {
+  .top-content, .bottom-content {
+    flex-flow: wrap;
+  }
+
+  .top-content .text-content, .bottom-content .text-content {
+    width: 100%;
+    margin: 25px 0;
+  }
+}
