@@ -178,6 +178,7 @@ header img {
 }
 
 header {
+	margin-top: 30px;
 	display: flex;
 }
 
@@ -200,4 +201,28 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: gray;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+.cta-text h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.cta-text button {
+	width: 120px;
+	height: 25px;
+	align-self: center;
+	border: 1px solid black;
 }
