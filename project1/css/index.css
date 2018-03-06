@@ -91,7 +91,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -105,17 +107,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,12 +129,14 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
   box-sizing: border-box;
 }
@@ -148,13 +156,131 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+
 /* body  */
+
+:root {
+  --colorWhite: #fff;
+  --colorHardToSee: #d0d0d0;
+  --headerImageHeight: 32px;
+}
+
+.container {
+  margin: 0px 75px;
+}
 
 /* Navigation section */
 
+header {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  margin-top: var(--headerImageHeight);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  width: 75%;
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-item a {
+  color: var(--colorHardToSee);
+  text-decoration: none;
+}
+
+header img {
+  height: var(--headerImageHeight);
+  align-self: flex-end;
+}
+
+.container section {
+  border-bottom: 2px black solid;
+  width: 100%;
+}
+
 /* above the fold */
 
+.cta {
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta img {
+  height: 380px;
+  margin-left: 75px;
+}
+
+.cta div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta div h1 {
+  font-size: 64px;
+  text-align: center;
+}
+
+.cta div button {
+  display: inline-block;
+  height: 32px;
+  width: 175px;
+  background-color: var(--colorWhite);
+}
+
 /* main content */
+
+.main-content {
+  margin-top: 32px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.text-content {
+  padding: 0 10px;
+}
+
+.top-content .text-content {
+  width: 50%;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.bottom-content .text-content {
+  width: 33%;
+}
+
+.contact {
+  margin: 20px auto;
+  height: 100px;
+}
 
 footer {
   width: 100%;
