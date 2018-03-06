@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,73 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	flex-flow: column;
+}
+
+ul {
+	 display: flex;
+	 justify-content: space-around;
+
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+ 	border: 1px solid red;
+	margin-left: 1600px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+}
+
+.cta-text{
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	text-align: center;
+	align-self: center;
+}
+
+.cta-text h1 {
+	font-size: 100px;
+}
+
+.middle-img {
+	margin-left: 500px;
+}
+
+.top-content {
+ 	display: flex;
+ 	flex-direction: row;
+  	justify-content: space-around;
+  }
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+		justify-content: space-around;
+}
+
+.top-content .text-content {
+	width: 15%;
+	margin: 10px;
+}
+
+.bottom-content .text-content {
+	width: 5%
+	margin-top: 30px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 50%;
 }
