@@ -135,3 +135,50 @@ footer {
 
 /*---------------------------Assignment2-----------------------*/
 
+
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+
+header {
+    display: flex;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+header nav ul {
+				display: flex;
+    width: 700px;
+    justify-content: space-between;
+    
+}
+
+
+.logo {
+    align-self: flex-end;
+				padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
