@@ -63,16 +63,24 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .container header nav {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
 }
 
 .container header nav ul li {
-	display: inline-block;
-	vertical-align: top;
-	margin: 10px 60px 5px 20px;
-	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .container header nav ul li a {
@@ -81,31 +89,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .logo {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 20px;
+	display: flex;
 }
 
 .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	font-size: 100px;
-	margin: 20px 60px 10px 140px;
 	text-align: center;
 }
 
 .cta .cta-text button {
 	text-align: center;
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	font-size: 20px;
-	margin-bottom: 20px;
 	padding: 12px 28px;
 }
 
 .cta img {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -116,11 +117,9 @@ hr {
 }
 
 .main-content .top-content .text-content {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	width: 400px;
 	height: 100px;
-	margin: 30px 5px 30px 50px;
 	align-items: center;
 }
 
@@ -134,33 +133,24 @@ hr {
 }
 
 .main-content .middle-img {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 130px;
-	margin-top: 0;
+	display: flex;
 
 }
 
 .bottom-content .text-content {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	width: 300px;
 	height: 150px;
-	margin: 30px 5px 0 50px;
 	align-items: center;
 }
 
 .contact {
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
 	width: 300px;
 	height: 200px;
-	margin: 30px 10px 0 100px;
 	line-height: 30px;
 }
 
 footer {
-	display: inline-block;
-	vertical-align: bottom;
-	margin-left: 130px;
+	display: flex;
 }
