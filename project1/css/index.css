@@ -48,30 +48,34 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+
+div {
+    width: 300px;
+    border: 5px solid gray;
+    padding: 25px;
+    margin: 0 auto;
 }
-<!---hi---> 
-head {
+head div {
 	display: inline-block;
-	margin: right; 
+	right: 0; 
+	top: 0; 
 }
+
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 header nav {
 	display: inline-block; 
-	vertical-align: top;
+	margin: left;
+	border: 10px; 
 }
+
+
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
-}
-.container {
-	margin: 0 auto; 
-}
-li {
-	border: 20px; 
 }
