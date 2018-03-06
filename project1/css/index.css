@@ -52,6 +52,16 @@ table {
     box-sizing: border-box;
 }
 
+.container {
+	/* border: 5px green;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 15px;  */
+	margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,25 +74,88 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	background: grey;
-	width: auto;
+	margin: 30px 0;
 }
 
 header nav {
 	display: inline-block;
-	padding: 0px 30px;
+	vertical-align: middle;
 }
 
 header li {
-	display: inline;
-	text-align: left;
-  }
-
-header logo {
-	
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 60px;
 }
 
-section.cta {
-	border: 3px green;
+header li a{
+	text-decoration: none;
+	color: #bbbbbb;
+}
+
+header .logo {
+	vertical-align: middle;
+	margin-right: 0%;
+}
+
+.cta {
+	margin-top:40px;
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+}
+
+.cta .cta-text {
+	height: 100px;
+	margin: 10px 80px 0px;
+	font-size: 76px;
+	text-align: center;
 	display: inline-block;
+}
+
+.cta button {
+	margin-top: 0px;
+	padding: 2px 50px;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	background-color: white;
+}
+
+.cta img {
+	display: inline-block;
+}
+
+.main-content {
+	margin-top: 40px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+.top-content .text-content {
+	width: 435px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+.bottom-content {
+	margin-top: 40px;
+}
+
+.bottom-content .text-content {
+	width: 285px;
+	display: inline-block;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+footer {
+	height: 140px;
+	margin: 70px 320px;
 }
