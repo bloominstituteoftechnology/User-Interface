@@ -64,66 +64,70 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	display: inline-block;
-	vertical-align: top;
-	vertical-align: center;
-	margin-left: 300px;
+	display: flex;
+	flex-flow: column;
+}
+
+ul {
+	 display: flex;
+	 justify-content: space-around;
+
 }
 
 .logo {
-	border: 1px solid blue;
-	float: right;
+	display: flex;
+	align-items: center;
+ 	border: 1px solid red;
+	margin-left: 1600px;
 }
 
-header nav {
-	border: 1px solid green;
-	display:inline-block;
-
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
 }
 
-li {
-	display: inline;
-	margin-left: 150px
+.cta-text{
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	text-align: center;
+	align-self: center;
 }
 
-
-.cta-text {
+.cta-text h1 {
 	font-size: 100px;
-	display: inline-block;
-	margin-left: 300px;
-	margin-right: 100px;
-}
-
-.top-content .text-content {
-	display: inline-block;
-	width: 30%;
-	margin-left: 100px;
 }
 
 .middle-img {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 150px;
-	margin-top: 25px;
+	margin-left: 500px;
+}
+
+.top-content {
+ 	display: flex;
+ 	flex-direction: row;
+  	justify-content: space-around;
+  }
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+		justify-content: space-around;
+}
+
+.top-content .text-content {
+	width: 15%;
+	margin: 10px;
 }
 
 .bottom-content .text-content {
-	display: inline-block;
-	vertical-align: bottom;
-	margin-top: 25px;
-	margin-left: 100px;
-	width: 15%;
+	width: 5%
+	margin-top: 30px;
 }
-
 
 .contact {
-	display: inline-block;
-	vertical-align: bottom;
-	margin-left: 500px;
-	margin-top: 50px;
-}
-
-footer {
-		display: inline-block;
-		
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 50%;
 }
