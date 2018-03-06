@@ -64,91 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  width: 800px;
-  margin: 0 auto;
+  width: 85%;
+	margin: auto;
 }
-
-header {
-  width: 100%;
-  border: 1px solid gray;
+  
+  header {
+	display: flex;
+	width: 100%;
 }
-
-header nav {
-  border: 1px solid blue;
-  width: 600px;
-  display: inline-block;
+  
+  header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
 }
-
-header nav ul li {
-  display: inline-block; 
-  margin-right: 30px;
+  
+  header nav {
+	width: 50%;
+	flex-grow: 1
 }
-
-header .logo {
-  display: inline-block;
-  width: 0px;
-  height: 50px;
-  vertical-align: top;
-  margin: 0 0 0 120px;
+  
+  header nav ul li a {
+	text-decoration: none;
+	color: grey;
 }
-
-.cta {
-  display: inline-block;
-  width: 100%;
+  
+  header .logo {
+	width: 50px;
+	height: 50px;
 }
-
-.cta .cta-text h1{
-  font-size: 48px;
-  width: 100px;
-  height: 150px;  
+  
+  .cta {
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
 }
+  
+  .cta .cta-text h1 {
+	font-size: 72px;
+  }
+  
+  .cta .cta-text {
+	  font-size: 100px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+  }
+  
+  .cta .cta-text button{
+	  font-size: 20px;
+	  color: gray;
+	  background-color: white;
+	  border: 1px solid gray;
+  }
 
-.cta .cta-text {
-  display: inline-block;
-  width: 400px;
-  height: 275px;
-  vertical-align: bottom;
-}
-
-.cta img {
-  display: inline-block;
-  vertical-align: top;
-  margin: 50px 0 50px;
+section .top-content{
+  display: flex;
+  margin-top: 50px;
 }
 
 .main-content {
-  display:inline-block;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.main-content .top-content {
-  display: inline-block;
-  
+.middle-img {
+  margin: 80px;
 }
 
-.top-content .text-content {
-  display: inline-block;
-  width: 49%;
-  height: 120px;
-}
-
-.main-content .middle-img {
-  margin: 40px 0 40px 0;
-}
-
-.main-content .bottom-content {
-  display: inline-block;
-}
-
-.bottom-content .text-content {
-  display: inline-block;
-  width: 33%;
-  height: 120px;
-  margin-bottom: 40px
+.bottom-content {
+  display: flex;
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  margin-top: 80px;
 }
 
 .contact p {
@@ -156,10 +150,7 @@ header .logo {
 }
 
 footer {
+  display: flex;
   width: 100%;
-}
-
-footer p {
-  display:inline-block;
-  margin: 0 0 0 40%;
+  justify-content: center;
 }
