@@ -61,7 +61,6 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
@@ -74,7 +73,6 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 
 body {
@@ -82,7 +80,7 @@ body {
 }
 
 .container {
-  width: 900px;
+  width: 980px;         /* Reminder! DO NOT excede this width! */
   margin: 0 auto;
 }
 
@@ -150,23 +148,23 @@ header .logo {
 .middle-img {
 display: flex;
 justify-content: space-around;
+width: 980px;
 align-content: center;
-margin-right: 40px;
 margin-bottom: 130px;
 }
 
 .main-content {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;             
   justify-content: space-around;
   height: 780px;
-  width: 900px;
+  width: 980px;
 }
 
 .main-content .top-content {
   display: flex;
   justify-content: space-around;
-  padding-top: 70px;
+  padding-top: 70px;                  /* Remove this padding if possible */
 }
 
 .main-content .bottom-content {
@@ -180,7 +178,7 @@ margin-bottom: 130px;
 }
 
 .top-content {
-  border-top: 2px solid gray;
+  border-top: 2px solid gray;   /* Reviewer please inform me if there is a better way to get these lines on the page */
 }
 
 .bottom-content {
@@ -189,22 +187,30 @@ border-bottom: 2px solid black;
 
 .contact {
 line-height: 1.5;
+margin-top: 30px;
 }
 
 .main-content .top-content .text-content {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;      /* Flex wrap moved paragraph titles to correct place */
   width: 490px;
   line-height: 1.2;
 }
 
 .main-content .bottom-content .text-content {
-  display: inline-block;
-  align-content: center;
+  display: flex;
   line-height: 1.2;
+  width: 320px;
+  flex-wrap: wrap;       /* Same as above with flex wrap */
 }
 
 .main-content .top-content .text-content p {
   width: 475px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 
