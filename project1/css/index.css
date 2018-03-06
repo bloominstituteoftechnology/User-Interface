@@ -87,8 +87,8 @@ header nav li a {
 
 header img.logo {
     float: right;
-    margin-top: -25px;
-    margin-right: 50px;
+    margin-top: -10px;
+    
 }
 
 .cta {
@@ -109,7 +109,7 @@ header img.logo {
 
 .top-content .text-content {
 	display: inline-block;
-	width: 45%;
+	width: 49.5%;
 	margin: 25px 0;
 }
 
@@ -120,7 +120,7 @@ header img.logo {
 
 .bottom-content .text-content {
 	display: inline-block;
-	width: 30%;
+	width: 33%;
 	margin: 25px 0;
 }
 
