@@ -65,12 +65,14 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1100px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 header {
 	display: inline-block;
 	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 100%;
 }
 
 nav {
@@ -81,13 +83,19 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	margin: 20px;
+	margin: 25px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
 }
 
 .cta {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px 160px;
+	margin: 10px 150px;
 }
 
 .cta .cta-text {
@@ -110,17 +118,6 @@ nav ul li {
 	display: flex;
 }
 
-
-.top-content {
-	display: flex;
-	margin: 40px 0px;
-}
-
-.top-content .text-content {
-	justify-content: space-between;
-	margin-right: 10px;
-}
-
 .main-content {
 	display: flex;
 	margin-top: 50px;
@@ -132,13 +129,21 @@ nav ul li {
 	justify-content: center;
 }
 
+.top-content {
+	display: flex;
+	margin: 40px 0px;
+}
+
+.top-content .text-content {
+	margin-right: 10px;
+}
+
 .bottom-content {
 	display: flex;
 	margin: 40px 0px;
 }
 
 .bottom-content .text-content {
-	justify-content: space-between;
 	margin-right: 10px;
 }
 
@@ -149,7 +154,6 @@ nav ul li {
 }
 
 .contact p {
-	justify-content: space-between;
 	margin-top: 10px;
 }
 
