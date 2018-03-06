@@ -150,87 +150,88 @@ h5 {
 }
 /* where i started*/
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  width: 80%;
-  margin: 0 auto;
+  width: 1000px;
 }
-hr {
-  color: black;
+.container header {
+  display: flex;
+  justify-content: space-around;
 }
-header nav li {
-  display: inline-block;
-  margin-right: 40px;
-  margin-top: 20px;
-  margin-left: 100px;
+.container header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.container .logo {
+  margin-top: 15px;
+  margin-left: -15px;
 }
 header nav li a {
+  display: flex;
+  width: 150px;
+  margin-top: 30px;
   text-decoration: none;
-  color: rgba(220, 200, 220, 1);
+  color: rgb(179, 179, 179);
 }
-
-nav {
-  display: inline-block;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0 50px;
-}
-
-nav img {
-}
-
+/* this is the top part of the page under the logo */
 .cta {
-  margin-bottom: 33px;
-  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
-
 .cta-text {
-  width: 45%;
-  display: inline-block;
+  font-size: 85px;
   text-align: center;
-  font-size: 75px;
+  dispaly: flex;
+}
+/* had issues spacing the button close to the text */
+.cta-text button {
+  align-self: center;
+  font-size: 17px;
+  width: 185px;
+  height: 37px;
+  background: white;
+  border: 2px solid black;
 }
 
-.cta .cta-text button {
-  background-color: white;
-  border-color: black;
-  padding: 5px 30px;
-  width: 190px;
-  font-size: 20px;
-  margin-bottom: 100px;
+/* this is where the lower part of the page is, inside the two borders */
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
-.cta img {
-  margin: 25px;
-  margin-left: -30px;
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.top-cotent {
-  margin: 25px 0;
-}
-.top-cotent .text-content {
-  display: inline-block;
-  color: blue;
-  width: 50%;
-}
-.main-content img {
-  width: 90%;
-  height: 200px;
-  margin-left: 30px;
+
+.top-content .text-content {
+  width: 470px;
+  padding-top: 40px;
+  margin-bottom: 40px;
 }
 .bottom-content {
-  margin: 25px 0;
+  display: flex;
+  flext: row;
+  margin-top: 40px;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
-.bottom-content .text-content {
-  display: inline-block;
-  width: 33%;
-  padding-bottom: 30px;
-  border-bottom: 1px solid black;
-}
+/* this is where the footer and contact are under everything else */
 .contact {
-  margin: 25px 0;
+  margin-top: 50px;
 }
+
 footer {
-  text-align: center;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
