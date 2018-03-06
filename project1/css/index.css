@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,6 +40,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	border: 1px solid red;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -61,4 +57,62 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+} 
+
+header nav li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 14px;
+}
+
+header img.logo {
+    float: right;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+
+.cta {
+	text-align: right;
+}
+
+.cta-text {
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 125px;
+}
+
+.cta img {
+	margin-top: 50px;
+	margin-right: -125px;
+	margin-bottom: 50px;
+	margin-left: 150px;
+    float: right;
+ }
+
+ button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1px 50px;
+    font-size: 20px;
+}
+
+hr {
+	width: 1100px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
