@@ -199,3 +199,7 @@ footer {
 footer p {
     font-size: 23px;    
 }
+
+section.contact {
+	padding-top: 0px;
+}
