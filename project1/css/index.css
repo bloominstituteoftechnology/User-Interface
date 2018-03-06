@@ -62,14 +62,18 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+.container {
+  text-align: center;
+}
 
 header nav ul li {
   color: grey;
   display: inline-block;
   vertical-align: top;
+  margin-right: 35px
 }
 header nav ul {
-  word-spacing: 30px;
+  word-spacing: 0px;
 }
 header a {
   color:grey;
@@ -77,26 +81,41 @@ header a {
 .logo {
   border: 1px solid red;
   display: inline-block;
-  vertical-align: top;
-  margin-left: 650px;
+  margin-left: 700px
   }
 
 section h1 {
   font-size: 50px;
-  margin-left: 50px;
+  margin-right: 350px;
 }
 section img {
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 section button {
-  margin-left: 50px;
+  margin-right: 450px;
 }
 .main-content {
   margin: 50px;
-  display:inline;
+  display:inline-block;
 }
-.text-content h4{
+.top-content {
   border: 1px solid red;
-  display: inline-block;
 }
+.text-content {
+  display: inline-block; 
+  width: 200px;
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+}
+.middle-img {
+  margin-right: 450px
+}
+.contact {
+  margin-right: 450px
+}
+
+
+
+
