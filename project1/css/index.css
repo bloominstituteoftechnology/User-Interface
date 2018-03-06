@@ -65,25 +65,19 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 }
 
-.container header nav {
+nav ul {
 	display: flex;
+	list-style: none;
 	justify-content: space-between;
-	align-items: flex-start;
-
+	align-items: center;
 }
 
-.container header nav ul li {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
-.container header nav ul li a {
+ nav a {
 	color: grey;
 	text-decoration: none;
 }
