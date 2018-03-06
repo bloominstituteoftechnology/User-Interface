@@ -16,17 +16,18 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 15px;
+	padding: 15px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	display: inline-block;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -54,11 +55,15 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+cta {
+	display: inline-block;
 }
