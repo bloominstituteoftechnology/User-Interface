@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 15px;
+	margin: 15px 20px;
 	padding: 15px;
 	border: 0;
 	font-size: 100%;
@@ -64,6 +64,54 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 10px;
 }
 
-cta {
-	display: inline-block;
+.cta {
+	padding: 10px 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+
+}
+
+.cta-text {
+	font-size: 60px;
+	justify-content: center;
+}
+
+.main-content {
+	width: 100%;
+	padding: 5px 20px;
+}
+
+.top-content {
+	font-size: 25px;
+	padding: 10px 40px;
+	border: 10px;
+	margin: 10px 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	font-size: 25px;
+	padding: 10px 40px;
+	border: 10px;
+	margin: 10px 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
 }
