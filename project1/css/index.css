@@ -72,36 +72,52 @@ a{
 	color:gray;
 	text-decoration: none;
 }
+
 li {
 	display: inline-block;
-	margin: 33px;
-	vertical-align: top;			
+	margin: 33px;	
 }
 
 .logo {
-	float: right;
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid green;
+	text-align: right;
 }
 
 header {
-	vertical-align: top;
-	margin: 50px;
+	display: inline-block;
+	border: 6px solid red;
+	width: 100%;
 }
 
 .cta {
 	display: inline-block;	
-	margin: 0 auto;
-	border-bottom: 1px solid black;
+	margin: 50px 0;
+	width: 100%;
+	text-align: center;
+	border: 3px dashed orange;
+	
 }
 
 .cta-text{
 	display: inline-block;
 	font-size: 66px;
+	text-align: center;
+	margin: 0 33px;
+}
+
+section img {
+	display: inline-block;
+	text-align: right;
 }
 
 .text-content {
+	border-top: 1px solid black;
 	display: inline-block;
 	margin: 0 auto;
-	width: 500px;
+	text-align: center;
+	width: 550px;
 }
 
 .bottom-content {
@@ -112,4 +128,9 @@ header {
 .main-content {
 
 	border-bottom: 1px solid black;
+}
+
+.top-content .middle-img {
+	display: inline-block;
+	text-align: center;
 }
