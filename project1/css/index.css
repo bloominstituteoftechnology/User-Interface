@@ -261,12 +261,13 @@ body {
   flex-flow: column;
   width: 90%;
   max-width: 1200px;
-  margin: 50px 0;
+  margin: 15px 0;
 }
 
 header {
   display: flex;
   align-items: baseline;
+  margin-bottom: 100px;
 }
 
 header nav {
@@ -280,4 +281,70 @@ header nav ul {
 
 header nav ul li a {
   text-decoration: none;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 415px;
+}
+
+.cta .cta-text {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-size: 85px;
+}
+
+.cta .cta-text button {
+  align-self: center;
+  margin-right: 125px;
+  padding: 5px 50px;
+}
+
+hr {
+  width: 1000px;
+}
+
+.main-content .top-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.main-content .top-content .text-content {
+  padding-right: 52px;
+}
+
+.main-content .middle-img {
+  margin: 15px 50px;
+  width: 930px;
+}
+
+.main-content .bottom-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.main-content .bottom-content .text-content {
+  padding-right: 52px;
+}
+
+.contact {
+  margin: 20px 50px;
+}
+
+.contact .address,
+.contact .telephone,
+.contact .email {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 20px 50px;
+  align-self: center;
 }
