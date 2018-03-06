@@ -65,113 +65,41 @@ h1, h2, h3, h4, h5 {
 
 /* Code written by Devon Bacon */
 
-body {
-  min-width: 750px;
+/* header */
+header {
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-around;
 }
 
-/* Header */
+header nav {
+  flex-grow: 1;
+  margin-top: 30px;
+}
 
-header * {
-  display: inline-block;
+header ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+header ul li {
+  margin: 5px;
+}
+
+header ul li a {
   text-decoration: none;
   color: grey;
 }
 
-header > * {
-  margin: 10px;
-  padding: 0 auto;
+header img {
+  margin: 20px 50px -15px;
 }
 
-header nav {
-  margin: 30px 0 30px 50px;
-  vertical-align: top;
-}
+/* section 1 - .cta */
 
-header nav li {
-  margin: 0 10px;
-}
+/* section 2 - .main-content */
 
-.logo {
-  float: right;
-  margin: 20px 10% 20px 0;
-}
+/* section 3 - .contact */
 
-/* Section 1 - .cta */
-
-.cta > * {
-  display: inline-block;
-}
-
-.cta {
-  width: 675px;
-  height: 350px;
-  margin: 50px auto;
-}
-
-.cta-text {
-  text-align: center;
-  vertical-align: top;
-  margin: 50px 0 0 20px;
-  font-size: 60px;
-}
-
-.cta-text h1 {
-  margin-bottom: -20px;
-}
-
-.cta-text button {
-  padding: 5px 25px;
-  font-size: 14px;
-  border: 1px solid grey;
-  background-color: white;
-  -webkit-appearance: none;
-}
-
-.cta img {
-  height: 100%;
-  float: right;
-  margin-right: 20px;
-}
-
-.main-content {
-  clear: both;
-}
-
-/* Section 2 - .main-content */
-
-.main-content {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin: 0 50px;
-}
-
-.main-content .text-content {
-  display: inline-block;
-}
-
-.main-content .top-content .text-content {
-  width: 40%;
-  margin: 50px 4%;
-}
-
-.main-content .bottom-content .text-content {
-  width: 25%;
-  margin: 50px 3%;
-}
-
-.main-content img {
-  width: 100%;
-}
-
-/* Section 3 - .contact */
-
-.contact * {
-  margin: 20px 70px;
-}
-
-/* Footer */
-
-footer {
-  text-align: center;
-  margin: 50px 0 100px;
-}
+/* footer */
