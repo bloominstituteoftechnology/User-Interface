@@ -51,14 +51,27 @@ table {
 * {
     box-sizing: border-box;
 }
-
+<!---hi---> 
+head {
+	display: inline-block;
+	margin: right; 
+}
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
+header nav {
+	display: inline-block; 
+	vertical-align: top;
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.container {
+	margin: 0 auto; 
+}
+li {
+	border: 20px; 
 }
