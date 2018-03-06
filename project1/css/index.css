@@ -64,15 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
-.container {
+ .container {
 	width: 950px;
 	margin: 0px auto;
-}
+} 
 
 /*####################### Header ######################*/
 
-header nav {
+ header nav {
 	display: inline-block;
 	width: 680px;
 }
@@ -94,11 +93,11 @@ header img {
 	display: inline-block;
 	position: absolute;
 	margin-top: 15px;
-}
+} 
 
 /*####################### Section .cta ######################*/
 
-.cta {
+ .cta {
 	margin-top: 40px;
 	margin-bottom: 50px;
 }
@@ -106,23 +105,28 @@ header img {
 .cta .cta-text {
 	display: inline-block;
 	width: 500px;
-	font-size: 75px;
 	text-align: center;
+	vertical-align: top;
+	margin-top: 80px;
 }
-
+.cta .cta-text h1{
+	font-size: 75px;
+}
 .cta .cta-text button {
 	width: 150px;
-	font-size: 20px;
-	background-color: white;
+	height: 30px;
+	font-size: 15px;
+	background: none;
+	border: 1px solid black;
 }
 
 .cta img {
 	display: inline-block;
-}
+} 
 
 /*####################### Section .main-content ######################*/
 
-.main-content {
+ .main-content {
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
@@ -149,7 +153,7 @@ header img {
 
 .contact {
 	margin: 30px 33px;
-}
+} 
 
 /*####################### Section .contact ######################*/
 
@@ -164,3 +168,5 @@ footer {
 	text-align: center;
 	margin-bottom: 80px;
 }
+
+
