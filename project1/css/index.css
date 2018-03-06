@@ -63,11 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+/* start of code: Challenge 1
+
 link {
 	right: 0;
 }
 
-title{
+.logo {
 	display: inline-block;
 	align-content: right;
 }
@@ -105,7 +107,8 @@ a {
 }
 
 .top-content{
-	margin: 40px;
+	margin: 20px;
+	display: inline-block;
 }
 
 .main-content .top-content .text-content p {
@@ -132,4 +135,125 @@ a {
 footer{
 	margin-top: 5px;
 	margin-left: 40px;
+} */
+
+
+
+
+
+/* Challenge 2 */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 2px red solid; */
+}
+
+ul {
+	width: 1200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+ 	color: grey;
+ 	text-decoration: none;
+}
+
+.cta {
+	
+	width: 1250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 2px red solid;  */
+	font-size: 50px;
+	margin: 100px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 800px;
+	font-size: 100px;
+	/* border: 2px red solid; */
+	text-align: center;
+	background-color: white;
+}
+
+.button {
+	height: 30px;
+	width: 150px;
+	border: 1px black solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.line {
+	display: flex;
+	border: 1px grey solid;
+	width: 1350px;
+	margin: 20px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 1400px;
+}
+
+.top-content {
+	display: flex;
+	width: 1000px;
+	/* border: 2px red solid; */
+}
+
+.text-content {
+	display: flex;
+	width: 450px;
+	margin: 10px;
+	flex-direction: column;
+	/* border: 2px red solid; */
+}
+
+.middle-img {
+	/* border: 2px red solid; */
+	width: 1000px;
+	display: flex;
+	margin: 10px;
+}
+
+.bottom-content {
+	display: flex;
+	width: 1000px;
+	/* border: 2px red solid; */
+}
+
+.bottom-content .text-content {
+	display: flex;
+	height: 100px;
+	width: 280px;
+	margin-top: 10px;
+	flex-direction: column;
+}
+
+.contact { 
+	display: flex;
+	flex-direction: column;
+	width: 1400px;
+}
+
+.spaces {
+	border: 5px white solid;
 }
