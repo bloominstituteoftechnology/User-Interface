@@ -143,9 +143,12 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+.body {
+  display: flex;
+  justify-content: center;
+}
 
 .container{
-  border: 3px solid blue;
   width: 1000px;
   display:flex;
   flex-direction: row;
