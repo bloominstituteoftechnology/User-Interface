@@ -62,103 +62,141 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+/* start coding */
 
+hr {
+	width:100%; 
+	height:1px; 
+	background:black;
+	margin: 3% 0;
+}
+
+/* done. just change the fonts and nitty gritties */
 .container {
-	width: 1100px;
+	width: 1030px;
 	margin: 0 auto;
+	border: 1px solid transparent;
 	color: black;
+	padding: 2% 3.8%;
+}
+header {
+	display: flex;
+	border: 1px solid transparent;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid transparent;
 }
 
 li {
-	float: left;
-	margin-left: 50px;
-	display: inline-block;
-    padding: 10px 10px;
-	margin-top: 40px;
+	padding: 10px 60px 10px 5px;
+	font-size: 15px;
+	color: lightgrey;
+	border: 1px solid red;
 }
 
 nav {
 	color: black;
+	
   }
 
 header img {
-	padding: 10px 20px;
-	margin-top: 30px;
-	margin-left: 80px;
-	display: inline-block;
+	border: 1px solid transparent;
 }
+/* end of */
 
-/* need attention */
+/* fix the box size and font */
 .cta {
-	display: block;
- 	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	width: 72%
+	display: flex;
+	border: 1px solid transparent;
+	justify-content: space-around;
+	padding: 7% 7% 2% 7%;
+	
 }
 .cta .cta-text {
 	font-size: 80px;
 	text-align: center;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin-right: 70px;
+	border: 1px solid transparent;
 }
 
-.cta img {
-	display: inline-block;
+.cta .cta-text button {
+	
+	background-color: white;
+	border: 1px solid rgb(75, 72, 72);
+	font-size: 20px;
+	color: rgb(75, 72, 72);
+	padding: 8px 2px;
+	transition-duration: 0.4s;
+	margin: 0 20%; /* change size */ 
 }
-/* end of attention */
+.cta .cta-text button:hover {
+	background-color: rgb(225, 253, 63);
+	color: rgb(75, 72, 72);
+}
+
+.cta .cta-text h1 {
+	border: 1px solid transparent;
+}
+
+/* end of */
+
+/* start of */
 
 .top-content {
-	display: block;
-	margin: 20px auto;
-	width: 79%;
+	display: flex;
+	border: 1px solid transparent;
+	height: 105px;
 }
 
 .top-content .text-content{
-	display: inline-block;
-	width: 400px;
-	height: 200px;
+	width: 48%;
+	display: flex;
+	border: 1px solid transparent;
+	flex-direction: column;
+	flex-grow: 1;
 	text-align: left;
-	margin: 15px;
 }
 
 .main-content img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	
+	margin: 3% auto;
 }
 
 .bottom-content {
-	display: block;
-	margin: 20px auto;
-	width: 90%;
+	display: flex;
+	border: 1px solid transparent;
+	height: 125px;
 }
 
 .bottom-content .text-content {
-	display: inline-block;
-	width: 290px;
-	height: 200px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 	text-align: left;
-	margin: 15px;
 }
  
  /*  contact info */
 .contact {
-	margin-left: 5%;
-	display: inline-block;
-
-}
-.contact h4{
-	margin-bottom: 15px;
-}
-
-.contact p{
-	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	height: 125px;
+	border: 1px solid transparent;
+	justify-content: space-between;	
+	
 }
 
 footer {
 	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
