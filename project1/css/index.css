@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container{
-	width: 1111px;
+	width: 888px;
 	margin: 0 auto;
 }
 
@@ -121,7 +121,8 @@ section img {
 }
 
 h4, p{
-	margin:11px 33px;
+	margin:11px 0px;
+	padding:0px 11px 0px 11px;
 	display: inline-block;
 }
 
@@ -133,7 +134,7 @@ h4, p{
 
 .top-content {
 	display: inline-block;
-	width: 100%;
+	width: 155%;
 }
 .bottom-content {
 	display: inline-block;
@@ -144,4 +145,9 @@ h4, p{
 .middle-img {
 	display: block;
 	margin: 11px auto;
+}
+
+.contact {
+	display: inline-block;
+	text-align: left;
 }
