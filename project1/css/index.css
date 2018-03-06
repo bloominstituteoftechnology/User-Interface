@@ -65,43 +65,43 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1100px;
-	margin: auto;
 }
 
 header {
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	width: 100%;
-}
-
-nav {
-	display: inline-block;
-	margin-left: 80px;
+	margin-left: 100px;
 	margin-right: 100px;
 }
 
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
 nav ul li {
-	display: inline-block;
-	margin: 25px;
+	margin-right: 60px;
 }
 
 .logo {
-	display: inline-block;
-	vertical-align: middle;
-	margin-bottom: 5px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .cta {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin: 10px 150px;
+	margin-right: 100px;
 }
 
 .cta .cta-text {
 	display: flex;
-	font-size: 70px;
-	margin-top: 50px;
+	font-size: 90px;
 	text-align: center;
 	flex-direction: column;
 }
@@ -109,8 +109,8 @@ nav ul li {
 .cta .cta-text button {
 	text-align: center;
 	justify-content: center;
-	margin-left: 80px;
-	margin-right: 80px;
+	font-size: 18px;
+	margin: 0 100px;
 	background-color: white;
 }
 
@@ -150,7 +150,13 @@ nav ul li {
 .contact {
 	display: flex;
 	flex-direction: column;
-	margin: 40px 100px;
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.contact h4 {
+	margin-bottom: 0px;
 }
 
 .contact p {
@@ -160,5 +166,6 @@ nav ul li {
 footer {
 	display: flex;
 	justify-content: center;
+	margin-top: 40px;
 	margin-bottom: 100px;
 }
