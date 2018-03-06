@@ -103,7 +103,7 @@ li a {
 }
 
 .text-content {
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 	width: 350px;
 }
 
@@ -120,13 +120,13 @@ li a {
 .top-content {
 	margin: 75px 0 75px 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .bottom-content {
 	margin: 75px 0 75px 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 footer {
@@ -134,8 +134,14 @@ footer {
 	margin: 40px 0 40px 0;
 }
 
+.midImage {
+	display: flex;
+	justify-content: center;
+}
 
-
+.contact {
+	margin: 100px 0 30px 75px;
+}
 
 
 
