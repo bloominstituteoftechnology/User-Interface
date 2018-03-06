@@ -108,7 +108,7 @@ header img{
 .cta-text{
 	display: inline-block;
 	margin-left: 180px;
-	text-align: center;
+	text-align: center; 
 	vertical-align: top;
 	margin-top: 170px	
 
@@ -126,4 +126,27 @@ header img{
 	margin-top: 80px;
 }
 
+.top-content{
+	display: inline-block;
 
+}
+.top-content .text-content{
+	display: inline-block;
+	border: solid 1px orange;
+
+}
+.top-content .text-content p{
+	
+	display: inline-block;	
+	padding-top: 10px;
+	text-align: left;
+
+}
+
+.main-content .text-content p {
+	text-align: left;
+}
+
+.middle-img{
+	
+}
