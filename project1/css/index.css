@@ -62,3 +62,58 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container {
+  width: 950px;
+  border: 1px solid red;
+  padding-top: 5px;
+  margin: 0 auto
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+header nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+header img {
+  float: right;
+  /* padding-left: 240px; */
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+}
+
+li {
+  display: inline;
+  vertical-align: top;
+  padding-left: 55px;
+}
+
+li a {
+  color: lightgrey;
+}
+
+.cta {
+}
+.cta-text {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 52px;
+  padding-top: 60px;
+  padding-left: 130px;
+}
+
+section.cta img {
+  zoom: 80%;
+  padding-left: 200px;
+}
