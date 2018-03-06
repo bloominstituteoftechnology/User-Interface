@@ -73,21 +73,34 @@ hr {
 	width: 1100px;
 	margin: 0 auto;
 	text-align: center;
-	display: flex;
-	flex-flow: row wrap;
+/*	display: flex;
+	flex-flow: column wrap;*/
 }
 
 header {
 	/*border: 1px solid red;*/
-	/*display: block;
+	/*display: block;*/
 	padding-top: 30px;
-	margin-bottom: 50px;*/
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
 header nav {
 	/*border: 1px solid blue;*/
 	/*display: inline-block;
 	margin-left: 30px;*/
+	flex-grow: 0.8;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	/*flex-grow: 1;*/
 }
 
 nav li {
@@ -96,7 +109,7 @@ nav li {
 }
 
 .cta {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	/*margin-bottom: 40px;*/
 }
 
