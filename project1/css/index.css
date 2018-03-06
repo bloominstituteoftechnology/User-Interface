@@ -62,3 +62,62 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+* {
+	border: 1px;
+}
+
+.container {
+	margin: 2% auto;
+	display: inline-block;
+	border: 1px solid rgb(255, 0, 149);
+  }
+  header {
+	display: inline-block;
+	border: 1px solid rgb(0, 247, 255);
+	
+	
+  }
+  nav{
+	display: inline-block;
+	vertical-align: top;
+}
+
+  nav ul a {
+	
+	border: 1px solid rgb(0, 255, 21);
+	margin: 50px;
+}
+  nav li{
+	display: inline-block;
+	border: 1px solid rgb(211, 132, 14);
+  }
+ 
+  
+  
+  .logo{
+	  display: inline-block;
+	  margin: 0px 50px;
+  }
+
+
+  .box {
+	display: inline-block;
+	border: 1px solid rgb(23, 29, 24);
+	/* TRBL margin: 30px; */
+	/* TB LR margin: 0 30px; */
+	/* T LR B margin: 10px 0 30px; */ 
+	/* T R B L margin: 5px 10px 0 30px; */ 
+	/* margin-top: 30px; */ 
+	
+  }
+  
+  section div h1{
+	  display: inline-block;
+	  border: 2px solid green
+	  
+  }
+
+  .cta{
+	  display: block;
+	  border: 4px solid blue;
+  }
