@@ -158,38 +158,38 @@ h5 {
     margin-bottom: 10px;
 }
 
-.container {
-    display: inline-block;
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
-.container header {
-    display: inline-block;
+header ul {
+    display: flex;
 }
 
-.container header nav {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 25px
-}
-
-.container header nav li {
-    display: inline-block;
-    margin-left: 50px;
-}
-
-.container header img {
-    display: inline-block;
-    float: right;
+header ul li {
+    margin: 20px 50px 0 0;
 }
 
 .cta {
-    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
 }
 
-.cta .cta-text {
-    display: inline-block;
-    font-size: 60px;
-    padding: 60px;
-    vertical-align: top;
-    width: 50%;
+.cta-text {
+    font-size: 70px;
+}
+
+.cta button {
+    font-size: 20px;
+    margin-left: 25px;
+    width: 150px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
 }
