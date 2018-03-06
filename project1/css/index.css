@@ -123,10 +123,12 @@ header img{
 	margin-top: 80px;
 }
 
+.main-content{ 
+	margin-left: 40px;
 
+}
 .top-content .text-content{
 	display: inline-block;
-
 
 }
 .top-content .text-content p{
@@ -148,4 +150,8 @@ header img{
 .bottom-content .text-content{
 	display:inline-block;
 
+}
+
+.contact{
+	margin-left: 40px;
 }
