@@ -62,3 +62,106 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+	.container {
+		margin: auto;
+		height: 40%;
+		width: 100%;
+		padding: 5%;
+
+	}
+	
+	header {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding: 0 5% 0 5%;
+	}
+	
+	header nav {
+		width: 70%;
+		align-self: center;
+	}
+	
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	header nav ul li a {
+		list-style: none;
+		color: gray;
+		text-decoration: none;
+	}
+	
+	
+	.cta {
+		font-size: 80px;
+		display: flex;
+		justify-content: space-around;
+		margin: 5%;
+	}
+	
+	.cta .cta-text button {
+		background-color: white;
+		font-size: 20px;
+		color: black;
+		border: 1px solid black;
+	}
+	
+	
+	.cta .cta-text {
+		text-align: center;
+	
+	}
+	
+	
+	.cta img {
+		margin: 0;
+	}
+	
+	.main-content {
+		border-top: 1px solid black;
+	}
+	
+	.top-content {
+		display: flex;
+		margin: 3% 0 3% 0;
+
+	}
+
+	.text-content {
+		border: hidden 5px;
+		padding: 10px;
+		margin: 10px;
+
+	}
+	
+	.bottom-content {
+		display: flex;
+		margin: 3% 0 3% 0;
+		border-bottom: 1px solid black;
+		padding-bottom: 3%;
+	
+	}
+	
+	.contact p {
+		text-align: left;
+		padding-bottom: 15px;
+
+	}
+	
+	.middle-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	
+	footer {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 6%;
+		padding-top: 3%;
+
+	}
