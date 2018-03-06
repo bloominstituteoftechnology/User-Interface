@@ -68,18 +68,20 @@ h1, h2, h3, h4, h5 {
 	margin:0 auto;
 	display: flex;
 	flex-flow: wrap column;
-	justify-content:space-between; 
+	align-content: space-between;
+	width: 90%;
+
 }
 
 header {
 	display: flex;
-	border: solid 1px blue;
+
 	justify-content:space-around;
 	
 }
 nav{
 	display: flex;
-	border: solid 1px pink;
+
 	width: 80%;
 
 }
@@ -89,14 +91,14 @@ nav ul {
 	justify-content:space-around;
 	align-items: center;
 	width: 100%;
-	border: solid 1px cyan;
+	
 }
 
 nav ul li a {
 	text-decoration: none;
 	color: gray;
 }
-	
+
 header img{
 	display: flex;
 	justify-content:space-between;
@@ -104,7 +106,7 @@ header img{
 
 section{
 
-	border: solid 1px cyan;
+	
 
 }
 
@@ -113,6 +115,7 @@ section{
 	align-items: center;
 	justify-content:space-around;
 	padding-top: 2%;
+	padding-bottom: 10px;
 
 }
 
@@ -120,14 +123,34 @@ section{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	border: solid 1px cyan;
+	justify-content: flex-start;
+
 }
 
 .cta-text h1{
  display: flex;
- font-size: 110px;
- border: solid 1px cyan;
+ font-size: 100px;
  justify-content: center;
- width: 100%;
  
+}
+
+.top-content{
+	display: flex;
+	justify-content: space-around;
+}
+.main-content{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.bottom-content{
+	display: flex;
+	justify-content: space-around;
+	align-self	
+}
+
+.middle-img{
+	width: 1600px;
+	height: auto;	
 }
