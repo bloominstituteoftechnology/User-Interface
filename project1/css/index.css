@@ -158,7 +158,20 @@ header ul li a {
 
 /* section 3 - .contact */
 
+.contact {
+  margin: 50px;
+}
+
+.contact * {
+  margin: 20px 0;
+}
+
 /* footer */
+
+footer {
+  margin: 80px 0 150px;
+  text-align: center;
+}
 
 /* media query to adjust flex flow */
 @media screen and (max-width: 600px) {
