@@ -65,21 +65,16 @@ h1, h2, h3, h4, h5 {
 		box-sizing: border-box;
 }
 
-container {
-	width: 1100 px;
+.container {
+	width: 1300 px;
 	margin: 0 auto;
-	border: 2 px solid red;
-}
-
-header {
-	vertical-align: top;
-	margin-top: 10px;
 }
 
 .header-nav {
-	display: inline-block;
+	display: block;
+	width: 100%;
 	vertical-align: top;
-	margin-top: 10px;
+	margin-top: 15px;
 	float: left;
 }
 
@@ -96,20 +91,24 @@ li a {
 	color: #999999;
 	text-align: center;
 	text-decoration: none;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-left: 90px;
 }
 
 .logo {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 10px;
+	display: block;
 	float: right;
+	padding-right: 50px;
 }
 
 .cta {
-	disaplay: inline-block;
+	display: inline-block;
 	vertical-align: middle;
+	margin-top: 150px;
+}
+
+.cta-text {
 	text-align: center;
-	font-size: 32px;
+	font-size: 64px;
+	margin-top: 50px;
 }
