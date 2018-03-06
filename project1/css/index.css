@@ -64,26 +64,47 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-
 	display: flex;
 	justify-content: center;
 }
+
 .container {
 	width: 1000px;
 }
 
 .container header {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 }
 
 .container header nav ul{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 }
 
 .container header nav ul li{
 	margin: 4px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+.cta-text {
+	font-size: 72px;
+	text-align: center;
+	align-self: center;
+	display: flex;
+	flex-direction:  column;
+}
+
+.cta-text button {
+	margin-top: 30px;
+	align-self: center;
+	width: 160px;
+	height: 30px;
+	background: white;
+	border 1px solid grey;
 }
