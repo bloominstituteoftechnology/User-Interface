@@ -64,31 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .container{
-	width: 66%;
-	margin: auto;
-}
-
-header {
-	display: flex;
-	width: 100%;
-	padding: 66px 0;
-	flex-wrap: nowrap;	
-}
-
-nav{
-	width:100%;
-	line-height: 44px;
-}
-
-ul {
-	display: flex;
-	justify-content: space-between;	
-}
-
-.logo{
-	display: flex;
-	padding:0 0 0 77px;
-	height: 100%;
+	width: 888px;
+	margin: 0 auto;
 }
 
 a{
@@ -96,80 +73,91 @@ a{
 	text-decoration: none;
 }
 
+li {
+	display: inline-block;
+	margin:11px 0 0 33px;	
+}
+
+.logo {
+	display: block;
+	float: right;	
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
 .cta {
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
+	display: inline-block;	
+	margin: 50px 0;
+	width: 100%;
+	text-align: center;	
 }
 
 button {
 	background-color: white;
 	border: 1px solid black;
 	color: black;
-	font-size: 15px;
-	padding: 6px 44px;
-	align-self: center;	
+	font-size: 22px;
+	padding: 9px 55px;
 }
 
 .cta-text{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	font-size: 88px;
+	display: inline-block;
+	font-size: 66px;
 	text-align: center;
-	flex-grow: 1;
+	margin: 0 33px;
 }
 
 section img {
-	display:flex;			
+	display: inline-block;
+	text-align: right;
 }
 
 .main-content {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 66px 0 0 0;
+	display: inline-block;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	width: 100%;
 	padding: 33px 0;
 }
 
 h4, p{
 	margin:11px 0px;
 	padding:0px 11px 0px 11px;
-	
+	display: inline-block;
 }
 
 .text-content {	
-	
+	display: inline-block;
 	text-align: justify;
+	width: 33%;
 }
 
 .top-content {
-	display: flex;
-	justify-content: space-between;
+	display: inline-block;
+	width: 155%;
 }
 .bottom-content {
-	display: flex;
-	justify-content: space-between;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .middle-img {
-	display:flex;
-	flex-grow: 1;
-	height: 100%;
-	margin: 33px auto;
+	display: block;
+	margin: 11px auto;
 }
 
 .contact {
 	margin: 33px 0;
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
+	text-align: left;
+	width: 222px;
 }
 
 footer{
-	display: flex;
-	justify-content: center;
-	align-content: center;
 	margin: 11px 0 111px 0;
+	text-align: center;
 }
