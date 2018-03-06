@@ -3,62 +3,245 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav ul li:nth-child(1) {
+  margin: 18px 0px 18px 80px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 18px 10px;
+  padding-left: 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header .logo {
+  display: inline-block;
+  margin-left: 132px;
+  margin-top: 10px;
+}
+
+.cta .cta-text {
+  display: inline-block;
+  margin: 100px 194px;
+  font-size: 85px;
+}
+
+.cta .cta-text button {
+  font-size: 20px;
+  margin-left: 35px;
+  padding: 15px;
+}
+
+.cta img {
+  display: inline-block;
+}
+
+hr {
+  width: 1000px;
+  display: inline-block;
+  margin-left: 140px;
+}
+
+.main-content .top-content .text-content {
+  display: inline-block;
+  width: 36%;
+  margin: 15px 30px 15px 143px;
+}
+
+.main-content .top-content .text-content:nth-child(2) {
+  margin: 15px 15px 15px 92px;
+}
+
+.main-content .middle-img {
+  margin: 15px 100px 15px 144px;
+  width: 1000px;
+}
+
+.main-content .bottom-content .text-content {
+  display: inline-block;
+  width: 26%;
+  margin: 15px 5px 15px 143px;
+}
+
+.main-content .bottom-content .text-content:nth-child(2) {
+  margin: 15px 1px 15px 5px;
+}
+
+.main-content .bottom-content .text-content:nth-child(3) {
+  margin: 15px 5px 15px 5px;
+}
+
+.contact {
+  display: inline-block;
+  width: 26%;
+  margin: 15px 5px 15px 143px;
+}
+
+.contact .address,
+.contact .telephone,
+.contact .email {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 15px;
 }
