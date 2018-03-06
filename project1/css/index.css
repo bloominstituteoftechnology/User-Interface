@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container{
-	width: 66%;
+	width:888px;
 	margin: auto;
 }
 
@@ -136,8 +136,11 @@ section img {
 
 h4, p{
 	margin:11px 0px;
-	padding:0px 11px 0px 11px;
-	
+	padding:0px 11px 0px 11px;	
+}
+
+h4{
+	font-weight: bold; 
 }
 
 .text-content {	
