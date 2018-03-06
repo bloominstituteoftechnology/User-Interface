@@ -68,18 +68,17 @@ h1, h2, h3, h4, h5 {
 .container {
     width: 70%;
     margin: 0 auto;
-    border: 1px black solid;
 }
 hr {
     color: black;
 }
+
 header {
-    background-color: wheat;
-    text-align: center;
 }
 
 nav {
     display: inline-block;
+    margin-bottom: 25px;
 }
 
 nav ul li {
@@ -87,8 +86,19 @@ nav ul li {
     margin: 0 50px;
 }
 
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+}
+
 .cta {
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 .cta-text {
@@ -107,6 +117,7 @@ nav ul li {
 
 .cta img {
     margin: 25px;
+    width: 30%;
 }
 
 .top-content {
