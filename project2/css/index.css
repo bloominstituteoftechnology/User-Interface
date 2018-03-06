@@ -116,7 +116,6 @@ header img {
 }
 
 section.cta {
-  /* width: 650px; */
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
@@ -143,4 +142,12 @@ section.cta button {
 
 hr {
   margin: 35px 0;
+}
+
+section.main-content {
+}
+
+section.main-content div.top-content {
+  display: flex; 
+  padding-bottom: 30px;
 }
