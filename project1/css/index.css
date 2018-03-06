@@ -65,8 +65,17 @@ h1, h2, h3, h4, h5 {
 html{
 	box-sizing: border-box;
 	margin: 0;
-	width: 1400px;
 	white-space: wrap;
+}
+.container{
+	width: 1400px;
+}
+button {
+	width: 160px;
+	height: 40px;
+	background-color: white;
+	border: solid black;
+	border-width: 1px;
 }
 body {
 	display: flex;
