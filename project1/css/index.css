@@ -3,95 +3,225 @@
    License: none (public domain)
 */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
+
+
+
 html, body, div, span, applet, object, iframe,
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
 a, abbr, acronym, address, big, cite, code,
+
 del, dfn, em, img, ins, kbd, q, s, samp,
+
 small, strike, strong, sub, sup, tt, var,
+
 b, u, i, center,
+
 dl, dt, dd, ol, ul, li,
+
 fieldset, form, label, legend,
+
 table, caption, tbody, tfoot, thead, tr, th, td,
+
 article, aside, canvas, details, embed, 
+
 figure, figcaption, footer, header, hgroup, 
+
 menu, nav, output, ruby, section, summary,
+
 time, mark, audio, video {
+
 	margin: 0;
-	padding: 0;
-	border: 0x;
-	font-size: 0;
+
+	padding: 0px;
+
+	border: 10px;
+
+	font-size: 100%;
+
 	font: inherit;
-	vertical-align: baseline;
-	display: inline-block;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: inline-block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
+
+	vertical-align: inline-boxes;
+
 	
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
 }
 
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+	display: float;
+
+}
+
+body {
+
+	line-height: 1;
+
+}
+img {
+	float: center;
+	
+}
+
+ol, ul {
+
+	list-style: none;
+
+}
+
+blockquote, q {
+
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+	content: '';
+
+	content: none;
+
+}
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}
+div .bottom-content{
+	padding: 1em;
+	-moz-column-count: 3;
+	-moz-column-gap: 1em;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 1em;
+	column-count: 3;
+	column-gap: 1em;
+  
+}
+
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing : border-box;
+
+    box-sizing: border-box;
+
+}
+
+img .middle-img{
+	float:center;
 }
 
 html, body {
+
     height: 100%;
+
     font-family: 'Titillium Web', sans-serif;
+
 }
+
+
 
 h1, h2, h3, h4, h5 {
+
     font-family: 'Bangers', cursive;
+
     letter-spacing: 1px;
-	margin-bottom: 10px;
-}
- .middle-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-} 
 
-header img {
- border: 1px solid orange;
- display: inline-block;
- margin-left: 300px;
-}
-header nav {
-	display:inline-block;
-	border: 1px solid green;
-	vertical-align: top;
-	margin: top;
-}
-nav ul
-{
-    display:inline-block;
-    overflow:hidden;
-    color:white;
-    text-align:center;
-    padding:10px;
-    margin:top;
-}
+    margin-bottom: 10px;
 
-div .cta-text{
-	margin: 150px;
 }
+img .middle-img{
+	margin:10;
+	position: static;
+
+}
+.container {
+	position: static;
+  }
+  nav {
+	position: relative;
+	left: 0px;
+	width: 1000px;
+  }
+  section {
+	/* position is static by default */
+	margin-left: 200px;
+  }
+  footer {
+	position: relative;
+	bottom: 0;
+	left: 20%;
+	height: 50px;
+	background-color: white;
+	width: 10%;
+  }
+  body {
+	margin-bottom: 120px;
+  }* {
+	box-sizing: border-box;
+  }
+  
+  
+  .container {
+	width: 1100px;
+	border: 4px solid red;
+	margin: 0 auto;
+  }
+  
+  header {
+	border: 5px solid blue;
+	
+  }
+  
+  header img {
+	border: 1px solid purple;
+	
+	margin-left: 900px;
+  }
+  
+  header nav ul{
+	
+	border: 10px solid green;
+	margin: 0 auto;
+	
+	
+  }
+  
+  .box {
+	width: 200px;
+	height: 200px;
+	border: 10px solid red;
+	background-color: gray;
+	margin: 30px;
+	margin-right: 0;
+	padding: 30px;
+	display: inline-block;
+	/* TRBL margin: 30px; */
+	/* TB LR margin: 0 30px; */
+	/* T LR B margin: 10px 0 30px; */ 
+	/* T R B L margin: 5px 10px 0 30px; */ 
+	/* margin-top: 30px; */ 
+	
+  }
+  
+  .box2 {
+	margin-left: 0;
+  }
