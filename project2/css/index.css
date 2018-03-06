@@ -60,7 +60,6 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 
 .container {
@@ -78,41 +77,38 @@ a:hover {
 }
 
 header {
+  display: flex; 
   padding-bottom: 40px;
+  justify-content: space-between;
 }
 
 header nav {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 8px;
+  display: flex; 
 }
 
-header img {
-  float: right;
-}
-
-li {
-  display: inline;
-  vertical-align: top;
-  padding-left: 55px;
+ul {
+  width: 650px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
 }
 
 li a {
   color: lightgrey;
 }
 
+section.cta {
+  display: flex; 
+  justify-content: space-around;
+}
+
 .cta-text {
-  display: inline-block;
-  vertical-align: top;
   text-align: center;
   font-size: 52px;
-  padding-top: 60px;
-  padding-left: 130px;
 }
 
 section.cta img {
   zoom: 80%;
-  padding-left: 200px;
 }
 
 section.cta button {
@@ -124,32 +120,14 @@ hr {
   margin: 35px 0;
 }
 
-section.main-content {
-  text-align: center;
-}
-
 section.main-content div.top-content {
+  display: flex; 
   padding-bottom: 30px;
 }
 
-section.main-content div.top-content div.text-content {
-  display: inline-block;
-  width: 49.5%;
-  text-align: left;
-}
-
-section.main-content div.top-content div.text-content h4, p {
-  width: 97%;
-}
-
 section.main-content div.bottom-content {
+  display: flex; 
   padding-top: 30px;
-}
-
-section.main-content div.bottom-content div.text-content {
-  display: inline-block;
-  width: 33%;
-  text-align: left;
 }
 
 footer {
