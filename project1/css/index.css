@@ -62,3 +62,23 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+
+header {
+	border: 5px solid orange;
+  }
+  
+  header ul li {
+	border: 3px solid green;
+	vertical-align: top;
+	display: inline-block;
+	padding: 25px;
+  }
+  
+  header img {
+	border: 3px solid pink;
+	vertical-align: top;
+	display: inline-block;
+	padding: 25px;
+  }
