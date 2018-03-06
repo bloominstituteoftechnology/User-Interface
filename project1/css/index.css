@@ -49,29 +49,29 @@ table {
 
 /* Set every element's box-sizing to border-box */
 
-div {
-    width: 1100px;
-    border: none; 
-    padding: 25px;
-	margin: 0 auto;  
-	justify-content: center;
+.container1 {
+	display: flex;
+    margin: 0 auto;  
+}
+.container2 {
+	display: flex; 
+	flex-direction: row; 
+	 
+}
+lu {
+	display: flex; 
+	justify-content: space-evenly; 
 }
 .logo {
-	 
-	float: right;
+	display: flex;
+	justify-content: flex-end; 
 	 
 }
 
-li {
-	display: inline; 
-	margin: 20px; 
+
+
 	
- 
-}
-.ctaClass {
-	display: inline-block; 
-	
-}
+
 
 h1 {
 	font-size: xx-large;	
@@ -106,5 +106,6 @@ h1, h2, h3, h4, h5 {
 	display: inline-block; 
 }
 .contact {
-	text-align: center;
+	display: flex;
+	align-content: flex-start; 
 }
