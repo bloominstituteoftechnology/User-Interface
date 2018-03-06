@@ -108,3 +108,38 @@ body{
 	background: white;
 	border 1px solid grey;
 }
+
+.main-content {
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: grey;
+	padding: 30px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.text-content {
+	margin: 20px 0px;
+}
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+footer {
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+}
