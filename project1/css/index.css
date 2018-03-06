@@ -242,36 +242,44 @@ header img {
 /* main content */
 
 .main-content {
-  margin-top: 22px;
+  margin-top: 32px;
   height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-content {
   width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
-
 .text-content {
-  display: inline-block;
-  margin: 20px auto;
+  padding: 0 10px;
 }
 
 .top-content .text-content {
-  width: 49%;
+  width: 50%;
 }
 
 .main-content img {
   width: 100%;
   height: auto;
 }
-
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
 .bottom-content .text-content {
-  width: 30%;
+  width: 33%;
 }
 
 .contact {
   margin: 20px auto;
   height: 100px;
-  margin-bottom: 20px;
 }
 
 footer {
