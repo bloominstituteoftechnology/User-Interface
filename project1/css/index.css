@@ -75,19 +75,16 @@ a{
 
 li {
 	display: inline-block;
-	margin: 33px;	
+	margin:11px 0 0 33px;	
 }
 
 .logo {
-	display: inline-block;
-	vertical-align: top;
-	border: 3px solid green;
-	text-align: right;
+	display: block;
+	float: right;	
 }
 
 header {
 	display: inline-block;
-	border: 6px solid red;
 	width: 100%;
 }
 
@@ -95,8 +92,7 @@ header {
 	display: inline-block;	
 	margin: 50px 0;
 	width: 100%;
-	text-align: center;
-	border: 3px dashed orange;	
+	text-align: center;	
 }
 
 button {
@@ -155,12 +151,13 @@ h4, p{
 }
 
 .contact {
+	margin: 33px 0;
 	display: inline-block;
 	text-align: left;
 	width: 222px;
 }
 
 footer{
-	margin: 22px 0 0 0;
+	margin: 11px 0 111px 0;
 	text-align: center;
 }
