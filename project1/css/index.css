@@ -97,7 +97,7 @@ header .logo {
   width: 100%;
 }
 
-.cta-text h1{
+.cta .cta-text h1{
   font-size: 48px;
   width: 100px;
   height: 150px;  
@@ -105,9 +105,15 @@ header .logo {
 
 .cta .cta-text {
   display: inline-block;
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 275px;
+  vertical-align: bottom;
+}
+
+.cta img {
+  display: inline-block;
   vertical-align: top;
+  margin: 50px 0 50px;
 }
 
 .main-content {
