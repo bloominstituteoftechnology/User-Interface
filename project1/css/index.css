@@ -128,6 +128,46 @@ header ul li a {
 
 /* section 2 - .main-content */
 
+.main-content {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin: 0 50px;
+}
+
+.middle-img {
+  width: 100%;
+  min-height: 150px;
+}
+
+.top-content, .bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-content {
+  margin: 50px 0;
+}
+
+.top-content .text-content {
+  width: 45%;
+}
+
+.bottom-content .text-content {
+  width: 30%;
+}
+
 /* section 3 - .contact */
 
 /* footer */
+
+/* media query to adjust flex flow */
+@media screen and (max-width: 600px) {
+  .top-content, .bottom-content {
+    flex-flow: wrap;
+  }
+
+  .top-content .text-content, .bottom-content .text-content {
+    width: 100%;
+    margin: 25px 0;
+  }
+}
