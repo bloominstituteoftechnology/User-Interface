@@ -54,12 +54,15 @@ table {
 
 .container {
 	/* border: 5px green;
-	display: inline-block;
+	display: flex;
 	text-align: center;
-	margin: 10px 15px;  */
+	margin: 10px 15px; 
 	margin: auto;
     width: 75%;
-    padding: 10px;
+	padding: 10px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center
 }
 
 html, body {
