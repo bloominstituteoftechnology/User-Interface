@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: silver;
+}
+
 h1 {
 	font-size: 125px;
 }
@@ -83,8 +88,13 @@ p {
 }
 
 button {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	display: inline-block;	
 	font-size: 30px;
 	margin: 30px;
+	padding: 7px 60px;
 }
 
 .container {
@@ -169,12 +179,4 @@ section.cta img {
 footer {
 	text-align: center;
 	margin: 40px;
-}
-
-.clear {
-	clear: both;
-}
-
-br {
-	padding: 50px 0px;
 }
