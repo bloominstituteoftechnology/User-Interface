@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
+
 .header-nav {
 	display: flex;
 	flex-direction: row;
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5 {
 ul {
 	display: flex;
 	flex-direction: row;
-	padding-left: 20px;
+	padding-left: 30px;
 	width: 80%;
 }
 
@@ -94,21 +95,71 @@ li a {
 	justify-content: flex-end;
 }
 
-
-
 .cta {
 	display: flex;
+	margin: 50px;
+}
+
+.cta-text {
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	font-size: 80px;
+	width: 55%;
+	height: auto;
+}
+
+button {
+	display: flex;
+
+	border: 2px solid gray;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	height: 30px;
+	width: 120px;
 }
 
 .top-content {
 	display: flex;
+	width: 90%;
+	height: 100%;
+	margin: 50px;
+	justify-content: space-around;
 }
 
-.text-content {
-	display: flex;
-}
 
-#middle-img {
+middle-img {
 	display: flex;
 	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	width: 90%;
+	height: 100%;
+	margin: 50px;
+	justify-content: space-around;
+}
+
+.contact {
+	width: 90%;
+	height: 100%;
+	margin: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+h2 {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+		margin: 10px -100% 10px 10px;
+    border-top: 1px solid black;
 }
