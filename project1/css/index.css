@@ -68,14 +68,11 @@ h1, h2, h3, h4, h5 {
 margin:0 auto;
 }
 
-header {
-	
-	border: solid 2px red;
-}
+
 
 nav{
 	display: inline-block;
-	border: solid 1px green;
+	
 	margin-left: 100px;
 	margin-top: 30px ;
 	vertical-align: top;
@@ -96,13 +93,13 @@ nav ul li a {
 
 header img{
 	display: inline-block;
-	border: solid 1px cyan;	
+	
 	margin-top: 20px;
 	vertical-align: top;
 	margin-left: 60px; 
 }
 .cta{
-	border: solid 1px green;
+	
 
 }
 .cta-text{
@@ -121,7 +118,7 @@ header img{
 
 	vertical-align: top;
 	display: inline-block;
-	border: solid 1px purple;
+	
 	margin-left: 100px;
 	margin-top: 80px;
 }
@@ -129,7 +126,7 @@ header img{
 
 .top-content .text-content{
 	display: inline-block;
-	border: solid 1px orange;
+
 
 }
 .top-content .text-content p{
