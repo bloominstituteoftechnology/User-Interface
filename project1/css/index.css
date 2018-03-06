@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 	margin:0 auto;
 	display: flex;
 	flex-flow: wrap column;
-	align-content: space-between;
+	
 	width: 90%;
 
 }
@@ -141,16 +141,29 @@ section{
 .main-content{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 
 }
 
 .bottom-content{
 	display: flex;
 	justify-content: space-around;
-	align-self	
+	margin: 100px;
 }
 
 .middle-img{
 	width: 1600px;
 	height: auto;	
+	align-self:center;
+	margin: 100px;
+}
+
+.contact{
+	align-self:flex-start;
+	align-content: space-between;
+	height: 140px;
+}
+
+footer{
+	align-self:center;
 }
