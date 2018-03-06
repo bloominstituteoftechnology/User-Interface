@@ -49,10 +49,11 @@ li {
 }
 a {
 	color: black;
+	text-decoration: none;
 }
 header img {
 	padding-left: 1200px;
-	vertical-align: top;
+
 
 
     
