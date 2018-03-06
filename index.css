@@ -150,81 +150,87 @@ h5 {
 }
 /* where i started*/
 
-header nav {
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-
+hr {
+  color: black;
+}
 header nav li {
   display: inline-block;
   margin-right: 40px;
   margin-top: 20px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
-
 header nav li a {
   text-decoration: none;
   color: rgba(220, 200, 220, 1);
 }
 
-header img.logo {
-  float: right;
-  margin-top: -20px;
+nav {
+  display: inline-block;
 }
-.cta .cta-text {
-  display: inline block;
-  color: black;
-  font-size: 100px;
-  padding-top: 200px;
-  padding-left: 200px;
-  margin-right: 1200px;
+
+nav ul li {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+nav img {
+}
+
+.cta {
+  margin-bottom: 33px;
+  border-bottom: 1px solid black;
+}
+
+.cta-text {
+  width: 45%;
+  display: inline-block;
   text-align: center;
+  font-size: 75px;
 }
-.cta img {
-  /*border: 1px solid blue;*/
-  display: inline block;
-  margin-left: 50%;
-}
-.cta-text button {
+
+.cta .cta-text button {
   background-color: white;
   border-color: black;
-  padding: 5px 50px;
-  font-size: 25px;
+  padding: 5px 30px;
+  width: 190px;
+  font-size: 20px;
+  margin-bottom: 100px;
 }
-/* header nav{
-    display:inline-block;
 
+.cta img {
+  margin: 25px;
+  margin-left: -30px;
 }
-header img{
-	display:inline-block;
-
-	padding-top: 60px;
-	  padding-left: 200px;
-
-  }
-  header nav li a{
-	display: inline-block;
-
-	margin-left: 115px;
-	padding-right:50px;
-
-font-size:20px;
-	color: gray;
-	text-decoration: none;
-
+.top-cotent {
+  margin: 25px 0;
 }
-a{
-
+.top-cotent .text-content {
+  display: inline-block;
+  color: blue;
+  width: 50%;
 }
-.cta{
-	display:inline block;
-	border: 1px solid green;
+.main-content img {
+  width: 90%;
+  height: 200px;
+  margin-left: 30px;
 }
-.cta-text{
-	display: inline block;
-	color:black;
-	border: 1px solid red;
-	font-size:100px;
-	padding-top:200px;
-	padding-left:200px;
-	margin-right: 1200px;
-	text-align: center;
-} */
+.bottom-content {
+  margin: 25px 0;
+}
+.bottom-content .text-content {
+  display: inline-block;
+  width: 33%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.contact {
+  margin: 25px 0;
+}
+footer {
+  text-align: center;
+  margin: 50px;
+}
