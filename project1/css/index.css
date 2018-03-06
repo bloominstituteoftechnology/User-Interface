@@ -104,7 +104,7 @@ li a {
 
 .text-content {
 	/*flex-grow: 1;*/
-	width: 350px;
+	width: 450px;
 }
 
 .cta-text {
@@ -118,15 +118,15 @@ li a {
 }
 
 .top-content {
-	margin: 75px 0 75px 0;
+	margin: 125px 0 125px 0;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .bottom-content {
-	margin: 75px 0 75px 0;
+	margin: 125px 0 125px 0;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 footer {
@@ -140,7 +140,7 @@ footer {
 }
 
 .contact {
-	margin: 100px 0 30px 75px;
+	margin: 0px 0 30px 0px;
 }
 
 
