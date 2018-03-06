@@ -49,11 +49,17 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container {
+	width: 1000px;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;	
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -61,4 +67,126 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+.container header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+
+}
+.container header nav {
+	display: inline-flex;
+	width: 620px;
+	justify-content: flex-start;
+}
+.container header nav ul{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 620px;
+	justify-content: space-between;
+}
+.container header nav li{
+
+}
+.container header nav li a {
+	color: grey;
+	text-decoration-line: none;
+}
+
+.container header img {
+	
+	display: inline-flex;
+	justify-content: space-between;
+
+}
+
+.container .cta  {
+	display: inline-flex;
+	width: 1000px;
+	justify-content: space-evenly;
+	margin: 45px auto;
+}
+
+.container .cta  .cta-text {
+	font-size: 80px;
+	text-align: center;
+}
+
+.container .cta button {
+	font-size: 18px;
+	vertical-align: top;
+	padding: 3px 35px;
+	background-color: white;
+}
+.container .cta img {
+
+}
+.main-content {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 20px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.main-content .top-content {
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+}
+.main-content .top-content .text-content {
+	width: 46%;
+	margin: 5px 0px 25px 0px;
+	/* margin: 20px 0px 25px 20px; */
+}
+.main-content .top-content .text-content p {
+	
+}
+
+.main-content .middle-img {
+	display: inline-flex;
+	justify-content: center;
+	/* margin: 0px 27px; */
+}
+.main-content .bottom-content {
+	margin-top: 25px;
+	display: inline-flex;
+	justify-content: space-evenly;
+}
+.main-content .bottom-content .text-content {
+	width: 30%;
+	margin: 0px 0px 25px 0px;
+	margin-bottom: 30px;
+
+}
+.container .contact {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.contact {
+	padding: 27px;
+	width: 10%;
+
+}
+.contact p {
+	margin-bottom: 15px;
+}
+.container footer {
+	display: flex;
+	width: 100%;
+	margin: 30px 0px 80px 0px;
+}
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	
 }
