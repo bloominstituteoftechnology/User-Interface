@@ -62,3 +62,113 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+html{
+	box-sizing: border-box;
+	margin: 0;
+	white-space: wrap;
+}
+.container{
+	width: 1400px;
+}
+button {
+	width: 160px;
+	height: 40px;
+	background-color: white;
+	border: solid black;
+	border-width: 1px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+header {
+	display:flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	align-items: stretch;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+ li a{
+	display: flex;
+	align-items: space-between;
+}
+li {
+	display: inline-flex;
+	flex-direction: row;
+	font: color LightGray;
+	margin: 0 70px;
+	padding-top: 10px;
+	flex-wrap: nowrap;
+	
+}
+
+.main-content{
+	display: inline-flex;
+	flex-direction: column;
+}
+.cta {
+	display: inline-flex;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	justify-content: center;
+	align-items: space-between;
+	padding-bottom: 40px;
+}
+.cta img{
+	position: relative;		
+	height: auto;	
+	margin: 0;
+	padding-top: 40px;
+}
+div .cta-text {
+margin-top: 100px;
+margin-right: 200px;	
+}
+div .cta-text h1{
+font-size: 80px;
+}
+.bottom-content{
+	display: inline-flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	border-spacing: 100px;
+}
+.bottom-content{
+	display:inline-flex;
+}
+
+.contact{
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+}
+p{
+	margin-left: 10px;
+	
+}
+.top-content {
+	display: inline-flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	border-spacing: 100px;
+}
+h4 {
+	margin-left: 10px;
+}
+.middle-img{
+	display: inline-flex;
+	padding: 100px;
+	width: 100%;
+}
