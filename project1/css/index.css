@@ -149,7 +149,9 @@ h5 {
   margin-bottom: 10px;
 }
 
-.container {
+/* Layout using inline-block method */
+
+/* .container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -244,4 +246,38 @@ hr {
 footer {
   text-align: center;
   margin-bottom: 15px;
+} */
+
+/* Layout using the flexbox method */
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px 0;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+}
+
+header nav {
+  flex-grow: 1;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  text-decoration: none;
 }
