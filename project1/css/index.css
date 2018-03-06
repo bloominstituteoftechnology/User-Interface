@@ -18,21 +18,23 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
+	border: 0x;
+	font-size: 0;
 	font: inherit;
 	vertical-align: baseline;
+	display: inline-block;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
 }
 ol, ul {
 	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -49,7 +51,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    box-sizing : border-box;
 }
 
 html, body {
@@ -60,5 +62,36 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+ .middle-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+} 
+
+header img {
+ border: 1px solid orange;
+ display: inline-block;
+ margin-left: 300px;
+}
+header nav {
+	display:inline-block;
+	border: 1px solid green;
+	vertical-align: top;
+	margin: top;
+}
+nav ul
+{
+    display:inline-block;
+    overflow:hidden;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin:top;
+}
+
+div .cta-text{
+	margin: 150px;
 }
