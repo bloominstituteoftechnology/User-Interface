@@ -68,96 +68,90 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+/* -------- SECTION:  HEADER --------- */
+header{
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 header nav{
-	display: inline-block;
-	width: 75%;
-	margin: 0 auto;
-	padding: 30px;
-
-}
-header nav ul li{
-	display: inline-block;
-	width: 100px;
+	display: flex;
+	flex-grow:1;
+	justify-content: center;
 }
 
-header nav ul li a{
-	text-align: center;
+header nav ul{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+a{
 	text-decoration: none;
 	color: gray;
 }
 
-.cta{
-	display: inline-block;
-	width: 1100px;
-	margin: 0 auto;
+
+/* -------- SECTION:  CTA --------- */
+.cta {
+	padding: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.cta .cta-text{
-	display: inline-block;
-	width: 500px;
-	vertical-align: 50%;
+.cta-text{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	font-size: 75px;
-	text-align: center;
-	padding: 30px;
 }
 
-.cta .cta-text button{
-	border: 1px solid black;
-	background-color: white;
+.cta-text button {
+	background: white;
+	padding: 5px;
+	border: 2px solid black;
 }
 
-.cta img{
-	display: inline-block;
-	width: 50%;
-	margin: 0 auto;
-	padding: 30px;
-}
-
-
+/* -------- SECTION:  MAIN CONTENT --------- */
 .main-content{
-	display: inline-block;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.text-content{
+	padding: 25px;
+	display: flex;
+	flex-flow: column wrap;
 }
 
-.main-content .top-content .text-content{
-	display: inline-block;
-	width: 49%;
-	margin: 0 auto;
-	padding: 30px;
+.top-content, .bottom-content {
+	display: flex;
+	flex-direction: row;
 }
 
-.main-content .top-content .text-content p{
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
+.middle-img {
+	padding: 25px;
+	 display: flex;
+	 justify-content: center;
+ }
+
+ /* -------- SECTION:  CONTACT --------- */
+.contact {
+	display: flex;
+	flex-direction: column;
 }
 
-.middle-img{
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
+.contact p , .contact h4{
+	padding: 10px 15px 15px 0;
 }
 
-.main-content .bottom-content .text-content{
-	display: inline-block;
-	width: 33%;
-	margin: 0 auto;
-	padding: 30px;
-}
-
-.main-content .bottom-content .text-content p{
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.contact p{
-	display: block;
-	padding: 10px;
-}
-
-footer{
-	display: inline-block;
-	width: 100%;
-	text-align: center;
+ /* -------- SECTION:  FOOTER --------- */
+footer {
+	padding: 50px;
+	display: flex;
+	justify-content: center;
 }
