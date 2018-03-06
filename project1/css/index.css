@@ -70,6 +70,7 @@ header nav {
 header nav ul li {
 	display: inline-block;
 	width: 200px;
+	margin-bottom: 25px;
 }
 
 .cta {
@@ -80,6 +81,9 @@ header nav ul li {
 	display: inline-block;
 	font-size: 4vw;
 	text-align: center;
+	margin-bottom: 25px;
+	margin-left: 450px;
+	margin-right: 0px;
 }
 
 .top-content {
@@ -87,11 +91,27 @@ header nav ul li {
 }
 
 .text-content {
-	display: block;
-	text-align: center;
+	display: inline-block;
+	text-align: row;
 }
 
 .middle-img {
 	display: inline-block;
-	align: center;
+	padding-left: 200px;
+}
+
+.top-content p {
+	display: inline-block;
+	width: 450px;
+}
+
+.bottom-content p {
+	display: inline-block;
+	width: 450px;
+	padding-bottom: 25px;
+}
+
+.contact {
+	display: inline-block;
+	text-align: start;
 }
