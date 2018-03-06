@@ -69,60 +69,61 @@ hr {
 }
 
 .container {
+	border: 1px solid red;
 	width: 1100px;
-	/*border: 1px solid red;*/
 	margin: 0 auto;
 	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 header {
 	/*border: 1px solid red;*/
-	display: block;
+	/*display: block;
 	padding-top: 30px;
-	margin-bottom: 50px;
-
+	margin-bottom: 50px;*/
 }
 
 header nav {
 	/*border: 1px solid blue;*/
-	display: inline-block;
-	margin-left: 30px;
+	/*display: inline-block;
+	margin-left: 30px;*/
 }
 
 nav li {
-	display: inline-block;
-	margin: 0 40px;
+	/*display: inline-block;
+	margin: 0 40px;*/
 }
 
 .cta {
 	/*border: 1px solid red;*/
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
 }
 
 .cta .cta-text {
 	/*border: 1px solid blue;*/
-	display: inline-block;
+	/*display: inline-block;*/
 	font-size: 80px;
-	text-align: center;
-	margin-left: 15%;
+	/*text-align: center;*/
+	/*margin-left: 15%;*/
 }
 
 .cta .cta-text button {
 	border: 1px solid black;
 	font-size: 16px;
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 /*	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 40px;
 	padding-right: 40px;*/
-	padding: 5px 40px 5px 40px;
-	vertical-align: top;
+	/*padding: 5px 40px 5px 40px;*/
+	/*vertical-align: top;*/
 }
 
 .cta img {
 	/*border: 1px solid blue;*/
-	display: inline block;
-	margin-left: 15%;
+	/*display: inline block;*/
+	/*margin-left: 15%;*/
 }
 
 .main-content {
@@ -131,56 +132,56 @@ nav li {
 
 .main-content .top-content {
 	/*border: 5px solid green;*/
-	margin-top: 30px;
+	/*margin-top: 30px;
 	margin-left: 30px;
-	margin-right: 30px;
+	margin-right: 30px;*/
 }
 
 .main-content .top-content .text-content {
 	/*border: 5px solid orange;*/
-	display: inline-block;
+/*	display: inline-block;
 	float: left;
 	margin-bottom: 30px;
-	padding: 10px;
+	padding: 10px;*/
 	width: 50%;
 }
 
 .main-content .middle-img {
 	/*border: 1px solid blue;*/
-	display: block;
+/*	display: block;
 	margin-bottom: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 92%;
+	width: 92%;*/
 }
 
 .main-content .bottom-content {
 	/*border: 1px solid red;*/
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 .main-content .bottom-content .text-content{
 	/*border: 1px solid blue;*/
-	display: inline-block;
+	/*display: inline-block;
 	margin-left: 30px;
 	padding: 10px;
-	width: 30%;
+	width: 30%;*/
 }
 
 .contact {
 	/*border: 1px solid red;*/
-	display: inline-block;
-	margin-left: 40px;
+	/*display: inline-block;
+	margin-left: 40px;*/
 }
 
 .contact p {
-	margin-bottom: 15px;
+	/*margin-bottom: 15px;*/
 }
 
 footer {
 	/*border: 1px solid red;*/
-	text-align: center;
-	margin-bottom: 15%;
+	/*text-align: center;*/
+	/*margin-bottom: 15%;*/
 }
 
 
