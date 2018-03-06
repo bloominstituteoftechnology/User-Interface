@@ -153,10 +153,14 @@ header nav {
   display: inline-block;
 }
 
+header nav ul li:nth-child(1) {
+  margin: 18px 0px 18px 80px;
+}
+
 header nav ul li {
   display: inline-block;
   margin: 18px 10px;
-  padding-left: 80px;
+  padding-left: 50px;
 }
 
 header nav ul li a {
@@ -165,7 +169,7 @@ header nav ul li a {
 
 header .logo {
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 132px;
   margin-top: 10px;
 }
 
