@@ -68,71 +68,73 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 5%;
-	margin-top: 0;
+	margin-top: 2%;
 }
 
 /**************************************************************/
 
-.container header {
-	width: 100%;
-	height: 50px;
-	border: 2px solid black;
+header {
+	/*border: 2px solid black;*/
 	text-align: center;
+	display: block;
 }
 
-.container header nav {
-	height: 100%;
-	text-align: center;
-}
-
-.container nav li a {
+header>nav {
 	display: inline-block;
-	text-decoration: none;
-	color: grey;
-	/*border: 1px solid;*/
-	height: 50px;
-	width: 100px;
-	margin-top: 0;
-	padding-top: 15px;
+	position: relative;
+	margin: 0px auto;
+	bottom: 10px;
+}
+
+li {
+	display: inline-block;
 	margin-right: 100px;
 }
 
-.container header.logo {
-
+li>a {
+	text-decoration: none;
+	color: grey;
 }
 
+header>img {
+	display: inline-block;
+}
 
 /**************************************************************/
 
 .container section.cta {
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	width: 100%;
 	padding: 2%;
 	margin-top: 15px;
-	display: inline-block;
-	text-align: center;
-
-}
-
-.cta .cta-text h1 {
-	float: left;
-	width: 50%
-	font-size: 40px;
-	text-align: center;
-}
-
-.container section.cta .cta-text {
-	border: 1px solid;
-	position: relative;
-}
-
-.cta .cta-text button {
 	display: block;
+}
+
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	font-size: 84px;
+	margin-top: 200px;
+}
+
+.cta-text h1 {
+	display: block;
+}
+
+.cta-text button {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	font-weight: bold;
 }
 
 .cta img {
 	float: right;
 	width: 50%;
+	display: inline-block;
 }
 
 /**************************************************************/
@@ -143,7 +145,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 35px;
 	padding-top: 35px;
 	padding-bottom: 35px;
-	border-top: 1px solid;
+	border-top: 2px solid;
 }
 
 .features {
@@ -173,7 +175,7 @@ h1, h2, h3, h4, h5 {
 	padding-top: 35px;
 	padding-bottom: 35px;
 	margin-bottom: 35px;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 }
 
 .services {
