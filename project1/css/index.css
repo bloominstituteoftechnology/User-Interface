@@ -148,17 +148,18 @@ section{
 .bottom-content{
 	display: flex;
 	justify-content: space-around;
-	margin: 100px;
+	margin-top:  100px;
 }
 
 .middle-img{
 	width: 1600px;
 	height: auto;	
 	align-self:center;
-	margin: 100px;
+	margin-top: 100px;
 }
 
 .contact{
+	margin-top: 100px;
 	align-self:flex-start;
 	align-content: space-between;
 	height: 140px;
@@ -166,4 +167,12 @@ section{
 
 footer{
 	align-self:center;
+}
+
+hr {
+  
+  width: 100%;              
+  background-color:black;
+  height: 4px;
+  margin: 40px;
 }
