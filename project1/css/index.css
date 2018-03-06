@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-  margin-right: 100px;
+  margin-right: 0px;
 }
 
 .container {
@@ -160,7 +160,7 @@ margin-bottom: 130px;
   flex-wrap: wrap;
   justify-content: space-around;
   height: 780px;
-  width: 1050px;
+  width: 900px;
 }
 
 .main-content .top-content {
