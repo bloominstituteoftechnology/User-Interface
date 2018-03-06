@@ -40,7 +40,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	border: 1px solid red;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -60,17 +59,24 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
 .container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
-} 
+}
+
+header {
+	margin: 30px 0;
+}
+
+header nav {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+}
 
 header nav li {
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-left: 50px;
+    width: 15%;
 }
 
 header nav li a {
@@ -86,33 +92,60 @@ header img.logo {
 }
 
 .cta {
-	text-align: right;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .cta-text {
-    display: inline-block;
-    text-align: center;
-    font-size: 80px;
-    margin-top: 125px;
+	display: inline-block;
+	width: 50%;
+	text-align: center;
 }
 
-.cta img {
-	margin-top: 50px;
-	margin-right: -125px;
-	margin-bottom: 50px;
-	margin-left: 150px;
-    float: right;
- }
+.cta-text h1{
+	display: inline-block;
+	font-size: 80px;
+}
 
- button {
+.top-content .text-content {
+	display: inline-block;
+	width: 45%;
+	margin: 25px 0;
+}
+
+.middle-img {
+	width: 100%;
+	display: inline-block;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 30%;
+	margin: 25px 0;
+}
+
+.contact {
+	margin: 25px 0;
+}
+
+.contact p{
+	margin-top: 10px;
+}
+
+button {
     background-color: white;
     border: 1px solid black;
-    padding: 1px 50px;
+    padding: 5px 50px;
     font-size: 20px;
 }
 
 hr {
-	width: 1100px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	width: 1000px;
+	border: .5px solid black;
+	margin-top: 80px;
+}
+
+footer{
+	text-align: center;
+	margin: 50px;
 }
