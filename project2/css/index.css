@@ -151,3 +151,8 @@ section.main-content div.top-content {
   display: flex; 
   padding-bottom: 30px;
 }
+
+section.main-content div.bottom-content {
+  display: flex; 
+  padding-top: 30px;
+}
