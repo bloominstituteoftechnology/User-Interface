@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+/* where i started*/
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+}
+.container header {
+  display: flex;
+  justify-content: space-around;
+}
+.container header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.container .logo {
+  margin-top: 15px;
+  margin-left: -15px;
+}
+header nav li a {
+  display: flex;
+  width: 150px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+}
+/* this is the top part of the page under the logo */
+.cta {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.cta-text {
+  font-size: 85px;
+  text-align: center;
+  dispaly: flex;
+}
+/* had issues spacing the button close to the text */
+.cta-text button {
+  align-self: center;
+  font-size: 17px;
+  width: 185px;
+  height: 37px;
+  background: white;
+  border: 2px solid black;
+}
+
+/* this is where the lower part of the page is, inside the two borders */
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-content .text-content {
+  width: 470px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+.bottom-content {
+  display: flex;
+  flext: row;
+  margin-top: 40px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+/* this is where the footer and contact are under everything else */
+.contact {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
