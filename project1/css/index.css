@@ -62,49 +62,58 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+html{
+	box-sizing: border-box;
+	margin: 0;
+	width: 1400px;
+	white-space: wrap;
+}
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
 header {
-	display: inline-block;
+	display:flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	align-items: stretch;
+	padding-top: 20px;
+	padding-right: 50px;
 }
-
+ li a{
+	display: flex;
+	align-items: space-between;
+}
 li {
-	color: Lightgray;
-	position: relative;
-	display:inline-block;
-	vertical-align: middle;
-	text-align: center;
-	height: 90px;
-	width: 12%;
-	top: 40px;
-	padding-left: 50px;
+	display: inline-flex;
+	flex-direction: row;
+	font: color LightGray;
+	margin: 0 70px;
+	padding-top: 10px;
+	flex-wrap: nowrap;
+	
+}
 
-}
-.logo {
-	float: right;
-	vertical-align: top;
-	top: 25px;
-	right: 0;
-	border: solid green;
-	margin-left: 100px;
-	clear: right;
-}
-section{
-	display: inline-block;
+.main-content{
+	display: inline-flex;
+	flex-direction: column;
 }
 .cta {
 	display: inline-flex;
 	text-align: center;
-	border: solid black;
 	vertical-align: top;
-	width: 90%;
-	padding: 50px;
+	width: 100%;
+	justify-content: center;
+	align-items: space-between;
+	padding-bottom: 40px;
 }
 .cta img{
-	position: relative;	
-	border: solid red;
-	
-	height: auto;
-	
-
+	position: relative;		
+	height: auto;	
+	margin: 0;
+	padding-top: 40px;
 }
 div .cta-text {
 margin-top: 100px;
@@ -120,14 +129,13 @@ font-size: 80px;
 	margin-bottom: 50px;
 	border-spacing: 100px;
 }
-.bottom-content p{
-	display:inline-block;
+.bottom-content{
+	display:inline-flex;
 }
-.text-content{
-	display: inline-block;
-}
+
 .contact{
-	display: inline-block;
+	display: inline-flex;
+	flex-direction: column;
 	margin-left: 50px;
 	margin-bottom: 50px;
 	line-height: 30px;
@@ -151,7 +159,7 @@ h4 {
 	margin-left: 10px;
 }
 .middle-img{
-	display: inline-block;
+	display: inline-flex;
 	padding: 100px;
-	width: 90%;
+	width: 100%;
 }
