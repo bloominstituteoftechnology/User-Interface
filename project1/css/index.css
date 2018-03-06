@@ -73,22 +73,38 @@ h1, h2, h3, h4, h5 {
 
 /**************************************************************/
 
-header {
+.header {
 	/*border: 2px solid black;*/
-	text-align: center;
-	display: block;
+	/*text-align: center;*/
+	width: 100%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
 }
 
-header>nav {
-	display: inline-block;
-	position: relative;
+.nav {
+	/*display: inline-block;*/
+	/*position: relative;*/
+	/*margin: 0px auto;*/
+	/*bottom: 10px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
 	margin: 0px auto;
-	bottom: 10px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	flex-grow: 1;
 }
 
 li {
-	display: inline-block;
-	margin-right: 100px;
+	/*display: inline-block;*/
+	/*margin-right: 100px;*/
+	/*flex-grow: 1;*/
 }
 
 li>a {
@@ -96,105 +112,99 @@ li>a {
 	color: grey;
 }
 
-header>img {
-	display: inline-block;
+.logo {
+	margin-right: 5%;
+
 }
 
 /**************************************************************/
 
 .container section.cta {
 	/*border: 2px solid green;*/
-	width: 100%;
-	padding: 2%;
-	margin-top: 15px;
-	display: block;
+	/*width: 100%;*/
+	/*padding: 2%;*/
+	/*margin-top: 15px;*/
+	/*display: block;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 2%;
 }
 
 .cta-text {
-	display: inline-block;
-	width: 50%;
-	text-align: center;
-	font-size: 84px;
-	margin-top: 200px;
+	/*display: inline-block;*/
+	/*width: 50%;*/
+	/*text-align: center;*/
+	/*font-size: 84px;*/
+	/*margin-top: 200px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .cta-text h1 {
-	display: block;
+	/*display: block;*/
+	font-size: 64px;
+	font-weight: bold;
+	text-align: center;
 }
 
 .cta-text button {
-	display: block;
-	margin: auto;
+	/*display: block;*/
+	/*margin: auto;*/
+	/*width: 200px;*/
+	/*height: 50px;*/
+	/*border-radius: 10px;*/
+	/*font-weight: bold;*/
 	width: 200px;
 	height: 50px;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: bold;
+	margin: 10px;
+	background-color: white;
 }
 
 .cta img {
-	float: right;
-	width: 50%;
-	display: inline-block;
+	/*float: right;*/
+	/*width: 50%;*/
+	/*display: inline-block;*/
+}
+
+/**************************************************************/
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+
 }
 
 /**************************************************************/
 
 .container .main-content .top-content {
-	display: inline-block;
+	/*display: inline-block;
 	width: 100%;
 	margin-top: 35px;
 	padding-top: 35px;
 	padding-bottom: 35px;
-	border-top: 2px solid;
+	border-top: 2px solid;*/
+	display: flex;
+	margin: 2%;
 }
 
 .features {
-	float: left;
+	/*float: left;
 	width: 50%;
-	padding-right: 25px;
+	padding-right: 25px;*/
+	margin-right: 1%;
 }
 
 .about {
-	float: right;
+	/*float: right;
 	width: 50%;
-	padding-left: 25px;
-}
-
-/**************************************************************/
-
-.container .main-content .middle-img {
-	display: block;
-	width: 100%;
-}
-
-/**************************************************************/
-
-.container .main-content .bottom-content {
-	display: inline-block;
-	width: 100%;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	margin-bottom: 35px;
-	border-bottom: 2px solid;
-}
-
-.services {
-	float: left;
-	width: 33%;
-	padding-right: 25px;
-}
-
-.product {
-	display: inline-block;
-	width: 33%;
-	padding-right: 25px;
-	padding-left: 25px;
-}
-
-.vision {
-	float: right;
-	width: 33%;
-	padding-left: 25px;
+	padding-left: 25px;*/
+	margin-left: 1%;
 }
 
 h4 {
@@ -203,18 +213,68 @@ h4 {
 
 /**************************************************************/
 
+.container .main-content .middle-img {
+	/*display: block;
+	width: 100%;*/
+	margin: 0 2%;
+}
+
+/**************************************************************/
+
+.bottom-content {
+	/*display: inline-block;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	border-bottom: 2px solid;*/
+	display: flex;
+	margin: 2%;
+
+}
+
+.services {
+	/*float: left;
+	width: 33%;
+	padding-right: 25px;*/
+}
+
+.product {
+	/*display: inline-block;
+	width: 33%;
+	padding-right: 25px;
+	padding-left: 25px;*/
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.vision {
+	/*float: right;
+	width: 33%;
+	padding-left: 25px;*/
+}
+
+/**************************************************************/
+
 .contact {
-	display: block;
-	text-align: center;
+	/*display: block;
+	text-align: center;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2%;
 }
 
 .contact h4 {
-	margin: 0;
+	/*margin: 0;*/
 }
 
 .contact p {
-	padding-top: 20px
+	/*padding-top: 20px*/
+	margin: 1%;
 }
+
+/**************************************************************/
 
 footer {
 	text-align: center;
