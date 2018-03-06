@@ -55,85 +55,60 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-		box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
-		box-sizing: border-box;
-}
-
-.container {
-	width: 1300 px;
-	margin: 0 auto;
 }
 
 .header-nav {
-
-	width: 80%;
-	height: auto;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 15px;
-	float: left;
+	display: flex;
+	flex-direction: row;
 }
-
-.logo {
-	width: 20%;
-	height: auto;
-	display: inline-block;
-	vertical-align: top;
-	float: right;
-	padding-left: 50px;
-}
-
 
 ul {
-	list-style: none;
+	display: flex;
+	flex-direction: row;
+	padding-left: 20px;
+	width: 80%;
 }
 
 li {
-	float: left;
+	display: flex;
+	text-decoration: none;
+	width: 180px;
+	justify-content: space-around;
 }
 
 li a {
-	display: block;
-	color: #999999;
-	text-align: center;
+	display: flex;
 	text-decoration: none;
-	padding-top: 15px;
-	padding-left: 90px;
+	color: gray;
+}
+
+.logo {
+	display: flex;
+	width: auto;
+	justify-content: flex-end;
 }
 
 
-.cta-text {
-	display: inline-block;
-	text-align: center;
-	font-size: 80px;
-	margin: 100px 200px;
-}
 
 .cta {
-	display: inline-block;
-	margin-top: 50px;
+	display: flex;
 }
 
-button {
-	border: 2px solid gray;
-	padding: 10px 60px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 12px;
-	vertical-align: top;
+.top-content {
+	display: flex;
 }
 
-.top-content .text-content {
-	width: 30%;
-	height: 100%;
-	display: inline-block;
-	margin: 100px 200px;
+.text-content {
+	display: flex;
+}
 
+#middle-img {
+	display: flex;
+	justify-content: center;
 }
