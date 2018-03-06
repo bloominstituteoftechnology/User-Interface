@@ -126,10 +126,7 @@ header img{
 	margin-top: 80px;
 }
 
-.top-content{
-	display: inline-block;
 
-}
 .top-content .text-content{
 	display: inline-block;
 	border: solid 1px orange;
@@ -148,5 +145,6 @@ header img{
 }
 
 .middle-img{
-	
+	display: inline;
+	padding-top: 20px;
 }
