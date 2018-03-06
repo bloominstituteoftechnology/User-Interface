@@ -65,9 +65,16 @@ h1, h2, h3, h4, h5 {
 
 .container {
   width: 950px;
-  border: 1px solid red;
-  padding: 5px 40px;
+  padding: 25px 40px;
   margin: 0 auto
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -82,14 +89,6 @@ header nav {
 
 header img {
   float: right;
-  /* padding-left: 240px; */
-}
-
-.clear {
-  clear: both;
-}
-
-ul {
 }
 
 li {
@@ -102,8 +101,6 @@ li a {
   color: lightgrey;
 }
 
-.cta {
-}
 .cta-text {
   display: inline-block;
   vertical-align: top;
@@ -123,6 +120,10 @@ section.cta button {
   padding: 5px 30px;
 }
 
+hr {
+  margin: 35px 0;
+}
+
 section.main-content {
   text-align: center;
 }
@@ -139,4 +140,19 @@ section.main-content div.top-content div.text-content {
 
 section.main-content div.top-content div.text-content h4, p {
   width: 97%;
+}
+
+section.main-content div.bottom-content {
+  padding-top: 30px;
+}
+
+section.main-content div.bottom-content div.text-content {
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
 }
