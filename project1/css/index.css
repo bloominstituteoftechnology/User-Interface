@@ -83,7 +83,7 @@ header {
 	padding-top: 30px;
 	margin-bottom: 50px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 100%;
 }
 
@@ -109,20 +109,23 @@ nav li {
 }
 
 .cta {
-	border: 1px solid red;
+	/*border: 1px solid blue;*/
 	/*margin-bottom: 40px;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 
 .cta .cta-text {
-	/*border: 1px solid blue;*/
+	border: 1px solid green;
 	/*display: inline-block;*/
-	font-size: 80px;
+	font-size: 100px;
 	/*text-align: center;*/
 	/*margin-left: 15%;*/
 }
 
 .cta .cta-text button {
-	border: 1px solid black;
+	/*border: 1px solid blue;*/
 	font-size: 16px;
 	/*margin-bottom: 10px;*/
 /*	padding-top: 5px;
@@ -130,11 +133,11 @@ nav li {
 	padding-left: 40px;
 	padding-right: 40px;*/
 	/*padding: 5px 40px 5px 40px;*/
-	/*vertical-align: top;*/
+	vertical-align: top;
 }
 
 .cta img {
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 	/*display: inline block;*/
 	/*margin-left: 15%;*/
 }
