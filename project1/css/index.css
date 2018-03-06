@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 90%;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +63,116 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+/*CODE ONLY BELOW THIS LINE///////////////////////////////////////////////////*/
+hr {
+	width: 100%;
+}
+
+h4 {
+	font-size: 3vw;
+}
+/*END GENERAL ELEMENTS HERE//////////////////////////////////////////////////////////////////////////////////////////*/
+header {
+	width: 100%;
+	display: flex;
+	margin-top: 2rem;
+}
+
+nav {
+	width: 75%;
+	margin: 1rem;
+}
+
+nav a {
+	color: #708090;
+	font-size: 2.5vw;
+	text-decoration: none;
+	margin: 1vw
+}
+
+
+nav ul {
+	display: flex;
+}
+
+
+.logo {
+	position: relative;
+	top: 2vh;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+/*END HEADER//////////////////////////////////////////////////////////////////////////////*/
+.cta {
+	margin-top: 10vh;
+	margin-bottom: 10%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.cta-text {
+	font-size: 7vw;
+}
+.cta a {
+	font-size: 2.5vw;
+	text-decoration: none;
+	color: black;
+	border: .5px solid black;
+	padding: .2rem 1.5rem;
+}
+
+.cta .img {
+	width: 35vw;
+}
+
+.cta img {
+	width: 100%;
+	height: auto;
+}
+
+/*END CTA WITH IMG //////////////////////////////////////////////////////////////////////////////////*/
+
+.main-content {
+	width: 100%;
+}
+
+.top-content {
+	display: flex;
+	margin-bottom: 8vh;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	margin-top: 3rem;
+	display: flex;
+	margin-bottom: 3rem;
+
+}
+
+.text-content {
+	padding: 1vw;
+}
+/*END MAIN CONTENT////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.contact, footer {
+	margin-left: 1vw;
+}
+
+.contact {
+	line-height: 2.5;
+}
+
+.contact-together {
+	line-height: 1;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
 }
