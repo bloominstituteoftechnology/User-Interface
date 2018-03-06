@@ -75,12 +75,18 @@ h4 {
 
 header {
 	width: 100%;
-	display: flex;
-	margin-top: 2rem;
+	height: auto;
+	margin-top: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 5%;
 }
 
 nav {
 	width: 75%;
+	display: inline-block;
 }
 
 nav a {
@@ -88,65 +94,78 @@ nav a {
 	font-size: 1rem;
 	text-decoration: none;
 	margin: 1rem;
-}
 
-nav ul {
-	display: flex;
 }
-
 
 .logo {
 	display: inline-block;
-	flex-direction: row;
-
+	margin-top: 1rem;
+	position: relative;
+	top: .3rem;
 }
-/*END HEADER//////////////////////////////////////////////////////////////////////////////*/
 .cta {
 	margin-top: 7%;
 	margin-bottom: 10%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-around;
+	width: 100%;
+	margin-left: 20%;
 }
 .cta-text {
-	font-size: 5rem;
+	display: inline-block;
+	font-size: 6rem;
+	margin-right: 10rem;
 }
+
+.cta-text h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.cta-wrapper {
+	width: 100%;
+	margin: 0 0 0 20%;
+}
+
 .cta a {
 	font-size: 1.3rem;
 	text-decoration: none;
 	color: black;
 	border: .5px solid black;
 	padding: .2rem 1.5rem;
+	margin-left: 30%;
 }
-
-/*END CTA WITH IMG //////////////////////////////////////////////////////////////////////////////////*/
+/*END CTA HERE///////////////////////////////////////////////////////////////////////////*/
 
 .main-content {
 	width: 100%;
 }
-
 .top-content {
-	display: flex;
-	margin-bottom: 3rem;
+	margin: 5%;
+}
+
+.top-content .text-content {
+	width: 50%;
+	display: inline-block;
+	padding-right: 10%;
 }
 
 .middle-img {
-	width: 100%;
+	width: 90%;
+	margin-left: 5%;
+	height: 30vh;
 }
 
-.bottom-content {
-	margin-top: 3rem;
-	display: flex;
-	margin-bottom: 3rem;
-
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+	padding: 5%;
 }
-/*END MAIN CONTENT////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 .contact, footer {
 	margin-left: 5%;
 }
 
 .contact {
-	line-height: 2.5;
+	line-height: 2.5
 }
 
 .contact-together {
@@ -154,6 +173,5 @@ nav ul {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
