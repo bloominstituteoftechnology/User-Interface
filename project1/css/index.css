@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100vh;
     font-family: 'Titillium Web', sans-serif;
+		display: flex;
+		justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,67 +65,76 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 .container{
+	display: flex;
+	flex-flow: column;
+	width: 90%;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 1em 0;
 }
 header{
-	margin: 1em 0 5em;
-}
-header nav ul li{
-	display: inline-block;
-	width: 13%;
-}
-header nav ul li a{
-	text-decoration: none;
-	color: rgb(106, 106, 106);
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 3em;
 }
 header nav{
-	display: inline-block;
-	width: 80%;
-	text-align: center;
-}
-header img{
-	display: inline-block;
-}
-.cta{
-	margin-bottom: 5em;
+	flex-grow: 1;
 
 }
-.cta .cta-text{
-	display: inline-block;
+header nav ul{
+	display:flex;
+	justify-content: space-around;
+}
+a{
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+}
+hr{
+	border: 1px solid rgb(119, 119, 119);
+	width: 100%;
+}
+.cta{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 2em;
+}
+.cta-text{
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 	width: 50%;
+}
+.cta-text h1{
+	font-size: 80px;
 	text-align: center;
 }
-.cta .cta-text h1{
-	font-size: 60px;
-}
-.cta .cta-text button{
-	border: 2px solid rgb(106, 106, 106);
-	width: 50%;
-	padding: 5px;
+.cta-text button{
 	background-color: transparent;
+	border: 1px solid black;
+	width: 50%;
+	padding: 0.5em 0.25em;
 }
-.top-content .text-content{
-	display: inline-block;
-	width: 45%;
+.main-content{
 	margin: 2em 0;
 }
-.middle-img{
+.main-content img{
 	width: 100%;
-	display: block;
 }
-.bottom-content .text-content{
-	display: inline-block;
-	width: 30%;
-	margin: 2em 1em 2em 0;
+.top-content{
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 2em;
+}
+.bottom-content{
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 2em 0 1em;
 }
 .contact{
 	margin: 2em 0;
 }
 .contact p{
-	margin-top: 1em;
+	margin-bottom: 1em;
 }
 footer{
 	text-align: center;
-	margin-bottom: 2em;
 }
