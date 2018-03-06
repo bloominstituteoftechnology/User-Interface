@@ -68,9 +68,75 @@ header nav ul li a{
   margin-top: -400px;
 }
 .cta button{
-  width: 130px;
+  width: 140px;
   height: 30px;
+  background-color: white;
+  font-size: 15px;
+  margin-left: 60px ;
 }
+
+hr {
+  margin: 30px;
+}
+
+.main-content .top-content h4{
+  display: inline-block;
+  margin-left:30px;
+}
+.text-content p{
+  margin-left: 30px;
+  margin-right: 600px;
+  margin-bottom: 30px;
+}
+.main-content .text-content h5{
+  margin-left:600px;
+  margin-top: -160px;
+}
+.text-content p2{
+  float: right;
+  margin-left: 600px;
+  margin-right: 0px;
+}
+.main-content .middle-img{
+  margin: 30px;
+  width: 1000px;
+  
+}
+
+.bottom-content h4{
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 250px;
+  }
+.bottom-content p1{
+  display: inline-block;
+  margin-left: 30px;
+  width: 320px;
+  }
+.bottom-content p2{
+  margin-top: -120px;
+  margin-right: 380px;
+  width: 320px;
+}
+.bottom-content p3{
+  display: inline-block;
+  margin-left: 350px;
+  width: 320px;
+}
+
+hr {
+  margin: 30px;
+}
+
+.contact {
+  margin-left: 30px;
+}
+
+footer p{
+  margin-top: 40px;
+  margin-left: 420px;
+}
+
 body {
 	line-height: 1;
 }
