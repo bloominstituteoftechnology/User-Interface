@@ -112,25 +112,36 @@ section img {
 	text-align: right;
 }
 
-.text-content {
-	border-top: 1px solid black;
+.main-content {
 	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-	width: 550px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 33px 0;
 }
 
+h4, p{
+	margin:11px 33px;
+	display: inline-block;
+}
+
+.text-content {	
+	display: inline-block;
+	text-align: justify;
+	width: 33%;
+}
+
+.top-content {
+	display: inline-block;
+	width: 100%;
+}
 .bottom-content {
 	display: inline-block;
 	margin: 0 auto;
-	width: 500px;
-}
-.main-content {
-
-	border-bottom: 1px solid black;
+	width: 100%;
 }
 
-.top-content .middle-img {
-	display: inline-block;
-	text-align: center;
+.middle-img {
+	display: block;
+	margin: 11px auto;
 }
