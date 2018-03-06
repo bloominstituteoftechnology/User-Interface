@@ -62,3 +62,31 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+* {
+	box-sizing: border-box;
+}
+	.container {
+		text-align: center;
+	}
+	header {
+		border: 1px solid black;
+	}
+	img {
+		float: right;
+	  }
+
+	.class {
+		text-align: left;
+	}
+
+	h1 {
+		font-size: 80px;
+		display: inline-block;
+		font-weight: bold;
+	}
+
+	button {
+		border: 1px solid black;
+		margin: 20px;
+	}
