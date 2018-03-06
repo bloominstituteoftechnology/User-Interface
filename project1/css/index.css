@@ -64,12 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 
- .container {
+ /* .container {
 	width: 950px;
 	margin: 0px auto;
-} 
+}  */
 
-/*####################### Header ######################*/
+/* ####################### Header ######################
 
  header nav {
 	display: inline-block;
@@ -96,7 +96,7 @@ header img {
 } 
 
 /*####################### Section .cta ######################*/
-
+/* 
  .cta {
 	margin-top: 40px;
 	margin-bottom: 50px;
@@ -122,11 +122,11 @@ header img {
 
 .cta img {
 	display: inline-block;
-} 
+}  */
 
 /*####################### Section .main-content ######################*/
 
- .main-content {
+ /* .main-content {
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
@@ -149,24 +149,55 @@ header img {
 	display: inline-block;
 	width: 280px;
 	margin-right: 10px;
-}
-
-.contact {
-	margin: 30px 33px;
-} 
+} */
 
 /*####################### Section .contact ######################*/
+/* .contact {
+	margin: 30px 33px;
+}  */
 
-
-.contact p {
+/* .contact p {
 	margin-top: 15px;
-}
+} */
 
 /*####################### Footer ######################*/
 
-footer {
+/* footer {
 	text-align: center;
 	margin-bottom: 80px;
+}  */
+
+
+/*################# FLEXBOX ###################*/
+
+.container {
+	width: 950px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 }
 
+header {
+	display: flex;
+}
 
+nav {
+	width: 680px;
+	display: flex;
+}
+
+nav ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav ul li {
+	align-items: center;
+	display: flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: gray;
+}
