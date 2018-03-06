@@ -161,6 +161,10 @@ footer {
      justify-content: center;
      padding-top: 50px;
 }
+.cta img {
+			width:280px;
+			height:280px;
+}
  .cta-text {
      display: flex;
      justify-content: center;
