@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -55,10 +55,61 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+		box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+		box-sizing: border-box;
+}
+
+container {
+	width: 1100 px;
+	margin: 0 auto;
+	border: 2 px solid red;
+}
+
+header {
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.header-nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #999999;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-left: 90px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
+
+.cta {
+	disaplay: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 32px;
 }
