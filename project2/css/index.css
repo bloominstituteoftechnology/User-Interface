@@ -156,3 +156,8 @@ section.main-content div.bottom-content {
   display: flex; 
   padding-top: 30px;
 }
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
