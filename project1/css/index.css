@@ -135,82 +135,63 @@ footer {
 
 /*---------------------------Assignment2-----------------------*/
 
-
-
 .container {
-    width: 900px;
-    margin: auto;
+     width: 900px;
+     margin: auto;
 }
-
-
-
-header {
-    width: 100%;
-    display: flex;
+ header {
+     width: 100%;
+     display: flex;
 }
-
-
-header {
-    display: flex;
+ header nav ul li a {
+     text-decoration: none;
+     color: gray;
 }
-
-
-header nav ul li a {
-    text-decoration: none;
-    color: gray;
+ header nav ul {
+     display: flex;
+     width: 700px;
+     justify-content: space-between;
 }
-
-
-header nav ul {
-				display: flex;
-    width: 700px;
-    justify-content: space-between;
-    
+ .logo {
+     align-self: flex-end;
+     padding-left: 20px;
 }
-
-
-.logo {
-    align-self: flex-end;
-				padding-left: 20px;
+ .cta {
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
 }
-
-
-
-
-.cta {
-    display: flex;    
-    justify-content: center;
-				padding-top: 50px;
+ .cta-text {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     font-size: 40px;
+     text-align: center;
+     padding: 20px;
 }
-
-
-
-.cta-text {
-				display: flex;    
-    justify-content: center;
-				flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-				font-size: 40px;
-    text-align: center;
-				padding: 20px;
+ .main-content {
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-.contact {
-    margin-top: 15px;
+ .main-content .top-content {
+     display: flex;
+     justify-content: center;
+     margin: 30px auto;
 }
-
-
-footer {
-    text-align: center;
+ .main-content .bottom-content {
+     display: flex;
+     justify-content: space-around;
+     margin: 30px auto;
 }
-
+ .bottom-content p {
+     padding: 10px 15px 20px 0;
+}
+ .contact {
+     margin-top: 15px;
+}
+ footer {
+     text-align: center;
+}
