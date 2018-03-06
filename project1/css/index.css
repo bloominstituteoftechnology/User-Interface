@@ -88,6 +88,7 @@ header img.logo {
 
 .cta {
 	text-align: right;
+
 }
 
 .cta-text {
@@ -100,9 +101,12 @@ header img.logo {
 
 
 .cta img {
-	margin-left: 25px;
+	margin-left: 35px;
 }
 
+.main-content {
+	clear: both;
+}
 .main-content {
 	display: inline-block;
 	margin: 60px 0px;
@@ -114,9 +118,13 @@ header img.logo {
 .top-content .text-content {
 	display: inline-block;
 	margin: 25px 40px;
-	widows: 200px;
+	width: 40%;
 }
 
+.main-content .middle-img {
+	display: inline-block;
+	margin: 25px 40px;
+}
 .bottom-content .text-content {
 	display: inline-block;
 	margin: 25px 40px;
