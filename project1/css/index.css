@@ -62,3 +62,205 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+ /* .container {
+	width: 950px;
+	margin: 0px auto;
+}  */
+
+/* ####################### Header ######################
+
+ header nav {
+	display: inline-block;
+	width: 680px;
+}
+
+header nav ul {
+	text-align: center;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 25px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: gray;
+}
+
+header img {
+	display: inline-block;
+	position: absolute;
+	margin-top: 15px;
+} 
+
+/*####################### Section .cta ######################*/
+/* 
+ .cta {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	width: 500px;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 80px;
+}
+.cta .cta-text h1{
+	font-size: 75px;
+}
+.cta .cta-text button {
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+	background: none;
+	border: 1px solid black;
+}
+
+.cta img {
+	display: inline-block;
+}  */
+
+/*####################### Section .main-content ######################*/
+
+ /* .main-content {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 425px;
+	margin: 30px 0px 30px 33px;
+}
+
+.main-content .middle-img {
+	margin-left: 33px;
+}
+
+.main-content .bottom-content {
+	margin: 40px 10px 40px 33px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 280px;
+	margin-right: 10px;
+} */
+
+/*####################### Section .contact ######################*/
+/* .contact {
+	margin: 30px 33px;
+}  */
+
+/* .contact p {
+	margin-top: 15px;
+} */
+
+/*####################### Footer ######################*/
+
+/* footer {
+	text-align: center;
+	margin-bottom: 80px;
+}  */
+
+
+/*################# FLEXBOX ###################*/
+
+.container {
+	width: 950px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 30px;
+	display: flex;
+}
+
+nav {
+	width: 680px;
+	display: flex;
+}
+
+nav ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav ul li {
+	align-items: center;
+	display: flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: gray;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+.cta-text h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.cta-text button {
+	width: 120px;
+	height: 25px;
+	align-self: center;
+	border: 1px solid black;
+}
+
+.main-content {
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 40px;
+}
+
+.top-content {
+	display: flex;
+	margin: 40px 0;
+	border-top: 1px solid gray;
+}
+
+.top-content .text-content {
+	padding-right: 5px;
+	margin-top: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 30px 0;
+	justify-content: space-between;
+	border-bottom: 1px solid gray;
+
+}
+
+.bottom-content .text-content {
+	width: 30%;
+	margin-bottom: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+
