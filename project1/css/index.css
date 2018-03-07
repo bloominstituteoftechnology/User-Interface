@@ -60,5 +60,71 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+}
+/* ****************     */
+.container {
+  width: 950px;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex; 
+  padding-bottom: 40px;
+  justify-content: space-between;
+  border-bottom: black 3px;
+}
+
+header nav {
+  display: flex; 
+  justify-content: space-between;
+}
+
+ul {
+  width: 650px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+li a {
+  color: grey;
+}
+
+section.cta {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.cta-text {
+  text-align: center;
+  font-size: 52px;
+}
+
+section.cta img {
+  zoom: 80%;
+}
+
+section.cta button {
+  border: solid 1px black;
+  padding: 5px 30px;
+}
+
+hr {
+  margin: 35px 0;
+}
+
+section.main-content div.top-content {
+  display: flex; 
+  padding-bottom: 30px;
+}
+
+section.main-content div.bottom-content {
+  display: flex; 
+  padding-top: 30px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
 }
