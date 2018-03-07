@@ -64,17 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
+	width: 900px;
+	margin: 0 auto;
+	
 }
 
-nav ul {
+/*HEADER*/
+header {
+	width: 100%;
 	display: flex;
-	list-style: none;
+}
+
+header nav ul {
+	display: flex;
+	width: 600px;
 	justify-content: space-between;
-	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
  nav a {
@@ -82,69 +88,82 @@ nav ul {
 	text-decoration: none;
 }
 
-.container .logo {
+ .logo {
+	align-self: flex-end;
+	margin: 30px 0 20px 80px;
+}
+
+/*CTA*/
+.cta {
 	display: flex;
+	justify-content: center;
 }
 
 .cta .cta-text {
 	display: flex;
-	font-size: 100px;
+	font-size: 80px;
 	text-align: center;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
 }
 
 .cta .cta-text button {
 	text-align: center;
-	display: flex;
 	font-size: 20px;
 	padding: 12px 28px;
+	margin-bottom: 20px;
+
 }
 
 .cta img {
-	display: flex;
-	margin-top: 20px;
+	align-self: flex-end;
 	margin-bottom: 20px;
 }
 
+/*HR*/
 hr {
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.main-content .top-content .text-content {
-	display: flex;
-	width: 400px;
-	height: 100px;
-	align-items: center;
-}
-
-.main-content .top-content .text-content h4 {
-	font-size: 20px;
-}
-
-.main-content .top-content .text-content p {
+/*MAIN CONTENT*/
+.main-content {
+	margin: 10px 0 30px 0;
+	padding: 30px;
 	font-size: 15px;
 	line-height: 20px;
 }
 
-.main-content .middle-img {
+.main-content .top-content  {
 	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2px;
+}
+
+
+ .middle-img {
+	width: 876px;
+	height: 250px;
 
 }
 
-.bottom-content .text-content {
-	display: flex;
-	width: 300px;
-	height: 150px;
-	align-items: center;
-}
-
+/*CONTACT*/
 .contact {
 	display: flex;
-	width: 300px;
-	height: 200px;
-	line-height: 30px;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
+/*FOOTER*/
 footer {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
