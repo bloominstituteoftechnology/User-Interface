@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+
+
+
+.container {
+	width:880px;
+	margin: auto;
+
+	
+	
+}
+
+
+
+.header {
+	display: flex;
+	flex-direction: row; 
+	
+
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:550px;
+	list-style: none;
+}
+header img {
+	padding-left: 80px;
+    
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 100px;
+	
+
+
+
+   
+}
+
+.img1 {
+	padding-left: 50px;
+
+
+}
+
+h1 {
+	font-size: 70px;
+
+	text-align: center; 
+	
+}
+
+
+.div1{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+
+}
+.div1 h1 {
+font-size: 75px;
+font-style: italic bold ;
+
+}
+
+button {
+	width: 190px;
+	height: 40px;
+	align-self:center;
+	font-size: 17px;
+	background-color: white;
+    border: 1px solid black;
+
+
+}
+
+
+.main-content{
+	margin-top: 120px ;
+	padding-top: 40px;
+	border-top: 2px solid black;
+}
+
+
+
+.top-content{
+	display: flex;
+	flex-direction: row;
+}
+.top-content .text-content{
+	width: 500px;
+}
+.middle-img{
+	padding-top: 30px;
+width: 880px;
+}
+
+
+.bottom-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+    
+	padding-bottom: 50px
+}
+
+
+.bottom-content .text-content {
+	width: 270px;
+}
+
+
+.contact{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+footer{
+	display :flex;
+	justify-content: center;
+margin-top: 10px;
+margin-bottom: 100px;
+font-size: 20px;
+
+}
+
+
+
+ h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

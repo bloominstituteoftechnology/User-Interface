@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,14 +27,135 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	
 }
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+.container{
+	margin: 20px;
+	padding-top: 3px;
+	padding-bottom: 50px;
+	padding-right: 10px;
 }
+
+header nav  {
+margin-top: 40px;
+padding-top: 10;
+
+width: 1130px;
+display: inline-block;
+}
+li {
+	
+	padding-right:70px;
+	margin-left: 50px;
+	padding-top: 5px;
+display: inline-block;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+header img {
+	display: inline-block;
+}
+
+
+ol, ul {
+
+	
+}
+.cta{
+	padding-top: 100px;
+}
+
+.cta-text{
+	display: inline-block;
+	font-size: 80px;
+	padding-top: 50px;
+	padding-left: 300px;
+	text-align: center;
+}
+.cta button {
+	font-size: 30px;
+}
+
+.cta img {
+	display: inline-block;
+	padding-left: 320px;
+
+}
+.main-content{
+padding: 60px;
+
+
+}
+
+.top-content {
+
+ padding-top: 30px;
+ border-top: 1px solid black;
+ 
+}
+
+
+.top-content .text-content {
+
+width:620px;
+display: inline-block;
+height:100px;
+}
+
+
+.main-content img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:1270px;
+	margin-top:1px;
+	margin-bottom: 30px;
+}
+
+
+
+.bottom-content {
+	padding-top: 10px;
+	padding-bottom: 50px;
+ border-bottom: 1px solid black;
+ margin-top : 10px;
+}
+
+.bottom-content .text-content {
+	width : 420px;
+	padding-right:20px;
+	display: inline-block;
+}
+
+
+.contact {
+	margin: 60px;
+
+}
+.contact p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer {
+	display: inline;
+	text-align: center;
+
+	
+  
+}
+
+
+
+
+
+
+
+
+
 blockquote, q {
 	quotes: none;
 }
