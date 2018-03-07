@@ -62,3 +62,140 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+/*Day 01 first Assignment*/
+/*
+
+
+li a {
+	text-decoration: none;
+	color: gray;
+}
+
+
+
+nav li {
+    display: inline-block;
+				position: relative;
+    padding: 15px;
+				vertical-align: top;
+				margin-left: 60px;
+}
+
+
+
+
+header img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.cta {
+    width:100px;
+
+    margin: 0 auto;
+}
+  
+
+
+
+.text-content {
+	width: 400px;
+ height: 200px;
+	margin: 30px;
+ margin-right: 0;
+ padding: 30px;
+ display: inline-block;
+}
+
+
+
+.middle-img {
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+
+footer {
+	text-align: center;
+}
+
+.contact {
+
+	margin-left: 60px;
+}
+*/
+
+/*---------------------------Assignment2-----------------------*/
+
+.container {
+     width: 900px;
+     margin: auto;
+}
+ header {
+     width: 100%;
+     display: flex;
+}
+ header nav ul li a {
+     text-decoration: none;
+     color: gray;
+}
+ header nav ul {
+     display: flex;
+     width: 700px;
+     justify-content: space-between;
+}
+ .logo {
+     align-self: flex-end;
+     padding-left: 20px;
+}
+ .cta {
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+}
+.cta img {
+			width:280px;
+			height:280px;
+}
+ .cta-text {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     font-size: 40px;
+     text-align: center;
+     padding: 20px;
+}
+ .main-content {
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     margin-top: 20px;
+}
+ .main-content .top-content {
+     display: flex;
+     justify-content: center;
+     margin: 30px auto;
+}
+ .main-content .bottom-content {
+     display: flex;
+     justify-content: space-around;
+     margin: 30px auto;
+}
+ .bottom-content p {
+     padding: 10px 15px 20px 0;
+}
+ .contact {
+     margin-top: 15px;
+}
+ footer {
+     text-align: center;
+}
