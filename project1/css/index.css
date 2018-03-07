@@ -66,58 +66,72 @@ h1, h2, h3, h4, h5 {
 	border: 1px;
 }
 
-.container {
-	margin: 2% auto;
-	display: inline-block;
-	border: 1px solid rgb(255, 0, 149);
-  }
-  header {
-	display: inline-block;
-	border: 1px solid rgb(0, 247, 255);
+/* This is where you code goes!*/
+/*Container is the web page itself.*/
+.container{
+	width: 880px;
+	margin: 0 auto;
+	justify-content: center;
+}
+/*Header contains the navigation and logo*/
+ header{
+	/* border: 5px solid rgb(43, 255, 0); */
+	display: flex;	
+}
+  nav ul {
+	margin-top: 20px;
+	display:flex;
+	width: 600px;
+	justify-content: space-between;
+	/* border: 5px solid rgb(0, 255, 21); */
 	
-	
-  }
-  nav{
-	display: inline-block;
-	vertical-align: top;
 }
 
-  nav ul a {
-	
-	border: 1px solid rgb(0, 255, 21);
-	margin: 50px;
+ li a{
+	/* border: 5px solid rgb(255, 0, 149);
+	flex-direction: row; */
+	color: #606060;
+	text-decoration: none;
+}  
+ .logo{
+	/* border: 5px solid red; */
+	align-self: flex-end;
+	margin-left: 50px; 
+ }
+
+ /*This is the middle!*/
+
+.cta{
+	display: flex;
+	justify-content: flex-end;
 }
-  nav li{
-	display: inline-block;
-	border: 1px solid rgb(211, 132, 14);
-  }
- 
-  
-  
-  .logo{
-	  display: inline-block;
-	  margin: 0px 50px;
-  }
+.cta-text{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	/* border: 5px solid rgb(0, 255, 21);  */
+	font-size: 56px;
+	flex-flow: column;
+	margin-right: 150px;
+}
+
+.main-content .top-content{
+	 /* border: 5px solid rgb(255, 0, 200); */
+	 display: flex;
+	 justify-content: space-around;
+	 /* flex-flow: column; */
+}
+ .bottom-content{
+	/* border: 5px solid rgb(255, 0, 200); */
+	display: flex;
+	justify-content: space-around;
+	/* flex-flow: column; */
+}
 
 
-  .box {
-	display: inline-block;
-	border: 1px solid rgb(23, 29, 24);
-	/* TRBL margin: 30px; */
-	/* TB LR margin: 0 30px; */
-	/* T LR B margin: 10px 0 30px; */ 
-	/* T R B L margin: 5px 10px 0 30px; */ 
-	/* margin-top: 30px; */ 
-	
-  }
-  
-  section div h1{
-	  display: inline-block;
-	  border: 2px solid green
-	  
-  }
 
-  .cta{
-	  display: block;
-	  border: 4px solid blue;
-  }
+footer p{
+ /* border: 5px solid rgb(0, 217, 255); */
+ justify-content: center;
+ display: flex;
+}
