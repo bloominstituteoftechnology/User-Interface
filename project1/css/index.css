@@ -62,3 +62,90 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding:50px;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 2000px;
+  height: 100px;  
+}
+
+nav ul {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+  width:700px;
+  
+}
+header a {
+  color:grey;
+}
+
+.logo {
+  height: 50px;
+  }
+
+.cta {
+  display:flex;  
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width:2000px;
+}
+
+
+section h1 {
+  font-size: 50px;
+  margin-left: 300px;
+  border:
+}
+section img {
+  margin-right: 300px;
+
+}
+
+section button {
+  margin-left: 350px;
+}
+
+.main-content {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-around;  
+}
+
+.top-content .text-content p {
+  height:50px;
+
+}
+
+.bottom-content{
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+.bottom-content .text-content h4{
+  width:200px;
+  height:50px;
+}
+.contact {
+ width:2000px;
+ height:100px;
+}
+
+
+
+
