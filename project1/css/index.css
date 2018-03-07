@@ -16,17 +16,18 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 5px 20px;
+	padding: 15px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	display: inline-block;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -54,11 +55,83 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.cta {
+	padding: 10px 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	border-bottom: 5px solid black;
+}
+
+.cta-text {
+	font-size: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content {
+	width: 100%;
+	padding: 5px 20px;
+}
+
+.top-content {
+	font-size: 25px;
+	padding: 10px 40px;
+	border: 10px;
+	margin: 10px 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	font-size: 25px;
+	padding: 10px 40px;
+	border: 10px;
+	margin: 10px 40px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 5px solid black;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+.cta-text h1 {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	text-align: center;
+}
+
+button {
+	width: 100px;
+	justify-self: center;
+}
+
+.container {
+	width: 2000px;
 }
