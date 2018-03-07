@@ -1,0 +1,103 @@
+.pageContainer {    
+    margin: 0 20%;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    font-size: 40px;
+}
+.topSection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+    border-bottom: 3px solid black;
+    padding-bottom: 50px;
+    }
+
+.topContent {
+    text-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive; /* too lazy to add google fonts */
+}
+
+
+button {
+    border: 2px solid black;
+    background-color: white;
+    width: 100px;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+}
+
+.midContent {
+    display: flex;
+}
+
+
+.midContent h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: cursive; /* 2 lazy 4 google fonts */
+    padding-top: 10px;
+}
+
+.midPic {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}   
+
+.lowContent {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+
+}
+
+.lowDiv {
+    flex: 1;
+}
+
+.lowDiv2 {
+    padding: 0 15px;
+}
+
+.lowDiv h4 {
+    text-align: flex-start; 
+    font-family: cursive; /* 2 lazy 4 google fonts */
+    
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imageMid {
+    width: 100%;
+}
