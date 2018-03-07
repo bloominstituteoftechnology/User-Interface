@@ -64,88 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Header Styles*/
-body {
-	display: flex;
-	justify-content: center;
-}
 .container {
-	width: 800px;
-}
-.container header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.container header nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	list-style: none;
-
+header nav {
+  display: inline-block;
 }
-.container header nav ul li {
-	margin: 5px;
 
+header nav ul li:nth-child(1) {
+  margin: 18px 0px 18px 80px;
 }
-.container header nav ul li a {
-	text-decoration: none;
-	color: grey;
 
+header nav ul li {
+  display: inline-block;
+  margin: 18px 10px;
+  padding-left: 50px;
 }
-.cta {
-	display: flex;
-	justify-content: space-around;
-	margin: 40px;
+
+header nav ul li a {
+  text-decoration: none;
+	color: gray;
+}
+
+header .logo {
+  display: inline-block;
+  margin-left: 132px;
+  margin-top: 10px;
 }
 
 .cta .cta-text {
-	font-size: 60px;
-	text-align: center;
-	align-self: center;
-	display: flex;
-	flex-direction: column;
+  display: inline-block;
+  margin: 100px 194px;
+  font-size: 80px;
 }
 
-.cta-text button {
-	margin-top:30px;
-	align-self: center;
-	width: 100px;
-	height: 30px;
+.cta .cta-text button {
+  font-size: 18px;
+  margin-left: 35px;
+  padding: 15px;
 	background: white;
 	border: 1px solid grey;
 }
 
-.main-content {
-	border-style: solid;
-	border-width: 1px 0 1px 0;
-	padding: 30px;
-	display: flex;
-	flex-direction: column;
+.cta img {
+  display: inline-block;
 }
 
-.top-content {
-	display: flex;
-	flex-direction: row;
+hr {
+  width: 1000px;
+  display: inline-block;
+  margin-left: 140px;
 }
 
-.text-content {
-	margin: 30px;
+.main-content .top-content .text-content {
+  display: inline-block;
+  width: 36%;
+  margin: 15px 30px 15px 143px;
 }
 
-.bottom-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.main-content .top-content .text-content:nth-child(2) {
+  margin: 15px 15px 15px 92px;
 }
 
-.contact  p {
-	margin-top: 20px;
-	display: flex;
-	justify-content: flex-start;
+.main-content .middle-img {
+  margin: 15px 100px 15px 144px;
+  width: 1000px;
+}
+
+.main-content .bottom-content .text-content {
+  display: inline-block;
+  width: 26%;
+  margin: 15px 5px 15px 143px;
+}
+
+.main-content .bottom-content .text-content:nth-child(2) {
+  margin: 15px 1px 15px 5px;
+}
+
+.main-content .bottom-content .text-content:nth-child(3) {
+  margin: 15px 5px 15px 5px;
+}
+
+.contact {
+  display: inline-block;
+  width: 26%;
+  margin: 15px 5px 15px 143px;
+}
+
+.contact .address,
+.contact .telephone,
+.contact .email {
+  margin-bottom: 15px;
 }
 
 footer {
-	display: flex;
-	justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
 }
