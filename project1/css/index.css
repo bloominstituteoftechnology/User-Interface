@@ -63,88 +63,113 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-body {
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+.container {
+    width: 880px;
+    margin: auto;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
+/* Header Styles */
 
 header {
-	display: flex;
-	margin-top: 30px;
+    width: 100%;
+    display: flex;
 }
 
-ul {
-	display: flex;
+header nav ul {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
 }
 
-li {
-	margin-top: 10px;
-	width: 200px;
+header nav ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
 }
 
-li a {
-	text-decoration: none;
-	color: gray;
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: black;
 }
+
+header .logo {
+    align-self: flex-end;
+    margin: 28px 0 0 91px;
+}
+
+/* Call To Action (CTA) Styles */
 
 .cta {
-	display: flex;
-	justify-content: space-around;
-	margin-top: 100px;
+    display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
 }
 
-.text-content {
-	width: 450px;
+.cta .cta-text {
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
 }
 
-.cta-text {
-	text-align: center;
-	clear: both;
+.cta .cta-text button {
+    border: 1px double black;
+    font-size: 16px;
+    background: white;
+    width: 170px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-.cta-text h1 {
-	margin-top: 65px;
-	font-size: 75px;
+.cta .cta-text button:hover {
+    background: black;
+    color: white;
 }
 
-.top-content {
-	margin: 125px 0 125px 0;
-	display: flex;
-	justify-content: space-between;
+/* Main Content Styles */
+
+.main-content {
+   border-top: 2px solid black; 
+   border-bottom: 2px solid black;
+   margin: 75px 0 35px 0;
+   padding: 35px 0;
+   font-size: 16px;
+   line-height: 18px;
 }
 
-.bottom-content {
-	margin: 125px 0 125px 0;
-	display: flex;
-	justify-content: space-between;
+.main-content .top-content {
+    display: flex;
+    justify-content: space-around;
 }
+
+.main-content .middle-img {
+    display: block;
+    margin: 30px auto;
+}
+
+.main-content .bottom-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content .bottom-content p {
+    padding-right: 20px;
+}
+
+/* Contact Styles */
+
+.contact p {
+    margin: 15px 0;
+}
+
+/* Footer Styles */
 
 footer {
-	text-align: center;
-	margin: 40px 0 40px 0;
+    text-align: center;
+    margin: 40px 0 20px;
 }
-
-.midImage {
-	display: flex;
-	justify-content: center;
-}
-
-.contact {
-	margin: 0px 0 30px 0px;
-}
-
-
-
-
-
-
-
