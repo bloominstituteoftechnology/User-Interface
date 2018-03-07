@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +62,97 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.container{
+	margin: 0 auto;
+	width: 1024px;
+}
+button{
+	background-color:white;
+	border: 1px solid black;
+	text-align:center;
+	width: 150px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+header{
+	display:flex;
+	
+}
+header img{
+	height: 50px;
+	width: 200px;
+	margin-top: 50px;
+}
+nav{
+	width: 1024px;
+	height: 150px;
+	
+
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+nav ul{
+	width: 900px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items:center;
+	height:150px;
+	
+	
+}
+.cta-text{
+	display:inline-flex;
+	font-size:60px;
+	text-align:center;
+	flex-direction: column;
+	justify-content:center;
+}
+
+.cta{
+	display:flex;
+	width: 1024px;
+	text-align:center;
+	justify-content: space-around;
+	margin: 50px 0 100px 0;
+
+}
+
+.middle-img{
+	d
+	width:1024px;
+}
+
+.top-content{
+
+	display:inline-flex;
+
+	
+}
+.main-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	height:700px;
+
+}
+.bottom-content{
+	display:inline-flex;
+
+	
+}
+.contact{
+	margin-top:40px;
+}
+.contact p{
+	margin-top:40px;
+}
+footer{
+	text-align:center;
+	margin: 40px;
 }
