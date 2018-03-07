@@ -147,8 +147,17 @@ nav a {
 			width:400px;
 			}
 
+
+	.mini {
+		display: flex;
+		justify-content: flex-start;
+		width: 876px;
+		height: 180px;
+	}
 	.contact {
 		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
 	}
 
 	/* ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS */
@@ -160,3 +169,6 @@ nav a {
 		border: gray solid 1px;
 	}
 	
+	footer p {
+		margin-bottom: 200px;
+	}
