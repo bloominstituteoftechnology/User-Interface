@@ -54,58 +54,54 @@ html, body {
 }
 
   
-body {
+body  {
 	display: flex; 
 	justify-content: center; 
    }
-   
-
-.container header {
+ .container {
 	display: flex; 
-	width: 100%; 
-}
+	flex-direction: column; 
+	
+ }  
 
-.container header nav ul {
-	display: flex;   
-	width: 60%; 
-	justify-content: right; 
+header {
+	display: flex; 
+	align-items: center;  
+	justify-content: space-around; 
+	margin: 15px; 
+}
+header nav ul {
+	display: flex;  
+	flex-wrap: row wrap; 
+	width: 60%;
+	align-content: space-around;   
 	 
 }
+
 .container header nav ul li {
 	font-size: smaller; 
 	display: flex; 
-	flex-grow: 1; 
+	flex-grow: 6; 
 	justify-content: space-around; 
+	margin: 5px; 
+	padding-left: 25px; 
+	padding-right: 25px; 
 }
 .container header .logo {
-	width: 10%; 
+ 
 	display: flex; 
-	justify-content: flex-end;  
+	justify-content: flex-end; 
+ 
 }
 
-.container .cta {
+.cta {
+	display: block; 
+	margin: 25px; 
+}
+.cta img scr {
 	display: flex; 
-	flex-flow: row nowrap; 
+	align-self: flex-end; 
 }
-
-	
-
-
-h1 {
-	font-size: xxx-large;	
-	margin: left; 
-}
-.img/header-img.png {
-	margin: right; 
-}
-
-
-
-
-
-
-
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -117,29 +113,34 @@ h1, h2, h3, h4, h5 {
 
 }
 .text-content {
-	height: 150px; 
-	width: 350px;
-	border: 30px; 
+	margin: 30px; 
+	display: block; 
 }
 .top-content {
 	display: flex;
 	flex-direction: row;  
-	border: 20px; 
+	
+	height: 150px; 
+	width: 350px; 
 }
 .middle-img {
+	display: flex;
 	text-align: center;
 }
 .bottom-content {
+	height: 30px; 
+	width: 30px; 
 	display: flex; 
 	flex-direction: row; 
-	border: 100px; 
-}
-.container .contact {
-	display: flex;
 	
+}
+ .contact {
+	display: flex;
 	flex-direction: column; 
 }
 footer {
 	display: flex; 
 	justify-content: center; 
+	padding-top: 80px; 
+	 
 }
