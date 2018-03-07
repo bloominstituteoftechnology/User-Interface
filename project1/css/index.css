@@ -29,114 +29,85 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-.logo {
-  margin-right: 90px;
-  margin-top: 20px;
-  float: right;
+.container header{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  width: 1150px;
 }
-
-header nav ul li{
-  display: inline-block;
- }
-header nav ul li a{
-  display: inline-block;
-  color: grey;
+.container header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  }
+.container a{
+  margin-left: 30px;
   text-decoration: none;
-  margin-left: 20px;
-  margin: 30px;
-  font-size: 15px;
-  }
+  color: gray;
+}
 
-.cta {
-  display: inline-block;
+.cta{
+  display: flex;
+  justify-content: space-around;
+  margin-top:40px;
+  width:1250px;
+  margin-bottom: 70px;
   
 }
-.cta .cta-text{
-  font-size: 70px;
-  margin-left: 120px;
-  margin-top: 100px;
-  position: relative;
-}
-.cta .cta-text p{
-  margin-left: 105px;
-}
-.cta .cta-text p1{
-  margin-left: 30px;
-}
-.cta img{
-  margin-left: 600px;
-  margin-top: -400px;
-}
-.cta button{
-  width: 140px;
-  height: 30px;
-  background-color: white;
-  font-size: 15px;
-  margin-left: 60px ;
-}
-
-hr {
-  margin: 30px;
-}
-
-.main-content .top-content h4{
-  display: inline-block;
-  margin-left:30px;
-}
-.text-content p{
-  margin-left: 30px;
-  margin-right: 600px;
-  margin-bottom: 30px;
-}
-.main-content .text-content h5{
-  margin-left:600px;
-  margin-top: -160px;
-}
-.text-content p2{
-  float: right;
-  margin-left: 600px;
-  margin-right: 0px;
-}
-.main-content .middle-img{
-  margin: 30px;
-  width: 1000px;
-  
-}
-
-.bottom-content h4{
-  display: inline-block;
-  margin-left: 30px;
-  margin-right: 250px;
+.cta-text{
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-top: 30px;
+  align-items: center;
   }
-.bottom-content p1{
-  display: inline-block;
-  margin-left: 30px;
-  width: 320px;
-  }
-.bottom-content p2{
-  margin-top: -120px;
-  margin-right: 380px;
-  width: 320px;
+.cta-text button{
+  background: white;
+  width: 180px;
+  height:40px;
+  font-size: 19px;
+  border: 1.5px solid black;
+  font-family: Titillium Web;
+ }
+
+.main-content{
+  display: flex wrap;
+  flex-direction: row;
+  width:1100px;
+  margin: 50px;
 }
-.bottom-content p3{
-  display: inline-block;
-  margin-left: 350px;
-  width: 320px;
+.main-content .top-content{
+  display: flex;
+  justify-content: space-between;
+}
+.middle-img{
+  margin-top:30px;
+  margin-bottom:30px;
+  width: 100%;  
+}
+.bottom-content{
+  display: flex;
+  justify-content: space-between;
 }
 
-hr {
-  margin: 30px;
+hr{
+  margin-left:40px;
+  margin-right:190px;
+  margin-bottom: 40px;
+}
+.contact{
+  display:flex;
+  flex-direction: column;
+  margin-left:50px;
 }
 
-.contact {
-  margin-left: 30px;
+footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-
-footer p{
-  margin-top: 40px;
-  margin-left: 420px;
-}
-
 body {
 	line-height: 1;
 }
