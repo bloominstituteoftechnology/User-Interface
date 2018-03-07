@@ -63,90 +63,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-
-nav{
-	width: 800px;
-	text-align:center;
+.container{
+	margin: 0 auto;
+	width: 1024px;
 }
-nav li {
-	display: inline;
-	margin: auto;
+button{
+	background-color:white;
+	border: 1px solid black;
+	text-align:center;
+	width: 150px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+header{
+	display:flex;
+	
+}
+header img{
+	height: 50px;
+	width: 200px;
+	margin-top: 50px;
+}
+nav{
+	width: 1024px;
+	height: 150px;
+	
 
 	
 }
+
 nav a{
-	display:inline-block;
-	margin: 50px 20px;
 	text-decoration: none;
 	color: silver;
+}
+nav ul{
+	width: 900px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items:center;
+	height:150px;
+	
 	
 }
-
-.container{
-	width: 1024px;
-	margin: auto;
-	
-}
- .logo{
-	position: relative;
-	top: -80px;
-	left: 730px;
-	width:200px;
-	
-}
-.cta{
-	height:500px;
-	
-}
-.cta-text {
-	font-size: 50px;
+.cta-text{
+	display:inline-flex;
+	font-size:60px;
 	text-align:center;
-	position: absolute;
-	margin: 40px 0 0 180px;
-	top: 240px;
-
-}
-.cta img{
-	position: absolute;
-	margin: 180px 0 0 470px;
-	top: 0;
+	flex-direction: column;
+	justify-content:center;
 }
 
-.cta-text button{
-	border: 1px solid black;
-	background-color:white;
-	width: 120px;
-	height: 30px;
-}
-hr{
-	width: 860px;
+.cta{
+	display:flex;
+	width: 1024px;
+	text-align:center;
+	justify-content: space-around;
+	margin: 50px 0 100px 0;
+
 }
 
-.top-content .text-content{
-	width: 470px;
-	display:inline-block;
-	padding: 30px 0px 10px 70px;
-}
-.middle-img{	
-	padding: 20px 70px;
-}
-.bottom-content .text-content{
-	width: 290px;
-	display:inline-block;
-	padding: 10px 0 30px 70px;
+.middle-img{
+	d
+	width:1024px;
 }
 
-.contact h4{
-	margin-left: 70px;
+.top-content{
+
+	display:inline-flex;
+
+	
+}
+.main-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	height:700px;
+
+}
+.bottom-content{
+	display:inline-flex;
+
+	
+}
+.contact{
 	margin-top:40px;
 }
-
 .contact p{
-	margin-left: 70px;
-	margin-top:20px;
+	margin-top:40px;
 }
-
 footer{
-	margin: 30px 0 100px 0px;
 	text-align:center;
+	margin: 40px;
 }
