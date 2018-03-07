@@ -52,93 +52,77 @@ table {
     box-sizing: border-box;
 }
 
-body {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-}
-
-html {
-	font-family: 'Titillium Web', sans-serif;
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 }
-
-header nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	color: #bbbbbb;
+/* ****************     */
+.container {
+  width: 950px;
+  padding: 25px 40px;
+  margin: 0 auto
 }
 
-header li {
-	display:flex;
-	/* justify-content: space-around; */
-}
-header .logo {
-}
-
-.cta {
-	margin-top:40px;
-	border-bottom: 1px solid black;
-	padding-bottom: 60px;
+header {
+  display: flex; 
+  padding-bottom: 40px;
+  justify-content: space-between;
 }
 
-.cta .cta-text {
-	height: 100px;
-	margin: 10px 80px 0px;
-	font-size: 76px;
-	text-align: center;
-	display: inline-block;
+header nav {
+  display: flex; 
 }
 
-.cta button {
-	margin-top: 0px;
-	padding: 2px 50px;
-	border: 1px solid black;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 18px;
-	font-weight: lighter;
-	background-color: white;
+ul {
+  width: 650px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
 }
 
-.cta img {
-	display: inline-block;
+li a {
+  color: grey;
 }
 
-.main-content {
-	margin-top: 40px;
-	padding-bottom: 50px;
-	border-bottom: 1px solid black;
+section.cta {
+  display: flex; 
+  justify-content: space-around;
 }
 
-.top-content .text-content {
-	width: 435px;
-	margin-bottom: 40px;
-	display: inline-block;
+.cta-text {
+  text-align: center;
+  font-size: 52px;
 }
 
-.bottom-content {
-	margin-top: 40px;
+section.cta img {
+  zoom: 80%;
 }
 
-.bottom-content .text-content {
-	width: 285px;
-	display: inline-block;
+section.cta button {
+  border: solid 1px black;
+  padding: 5px 30px;
 }
 
-.contact {
-	margin-top: 30px;
+hr {
+  margin: 35px 0;
 }
 
-.contact p {
-	margin-top: 20px;
+section.main-content div.top-content {
+  display: flex; 
+  padding-bottom: 30px;
+}
+
+section.main-content div.bottom-content {
+  display: flex; 
+  padding-top: 30px;
 }
 
 footer {
-	height: 140px;
-	margin: 70px 320px;
+  margin-top: 40px;
+  text-align: center;
 }
