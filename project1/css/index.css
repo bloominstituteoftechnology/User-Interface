@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    max-width: 800px;
+    margin: auto;
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +63,102 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+nav {
+    flex-grow: 1;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+header img{
+    width:150px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-right: 10%
+    flex-shrink;
+}
+nav ul{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.cta{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 50px;
+}
+hr{
+    width:95%;
+    border:0;
+    border-bottom:solid black 1px;
+}
+.cta-text{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    text-align:center;
+}
+.cta-text h1{
+    padding:15%;
+    padding-top:0;
+    padding-bottom:0;
+    font-size: 55px;
+    align-items: center;
+}
+.cta img{
+    padding-right:10%;
+    width:300px;
+}
+.main-content{
+    max-width: 1300px;
+}
+.top-content{
+    display:flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+button{
+    background-color: white;
+    border:solid black 1px;
+    width: 120px;
+    height: 23px;
+}
+.text-content{
+    padding: 10px;
+}
+.bottom-content{
+    display:flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.middle-img{
+    max-width: 100%;
+    padding: 20px 20px;
+}
+.contact{
+    padding-left: 20px;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-left: 30px;
+    height: 180px;
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
