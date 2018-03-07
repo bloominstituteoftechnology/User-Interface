@@ -62,58 +62,88 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
 .container {
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding:50px;
 }
 
-header nav ul li {
-  color: grey;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 35px
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 2000px;
+  height: 100px;  
 }
-header nav ul {
-  word-spacing: 0px;
+
+nav ul {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+  width:700px;
+  
 }
 header a {
   color:grey;
 }
+
 .logo {
-  border: 1px solid red;
-  display: inline-block;
-  margin-left: 700px
+  height: 50px;
   }
+
+.cta {
+  display:flex;  
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width:2000px;
+}
+
 
 section h1 {
   font-size: 50px;
-  margin-right: 350px;
+  margin-left: 300px;
+  border:
 }
 section img {
-  display: inline-block;
-  margin-left: 450px;
+  margin-right: 300px;
+
 }
+
 section button {
-  margin-right: 450px;
+  margin-left: 350px;
 }
+
 .main-content {
-  margin: 50px;
-  display:inline-block;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center
 }
+
 .top-content {
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;  
 }
-.text-content {
-  display: inline-block; 
-  width: 200px;
-  text-align: left;
-  margin: 5px;
-  padding: 5px;
+
+.top-content .text-content p {
+  height:50px;
+
 }
-.middle-img {
-  margin-right: 450px
+
+.bottom-content{
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+.bottom-content .text-content h4{
+  width:200px;
+  height:50px;
 }
 .contact {
-  margin-right: 450px
+ width:2000px;
+ height:100px;
 }
 
 
