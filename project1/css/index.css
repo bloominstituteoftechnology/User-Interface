@@ -158,6 +158,22 @@ h5 {
     margin-bottom: 10px;
 }
 
+.container {
+    padding: 25px 50px;
+/*
+        top and bottom paddings are 25px
+        right and left paddings are 50px
+*/
+
+/*
+    padding: 25px 50px 75px 50px;
+        top padding is 25px
+        right padding is 50px
+        bottom padding is 75px
+        left padding is 100px
+*/
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -180,6 +196,7 @@ header ul li {
 
 .cta-text {
     font-size: 70px;
+    text-align: center;
 }
 
 .cta button {
@@ -192,4 +209,39 @@ header ul li {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid black;
+}
+
+.top-content .text-content {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.middle-img {
+    display: flex;
+    margin: 30px 0 30px 0;
+    width: 90%;
+}
+
+.bottom-content {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.bottom-content .text-content {
+    margin: 10px 10px 50px 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 40px 0 50px 0;
 }
