@@ -52,53 +52,33 @@ table {
     box-sizing: border-box;
 }
 
-.container {
-	/* border: 5px green;
+body {
 	display: flex;
-	text-align: center;
-	margin: 10px 15px; 
-	margin: auto;
-    width: 75%;
-	padding: 10px; */
-	display: flex;
-	flex-direction: column;
-	justify-content: center
+	justify-content: center;
+	margin: 0;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html {
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 
-header {
-	margin: 30px 0;
-}
-
-header nav {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-header li {
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 60px;
-}
-
-header li a{
-	text-decoration: none;
+header nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	color: #bbbbbb;
 }
 
+header li {
+	display:flex;
+	/* justify-content: space-around; */
+}
 header .logo {
-	vertical-align: middle;
-	margin-right: 0%;
 }
 
 .cta {
