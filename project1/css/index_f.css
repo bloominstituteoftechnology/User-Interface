@@ -55,85 +55,122 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-		box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
-		box-sizing: border-box;
 }
 
-.container {
-	width: 1300 px;
-	margin: 0 auto;
-}
 
 .header-nav {
-
-	width: 80%;
-	height: auto;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 15px;
-	float: left;
+	display: flex;
+	flex-direction: row;
 }
-
-.logo {
-	width: 20%;
-	height: auto;
-	display: inline-block;
-	vertical-align: top;
-	float: right;
-	padding-left: 50px;
-}
-
 
 ul {
-	list-style: none;
+	display: flex;
+	flex-direction: row;
+	padding-left: 30px;
+	width: 80%;
 }
 
 li {
-	float: left;
+	display: flex;
+	text-decoration: none;
+	width: 155px;
+	justify-content: space-around;
 }
 
 li a {
-	display: block;
-	color: #999999;
-	text-align: center;
+	display: flex;
 	text-decoration: none;
-	padding-top: 15px;
-	padding-left: 90px;
+	color: gray;
 }
 
-
-.cta-text {
-	display: inline-block;
-	text-align: center;
-	font-size: 80px;
-	margin: 100px 200px;
+.logo {
+	margin-right: 150px;
+	margin-left: 30px;
+	width: auto;
 }
 
 .cta {
-	display: inline-block;
-	margin-top: 50px;
+	display: flex;
+	margin: 50px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align: center;
+	font-size: 80px;
+	width: 55%;
+	height: auto;
+}
+
+.middle-img {
+	margin-left: 150px;
+	margin-right: 50px;
 }
 
 button {
+	display: flex;
 	border: 2px solid gray;
-	padding: 10px 60px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
-	font-size: 12px;
-	vertical-align: top;
+	margin-left: 255px;
+	font-size: 18px;
+	height: 30px;
+	width: 120px;
 }
 
-.top-content .text-content {
-	width: 30%;
+.top-content {
+	display: flex;
+	width: 90%;
 	height: 100%;
-	display: inline-block;
-	margin: 100px 200px;
+	margin: 50px;
+	justify-content: space-between;
+}
 
+.text-content {
+	padding-right: 30px;
+	margin-right: 50px;
+}
+
+
+middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 50px;
+	justify-content: space-between;
+}
+
+.contact {
+	width: 90%;
+	height: 100%;
+	margin: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+h2 {
+    content:"";
+    display: flex;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+		margin: 10px -100% 10px 10px;
+    border-top: 1px solid black;
 }
