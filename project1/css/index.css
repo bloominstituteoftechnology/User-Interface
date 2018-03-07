@@ -64,18 +64,20 @@ h1, h2, h3, h4, h5 {
 /* ****************     */
 .container {
   width: 950px;
-  padding: 25px 40px;
-  margin: 0 auto
+  padding: 100px;
+  margin: 0 auto;
 }
 
 header {
   display: flex; 
   padding-bottom: 40px;
   justify-content: space-between;
+  border-bottom: black 3px;
 }
 
 header nav {
   display: flex; 
+  justify-content: space-between;
 }
 
 ul {
