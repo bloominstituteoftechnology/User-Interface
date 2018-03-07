@@ -1,10 +1,6 @@
 
 
 
-* {
-    box-sizing: border-box;
-}
-
 
 
 
@@ -13,9 +9,10 @@
 
 
 .container {
-	padding: 30px;
-	margin-right:20px
+	width:880px;
+	margin: auto;
 
+	
 	
 }
 
@@ -30,17 +27,17 @@
 nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	
 }
 ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width:1000px;
+	width:550px;
 	list-style: none;
 }
 header img {
-	padding-left: 120px;
+	padding-left: 80px;
     
 }
 a {
@@ -53,7 +50,7 @@ a {
 	flex-direction: row;
 	justify-content: flex-end;
 	margin-top: 100px;
-	margin-right:2px;
+	
 
 
 
@@ -61,7 +58,7 @@ a {
 }
 
 .img1 {
-	padding-left: 300px;
+	padding-left: 50px;
 
 
 }
@@ -91,7 +88,8 @@ button {
 	height: 40px;
 	align-self:center;
 	font-size: 17px;
-
+	background-color: white;
+    border: 1px solid black;
 
 
 }
@@ -110,11 +108,11 @@ button {
 	flex-direction: row;
 }
 .top-content .text-content{
-	width: 800px;
+	width: 500px;
 }
 .middle-img{
 	padding-top: 30px;
-width: 1360px;
+width: 880px;
 }
 
 
@@ -129,7 +127,7 @@ width: 1360px;
 
 
 .bottom-content .text-content {
-	width: 440px;
+	width: 270px;
 }
 
 
@@ -143,7 +141,7 @@ width: 1360px;
 footer{
 	display :flex;
 	justify-content: center;
-margin-top: 100px;
+margin-top: 10px;
 margin-bottom: 100px;
 font-size: 20px;
 
