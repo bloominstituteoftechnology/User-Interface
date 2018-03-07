@@ -68,74 +68,98 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-header nav {
-	display: inline-block;
-	width: 700px;
+header {
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
 }
 
-header nav ul {
-	text-align: center;
-}
-header nav ul li {
-	display: inline-block;
-	margin: 30px;
+nav {
+	flex: 1;
+	height: 100%;
+	align-items: center;
+	padding: 0 50px 0;
 }
 
-header img {
-	display: inline-block;
-	margin-left:20px;
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav li a {		
+	text-decoration: none;
+	color: grey;
+	font-size: 15px;
+}
+
+nav li a:hover {		
+	color: gray
 }
 
 .cta {
-	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .cta-text {
-	display: inline-block;
-	font-size: 70px;
+	flex: 3;
 	text-align: center;
-	margin-right: 80px;
 }
 
-.cta .cta-text button {
+.cta-text h1 {
+	font-size: 5em;
+}
+
+button {
+	border: 1px solid black;
 	font-size: 20px;
-	background-color: white;
-	border: 1px black;
-}
-
-.cta img {
-	margin-left: 20px;
 }
 
 .main-content {
-	display: inline-block;
-	margin: 60px 0px;
-	border-top: 1px;
-	border-bottom: 1px;
-	border-color: grey;
-	border-style: solid;
+	border-top: 1px solid black;
+	margin: 50px 0;
 }
 
-.text-content {
-	display: inline-block;
-	margin: 25px 40px;
-	width: 350px;}
+.top-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-content .text-content {
+	margin: 40px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 0;
+}
 
 .bottom-content .text-content {
-	display: inline-block;
-	margin: 25px 40px;
-	width: 200px;
+	padding-left: 10px;
+}
+
+.contact {
+	padding: 40px 0 0 0;
+	border-top: 1px solid black;
 }
 
 .contact p {
-	margin: 0px 0px 20px 0px;
+	line-height: 20px;
+	padding: 10px 0 0 0;
 }
 
 footer {
-	margin: 0 auto;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
 }
-
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
