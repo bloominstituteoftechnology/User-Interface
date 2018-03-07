@@ -76,10 +76,11 @@ h1, h2, h3, h4, h5 {
 .header {
 	/*border: 2px solid black;*/
 	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	width: 100%;
 	margin-bottom: 2%;
-	display: flex;
-	justify-content: center;
 }
 
 .nav {
@@ -87,33 +88,26 @@ h1, h2, h3, h4, h5 {
 	/*position: relative;*/
 	/*margin: 0px auto;*/
 	/*bottom: 10px;*/
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 85%;
-	margin: 0px auto;
 }
 
 ul {
 	display: flex;
-	justify-content: space-evenly;
-	margin: auto;
-	flex-grow: 1;
 }
 
 li {
 	/*display: inline-block;*/
 	/*margin-right: 100px;*/
-	/*flex-grow: 1;*/
+	margin-right: 50%;
 }
 
 li>a {
 	text-decoration: none;
 	color: grey;
+	margin: auto;
 }
 
 .logo {
-	margin-right: 5%;
+	
 
 }
 
