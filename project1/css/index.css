@@ -76,18 +76,19 @@ body {
 .container header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .container header nav ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	list-style: none;
 
 }
 .container header nav ul li {
-	marin 5px;
+	margin: 5px;
+
 }
 .container header nav ul li a {
 	text-decoration: none;
@@ -123,6 +124,11 @@ body {
 	padding: 30px;
 	display: flex;
 	flex-direction: column;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
 }
 
 .text-content {
