@@ -74,7 +74,8 @@ header nav ul {
 	display: flex;  
 	flex-wrap: row wrap; 
 	width: 60%;
-	align-content: space-around;   
+	align-content: space-around;
+	   
 	 
 }
 
@@ -100,7 +101,7 @@ header nav ul {
 }
 .cta img scr {
 	display: flex; 
-	align-self: flex-end; 
+	text-align: right-float; 
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5 {
 
 }
 .text-content {
-	margin: 30px; 
+	
 	display: block; 
 }
 .top-content {
@@ -128,8 +129,8 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 .bottom-content {
-	height: 30px; 
-	width: 30px; 
+	height: 150px; 
+	width: 150px; 
 	display: flex; 
 	flex-direction: row; 
 	
@@ -143,4 +144,9 @@ footer {
 	justify-content: center; 
 	padding-top: 80px; 
 	 
+}
+@meta (max-width: 768px){
+	.container{ 
+		width: 100%; 
+	}
 }
