@@ -62,3 +62,113 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+/* why do margin and padding both work for spacing? */
+
+/* CLASSES CLASSES CLASSES CLASSES CLASSES CLASSES CLASSES */
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	/* I can't get width to take up the width of .container... I've tried setting width to 100% but nothing happens. */
+	width: 876px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+	.logoA {
+	}
+
+	.cta {
+		display: flex;
+		height: 500px;
+		width: 1000px;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+		
+		.cta-text {
+			display:flex;
+			width: 500;
+			height: 500;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+			.cta-text h1 {
+				font-size: 80px;
+				text-align: center;
+			}
+
+		.logo {
+			display:flex;
+			width: 500;
+			height: 500;
+		}
+
+/* can't get any <hr></hr>s to pop up here in the html */
+
+	.main-content {
+		width: 876px;
+		border-top: black solid 2px;
+		border-bottom: black solid 2px;
+	}
+
+		.top-content {
+			height: 182px;
+			display: flex;
+			align-items: center;
+		}
+
+			.top-content .text-content {
+
+			}
+
+		.bottom-content {
+			display: flex;
+			flex-direction: row;
+			height: 182px;
+			align-items:center;
+		}
+
+			.bottom-content .text-content {
+			width:400px;
+			}
+
+
+	.mini {
+		display: flex;
+		justify-content: flex-start;
+		width: 876px;
+		height: 180px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	/* ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS ELEMENTS */
+
+	button {
+		background-color: white;
+		width: 150px;
+		height: 38px;
+		border: gray solid 1px;
+	}
+	
+	footer p {
+		margin-bottom: 200px;
+	}
