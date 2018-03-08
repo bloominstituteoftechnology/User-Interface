@@ -95,11 +95,12 @@ hr{
 .cta{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: 0 0 2em;
 }
 .cta-text{
 	display: flex;
-	flex-flow: column wrap;
+	flex-direction: column;
 	align-items: center;
 	width: 50%;
 }
@@ -112,6 +113,9 @@ hr{
 	border: 1px solid black;
 	width: 50%;
 	padding: 0.5em 0.25em;
+}
+.cta img{
+	width: 50%;
 }
 .main-content{
 	margin: 2em 0;
