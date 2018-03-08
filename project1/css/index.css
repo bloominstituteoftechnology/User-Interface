@@ -62,3 +62,70 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+
+header {
+	display: flex;
+	justify-content: center;
+	
+}
+
+ul {
+	display: inline-flex;
+}
+
+li {
+	width: 200px;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-text {
+	font-size: 4vw;
+}
+
+.text-content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-size: 26px;
+}
+
+.top-content {
+	display: inline-flex;
+	align-self: flex-start;
+	justify-content: space-between;
+}
+
+.bottom-content {
+	display: inline-flex;
+	align-self: flex-start;
+	justify-content: space-around;
+}
+
+.main-content {
+	border: 2px solid black;
+}
+
+.middle-img {
+	align-self: center;
+	width: 100%;
+}
+
+.contact {
+	font-size: 2vw;
+}
+
+button {
+	align-self: center;
+	font-size: 2vw;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
