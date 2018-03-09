@@ -62,3 +62,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* -------- SECTION:  HEADER --------- */
+header{
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+header nav{
+	display: flex;
+	flex-grow:1;
+	justify-content: center;
+}
+
+header nav ul{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+
+/* -------- SECTION:  CTA --------- */
+.cta {
+	padding: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cta-text{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 75px;
+}
+
+.cta-text button {
+	background: white;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+/* -------- SECTION:  MAIN CONTENT --------- */
+.main-content{
+	display: flex;
+	flex-direction: column;
+
+}
+.text-content{
+	padding: 25px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.top-content, .bottom-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.middle-img {
+	padding: 25px;
+	 display: flex;
+	 justify-content: center;
+ }
+
+ /* -------- SECTION:  CONTACT --------- */
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact p , .contact h4{
+	padding: 10px 15px 15px 0;
+}
+
+ /* -------- SECTION:  FOOTER --------- */
+footer {
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+}
