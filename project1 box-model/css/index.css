@@ -62,3 +62,102 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+nav {
+	padding-top:2%;
+	width:100%;
+	margin-bottom: 1px;
+	text-align:center;	
+}
+
+nav li {
+	padding-left:7%;
+	float: left
+}
+
+nav li a {
+	text-decoration:none;
+	color:grey;
+}
+
+.logo{
+	float:right;
+	margin-right:50px;
+}
+.cta{
+	margin-top:9%;
+}
+.cta-text{
+	text-align:center;
+	margin-left:10.5%;
+	font-size:80px;
+	width:47%;
+	float:left;
+	margin-top:2.6%;
+}
+
+.cta-image{
+	vertical-align: middle;
+}
+button{
+	margin-top:10px;
+	padding:7px 60px;
+	background-color:white;
+	border:2px solid black;
+	color:black;
+	text-align:center;
+	font-size:16px;
+}
+hr{
+	margin-top:7%;
+	width:78%;
+}
+
+.main-content{
+	margin-top:3%;
+
+}
+
+.top-content{
+	text-align:left;
+}
+
+.top-content .text-content h4{
+	display:inline-block;
+	vertical-align:top;
+}
+.top-content .text-content {
+	margin-left:11%;
+	margin-right:8%;
+	float:left;
+	width:30%;
+	text-align:left;
+	margin-bottom:3%
+}
+.middle-img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bottom-content .text-content {
+	margin-top:3%;
+	margin-left:11%;
+	width:18.6%;
+	float:left;
+	text-align:left;
+	margin-bottom:3%;
+}
+
+.contact{
+	margin-top:3%;
+	margin-left:11%;
+	width:19%;
+	float:left;
+	text-align:left;
+}
+footer{
+	margin-left:43%;
+	margin-top:12%;
+	margin-bottom:3%;
+}
