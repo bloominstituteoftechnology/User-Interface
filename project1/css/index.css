@@ -62,3 +62,76 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+* {
+	border: 1px;
+}
+
+/* This is where you code goes!*/
+/*Container is the web page itself.*/
+.container{
+	width: 880px;
+	margin: 0 auto;
+	justify-content: center;
+}
+/*Header contains the navigation and logo*/
+ header{
+	/* border: 5px solid rgb(43, 255, 0); */
+	display: flex;	
+}
+  nav ul {
+	margin-top: 20px;
+	display:flex;
+	width: 600px;
+	justify-content: space-between;
+	/* border: 5px solid rgb(0, 255, 21); */
+	
+}
+
+ li a{
+	/* border: 5px solid rgb(255, 0, 149);
+	flex-direction: row; */
+	color: #606060;
+	text-decoration: none;
+}  
+ .logo{
+	/* border: 5px solid red; */
+	align-self: flex-end;
+	margin-left: 50px; 
+ }
+
+ /*This is the middle!*/
+
+.cta{
+	display: flex;
+	justify-content: flex-end;
+}
+.cta-text{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	/* border: 5px solid rgb(0, 255, 21);  */
+	font-size: 56px;
+	flex-flow: column;
+	margin-right: 150px;
+}
+
+.main-content .top-content{
+	 /* border: 5px solid rgb(255, 0, 200); */
+	 display: flex;
+	 justify-content: space-around;
+	 /* flex-flow: column; */
+}
+ .bottom-content{
+	/* border: 5px solid rgb(255, 0, 200); */
+	display: flex;
+	justify-content: space-around;
+	/* flex-flow: column; */
+}
+
+
+
+footer p{
+ /* border: 5px solid rgb(0, 217, 255); */
+ justify-content: center;
+ display: flex;
+}
