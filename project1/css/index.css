@@ -48,17 +48,105 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
+  
+body  {
+	display: flex; 
+	justify-content: center; 
+   }
+ .container {
+	display: flex; 
+	flex-direction: column; 
+	
+ }  
+
+header {
+	display: flex; 
+	align-items: center;  
+	justify-content: space-around; 
+	margin: 15px; 
+}
+header nav ul {
+	display: flex;  
+	flex-wrap: row wrap; 
+	width: 60%;
+	align-content: space-around;
+	   
+	 
+}
+
+.container header nav ul li {
+	font-size: smaller; 
+	display: flex; 
+	flex-grow: 6; 
+	justify-content: space-around; 
+	margin: 5px; 
+	padding-left: 25px; 
+	padding-right: 25px; 
+}
+.container header .logo {
+ 
+	display: flex; 
+	justify-content: flex-end; 
+ 
+}
+
+.cta {
+	display: block; 
+	margin: 25px; 
+}
+.cta img scr {
+	display: flex; 
+	text-align: right-float; 
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.main-content {
+	border-top: gray 10px; 
+	border-bottom: gray 10px; 
+
+}
+.text-content {
+	
+	display: block; 
+}
+.top-content {
+	display: flex;
+	flex-direction: row;  
+	
+	height: 150px; 
+	width: 350px; 
+}
+.middle-img {
+	display: flex;
+	text-align: center;
+}
+.bottom-content {
+	height: 150px; 
+	width: 150px; 
+	display: flex; 
+	flex-direction: row; 
+	
+}
+ .contact {
+	display: flex;
+	flex-direction: column; 
+}
+footer {
+	display: flex; 
+	justify-content: center; 
+	padding-top: 80px; 
+	 
+}
+@meta (max-width: 768px){
+	.container{ 
+		width: 100%; 
+	}
 }
