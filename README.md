@@ -1,25 +1,33 @@
-# HTML / CSS - User Interface Project 
+# User Interface Project: Great Idea Web Page
 
-We will be building a single page website throughout this week.  We will approach the layout in a few different ways so that we can learn the many challenges of building user interface.  The first challenge will be to build the interface using only the box model and display types of block and inline.  You can use floats and clears if you want as well!
+Being able to create a user interface from a design file is considered a basic necessity for front end developers. We will be building a single page website throughout this week to get plenty of practice using HTML and CSS.  We will approach the same layout in several different ways so that we can learn the many challenges of building user interfaces.  The first challenge will be to build the interface using only the box model and `display: inline-block`.  You can use floats and clears if you want as well! The second challenge will be to re-build your first `inline-block` build with `flexbox` techniques.  **Do not skip the first challenge!**  The learnings you will gain from `inline-block` layout are important for you to understand.
 
-The second challenge will be to re-approach your first build with flexbox techniques.  Don't accomplish the second challenge until you have completely finished the page using box model and display types only!
+**Hint**
+The HTML structure is already in the project, you can use that as a guide for your CSS. **If you want to stretch yourself, delete the HTML and start from scratch.**
 
-*Hint*
-The HTML is already in the project, you can use that as a guide for your CSS. If you want to stretch yourself, delete the HTML and start from scratch.
+### Challenge 1: `display:inline-block`
+You are to only use `display:inline-block` and the box model CSS properites to get as much of the layout done as you can.  If this is your first time coding HTML and CSS, just try to get the top half of the page done.
 
-### Useful Resources
-* [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
-* [Flexbox Reference](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+***Useful Resource: [Layout Using inline-block](http://learnlayout.com/inline-block-layout.html)***
 
-### Challenge 1
-Objective: Code up as much of the web page as you can using the box model and any layout techniques you have learned.
+***Objectives:*** 
+- Style the provided HTML using `display:inline-block` and box model CSS properties only. 
+- Try to make your styles match as close to the [design files as possible.](design-files/great-idea-example.jpg)
+- Aim for coding the whole page from navigation all the way to the footer
+- **Stretch Goal**: Delete the provided HTML and build your own file.
 
- * Try to make the site look like the included great-idea-example.jpg
+### Challenge 2: `display: flexbox`
+Building layouts with `flexbox` is way more fun compared to inline-block but `flexbox` comes with a lot more things to learn.  This challenge is to use the [same layout design file](design-files/great-idea-example.jpg) as challenge 1 but now you will use flexbox to control your layout isntead of `inline-block`.
 
- * I have included a CSS reset and some base styles you will need to match the design. 
+***Useful Resource: [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)***
 
-### Challenge 2
- * Objective: Incorporate flexbox where you were using box model before.
+***Objectives:***
+- You must complete challenge 1 before attempting challenge 2.
+- Incorporate `flexbox` where you were using `inline-block`.
+- Aim for coding the whole page from navigation all the way to the footer
+- **Stretch Goal**: Delete the provided HTML and build your own file.
+
+**If you accomplish both challenges early, push yourself to build the other pages in the navigation**
 
 #### To Get Started
 * Fork / Clone this project into a directory on your machine.
