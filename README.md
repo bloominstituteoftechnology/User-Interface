@@ -6,7 +6,7 @@ Being able to create a user interface from a design file is considered a basic n
 The HTML structure is already in the project, you can use that as a guide for your CSS. **If you want to stretch yourself, delete the HTML and start from scratch.**
 
 ### Challenge 1: `display:inline-block`
-Only use `display:inline-block` and box model CSS properites to layout the [Great Idea design.](design-files/desktop.jpg).
+Only use `display:inline-block` and box model CSS properites to layout the [Great Idea design](design-files/desktop.jpg).
 
 ***Useful Resource: [Layout Using inline-block](http://learnlayout.com/inline-block-layout.html)***
 
