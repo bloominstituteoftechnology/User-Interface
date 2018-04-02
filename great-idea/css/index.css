@@ -62,3 +62,79 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+nav a {
+    display: inline-block;
+    padding: 30px 60px 60px 0;
+    text-decoration: none;
+    color: darkgray;
+}
+
+ nav, .logo {
+   display: inline-block;
+    padding-top: 30px;
+}
+/*second container*/
+.cta {
+    position: relative;
+}
+.cta-text {
+    display: inline-block;
+    width: 50%;
+/*    font-size: 70px;*/
+    text-align: center;
+    position: relative;
+    bottom: 70px
+    
+}
+.cta {
+    line-height: inherit;
+}
+.cta-text h1{
+    font-size: 70px;
+}
+.cta img{
+    display: inline-block;
+}
+/* end of second container*/
+
+/*third container*/
+.main-content {
+    border-top: solid gray 2px;
+    margin-top: 30px;
+}
+.top-content {
+    padding: 30px 0 30px;
+    
+}
+.text-content {
+    width: 49%;
+    display: inline-block;
+}
+/*end of third container*/
+/* ****fourth container*/
+.bottom-content {
+    margin-top: 30px;
+    border-bottom: solid gray 2px;
+    padding-bottom: 30px;
+}
+.bottom-content .text-content {
+    display: inline-block;
+    width: 33%;
+    padding: 0 10px;
+}
+/* end of fourth container*/
+
+/* start contact*/
+.contact {
+    padding: 30px 0 30px;
+}
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* end contact*/
