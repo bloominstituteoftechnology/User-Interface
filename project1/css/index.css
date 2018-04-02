@@ -165,7 +165,7 @@ img .middle-img{
 	position: absolute;
   }
   nav {
-	position:fixed;
+	position:static;
 	left: 0px;
 	width: 1000px;
   }
