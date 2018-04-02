@@ -1,7 +1,90 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+nav {
+	width: 75%;
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+	width: 60px;
+	padding-right: 10px
+}
+
+.logo {
+	max-width: 15%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cta {
+	border-bottom: 1px solid darkslategray;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.cta-text {
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	font-size: 75px;
+}
+
+.cta-text button {
+	width: 25%;
+	height: 25px;
+	position: relative;
+	top: -40px;
+	background-color: transparent;
+	color: black;
+	border: 1px solid slategray;
+}
+
+.cta:img {
+	width: 50%;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
+    margin-left: 0%;
+    margin-right: 100%;
+    width: 100%;
+    padding-left: 5%;
+	padding-right: 5%;
+}
+
+.top-content .text-content {
+	margin-top: 30px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	width: 45%;
+	display: inline-block;
+	margin-bottom: 30px
+}
+
+.bottom-content {
+	border-bottom: 1px solid slategray;
+	margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+	margin-top: 30px;
+	padding-left: 3.33;
+	padding-right: 3.33;
+	width: 30%;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+.contact p {
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
