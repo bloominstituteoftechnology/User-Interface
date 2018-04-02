@@ -16,8 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 5px;
+	padding: 5px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -61,4 +61,85 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container header nav{
+	display: inline-block;
+	width: 75%;
+	height: 100px;
+	margin: 10px;
+	vertical-align: top;
+	
+}
+.container header nav a{
+	color: gray;
+	text-decoration: none;
+	margin-left: 60px;
+}
+.cta{
+	border-top: 2px black;
+}
+
+.cta-text {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	margin-left: 60px;
+
+}
+.cta-text h1{
+	text-align: center;
+	display: inline-block;
+	font-size: 100px;
+	padding: 15px 32px;
+	
+
+
+}
+.cta-text button{
+
+	background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 32px;
+    text-align: center;
+    display: inline-block;
+	font-size: 25px;
+	margin-left: 155px;
+	
+}
+
+.main-content .top-content .text-content{
+	
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	padding-top: 50px;
+	margin-left: 90px;
+	
+}
+
+.main-content .bottom-content .text-content{
+	display: inline-block;
+	vertical-align: top;
+	height: 100px;
+	width: 250px;
+	margin-left: 88px;
+}
+.main-content .middle-img{
+	padding: 1px;
+	margin-left: 110px;
+}
+
+.contact{
+	display: inline-block;
+	vertical-align: top;
+	padding: 100px;
+	margin-left: 14px;
+}
+
+footer p{
+	display: inline-block;
+	text-align: center;
+	margin-left: 39%;
 }
