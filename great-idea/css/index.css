@@ -3,56 +3,148 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/* Navigation and Header Style */
+header nav {
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 20px;
+	
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+header nav a{
+	display: inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	text-decoration: none;
+	color: lightgray;
+}
+.logo {
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 30px;
+
+}
+/* ---> end of Navigation and Header Style */
+
+/* Cta text and image section */
+.cta .cta-text{
+	display: inline-block;
+	margin-left: 210px;
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 85px;
+}
+.cta .cta-text h1 {
+	letter-spacing: 5px;
+	margin-bottom: -10px;
+}
+.cta img {
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 90px;
+	height: 400px;
+	
+}
+.cta button {
+	position: relative;
+	border: 1px solid black;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: -180px;
+	background: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+}
+/* ---> end Cta text and image section */
+
+/* page break */
+.HorizontalLine {
+	border-top: solid black 1px;
+	margin-top: 70px;
+	margin-left: 65px;
+	margin-right: 65px;
+  }
+/* ---> end page break */
+
+/* top content */
+.main-content .top-content .text-content {
+	display: inline-block;
+	margin: 30px;	
+
+}
+.main-content .top-content .text-content:first-child {
+	display: inline-block;
+	width: 550px;
+	margin-left: 65px;
+}
+
+.main-content .top-content .text-content:last-child {
+	display: inline-block;
+	width: 540px;
+}
+/* ---> end top content */
+/* Middle content image */
+.main-content .middle-img {
+	display: inline-block;
+	margin-left: 65px;
+	width: 1135px;
+}
+/* ---> end middle content image*/
+
+/* Bottom Content */
+.main-content .bottom-content .text-content {
+	
+	margin-left: 65px;
+	margin-top: 20px;
+}
+.main-content .bottom-content .text-content:first-child {
+	display: inline-block;
+	width: 330px;
+}
+.main-content .bottom-content .text-content:nth-child(2) {
+	display: inline-block;
+	width: 330px;
+}
+.main-content .bottom-content .text-content:last-child {
+	display: inline-block;
+	width: 330px;
+}
+/* ---> end bottom content*/
+
+/* Page break 2*/
+.HorizontalLine2 {
+	border-top: solid black 1px;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-top: 50px;
+}
+/* --> end page break 2*/
+
+.contact {
+	display: inline-block;
+	margin-left: 65px;
+	margin-top: 40px;
+}
+
+/* footer */
+footer {
 	display: block;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 120px;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+/* ---> end footer */
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
+
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
