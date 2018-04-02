@@ -88,7 +88,7 @@ div .text-content{
 	display: inline-block;
 	border: 10px;
 	margin: 0 auto;
-	display:inline-block;
+	
 }
 blockquote, q {
 
@@ -165,12 +165,13 @@ img .middle-img{
   }
   nav {
 	position:absolute;
-	left: 0px;
+	left: 20px;
 	width: 1000px;
   }
   section {
 	/* position is static by default */
 	margin-left: 200px;
+	position: relative;
   }
   footer {
 	position: absolute;
