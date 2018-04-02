@@ -158,14 +158,14 @@ h1, h2, h3, h4, h5 {
 }
 img .middle-img{
 	margin:10px;
-	position: relative;
+	position: absolute;
 
 }
 .container {
-	position: relative;
+	position: absolute;
   }
   nav {
-	position:static;
+	position:fixed;
 	left: 0px;
 	width: 1000px;
   }
