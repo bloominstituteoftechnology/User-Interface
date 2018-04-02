@@ -62,3 +62,98 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+/* Start nav bar */
+
+header {
+	padding: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	font: grey;
+	
+}
+nav {
+	width: 79%;
+	display: inline-block;
+}
+nav a {
+	margin: 40px;
+	color: rgb(185, 185, 185);
+	text-decoration: none;
+}
+
+.logo {
+	padding-top: 5px;
+	top: 0;
+	right: 0;
+}
+
+/* Start logo and heading  */
+
+.cta {
+	border-bottom: 1px solid gray;
+	margin: 50px 20px 20px 20px;
+	padding-bottom: 30px;
+}
+.cta-text {
+	font-size: 80px;
+	width: 50%;
+	/* background: gray; */
+	text-align: center;
+	display: inline-block;
+}
+
+.cta image {
+	width: 50%;
+	display: inline-block;
+}
+
+.cta-text button {
+	border: 1px solid gray;
+	position: relative;
+	top: -50px;
+	height: 30px;
+	width: 100px;
+}
+
+/* Start paragraphs */
+
+.main-content {
+	border-bottom: 1px solid gray;
+	margin: 0px 20px 50px 20px;
+	padding-bottom: 30px;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%;
+	padding: 20px 0px 20px 0px;
+}
+
+.middle-img {
+	width: 100%;
+	/* padding: 20px; */
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 32%;
+	padding: 20px 0px 20px 0px;
+}
+
+/* footer */
+
+.contact {
+	margin-left: 20px;
+}
+
+.contact p {
+	margin: 0px 0px 20px 0px;
+}
+
+footer {
+	text-align: center;
+}
