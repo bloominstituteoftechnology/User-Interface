@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,87 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/*My code starts here*/
+
+/*Header*/
+
+header{
+	height: 40px;
+}
+
+header a {
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+	margin: 40px 70px;
+}
+
+.logo{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-top: 30px;
+	padding-right: 40px;
+}
+
+/*Main Banner */
+
+.cta{
+	margin: 80px 250px;
+}
+
+.cta-text{
+	display: inline-block;
+	font-size: 90px;
+	text-align: center;
+	margin-right: 150px;
+}
+
+.cta-text button{
+	background-color: white;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 5px 50px;
+}
+
+/*Main Content*/
+
+.main-content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 85%;
+	margin: 0px 100px;
+	padding-bottom: 30px;
+}
+
+.top-content .text-content{
+	padding: 40px 0;
+	width: 48%;
+}
+
+.middle-img{
+	width: 100%
+}
+
+.text-content{
+	display: inline-block;
+	padding: 20px;
+}
+
+.bottom-content .text-content{
+	width: 30%;
+	padding-top: 40px;
+}
+
+/*Contact*/
+
+.contact{
+	margin: 40px 100px;
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 100px;
 }
