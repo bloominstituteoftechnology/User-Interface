@@ -116,8 +116,9 @@ header a {
 	padding-bottom: 30px;
 }
 
-.top-content{
+.top-content .text-content{
 	padding: 40px 0;
+	width: 48%;
 }
 
 .middle-img{
@@ -125,13 +126,13 @@ header a {
 }
 
 .text-content{
-	width: 48%;
 	display: inline-block;
 	padding: 20px;
 }
 
-.bottom-content{
-	width: 60%;
+.bottom-content .text-content{
+	width: 30%;
+	padding-top: 40px;
 }
 
 /*Contact*/
