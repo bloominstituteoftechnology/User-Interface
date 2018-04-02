@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 /* -----------------------Start here ----------------------------------------- */
 .container {
-	width: 1000px;
+	width: 880px;
 	margin: 0 auto;
 }
 /* header {
@@ -78,13 +78,13 @@ header {
 /* header nav {
 	display:inline-block;
 	margin-left: 100px;
-	border:1px blue;	
+	border:1px blue;
 } */
 header nav {
 	margin-top:40px;
-	width: 100%;
+	width: 610px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 /* .logo {
@@ -111,15 +111,14 @@ header nav a:hover {
 
 header .logo {
 	align-self: flex-end;
-	/* margin:28px 0 0 91px; */
+	 margin:28px 0 0 91px;
 }
-/*   ---------------------------.cta   */
+/*   ------Call To Action--------.cta   */
 
 .cta {
 	margin-top:72px;
-	margin-bottom: 30px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 
 }
 
@@ -130,27 +129,30 @@ header .logo {
 	justify-content: center;
 	flex-flow: column;
 	align-items: center;
-	padding-right: 80px;
+	margin:0 82px 0 0;
 }
 
 .cta .cta-text button {
 		border: 1px double black;
 		font-size: 16px;
 		background:white;
+		width: 170px;
+		height:32px;
+		margin-top: 10px;
+		cursor: pointer;
 }
 /* .top-image {
 	margin-top: 10px;
 } */
 /* ------------Main Content --------------------- */
 .main-content {
-	border: 10px 0px 10px 0px;
-	border-top: solid black;
-	border-bottom: solid black;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 75px;
+	margin-bottom: 35px;
 	font-size: 16px;
 	line-height:18px;
-	padding-right: 20px;
+	padding: 35px 0;
 }
 
 /* .text-content {
@@ -161,8 +163,7 @@ header .logo {
 .main-content .top-content {
 	display:flex;
 	justify-content: space-around;
-	margin-top: 50px;
-	margin-bottom: 20px;
+
 }
 /* .middle-img {
 	display: inline-block;
@@ -175,7 +176,6 @@ header .logo {
 .main-content .middle-img {
 	display: block;
 	margin: 30px auto;
-	width: 100%;
 }
 
 /* .bottom-content .text-content {
@@ -189,14 +189,12 @@ header .logo {
 .main-content .bottom-content {
 	display: flex;
 	justify-content: space-around;
-	padding-right: 20px;
-	margin-bottom: 30px;
-	width: 100%;
+
 }
 
-/* .main-content .bottom-content p {
+ .main-content .bottom-content p {
 	padding-right: 20px;
-} */
+}
 
 /* .contact {
 	display: inline-block;
@@ -206,11 +204,11 @@ header .logo {
 	border: 1px blue;
 } */
 /* ----------------------Contact ----------------------- */
-/* contact p {
+ contact p {
 	margin:15px 0;
-} */
+}
 
 footer {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 40px 0 20px;
 }
