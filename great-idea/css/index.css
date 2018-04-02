@@ -92,7 +92,7 @@ nav a {
 	border: 2px solid green;
 	vertical-align: top;
 	margin: 200px;
-	width: 50%;
+	width: 70%;
 }
 
 .cta h1 {
@@ -103,10 +103,10 @@ nav a {
 }
 
 .cta button {
-	vertical-align: left;
-	width: 50%;
-	text-align: center;
 	font-size: 20px;
+	vertical-align: left;
+	width: 20%;
+	text-align-last: center;
 }
 
 .cta img {
