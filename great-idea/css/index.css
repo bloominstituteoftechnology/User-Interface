@@ -53,8 +53,65 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 3%;
+}
+nav {
+	position: fixed;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: lightgray;
+	text-align: center;
+	display: block;
+	float: left;
+	padding-left: 1vw;
+	padding-right: 3vw;
+	font-size: 2.5vmin;
+	font-family: 'Titillium Web', sans-serif;
+}
+.container {
+	position: fixed;
+	top: 5%;
+	overflow: hidden;
+}
+img {
+	right: 0;
+	padding-right: 5%;
+	max-width: 100%;
+	height: auto;
+	object-fit: scale-down;
+}
+.logo {
+	position: absolute;
+	right: 0;
+	padding-right: 5%;
+	max-width: 100%;
+	height: auto;
+}
+.cta {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 50%;
+	padding-right: 5%;
+	padding-top: 15%;
+}
+.cta-text {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	padding-left: 5%;
+	font-size: 10vh;
+}
+.cta img {
+	margin: 0;
+	float: right;
 }
 
 h1, h2, h3, h4, h5 {
