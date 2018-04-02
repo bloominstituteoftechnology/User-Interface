@@ -64,11 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	display: inline-block;
-	vertical-align: top;
+padding: 25px;
 }
 header img {
-	display: inline-block;
+	float: right;
 	vertical-align: top;
 	width: 25%;
 }
