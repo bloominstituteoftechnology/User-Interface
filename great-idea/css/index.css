@@ -82,6 +82,7 @@ nav a {
 	display: inline-block;
 	vertical-align: top;
 	float: left;
+	color:grey;
 	padding:25px;
 }
 
@@ -95,16 +96,27 @@ nav a {
 .cta{
 	display:inline-block;
 	position:relative;
+	border-bottom: gray 2px solid;
+	outline: red 2px solid;
+	width:100%;
 }
 
-.cta-text h1 {
+.cta h1 {
 	display:inline-block;
+	text-align: center;
 	font-size: 500%;
-	width: 50%;
+	padding-right: 20px;
+	outline: yellow 2px solid;
+}
+
+.cta button{
+	outline: yellow 2px solid;
+	display:inline-block;
 }
 
 .cta img{
+	/* outline: yellow 2px solid; */
 	display:inline-block;
 	float: right;
-	width: 50%
+	width:50%
 }
