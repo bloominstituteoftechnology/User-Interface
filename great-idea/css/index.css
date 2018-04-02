@@ -16,17 +16,23 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 5px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+header {
+	display: inline;
+	vertical-align: top;
+}
+
+
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer, hgroup, menu, nav, section {
+	display: inline;
 }
 body {
 	line-height: 1;
