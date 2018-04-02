@@ -124,7 +124,31 @@ hr {
 }
 
 .top-content .text-content:nth-child(1) {
-	margin-right: 200px;
+	width: 415px;
+	height: 150px;
+	margin-right: 300px;
+}
+
+.top-content .text-content:nth-child(2) {
+	width: 415px;
+	height: 150px;
+}
+
+.bottom-content .text-content {
+	width: 250px;
+}
+
+.bottom-content .text-content:nth-child(1) {
+	
+}
+
+.bottom-content .text-content:nth-child(2) {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.bottom-content .text-content:last-child {
+	
 }
 
 .main-content .top-content {
