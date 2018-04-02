@@ -77,4 +77,38 @@ nav a:link {
 	margin: 20px;
 }
 
+.cta-text h1 {
+	border: 2px solid red;
+	display: inline-block;
+	font-size: 70px;
+	padding: 85px 30px 10px 150px;
+	width: 55%;
+	text-align: center;
+}
+
+
+.cta-text button {
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 15%;
+	vertical-align: bottom;
+	margin-right: 400px;
+	margin-left: 275px;
+	
+}
+
+
+.cta-image {
+	display: inline-block;
+	border: 2px solid black;
+	margin-left: 700px;
+}
+
+
+
+
+
+
+
 
