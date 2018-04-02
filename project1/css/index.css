@@ -73,9 +73,10 @@ body {
 
 	
 img {
+	float:center;
 	margin-right:10px;
-	border: 20px;
-	display:inline-block;
+	border: 20px solid grey;
+	
 }
 
 
@@ -86,7 +87,7 @@ div .text-content{
 	margin-right: 0;
 	padding: 30px;
 	display: inline-block;
-	border: 10px;
+	border: 10px solid green;
 	margin: 0 auto;
 	
 }
@@ -153,7 +154,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
 
     margin-bottom: 10px;
-    display:inline-block;
+    
 }
 img .middle-img{
 	margin:10px;
@@ -164,17 +165,17 @@ img .middle-img{
 	position: relative;
   }
   nav {
-	position:absolute;
-	left: 20px;
+	position:static;
+	left: 0px;
 	width: 1000px;
   }
   section {
 	/* position is static by default */
 	margin-left: 200px;
-	position: relative;
+	
   }
   footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 20%;
 	height: 50px;
