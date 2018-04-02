@@ -91,3 +91,20 @@ nav a {
 	float: right;
 	width:20%;
 }
+
+.cta{
+	display:inline-block;
+	position:relative;
+}
+
+.cta-text h1 {
+	display:inline-block;
+	font-size: 500%;
+	width: 50%;
+}
+
+.cta img{
+	display:inline-block;
+	float: right;
+	width: 50%
+}
