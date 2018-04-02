@@ -73,7 +73,7 @@ body {
 
 	
 img {
-	float:center;
+	float:left;
 	margin-right:10px;
 	border: 20px solid grey;
 	
@@ -229,6 +229,6 @@ img .middle-img{
   .box2 {
 	margin-left: 0;
   }
-  
+
   .inline-block-element {
 	display: inline-block; }
