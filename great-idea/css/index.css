@@ -55,10 +55,102 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    margin: auto;
+    width: 95%;
+    max-width: 1000px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	width: 79%;
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+	width: 16%;
+}
+
+.logo {
+	max-width: 20%;
+	margin-top: 50px;
+}
+
+.cta {
+	border-bottom: 1px solid gray;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.cta-text {
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	font-size: 75px;
+}
+
+.cta-text button {
+	width: 25%;
+	height: 25px;
+	position: relative;
+	top: -40px;
+	background-color: #FEFEFEFF;
+	color: black;
+	border: 1px solid gray;
+}
+
+.cta image {
+	width: 50%;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 1%;
+	padding-right: 1%;
+}
+
+.top-content .text-content {
+	margin-top: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 49%;
+	display: inline-block;
+	margin-bottom: 30px
+}
+
+.bottom-content {
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+	margin-top: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 33%;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+.contact p {
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
 }
