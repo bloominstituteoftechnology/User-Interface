@@ -147,6 +147,7 @@ footer p{
 
 
 /* This is the second part of the assignment. It is unfinished
+
 .container{
 	display: flex;
 	flex-direction: row;
@@ -176,8 +177,6 @@ footer p{
     color: black;
     border: 2px solid black;
     padding: 8px 32px;
-    text-align: center;
-    display: inline-block;
 	font-size: 25px;
 	margin-left: 155px;
 	
