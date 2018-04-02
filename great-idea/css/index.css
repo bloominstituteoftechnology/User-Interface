@@ -93,7 +93,7 @@ nav a {
 	width:20%;
 }
 
-.cta{
+/* .cta{
 	display:inline-block;
 	position:relative;
 	border-bottom: gray 2px solid;
@@ -102,21 +102,51 @@ nav a {
 }
 
 .cta h1 {
-	display:inline-block;
 	text-align: center;
 	font-size: 500%;
 	padding-right: 20px;
 	outline: yellow 2px solid;
+	float:left;
+	width:60%;
 }
 
 .cta button{
 	outline: yellow 2px solid;
-	display:inline-block;
+	float:left;
 }
 
 .cta img{
-	/* outline: yellow 2px solid; */
-	display:inline-block;
 	float: right;
-	width:50%
+	width:40%;
+} */
+
+.cta{
+    display:inline-block;
+    position:relative;
+    border-bottom: gray 2px solid;
+    /* outline: red 2px solid; */
+    width:100%;
+}
+.cta .cta-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+		text-align: center;
+}
+.cta h1 {
+    /*display:inline-block;*/
+    font-size: 500%;
+		padding-top: 20%;
+    padding-right: 20px;
+    outline: yellow 2px solid;
+}
+.cta button{
+    /* outline: yellow 2px solid; */
+    display:inline-block;
+}
+.cta img{
+    /* outline: yellow 2px solid; */
+    display:inline-block;
+    float: right;
+    width:50%;
 }
