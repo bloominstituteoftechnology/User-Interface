@@ -62,3 +62,127 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+	
+	display: inline-block;
+    width: 80%;
+    height: 75px;
+    margin: 10px;
+	
+}
+nav a {
+	display: inline-block;
+    color:gray;
+    text-align: center;
+	
+	padding-left: 100px;
+	padding-right: -100px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+ .logo{
+	margin-top: 40px;
+	margin-right: 20px;
+	display: inline-block;
+	
+}
+
+.cta {
+	text-align: center;
+
+	display: inline-block;
+    margin-left: 20%;
+	padding-left: 10px;
+padding-bottom: 130px;
+}
+.cta-text {
+	text-align: center;
+	font-size: 75px;
+	margin-left: 20px;
+	display: inline-block;
+	
+}
+.codeimg {
+	padding-left: 100px;
+}
+
+
+.cta-text button {
+	
+	text-align: center;
+	
+	background-color: white; 
+	border: 2px solid;
+	
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+}
+ 
+.container {
+	width: 90%;
+	margin: auto;
+}
+.main-content {
+	text-align: center;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+	
+	
+}
+
+
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	font: bold;
+	text-align: left;
+	font-size: 20px;
+}
+
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 93%;
+	padding:50px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width:33%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	padding-left: 30px;
+	font: bold;
+	text-align: left;
+	font-size: 20px;
+}
+
+.contact {
+	text-align: left;
+	display:  inline-block;
+	font-size: 20px;
+	padding-top: 60px;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+footer {
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 300px;
+}
