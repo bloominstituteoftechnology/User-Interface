@@ -112,21 +112,29 @@ hr {
 
 .main-content {
 	display: inline-block;
-	text-align: center;
 	margin: 50px;
 	border: 2px solid darkgray;
 	border-right: none;
 	border-left: none;
 }
 
-.main-content .top-content {
+.text-content {
 	display: inline-block;
-	justify-content: center;
+	width: 200px;
 }
 
-.text-content:nth-child(1) {
-	display: inline-block;
-	margin-right: 15px;
+.top-content .text-content:nth-child(1) {
+	margin-right: 200px;
+}
+
+.main-content .top-content {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.main-content .bottom-content {
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 .top-content .text-content {
