@@ -62,3 +62,19 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	
+}
+
+nav a:link {
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	margin: 20px;
+}
+
+
