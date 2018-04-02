@@ -116,16 +116,13 @@ header img {
 	display: inline-block;
 	font-size: 5rem;
 	text-align: center;
-	width: 50%;
+	width: 60%;
 }
 
 .cta-text button {
 	font-size: 1.5rem;
 }
 
-.cta image {
-	height: auto;
-}
 /* Main Body */
 
 .main-content {
@@ -141,7 +138,7 @@ header img {
 }
 
 .middle-img {
-	width: 100%
+	width: 100%;
 }
 
 .bottom-content .text-content {
