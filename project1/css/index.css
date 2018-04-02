@@ -164,7 +164,8 @@ img .middle-img{
 .container {
 	position: absolute;
   }
-  nav {
+
+  .nav {
 	position:static;
 	left: 0px;
 	width: 1000px;
