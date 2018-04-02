@@ -62,3 +62,107 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/*-------------------------------*/
+
+.container {
+	width: 100%;
+	max-width: 876px;
+	margin: 0 auto;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+
+nav {
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+    margin-right: 60px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    vertical-align: -10px;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.logo {
+	float: right;
+}
+
+section {
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0;
+}
+
+hr {
+	border: 0.5px solid black;
+	margin: 0;
+}
+.cta {
+	margin-bottom: 75px;
+}
+
+
+.cta-text {
+	float: left;
+    text-align: center;
+    width: 54%;
+    padding-top: 60px;
+}
+
+.cta-text h1 {
+	font-size: 72px;
+}
+
+.cta-text button {
+	width: 155px;
+    padding: 4px;
+    margin-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    border: 1px solid black;
+}
+
+.cta-text button:hover {
+	background-color: springgreen;
+	border: 1px solid springgreen;
+	box-shadow: 2px 2px 0 0 #777;
+	cursor: pointer;
+	color: white;
+}
+
+.text-content {
+	padding-right: 15px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.top-content .text-content {
+	width: 50%;
+	float: left;
+}
+
+.middle-img {
+	margin: 40px 0;
+}
+
+.bottom-content .text-content {
+	width: 33.33%;
+	float: left;
+}
+
+footer {
+	height: 100px;
+	text-align: center;
+	font-size: 14px;
+}
