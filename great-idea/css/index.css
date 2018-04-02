@@ -16,12 +16,66 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin:25;
+	padding: 25;
+	border: 25;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: top;
+}
+
+.header{
+	width: 100%;
+
+}
+.nav{
+	display: inline-block;
+}
+
+.nav a{
+	display: inline-block;
+
+}
+
+.logo{
+	
+}
+
+.cta{
+	border-bottom: 1px solid gray;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+.cta-text {
+
+}
+.cta-image{
+
+}
+
+.middle-img{
+
+}
+
+.top-content .text-content{
+
+}
+
+.bottom-content{
+
+}
+
+.bottom-content .text-content{
+
+}
+
+.contact p{
+
+}
+
+footer{
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -54,15 +108,14 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: auto;
+	width: 95%;
+	max-width: 1000px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
-
-.container{
-	float: left;
 }
