@@ -73,19 +73,21 @@ header{
 }
 
 nav {
+	display: inline-block;
 	position:relative;
-	width:70%;
+	width:80%;
 }
 
 nav a {
 	display: inline-block;
 	vertical-align: top;
-	padding:5px;
+	float: left;
+	padding:25px;
 }
 
 .logo{
 	display: inline-block;
 	vertical-align: top;
 	float: right;
-	width:30%;
+	width:20%;
 }
