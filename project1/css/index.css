@@ -72,9 +72,10 @@ body {
 }
 
 	
-img {	float: center;
+img {	display: float;
 	margin-right:10px;
 	border: 20px solid grey;
+	display:inline-block;
 }
 
 
