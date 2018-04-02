@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 .navbar {
 	width: 100%;
 	display: inline-block;
-	margin: auto;
 	padding: 0;
 	list-style: none;
 }
@@ -82,6 +81,7 @@ h1, h2, h3, h4, h5 {
 
 .navbarlogo {
 	display: inline-block;
+	padding-top: 10px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5 {
 	padding: 100px;
 	width: 100%;
 	border-bottom: black 1px solid;
+	display: inline-block;
 }
 
 .cta .cta-text {
@@ -109,11 +110,29 @@ h1, h2, h3, h4, h5 {
 	vertical-align: middle;
 } 
 
+/* Main Content Section */
 .main-content {
 	margin: auto;
-	padding: 100px;
+	padding: auto;
 	width: 100%;
 	border-bottom: black 1px solid;
+	display: inline-block;
+	vertical-align: middle;
 }
+ 
+.top-content .text-content {
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;	
+}
+ 
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;	
+	padding-top: 20px;
+}
+
 
 
