@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu,  output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -62,3 +62,58 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Nav Bar */
+.navbar {
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar a {
+	display: inline-block;
+	margin: auto;
+	padding: 20px;
+	color: grey;
+	text-decoration: none;
+}
+
+.navbarlogo {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* CTA Section */
+.cta {
+	margin: auto;
+	padding: 100px;
+	width: 100%;
+	border-bottom: black 1px solid;
+}
+
+.cta .cta-text {
+	width: 50%;
+	font-size: 60px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+ .cta img {
+	width: 50%;	
+	display: inline-block;
+	vertical-align: middle;
+} 
+
+.main-content {
+	margin: auto;
+	padding: 100px;
+	width: 100%;
+	border-bottom: black 1px solid;
+}
+
+
