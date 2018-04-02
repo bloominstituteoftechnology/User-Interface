@@ -139,7 +139,7 @@ hr {
 }
 
 .bottom-content .text-content:nth-child(1) {
-	
+	margin-right: 50px;
 }
 
 .bottom-content .text-content:nth-child(2) {
@@ -148,7 +148,7 @@ hr {
 }
 
 .bottom-content .text-content:last-child {
-	
+	margin-left: 50px;
 }
 
 .main-content .top-content {
