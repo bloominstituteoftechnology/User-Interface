@@ -74,7 +74,6 @@ header {
 
 nav {
 	margin-top: 40px;
-	display: inline-block;
 	justify-content: space-between;
 }
 
@@ -93,21 +92,30 @@ nav a {
 }
 
 .cta {
-	position: relative;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+	padding-bottom: 20px;
 	border-bottom: 2px solid;
-
 }
 
 .cta-text {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
+	align-self: center;
 	position: relative;
 	width: 50%;
 	padding-bottom: 80px;
 }
 
-.cta-text h1 {
+.cta-text button {
+	align-self: center;
+	margin-right: 30%;
+}
 
+.cta-text h1 {
+	display: flex;
 	font-size: 80px;
 }
 
@@ -116,25 +124,30 @@ nav a {
 }
 
 .main-content {
-	/*margin-top: 30px;*/
-	/*margin-bottom: 30px;*/
-	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
 	border-bottom: 2px solid;
 }
 
-.top-content .text-content:first-child {
-	padding-right: 10px; ;
+.top-content{
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
 }
 
-.bottom-content .text-content:first-child, .bottom-content .text-content:nth-child(2n) {
-	padding-right: 10px; ;
+.bottom-content {
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
 }
+
 
 .text-content {
-	display: table-cell;
-	width: 30%;
-	justify-content: space-between;
-	padding: 30px 0 30px 0;
+	/*display: table-cell;*/
+	width: 60%;
+	/*justify-content: space-between;*/
+	padding: 20px 0 20px 0;
 }
 
 .middle-img {
@@ -148,6 +161,8 @@ nav a {
 .contact p {
 	margin-bottom: 15px;
 }
-footer p {
-	text-align: center
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 100px 0;
 }
