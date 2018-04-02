@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,101 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+header nav {
+  display: inline-block;
+  width: 82%;
+
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 10%;
+  display: inline;
+}
+
+header img {
+position: relative;
+top: 8px;
+
+}
+
+.cta {
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.cta-text {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+.cta-text h1 {
+  font-size: 5rem;
+}
+
+.cta-text button {
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 5px 30px;
+  font-size: 1.1rem;
+}
+
+.cta img {
+  margin-left: 40px;
+}
+
+.main-content {
+ border-bottom: 1px solid black;
+ padding-bottom: 50px;
+ margin-bottom: 50px;
+}
+
+.main-content .top-content {
+  margin-bottom: 40px;
+}
+
+.main-content .top-content .text-content {
+  width: 49%;
+  display: inline-block;
+  padding-right: 1%;
+}
+
+.main-content .middle-img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 33%;
+  display: inline-block;
+  padding-right: 1%;
+}
+
+.contact {
+  margin-bottom: 60px;
+}
+
+.contact p:nth-child(odd) {
+  margin: 15px 0;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 60px;
 }
