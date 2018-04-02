@@ -62,3 +62,80 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	margin: 0 5%;
+}
+
+nav {
+	display: inline-block;
+}
+
+header nav a {
+	width: 50px;
+  height: 20px;
+	padding: 2em 2em;
+	color: lightgrey;
+	size: .3em;
+  display: inline-block;
+	margin: 1.5em;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+header .logo {
+	width: 10em;
+  height: 2em;
+	color: grey;
+	margin: 1em;
+	position: absolute;
+	text-decoration: none;
+	top: 1em;
+	right: 8em;
+	vertical-align: top;
+}
+
+section.cta {
+	margin: 3em 5em;
+	padding-bottom: 5em;
+	border-bottom: 1px solid black;
+}
+
+section.cta .cta-text {
+	display: inline-block;
+	height: 10em;
+	width: 20em;
+	margin: 3em 3em;
+}
+
+section.cta .cta-text h1 {
+	font-size: 5em;
+}
+
+.cta img {
+	display: inline-block;
+	height: 20em;
+	width: 20em;
+}
+
+.cta .cta-text button {
+	width: 5em;
+	height: 3em;
+	margin-left: 4em;
+}
+
+.main-content .top-content {
+	margin: 2em 5em;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 0 2em;
+}
+
+
+
+
