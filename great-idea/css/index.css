@@ -62,3 +62,48 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+nav {
+	text-align: center;
+	min-width: 50px;
+	margin: 30px;
+	position: absolute;
+	right: 20%;
+	text-decoration: none;
+}
+
+nav a {
+	display: inline-block;
+	width: 150px;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	right: 80px;	
+}
+
+.cta {
+	display: inline-block;
+	position: relative;
+	border: 2px solid green;
+	vertical-align: top;
+}
+
+.cta h1 {
+	font-size: 50px;
+	vertical-align: left;
+	width: 50%;
+}
+
+.cta img {
+	vertical-align: right;
+}
+
+
+footer {
+	text-align: center;
+}
