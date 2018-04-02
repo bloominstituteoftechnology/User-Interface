@@ -143,3 +143,42 @@ footer p{
 	text-align: center;
 	margin-left: 39%;
 }
+
+
+
+/* This is the second part of the assignment. It is unfinished
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.container header{
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.container header nav a{
+	color: gray;
+	text-decoration: none;
+	margin-left: 60px;
+	padding: 10px;
+}
+
+
+.cta-text h1{
+	
+	font-size: 50px;
+	display: flex;
+	
+}
+.cta-text button{
+	background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 32px;
+    text-align: center;
+    display: inline-block;
+	font-size: 25px;
+	margin-left: 155px;
+	
+}
