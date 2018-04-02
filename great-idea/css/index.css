@@ -62,3 +62,52 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+}
+
+/*header nav {
+	margin-top: 40px;
+	display: inline-block;
+	width: 610px;
+	justify-content: space-between;
+}*/
+
+nav a {
+	color: gray;
+	padding: 20px 60px 60px 0;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav, .logo {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.cta {
+	position: relative;
+}
+
+.cta-text {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	width: 50%;
+	margin-bottom: 70px;
+}
+
+.cta-text h1 {
+	font-size: 80px;
+}
+
+.cta-img {
+	display: inline-block;
+}
+
