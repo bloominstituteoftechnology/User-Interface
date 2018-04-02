@@ -3,6 +3,10 @@
    License: none (public domain)
 */
 
+* {
+	box-sizing: border-box;
+  }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,13 +20,97 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 20;
+	padding: 20;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	
+	
 }
+
+
+header nav {
+	
+	display: inline-block;
+	position: relative;
+	top: 25px;
+	left: 30px;
+	padding: 20;
+	
+}
+
+header img {
+	display: inline-block;
+	position: relative;
+	top: 80px;
+	padding: 50px;
+}
+
+.container a {
+	color: lightslategray;
+	padding: 50px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 200px;
+	text-align: center;
+}
+
+.cta img {
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	left: 350px;
+}
+
+.cta .cta-text button {
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+
+.main-content {
+	display: inline-block;
+	position: relative;
+	top: 200px;
+	left: 50px;
+}
+
+.main-content .top-content {
+	column-count: 2;
+	width: 50%;
+
+}
+
+.main-content .middle-img {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.main-content .bottom-content {
+	column-count: 3;
+	width: 50%;
+}
+
+.contact {
+	display: inline-block;
+	position: relative;
+	top: 200px;
+	left: 50px;
+}
+
+footer {
+	display: inline-block;
+	position: relative;
+	top: 300px;
+	left: 400px;
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -61,4 +149,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 80px;
 }
