@@ -74,7 +74,7 @@ body {
 	
 img {
 	margin-right:10px;
-	border: 20px solid grey;
+	border: 20px;
 	display:inline-block;
 }
 
@@ -86,8 +86,9 @@ div .text-content{
 	margin-right: 0;
 	padding: 30px;
 	display: inline-block;
-	border: 10px solid green;
+	border: 10px;
 	margin: 0 auto;
+	display:inline-block;
 }
 blockquote, q {
 
@@ -163,7 +164,7 @@ img .middle-img{
 	position: relative;
   }
   nav {
-	position: static;
+	position:absolute;
 	left: 0px;
 	width: 1000px;
   }
@@ -172,7 +173,7 @@ img .middle-img{
 	margin-left: 200px;
   }
   footer {
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	left: 20%;
 	height: 50px;
