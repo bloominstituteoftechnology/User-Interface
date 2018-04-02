@@ -62,3 +62,23 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	display: inline-block;
+	vertical-align: top;
+}
+header img {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+header nav {
+	display: inline-block;
+	vertical-align: top;
+	width : 70%;
+}
+
+footer {
+	text-align: center;
+}
+ 
