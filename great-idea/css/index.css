@@ -62,3 +62,107 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	white-space: nowrap;
+	padding: 5% 10%;
+}
+
+/* Navigation Menu */
+nav {
+	display: inline-block;
+	text-align: justify;
+  	width: 80%;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	width: 15%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo {
+	display: inline-block;
+  	vertical-align: top;
+  	width: 20%;
+}
+
+/* CTA */
+.cta {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: center;
+	font-size: 5em;
+}
+
+.cta button {
+	vertical-align: top;
+	padding: 5px 40px;
+	background-color: white;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.cta img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+
+/* Main Content */
+.main-content {
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content, .main-content .bottom-content{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.main-content .middle-img {
+	display: inline-block;
+	width: 100%;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.33%;
+}
+
+.main-content p {
+	white-space: normal;
+}
+
+/* Contact */
+.contact {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.contact p {
+	padding-top: 10px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+}
