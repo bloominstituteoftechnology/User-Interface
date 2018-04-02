@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
+    width: 960px;
+    margin: auto;
     position: relative;
 }
 /*first container*/
@@ -92,7 +92,8 @@ nav a {
 /*second container CTA*/
 .cta {
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 .cta-text {
     display: inline-block;
