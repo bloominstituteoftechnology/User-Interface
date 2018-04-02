@@ -64,11 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-	display: inline-block;
-	word-spacing: 50px;
-	font-size: 14px;
-	padding: 10px 50px  10px;
-	color: gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-evenly;
+	
+	
 }
 
 .logo {
