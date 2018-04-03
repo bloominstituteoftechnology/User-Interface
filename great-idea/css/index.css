@@ -62,3 +62,99 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	margin-top: 35px;
+	
+}
+
+.logo {
+	margin-top: 25px;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	margin: 20px;
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	margin: 20px;
+}
+
+.cta-text h1 {
+	display: inline-block;
+	font-size: 70px;
+	padding: 125px 30px 10px 150px;
+	width: 55%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.cta-text button {
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 15%;
+	vertical-align: bottom;
+	margin-right: 400px;
+	margin-left: 275px;
+	
+}
+
+
+.cta-image {
+	display: inline-block;
+	position: relative;
+	right: 85px;
+	bottom: 350px;
+	margin-left: 700px;
+}
+
+.section-separator {
+	border-bottom: 2px solid gray;
+	margin-bottom: 50px;
+}
+
+.top-content .text-content .features {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	Margin: 0px 00px 20px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.top-content .text-content .about {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	Margin: 0px 00px 20px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	left: 600px;
+	bottom: 110px;
+}
+
+.middle-img {
+	display: inline-block;
+	margin-left: 70px; 
+	margin-right: 100px;
+	margin-bottom: 40px;
+	position: relative;
+	bottom: 100px;
+	width: 90%;
+}
+
+
+
+
