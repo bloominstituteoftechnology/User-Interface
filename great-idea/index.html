@@ -1,84 +1,91 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Great Idea!</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
 </head>
-
-  <body>
-
-    <div class="container">
-
-      <header>
-        <nav>
-          <a href="#">Services</a>
-          <a href="#">Product</a>
-          <a href="#">Vision</a>
-          <a href="#">Features</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-      </header>
-
-      <section class="cta">
-        <div class="cta-text">
-          <h1>Innovation<br> On<br> Demand</h1>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#services" title="Services">Services</a></li>
+          <li><a href="#product" title="Product">Product</a></li>
+          <li><a href="#vision" title="Vision">Vision</a></li>
+          <li><a href="#features" title="Features">Features</a></li>
+          <li><a href="#about" title="About">About</a></li>
+          <li><a href="#contact" title="Contact">Contact</a></li>
+        </ul>
+        <img src="img/logo.png" alt="Great Idea! Logo">
+      </nav>
+    </header>
+    <main>
+      <div class="top-content">
+        <div class="header">
+          <h1>Innovation<br>On<br>Demand</h1>
           <button>Get Started</button>
         </div>
-        <img src="img/header-img.png" alt="Image of a code snippet.">
-      </section><!-- cta -->
-
-      <section class="main-content">
-        <div class="top-content">
-          <div class="text-content">
-            <h4>Features</h4>
-            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+        <img src="img/header-img.png" alt="Innovation On Demand">
+      </div>
+      <div class="mid-content">
+        <div class="row">
+          <div id="features" class="text-content">
+            <h2>Features</h2>
+            <p>Donec sed dapibus arcu. Etiam malesuada faucibus vulputate. Sed placerat justo ut tincidunt tempor. Suspendisse placerat
+            quis ante et laoreet. Maecenas in laoreet magna. In imperdiet, est ut dictum molestie, sem mi ornare eros, vitae ultricies
+            sapien metus quis tellus. Quisque sodales ultrices nisi ac sagittis. Nulla vel rutrum augue. Vestibulum at elit eget neque
+            lacinia ultricies sed a massa.</p>
           </div>
-          <div class="text-content">
-            <h4>About</h4>
-            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-          </div>
-        </div>
-        <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
-        <div class="bottom-content">
-          <div class="text-content">
-            <h4>Services</h4>
-            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-          </div>
-          <div class="text-content">
-            <h4>Product</h4>
-            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
-          </div>
-          <div class="text-content">
-            <h4>Vision</h4>
-            <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+          <div id="about" class="text-content">
+            <h2>About</h2>
+            <p>Donec sed dapibus arcu. Etiam malesuada faucibus vulputate. Sed placerat justo ut tincidunt tempor. Suspendisse placerat
+            quis ante et laoreet. Maecenas in laoreet magna. In imperdiet, est ut dictum molestie, sem mi ornare eros, vitae ultricies
+            sapien metus quis tellus. Quisque sodales ultrices nisi ac sagittis. Nulla vel rutrum augue. Vestibulum at elit eget neque
+            lacinia ultricies sed a massa.</p>
           </div>
         </div>
-      </section><!-- main-content -->
-
-      <section class="contact">
-        <h4>Contact</h4>
-        <p>123 Way 456 Street<br>
-        Somewhere, USA</p>
-        <p>1 (888) 888-8888</p>
-        <p>sales@greatidea.io</p>
-      </section><!-- contact -->
-
-      <footer>
-        <p>Copyright Great Idea! 2018</p>
-      </footer>
-
-    </div><!-- container -->
-    
-  </body>
+        <img class="mid-page-accent" src="img/mid-page-accent.jpg" alt="Mid Page Accent">
+        <div class="row">
+          <div id="services" class="text-content">
+            <h2>Services</h2>
+            <p>Donec sed dapibus arcu. Etiam malesuada faucibus vulputate. Sed placerat justo ut tincidunt tempor. Suspendisse placerat
+            quis ante et laoreet. Maecenas in laoreet magna. In imperdiet, est ut dictum molestie, sem mi ornare eros, vitae ultricies
+            sapien metus quis tellus. Quisque sodales ultrices nisi ac sagittis. Nulla vel rutrum augue. Vestibulum at elit eget neque
+            lacinia ultricies sed a massa.</p>
+          </div>
+          <div id="product" class="text-content">
+            <h2>Product</h2>
+            <p>Donec sed dapibus arcu. Etiam malesuada faucibus vulputate. Sed placerat justo ut tincidunt tempor. Suspendisse placerat
+            quis ante et laoreet. Maecenas in laoreet magna. In imperdiet, est ut dictum molestie, sem mi ornare eros, vitae ultricies
+            sapien metus quis tellus. Quisque sodales ultrices nisi ac sagittis. Nulla vel rutrum augue. Vestibulum at elit eget neque
+            lacinia ultricies sed a massa.</p>
+          </div>
+          <div id="vision" class="text-content">
+            <h2>Vision</h2>
+            <p>Donec sed dapibus arcu. Etiam malesuada faucibus vulputate. Sed placerat justo ut tincidunt tempor. Suspendisse placerat
+            quis ante et laoreet. Maecenas in laoreet magna. In imperdiet, est ut dictum molestie, sem mi ornare eros, vitae ultricies
+            sapien metus quis tellus. Quisque sodales ultrices nisi ac sagittis. Nulla vel rutrum augue. Vestibulum at elit eget neque
+            lacinia ultricies sed a massa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content">
+        <h2>Contact</h2>
+        <ul>
+          <li>123 Way 456 Street</li>
+          <li>Somewhere, USA</li>
+        </ul>
+        <p class="phone"><a href="tel:1-888-888-888">1(888) 888-888</a></p>
+        <p class="email"><a href="mailto:sales@greatidea.io">sales@greatidea.io</a></p>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright Great Idea 2018</p>
+    </footer>
+  </div>
+</body>
 </html>

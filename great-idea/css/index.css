@@ -62,3 +62,99 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.wrapper {
+	margin: 0 auto;
+	width: 880px;
+}
+
+/* Header */
+nav,
+nav ul {
+	display: flex;
+}
+
+nav {
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0 0 0;
+}
+
+nav ul {
+	justify-content: space-between;
+	margin: 0 100px 0 0;
+	width: 80%;
+}
+
+nav ul li a {
+	color: gray;
+	text-decoration: none;
+}
+
+/* Main */
+main .top-content,
+main .top-content .header,
+main .mid-content .row {
+	display: flex;
+}
+
+main .top-content {
+	margin: 70px 0 0 0;
+	justify-content: space-between;
+}
+
+main .top-content .header {
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 60%;
+}
+
+main .top-content .header h1 {
+	font-size: 72px;
+}
+
+main .top-content .header button {
+	cursor: pointer;
+	border: 1px solid #000;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 5px 40px;
+	width: 200px;
+}
+
+main .mid-content {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	margin: 78px 0 0 0;
+	padding: 40px 0;
+}
+
+main .mid-content .row .text-content {
+	margin: 0 10px;
+}
+
+main .mid-content .mid-page-accent {
+	margin: 38px 10px;
+}
+
+main .bottom-content {
+	margin: 40px 0 0 0;
+}
+
+main .bottom-content .phone,
+main .bottom-content .email {
+	margin: 20px 0 0 0;
+}
+
+main .bottom-content .phone a,
+main .bottom-content .email a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	margin: 60px 0 100px 0;
+	text-align: center;
+}
