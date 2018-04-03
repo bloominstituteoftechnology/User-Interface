@@ -149,6 +149,7 @@ section .cta-text {
 	vertical-align: top;
 	margin-left: 55px;
 	margin-bottom: 45px;
+	width: calc(100% - 110px);
 }
 
 .bottom-content .text-content {
