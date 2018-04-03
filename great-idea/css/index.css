@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* ----------- My CSS (challenge 1) ------------------- */
 
-nav {
+/* nav {
 	display: inline-block;
 	vertical-align: top;
 	width: 75%;
@@ -187,6 +187,108 @@ footer {
 	margin: 50px 50px 150px 50px;
 	width: calc(95% - 25px);
 
+} */
+
+/* ----------- Flexbox version (challenge 2) ------------------- */
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
 }
 
+header {
+	width: 90%;
+	display: flex;
+	margin: 5px;
+}
 
+header nav {
+	width: 100%;
+}
+
+header nav a {
+	width: 10%;
+	padding: 55px;
+	color: grey;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.cta {
+	display: flex;
+	margin-top: 8%;
+}
+
+.cta-text h1 {
+	font-size: 110px;
+	margin-left: 43%;
+	margin-right: 13%;
+}
+
+.cta-text button {
+	font-size: 18px;
+	margin-left: 63%;
+	margin-right: 13%;
+	padding: 5px;
+}
+
+.cta img {
+	margin-left: 22%;
+}
+
+.hr1 {
+	margin: 115px 55px 40px 55px;	
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.main-content .top-content .text-content {
+	margin-left: 4%;
+}
+
+.middle-img {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 45px;
+	margin-left: 55px;
+	margin-bottom: 45px;
+	width: calc(100% - 110px);
+}
+
+.bottom-content  {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.bottom-content .text-content {
+	margin-left: 4%;
+}
+
+.hr2 {
+	margin: 30px 55px 40px 55px;	
+}
+
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	width: calc(55% - 25px);
+}
+
+.contact p {
+	margin: 20px 10px;
+	width: calc(55% - 15px);
+
+}
+
+footer {
+	text-align: center;
+	margin: 50px 50px 150px 50px;
+	width: calc(95% - 25px);
+
+}
