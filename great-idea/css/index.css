@@ -104,6 +104,18 @@ section.cta {
 	border-bottom: 1px solid black;
 }
 
+section.cta button {
+	background-color: white;
+	border: 1px solid black;
+	color: grey;
+	padding: .1em 3em .1em .2em;
+	width: 5em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
 section.cta .cta-text {
 	display: inline-block;
 	height: 10em;
