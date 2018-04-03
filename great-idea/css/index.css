@@ -44,21 +44,104 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+  border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 30px;
+	width: 960px;
+	margin: auto;
+}
+
+.container header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.container header nav a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 10px 80px 70px;
+	border-bottom: 1px solid black;  
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+  text-align: center;
+  align-items: center;
+	font-size: 80px;
+}
+
+.cta .cta-text button {
+	background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+	font-size: 16px;
+	height: 35px;
+	width: 180px;
+
+}
+
+
+	
+.main-content {
+	border-bottom: 1px solid black;
+}
+	
+.main-content .top-content {
+  display: flex;
+  padding: 35px 0px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+  padding: 35px 0px;
+}
+
+.main-content .bottom-content .text-content {
+	padding: 0px 20px 0px 0px;
+}
+
+.contact {
+	display: flex;	
+	flex-direction: column;
+	justify-content: space-around;
+	height: 250px;
+	padding: 35px 0px;
+}
+
+footer {
+	text-align: center;
 }
