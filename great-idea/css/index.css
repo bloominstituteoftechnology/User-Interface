@@ -62,3 +62,95 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	margin: 2.5% 8% 8% 8%;
+}
+a {
+	text-decoration: none;
+	color: gray;
+	font-size: small;
+	margin: auto;
+	
+}
+header {
+	display: flex;
+	justify-content: flex-start;
+}
+nav {
+	width: 60%;
+	margin-right: auto;
+	display: flex;
+}
+.logo {
+	margin-left: 14px;
+	max-width: 100%;
+	height: auto;
+}
+
+.cta {
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	padding-bottom: 5%;
+}
+
+.cta-text {
+	display: flex;
+	width: 40%;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.cta-text h1 {
+	font-size: 5vh;
+}
+button {
+	align-self: center;
+	padding: 5px 35px;
+	font-size: 25%;
+	border-color: white;
+	border: black 1px solid;
+}
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5%;
+	border-top: 1px black solid;
+	margin: auto;
+}
+.top-content .text-content {
+	width: 48%;
+	padding-bottom: 5%;
+}
+.middle-img {
+	width: 100%;
+}
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid black;
+	margin: auto;
+}
+.bottom-content .text-content {
+	width: 32%;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5%;
+}
+.contact p {
+	padding-bottom: 2.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+footer {
+	padding-top: 2.5%;
+	text-align: center;
+	font-size: smaller;
+}
