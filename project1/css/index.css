@@ -220,9 +220,13 @@ img .middle-img{
   }
   
   header img {
-	border: 1px solid purple;
+	border:3px solid pink;
+	vertical-align: top;
+	display: inline-block;
+	padding: 25px;
+
 	
-	margin-left: 900px;
+	
   }
   
 
