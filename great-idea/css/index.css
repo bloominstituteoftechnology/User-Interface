@@ -62,3 +62,104 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	
+	text-align: center;
+}
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	padding-left: 20px;
+}
+
+nav a {
+	padding: 50px;
+	color: gray;
+	text-decoration: none;
+	font-size: 15px;
+	flex-wrap: nowrap;
+}
+.logo {
+	padding-left: 20px;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 60px;
+}
+.cta img {
+	padding-left: 200px;
+}
+.cta-text {
+font-size: 80px;
+text-align: center;
+margin-bottom: 0px;
+}
+.cta .cta-text h1 {
+	margin-bottom: -20px;
+}
+
+.cta-text button {
+	background-color: white; 
+	border: 1px solid black;
+	
+    color: black;
+    padding: 8px 44px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	margin-top:76px;
+	padding-top: 39px;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main-content .top-content {
+	display:flex;
+	padding-bottom: 50px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+	
+
+.main-content .top-content .text-content {
+	
+width: 500px;
+	
+	
+}
+.main-content .middle-img {
+	
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+
+.contact {
+	margin: 57px;
+	border-top: 1px solid black;
+	padding: 39px 0 0;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align-last: left;
+}
