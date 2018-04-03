@@ -63,109 +63,113 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* A nice little margin around the entire thing */
-.container {
-	margin: 2rem;
-}
+/* Student Inputted CSS Below This Comment */
 
-/* Top Navigation Bar */
-
+/* Header Styling */ 
 header {
-	position: relative;
-	display: block;
-	height: 4rem;
+	margin: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header nav {
-	display: inline-block;
-	vertical-align: middle;
-	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
 }
 
-  /* Link styles */
-nav a {
-	position: relative;
-	margin: 2rem;
-	text-align: justify;
-	font-size: 1rem;
-	text-decoration: none;
-}
- 
-nav a:link {
-	color: gray;
-}
 
-nav a:hover {
-	color: black;
-}
-  /* End Link Styles */
+	/* Link Styling in Header */
 
-header img {
-  vertical-align: middle;
-	right: 0%;
-}
+	header nav a {
+		text-decoration: none;
+		color: #BBB;
+	}
 
-/* Call to Action */
+	header nav a:hover {
+		color: black;
+	}
+
+	/* End Link Styling */
+
+/* Call-to-Action Styling */
 
 .cta {
-	display: block;
-	margin-bottom: 2rem;
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-around;
 }
 
-.cta-text {
-	display: inline-block;
-	font-size: 5rem;
+.cta .cta-text {
+	/* Positioning */
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	/* Font Styling */
+	font-size: 4.5vw;
 	text-align: center;
-	width: 60%;
 }
 
-.cta-text button {
-	font-size: 1.5rem;
-}
+	/* CTA Button Styling */
+	.cta button {
+		/* Button Styling */
+		background: transparent;
+		border-radius: 0.5rem;
+		padding: 0rem 1.5rem;
+		/* Button Text Styling */
+		font-size: 1vw;
+	}
+
+  
+	.cta button:hover {
+		background: gray;
+		color: white;
+	}
+  /* End Button Styling */
 
 /* Main Body */
-
 .main-content {
+	margin: 3rem 1rem;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
 
-.top-content .text-content {
-	display: inline-block;
-	width: 49%; 
-	padding: 1rem;
+.main-content .text-content {
+	padding: 0rem 1rem; /*Horizontal padding around each .text-content*/
+}
+
+.top-content {
+	margin-top: 2rem;
+	display: flex;
 	text-align: justify;
 }
 
 .middle-img {
+	margin-top: 2rem;
 	width: 100%;
-	margin: 1rem 0rem;
 }
 
-.bottom-content .text-content {
-	display: inline-block;
-	width: 32%;
-	padding: 1rem;
+.bottom-content {
+	margin: 2rem 0rem;
+	display: flex;
 	text-align: justify;
 }
+/* End Main Body */
 
-/* Contact */
-
+/* Closing Section */
 .contact {
-	margin: 2rem 0rem;	
+	margin-top: 2rem;
+	margin-left: 1rem;
 }
 
 .contact p {
-	margin-bottom: 1rem;
+	margin: 1rem 0rem;
 }
 
 footer {
 	text-align: center;
 	font-style: italic;
 }
-
-
-
-
-
-
+/* End Closing Section */
