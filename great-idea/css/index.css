@@ -63,60 +63,117 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-nav {
-	display: inline-block;
-	margin-top: 40px;
+.container {
+	width: 1000px;
+	margin: 0;
+	margin-left: 40px;
 }
 
-nav a {
-	font-size: 20px;
-	color: LightGray;
-	margin-left: 50px;
-	margin-right: 70px;
+/* header */
+
+header {
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	width: 691px;
+	margin-top: 35px;
+}
+
+header nav a {
+	font-size: 14px;
+	color: gray;
 	text-decoration: none;
 }
 
-.logo {
-	display: inline-block;
-	height: 50px;
-	margin-left: 60px;
-	position: relative;
-	top: 20px;
+header nav a:hover {
+	text-decoration: underline;
 }
 
+header .logo {
+	margin-top: 25px;
+}
+
+/* cta */
+
 .cta {
-	display: inline-block;
-	margin-top: 100px;
-	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .cta .cta-text {
-	display: inline-block;
-	font-size: 100px;
-	padding-right: 500px;
-}
-
-.cta .cta-text h1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 77px;
+	margin-top: 120px;
 	text-align: center;
-	position: relative;
-	top: 70px;
-	left: 400px;
+	padding: 0px 90px;
 }
 
 .cta .cta-text button {
-	font-size: 20px;
 	background-color: white;
-	padding-left: 30px;
-	padding-right: 30px;
-	position: relative;
-	left: 500px;
+	align-self: center;
+	margin: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
 }
 
-hr {
-	width: 90%;
-	border: 1px solid black;
+.cta .cta-text button:hover {
+	background-color: black;
+	color: white;
+}
+
+.cta img {
+	align-self: flex-end;
+	margin: 69px;
 }
 
 .main-content {
-	margin-top: 40px;
+	border-top: 1px solid black;
+	padding-top: 39px;
+}
+
+.main-content .top-content {
+	display: flex;
+	padding: 0 5px;
+}
+
+.main-content .top-content .text-content {
+	width: 425px;
+	margin-right: 40px;
+}
+
+.main-content .middle-img {
+	margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	margin-top: 37px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 277px;
+	margin-right: 20px;
+}
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
 }
