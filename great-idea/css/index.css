@@ -65,33 +65,27 @@ h1, h2, h3, h4, h5 {
 
 /* Wrap */
 .container {
-	margin-right: 25px;
-	margin-left: 25px;
-	display: inline-block;
-	vertical-align: top;
+	margin: auto;
 }
+
 /* Nav Bar */
 .navbar {
-	width: 100%;
-	display: inline-block;
-	padding: 0;
-	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	margin: auto;
 }
 
 .navbar a {
-	display: inline-block;
+	display: flex;
 	margin: auto;
-	padding: 20px;
 	color: grey;
 	text-decoration: none;
 }
 
 .navbarlogo {
-	display: inline-block;
-	padding-top: 10px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	display: flex;
+	align-self: flex-end;
+	margin: auto;
 }
 
 /* CTA Section */
