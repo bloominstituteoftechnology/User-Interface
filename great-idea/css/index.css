@@ -108,7 +108,7 @@ section.cta .cta-text {
 	display: inline-block;
 	height: 10em;
 	width: 20em;
-	margin: 0 auto;
+	text-align: center;
 }
 
 section.cta .cta-text h1 {
@@ -157,6 +157,19 @@ section.cta .cta-text h1 {
 .main-content .bottom-content .text-content {
 	width: 33%;
 	display: inline-block;
+}
+
+section.contact {
+	margin: 2em; 
+}
+
+section.contact p {
+	margin: 1em 0;
+}
+
+footer {
+	margin: 2em auto;
+	text-align: center;
 }
 
 
