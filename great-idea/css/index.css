@@ -62,29 +62,32 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+.container {
+	width: 0 auto;
+}
 nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	justify-content: space-evenly;
-	
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
 	
 }
 
 .logo {
 	position: absolute;
 	display: inline-block;
-	right: 30px;
+	margin-top: 25px;
 	
 }
 
-.cta-text {
-	font-size: 50px;
-	position: absolute;
+.cta .cta-text {
+	font-size: 77px;
+	position: relative;
 	display: inline-block;
-	top: 150px;
-	left: 100px;
+	vertical-align: top;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 90px;
 }
 
 .header-img {
