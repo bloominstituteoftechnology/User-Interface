@@ -63,4 +63,104 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-test
+.container {
+	width: 90%;
+	margin: 0 auto;
+ }
+
+/* header {
+	width: 100%;
+	display: inline-block;
+} */
+
+nav {
+	width: 79%;
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+	width: 16%;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+  }
+
+.logo {
+	max-width: 20%;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cta {
+	border-bottom: 1px solid red;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.cta-text {
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	font-size: 75px;
+}
+
+.cta-text button {
+	width: 22%;
+	height: 25px;
+	position: relative;
+	top: -40px;
+	background-color: white;
+	color: black;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+
+.cta image {
+	width: 50%;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 1%;
+	padding-right: 1%;
+}
+
+.top-content .text-content {
+	margin-top: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 49%;
+	display: inline-block;
+	margin-bottom: 30px
+}
+
+.bottom-content {
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+	margin-top: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 33%;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+.contact p {
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
