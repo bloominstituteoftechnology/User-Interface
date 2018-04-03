@@ -44,6 +44,13 @@ a {
     text-align: center;
 }
 
+.cta-text button {
+    background: white;
+    color: black;
+    padding: 10px 50px 10px 50px;
+}
+	       
+
 .main-content {
     margin: 0 100px 0 100px;
 }
