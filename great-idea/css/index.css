@@ -48,18 +48,18 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 * {
@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	margin: 30px 80px;
+	margin: auto;
+	width: 960px;
 	position: relative;
 }
 
@@ -78,15 +79,13 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	margin: 10px 60px 0px 0px;
 	left: 0;
-
-
 }
 
 .logo {
-	 display: inline-block;
-	 position: absolute;
-	 top: 0;
-	 right: 0;
+	display: inline-block;
+ position: absolute;
+ top: 0;
+ right: 0;
 }
 
 .cta {
@@ -119,23 +118,23 @@ h1, h2, h3, h4, h5 {
 }
 	
 .main-content .top-content .text-content {
-	  margin: 40px 0px;
-	  display: inline-block;
-	  width: 420px;
+  margin: 40px 0px;
+  display: inline-block;
+  width: 420px;
 }
 
-  .main-content .bottom-content .text-content {
+.main-content .bottom-content .text-content {
 	margin: 40px 0px;
 	display: inline-block;
 	width: 280px;
-  }
+}
 
 .contact {
-    margin: 40px 0px;
+  margin: 40px 0px;
 }
 
 .contact p {
-	  margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 footer {
