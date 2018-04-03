@@ -64,55 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    width: 960px;
+    width: 880px;
     margin: auto;
+    position: relative;
 }
 /*first container*/
-nav a {
-    display: inline-block;
-    padding: 25px 60px 60px 0;
-    text-decoration: none;
-    color: darkgray;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
 }
-
- nav, .logo {
-   display: inline-block;
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.7;
+}
+nav a {    
+    text-decoration: none;
+    color: gray;
     padding-top: 30px;
 }
-.logo {
-    padding-right: 30px;
-    padding-top: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
+.logo{
+    display: flex;
+    padding-top: 20px;
 }
 /* end first container*/
 
 /*second container CTA*/
 .cta {
-    position: relative;
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .cta-text {
-    display: inline-block;
-    width: 50%;
+     width: 50%;
     text-align: center;
-    position: relative;
-    bottom: 70px;
-    
-}
-.cta {
-    align-content: center;
 }
 .cta-text h1{
     font-size: 350%;
-}
-.cta img{
-    display: inline-block;
-    max-width: 100%;
-    padding-left: 40px;
-    height: auto;
 }
 /* end of second container*/
 
@@ -123,24 +113,28 @@ nav a {
 }
 .top-content {
     padding: 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
     
 }
-.text-content {
-    width: 49%;
-    display: inline-block;
-    padding: 0 10px;
-}
 /*end of third container*/
+
 /* ****fourth container bottom-content */
 .bottom-content {
     margin-top: 30px;
     border-bottom: solid gray 2px;
     padding-bottom: 30px;
+    display:flex;
+    justify-content: space-between;
 }
 .bottom-content .text-content {
-    display: inline-block;
-    width: 33%;
-    padding: 0 10px;
+    padding: 10px;
+}
+.bottom-content .text-content:first-child {
+    padding-left: 0;
+}
+.bottom-content .text-content:last-child {
+    padding-right: 0;
 }
 /* end of fourth container*/
 
@@ -150,6 +144,10 @@ nav a {
 }
 footer {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.contact p{
+    margin: 20px 0;
 }
 /* end contact*/
