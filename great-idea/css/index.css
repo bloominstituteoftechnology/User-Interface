@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.container img { 
+.container .logo { 
     background: green;
     
     
@@ -112,7 +112,7 @@ nav a{
 }
 
 .main-content{
-    
+    display: inline-block;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     
@@ -145,20 +145,20 @@ nav a{
     
 }
 
-.container section .contact  {
+.container .contact  {
     display: flex;
     background: yellow;
     padding: 40px;
     border: solid green;
     flex-direction: column;
-    align-content: space-between;
+    
     
 }
 
-.container section .contact p{
+.container .contact p{
     background: gray;
     border: solid red;
-    
+    margin: 10px;
 }
 
 .middle-img {
