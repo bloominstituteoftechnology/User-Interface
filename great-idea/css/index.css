@@ -92,25 +92,32 @@ h1, h2, h3, h4, h5 {
 .cta {
 	margin: auto;
 	padding: 100px;
-	width: 100%;
 	border-bottom: black 1px solid;
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .cta .cta-text {
-	width: 50%;
-	font-size: 60px;
+	font-size: 75px;
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 50px;
 	text-align: center;
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 100px;
+	flex-basis: auto;
 }
 
- .cta img {
-	width: 50%;	
-	display: inline-block;
-	vertical-align: middle;
+.cta button {
+	margin-top: 20px;
+	background-color: white;
+	text-align: center;
+	border: black 1px solid;
+}
+
+ .cta img {	
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: auto;
 } 
 
 /* Main Content Section */
