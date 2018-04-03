@@ -51,6 +51,7 @@ table {
 * {
     box-sizing: border-box;
 		/* border: 1px solid blue; */
+		/* outline: 1px solid blue; */
 }
 
 html, body {
@@ -69,114 +70,103 @@ body {
 	margin: auto;
 }
 
-header {
-	/* height: auto; */
-	overflow: auto;
-}
-
-header a, header figure {
-	display: inline-block;
-	/* height: 70px; */
-	/* margin: 10px; */
-	padding: 10px;
-}
-
-header figure {
-	float: right;
-	max-width: 20%;
-}
-
-header figure img {
-	float: right;
-	max-width: 100%;
-}
-
-header a {
-	clear: right;
-	width: 10%;
-	margin: auto;
-	position: relative;
-}
-
-header a span {
-	width: 100%;
-	margin: auto;
-	position: absolute;
-	top: 50%;
-	transform: translateY(50%);
-	color: #c6c6cb;
-}
-
 a {
 	text-decoration: none;
 	color: black;
 }
 
-a:hover {
-	font-family: 'Bangers', cursive;
-
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
 }
 
-aside	{
-	margin: 50px 0;
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10%;
+	font-size: 1.5vw;
 }
 
-.slogan, .aside-img {
-	display: inline-block;
+aside {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+aside .slogan, aside .aside-img {
+	min-width: 49%;
+}
+
+aside .slogan {
+	margin: 0 auto;
+	font-size: 7.5vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+aside .slogan button {
+	font-size: 1.5vw;
+	width: 40%;
+	border: 1px solid black;
+	background-color: inherit;
+}
+
+aside .aside-img figure, aside .aside-img img {
+	width: 90%;
 	margin: auto;
 }
 
-.slogan	{
-	font-size: 70px;
-	text-align: center;
-	min-width: 50%;
-}
-
-button {
-	font-size: 15px;
-	width: 35%;
-	padding: 5px;
-	border: 2px solid black;
-	background-color: white;
-}
-
-.aside-img {
-	min-width: 45%;
-}
-
-.aside-img img {
+aside .aside-img img {
 	float: right;
 }
 
-.up-side {
-	display: inline-block;
-	width: 49%;
-	padding-right: 10px;
-	margin: 30px 0;
+hr {
+	margin-top: 60px;
 }
 
-.bottom-side {
-	display: inline-block;
-	width: 33%;
-	padding-right: 10px;
-	margin: 30px 0;
+main .up-side, main .bottom-side {
+	display: flex;
+}
+
+main .services {
+	margin-top: 30px;
+	margin-right: 20px;
 }
 
 main img {
-	min-width: 100%;
-
+	width: 100%;
+	margin-top: 30px;
 }
 
-footer {
-	margin: 30px 0;
+
+footer section {
+	margin-top: 30px;
 }
 
-address a {
-	display: block;
+footer section.contact address {
+	display: flex;
+	flex-direction: column;
+}
+
+footer section.contact address a {
 	margin-bottom: 15px;
 }
 
-.copy-right {
+footer section.copy-right p {
 	text-align: center;
-	margin: 30px 0;
+	margin-bottom: 50px;
 }
+
+
+
+
+
+
+
+/* temp */
