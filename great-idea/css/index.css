@@ -61,7 +61,7 @@ body {
 nav {
 	position: absolute;
 	display: inline-block;
-	width: 100%;
+	width: 70%;
 }
 a {
 	text-decoration: none;
@@ -70,18 +70,14 @@ a {
 	padding-left: 1vw;
 	padding-right: 4vw;
 	padding-top: 5%;
-	font-size: 2.3vmin;
+	font-size: small;
 	font-family: 'Titillium Web', sans-serif;
 	right: 0;
-	max-width: 100%;
-	height: auto;
 	object-fit: scale-down;
 }
 .container {
 	position: absolute;
-	min-height: auto;
 	max-height: 100%;
-	object-fit: scale-down;
 	top: 5%;
 	right: 6%;
 	left: 6%;
@@ -90,7 +86,7 @@ a {
 	position: absolute;
 	right: 0;
 	padding-right: 5%;
-	max-width: 100%;
+	width: 30%;
 	height: auto;
 }
 .cta {
@@ -112,8 +108,11 @@ a {
 	font-size: 8vw;
 }
 .cta img {
+	position: absolute;
+	width: 50%;
+	height: auto;
 	margin: 0;
-	float: right;
+	right: 0;
 }
 button {
 	padding: 10px 50px;
@@ -132,7 +131,9 @@ button {
 	font-size: larger;
 }
 .main-content {
-	padding-top: 5vh;	
+	position: relative;
+	margin-top: 50%;
+	padding-top: 5%;	
 	border-top: black solid 1px;
 	border-bottom: black 1px solid;
 
@@ -173,7 +174,8 @@ button {
 	font-weight: normal;
 }
 .contact {
-	padding-top: 5vh;
+	bottom: 0;
+	padding-top: 5%;
 	padding-bottom: 5vh;
 }
 .contact p {
