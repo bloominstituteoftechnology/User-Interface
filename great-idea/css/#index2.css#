@@ -30,7 +30,7 @@ nav {
 	display: inline-block;
 	margin: 100px;
 	width: auto;
-	align-content: top;
+
 }
 
 nav.logo {
