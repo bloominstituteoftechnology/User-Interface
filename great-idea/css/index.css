@@ -62,3 +62,113 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* A nice little margin around the entire thing */
+.container {
+	margin: 2rem;
+}
+
+/* Top Navigation Bar */
+
+header {
+	position: relative;
+	display: block;
+	height: 4rem;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+}
+
+  /* Link styles */
+nav a {
+	position: relative;
+	margin: 2rem;
+	text-align: justify;
+	font-size: 1rem;
+	text-decoration: none;
+}
+ 
+nav a:link {
+	color: gray;
+}
+
+nav a:hover {
+	color: black;
+}
+  /* End Link Styles */
+
+header img {
+  vertical-align: middle;
+	right: 0%;
+}
+
+/* Call to Action */
+
+.cta {
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.cta-text {
+	display: inline-block;
+	font-size: 5rem;
+	text-align: center;
+	width: 60%;
+}
+
+.cta-text button {
+	font-size: 1.5rem;
+	background: transparent;
+	border-radius: 0.5rem;
+	padding: 0rem 3rem;
+}
+
+/* Main Body */
+
+.main-content {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%; 
+	padding: 1rem;
+	text-align: justify;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 1rem 0rem;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 32%;
+	padding: 1rem;
+	text-align: justify;
+}
+
+/* Contact */
+
+.contact {
+	margin: 2rem 0rem;	
+}
+
+.contact p {
+	margin-bottom: 1rem;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+}
+
+
+
+
+
+
