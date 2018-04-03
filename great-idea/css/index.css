@@ -16,74 +16,20 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin:25;
-	padding: 25;
-	border: 25;
+	margin:0;
+	padding: 0;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: top;
-}
-
-.header{
-	width: 100%;
-
-}
-.nav{
-	display: inline-block;
-}
-
-.nav a{
-	display: inline-block;
-
-}
-
-.logo{
-	
-}
-
-.cta{
-	border-bottom: 1px solid gray;
-	padding-top: 50px;
-	padding-bottom: 50px
-}
-
-.cta-text {
-
-}
-.cta-image{
-
-}
-
-.middle-img{
-
-}
-
-.top-content .text-content{
-
-}
-
-.bottom-content{
-
-}
-
-.bottom-content .text-content{
-
-}
-
-.contact p{
-
-}
-
-footer{
-
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: inline-block;
+	display: flex;
 }
 body {
-	line-height: 1;
+	line-height: 0;
 }
 ol, ul {
 	list-style: none;
@@ -103,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    box-sizing:flex;
 }
 
 html, body {
@@ -118,4 +64,37 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container{
+	width: 90;
+	margin: auto
+}
+
+.container header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1px
+}
+
+ header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+ header logo {
+	display: flex;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.cta .cta-text{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
