@@ -72,34 +72,32 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	width: 100%;
 	margin: 40px 0 0 0;
 }
 
 nav {
-	float: left;
+	display: flex;
 }
 
 nav a {
-	display: inline-block;
+	display: flex;
     margin-right: 60px;
     text-decoration: none;
     color: lightgray;
     font-size: 14px;
-    vertical-align: -10px;
 }
 
 nav a:hover {
 	color: red;
 }
 
-.logo {
-	float: right;
-}
-
 section {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	margin: 40px 0;
 }
@@ -114,10 +112,9 @@ hr {
 
 
 .cta-text {
-	float: left;
     text-align: center;
     width: 54%;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 
 .cta-text h1 {
@@ -142,6 +139,10 @@ hr {
 	color: white;
 }
 
+.top-content, .bottom-content {
+	display: flex;
+}
+
 .text-content {
 	padding-right: 15px;
 	font-family: 'Titillium Web', sans-serif;
@@ -149,7 +150,6 @@ hr {
 
 .top-content .text-content {
 	width: 50%;
-	float: left;
 }
 
 .middle-img {
@@ -157,8 +157,11 @@ hr {
 }
 
 .bottom-content .text-content {
-	width: 33.33%;
-	float: left;
+	width: 33.3333%;
+}
+
+.contact {
+	flex-flow: column;
 }
 
 footer {
