@@ -62,3 +62,93 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* CS10 Project - Wladimir Fraga */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 880px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0px;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+header nav a {
+	flex-grow: 1;
+	color: gray;
+	text-decoration: none;
+}
+
+.cta {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 40px 0px;
+}
+
+.cta .cta-text {
+	flex-grow: 1;
+	font-size: 60px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	padding: 5px 25px;
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.main-content {
+	padding: 40px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-content .top-content .text-content {
+	padding: 0px 10px;
+}
+
+.main-content .middle-img {
+	padding: 40px 0px;
+	width: 100%;
+}
+
+.main-content .bottom-content {	
+	display: flex;
+	flex-direction: row;
+	padding: 0px 10px;
+}
+
+.contact {
+	margin: 40px 0px;
+}
+
+.contact p {
+	padding-top: 10px;
+}
+
+footer p {
+	text-align: center;
+}
