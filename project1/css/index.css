@@ -162,7 +162,12 @@ img .middle-img{
 
 }
 .container {
+	
 	position: absolute;
+  left: 0px;
+  width: 200px;
+  display: inline-block;
+	vertical-align: top;
   }
 
   nav {
