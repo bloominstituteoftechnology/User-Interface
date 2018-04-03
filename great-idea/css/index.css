@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,6 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+		/* border: 1px solid blue; */
+		/* outline: 1px solid blue; */
 }
 
 html, body {
@@ -62,3 +64,109 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+body {
+	max-width: 90%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10%;
+	font-size: 1.5vw;
+}
+
+aside {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+aside .slogan, aside .aside-img {
+	min-width: 49%;
+}
+
+aside .slogan {
+	margin: 0 auto;
+	font-size: 7.5vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+aside .slogan button {
+	font-size: 1.5vw;
+	width: 40%;
+	border: 1px solid black;
+	background-color: inherit;
+}
+
+aside .aside-img figure, aside .aside-img img {
+	width: 90%;
+	margin: auto;
+}
+
+aside .aside-img img {
+	float: right;
+}
+
+hr {
+	margin-top: 60px;
+}
+
+main .up-side, main .bottom-side {
+	display: flex;
+}
+
+main .services {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+main img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+footer section {
+	margin-top: 30px;
+}
+
+footer section.contact address {
+	display: flex;
+	flex-direction: column;
+}
+
+footer section.contact address a {
+	margin-bottom: 15px;
+}
+
+footer section.copy-right p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* temp */
