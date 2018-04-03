@@ -74,18 +74,23 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 	display: flex;
 	flex-direction: column;
-	margin-top: 40px;
+	padding: 40px 0px;
 }
 
 header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
 }
 
+header nav {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
 header nav a {
-	margin: 0px 40px 0px 0px;
+	flex-grow: 1;
 	color: gray;
 	text-decoration: none;
 }
@@ -93,14 +98,13 @@ header nav a {
 .cta {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
-	margin: 40px 0px;
+	padding: 40px 0px;
 }
 
 .cta .cta-text {
-	padding: 0px 120px;
-	font-size: 50px;
+	flex-grow: 1;
+	font-size: 60px;
 	text-align: center;
 }
 
@@ -119,12 +123,22 @@ header nav a {
 
 .main-content .top-content {
 	display: flex;
-	padding-bottom: 40px;
+	flex-direction: row;
+}
+
+.main-content .top-content .text-content {
+	padding: 0px 10px;
+}
+
+.main-content .middle-img {
+	padding: 40px 0px;
+	width: 100%;
 }
 
 .main-content .bottom-content {	
 	display: flex;
-	padding-top: 40px;
+	flex-direction: row;
+	padding: 0px 10px;
 }
 
 .contact {
@@ -137,5 +151,4 @@ header nav a {
 
 footer p {
 	text-align: center;
-	padding-bottom: 40px;
 }
