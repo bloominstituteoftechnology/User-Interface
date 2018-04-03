@@ -24,16 +24,47 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-header {
-	display: inline;
-	vertical-align: top;
-}
-
-
 article, aside, details, figcaption, figure, 
-footer, hgroup, menu, nav, section {
-	display: inline;
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	border: 1px solid red;
 }
+nav{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: 0%;
+}
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	right: 0%;
+}
+.cta .cta-text{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-size: 80px; 
+}
+.cta .cta-text button{
+	position: relative;
+	top: 100%;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+}
+.main-content {
+	border-top: 6px solid black;
+}
+
+.main-content .top-content .text-content .p{
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+
 body {
 	line-height: 1;
 }
