@@ -60,5 +60,85 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.container{
+	margin:110px;
+	margin-top:25px;
+
+}
+
+header{ 
+	width:100%;
+	height:50px;
+	display: inline-block;
+	position: relative;
+}
+header nav{
+	display:inline-block;
+	width:75%;
+	text-align:top;
+}
+header img{
+	display: inline-block;
+	position: absolute;
+	top:0px;
+	right:0px;
+	
+}
+header nav a{
+	text-decoration: none;
+	color:grey;
+	margin:50px;
+	margin-top:5px;
+	margin-bottom:0px;
+	display: inline-block;
+	
+}
+
+.cta{
+	width:100%;
+	height:650px;
+	border: 1px solid green;
+	display: inline-block;
+	position: relative;
+}
+.cta .cta-text h1{
+	width:50%;
+	font-size: 120px;
+	border: 1px solid green;
+	text-align: center;
+	display: inline-block;
+	position:absolute;
+	top:130px;
+}
+.cta .cta-text button{
+	display: inline-block;
+	position: absolute;
+	bottom:100px;
+	left:250px;
+	border:1px solid green;
+	font-size:25px;
+}
+.cta img{
+	width:550px;
+	margin:60px;
+	display: inline-block;
+	position:absolute;
+	top:0px;
+	right:0px
+
+}
+.main-content .top-content{
+	display:inline-block;
+	position: relative;
+	
+}
+.main-content .top-content .text-content{
+	display:inline-block;
+	position: absolute;
+	border:1px solid green;
+	height:150px;
+	width:100%;
 }
