@@ -158,7 +158,8 @@ footer {
 
 
 .container {
-	width: 880px;
+	width: 100%;
+	max-width: 880px;
 	margin: 0 auto;
   }
   
@@ -190,11 +191,6 @@ footer {
 	text-decoration: underline;
   }
    
-
-  
-  header .logo {
-	border: mediumvioletred;
-  }
   
   /* cta */
   
@@ -230,24 +226,38 @@ footer {
 	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
+	border: solid red;
 }
+
+  /* .main-content .text-content {
+	  padding: 2px;
+  } */
   
   .main-content .top-content {
 	display: flex;
+	justify-content: space-between;
 	/* border: solid red; */
   }
+
+  .main-content .top-content .text-content {
+	width: 47%;
+} 
     
   .main-content .middle-img {
 	margin-top: 45px;
+	width: 100%;
   }
   
   .main-content .bottom-content {
-	display: flex;
+    display: flex;
+	justify-content: space-between;
 	margin-top: 45px;
 	/* border: solid red; */
   }
   
-    
+  .main-content .bottom-content .text-content {
+	  width: 30%;
+  } 
   .contact {
 	margin-top: 45px;
 	border-top: 1px solid black;
