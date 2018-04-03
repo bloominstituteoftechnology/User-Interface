@@ -80,8 +80,7 @@ nav {
     justify-content: space-between;
     flex: 0.7;
 }
-nav a {
-    
+nav a {    
     text-decoration: none;
     color: gray;
     padding-top: 30px;
@@ -90,20 +89,6 @@ nav a {
     display: flex;
     padding-top: 20px;
 }
-
-/*
- nav, .logo {
-   display: inline-block;
-    padding-top: 30px;
-}
-.logo {
-    padding-right: 30px;
-    padding-top: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-*/
 /* end first container*/
 
 /*second container CTA*/
@@ -116,11 +101,9 @@ nav a {
      width: 50%;
     text-align: center;
 }
-
 .cta-text h1{
     font-size: 350%;
 }
-
 /* end of second container*/
 
 /*third container - main-content*/
@@ -135,6 +118,7 @@ nav a {
     
 }
 /*end of third container*/
+
 /* ****fourth container bottom-content */
 .bottom-content {
     margin-top: 30px;
@@ -142,9 +126,7 @@ nav a {
     padding-bottom: 30px;
     display:flex;
     justify-content: space-between;
-    
 }
-
 /* end of fourth container*/
 
 /* start contact*/
