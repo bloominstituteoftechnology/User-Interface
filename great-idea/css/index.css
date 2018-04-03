@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 
 /* Start nav bar */
-
+/* 
 header {
 	padding: 20px;
 	position: relative;
@@ -87,11 +87,10 @@ nav a {
 
 .logo {
 	padding-top: 5px;
-	top: 0;
-	right: 0;
+	vertical-align: top;
 }
 
-/* Start logo and heading  */
+
 
 .cta {
 	border-bottom: 1px solid gray;
@@ -101,7 +100,6 @@ nav a {
 .cta-text {
 	font-size: 80px;
 	width: 50%;
-	/* background: gray; */
 	text-align: center;
 	display: inline-block;
 }
@@ -119,7 +117,7 @@ nav a {
 	width: 100px;
 }
 
-/* Start paragraphs */
+
 
 .main-content {
 	border-bottom: 1px solid gray;
@@ -135,7 +133,7 @@ nav a {
 
 .middle-img {
 	width: 100%;
-	/* padding: 20px; */
+
 }
 
 .bottom-content .text-content {
@@ -144,7 +142,7 @@ nav a {
 	padding: 20px 0px 20px 0px;
 }
 
-/* footer */
+
 
 .contact {
 	margin-left: 20px;
@@ -156,4 +154,129 @@ nav a {
 
 footer {
 	text-align: center;
-}
+} */
+
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+  }
+  
+  /* header */
+  header {
+	display: flex;
+	border: solid orange;
+
+	
+	
+  }
+
+  header nav {
+	display: flex;
+	border: solid green;
+	justify-content: space-between;
+	
+	
+  }
+  
+  header nav a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+   
+
+  
+  header .logo {
+	border: mediumvioletred;
+  }
+  
+  /* cta */
+  
+  .cta .cta-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 90px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	display: inline-block;
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
