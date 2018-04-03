@@ -65,94 +65,98 @@ h1, h2, h3, h4, h5 {
 
 /* Wrap */
 .container {
-	margin-right: 25px;
-	margin-left: 25px;
-	display: inline-block;
-	vertical-align: top;
+	margin: auto;
 }
+
 /* Nav Bar */
 .navbar {
-	width: 100%;
-	display: inline-block;
-	padding: 0;
-	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	margin: auto;
 }
 
 .navbar a {
-	display: inline-block;
+	display: flex;
 	margin: auto;
-	padding: 20px;
 	color: grey;
 	text-decoration: none;
 }
 
 .navbarlogo {
-	display: inline-block;
-	padding-top: 10px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	display: flex;
+	align-self: flex-end;
+	margin: auto;
 }
 
 /* CTA Section */
 .cta {
-	margin: auto;
 	padding: 100px;
-	width: 100%;
 	border-bottom: black 1px solid;
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	
 }
 
 .cta .cta-text {
-	width: 50%;
-	font-size: 60px;
+	font-size: 75px;
+	display: flex;
+	flex-flow: column ;
+	margin-top: 50px;
 	text-align: center;
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 100px;
+	margin: 0 82 0 0;
+	align-items: center;
 }
 
- .cta img {
-	width: 50%;	
-	display: inline-block;
-	vertical-align: middle;
+.cta .cta-text button {
+	margin-top: 20px;
+	background-color: white;
+	text-align: center;
+	border: black 1px solid;
+	font-family: inherit;
+}
+
+ .cta img {	
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: auto;
+	padding-left: 15%;
 } 
 
 /* Main Content Section */
 .main-content {
 	margin: auto;
 	padding: auto;
-	width: 100%;
 	border-bottom: black 1px solid;
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.main-content h4 {
+	padding-bottom: 5%;
 }
  
-.top-content .text-content {
-	width: 50%;
-	display: inline-block;
-	vertical-align: middle;
+.top-content {
+	display: flex;
+	align-content: flex-start;
 	padding: 10px;	
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
- 
-.bottom-content .text-content {
-	width: 33%;
-	display: inline-block;
-	vertical-align: middle;	
+
+ .middle-img {
+	display: flex;
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	align-content: flex-start;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.middle-img {
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	left: 200px;
-	margin-bottom: 20px;
-}
+
 
 /* Contact & Footer */
 .contact h4 {
