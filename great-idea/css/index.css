@@ -74,6 +74,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	
 }
 
 header nav {
@@ -81,6 +82,12 @@ header nav {
 	flex-direction: row;
 	justify-content: space-around;
 	flex-grow: 5;
+	
+}
+
+header nav a {
+	display: flex;
+    text-decoration: none;
 }
 
 .logo {
@@ -98,6 +105,7 @@ header nav {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 5; 
+	font-size: 100px;
 	
 }
 
@@ -135,6 +143,7 @@ header nav {
 	display: flex;
 	justify-content: center;
 	margin: 5px;
+	width: 100%;
 }
 
 .bottom-content {
@@ -145,8 +154,16 @@ header nav {
 
 .contact {
 	display: flex;
-	justify-content: column;
+	flex-direction: column;
 	margin: 10px;
+}
+
+.content p {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 5px;
+
 }
 
 footer {
