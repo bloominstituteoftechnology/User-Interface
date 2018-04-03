@@ -171,8 +171,12 @@ img .middle-img{
 	width: 1000px;
 	display: inline-block;
 	vertical-align: top;
-	
-	
+		
+  }
+  .column {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
   }
   section {
 	/* position is static by default */
