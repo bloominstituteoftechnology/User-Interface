@@ -62,3 +62,84 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	word-spacing: 200px;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+	position: relative;
+	top: 0px;
+	left: 150px;
+}
+.main-content {
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	margin: 30px;
+}
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	font-size: 75px;
+	position: relative;
+	left: 450px;
+	bottom: 10px;
+}
+.cta-text h1 br {
+	display: inline-block;
+	position: relative;
+	left: 100px;
+}
+.cta img {
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+	top: 20px;
+	left: 300px;
+}
+.top-content {
+	column-count: 2;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+	width: 50%;
+	position: relative;
+	right: 15px;
+}
+.middle-img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+	width: 50%;
+	position: relative;
+	right: 15px;
+}
+.bottom-content {
+	column-count: 3;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 30px;
+	width: 50%;
+	position: relative;
+	right: 30px;
+}
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: 30px;
+}
+.container footer {
+	display: inline-block;
+	position: relative;
+	left: 750px;
+	top: 100px;
+}
