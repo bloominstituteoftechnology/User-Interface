@@ -97,7 +97,7 @@ header nav {
 .cta-text {
 	display: flex;
 	flex-direction: column;
-	/* flex-grow: 5; */
+	flex-grow: 5; 
 	
 }
 
@@ -120,23 +120,27 @@ header nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin: 50px;
 	
 }
 
 .top-content {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	
 }
 
 .middle-img {
 	display: flex;
-	padding: 10px;
+	justify-content: center;
+	margin: 5px;
 }
 
 .bottom-content {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 .contact {
