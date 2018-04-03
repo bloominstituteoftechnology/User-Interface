@@ -62,22 +62,157 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* 
+nav {
+	display: inline-block;
+	width: 50%;
+	padding: 1em;
+	float: left;
+}
+
+img.logo {
+	display: inline-block;
+	width: 20%;
+	padding: 0;
+	float: right;
+	margin: .5em auto;nline-block;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	margin: .5em auto;
+}
+
+.cta .cta-text h1 {
+	font-size: 600%;
+}
+.cta .cta-text button {
+	font-size: 100%;
+	
+}
+
+img {
+	display: inline-block;
+	float: right;
+} */
+
+body {
+	width: 1000px;
+	border: 2px solid red;
+	height: auto;
+}
 
 header {
-padding: 25px;
+	/* border: 2px solid red;  */
 }
-header img {
-	float: right;
-	vertical-align: top;
-	width: 25%;
-}
+
 header nav {
+	/* border: 2px solid blue; */
 	display: inline-block;
-	vertical-align: top;
-	width : 70%;
+}
+
+header nav a {
+	/* border: 2px solid cyan; */
+	margin-left: 60px;
+	text-decoration: none;
+	color: gray;
+}
+
+header img {
+	/* border: 2px solid green;  */
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.cta {
+	/* border: 2px solid blue; */
+	height: 490px;
+}
+
+.cta-text {
+	/* border: 2px solid green; */
+	display: inline-block;
+	margin-bottom: 100px;
+	width: 500px;
+}
+
+div h1 {
+	/* border: 2px solid red; */
+	display: inline-block;
+	font-size:  70px;
+	margin-left: 140px;
+	text-align: center;
+	letter-spacing: .1em;
+	margin-top: 135px;
+}
+
+div button {
+	/* border: 2px solid chartreuse; */
+	height: 35px;
+	width: 175px;
+	margin-left: 220px;
+	margin-top: 10px;
+	font-size: 16px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.cta img {
+	/* border: 2px solid salmon; */
+	margin-top: 70px;
+	float: right;
+	margin-right: 50px;
+}
+
+.main-content {
+	border-top: 2px solid darkgray;
+	border-bottom: 2px solid darkgray;	
+
+}
+
+.top-content {
+	margin-top: 20px;
+	/* border: 2px solid green; */
+}
+
+.top-content .text-content {
+	/* border: 2px solid cyan; */
+	display: inline-block;
+	width: 450px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.middle-img {
+	/* border: 2px solid goldenrod; */
+	display: inline-block;
+	margin-left: 55px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.bottom-content {
+	/* border: 2px solid green; */
+}
+
+.bottom-content .text-content {
+	/* border: 2px solid cyan; */
+	width: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.contact {
+	/* border: 2px solid gray; */
+	margin-top: 20px;
+}
+
+.phoneNumber {
+	margin: 15px 0px;
 }
 
 footer {
+	border: 2px solid purple;
 	text-align: center;
 }
- 
