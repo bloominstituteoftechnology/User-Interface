@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	line-height: 4rem;
+	font-size: 56px;
 }
  .main-content .top-content{
 	 display: flex;
@@ -108,10 +110,15 @@ h1, h2, h3, h4, h5 {
 	padding: 30px 0;
 }
 
+.text-content{
+	line-height: 1rem;
+}
+
 .contact{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	line-height: 3rem;
 }
 
 footer{
