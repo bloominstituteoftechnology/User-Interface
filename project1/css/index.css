@@ -168,6 +168,8 @@ img .middle-img{
     width: 200px;
     display: inline-block;
 	vertical-align: top;
+	display: -webkit-flex;
+    display: flex;
   }
 
   nav {
