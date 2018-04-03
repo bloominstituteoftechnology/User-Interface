@@ -65,83 +65,76 @@ h1, h2, h3, h4, h5 {
 
 /*My code starts here*/
 
+/*Universal*/
+
+html{
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+.page-container{
+	width: 80%;
+}
+
 /*Header*/
 
 header{
-	height: 40px;
+	position: fixed;
+  background-color: white;
+	width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 5;
 }
 
-header a {
-	display: inline-block;
-	color: gray;
+header a{
 	text-decoration: none;
-	margin: 40px 70px;
-}
-
-.logo{
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding-top: 30px;
-	padding-right: 40px;
+	color: gray;
 }
 
 /*Main Banner */
 
-.cta{
-	margin: 80px 250px;
+.banner{
+	margin-top: 160px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid black;
 }
 
-.cta-text{
-	display: inline-block;
-	font-size: 90px;
+.banner-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.banner-text p{
+	font-size: 100px;
+	font-family: 'Bangers', cursive;
 	text-align: center;
-	margin-right: 150px;
 }
 
-.cta-text button{
+.banner-text button{
+	width: 13.5rem;
 	background-color: white;
 	border: 2px solid black;
-	font-size: 20px;
-	padding: 5px 50px;
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+	padding: 0.5rem;
 }
 
 /*Main Content*/
 
-.main-content{
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	width: 85%;
-	margin: 0px 100px;
-	padding-bottom: 30px;
-}
-
-.top-content .text-content{
-	padding: 40px 0;
-	width: 48%;
-}
-
-.middle-img{
-	width: 100%
-}
-
-.text-content{
-	display: inline-block;
-	padding: 20px;
-}
-
-.bottom-content .text-content{
-	width: 30%;
-	padding-top: 40px;
-}
 
 /*Contact*/
 
-.contact{
-	margin: 40px 100px;
-}
-
-footer{
-	text-align: center;
-	margin-bottom: 100px;
-}
+/*Footer*/
