@@ -62,11 +62,9 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-* {
-	box-sizing: border-box;
-}
+
 .container {
-	display: inline-block;
+	display: flex;
 }
 header nav {
 		width: 100%;
