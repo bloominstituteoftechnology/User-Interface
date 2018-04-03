@@ -62,3 +62,115 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	display: flex;
+}	
+	
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 75%;
+	margin-top: 35px;
+}
+
+header nav a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 69px;
+	align-items: center;
+}
+
+.cta .cta-text {
+	text-align: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 77px;
+}
+
+.cta .cta-text button {
+  background: white;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-content .top-content {
+	display: flex;
+	padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+	width: 410px;
+	margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+  vertical-align: center;
+}
+
+.main-content .bottom-content {
+	margin-top: 37px;
+	display: flex;
+	padding: 0 135px;
+}
+
+.main-content .bottom-content .text-content {
+	margin-right: 10px;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
