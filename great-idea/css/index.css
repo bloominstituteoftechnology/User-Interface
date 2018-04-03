@@ -96,6 +96,7 @@ header nav a {
 	padding-right:70px; */
 	/* outline: green 2px solid; */
 	color: grey;
+	text-decoration: none;
 }
 
 header img{
@@ -147,45 +148,49 @@ header img{
 }
 
 .main-content{
-    display:inline-block;
-    position:relative;
+    display:flex;
+    /* position:relative; */
     border-bottom: gray 2px solid;
     /* outline: red 2px solid; */
     width:100%;
 		margin-bottom:20px;
+		flex-flow: row wrap;
 }
 
-/* .main-content .top-content {
-		width:50%;
-		float: left;
-} */
+ .main-content .top-content {
+		display:flex;
+		justify-content: space-between;
+}
 
 .main-content .top-content .text-content{
-    width:50%;
-		float:left;
+    width:48.5%;
+		/* float:left; */
 		padding-top: 40px;
 		padding-bottom:40px;
-		padding-right: 5px;
-    /* outline: red 2px solid; */
+		/* padding-right: 5px; */
+    outline: red 2px solid;
 }
 
 .main-content .middle-img{
-	width:100%;
+		width:100%;
 	/* padding-left:3%;
 	padding-right:3%; */
 }
 
+.main-content .bottom-content {
+	display:flex;
+	justify-content: space-between;
+}
+
 .main-content .bottom-content .text-content{
-    width:33.33%;
-		float:left;
+    width:30%;
 		padding-top: 40px;
 		padding-bottom:40px;
-		padding-right: 5px;
     /* outline: red 2px solid; */
 }
 
 .contact p{
-	display:block;
+	display:flex;
 	/* outline: red 2px solid; */
 }
 /*
@@ -196,7 +201,9 @@ header img{
 
 footer{
 	/* outline:red 2px solid; */
-	text-align:center;
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;
 }
 
 footer:before{
