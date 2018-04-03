@@ -16,35 +16,41 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -55,10 +61,215 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    margin: auto;
+    max-width: 1024px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 3vh;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header img {
+  max-width: 50%
+}
+
+.nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav .bar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  max-width: 50%;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Bangers', cursive;
+  font-size: 5em;
+}
+
+.greeting button {
+  padding: 3px;
+  border-radius: 0px;
+  border: 1px solid black;
+  font-family: 'Titillium Web', sans-serif;
+  width: 150px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+.top .text-content {
+  width: 48%;
+}
+
+.middle img{
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.bottom .text-content {
+  width: 32%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact span {
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 3vh
+}
+
+@media screen and (max-width: 374px) {
+  
+  body {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    flex-direction: column;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav .bar {
+    display: initial;
+    width: 35px;
+    margin: 4px 0;
+    height: 5px;
+    background-color: black;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro img {
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  .greeting {
+    font-size: 50px;
+  }
+
+  .greeting button {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .top {
+    flex-direction: column;
+  }
+
+  .top .text-content {
+    width: 100%;
+  }
+
+  .middle {
+    max-width: 100%;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  .bottom .text-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 375px) {
+  
+  .nav {
+    flex-direction: column;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav .bar {
+    display: initial;
+    width: 35px;
+    margin: 4px 0;
+    height: 5px;
+    background-color: black;
+  }
+
+  .greeting {
+    font-size: 10vw;
+  }
+
+  .greeting button {
+    font-size: 10px;
+    width: 50%;
+  }
 }
