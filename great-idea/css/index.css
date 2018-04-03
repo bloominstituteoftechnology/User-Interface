@@ -64,35 +64,37 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 /* Nav bar */
-header {
-	margin: 0px;
-	padding: 0px 55px 70px 0px;
+nav {
+	border: 1px solid black;
+	margin: 40px;
+	padding: 0px 90px 0px 0px;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	
+	width: 100%;
 	display: inline-block;
 }
 
-a {
-	margin: 0px;
-	padding: 0px 55px 0px 0px;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+ a {
+	padding: 15px 15px;
 	color: silver;
 	text-decoration: none;
 	display: inline-block;
 }
 
 .logo {
-	margin: 0px;
-	padding: 0px 20px 20px 0px;
-	vertical-align: inherit;
+	border: 1px solid black;
 	display: inline-block;
+	vertical-align: inherit;
 	position: relative;
-	top: 0px;
-	left: 760px;
+	top: 45px;
+	left: 650px;
 }
 
 /* CTA */
@@ -104,13 +106,13 @@ a {
 	display: inline-block;
 }
 
-.cta-text {
+.cta .cta-text {
 	padding: 0px  80px 0px 40px;
 	font-size: 80px;
 	display: inline-block;
 }
 
-.cta-text button {
+.cta button {
 	margin: 0px;
 	font-size: 20px;
 	border: 1px solid black;
@@ -122,8 +124,10 @@ a {
 
 /* Main Content */
 .main-content {
+	margin: 60px;
 	border-top: 1px solid black;
 	padding: 50px 0px 30px 0px;
+	max-width: 1000px;
 }
 
 h4 {
@@ -131,6 +135,14 @@ h4 {
 }
 
 /* Contact */
-
+.contact {
+	margin: 60px;
+	border-top: 1px solid black;
+	padding: 60px 0px 0px 0px;
+}
 
 /* Footer */
+footer {
+	margin: 60px;
+	text-align: center;
+}
