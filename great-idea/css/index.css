@@ -64,15 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	padding: 25px;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 header {
 	display: flex;
+	flex-wrap: nowrap;
+	margin: 25px 0 0 0;
 	justify-content: space-around;
 	align-items: center;
-	padding: 25px;
-	border: 1px solid black;
+	width: 100%;
+	/* padding: 25px; */
 }
 
 .logo {
@@ -80,24 +83,110 @@ header {
 }
 
 header nav {
+	display: flex;
+	justify-content: space-evenly;
 	flex-grow: 2;
-	border: 1px dotted green;
+	width: 80%;
 }
 
 a {
-	margin: auto 15px;
+	/* margin: auto 15px;
 	padding-left: 25px;
-	padding-right: 25px;
+	padding-right: 25px; */
 	justify-content: space-evenly;
-	border: 1px dashed red;
+	text-decoration: none;
+	color: gray;
 }
 
 .cta {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	padding: 10px;
+	margin-top: 20px;
 }
 
 .cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font-size: 72px;
+}
+
+.cta button {
+	width: 100px;
+	border-radius: 50px; 
+	border-width: 0;
+	background-image: linear-gradient(blue, lightblue);
+	color: white;
+	height: 100px;
+}
+
+.cta button:hover {
+	background-image: linear-gradient(navy, blue);
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: space-between;
+	margin-top: 20px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+.top-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	/* margin: 10px; */
+}
+
+.bottom-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	/* margin: 10px; */
+}
+
+.bottom-content .text-content {
+	width: 32%;
+}
+
+.text-content {
+	padding: 20px 0;
+}
+
+/* .top-content .text-content {
+	border: 1px dashed orange;
+	justify-content: space-between;
+} */
+
+.middle-img {
+	display: flex;
+	border-radius: 100px;
+	/* flex-grow: 1; */
+	/* margin-left: 175px; */
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact p {
+	display: flex;
+	padding: 0 0 10px 0;
+	/* margin: 5px; */
+}
+
+.contact h4 {
+	padding: 10px 0 0 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
 }
