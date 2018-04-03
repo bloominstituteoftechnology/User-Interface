@@ -62,3 +62,132 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav {
+	display: inline-block;
+}
+
+nav a {
+	padding-left: 60px;
+	padding-right: 50px;
+	text-decoration: none;
+	color: gray;
+}
+
+.cta-text {
+	display: inline-block;
+	font-size: 72px;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 100px;
+	padding-bottom: 125px;
+}
+
+button {
+	width: 150px;
+	height: 35px;
+	text-size: 48px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.cta img {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.logo {
+	padding-left: 100px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+hr {
+	display: none;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+.main-content {
+	display: inline-block;
+	margin: 50px;
+	border: 2px solid darkgray;
+	border-right: none;
+	border-left: none;
+}
+
+.text-content {
+	display: inline-block;
+	width: 200px;
+}
+
+.top-content .text-content:nth-child(1) {
+	width: 415px;
+	height: 150px;
+	margin-right: 300px;
+}
+
+.top-content .text-content:nth-child(2) {
+	width: 415px;
+	height: 150px;
+}
+
+.bottom-content .text-content {
+	width: 250px;
+}
+
+.bottom-content .text-content:nth-child(1) {
+	margin-right: 50px;
+}
+
+.bottom-content .text-content:nth-child(2) {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.bottom-content .text-content:last-child {
+	margin-left: 50px;
+}
+
+.main-content .top-content {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.main-content .bottom-content {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 300px;
+}
+
+.middle-img {
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	width: 1200px;
+}
+
+.contact {
+	display: inline-block;
+}
+
+.contact {
+	padding: 25px;
+}
+
+.contact p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
