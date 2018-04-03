@@ -62,3 +62,64 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+header nav {		
+display: flex;
+	margin: 40px 40px 0 0;	
+	justify-content: center;	
+}
+
+header nav a {	
+	text-decoration: none;
+	margin: 40px 32px 0 0;
+    color: grey;
+}
+
+header .logo {
+align-self: flex-end;
+margin: -22px 0 0 73%;
+}
+.cta {
+	display: flex;
+	margin-top: 72px;
+	justify-content: center;
+  }
+
+.cta .cta-text {
+	font-size: 123px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+	align-items: center;
+	margin-top: -49px; 
+	margin-right: 106px;  
+}
+
+.cta button {
+	border: 1px solid black;
+    width: 168px;
+    height: 39px;
+    font-size: 24px;
+}
+
+.cta .codesnipt {
+	display: flex;
+	justify-content: flex-end;
+}
+.main-content {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 75px 0 35px 0;
+	padding: 35px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.main-content .top-content {
+	display: flex;
+	justify-content: space-around;
+}
