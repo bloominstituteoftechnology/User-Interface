@@ -104,7 +104,6 @@ h1, h2, h3, h4, h5 {
 	flex-flow: column wrap;
 	margin-top: 50px;
 	text-align: center;
-	flex-basis: auto;
 }
 
 .cta button {
@@ -112,6 +111,9 @@ h1, h2, h3, h4, h5 {
 	background-color: white;
 	text-align: center;
 	border: black 1px solid;
+	font-family: inherit;
+	flex: 2 2 2;
+
 }
 
  .cta img {	
