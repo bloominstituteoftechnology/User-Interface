@@ -124,36 +124,33 @@ h1, h2, h3, h4, h5 {
 .main-content {
 	margin: auto;
 	padding: auto;
-	width: 100%;
 	border-bottom: black 1px solid;
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	flex-flow: column wrap;
 }
  
-.top-content .text-content {
-	width: 50%;
-	display: inline-block;
-	vertical-align: middle;
+.top-content {
+	display: flex;
+	align-content: flex-start;
 	padding: 10px;	
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
- 
-.bottom-content .text-content {
-	width: 33%;
-	display: inline-block;
-	vertical-align: middle;	
+
+ .middle-img {
+	display: flex;
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	align-content: flex-start;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.middle-img {
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	left: 200px;
-	margin-bottom: 20px;
-}
+
 
 /* Contact & Footer */
 .contact h4 {
