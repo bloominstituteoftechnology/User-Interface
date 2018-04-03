@@ -218,15 +218,16 @@ footer {
   }
   
   /* .cta img {
-	display: inline-block;
-	margin-top: 69px;
+	width: 100%;
+	height: auto;
+	max-width: 300px;
   } */
   
   .main-content {
 	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
-	border: solid red;
+	/* border: solid red; */
 }
 
   /* .main-content .text-content {
@@ -246,6 +247,7 @@ footer {
   .main-content .middle-img {
 	margin-top: 45px;
 	width: 100%;
+	height: auto;
   }
   
   .main-content .bottom-content {
