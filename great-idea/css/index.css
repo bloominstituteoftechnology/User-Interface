@@ -84,82 +84,58 @@ header {
 	align-items: center;
 }
 
-header nav {
-	border: 1px solid greenyellow;
-
-}
 header nav a {
 	margin: 0px 40px 0px 0px;
 	color: gray;
 	text-decoration: none;
-	border: 1px solid greenyellow;
-}
-
-header .logo {
-	border: 1px solid greenyellow;
 }
 
 .cta {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	border: 1px solid greenyellow;
-
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0px;
 }
 
 .cta .cta-text {
+	padding: 0px 120px;
 	font-size: 50px;
-	border: 1px solid greenyellow;
-
-
+	text-align: center;
 }
 
 .cta .cta-text button {
-	border: 1px solid greenyellow;
-
-}
-
-.cta img {
-	border: 1px solid greenyellow;
-
-}
-
-.cta ifffmg {
-	border: 1px solid greenyellow;
-
+	padding: 5px 25px;
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid black;
 }
 
 .main-content {
-	border: 1px solid greenyellow;
-
+	padding: 40px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .main-content .top-content {
-	border: 1px solid greenyellow;
-
-}
-
-.main-content .top-content .text-content {
-	border: 1px solid greenyellow;
-
+	display: flex;
+	padding-bottom: 40px;
 }
 
 .main-content .bottom-content {	
-	border: 1px solid greenyellow;
-
+	display: flex;
+	padding-top: 40px;
 }
 
-.main-content .bottom-content .text-content {
-	border: 1px solid greenyellow;
-
+.contact {
+	margin: 40px 0px;
 }
 
 .contact p {
-	border: 1px solid greenyellow;
-
+	padding-top: 10px;
 }
 
 footer p {
-	border: 1px solid greenyellow;
-
+	text-align: center;
+	padding-bottom: 40px;
 }
