@@ -4,8 +4,8 @@
 */
 
 * {
-	box-sizing: border-box;
-  }
+    box-sizing: border-box;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,87 +27,6 @@ time, mark, audio, video {
 	font: inherit;
 	
 	
-}
-
-
-header nav {
-	
-	display: inline-block;
-	position: relative;
-	top: 25px;
-	left: 30px;
-	padding: 20;
-	
-}
-
-header img {
-	display: inline-block;
-	position: relative;
-	top: 80px;
-	padding: 50px;
-}
-
-.container a {
-	color: lightslategray;
-	padding: 50px;
-}
-
-.cta .cta-text {
-	display: inline-block;
-	position: relative;
-	top: 50px;
-	left: 200px;
-	text-align: center;
-}
-
-.cta img {
-	display: inline-block;
-	position: relative;
-	top: 100px;
-	left: 350px;
-}
-
-.cta .cta-text button {
-	display: inline-block;
-	padding: 10px 30px;
-	font-size: 20px;
-}
-
-.main-content {
-	display: inline-block;
-	position: relative;
-	top: 200px;
-	left: 50px;
-}
-
-.main-content .top-content {
-	column-count: 2;
-	width: 50%;
-
-}
-
-.main-content .middle-img {
-	padding-top: 30px;
-	padding-bottom: 60px;
-}
-
-.main-content .bottom-content {
-	column-count: 3;
-	width: 50%;
-}
-
-.contact {
-	display: inline-block;
-	position: relative;
-	top: 200px;
-	left: 50px;
-}
-
-footer {
-	display: inline-block;
-	position: relative;
-	top: 300px;
-	left: 400px;
 }
 
 
@@ -154,3 +73,73 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size: 80px;
 }
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+  }
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 35px;
+	width: 75%;
+  }
+
+header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+
+.cta {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.cta img {
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.bottom-content .text-content {
+	width: 280px;
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
