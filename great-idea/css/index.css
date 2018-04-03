@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 15px;
 }
 
-.container{
+/* .container{
 	margin:110px;
 	margin-top:25px;
 
@@ -133,12 +133,72 @@ header nav a{
 .main-content .top-content{
 	display:inline-block;
 	position: relative;
+	width:100%;
 	
 }
 .main-content .top-content .text-content{
 	display:inline-block;
 	position: absolute;
 	border:1px solid green;
-	height:150px;
-	width:100%;
+	align-content: center;
+} */
+.container{
+	margin:40px 50px 20px 50px;
+	padding-right:70px;
+	padding-left: 70px;
+	display: flex;
+	flex-direction: column;
+	
 }
+header{
+	display: flex;
+	justify-content: space-between;
+	margin:0px 0px 60px 0px;
+}
+header nav{
+	width:900px;
+	border:1px solid green;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+header nav a{
+	text-decoration: none;
+	color:grey;
+	font-size: 1.2vw;
+}
+header img{
+	border:1px solid green;
+    
+}
+.cta{
+	display:flex;
+	margin-bottom:60px;
+	justify-content: space-around;
+}
+.cta .cta-text{
+	display:flex;
+	border: 1px solid green;
+	flex-direction: column;
+	justify-content: center; 
+	
+}
+.cta .cta-text h1{
+	font-size: 8vw;
+	text-align: center;
+}
+.cta .cta-text button{
+	border: 1px solid green;
+	font-size:30px
+}
+.cta img{
+	border: 1px solid green;
+	width:422px;
+}
+.top-content{
+	display:flex;
+	padding:30px;
+	border-top:solid grey;
+}
+
+
