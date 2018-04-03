@@ -64,13 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.container .logo { 
-    display: inline-block;
-    position: absolute;
+.container img { 
+    background: green;
     
     
-    right: 0px;
-    top: 0px;
+    
 }
 
 .cta img{
@@ -106,16 +104,15 @@ h1, h2, h3, h4, h5 {
 }
 
 nav a{
-    display: inline-block;
     
-    padding: 10px;
-    margin: 0 30px 0 30px;
-    
+    background: blue;
     color: gray;
+    border: solid red;
+    
 }
 
 .main-content{
-    display: inline-block;
+    
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     
@@ -130,26 +127,38 @@ nav a{
     padding-left: 40px;
     width: 45%;
     
-    display: inline-block;
+    
     
 }
 
 .bottom-content .text-content{
-    padding-top: 40px; 
+    /*padding-top: 40px; 
     padding-bottom: 40px;
     padding-left: 40px;
-    padding-right: 40px;
-    display: inline-block; 
+    padding-right: 40px;*/
+    background: pink; 
+    border: solid red;
+    
     
     
     width: 33%;
     
 }
 
-.contact {
-
+.container section .contact  {
+    display: flex;
+    background: yellow;
     padding: 40px;
+    border: solid green;
+    flex-direction: column;
+    align-content: space-between;
+    
+}
 
+.container section .contact p{
+    background: gray;
+    border: solid red;
+    
 }
 
 .middle-img {
@@ -159,9 +168,10 @@ nav a{
 }
 
 footer {
-
-    position: absolute; 
-    left: 450px;
+    display: flex; 
+    justify-content: center;
+    position: relative; 
+    
 
 }
 
