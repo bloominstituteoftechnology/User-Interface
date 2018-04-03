@@ -70,12 +70,14 @@ h1, h2, h3, h4, h5 {
 
 header{
 	position:relative;
+	/* outline: red 2px solid; */
 }
 
 nav {
 	display: inline-block;
 	position:relative;
 	width:80%;
+	text-decoration: none;
 }
 
 nav a {
@@ -84,11 +86,13 @@ nav a {
 	float: left;
 	color:grey;
 	padding:25px;
+	padding-right:70px;
 }
 
 .logo{
 	display: inline-block;
 	vertical-align: top;
+	padding-top: 10px;
 	float: right;
 	width:20%;
 }
@@ -126,6 +130,7 @@ nav a {
     border-bottom: gray 2px solid;
     /* outline: red 2px solid; */
     width:100%;
+		margin-bottom:20px;
 }
 .cta .cta-text {
     display: inline-block;
@@ -138,15 +143,78 @@ nav a {
     font-size: 500%;
 		padding-top: 20%;
     padding-right: 20px;
-    outline: yellow 2px solid;
+    /* outline: yellow 2px solid; */
 }
 .cta button{
     /* outline: yellow 2px solid; */
     display:inline-block;
+		border: black 2px solid;
+		padding: 15px 45px;
+		font: inherit;
+		margin-top: 20px;
 }
 .cta img{
     /* outline: yellow 2px solid; */
     display:inline-block;
     float: right;
     width:50%;
+		padding:5%;
+}
+
+.main-content{
+    display:inline-block;
+    position:relative;
+    border-bottom: gray 2px solid;
+    /* outline: red 2px solid; */
+    width:100%;
+		margin-bottom:20px;
+}
+
+/* .main-content .top-content {
+		width:50%;
+		float: left;
+} */
+
+.main-content .top-content .text-content{
+    width:50%;
+		float:left;
+		padding-top: 40px;
+		padding-bottom:40px;
+		padding-right: 5px;
+    /* outline: red 2px solid; */
+}
+
+.main-content .middle-img{
+	width:100%;
+	/* padding-left:3%;
+	padding-right:3%; */
+}
+
+.main-content .bottom-content .text-content{
+    width:33.33%;
+		float:left;
+		padding-top: 40px;
+		padding-bottom:40px;
+		padding-right: 5px;
+    /* outline: red 2px solid; */
+}
+
+.contact p{
+	display:block;
+	/* outline: red 2px solid; */
+}
+/*
+.contact p:after {
+	content:'\a';
+	white-space: pre;
+} */
+
+footer{
+	/* outline:red 2px solid; */
+	text-align:center;
+}
+
+footer:before{
+	content:'\a \a \a';
+	white-space: pre;
 }
