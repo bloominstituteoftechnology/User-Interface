@@ -127,6 +127,15 @@ nav a {
     display:flex;
     justify-content: space-between;
 }
+.bottom-content .text-content {
+    padding: 10px;
+}
+.bottom-content .text-content:first-child {
+    padding-left: 0;
+}
+.bottom-content .text-content:last-child {
+    padding-right: 0;
+}
 /* end of fourth container*/
 
 /* start contact*/
@@ -135,6 +144,10 @@ nav a {
 }
 footer {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.contact p{
+    margin: 20px 0;
 }
 /* end contact*/
