@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* This is the CSS for the first assignment.
 
 .container header nav{
 	display: inline-block;
@@ -144,40 +145,113 @@ footer p{
 	margin-left: 39%;
 }
 
+*/
+
+/* This is the second part of the assignment.*/
 
 
-/* This is the second part of the assignment. It is unfinished
-
-.container{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+.container {
+	width: 1000px;
+	margin: 0 auto;
 }
-.container header{
+
+header {
+	display: flex;
+}
+
+nav {
+	margin-top: 40px;
 	justify-content: space-between;
-	flex-direction: row;
 }
 
-.container header nav a{
+nav a {
 	color: gray;
+	padding: 20px 60px 60px 0;
 	text-decoration: none;
-	margin-left: 60px;
-	padding: 10px;
+	display: inline-block;
 }
 
+.logo {
+	height: 20%;
+	padding-top: 50px;
+	vertical-align: middle;
+}
 
-.cta-text h1{
-	
-	font-size: 50px;
+.cta {
 	display: flex;
-	
+	justify-content: space-around;
+	margin: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid;
 }
-.cta-text button{
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-self: center;
+	position: relative;
+	width: 50%;
+	padding-bottom: 80px;
+}
+
+.cta-text button {
+	align-self: center;
+	margin-right: 30%;
 	background-color: white;
     color: black;
-    border: 2px solid black;
-    padding: 8px 32px;
+	border: 2px solid black;
+	padding: 8px 32px;
 	font-size: 25px;
-	margin-left: 155px;
+}
+
+.cta-text h1 {
+	display: flex;
+	font-size: 80px;
+}
+
+.cta-img {
+	display: inline-block;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	border-bottom: 2px solid;
+}
+
+.top-content{
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}
+
+.bottom-content {
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}
+
+.text-content {
 	
+	width: 60%;
+	padding: 20px 0 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.contact {
+	padding-top: 20px;
+}
+
+.contact p {
+	margin-bottom: 15px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 100px 0;
 }
