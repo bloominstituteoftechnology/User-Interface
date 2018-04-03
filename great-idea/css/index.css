@@ -60,5 +60,107 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
+	
+}
+
+nav {
+	flex: 1;
+	height: 100%;
+	align-items: center;
+	padding: 0 50px 0;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+nav li a {		
+	text-decoration: none;
+	color: grey;
+	font-size: 15px;
+}
+
+nav li a:hover {		
+	text-decoration: underline;
+	color: palevioletred
+	
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.cta-text {
+	flex: 3;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 5em;
+}
+
+button {
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	margin: 50px 0;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-content .text-content {
+	margin: 40px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 0;
+}
+
+.bottom-content .text-content {
+	padding-left: 10px;
+}
+
+.contact {
+	padding: 40px 0 0 0;
+	border-top: 1px solid black;
+}
+
+.contact p {
+	line-height: 20px;
+	padding: 10px 0 0 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
 }
