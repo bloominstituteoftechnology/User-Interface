@@ -112,8 +112,6 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	border: black 1px solid;
 	font-family: inherit;
-	flex: 2 2 2;
-
 }
 
  .cta img {	
