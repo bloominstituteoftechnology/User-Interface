@@ -63,53 +63,72 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* My Code */
+
+/* ~~~~~~~~~~~~~~~ My Code ~~~~~~~~~~~~~~~ */
 
 .container {
-	min-width: 1000px;
+	display: flex;
+	
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 60px;
+
+	flex-direction: column;
 }
 
-nav {
-	display: inline-block;
-	height: 20px;
-	width: 80%;
-	margin: 20px;
+/* ~~~~~~~~~~ Header ~~~~~~~~~~ */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	/* background: lightblue; */
 }
 
-nav a {
-	vertical-align: middle;
+header nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	align-content: center;
+}
+
+header nav a {
+	display: flex;
 	text-decoration: none;
 	color: grey;
-	padding:4%;
+	align-self: center;
 }
 
-.logo {
-	display: inline-block;
-	vertical-align: middle;
-}
+/* ~~~~~~~~~~ CTA ~~~~~~~~~~ */
 
 .cta {
-	display: inline-block;
-	margin: 20px;
-	padding: 100px;
-	width: 100%;
-	column-count: 2;
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-around;
 }
 
-.cta-text {
-	text-align: center;
-	padding-top: 60px;
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.cta-text h1 {
+.cta .cta-text h1 {
+	display: flex;
 	font-size: 70px;
-	vertical-align: center
+	text-align: center;
+	/* background: lightblue; */
 }
 
-.cta button {
+.cta .cta-text button {
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+
 	background: none;
-	padding-left: 23px;
-	padding-right: 23px;
 	
 	color: gray;
 	font-size: 17px;
@@ -118,43 +137,66 @@ nav a {
 	border-color: gray;
 }
 
-.main-content {
+/* ~~~~~~~~~~ Main Content ~~~~~~~~~~ */
+
+.main-content{
 	border-style: solid;
 	border-top-color: grey;
 	border-top-width: medium;
 	border-bottom-color: grey;
 	border-bottom-width: medium;
-	
-	width: 90%;
-	padding: 20px;
 
+	margin-top: 80px;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .main-content .top-content {
-	column-count: 2;
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.main-content .top-content .text-content:first-child{
+	margin-right: 20px;
 }
 
 .main-content .middle-img {
-	display: block;
+	display: flex;
 	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 .main-content .bottom-content {
-	column-count: 3;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
 }
 
+.main-content .bottom-content .text-content{
+	margin-right: 20px;	
+}
+
+.main-content .bottom-content .text-content:last-child{
+	margin-right: 0px;	
+}
+
+/* ~~~~~~~~~~ Contact ~~~~~~~~~~ */
+
 .contact {
-	margin: 20px;
+	margin-top: 40px;
 }
 
 .contact p {
-	padding-bottom:20px;
+	margin-top: 10px;
 }
+
+/* ~~~~~~~~~~ Footer ~~~~~~~~~~ */
 
 footer {
-	display: block;
-	text-align: center;
-	padding-bottom: 20px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
 }
-
