@@ -63,66 +63,63 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.container {
-	display: flex;
-}
-header nav {
-		width: 100%;
-		margin: 40px 0 0 440px;;	
-		
+
+
+header nav {		
+display: flex;
+	margin: 40px 40px 0 0;	
+	justify-content: center;	
 }
 
 header nav a {	
-	text-decoration: none;	
-	margin: 20px;
-	color: gray;
-	
+	text-decoration: none;
+	margin: 40px 32px 0 0;
+    color: grey;
 }
 
 header .logo {
-	float: right;
-	margin-right: 70px;
-
+align-self: flex-end;
+margin: -22px 0 0 73%;
 }
+.cta {
+	display: flex;
+	margin-top: 72px;
+	justify-content: center;
+  }
 
 .cta .cta-text {
-  display: inline-block;
-  font-size: 7.2rem;
-  text-align: center;
-  letter-spacing: 5px;  
-  margin: 70px 0px 0 400px;
-
-}
-.cta .cta-text button {
-	border: 1px double black;
-	font-size: 1.6rem;
-	background: white;
-	width: 170px;
-	height: 32px;
-	margin-top: 10px;
+	font-size: 123px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+	align-items: center;
+	margin-top: -49px; 
+	margin-right: 106px;  
 }
 
+.cta button {
+	border: 1px solid black;
+    width: 168px;
+    height: 39px;
+    font-size: 24px;
+}
 
 .cta .codesnipt {
-    float: right;
-    position: absolute;
-    margin: 101px;
+	display: flex;
+	justify-content: flex-end;
 }
-  .main-content {
+.main-content {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	margin: 75px 0 35px 0;
-	padding: 35px 0;
+	padding: 35px;
 	font-size: 16px;
 	line-height: 18px;
-  }
+}
 
-  .contact p {
-	margin: 40px 0;
-  }  
-  
-  footer {
-	text-align: center;
-	margin: 40px 0 20px;
-  }
-  
+.main-content .top-content {
+	display: flex;
+	justify-content: space-around;
+}
