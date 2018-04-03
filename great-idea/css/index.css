@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,59 +12,68 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 10px;
-	padding: 5px;
+	padding: 10px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	border: 1px solid red;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 nav{
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	left: 0%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 1;
 }
-.logo {
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	right: 0%;
+.cta {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 80px;
 }
 .cta .cta-text{
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	font-size: 80px; 
-}
-.cta .cta-text button{
-	position: relative;
-	top: 100%;
-	vertical-align: top;
-	padding-left: 10px;
-	padding-right: 10px;
-	border: 1px solid black;
+	position: flex;
+	flex-direction: column;
 }
 .main-content {
-	border-top: 6px solid black;
+	border-top: 3px solid black;
+	display: flex;
+	flex-direction: column;
 }
 
-.main-content .top-content .text-content .p{
-	display: inline-block;
-	width: 50%;
-	text-align: right;
+.top-content{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
 }
-
+.bottom-content{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.contact{
+	border-top: 3px solid black;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 body {
 	line-height: 1;
 }
