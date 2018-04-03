@@ -60,5 +60,93 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
+/* * {
+	outline: yellow 2px solid;
+} */
+
+.container {
+   padding: 50px;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 5;
+}
+
+.logo {
+	display: flex;
+    justify-content: flex-end;
+}
+
+ .cta {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	/* flex-grow: 5; */
+	
+}
+
+.cta h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 5;
+}
+
+
+
+.cta img {
+	display: flex;
+	flex-shrink: 5;
+}
+
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.middle-img {
+	display: flex;
+	padding: 10px;
+}
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.contact {
+	display: flex;
+	justify-content: column;
+	margin: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+} 
