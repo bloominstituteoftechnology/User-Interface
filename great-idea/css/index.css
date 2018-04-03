@@ -23,8 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -51,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -63,117 +61,4 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
-
-.container {
-    max-width: 880px;
-    margin: 0 auto;
-}
-
-/* Nav bar */
-header {
-    display: inline-block;
-    height: 90px;
-}
-header nav {
-    /* Vertical Align Middle only works with a fixed height */
-    display: inline-block;
-    vertical-align: middle;
-    margin: 20px; 
-}
-
-header nav a {
-    display: inline-block;
-    padding: 15px 15px 15px 20px;
-    color: silver;
-    text-decoration: none;   
-}
-
-header nav a:hover {
-	text-decoration: underline;
-}
-
-header .logo {  
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/* CTA */
-.cta {
-	margin: 30px 0px 0px 0px;
-	display: inline-block;
-	width: 100%;
-	height: 380;
-	text-align: center;
-	top: 0px;
-	left: 40px;
-}
-
-.cta .cta-text {
-	vertical-align: top;
-	margin: 45px 0px;
-	padding: 0px 80px 0px 40px;
-	font-size: 80px;
-	display: inline-block;
-}
-
-.cta button {
-	vertical-align: top;
-	font-size: 20px;
-	padding: 5px 30px 5px 30px;
-	display: inline-block;
-	top: 0px;
-}
-
-/* Main Content */
-.main-content {
-	margin: 60px 0px;
-	border-top: 1px solid black;
-	padding: 30px 0px 0px 0px;
-	max-width: 100%;
-}
-
-.main-content h4 {
-	font-weight: bold;
-	width: 100%;
-}
-
-.main-content .top-content {
-	display: inline-block;
-	width: 100%;
-}
-
-.main-content .top-content .text-content{
-	vertical-align: top;
-	margin: 0px 0px 30px 0px;
-	display: inline-block;
-	width: 49%;
-}
-
-.main-content .middle-img {
-	width: 100%;
-	margin: 0px 0px 30px 0px;
-}
-
-.main-content .bottom-content .text-content {
-	vertical-align: top;
-	display: inline-block;
-	width: 32%;
-}
-
-/* Contact */
-.contact {
-	width: 100%;
-	border-top: 1px solid black;
-	padding: 60px 0px 0px 0px;
-}
-
-.contact h4, .contact p {
-	margin: 0px 0px 15px 0px;
-}
-
-/* Footer */
-footer {
-	margin: 20px 0px;
-	text-align: center;
 }
