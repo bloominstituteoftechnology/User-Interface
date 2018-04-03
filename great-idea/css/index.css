@@ -1,90 +1,87 @@
-nav {
-	width: 75%;
+.container nav{
+	width:77%;
 	display: inline-block;
+	margin: 3em;
+	
+}
+nav a:link{
+  color: gray;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin-top:25px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
-nav a {
-	text-decoration: none;
-	color: gray;
-	display: inline-block;
-	width: 60px;
-	padding-right: 10px
+cta{
+	padding: 10px;
+	border-bottom: 3px solid black;
 }
 
-.logo {
-	max-width: 15%;
-	display: inline-block;
-	vertical-align: middle;
-}
 
-.cta {
-	border-bottom: 1px solid darkslategray;
-	padding-top: 50px;
-	padding-bottom: 25px;
-}
-
-.cta-text {
-	text-align: center;
+.cta-text{
 	width: 50%;
 	display: inline-block;
-	font-size: 75px;
+	font-size: 80px;
+	text-align: center;
 }
-
-.cta-text button {
-	width: 25%;
-	height: 25px;
-	position: relative;
-	top: -40px;
-	background-color: transparent;
+.cta-text button{
+	width:200px;
+	background-color: white;
 	color: black;
-	border: 1px solid slategray;
+	font-size: 18px;
+
 }
 
-.cta:img {
-	width: 50%;
-	display: inline-block;
+.main-content{
+	border-top: 1px solid black;
+	margin-top: 75px;
+	padding-top: 75px;
+}
+.top-content{
+	padding:1em;
+	column-count: 2;
+	column-gap: 2em;
+	-moz-column-count: 2;
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	-webkit-column-count: 2;
+	margin-top: 1em;
+}
+.middle-img{
+	width:100%;
+	margin: 0 auto;
+
 }
 
-.middle-img {
-	display: block;
-    margin-left: 0%;
-    margin-right: 100%;
-    width: 100%;
-    padding-left: 5%;
-	padding-right: 5%;
-}
+.bottom-content{
+	padding: 1em;
+	column-count: 3;
+	column-gap: 2em;
+	-moz-column-count: 3;
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	-webkit-column-count: 3;
 
-.top-content .text-content {
-	margin-top: 30px;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	width: 45%;
-	display: inline-block;
-	margin-bottom: 30px
 }
-
-.bottom-content {
-	border-bottom: 1px solid slategray;
-	margin-bottom: 30px;
+.contact{
+	border-top: 1px solid black;
+	margin-top: 25px;
+	padding:25px;
 }
-
-.bottom-content .text-content {
-	margin-top: 30px;
-	padding-left: 3.33;
-	padding-right: 3.33;
-	width: 30%;
-	display: inline-block;
-	padding-bottom: 30px;
-}
-
-.contact p {
-	padding-bottom: 20px;
-}
-
 footer {
-	text-align: center;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	font-size: 12px;
 }
-
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
