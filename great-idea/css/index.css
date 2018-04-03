@@ -65,48 +65,58 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	display: inline-block;
+	margin-top: 40px;
 }
 
 nav a {
-	padding-left: 75px;
-	position: relative;
-	text-decoration: none;
+	font-size: 20px;
 	color: LightGray;
-	position: relative;
-	top: 50px;
+	margin-left: 50px;
+	margin-right: 70px;
+	text-decoration: none;
 }
 
 .logo {
-	padding-left: 100px;
-	position: absolute;
-	top: 40px;
+	display: inline-block;
+	height: 50px;
+	margin-left: 60px;
+	position: relative;
+	top: 20px;
+}
+
+.cta {
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .cta .cta-text {
 	display: inline-block;
 	font-size: 100px;
-	position: relative;
-	top: 100px;
-	left: 100px;
+	padding-right: 500px;
 }
+
+.cta .cta-text h1 {
+	text-align: center;
+	position: relative;
+	top: 70px;
+	left: 400px;
+}
+
 .cta .cta-text button {
 	font-size: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
-	position: relative;
-	bottom: 75px;
-	left: 75px;
 	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	left: 500px;
 }
 
-.cta img {
-	display: inline-block;
-	padding-top: 100px;
-	padding-left: 200px;
+hr {
+	width: 90%;
+	border: 1px solid black;
 }
 
-.main-content .top-content .text-content h4 {
-	display: inline-block;
+.main-content {
+	margin-top: 40px;
 }
