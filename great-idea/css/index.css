@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	height: 100%;
+	width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -52,38 +54,37 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
-	width: 100%;
+body {
 	font-family: 'Titillium Web', sans-serif;
-	margin: 3%;
+	
 }
 nav {
-	position: fixed;
+	position: absolute;
+	display: inline-block;
 	width: 100%;
 }
 a {
 	text-decoration: none;
 	color: lightgray;
 	text-align: center;
-	display: block;
-	float: left;
 	padding-left: 1vw;
-	padding-right: 3vw;
-	font-size: 2.5vmin;
+	padding-right: 4vw;
+	padding-top: 5%;
+	font-size: 2.3vmin;
 	font-family: 'Titillium Web', sans-serif;
-}
-.container {
-	position: fixed;
-	top: 5%;
-	overflow: hidden;
-}
-img {
 	right: 0;
-	padding-right: 5%;
 	max-width: 100%;
 	height: auto;
 	object-fit: scale-down;
+}
+.container {
+	position: absolute;
+	min-height: auto;
+	max-height: 100%;
+	object-fit: scale-down;
+	top: 5%;
+	right: 6%;
+	left: 6%;
 }
 .logo {
 	position: absolute;
@@ -100,22 +101,91 @@ img {
 	height: 50%;
 	padding-right: 5%;
 	padding-top: 15%;
+	padding-bottom: 12%;
 }
 .cta-text {
 	position: absolute;
 	width: 50%;
-	height: 50%;
 	text-align: center;
-	padding-left: 5%;
-	font-size: 10vh;
+	padding: 5%;
+	padding-bottom: 0%;
+	font-size: 8vw;
 }
 .cta img {
 	margin: 0;
 	float: right;
 }
+button {
+	padding: 10px 50px;
+	top: 0;
+	border: black 1px solid;
+	font-size: 20%;
+}
+.top-content .text-content {
+	display: block;
+	width: 50%;
+	float: left;
+	font-weight: bold;
+	padding: 1vw;
+}
+.top-content .text-content h4 {
+	font-size: larger;
+}
+.main-content {
+	padding-top: 5vh;	
+	border-top: black solid 1px;
+	border-bottom: black 1px solid;
 
+}
+.main-content .text-content p {
+	padding-bottom: 5vh;
+	line-height: 1.2;
+	font-family: 'Titillium Web', sans-serif;
+}
+.bottom-content {
+	display: inline-block;
+	width: 100%;
+}
+.bottom-content .text-content {
+	display: inline-block;
+	width: 33%;
+	padding: 1vw;
+}
+.bottom-content .text-content p {
+	padding-bottom: 5vh;
+	line-height: 1.2;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+.bottom-content .text-content h4 {
+	display: inline-block;
+	font-size: larger;
+}
+
+.middle-img {
+	padding-bottom: 5vh;
+	width: 100%;
+	object-fit: fill;
+}
+.cta-text h1 {
+	margin-bottom: -7%;
+	letter-spacing: inherit;
+	font-weight: normal;
+}
+.contact {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+.contact p {
+	padding-bottom: 2vh;
+	font-family: 'Titillium Web', sans-serif;
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 10%;
 }
