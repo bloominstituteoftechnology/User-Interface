@@ -170,7 +170,9 @@ img .middle-img{
 	left: 0px;
 	width: 1000px;
 	display: inline-block;
-    vertical-align: top;
+	vertical-align: top;
+	width:75%;
+	
   }
   section {
 	/* position is static by default */
