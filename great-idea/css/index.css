@@ -69,96 +69,81 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-	position:relative;
+	display:flex;
 	/* outline: red 2px solid; */
+	justify-content: space-between;
+	align-items:center;
 }
 
-nav {
-	display: inline-block;
+header nav {
+	/* display: inline-block;
 	position:relative;
-	width:80%;
+	width:80%; */
+	display:flex;
 	text-decoration: none;
+	/* outline: blue 2px solid; */
+	justify-content: space-between;
+	align-items:flex-end;
+	width:70%;
 }
 
-nav a {
-	display: inline-block;
+header nav a {
+	/* display: inline-block;
 	vertical-align: top;
 	float: left;
 	color:grey;
 	padding:25px;
-	padding-right:70px;
+	padding-right:70px; */
+	/* outline: green 2px solid; */
+	color: grey;
 }
 
-.logo{
-	display: inline-block;
+header img{
+	/* display: inline-block;
 	vertical-align: top;
 	padding-top: 10px;
 	float: right;
-	width:20%;
+	/* width:20%; */
 }
-
-/* .cta{
-	display:inline-block;
-	position:relative;
-	border-bottom: gray 2px solid;
-	outline: red 2px solid;
-	width:100%;
-}
-
-.cta h1 {
-	text-align: center;
-	font-size: 500%;
-	padding-right: 20px;
-	outline: yellow 2px solid;
-	float:left;
-	width:60%;
-}
-
-.cta button{
-	outline: yellow 2px solid;
-	float:left;
-}
-
-.cta img{
-	float: right;
-	width:40%;
-} */
 
 .cta{
-    display:inline-block;
-    position:relative;
+    display:flex;
+    /* position:relative; */
     border-bottom: gray 2px solid;
     /* outline: red 2px solid; */
     width:100%;
 		margin-bottom:20px;
+		justify-content: space-around;
+		padding:5% 0 5% 0;
 }
 .cta .cta-text {
-    display: inline-block;
-    vertical-align: middle;
-    width: 50%;
+    /* vertical-align: middle;
+    width: 50%; */
+		display:flex;
+		flex-direction: column;
 		text-align: center;
+		align-items:center;
+		justify-content:center;
 }
 .cta h1 {
     /*display:inline-block;*/
     font-size: 500%;
-		padding-top: 20%;
-    padding-right: 20px;
+		/* padding-top: 20%;
+    padding-right: 20px; */
     /* outline: yellow 2px solid; */
 }
 .cta button{
     /* outline: yellow 2px solid; */
-    display:inline-block;
 		border: black 2px solid;
-		padding: 15px 45px;
+		padding: 10px 45px;
 		font: inherit;
-		margin-top: 20px;
 }
 .cta img{
     /* outline: yellow 2px solid; */
-    display:inline-block;
-    float: right;
+    /* float: right;
     width:50%;
-		padding:5%;
+		padding:5%; */
+		align-self: flex-end;
 }
 
 .main-content{
