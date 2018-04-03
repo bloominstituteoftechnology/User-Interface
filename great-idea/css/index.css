@@ -165,16 +165,17 @@ footer {
   /* header */
   header {
 	display: flex;
-	border: solid orange;
-
-	
+	/* border: solid orange; */
+	justify-content: space-between;
+	align-items: center;	
 	
   }
 
   header nav {
 	display: flex;
-	border: solid green;
-	justify-content: space-between;
+	/* border: solid green; */
+	justify-content: space-around;
+	width: 75%;
 	
 	
   }
@@ -197,19 +198,18 @@ footer {
   
   /* cta */
   
-  .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 44px;
+	/* border: solid red; */
 	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 90px;
-  }
+}
+
   
   .cta .cta-text button {
 	background: white;
-	vertical-align: top;
-	margin-top: 6px;
 	padding: 8px 44px;
 	font-size: 17px;
 	border: 1px solid black;
@@ -221,62 +221,47 @@ footer {
 	color: white;
   }
   
-  .cta img {
+  /* .cta img {
 	display: inline-block;
 	margin-top: 69px;
-  }
+  } */
   
   .main-content {
 	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
-  }
+}
   
   .main-content .top-content {
-	padding: 0 10px;
+	display: flex;
+	/* border: solid red; */
   }
-  
-  .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
+    
   .main-content .middle-img {
 	margin-top: 45px;
   }
   
   .main-content .bottom-content {
-	margin-top: 37px;
-	padding: 0 10px;
+	display: flex;
+	margin-top: 45px;
+	/* border: solid red; */
   }
   
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
-  }
-  
-  .main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
-  }
-  
+    
   .contact {
-	margin-top: 57px;
+	margin-top: 45px;
 	border-top: 1px solid black;
-	padding: 39px 10px 0;
+	/* padding: 39px 10px 0; */
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
   }
   
-  .contact p {
-	margin: 20px 0;
-  }
   
   footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+	/* border: solid red; */
   }
