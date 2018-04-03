@@ -91,13 +91,14 @@ nav a {
 	text-decoration: none;
 }
  
-nav a:link {
-	color: gray;
+nav a:link, nav a:visited {
+	color: #AAA;
 }
 
 nav a:hover {
 	color: black;
 }
+
   /* End Link Styles */
 
 header img {
