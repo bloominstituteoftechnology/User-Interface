@@ -47,8 +47,15 @@ nav{
 	font-size: 80px;
 }
 .cta .cta-text{
-	position: flex;
+	display: flex;
 	flex-direction: column;
+	text-align: center;
+}
+.cta .cta-text button{
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
 }
 .main-content {
 	border-top: 3px solid black;
