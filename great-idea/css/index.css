@@ -90,23 +90,24 @@ h1, h2, h3, h4, h5 {
 
 /* CTA Section */
 .cta {
-	margin: auto;
 	padding: 100px;
 	border-bottom: black 1px solid;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: center;
+	
 }
 
 .cta .cta-text {
 	font-size: 75px;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column ;
 	margin-top: 50px;
 	text-align: center;
+	margin: 0 82 0 0;
+	align-items: center;
 }
 
-.cta button {
+.cta .cta-text button {
 	margin-top: 20px;
 	background-color: white;
 	text-align: center;
@@ -118,6 +119,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: flex-end;
 	flex-basis: auto;
+	padding-left: 15%;
 } 
 
 /* Main Content Section */
@@ -127,6 +129,10 @@ h1, h2, h3, h4, h5 {
 	border-bottom: black 1px solid;
 	display: flex;
 	flex-flow: column wrap;
+}
+
+.main-content h4 {
+	padding-bottom: 5%;
 }
  
 .top-content {
