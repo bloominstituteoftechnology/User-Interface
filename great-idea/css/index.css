@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	margin: 0 5%;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 2em;
 }
 
 nav {
@@ -88,17 +90,17 @@ header .logo {
 	width: 10em;
   height: 2em;
 	color: grey;
-	margin: 1em;
-	position: absolute;
 	text-decoration: none;
-	top: 1em;
-	right: 8em;
+	display: inline-block;
 	vertical-align: top;
+	margin-top: 3em;
+	margin-left: 7em;
 }
 
 section.cta {
-	margin: 3em 5em;
 	padding-bottom: 5em;
+	width: 80%;
+	margin: 2em auto;
 	border-bottom: 1px solid black;
 }
 
@@ -106,35 +108,57 @@ section.cta .cta-text {
 	display: inline-block;
 	height: 10em;
 	width: 20em;
-	margin: 3em 3em;
+	margin: 0 auto;
 }
 
 section.cta .cta-text h1 {
 	font-size: 5em;
+	margin: 0 auto;
 }
 
 .cta img {
 	display: inline-block;
 	height: 20em;
 	width: 20em;
+	margin-left: 2em;
 }
 
 .cta .cta-text button {
 	width: 5em;
 	height: 3em;
-	margin-left: 4em;
+	margin: 0 auto;
 }
 
 .main-content .top-content {
-	margin: 2em 5em;
+	width: 100%;
+	margin: 2em auto;
+	padding: 0 2em;
 }
 
 .main-content .top-content .text-content {
 	display: inline-block;
-	width: 30%;
+	width: 45%;
+	margin: 0 auto;
 	vertical-align: top;
-	padding: 0 2em;
 }
+
+.middle-img {
+	margin: 0 2em 0 2em;
+}
+
+.main-content .bottom-content {
+	width: 90%;
+	margin: 2em 2em 2em 2em;
+	padding-right: 3em;
+	padding-bottom: 3em;
+	border-bottom: 1px solid black;
+}
+
+.main-content .bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+}
+
 
 
 
