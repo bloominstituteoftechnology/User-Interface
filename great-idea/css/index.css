@@ -151,14 +151,14 @@ nav a{
     padding: 40px;
     border: solid green;
     flex-direction: column;
-    
+    justify-content: space-between;
     
 }
 
 .container .contact p{
     background: gray;
     border: solid red;
-    margin: 10px;
+    
 }
 
 .middle-img {
