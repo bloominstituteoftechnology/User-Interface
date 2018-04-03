@@ -121,6 +121,9 @@ header img {
 
 .cta-text button {
 	font-size: 1.5rem;
+	background: transparent;
+	border-radius: 0.5rem;
+	padding: 0rem 3rem;
 }
 
 /* Main Body */
