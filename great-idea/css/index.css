@@ -62,3 +62,129 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+nav {
+	display: inline-block;
+}
+
+header nav a {
+	width: 50px;
+  height: 20px;
+	padding: 2em 2em;
+	color: lightgrey;
+	size: .3em;
+  display: inline-block;
+	margin: 1.5em;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+header .logo {
+	width: 10em;
+  height: 2em;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 3em;
+	margin-left: 7em;
+}
+
+section.cta {
+	padding-bottom: 5em;
+	width: 80%;
+	margin: 2em auto;
+	border-bottom: 1px solid black;
+}
+
+section.cta button {
+	background-color: white;
+	border: 1px solid black;
+	color: grey;
+	padding: .1em 3em .1em .2em;
+	width: 5em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+section.cta .cta-text {
+	display: inline-block;
+	height: 10em;
+	width: 20em;
+	text-align: center;
+}
+
+section.cta .cta-text h1 {
+	font-size: 5em;
+	margin: 0 auto;
+}
+
+.cta img {
+	display: inline-block;
+	height: 20em;
+	width: 20em;
+	margin-left: 2em;
+}
+
+.cta .cta-text button {
+	width: 5em;
+	height: 3em;
+	margin: 0 auto;
+}
+
+.main-content .top-content {
+	width: 100%;
+	margin: 2em auto;
+	padding: 0 2em;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 45%;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.middle-img {
+	margin: 0 2em 0 2em;
+}
+
+.main-content .bottom-content {
+	width: 90%;
+	margin: 2em 2em 2em 2em;
+	padding-right: 3em;
+	padding-bottom: 3em;
+	border-bottom: 1px solid black;
+}
+
+.main-content .bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+}
+
+section.contact {
+	margin: 2em; 
+}
+
+section.contact p {
+	margin: 1em 0;
+}
+
+footer {
+	margin: 2em auto;
+	text-align: center;
+}
+
+
+
+
+
