@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin-left: 8%;
 	margin-right: 8%;
+	flex-direction: row;
+	display: row;
 }
 
 .container header {
@@ -99,7 +101,6 @@ header nav a {
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 100px;
-	border: 1px solid red;
 }
 
 .cta .cta-text h1 {
@@ -126,30 +127,53 @@ header nav a {
 	margin-right: 100px;
 }
 
-.main-content .top-content .text-content {
+.main-content .top-content {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	margin-top: 200px;
+	margin-bottom: 50px;
 	width: 100%;
-	height: 100px;	
-	border: 1px solid red;
+	font-size: 20px;	
 }
 
 
-/* hr { 
-	width: 85%;
-	color: 1px solid black;
-} */
-
 .middle-img {
 	width: 100%;
-	height: 150px;
+	height: 200px;
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	font-size: 18px;	
 }
 
 .contact {
 	display: flex;
 	flex-direction: column;
-	margin-top: 15px; 
+	justify-content: space-between;
+	margin-bottom: 100px; 
+	margin-top: 100px;
 }
 
+.contact h4 {
+	height: 0px;
+}
+
+.contact p {
+	height: 20px;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+}
