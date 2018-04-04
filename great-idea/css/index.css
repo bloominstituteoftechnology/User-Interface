@@ -109,12 +109,12 @@ header nav a:hover {
 	flex-direction: row;
 	justify-content: flex-start;
 	justify-content: space-evenly;
-	text-align: center;
 	border: 3px solid red;
 	border-bottom: 1px solid black;
 }
 
 .cta-text {
+	text-align: center;
 	padding-top: 50px;
 }
 
