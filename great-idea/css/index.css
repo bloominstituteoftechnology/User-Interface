@@ -62,3 +62,220 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+h1 {
+	font-size: 80px;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	border: 3px solid blue;
+  }
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	border: 3px solid green;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 35px;
+	width: 75%;
+	border: 3px solid yellow;
+  }
+
+header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	border: 3px solid red;
+  }
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+
+.cta {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-evenly;
+	border: 3px solid red;
+	border-bottom: 1px solid black;
+}
+
+.cta-text {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.cta-text button {
+	width: 150px;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.cta img {
+	flex-direction: row;
+	justify-content: flex-start;
+	border: 3px solid purple;
+	margin-bottom: 60px;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.middle-img {
+	margin-top: 30px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.bottom-content .text-content {
+	width: 280px;
+	border: 2px solid teal;
+	margin-top: 30px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 2px solid chartreuse;
+	margin-top: 30px; 
+}
+
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+	
+  }
+
+.contact :nth-child(3) {
+	margin-top: 25px;
+}
+
+.contact :nth-child(4) {
+	margin-top: 25px;
+}
+
+/* nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	margin-top: 35px;
+	
+}
+
+.logo {
+	margin-top: 25px;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	margin: 20px;
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	margin: 20px;
+}
+
+.cta-text h1 {
+	display: inline-block;
+	font-size: 70px;
+	padding: 125px 30px 10px 150px;
+	width: 55%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.cta-text button {
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 15%;
+	vertical-align: bottom;
+	margin-right: 400px;
+	margin-left: 275px;
+	
+}
+
+
+.cta-image {
+	display: inline-block;
+	position: relative;
+	right: 85px;
+	bottom: 350px;
+	margin-left: 700px;
+}
+
+.section-separator {
+	border-bottom: 2px solid gray;
+	margin-bottom: 50px;
+}
+
+.top-content .text-content .features {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	Margin: 0px 00px 20px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.top-content .text-content .about {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	Margin: 0px 00px 20px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	left: 600px;
+	bottom: 110px;
+}
+
+.middle-img {
+	display: inline-block;
+	margin-left: 70px; 
+	margin-right: 100px;
+	margin-bottom: 40px;
+	position: relative;
+	bottom: 100px;
+	width: 90%;
+} */
+
+
+
+
