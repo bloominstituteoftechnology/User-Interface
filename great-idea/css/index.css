@@ -14,34 +14,38 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, output, ruby, section, summary,
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 /* 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%; */
+	border: 0; */
+	font-size: 100%;
 	font: inherit;
 /* 	vertical-align: baseline; */
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, section {
-	display: block; 
-}*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
 	line-height: 1;
 }
-/* ol, ul {
-	list-style: none; 
-}*/
-/* blockquote, q {
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-} */
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /* Set every element's box-sizing to border-box */
 * {
@@ -49,7 +53,7 @@ q:before, q:after {
 }
 
 html, body {
-/*     height: 100%; */
+    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -59,51 +63,133 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-nav {
-  display: inline-block;
-  position: relative;
-  top: 30px;
-  padding: 10px 10px 10px 10px;
-  left: 100px; 
-  }
+/* header */
 
+header nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;  
+  width: 1000px;
+}
+
+header nav a {
+  display: flex; 
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  padding: 20px 120px 20px 60px;
+  width: 150px;
+}
+  
 .logo {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 10px;
-  }
+  display: flex;
+  width: 250px;  
+  height: 80px;
+  padding: 20px 0px 0px 0px;
+  margin-top: 30px;
+}
+
+.container header {
+  display: flex;
+  padding: 0px 20px 0px 40px;
+}  
+
+/* cta */
+
+.cta .cta-text h1 {
+  display: flex;
+  padding: 30px;
+  margin-top: 130px;
+  margin-left: 300px;
+  font-size: 90px;
+  text-align: center;
+}
+
+.cta .cta-text button {
+  display: flex;
+  text-direction: row;
+  justify-content: center;
+  margin-left: 400px;
+  padding: 10px 40px 10px 40px;
+  background: white;    
+  font-size: 16px;
+}
 
 .cta img {
-  display: block;
-  position: absolute;
-  top: 130px;
-  right: 30px;
+  display: flex;  
+  margin-top: 70px;  
+  margin-right: 1400px;
+  margin-left: 110px;
 }
 
-.cta, cta-text, h1 {
-  font-size: 200%;
-  display: block;
-  text-align: center;
-  top: 800px;
-  padding: 20px 20px 10px 20px;
- 
+.cta {
+  display: flex;   
 }
 
-.main-content {
-  display: inline;
-  position: absolute;
-  padding: 20px 20px 20px 20px;
-  margin: 20px;
+/* main content */
+
+.main-content .top-content .text-content h4 {
+  display: flex;
+  width: 100px;  
 }
 
-.contact {
-  display: block;
-  position: relative;  
+.main-content .top-content .text-content p {
+  display: flex;
+  width: 600px;
 }
 
-footer p {
-  display: inline;
-  position: absolute;
-  bottom: 0px;
+/* top content */
+
+.main-content .top-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding: 20px;
+  border-top: 1px solid;
+}
+
+/* middle img */
+.main-content .middle-img {
+  display: flex; 
+  padding: 0px 10px 10px 40px; 
+  height: 200px;
+  width: 1300px;
+}
+
+/* bottom-content */
+
+.main-content .bottom-content .text-content h4 {
+  display: flex;
+  width: 100px;
+}
+
+.main-content .bottom-content .text-content p {
+  display: flex;
+  width: 400px;
+}
+
+.main-content .bottom-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* contact */
+
+.contact h4 {
+  display: flex;
+  padding: 50px 10px 10px 40px; 
+  border-top: 1px solid;
+} 
+
+.contact p {
+  display: flex;
+  padding: 0px 10px 10px 40px;   
+} 
+
+/*footer */
+
+footer {
+  display: flex;
+  justify-content: center;
 }
