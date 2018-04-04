@@ -62,3 +62,233 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* ----------- My CSS (challenge 1) ------------------- */
+
+/* nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	margin: 25px 0px 0px 50px;
+	
+}
+
+nav a {
+	padding: 55px;
+	padding-bottom: 0px;
+	color: grey;
+	text-decoration: none;
+	height: calc(100% - 100px);
+}
+
+header img {
+	margin: 25px 0px 0px 0px;
+	width: 15%;
+	width: calc(19% - 35px);
+}
+
+section .cta-text {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(65% - 25px);
+}
+
+.cta-text h1 {
+	font-size: 110px;
+	margin-top: 120px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.cta-text h1 .on {
+	margin-left: 175px;
+}
+
+.cta-text h1 .demand {
+	margin-left: 75px;
+}
+
+.cta-text button {
+	margin-left: 325px;
+	font-size: 22px;
+	padding: 5px 50px 5px 50px;
+}
+
+.cta img {
+	margin-top: 120px;
+	
+}
+
+.hr1 {
+	margin: 115px 55px 40px 55px;
+}
+
+.text-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+	width: calc(45% - 25px);
+}
+
+.text-content:nth-child(1) {
+	margin-right: 100px;
+}
+
+.text-content h4 {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	width: calc(45% - 25px);
+	
+}
+
+.text-content p {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	margin-bottom: 55px;
+	width: calc(65% - 25px);
+}
+
+.middle-img {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	margin-bottom: 45px;
+	width: calc(100% - 110px);
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 27%;
+	
+}
+
+.hr2 {
+	margin: 30px 55px 40px 55px;
+}
+
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	width: calc(55% - 25px);
+}
+
+.contact p {
+	margin: 20px 10px;
+	width: calc(55% - 15px);
+
+}
+
+footer {
+	text-align: center;
+	margin: 50px 50px 150px 50px;
+	width: calc(95% - 25px);
+
+} */
+
+/* ----------- Flexbox version (challenge 2) ------------------- */
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+header {
+	width: 90%;
+	display: flex;
+	margin: 5px;
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav a {
+	width: 10%;
+	padding: 55px;
+	color: grey;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.cta {
+	display: flex;
+	margin-top: 8%;
+}
+
+.cta-text h1 {
+	font-size: 110px;
+	margin-left: 43%;
+	margin-right: 13%;
+}
+
+.cta-text button {
+	font-size: 18px;
+	margin-left: 63%;
+	margin-right: 13%;
+	padding: 5px;
+}
+
+.cta img {
+	margin-left: 22%;
+}
+
+.hr1 {
+	margin: 115px 55px 40px 55px;	
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.main-content .top-content .text-content {
+	margin-left: 4%;
+}
+
+.middle-img {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 45px;
+	margin-left: 55px;
+	margin-bottom: 45px;
+	width: calc(100% - 110px);
+}
+
+.bottom-content  {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.bottom-content .text-content {
+	margin-left: 4%;
+}
+
+.hr2 {
+	margin: 30px 55px 40px 55px;	
+}
+
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	width: calc(55% - 25px);
+}
+
+.contact p {
+	margin: 20px 10px;
+	width: calc(55% - 15px);
+
+}
+
+footer {
+	text-align: center;
+	margin: 50px 50px 150px 50px;
+	width: calc(95% - 25px);
+
+}
