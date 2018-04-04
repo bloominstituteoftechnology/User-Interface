@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,21 +12,74 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 10px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+.cta {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 80px;
+}
+.cta .cta-text{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.cta .cta-text button{
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+}
+.main-content {
+	border-top: 3px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-content{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.bottom-content{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+.contact{
+	border-top: 3px solid black;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 body {
 	line-height: 1;
