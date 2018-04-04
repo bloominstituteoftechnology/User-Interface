@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -61,4 +61,119 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+	margin-left: 8%;
+	margin-right: 8%;
+	flex-direction: row;
+	display: row;
+}
+
+.container header {
+	display: flex;
+	flex-direction: row;
+}
+
+header nav {
+	display: flex;	
+	min-width: 50px;
+	margin: 30px;
+	text-decoration: none;
+}
+
+header nav a {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 165px;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	height: 40px;
+	margin-top: 16px;
+}
+
+.cta {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+.cta .cta-text h1 {
+	display: flex;
+	flex-direction: row;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 90px;
+	margin-left: 230px;
+}
+
+.cta .cta-text button { 
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 265px;
+	background: none;
+	width: 200px;
+}
+
+.cta img {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 100px;
+}
+
+.main-content .top-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 100%;
+	font-size: 20px;	
+}
+
+
+.middle-img {
+	width: 100%;
+	height: 200px;
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	font-size: 18px;	
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 100px; 
+	margin-top: 100px;
+}
+
+.contact h4 {
+	height: 0px;
+}
+
+.contact p {
+	height: 20px;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
 }
