@@ -75,81 +75,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Header */
-header nav ul {
+nav {
+	margin: 28px 0 0 0;
+}
+
+nav ul {
 	display: inline-block;
 	padding: 10px 0;
 	vertical-align: top;
-	width: 80%;
+	width: 695px;
 }
 
-header nav ul li a {
+nav ul li a {
 	color: gray;
-	padding: 0 60px 0 0;
+	font-size: 14px;
+	padding: 0 64px 0 0;
 	text-decoration: none;
 }
 
-header nav .logo {
+nav .logo {
 	display: inline-block;
 	width: 20%;
 }
 
 /* Main */
 main {
-	margin: 10px 0;
+	margin: 20px 0 0 0;
 }
 
 .top-content {
-	margin: 70px 0;
+	margin: 70px 0 0 0;
+}
+
+.top-content .header,
+.top-content .header-image {
+	display: inline-block;
 }
 
 .top-content .header {
-	display: inline-block;
-	padding: 48px 0;
+	margin: 54px 0 0 0;
 	text-align: center;
-	width: 60%;
+	width: 488px;
 	vertical-align: top;
 }
 
 .top-content .header h1 {
-	font-size: 81px;
+	font-size: 74px;
+	letter-spacing: 5px;
 }
 
 .top-content .header button {
 	border: 1px solid #000;
 	cursor: pointer;
-	font-size: 16px;
-	padding: 5px 40px;
-}
-
-.top-content .header-image {
-	display: inline-block;
-	width: 40%;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 7px 7px 0 0;
+	padding: 7px 0;
+	width: 174px;
 }
 
 .top-content .header-image {
 	text-align: center;
-}
-
-.top-content .header-image img {
-	max-width: 100%;
+	width: 392px;
 }
 
 .mid-content {
 	border-bottom: 1px solid #000;
 	border-top: 1px solid #000;
-	margin: 40px 0;
-	padding: 40px 0;
+	margin: 72px 0 0 0;
+	padding: 40px 3px 47px 3px;
+}
+
+.mid-content .row .col-2 p,
+.mid-content .row .col-3 p {
+	line-height: 18px;
 }
 
 .mid-content .col-2 {
 	display: inline-block;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 12px;
 	width: 50%;
 }
 
 .mid-content .col-3 {
 	display: inline-block;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 12px;
 	width: 33.33%
 }
 
@@ -160,8 +170,12 @@ main {
 
 .mid-content .mid-page-accent {
 	display: block;
-	margin: 40px auto;
-	max-width: 100%;
+	margin: 36px auto 38px auto;
+}
+
+.bottom-content {
+	margin: 40px 0 0 0;
+	padding: 0 3px;
 }
 
 .bottom-content .phone a,
@@ -170,12 +184,16 @@ main {
 	text-decoration: none;
 }
 
-.bottom-content .phone {
-	margin: 10px 0;
+.bottom-content .phone,
+.bottom-content .email {
+	margin: 21px 0 0 0;
 }
+
+
 
 /* Footer */
 footer {
-	padding: 40px 0;
+	font-size: 14px;
+	margin: 54px 0 0 0;
 	text-align: center;
 }
