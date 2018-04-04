@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    margin: 20px 100px 20px 100px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 75px;
+ }
+
+
+/*cta*/
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.cta .cta-text {
+    font-size: 250%;
+    text-align: center;
+}
+
+.cta .cta-text button {
+    background: white;
+    color: black;
+    padding: 10px 50px 10px 50px;
+}
+	       
+/*main content*/
+
+.main-content {
+    margin: 0 100px 0 100px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+.text-content{
+    text-align: left;
+    padding: 20px;
+}
+
+.middle-img {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 100px 20px 225px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.contact {
+    border-top: 1px solid black;
+    margin: 20px 100px 20px 100px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}

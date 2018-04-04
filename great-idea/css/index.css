@@ -3,50 +3,6 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -55,6 +11,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,3 +19,76 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+a {
+	color: #000000;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+nav {
+	display: inline-block;
+	margin: 100px;
+	width: auto;
+}
+
+nav.logo {
+	margin-right: 100px;
+	padding: 20px;
+}
+
+.cta {
+	width: auto;
+}
+
+.cta-text {
+	margin: 20px 100px 20px 100px;
+	display:inline-block;
+	font-size: 250%;
+	width: 500px;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+}
+
+.top-content {
+	margin: 0 100px 0 100px;
+	width: auto;
+}
+
+.text-content{
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	width: 40%;
+}
+
+.middle-img {
+	margin: 0 100px 0 100px;
+	width: 1080px;
+	align: center;
+}
+
+.bottom-content {
+	margin: 0 100px 0 100px;
+	width: auto;
+}
+
+.bottom-text-content {
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	width: 27%;
+}
+
+.contact {
+	margin: 20px 100px 20px 100px;
+}
+
+footer {
+	text-align: center;
+}
+
