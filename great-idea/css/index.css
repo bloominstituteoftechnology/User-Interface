@@ -142,10 +142,10 @@ nav a:link{
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
-	font-size: 12px;
+	font-size: 16px;
 	border-top: 1px solid black;
-	margin-top: 25px;
-	padding-top:25px;
+	margin: 25px;
+	padding:25px;
 
 }
 
