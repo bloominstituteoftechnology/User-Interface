@@ -30,6 +30,7 @@ nav {
 	display: inline-block;
 	margin: 100px;
 	width: auto;
+	align-content: top;
 }
 
 nav.logo {
@@ -48,6 +49,13 @@ nav.logo {
 	width: 500px;
 	text-align: center;
 }
+
+.cta-text button {
+    background: white;
+    color: black;
+    padding: 10px 50px 10px 50px;
+}
+		   
 
 hr {
 	border: 0;
@@ -91,3 +99,26 @@ hr {
 footer {
 	text-align: center;
 }
+
+
+/*body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
