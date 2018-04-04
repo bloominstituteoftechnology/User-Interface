@@ -62,3 +62,141 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+/* ~~~~~~~~~~~~~~~ My Code ~~~~~~~~~~~~~~~ */
+
+.container {
+	display: flex;
+	
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 60px;
+
+	flex-direction: column;
+}
+
+/* ~~~~~~~~~~ Header ~~~~~~~~~~ */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	/* background: lightblue; */
+}
+
+header nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	align-content: center;
+}
+
+header nav a {
+	display: flex;
+	text-decoration: none;
+	color: grey;
+	align-self: center;
+}
+
+/* ~~~~~~~~~~ CTA ~~~~~~~~~~ */
+
+.cta {
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-around;
+}
+
+.cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cta .cta-text h1 {
+	display: flex;
+	font-size: 70px;
+	text-align: center;
+	/* background: lightblue; */
+}
+
+.cta .cta-text button {
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+
+	background: none;
+	
+	color: gray;
+	font-size: 17px;
+	
+	border-style: solid;
+	border-color: gray;
+}
+
+/* ~~~~~~~~~~ Main Content ~~~~~~~~~~ */
+
+.main-content{
+	border-style: solid;
+	border-top-color: grey;
+	border-top-width: medium;
+	border-bottom-color: grey;
+	border-bottom-width: medium;
+
+	margin-top: 80px;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.main-content .top-content {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.main-content .top-content .text-content:first-child{
+	margin-right: 20px;
+}
+
+.main-content .middle-img {
+	display: flex;
+	margin-top: 40px;
+}
+
+.main-content .bottom-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-content .bottom-content .text-content{
+	margin-right: 20px;	
+}
+
+.main-content .bottom-content .text-content:last-child{
+	margin-right: 0px;	
+}
+
+/* ~~~~~~~~~~ Contact ~~~~~~~~~~ */
+
+.contact {
+	margin-top: 40px;
+}
+
+.contact p {
+	margin-top: 10px;
+}
+
+/* ~~~~~~~~~~ Footer ~~~~~~~~~~ */
+
+footer {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
