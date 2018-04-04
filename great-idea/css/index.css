@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,115 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/*My code starts here*/
+
+/*Universal*/
+
+html{
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+.page-container{
+	width: 80%;
+}
+
+/*Header*/
+
+header{
+	position: fixed;
+  background-color: white;
+	width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 5;
+}
+
+header a{
+	text-decoration: none;
+	color: gray;
+}
+
+/*Main Banner */
+
+.banner{
+	margin-top: 160px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid black;
+}
+
+.banner-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-text p{
+	font-size: 100px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+
+.banner-text button{
+	width: 13.5rem;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+	padding: 0.5rem;
+}
+
+/*Main Content*/
+
+.main-content{
+	margin-top: 4rem;
+}
+
+.top-content{
+	display: flex;
+}
+
+.bottom-content{
+	display: flex;
+	padding-bottom: 4rem;
+	border-bottom: 2px solid black;
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+}
+
+.mid-img{
+	width: 100%;
+	padding: 3rem 0;
+}
+
+.product{
+	padding: 0 1.5rem;
+}
+
+/*Contact*/
+
+.contact{
+	margin: 4rem;
+}
+
+/*Footer*/
+
+footer{
+	text-align: center;
+	margin-bottom: 6rem;
 }
