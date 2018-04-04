@@ -197,8 +197,37 @@ header img{
 }
 .top-content{
 	display:flex;
-	padding:30px;
+	padding-top:30px;
+	padding-bottom:30px;
 	border-top:solid grey;
 }
-
+.main-content{
+	padding-bottom:30px;
+	border-bottom:1px solid grey;
+}
+.main-content .middle-img{
+	width:100%;
+	margin:30px 0px 30px 0px;
+}
+.main-content .bottom-content{
+	display:flex;
+	justify-content: space-between;
+}
+.main-content .bottom-content .text-content{
+	width:30%
+}
+.contact{
+	margin-top:30px;
+}
+.contact :nth-child(2){
+	padding:20px 0px 20px 0px;
+}
+.contact :nth-child(4){
+	padding-top:20px;
+}
+footer{
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
 
