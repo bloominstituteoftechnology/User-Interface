@@ -62,96 +62,53 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-/* 
-nav {
-	display: inline-block;
-	width: 50%;
-	padding: 1em;
-	float: left;
-}
-
-img.logo {
-	display: inline-block;
-	width: 20%;
-	padding: 0;
-	float: right;
-	margin: .5em auto;nline-block;
-}
-
-.cta .cta-text {
-	display: inline-block;
-	margin: .5em auto;
-}
-
-.cta .cta-text h1 {
-	font-size: 600%;
-}
-.cta .cta-text button {
-	font-size: 100%;
-	
-}
-
-img {
-	display: inline-block;
-	float: right;
-} */
-
-body {
-	width: 1000px;
-	border: 2px solid red;
-	height: auto;
-}
 
 header {
-	/* border: 2px solid red;  */
+	/* border: 2px solid red; */ 
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 header nav {
-	/* border: 2px solid blue; */
-	display: inline-block;
+	display: flex;
+	align-items: center;
 }
 
 header nav a {
-	/* border: 2px solid cyan; */
-	margin-left: 60px;
-	text-decoration: none;
-	color: gray;
+	margin-left: 45px;
 }
 
 header img {
-	/* border: 2px solid green;  */
-	margin-top: 20px;
-	margin-left: 80px;
+	display: flex;
+	margin-left: 25px;
 }
 
 .cta {
-	/* border: 2px solid blue; */
-	height: 490px;
+	display: flex;
+	/* border: 1px solid green; */
+	justify-content: space-around;
+	margin-bottom: 35px;
 }
 
 .cta-text {
-	/* border: 2px solid green; */
-	display: inline-block;
-	margin-bottom: 100px;
-	width: 500px;
+	/* border: 2px solid goldenrod;*/
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
 }
 
 div h1 {
 	/* border: 2px solid red; */
-	display: inline-block;
-	font-size:  70px;
-	margin-left: 140px;
-	text-align: center;
-	letter-spacing: .1em;
-	margin-top: 135px;
+	display: flex;
+	font-size: 60px;
+	align-content: center;
 }
 
 div button {
-	/* border: 2px solid chartreuse; */
-	height: 35px;
-	width: 175px;
-	margin-left: 220px;
-	margin-top: 10px;
 	font-size: 16px;
 	background-color: white;
 	border: 1px solid black;
@@ -159,52 +116,56 @@ div button {
 
 .cta img {
 	/* border: 2px solid salmon; */
-	margin-top: 70px;
-	float: right;
-	margin-right: 50px;
+	width: 330px;
+	height: 280px;
 }
 
 .main-content {
-	border-top: 2px solid darkgray;
-	border-bottom: 2px solid darkgray;	
-
-}
-
-.top-content {
+	/*border: 2px solid rgb(63, 65, 238); */
+	display: flex;
+	flex-flow: row wrap;
 	margin-top: 20px;
+	margin-bottom: 30px;
+		border-top: 2px solid darkgray;
+		border-bottom: 2px solid darkgray;
+	
+}
+.top-content {
 	/* border: 2px solid green; */
+	display: flex;
+	justify-content: space-between;
 }
 
 .top-content .text-content {
-	/* border: 2px solid cyan; */
-	display: inline-block;
-	width: 450px;
-	margin-left: 20px;
-	margin-right: 20px;
+	/* border: 2px solid cyan;*/
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 15px;
 }
 
 .middle-img {
 	/* border: 2px solid goldenrod; */
-	display: inline-block;
-	margin-left: 55px;
-	margin-top: 15px;
-	margin-bottom: 20px;
+	display: flex;
 }
 
 .bottom-content {
-	/* border: 2px solid green; */
+/* border: 2px solid yellow; */
+display: flex;
+justify-content: center;
 }
 
 .bottom-content .text-content {
-	/* border: 2px solid cyan; */
-	width: 300px;
-	display: inline-block;
-	margin-left: 20px;
-	margin-bottom: 20px;
+ /* border: 2px solid cyan; */
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 10px;
 }
-
 .contact {
-	/* border: 2px solid gray; */
+ /* border: 2px solid gray; */
 	margin-top: 20px;
 }
 
@@ -212,7 +173,9 @@ div button {
 	margin: 15px 0px;
 }
 
+
 footer {
-	border: 2px solid purple;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
 }
