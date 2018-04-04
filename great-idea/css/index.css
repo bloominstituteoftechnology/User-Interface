@@ -111,18 +111,31 @@ header nav a:hover {
 	justify-content: space-evenly;
 	text-align: center;
 	border: 3px solid red;
+	border-bottom: 1px solid black;
+}
+
+.cta-text {
+	padding-top: 50px;
+}
+
+.cta-text button {
+	width: 150px;
+	font-size: 20px;
+	border: 1px solid black;
 }
 
 .cta img {
 	flex-direction: row;
 	justify-content: flex-start;
 	border: 3px solid purple;
+	margin-bottom: 60px;
 }
 
 .main-content .top-content {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	margin-top: 30px;
 	
 }
 
@@ -132,16 +145,44 @@ header nav a:hover {
 	justify-content: space-around;
 }
 
+
+.middle-img {
+	margin-top: 30px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
 .bottom-content .text-content {
 	width: 280px;
+	border: 2px solid teal;
+	margin-top: 30px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 2px solid chartreuse;
+	margin-top: 30px; 
 }
 
 footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+	
   }
 
+.contact :nth-child(3) {
+	margin-top: 25px;
+}
+
+.contact :nth-child(4) {
+	margin-top: 25px;
+}
 
 /* nav {
 	display: inline-block;
