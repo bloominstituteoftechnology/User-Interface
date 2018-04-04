@@ -70,7 +70,8 @@ h1, h2, h3, h4, h5 {
 
 /* Wrapper */
 .wrapper {
-	padding: 40px 80px 60px 80px;
+	margin: 0 auto;
+	width: 880px;
 }
 
 /* Header */
