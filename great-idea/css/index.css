@@ -77,75 +77,67 @@ nav ul{
 */
 .container{
 	width: 880px;
-	margin: 0px auto;
+	margin:auto;
+	align-items: space-around;
 }
-header nav{
-	display: inline-block;
-	width: 590px;
-	margin-top: 35px;
-
-
-}
-
-header a{
-	display: inline-block;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items : center;
+	margin-top: 2ß0px;
+	
 }
 
-header nav a{
-	margin: 20px;
-	color: gray;
+header nav {
+	width:697px;
+	display:flex;
+	justify-content: space-around;
+	
+	
+
+}
+
+header nav a {
 	text-decoration: none;
+	color : grey;
 }
+
 .cta{
-	margin:10px;
+	width: 880px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	
 }
-
 .cta .cta-text{
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	width: 400px;
+	weight:500px;
 	font-size: 40px;
-	text-align: center;
-	margin-top: 20px;
+	text-align: center; 
+
 }
-/*
-.cta .cta-text h1{
-	font-size: 50px;
-	padding-top: 20px;
-	font-weight:bold;
-	font-family: 'Bangers', cursive;
-	text-align: center;
-}
-*/
-.cta img{
-	display: inline-block;
-	width: 378px;
-	height: 350px;
-}
-.cta button {
+
+.cta .cta-text button {
+	width: 100px;
 	height: 50px;
-	width: 120px;
-	font-size: 10px;
-}
-.main-content{
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-}
-.main-content .top-content .text-content{
-	display: inline-block;
-	width: 395px;
-}
-.main-content  .text-content h4{
-	font-weight: bold;
-}
-.main-content .bottom-content  .text-content{
-	display:inline-block;
-	width: 250px;
-	margin: 5px;
-
 }
 
-footer p {
+.main-content .bottom-content {
+	width: 880px;
+	display:flex;
+	justify-content: space-around;
+	margin : 30px;
+	border-top: 1px solid black;
+}
+
+.main-content .top-content{
+	width: 880px;
+	display:flex;
+	justify-content: space-between;
+	margin : 30px;
+	border-top: 1px solid black;
+}
+
+footer p{
 	text-align: center;
 }
