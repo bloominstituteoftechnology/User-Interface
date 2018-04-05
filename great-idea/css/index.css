@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,8 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*?
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,9 +47,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 /* Set every element's box-sizing to border-box */
-* {
+ * {
     box-sizing: border-box;
 }
 
@@ -61,4 +62,90 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+/*
+nav ul{
+	display: inline;
+	float: left;
+}
+
+.logo{
+	display: inline;
+	float: right;
+}
+
+*/
+.container{
+	width: 880px;
+	margin: 0px auto;
+}
+header nav{
+	display: inline-block;
+	width: 590px;
+	margin-top: 35px;
+
+
+}
+
+header a{
+	display: inline-block;
+}
+
+header nav a{
+	margin: 20px;
+	color: gray;
+	text-decoration: none;
+}
+.cta{
+	margin:10px;
+}
+
+.cta .cta-text{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 400px;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*
+.cta .cta-text h1{
+	font-size: 50px;
+	padding-top: 20px;
+	font-weight:bold;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+*/
+.cta img{
+	display: inline-block;
+	width: 378px;
+	height: 350px;
+}
+.cta button {
+	height: 50px;
+	width: 120px;
+	font-size: 10px;
+}
+.main-content{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+.main-content .top-content .text-content{
+	display: inline-block;
+	width: 395px;
+}
+.main-content  .text-content h4{
+	font-weight: bold;
+}
+.main-content .bottom-content  .text-content{
+	display:inline-block;
+	width: 250px;
+	margin: 5px;
+
+}
+
+footer p {
+	text-align: center;
 }
