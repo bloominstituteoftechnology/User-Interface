@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,8 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*?
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,9 +47,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 /* Set every element's box-sizing to border-box */
-* {
+ * {
     box-sizing: border-box;
 }
 
@@ -61,4 +62,95 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+/*
+nav ul{
+	display: inline;
+	float: left;
+}
+
+.logo{
+	display: inline;
+	float: right;
+}
+
+*/
+.container{
+	width: 880px;
+	margin:auto;
+	align-items: space-around;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items : center;
+	margin-top: 2ß0px;
+	
+}
+
+header nav {
+	width:697px;
+	display:flex;
+	justify-content: space-around;
+	
+	
+
+}
+
+header nav a {
+	text-decoration: none;
+	color : grey;
+}
+
+.cta{
+	width: 880px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	
+	
+}
+.cta .cta-text{
+	width:500px;
+	font-size: 40px;
+	text-align: center; 
+}
+
+.cta .cta-text button {
+	width: 150px;
+	height: 50px;
+}
+.main-content{
+	display:block;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+
+}
+.main-content .middle-img{
+	display: block;
+
+	
+}
+.main-content .top-content{
+	width: 880px;
+	display:flex;
+	justify-content: space-between;
+	margin: 40px auto;
+}
+.main-content .bottom-content {
+	width: 880px;
+	display:flex;
+	justify-content:space-between;
+	margin: 40px auto;
+	text-align: justify;
+}
+.main-content .bottom-content .text-content{
+	padding-left: 20px;
+}
+
+
+footer p{
+	text-align: center;
 }
