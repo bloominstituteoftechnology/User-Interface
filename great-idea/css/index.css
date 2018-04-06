@@ -107,36 +107,47 @@ header nav a {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 50px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	
 	
 }
 .cta .cta-text{
-	weight:500px;
+	width:500px;
 	font-size: 40px;
 	text-align: center; 
-
 }
 
 .cta .cta-text button {
-	width: 100px;
+	width: 150px;
 	height: 50px;
 }
-
-.main-content .bottom-content {
-	width: 880px;
-	display:flex;
-	justify-content: space-around;
-	margin : 30px;
+.main-content{
+	display:block;
+	border-bottom: 1px solid black;
 	border-top: 1px solid black;
-}
 
+}
+.main-content .middle-img{
+	display: block;
+
+	
+}
 .main-content .top-content{
 	width: 880px;
 	display:flex;
 	justify-content: space-between;
-	margin : 30px;
-	border-top: 1px solid black;
+	margin: 40px auto;
 }
+.main-content .bottom-content {
+	width: 880px;
+	display:flex;
+	justify-content: space-between;
+	margin: 40px auto;
+	text-align: justify;
+}
+
+
 
 footer p{
 	text-align: center;
