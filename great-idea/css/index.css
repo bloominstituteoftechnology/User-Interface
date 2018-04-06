@@ -142,11 +142,13 @@ header nav a {
 .main-content .bottom-content {
 	width: 880px;
 	display:flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	margin: 40px auto;
 	text-align: justify;
 }
-
+.main-content .bottom-content .text-content{
+	padding-left: 20px;
+}
 
 
 footer p{
