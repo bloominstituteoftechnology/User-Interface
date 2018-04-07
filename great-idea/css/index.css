@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /*flex box*/
 .container {
 	display: flex;
+	width: 800px;
 	flex-direction: column;
 	justify-content: center;
 }
