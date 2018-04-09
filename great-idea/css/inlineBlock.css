@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	
+}
+/* * {
+	outline: yellow 2px solid;
+} */
+
+.container {
+   width: 880px;
+   margin: 0 auto;
+}
+
+header {
+	display: inline-block;
+	margin-top: 25px;
+	
+}
+
+header nav {
+	display: inline-block;
+	width: 600px;
+	
+}
+
+header nav a {
+	display: inline-block;
+	margin-right: 45px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+
+	
+}
+
+header nav .logo {
+	position: relative;
+	right: 0;
+}
+
+ .cta {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 40px;
+
+}
+
+.cta-text {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	font-size: 75px;
+	text-align: center;
+	
+}
+
+.cta .cta-text button {
+	font-size: 29%;
+
+	
+}
+
+.main-content {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 76px;
+	padding-top: 30px;
+	
+	
+}
+
+.main-content .top-content .text-content {
+	display:inline-block;
+	width: 400px;
+	margin-right: 34px;	
+}
+
+.main-content .middle-img {
+	margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	display: inline-block;
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 270px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+}
+
+.contact {
+	margin-top: 25px;
+	padding: 35px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 30px 0;
+	text-align: center;
+}
