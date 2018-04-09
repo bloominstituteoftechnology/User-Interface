@@ -16,20 +16,20 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin:0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: top;
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
-	line-height: 1;
+	line-height: 0;
 }
 ol, ul {
 	list-style: none;
@@ -49,16 +49,52 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    box-sizing:flex;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: auto;
+	width: 95%;
+	max-width: 1000px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container{
+	width: 90;
+	margin: auto
+}
+
+.container header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1px
+}
+
+ header nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+ header logo {
+	display: flex;
+}
+
+.cta{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.cta .cta-text{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
