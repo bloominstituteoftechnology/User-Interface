@@ -64,25 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 90%;
+	width: 880px;
 	margin: 0 auto;
  }
 
-/* header {
-	width: 100%;
-	display: inline-block;
-} */
-
 nav {
-	width: 79%;
+	width: 691px;
 	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
 }
 
 nav a {
 	text-decoration: none;
 	color: gray;
 	display: inline-block;
-	width: 16%;
+	font-size: 14px;
+	margin-right: 65px;
 }
 
 header nav a:hover {
@@ -90,27 +88,24 @@ header nav a:hover {
   }
 
 .logo {
-	max-width: 20%;
-	margin-top: 50px;
+	margin-top: 25px;
 	display: inline-block;
-	vertical-align: middle;
 }
 
 .cta {
 	border-bottom: 1px solid black;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 45px;
 }
 
 .cta-text {
 	text-align: center;
-	width: 50%;
 	display: inline-block;
-	font-size: 75px;
+	margin: 84px;
+	font-size: 77px;
 }
 
 .cta-text button {
-	width: 22%;
+	width: 150px;
 	height: 25px;
 	position: relative;
 	top: -40px;
@@ -121,7 +116,6 @@ header nav a:hover {
 }
 
 .cta image {
-	width: 50%;
 	display: inline-block;
 }
 
