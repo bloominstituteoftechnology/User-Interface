@@ -62,3 +62,111 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
+}
+
+nav {
+	flex: 1;
+	height: 100%;
+	align-items: center;
+	padding: 0 50px  0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+nav a {		
+	text-decoration: none;
+	color: grey;
+	font-size: 15px;
+	
+}
+
+nav li a:hover {		
+	color: darkslategray;
+
+}
+
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+.cta-text {
+	flex: 3;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 5em;
+}
+
+.cta button {
+	width: 175px;
+	height: 30px;
+	background: white;
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+.main-content {
+border-top: 1px solid black;
+margin: 50px 0;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-content .text-content {
+	margin: 50px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	display: flex;
+	margin: 50px 0;
+	justify-content: space-around;
+
+}
+
+.bottom-content .text-content {
+	flex: 1;
+	padding-left: 10px;
+
+}
+
+.contact {
+	padding: 50px 0 0 0;
+	border-top: 1px solid black;
+}
+
+.contact p {
+	line-height: 20px;
+	padding: 10px 0 0 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+} 
