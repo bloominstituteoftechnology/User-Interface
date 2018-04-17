@@ -62,3 +62,95 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+/*first container*/
+nav a {
+    display: inline-block;
+    padding: 25px 60px 60px 0;
+    text-decoration: none;
+    color: darkgray;
+}
+
+ nav, .logo {
+   display: inline-block;
+    padding-top: 30px;
+}
+.logo {
+    padding-right: 30px;
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* end first container*/
+
+/*second container CTA*/
+.cta {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.cta-text {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    
+}
+.cta {
+    align-content: center;
+}
+.cta-text h1{
+    font-size: 350%;
+}
+.cta img{
+    display: inline-block;
+    max-width: 100%;
+    padding-left: 40px;
+    height: auto;
+}
+/* end of second container*/
+
+/*third container - main-content*/
+.main-content {
+    border-top: solid gray 2px;
+    margin-top: 30px;
+}
+.top-content {
+    padding: 30px 0 30px;
+    
+}
+.text-content {
+    width: 49%;
+    display: inline-block;
+    padding: 0 10px;
+}
+/*end of third container*/
+/* ****fourth container bottom-content */
+.bottom-content {
+    margin-top: 30px;
+    border-bottom: solid gray 2px;
+    padding-bottom: 30px;
+}
+.bottom-content .text-content {
+    display: inline-block;
+    width: 33%;
+    padding: 0 10px;
+}
+/* end of fourth container*/
+
+/* start contact*/
+.contact {
+    padding: 30px 0 30px;
+}
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* end contact*/
