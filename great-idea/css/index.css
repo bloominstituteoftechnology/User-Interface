@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -62,3 +62,116 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+.container .logo { 
+    background: green;
+    
+    
+    
+}
+
+.cta img{
+    display: inline;
+    vertical-align: top;
+    position: relative;
+    bottom: 250px;
+    left: 700px; 
+    
+}
+
+.cta-text h1{
+    display: inline-block;
+    
+    width: 38%;
+    font-size: 600%;
+    position: relative;
+    
+    left: 200px;
+    top: 100px;
+    
+    
+    
+}
+
+.cta-text button{
+    font-size: 100%;
+    position: relative;
+    top: 200px;
+    right: 80px;
+    padding: 8px 33px 8px 33px;
+    border: 1px solid black;
+}
+
+nav a{
+    
+    background: blue;
+    color: gray;
+    border: solid red;
+    
+}
+
+.main-content{
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.top-content .text-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 45%;
+    
+    
+    
+}
+
+.bottom-content .text-content{
+    /*padding-top: 40px; 
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;*/
+    background: pink; 
+    border: solid red;
+    
+    
+    
+    width: 33%;
+    
+}
+
+.container .contact  {
+    display: flex;
+    background: yellow;
+    padding: 40px;
+    border: solid green;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container .contact p{
+    background: gray;
+    border: solid red;
+    
+}
+
+.middle-img {
+    
+    padding-left: 40px;
+    
+}
+
+footer {
+    display: flex; 
+    justify-content: center;
+    position: relative; 
+    
+
+}
+
