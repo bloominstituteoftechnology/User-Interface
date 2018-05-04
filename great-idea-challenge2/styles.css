@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -69,40 +69,40 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-  padding: 20px 0;
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  align-items: center;
 }
 
 header nav {
-  display: inline-block;
-  width: 82%;
-
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
 }
 
-header a {
+header nav a {
   text-decoration: none;
-  margin-right: 10%;
-  display: inline;
 }
 
 header img {
-position: relative;
-top: 8px;
-
+  flex: 1;
+  padding-left: 90px;
 }
 
 .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 50%;
+  margin-bottom: 50px;
   border-bottom: 1px solid black;
   padding-bottom: 50px;
-  margin-bottom: 50px;
 }
 
 .cta-text {
-  display: inline-block;
-  width: 60%;
   text-align: center;
-  position: relative;
-  top: -50px;
+  flex: 1;
 }
 
 .cta-text h1 {
@@ -116,35 +116,33 @@ top: 8px;
   font-size: 1.1rem;
 }
 
-.cta img {
-  margin-left: 40px;
-}
-
 .main-content {
- border-bottom: 1px solid black;
- padding-bottom: 50px;
- margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
 }
 
 .main-content .top-content {
-  margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
 }
 
 .main-content .top-content .text-content {
-  width: 49%;
-  display: inline-block;
-  padding-right: 1%;
+  flex-basis: 49%;
 }
 
 .main-content .middle-img {
   width: 100%;
-  margin-bottom: 50px;
 }
 
-.main-content .bottom-content .text-content {
-  width: 33%;
-  display: inline-block;
-  padding-right: 1%;
+.main-content .bottom-content {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.main-content .bottom-content .text-content{
+  flex-basis: 32%;
 }
 
 .contact {
@@ -157,5 +155,5 @@ top: 8px;
 
 footer {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
