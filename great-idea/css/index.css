@@ -148,3 +148,23 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
+.container {
+  border: 1px solid green;
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  display: inline-block;
+  border: 1px solid red;
+}
+header nav {
+  display: inline-block;
+}
+header nav a {
+  display: inline-block;
+  margin-left: 60px;
+}
+header img {
+  display: inline-block;
+  margin-left: 100px;
+}
