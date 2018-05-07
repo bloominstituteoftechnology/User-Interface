@@ -161,6 +161,8 @@ header nav {
 header nav a {
   display: inline-block;
   margin-left: 60px;
+  text-decoration: none;
+  color: gray;
 }
 header img {
   display: inline-block;
