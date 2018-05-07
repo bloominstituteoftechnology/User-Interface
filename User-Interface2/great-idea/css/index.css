@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+header {
+	height: 50px;
+}
+
+header nav{
+	display: inline-block;
+	vertical-align: middle;
+	height: 50x;
+}
+
+header nav a{
+	margin-right: 150px;
+	margin-left: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+header .logo {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.cta {
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.cta button{
+	font-size: 15px;
+	width: 180px;
+	height: 40px;
+}
+.cta-text {
+	font-size: 650%;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+.cta img{
+	margin-left: 100px;
+	height: 500px;
+}
+
+.main-content{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black; 
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+.main-content .top-content .text-content{
+	display: inline-block;
+	vertical-align: top;
+	width:  800px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	font-size: 120%;
+}
+.main-content .middle-img{
+	width: 1800px;
+}
+.main-content .bottom-content .text-content{
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	width:  580px;
+	margin-bottom: 50px;
+	font-size: 120%;
+}
+
+.contact {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#phone {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-left: 850px;
+	margin-bottom: 120px;
+}
+
+
