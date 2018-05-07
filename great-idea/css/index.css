@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,95 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+
+
+
+nav a {
+	font-size: 14px;
+	display: inline-block;
+	color: grey;
+	margin: 40px -5px 0px 70px;
+	float: left;
+	postition: relative;
+	text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    float: center;
+    left: 75px;
+		top: 0px;
+		margin: 30px 25px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	position: relative;
+	float: left;
+	font-size: 80px;
+	text-align: center;
+	margin: 90px 50px 0px 140px;
+}
+
+.cta img {
+	margin: 30px 20px 35px 40px;
+}
+
+.cta button {
+display: inline-block;
+position: relative;
+	color: #000000;
+  font-size: 18px;
+  background: white;
+  padding: 8px 40px 7px 40px;
+	bottom: 50px;
+	margin: -50px 0px 0px 0px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+.main-content {
+	display: inline-block;
+	position: relative;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-bottom: 50px;
+	margin: 50px 60px 50px;
+}
+
+.main-content .top-content {
+	-webkit-column-count: 3;
+	column-count: 2;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.main-content img {
+	margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	-webkit-column-count: 3;
+	column-count: 3;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.contact {
+	display: inline-block;
+	position: relative;
+	margin: -20px 20px 40px 60px;
+}
+
+.contact p {
+	margin-bottom: 20px;
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 120px;
 }
