@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,111 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+	margin: 50px;
+}
+
+header {
+	height: 100px;
+}
+
+nav {
+	float: left;
+	width: 75%;
+}
+nav a {
+	color: gray;
+	display: inline-block;
+	line-height: 100px;
+	margin-bottom: auto;
+	margin-right: 60px;
+	margin-top: auto;
+	text-decoration: none;
+}
+
+.logo {
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	line-height: 100px;
+	width: 25%;
+}
+
+.cta {
+	border-bottom: 1px solid black;
+	margin-bottom: 60px;
+	padding: 100px;
+	width: 100%;
+}
+
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.cta img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	/* width: 50%; */
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	width: 40%;
+}
+
+.main-content {
+	border-bottom: 1px solid black;
+	margin-bottom: 60px;
+}
+
+.main-content p {
+	line-height: 24px;
+}
+
+.top-content {
+	margin-bottom: 60px;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img {
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+.bottom-content {
+	margin-bottom: 60px;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact {
+	margin-bottom: 60px;
+}
+
+.contact p {
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
 }
