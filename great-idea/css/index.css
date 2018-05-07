@@ -75,8 +75,6 @@ h1, h2, h3, h4, h5 {
 
 
 header {
-	display:inline-block;
-	text-align: center;
 	margin: 10px;
 	padding: 10px;
 	width: 876px;
@@ -105,13 +103,13 @@ header .logo {
 
 .cta {
 	display: inline-block;
+	text-align: center;
 	margin: 20px;
 	width: 876px;
 }
 .cta .cta-text {
 	display: inline-block;
 	text-align: center;
-	/* font-size: 50px; */
 	width: 50%;
 	font-size: 70px;
 	padding: 50px;
@@ -124,9 +122,12 @@ header .logo {
 	border-top: 1px solid black;
 	border-right: 1px solid black;
 	border-left: 1px solid black;
-	/* border-top: : 2px solid black; */
 
+}
 
+.cta button:hover{
+	color: white;
+	background-color: black;
 }
 
 .cta .cta-text img {
@@ -145,10 +146,11 @@ header .logo {
 }
 
 .main-content .top-content {
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 .main-content .top-content .text-content {
+	border: 2px solid red;
 	margin: 10px;
 	display: inline-block;
 	width: 45%;
