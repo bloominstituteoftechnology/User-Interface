@@ -149,11 +149,12 @@ h5 {
   margin-bottom: 15px;
 }
 .container {
-  border: 1px solid green;
   max-width: 1000px;
   margin: auto;
 }
-
+header {
+  margin-bottom: 70px;
+}
 header nav {
   display: inline-block;
 }
@@ -183,7 +184,6 @@ header img {
 }
 .main-content {
   display: inline-block;
-  border: 3px solid green;
 }
 .top-content {
   display: flex;
@@ -197,4 +197,23 @@ header img {
 }
 .main-content .middle-img {
   margin-left: 58px;
+}
+.main-content .bottom-content {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+.main-content .bottom-content .text-content {
+}
+.contact {
+  margin-left: 40px;
+}
+.contact p {
+  margin-bottom: 15px;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
