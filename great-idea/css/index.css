@@ -109,6 +109,10 @@ header nav a{
 	background-color: white;
 	padding: 5px 15px;
 }
+.cta button:hover{
+	color: white;
+	background-color: black;
+}
 
 .cta img {
 	vertical-align: middle;
