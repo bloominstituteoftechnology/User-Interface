@@ -196,6 +196,7 @@ header img {
 .top-content {
   display: flex;
   margin: 40px 40px 30px;
+  padding: 3px;
 }
 .top-content .text-content {
   display: inline-block;
@@ -206,6 +207,7 @@ header img {
 .main-content .bottom-content {
   display: flex;
   margin: 40px 40px 30px;
+  padding: 9px;
 }
 
 .contact {
