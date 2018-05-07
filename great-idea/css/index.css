@@ -62,3 +62,133 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/*============================
+
+  PROJECT CLASSES
+
+==============================*/
+
+h1 {
+  font-size: 80px;
+}
+
+header {
+  height: 36px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 60px 0 0;
+  color: #aeaeae;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  transition: all .3s ease-out;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+nav a:last-child {
+  margin: 0;
+}
+
+button {
+  width: 174px;
+  height: 34px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+button:hover {
+  color: white;
+  background-color: #333;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 1024px;
+  margin: auto;
+  padding: 40px 75px;
+}
+
+.logo {
+  display: inline-block;
+  float: right;
+}
+
+.cta {
+  padding: 75px 0;
+  clear: both;
+}
+
+.cta-text {
+  display: inline-block;
+  width: 490px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cta img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+}
+
+.text-content {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+.text-content:last-child {
+  padding: 0;
+  float: right;
+}
+
+.top-content .text-content {
+  width: 50%;
+}
+
+.middle-img {
+  margin: 40px 0;
+  clear: both;
+}
+
+.bottom-content .text-content {
+  width: 33%;
+}
+
+.contact {
+  padding: 40px 0 60px;
+  clear: both;
+}
+
+.contact p:nth-last-child(2) {
+  margin: 18px 0;
+}
+
+
+
+
+
