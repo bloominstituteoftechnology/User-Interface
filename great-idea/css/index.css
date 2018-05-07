@@ -90,6 +90,7 @@ a:visited{
 
 .cta{
 		margin: 45px;
+		width: 1200px;
 }
 
 .cta-text{
@@ -178,6 +179,7 @@ h4{
 }
 
 footer{
+	width: 1200px;
 	text-align: center;
 	padding-bottom: 75px;
 }
