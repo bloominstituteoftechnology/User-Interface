@@ -166,7 +166,9 @@ header img {
   display: inline-block;
   margin-left: 100px;
 }
-
+.cta {
+  margin-bottom: 110px;
+}
 .cta .cta-text {
   display: inline-block;
   font-size: 75px;
@@ -186,7 +188,8 @@ header img {
   margin-left: 98px;
 }
 .main-content {
-  display: inline-block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .top-content {
   display: flex;
@@ -202,13 +205,12 @@ header img {
   display: flex;
   margin: 40px 40px 30px;
 }
-.main-content .bottom-content .text-content {
-}
+
 .contact {
-  margin-left: 40px;
+  margin: 40px 0 60px 40px;
 }
 .contact p {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 footer {
   display: flex;
