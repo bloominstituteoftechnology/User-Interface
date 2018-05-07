@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,83 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/* Nav Bar */
+header {
+	margin-bottom: 50px;
+	line-height: 75px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	text-decoration: none;
+	color: grey;
+	margin: auto 35px;
+	font-size: 12px;
+}
+
+.logo {
+	margin: 20px 0px -10px 0px;
+	display: inline-block;
+}
+
+/*For Innocation on Demand and Code Globe */
+.cta {
+	margin-bottom: 100px;
+}
+
+.cta:after {
+	content: "";
+	display: block;
+	margin: 0 25px;
+	width: 50%;
+	padding-top: 75px;
+	border-bottom: 1px solid grey;
+}
+
+.cta img {
+padding-bottom: -25px;
+display: inline-block;
+}
+
+.cta .cta-text{
+	font-size: 75px;
+	width: 25%;
+	display: inline-block;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.cta .cta-text h1 {
+	text-align: center;
+	margin-bottom: -25px;
+}
+
+.cta .cta-text button {
+	background-color: white;
+	border: 1px black solid;
+	color: black;
+	padding: 5px 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px
+	margin: -50px -25px 300px 25px;
+}
+
+/*For the paragraphs and image */
+.main-content .top-content .text-content {
+	display: inline-block;
+}
+
+.text-content p {
+	text-align: center;
+}
+
+.main-content .top-content {
+	padding-top: 1px:
+	border-top: 3px solid grey;
 }
