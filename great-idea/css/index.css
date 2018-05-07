@@ -187,10 +187,7 @@ header img {
 }
 .top-content {
   display: flex;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 30px;
+  margin: 40px 40px 30px;
 }
 .top-content .text-content {
   display: inline-block;
@@ -200,10 +197,7 @@ header img {
 }
 .main-content .bottom-content {
   display: flex;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 30px;
+  margin: 40px 40px 30px;
 }
 .main-content .bottom-content .text-content {
 }
