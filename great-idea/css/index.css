@@ -62,3 +62,95 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header {
+	height: 120px;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	background-color: white;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	height: 40px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+header nav a {
+	padding: 0% 4% 0% 4%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: center;
+	font-size: 16px;
+	color: #CDCDCD;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header .logo {
+	vertical-align: middle;
+	position: absolute;
+	display: inline-block;
+	width: 250px;
+
+}
+
+.cta {
+	display: block;
+	vertical-align: middle;
+	border-bottom:1px solid #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	font-size: 88px;
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+.cta h1 {
+	padding: 0px;
+	text-align: center;
+}
+
+.cta button {
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	background-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	vertical-align: center;
+	border: solid 2px #000000;
+}
+
+.cta img {
+	display: inline-block;
+	width: 560px;
+}
+
+.main-content {
+	border-bottom:1px solid #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
