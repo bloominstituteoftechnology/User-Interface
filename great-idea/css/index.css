@@ -62,3 +62,62 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	padding: 30px;
+	display: inline-block;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header nav a {
+	display: inline-block;
+	color: gray;
+	padding: 30px 40px;
+	text-decoration: none;
+}
+
+header .logo {
+	display: inline-block;
+	
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.cta {
+	border: 1px solid red;
+	display: inline-block;
+	padding: 80px;
+}
+
+.cta .cta-text {
+	border: 1px solid orange;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.cta .cta-text h1 {
+	border: 1px solid blue;
+	display: block;
+	font-size: 80px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	border: 1px solid blue;
+	background-color: white;
+	font-family: 'Titillium Web';
+	font-size: 18px;
+	display: block;
+	padding: 5px 40px;
+	
+}
+
+.cta img {
+	border: 1px solid green;
+	display: inline-block;
+}
