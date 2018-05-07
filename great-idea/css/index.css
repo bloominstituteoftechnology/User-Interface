@@ -62,3 +62,66 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+header nav {
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 30px 45px;
+}
+
+header .logo {
+	position: relative;
+	top: 10px;
+	left: 60px;
+
+	
+}
+
+.container {
+	padding: 0px 76px 100px;
+}
+
+.cta {
+	margin: 50px 0;
+	display: block;
+}
+
+.cta-text h1 {
+	font-size: 75px;
+}
+.cta-text {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	top: 60px;
+	left: 200px;
+}
+
+.cta img {
+	position: relative;
+	left: 400px;
+}
+
+.main-content {
+	border: 1px solid green;
+}
+
+.top-content {
+	border: 1px solid blue;
+}
+
+
+.text-content {
+	border: 1px solid pink;
+}
