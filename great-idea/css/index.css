@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,79 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+	width: 876px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+header nav {
+	display: inline-block;
+	width: 75%;
+	vertical-align: middle;
+}
+
+header nav a {
+	display: inline-block;
+  margin-right: 50px;
+}
+
+header .logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cta {
+	margin-top: 50px;
+}
+
+.cta-text {
+	font-size: 70px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 50px;
+}
+
+.main-content {
+	margin-top: 70px;
+	border-top: 1px solid black;
+}
+
+.cta img {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.top-content {
+	display: inline-block;
+}
+
+.text-content h4 {
+	margin-top: 30px;
+	margin-left: 26px;
+}
+
+.text-content p {
+	display: inline-block;
+	margin-left: 26px;
+	float: left;
+	width: 40%;
+}
+
+.middle-img {
+	height: 130px;
+	margin-left: 26px;
+	width: 90%;
+}
+
+.contact {
+	margin-left: 26px;
+	margin-top: 160px;
+	border-top: 1px solid black;
+}
+
+footer p {
+	margin-left: 350px;
 }
