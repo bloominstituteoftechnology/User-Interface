@@ -58,7 +58,98 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Bangers', cursive;
+	
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+header nav a {
+	display:inline-block;
+	color: grey;
+	margin: 60px 60px;
+	vertical-align:middle;
+	text-decoration: none;
+	
+}
+header nav {
+	display:inline;
+	
+}
+
+header nav img {
+	display: inline-block;
+	margin: 30px 60px;
+	vertical-align:middle;
+	
+}
+
+.cta {
+	margin: 10px 25px 10px 25px;
+	padding: 20px 100px;
+	border-bottom: solid black 2px;
+	
+	
+
+}
+.cta .cta-text {
+	font-size: 100px;
+	display: inline-block;
+	margin: 10px 25px 10px 25px;
+
+
+	
+}
+.cta .cta-text h1{
+	
+
+	
+}
+.cta .cta-text button{
+	
+	margin: 10px 10px 50px 50px;
+	padding: 5px 60px;	
+	vertical-align: top;
+	background:white;
+	border:1px solid black;
+	font-family: sans-serif;
+}
+.cta img {
+	float:right;
+}
+
+.main-content .top-content .text-content {
+
+	display:inline-block;
+	margin: 10px 25px 10px 25px;
+	width: 600px;
+	height:100px;
+}
+.main-content .middle-img {
+	Margin: 10px 200px;
+}
+
+.main-content .bottom-content .text-content {
+	
+	display:inline-block;
+	margin: 10px 25px 10px 25px;
+	width: 300px;
+	height:150px;	
+}
+.main-content .bottom-content  {
+
+	margin: 10px 25px 10px 25px;
+	padding: 20px 100px;
+	border-bottom: solid black 2px;
+		
+}
+
+.contact h4 {
+	margin: 20px 20px;
+}
+.contact p {
+	margin: 20px 20px;
+}
+footer {
+	margin: 10px 500px;
 }
