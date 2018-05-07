@@ -105,8 +105,24 @@ header .logo {
 }
 .cta img {
   width: 320px;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
+.main-content {
+  margin: 60px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-content .top-content {
+}
+
+.main-content .top-content .text-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
 
 
