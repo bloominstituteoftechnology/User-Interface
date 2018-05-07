@@ -62,3 +62,51 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+header nav {
+  padding: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 80px;
+}
+
+header .logo {
+  float: right;
+  margin: 20px 70px 0px 0px;
+}
+
+.cta {
+  margin-top: 100px;
+}
+
+.cta .cta-text {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.cta .cta-text h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.cta .cta-text button {
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  width: 180px;
+}
+.cta img {
+  width: 320px;
+  margin-left: 200px;
+}
+
+
+
