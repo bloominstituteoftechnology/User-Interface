@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,123 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+
+header{
+	padding: 20px;
+	text-align: center;
+	width: 1289px;
+	word-spacing: 100px;
+}
+
+nav{
+	position: relative;
+	display: inline;
+	vertical-align: 10px;
+}
+
+a:link{
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited{
+	color: gray;
+	text-decoration: none;
+}
+
+
+.cta{
+		margin: 45px;
+}
+
+.cta-text{
+	font-size: 90px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	left: 175px;
+	top: 50px;
+}
+
+.logo2{
+	float: right;
+	position: relative;
+	right: 175px;
+}
+
+button{
+	border: solid black 1px;
+	padding: 5px 60px;
+	font-size: 18px;
+	color: black;
+	position: relative;
+	bottom: 60px;
+	background-color: white;
+}
+
+.top-content{
+	width: 1200px;
+	margin: 50px;
+}
+.line0{
+	position: relative;
+	left: 50px;
+	height: 1px;
+	width:1100px;
+	border: solid black 1px;
+}
+
+h4{
+	font-size: 35px;
+}
+
+.top-content .text-content{
+	position: relative;
+	width: 550px;
+	display: inline-block;
+	padding: 0px;
+	font-size: 20px;
+}
+
+.middle-img{
+	position: relative;
+	left: 50px;
+	width: 1100px;
+	height: auto;
+}
+
+.bottom-content{
+	margin: 50px;
+}
+
+.bottom-content .text-content{
+	position: relative;
+	width: 375px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.line1{
+	position: relative;
+	left: 50px;
+	height: 1px;
+	width:1100px;
+	border: solid black 1px;
+	bottom: 25px;
+}
+
+.contact{
+	font-size: 20px;
+}
+
+.contact p{
+	padding-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 75px;
 }
