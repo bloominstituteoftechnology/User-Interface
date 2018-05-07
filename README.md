@@ -13,7 +13,7 @@ Given this [design file](design-files/desktop.jpg), use CSS to style the web pag
 
 ***Stretch Goal:*** 
 - Delete the provided HTML and build your own structure
-- Attemp the layout using floats and clears
+- Attempt the layout using floats and clears
 
 #### To Get Started
 * Fork / Clone this project into a directory on your machine.

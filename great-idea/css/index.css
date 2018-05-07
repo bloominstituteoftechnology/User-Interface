@@ -62,3 +62,65 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav{
+	display: inline-block;
+	list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 75%;
+    text-align: center;
+    height:40px;
+}
+
+a{
+	margin: 50px;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.cta{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	background: pink;
+	
+}
+
+.top-content{
+	border-top: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	columns: 2;
+	padding: 38px 76px 38px 76px; 
+}
+
+.middle-img{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+
+.bottom-content{
+	display: inline-block;
+	vertical-align: top;
+	columns: 3;
+	padding: 38px 76px 38px 76px; 
+	border-bottom: 1px solid black;
+}
+
+.contact{
+	display: inline-block;
+	padding: 38px 76px 38px 76px; 
+	vertical-align: top;
+	width: 100%;
+}
+
+footer{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+}
