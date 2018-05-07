@@ -62,3 +62,121 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+*{
+	box-sizing: border-size;
+}
+
+header{
+        /*border: 1px solid red;*/
+        vertical-align: baseline;
+}
+
+a{
+        display: inline-block;
+        color: gray;
+        font-size: 12px;
+        text-decoration:none;
+        padding: 40px;
+        /*margin-right: 20px;*/
+}
+
+
+nav{
+        display: inline-block;
+        text-align: center;
+        margin-left: 5%;
+}
+
+.logo{
+        display: inline-block;
+	width: 150px;
+	/*float: right;
+	margin-right: 200px;*/
+        margin-left: 5%;
+        margin-right: 10%;
+}
+
+
+.cta{
+        text-align: center;
+	margin-bottom: 50px;
+	/*margin-left:10px;*/
+}
+
+
+
+.cta-text{
+        display: inline-block;
+        font-size: 60px;
+        margin-right: 300px;
+}
+
+.cta img{
+	width: 20%;
+	/*margin-right:100px;*/
+}
+
+h1{
+	margin-bottom: -20px;
+}
+
+ button{
+	height: 25px;
+	width : 120px;
+	color: gray;
+	font-size : 14px;
+	border: 1px solid black;
+	background: white;
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+.main-content{
+	margin-left: 5%;
+	margin-right: 5%;
+	border-top: 1px solid black;
+}
+
+.top-content{	
+	margin-bottom: 20px;
+}
+
+
+.text-content{
+	width: 25%;
+	margin-top: 20px;
+	margin-right: 100px;
+        display: inline-block;
+}
+
+.main-context img{
+	width: 300px;
+}
+
+
+p{
+	font-size: 14px;
+}
+
+
+.contact{
+	border-top: 1px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+}
+
+.contact h4{
+	margin-top: 20px;
+}
+
+.contact h4 p{
+	margin-bottom: 20px;
+}
+
+footer{
+	margin-top: 40px;
+	text-align: center;
+}
