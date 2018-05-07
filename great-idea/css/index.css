@@ -63,6 +63,9 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.container {
+	margin: 10px 50px 20px 50px;
+}
 
 header nav a {
 	display:inline-block;
@@ -96,15 +99,10 @@ header nav img {
 	font-size: 100px;
 	display: inline-block;
 	margin: 10px 25px 10px 25px;
-
-
-	
+	width: 400 px;
+	text-align: center;
 }
-.cta .cta-text h1{
-	
 
-	
-}
 .cta .cta-text button{
 	
 	margin: 10px 10px 50px 50px;
@@ -112,7 +110,8 @@ header nav img {
 	vertical-align: top;
 	background:white;
 	border:1px solid black;
-	font-family: sans-serif;
+	font-family: Titillium Web;
+	font-size: 20px;
 }
 .cta img {
 	float:right;
@@ -122,19 +121,21 @@ header nav img {
 
 	display:inline-block;
 	margin: 10px 25px 10px 25px;
-	width: 600px;
-	height:100px;
+	width: 500px;
+	height:100px;	
 }
 .main-content .middle-img {
 	Margin: 10px 200px;
+
 }
 
 .main-content .bottom-content .text-content {
 	
 	display:inline-block;
-	margin: 10px 25px 10px 25px;
+	margin: 10px 10px 10px 10px;
 	width: 300px;
-	height:150px;	
+	position: relative;
+	right:110px;
 }
 .main-content .bottom-content  {
 
@@ -146,10 +147,14 @@ header nav img {
 
 .contact h4 {
 	margin: 20px 20px;
+	text-align:left;
 }
 .contact p {
 	margin: 20px 20px;
+	text-align:left;
 }
 footer {
-	margin: 10px 500px;
+	text-align:center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
