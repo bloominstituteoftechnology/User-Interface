@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -54,11 +54,86 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container .logo {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.navlink {
+	padding: 30px;
+
+}
+
+header {
+	display: table-cell;
+	vertical-align: middle;
+	height: 75px;
+}
+.container .cta {
+	display: inline-block;
+	border-bottom: 1px solid black
+}
+
+.container .cta .cta-text {
+	font-size: 65px;
+	width: 40%;
+	display: inline-block;
+	padding: 50px;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.container .cta .circlecode {
+	display: inline-block;
+	width: 50%;
+	padding: 50px;
+	vertical-align: middle;
+}
+
+.container .main-content {
+	padding: 20px;
+	display: inline-block;
+}
+
+.main-content .top-content {
+	display: inline-block;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 40%;
+	box-sizing: border-box;
+	margin: 25px;
+}
+
+.main-content .bottom-content {
+	display: inline-block;
+	border-bottom: 1px solid black
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 25%;
+	box-sizing: border-box;
+	margin: 25px;
+}
+
+.contact {
+	margin: 10px;
+	display: block;
+}
+
+footer {
+	text-align: center;
 }
