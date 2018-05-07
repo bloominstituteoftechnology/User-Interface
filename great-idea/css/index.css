@@ -62,3 +62,50 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+header nav a {
+	margin-left: 50px;
+	display: inline-block;
+	border: 2px solid orange;
+}
+
+section {
+	display: inline-block;
+}
+
+ img.logo {
+	border: 2px solid orange;
+	float: right;
+}
+
+img .header-img {
+	float: right;
+}
+
+.mid-page .top .left {
+	display: inline-block;
+}
+
+.mid-page .top .right {
+	display: inline-block;
+}
+
+.mid-page-accent {
+	display: block;
+}
+
+.mid-page .bottom .left {
+	display: inline-block;
+}
+
+.mid-page .bottom .middle {
+	display: inline-block;
+}
+
+.mid-page .bottom .right {
+	display: inline-block;
+}
+
+
