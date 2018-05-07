@@ -153,10 +153,7 @@ h5 {
   max-width: 1000px;
   margin: auto;
 }
-header {
-  display: inline-block;
-  border: 1px solid red;
-}
+
 header nav {
   display: inline-block;
 }
@@ -167,4 +164,24 @@ header nav a {
 header img {
   display: inline-block;
   margin-left: 100px;
+}
+.cta {
+  border: 1px solid red;
+}
+.cta .cta-text {
+  border: 1px solid blue;
+  display: inline-block;
+  font-size: 75px;
+  margin-left: 170px;
+}
+.cta h1 {
+  text-align: center;
+}
+.cta button {
+  margin-left: 95px;
+}
+.cta img {
+  border: 2px solid purple;
+  display: inline-block;
+  margin-left: 98px;
 }
