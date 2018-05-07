@@ -198,8 +198,9 @@ header img {
   margin: 40px 40px 30px;
   padding: 3px;
 }
-.top-content .text-content {
+.main-content .top-content .text-content {
   display: inline-block;
+  padding: 9px;
 }
 .main-content .middle-img {
   margin-left: 58px;
@@ -207,6 +208,8 @@ header img {
 .main-content .bottom-content {
   display: flex;
   margin: 40px 40px 30px;
+}
+.main-content .bottom-content .text-content {
   padding: 9px;
 }
 
