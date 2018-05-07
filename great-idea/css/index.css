@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +50,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -61,4 +62,74 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+	max-width: 875px;
+	margin-left: 70px;
+	padding-top: 25px; 
+	font: 0px;
+}
+
+header {
+	min-height: 100px;
+}
+
+header nav {
+	padding-top: 20px;
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+	vertical-align: middle;
+}
+
+header nav a {
+	font-size: .9rem;
+	color: gray;
+	text-decoration: none;
+	min-height: 10%;
+	width: 16%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+header img {
+	padding-top: 10px;
+	width: 20%;
+	float: right;
+}
+
+.cta {
+	min-height: 400px;
+	height: auto;
+	font-size: 0;
+	display: block;
+}
+
+.cta-text {
+	padding-top: 100px;
+	padding-left: 3%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	width: 45%
+}
+
+.cta-text h1 {
+	font-size: 78px;
+	text-align: center;
+}
+
+.cta img {
+	display: inline-block;
+	width: 40%;
+	margin: 0px;
+	padding: 0px;
+	/*margin: 4%;*/
+}
+
+.main-content {
+	margin-top: 55px;
+	border-top: 1px solid black;
+
 }
