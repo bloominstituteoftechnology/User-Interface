@@ -76,6 +76,10 @@ header nav {
 
 }
 
+nav:hover{
+	color: #333;
+}
+
 header nav a{
 	margin: 20px;
 	text-decoration: none;
