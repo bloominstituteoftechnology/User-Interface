@@ -62,3 +62,122 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+
+
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+header nav {
+	padding-left: 20px;
+	margin: 0
+}
+header nav a {
+	margin-left: 90px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+header img {
+	float: right;
+	margin-top: 30px;
+	margin-right: 120px;
+}
+
+
+
+.cta {
+	margin-top: 70px;
+	width: 100%;
+	display: inline-block;
+
+}
+
+.cta .cta-text {
+	display: inline-block;
+	margin-right: 40%;
+	margin-left: 90px;
+	padding-bottom: 15%;
+}
+
+.cta .cta-text h1 {
+	font-size: 90px;
+	text-align: center;
+}
+
+.cta .cta-text button {
+	text-align: center;
+	margin-left: 100px;
+	font-size: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+
+}
+
+hr {
+	width: 90%;
+	margin: 0 5% 50px 5%;
+}
+
+.main-content {
+	display: inline-block;
+	width: 90%;
+	margin: 0 5% 50px 5%;
+}
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%;
+	height: 130px;
+	padding-right: 5px;
+}
+
+/* .top-content .text-content p {
+	width: 98%;
+} */
+
+.main-content img {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.bottom-content {
+	display: inline-block;
+	width: 90%;
+	margin: 0 5% 50px 5%;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+}
+
+
+.contact {
+	margin-left: 5%;
+}
+.contact p {
+	margin-top: 13px;
+}
+
+footer {
+	width: 80%;
+	margin: 5%;
+	padding-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
