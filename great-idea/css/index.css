@@ -62,3 +62,24 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+
+.container {
+    width: 830px;
+    margin: auto;
+    margin-top: 38px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+}
+
+nav a {
+    margin: 0 25px;
+    display: inline-block;
+    color: lightgray;
+
+}
