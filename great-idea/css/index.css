@@ -62,3 +62,121 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 6%;
+}
+
+header nav {
+	/* border: 1px solid red; */
+	display: inline-block;
+	font-size: 17px;
+	width: 80%;
+	height: 100px;
+	padding: 30px 0;
+}
+
+header nav a{
+	/* border: 1px solid blue; */
+	position: relative;
+	text-decoration: none;
+	color: gray;
+	margin-right: 135px; 
+	top:12px;
+}
+
+header .logo {
+	/* border: 1px solid black; */
+	position: relative;
+	height: 50px;
+	top: 30px;
+	right: -10px;
+}
+
+.cta{
+	/* border: 1px solid black; */
+	border-bottom: 2px solid black;
+}
+
+.cta-text{
+	/* border: 1px solid blue; */
+	position: relative;
+	display: inline-block;
+	width:45%;
+	top: -170px;
+	left: 75px;
+}
+
+.cta img{
+	display:inline-block;
+	/* border: 1px solid red; */
+	height: 620px;
+	margin: 50px 0 50px 160px;
+}
+
+.cta-text h1 {
+	font-size: 120px;
+	text-align: center;
+	display:block;
+	margin:auto;
+}
+
+.cta-text button{
+	border: 2px solid black;
+	font-size: 20px;
+	background: none;
+	width:250px;
+	height: 30px;
+	display: block;
+	margin: 20px auto;
+}
+
+.main-content{
+	/* border: 1px solid blue; */
+	margin-top: 50px;
+	font-size: 20px;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+
+.middle-img{
+	margin-top: 50px;
+	width:100%
+}
+
+.bottom-content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.top-content .text-content{
+	/* border: 1px solid blue; */
+	display: inline-block;
+	width: 49.5%;
+	padding: 10px;
+}
+
+.bottom-content .text-content{
+	/* border: 1px solid blue; */
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.contact{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.contact p{
+	margin-top: 10px;
+}
+
+footer p{
+	margin: 100px 0;
+	text-align: center;
+}
