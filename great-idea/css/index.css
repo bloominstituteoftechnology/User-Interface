@@ -60,5 +60,45 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
+header {
+	width:70%;
+	height: 100px;
+	text-align: center;
+	margin-left: 15%;
+}
+header nav a {
+	color:gray;
+	margin-right:50px;
+	margin-left:20px;
+	margin-top:70px;
+	text-decoration:none;	
+}
+header nav {
+	display: inline-block;
+}
+.cta {
+height: 500px;
+width:70%;
+margin-left:20%;
+margin-bottom:80px;
+border-bottom:2px solid black;
+}
+.cta .cta-text{
+	display: inline-block;
+	font-size:84px;
+	margin-right: 120px;
+	text-align:center;
+	vertical-align:center;
+}
+button{
+	background-color: white;
+	height: 40px;
+	width: 170px;
+	font-size: 20px;
+	border-color: black;
+	outset-color:white;
+}
+
+
