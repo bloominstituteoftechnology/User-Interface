@@ -62,3 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+* {
+	box-sizing:border-box;
+}
+
+a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+h1 {
+	font-size: 125px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+section {
+	padding: 50px 0px;
+}
+
+button {
+	color: black;
+	background-color: white;
+	font-size: 20px;
+	border: 1px solid black;
+	margin: 30px;
+	padding: 10px 50px;
+}
+
+.container {
+	display: inline-block;
+}
+
+header {
+	display: inline-block;
+	padding: 50px 0px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header img {
+	float: right;
+}
+
+.top-content .text-content {
+    width: 49%;
+}
+
+.bottom-content .text-content {
+    width: 32%;
+}
+.text-content {
+    margin: 50px 0px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+	text-align: center;
+    margin-bottom: 200px;
+}
+
+footer p {
+    font-size: 23px;    
+}
+
+section.contact {
+	padding-top: 0px;
+}
