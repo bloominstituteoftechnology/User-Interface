@@ -62,3 +62,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+body {
+	margin: 20px 50px;
+}
+
+.container header nav {
+	display: inline-block;
+}
+
+.container header nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 0px 50px;
+}
+
+.container header .logo {
+	display: inline-block;
+	float: right;
+}
+
+.cta {
+	margin-top: 80px;
+}
+
+.cta-text {
+	display: inline-block;
+	margin-left: 250px;
+}
+
+.cta-text h1 {
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.cta button {
+	display: block;
+	background: white;
+	padding: 2px 25px;
+	border: 1px solid black;
+	margin-left: 105px;
+}
+
+.cta img {
+	display: inline-block;
+	float: right;
+	margin-right: 200px;
+}
+
+.main-content {
+	display: inline-block;
+	clear: right;
+	margin-top: 40px;
+	margin-left: 150px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+}
+
+.main-content .text-content {
+	display: inline-block;
+	max-width: 500px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.main-content img {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.main-content .bottom-content .text-content {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	max-width: 330px;
+}
+
+.contact {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.contact p {
+	margin-top: 15px;
+}
+
+footer {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	text-align: center;
+}
