@@ -70,6 +70,29 @@ nav a{
 }
 
 
-.logo {
+.logo{
 	float: right;
+}
+
+.cta {
+	margin-top: 100px;
+}
+
+.cta h1 {
+	font-size: 30px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+
+}
+
+.cta img{
+	float: right ;
+}
+
+.main-content {
+	margin-top: 100px;
 }
