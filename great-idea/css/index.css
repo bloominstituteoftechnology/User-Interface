@@ -28,8 +28,64 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header{
+		padding: 20px
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	display: inline-block;
+	margin-right: 100px;
+}
+
+header .logo{
+	display: inline-block;
+	float: right;
+}
+
+section.cta {
+    margin: 65px 0;
+  display: inline-block;
+    width: 100%;
+}
+section .cta-text{
+	display: inline-block;
+	width: 50%;
+}
+
+section .cta-text button {
+    width: 32%;
+    padding: 5px 30px;
+    font-size: 13px;
+    border: 1px solid black;
+    position: relative;
+	left: 33%;
+	margin: left;
+}
+
+section .cta-text h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+section .img{
+	display: inline-block;
+	width: 50%;
+}
+
+section .main-content{
+	border-top: black;
+	border-bottom: black;
+}
+
 body {
 	line-height: 1;
+	display: table-cell;
+    vertical-align: middle;
 }
 ol, ul {
 	list-style: none;
