@@ -62,3 +62,99 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header {
+	height: 50px;
+	padding: 30px;
+	display: inline-block;
+	width: 100%;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+nav a {
+	display: inline;
+	padding-right: 50px;
+	color: gray;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 10px;
+}
+
+div .cta {
+	width: 100%;
+	padding: 30px 50px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 400px;
+	margin: 60px 40px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.cta .cta-text h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin: auto;
+}
+.cta img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 35%;
+	position: absolute;
+	right: 20px;
+	margin: 50px;
+}
+
+.main-content {
+	width: 100%;
+}
+
+.main-content .top-content {
+	width: 100%;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	width: 48%;
+	margin: 0px;
+}
+
+.middle-image {
+	width: 100%;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	width: 30%;
+	margin: 0px;
+}
+
+.contact {
+	display: block;
+	padding: 20px;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+}
