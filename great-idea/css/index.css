@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,19 +12,19 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,92 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/* global */
+
+/* *{
+	border: solid 1px;
+} */
+
+
+body {
+	margin-right: 120px;
+	margin-left: 120px;
+}
+.main-content {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* header */
+header {
+	display: inline-block;
+	width: 100%;
+}
+nav {
+	padding: 50px;
+}
+nav a {
+	text-decoration: none;
+	color: #CACACA;
+	margin-right: 55px;
+}
+.logo {
+	display: inline-block;
+	position: relative;
+}
+
+/* CTA */
+.cta {
+	/* padding-top: 50px; */
+}
+.cta-text{
+	font-size: 55px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 75px;
+	margin-left: 150px;
+
+}
+img[src="img/header-img.png"] {
+	display: inline-block;
+	margin-left: 150px;
+}
+button {
+	background-color: WHITE;
+	border: solid 1px;
+	width: 150px;
+	height: 30px;
+}
+
+/* top-content */
+.text-content-top{
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	/* padding-right: 60px; */
+}
+/* middle-img */
+img[src="img/mid-page-accent.jpg"] {
+background-size: cover;
+display: inline-block;
+}
+
+/* bottom-content */
+.text-content-bottom{
+display: inline-block;
+margin-top: 40px;
+width: 32%;
+margin-bottom: 40px;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
