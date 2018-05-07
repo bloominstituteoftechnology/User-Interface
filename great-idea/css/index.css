@@ -62,3 +62,60 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+header nav {
+	display: inline-block;
+	padding: 60px;
+	word-spacing: 60px;
+	text-decoration-color: dimgrey;
+	position: relative;
+	
+	
+}
+
+header nav a {
+	color: gray;
+}
+
+header nav a:link {
+	text-decoration: none;
+}
+
+header .logo {
+	position: relative;
+	left: 50px;
+}
+
+.cta{
+	display: block;
+	width: 50px;
+}	
+	
+.cta img {
+	position: absolute;
+	right: 50px;
+	display: block;
+}
+
+.cta .cta-text {
+	font-size: 80px;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	text-align: center;
+	
+
+}
+.cta button {
+	width: 200px;
+	height: 50px;
+	font-size: 16px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+.main-content {
+	position: relative;
+	top: 500px;
+}
+
+
+
