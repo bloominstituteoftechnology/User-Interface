@@ -88,27 +88,23 @@ header .logo {
 }
 
 .cta {
-	border: 1px solid red;
 	display: inline-block;
 	padding: 80px;
 }
 
 .cta .cta-text {
-	border: 1px solid orange;
 	display: inline-block;
 	vertical-align: top;
 	
 }
 
 .cta .cta-text h1 {
-	border: 1px solid blue;
 	display: block;
 	font-size: 80px;
 	text-align: center;
 }
 
 .cta .cta-text button {
-	border: 1px solid blue;
 	background-color: white;
 	font-family: 'Titillium Web';
 	font-size: 18px;
@@ -118,6 +114,5 @@ header .logo {
 }
 
 .cta img {
-	border: 1px solid green;
 	display: inline-block;
 }
