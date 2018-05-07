@@ -172,6 +172,8 @@ h4{
 
 .contact{
 	font-size: 20px;
+	position: relative;
+	left: 50px;
 }
 
 .contact p{
