@@ -108,7 +108,7 @@ header img {
 
 .cta-text {
 	padding-top: 70px;
-	padding-left: 9%;
+	padding-left: 5%;
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
@@ -120,12 +120,22 @@ header img {
 	text-align: center;
 }
 
+.cta-text button {
+	font-size: 1.1rem;
+	width: 175px;
+	height: 32px;
+	display: block;
+	margin: auto;
+	background-color: white:
+
+
+}
+
 .cta img {
 	display: inline-block;
 	width: 50%;
 	margin: 0px;
 	padding: 3.75%;
-	/*margin: 4%;*/
 }
 
 .main-content {
