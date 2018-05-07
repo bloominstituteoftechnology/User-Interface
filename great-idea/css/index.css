@@ -62,3 +62,39 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+nav a{
+	margin-left: 75px;
+}
+
+nav {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.logo {
+	float: right;
+	margin-right: 400px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.cta img {
+	float: right;
+	margin-bottom: 980px;
+	
+	
+}
+
+.cta-text {
+	margin-top: 150px;
+	margin-left: 400px;
+}
+
+h1 {
+	font-size: 150px;
+}
+
+.main-content {
+	display: inline-block;
+}
