@@ -62,3 +62,104 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Note - Optimized for 1024 < width resolution < 1824 ONLY */
+
+div.container{
+	text-align: center;
+	margin: 20px;
+}
+
+header{
+	/* border: solid red; */
+	height: 80px;
+	
+}
+
+nav{
+	/* border: solid blue; */
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+nav a{
+	padding-right: 50px;
+}
+
+img.logo{
+	/* border: solid green; */
+	display: inline-block;
+	margin-left: 125px;
+}
+
+section {
+	margin-top: 57px;
+}
+
+section .cta-text{
+	/* border: solid green; */
+	height: 389px;
+	width: 389px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+section img{
+	/* border: solid blue; */
+	display: inline-block;
+}
+
+h1{
+	padding-top: 70px;
+	font-size: 65px;
+}
+
+section .main-content h4{
+	font-weight: bold;
+}
+section .top-content{
+	/* border: solid green; */
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: thin solid black;
+}
+
+section .top-content .text-content{
+	/* border: solid blue; */
+	display: inline-block;
+	width: 439px;
+	text-align: left;
+}
+
+section .middle-img{
+	/* border: solid blue; */
+	display: inline-block;
+}
+
+section .bottom-content{
+	/* border: solid green; */
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: thin solid black;
+}
+
+section .bottom-content .text-content{
+	/* border: solid blue; */
+	display: inline-block;
+	width: 292px;
+	text-align: left;
+}
+
+section.contact{
+	/* border: solid blue; */
+	display: inline-block;
+	text-align: left;
+	width: 891px;
+}
+
+section.contact p{
+	margin-bottom: 20px;
+}
