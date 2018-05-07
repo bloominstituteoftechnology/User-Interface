@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 2;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -60,5 +60,76 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+
+
+.main-content .top-content .text-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+header nav a {
+	display: inline-block;
+	margin-right: 140px;
+	vertical-align: middle;
+	color: gray;
+}
+
+header .logo {
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 25px;
+}
+
+.cta-text {
+	padding: 100px;
+	display: inline-block;
+	margin-left: 250px;
+	font-size: 75px;
+
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+
+}
+
+.circle-code {
+		float: right;
+		display: inline-block;
+		padding: 75px;
+		margin-right: 140px;
+
+		
+}
+
+
+button {
+		display: inline-block;
+		padding: 10px;
+		margin-left: 95px;
+		background-color: white;
+		font-size: 15px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
