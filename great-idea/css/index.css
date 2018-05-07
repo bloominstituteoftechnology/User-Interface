@@ -107,12 +107,12 @@ header img {
 }
 
 .cta-text {
-	padding-top: 100px;
-	padding-left: 3%;
+	padding-top: 70px;
+	padding-left: 9%;
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
-	width: 45%
+	width: 50%
 }
 
 .cta-text h1 {
@@ -122,9 +122,9 @@ header img {
 
 .cta img {
 	display: inline-block;
-	width: 40%;
+	width: 50%;
 	margin: 0px;
-	padding: 0px;
+	padding: 3.75%;
 	/*margin: 4%;*/
 }
 
