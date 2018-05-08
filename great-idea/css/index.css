@@ -52,24 +52,9 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-* {
-	box-sizing:border-box;
-}
-
 a {
 	text-decoration: none;
-	color: lightgray;
+	color: gray;
 }
 
 h1 {
@@ -86,31 +71,91 @@ p {
 }
 
 section {
-	padding: 50px 0px;
+    padding: 50px 0px;
+}
+
+li {
+    font-size: 25px;
 }
 
 button {
+	border: 1px solid black;
 	color: black;
 	background-color: white;
-	font-size: 20px;
-	border: 1px solid black;
+	display: inline-block;	
+	font-size: 30px;
 	margin: 30px;
-	padding: 10px 50px;
+	padding: 7px 60px;
 }
 
 .container {
-	display: inline-block;
+    margin: 0% 7%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-	display: inline-block;
-	padding: 50px 0px;
-	align-items: center;
-	justify-content: space-around;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    flex-grow: 6;
+    flex-basis: 0;
 }
 
 header img {
-	float: right;
+    flex-grow: 2;
+    flex-basis: 0;
+    width: 10%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 120px;
+}
+
+div.cta-text {
+    text-align: center;
+}
+
+section.cta img {
+    width: 40%;
+}
+
+section.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+section.main-content img {
+    width: 100%;
+}
+
+div.top-content {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.bottom-content {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-content {
+    display: flex;
+    flex-direction: column;    
 }
 
 .top-content .text-content {
