@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -61,4 +61,163 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+/* Start CSS */
+body {
+	background-color: black;
+}
+
+.container {
+	background-color: white;
+	width: 880px;
+	padding: 0 5% 0;
+	margin: auto;
+}
+
+/* header */
+
+header {
+	display: block;
+	height: 80px;
+	vertical-align: middle;
+	padding-top: 10px;
+
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	height: 80px;
+	padding: 20px 0 20px 0;
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgrey;
+	margin-right: 50px;
+  font-size: 12px;
+	vertical-align: middle;
+	font-family: 'Titillium Web';
+	font-weight: bold;
+
+
+}
+
+header nav a:last-child {
+	margin-right: 0px;
+}
+
+header .logo {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+  padding: 10px 0 10px 0;
+
+
+}
+
+/* CTA Section */
+
+.cta {
+	display: inline-block;
+	padding-bottom: 30;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 60px 80px 60px 80px;
+
+}
+
+.cta .cta-text h1 {
+	font-size: 65px;
+	font-family: 'Bangers';
+}
+
+.cta .cta-text button {
+  border: 1px solid black;
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 5px 30px 5px 30px;
+	font-family: 'Titillium Web';
+
+}
+
+.cta img {
+	display: inline-block;
+
+	padding-top: 20px;
+	width: 300px;
+}
+
+/* Main Content Section  */
+
+.main-content {
+	padding: 20px 0 20px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main-content .top-content {
+	display:inline-block;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+.main-content .top-content > :first-child {
+	float: left;
+	width: 47%;
+	display:inline-block;
+}
+.main-content .top-content > :last-child {
+	float: right;
+	display:inline-block;
+	width: 47%;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0 10px 0;
+}
+
+.bottom-content {
+	padding: 20px 0 20px 0;
+	display: inline-block;
+}
+.bottom-content .text-content {
+	display: inline-block;
+	width: 31%;
+}
+.bottom-content > :first-child {
+	margin-right: 3%;
+}
+.bottom-content > :last-child {
+	margin-left: 3%;
+}
+
+/* Contact section */
+
+.contact {
+	padding-top: 20px;
+}
+
+.contact > :nth-child(3) {
+	padding: 20px 0 20px 0;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	padding: 40px 0 80px 0;
 }
