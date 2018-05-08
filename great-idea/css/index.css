@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 2;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -60,5 +60,146 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 24px;
 }
+
+
+.container {
+	margin: 100px;
+}
+
+/* .main-content .top-content .text-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+} */
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+header nav a {
+	display: inline-block;
+	margin-right: 100px;
+	vertical-align: middle;
+	color: gray;
+}
+
+header .logo {
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 180px;
+	top: 112px;
+	
+}
+
+.cta-text {
+	padding: 20px;
+	display: inline-block;
+	margin: 40px;
+	margin-left: 150px;
+
+}
+
+h1 {
+	font-size: 95px;
+	text-align: center;
+
+}
+
+.circle-code {
+		float: right;
+		display: inline-block;
+		padding: 30px;
+		margin-right: 160px;
+
+}
+
+
+button {
+		display: inline-block;
+		padding: 10px;
+		margin-left: 140px;
+		background-color: white;
+		font-size: 15px;
+		
+}
+
+
+
+hr {
+	
+	color: black;
+    display: block;
+    height: 9px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+	padding: 0;
+	margin-right: 80px;
+	/* border: 1px solid red; */
+}	
+
+
+.main-content {
+	margin-bottom: 60px;
+}
+
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%;
+
+}
+
+.middle-img {
+	margin-bottom: 60px;
+	margin-top: 40px;
+	width: 97%;
+}
+
+.bottom-content {
+	margin-bottom: 60px;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 33%;
+
+}
+
+hr {
+	
+	color: black;
+    display: block;
+    height: 9px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+	padding: 0;
+	margin-right: 80px;
+	/* border: 1px solid red; */
+}	
+
+.contact {
+	margin-bottom: 60px;
+
+}
+
+.contact p {
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
