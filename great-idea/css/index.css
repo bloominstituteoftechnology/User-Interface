@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -63,69 +63,127 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-
-
-
-
 .container {
-	margin: auto;
-	margin-right: 5%;
-	margin-left: 5%;
+  width: 880px;
+  margin: 0 auto;
 }
-nav {
-  display: inline;
+
+/* header */
+
+header nav {
+  display: inline-block;
+  width: 691px;
   vertical-align: top;
-  width: 75%;
-  float: left;
+  margin-top: 35px;
 }
-header {
-	width: 100%;
-	margin-top: 30px
+
+header nav a {
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
 header .logo {
-	display: inline-block;
-	margin: 30px 0 0 91px;
+  display: inline-block;
+  margin-top: 25px;
 }
 
-
-section {
-  margin-left: 50px;
-}
-footer {
-  position: relative;
-  text-align: center;
-  bottom: 100;
-  height: 100px;
-  width: 100%;
-}
-body {
-  margin-bottom: 120px;
-}
-img {
-  float: right;
-  margin: 50 0 1px 1px;
-}
-
-
-.cta {
-    display: inline;
-    margin-top: 75px;
-    float: center;
-}
+/* cta */
 
 .cta .cta-text {
-    font-size: 75px;
-    text-align: center;
-    letter-spacing: 5px;
-    float: : center;
-    align-items: center;
-    margin: 0 80px 0 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 90px;
 }
 
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
 
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
 
+.cta img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
