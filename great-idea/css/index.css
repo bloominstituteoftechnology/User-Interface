@@ -75,7 +75,9 @@ header {
 
 header nav {
 	padding-left: 20px;
-	margin: 0
+	margin: 0;
+	display: flex;
+	justify-content: center;
 }
 header nav a {
 	margin-left: 90px;
@@ -173,11 +175,58 @@ footer {
 
 
 
+/* SERVICES */
+
+.top-pic {
+	width: 70%;
+	margin: 15px 15%;
+}
+
+.service-text {
+	display: flex;
+	height: 100px;
+	width: 70%;
+}
+
+
+.service-text p {
+	align-self: flex-end;
+}
+
+.info {
+	width: 60%;
+	margin: 15px 20%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.info .learn {
+	border: 1px solid black;
+	width: 40%;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+
+.learn button {
+	margin-top: 20px;
+}
 
 
 
 
+.bottom {
+	display: flex;
+	flex-direction: column;
+}
 
+.bot-img {
+	float: right;
+}
 
+footer {
+	clear: both;
+
+}
 
 
