@@ -72,6 +72,8 @@ header nav a {
 	text-decoration: none;
 	color: grey;
 	margin-right: 80px;
+	margin-left: 80px;
+	line-height: 30px;
 }
 
 header .logo {
@@ -105,16 +107,51 @@ section button {
 	top: 100px;
 }
 
+/* Middle Section */
 .main-content {
+	margin-left: 80px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	box-sizing: border-box;
-	padding: 10px;
 	position: absolute;
 	top: 600px;
+	margin-right: 80px;
 }
 
+.top-content .text-content {
+	width: 49%;
+	padding-top: 45px;
+	display: inline-block;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+	padding-bottom: 45px;
+}
+
+.middle-img {
+	display: inline-block;
+	height: 400px;
+	width: 100%;
+	padding: 40px 0 40px 0;
+}
+
+/* Bottom Section */
 .contact {
 	position: absolute;
-	top: 800px;
+	top: 1300px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 80px;
+}
+
+.contact p {
+	padding: 10px;
+}
+
+footer {
+	position: absolute;
+	margin-left: 1000px;
+	top: 1600px;
 }
