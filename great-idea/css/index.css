@@ -205,6 +205,8 @@ header .logo {
 	margin-left: 3%;
 }
 
+/* Contact section */
+
 .contact {
 	padding-top: 20px;
 }
@@ -213,10 +215,9 @@ header .logo {
 	padding: 20px 0 20px 0;
 }
 
+/* footer */
+
 footer {
 	text-align: center;
 	padding: 40px 0 80px 0;
 }
-
-
-/* Contact Section
