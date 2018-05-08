@@ -99,6 +99,7 @@ header .logo {
 .main-content {
 	margin-top: 70px;
 	border-top: 1px solid black;
+	padding-top: 40px;
 }
 
 .cta img {
@@ -106,32 +107,36 @@ header .logo {
 	margin-left: 30px;
 }
 
-.top-content {
+.main-content .top-content .text-content {
 	display: inline-block;
+	width: 49%;
+	margin-bottom: 30px;
 }
 
-.text-content h4 {
-	margin-top: 30px;
-	margin-left: 26px;
+.main-content .bottom-content {
+	margin-top: 20px;
 }
 
-.text-content p {
+.main-content .bottom-content .text-content {
 	display: inline-block;
-	margin-left: 26px;
-	float: left;
-	width: 40%;
+	width: 275px;
+  margin-right: 10px;
 }
+
 
 .middle-img {
 	height: 130px;
-	margin-left: 26px;
-	width: 90%;
+	width: 100%;
 }
 
 .contact {
-	margin-left: 26px;
-	margin-top: 160px;
+	margin-top: 20px;
+	padding-top: 20px;
 	border-top: 1px solid black;
+}
+
+.contact p {
+	margin: 20px 0;
 }
 
 footer p {
