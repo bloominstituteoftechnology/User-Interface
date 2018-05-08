@@ -64,17 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding: 50px 75px 75px 75px;
 }
 
 header {
-  border: ;
-  height: 50px;
-  padding: 10px 50px 50px;
+  height: 100px;
 }
 
 header nav {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
 }
@@ -82,33 +80,25 @@ header nav {
 header nav a {
   color: grey;
   text-decoration: none;
-  margin-right: 20px;
-  display: inline-block;
-  padding: 10px;
+  padding-right: 200px;
+  width: 100%;
 }
 
 header .logo {
   display: inline-block;
   vertical-align: middle;
-  float: right;
 }
 
 .cta {
-  text-align: center;
-  padding: 10px;
   border-bottom: 1px solid black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .cta-text {
   display: inline-block;
-  text-align: center;
   font-size: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  padding-right: 100px;
 }
 
 .cta-text button {
@@ -116,34 +106,40 @@ header .logo {
   width: 150px;
 }
 
+.main-content {
+  padding: 50px 0 50px 0;
+  width: 100%;
+}
+
 .top-content .text-content {
   display: inline-block;
-  padding-top: 50px;
-  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
 .main-content .middle-img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 50px 0;
+  width: 100%;
 }
 
 .bottom-content .text-content {
   display: inline-block;
-  padding-top: 50px;
-  width: 525px;
-  padding-bottom: 50px;
+  width: 400px;
 }
 
 .contact {
   border-top: 1px solid black;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 section p {
-  padding: 10px;
+  padding-bottom: 20px;
 }
   
 footer {
-  padding: 50px;
   text-align: center;
 }
