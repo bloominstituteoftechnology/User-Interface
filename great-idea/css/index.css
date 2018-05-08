@@ -62,3 +62,154 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	display: inline-block;
+}
+
+header nav {
+	display:inline-block;
+	margin-left: 60px;
+	padding:20px;
+	word-spacing: 20px;
+	margin-right: 0;
+	width: 75%;
+	
+	
+}
+header nav a {
+	display:inline-block;
+	padding: 30px;
+	padding-left:50px;
+	margin-left:10px;
+	
+}
+
+
+header .logo {
+	display: inline-block;
+	padding: 40px;
+	position: absolute;
+	right: 20px;
+	margin-right:60px;
+	
+	
+	
+	
+}
+
+.cta .cta-text h1 {
+	display: inline-block;
+	font-size: 75px;
+	padding-left:300px;
+	padding-right:300px;
+	padding-top:100px;
+	
+	margin-left:60px;
+}
+
+.cta .cta-text button {
+	margin-left:380px;
+	
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:white;
+
+	
+	
+	
+	
+
+}
+
+.cta img {
+	display:inline-block;
+	position: absolute;
+	right:100px;
+	top:120px;
+	padding:20px;
+	
+	
+	
+	
+}
+
+.main-content {
+	border-top:1px solid black;
+	margin-top:70px;
+	padding-top: 40px;
+}
+
+.main-content .top-content {
+	
+	padding: 0 10px;
+	
+}
+
+.main-content .top-content .text-content {
+	
+	width: 400px;
+	display:inline-block;
+	margin-right:35px;
+	
+}
+
+.main-content .top-content .text-content: :last-child{
+	margin-right: 0;
+	
+}
+	
+}
+
+.main-content .middle-img {
+	margin-top: 50px;
+	width: 600px;
+	
+	
+}
+
+.main-content .bottom-content {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 280px;
+	display: inline-block;
+	margin-right: 10px;
+	padding-left:100px;
+}
+
+.main-content .bottom-content .text-content: :last-child {
+	margin-right: 0;
+}
+
+.contact {
+	margin-top: 60px;
+	border-top: 1px solid black;
+	padding: 40px 10px 0;
+	padding-bottom: 50px;
+}
+
+.contact p {
+	padding-top: 100px;
+}
+
+footer {
+	text-align: center;
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+
+	
+	
+
+}
