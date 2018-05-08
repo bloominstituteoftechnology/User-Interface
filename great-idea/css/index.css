@@ -62,3 +62,27 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+header nav a {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 30px;
+	color: grey;
+	text-decoration: none;
+	border: 1px solid red;
+}
+
+header .logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+	  
+.cta .cta-text {
+	display: inline-block;
+}
+
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 300px;
+
+}
