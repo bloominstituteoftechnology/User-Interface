@@ -64,13 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	display:inline-block;
+	display: inline-block;
 }
 
 header nav {
 	display:inline-block;
 	margin-left: 60px;
-	border:1px solid black;
 	padding:20px;
 	word-spacing: 20px;
 	margin-right: 0;
@@ -94,7 +93,7 @@ header .logo {
 	right: 20px;
 	margin-right:60px;
 	
-	border: 1px solid black;
+	
 	
 	
 }
@@ -105,7 +104,7 @@ header .logo {
 	padding-left:300px;
 	padding-right:300px;
 	padding-top:100px;
-	border:1px solid black;
+	
 	margin-left:60px;
 }
 
@@ -121,7 +120,7 @@ header .logo {
 	
 	
 	
-	border:1px solid black;
+	
 
 }
 
@@ -134,13 +133,75 @@ header .logo {
 	
 	
 	
-	border:1px solid black;
+	
 }
 
 .main-content {
-	display:inline-block;
 	border-top:1px solid black;
+	margin-top:70px;
+	padding-top: 40px;
 }
+
+.main-content .top-content {
+	
+	padding: 0 10px;
+	
+}
+
+.main-content .top-content .text-content {
+	
+	width: 400px;
+	display:inline-block;
+	margin-right:35px;
+	
+}
+
+.main-content .top-content .text-content: :last-child{
+	margin-right: 0;
+	
+}
+	
+}
+
+.main-content .middle-img {
+	margin-top: 50px;
+	width: 600px;
+	
+	
+}
+
+.main-content .bottom-content {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 280px;
+	display: inline-block;
+	margin-right: 10px;
+	padding-left:100px;
+}
+
+.main-content .bottom-content .text-content: :last-child {
+	margin-right: 0;
+}
+
+.contact {
+	margin-top: 60px;
+	border-top: 1px solid black;
+	padding: 40px 10px 0;
+	padding-bottom: 50px;
+}
+
+.contact p {
+	padding-top: 100px;
+}
+
+footer {
+	text-align: center;
+	margin-top:40px;
+}
+
 
 
 
