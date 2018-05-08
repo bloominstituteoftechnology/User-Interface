@@ -65,12 +65,15 @@ h1, h2, h3, h4, h5 {
 }
 
 
+.container {
+	margin: 100px;
+}
 
-.main-content .top-content .text-content {
+/* .main-content .top-content .text-content {
   display: inline-block;
   vertical-align: top;
   width: 50%;
-}
+} */
 
 header nav {
 	display: inline-block;
@@ -80,7 +83,7 @@ header nav {
 
 header nav a {
 	display: inline-block;
-	margin-right: 140px;
+	margin-right: 100px;
 	vertical-align: middle;
 	color: gray;
 }
@@ -89,20 +92,21 @@ header .logo {
 	float: right;
 	display: inline-block;
 	position: absolute;
-	right: 50px;
-	top: 25px;
+	right: 180px;
+	top: 112px;
+	
 }
 
 .cta-text {
-	padding: 100px;
+	padding: 20px;
 	display: inline-block;
-	margin-left: 250px;
-	font-size: 75px;
+	margin: 40px;
+	margin-left: 150px;
 
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 95px;
 	text-align: center;
 
 }
@@ -110,26 +114,92 @@ h1 {
 .circle-code {
 		float: right;
 		display: inline-block;
-		padding: 75px;
-		margin-right: 140px;
+		padding: 30px;
+		margin-right: 160px;
 
-		
 }
 
 
 button {
 		display: inline-block;
 		padding: 10px;
-		margin-left: 95px;
+		margin-left: 140px;
 		background-color: white;
 		font-size: 15px;
+		
 }
 
+
+
 hr {
+	
+	color: black;
     display: block;
-    height: 1px;
+    height: 9px;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0;
+	padding: 0;
+	margin-right: 80px;
+	/* border: 1px solid red; */
+}	
+
+
+.main-content {
+	margin-bottom: 60px;
 }
+
+
+.top-content .text-content {
+	display: inline-block;
+	width: 49%;
+
+}
+
+.middle-img {
+	margin-bottom: 60px;
+	margin-top: 40px;
+	width: 97%;
+}
+
+.bottom-content {
+	margin-bottom: 60px;
+}
+
+.bottom-content .text-content {
+	display: inline-block;
+	width: 33%;
+
+}
+
+hr {
+	
+	color: black;
+    display: block;
+    height: 9px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+	padding: 0;
+	margin-right: 80px;
+	/* border: 1px solid red; */
+}	
+
+.contact {
+	margin-bottom: 60px;
+
+}
+
+.contact p {
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
