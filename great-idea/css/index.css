@@ -63,26 +63,86 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.container {
+	position: relative;
+	width: 878px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
+	width: 680px;
+}
+
 header nav a {
 	display: inline-block;
-	vertical-align: middle;
-	padding: 30px;
+	margin-right: 65px;
 	color: grey;
 	text-decoration: none;
-	border: 1px solid red;
+	font-size: 10px;
 }
 
 header .logo {
 	display: inline-block;
-	vertical-align: middle;
+	margin-top: 25px;
 }
 	  
+.cta {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+}
+
 .cta .cta-text {
 	display: inline-block;
+	font-size: 77px;
+	text-align: center;
+	padding: 20px;
+}
+
+.cta button {
+	border: 1px solid black;
+	vertical-align: top;
+	padding-top: 4px;
+	padding-bottom: 4px; 
+	padding-left: 35px;
+	padding-right: 35px;
+	background: white;
+	font-size: 14px;
+}
+.main-content .top-content {
+	width: 878px;
+	border-top: 1px solid black;
+	margin-top:35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .main-content .top-content .text-content {
 	display: inline-block;
-	width: 300px;
+	width: 425px;
+}
 
+.main-content .bottom-content {
+	width: 878px;
+	border-bottom: 1px solid black;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 290px;
+}
+
+.contact {
+	margin-top: 35px;
+}
+
+.contact p {
+	margin-top: 18px;
 }
