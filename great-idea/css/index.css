@@ -126,7 +126,8 @@ header img {
 	height: 32px;
 	display: block;
 	margin: auto;
-	background-color: white:
+	background-color: white;
+	border: black solid 1px;
 
 
 }
@@ -139,7 +140,33 @@ header img {
 }
 
 .main-content {
-	margin-top: 55px;
+	margin: 32px 0px 40px 0px;
 	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0px 50px 0px;
+}
 
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 49.5%
+}
+
+.main-content .middle-img {
+	padding: 40px 0px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact h4, p {
+	margin: 1rem 0px;
+
+}
+
+footer {
+	margin-top: 60px;
+	text-align: center;
+	font-size: .9rem;
 }
