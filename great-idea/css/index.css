@@ -63,87 +63,127 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-nav{
-	display: inline-block;
-	list-style: none;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 75%;
-    text-align: center;
-    height:40px;
+.container {
+  width: 880px;
+  margin: 0 auto;
 }
 
-a{
-	margin: 50px;
+/* header */
+
+header nav {
+  display: inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
 }
 
-.logo{
-	display: inline-block;
-	margin-top: 25px;
+header nav a {
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/* cta */
 
 .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 90px;
-  }
-  
-  .cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-  }
-  
-  .cta .cta-text button:hover {
-	background: black;
-	color: white;
-  }
-  
-  .cta img {
-	display: inline-block;
-	margin-bottom: 70px;
-	padding-left: 70px;
-  }
-
-.top-content{
-	border-top: 1px solid black;
-	display: inline-block;
-	vertical-align: top;
-	columns: 2;
-	padding: 38px 76px 38px 76px; 
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 90px;
 }
 
-.middle-img{
-	display: inline-block;
-	vertical-align: top;
-	width: 100%;
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.bottom-content{
-	display: inline-block;
-	vertical-align: top;
-	columns: 3;
-	padding: 38px 76px 38px 76px; 
-	border-bottom: 1px solid black;
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
 }
 
-.contact{
-	display: inline-block;
-	padding: 38px 76px 38px 76px; 
-	vertical-align: top;
-	width: 100%;
+.cta img {
+  display: inline-block;
+  margin-top: 69px;
 }
 
-footer{
-	display: inline-block;
-	vertical-align: top;
-	width: 100%;
-	text-align: center;
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
