@@ -89,6 +89,7 @@ header nav a {
 	text-decoration: none;
 	min-height: 10%;
 	width: 16%;
+	min-width: 65px;
 	vertical-align: middle;
 	display: inline-block;
 }
@@ -97,6 +98,7 @@ header img {
 	padding-top: 10px;
 	width: 20%;
 	float: right;
+	min-width: 100px;
 }
 
 .cta {
@@ -112,7 +114,8 @@ header img {
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
-	width: 50%
+	width: 50%;
+	min-width: 320px; 
 }
 
 .cta-text h1 {
