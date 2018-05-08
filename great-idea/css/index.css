@@ -60,5 +60,98 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	margin-right: 80px;
+	margin-left: 80px;
+	line-height: 30px;
+}
+
+header .logo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Header and Image */
+
+section .cta-text{
+	font-size: 80px;
+	position: absolute;
+	top: 125px;
+	left: 250px;
+	text-align: center;
+}
+
+section button {
+	text-decoration: none;
+	border: 2px solid black;
+	background: white;
+	width: 150px;
+	padding: 5px;
+	position: relative;
+}
+
+
+.cta img {
+	position: absolute;
+	right: 925px;
+	top: 100px;
+}
+
+/* Middle Section */
+.main-content {
+	margin-left: 80px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 600px;
+	margin-right: 80px;
+}
+
+.top-content .text-content {
+	width: 49%;
+	padding-top: 45px;
+	display: inline-block;
+}
+
+.bottom-content .text-content {
+	width: 33%;
+	display: inline-block;
+	padding-bottom: 45px;
+}
+
+.middle-img {
+	display: inline-block;
+	height: 400px;
+	width: 100%;
+	padding: 40px 0 40px 0;
+}
+
+/* Bottom Section */
+.contact {
+	position: absolute;
+	top: 1300px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 80px;
+}
+
+.contact p {
+	padding: 10px;
+}
+
+footer {
+	position: absolute;
+	margin-left: 1000px;
+	top: 1600px;
 }
