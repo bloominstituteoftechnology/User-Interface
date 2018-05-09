@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 
 nav a {
 	margin-right: 80px;
+	text-decoration: none;
 }
 
 .logo {
@@ -110,10 +111,73 @@ nav a {
 	width: 170px;
 }
 
+.main-content .top-content {
+	margin-bottom: 10px;
+}
+
+.top-content .text-content1 {
+	height: 150px;
+	width: 430px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 90px;
+}
+
+.top-content .text-content2 {
+	height: 150px;
+	width: 430px;
+	display: inline-block;
+	margin-left: 80px;
+}
+
+.middle-img {
+	width: 1030px;
+}
 
 
+.bottom-content {
+margin-top: 60px;
+margin-bottom: 60px;
+border-bottom: 1px solid black;
+padding-bottom: 50px;
+}
+
+.bottom-content .text-content1{
+	display: inline-block;
+	width: 300px;
+	margin-right: 65px;
+}
+
+.bottom-content .text-content2{
+	display: inline-block;
+	width: 300px;
+	margin-right: 65px;
+}
+
+.bottom-content .text-content3{
+	display: inline-block;
+	width: 300px;
+}
+
+.contact {
+	height: 300px;
+	width: 200px;
+	display: inline-block;
+}
 
 
+.contact p {
+	margin-bottom: 15px;
+
+}
+
+footer {
+	margin-left: 450px;
+}
+
+.container {
+	margin-top: 40px;
+}
 
 
 /* Code from Monday, May 7th */
