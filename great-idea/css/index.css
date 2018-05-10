@@ -52,6 +52,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -85,6 +89,7 @@ header nav {
  header nav a {
     text-decoration: none;
     color: #b0b0b0;
+    font-size: 1.6rem;
 }
 
 header nav a:hover {
@@ -105,7 +110,7 @@ header .logo {
 }
 
 .cta .cta-text {
-    font-size: 72px;
+    font-size: 7.2rem;
     text-align: center;
     letter-spacing: 5px;
     display: flex;
@@ -117,11 +122,11 @@ header .logo {
 
 .cta .cta-text button {
     border: 1px double black;
-    font-size: 16px;
+    font-size: 1.6rem;
     background: white;
     width: 170px;
     height: 32px;
-    margin-top: 10px;
+    margin-top: 3%;
     cursor: pointer;
 }
 
@@ -135,9 +140,9 @@ header .logo {
 .main-content {
    border-top: 2px solid black; 
    border-bottom: 2px solid black;
-   margin: 75px 0 35px 0;
+   margin: 7% 0 7% 0;
    padding: 35px 0;
-   font-size: 16px;
+   font-size: 1.6rem;
    line-height: 18px;
 }
 
@@ -147,7 +152,7 @@ header .logo {
 
 .main-content .middle-img {
     display: block;
-    margin: 30px auto;
+    margin: 4% auto;
 }
 
 .main-content .bottom-content {
@@ -155,20 +160,21 @@ header .logo {
 }
 
 .main-content .bottom-content p {
-    padding-right: 20px;
+    padding-right: 5%;
 }
 
 /* Contact Styles */
 
 .contact p {
-    margin: 15px 0;
+    margin: 2% 0;
+    font-size: 1.3rem;
 }
 
 /* Footer Styles */
 
 footer {
     text-align: center;
-    margin: 40px 0 20px;
+    margin: 5% 0 3%;
 }
 
 /* Services Styles */
@@ -181,31 +187,32 @@ footer {
 }
 
 .services-content .services-header-img {
-    margin: 20px 0;
+    margin: 3% 0;
 }
 
 .services-content h1 {
     font-size: 26px;
-    margin: 10px 0;
+    margin: 2% 0;
 }
 
 .services-content .services-text {
  border-bottom: 1px solid black;
- padding-bottom: 40px;
- margin-bottom: 20px
+ padding-bottom: 5%;
+ margin-bottom: 2%;
+ font-size: 1.6rem;
 }
 
 .services-content .card {
-    padding: 20px;
+    padding: 2%;
     border: 1px solid black;
-    width: 420px;
+    width: 47%;
     background: whitesmoke;
-    margin: 20px 0;
+    margin: 3% 0;
 }
 
 .services-content .card button {
-    padding: 10px 40px;
-    margin-top: 20px;
+    padding: 3% 5%;
+    margin-top: 5%;
     cursor: pointer;
     background: white;
     border-radius: 5px;
@@ -218,35 +225,57 @@ footer {
 } 
 
 .services-content .services-info ul {
-    margin: 20px;
+    margin: 5%;
 }
 
 .services-content .services-info ul li{
     list-style: square;
-    padding: 5px;
+    padding: 3%;
 }
 
 .services-content .services-info {
     display: flex;
     flex-wrap: wrap;
     border-top: 2px solid black; 
-    margin: 20px 0 35px 0;
-    padding-top: 40px; 
+    margin: 3% 0 2% 0;
+    padding-top: 6%; 
 }
 
 .services-content .services-info .facts {
-  width: 400px;
-  margin: 0 60px 20px 0;
+  width: 45%;
+  margin: 0 7% 6% 0;
 }
 
 .services-content .services-info .facts p {
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .services-content .services-info .services-info-img {
-  width: 420px;
-  height: 300px;
+  width: 48%;
+  height: 95%;
 }
+
+h4 {
+    font-size: 1.6rem;
+}
+
+.card p{
+    font-size: 1.3rem;
+}
+
+.facts h2 {
+    font-size: 2rem;
+}
+
+.facts p,
+.facts li {
+    font-size: 1.6rem;
+}
+
+footer {
+    font-size: 1.4rem;
+}
+
 
 
 @media (max-width: 768px) {
@@ -284,7 +313,7 @@ footer {
 		order: -1;
 		/* align-self: flex-start; */
 		/* justify-content: center; */
-		padding-right: 86px;
+		padding-right: 9%;
 		margin: 0;
 	}
 
@@ -306,9 +335,9 @@ footer {
 
 @media (max-width: 400px) {
 
-	* {
+	/* * {
 		border: 1px solid red !important;
-	}
+	} */
 
 	.container {
 		max-width: 400px;
@@ -325,10 +354,10 @@ footer {
 
 	header nav {
 		/* align-self: flex-end; */
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		flex-direction: column;
-		justify-content: center;
-
+		/* justify-content: center; */
+		align-items: center;
 	}
 
 	.cta .cta-text {
