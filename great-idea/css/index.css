@@ -52,6 +52,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -61,4 +65,316 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.container {
+    width: 880px;
+    margin: auto;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+} 
+
+ header nav a {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 1.6rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 28px 0 0 91px;
+}
+
+/* Call To Action (CTA) Styles */
+
+.cta {
+    display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
+}
+
+.cta .cta-text {
+    font-size: 7.2rem;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
+}
+
+.cta .cta-text button {
+    border: 1px double black;
+    font-size: 1.6rem;
+    background: white;
+    width: 170px;
+    height: 32px;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+    background: black;
+    color: white;
+}
+
+/* Main Content Styles */
+
+.main-content {
+   border-top: 2px solid black; 
+   border-bottom: 2px solid black;
+   margin: 7% 0 7% 0;
+   padding: 35px 0;
+   font-size: 1.6rem;
+   line-height: 18px;
+}
+
+.main-content .top-content {
+    display: flex;
+}
+
+.main-content .middle-img {
+    display: block;
+    margin: 4% auto;
+}
+
+.main-content .bottom-content {
+    display: flex;
+}
+
+.main-content .bottom-content p {
+    padding-right: 5%;
+}
+
+/* Contact Styles */
+
+.contact p {
+    margin: 2% 0;
+    font-size: 1.3rem;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    margin: 5% 0 3%;
+}
+
+/* Services Styles */
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.services-content .services-header-img {
+    margin: 3% 0;
+}
+
+.services-content h1 {
+    font-size: 26px;
+    margin: 2% 0;
+}
+
+.services-content .services-text {
+ border-bottom: 1px solid black;
+ padding-bottom: 5%;
+ margin-bottom: 2%;
+ font-size: 1.6rem;
+}
+
+.services-content .card {
+    padding: 2%;
+    border: 1px solid black;
+    width: 47%;
+    background: whitesmoke;
+    margin: 3% 0;
+}
+
+.services-content .card button {
+    padding: 3% 5%;
+    margin-top: 5%;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.services-content .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.services-content .services-info ul {
+    margin: 5%;
+}
+
+.services-content .services-info ul li{
+    list-style: square;
+    padding: 3%;
+}
+
+.services-content .services-info {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 3% 0 2% 0;
+    padding-top: 6%; 
+}
+
+.services-content .services-info .facts {
+  width: 45%;
+  margin: 0 7% 6% 0;
+}
+
+.services-content .services-info .facts p {
+  margin-bottom: 5%;
+}
+
+.services-content .services-info .services-info-img {
+  width: 48%;
+  height: 95%;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+.card p{
+    font-size: 1.3rem;
+}
+
+.facts h2 {
+    font-size: 2rem;
+}
+
+.facts p,
+.facts li {
+    font-size: 1.6rem;
+}
+
+footer {
+    font-size: 1.4rem;
+}
+
+
+
+@media (max-width: 768px) {
+
+	/* * {
+		border: 1px solid red !important;
+	} */
+
+	.container {
+		max-width: 768px;
+	}
+
+	header {
+		/* height: 150px; */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+
+	header nav {
+		width: 100%;
+		/* justify-content: space-around; */
+	}
+
+	header nav {
+		display: flex;
+		/* align-self: flex-end; */
+		flex-wrap: wrap;
+	}
+
+
+	header .logo-a {
+		/* align-self: center; */
+		order: -1;
+		/* align-self: flex-start; */
+		/* justify-content: center; */
+		padding-right: 9%;
+		margin: 0;
+	}
+
+	.cta {
+		justify-content: center;
+	}
+
+	.cta-pic {
+		display: none;
+	}
+
+	.middle-img {
+		width: 100%;
+	}
+
+}
+
+
+
+@media (max-width: 400px) {
+
+	/* * {
+		border: 1px solid red !important;
+	} */
+
+	.container {
+		max-width: 400px;
+	}
+
+	header {
+		/* height: 150px; */
+		display: flex;
+		/* flex-wrap: wrap; */
+		/* flex-direction: column; */
+		justify-content: center;
+
+	}
+
+	header nav {
+		/* align-self: flex-end; */
+		/* flex-wrap: wrap; */
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+	}
+
+	.cta .cta-text {
+		margin: 0;
+	}
+
+	.main-content .top-content {
+		flex-direction: column;
+	}
+
+	.main-content .middle-img {
+		width: 100%;
+	}
+
+	.main-content .bottom-content {
+		flex-direction: column;
+	}
+
+
 }
