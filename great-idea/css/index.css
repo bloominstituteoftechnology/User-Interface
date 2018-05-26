@@ -63,147 +63,114 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
-/* Code from Wednesday, May 9 -- top half portion */
-
- nav {
-	display: inline-block;
-}
-
-nav a {
-	margin-right: 80px;
-	text-decoration: none;
-}
-
-.logo {
-	float: right;
-}
-
 .container {
-	margin: 50px;
+	margin: 30px;
 }
 
-.cta-text {
-	display: inline-block;
-	margin-bottom: 90px;
-	margin-left: 100px;
-	font-size: 90px;
-	text-align: center;
-	
-} 
-
-.cta img {
-	float: right;
-	margin-right: 50px;
-}
-
-.cta {
-	margin-top: 90px;
-	border-bottom: 1px solid black;
-}
-
-
-.cta button {
-	font-size: 20px;
-	border: 1px solid black;
-	padding: 15px;
-	height: 50px;
-	width: 170px;
-}
-
-.main-content .top-content {
-	margin-bottom: 10px;
-}
-
-.top-content .text-content1 {
-	height: 150px;
-	width: 430px;
-	display: inline-block;
-	margin-top: 40px;
-	margin-right: 90px;
-}
-
-.top-content .text-content2 {
-	height: 150px;
-	width: 430px;
-	display: inline-block;
-	margin-left: 80px;
-}
-
-.middle-img {
-	width: 1030px;
-}
-
-
-.bottom-content {
-margin-top: 60px;
-margin-bottom: 60px;
-border-bottom: 1px solid black;
-padding-bottom: 50px;
-}
-
-.bottom-content .text-content1{
-	display: inline-block;
-	width: 300px;
-	margin-right: 65px;
-}
-
-.bottom-content .text-content2{
-	display: inline-block;
-	width: 300px;
-	margin-right: 65px;
-}
-
-.bottom-content .text-content3{
-	display: inline-block;
-	width: 300px;
-}
-
-.contact {
-	height: 300px;
-	width: 200px;
-	display: inline-block;
-}
-
-
-.contact p {
-	margin-bottom: 15px;
-
-}
-
-footer {
-	margin-left: 450px;
-}
-
-.container {
-	margin-top: 40px;
-}
-
-
-/* Code from Monday, May 7th */
-
-/* nav {
-	display: inline-block;
-	margin-top: 15px;
-	margin-left: 15px;
-}
-
-nav a {
+nav {
+	display: inline-block; 
 	margin-left: 70px;
 }
 
-.logo {
-	margin-top: 15px;
+nav a {
+	margin-right: 70px;
+	text-decoration: none;
+}
+
+header .logo {
+	margin-left: 90px;
+}
+
+.cta {
+	margin-top: 60px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	margin-bottom: 60px;
+}
+
+.cta .cta-text {
 	display: inline-block;
-	margin-left: 200px;
+
+}
+
+.cta-text h1 {
+ font-size: 90px;
+ text-align: center;
+}
+
+.cta-text button {
+	margin-left: 80px;
+	height: 50px;
+	width: 200px;
 }
 
 .cta img {
-	float: right; 
+	margin-left: 80px;
 }
 
-div.cta-txt {
-	display: inline;
-	margin-top: 20px;
-	vertical-align: right;
-} */
+.top-content {
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+.top-content .text-content1 {
+	display: inline-block;
+	width: 540px;
+	margin-right: 60px;
+
+}
+
+.top-content .text-content2 {
+	display: inline-block;
+	width: 540px;
+}
+
+.middle-img {
+	margin-bottom: 40px;
+	width: 1200px;
+}
+
+.bottom-content .text-content1 {
+	display: inline-block;
+	width: 370px;
+	margin-left: 10px;
+}
+
+.bottom-content .text-content2 {
+	display: inline-block;
+	width: 370px;
+	margin-left: 30px;
+}
+
+.bottom-content .text-content3 {
+	display: inline-block;
+	width: 370px;
+	margin-left: 30px;
+}
+
+.bottom-content {
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+.contact .address {
+	margin-bottom: 15px;
+}
+
+.contact .number {
+	margin-bottom: 15px;
+}
+
+.contact .email {
+	margin-bottom: 15px;
+}
+
+footer {
+	margin-left: 500px;
+	margin-top: 60px;
+}
