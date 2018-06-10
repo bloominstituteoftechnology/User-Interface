@@ -18,6 +18,8 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 Project objectives are meant to increase your knowledge by giving you practice on the principles learned earlier in the day. Aim to complete every objective on this list. Get as far as you can on the design as we will be using your work today for tomorrow's project as well.
 
+**Watch this short guide on how to setup your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
+
 - [ ] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
 
 - [ ] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
