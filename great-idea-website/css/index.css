@@ -104,6 +104,17 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	width: 70%;
 }
+.col-1-2,
+.col-1-3 {
+	display: inline-block;
+	padding-right: 1.5%;
+}
+.col-1-2 {
+	width: 50.0%;
+}
+.col-1-3 {
+	width: 33.33%;
+}
 
 /*
 	=====================================
@@ -165,4 +176,46 @@ h1, h2, h3, h4, h5 {
 .btn-alt:hover {
 	background: black;
 	color: #fff;
+}
+
+/*
+	=====================================
+  Content
+	=====================================
+*/
+.content {
+	padding: 40px 0;
+}
+.content p {
+	line-height: 1.25;
+}
+
+/*
+	=====================================
+	Middle Image
+	=====================================
+*/
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+}
+
+/*
+	=====================================
+	Contact
+	=====================================
+*/
+.contact p {
+	margin-bottom: 15px;
+}
+
+/*
+	=====================================
+	Footer
+	=====================================
+*/
+footer p {
+	text-align: center;
+	padding-bottom: 15px;
 }
