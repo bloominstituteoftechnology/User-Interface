@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav .nav-text {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 10px 10px 50px;
+	word-spacing: 50px;
+	color: grey;
+	width: 80%;
+}
+
+nav .logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+}
+
+.title {
+	display: inline-block;
+	margin-left: 100px;
+	width: 400px;
+	height: 400px;
+}
+
+.title .title-text {
+	font-size: 50px;
+	text-align: center;
+	width: 100px;
+	margin: 20px;
+	vertical-align: bottom;
+}
+
+.title .started-button {
+	border: 1px solid;
+	width: 130px;
+	text-align: center;
+	margin: 20px;
+	vertical-align: bottom;
+}
+
+.title-logo {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 400px;
+	height: 400px;
+}
+
+.main-content {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+}
+
+.main-content .features {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+
+.main-content .about {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+
+.main-content .middle-img {
+	padding: 50px 0 50px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.main-content .services {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.main-content .product {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.main-content .vision {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.contact-info {
+	display: inline-block;
+	margin-left: 50px;
+	width: 150px;
+	padding: 10px;
+}
+
+.copyright {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
