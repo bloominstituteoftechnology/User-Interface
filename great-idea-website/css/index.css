@@ -123,3 +123,46 @@ h1, h2, h3, h4, h5 {
 	clear: both;
 	*zoom: 1;
 }
+
+/*
+	=====================================
+	Header
+	=====================================
+*/
+.primary-header {
+	padding-top: 15px;
+	padding-bottom: 45px;
+	text-align: center;
+}
+.hero-content {
+	padding-top: 60px;
+}
+.primary-header h1 {
+	font-size: 64px;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+.hero-img {
+	float: right;
+}
+.primary-header a {
+	text-decoration: none;
+}
+
+/*
+	=====================================
+	Buttons
+	=====================================
+*/
+.btn {
+	cursor: pointer;
+	display: inline-block;
+}
+.btn-alt {
+	border: 1px solid black;
+	padding: 8px 45px;
+}
+.btn-alt:hover {
+	background: black;
+	color: #fff;
+}
