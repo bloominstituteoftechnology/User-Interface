@@ -74,6 +74,7 @@ nav {
 	background-color: teal;
 	position: fixed;
 	width: 100%;
+	padding: 7px;
 }
 
 nav .nav-text {
@@ -108,19 +109,33 @@ header {
 	display: inline-block;
 	width:50%;
 	text-align: center;
+	vertical-align: top;
+	padding-top: 100px;
 }
 
 .title .title-text {
 	font-size: 70px;
 	text-align: center;
-	width: 100px;
 }
 
-.title .started-button {
-	border: 1px solid;
-	width: 130px;
-	text-align: center;
-	padding: 7px;
+.title button {
+	background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.title button:hover {
+	color: white;
+	background-color: black;
+}
+
+.title button:focus {
+	outline: 0;
 }
 
 .title .test {
