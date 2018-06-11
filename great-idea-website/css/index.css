@@ -70,6 +70,10 @@ hr {
 	margin-right: 50px;
 }
 
+nav {
+	padding: 20px;
+}
+
 nav .nav-text {
 	display: inline-block;
 	vertical-align: top;
@@ -87,39 +91,38 @@ nav .logo {
 
 .title {
 	display: inline-block;
-	margin-left: 100px;
-	width: 400px;
-	height: 400px;
+	width:50%;
 }
 
 .title .title-text {
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
 	width: 100px;
-	margin: 20px;
-	vertical-align: bottom;
 }
 
 .title .started-button {
 	border: 1px solid;
 	width: 130px;
 	text-align: center;
-	margin: 20px;
-	vertical-align: bottom;
+	padding: 7px;
+}
+
+.title .test {
+	width: 379px;
+	margin-left: 150px;
+	margin-bottom: 30px;
 }
 
 .title-logo {
 	display: inline-block;
-	vertical-align: bottom;
-	width: 400px;
-	height: 400px;
+	width: 50%;
 }
 
 .main-content {
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
-	padding: 20px;
+	padding: 20px 0px 20px 0px;
 }
 
 .main-content .features {
@@ -138,7 +141,7 @@ nav .logo {
 	padding: 50px 0 50px 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 100%;
 }
 
 .main-content .services {
