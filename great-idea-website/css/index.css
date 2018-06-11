@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation a{
+	color:grey;
+	text-decoration: none;
+	margin: 100px;
+}
+.title h1{
+	font-size: 70px ;
+	margin-left: 30%;
+  margin-right: 30%;
+  float: left;
+	margin-top:10%;
+
+}
+.picture-com{
+	vertical-align: middle;
+	margin-top: 5%;
+}
+.start-button {
+    background-color: white;
+    border: 1px solid black;
+		border-color: grey;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	  margin-left:33%;
+		margin-bottom: 3%
+}
