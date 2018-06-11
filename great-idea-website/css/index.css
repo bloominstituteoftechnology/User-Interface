@@ -64,3 +64,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+html{
+	padding: 50px 400px 50px 400px;
+}
+.section1{
+	display:inline-block;
+	width: 100%;
+	border: 3px solid blue;
+	column-count: 2;
+	column-width: auto;
+}
+
+	nav{
+		display: inline;
+		color: rgb(160, 156, 156);
+	}
+
+	ul{
+		display: inline;
+		padding-left: 10px;
+		padding-right:30px;
+	}
+
+.logo{
+	float: right;
+	padding: 0px 100px 0px 0px;
+}
+
+.section2{
+	display: inline-block;
+	width: 100%;
+	border: 3px solid red;
+	column-count: 2;
+	column-fill: auto;
+	padding: 80px 10px 80px 10px;
+}
+
+	header{
+		font-family: 'Bangers', cursive;
+		font-size: 80px;
+		text-align: center;
+	}
+
+	box{
+		text-align: right;
+		font-size: 20px;
+		padding: 5px 20px 5px 20px;
+		border: solid 1px black;
+		font-family: sans-serif;
+	}
+
+	.logo2{
+		float:right;
+}
+.section3{
+	display: inline-block;
+	border-top: solid 2px black;
+	padding: 20px 0px 20px 0px;
+	width: 100%;
+	column-count: 2;
+	column-fill: balance;
+}
+
+.middle-img{
+	width:100%;
+}
+
+.section4{
+	padding: 20px 0px 20px 0px;
+	column-count:3;
+	column-fill: balance;
+}
+.contact{
+	padding: 20px 0px 20px 0px;
+	border-top: solid 2px black;
+}
+
+.copy{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
