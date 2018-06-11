@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,15 +24,21 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
+/* added display:inline */
 ol, ul {
 	list-style: none;
+	display: inline;
+}
+/* added li selector element, display:inline */
+li {
+	display: inline;
 }
 blockquote, q {
 	quotes: none;
@@ -55,6 +61,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+		margin: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +70,71 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+/* nav */
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 64px;
+}
+
+.navigation ul li {
+	padding: 0px 30px;
+}
+
+
+/* end nav */
+
+
+/* header and header image section */
+
+.header-section {
+    display: flex;
+    align-items: center;
+		justify-content: space-between;
+}
+
+.header-text {
+	font-size: 60px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	padding: 20px;
+}
+.col-half {
+	flex: 50%;
+}
+
+.col-third {
+	flex: 33%;
+}
+
+button {
+	border: 1px solid #000;
+	font-size: 20px;
+	text-align: center;
+	padding:8px 32px;
+}
+
+hr {
+	margin: 64px 0px;
+}
+
+.middle-img {
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	padding:64px;
+}
