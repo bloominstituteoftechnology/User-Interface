@@ -71,7 +71,9 @@ hr {
 }
 
 nav {
-	padding: 20px;
+	background-color: teal;
+	position: fixed;
+	width: 100%;
 }
 
 nav .nav-text {
@@ -79,8 +81,17 @@ nav .nav-text {
 	vertical-align: top;
 	padding: 10px 10px 10px 50px;
 	word-spacing: 50px;
-	color: grey;
 	width: 80%;
+	font-family: 'Jua';
+}
+nav .nav-text a {
+	text-decoration: none;
+	color: white;
+}
+
+nav .nav-text a:visited {
+	text-decoration: none;
+	color: white;
 }
 
 nav .logo {
@@ -89,9 +100,14 @@ nav .logo {
 	width: 150px;
 }
 
+header {
+	padding: 70px 0 0 0;
+}
+
 .title {
 	display: inline-block;
 	width:50%;
+	text-align: center;
 }
 
 .title .title-text {
@@ -108,9 +124,8 @@ nav .logo {
 }
 
 .title .test {
-	width: 379px;
-	margin-left: 150px;
-	margin-bottom: 30px;
+	margin-left: 100px;
+	margin-bottom: 100px;
 }
 
 .title-logo {
