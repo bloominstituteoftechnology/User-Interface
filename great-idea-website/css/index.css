@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Quicksand', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Navigation */
+.navigation {
+	width: 100%;
+
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	background: white;
+}
+
+.navigation ul {
+	width: 80%;
+}
+
+.navigation a {
+	color: rgba(128, 128, 128, 0.60);
+	float: left;
+	text-decoration: none;
+	display: block;
+
+	padding: 40px 20px 20px 20px;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+.navigation img {
+	width: 20%;
+	padding: 25px;
+	margin: 10px;
+	float: right;
+}
+
+/* Header */
+header {
+	margin-top: 120px;
+	text-align: center;
+}
+
+header div {
+	display: inline-block;
+	vertical-align: top;
+
+	padding: 30px;
+	width: 50%;
+}
+
+header div h1 {
+	font-size: 80px;
+}
+
+header div button {
+	border: solid black 1px;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+header img {
+	height: 400px;
+	width: 400px;
+}
+
+/* Section */
+section {
+	height: 200px;
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+}
+
+section .paragraph-1{
+	float: left;
+	width: 50%;
+	padding: 30px 10px 10px 0px;
+	margin-top: 80px;
+	border-top: black solid 2px;
+}
+
+.section-img {
+	width: 100%;
+	padding: 20px 20px;
+}
+
+section .paragraph-2{
+	float: left;
+	width: 33.3%;
+	padding: 10px 10px 30px 0px;
+	border-bottom: black solid 2px;
+}
+
+/* Contact */
+div .contact {
+	padding: 20px;
+}
+
+div.contact h2 {
+	padding: 10px 20px;
+}
+
+div.contact p ,
+div a {
+	padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 80px;
+	margin-bottom: 80px;
+}
