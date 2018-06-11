@@ -65,12 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.header{
+	background: yellow;
+}
+
 .heading{
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
 	height: 400px;
-	width: 400px;
+	width: 47%;
 	box-sizing: border-box;
 	margin: auto;
 }
