@@ -64,3 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.top-page {
+	width: 100%;
+	color: grey;
+	margin: 25px;
+}
+
+.top-span {
+	padding: 100px;
+}
+
+.logo {
+	
+}
+
+h1 {
+	font-size: 150px;
+}
+
+.center-p {
+	
+}
