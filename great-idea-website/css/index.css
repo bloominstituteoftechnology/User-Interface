@@ -75,6 +75,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	padding: 7px;
+	z-index: 1000;
 }
 
 nav .nav-text {
@@ -195,7 +196,7 @@ header {
 .contact-info {
 	display: inline-block;
 	margin-left: 50px;
-	width: 150px;
+	width: 200px;
 	padding: 10px;
 }
 
