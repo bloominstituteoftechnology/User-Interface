@@ -82,7 +82,7 @@ ul li{
 header{
 	padding-top:20px;
 	border: 1px solid red;
-	display: inline-block;
+	display: inline;
 }
 
 header h1{
