@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: block;
+	overflow: hidden;
+}
+
+header {
+	display: inline-block;    
+	padding: 0 10% 0 15%;
+	position: relative;
+	bottom: 5%
+}
+
+footer {
+	text-align: center;
+	font-size: 90%;
+}
+
+hr {
+	margin: 5%;
+}
+
+a {
+	color: rgb(180, 184, 189);
+	margin: 0 5%;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 400%;
+	text-align: center;
+}
+
+h3, section {
+	font-size: 110%;
+}
+
+div section {
+	display: inline-block;
+	width: 30%;
+	/* note for self: T R B L */
+	padding: 5% 0 3% 5%;
+}
+
+button {
+	background: white;
+	margin-left: 27%;
+	padding: 2% 10% 2% 10%;
+	color: black;
+	border: 1.5px solid #555555;
+	font-weight: 450;
+}
+
+.inline-block {
+	display: inline-block;
+	width: 40%;
+	padding: 0 0 3% 5%;
+}
+
+.top-img {
+	display: inline-block;    
+    padding: 5% 10% 0 1%;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-info {
+	padding-left: 5%;
+}
