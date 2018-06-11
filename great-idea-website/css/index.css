@@ -86,11 +86,16 @@ h1 {
 }
 
 .header-img {
-	display: inline-block;
-	padding: 80px
+	display: block;
+
 	
 }
 
+.middle-img {
+	margin: 20px 60px 20px 60px;
+	width: 95%;
+	display: block;
+}
 .Features {
 
 	width:300px;
