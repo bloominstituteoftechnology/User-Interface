@@ -66,8 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav {
-	display: block;
 	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: lightyellow;
+	padding-bottom: 1%;
+	font-family: 'Sunflower';
 }
 
 header {
@@ -131,6 +137,7 @@ button {
 .middle-img {
 	display: block;
 	margin: 0 auto;
+	width: 90%
 }
 
 .contact-info {
