@@ -64,3 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+color: gray;
+border: 1px solid black;
+display: inline-block;
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	display: block;
+	font-size: 50px;
+	border: 1px solid black;
+	
+}
+
+.startbutton {
+	border: 1px solid black;
+	display: block;
+	float: left;
+}
+
+.top-img{
+	display: block;
+	float: right;}
+
+footer {
+	text-align: center;
+}
