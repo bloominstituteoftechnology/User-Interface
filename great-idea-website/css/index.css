@@ -64,3 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	color: #b7b7b7;
+	font-family: Titillium Web;
+	word-spacing: 80px ;
+	text-align:	center;
+	display: inline-block;
+	margin: 20px 300px 80px 300px;
+}
+
+.logo {
+display: inline-block;
+width
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	width: 60px;	
+}
+
+.header-img {
+	display: inline-block;
+	padding: 80px
+	
+}
+
+.Features {
+
+	width:300px;
+	display: inline-block;
+}
+
+.About {
+	width: 300px;
+	display: inline-block;
+}
