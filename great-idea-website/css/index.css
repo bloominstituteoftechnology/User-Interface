@@ -94,3 +94,16 @@ h1, h2, h3, h4, h5 {
 	  margin-left:33%;
 		margin-bottom: 3%
 }
+div.container {
+	margin-right: 50%;
+	width: 20%;
+	height: 70px;
+	padding: 15px;
+
+
+}
+div.container2{
+	margin-left: -50%;
+	float:right;
+	margin-top: -3.5%;
+}
