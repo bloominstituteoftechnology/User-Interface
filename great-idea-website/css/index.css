@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	border: 1px solid black;
+	width: 900px;
+	margin: 0 auto;
+}
+.div1 {
+	margin: 10px 20px;
+	width: 876px;
+	height: 50px;
+	border: 1px solid red;
+	display: inline-block;
+	position: relative;
+
+}
+.div1 nav {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%)
+}
+.div1 nav a {
+	margin: 0 30px;
+	display: inline-block;
+}
+.div1 .logo {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.div2 {
+	margin: 10px 20px;
+	width: 876px;
+	border: 1px solid red;
+}
+.div2 header {
+	display: inline-block;
+	width: 50%;
+	height: 379px;
+	border: solid 1px red;
+	position: relative;
+}
+.div2 header .header-text {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
+}
+.div2 header .header-text h1 {
+	font-size: 40px;
+	width: 100px;
+}
+.div2 header .header-text p {
+	border: 1px solid black;
+}
+.div2 .round-img-div {
+	display: inline-block;
+	width: 50%;
+}
+.div2 .round-img-div img {
+margin:0 30px;
+}
+.div3 {
+	width: 100%;
+	border: 1px solid blue;
+}
+.features {
+	display: inline-block;
+	width: 50%;
+}
+.about {
+	display: inline-block;
+	width: 50%
+}
+.bottom-text {
+	display: inline-block;
+	width: 33%;
+	margin: 0;
+}
