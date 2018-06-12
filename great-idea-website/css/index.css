@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 .logo {
 	right: 8%;
 	position: absolute;
-	display: inline;
+	display: inline-block;
 }
 
 .inno {
@@ -155,9 +155,11 @@ footer{
 nav p{
 	color: gray;
 	padding: 3%;
-	display: inline;
+	display: inline-block;
 }
 
 nav {
 	padding-top: 3%;
+	display: inline-block;
+	position: relative;
 }
