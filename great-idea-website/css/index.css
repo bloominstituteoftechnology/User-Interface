@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+    box-sizing: border-box;
+}
+
+div{
+	padding: 10px 10px;
+}
+div nav a {
+	margin: 0px 30px 0 30px;
+ display: inline-block;
+
+}
+nav .logo{
+	display: inline;
+	padding: 0 0 0 40px
+}
+h1{
+	font-size: 70px;
+}
+div h1{
+	padding: 5px 0 0 0;
+}
+.iod{
+	padding: 50px 0 0 100px;
+}
+
+.on{
+	margin: 0 0 0 80px
+}
+.demand{
+	margin: 0 0 0 20px
+}
+div .circle{
+	position:absolute;
+	bottom: 160px;
+	left: 650px;
+}
+
+button{
+	margin: 20px 0 0 90px;
+
+}
+div .passage{
+	padding: 0 0 0 80px
+}
+h3{
+	padding: 10px 0 0 0;
+}
+p {
+	width: 300px;
+	height: auto;
+}
+.about{
+	position:absolute;
+	bottom: 20px;
+	left: 500px;
+}
+.about2 {
+	position:absolute;
+	bottom: 90px;
+	left: 500px;
+}
+
+.middle-img{
+	padding: 10px 0 10px 40px;
+}
+.product2{
+	position: absolute;
+	top:805px;
+	left: 340px;
+}
+
+.product{
+	position: absolute;
+	top:840px;
+	left: 340px;
+}
+.vision2{
+	position: absolute;
+	top:805px;
+	left: 670px;
+}
+.vision{
+	position: absolute;
+	top:840px;
+	left: 670px;
+}
