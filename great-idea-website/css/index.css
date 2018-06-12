@@ -103,6 +103,11 @@ float: left;
 margin: 7%;
 }
 
+#container-header2 {
+    float: right;
+    width: 70%;
+}
+
 #container-header #gs {
     border: solid;
     padding: .5vw;
