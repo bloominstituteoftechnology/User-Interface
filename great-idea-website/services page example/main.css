@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -111,122 +112,120 @@ main {
 	margin-top: 150px;
 }
 
-.cta-overview {
-	margin: 50px 0 50px 0;
+.overview-img {
+  width: 100%;
+  animation: moveMe 1.5s 3s linear;
 }
-.cta-overview__title-container, .cta-overview__img-container {
-	display: inline-block;
-	vertical-align: middle;
+.overview-section h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
 }
-.cta-overview__title-container {
-	width: 50%;
-	text-align: center;
-}
-.cta-overview__img-container {
-	width: 45%;
-}
-.cta-overview__title-container h1 {
-	font-size: 5.5rem;
-}
-.cta-overview__title-container button {
-	font-size: 1.17rem;
-	background: none;
-	padding: 10px 50px 10px 50px;
-	border: solid 1px black;
-	animation: wiggle 225ms 1s ease-out 4;
-}
-.cta-overview__title-container button:hover {
-	cursor: pointer;
-	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
-}
-.cta-overview__img-container img {
-	width: 450px;
-	height: auto;
-}
-.cta-overview__img-container img:hover {
-	animation: spinMe 400ms 1s linear infinite;
-}
-
 hr {
-	width: 95%;
-	border: none;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
 	border: solid .5px black;
 	box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, .2);
 }
-
-.main-overview {
-	width: 95%;
-	margin: auto;
+h3 {
+  font-size: 1.2rem;
 }
-.main-overview h2 {
-	font-size: 1.5rem;
+.main-body-section {
+  margin: auto;
+  text-align: center;
 }
-.main-overview p {
-	font-size: 1.05rem;
+.sec-one-box, .sec-two-box, .sec-three-box {
+  border: solid 1px black;
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+  margin: 20px 0 20px;
+  padding: 15px;
+  background: #F4F3F4;
 }
-.sec-one__features, .sec-one__about {
-	display: inline-block;
-	width: 45%;
-	margin: 15px;
+.sec-one-box.first, .sec-two-box.first, .sec-three-box.first {
+  margin: 0 30px 0 0;
 }
-.sec-two-container {
-	margin: 15px;
+.main-body-section p {
+  margin-bottom: 20px;
 }
-.sec-two-container img {
-	width: 100%;
-	height: auto;
+.main-body-section button {
+  background: white;
+  padding: 7px 30px 7px 30px;
+  border: solid 1px black;
+  border-radius: 5px;
 }
-.sec-three__services, .sec-three__product, .sec-three__vision {
-	display: inline-block;
-	width: 30%;
-	margin: 15px;
-}
-
-.main-footer {
-	margin: 40px;
-}
-.main-footer h2 {
-	font-size: 1.5rem;
-}
-.main-footer p {
-	font-size: 1.05rem;
-}
-.main-footer__contact-info p {
-	margin: 15px 0 15px 0;
-}
-.main-footer__copy-info {
-	text-align: center;
-	margin-top: 20px;
+.main-body-section button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
 }
 
+.facts-section {
+  margin: 40px 0 40px 0;
+}
+.facts-description, .facts-section img {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+.facts-description {
+  margin: 0 50px 0 0;
+}
+.facts-description p {
+  margin: 20px 0 20px;
+}
+.facts-description li {
+  margin: 10px 0 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.facts-section img {
+  width: 800px;
+}
+footer {
+  text-align: center;
+  margin: 80px 20px 40px;
+}
 
-@keyframes wiggle {
-  0% {
-    transform: rotateZ(0);
+
+
+@keyframes moveMe {
+	0% {
+		transform: translateX(0);
+	}
+	10% {
+		transform: translateX(250px);
+	}
+	20% {
+		transform: translateX(-250px);
+	}
+	30% {
+		transform: translateX(200px);
+	}
+	40% {
+		transform: translateX(-200px);
   }
   50% {
-    transform: rotateZ(10deg);
+    transform: translateX(150px);
+  }
+  60% {
+    transform: translateX(-150px);
+  }
+  70% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(50px);
+  }
+  90% {
+    transform: translateX(-50px);
   }
   100% {
-    transform: rotateZ(-10deg);
+    transform: translateX(0px);
   }
-}
-
-
-@keyframes spinMe {
-	0% {
-		transform: rotateZ(0);
-	}
-	25% {
-		transform: rotateZ(90deg);
-	}
-	50% {
-		transform: rotateZ(180deg);
-	}
-	75% {
-		transform: rotateZ(270deg);
-	}
-	100% {
-		transform: rotateZ(360deg);
-	}
 }
