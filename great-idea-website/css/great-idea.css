@@ -1,0 +1,34 @@
+
+
+body {
+    background: black;
+}
+
+h1 {
+    position: relative;
+    top: 9%;
+    color: palevioletred;
+}
+
+h3, h4 {
+    text-align: center;
+    color: darkcyan;
+}
+
+p {
+    display: inline-block;
+    width: 48%;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+/* For uniformity with the homepage. */
+.logo {
+    margin: 0 4%;
+}
+
+.main-content {
+    text-align: center;
+}

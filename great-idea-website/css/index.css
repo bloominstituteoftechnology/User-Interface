@@ -63,7 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+body {
+	background: black;
+}
 
 nav {
 	overflow: hidden;
@@ -76,6 +82,15 @@ nav {
 	font-family: 'Sunflower';
 }
 
+nav a {
+	margin: 0 4%;
+}
+
+a {
+	color: rgb(87, 88, 90);
+	text-decoration: none;
+}
+
 header {
 	/* 
 	display: inline-block;    
@@ -85,6 +100,7 @@ header {
 }
 
 footer {
+	color: white;
 	text-align: center;
 	font-size: 90%;
 }
@@ -93,14 +109,32 @@ hr {
 	margin: 5%;
 }
 
-a {
-	color: rgb(180, 184, 189);
-	margin: 0 4%;
-	text-decoration: none;
-}
-
 a:hover {
 	text-decoration: underline;
+}
+
+button {
+	background: black;
+	/* margin-left: 25%; */
+	display: block;
+	margin: 0 auto;
+	padding: 2% 10% 2% 10%;
+	border: 1.5px solid lightslategray;
+	font-size: 100%;
+	transition-duration: .5s;
+}
+
+button a {
+	color: white;
+}
+
+button:hover {
+	background: lightslategray;
+	text-decoration: underline;
+}
+
+button:hover a {
+	color: darkslategray;
 }
 
 h1 {
@@ -128,24 +162,6 @@ div .bottom-content section {
 	padding: 5% 0 3% 5%;
 }
 
-button {
-	background: white;
-	/* margin-left: 25%; */
-	display: block;
-	margin: 0 auto;
-	padding: 2% 10% 2% 10%;
-	color: black;
-	border: 1.5px solid black;
-	font-size: 100%;
-	transition-duration: .5s;
-}
-
-button:hover {
-	background: gray;
-	color: white;
-	text-decoration: underline;
-}
-
 .heading {
 	background-image: url(https://image.ibb.co/dzua9d/header_img.png);
 	background-size: cover;
@@ -169,16 +185,16 @@ button:hover {
 	background-size: cover;
 }
 
-/* .middle-img {
+.middle-img {
 	display: block;
 	margin: 0 auto;
 	width: 90%;
-} */
+}
 
 .contact-info {
 	padding-left: 5%;
 }
 
 .contact-info p {
-	color: black;
+	color: white;
 }
