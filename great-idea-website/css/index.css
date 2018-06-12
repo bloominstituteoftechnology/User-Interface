@@ -219,15 +219,3 @@ footer p {
 	text-align: center;
 	padding-bottom: 15px;
 }
-
-/*
-	=====================================
-	Media queries
-	=====================================
-*/
-@media only screen and (max-width: 1024px) {
-	.container,
-	.grid {
-		width: 80%;
-	}
-}
