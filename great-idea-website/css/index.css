@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5 {
   padding:
 }
 
+body {
+	text-align: center;
+}
 
 
 button {
