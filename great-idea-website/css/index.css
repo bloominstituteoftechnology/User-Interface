@@ -65,6 +65,35 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.top{
+	display: relative;
+}
+
+nav {
+	/* padding-top: 3%; */
+	display: inline;
+	position: relative;
+	margin: 75px;
+}
+
+nav p{
+	color: gray;
+	font-size: 14px;
+	margin: 39px 63px 0px 0px;
+	display: inline-block;
+}
+
+.logo {
+	right: 9.1%;
+	padding-top: 2.6%;
+	position: absolute;
+	display: inline-block;
+}
+
+.topmid{
+	margin-top: 3.8%;
+	margin-bottom: 3%;
+}
 
 .circle {
 	padding: 4%;
@@ -73,15 +102,17 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
-.logo {
-	right: 8%;
-	position: absolute;
-	display: inline-block;
+h1 {
+	font-size: 77px;
+	/* letter-spacing: 5px; */
+
 }
 
 .inno {
 	text-align: center;
-	padding: 10%;
+	margin-left: 14%;
+	margin-top: 9.3%;
+	margin-right: 5.1%;
 	float: left;
 	position: relative;
 	display: inline-block;
@@ -91,26 +122,26 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 	padding: 5px 40px;
 	display: inline-block;
+	font-size: 18px;
 }
 
-h1 {
-	font-size: 65px;
+.hr{
+	color: black;
+	width: 85%;
+	height: 5px;
+	margin: auto;
 }
 
 .text {
 	display: inline-block;
-	width: 450px;
-	margin: .5em;
-	padding-top: 3%;
-}
-
-.text2{
-	margin-left: 5%;
+	box-sizing:border-box;
+	width: 40%;
+	padding: 3%;
+	margin-left: 4%;
 }
 
 .middle-img {
 	display: block;
-	padding-top: 5%;
 	padding-bottom: 5%;
 	margin: auto;
 }
@@ -118,7 +149,8 @@ h1 {
 .services{
 	display: inline-block;
 	width: 300px;
-  margin: .5em;
+  margin: 1%;
+	padding-left: 2%;
 	padding-bottom: 3%;
 }
 
@@ -134,13 +166,6 @@ h1 {
  	display: inline-block;
 }
 
-.hr{
-	color: black;
-	width: 90%;
-	height: 5px;
-	margin: auto;
-}
-
 .contact{
 	margin-left: 5%;
 	padding-top: 3%;
@@ -150,16 +175,4 @@ h1 {
 footer{
 	text-align: center;
 	padding: 5%;
-}
-
-nav p{
-	color: gray;
-	padding: 3%;
-	display: inline-block;
-}
-
-nav {
-	padding-top: 3%;
-	display: inline-block;
-	position: relative;
 }
