@@ -77,10 +77,11 @@ nav {
 }
 
 header {
+	/* 
 	display: inline-block;    
 	padding: 0 10% 0 15%;
-	position: relative;
-	bottom: 5%
+	*/
+	margin: 10% auto;
 }
 
 footer {
@@ -94,52 +95,90 @@ hr {
 
 a {
 	color: rgb(180, 184, 189);
-	margin: 0 5%;
+	margin: 0 4%;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 h1 {
 	font-size: 400%;
 	text-align: center;
+	color: darkcyan;
+}
+
+h3 {
+	color: darkcyan;
 }
 
 h3, section {
 	font-size: 110%;
 }
 
-div section {
+p {
+	color: darkgray;
+}
+
+/* bottom content */
+div .bottom-content section {
 	display: inline-block;
-	width: 30%;
-	/* note for self: T R B L */
+	width: 31.3%;
 	padding: 5% 0 3% 5%;
 }
 
 button {
 	background: white;
-	margin-left: 27%;
+	/* margin-left: 25%; */
+	display: block;
+	margin: 0 auto;
 	padding: 2% 10% 2% 10%;
 	color: black;
-	border: 1.5px solid #555555;
-	font-weight: 450;
+	border: 1.5px solid black;
+	font-size: 100%;
+	transition-duration: .5s;
 }
 
-.inline-block {
+button:hover {
+	background: gray;
+	color: white;
+	text-decoration: underline;
+}
+
+.heading {
+	background-image: url(https://image.ibb.co/dzua9d/header_img.png);
+	background-size: cover;
+}
+
+.top-content {
 	display: inline-block;
-	width: 40%;
+	width: 47%;
 	padding: 0 0 3% 5%;
 }
 
-.top-img {
+/* .top-img {
 	display: inline-block;    
-    padding: 5% 10% 0 1%;
+	padding-top: 5%;
+	padding-left: 6%;
+} */
+
+.center {
+	padding: 2%;
+	background-image: url(https://preview.ibb.co/jMzYUd/mid_page_accent.jpg);
+	background-size: cover;
 }
 
-.middle-img {
+/* .middle-img {
 	display: block;
 	margin: 0 auto;
-	width: 90%
-}
+	width: 90%;
+} */
 
 .contact-info {
 	padding-left: 5%;
+}
+
+.contact-info p {
+	color: black;
 }
