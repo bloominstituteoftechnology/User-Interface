@@ -66,89 +66,103 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .margins{
-	height: 90%;
-	width: 90%;
-	box-sizing: border-box;
-	justify-content: center;
-	vertical-align: middle;
+	border: 1px solid black;
+	position: relative;
+	margin: 0 auto;
+	margin: 50px;
 }
 
-.header{
-	background: yellow;
+.navlogo{
+	border: 1px solid black;
 	position: relative;
-}ffadfsd
+}
 
-.navigation span{
-	margin: 40px 50px;
-	width: 75%;
+.navlogo .navigation span{
+	border: 1px solid black;
 	display: inline-block;
+	margin: 10px 20px;
 	font-size: 13px;
 	font-weight: 300;
-	position: absolute
 }
 
-.header .logo{
+.navlogo .logo{
+	border: 1px solid black;
+	display: inline-block;
 	position: absolute;
 	right: 0;
 }
 
-
 .heading{
-	background: blue;
 	border: 1px solid black;
-	display: inline-block;
-	padding: 10px;
-	height: 45%;
-	width: 20%;
+	padding: 50px;
 }
 
-.container-1{
-	background: darkorange;
+.heading-a{
 	border: 1px solid black;
 	display: inline-block;
-	padding: 10px;
-	height: 150px;
-	width: 35%;
-	box-sizing: border-box;
+	width: 47%;
+	height: 450px;
+	font-size: 82px;
+	text-align: center;
+	position: relative;
 }
 
+.button1{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	width: 50%;
+	display: inline-block;
 
-.container-2{
-	background: grey;
+	
+}
+
+.section-1{
+	border: 1px solid black;
+}
+
+.section-1a{
 	border: 1px solid black;
 	display: inline-block;
+	width:49%;	
 	padding: 10px;
-	height: 200px;
-	width: 20%;
-	box-sizing: border-box;
 }
 
 .container-b{
-	background: yellow;
 	border: 1px solid black;
 	display: inline-block;
-	padding: 10px;
-	height: 100px;
-	width: 150px;
-	box-sizing: border-box;
+
+
 }
 
-.container-c{
-	background: blue;
+.section-2{
 	border: 1px solid black;
 	display: inline-block;
+}
+
+.section-2a{
+	border: 1px solid black;
+	display: inline-block;
+    width: 33%;
+}
+
+.section-3{
+	border: 1px solid black;
+}
+
+.section-3a{
+	border: 1px solid black;
 	padding: 10px;
-	height: 100px;
 	width: 150px;
-	box-sizing: border-box;
 }
 
 .footing{
 	border: 1px solid black;
-    margin: auto;
+	position: relative;
 }
 
-.foot{
-	justify-content: center;
-	align-content: center;
+.footing-a{
+	border: 1px solid black;
+	position: absolute;
+	left: 50%;
 }
