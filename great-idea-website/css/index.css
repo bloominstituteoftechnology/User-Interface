@@ -64,15 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-html{
-	padding: 50px 400px 50px 400px;
+body{
+	margin: 50px 400px 50px 400px;
 }
-.section1{
+
+section1 div{
 	display:inline-block;
-	width: 100%;
-	border: 3px solid blue;
-	column-count: 2;
-	column-width: auto;
+	line-height:50px;
+	background-color: rgb(96, 240, 96);
+	position: fixed;
+	top: 0;
+	width:1103px;
 }
 
 	nav{
@@ -80,68 +82,90 @@ html{
 		color: rgb(160, 156, 156);
 	}
 
-	ul{
-		display: inline;
-		padding-left: 10px;
-		padding-right:30px;
+	nav ul:hover{
+		background-color: rgb(233, 75, 75);
+		color: white;
+		font-size: 20px;
+
 	}
 
-.logo{
-	float: right;
-	padding: 0px 100px 0px 0px;
-}
+	ul{
+		display: inline;
+		margin: 30px 30px;
+	}
 
-.section2{
-	display: inline-block;
-	width: 100%;
-	border: 3px solid red;
-	column-count: 2;
-	column-fill: auto;
-	padding: 80px 10px 80px 10px;
+	section1 div img{
+		position: absolute;
+		right: 100px;
+		top:5px;
+	}
+	.logo{
+		z-index: 1;
+	}
+
+section2{
+	display: block;
+	padding: 50px 100px;
+	margin: 0 auto;
 }
 
 	header{
+		display: inline-block;
 		font-family: 'Bangers', cursive;
 		font-size: 80px;
 		text-align: center;
+		padding-top: 50px;
 	}
 
 	box{
-		text-align: right;
+		display: inline-block;
 		font-size: 20px;
-		padding: 5px 20px 5px 20px;
 		border: solid 1px black;
 		font-family: sans-serif;
+		padding: 10px 50px;
 	}
 
 	.logo2{
-		float:right;
+		position:absolute;
+		right: 500px;
+		z-index: -1;
 }
-.section3{
-	display: inline-block;
+
+section3 div{
+	display: block;
 	border-top: solid 2px black;
-	padding: 20px 0px 20px 0px;
-	width: 100%;
+	padding: 30px 0;
 	column-count: 2;
-	column-fill: balance;
 }
 
-.middle-img{
-	width:100%;
-}
+	.middle-img{
+		width:100%;
+	}
 
-.section4{
-	padding: 20px 0px 20px 0px;
+section4 div{
+	padding: 30px 0;
 	column-count:3;
-	column-fill: balance;
 }
-.contact{
-	padding: 20px 0px 20px 0px;
+
+contact div{
+	padding: 30px 0;
 	border-top: solid 2px black;
+	font-family: Julius Sans One;
+	font-size: 15px;
 }
 
 .copy{
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+}
+
+h1{
+	font-family: Julius Sans One;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2{
+	font-family: Julius Sans One;
 }
