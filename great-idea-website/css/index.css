@@ -119,17 +119,12 @@ li a {
 }
 
 
-.two-columns {
-	/*display: inline-block;
+/*.two-columns {
+	display: inline-block;
     width: 150px;
     height: 75px;
     margin: 10px;
-    border: 3px solid black;*/
-  padding: 1em;
-  column-count: 2;
-  column-gap: 1em;
-  column-width:  50%;
-  margin-left: 80px;
+    border: 3px solid black;
 
 }
 
