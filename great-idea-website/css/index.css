@@ -63,14 +63,91 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here!...................................................... */
 
-.navigation{
-	color: gray;
-	padding: 10px;
-	margin: 20px;
+body{
+	width: 876px;
 }
 
-h1{
+/*start navigation*/
+header {
+	position: relative;
+	height: 120px;
+	
+  }
+  
+  header nav {
+	display: inline-block;
+	position: absolute;
+	line-height: 120px;
+  }
+  
+  header nav a {
+	color: gray;
+	margin: 0 50px 0 0;
+	text-decoration: none;
+	display: inline-block;
+	
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header .logo {
+	position: absolute;
+	right: 0;
+	padding-top: 45px;
+  }
+  /*end navigation*/
+
+
+  /*start header*/
+  .header-one .circle {
+	display: inline-block;
+	width: 49%;
+  }
+
+  h1{
+  	position: relative;
+  	width: 30%;
+	height: 215px;
+	text-align: center;
 	font-size: 40px;
 }
+
+.button{
+	text-align: center;
+	border: 1px solid black;
+	width: 140px;
+}
+
+/*end header*/
+
+/*start content*/
+.top-content{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.top-content .top {
+	display: inline-block;
+	width: 49%;
+}
+
+.bottom-content{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.bottom-content .bottom {
+	display: inline-block;
+	width: 33%;
+}
+/*end content*/
+
+/*start contact*/
+.contact{
+	text-align: left;
+	width: 30%;
+}
+/*end contact*/
