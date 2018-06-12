@@ -65,50 +65,90 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.header{
-	background: yellow;
+.margins{
+	height: 90%;
+	width: 90%;
+	box-sizing: border-box;
+	justify-content: center;
+	vertical-align: middle;
 }
 
+.header{
+	background: yellow;
+	position: relative;
+}f
+
+.navigation span{
+	margin: 40px 50px;
+	width: 75%;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 300;
+	position: absolute
+}
+
+.header .logo{
+	position: absolute;
+	right: 0;
+}
+
+
 .heading{
+	background: blue;
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
-	height: 400px;
-	width: 47%;
-	box-sizing: border-box;
-	margin: auto;
+	height: 45%;
+	width: 20%;
 }
 
 .container-1{
+	background: darkorange;
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
-	height: 100px;
+	height: 150px;
 	width: 35%;
 	box-sizing: border-box;
-	margin: 0 auto;
 }
 
+
 .container-2{
+	background: grey;
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
 	height: 200px;
 	width: 20%;
 	box-sizing: border-box;
-	margin: auto;
 }
 
-.container-3{
+.container-b{
+	background: yellow;
 	border: 1px solid black;
 	display: inline-block;
 	padding: 10px;
 	height: 100px;
 	width: 150px;
 	box-sizing: border-box;
-	margin: auto;
+}
+
+.container-c{
+	background: blue;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px;
+	height: 100px;
+	width: 150px;
+	box-sizing: border-box;
 }
 
 .footing{
+	border: 1px solid black;
+    margin: auto;
+}
 
+.foot{
+	justify-content: center;
+	align-content: center;
 }
