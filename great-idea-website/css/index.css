@@ -101,12 +101,15 @@ button {
 	border: 1px solid black;
 }
 
-header img{
 #circle{
 	padding-top: 40px;
 	width: 620px;
 }
 
+hr{
+	margin: 70px 200px;
+	border-top: 1px solid black;
+}
 
 section{
 	margin: 20px;
@@ -136,8 +139,14 @@ section{
 	margin-right: auto;
 }
 
+.contact p {
+	margin: 0 0 40px 0;
+
+
+}
+
 footer {
-	margin: 20px;
-	font-size: 15px;
+	margin: 50px 0 50px 0;
+	font-size: 20px;
 	text-align: center;
 }
