@@ -30,15 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 0 60px;
 }
-/* added display:inline */
 ol, ul {
 	list-style: none;
-	display: inline;
-}
-/* added li selector element, display:inline */
-li {
-	display: inline;
 }
 blockquote, q {
 	quotes: none;
@@ -61,7 +56,6 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-		margin: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,71 +64,91 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
-
 /* Your code starts here! */
 /* nav */
-.navigation {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding-bottom: 64px;
+
+header {
+  /* border: 1px solid red; */
+  position: relative;
+  width: 100%;
+  height: 140px
 }
 
-.navigation ul li {
-	padding: 0px 30px;
+header nav {
+  display: inline-block;
+  position: absolute;
+  line-height: 112px;
 }
 
-
-/* end nav */
-
-
-/* header and header image section */
-
-.header-section {
-    display: flex;
-    align-items: center;
-		justify-content: space-between;
+header nav a {
+  margin: 0 60px 0 0;
+  text-decoration: none;
+  display: inline-block;
+	color: #444;
 }
 
-.header-text {
-	font-size: 60px;
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+  position: absolute;
+  right: 0;
+	margin-top: 36px;
+}
+
+.main-content-text {
+	font-size: 80px;
 	text-align: center;
-}
-
-.row {
-	display: flex;
-}
-
-.col {
-	padding: 20px;
-}
-.col-half {
-	flex: 50%;
-}
-
-.col-third {
-	flex: 33%;
 }
 
 button {
 	border: 1px solid #000;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	padding:8px 32px;
 }
 
+.main-content .inner-content {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+	vertical-align: middle;
+	padding-bottom: 24px;
+}
+
 hr {
-	margin: 64px 0px;
+	margin: 48px 0px;
+}
+
+/* .row {
+	background-color: lightgray;
+} */
+
+.two-columns {
+	display: inline-block;
+  width: 50%;
+}
+
+.three-columns {
+	display: inline-block;
+  width: 33.33%;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+p {
+	padding: 0 20px 0 0;
 }
 
 .middle-img {
 	width: 100%;
-	padding: 20px 0px;
+	padding: 32px 0px;
 }
 
-.copyright {
-	display: flex;
-	justify-content: center;
+footer {
+	text-align: center;
 	padding:64px;
 }
