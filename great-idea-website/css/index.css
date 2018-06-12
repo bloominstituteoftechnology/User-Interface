@@ -115,13 +115,15 @@ h1, h2, h3, h4, h5 {
 	font-size: 75px;
 	margin: auto;
 	width: 50%; 
+	text-align: center;
 	}
 	
 
 	.top-content .inner-content button {
 		
-		margin: 0 0 0 75px;
-		width: 33%; 
+		margin: 0 0 0 200px;
+		
+		text-align: center;
 	}
 	
 	.top-content .inner-content img {
@@ -132,24 +134,28 @@ h1, h2, h3, h4, h5 {
   .middle-content {
 	margin: 10px;
 	padding: 5px 5px 5px ;
+	text-align: center;
   }
   
   .middle-content .inner-content {
 	display: inline-block;
 	width: 50%;
 	padding: 10px 10px 10px 1px
+	
   }
 
 	.middle-content .inner-content h1 {
 		display: inline-block;
 		width: 50%;
-		
+		text-align: center;
 		margin: 0 0 0 75px;
 		}
+		
 
   .bottom-content {
 	margin: 10px;
 	padding: 5px 5px 5px ;
+	text-align: center;
   }
   
   .bottom-content .inner-content {
