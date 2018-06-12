@@ -63,4 +63,29 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+#first{
+	background-color: green;
+	display: inline-block;
+}
+#second {
+	background-color: orange; 
+	display: inline-block;
+}
+#description{
+	display: inline-block;
+}
+#contact{
+	display: block;
+}
+
+.middle-img {
+	display: inline-block;
+}
+#row1{
+display: inline-flex;
+}
+#row2{
+display: inline-flex;
+}
+
+
