@@ -33,7 +33,7 @@ Stretch goals are not required. Complete the project objectives before working o
 - [x] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
 - [x] Introduce a new font family from [google fonts](https://fonts.google.com/)
 
-- [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
+- [x] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
 - [x] Change all the image tags into background images instead
 
