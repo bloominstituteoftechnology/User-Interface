@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 	width: 876px;
 	margin: auto;
 }
+
 header {
 	position: relative;
 	width: 100%;
@@ -80,7 +81,7 @@ header nav {
 }
 
 header nav a {
-	margin: 10px 20px 20px 0;
+	margin: 10px 40px 40px 0;
 	color: gray;
 	text-decoration: none;
 	display: inline-block;
@@ -125,8 +126,8 @@ button {
 	width: 49%;
 }
 
-.sect-three .section-text {
-	width: 31%;
+.sec-three .section-text {
+	width: 32%;
 }
 
 footer {
