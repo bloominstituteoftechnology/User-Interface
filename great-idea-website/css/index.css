@@ -74,47 +74,120 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	border: 1px solid red;
 	width: 100%;
-	height: 100px;
 	position: relative;
 	padding: 5px;
+	height: 50px;
+	margin-top: 30px;
+	/* border: 1px solid red; */
 }
 nav {
 	display: inline-block;
 }
 
 header nav a{
-	border: 1px solid green;
-	padding: 10px;
+	padding-right: 40px;
 	margin: 10px;
 	vertical-align: middle;
+	display: inline-block;
+	/* border: 1px solid green; */
 }
 header .logo{
 	display: inline;
 	position: absolute;
-	right: 0;
-	border: 1px solid blue;
+	right: 100;
+	/* border: 1px solid blue; */
 }
 
 .section-one{
-	display: inline-block;
+	/* display: inline-block; */
+	position: relative;
 	width: 100%;
+	/* border: 1px solid black; */
 }
 
-.section-one .left .right h1{
-	width: 45%;
+h1 {
+	font-size: 60pt;
+	text-align: center;
+}
+
+button{
+	padding-left: 200px;
+	align-self: auto;
+	width: 150px;
+	height: 30;
+	/* background-color: grey;
+	border: 1px yellow solid; */
+}
+
+.left, .right {
+	width: 50%;
+	margin: 0px;
 	display: inline-block;
-	position: relative;
+	/* border: 1px solid red; */
+	vertical-align: middle;
+}
+.right {
+	/* border: 1px solid purple; */
+	padding: 60px;
 }
 
 .line{
 	background: black;
 	height: 2px;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
+h2{
+	font-size: 25px;
+}
+
+.double-textbox{
+	position: relative;
+	/* border: 1px solid black; */
+	width: 100%;
+}
+
+.features, .about{
+	width: 49%;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-right: 50px;
+}
+/* .features {
+	padding-right: 50px;
+} */
+
+.middle-img{
+	width: 100%;
+	height: 200px;
+}
+
+.triple-textbox{
+		position: relative;
+		width: 100%;
+		/* border: 1px solid black; */
+}
+
+.services, .product, .vision {
+	width: 33%;
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 10px;
+	/* border: 1px solid red; */
+}
+
+.contact{
+	margin-top: 10px;
+}
+.copyright{
+	margin:20px;
+	text-align: center;
+	font-size: 10px;
+}
 
 /*
 body{
@@ -207,11 +280,4 @@ p{
 	padding: 10px;
 }
 
-.contact{
-	margin-top: 10px;
-}
-.copyright{
-	margin:20px;
-	text-align: center;
-	font-size: 10px;
-} */
+ */
