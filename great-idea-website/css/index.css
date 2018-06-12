@@ -103,6 +103,7 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 90%;
+	margin-top: 5%;
 }
 
 hr {
@@ -197,4 +198,32 @@ div .bottom-content section {
 
 .contact-info p {
 	color: white;
+}
+
+
+/* Code for great-idea.html */
+
+#opener {
+    position: relative;
+    top: 9%;
+    color: palevioletred;
+}
+
+.small-heading {
+    text-align: center;
+    color: darkcyan;
+}
+
+.lorem {
+    display: inline-block;
+    width: 48%;
+}
+
+/* For uniformity with the homepage. */
+.logo {
+    margin: 0 4%;
+}
+
+.main-content {
+    text-align: center;
 }
