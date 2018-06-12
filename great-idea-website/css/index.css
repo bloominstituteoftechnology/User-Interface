@@ -99,13 +99,17 @@ nav ul li{
 	word-wrap:break-word;
 }
 
+.header-left h1 {
+	margin-bottom: -25px;
+}
+
 .header-left button{
 	font-size: 15px;
 	background-color: white;
 	border: 1px solid black;
 	text-align: center;
 	text-decoration: none;
-	padding: 3px 30px;
+	padding: 5px 35px;
 }
 
 .header img {
@@ -113,6 +117,7 @@ nav ul li{
 	vertical-align: top;
 	margin-left: 100px;
 	margin-top: 40px;
+	margin-bottom: 75px;
 }
 
 hr {
@@ -123,12 +128,16 @@ hr {
 
 .content {
 	margin-top: 25px;
-	font-size: 25px;
+	font-size: 20px;
+	text-align: left;
 }
 
 .lg {
 	display: inline-block;
 	width: 590px;
+	padding-right: 50px;
+	padding-left: 0px;
+	margin-right: 5px;
 }
 
 .content img {
@@ -139,8 +148,15 @@ hr {
 
 .sm {
 	display: inline-block;
-	margin: 25px;
+	margin-right: 75px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	width: 325px;
+	padding-left: 0px;
+}
+
+.evenout {
+	margin-right: 0px;
 }
 
 .contact {
