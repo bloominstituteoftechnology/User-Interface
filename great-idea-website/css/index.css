@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .wrap {
-	margin: 40px auto 0 auto;
+	margin: 40px auto 80px auto;
 	width: 876px;
 	
 }
@@ -119,19 +119,38 @@ header .logo {
 }
 
 .features-about {
-	margin-top: 20px;
+	margin: 30px 0 30px 0;
 	padding-top: 40px;
 	border-top: 1px solid black;
+
 }
 
- .features .about {
+ .features, .about {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	text-align: left;
 }
 
-.services .product .vision {
+.services-product-vision {
+	margin: 30px 0 30px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+.services, .product, .vision {
 	display:inline-block;
-	width: 33.33%;
+	width: 33%;
 	text-align:left;
+}
+
+.contact {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 0 20px 0;
+}
+
+.copyright {
+	width:100%;
+	text-align: center;
+	margin-top:40px;
 }
