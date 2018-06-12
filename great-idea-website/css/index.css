@@ -75,9 +75,14 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	margin-right: 6.5%;
 	line-height: 36px;
+	transition: transform 0.2s;
 }
 .primary-nav li:last-child {
 	margin-right: 0;
+}
+.primary-nav li:hover,
+.logo:hover {
+	transform: scale(1.25);
 }
 .primary-nav a {
 	text-decoration: none;
@@ -89,9 +94,14 @@ h1, h2, h3, h4, h5 {
 }
 .logo {
 	float: right;
+	transition: transform 0.2s;
 }
 .primary-nav {
 	padding: 27px 0;
+	background: #f7f7f7;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 /*
@@ -229,4 +239,17 @@ footer p {
 	text-align: center;
 	padding-bottom: 15px;
 	font-size: 14px;
+}
+
+/*
+	=====================================
+	Additional styles
+	=====================================
+*/
+body {
+	padding-top: 90px; /* this makes up for the fixed navbar (36px line height + (27px padding) * 2) */
+}
+h4 {
+	font-family: "Lobster", cursive;
+	font-size: 18px;
 }
