@@ -67,65 +67,77 @@ h1, h2, h3, h4, h5 {
 
 nav{
 	padding-top: 10px;
-	border: 1px solid red;
 	text-align: center;
 }
 
 ul li{
-	border: 1px solid red;
-	padding: 50px;
-	height: 30px;
+	padding: 70px 80px;
 	display: inline-block;
+	font-size: 25px;
+}
+
+li img{
+	width: 300px;
 }
 
 
 header{
-	padding-top:20px;
-	border: 1px solid red;
-	display: inline;
+	margin-left: 415px;
+	margin-bottom: 80px;
+	margin-right: 90px;
+	display: inline-block;
 }
 
 header h1{
-	font-size: 90px;
-	border: 1px solid red;
+	padding: 0 60px 20px 0;
+	font-size: 140px;
 	text-align: center;
 }
 button {
+	margin-left: 170px;
+	background-color: white;
+	padding: 15px 60px;
+	font-size: 30px;
 	border: 1px solid black;
 }
 
 header img{
-	width: 500px;
-	border: 1px solid red;
-	float: right;
+#circle{
+	padding-top: 40px;
+	width: 620px;
 }
 
 
 section{
-	margin: auto;
-	padding: 20px;
-	width: 100%;
-	border: 1px solid red;
-	display: inline-block;
-}
-.top div{
-	margin-left: 40px;
-	padding: 10px;
-	width: 45%;
-	border: 1px solid red;
+	margin: 20px;
+	font-size: 25px;
+	padding: 50px 150px;
 	display: inline-block;
 }
 
-div{
-	padding: 10px;
+.top div{
+	height: 150px;
+	width: 49%;
+	padding: 10px 40px;
+	display: inline-block;
+}
+
+.bottom div{
+	height: 150px;
 	width: 33%;
-	border: 1px solid red;
+	padding: 10px 40px;
 	display: inline-block;
 }
 
 .middle-img {
-	width: 95%;
+	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+footer {
+	margin: 20px;
+	font-size: 15px;
+	text-align: center;
 }
