@@ -1,0 +1,13 @@
+
+nav {
+    display: inline-block;
+    border: solid 2px red;
+    margin: 30px;
+    margin-left: 30px;
+    width: 60%;
+    word-spacing: 80px;
+    padding: 20px;
+}
+.logo {
+    
+}
