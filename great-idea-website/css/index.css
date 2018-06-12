@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Open Sans', sans-serif,'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -67,7 +67,12 @@ h1, h2, h3, h4, h5 {
 * {
 	box-sizing: border-box;
 }
+body {
+	margin-left: 60px;
+	margin-right: 60px;
+}
 header {
+	margin-top: 20px;
 	position: relative;
 	height: 36px;
 	width: 100%;
@@ -78,11 +83,77 @@ header nav {
 	line-height: 36px;
 }
 header nav a{
-	margin: 40px;
+	margin: 50px;
 	text-decoration: none;
 	color:lightgray;
 }
+header nav a: hover {
+	text-decoration: underline;
+}
 header .logo {
 	position: absolute;
-	right: 0;
+	right: 100px;
+}
+.get-started {
+	margin-top: 60px;
+	height: 450px;
+	border-bottom: 1px solid gray;
+	width: 100%;
+	position: relative;
+}
+.get-started div{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+.get-started div h1 {
+	font-size: 60px;
+}
+.get-started div button {
+	width: 130px;
+	height: 35px;
+	border: 1px solid black;
+}
+.get-started img {
+	display: inline-block;
+	right:100px;
+	position: absolute;
+	width: 379px;
+}
+.top-info div {
+	width: 50%;
+	display: inline-block;
+}
+.top-info div h2 {
+	padding-top: 30px;
+}
+.top-info div p {
+	padding-bottom: 30px;
+}
+.middle-img {
+	width: 100%;
+	height: 182px;
+	margin: 0 auto;
+}
+.bottom-info div {
+	width: 33%;
+	display: inline-block;
+	border-bottom: 1px solid gray;
+	
+}
+.bottom-info div h2 {
+	padding-top: 30px;
+}
+.bottom-info div p {
+	padding-bottom: 30px;
+}
+.contact h2 {
+	padding-top: 30px;
+}
+.contact p {
+	margin-bottom: 60px;
+}
+
+.copyright p {
+	text-align: center;
 }
