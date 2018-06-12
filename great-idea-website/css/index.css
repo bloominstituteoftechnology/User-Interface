@@ -64,10 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
 body {
 	padding: 0px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin: 0px 125px 125px;
 }
 
 nav{
@@ -75,12 +78,14 @@ nav{
 }
 
 nav ul li{
+	color: grey;
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 45px;
 }
 
 .header {
 	margin-top: 25px;
+	text-align: center;
 }
 
 .header .header-left {
@@ -89,8 +94,7 @@ nav ul li{
 	padding: 75px 10px 75px;
 	vertical-align: top;
 	text-align: center;
-	margin: 0px;
-	margin: 0px 30px;
+	margin: 0px 100px;
 	white-space: normal;
 	word-wrap:break-word;
 }
@@ -107,26 +111,48 @@ nav ul li{
 .header img {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 0px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
 }
 
 .content {
-	border: 1px solid black;
 	margin-top: 25px;
+	font-size: 25px;
 }
 
 .lg {
 	display: inline-block;
-	border: 1px solid green;
-	margin: 25px;
+	width: 590px;
 }
 
 .content img {
 	display: block;
+	width: 1190px;
+	margin-top: 50px;
 }
 
 .sm {
 	display: inline-block;
-	border: 1px solid red;
 	margin: 25px;
+	width: 325px;
+}
+
+.contact {
+	width: 150px;
+	margin-top: 25px;
+}
+
+.padded {
+	margin-top: 20px;
+}
+
+.footer {
+	text-align: center;
+	padding-bottom: 125px;
 }
