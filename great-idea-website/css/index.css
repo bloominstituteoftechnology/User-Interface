@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -69,14 +69,34 @@ body{
 	width: 1024px;
 	padding: 50px;
 }
+.Navigation{
+	position: sticky;
+	top: 0;
+	height: 36px;
+	width: 100%;
+	background-color: white;
+}
 nav{
-	text-align: center;
-	word-spacing: 50px;
-	padding: 20px;
+	
+	word-spacing: 70px;
+	margin: 0px 0px 0px 20px;
+	
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	height: 18px;
+	margin-top: -9px;
+	
 }
 a{
 	color: gray;
 	text-decoration: none;
+	display: inline-block;
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 0
 }
 header{
 	margin: auto;
@@ -84,9 +104,9 @@ header{
 	padding: 50px;
 }
 h1 {
-	margin: auto;
+	
 	padding: 50px;
-	font-size: 75px;
+	font-size: 60px;
 	font-style: bold;
 	text-align: center;
 	display: inline-block;
