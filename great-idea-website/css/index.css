@@ -57,17 +57,20 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-* {
-	box-sizing: border-box;
+h2, h3, h4, h5 {
+    font-family: 'IM Fell English SC', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 18px;
 }
 
+/* Your code starts here! */
 .nav-container {
 	margin: 15px 0 0 75px;
 }
