@@ -64,3 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+header {
+	position: relative;
+	height: 36px;
+	width: 100%;
+}
+header nav {
+	display: inline-block;
+	position: absolute;
+	line-height: 36px;
+}
+header nav a{
+	margin: 40px;
+	text-decoration: none;
+	color:lightgray;
+}
+header .logo {
+	position: absolute;
+	right: 0;
+}
