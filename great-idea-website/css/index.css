@@ -64,3 +64,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation{
+
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 35px;
+
+	border: 2px solid black;
+}
+
+.navigation a{
+	
+	display: inline;
+	padding: 80px;
+}
+
+.head h1{
+
+	font-size: 77px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 90px;
+
+	border: 2px solid black;
+}
+
+.head button{
+
+	background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 200px 2px;
+	cursor: pointer;
+}
+
+.head_2 img{
+
+	display: inline-block;
+	margin-top: 110px;
+	border: 1px solid red;
+	padding-left: 35px;
+}
+
+.top-content{
+	
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+	margin-top: 75px;
+	padding-top: 39px;
+	box-sizing: border-box;
+	border: 2px solid blue;
+}
+
+.middle-img{
+	margin: 50px 50px;
+}
+
+.bottom-content{
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+	
+	box-sizing: border-box;
+	border: 2px solid blue;
+}
+
+.contact {
+
+	margin: 50px 50px;
+	border: 1px solid brown;
+}
