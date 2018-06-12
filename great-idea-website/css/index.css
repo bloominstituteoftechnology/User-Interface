@@ -72,11 +72,23 @@ nav {
   display: inline-block;
   vertical-align: top;
   width: 878px;
-  border: 1px solid green; 
-  word-spacing: 3em;
+  /* border: 1px solid green;  */
+  word-spacing: 3.5em;
   color: lightgray;
   margin: 5%;
   padding: 2%;
+  position: relative;
+  /* text-decoration: none; */
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+}
+.logo {
+	position: absolute;
+	right: 0;
+	bottom: 18px;
 }
 
 header {
@@ -115,16 +127,22 @@ header {
 .image-display {
   display: inline-block;
   vertical-align: middle;
-  width: 49%;
-  /* border: 1px solid blue; */
-  /* margin-left: 22px; */
-  padding-left: 8%;
+  width: 438px;
+  border: 1px solid blue;
+  padding-left: 7%;
 }
 .two-columns {
   display: inline-block;
   vertical-align: top;
   width: 438px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+
+.three-columns {
+	display: inline-block;
+	vertical-align: top;
+	width: 292px;
+	/* border: 1px solid red; */
 }
 
 section {
