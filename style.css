@@ -1,7 +1,7 @@
 
 nav {
     display: inline-block;
-    border: solid 2px red;
+/*    border: solid 2px red;*/
     margin: 30px;
     margin-left: 30px;
     width: 60%;
@@ -15,7 +15,7 @@ nav {
 }
 .head-text {
     display: inline-block;
-    border: solid blue 2px;
+/*    border: solid blue 2px;*/
     width: 30%;
     margin-left: 10%;
     font-family: monospace;
@@ -24,7 +24,9 @@ nav {
     position: relative;
 }
 .head {
-  margin-bottom: 2px solid grey;
+  border-bottom: 2px solid grey;
+    margin: 30px;
+    padding-bottom: 65px;
 
 }
 .head-text button{
@@ -33,4 +35,26 @@ nav {
 }
 .head img {
     margin-left: 50px;
+    position: relative;
+}
+.top-content {
+    border-bottom: 5%;
+    margin: 5%;
+}
+.text-content {
+    display: inline-block;
+    width: 49%;
+}
+/*
+.top-content .text-content {
+    width: 49%;
+}*/
+
+.btm-content {
+
+    border-bottom: 2px solid black;
+    margin: 5%;
+}
+.footer {
+    margin: auto;
 }
