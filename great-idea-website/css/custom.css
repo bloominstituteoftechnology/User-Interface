@@ -1,18 +1,14 @@
 /* Your code starts here! */
 
-.body-container {
-    width: 66%;
-    margin: 0 auto;
-}
-
-.block {
-    position: relative;
-    width: 100%;
-    margin: 3% 0;
-}
-
 .great-header {
+    position: fixed;
+    width: 66%;
+    margin: 1% 17%;
     display: inline-block;
+    z-index: 1000;
+    padding: 1% 0;
+    color: black;
+    background: rgba(255,255,255,0.6);
 }
 
 nav {
@@ -24,7 +20,11 @@ nav {
 a {
 	text-decoration: none;
     padding: 3%;
-    color: #CCCCCC;
+    color: black;
+}
+
+a:hover {
+    color:#8668B0;
 }
 
 .logo {
@@ -32,7 +32,23 @@ a {
     margin-right: 3%;
 }
 
+.body-container {
+    width: 66%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    /* margin: 3% 0; */
+}
+
 /*  */
+
+.body-content {
+
+}
 
 .innovation-container {
    height:403px;
