@@ -66,87 +66,99 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav{
-	padding-top: 10px;
+	border: 1px solid red;
 	text-align: center;
 }
 
-ul li{
-	padding: 70px 80px;
+nav ul{
+	border: 1px solid red;
+	margin-right: 130px;
 	display: inline-block;
-	font-size: 25px;
 }
 
-li img{
-	width: 300px;
+
+ul li{
+	margin: 42px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.logo{
+	border: 1px solid red;
+	width: 230px;
 }
 
 
 header{
-	margin-left: 415px;
-	margin-bottom: 80px;
-	margin-right: 90px;
-	display: inline-block;
+	padding: 140px;
+	position: relative;
+	text-align: center;
+	border: 1px solid red;
 }
 
-header h1{
-	padding: 0 60px 20px 0;
-	font-size: 140px;
-	text-align: center;
+h1{
+	border: 1px solid red;
+	font-size: 100px;
 }
+
 button {
-	margin-left: 170px;
 	background-color: white;
-	padding: 15px 60px;
-	font-size: 30px;
+	padding: 8px 50px;
+	font-size: 22px;
 	border: 1px solid black;
 }
 
 #circle{
-	padding-top: 40px;
-	width: 620px;
+
+	top: 70px;
+	position: absolute;
+	width: 490px;
 }
 
+
 hr{
-	margin: 70px 200px;
+	text-align: center;
+	width: 90%;
+	margin-bottom: 20px;
 	border-top: 1px solid black;
 }
 
 section{
-	margin: 20px;
-	font-size: 25px;
-	padding: 50px 150px;
+	margin: 40px;
+	padding: 0 30px;
+	font-size: 22px;
 	display: inline-block;
 }
 
+
 .top div{
-	height: 150px;
-	width: 49%;
-	padding: 10px 40px;
+	height: 145px;
+	width: 48%;
 	display: inline-block;
 }
 
 .bottom div{
-	height: 150px;
+	padding-right: 10px;
+	height: 200px;
 	width: 33%;
-	padding: 10px 40px;
 	display: inline-block;
 }
 
 .middle-img {
-	width: 80%;
+	width: 90%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .contact p {
-	margin: 0 0 40px 0;
+	margin: 0 0 25px 0;
 
 
 }
 
 footer {
 	margin: 50px 0 50px 0;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 }
