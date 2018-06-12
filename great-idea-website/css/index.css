@@ -62,30 +62,120 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+h1{
+	font-size:5em;
+}
+
+.head {
+ width: 876px;
+ position:relative;
+ text-decoration: none;
+ color:grey;
+ padding: 0px 20px 20px 20px;
+}
+
+.head nav a {
+}
+.logo{
+ padding: 20px 20px 0px 20px; 
+ align-content: center;
+ alignment-baseline: central;
+ align-self: center;
+ align-items: center;
+ vertical-align: center;
+}
+
+#button {
+	border: 2px solid;
+	text-align: center;
+	position: relative;
+	margin: 1em 5em 1em 5em;
+	padding: .5em 0em .5em 0em;
+}
+
+#img {
+	display: block;
+	max-width: 876px;
+
+}
 
 #first{
-	background-color: green;
 	display: inline-block;
+	margin: 1em 5em 1em 5em;
+	padding: .5em 0em .5em 0em;
+	text-align: center;
+	align-content: center;
 }
 #second {
-	background-color: orange; 
 	display: inline-block;
 }
+
+
 #description{
-	display: inline-block;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 1em 0em 1em 0em;
+	max-width: 876px;
+
 }
-#contact{
+
+#row1{
+display: inline-block;
+max-width: 876px;
+padding: 0em 0em 0em 0em;
+}
+
+	#Features {
+		display: inline-block;
+		width: 50%;
+		padding-right: .5em;
+	}
+
+	#About{
+		display: inline-block;
+		width:50%;
+		padding-left: .5em;
+	}
+
+.middle-img {
+display: block;
+padding: 2em 0em 2em 0em; 
+}
+
+
+	#row2{
+	display: inline-block;
+	width: 50%;
+	width: 876px;
+	}
+
+	#Services {
+		display: inline-block;
+		width:292px;
+		padding-right: .5em;
+	}
+
+	#Product {
+		display: inline-block;
+		width:292px;
+		padding-right: .5em;
+	}
+
+	#Vision {
+		display: inline-block;
+		width:292px;
+		padding-left: .5em;
+	}
+
+#close {
+	text-align: center;
 	display: block;
 }
 
-.middle-img {
+#contact{
 	display: inline-block;
-}
-#row1{
-display: inline-flex;
-}
-#row2{
-display: inline-flex;
+	width: 20%;
+	white-space: pre;
 }
 
 
