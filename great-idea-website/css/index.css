@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
 .primary-nav li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 2.0%;
+	margin-right: 6.5%;
 	line-height: 36px;
 }
 .primary-nav li:last-child {
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5 {
 	float: right;
 }
 .primary-nav {
-	padding: 30px 0;
+	padding: 27px 0;
 }
 
 /*
@@ -102,15 +102,18 @@ h1, h2, h3, h4, h5 {
 .container,
 .grid {
 	margin: 0 auto;
-	width: 70%;
+	width: 872px;
 }
 .col-1-2,
 .col-1-3 {
 	display: inline-block;
-	padding-right: 1.5%;
 }
 .col-1-2 {
 	width: 50.0%;
+}
+.col-1-2:not(:first-child),
+.col-1-3:not(:first-child) {
+	padding-left: 10px;
 }
 .col-1-3 {
 	width: 33.33%;
@@ -141,17 +144,19 @@ h1, h2, h3, h4, h5 {
 	=====================================
 */
 .primary-header {
-	padding-top: 15px;
-	padding-bottom: 45px;
+	padding: 42px 0 78px 0;
 	text-align: center;
 }
 .hero-content {
 	padding-top: 60px;
+	padding-left: 40px;
+	width: 50.0%;
 }
 .primary-header h1 {
-	font-size: 64px;
-	margin-bottom: 30px;
-	letter-spacing: 2px;
+	font-size: 72px;
+	margin-bottom: 18px;
+	letter-spacing: 5px;
+	line-height: 1.05;
 }
 .hero-img {
 	float: right;
@@ -159,6 +164,7 @@ h1, h2, h3, h4, h5 {
 .primary-header a {
 	text-decoration: none;
 	color: #000;
+	font-size: 18px;
 }
 
 /*
@@ -188,7 +194,10 @@ h1, h2, h3, h4, h5 {
 	padding: 40px 0;
 }
 .content p {
-	line-height: 1.25;
+	line-height: 17px;
+}
+.content + hr {
+	margin-top: 10px;
 }
 
 /*
@@ -199,6 +208,7 @@ h1, h2, h3, h4, h5 {
 .middle-img {
 	display: block;
 	width: 100%;
+	/* margin-bottom: 5px; */
 }
 
 /*
@@ -207,7 +217,7 @@ h1, h2, h3, h4, h5 {
 	=====================================
 */
 .contact p {
-	margin-bottom: 15px;
+	margin-bottom: 18px;
 }
 
 /*
@@ -218,4 +228,5 @@ h1, h2, h3, h4, h5 {
 footer p {
 	text-align: center;
 	padding-bottom: 15px;
+	font-size: 14px;
 }
