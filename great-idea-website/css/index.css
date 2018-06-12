@@ -65,7 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {color: gray; word-spacing: 35px; margin-left: 100px; padding-bottom: 20px;}
-.title {font-weight: bold; font-size: 50px;}
+.navigation {color: gray; word-spacing: 35px; margin-left: 300px; padding-bottom: 20px;}
 .heading {font-weight: bold; font-size: 20px;}
-.paragraph {display: inline-block}
+.header {padding-top: 100px; padding-left: 100px}
+footer {text-align: center;}
+.pic {padding-left: 500px;}
+.middle-img {padding-left: 200px;}
+button {margin: 20px 0 0 90px;}
+.paragraph {width: 400px; height: auto;}
+h1 {font-size: 70px; padding: 50 0 0 100px;}
