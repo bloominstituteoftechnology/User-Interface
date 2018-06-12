@@ -54,13 +54,79 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	/* border: 2px solid red;
+	margin: 2% auto;
+	width: 80%; */
 }
 
 /* Your code starts here! */
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  border: 1px solid green; 
+  word-spacing: 5em;
+  color: lightgray;
+  margin: 2% auto;
+  padding: 2%;
+}
+
+header {
+	border-bottom: 1px solid black;
+	width: 80%;
+	
+}
+
+.banner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  /* border-bottom: 1px solid black; */
+  text-align: center;
+}
+
+ .banner-text {
+  font-size: 75px;
+  width: 70px;
+  border: 1px solid blue;
+  margin-left: 20%;
+  text-align: center;
+  
+}
+
+ .banner-button {
+	border: 1px solid;
+    width: 130px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 2px;
+	margin-left: 20%;
+}
+
+.image-display {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  /* border: 1px solid blue; */
+  /* margin-left: 22px; */
+  padding-left: 8%;
+}
+.two-columns {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  /* border: 1px solid blue; */
+}
+
+section {
+	width: 80%;
+	/* border: 1px solid blue; */
+}
