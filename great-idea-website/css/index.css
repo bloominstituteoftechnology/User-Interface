@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5 {
 	line-height: 130px;
 	bottom:0;
 	left: 0; 
-	border: 1px solid black;
   }
   header nav a {
 	color: gray;
@@ -86,7 +85,6 @@ h1, h2, h3, h4, h5 {
 	margin: 0px 75px 0px 0px;
 	text-decoration: none;
 	display: inline-block;
-	border: 1px solid black;
   }
   
   header nav a:hover {
@@ -98,18 +96,15 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	right: 0;
 	line-height: 120px;
-	border: 1px solid black;
 	margin: 40px 70px ;
   }
   
   .top-content {
 	margin: 10px;
 	padding: 5px 5px 5px ;
-	border: 1px solid black;
   }
   
   .top-content .inner-content {
-	border: 1px solid black;
 	display: inline-block;
 	width: 50%;
 	vertical-align: top;
@@ -117,67 +112,69 @@ h1, h2, h3, h4, h5 {
   }
 
   .top-content .inner-content h1 {
-	border: 1px solid black;
 	font-size: 75px;
 	margin: auto;
 	width: 50%; 
-
 	}
+	
 
 	.top-content .inner-content button {
 		
-		margin: auto;
-		width: 50%; 
+		margin: 0 0 0 75px;
+		width: 33%; 
 	}
-
+	
+	.top-content .inner-content img {
+		
+		margin: 0 0 0 30px;
+		
+	}
   .middle-content {
-	border: 1px solid black;
 	margin: 10px;
 	padding: 5px 5px 5px ;
   }
   
   .middle-content .inner-content {
-	border: 1px solid black;
 	display: inline-block;
 	width: 50%;
 	padding: 10px 10px 10px 1px
   }
 
+	.middle-content .inner-content h1 {
+		display: inline-block;
+		width: 50%;
+		
+		margin: 0 0 0 75px;
+		}
+
   .bottom-content {
-	border: 1px solid black;
 	margin: 10px;
 	padding: 5px 5px 5px ;
   }
   
   .bottom-content .inner-content {
-	border: 1px solid black;
 	display: inline-block;
 	width: 33%;
 	padding: 10px 10px 10px 1px
   }
 
   .contact-content {
-	border: 1px solid black;
 	margin: 10px;
 	padding: 5px 5px 5px ;
   }
   
   .contact-content .inner-content {
-	border: 1px solid black;
 	display: inline-block;
 	width: 33%;
 	padding: 10px 10px 10px 1px
   }
 
   .footer-content {
-	border: 1px solid black;
 	margin: 10px;
 	padding: 5px 5px 5px ;
+	text-align: center;
   }
   
   .footer-content .inner-content {
-	border: 1px solid black;
-	display: inline-block;
-	width: 33%;
-	padding: 10px 10px 10px 1px
+
   }
