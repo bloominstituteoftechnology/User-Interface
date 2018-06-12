@@ -7,7 +7,30 @@ nav {
     width: 60%;
     word-spacing: 80px;
     padding: 20px;
+    font
 }
 .logo {
+    margin-left: 20px;
     
+}
+.head-text {
+    display: inline-block;
+    border: solid blue 2px;
+    width: 30%;
+    margin-left: 10%;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.head {
+  margin-bottom: 2px solid grey;
+
+}
+.head-text button{
+    width: 120px;
+    height: 40px;
+}
+.head img {
+    margin-left: 50px;
 }
