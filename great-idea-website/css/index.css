@@ -64,39 +64,3 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-h1 {
-	font-size: 40px;
-}
-.div1 {
-	width: auto;
-	height: 20px;
-	display: inline-block;
-}
-.div1 nav{
-	border: 1px solid black;
-}
-.div1 img{
-	border: 1px solid black;
-	display: inline;
-}
-.div2{
-	clear: left;
-}
-.top-section{
-  padding: 1em;
-	column-count: 2;
-  column-gap: 1em;
-}
-
-.bottom-section {
-	padding: 1em;
-	column-count: 3;
-  column-gap: 1em;
-}
-
-.div2 {
-	padding: 1em;
-	column-count: 2;
-  column-gap: 1em;
-}
