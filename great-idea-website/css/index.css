@@ -54,13 +54,153 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Quicksand', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+		font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+		margin-bottom: 15px;
+		font-weight: 1000;
 }
 
 /* Your code starts here! */
+
+/* Body */
+body {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* Navigation */
+.navigation {
+	width: 1000px;
+	/* Sticky navigation */
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	background: white;
+}
+
+.navigation ul {
+	width: 80%;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	display: inline-block;
+	line-height: 36px;
+	text-decoration: none;
+
+	color: rgba(128, 128, 128, 0.60);
+	margin: 40px 5px 20px 5px;
+	letter-spacing: 1px;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	color: black;
+	font-size: 120%;
+}
+
+.navigation img {
+	/* float: right; */
+	position: absolute;
+	top: 48px;
+	right: 60px;
+}
+
+/* Header */
+header {
+	text-align: center;
+	/* display under the nav */
+	margin-top: 200px;
+}
+
+header div {
+	display: inline-block;
+	vertical-align: top;
+
+	padding: 30px;
+	width: 50%;
+}
+
+header div h1 {
+	font-size: 80px;
+}
+
+header div button {
+	text-align: center;
+	text-decoration: none;
+
+	margin-top: 15px;
+	border: solid black 1px;
+	padding: 10px 50px;
+}
+
+header div button:hover {
+	transform: scale(1.2);
+	border: none;
+	color: white;
+	background: black;
+}
+
+header img {
+	height: 400px;
+	width: 400px;
+}
+
+/* Section */
+section {
+	/* line-height: 30px; */
+	height: 200px;
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+}
+
+section .paragraph-1{
+	float: left;
+
+	width: 50%;
+	padding: 30px 10px 10px 0px;
+	margin-top: 80px;
+	border-top: black solid 2px;
+}
+
+.section-img {
+	width: 100%;
+	padding: 20px 20px;
+}
+
+section .paragraph-2{
+	float: left;
+
+	width: 33.3%;
+	padding: 10px 10px 30px 0px;
+	border-bottom: black solid 2px;
+}
+
+/* Contact */
+div .contact {
+	padding: 20px;
+}
+
+div.contact h2 {
+	padding: 10px 20px;
+}
+
+div.contact p ,
+div a {
+	padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	
+	padding: 80px;
+	margin-bottom: 80px;
+}
