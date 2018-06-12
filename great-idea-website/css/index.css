@@ -206,3 +206,93 @@ header {
 	width: 100%;
 	padding: 10px;
 }
+
+/* Services Page Specific CSS */
+
+header .services-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0px 50px 50px 50px;
+}
+
+header .header-content h1 {
+	font-size: 24px;
+}
+
+.services-main-content {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px 0px 20px 0px;
+}
+
+.services-main-content .main-box-left {
+	display: inline-block;
+	background-color: lightgrey;
+	border: 1px solid black;
+	height: 200px;
+	width: 47.5%;
+	padding: 20px;
+	margin: 5px 2.5% 5px 0;
+}
+
+.services-main-content .main-box-right {
+	display: inline-block;
+	background-color: lightgrey;
+	border: 1px solid black;
+	height: 200px;
+	width: 47.5%;
+	padding: 20px;
+	margin: 5px 0px 5px 2.5%;
+}
+
+.services-main-content button {
+	background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.services-main-content button:hover {
+	color: white;
+	background-color: black;
+}
+
+.services-main-content button:focus {
+	outline: 0;
+}
+
+.end {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.services-facts {
+	display: inline-block;
+	width:50%;
+	vertical-align:top;
+	padding: 20px 20px 20px 0;
+	line-height: 1.2;
+}
+
+.services-facts ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.6;
+}
+
+.services-facts-image {
+	display: inline-block;
+	width: 47.5%;
+	margin: 5px 0px 5px 2.5%;
+	height:300px;
+}
+
+
