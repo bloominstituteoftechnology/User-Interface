@@ -68,13 +68,12 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
-.starting-nav {
+.nav-container {
 	margin: 15px 0 0 75px;
-	/* position: fixed; */
 }
 
 .navigation li {
-	color: lightgray;
+	color: gray;
 	margin: 0 60px 0 0px;
 	display: inline-block;
 	vertical-align: middle;
@@ -83,23 +82,17 @@ h1, h2, h3, h4, h5 {
 .custom-header {
 	position: relative;
   	align-items: center;
-	margin: 40px 0px 50px 75px;
-	border: 1px solid blue;
+	margin: 75px 0px 75px 75px;
 	height: 385px;
+	width: 880px;
 }
 
-header .custom-header{
+.title-container {
 	display: inline-block;
-	width: 50%
-	position: relative;
-}
-
-.title {
-	display: inline-block;
+	position: absolute;
+	left: 50px;
 	width: 400px;
 	height: 385px;
-	/* margin-left: 30px; */
-	border: 1px solid red;
 }
 
 .title-text {
@@ -112,14 +105,15 @@ header .custom-header{
 	border: 1px solid;
 	width: 160px;
 	padding: 5px;
-	margin-left: 130px;
+	margin-left: 120px;
   	text-align: center;
 }
 
 .cir-image {
 	display: inline-block;
+	position: absolute;
+	right: 5px;
 	margin-left: 50px;
-	border: 1px solid red;
 }
 
 hr {
@@ -157,4 +151,5 @@ hr {
 
 footer {
 	text-align: center;
+	margin-bottom: 100px;
 }
