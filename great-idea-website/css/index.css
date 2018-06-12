@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: auto;
+	width: 75%;
+}
+/* NAV BAR*/
+nav {
+	background-color: #ffffff;
+	overflow: hidden;
+}
+nav a {
+	float: left;
+	color: gray;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 20px 10px 10px 20px;
+}
+nav img {
+	float: right;
+}
+/* HEADER*/
+header {
+	overflow: hidden;
+	text-align: center;
+	border-bottom: solid;
+	padding-bottom: 80px;	
+}
+header .title {
+	float: left;
+	color: black;
+	font-size: 100px;
+	width: 50%;
+	padding: 100px 40px 0px 40px;
+	margin-bottom: 0px;
+}
+header .title-image {
+	float: right;
+	width: 50%;
+	padding-top: 40px;
+}
+header img {
+	width: 80%;
+}
+.button {
+	margin: 5px;
+	padding: 5px 40px 5px 40px;
+	background-color: white;
+}
+
+header h1 {
+	margin: 0px;
+	padding: 0px;
+}
+/* SECTION TOP*/
+.top-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.top-left {
+	width: 49%;
+	display: inline-block;
+}
+.top-right {
+	width: 50%;
+	display: inline-block;
+}
+/* IMAGE */
+.image {
+	display:inline-block;
+	width: 100%;
+	margin: auto 0;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+/* SECTION BOTTOM */
+.bottom-content {
+	padding-bottom: 40px;
+	border-bottom: solid;
+	width: 100%;
+}
+.bottom-left {
+	display: inline-block;
+	padding-top: 5px;
+	width: 33%;
+}
+.bottom-center {
+	display: inline-block;
+	padding-top: 5px;
+	width: 33%;
+}
+.bottom-right {
+	display: inline-block;
+	padding-top: 5px;
+	width: 33%;
+}
+/* CONTACT */
+.contact {
+	padding-top: 20px;
+	text-align: left;
+}
+/* FOOTER */
+footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.number {
+	padding: 20px 0px 20px 0px;
+}
