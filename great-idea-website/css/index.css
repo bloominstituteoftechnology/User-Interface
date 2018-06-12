@@ -64,23 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	box-sizing: border-box;
-}
 
 body {
-	padding: 0px;
-	margin: 0px 125px 125px;
+	width:1024px;
+	height: 1536px;
+	margin: 50px;
 }
 
 nav{
 	margin-bottom: 15px;
+	display: inline-block;
 }
 
-nav ul li{
-	color: grey;
+nav a{
+	margin: 0px 45px;
+	width: 12%;
+	text-decoration: none;
+	color: lightgray;
+}
+
+nav img {
 	display: inline-block;
-	padding: 0px 45px;
+	width: 14%;
 }
 
 .header {
@@ -128,35 +133,27 @@ hr {
 
 .content {
 	margin-top: 25px;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: left;
+	width: 100%;
 }
 
 .lg {
 	display: inline-block;
-	width: 590px;
-	padding-right: 50px;
+	width: 50%;
 	padding-left: 0px;
-	margin-right: 5px;
 }
 
 .content img {
 	display: block;
-	width: 1190px;
+	width: 100%;
 	margin-top: 50px;
 }
 
 .sm {
 	display: inline-block;
-	margin-right: 75px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	width: 325px;
-	padding-left: 0px;
-}
-
-.evenout {
-	margin-right: 0px;
+	width: 30%;
+	margin: 40px 45px 40px 0;
 }
 
 .contact {
@@ -164,8 +161,16 @@ hr {
 	margin-top: 25px;
 }
 
+.squish {
+	padding-right: 50px;
+}
+
 .padded {
 	margin-top: 20px;
+}
+
+.stahp {
+	margin-right: 0px;
 }
 
 .footer {
