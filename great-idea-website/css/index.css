@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 body{
 	height: 1536px;
 	width: 1024px;
+	margin: auto;
 	padding: 50px;
 }
 .Navigation{
@@ -133,6 +134,12 @@ header img{
 	position: absolute;
 	left: 185px;
 	top: 350px;
+	
+}
+.button1:hover{
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 .top-content{
 	border-top: 2px solid black;
@@ -155,4 +162,9 @@ header img{
 }
 footer{
 	text-align: center;
+}
+@keyframes example {
+    0% {background-color:white;}
+	50% {background-color: red;}
+	100% {background-color:white;}
 }
