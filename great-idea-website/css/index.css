@@ -62,33 +62,3 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Your code starts here! */
-
-.body-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.great-header {
-    display: inline-block;
-    width: 100%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    vertical-align: middle;
-}
-
-nav {
-    width: 70%;
-    float: left;
-    padding: 1% 1%;
-}
-
-a {
-	text-decoration: none;
-	padding: 1%;
-}
-
-.logo {
-	float: right;
-}

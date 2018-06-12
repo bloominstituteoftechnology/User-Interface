@@ -1,0 +1,105 @@
+/* Your code starts here! */
+
+.body-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.great-header {
+    display: inline-block;
+}
+
+nav {
+    width: 70%;
+    float: left;
+    padding: 1% 1%;
+}
+
+a {
+	text-decoration: none;
+    padding: 3%;
+    color: #CCCCCC;
+}
+
+.logo {
+    float: right;
+    margin-right: 3%;
+}
+
+/*  */
+
+.innovation-container {
+   height:403px;
+   padding: 4%;
+}
+
+.on-demand {
+    position: absolute;
+    width:50%;
+}
+
+.block h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+.get-started {
+    display: block;
+    text-align: center;
+    color: black;
+    border: solid 1px black;
+    margin: 0px 152px;
+    line-height: 0;
+}
+
+.code-image {
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+/*  */
+
+.main-content {
+    position: relative;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.features-about {
+    display: inline-block;
+    width: 47%;
+    margin: 1% 2% 2% 0;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.services-product-vision {
+    display: inline-block;
+    width: 30%;
+    margin: 1% 2% 2% 0;
+}
+
+.contact-content {
+    position: relative;
+    margin-top: 5%;
+}
+
+.contact {
+
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 7% 0 5% 0;
+}
+
