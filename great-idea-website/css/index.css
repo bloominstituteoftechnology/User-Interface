@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,11 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	display: block;
 
-.nav {
-	color: red;
 }
 
-header {
+header { 
+	display: inline-block;
+	position: absolute;
+	border: 1px solid red;
+}
+
+header img {
+	border: 1px solid red;
+	width: 500px;
+	height: 200px;
+}
+
+.titles {
+	margin: 100px;
+	border: 1px solid red;
+}
+
+
+.navigation {
+	color: red;
+	border: 10px;
+	border-color: red;
+	display: inline-block;
+	padding: 20px;
+}
+
+.logo {
+	width: 186px;
+	height: 36px;
+	right: 40px;
+	display: inline-block;
+	position:absolute;
+}
+
+body .titles {
+	display: block;
+}
+
+.circle_code {
+	position: absolute;
+	right: 40px;
+	display: inline-block;
+	margin: 100px;
+}
+
+section {
+	display: block;
+}
+
+div {
+	border: 1px solid blue;
+	display:inline-block;
+}
+
+div h2 {
+	font-weight: 200px;
+}
+
+.upper-left {
+	width: 300px;
+	left: 40px;
+}
+
+.upper-right{
+	width: 300px;
+	right: 40px;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 50px 0 50px 0;
+}
+
+
+.bottom-content{
+	margin: auto;
+}
+
+.bottom-left {
+	width:200px;
+}
+
+.bottom-middle {
+	width: 200px;
+}
+
+.bottom-right {
+	width: 200px;
+}
+
+.contact {
+	display: block;
+	margin: 1px;
+	width:200px;
 	
 }
+
