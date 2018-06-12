@@ -58,17 +58,24 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+		font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+		margin-bottom: 15px;
+		font-weight: 1000;
 }
 
 /* Your code starts here! */
 
+/* Body */
+body {
+	width: 1200px;
+	margin: 0px auto;
+}
+
 /* Navigation */
 .navigation {
 	width: 100%;
-
+	/* Sticky navigation */
 	z-index: 99;
 	position: fixed;
 	top: 0;
@@ -79,28 +86,39 @@ h1, h2, h3, h4, h5 {
 	width: 80%;
 }
 
-.navigation a {
-	color: rgba(128, 128, 128, 0.60);
-	float: left;
-	text-decoration: none;
-	display: block;
+.navigation li {
+	display: inline-block;
+}
 
-	padding: 40px 20px 20px 20px;
+.navigation a {
+	display: inline-block;
+	line-height: 36px;
+	text-decoration: none;
+
+	color: rgba(128, 128, 128, 0.60);
+	margin: 40px 20px 20px 20px;
 	letter-spacing: 1px;
 	font-weight: 100;
 }
 
+.navigation a:hover {
+	text-decoration: underline;
+	color: black;
+	font-size: 120%;
+}
+
 .navigation img {
-	width: 20%;
-	padding: 25px;
-	margin: 10px;
-	float: right;
+	/* float: right; */
+	position: absolute;
+	top: 48px;
+	right: 120px;
 }
 
 /* Header */
 header {
-	margin-top: 120px;
 	text-align: center;
+	/* display under the nav */
+	margin-top: 120px;
 }
 
 header div {
@@ -116,10 +134,12 @@ header div h1 {
 }
 
 header div button {
-	border: solid black 1px;
-	padding: 10px 30px;
 	text-align: center;
 	text-decoration: none;
+
+	margin-top: 15px;
+	border: solid black 1px;
+	padding: 10px 50px;
 }
 
 header img {
@@ -129,6 +149,7 @@ header img {
 
 /* Section */
 section {
+	/* line-height: 30px; */
 	height: 200px;
 	width: 100%;
 	padding: 0px 20px 20px 20px;
@@ -136,6 +157,7 @@ section {
 
 section .paragraph-1{
 	float: left;
+
 	width: 50%;
 	padding: 30px 10px 10px 0px;
 	margin-top: 80px;
@@ -149,6 +171,7 @@ section .paragraph-1{
 
 section .paragraph-2{
 	float: left;
+
 	width: 33.3%;
 	padding: 10px 10px 30px 0px;
 	border-bottom: black solid 2px;
@@ -171,6 +194,7 @@ div a {
 /* Footer */
 footer {
 	text-align: center;
+	
 	padding: 80px;
 	margin-bottom: 80px;
 }
