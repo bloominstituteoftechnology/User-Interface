@@ -102,22 +102,20 @@ header nav .logo {
 
 
 .top-content {
-	border: 1px solid green;
 	position: relative;
 }
 
 .top-content .left h1 {
-	padding: 75px 0 0 ;
 	font-size: 75px;
 	width: 40px;
 	text-align: center;
-	display: inline-block;
+	margin-left: 200px;
+	padding-top: 50px;
 }
 
-.top-content .right {
+.top-content .left {
 	display: inline-block;
-	border: 1px solid purple;
-	width: 495px;
+	width: 400px;
 	height: 400px;
 	right: 15px;
 }
@@ -125,10 +123,9 @@ header nav .logo {
 
 .top-content .right {
 	display: inline-block;
-	border: 1px solid blue;
 	width: 400px;
 	height: 400px;
-	left: 50px;
+	right: 50px;
 	position: absolute;
 }
 
