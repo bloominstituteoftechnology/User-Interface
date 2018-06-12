@@ -66,19 +66,17 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .margins{
-	border: 1px solid black;
 	position: relative;
 	margin: 0 auto;
-	margin: 50px;
+	margin: 150px;
+	padding: 10px;
 }
 
 .navlogo{
-	border: 1px solid black;
 	position: relative;
 }
 
 .navlogo .navigation span{
-	border: 1px solid black;
 	display: inline-block;
 	margin: 10px 20px;
 	font-size: 13px;
@@ -86,19 +84,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .navlogo .logo{
-	border: 1px solid black;
 	display: inline-block;
 	position: absolute;
 	right: 0;
 }
 
 .heading{
-	border: 1px solid black;
 	padding: 50px;
 }
 
 .heading-a{
-	border: 1px solid black;
 	display: inline-block;
 	width: 47%;
 	height: 450px;
@@ -117,12 +112,7 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.section-1{
-	border: 1px solid black;
-}
-
 .section-1a{
-	border: 1px solid black;
 	display: inline-block;
 	width:49%;	
 	padding: 10px;
@@ -130,33 +120,24 @@ h1, h2, h3, h4, h5 {
 
 
 .section-2{
-	border: 1px solid black;
 	display: inline-block;
 }
 
 .section-2a{
-	border: 1px solid black;
 	display: inline-block;
     width: 33%;
 }
 
-.section-3{
-	border: 1px solid black;
-}
-
 .section-3a{
-	border: 1px solid black;
 	padding: 10px;
 	width: 150px;
 }
 
 .footing{
-	border: 1px solid black;
 	position: relative;
 }
 
 .footing-a{
-	border: 1px solid black;
 	position: absolute;
 	left: 50%;
 }
