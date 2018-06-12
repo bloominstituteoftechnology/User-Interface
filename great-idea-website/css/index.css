@@ -64,7 +64,59 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
 
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	border: 1px solid red;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	padding: 5px;
+}
+nav {
+	display: inline-block;
+}
+
+header nav a{
+	border: 1px solid green;
+	padding: 10px;
+	margin: 10px;
+	vertical-align: middle;
+}
+header .logo{
+	display: inline;
+	position: absolute;
+	right: 0;
+	border: 1px solid blue;
+}
+
+.section-one{
+	display: inline-block;
+	width: 100%;
+}
+
+.section-one .left .right h1{
+	width: 45%;
+	display: inline-block;
+	position: relative;
+}
+
+.line{
+	background: black;
+	height: 2px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+/*
 body{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -162,4 +214,4 @@ p{
 	margin:20px;
 	text-align: center;
 	font-size: 10px;
-}
+} */
