@@ -165,23 +165,33 @@ body {
 	padding: 74px;
 }
 
+.navBar{
+	background: rgb(0, 255, 0);
+	padding: 0 0 0 30px;
+	top: 0;
+	position: fixed;
+	z-index: 5000;
+}
+
 .navBar ul {
 	display: inline-block;
 	color: grey;
 	list-style-type: none;
 	text-align: center;
+	
+	
 }
 
 .navBar li {
 	display: inline-block;
 	padding-right: 50px;
+
 }
 
 .navBar img {
 	display: inline-block;
 	padding: 10px;
 	vertical-align: middle;
-	padding-left: 50px;
 }
 
 .headerOfPage {
