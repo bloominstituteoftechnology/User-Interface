@@ -101,6 +101,22 @@ nav a:hover, nav a:visited, nav a:active, nav a:link {
 	text-decoration: none;
 }
 
+nav a:hover, button:hover {
+	animation-duration: 2s;
+	animation-name: fadeInOut;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+	from {
+		background-color: white;
+	}
+
+	to {
+		background-color: dodgerblue;;
+	}
+}
+
 .logo {
 	position: absolute;
 	right: 0;
