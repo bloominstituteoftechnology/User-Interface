@@ -67,26 +67,70 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-li{
-	display:  inline;
-	float: center;
-	padding: 5px;
+/* see all spaces*/
+
+
+.upper{
+	position: relative;
+	margin: 20px;
 }
 
-.logo{
-	display: inline;
-	float: left;
+.upper nav a{
+	margin: 30px;
 }
 
-.main-title{
+.upper nav{
+	display: inline-block;
+}
+
+.upper .logo{
+	height: 30px;
+	width: 100px;
+	display: inline-block;
+	position: absolute;
+}
+
+.main{
+	border: 1px solid red;
+}
+
+.main h1{
 	font-size: 50px;
-	height: 250 px;
-	width: 250 px;
-	background: grey;
-	padding: 20px;
-	margin: 20 px;
+	height: 200px;
+	width: 100px;
+	padding: 50px;
+	margin: 50px;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+}
+
+.main .code-pic{
+	height: 300px;
+	width: 300px;
+	padding: 50px;
+	margin: 50px;
+	display: inline-block;
 }
 
 .get-started{
+	width:  100px;
 	border: 1px solid black;
+	margin-left: 30px;
+}
+
+.top-content{
+	border: 1px solid red;
+	height: 300px;
+	width: 49%;
+	margin: 5px;
+	display: inline-block;
+}
+
+.bottom-content{
+	border: 1px solid red;
+	height: 300px;
+	width: 32%;
+	margin: 5px;
+	display: inline-block;
 }
