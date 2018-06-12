@@ -71,18 +71,19 @@ h1, h2, h3, h4, h5 {
 nav {
   display: inline-block;
   vertical-align: top;
-  width: 80%;
+  width: 878px;
   border: 1px solid green; 
-  word-spacing: 5em;
+  word-spacing: 3em;
   color: lightgray;
-  margin: 2% auto;
+  margin: 5%;
   padding: 2%;
 }
 
 header {
 	border-bottom: 1px solid black;
-	width: 80%;
-	
+	width: 878px;
+	border: 1px solid red;
+	margin-left: 5%;
 }
 
 .banner {
@@ -122,11 +123,19 @@ header {
 .two-columns {
   display: inline-block;
   vertical-align: top;
-  width: 49%;
-  /* border: 1px solid blue; */
+  width: 438px;
+  border: 1px solid blue;
 }
 
 section {
 	width: 80%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
 	/* border: 1px solid blue; */
+}
+
+.middle-img {
+	border: 1px solid red;
+	margin-left: 5%;
 }
