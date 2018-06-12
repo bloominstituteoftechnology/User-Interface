@@ -98,21 +98,27 @@ header .logo {
 
 }
 
-#iod  {
-	
-	margin: 5vw 5vw 5vw 5vw;
-	border: red;
+#container-header  {
+float: left;
+margin: 7%;
+}
+
+#container-header #gs {
+    border: solid;
+    padding: .5vw;
+    border-width: thin;
+    text-align: center;
 
 }
 
-#iod #on  {
-	
-	display: inline;
-	text-align: justify;
-
+#iod p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 6.5vh;
+  
 }
 
-#iod #on p {
-	
-	
+#gs {
+    font-size: 1.7vh;
 }
