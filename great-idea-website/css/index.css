@@ -63,4 +63,42 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
 /* Your code starts here! */
+body {
+  display:inline-block;
+}
+
+.nav {
+	float: left;
+}
+
+.banner {
+  display:inline-block;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.fake-button {
+  border: 1px solid black;
+  width: 150px;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px, 15px, 10px, 15px;
+  
+}
+
+img {
+} 
+
+
+
