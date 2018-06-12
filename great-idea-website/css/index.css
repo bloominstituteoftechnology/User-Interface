@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -64,3 +65,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ul {
+	display: inline-block;
+	border: 2px red solid;
+	width: 75%;
+	padding-left: 4%;
+	}
+
+li {
+	display: inline-block;
+	padding: 4%;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-top: 20px;
+	
+}
+
+header {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50px;
+}
