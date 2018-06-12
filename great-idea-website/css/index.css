@@ -67,50 +67,73 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 1024px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+}
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+	position: relative;
 }
 
 nav {
-	margin-top: 20px;
 	height: 50px;
+	width: 876px;
+	background-color: dodgerblue;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
 }
 
 nav a {
+	font-size: 15px;
 	display: inline-block;
-	margin: 10px 60px 5px 0px;
+	margin: 15px 50px 5px 10px;
+	z-index: 2;
 }
 
 nav a:hover, nav a:visited, nav a:active, nav a:link {
-	color: gray;
+	color: black;
 	text-decoration: none;
 }
 
-nav img {
-	float: right;
-	margin-right: 90px;
+.logo {
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
 	margin-top: 10px;
+	z-index: 2;
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 5em;
 	text-align: center;
 	float: left;
-	margin-left: 100px;
-	margin-top: 50px;
+	margin-left: 65px;
+	margin-top: 110px;
 }
 
 button {
+	font-family: 'Quicksand', sans-serif;
 	position: absolute;
 	border: 1px solid black;
-	padding: 5px 30px;
-	margin-top: 250px;
-	margin-left: -180px;
+	padding: 5px 35px;
+	margin-top: 360px;
+	margin-left: -240px;
+	font-size: 20px;
 }
 
 header {
+	height: 500px;
 	border-bottom: 1px solid black;
-	padding-bottom: 50px;
+	padding-bottom: 75px;
+	margin-top: 50px;
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 header span {
@@ -118,15 +141,15 @@ header span {
 }
 
 header img {
-	margin-left: 150px;
-	margin-top: 0px;
+	margin-left: 95px;
+	margin-top: 65px;
 	padding: 0px;
 }
 
 .double-content span {
-	width: 440px;
+	width: 430px;
 	display: inline-block;
-	margin-right: 5px;
+	margin: 20px 5px 20px 0px;
 }
 
 .double-content, .triple-content {
@@ -134,10 +157,17 @@ header img {
 	margin-bottom: 20px;
 }
 
+.middle-image {
+	height: 200px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .triple-content span {
-	width: 290px;
+	width: 280px;
 	display: inline-block;
-	margin-right: 5px;
+	margin: 20px 5px 35px 0px;
 }
 
 .triple-content {
@@ -148,11 +178,13 @@ header img {
 .contact {
 	position: relative;
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 55px;
+	margin-top: 25px;
 }
 
 footer {
+	font-size: 13px;
 	clear: both;
 	text-align: center;
-	padding-bottom: 20px;
+	margin-bottom: 50px;
 }
