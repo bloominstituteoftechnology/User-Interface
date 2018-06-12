@@ -73,8 +73,7 @@ body {
 
 img, h1 {
 	animation-name: fadein;
-	animation-duration: 5s;
-	animation-delay: 1s;
+	animation-duration: 10s;
 }
 
 nav{
