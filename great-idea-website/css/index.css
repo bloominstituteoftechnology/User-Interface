@@ -64,71 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container{
+
+header{
 	position: relative;
+	width: 100%;
+	height: 40px;
 }
-.nav{
+
+header nav{
+	display: inline-block;
+	position: absolute;
+	line-height: 30px;
 	text-align: center;
 }
-.nav li {
+
+header nav a{
+	margin: 0 20px 0 20px;
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+}
+
+header .logo{
+	position: absolute;
+	right: 30px;
+}
+
+.title {
+	border: 1px solid yellow;
 	position: relative;
+	width: 100%;
+	height: 380px;
 	display: inline-block;
-	margin: 35px;
 }
 
-.header {
-	display: inline-block;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
+.getting-strarted{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	border: 1px solid green;
+	bottom: 90px;
 }
 
-.footer {
-	margin: 10%;
-  left: 0;
-  height: 70px;
-  background-color: white;
-  width: 100%;
-}
-
-.footer p{
+.title .getting-strarted h1{
 	padding: 10px;
+	font-size: 60px;
+	text-align: center;
 }
 
-.middle-section {
-	margin: 10%;
+.getting-started-button{
+	margin-left: 35%;
 }
 
-.middle-section li {
+.title .header-img {
+	position: absolute;
+	right: 30px;
+	border: 1px solid black;
+}
+
+.middle-section{
 	display: inline-block;
-	text-align: left;
-	padding: 5%;
+	margin: 30px;
 }
 
-.middle-section li p {
-	width: 400px;
+.content{
+	display: inline-block;
+	width: 32%;
+	box-sizing: border-box;
+	margin: 10px 1px 10px 0;
+	padding: 2px;
 }
 
-.middle-img {
+.content-1{
+	display: inline-block;
+	width: 49%;
+	box-sizing: border-box;
+	margin: 10px 1px 10px 0;
+}
+
+.middle-img{
+	display: inline-block;
+	vertical-align: middle;
 	width: 100%;
 }
 
-.header{
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-right: 20%;
-	width: 100%;
-}
-
-.header h1 {
-	text-align: center;
-	font-size: 70px;
-	width: 100px;
-}
-
-#started-button{
-	border: 1px solid;
-	text-align: center;
-	width: 10%;
-	height: 10%;
+footer {
+	padding: 30px;
 }
