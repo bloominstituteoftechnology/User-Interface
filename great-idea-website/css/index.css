@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body{
 	width: 876px;
+	margin-left: 10px;
 }
 
 /*start navigation*/
@@ -109,17 +110,21 @@ header {
   }
 
   h1{
-  	position: relative;
-  	width: 30%;
-	height: 215px;
 	text-align: center;
-	font-size: 40px;
+	width: 300px;
+	font-size: 70px;
+	padding-bottom: 90px;
+	padding-left: 50px;
 }
 
 .button{
 	text-align: center;
 	border: 1px solid black;
 	width: 140px;
+}
+
+.get-started{
+	padding-bottom: 100px;
 }
 
 /*end header*/
@@ -151,3 +156,7 @@ header {
 	width: 30%;
 }
 /*end contact*/
+
+footer{
+	text-align: center;
+}
