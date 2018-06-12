@@ -114,7 +114,7 @@ main {
 
 .overview-img {
   width: 100%;
-  animation: moveMe 1.5s 3s linear;
+  animation: moveMe 1.5s 1s linear;
 }
 .overview-section h2 {
   font-size: 2.5rem;
