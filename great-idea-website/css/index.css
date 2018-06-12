@@ -68,13 +68,13 @@ h1, h2, h3, h4, h5 {
 
 /* Body */
 body {
-	width: 1200px;
+	width: 1000px;
 	margin: 0px auto;
 }
 
 /* Navigation */
 .navigation {
-	width: 100%;
+	width: 1000px;
 	/* Sticky navigation */
 	z-index: 99;
 	position: fixed;
@@ -96,9 +96,8 @@ body {
 	text-decoration: none;
 
 	color: rgba(128, 128, 128, 0.60);
-	margin: 40px 20px 20px 20px;
+	margin: 40px 5px 20px 5px;
 	letter-spacing: 1px;
-	font-weight: 100;
 }
 
 .navigation a:hover {
@@ -111,14 +110,14 @@ body {
 	/* float: right; */
 	position: absolute;
 	top: 48px;
-	right: 120px;
+	right: 60px;
 }
 
 /* Header */
 header {
 	text-align: center;
 	/* display under the nav */
-	margin-top: 120px;
+	margin-top: 200px;
 }
 
 header div {
@@ -140,6 +139,13 @@ header div button {
 	margin-top: 15px;
 	border: solid black 1px;
 	padding: 10px 50px;
+}
+
+header div button:hover {
+	transform: scale(1.2);
+	border: none;
+	color: white;
+	background: black;
 }
 
 header img {
