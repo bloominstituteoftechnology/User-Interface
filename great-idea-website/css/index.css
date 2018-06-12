@@ -64,3 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrap {
+	margin: 0 auto;
+	width: 876px;
+	
+}
+
+header {
+	position: relative;
+	width: 100%;
+}
+
+header .navigation {
+	position: absolute;
+	display: inline-block;
+	line-height: 36px;
+}
+
+header .navigation a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 60px 0 0;
+}
+
+header .logo {
+	position: absolute;
+	right: 0;
+}
