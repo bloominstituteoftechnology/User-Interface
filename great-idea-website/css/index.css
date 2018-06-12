@@ -65,22 +65,35 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
+body {
+	font-family: 'Raleway', sans-serif;
+}
 
 nav {
-	padding: 6em;
-	padding-top: 2em;
+	padding: 0.5em 6em 1em 6em;
+	background-color: #78FFAD;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 nav a {
 	text-decoration: none;
-	color: grey;
+	color:grey;
+	font-weight: bold;
 	padding: 2.5em;
+	padding-top: 1em;
 	
 }
 
 nav .logo{ 
 	padding-left: 6em;
+}
+
+header {
+	padding: 2em;
+	padding-top: 7em;
 }
 
 header h1 {
@@ -101,6 +114,7 @@ header .btn-header {
 	background-color: white;
 	border: 1px solid black;
 	text-align: center;
+	font-weight: bold;
 }
 
 header .header-image {
@@ -155,4 +169,14 @@ aside {
 footer {
 	text-align: center;
 	padding: 4em;
+}
+/* 
+PsuedoClasses */
+
+a:hover {
+	color: black;
+}
+
+button:hover {
+	background-color:#78FFAD;
 }
