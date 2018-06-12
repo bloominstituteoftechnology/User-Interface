@@ -79,6 +79,14 @@ h1, h2, h3, h4, h5 {
 	vertical-align: middle;
 }
 
+.navigation li a{
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	text-decoration: underline;
+}
+
 .custom-header {
 	position: relative;
   	align-items: center;
@@ -106,7 +114,17 @@ h1, h2, h3, h4, h5 {
 	width: 160px;
 	padding: 5px;
 	margin-left: 120px;
-  	text-align: center;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button a:hover {
+	text-decoration: underline;
+	color: black;
 }
 
 .cir-image {
