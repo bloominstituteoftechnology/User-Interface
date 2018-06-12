@@ -72,10 +72,12 @@ nav {
 	text-align:	center;
 	display: inline-block;
 	margin: 20px 300px 80px 300px;
+	text-decoration: none;
 }
 
 .logo {
 display: inline-block;
+margin: 0 auto;
 width
 }
 
@@ -98,11 +100,14 @@ h1 {
 }
 .Features {
 
-	width:300px;
+	width:30%;
 	display: inline-block;
+	padding:10px 40px 10px 40px;
 }
 
 .About {
-	width: 300px;
+	width: 30%;
 	display: inline-block;
+	padding:10px 40px 10px 40px;
 }
+
