@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1 {
+	font-size: 60px;
+	width: 50%;
+}
 ul {
 	display: inline-block;
 	border: 2px red solid;
@@ -88,5 +92,18 @@ li {
 header {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 50px;
+	border: 2px red solid;
+	width: 100%;
+}
+
+circle{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+
+}
+button {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 60px;
 }
