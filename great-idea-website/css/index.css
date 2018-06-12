@@ -64,3 +64,205 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* index.html */
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav {
+	height: 50px;
+	width: 876px;
+	background-color: dodgerblue;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+nav a {
+	font-size: 15px;
+	display: inline-block;
+	margin: 15px 40px 5px 10px;
+	z-index: 2;
+}
+
+nav a:hover, nav a:visited, nav a:active, nav a:link {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover, button:hover {
+	animation-duration: 2s;
+	animation-name: fadeInOut;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+	from {
+		background-color: white;
+	}
+
+	to {
+		background-color: dodgerblue;;
+	}
+}
+
+.logo {
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+	margin-top: 10px;
+	z-index: 2;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	float: left;
+	margin-left: 65px;
+	margin-top: 110px;
+}
+
+button {
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+	border: 1px solid black;
+	padding: 5px 35px;
+	margin-top: 360px;
+	margin-left: -240px;
+	font-size: 20px;
+}
+
+header {
+	height: 500px;
+	border-bottom: 1px solid black;
+	padding-bottom: 75px;
+	margin-top: 50px;
+}
+
+.indexheader {
+	height: 500px;
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+header span {
+	display: block;
+}
+
+header img {
+	margin-left: 95px;
+	margin-top: 65px;
+	padding: 0px;
+}
+
+.double-content span {
+	width: 430px;
+	display: inline-block;
+	margin: 20px 5px 20px 0px;
+}
+
+.double-content, .triple-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.middle-image {
+	height: 200px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.triple-content span {
+	width: 280px;
+	display: inline-block;
+	margin: 20px 5px 35px 0px;
+}
+
+.triple-content {
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	position: relative;
+	float: left;
+	margin-bottom: 55px;
+	margin-top: 25px;
+}
+
+footer {
+	font-size: 13px;
+	clear: both;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* services.html */
+
+.servicesheader {
+	margin-top: 50px;
+	height: 200px;
+	background-image: url("../img/services-header.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.services {
+	margin: 30px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.design-ux span, .marketing-web span, .ios-android span {
+	width: 400px;
+	height: 230px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+}
+
+.design-ux button, .marketing-web button, .ios-android button {
+	margin-left: 0px;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.somefacts {
+	height: 350px;
+	width: 876px;
+	background-image: url("../img/services-info.png");
+	background-repeat: no-repeat;
+	background-position: right center; 
+	margin-bottom: 40px;
+}
+
+.somefacts span {
+	width: 400px;
+	float: left;
+	margin-top: 30px;
+}
+
+.somefacts p{
+	margin-bottom: 20px;
+}
+
+ul li {
+	list-style: square;
+	margin-left: 30px;
+	margin-top: 10px;
+}
