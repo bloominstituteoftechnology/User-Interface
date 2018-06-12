@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: 0 auto;
-	border: 1px solid black;
 	padding: 60px;
 }
 
@@ -85,7 +84,7 @@ header nav {
 }
 
 header nav a {
-	margin: 0 15px 0 15px;
+	margin: 0 60px 0 0;
 	/* not sure on margins here */
 	text-decoration: none;
 	display: inline-block;
@@ -103,21 +102,31 @@ header .logo {
 .call-to-action {
 	position: relative;
 	border: 1px solid red;
-	height: 390px;
 }
 
 .call-to-action .main-text {
+	position: relative;
 	display: inline-block;
 	width: 50%;
 	text-align: center;
 	border: 3px solid blue;
-	font-size: 50px;
+	font-size: 50px;                                     
 	position: inline-block;
+}
+
+.cta {
+	height: 100%;
+	vertical-align: top;
+	margin-bottom: 50px;
 }
 
 button {
 	border: 2px solid black;
-	padding: 10px 20px 10px 20px;
+	padding: 5px 20px 5px 20px;
+}
+
+button:hover {
+	background-color: lightgray;
 }
 
 .content {
@@ -130,6 +139,7 @@ button {
 	width: 50%;
 	padding: 30px 0 30px 0;
 }
+
 
 .second-content .inner-content-2 {
 	display: inline-block;
