@@ -81,6 +81,12 @@ h1, h2, h3, h4, h5 {
 
 .upper nav a{
 	margin: 30px;
+	color: black;
+	background-color: lightgrey;
+}
+
+.upper nav a:hover{
+	color: grey;
 }
 
 .upper nav{
@@ -94,28 +100,32 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 }
 
+.main{
+	display: inline-block;
+}
+
 .main h1{
 	font-size: 70px;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: 70px;
 	text-align: center;
 	font-family: 'Bangers', cursive;
-	display: inline-block;
 }
 
 .main img{
 	height: 350px;
 	width: 350px;
 	padding: 20px;
-	margin: 20px;
-	display: inline;
+	margin-left: 60px;
+	margin-top: 60px;
 }
 
 .get-started{
 	border: 1px solid black;
 	width:  100px;
 	padding: 10px;
-	margin-left: 200px;
+	margin-left: 170px;
+	margin-bottom: 40px;
 }
 
 .top-content{
