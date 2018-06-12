@@ -55,12 +55,13 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Archivo', serif;
     letter-spacing: 1px;
+		font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -141,6 +142,8 @@ h2 {
 
 p {
 	padding: 0 20px 0 0;
+	color: #444;
+	line-height: 1.6;
 }
 
 .middle-img {
