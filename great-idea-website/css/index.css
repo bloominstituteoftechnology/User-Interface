@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5 {
 /* see all spaces*/
 
 
+.page{
+	margin: 10%;
+}
+
 .upper{
 	position: relative;
 	margin: 20px;
@@ -90,47 +94,61 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 }
 
-.main{
-	border: 1px solid red;
-}
-
 .main h1{
-	font-size: 50px;
-	height: 200px;
-	width: 100px;
-	padding: 50px;
-	margin: 50px;
+	font-size: 70px;
+	margin-top: 100px;
+	margin-left: 100px;
 	text-align: center;
 	font-family: 'Bangers', cursive;
 	display: inline-block;
 }
 
-.main .code-pic{
-	height: 300px;
-	width: 300px;
-	padding: 50px;
-	margin: 50px;
-	display: inline-block;
+.main img{
+	height: 350px;
+	width: 350px;
+	padding: 20px;
+	margin: 20px;
+	display: inline;
 }
 
 .get-started{
-	width:  100px;
 	border: 1px solid black;
-	margin-left: 30px;
+	width:  100px;
+	padding: 10px;
+	margin-left: 200px;
 }
 
 .top-content{
-	border: 1px solid red;
-	height: 300px;
-	width: 49%;
+	height: 150px;
+	width: 48%;
+	padding: 20px;
 	margin: 5px;
 	display: inline-block;
 }
 
+.middle-img{
+	display: block;
+	height: 150px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .bottom-content{
-	border: 1px solid red;
-	height: 300px;
+	height: 170px;
 	width: 32%;
+	padding: 20px;
 	margin: 5px;
 	display: inline-block;
+}
+
+.contact{
+	width: 200px;
+	padding: 20px;
+	margin: 5px;
+}
+
+.copyright{
+	width: 20%;
+	margin: 0 40%;
 }
