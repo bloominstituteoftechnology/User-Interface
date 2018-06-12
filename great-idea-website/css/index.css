@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+.navigation li {
+	color: gray;
+	padding: 15px 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.starting-nav {
+	margin-left: 45px;
+	/* position: fixed; */
+}
+.custom-header {
+	/* display: flex; */
+	position: relative;
+  align-items: center;
+	margin: 40px 0px 50px 75px;
+	border: 1px solid blue;
+}
+
+.header-left {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin-left: 30px;
+	border: 1px solid green;
+}
+
+.title {
+	font-size: 75px;
+	text-align: center;
+	padding: 50px 50px 5px 50px;
+}
+
+.button {
+	border: 1px solid;
+	width: 160px;
+	padding: 5px;
+	margin-left: 130px;
+  text-align: center;
+}
+
+.header-right {
+	display: inline-block;
+	margin-left: 50px;
+	border: 1px solid red;
+}
+
+hr {
+	margin-left: 75px;
+	width: 880px;
+}
+
+.hr-1 {
+		border: .5px solid black;
+}
+
+.hr-2 {
+	border: .5px solid gray;
+}
+
+.top-content {
+	margin-left: 65px;
+}
+
+.features {
+	display: inline-block;
+	padding: 30px 10px;
+	width: 450px;
+}
+
+.about {
+	display: inline-block;
+	padding: 30px 10px;
+	width: 450px;
+}
+
+.middle-img {
+	padding: 0px 75px;
+}
+
+.bottom-content {
+	margin-left: 65px;
+}
+
+.services {
+	display: inline-block;
+	padding: 30px 10px;
+	width: 300px;
+}
+
+.product {
+	display: inline-block;
+	padding: 30px 10px;
+	width: 300px;
+}
+
+.vision {
+	display: inline-block;
+	padding: 30px 10px;
+	width: 300px;
+}
+
+.contact {
+	padding: 30px 75px;
+}
+
+footer {
+	padding: 0px 500px 60px 450px;
+}
