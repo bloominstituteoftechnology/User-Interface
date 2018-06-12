@@ -75,6 +75,7 @@ body{
 	height: 36px;
 	width: 100%;
 	background-color: white;
+	z-index: 2;
 }
 nav{
 	
@@ -100,19 +101,27 @@ a{
 }
 header{
 	margin: auto;
-	text-align: center;
-	padding: 50px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	padding: 30px;
 }
 h1 {
 	
-	padding: 50px;
+	padding: 0px;
 	font-size: 60px;
 	font-style: bold;
 	text-align: center;
 	display: inline-block;
+	position: absolute;
+	left: 100px;
+	top: 100px;
 }
 header img{
 	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 50;
 }
 .button1{
 	background-color: white;
@@ -120,6 +129,10 @@ header img{
 	border: 2px solid black;
 	width: 150px;
 	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	left: 185px;
+	top: 350px;
 }
 .top-content{
 	border-top: 2px solid black;
