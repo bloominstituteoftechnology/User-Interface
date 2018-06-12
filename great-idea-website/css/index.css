@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	margin: auto;
-	width: 75%;
+	margin: 0 auto;
+	width: 1024px;
 }
 /* NAV BAR*/
 nav {
