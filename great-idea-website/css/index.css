@@ -99,15 +99,17 @@ header .logo {
 }
 
 .main-content-text {
-	font-size: 80px;
+	font-size: 72px;
 	text-align: center;
 }
 
 button {
-	border: 1px solid #000;
+	border: 1px solid #444;
 	font-size: 18px;
 	text-align: center;
-	padding:8px 32px;
+	padding:8px 40px;
+	margin: 10px;
+	border-radius: 2px;
 }
 
 .main-content .inner-content {
