@@ -177,3 +177,19 @@ hr {
 	text-align: center;
 	padding-bottom: 125px;
 }
+
+img, h1 {
+	animation-name: fadein;
+	animation-duration: 10s;
+	animation-delay: 1s;
+}
+
+/* CSS Animations */
+@keyframes fadein {
+    0% {
+			opacity: 0;
+		}
+
+    100% {
+			opacity: 1;
+		}
