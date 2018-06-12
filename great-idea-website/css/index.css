@@ -71,6 +71,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-content p {
+	font-weight: 100;
 	display: inline-block;
 	width: 400px;
+}
+
+.navigation p {
+	display: inline;
+	padding: 50px;
+}
+
+.navigation img {
+	float: right;
+}
+
+.header img {
+	float: right;
 }
