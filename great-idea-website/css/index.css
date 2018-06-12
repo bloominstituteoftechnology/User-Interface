@@ -64,13 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+* {
+		box-sizing: border-box;
+}
+body {
+	margin-left: 50px;
+	margin-right: 50px;
+}
 .navigation {
 	padding: 20px;
 	display: inline-block;
+	width: 100%;
+	height: 100px;
+	background: white;
+	position: fixed;
+	border-bottom: black solid 1px;
 }
 .navigation a {
-	padding: 20px;
+	margin: 20px;
 	color: grey;
 	font-size: 18px;
+	text-decoration: none;
+}
+.navigation a:hover {
+	text-decoration: underline;
+}
+.navigation img{
+	position: absolute;
+	right: 0;
+	margin-right: 70px;
+}
+
+.mid {
+	display: inline-block;
+	width: 100%;
+	padding: 50px;
+	margin-top: 50px;
+	border-bottom: solid;
+}
+
+.get-started {
+	float: left;
+	text-align: center;
+	font-size: 85px;
+	width: 50%;
+}
+
+.top-img {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.middle-img {
+	text-align: center;
+}
+
+.features{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+.about {
+	display: inline-block;
+	width: 50%;
+	float: right;
+	padding: 30px;
+}
+.post-img {
+	position: relative;
+	width: 1200px;
+	height: 400px;
+	padding: 30px;
+	border-bottom: 1px solid black;
+}
+.post-img div {
+	display: inline-block;
+	width: 33%;
+	padding: 15px 15px 15px 100px;
+}
+.post-img div p{
+	display: inline-block;
+}
+.contact {
+	display: inline-block;
+	width: 100%;
+}
+
+
+h4 {
+	font-weight: bold;
+	font-size: 28px;
+}
+h6 {
+	font-size: 12px;
+	text-align: center;
+}
+p {
+	font-size: 20px;
 }
