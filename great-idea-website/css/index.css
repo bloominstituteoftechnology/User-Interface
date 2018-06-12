@@ -125,7 +125,7 @@ header .logo {
 
 }
 
- .features, .about {
+ .fa {
 	display: inline-block;
 	width: 49%;
 	text-align: left;
@@ -136,7 +136,7 @@ header .logo {
 	border-bottom: 1px solid black;
 	padding-bottom: 40px;
 }
-.services, .product, .vision {
+.spv {
 	display:inline-block;
 	width: 33%;
 	text-align:left;
