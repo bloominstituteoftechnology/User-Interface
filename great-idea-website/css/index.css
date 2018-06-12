@@ -71,21 +71,43 @@ body {
 	margin: 50px;
 }
 
+img, h1 {
+	animation-name: fadein;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+
 nav{
 	margin-bottom: 15px;
 	display: inline-block;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 75%;
+	margin-right: 150px;
+	z-index: 500;
 }
 
-nav a{
+nav a {
 	margin: 0px 45px;
 	width: 12%;
 	text-decoration: none;
 	color: lightgray;
+	padding-top: 20px;
+}
+
+nav a:hover {
+	background-color: lightgray;
+	color: black;
 }
 
 nav img {
+	background-color: white;
 	display: inline-block;
 	width: 14%;
+	position: absolute;
+	right: 0;
+	animation-duration: 1s;
 }
 
 .header {
@@ -176,12 +198,6 @@ hr {
 .footer {
 	text-align: center;
 	padding-bottom: 125px;
-}
-
-img, h1 {
-	animation-name: fadein;
-	animation-duration: 10s;
-	animation-delay: 1s;
 }
 
 /* CSS Animations */
