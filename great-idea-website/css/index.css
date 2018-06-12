@@ -64,85 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-		box-sizing: border-box;
-}
 body {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+h4 {
+	font-weight: bold;
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+	text-align: center;
+}
+p {
+	font-size: 16px;
+}
+
 .navigation {
-	padding: 20px;
-	display: inline-block;
-	width: 100%;
+	padding: 20px 0 20px 20px;
 	height: 100px;
 	background: white;
-	position: fixed;
+	position: relative;
 	border-bottom: black solid 1px;
 }
 .navigation a {
-	margin: 20px;
+	margin-right: 63px;
 	color: grey;
-	font-size: 18px;
+	font-size: 14px;
+	display: inline-block;
 	text-decoration: none;
+	padding: 20px 0;
 }
 .navigation a:hover {
 	text-decoration: underline;
 }
 .navigation img{
+	padding-top: 10px;
+	padding-right: 13px;
 	position: absolute;
 	right: 0;
-	margin-right: 70px;
 }
 
 .mid {
 	display: inline-block;
 	width: 100%;
-	padding: 50px;
-	margin-top: 50px;
 	border-bottom: solid;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .get-started {
-	float: left;
+	display: inline-block;
 	text-align: center;
-	font-size: 85px;
+	font-size: 75px;
 	width: 50%;
+	padding-bottom: 50px;
 }
-
+.get-started h1 {
+	margin: 0;
+}
+.get-started button {
+	margin: 0;
+}
 .top-img {
+	padding-top: 10px;
 	display: inline-block;
 	width: 50%;
 	text-align: center;
 }
 
-.middle-img {
-	text-align: center;
-}
+
 
 .features{
 	display: inline-block;
 	width: 50%;
-	float: left;
-	padding: 30px;
+	padding: 10px;
 }
 .about {
 	display: inline-block;
 	width: 50%;
-	float: right;
-	padding: 30px;
+	padding: 10px;
 }
+.middle-img {
+	margin-top: 30px;
+	text-align: center;
+}
+
 .post-img {
 	position: relative;
-	width: 1200px;
-	height: 400px;
-	padding: 30px;
-	border-bottom: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border-bottom: black solid 1px;
 }
 .post-img div {
+	padding-left: 10px;
 	display: inline-block;
-	width: 33%;
-	padding: 15px 15px 15px 100px;
+	width: 32%;
+	margin-right: 10px;
 }
 .post-img div p{
 	display: inline-block;
@@ -150,17 +168,6 @@ body {
 .contact {
 	display: inline-block;
 	width: 100%;
-}
-
-
-h4 {
-	font-weight: bold;
-	font-size: 28px;
-}
-h6 {
-	font-size: 12px;
-	text-align: center;
-}
-p {
-	font-size: 20px;
+	padding-left: 20px;
+	margin-bottom: 50px;
 }
