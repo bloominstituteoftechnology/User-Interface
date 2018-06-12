@@ -64,3 +64,70 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Navigation Bar CSS */
+.nav-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: orange;
+	display: inline-block;
+	
+}
+
+.nav-buttons li {
+	float: left;
+	padding: 12px 24px;
+	
+}
+
+.nav-buttons li:hover {
+	background-color: white;
+}
+
+.nav-bar img {
+	float: right;
+}
+
+/* Header CSS */
+header{
+	margin: 200px;
+	padding: 12px 24px;
+	text-align: center;
+}
+header p {
+	padding: 12px 24px;
+}
+header a {
+	border: solid;
+	border-color: black;
+	vertical-align: middle;
+	background: red;
+	padding: 12px 24px;
+}
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+}
+
+/* Divider Content */
+.div-content1 {
+	border-top: 1px solid black;
+}
+
+.img-break {
+	width: 100%;
+	text-align: center;
+}
+.div-content2 {
+	border-bottom: 1px solid black;
+}
+
+footer {
+	text-align: center;
+	padding: 12px 24px;
+	margin: 20px;
+}
