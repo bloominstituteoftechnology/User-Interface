@@ -64,24 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-header{
+.box{
+	width:30%;
+	height:120px;
+
+	background-color: purple;
+	border: black solid 1px;
+	right:0;
+	position :fixed;
+	display:inline-block;
+}
+.logo{
+position:fixed;
+right: 0;
+	margin-top: 2.5%;
+	background-color: purple;
 
 }
 header nav{
 	line-height: 120px;
-	position: absolute;
+	position: fixed;
+	background-color:purple;
+	display: inline-block;
+}
+header img {
+	position:fixed;
+	background-color: purple;
 }
 .navigation a{
 	color:grey;
 	text-decoration: none;
 	margin: 100px;
+	width: 50%;
 
 }
-header .logo{
-	margin-top: 2.5%;
-	position: absolute;
-	right: 0;
-}
+
+
 .title h1{
 	font-size: 70px ;
 	margin-left: 30%;
@@ -91,7 +109,8 @@ header .logo{
 
 }
 .picture-com{
-position: absolute;
+position: static;
+
 	margin-top: 3%;
 	right: 0;
 	margin-top: 5%;
@@ -130,5 +149,5 @@ div.pic img{
 }
 .copyright{
 text-align: center;
-border:red soild 1px;
+
 }
