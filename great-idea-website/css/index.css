@@ -64,10 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header nav{
+	line-height: 120px;
+	position: absolute;
+}
 .navigation a{
 	color:grey;
 	text-decoration: none;
 	margin: 100px;
+}
+header .logo{
+	margin-top: 2.5%;
+	position: absolute;
+	right: 0;
 }
 .title h1{
 	font-size: 70px ;
@@ -79,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 .picture-com{
 	vertical-align: middle;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 .start-button {
     background-color: white;
@@ -99,11 +108,15 @@ div.container {
 	width: 20%;
 	height: 70px;
 	padding: 15px;
-
+display: inline-block;
 
 }
 div.container2{
 	margin-left: -50%;
 	float:right;
-	margin-top: -3.5%;
+	margin-top: -2.5%;
+}
+div.pic img{
+	position: fixed;
+	margin-top:5%;
 }
