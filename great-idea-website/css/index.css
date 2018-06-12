@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-	width:90%;
+	width:1024px;
 	margin: auto;
+	padding: 74px;
 	
 }
 
@@ -82,15 +83,15 @@ body{
 .navBar li {
 	display: inline-block;
 	padding-right: 50px;
-	padding-left: 50px;
 	
 
 }
 
 .navBar img {
 	display: inline-block;
-	padding: 30px;
+	padding: 10px;
 	vertical-align:middle;
+	padding-left:50px;
 }
 
 .headerOfPage{
@@ -99,22 +100,17 @@ body{
 }
 
 .headerOfPageLeft{
-
+	vertical-align: top;
+	padding-top: 60px;
 	display: inline-block;
-	height:380px;
-	width: 505;
+	width: 50%;
 	text-align: center;	
-
 
 
 }
 .headerOfPage h1 {
 	display: inline-block;
-	font-size: 70px;
-	padding:40px;
-	vertical-align:middle;
-	padding-right: 90px;
-
+	font-size: 80px;
 
 	
 }
@@ -134,8 +130,24 @@ body{
 .headerOfPage img{
 
 	display:inline-block;
-	vertical-align:middle;
+	margin-left: 15px;
 
+}
+
+.topInfoSection{
+	display: inline-block;
+	position: relative;
+	padding: 30px 0 ; 
+}
+.topInfoSectionLeft{
+	width: 50%;
+	display: inline-block;
+
+}
+.topInfoSectionRight{
+	width: 50%;
+	display: inline-block;
+	position: absolute;
 
 }
 
@@ -153,4 +165,28 @@ display:inline-block;
 .infoImg{
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.bottomInfoSection{
+	display: inline-block;
+	position: relative;
+	padding: 30px 0 ; 
+
+}
+.bottomInfoSectionLeft{
+	width: 33.3%;
+	display: inline-block;
+	
+
+}
+.bottomInfoSectionMiddle{
+	width: 33.3%;
+	display: inline-block;
+	position: absolute;
+}
+.bottomInfoSectionRight{
+	width: 33.3%;
+	display: inline-block;
+	position: absolute;
+	margin: 0 0 0 292px;
 }
