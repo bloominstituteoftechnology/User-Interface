@@ -66,25 +66,56 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.top-content h1 {
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	border: 1px solid red;
+	padding: 2% 5%;;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 1%;
+}
+
+nav .logo {
+	padding-left: 120px;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+	width: 50%;
+}
+
+header .header-text {
 	display: inline-block;
+	width: 50%;
+	padding 100%: 
 }
 
-.top-content p {
-	font-weight: 100;
-	display: inline-block;
-	width: 400px;
+section.top-content {
+	border: 1px solid red;
 }
 
-.navigation p {
-	display: inline;
-	padding: 50px;
+section.middle-content {
+	border: 1px solid red;;
 }
 
-.navigation img {
-	float: right;
+section.bottom-content {
+	border: 1px solid red;
 }
 
-.header img {
-	float: right;
+section.contact {
+	border: 1px solid red; 
+}
+
+footer {
+	border: 1px solid red;
+	text-align: center;
+	padding: 35px;
 }
