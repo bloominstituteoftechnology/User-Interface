@@ -26,9 +26,10 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
+
 	line-height: 1;
 	padding: 20px 40px;
 }
@@ -112,14 +113,15 @@ button {
 
 /* Middle Section */
 
-section.top-content {
-
+.section1 {
+	display: flex;
+	justify-content: space-around;
 }
 
 .middle-content {
-	display: inline;
-	width: 50%;
-	padding: 2px;
+	display: flex;
+
+	padding: 2%;
 }
 
 .middle-img {
@@ -129,8 +131,9 @@ section.top-content {
 }
 
 .bottom-content {
-	display: inline;
-	width: 33%;
+	display: flex;
+	justify-content: space-evenly;
+
 }
 
 /* Bottom Section */
