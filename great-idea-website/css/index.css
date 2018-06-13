@@ -180,3 +180,20 @@ header .logo {
 .end h1 {
 	font-size: 25px;
 }
+
+.end .end1 {
+	position: relative;
+	top: 20px;
+}
+
+.end .end2 {
+	position: relative;
+	top: 40px;
+}
+
+.end .final {
+	position: relative;
+	top: 80px;
+	border: 1px solid red;
+	text-align: center;
+}
