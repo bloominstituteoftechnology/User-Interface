@@ -68,29 +68,71 @@ h1, h2, h3, h4, h5 {
 body {
 	width: 1024px;
 	height: 1536px;
+	border: 1px solid black;
+	padding: 0 74px;
 }
 
-.main {
-	padding: 74px;
-}
-
-.section1 {
-
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-	padding: 95px 100px;
-	text-align: center;
-}
-
-.round-picture {
-	padding-top: 40px;
-	padding-left: 45px;
+header {
 	
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 55px;
+}
+
+header nav {
+	display: flex;
+	align-items: flex-end;
+	width: 600px;
+	justify-content: space-between;
+	
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+	font-size: 14.5px;
+}
+
+
+.container1 {
+	margin-top: 74px;
+	width: 876px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.big-text {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.container2 {
+	border-top: 1px solid black;
+	margin-top:80px;
+	padding: 40px 0 42px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container3 {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0 53px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid black;
 }
 
 p {
 	font-size: 16px;
+	
 }
 
 h5 {
@@ -99,58 +141,32 @@ h5 {
 
 h1 {
 	font-size: 78px;
-	
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
 button {
-	width: 150px;
+	width: 170px;
+	height: 40px;
+	font-size: 16px;
 	border: 1px solid black;
-	margin: auto;
-}
-
-header {
-	border: 1px solid black;
-	position:relative;
-	width: 100%;
-	padding: 20px 74px 0;
-}
-
-.text-section {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 40px 0;
-	margin: 50px 0;
+	font-family: 'Titillium Web', sans-serif;
 	
 }
 
-.two-boxes {
-	display: inline-block;
-	vertical-align: top;
-	width: 49%;
-	padding-bottom: 40px;
+.text-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 500px;
 }
 
-.three-boxes {
-	display: inline-block;
-	vertical-align: top;
-	width: 33%;
-	padding-top: 40px;
+
+footer {
+	width: 100%;
+	text-align: center;
+	
 }
 
-nav {
-	display: inline-block;
-	position: absolute;
-}
-
-header .logo {
-	position: absolute;
-	right:0;
-}
-
-header nav a {
-	margin-right: 20px;
-	text-decoration: none;
-	display: inline-block;
-	color: lightgray;
-}
 
