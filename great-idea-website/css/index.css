@@ -66,13 +66,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
+/* Top section */
+
 .container {
 	width: 800px;
 	margin: 0 auto;
 }
 
 nav {
-	border: 1px solid red;
 	padding: 2% 5%;;
 }
 
@@ -106,34 +109,33 @@ button {
 	margin: 10px;
 	padding: 5px 20px;
 }
--------------------------------
+
+/* Middle Section */
 
 section.top-content {
-	border: 1px solid red;
+
 }
 
 .middle-content {
-	border: 1px solid red;
-	display: inline-block;
+	display: inline;
 	width: 50%;
 	padding: 2px;
-
 }
 
 .middle-img {
-	width: 95%;
+	width: 97%;
 	padding-left: 5%;
+	padding-bottom: 2%;
 }
 
-section.bottom-content {
-	border: 1px solid red;
+.bottom-content {
+	display: inline;
+	width: 33%;
 }
 
+/* Bottom Section */
 
-
--------------------------------------
 .contact {
-	border: 1px solid red; 
 	margin-top: 50px;
 	padding: 20px 10px 0;
 }
@@ -143,7 +145,6 @@ section.bottom-content {
 }
 
 footer {
-	border: 1px solid red;
 	text-align: center;
 	margin: 32px 0;
 	font-size: 16px;
