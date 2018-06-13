@@ -86,8 +86,8 @@ header nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-size: 17px;
-	margin: 1.5vh 1vw;
+	font-size: 14px;
+	margin: 0vh 0vw 0vh 5vw;
 }
 
 header nav a:hover {
@@ -96,6 +96,7 @@ header nav a:hover {
 
 header .logo {
     display:inline-block;
+    margin: 0vh 7vw;
 }
 
 .container-header {
@@ -116,7 +117,7 @@ header .logo {
 .getstarted {
     border: solid;
     
-    margin: 1vh 4vw 1vh 4vw;
+    margin: 1vh 6vw 1vh 6vw;
     font-size: 1.7vh;
 }
 
@@ -134,6 +135,6 @@ header .logo {
 hr {
     width: 75%;
     align: center;
-    margin: 18vh;
+    margin: 7vh;
     display: inline-block;
 }
