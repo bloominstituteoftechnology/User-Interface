@@ -99,34 +99,33 @@ header .logo {
 	right: 0;
 }
 
-.call-to-action {
-	position: relative;
-	border: 1px solid red;
-}
-
-.call-to-action .main-text {
-	position: relative;
+.cta .cta-text {
 	display: inline-block;
-	width: 50%;
-	text-align: center;
-	border: 3px solid blue;
-	font-size: 50px;                                     
-	position: inline-block;
-}
-
-.cta {
-	height: 100%;
 	vertical-align: top;
-	margin-bottom: 50px;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 90px;
 }
 
-button {
-	border: 2px solid black;
-	padding: 5px 20px 5px 20px;
+.cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
 }
 
-button:hover {
-	background-color: lightgray;
+.cta .cta-text button:hover {
+	background: black;
+	color: white;	
+}
+
+.cta img {
+	display: inline-block;
+	margin-top: 69px;
 }
 
 .content {
