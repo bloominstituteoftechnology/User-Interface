@@ -98,18 +98,21 @@ header .logo {
     display:inline-block;
 }
 
-.container-header  {
-display: inline-block;
-
-}
 .container-header {
-    
-    padding: 8px 44px;
+    display: inline-block;
+    margin: 3vh 0vw 5vh 18vw;
     border-width: thin;
     text-align: center;
 
 }
-
+.iod p {
+  
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 6.5vh;
+    
+  }
 .getstarted {
     border: solid;
     
@@ -117,20 +120,20 @@ display: inline-block;
     font-size: 1.7vh;
 }
 
-#container-header2 {
+.container-header2 {
+    display: inline-block;
     float: right;
-    width: 70%;
-}
-
-.iod p {
-  
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-size: 6.5vh;
+    width: 3vh;
+    margin: 3vh 18vw 3vh 0vw;
   
 }
-
 .s1 {
+    display: inline-block;
+}
+
+hr {
+    width: 75%;
+    align: center;
+    margin: 18vh;
     display: inline-block;
 }
