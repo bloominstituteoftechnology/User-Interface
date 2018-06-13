@@ -64,3 +64,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.nav-bar {
+	background: silver;
+	position: fixed;
+	height: 40px;
+	width:95%;	
+	margin: 10px;
+}
+.nav-bar nav {
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+	margin: 0 auto;
+	width: 14%;
+}
+a{
+	color: black;
+}
+.nav-bar a:hover {
+	color: black;
+}
+.nav-bar .logo {
+	position: absolute;
+	right: 0;
+}
+header {
+	margin: 60px 40px;
+}
+header p {
+	font-size: 36pt;
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+	margin: 0 30px 0 auto;
+}
+header .circle-img {
+	display: inline-block;
+	width: 35%;
+	margin: 60px 0 0;
+}
+section {
+	margin: 40px;
+}
+.main-content {
+	border-top: solid silver;
+	border-bottom: solid silver;
+	padding: 20px 15px;	
+}
+.main-content .top-info1 {
+	display: inline-block;
+	width: 49%;
+}
+.main-content .top-info2 {
+	display: inline-block;
+	width: 49%;
+}
+.main-content .middle-img {
+	width: 100%;
+	padding: 35px 0;
+}
+.main-content .below-info1 {
+	display: inline-block;
+	width: 33%;
+}
+.main-content .below-info2 {
+	display: inline-block;
+	width: 33%;
+}
+.main-content .below-info3 {
+	display: inline-block;
+	width: 33%;
+}
+.bottom-content a {
+	margin: 10px 0;
+	padding: 20px 0;
+}
+footer {
+	text-align: center;
+}
