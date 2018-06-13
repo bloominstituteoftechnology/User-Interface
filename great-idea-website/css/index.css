@@ -65,10 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .nav-bar {
-	position: relative;
-	vertical-align: top;
-	width:85%;	
-	margin: 40px;
+	background: silver;
+	position: fixed;
+	height: 40px;
+	width:95%;	
+	margin: 10px;
 }
 .nav-bar nav {
 	display: inline-block;
@@ -87,7 +88,7 @@ a{
 	right: 0;
 }
 header {
-	margin: 40px;
+	margin: 60px 40px;
 }
 header p {
 	font-size: 36pt;
@@ -98,10 +99,9 @@ header p {
 	margin: 0 30px 0 auto;
 }
 header .circle-img {
-	position: relative;
 	display: inline-block;
 	width: 35%;
-	margin: 0 auto;
+	margin: 60px 0 0;
 }
 section {
 	margin: 40px;
