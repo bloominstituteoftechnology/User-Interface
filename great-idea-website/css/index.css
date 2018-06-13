@@ -68,40 +68,80 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 876px;
 	margin: 0 auto;
+	margin: 30px 60px 30px 60px;
   }
 
 header {
 	border: 1px solid red;
-	position: relative;
+	/*position: relative;*/
 	width: 100%;
-	height: 38px;
+	/*height: 38px;*/
 }
 
 div header nav {
 	display: inline-block;
-	position: absolute;
-	line-height: 38px;
+	/*position: absolute;*/
+	/*line-height: 38px;*/
 	border: 1px solid blue;
+	width: 100%;
 }
 
 div header nav a {
-	margin: 0 47px 0 0;
+	/*margin: 0 47px 0 0;*/
+	line-height: 38px;
 	text-decoration: none;
 	display: inline-block;
 	border: 1px solid green;
+	margin-right: 50px;
+	color: gray;
 }
 
 header nav a:hover{
 	text-decoration: underline;
 }
 
-header .logo {
+header nav .logo {
 	border: 1px solid red;
-	position: absolute;
-	right: 0;
+	float: right;
+}
+
+.top-section {
+	border: 1px solid blue;
+	height: 428.25px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.top-section div {
+	margin-top: 108.125px;
+	border: 1px solid green;
+	display: inline-block;
+	width: 50%;
+}
+
+.top-section div h1 {
+	border: 1px solid red;
+	font-size: 50px;
+	text-align: center;
+}
+
+.top-section div button {
+	margin-left: 108.45px;
+	font-size: 18px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	width:50%;
+	padding: 10px;
+}
+
+.top-section .circleImage {
+	border: 1px solid green;
+	width: 49%;
+	float: right;
 }
 
 .middle-section {
+	border: 1px solid red;
 	border-top: 1px solid black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -117,7 +157,8 @@ header .logo {
 .bottom-content {
 	border: 1px solid red;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
 }
 
 .bottom-content div {
@@ -126,4 +167,13 @@ header .logo {
 	width: 33%;
 }
 
+.contact {
+	border: 1px solid red;
+	margin-top: 25px;
+}
 
+footer {
+	border: 1px solid red;
+	text-align: center;
+	margin-top: 50px;
+}
