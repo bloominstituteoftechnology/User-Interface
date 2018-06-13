@@ -64,15 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
-	display: block;
 
-}
-
-header { 
-	display: inline-block;
-	position: absolute;
-	border: 1px solid red;
+.top section {
+	display:inline-block;
 }
 
 header img {
@@ -81,36 +75,32 @@ header img {
 	height: 200px;
 }
 
-.titles {
-	margin: 100px;
-	border: 1px solid red;
-}
-
-
 .navigation {
 	color: red;
-	border: 10px;
+	border: 1px solid red;
 	border-color: red;
-	display: inline-block;
-	padding: 20px;
+	display: block;
+	padding: 0 0 0 40px;
+	word-spacing: 50px;
+	font-size: 20px;
+	
 }
 
 .logo {
-	width: 186px;
-	height: 36px;
+	width: 150px;
+	height: 40px;
+	position: absolute;
 	right: 40px;
-	display: inline-block;
-	position:absolute;
+	padding: 10px;
+	display: inline-block;	
 }
 
-body .titles {
-	display: block;
-}
+
 
 .circle_code {
 	position: absolute;
 	right: 40px;
-	display: inline-block;
+	display: block;
 	margin: 100px;
 }
 
@@ -118,13 +108,54 @@ section {
 	display: block;
 }
 
-div {
+ div {
 	border: 1px solid blue;
-	display:inline-block;
 }
 
+
+.cta .cta-text {
+	display: inline-block;
+}
+
+
+.cta .cta-text .cta-titles {
+	margin: 0 0 0 100px;
+	border: 1px solid red;
+	font-size: 100px;
+	text-align: left;
+	vertical-align: center;
+
+}
+
+.cta img {
+	display: inline-block;
+	margin-top: 69px; 
+}
+
+
+.tab-content .upper-left {
+	display: inline-block;
+	width: 420px;
+
+}
+
+
+
+
+/*Messy code---->*/ 
+
+/*
 div h2 {
 	font-weight: 200px;
+}
+
+.upper-middle {
+	display: block;
+	
+}
+
+.upper-content section {
+	display: inline-block;
 }
 
 .upper-left {
@@ -164,5 +195,5 @@ div h2 {
 	margin: 1px;
 	width:200px;
 	
-}
+} */
 
