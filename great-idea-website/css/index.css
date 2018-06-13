@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 body{
 	width: 50%;
 	margin:0 auto;
+	font-family: Titillium Web;
 }
 header {
 
@@ -208,6 +209,8 @@ footer {
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
+	font-family: Titillium Web;
+	font-size: 14px; 
 
 }
 
