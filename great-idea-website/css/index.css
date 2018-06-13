@@ -94,8 +94,9 @@ nav a {
 header {
 	border-bottom: 1px solid black;
 	width: 878px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin-left: 5%;
+	padding-bottom: 3%;
 }
 
 .banner {
@@ -108,8 +109,8 @@ header {
 
  .banner-text {
   font-size: 75px;
-  width: 70px;
-  border: 1px solid blue;
+  width: 297px;
+  /* border: 1px solid blue; */
   margin-left: 20%;
   text-align: center;
   
@@ -121,14 +122,14 @@ header {
 	text-align: center;
 	border: 1px solid black;
 	padding: 2px;
-	margin-left: 20%;
+	margin-left: 174px;
 }
 
 .image-display {
   display: inline-block;
   vertical-align: middle;
   width: 438px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding-left: 7%;
 }
 .two-columns {
@@ -141,7 +142,7 @@ header {
 .three-columns {
 	display: inline-block;
 	vertical-align: top;
-	width: 292px;
+	width: 290px;
 	/* border: 1px solid red; */
 }
 
@@ -154,6 +155,28 @@ section {
 }
 
 .middle-img {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.services {
+	border-bottom: 1px solid black;
+	/* border: 1px solid red; */
+	width: 889px;
+	padding-bottom: 3%;
+}
+
+.contact {
+	/* border: 1px solid red; */
+	margin-left: 5%;
+	width: 878px;
+}
+
+footer {
+	margin-left: 5%;
+	text-align: center;
+	width: 878px;
+	margin-bottom: 5%;
+	margin-top: 2%;
 }
