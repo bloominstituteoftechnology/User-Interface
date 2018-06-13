@@ -89,10 +89,6 @@ h1, h2, h3, h4, h5 {
 	right: 0;
 }
 
-.heading{
-	padding: 50px;
-}
-
 .heading-a{
 	display: inline-block;
 	width: 47%;
@@ -108,8 +104,6 @@ h1, h2, h3, h4, h5 {
 	border: 2px solid black;
 	width: 50%;
 	display: inline-block;
-
-	
 }
 
 .section-1a{
