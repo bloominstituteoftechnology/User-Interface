@@ -108,9 +108,9 @@ header nav a:hover {
 
 header .logo{
 	display: inline;
-	position: absolute;
-	right: 0;
-	/* border: 1px solid blue; */
+	position: relative;
+	right: 20;
+	border: 1px solid blue;
 }
 
 .section-one{
@@ -118,8 +118,7 @@ header .logo{
 	position: relative;
 	width: 100%;
 	padding-top: 100px;
- z-index: 0;
-	border: 1px solid black;
+ 	z-index: 0;
 }
 
 h1 {
