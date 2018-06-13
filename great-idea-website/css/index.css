@@ -65,67 +65,102 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* Wrapper */
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
 /* Navigation Bar CSS */
 .nav-bar {
 	position: fixed;
-	top: 0;
+	vertical-align: top;
 	width: 100%;
-	background: orange;
 	display: inline-block;
-	
+	line-height: 15px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 .nav-buttons li {
-	float: left;
-	padding: 12px 24px;
-	
+	line-height: 50px;
+	margin: 25px;
+	text-decoration: none;
+	opacity: .8;
+	display: inline-block;
+  	color: black;
 }
 
-.nav-buttons li:hover {
-	background-color: white;
+.nav-buttons li a:hover {
+	background-color: grey;
 }
 
-.nav-bar img {
-	float: right;
+.logo {
+   display: inline-block;
+   margin-left: 45px;
+  
 }
+
 
 /* Header CSS */
 header{
-	margin: 200px;
-	padding: 12px 24px;
-	text-align: center;
+	box-sizing: border-box;
+    display: inline-block;
+    margin: 0 auto;
+	margin-left: 120px;
+	padding: 50px 50px;
 }
+
 header p {
 	padding: 12px 24px;
 }
+
 header a {
-	border: solid;
-	border-color: black;
-	vertical-align: middle;
-	background: red;
+	border: 2px solid black;
 	padding: 12px 24px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
 }
 .header-left {
-	float: left;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 180px;
 }
-
-.header-right {
-	float: right;
+header img {
+	
+	display: inline-block;
 }
+.header-left p {
+	font-size: 50px;
+	
 
+}
 /* Divider Content */
 .div-content1 {
 	border-top: 1px solid black;
+	display: inline-block;
 }
 
-.img-break {
+.div-content1 section {
+	display: inline-block;
+	width: 45%;
+	padding: 30px 0;
+}
+.middle-img {
 	width: 100%;
 	text-align: center;
 }
-.div-content2 {
+.div-content2 section {
 	border-bottom: 1px solid black;
+	display: inline-block;
+	width: 33%;
+	padding: 30px 0;
 }
 
+.contact {
+	padding: 30px 0;
+}
 footer {
 	text-align: center;
 	padding: 12px 24px;
