@@ -73,29 +73,27 @@ h1, h2, h3, h4, h5 {
 }
 
 .navlogo{
-	position: relative;
+	display: flex;
+	justify-content: space-between; 
+	align-items: baseline;
 }
 
-.navlogo .navigation span{
-	display: inline-block;
-	margin: 10px 20px;
-	font-size: 13px;
-	font-weight: 300;
+nav span{
+	margin-left: 100px;
 }
 
-.navlogo .logo{
-	display: inline-block;
-	position: absolute;
-	right: 0;
+.heading{
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
 }
 
 .heading-a{
-	display: inline-block;
-	width: 47%;
-	height: 450px;
 	font-size: 82px;
-	text-align: center;
-	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
 }
 
 .button1{
@@ -106,32 +104,26 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
-.section-1a{
-	display: inline-block;
-	width:49%;	
+.section-1{
+	display: flex; 
+	justify-content: space-between;
 	padding: 10px;
 }
-
 
 .section-2{
-	display: inline-block;
-}
-
-.section-2a{
-	display: inline-block;
-    width: 33%;
-}
-
-.section-3a{
+	display: flex; 
+	justify-content: space-between;
 	padding: 10px;
-	width: 150px;
 }
 
 .footing{
-	position: relative;
+	display: flex; 
+	flex-direction: column;
+	padding: 10px;
 }
 
 .footing-a{
-	position: absolute;
-	left: 50%;
+	display: flex; 
+	justify-content: center;
+	padding: 10px;
 }
