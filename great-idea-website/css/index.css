@@ -53,9 +53,8 @@ table {
 }
 
 html, body {
+    height: 100%;
     font-family: 'Titillium Web', sans-serif;
-
-
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,50 +63,128 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-*{
-	box-sizing: border-box;
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
 }
 
-.navigation {
-	color:gray;
-	font-family: 'Titillium Web', sans-serif;
-  padding:
+/* header */
+
+header nav {
+  display: inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
 }
 
-body {
-	text-align: center;
+header nav a {
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
 }
 
-
-button {
-	background-color: white;
-	border: 1px solid black;
-	color: black;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	font-family: 'Titillium Web', sans-serif;
+header nav a:hover {
+  text-decoration: underline;
 }
 
+header nav a:first-child {
+  margin-left: 0;
+}
 
+header nav a:last-child {
+  margin-right: 0;
+}
 
+header .logo {
+  display: inline-block;
+  margin-top: 25px;
+}
 
+/* cta */
 
+.cta .cta-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 90px;
+}
 
-.top-content {
-	display: inline-block;
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
 }
 
 .contact {
-	font-family: 'Bangers',cursive;
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
 }
 
-	footer {
-text-align: center;
-	}
+.contact p {
+  margin: 20px 0;
+}
 
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
