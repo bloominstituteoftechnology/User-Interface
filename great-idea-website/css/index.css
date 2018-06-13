@@ -98,24 +98,53 @@ header .header-text {
 	padding 100%;
 }
 
+button {
+	font-size: 20px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 20px;
+}
+-------------------------------
+
 section.top-content {
 	border: 1px solid red;
 }
 
-section.middle-content {
-	border: 1px solid red;;
+.middle-content {
+	border: 1px solid red;
+	display: inline-block;
+	width: 50%;
+	padding: 2px;
+
+}
+
+.middle-img {
+	width: 95%;
+	padding-left: 5%;
 }
 
 section.bottom-content {
 	border: 1px solid red;
 }
 
-section.contact {
+
+
+-------------------------------------
+.contact {
 	border: 1px solid red; 
+	margin-top: 50px;
+	padding: 20px 10px 0;
+}
+
+.contact p {
+	margin: 10px 0px;
 }
 
 footer {
 	border: 1px solid red;
 	text-align: center;
-	padding: 35px;
+	margin: 32px 0;
+	font-size: 16px;
 }
