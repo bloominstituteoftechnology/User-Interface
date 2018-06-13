@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 890px;
+	margin: 0 auto;
+}
+
 .top section {
 	display:inline-block;
 }
@@ -79,7 +84,7 @@ header img {
 	color: red;
 	border: 1px solid red;
 	border-color: red;
-	display: block;
+	display: inline-block;
 	padding: 0 0 0 40px;
 	word-spacing: 50px;
 	font-size: 20px;
@@ -87,21 +92,10 @@ header img {
 }
 
 .logo {
-	width: 150px;
-	height: 40px;
-	position: absolute;
-	right: 40px;
-	padding: 10px;
-	display: inline-block;	
-}
-
-
-
-.circle_code {
-	position: absolute;
-	right: 40px;
-	display: block;
-	margin: 100px;
+	display:inline-block;
+	margin-top: 25px;
+	width: 190px;
+	height: 40px;	
 }
 
 section {
@@ -117,14 +111,24 @@ section {
 	display: inline-block;
 }
 
+.circle_code {
+	display: inline-block;
+	margin-top:80px;
+}
 
 .cta .cta-text .cta-titles {
-	margin: 0 0 0 100px;
+	margin: 0 0 0 50px;
 	border: 1px solid red;
-	font-size: 100px;
-	text-align: left;
+	font-size: 80px;
+	text-align: center;
 	vertical-align: center;
+	display: inline-block
 
+}
+
+.btn {
+	display: block;
+	margin: 0 0 0 50px;
 }
 
 .cta img {
@@ -133,13 +137,40 @@ section {
 }
 
 
-.tab-content .upper-left {
+.tab-content {
 	display: inline-block;
-	width: 420px;
+	margin-top: 80px;
+	
 
 }
 
+.upper-left , .upper-right{
+	float: left;
+	width: 50%;
+}
 
+.tab-content .middle-img {
+	display: block;
+	margin-top: 80px;
+}
+
+
+.bottom-content {
+	display: block;
+	margin-top: 80px;
+}
+
+.bottom-left , .bottom-middle , .bottom-right {
+	float: left;
+	width: 33%;
+}
+
+.contact {
+	display: block;
+	margin-top: 80px;
+	width:200px;
+	
+}
 
 
 /*Messy code---->*/ 
@@ -190,10 +221,5 @@ div h2 {
 	width: 200px;
 }
 
-.contact {
-	display: block;
-	margin: 1px;
-	width:200px;
-	
-} */
+ */
 
