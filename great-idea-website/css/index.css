@@ -71,14 +71,21 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 1024px;
 	margin: 0 auto;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 header {
 	width: 100%;
-	position: relative;
+	position: fixed;
+	z-index: 2;
 	padding: 5px;
-	height: 50px;
-	margin-top: 30px;
+	height: 100px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	background-color: white;
+
+
 	/* border: 1px solid red; */
 }
 nav {
@@ -90,12 +97,19 @@ header nav a{
 	margin: 10px;
 	vertical-align: middle;
 	display: inline-block;
+	text-decoration: none;
+	color: black;
 	/* border: 1px solid green; */
 }
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
 header .logo{
 	display: inline;
 	position: absolute;
-	right: 100;
+	right: 0;
 	/* border: 1px solid blue; */
 }
 
@@ -103,7 +117,9 @@ header .logo{
 	/* display: inline-block; */
 	position: relative;
 	width: 100%;
-	/* border: 1px solid black; */
+	padding-top: 100px;
+ z-index: 0;
+	border: 1px solid black;
 }
 
 h1 {
@@ -112,12 +128,10 @@ h1 {
 }
 
 button{
-	padding-left: 200px;
-	align-self: auto;
+	position: relative;
+	margin-left: 175px;
+	height: 25px;
 	width: 150px;
-	height: 30;
-	/* background-color: grey;
-	border: 1px yellow solid; */
 }
 
 .left, .right {
@@ -127,6 +141,7 @@ button{
 	/* border: 1px solid red; */
 	vertical-align: middle;
 }
+
 .right {
 	/* border: 1px solid purple; */
 	padding: 60px;
@@ -164,6 +179,7 @@ h2{
 .middle-img{
 	width: 100%;
 	height: 200px;
+	margin-bottom: 10px;
 }
 
 .triple-textbox{
@@ -177,6 +193,7 @@ h2{
 	display: inline-block;
 	padding-right: 10px;
 	margin-top: 10px;
+	margin-bottom: 20px;
 	/* border: 1px solid red; */
 }
 
