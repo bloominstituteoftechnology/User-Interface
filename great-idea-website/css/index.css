@@ -95,12 +95,26 @@ header nav a:hover {
 }
 
 header .logo {
+    display:inline-block;
+}
+
+.container-header  {
+display: inline-block;
+
+}
+.container-header {
+    
+    padding: 8px 44px;
+    border-width: thin;
+    text-align: center;
 
 }
 
-#container-header  {
-float: left;
-margin: 7%;
+.getstarted {
+    border: solid;
+    
+    margin: 1vh 4vw 1vh 4vw;
+    font-size: 1.7vh;
 }
 
 #container-header2 {
@@ -108,15 +122,8 @@ margin: 7%;
     width: 70%;
 }
 
-#container-header #gs {
-    border: solid;
-    padding: .5vw;
-    border-width: thin;
-    text-align: center;
-
-}
-
-#iod p {
+.iod p {
+  
   text-align: center;
   margin: 0;
   padding: 0;
@@ -124,6 +131,6 @@ margin: 7%;
   
 }
 
-#gs {
-    font-size: 1.7vh;
+.s1 {
+    display: inline-block;
 }
