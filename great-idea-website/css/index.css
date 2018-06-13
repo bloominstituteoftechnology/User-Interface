@@ -65,76 +65,117 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* { box-sizing: border-box;
+/** { box-sizing: border-box;
+}*/
+
+.container {
+  width: 900px;
+  /*margin: 0 auto;*/
+  border: 3px solid red;
 }
 
 header {
-  border: 1px solid red;
  
-  width: 100%;
+ 
+ /* width: 100%;*/
   height: 50px;
 }
 
 header nav {
  display: inline-block;
-  position: absolute;
-  line-height: 40px;
+ /*position: absolute;
+ line-height: 40px;*/
+ width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
 }
 
 header nav a {
 
-	margin: 0 0 0 30px;
+  margin: 0 0 0 45px;
   text-decoration: none;
   display: inline-block;
+  font-size: 14px;
+  color: grey;
 }
 
 
-.logo {
+header.logo {
    display: inline-block;
-   position: absolute;
-   right: 0;
-   width: 20em;
+   /*position: relative;*/
+   padding-top: 20px;
    border: 1px solid green;
 }
 
-div h1 {
- display: inline-block;
- margin-left: 20%;
+ .code-snippet{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 90px;
+}
+
+.innovation h1{
+    display: inline-block;
+    text-align: center;
+    /*padding: 0px 90px;*/
+ 	margin-top: 20%;
    /*width: 20em;*/
-   border: 1px solid green
- 	
+    font-size: 40px;
+    border: 1px solid green 	
 }
 
 .button {
-  margin-left: 20%;
-
+	
+  margin-left: 30%;
+  border: 1px solid black;
 }
 
 hr1{
-  padding: 50px 0 50px 0;
-  border: 1px solid green
-}
-
- .code-snippet{
- 
-	display: inline-block;
-	position: absolute;
-  right: 0;
-  border:1px solid black
+  margin: 50px;
+  
 }
 
 
 
 .middle-text .features-about {
-   display: inline-block;
+  display: inline-block;
   width: 50%;
-  border:1px solid black
+  padding-top: 30px;
+ 
+
+}
+
+hr1{
+  margin: 50px;
+  
+}
+
+.middle-img{
+border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
 
 }
 
 .three-columns .bottom-text {
-   display: inline-block;
+  display: inline-block;
   width: 33%;
-  border:1px solid black
+}
 
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
 }
