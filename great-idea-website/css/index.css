@@ -62,5 +62,25 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+div{
+	border: 1px solid black
+}
 /* Your code starts here! */
+
+button{
+	background-color: white;
+	border: solid black 1px;
+	padding: 5px 40px;
+	font-family: 'Titillium Web', sans-serif
+}
+nav {
+	color: #b4b4b4;
+	padding: 5px 40px;
+	display:inline-block;
+}
+p {
+	display:inline-block;
+}
+h3 {
+	display:inline-block;
+}
