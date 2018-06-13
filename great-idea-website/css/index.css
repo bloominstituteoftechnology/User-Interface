@@ -65,12 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/** { box-sizing: border-box;
-}*/
+ { box-sizing: border-box;
+}
 
 .container {
   width: 900px;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   border: 3px solid red;
 }
 
@@ -78,7 +78,7 @@ header {
  
  
  /* width: 100%;*/
-  height: 50px;
+  height: 40px;
 }
 
 header nav {
@@ -100,35 +100,37 @@ header nav a {
 }
 
 
-header.logo {
+header .logo {
    display: inline-block;
    /*position: relative;*/
    padding-top: 20px;
-   border: 1px solid green;
+   
 }
 
- .code-snippet{
-  display: inline-block;
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 90px;
-}
+ h1{
 
-.innovation h1{
+ 	display: inline-block;
+ }
+
+.innovation {
     display: inline-block;
     text-align: center;
-    /*padding: 0px 90px;*/
  	margin-top: 20%;
    /*width: 20em;*/
-    font-size: 40px;
-    border: 1px solid green 	
+    font-size: 60px;
+    /*border: 1px solid green */	
 }
 
-.button {
-	
-  margin-left: 30%;
+
+img.code-snippet{
+  display: inline-block;
+  position: absolute;
+  right: 350px;
+  margin-top: 3em;
+}
+
+.button {	
+  margin-left: 20%;
   border: 1px solid black;
 }
 
@@ -136,8 +138,6 @@ hr1{
   margin: 50px;
   
 }
-
-
 
 .middle-text .features-about {
   display: inline-block;
@@ -153,7 +153,7 @@ hr1{
 }
 
 .middle-img{
-border-top: 1px solid black;
+/*border-top: 1px solid black;*/
   margin-top: 76px;
   padding-top: 39px;
 
@@ -162,11 +162,12 @@ border-top: 1px solid black;
 .three-columns .bottom-text {
   display: inline-block;
   width: 33%;
+  padding-top: 39px;
 }
 
 .contact {
   margin-top: 57px;
-  border-top: 1px solid black;
+  /*border-top: 1px solid black;*/
   padding: 39px 10px 0;
 }
 
