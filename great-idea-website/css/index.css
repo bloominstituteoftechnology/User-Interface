@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 /*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,6 +55,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 /*
  {
     box-sizing: border-box;
@@ -71,7 +73,6 @@ h1, h2, h3, h4, h5 {
 }
 */
 
-
 /* Your code starts here! */
 
 header {
@@ -81,30 +82,31 @@ header {
 
 
 header nav {
-        position: fixed;
-        background-color: azure;
-        overflow-x:hidden;
-        width: 70%;
-        padding: 0vh 0vw 0vh 12vw;
-        
-    }
+    position: fixed;
+    background-color: azure;
+    overflow-x: hidden;
+    width: 70%;
+    padding: 0vh 0vw 0vh 12vw;
+
+}
+
 header nav a {
-	display: inline-block;
+    display: inline-block;
     float: left;
     color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-size: 14px;
-	margin: 0vh 0vw 0vh 5vw;
+    font-size: 14px;
+    margin: 0vh 0vw 0vh 5vw;
 }
 
 header nav a:hover {
-	color: aquamarine;
+    color: aquamarine;
 }
 
 header .logo {
-    display:inline-block;
+    display: inline-block;
     margin: 0vh 7vw;
 }
 
@@ -119,17 +121,19 @@ header .logo {
 .iod {
     margin: 5vh;
 }
+
 .iod p {
-  
+
     text-align: center;
     margin: -1.9vh;
     padding: 0;
     font-size: 6.5vh;
-    
-  }
+
+}
+
 .getstarted {
     border: solid;
-    
+
     margin: 1vh 6vw 1vh 6vw;
     font-size: 1.7vh;
 }
@@ -139,7 +143,7 @@ header .logo {
     float: right;
     width: 3vh;
     margin: 3vh 18vw 3vh 0vw;
-  
+
 }
 
 .entireAd {
@@ -147,39 +151,33 @@ header .logo {
     margin: -3em
 }
 
-.s1  {
-    float:left;
+.s1 {
+    float: left;
     width: 350px;
     margin: 0vh 0vw 0vh 12vw;
-    
+
 }
 
-.s2  {
-    float:right;
+.s2 {
+    float: right;
     width: 350px;
     margin: 0vh 20vw 0vh 0vw;
-    
-}
-
-
-.s1 .texts1 {
-    
-    
 
 }
 
-.s1 .texts2 {
-  
-}
 
-.img-mid  {
+.s1 .texts1 {}
+
+.s1 .texts2 {}
+
+.img-mid {
     margin: 14em 20vw 7vh 30vw;
 
 }
 
 .s3 {
-    display:inline-block;
-    float:left;
+    display: inline-block;
+    float: left;
     width: 250px;
     margin: 0vh 0vw 0vh 13vw;
 
@@ -205,19 +203,19 @@ header .logo {
 
 
 hr {
-    display:inline-block;
+    display: inline-block;
     width: 75%;
     align: center;
     margin: 7vh 0vw 0vh 10vw;
     display: inline-block;
-    
+
 }
 
 h5 {
     text-align: center;
 }
 
-.footer { 
+.footer {
     margin: 0vh 0vw 0vh 10vw;
 }
 
