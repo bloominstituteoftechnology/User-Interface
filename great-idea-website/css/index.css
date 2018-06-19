@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	background-image: url("../img/mid-page-accent.jpg");
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +66,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /*Your code starts here! */
-
 .container {
 	width: 876px;
 	margin: 0 auto;
   }
+
+
+
+/*
+	=====================================
+	            Header
+	=====================================
+*/
+
 
 
 header {
@@ -80,7 +90,7 @@ header {
 header nav {
 display: inline-block;
 line-height: 36px;
-background-color: aquamarine;
+background-color: navy;
 position:fixed;
 width:876px;
 font-family: 'Tangerine', serif;
@@ -97,6 +107,15 @@ header .logo {
 	right: 25%;
 	position:fixed;
 	}
+
+
+
+/*
+	=====================================
+	          CTA
+	=====================================
+*/
+
 
 .CTA {
 	display: inline-block;
@@ -150,6 +169,13 @@ header .logo {
 	text-decoration: none;
 }
 
+
+/*
+	=====================================
+	            Top Content
+	=====================================
+*/
+
 .top-content {
 height: auto;
 margin:8px;
@@ -165,9 +191,21 @@ display: inline-block;
 width: 49%;
 }
 
+/*
+	=====================================
+	          Middle Image
+	=====================================
+*/
+
 .middle-img {
 vertical-align: middle;
 }
+
+/*
+	=====================================
+	           Bottom content
+	=====================================
+*/
 
 .bottom-content{
 height:auto;
@@ -187,11 +225,22 @@ width:31%;
 	width:32%;
 	}
 
+	/*
+	=====================================
+	            Contact
+	=====================================
+*/
 .contact{
 	display: inline-block;
 	margin:8px;
 
 }
+
+/*
+	=====================================
+	           Footer
+	=====================================
+*/
 
 footer {
 	text-align: center;
