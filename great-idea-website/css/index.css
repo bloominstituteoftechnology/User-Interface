@@ -67,8 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width:1024px;
-	height: 1536px;
-	margin: 50px;
+	margin: 0 auto;
 }
 
 img, h1 {
