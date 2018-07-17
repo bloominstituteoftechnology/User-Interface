@@ -62,5 +62,137 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* TOTAL CONTAINER DIV */
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
 
-/* Your code starts here! */
+/* header */
+
+header nav {
+  display: inline-block;
+  width: 692px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-right: 40px;
+	  
+  }
+header nav a {
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 18px;
+  color: rgb(97, 87, 87);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  transform: skew(-13deg);
+
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header .logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/*IOD */
+
+.iod .iod-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 90px;
+}
+
+.iod .iod-text button {
+  background: rgb(248, 245, 245);
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.iod .iod-text button:hover {
+  background: black;
+  color: rgb(226, 13, 155);
+  box-shadow: inset 0 0 0 3px #a00887;
+}
+
+.iod img {
+  display: inline-block;
+  margin-top: 69px;
+}
+
+.main {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main .top {
+  padding: 0 10px;
+}
+
+.main .top .top-text {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main .top .top-text:last-child {
+  margin-right: 0;
+}
+
+.main .middle-img {
+  margin-top: 45px;
+}
+
+.main .bottom {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main .bottom .bottom-text{
+  width: 271px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main .bottom .bottom-text :last-child {
+  margin-right: 0;
+}
+
+.contact-text {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact-text p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
