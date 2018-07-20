@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+}
+
+header, nav, img.logo {
+	text-align: right;
+	display: inline;
+	position: relative;	
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+}
+
+section .mission {
+	position: fixed;
+	box-align: left;
+	text-align: center;
+	position: relative;
+}
