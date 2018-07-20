@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f9986e-4894-41e0-8cc6-e7c719e99f0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/great-idea-website/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/great-idea-website/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/great-idea-website/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/great-idea-website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/great-idea-website/index.html" afterDir="false" />
     </list>
@@ -21,28 +22,42 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/great-idea-website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+            <state relative-caret-position="468">
+              <caret line="26" column="30" selection-end-line="110" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/great-idea-website/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/great-idea-website/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+            <state relative-caret-position="721">
+              <caret line="190" column="33" lean-forward="true" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav</find>
       <find>li</find>
-      <find>header</find>
       <find>h1</find>
       <find>header-right</find>
       <find>float</find>
@@ -50,6 +65,11 @@
       <find>middle-</find>
       <find>inline-bl</find>
       <find>footer</find>
+      <find>nav</find>
+      <find>header</find>
+      <find>span</find>
+      <find>button</find>
+      <find>middle-im</find>
       <find>innovat</find>
     </findStrings>
   </component>
@@ -59,8 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/great-idea-website/index.html" />
         <option value="$PROJECT_DIR$/great-idea-website/css/index.css" />
+        <option value="$PROJECT_DIR$/great-idea-website/index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/great-idea-website/about.html" />
       </list>
     </option>
   </component>
@@ -120,10 +142,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/great-idea-website" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532049496813</updated>
-      <workItem from="1532049498324" duration="5476000" />
+      <workItem from="1532049498324" duration="7261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5476000" />
+    <option name="totallyTimeSpent" value="7261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1032" extended-state="6" />
@@ -184,17 +212,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/great-idea-website/index.html">
+    <entry file="file://$PROJECT_DIR$/great-idea-website/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+        <state relative-caret-position="721">
+          <caret line="190" column="33" lean-forward="true" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/great-idea-website/css/index.css">
+    <entry file="file://$PROJECT_DIR$/great-idea-website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+        <state relative-caret-position="468">
+          <caret line="26" column="30" selection-end-line="110" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/great-idea-website/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +26,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+span, p, li, button {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, section {
@@ -38,13 +44,19 @@ ol, ul {
 nav {
 	margin: 30px;
 	width: 84%;
+	background-color: #616161;
+	padding: 20px;
 }
 li {
 	display: inline;
 }
-nav li {
-	color: #B8B8B8;
+nav li a {
+	color: white;
 	margin-right: 10%;
+	text-decoration: none;
+}
+nav li a:hover {
+	color: #55FCA0;
 }
 blockquote, q {
 	quotes: none;
@@ -106,6 +118,15 @@ h1, h2, h3, h4, h5 {
 	width: 50%;
 }
 
+.header-nav {
+	position: fixed;
+	z-index: 2;
+}
+
+.header-section {
+	margin-top: 50px;
+}
+
 .header-section h1 {
 	font-size: 5em;
 	width: 300px;
@@ -127,6 +148,16 @@ button {
 	border: thin solid black;
 	background: none;
 	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+button:hover{
+	background: #55FCA0;
 }
 
 header section {
@@ -150,8 +181,17 @@ article .third {
 	width: 30%;
 }
 
-article img {
+/*article img {
 	width: 100%;
+	margin: 50px 0;
+}*/
+
+.middle-img {
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 180px;
 	margin: 50px 0;
 }
 
