@@ -64,3 +64,48 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container {
+ width: 880px;
+ margin: 0 auto;
+}
+
+header {
+	padding: 20px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    position: fixed;
+    right: 380px;
+    top: 10px;
+    display: block;
+    height: 30px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    color: darkgrey
+}
+
+.spam {
+    line-height: 65px;
+    max-width: 220px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px auto;
+    font-family: Bangers;
+    text-align: center;
+    display: inline-block;    
+    padding: 0 400px 0 140px;
+}
