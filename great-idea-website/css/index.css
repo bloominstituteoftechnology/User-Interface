@@ -65,87 +65,106 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 #divPage {
-	width= 880px;
+	width: 880px;
 }
 
 #nav {
-	border: 2px solid gray;
-  	background-color: pink;
+	/*border: 2px solid gray;*/
+  	/* background-color: blue; */
 	display: block;
 	padding-left: 6%;
+	height: 40px;
 }
 
 .navItem {
-	border: 2px solid gray;
-	background-color: pink;
-	color: white;
+	/* border: 2px solid red; */
+	/* background-color: lightgray; */
+	color: gray;
 	display: inline-block;
-	height: 34px;
+	height: 30px;
 	width: 100px;
-	padding-top: 16px;
-	border-radius: 16px;
+	/*padding-top: 6px;*/
+	/*border-radius: 16px;*/
 	text-align: center;
 	font-family: arial;
-	font-size: 16px;
+	font-size: 12px;
 	text-decoration: none;
 }
 
 #navImage {
 	display: inline-block;
+	width: 100px;
+	/* border: 2px solid black;
+	background-color: orange; */
+	/*padding-top: 20px;*/
 }
 
 #topContainer {
-	border: 2px solid gray;
-	background-color: pink;
+	/* border: 2px solid purple;
+	background-color: pink; */
 	width: 100%;
+	display: block;
 
 }
 
 #topText {
-	border: 2px solid gray;
-	background-color: pink;
-	width
+	/* border: 2px solid black;
+	background-color: orange; */
+	font-family: arial;
+	font-size: 30px;
+	width: 200px;
+	display: inline-block;
 }
 
 #topTextBox {
-	border: 2px solid gray;
-	background-color: pink;
+	/* border: 2px solid gray;
+	background-color: yellow; */
+	width: 100px;
+	display: inline-block;
 }
 
 #topImage {
-
+	display: inline-block;
+	width: 300px;
+	/* border: 2px solid purple;
+	background-color: gray; */
 }
 
 #sectionContainer {
-
+	/* border: 2px solid purple;
+	background-color: blue; */
+	width: 100%;
+	display: block;
 }
 
-#features {
-
-}
-
-#about {
-
+.section2 {
+	/* border: 2px solid pink;
+	background-color: orange; */
+	width: 420px;
+	display: inline-block;
 }
 
 #sqImage {
-
+	display: block;
+	/*width: 800px;*/
+	/* border: 2px solid purple;
+	background-color: gray; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	
 }
 
 #sectionContainer2 {
-
+	/* border: 2px solid red;
+	background-color: pink; */
+	width: 100%;
+	display: block;
 }
 
-#services {
-
-}
-
-#product {
-
-}
-
-#vision {
-
+.section3 {
+	width: 280px;
+	display: inline-block;
 }
 
 #contact {
@@ -154,5 +173,10 @@ h1, h2, h3, h4, h5 {
 
 #address {
 
+}
+
+.h3 {
+	text-align: center;
+	font-size: 14px;
 }
 
