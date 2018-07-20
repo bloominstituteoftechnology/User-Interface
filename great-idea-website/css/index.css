@@ -270,6 +270,7 @@ hr {
 
 .contact {
 	margin: 60px 20px;
+	
 }
 
 .contact h2 {
@@ -277,6 +278,17 @@ hr {
 }
 .contact address {
 	margin-top: 2px;
+}
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+.contact a:hover {
+ color: orangered;
+}
+.contact a[href^="tel:"]:before {
+    content:'\260E ';
+	display: inline-block;
 }
 footer {
 	text-align: center;
