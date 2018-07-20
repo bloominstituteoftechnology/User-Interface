@@ -173,8 +173,9 @@ header {
 }
 
 header nav {
-	background-color: white;
 	position: fixed;
+	background-color: #333;
+	top:0;
 	overflow: hidden;
 	font-size: 15px;
 	line-height: 35px;
@@ -182,8 +183,10 @@ header nav {
 
 }
 
+
 header nav a {
-	color: black;
+	float: left;
+	color: #f2f2f2;
 	text-align: center;
 	text-decoration: none;
 	margin: 0 70px 0 10px;
@@ -192,9 +195,12 @@ header nav a {
 }
 
 header nav a:hover {
-	color: white;
-	background-color: black;
+ background: #ddd;
+    color: black;
 	padding: 10px 5px 10px 5px;
+}
+header nav::before{
+	
 }
 
 header .logo {
