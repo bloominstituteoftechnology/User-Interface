@@ -64,39 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	background: white;
+}
+
+.container-div {
+	width: 1024px;
+	margin: 0 auto;
+	background: white;
+}
 
 .header-bar {
-	border: 2px solid black;
 	width: 100%;
 	height: 96px;
 	margin: auto;
 }
 
 .nav {
-	border: 2px solid black;
-	width: 750px;
+	width: 700px;
 	height: 96px;
 	float: left;
-	margin-left: 75px;
+	margin-left: 35px;
 }
 
 .nav-button {
-	margin: 50px 10px 25px 10px;
 	position: relative;
-	margin-left: 35px;
-	margin-right: 35px;
+	margin-left: 30px;
+	margin-right: 30px;
 	top: 40px;
 	text-decoration: none;
 }
 
 .nav-text {
-	color: gray;
+	color: rgb(186,186,186);
 }
 
 #logo-holder {
-	border: 2px solid black;
 	float: right;
-	margin-right: 75px;
+	margin-right: 70px;
 	height: 96px;
 	width: 183px;
 }
@@ -107,26 +112,116 @@ h1, h2, h3, h4, h5 {
 }
 
 #under-header{
-	border: 2px solid black;
-	height: 650px;
+	height: 510px;
 	width: 100%;
 }
 
 #innovation-on-demand {
-	border: 2px solid black;
-	width: 350px;
-	height: 225px;
+	width: 340px;
+	height: 245px;
 	text-align: center;
-	font-size: 75px;
+	font-family: 'Bangers', cursive;
+	font-size: 83px;
 	float: left;
-	margin-left: 200px;
+	margin-left: 140px;
+	position: relative;
+	top: 122px;
 }
 
 .get-started-button {
-	border: 2px solid black;
+	width: 175px;
+	height: 35px;
+	border: 1px solid black; 
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12pt;
+	background: white;
+	position: relative;
+	top: -30px;
 }
 
 #image-1 {
 	float: right;
-	margin-right: 200px;
+	margin-right: 75px;
+	position: relative;
+	top: 50px;
+}
+
+.line-break {
+	border: 1px solid black;
+	width: 880px;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.main-section {
+	height: 180px;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.main-section2 {
+	height: 220px;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.title-text {
+	font-size: 18px;
+}
+
+#features{
+	float: left;
+	height: 180px;
+	width: 439px;
+	position: relative;
+	top: 40px;
+}
+
+#about{
+	float: right;
+	height: 180px;
+	width: 439px;
+	position: relative;
+	top: 40px;
+}
+
+.middle-img{
+	width: 880px;
+}
+
+#services {
+	width: 290px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+
+#product {
+	width: 290px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+
+#vision {
+	width: 290px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+
+#address{
+	position: relative;
+	top: 40px;
+}
+
+#copyright {
+	width: 1024px;
+	height: 50px;
+	text-align: center;
 }
