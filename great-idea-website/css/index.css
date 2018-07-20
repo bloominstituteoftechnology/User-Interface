@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 880px;
+}
+header {
+	display: block;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+header nav {
+	display: inline-block;
+	width: 75%;
+	padding: 35px 0;
+	vertical-align: middle;
+}
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+}
+header img {
+	display: inline-block;
+	vertical-align: middle;
+}
+h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 72px;
+}
+.top {
+	
+}
