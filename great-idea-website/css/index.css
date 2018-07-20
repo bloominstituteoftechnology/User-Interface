@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -23,9 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;
 }
 body {
@@ -33,6 +34,17 @@ body {
 }
 ol, ul {
 	list-style: none;
+}
+nav {
+	margin: 30px;
+	width: 84%;
+}
+li {
+	display: inline;
+}
+nav li {
+	color: #B8B8B8;
+	margin-right: 10%;
 }
 blockquote, q {
 	quotes: none;
@@ -61,6 +73,96 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+.logo {
+	margin: 20px;
+	vertical-align: middle;
+}
+
+.float-left {
+	float: left
+}
+
+.float-right {
+	float: right;
+}
+
+.float-middle {
+	margin: 0 auto!important;
+}
+
+.inline-block {
+	display: inline-block;
+}
+.inline {
+	display: inline;
+}
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.header-section h1 {
+	font-size: 5em;
+	width: 300px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.header-section img {
+	margin: 100px;
+}
+
+.header-left div {
+	margin: 100px;
+	text-align: center;
+}
+
+button {
+	width: 218px;
+	border: thin solid black;
+	background: none;
+	padding: 10px;
+}
+
+header section {
+	width: 100%;
+}
+
+article {
+	border-top: thin solid black;
+	border-bottom: thin solid black;
+	padding: 50px 20px;
+	margin: 50px;
+}
+
+article .half {
+	margin: 10px;
+	width: 45%;
+}
+
+article .third {
+	margin: 10px;
+	width: 30%;
+}
+
+article img {
+	width: 100%;
+	margin: 50px 0;
+}
+
+footer {
+	padding: 20px;
+	margin: 50px;
+}
+
+footer div {
+	width: 100%;
+	text-align: center;
 }
 
 /* Your code starts here! */
