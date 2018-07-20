@@ -158,14 +158,12 @@ h5 {
 
 header {
 	display: inline-block;
-	border: 1px solid black;
 	width: 100%;
 	font-size: 12px;
 	margin-top: 18px;
 }
 
 nav {
-	position: ;
 	display: inline-block;
 	margin-left: 31px;
 	text-align: center;
@@ -187,6 +185,7 @@ a {
 	margin: 0px 28px;
 	text-decoration: none;
 	display: inline-block;
+	color: gray;
 }
 
 h1 {
@@ -213,7 +212,6 @@ h1 {
 
 .features-and-about {
 	display: inline-block;
-	border: 1px solid black;
 	margin-top: 79px;
 }
 
@@ -230,13 +228,48 @@ h1 {
 	
 }
 
-.middle-img  {
+.middle-img {
 	width: 86%;
     margin-left: 59px;
-    margin-top: 11px;
+    margin-top: 34px;
 }
 
-.middle-img {
+.services-product-vision {
+	display: inline-block;
+}
 
+.services {
+	display: inline-block;
+	width: 26%;
+	margin-left: 63px;
+	margin-top: 29px;
+}
+
+.product {
+	display: inline-block;
+	width: 26%;
+	margin: 0px 23px;
+	margin-top: 0px;
+}
+
+.vision {
+	display: inline-block;
+	width: 26%;
+	margin-left: 0px;
+	margin-top: 51px;
+}
+
+.contact {
+	margin-left: 62px;
+}
+
+address {
+	line-height: 154%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 53px;
+	font-size: 12px;
 }
 
