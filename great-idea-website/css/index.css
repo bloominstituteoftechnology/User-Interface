@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#divPage {
+	width= 880px;
+}
+
+#nav {
+	border: 2px solid gray;
+  	background-color: pink;
+	display: block;
+	padding-left: 6%;
+}
+
+.navItem {
+	border: 2px solid gray;
+	background-color: pink;
+	color: white;
+	display: inline-block;
+	height: 34px;
+	width: 100px;
+	padding-top: 16px;
+	border-radius: 16px;
+	text-align: center;
+	font-family: arial;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#navImage {
+	display: inline-block;
+}
+
+#topContainer {
+	border: 2px solid gray;
+	background-color: pink;
+	width: 100%;
+
+}
+
+#topText {
+	border: 2px solid gray;
+	background-color: pink;
+	width
+}
+
+#topTextBox {
+	border: 2px solid gray;
+	background-color: pink;
+}
+
+#topImage {
+
+}
+
+#sectionContainer {
+
+}
+
+#features {
+
+}
+
+#about {
+
+}
+
+#sqImage {
+
+}
+
+#sectionContainer2 {
+
+}
+
+#services {
+
+}
+
+#product {
+
+}
+
+#vision {
+
+}
+
+#contact {
+
+}
+
+#address {
+
+}
+
