@@ -135,9 +135,16 @@ hr {
 	height: 1px;
   }
 
-  .upper-para{
-	  display: inline-block;
-	  width: 49%;
-	  text-align: left;
-	  margin: 10px 0px;
-  }
+.upper-para{
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+	margin: 10px 0px;
+}
+
+.lower-para{
+	display: inline-block;
+	width: 32%;
+	text-align: left;
+	margin: 10px 0px;
+}
