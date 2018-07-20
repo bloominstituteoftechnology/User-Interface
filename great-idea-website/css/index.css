@@ -74,3 +74,11 @@ body {
 /* content */
 
 /* address and footer */
+footer {
+	padding: 25px 0px 0px 0px; 
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px 0px;
+}
