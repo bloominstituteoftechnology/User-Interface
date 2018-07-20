@@ -89,10 +89,6 @@ main {
 	overflow: hidden;
 }
 
-.wrapper {
-	margin: 500px;
-}
-
 .box {
 	margin: 40px 0 40px 0;
 }
@@ -101,7 +97,11 @@ main {
 
 #nav-cust {
 	overflow: hidden;
-	margin: 30px 0 30px 0;
+	width: 880px;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	background-color: #cfcfc4;
 }
 
 nav {
@@ -111,7 +111,7 @@ nav {
 
 a {
 	text-decoration: none;
-	color: grey;
+	color: black;
 	margin: 25px;
 	font-size: 15px;
 	text-align: center;
@@ -125,6 +125,14 @@ a {
 
 header {
 	display: inline;
+}
+
+br {
+	margin: 0 0 50px 0;
+}
+
+#wrapper {
+	margin: 500px;
 }
 
 h1 {
