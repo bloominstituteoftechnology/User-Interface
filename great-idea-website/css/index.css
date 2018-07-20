@@ -65,23 +65,44 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 860px;
-	text-align: center;
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 .headerimg {
+	display: inline-block;
 	text-align: center;
-	height: 80px;
-	width: 70px;
+	height: 200px;
+	width: 200px;
+	margin-top: 25px;
 }
 nav {
-	text-align: center;
-	overflow: hidden;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+nav a:hover {
+	background: black;
+	color: white;
 }
 .companylogo {
+	position: relative;
+	float: right;
 	height: 90px;
 	width: 85px;
+}
+.abouth3 {
+	border: 1px solid red;
+}
+p {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	font-size: 20px;
+	margin-top: 120px;
+	padding: 0px px;
 }
