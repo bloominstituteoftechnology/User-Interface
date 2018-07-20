@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -144,7 +143,7 @@ table {
 html,
 body {
 	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -174,12 +173,11 @@ header {
 }
 
 header nav {
+	background-color: white;
 	position: fixed;
 	overflow: hidden;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 35px;
-	width: 50%;
-	background-color: lightgray;
 	z-index: 0;
 
 }
@@ -188,18 +186,21 @@ header nav a {
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	margin: 0 90px 0 10px;
+	margin: 0 70px 0 10px;
+	padding: 10px 5px 10px 5px;
 	
 }
 
 header nav a:hover {
-	text-decoration: underline;
+	color: white;
+	background-color: black;
+	padding: 10px 5px 10px 5px;
 }
 
 header .logo {
 	display: inline-block;
 	position: fixed;
-    right: 250px;
+    right: 300px;
 
 }
 
@@ -215,6 +216,7 @@ header .igs-text {
 button {
 	display: inline-block;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 	vertical-align: top;
 	font-size: 17px;
 	text-align: center;
@@ -229,13 +231,15 @@ background-color:orangered;
 }
 
 header .header-img {
+	display: inline-block;
 	position: absolute;
-	margin: 80px;
+	margin-top: 80px;
+	margin-left: 150px;
 	z-index: -1;
 }
 
 hr {
-	width: 100%;
+	width: 900px;
 }
 
 .top-content {
@@ -287,4 +291,7 @@ footer h3::before {
 	content:'\00A9 ';
 	
 
+}
+div p {
+	font-family: 'Montserrat', sans-serif;
 }
