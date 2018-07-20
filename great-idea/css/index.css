@@ -28,64 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-header{
-		padding: 20px
-}
-
-header nav {
-	display: inline-block;
-}
-
-header nav a {
-	display: inline-block;
-	margin-right: 100px;
-}
-
-header .logo{
-	display: inline-block;
-	float: right;
-}
-
-section.cta {
-    margin: 65px 0;
-  display: inline-block;
-    width: 100%;
-}
-section .cta-text{
-	display: inline-block;
-	width: 50%;
-}
-
-section .cta-text button {
-    width: 32%;
-    padding: 5px 30px;
-    font-size: 13px;
-    border: 1px solid black;
-    position: relative;
-	left: 33%;
-	margin: left;
-}
-
-section .cta-text h1 {
-    font-size: 60px;
-    text-align: center;
-}
-
-section .img{
-	display: inline-block;
-	width: 50%;
-}
-
-section .main-content{
-	border-top: black;
-	border-bottom: black;
-}
-
 body {
 	line-height: 1;
-	display: table-cell;
-    vertical-align: middle;
 }
 ol, ul {
 	list-style: none;
@@ -117,4 +61,62 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+header {
+	padding-top: 20px;
+}
+
+header .logo {
+	display: inline-block;
+	float: right;
+	padding-right: 100px;
+}
+
+nav {
+	display: inline-block;
+	height: 100px;
+	padding-top: 10px;
+}
+
+nav a {
+	display: inline-block;
+	padding-left: 100px;
+	color: grey;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 77px;
+	padding: 20px 90px;
+}
+
+.cta .cta-text button {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 30px;
+	vertical-align: top;
+}
+
+.cta img {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 77px;
+	padding: 20px 90px;
+}
+
+.maincontent {
+	display: inline-block;
+	border-top: 500px;
+	padding: 50px;
+}
+
+.maincontent .topcontent .textcontent {
+	display: inline-block;
+	border: red;
+	width: 50%;
 }
