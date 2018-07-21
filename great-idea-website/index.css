@@ -107,3 +107,43 @@ nav {
 	margin-bottom: 25px;
 	padding-bottom: 40px;
 }
+.middle {
+	margin: 25px 0px 25px 0px;
+}
+.middle-img {
+	width:100%;
+}
+.bottom-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-bottom: 25px;
+}
+.bottom-middle {
+	display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 40px;
+}
+.bottom-right {
+	float: right;
+	width: 30%;
+}
+.bottom {
+	border-bottom: 2px solid black;	
+}
+.contact {
+	margin-top: 25px;
+}
+footer {
+	text-align: center;
+    margin: 50px 0px 50px 0px;
+    font-size: 13px;
+}
+button {
+	padding: 0px 20px 0px 20px;
+    margin-left: 182px;
+}
+.header-image {
+	width: 37%;
+}
