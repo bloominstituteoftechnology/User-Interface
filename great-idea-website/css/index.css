@@ -133,6 +133,7 @@ section.get-started p {
 	font-size: 18px;
 	letter-spacing: .2rem;
 	border: 1px solid black;
+	box-shadow: 1px 1px 2px 1px gray;
 }
 
 
@@ -169,7 +170,6 @@ section div.about {
 
 section div.about2 p {
 	display: inline-block;
-	
 	width: 45%;
 	margin: 15px 20px 0 450px;
 	position: relative;
@@ -254,5 +254,15 @@ section div.right-content p {
 
 section .address h3 {
 	font-size: 18px;
-	margin: 20px; 0 20px 11px;
+	margin: 20px; 0px 20px 11px;
+}
+
+section .address p {
+	font-size: 18px;
+	margin: 0px 0px 50px 18px;
+}
+
+footer {
+	text-align: center;
+	height: 100px;
 }
