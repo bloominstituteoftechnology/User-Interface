@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +66,240 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-container {
+	max-width: 95%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+    padding: 0;
+}
+.nav1 {
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+}
+
+a {
+	text-align: center;
+	color: grey;
+	padding: 45px;
+	padding-left: 20px;
+	padding-right: 65px;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	top: 25px;
+	right: 20px;
+	bottom: 5px;
+	left: 120px;
+	height: 18%;
+	width: 18%;
+}
+
+.tagline {
+	display: inline-block;
+	font-size: 105px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	margin-left: 150px;
+}
+
+.codeImage {
+	display: inline-block;
+	position: relative;
+	height: 41%;
+	width: 41%;
+	top: -225px;
+	margin-left: 730px;
+}
+
+.nav2 {
+	border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 275px;
+    margin-left: -326px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 45px;
+	padding-right: 45px;
+	text-decoration: none;
+	color: black;
+}
+
+.featuresAndabout {
+	display: inline-block;
+	border-top: 2px solid black;
+}
+
+.Features {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.Featuresp {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 675px;
+	font-size: 18px;
+	
+}
+
+.Aboutp {
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+	margin-left: 675px;
+	top: -105px;
+	font-size: 18px;
+}
+
+.About {
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+	margin-left: 675px;
+	top: -110px;
+	padding-top: 10px;
+	padding-bottom:5px;
+	font-size: 20px;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -40px;
+}
+
+.Services {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 75%;
+	font-size: 20px;
+	padding-top: 10px;
+	
+}
+
+.Servicesp {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 75%;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-bottom: -100%;
+	
+}
+
+.Product {
+	display: inline-block;
+	position: relative;
+	margin-left: 35%;
+	margin-right: 35%;
+	font-size: 20px;
+	top: -160px;
+	padding-top: 5px;
+	
+}
+
+.Productp {
+	display: inline-block;
+	position: relative;
+	margin-left: 35%;
+	margin-right: 35%;
+	font-size: 18px;
+	top: -155px;
+	padding-top: 5px;
+	margin-bottom: -100%;
+	
+}
+
+.Vision {
+	display: inline-block;
+	position: relative;
+	margin-left: 75%;
+	margin-right: 5px;
+	font-size: 20px;
+	top: -295px;
+	
+}
+
+.Visionp {
+	display: inline-block;
+	position: relative;
+	margin-left: 75%;
+	margin-right: 5px;
+	font-size: 18px;
+	top: -285px;
+	margin-bottom: -100%;
+	
+}
+
+.threeParas {
+	display: inline-block;
+	border-bottom: 2px solid black;
+	position: relative;
+	max-height: 200px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+
+.contactHeader {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	top: -210px;
+	margin-left: 5px;
+}
+
+.address {
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -135px;
+	margin-left: -70px;
+}
+
+.phoneNumber {
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -85px;
+	margin-left: -160px;
+}
+
+.email {
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -35px;
+	margin-left: -138px;
+}
