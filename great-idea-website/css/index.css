@@ -99,16 +99,12 @@ a:link {
 }
 
 .header {
-	/* border: 2px solid black;
-	background-color: yellow; */
 	color: black;
 	width: 96%;
 	display: block;
 }
 
 #textContainer {
-	/* border: 2px solid green;
-	background-color: pink;	 */
 	display: inline-block;
 	width: 400px;
 	Height: 300px;
@@ -117,13 +113,10 @@ a:link {
 } 
 
 #topText {
-	/* border: 2px solid purple;
-	background-color: gray;	 */
 	font-family: bangers;
 	font-size: 60px;
 	width: 240px;
 	display: block;
-	/* position:  */
 	top: 100px;
 	left: 100px;
 	text-align: center;
@@ -155,13 +148,14 @@ a:link {
 }
 
 hr {
+	margin-left: 40px;
 	margin-right: 40px;
 }
 
 #sectionContainer {
 	width: 100%;
 	display: block;
-	padding-left: 20px;
+	padding-left: 40px;
 	padding-right: 20px;
 }
 
@@ -174,17 +168,18 @@ hr {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 96%;
+	width: 92%;
 	padding-right: 10px;
 }
 
 #sectionContainer2 {
 	width: 100%;
 	display: block;
+	padding-left: 40px;
 }
 
 .section3 {
-	width: 280px;
+	width: 270px;
 	display: inline-block;
 }
 
@@ -193,3 +188,14 @@ hr {
 	font-size: 14px;
 }
 
+#contact {
+	padding-left: 40px;
+}
+
+address {
+	padding-left: 40px;
+}
+
+footer {
+	padding-left: 40px;
+}
