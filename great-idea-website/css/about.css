@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -158,14 +159,16 @@ h5 {
 
 /* Your code starts here! */
 
-body {margin:0;}
+body {
+	margin: 0;
+}
+
 .about-page {
 	height: 100vh;
 	width: 880px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
-
 
 header {
 	position: relative;
@@ -177,14 +180,12 @@ header {
 header nav {
 	position: fixed;
 	background-color: #333;
-	top:0;
+	top: 0;
 	overflow: hidden;
 	font-size: 15px;
 	line-height: 35px;
 	z-index: 0;
-
 }
-
 
 header nav a {
 	float: left;
@@ -193,21 +194,18 @@ header nav a {
 	text-decoration: none;
 	margin: 0 70px 0 10px;
 	padding: 10px 5px 10px 5px;
-	
 }
 
 header nav a:hover {
- background: #ddd;
-    color: black;
+	background: #ddd;
+	color: black;
 	padding: 10px 5px 10px 5px;
 }
-
 
 header .logo {
 	display: inline-block;
 	position: fixed;
-    right: 300px;
-
+	right: 300px;
 }
 
 header .igs-text {
@@ -233,7 +231,7 @@ button {
 }
 
 button:hover {
-background-color:orangered;
+	background-color: orangered;
 }
 
 header .header-img {
@@ -261,61 +259,158 @@ hr {
 	margin-bottom: 25px;
 	margin-top: 20px;
 }
+
 .lower-content {
 	width: 130%;
 	padding: 5px;
 }
+
 .lower-content .inner-content {
 	display: inline-block;
 	width: 25%;
- 	margin-left: 1px;
+	margin-left: 1px;
 	margin-bottom: 25px;
 	margin-top: 20px;
 }
 
-
 .contact {
 	margin: 60px 20px;
-	
 }
 
 .contact h2 {
 	font-size: 20px;
 }
+
 .contact address {
 	margin-top: 2px;
 }
+
 .contact a {
 	text-decoration: none;
 	color: black;
 }
+
 .contact a:hover {
- color: orangered;
+	color: orangered;
 }
+
 .contact a[href^="tel:"]:before {
-    content:'\260E ';
+	content: '\260E ';
 	display: inline-block;
 }
+
 footer {
 	text-align: center;
 }
+
 .middle-img {
 	display: inline-block;
-    width: 10%;
-    height: 15%;
-	margin-left:400px;
+	width: 10%;
+	height: 15%;
+	margin-left: 400px;
 }
-footer h3::before {
-	content:'\00A9 ';
-	
 
+footer h3::before {
+	content: '\00A9 ';
 }
+
 div p {
 	font-family: 'Montserrat', sans-serif;
 }
+
 #git {
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 100px;
-    z-index: -1;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 100px;
+	z-index: -1;
+}
+
+.breadcrumb {
+	list-style: none;
+	overflow: hidden;
+	font: 18px Sans-Serif;
+}
+
+.breadcrumb li {
+	float: left;
+}
+
+.breadcrumb li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 0 10px 65px;
+	background: #333;
+	/* fallback color */
+	background: #333;
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.breadcrumb li a::after {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	/* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid #333;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	left: 100%;
+	z-index: 2;
+}
+
+.breadcrumb li a::before {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1;
+}
+
+.breadcrumb li:first-child a {
+	padding-left: 10px;
+}
+
+.breadcrumb li:nth-child(2) a {
+	background: #333;
+}
+
+.breadcrumb li:nth-child(2) a:after {
+	border-left-color: #333;
+}
+
+.breadcrumb li:nth-child(3) a {
+	background: hsla(34, 85%, 55%, 1);
+}
+
+.breadcrumb li:last-child a {
+	background: transparent !important;
+	color: black;
+	pointer-events: none;
+	cursor: default;
+}
+
+.breadcrumb li:last-child a::after {
+	border: 0;
+}
+
+.breadcrumb li a:hover {
+	background: rgb(78, 78, 78);
+}
+
+.breadcrumb li a:hover:after {
+	border-left-color: rgb(78, 78, 78) !important;
 }
