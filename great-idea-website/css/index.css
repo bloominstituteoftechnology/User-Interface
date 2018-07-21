@@ -73,25 +73,45 @@ h1, h2, h3, h4, h5 {
 
 #upper-nav{
 	display: inline-block;
-	width: 75%;
-	height: 50px;
+	width: 650px; /* changed was 75% */
+	height: 80px;
 	vertical-align: top;
+	position: fixed;
+	top: 0px;
+	background-color: #d4f0ff;
+	border-radius: 0px 0px 30px 0px;
+	z-index: 1;
 }
 
-#upper-nav a{
+a{
 	display: inline-block;
 	text-decoration: none;
 	font-size: 14px;
 	color: lightgrey;
-	margin: 35px 26px;
+	padding: 10px 10px;
+	margin: 22px 16px;
+	font-family: 'Noto Serif', serif;
+	background-color: #2554c7;
+	border-radius: 5px;
+}
+
+a:hover{
+	color: #addfff;
+	background-color: #1589ff;
 }
 
 #img-nav{
 	display: inline-block;
 	width: 20%;
-	height: 50px;
+	height: 60px;
 	vertical-align: top;
 	margin: 23px 10px 0px 0px;
+	position: relative;
+	left: 670px;
+}
+
+#main-header-container{
+	position: relative;
 }
 
 div.main-header.text{
