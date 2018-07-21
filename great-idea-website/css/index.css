@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
  header{
 	display: block;
 	width: 880px;
-	padding-bottom:40px;
+	padding-bottom:10px;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -79,6 +79,8 @@ nav{width: 880px;
 	text-align:center;
 	padding-bottom: 10px;
 	margin-bottom:10px;
+	position:fixed;
+	z-index: 2;
 }
 
 .nitem{display:inline-block;
@@ -87,6 +89,7 @@ nav{width: 880px;
 	  padding:32px;
 	  padding-top:15px;
 	  margin-bottom:20px;
+	  background:lightsalmon;
 }
 .logo{
 	display:inline-block;
@@ -106,7 +109,7 @@ nav{width: 880px;
 	font-size:60px;
 	line-height:60px;
 	width:300px;
-	margin-top:73px;
+	margin-top:140px;
 	margin-left:50px;
 	margin-bottom:10px;
 	font-weight:bolder;
@@ -135,7 +138,7 @@ nav{width: 880px;
 #circlepic{
 	display:inline-block;
 	margin-left:100px;
-	margin-top:30px;
+	margin-top:80px;
 }
 
 main{
