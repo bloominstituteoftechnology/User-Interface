@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,6 +50,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+/*
 * {
     box-sizing: border-box;
 }
@@ -64,3 +67,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	border: 1px solid black;
+}
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+nav {
+	display: 
+}
+
+.nav-list {
+	display: inline-block;
+	vertical-align: top;
+	width: 680px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav a {
+	display: inline-block;
+	width: 100px;
+}
