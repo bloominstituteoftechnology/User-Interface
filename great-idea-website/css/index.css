@@ -93,7 +93,11 @@ header {
 	text-align: center;
 	padding: 0px 60px;
 }
-.content {
+.maincontent {
+	bottom: 137px;
+    right: 17px;
+    left: 40px;
+    margin-top: 21px;
 	position: relative;
 }
 .content .content_above {
@@ -130,6 +134,7 @@ address {
 	padding: 25px 0px 0px 0px;
 }
 .block {
+	bottom: 300px;
 	position: relative;
 	width: 100%;
 }
@@ -146,14 +151,17 @@ a:hover {
 	color: black;
 }
 .img {
-	padding-left: 90px;
-	padding-right: 62px;
-	padding-bottom: -100px;
+    position: relative;
+    padding-left: 90px;
+    padding-right: 62px;
+    padding-bottom: -100px;
     margin-top: -10;
     margin-left: 456px;
     margin-bottom: 2px;
     border-top-width: 9px;
-    margin-right: 50px;
+	margin-right: 50px;
+	bottom: 501px;
+    right: 89px;
 }
 nav {
 	padding-top: 40px;
@@ -167,18 +175,17 @@ nav li {
 	color: darkgray;
 }
 .started {
-	width: -80px;
-	height: -50px;
-	font-family: Titillium;
-	margin: 20px 0;
-	line-height: 20px;
-	max-width: 220px;
-	font-size: 20px;
-	margin: 100px auto;
-	text-align: center;
-	display: inline-block;
-	border: 1px solid black;
-	position: relative;
-	bottom: 90px;
+    font-family: Titillium;
+    margin: 20px 0;
+    line-height: 20px;
+    max-width: 220px;
+    font-size: 20px;
+    margin: 100px auto;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+    bottom: 90px;
 	padding: 0 20px;
+	left: 135px;
 }
