@@ -60,7 +60,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -85,7 +85,7 @@ header {
 	margin-bottom: 30px;
 	z-index: 1;
 	width: 880px;
-	background-color: maroon;
+	background-color: salmon;
 
 }
 
@@ -96,7 +96,7 @@ nav, img.logo {
 	display: inline;
 	position: relative;
 	margin: 0 auto;
-	}
+}
 
 nav {
 	text-align: left;
@@ -107,13 +107,13 @@ img.logo {
 	margin-left: 60px;
 	vertical-align: -6px;
 	width: 14%;
-	}
+}
 
 .GSbutton {
 	border: 1px solid black;
 	padding: 10px 30px;
 	margin: 30px auto;
-	}
+}
 
 .mission {
 	width: 48%;
@@ -121,12 +121,12 @@ img.logo {
 	margin-bottom: 30px;
 	display: inline-block;
 	text-align: center;
-	}
+}
 
 h1 {	
 	font-size: 72px;
 	margin-top: 30px;
-	}
+}
 
 .features, .about {
 	width: 50%;
