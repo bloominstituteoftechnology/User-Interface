@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+    width: 880px;
+    align-content: center;
+    margin: auto;
+}
+
 h2 {
 	font-style: italic;
 	font-size: 200%;
