@@ -130,10 +130,9 @@ p.main-header{
 
 #get-started{
 	display: inline-block;
-	border: 1px solid black;
 	text-align: center;
 	width: 33%;
-	padding: 7px 3px;
+	padding: 8px 4px;
 	margin: 17px auto;
 }
 
