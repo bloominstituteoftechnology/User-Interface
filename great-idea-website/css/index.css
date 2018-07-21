@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/******************
+  GENERAL
+*******************/
+div.container {
+	width: 880px;
+	margin: 20px auto;
+	padding: 2px;
+	background-color: #FFF;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}  
+
+hr {
+	margin: 25px 0;
+}
+
+/*************************
+  HEADER STYLES part -1
+*************************/
+header nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top:10px;
+	width: 640px;
+ } 
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size:14px;
+    color: #D3D3D3;
+    margin-right: 50px; 
+    background-image: linear-gradient(#F00, #F00);
+	background-size: 0 5px, auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	transition: all .2s ease-out;
+} 
+
+header nav a:hover {
+    background-size: 100% 1px, auto;
+}
+
+img.logo {
+	float:right;
+}
+/**********************
+  Header styles part - II
+***********************/
+section.header-main {
+	margin-top:25px;
+}
+
+aside.left {
+	float:left;
+	width:50%;
+}
+
+aside.right {
+	float:right;
+	width:50%;
+}
+aside.header-left {
+	padding: 70px;
+	text-align: center;
+}  
+
+aside.header-left h1 {
+	font-size: 75px;
+}
+
+a.button {
+  background-color: white;
+  border: 1px solid #000;  
+  border-radius:2px;
+  color: #000;
+  padding: 3px 30px;
+  text-decoration: none;
+}
+a.button:focus,
+a.button:hover {
+  background-color: FireBrick;
+  color: White;
+}
+
+img.header-image {
+	padding: 30px 60px;
+	width:100%;
+}
+
+/*********************
+  Middle part
+*********************/
+.middle-img {
+	margin: 22px 0;
+ }
+
+ .content2 aside.services, 
+ .content2 aside.product, 
+ .content2 aside.vision {
+ 	float:left;
+ 	width: 33%;
+ }
+
+/**********************
+  Footer styles
+**********************/
+footer {
+	margin-bottom: 30px;
+}
+ footer p {
+ 	text-align: center;
+ }  
+
+footer a {
+	text-decoration: none;
+	color:#000;
+} 
