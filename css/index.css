@@ -54,13 +54,18 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 24px;
 }
 
 /* Your code starts here! */
@@ -83,8 +88,11 @@ nav {
 }
 
 .nav_button {
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 	color: #1d1d1d;
-	margin: 25px;
+	margin: 25px 20px;
 	position: relative;
 	border: none;
 	outline: none;
@@ -94,11 +102,14 @@ nav {
 	opacity: .3;
 }
 
+#navbar {
+	overflow: hidden;
+  }
+
 .logo {
 	float: right;
 	padding: 15px 0px 0px 0px;
 }
-
 
 /* call to action */
 .cta {
@@ -115,6 +126,8 @@ nav {
 }
 
 .cta .cta_text button {
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
 	background: white;
 	vertical-align: top;
 	margin-top: 5px;
@@ -143,16 +156,18 @@ nav {
 
 .content .content_above {
 	display: inline-block;
-	width: 45%;
-	margin: 1% 2% 2% 0;
+	width: 420px;
+	margin: 1% 1% 2% 1%;
 	padding: 25px 0; 
+	line-height: 20px;
 }
 
 .content .content_below {
 	display: inline-block;
-	width: 30%;
-	margin: 1% 3% 2% 0;	
-	padding: 25px 0px;	
+	width: 274px;
+	margin: 1% 8px 2% 8px;	
+	padding: 25px 0px;
+	line-height: 20px;	
 }
 
 /* address and footer */
