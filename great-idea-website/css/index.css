@@ -54,6 +54,7 @@ table {
 
 html, body {
 	height: 100%;
+	width: auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -91,7 +92,7 @@ h1, h2, h3, h4, h5 {
 
 .header-content h1 {
 	height: 350px;
-	width: 50%;
+	width: auto;
 	display: block;
 	font-size: 80px;
 	margin-top: 30px;
@@ -110,7 +111,7 @@ div.demand {
 
 .img1 {
 	height: 370px;
-	width: 47%;
+	width: auto;
 	display: block;
 	padding-right: 70px;
 	margin-top: 30px;
@@ -125,8 +126,8 @@ div.button p {
 section.get-started p {
 	display: inline-block;
 	height: 35px;
-	width: 180px;
-	padding: 8px 4px 24px 24px;
+	width: auto; 
+	padding: 8px 20px 8px 24px;
 	margin-left: 110px;
 	margin-bottom: 20px; 
 	font-size: 18px;
@@ -135,8 +136,123 @@ section.get-started p {
 }
 
 
-
 hr {
-	box-shadow: 1px 1px 1px 1px;
+	width: 900px;
+	color: black;
 }
 
+section div.features {
+	display: inline-block;
+	margin: 20px 0 0 22px;
+	font-size: 18px;
+	
+}
+
+section div.features2 p {
+	display: inline-block;
+	height: 200px;
+	width: 45%;
+	margin: 15px 20px 20px 22px;
+	font-size: 18px;
+	
+}
+
+section div.about {
+	display: inline-block;
+	margin: 20px 0 0px 460px;
+	position: relative;
+	bottom: 288px;
+	right: 7px;
+	font-size: 18px;
+	
+}
+
+section div.about2 p {
+	display: inline-block;
+	
+	width: 45%;
+	margin: 15px 20px 0 450px;
+	position: relative;
+	bottom: 288px;
+	font-size: 18px;
+	
+}
+
+div.about2 {
+	margin: 0px 0px 0px 0px;
+}
+
+.middle-img {
+	display: inline-block;
+	position: absolute;
+	top: 760px;
+	margin-left: 20px;
+	
+}
+
+
+section div.left-content h3 {
+	
+	display: inline-block;
+	width: 31%;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+
+section div.left-content p {
+	display: block;
+	width: 31%;
+	margin: 5px 0px 5px 18px;
+	position: relative;
+	font-size: 18px;
+}
+
+
+section div.middle-content h3 {
+
+	display: block;
+	position: relative;
+	bottom: 150px;
+	left: 323px;
+	width: 33%;
+	font-size: 18px;
+	
+}
+
+section div.middle-content p {
+	display: inline-block;
+	width: 31%;
+	margin: 5px 0px 0px 323px;
+	position: relative;
+	bottom: 150px;
+	font-size: 18px;
+}
+
+
+
+section div.right-content h3 {
+	
+	width: 31%;
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	bottom: 297px;
+	left: 627px;
+}
+
+
+section div.right-content p {
+	display: block;
+	width: 31%;
+	margin: 5px 0px 5px 625px;
+	position: relative;
+	bottom: 300px;
+	font-size: 18px;
+}
+
+
+section .address h3 {
+	font-size: 18px;
+	margin: 20px; 0 20px 11px;
+}
