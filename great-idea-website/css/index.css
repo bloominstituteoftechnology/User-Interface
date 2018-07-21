@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+
+header {
+	display: inline-block;
+	width: 690px;
+	vertical-align: top;
+	margin-top: 35px;	
+	margin-bottom: 60px;
+}
+header .navBtns li{
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 14px;
+}
+
+
+header .navBtns ul li a{
+	text-decoration: none;
+	color: #cccccc;
+	font-family: 'Titillium Web';
+	display: inline-block;	
+}
+body .logo{
+	display: inline-block;
+	vertical-align: middle; 
+	margin-top: 25px;
+}
+
+article {
+	border-bottom: 1px solid black;
+}
+
+article #title{
+	display: inline-block;
+	width: 56%;
+	vertical-align: top;
+}
+article #top-text{
+	font-size: 83px;
+	margin-left: 49px;	
+	margin-top: 64px;
+
+}
+article #middle-text{
+	font-size: 83px;
+	margin-left: 170px;
+}
+article #bottom-text{
+	font-size: 83px;
+	margin-left: 86px;
+}
+article #title div{
+	border: 1px solid black;
+	display: inline-block;
+	height: 40px;
+	width: 178px;
+	margin-left: 26%;
+	text-align: center;
+	padding-top: 10px;
+}
+article #title div a{
+	text-decoration: none;
+	color: black;
+}
+
+article img{
+	display: inline-block;
+}
+
+article #black-line{
+	width: 100%;
+	border-top: 1px solid black;
+	margin-top: 80px;
+}
+
+article #Features {
+	width: 49%;
+	display: inline-block;
+	margin-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+article #About {
+	width: 50%;
+	display: inline-block;
+	margin-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+article #Services {
+	width: 32%;
+	display: inline-block;
+	margin-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 14px;
+}
+
+article #Product {
+	width: 32%;
+	display: inline-block;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 14px;
+}
+
+article #Vision {
+	width: 32%;
+	display: inline-block;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer p{
+	font-family: 'Bangers';
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+footer .contactInfo{
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+
+#copyright{
+	display: inline-block;
+	margin-left: 40%;
+	margin-top: 40px;
+}
