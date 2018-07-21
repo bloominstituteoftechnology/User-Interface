@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+.big {
+	font-size: 45px;
+	text-align: center;
+	margin-top: 70px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+span {
+	width: 125px;
+	height: 30px;
+	border: 1px solid black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 5px;
+}
+
+.jumbo {
+	height: 350px;
+}
+
+/* navigation */
+
+nav {
+	overflow: hidden;
+	max-width: 880px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(109, 221, 255);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 164, 164);
+}
+
+/* columns */
+.two-column {
+	float: left;
+	width: 50%;
+}
+
+.logo {
+	float: right;
+	padding-right: 20px;
+}
+
+.three-column {
+	float: left;
+	width: 33%;
+}
+
+/* imgs */
+
+.middle-img, hr {
+	margin: 25px 0;
+}
+
+.header-img {
+	height: 310px;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 15px;
+	padding-top: 50px;
+}
+
+footer {
+	text-align: center;
+	padding: 25px 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
