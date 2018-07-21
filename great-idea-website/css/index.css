@@ -167,6 +167,8 @@ nav {
 	display: inline-block;
 	margin-left: 31px;
 	text-align: center;
+	vertical-align: top;
+	margin-top: 15px;
 }
 
 .logodiv {
@@ -188,18 +190,27 @@ a {
 	color: gray;
 }
 
+a:hover {
+	color: #2E2E2E;
+}
+
 h1 {
 	font-size: 70px;
 	text-align: center;
 	margin-left: 128px;
-	margin-top: 51px;
+	margin-top: 64px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .get-started-button {
 	border: 1px solid black;
 	background-color: white;
 	padding: 9px 41px;
+}
+
+button:hover {
+	background-color: #BDBDBD;
 }
 
 .header-img {
@@ -219,6 +230,7 @@ h1 {
 	display: inline-block;
 	width: 38%;
 	margin-left: 64px;
+	margin-top: 30px;
 }
 
 .about {
@@ -261,6 +273,7 @@ h1 {
 
 .contact {
 	margin-left: 62px;
+	margin-top: 51px;
 }
 
 address {
