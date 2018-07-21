@@ -101,13 +101,17 @@ nav {
 
 
 /* call to action */
+.cta {
+	position: relative;
+}
 .cta .cta_text {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 80px;
-	margin-top: 120px;
+	margin: 100px 0px;
 	text-align: center;
 	padding: 0px 60px;
+	width: 55%;
 }
 
 .cta .cta_text button {
@@ -125,8 +129,11 @@ nav {
 	color: whitesmoke;
 }
 
-.cta image {
-
+.cta_image {
+	/* display: inline-block; */
+	position: absolute;
+	top: 50px;
+	right: 0px;
 }
 
 /* content */
