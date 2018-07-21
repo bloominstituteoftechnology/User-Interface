@@ -31,6 +31,7 @@ Project objectives are meant to increase your knowledge by giving you practice o
 Stretch goals are not required. Complete the project objectives before working on stretch. Stretch goals are not covered in the guided demo and need some research on your part. There is no particular order in this list, just pick one that sounds fun and push yourself.
 
 - [ ] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
+
 - [ ] Introduce a new font family from [google fonts](https://fonts.google.com/)
 
 - [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
