@@ -72,61 +72,67 @@ h1, h2, h3, h4, h5 {
 
 header {
 	padding: 20px;
-    margin: auto;
+    margin: 25px 0px 0px 0px;
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    box-sizing: border-box;
-    
 }
 
 .logo {
-    position: absolute;
-    right: 380px;
-    top: 10px;
-    display: block;
-    height: 30px;
-}
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    }
 
 nav {
     display: inline-block;
 }
 
 nav li {
-    display: inline;
-    padding: 30px;
-    color: darkgrey
+    display: inline-block;
+    padding: 10px 20px 0 35px;
+    color: darkgrey;
 }
 
 .spam {
-    line-height: 65px;
-    width: 50px;
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 66px;
     font-family: Bangers;
-    display: block;    
-    padding: 0 400px 0 140px;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
 }
 
 .c1 {
     display: inline-block;
+    vertical-align: top;
     text-align: center;
-    max-width: 300px;
-    margin: 100px auto;
+    padding-top: 70px;
+    width: 438px;
+    height: 381px;
+}
+
+.c2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 438px;
+    height: 381px;
 }
 
 .img1 {
-    top: 50px;
-    right: 400px;
-    padding-top: 20px;
-    position: absolute;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .get {
+    display: block;
     border: 1px solid black;
     padding: 5px 45px;
-    position: absolute;
-    top: 375px;
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 10px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
