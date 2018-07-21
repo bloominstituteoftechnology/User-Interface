@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 #container {
- width: 880px;
+ max-width: 880px;
  margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ header {
 }
 
 .logo {
-    position: fixed;
+    position: absolute;
     right: 380px;
     top: 10px;
     display: block;
@@ -100,12 +100,119 @@ nav li {
 
 .spam {
     line-height: 65px;
-    max-width: 220px;
-    font-size: 50px;
+    width: 50px;
+    font-size: 70px;
     font-weight: bold;
-    margin: 100px auto;
     font-family: Bangers;
-    text-align: center;
-    display: inline-block;    
+    display: block;    
     padding: 0 400px 0 140px;
+}
+
+.c1 {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px;
+    margin: 100px auto;
+}
+
+.img1 {
+    top: 50px;
+    right: 400px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.get {
+    border: 1px solid black;
+    padding: 5px 45px;
+    position: absolute;
+    top: 375px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.get:hover {
+    background-color: black; 
+    color: white;
+}
+
+.parent {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0
+
+}
+
+.feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+
+}
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+}
+
+.middle-img {
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+.hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 40px 0;
+    padding: 0; 
+}
+
+.parent2 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0
+}
+
+.service {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.product {
+     display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.vision {
+     display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 40px 0;
+    padding: 0; 
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px;
 }
