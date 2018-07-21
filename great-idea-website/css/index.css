@@ -71,21 +71,27 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	max-width: 880px;
   	margin: 0 auto;
-  	padding: 20px
+	padding: 20px;
+	align-content: center;
+	background-color: lightgray;	  
 }
 a {
-	margin: 0px 0px 10px 0px;
-	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	padding: 25px;
 }
 nav {
 	display: inline-block;
-	vertical-align: top:
-	width: 80%;
-	margin: 0px 0px 20px 0px;
-}
-h1 {
-	display: inline-block;
 	vertical-align: top;
-	width: 50%;
-	font-size: 36;
+	width: 78%;
+	margin: 10px 0px 80px 0px;
+}
+#h1-heading {
+	font-size: 76px;
+    float: left;
+    margin: 55px 50px 0px 100px;
+    width: 34%;
+    text-align: center;
+}
+.logo {
+	float: right;
 }
