@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	width: 880px;
+	align-content: center;
+    margin: auto;
 }
 header {
 	display: block;
@@ -76,21 +78,83 @@ header {
 header nav {
 	display: inline-block;
 	width: 75%;
-	padding: 35px 0;
+	padding: 25px 0;
 	vertical-align: middle;
+	margin: auto;
 }
 header nav a {
 	margin: 0 20px;
 	text-decoration: none;
+	color: silver;
 }
 header img {
 	display: inline-block;
 	vertical-align: middle;
 }
+div {
+	display: inline;
+}
+div section {
+	float: left;
+	width: 50%;
+	margin-top: 75px;
+	text-align: center;
+}
+div aside {
+	float: left;
+	width: 50%;
+	margin-bottom: 25px;
+}
 h1 {
 	font-family: 'Bangers', cursive;
 	font-size: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
-.top {
-	
+hr {
+	height: 1px;
+	width: 880px;
+	border-bottom: solid black 1px;
+	display: inline-block;
+	margin: auto;
+}
+h4 {
+	font-family: 'Bangers', cursive;
+}
+.features {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+}
+.about {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+}
+.services {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+	width: 33%;
+}
+.product {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+	width: 33%;
+}
+.vision {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+	width: 33%;
+}
+.contact {
+	text-align: left;
+	margin: auto;
+	padding: 30px 0;
+}
+footer {
+	text-align: center;
 }
