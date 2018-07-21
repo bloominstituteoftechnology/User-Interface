@@ -133,6 +133,7 @@ nav	{
 	margin-left:	100px;
 	margin-top:	30px;
 }
+
 hr.style-two {
 		width: 880px;
     border: 0;
@@ -168,7 +169,7 @@ h3	{
 .middle-img	{
 	margin-bottom:	30px;
 	margin-top:	30px;
-	border:	.5px solid gray;
+	box-shadow: 10px 10px 5px grey;
 }
 
 .bottomRowItem	{
