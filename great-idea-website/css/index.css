@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 div.container {
 	width: 880px;
 	margin: 20px auto;
-	padding: 2px;
+	/*padding: 2px;*/
 	background-color: #FFF;
 }
 
@@ -87,6 +87,16 @@ hr {
 /*************************
   HEADER STYLES part -1
 *************************/
+header {
+	position: fixed;
+	padding-top: 10px;
+	top:0;
+	height: 50px;
+	width:880px;
+	background: #FFF;
+	z-index: 1;
+	margin-bottom: 80px;
+}
 header nav {
 	display: inline-block;
 	vertical-align: top;
@@ -97,7 +107,7 @@ header nav {
 header nav a {
 	display: inline-block;
 	text-decoration: none;
-	font-size:14px;
+	font-size:16px;
     color: #D3D3D3;
     margin-right: 50px; 
     background-image: linear-gradient(#F00, #F00);
@@ -118,7 +128,7 @@ img.logo {
   Header styles part - II
 ***********************/
 section.header-main {
-	margin-top:25px;
+	margin-top:55px;
 }
 
 aside.left {
@@ -154,8 +164,8 @@ a.button:hover {
 }
 
 img.header-image {
-	padding: 30px 60px;
-	width:100%;
+	padding: 40px 50px;
+	width:80%;
 }
 
 /*********************
