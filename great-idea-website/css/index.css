@@ -3,7 +3,6 @@
    License: none (public domain)
 */
 
-/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,8 +23,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -50,7 +49,6 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-/*
 * {
     box-sizing: border-box;
 }
@@ -68,31 +66,194 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
-	border: 1px solid black;
-}
-
 body {
 	width: 880px;
 	margin: 0 auto;
 }
 
-nav {
-	display: 
+/* Top navigation bar */
+
+header {
+	position: fixed;
+	display: relative;
+	height: 60px;
+	width: 880px;
+	z-index: 2;
+	background-color: rgb(220,220,220);
 }
 
-.nav-list {
-	display: inline-block;
-	vertical-align: top;
-	width: 680px;
+header nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 690px;
+	height: 60px;
 }
 
-.logo {
-	display: inline-block;
-	vertical-align: top;
-}
-
-nav a {
+header nav a {
 	display: inline-block;
 	width: 100px;
+	height: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(100,100,100);
+	font-size: 13.5px;
+	font-weight: bold;
+	padding-top: 25px;
 }
+
+header nav a:hover {
+	background-color: rgb(150,150,150);
+	color: white;
+}
+
+header .logo {
+	position: absolute;
+	right: 5px;
+	top: 12px;
+}
+
+
+/* Splash display */
+
+.splash {
+	display: inline-block;
+	margin-top: 60px;
+	height: 500px;
+}
+
+.splash-container {
+	position: relative;
+	height: 500px;
+	width: 880px;
+}
+
+.splash-container h1 {
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	width: 400px;
+	height: 250px;
+	font-size: 72px;
+	text-align: center;
+	box-align: top;
+}
+
+.splash-container .start-button {
+	position: absolute;
+	top: 380px;
+	left: 165px;
+	height: 35px;
+	width: 165px;
+	border: 2px solid rgb(150,150,150);
+}
+
+.start-button a {
+	display: inline-block;
+	width: 161px;
+	height: 31px;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(100,100,100);
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.start-button a:hover {
+	background-color: rgb(150,150,150);
+	color: white;
+}
+
+.splash .splash-img {
+	position: absolute;
+	top: 80px;
+	right: 10px;
+}
+
+hr {
+	height: 3px;
+	background-color: rgb(100,100,100);
+	margin: 30px 0px 40px 0px;
+}
+
+
+/* Top content section */
+
+.top-section {
+	display: inline-block;
+	width: 880px;
+}
+
+.two-column {
+	display: inline-block;
+	width: 438px;
+	padding: 0px 10px 10px 0px;
+}
+
+.two-column-right {
+	display: inline-block;
+	width: 438px;
+	padding: 0px 0px 10px 0px;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 22px;
+	color: rgb(100,100,100);
+}
+
+p {
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(100,100,100);
+}
+
+
+/* image divider */
+
+.middle-img {
+	display: inline-block;
+	width: 876px;
+	margin: 30px 2px 20px 2px;
+}
+
+
+/* bottom content section */
+
+.bottom-section {
+	display: inline-block;
+	width: 880px;
+}
+
+.three-column {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 10px 20px 0px;
+}
+
+.three-column-right {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 0px 20px 0px;
+}
+
+
+/* contact section */
+
+address p {
+	margin: 20px 0px;
+}
+
+/* footer */
+
+footer {
+	display: block;
+	text-align: center;
+	color: rgb(100,100,100);
+	font-size: 14px;
+	font-weight: bold;
+	margin: 40px 0px;
+}
+
