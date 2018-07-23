@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 880px;
+	height: auto;
+}
+
+nav {
+	width: 880px;
+	height: 60px;
+	display: block;
+	position: static;
+}
+
+.nav {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+	position: relative;
+	left: 50px;
+}
+
+#logo {
+	position: relative;
+	width: 150px;;
+	top: 10px;
+	left: 50px;
+}
+
+.parent1 {
+	width:880px;
+	height: 400px;
+	display: block;
+	position: static;
+}
+
+header {
+	width:440px;
+	height: 400px;
+	display: inline-block;
+	position: relative;
+	bottom: 125px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+#getStarted {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+	width: 150px;
+	position: relative;
+    top: 120px;
+}
+
+#codeImage {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+	display: inline-block;
+}
+
+hr {
+	width: 760px;
+	position: relative;
+}
+
+.p2	{
+	width: 760px;
+	position: static;
+	margin: 60px;
+}
+
+.c2 {
+	width: 360px;
+	position: relative;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.middle-img {
+	width: 760px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p3 {
+	width: 760px;
+	position: static;
+	margin: 60px;
+}
+
+.c3 {
+	width: 240px;
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+footer {
+	width: 760px;
+	position: static;
+	margin: 60px;
+}
+
+.Copyright {
+	margin: 100px;
+	text-align: center;
+	display: block;
+}
