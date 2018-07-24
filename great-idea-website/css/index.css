@@ -64,3 +64,212 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ body {
+	background-color: #fffefe;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#wrapper {
+	width: 950px;
+	height: 700px;
+	margin: auto;
+}
+
+#content {
+	margin-top: 30px;
+}
+
+#header {
+	height: 80px;
+ 
+
+}
+
+hr {
+	width: 97%;
+	display: inline-block;
+	
+}
+
+#horizontal-line {
+	text-align: center;
+}
+
+#banner::after, #grid-wrapper::after,#content::after, .row::after, .grid-box-bottom::after,.row-image::after,
+.row::after, #header::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	width: 950px;
+	overflow: hidden;
+	display: block;
+	background-color: #0984e3;
+	height: 50px;
+	padding-top: 10px;
+
+}
+
+#navbar ul {
+	list-style-type: none;
+	text-decoration: none;
+	
+
+}
+
+#navbar li {
+	float: left;
+
+}
+
+#navbar ul li a {
+	color: white;
+	margin-left: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+
+#logo {
+	float: right;
+	
+}
+
+.logo-image {
+	
+	width: 160px;
+	
+}
+
+#innovation-headers {
+	float: left;
+}
+
+#innovation-headers h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+#innovation-headers h6 {
+	font-size: 19px;
+	text-align: center;
+	border-width: thin;
+	border: 1px solid black;
+	padding: 8px;
+	background-color: white;
+
+}
+
+#content {
+	width: 100%;
+}
+
+#banner {
+	height: 400px;
+	width: 100%;
+	background-color:#F6F1FB;
+	height: 500px;
+
+}
+
+#banner-image {
+	float: right;
+	margin-right: 20px;
+}
+
+#innovation {
+	width: 100%;
+	height: auto;
+
+	margin-left: 40px;
+	padding-left: 20px;
+}
+
+.row {
+	height: 200px;
+	width: auto;
+	text-align: center;
+
+}
+
+.grid-box {
+	display: inline-block;
+	width: 297px;
+	height: 120px;
+	font-size: 17px;
+	padding: 15px;
+	text-align: justify;
+
+}
+
+.grid-box-top {
+	display: block;
+	width: 400px;
+	float:left;
+	text-align: justify;
+	padding: 15px;
+	font-size: 18px;
+
+}
+
+.grid-box-top h2 {
+	font-size: 20px;
+}
+
+
+
+.grid-box h2 {
+	text-align: left;
+	font-size: 20px;
+}
+
+.row-image {
+	width: 800px;
+}
+
+#solo-image {
+ 
+	width: 970px;
+
+}
+
+#middle-img {
+	width: 97.5%;
+	display:block;
+	margin: 10px auto;
+}
+
+.grid-box-bottom {
+	
+	margin-left: 51px;
+	
+}
+
+#contact {
+	width: 200px;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#contact h2 {
+	font-size: 20px;
+	
+}
+
+#footer {
+text-align: center;
+font-size: 14px;
+
+}
