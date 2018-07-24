@@ -53,256 +53,126 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Exo 2', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Merienda', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* Body */
 body {
 	width: 880px;
-	align-content: center;
-	margin: auto;
-
-}
-header {
-	padding: 20px;
-	margin: auto;
-	display: inline-block;
-	vertical-align: top;
-	width: 100%;
-	box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.logo {
-	text-align: center;
+/* Navigation */
+.navigation {
+    background-color: lightblue;
+    display: flex;
     position: fixed;
-    position: absolute;
-    right: 199px;
-    top: 34px;
-    display: block;
-    height: 30px;
+    flex-wrap: wrap;
+    bottom: 870px;
+    top: 20px;
+    z-index: 1;
 }
-.innovation{
-	display: inline-block;
-	vertical-align: top;
-	font-size: 77px;
-	margin-top: 120px;
-	text-align: center;
-	padding: 0px 60px;
-}
-.featurep {
-	position: relative;
-	width: 50%;
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	font-size: 20px;
-	margin-top: 120px;
-	padding: 20px 10px;
-	border: 5px solid hidden;
-	margin: auto;
-	bottom: 395px;
-}
-address {
-	bottom: 804px;
-    left: 39px;
-	position: relative;
-	padding: 25px 0px 0px 0px;
-}
-.num {
-	position: relative;
-}
-.block {
-	bottom: 300px;
-	position: relative;
-	width: 100%;
+.navigation li {
+    display: inline;
 }
 a {
 	vertical-align: middle;
 	padding: 20px 0 33px 0;
 	text-decoration: none;
-	color: lightgray;
+	color: black;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: inline;
 }
 a:hover {
+    text-decoration: underline;
 	color: black;
 }
-.img {
-    position: relative;
-    padding-left: 90px;
-    padding-right: 62px;
-    padding-bottom: -100px;
-    margin-top: -10;
-    margin-left: 456px;
-    margin-bottom: 2px;
-    border-top-width: 9px;
-	margin-right: 50px;
-	bottom: 501px;
-    right: 89px;
-}
-nav {
-	padding-top: 40px;
-	display: inline-block;
-	left: 0;
-	right: 0;
-}
-nav li {
-	display: inline;
-	padding: 20px;
-	color: darkgray;
-}
-.started {
-    font-family: Titillium;
-    margin: 20px 0;
-    line-height: 20px;
-    max-width: 220px;
-    font-size: 20px;
-    margin: 100px auto;
-    text-align: center;
-    display: inline-block;
-    border: 1px solid black;
-    position: relative;
-    bottom: 90px;
-	padding: 0 20px;
-	left: 135px;
-}
-.accentimage {
-    position: relative;
-    bottom: -530px;
-    top: -515px;
-    left: 70px;
-}
-hr {
-	display: inline-block;
-    background-color: black;
-    position: relative;
-    width: 991px;
-    height: 3px;
-    top: -383px;
-    bottom: 375px;
-    left: 40px;
-}
-.feature {
-	bottom: 378px;
-	left: 48px;
-	right: 135px;
-	position: relative;
+
+/* Header */
+header {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* display under the nav */
+	margin-top: 150px;
 }
 
-.abouttext {
-	position: relative;
-	width: 50%;
-	display: inline-block;
+header div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+header div h1 {
+	padding: 20px;
+	font-size: 70px;
 	text-align: center;
-	vertical-align: top;
-	font-size: 20px;
-	margin-top: 120px;
-	padding: 20px 10px;
-	border: 5px solid hidden;
-	margin: auto;
-	bottom: 565px;
-	left: 513px;
-	position: relative;
 }
-.services {
-    position: relative;
-    text-align: center;
-    position: relative;
-    bottom: 465px;
-    left: -475px;
+
+header div button {
+	text-decoration: none;
+    background: white;
+	margin-top: 15px;
+	border: solid black 1px;
+	padding: 10px 50px;
 }
-#product {
-    position: relative;
-    width: 58%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    font-size: 17px;
-    margin-top: 120px;
-    padding: 20px 10px;
-    border: 5px solid hidden;
-    margin: auto;
-    bottom: 635px;
-	left: 255px;
-}
-.about {
-	text-align: center;
-	position: relative;
-	bottom: 547px;
-	left: 106px;
-}
-.visiondiv {
-    position: relative;
-    width: 58%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    font-size: 19px;
-    margin-top: 130px;
-    padding: 35px 16px;
-    border: 5px solid hidden;
-    margin: auto;
-    bottom: 813px;
-    left: 715px;
-}
-.servicesp {
-    position: relative;
-    width: 42%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    font-size: 17px;
-    margin-top: 120px;
-    padding: 20px 10px;
-    border: 5px solid hidden;
-    margin: auto;
-    bottom: 485px;
-    left: -84px;
-}
-.contacth {
-    position: relative;
-    width: 42%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    font-size: 19;
-    margin-top: 120px;
-    padding: 20px 10px;
-    border: 5px solid hidden;
-    margin: auto;
-    bottom: 775px;
-    left: -114px;
-}
-.bottom {
-	display: inline-block;
+button:hover {
+    transition-duration: 0.4s;
     background-color: black;
-    position: relative;
-    width: 991px;
-    height: 3px;
-    top: -786px;
-    bottom: 375px;
-    left: 40px;
+    color: white;
 }
-footer {
-	position: relative;
+
+/* Section 1 top */
+section {
+	display: flex;
+	justify-content: center;
 }
-.mailto {
-	color: gray;
-	right: 20px;
-	top: 20px;
-	position: relative;
+
+section .paragraph-1{
+	padding: 30px 10px 10px 0px;
+	margin-top: 80px;
+	border-top: black solid 2px;
 }
+/* Section 2 bottom */
+
+section .paragraph-2{
+	padding: 10px 10px 30px 0px;
+	border-bottom: black solid 2px;
+}
+
+/* Contact */
+.contact {
+    position: absolute;
+	justify-content: flex-start;
+	flex-direction: column;
+    left: -200px;
+	width: 80%;
+	margin: 15px 0;
+}
+
+.contact h2 {
+	padding: 10px 0;
+}
+ a {
+	padding: 10px 0;
+}
+.mail {
+    color: gray;
+}
+/* Footer */
 .copyright {
-	text-align: center;
-	bottom: 737px;
-	left: 112px;
-	position: relative;
+    position: relative;
+    top: 157px;
 }
