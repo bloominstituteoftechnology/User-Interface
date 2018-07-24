@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,171 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
+/* header nav .navbar ul {
+	border: 1px solid black;
+} */
+
+header nav .navbar li{
+	display: inline-block;
+	padding: 30px 50px 30px 0px;
+	left: 0;
+}
+
+header nav .navbar a{
+	display: inline-block;
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center;
+}
+
+header nav .navbar a:hover{
+	color: black;
+}
+
+header nav .navbar .logo{
+	float: right;
+	padding: 20px;
+	padding-right: 0px;
+	transition: 300ms ease-in-out;
+}
+
+header nav .navbar .logo:hover{
+	transform: scale(1.15, 1.15);
+}
+
+
+/* RESPONSIVE NAV */
+
+/* BANNER */
+
+header .banner {
+	width: 100%;
+	margin: 40px auto;
+	display: inline-block;
+}
+
+/* LEFT BANNER */
+
+header .banner .banner-left {
+	width: 50%;
+	height: 40vw;
+	display: inline-block;
+	max-height: 379px;
+}
+
+header .banner .banner-left .slogan{
+	font-size: 8vw;
+	margin: 20% auto 0px auto;
+	text-align: center;
+	max-height: 200px;
+}
+
+@media screen and (min-width: 800px) {
+	header .banner .banner-left .slogan {
+	   font-size: 64px;
+	}
+  }
+
+header .banner .banner-left .get-started {
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+header .banner .banner-left .get-started:hover{
+	color: slategray;
+	border: 1px solid slategray;
+}
+
+header .banner .banner-left a {
+	text-decoration: none;
+	color: black;
+}
+
+/* RIGHT BANNER */
+
+header .banner .banner-right {
+	width: 50%;
+	height: 40vw;
+	max-height: 379px;
+	background: url('../img/header-img.png') no-repeat right;
+	background-size: contain;
+	margin: 0 auto;
+	display: inline-block;
+	float: right;
+} 
+
+/*** END BANNER ***/
+
+
+/*** BEGIN MAIN CONTENT ***/
+
+.line-fullwidth {
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	display: inline-block;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* TOP CONTENT */
+main .content-container .top-content {
+	width: 100%;
+	display: inline-block;
+}
+
+
+main .content-container .content-half {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+/* CONTENT IMAGE */
+
+main .content-container .content-img {
+	overflow: hidden;
+	width: 100%;
+} 
+
+/* BOTTOM CONTENT */
+
+main .content-container .content-third {
+	width: 33%;
+	float: left;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+/* FOOTER */
+
+.contact {
+	width: 100%;
+	margin-top: 40px;
+	display: inline-block;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 100px;
+	margin-top: 40px;
+}
