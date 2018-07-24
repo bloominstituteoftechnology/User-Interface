@@ -71,21 +71,28 @@ h1, h2, h3, h4, h5 {
 }
 
 #nav {
-	display: block;
-	width: 94%;
+	display: inline-block;
+	width: 840px;
 	height: 40px;
+	position: fixed;
+	background-color: aqua;
+	/* padding-left: 20px;  */
+	left: 360px;
 }
 
 .navItem {
 	color: gray;
 	display: inline-block;
-	height: 30px;
+	height: 40px;
 	width: 100px;
 	text-align: center;
 	font-family: arial;
 	font-size: 12px;
 	text-decoration: none;
-	padding-top: 4px;
+	top: 1px;
+	/* border: 2px solid black; */
+	float: left;
+	padding-top: 12px;	
 }
 
 a:link {
@@ -93,15 +100,20 @@ a:link {
 }
 
 .logo {
+	background-image: url(../img/logo.png);
+	/* background-color: blue; */
 	display: inline-block;
-	width: 120px;
-	float: right;
+	width: 184px;
+	/* padding-left: 20px; */
+	height: 40px;
 }
 
 .header {
 	color: black;
 	width: 96%;
 	display: block;
+	/* top: 40px; */
+	padding-top: 60px;
 }
 
 #textContainer {
