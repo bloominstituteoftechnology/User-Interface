@@ -100,8 +100,9 @@ div	{
 
 .img2	{
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 100px;
 	margin-top: 70px;
+	height: 300px;
 }
 
 .Start-button	{
@@ -172,4 +173,5 @@ footer	{
 	text-align: center;
 	margin-top: 40px;
 	font-size: 14px;
+	margin-bottom: 20px;
 }
