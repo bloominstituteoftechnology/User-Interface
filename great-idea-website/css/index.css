@@ -105,13 +105,15 @@ div	{
 }
 
 .Start-button	{
-	font-size: 14px;
-	border: 1px solid darkgray;
+	font-size: 20px;
+	border: 1px solid black;
 	display: inline-block;
 	height: 50px;
 	width: 250px;
-	padding: 20px;
+	padding: 12px;
 	text-align: center;
+	text-decoration: none;
+	color: black;
 }
 
 .top-section	{
