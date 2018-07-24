@@ -64,16 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
 
  body {
 	background-color: #fffefe;
-	box-sizing: border-box;
-	overflow: auto;
+	
+
 }
 #wrapper {
 	width: 950px;
