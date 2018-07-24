@@ -140,14 +140,14 @@ section {
 	justify-content: center;
 }
 
-section .paragraph-1{
+section .top-content{
 	padding: 30px 10px 10px 0px;
 	margin-top: 80px;
 	border-top: black solid 2px;
 }
 /* Section 2 bottom */
 
-section .paragraph-2{
+section .bottom-content{
 	padding: 10px 10px 30px 0px;
 	border-bottom: black solid 2px;
 }
