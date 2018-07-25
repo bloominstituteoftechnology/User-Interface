@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 25px 75px;
+}
+header{
+/*	margin-top: 25px;
+	margin-left: 75px;
+*/	
+}
+
+nav{
+	display: inline-block;
+}
+
+.nav-item{
+	margin-right: 65px;
+}
+
+#row1{
+
+}
+
+#row1-1{
+	display: inline-block;
+}
+
+.row2{
+	max-width: 450px;
+	margin-right: 20px;
+}
+
+.row2-title{
+	font-family: 'Bangers'
+}
+
+
+
