@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.page-div {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 30px 0px 20px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+	.page-div {
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 780px) {
+    header nav {
+    	position: static;
+    	font-size: 15px;
+    }
+
+    .first-section-div h1 {
+    	margin-top: 0px !important;
+    	font-size: 40px !important;
+    }
+
+    .first-section-div img {
+    	width: 15%;
+    }
+
+    .first-section-div button {
+    	margin-left: 10% !important;
+    	padding: 10px !important;
+    }
+
+    footer {
+    	display: none;
+    }
+}
+
+.logo {
+	float: right;
+	margin-top: 7px;
+	margin-right: 50px;
+}
+
+.clear {
+	clear: both;
+	margin: 30px;
+}
+
+.first-section-div h1 {
+	float: left;
+	width: 50%;
+	margin-top: 15%;
+	font-size: 60px;
+}
+
+.first-section-div img {
+	width: 50%;
+}
+
+.first-section-div button {
+	clear: both;
+	float: left;
+	margin-left: 22%;
+	margin-top: 5%;
+	background-color: #e7e7e7; /* Green */
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+
+.second-section-div {
+	float: left;
+	width: 50%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+
+.middle-img {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.third-section-div {
+	float: left;
+	width: 33%;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 60px;
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+
+
