@@ -73,30 +73,27 @@ h1, h2, h3, h4, h5 {
 .flex-container {
 	display: flex;
 	flex-direction: row;
-	flex-grow: 1;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: flex-start;
 	
 }
 
 .logo {
-	
 	font-size: 19px;
-	margin-left: 88px;
-	margin-top: 20px;
-	
-	
+	margin-right: 20px;
+	margin-top: px;	
 }
 
 
 .navigation a {
 	
-	font-size: 20px;
+	font-size: 19px;
 	word-spacing: 15px;
 	color: rgb(185, 169, 169);
 	text-decoration: none;
-	margin: 20px 20px 20px 20px;
-	padding-top: 15px;
+	margin: 20px 50px 20px 20px;
+	padding-top: 15px
 	
 }
 
@@ -104,61 +101,80 @@ h1, h2, h3, h4, h5 {
 .navigation a:hover {
 	background-color: gray;
 	color: black;
-	padding: 5px 10px;
+	padding: 15px;
 	transition: 0.3s;
 	border-radius: 5px;
 }
 
 
 .active {
-background-color: aquamarine;
-color: white;
-padding: 10px 10px;
-border-radius: 5px;
+	background-color: aquamarine;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 5px;
 }
 
+
+.header-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+}
 
 .header-content h1 {
-	
-	font-size: 80px;
-	margin-top: 30px;
-	padding: 80px 0 0px 50px;
-	float: left;
-}
-
-
-div.on {
-	margin-left: 100px;
-	
-}
-
-div.demand {
-	margin-left: 50px;
-}
-
-
-.img1 {
 	display: flex;
-	align-content: flex-end;
-	flex-grow: 1;
-	align-items: flex-end;
-	height: 360px;
-	margin-top: 60px;
+	direction: column;
+	justify-content: flex-start;
+	font-size: 80px;
+	margin-top: 140px;
+	padding: 80px 0 0px 50px;
+}
+
+
+.header-content .on {
+	display: flex;
+	direction: column;
+	justify-content: center;
+	align-items: inherit;
 	
+	
+}
+
+
+.header-content .img1 {
+	display: flex;
+	direction: column;
+	justify-content: center;
+	order: 2;
+	margin-top: 30px;
+	padding-top: 80px;
+	height: 70%;
+	
+
+}
+
+
+section.get-started {
+	display: flex;
+	direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
 	
 }
 
 section.get-started p {
-	display: inline-flex;
-	height: 35px;
-	padding: 8px 20px 8px 24px;
-	margin-top: 20px;
-	margin-left: 110px;
-	margin-bottom: 20px; 
 	font-size: 18px;
 	letter-spacing: .2rem;
 	border: 1px solid black;
 	box-shadow: 1px 1px 2px 1px gray;
+	margin-right: 560px;
+	margin-bottom: 60px;
+	padding: 5px 20px 5px 20px;
+	
 }
 
 
@@ -175,12 +191,47 @@ section.get-started p:hover {
 	color: red;
 }
 
-div.flex-container2 {
+section .mid-section {
 	display: flex;
 	direction: column;
-	justify-content: space-around;
 	flex-wrap: wrap;
-	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+section .mid-section .features h3 {
+	display: flex;
+	direction: column;
+	margin: 20px;
+	font-size: 18px;
+	color: purple;
 	
+
+}
+
+section .mid-section .features p {
+	display: flex;
+	direction: column;
+	margin: 10px;
+	width: 45%;
+	font-size: 18px;
+	color: red;
 	
+}
+
+section .mid-section .about h3 {
+	display: flex;
+	direction: column;
+	margin: 10px;
+	width: 45%;
+	font-size: 18px;
+	color: orangered;
+}
+
+section .mid-section .about p {
+	display: inline-flex;
+	direction: column;
+	margin: 10px;
+	width: 45%;
+	font-size: 18px;
+	color: orangered;
 }
