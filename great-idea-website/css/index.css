@@ -175,6 +175,7 @@ section.get-started p {
 	margin-bottom: 60px;
 	padding: 5px 20px 5px 20px;
 	
+	
 }
 
 
@@ -187,8 +188,7 @@ section.get-started p:hover {
 }
 
 .hr {
-
-	color: red;
+	color: black;
 }
 
 section .mid-section {
@@ -201,9 +201,10 @@ section .mid-section {
 section .mid-section .features h3 {
 	display: flex;
 	direction: column;
-	margin: 20px;
+	justify-content: flex-start;
+	margin: 30px;
 	font-size: 18px;
-	color: purple;
+	
 	
 
 }
@@ -212,26 +213,93 @@ section .mid-section .features p {
 	display: flex;
 	direction: column;
 	margin: 10px;
-	width: 45%;
+	height: 12vh;
+	width: 45vw;
 	font-size: 18px;
-	color: red;
-	
+	line-height: 1em;
+	word-spacing: .1em;
+	letter-spacing: .1em;
 }
 
 section .mid-section .about h3 {
 	display: flex;
-	direction: column;
-	margin: 10px;
-	width: 45%;
+	direction: row;
+	margin: 30px;
 	font-size: 18px;
-	color: orangered;
+	
 }
 
 section .mid-section .about p {
-	display: inline-flex;
+	display: flex;
 	direction: column;
-	margin: 10px;
-	width: 45%;
+	margin: 10px 0 20px 0;
+	width: 500px;
 	font-size: 18px;
-	color: orangered;
+	line-height: 1em;
+	word-spacing: .1em;
+	letter-spacing: .1em;
+}
+
+.middle-img {
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+ img.middle-img {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 40px;
+	
+}
+
+div.bottom-products {
+	
+		display: flex;
+		direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+		font-size: 15px;
+		
+		width: auto;
+		font-size: 18px;
+		line-height: 1em;
+		word-spacing: .1em;
+		letter-spacing: .1em;
+}
+
+div.services {
+	display: flex;
+	direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	
+	
+}
+
+div.product {
+	display: flex;
+	direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	
+}
+
+div.vision {
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-end;
+	margin-left: 20px;
+	
+	
 }
