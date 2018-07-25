@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -46,21 +46,85 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+	width: 880px;
+	margin:auto;
+	height: 100%;
 
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
-
-/* Your code starts here! */
+/*your code starts here*/
+btn {
+  	position: relative;
+  	left: 125px;
+  	bottom: 150px;
+  	border: solid black 1px;
+  	padding: 10px 40px;
+	display: inline-block;
+}
+header {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+header nav {
+	display: absolute;
+	top: 20px;
+	left: 0;
+}
+header nav a {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	padding: 15px;
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	color:aqua;
+}
+footer {
+  	text-align: center;
+}
+.nav {
+	overflow: hidden;
+    background-color: #d3d3d3;
+    position: fixed; 
+	width: 100%; 
+}
+.innovate {
+	position: relative;
+	top: 25%;
+	left: 75px;
+	font-size: 65px;
+}
+.logo { 
+	position: absolute;
+	top: 25px;
+	right: 0;  
+} 
+.top-image {
+	position: relative;
+	bottom: 100px;
+	left: 350px;
+}
+.top {
+	display: inline-block;
+  	width: 437px;
+  	padding: 5px;
+}
+.bottom-content {
+  	display:inline-block;
+}
+.bottom {
+  	display: inline-block;
+  	width: 290px;
+  	padding: 20px;
+}
