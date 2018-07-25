@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 {
 	color: rgb(185, 169, 169);
 	text-decoration: none;
 	margin: 20px 50px 20px 20px;
-	padding-top: 15px
+	padding-top: 15px;
 	
 }
 
@@ -198,16 +198,15 @@ section .mid-section {
 	justify-content: flex-start;
 }
 
+
 section .mid-section .features h3 {
 	display: flex;
 	direction: column;
 	justify-content: flex-start;
 	margin: 30px;
-	font-size: 18px;
-	
-	
-
+	font-size: 15px;
 }
+
 
 section .mid-section .features p {
 	display: flex;
@@ -215,7 +214,7 @@ section .mid-section .features p {
 	margin: 10px;
 	height: 12vh;
 	width: 45vw;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1em;
 	word-spacing: .1em;
 	letter-spacing: .1em;
@@ -225,7 +224,7 @@ section .mid-section .about h3 {
 	display: flex;
 	direction: row;
 	margin: 30px;
-	font-size: 18px;
+	font-size: 15px;
 	
 }
 
@@ -234,7 +233,7 @@ section .mid-section .about p {
 	direction: column;
 	margin: 10px 0 20px 0;
 	width: 500px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1em;
 	word-spacing: .1em;
 	letter-spacing: .1em;
@@ -264,9 +263,7 @@ div.bottom-products {
 		align-items: center;
 		flex-wrap: nowrap;
 		font-size: 15px;
-		
 		width: auto;
-		font-size: 18px;
 		line-height: 1em;
 		word-spacing: .1em;
 		letter-spacing: .1em;
@@ -275,10 +272,12 @@ div.bottom-products {
 div.services {
 	display: flex;
 	direction: row;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
+	
+	
 	
 	
 }
@@ -299,7 +298,33 @@ div.vision {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: flex-end;
-	margin-left: 20px;
+	margin-left: 100px;
 	
 	
+}
+
+div.contact-section {
+		display: flex;
+		direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		font-size: 15px;
+		margin-left: 10px;
+		line-height: 1em;
+		word-spacing: .1em;
+		letter-spacing: .1em;
+}
+
+div.footer {
+		display: flex;
+		direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+		font-size: 15px;
+		margin: 50px 0 100px 0;
+		line-height: 1em;
+		word-spacing: .1em;
+		letter-spacing: .1em;
 }
