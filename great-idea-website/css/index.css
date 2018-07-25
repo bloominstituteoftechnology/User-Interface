@@ -60,7 +60,143 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* Your code starts here! */
+
+.main-container {
+	width: 90%;
+	margin: auto;
+}
+
+.main-header {
+	width: 100%;
+	padding: 15px;
+	position: center;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.main-nav, .main-logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-nav {
+	width: 75%;
+	text-align: left;
+}
+.main-logo {
+	width: 22%;
+	text-align: right;
+}
+.main-logo img {
+	width: 250px;
+	height: auto;
+}
+.nav-item {
+	display: inline-block;
+	margin: 0 45px 0 45px;
+}
+.nav-item a {
+	text-decoration: none;
+	color: silver;
+}
+.nav-item a:hover {
+	border-bottom: solid 1px silver;
+}
+
+main {
+	margin-top: 150px;
+}
+
+.cta-overview {
+	margin: 50px 0 50px 0;
+}
+.cta-overview__title-container, .cta-overview__img-container {
+	display: inline-block;
+	vertical-align: middle;
+}
+.cta-overview__title-container {
+	width: 50%;
+	text-align: center;
+}
+.cta-overview__img-container {
+  width: 45%;
+  margin-right: 50;
+}
+.cta-overview__title-container h1 {
+	font-size: 5.5rem;
+}
+.cta-overview__title-container button {
+	font-size: 1.17rem;
+	background: none;
+	padding: 10px 50px 10px 50px;
+	border: solid 1px black;
+	animation: wiggle 225ms 1s ease-out 4;
+}
+.cta-overview__title-container button:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
+}
+.cta-overview__img-container img {
+	width: 450px;
+	height: auto;
+}
+.cta-overview__img-container img:hover {
+	animation: spinMe 400ms 1s linear infinite;
+}
+
+hr {
+	width: 95%;
+	border: none;
+	border: solid .5px black;
+	box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, .2);
+}
+
+.main-overview {
+	width: 95%;
+	margin: auto;
+}
+.main-overview h2 {
+	font-size: 1.5rem;
+}
+.main-overview p {
+	font-size: 1.05rem;
+}
+.sec-one__features, .sec-one__about {
+	display: inline-block;
+	width: 45%;
+	margin: 15px;
+}
+.sec-two-container {
+	margin: 15px;
+}
+.sec-two-container img {
+	width: 100%;
+	height: auto;
+}
+.sec-three__services, .sec-three__product, .sec-three__vision {
+	display: inline-block;
+	width: 30%;
+	margin: 15px;
+}
+
+.main-footer {
+	margin: 40px;
+}
+.main-footer h2 {
+	font-size: 1.5rem;
+}
+.main-footer p {
+	font-size: 1.05rem;
+}
+.main-footer__contact-info p {
+	margin: 15px 0 15px 0;
+}
+.main-footer__copy-info {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
