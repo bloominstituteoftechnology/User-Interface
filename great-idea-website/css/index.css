@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container {
+ max-width: 880px;
+ margin: 0 auto;
+}
+
+header {
+	padding: 20px;
+    margin: 25px 0px 0px 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    }
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px 0 35px;
+    color: darkgrey;
+}
+
+.spam {
+    font-size: 66px;
+    font-family: Bangers;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.c1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 70px;
+    width: 438px;
+    height: 381px;
+}
+
+.c2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 438px;
+    height: 381px;
+}
+
+.img1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.get {
+    display: block;
+    border: 1px solid black;
+    padding: 5px 45px;
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.get:hover {
+    background-color: black; 
+    color: white;
+}
+
+.parent {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0
+
+}
+
+.feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+
+}
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+}
+
+.middle-img {
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+.hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 40px 0;
+    padding: 0; 
+}
+
+.parent2 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0
+}
+
+.service {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.product {
+     display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.vision {
+     display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 40px 0;
+    padding: 0; 
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px;
+}
