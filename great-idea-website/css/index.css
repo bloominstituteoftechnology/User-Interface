@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	background-color: red;
+}
+
+.container {
+	background-color: grey;
+	width: 880px;
+	margin: 0px auto;
+}
+
+.navigation nav {
+	background-color: purple;
+	margin-top: 24px;
+	display: block;
+	padding-bottom: 50px;
+	padding-left: 2px;
+}
+
+.navigation nav a {
+	margin-top: 14px;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 60px;
+	font-size: 15px;
+}
+
+.navigation img {
+	display: inline-block;
+}
+
+
