@@ -95,4 +95,47 @@ body {
 	margin-left: 32px;
 }
 
+header {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	padding-bottom: 98px;
+}
+
+.header-cta {
+	display: inline-block;
+	text-align: center;
+	height: 300px;
+	width: 348px;
+	margin-top: 122px;
+	margin-left: 73px;
+}
+
+.header-cta h1 {
+	font-size: 72px;
+	letter-spacing: 7px;
+	line-height: 1.04;
+}
+
+.header-cta a {
+	border: 1px solid black;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	width: 174px;
+	height: 34px;
+	text-align: center;
+	margin-right: 11px;
+	padding-top: 7px;
+	margin-top: 2px;
+	letter-spacing: 1.4px;
+}
+
+.header-cta-img {
+	display: inline-block;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 75px;
+}
 
