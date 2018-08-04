@@ -64,9 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
-	background-color: red;
-}
 
 .container {
 	background-color: white;
@@ -99,7 +96,8 @@ header {
 	display: inline-block;
 	width: 100%;
 	background-color: white;
-	padding-bottom: 98px;
+	padding-bottom: 94px;
+	border-bottom: 1px solid black;
 }
 
 .header-cta {
@@ -139,3 +137,69 @@ header {
 	margin-left: 75px;
 }
 
+.center-img {
+	display: block;
+}
+
+.top-content .content-item {
+	width: 48%;
+	display: inline-block;
+}
+
+.bottom-content {
+	padding-bottom: 7px;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content .content-item {
+	width: 30%;
+	display: inline-block;
+}
+
+.content-item {
+	margin-top: 38px;
+	margin-left: 2px;
+	margin-bottom: 38px;
+}
+
+.content-item-left-top {
+	margin-left: 27px;
+}
+
+.content-item-left-bottom {
+	margin-left: 35px;
+}
+
+.content-item p {
+	line-height: 1.18;
+	padding-right: 10px;
+	color: black;
+}
+
+.contact {
+	display: block;
+	height: 180px;
+}
+
+.contact h2 {
+	margin-top: 39px;
+	margin-left: 2px;
+	margin-bottom: 4px;
+}
+
+.contact p {
+	margin-top: 19px;
+	margin-left: 4px;
+}
+
+footer {
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+footer p {
+	font-size: 14px;
+	color: black;
+	margin-top: 3px;
+}
