@@ -69,29 +69,30 @@ body {
 }
 
 .container {
-	background-color: grey;
+	background-color: white;
 	width: 880px;
 	margin: 0px auto;
 }
 
 .navigation nav {
-	background-color: purple;
-	margin-top: 24px;
-	display: block;
-	padding-bottom: 50px;
+	margin-top: 37px;
+	display: inline-block;
+	padding-bottom: 20px;
 	padding-left: 2px;
 }
 
 .navigation nav a {
 	margin-top: 14px;
-	display: inline-block;
 	text-decoration: none;
 	margin-right: 60px;
 	font-size: 15px;
+	color: #bdbdbd;
 }
 
-.navigation img {
-	display: inline-block;
+.logo {
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 32px;
 }
 
 
