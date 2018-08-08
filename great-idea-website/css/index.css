@@ -64,3 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 50%;
+	margin:0 auto;
+	font-family: Titillium Web;
+}
+header {
+
+  	position: relative;
+	  height: 100px;
+	  
+  	margin: 0 auto;
+}
+nav  {
+	display: inline-block;
+	position: absolute;
+	line-height: 36px;
+	position: absolute;
+	left: 100px;
+	font-size: 14px;
+}
+
+nav a {
+	margin: 13px 35px 10px 5px;
+	display: inline-block;
+	text-decoration: none;
+
+	color: #b7b7b7;
+	font-family: Titillium Web;
+
+	
+}
+
+header nav a:hover {
+	text-decoration: underline;
+  }
+
+header .logo {
+display: inline-block;
+position: absolute;
+margin: 0 auto;
+margin: 10px 0px 0px 0px;
+right: 100px;
+
+}
+
+h1 {
+	display: inline-block;
+	font-size: 72px;
+	text-align: center;
+	width: 260px;
+	padding: 60px 0px 0px 0px;
+}
+.header-img {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 380px;
+	margin: 0px 0px 80px 560px;
+	padding: 0 0 100px 0;
+	position: absolute;
+	right: 500px;
+
+
+}
+
+button {
+	
+	display: inline-block;
+	background-color: white;
+	border: 2px solid grey;
+	height: 40px;
+	width: 180px;
+	font-family: Titillium Web;
+	font-size: 16px;
+	
+
+}
+
+button a {
+	text-decoration: none;
+	color: black;
+}
+
+.Upper-Content {
+	position: relative;
+	border-top: 1px solid black;
+	margin: 0 auto;
+	padding: 40px 50px 40px 0px;
+	margin-top: 100px;
+
+}
+.middle-img {
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+	display: block;
+}
+.Features {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+.About {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+.Lower-Content {
+	position: relative;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+	padding: 40px 0px 40px 0px;
+	margin-bottom: 20px;
+
+}
+
+.Services {
+	width: 33%;
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+.Product {
+	width: 33%;
+	display: inline-block;
+	margin: 0 auto;
+}	
+
+.Vision {
+	width: 33%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.Contact-List {
+	padding: 10px 0px 40px 0px;
+}
+
+footer {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Titillium Web;
+	font-size: 14px; 
+
+}
+
+.CTA button{
+	margin: 0px 20px 20px 40px;
+ 	display: block;
+}
+
+.CTA {
+	width: 300px;
+	display: inline-block;
+	margin: 15px 0 20px 120px;
+
+
+}
