@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	color: grey;
+	display: inline-block;
+	padding: 25px;
+	text-decoration: none;
+	position: relative;
+	margin-left: 40px;
+}
+.logo {
+	margin-left: 40px;
+    margin-bottom: -14px;
+}
+.head {
+	position: relative;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 86px;
+    margin-right: 40px;
+}
+.image {
+	margin-bottom: -90px;
+    margin-top: 0px;
+}
+.textpic {
+	margin-top:	20px;
+	margin-left: 120px;
+}
+.started {
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+    font-size: 24px;
+    font-family: serif;
+}
+hr {
+	text-align: center;
+}
+.getit {
+	margin: 0px 0px 0px 220px;
+	padding-left: 25px;
+    padding-right: 25px;
+    border-width: 5px;
+	border: solid dimgray;
+}
+.topdata {
+	font-size: 21px;
+	display: inline-block;
+	margin: 40px 80px 40px 200px;
+	text-align:left;
+}
+.para3 {
+	margin: 100px 210px 100px 200px;
+}
+.bottomdata {
+	font-size: 21px;
+	text-align: left;
+	position: relative;
+	margin: 80px 80px 80px 200px;
+}
+.address {
+	font-size: 18px;
+	margin: 20px 0px 40px 150px;
+}
+footer {
+	text-align: center;
+}
+.para4 {
+	padding: 20px;
+	display: inline-block;
+	width: 290px;
+	height: 100px;
+}
+.para5 {
+	padding: 20px;
+	display: inline-block;
+	width: 290px;
+	height: 100px;
+}
+.para6 {
+	padding: 20px;
+	display: inline-block;
+	width: 290px;
+	height: 100px;
+}
+.para1 {
+	padding: 20px;
+	display: inline-block;
+	width: 450px;
+	height: 100px;
+}
+.para2 {
+	padding: 20px;
+	display: inline-block;
+	width: 450px;
+	height: 100px;
+}
