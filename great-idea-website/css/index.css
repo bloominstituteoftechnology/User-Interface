@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+  border: 1px solid red;
+  height: 1536px;
+  width: 878px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  border: 1px solid pink;
+  position: relative;
+  height: 100px;
+  padding-top: 0;
+}
+
+.nav-header nav {
+  border: 1px solid blue;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0px;
+}
+
+.nav-header nav a {
+  border: 1px solid black;
+  /* display: inline-block;
+  vertical-align: top;
+  /* position: absolute; */
+  /* top: 0; */
+  /* right: 0; */
+}
+
+.nav-header .logo {
+  display: inline-block;
+  vertical-align: top;
+
+}
