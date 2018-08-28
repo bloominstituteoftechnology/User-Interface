@@ -64,3 +64,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+  }
+
+  .fixed-nav {
+	position: fixed;
+	width: 100%;
+	background: white;
+	padding: 40px 0;
+	z-index: 100;
+  }
+  
+  header {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+  }
+  
+  header nav {
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	text-align: justify;
+  }
+
+  header .logo {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+header nav a {
+	color: lightgrey;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 105px;
+}
+
+.hero {
+	padding-top: 150px;
+	position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero .hero-copy {
+	padding-left: 125px;
+	padding-top: 75px;	
+	display: inline-block;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 110px;
+	display: inline-block;
+	text-align: center;
+}
+
+.hero a {
+	display: block;
+	margin-left: 140px;
+	padding: 10px 40px;
+	color: black;
+	width: 160px;
+	text-align: center;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+.hero img {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	width: 500px;
+	height: auto;
+}
+
+hr {
+	height: 1px; 
+	border: none; 
+	color: black; 
+	background-color: black; 
+	width: 80%; 
+	text-align: center; 
+	margin: 100px auto 40px;
+}
+
+.topTwo {
+	width: 80%;
+	margin: 0px auto 40px;
+	display: block;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 22px;
+}
+
+.feats {
+	width: 49%;
+	display: inline-block;
+
+}
+
+.about {
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img {
+	margin: 0px auto;
+	width: 80%;
+	display: block;
+}
+
+.bottomThree {
+	width: 80%;
+	margin: 40px auto 40px;
+	display: block;
+}
+
+.services {
+	width: 32%;
+	display: inline-block;
+}
+
+.prod {
+	width: 32%;
+	display: inline-block;
+}
+
+.vision {
+	width: 32%;
+	display: inline-block;
+}
+
+.contact {
+	width: 80%;
+	margin: 40px auto 40px;
+	display: block;
+}
+
+.contact a {
+	font-size: 22px;
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 100px;
+}
