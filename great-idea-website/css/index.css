@@ -70,11 +70,9 @@ h1, h2, h3, h4, h5 {
 	width: 700px;
 	margin: 0 auto;
 	padding: 40px;
-}
-
-.nav-bar {
 	position: relative;
 }
+
 .nav-bar .main-nav {
 	position: absolute;
 	top: 25px;
