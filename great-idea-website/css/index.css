@@ -92,28 +92,28 @@ nav a {
 	margin: 0 auto;
 }
 
-/* Get started*/
+/* Main Content */
 
 h1 {
 	font-size: 80px;
 	text-align: center;
 }
 
-.get-started {
+.main-content {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	padding: 60px 0px;
 }
 
-.get-started div {
+.main-content div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.get-started button {
+.main-content button {
 	border: solid 1px black;
 	outline: none;
 	height: 35px;
@@ -121,7 +121,7 @@ h1 {
 	font-size: 14px;
 }
 
-.get-started button:hover {
+.main-content button:hover {
 	cursor: pointer;
 }
 
