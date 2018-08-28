@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.nav {
+	text-align: center;
+	margin-right:;
+	margin-top: 50px;
+}
+
+.nav a {
+	position: relative;
+	text-align: left;
+	margin-right: 50px;
+	color: grey;
+	text-decoration: none;
+}
+
+.nav .logo {
+	align-content: right;
+	position: absolute;
+	margin-left:
+	margin-bottom: 150px;
+}
+
+.main-header {
+	display: inline-block;
+	text-align: center;
+	margin-top: 150px;
+	width: 900px;
+}
+
+.main-header img {
+	width: 300px;
+	display: inline-block;
+}
+
+.main-header h1 {
+	font-size: 74px;
+	width: 300px;	
+	margin-bottom: ;
+	display: inline-block;
+}
+
+.main-header p {
+	border: 1px solid black;
+	display: inline;
+	padding: 0 50px;
+
+}
+
+.main-content1 {
+	display: inline-block;
+	width: 100%;
+}
+
+.main-content1 h2 {
+	margin: 5px;
+}
+
+.main-content1 p {
+	margin: 2px;
+}
+
+.main-content1 .features {
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+	padding: 0;
+}
+
+.main-content1 .about {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-image img{
+	margin: 0 auto;
+
+.main-content2 {
+	display: inline-block;
+	width: 100%;
+}
+
+.main-content2 .services {
+	text-align: left;
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+}
+
+.main-content2 .product {
+	text-align: left;
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+}
+
+.main-content2 .vision {
+	text-align: left;
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+}
+
+.main-content2 h2 {
+	margin: 5px;
+}
+
+.main-content2 p {
+	margin: 2px;
+}
+
+.contact {
+	margin: 20px;
+}
+
+.footer {
+	margin: 20px;
+	padding: 20px;
+}
