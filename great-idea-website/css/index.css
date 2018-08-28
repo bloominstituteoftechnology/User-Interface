@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Navigation */
+.nav-bar {
+	width: 700px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.nav-bar {
+	position: relative;
+}
+.nav-bar .main-nav {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+
+.nav-bar .main-nav a {
+	text-decoration: none;
+	color: #c6c6c6;
+	padding-right: 25px;
+}
+
+.nav-bar .logo {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+
+/* Main content */
+.container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+/* Header: Innovation on Demand, code snippet img  */
+.container header {
+	margin-bottom: 20px;
+}
+.container .banner-text {
+	display: inline-block;
+	padding: 30px 100px 30px 70px;
+}
+
+.container .banner-image {
+	display: inline-block;
+}
+
+.container header img {
+	width: 276px;
+	height: auto;
+}
+
+.container .banner-text h1 {
+	font-size: 56px;
+	text-align: center;
+}
+
+.container .banner-text button {
+	margin-left: 50px;
+	padding: 5px 30px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+hr {
+	margin: 30px 0px;
+	height: 3px;
+	background: black;
+}
+
+/* Top Content: features, about */
+.container .top-content {
+	margin-bottom: 30px;
+}
+
+.container .top-content .features {
+	display: inline-block;
+	width: 50%;
+}
+
+.container .top-content .about {
+	display: inline-block;
+	width: 48%;
+}
+
+.container .middle-img {
+	width: 700px;
+	height: auto;
+}
+
+/* Bottom content: services, product, vision */
+.container .bottom-content {
+	padding-top: 30px;
+}
+
+.container .bottom-content .services,
+.container .bottom-content .product,
+.container .bottom-content .vision {
+	display: inline-block;
+	width: 30%;
+}
+
+.container .bottom-content .product {
+	margin: 0 25px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+footer p {
+	text-align: center;
+}
