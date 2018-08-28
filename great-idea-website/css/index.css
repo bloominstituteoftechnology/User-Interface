@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -72,7 +73,7 @@ h1, h2, h3, h4, h5 {
   .fixed-nav {
 	position: fixed;
 	width: 100%;
-	background: white;
+	background: slategrey;
 	padding: 40px 0;
 	z-index: 100;
   }
@@ -102,7 +103,7 @@ header nav a {
 	color: lightgrey;
 	font-weight: bold;
 	text-decoration: none;
-	margin-right: 105px;
+	margin-right: 90px;
 }
 
 .hero {
@@ -136,12 +137,64 @@ header nav a {
 	text-decoration: none;
 }
 
+.hero a:hover {
+	transition: .3s;
+	background: pink;
+	color: white;
+	width: 160px;
+	text-align: center;
+	border: 1px solid pink;
+	text-decoration: none;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
 .hero img {
 	display: inline-block;
 	position: absolute;
 	right: 0px;
 	width: 500px;
 	height: auto;
+}
+
+.hero .imageabt {
+	content: url(https://tr4.cbsistatic.com/hub/i/2014/05/08/95434c00-b668-43de-be03-9696a0fee223/e42f2e79fcce7b87d53cc602ac5fb5a1/commodore.jpg);
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	width: 500px;
+	height: auto;
+	border-radius: 5%;
+}
+
+.hero .image1 {
+	content: url(https://raw.githubusercontent.com/rd825/User-Interface/master/great-idea-website/img/header-img.png);
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	width: 500px;
+	height: auto;
+	border-radius: 5%;
 }
 
 hr {
@@ -169,17 +222,18 @@ p {
 }
 
 .feats {
-	width: 49%;
+	width: 45%;
 	display: inline-block;
 
 }
 
 .about {
-	width: 49%;
+	width: 45%;
 	display: inline-block;
 }
 
 .middle-img {
+	content: url(https://raw.githubusercontent.com/rd825/User-Interface/master/great-idea-website/img/mid-page-accent.jpg);
 	margin: 0px auto;
 	width: 80%;
 	display: block;
@@ -203,6 +257,17 @@ p {
 
 .vision {
 	width: 32%;
+	display: inline-block;
+}
+
+.four {
+	width: 80%;
+	margin: 40px auto 40px;
+	display: block;
+}
+
+.abt {
+	width: 24%;
 	display: inline-block;
 }
 
