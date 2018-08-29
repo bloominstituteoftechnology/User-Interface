@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+/* container div */
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* /////  generic ///// */
+
+
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* ///// nav bar ///// */
+
+.navigation {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+
+.navigation .logo {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.navigation a {
+	display: inline-block;
+	margin: 0 20px 10px 20px;
+	color: grey;
+	
+}
+
+
+/* //// Header Section //// */
+
+.IOD {
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid grey;
+}
+
+.IOD .header-text {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 0 75px;
+	width: 50%;
+}
+
+.IOD button {
+	border: 1px solid black;
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+
+}
+
+
+.IOD .header-img {
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: top;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 50px;
+	
+}
+
+
+/* ///// CONTENT SECTION 1 ///// */
+
+
+.cont1 {
+	
+	padding: 0 10px;
+	width: 100%;
+}
+
+.cont1 .features-about .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+/* //// middle image //// */
+
+.middle-img {
+	margin-bottom: 50px;
+}
+
+/* //// CONTENT SECTION 2 //// */
+
+
+.cont2 {
+	width: 100%;
+	padding: 0 10px;
+	border-bottom: 1px solid grey;
+}
+
+.cont2 .bottom-content .text-content2 {
+	width: 31%;
+	display: inline-block;
+	margin-left: 13px;
+	margin-bottom: 25px;
+	
+}
+
+/* //// CONTACT SECTION //// */
+
+.contact {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+footer {
+	text-align: center;
+}
