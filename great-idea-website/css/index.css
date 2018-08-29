@@ -66,37 +66,150 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 1536px;
-  width: 878px;
+  width: 875px;
   margin: 0 auto;
 }
 
 .nav-header {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   position: relative;
   height: 100px;
-  padding-top: 0;
+  /* padding-top: 35px; */
 }
 
 .nav-header nav {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  position: absolute;
   display: inline-block;
+  top: 27px;
+  right: 0px;
+  left: 0px;
+  /* width: 878px; */
   vertical-align: top;
   padding-top: 0px;
 }
 
 .nav-header nav a {
-  border: 1px solid black;
-  /* display: inline-block;
+  /* border: 1px solid black; */
+  display: inline-block;
   vertical-align: top;
-  /* position: absolute; */
-  /* top: 0; */
-  /* right: 0; */
+  color: lightgray;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-right: 63px;
 }
 
 .nav-header .logo {
   display: inline-block;
-  vertical-align: top;
+  margin-left: 32px;
+}
 
+.main-header {
+  /* border-bottom: 1px solid black; */
+  position: relative;
+  /* padding-bottom: 30px; */
+  height: 380px;
+  margin-top: 32px;
+  /* padding-top: 20px; */
+}
+
+.main-header .title-button {
+  /* border: 1px solid red; */
+  display: inline-block;
+  position: absolute;
+  vertical-align: top;
+  top: 60px;
+  left: 70px;
+}
+
+.main-header .title-button h1 {
+  font-size: 80px;
+  /* font-style: ; */
+  text-align: center
+}
+
+.main-header .title-button .button {
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 71px;
+  margin-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-header img {
+  display: inline-block;
+  position: absolute;
+  vertical-align: top;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.upper-text {
+  border-top: 1px solid black;
+  position: relative;
+  margin-top: 77px;
+  padding-top: 37px;
+}
+
+.upper-text .left {
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  /* margin-right: 20px; */
+}
+
+.upper-text .right {
+  /* border: 1px solid blue; */
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  right: 0;
+}
+
+.middle-img {
+  margin-top: 40px;
+  margin-bottom: 39px;
+}
+
+.lower-text {
+  border-bottom: 1px solid black;
+  position: relative;
+  padding-bottom: 44px;
+  margin-bottom: 30px;
+}
+
+.lower-text .left {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-right: 14px;
+}
+
+.lower-text .center {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+.lower-text .right {
+  /* border: 1px solid blue; */
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  right: 0;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
 }
