@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+	
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+
+
+/* display: inline-block; 
+width: 691px; 
+vertical-align: top; 
+margin-top: 35px;
+} */
+}
+header nav a {
+    display: flex;
+    align-self: flex-end;
+
+}
+
+
+
+
+.navbar nav {
+    justify-content: space-between;   
+/* display:flex; */
+
+
+
+}
+.top-content img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +139,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box:nth-child(1n) {
+ background-color: teal;
+  }
+  .box:nth-child(2n) {
+    background-color: gold;
+  }
+  .box:nth-child(3n) {
+    background-color: cadetblue;
+  }
+  .box:nth-child(4n) {
+    background-color: coral;
+  }
+  .box:nth-child(5n) {
+    background-color: crimson;
+  }
+  .box:nth-child(6n) {
+    background-color: forestgreen;
+  }
+  .box:nth-child(7n) {
+    background-color: darkorchid;
+  }
+  .box:nth-child(8n) {
+    background-color: hotpink;
+  }
+  .box:nth-child(9n) {
+    background-color: indigo;
+  }
+  .box:nth-child(10n) {
+    background-color: dodgerblue;
+  }
+
 
 .bottom-content {
     display: flex;
