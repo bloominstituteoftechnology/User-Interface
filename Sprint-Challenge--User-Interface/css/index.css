@@ -210,3 +210,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* about page begins here */
+.banner{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about {
+    margin:10px;
+
+}
