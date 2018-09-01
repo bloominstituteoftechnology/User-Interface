@@ -116,7 +116,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .banner-image {
+	background-image: url("../img/header-img.png");
+	background-size: 276px 276px;
 	display: inline-block;
+	width: 276px;
+	height: 276px;
 }
 
 .container header img {
@@ -162,8 +166,9 @@ hr {
 }
 
 .container .middle-img {
+	background-image: url("../img/mid-page-accent.jpg");
 	width: 700px;
-	height: auto;
+	height: 145.42px;
 }
 
 /* Bottom content: services, product, vision */
