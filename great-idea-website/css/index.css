@@ -58,7 +58,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+		/* font-family: 'Bangers', cursive; */
+		font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -111,7 +112,7 @@ h1, h2, h3, h4, h5 {
 }
 .container .banner-text {
 	display: inline-block;
-	padding: 30px 100px 30px 70px;
+	padding: 30px 88px 30px 40px;
 }
 
 .container .banner-image {
@@ -124,12 +125,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .banner-text h1 {
-	font-size: 56px;
+	font-size: 48px;
 	text-align: center;
 }
 
 .container .banner-text button {
-	margin-left: 50px;
+	margin-top: 20px;
+	margin-left: 70px;
 	padding: 5px 30px;
 	background-color: white;
 	border: 1px solid gray;
