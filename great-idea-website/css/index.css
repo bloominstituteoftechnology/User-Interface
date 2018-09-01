@@ -124,8 +124,11 @@ h1, h2, h3, h4, h5 {
 	height: auto;
 }
 
-.container .banner-text h1 {
+h1 {
 	font-size: 48px;
+}
+
+.container .banner-text h1 {
 	text-align: center;
 }
 
@@ -185,4 +188,29 @@ footer {
 }
 footer p {
 	text-align: center;
+}
+
+/* About page */
+.about-page img {
+	width: 700px;
+  height: auto;
+}
+
+.about-page .about-text {
+	padding-top: 30px;
+}
+
+.about-page .about-text h1 {
+	font-size: 36px;
+}
+
+.about-page .about-text h1,
+.about-page .about-text p {
+	display: inline-block;
+	width: 200px;
+  line-height: 1.5em;
+}
+
+.about-page .about-text p {
+	margin-left: 35px;
 }
