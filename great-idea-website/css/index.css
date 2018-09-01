@@ -87,9 +87,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-bar .main-nav a {
+	display: inline-block;
 	text-decoration: none;
 	color: #c6c6c6;
 	padding-right: 25px;
+	transition: .3s;
+}
+
+.nav-bar .main-nav a:hover {
+	transform: rotate(-10deg);
+	color: #0373af;
 }
 
 .nav-bar .logo {
