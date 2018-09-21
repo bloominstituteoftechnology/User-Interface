@@ -64,12 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
+.page {
 	width: 1080px;
 	margin: 0 auto;
 	position: relative;
 	border: 2px solid goldenrod;
 }
+
 
 
 .header-container{
@@ -101,4 +102,36 @@ nav a {
 	position: absolute;
 	right: 0px;
 	margin-top: 7px;
+}
+
+.page .top-container {
+	width: inherit;
+	position: relative;
+	top: 50px;
+	border: 1px solid aquamarine;
+}
+
+.headline-button {
+	width: 50%;
+	text-align: center;
+	border: 1px solid salmon;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.headline h1 {
+	font-size: 72px;
+}
+
+.button a {
+	padding: 0px 40px;
+	border: 1px solid black;
+	text-decoration: none;
+	width: 0 auto;
+}
+
+#head-image {
+	width: 50%;
+	display: inline-block;
+	margin-left:50px;
 }
