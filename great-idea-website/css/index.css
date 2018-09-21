@@ -64,3 +64,52 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.container header {
+	border: 1px solid purple;
+	position: relative;
+}
+
+.container header nav {
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+.container header nav li {
+	display: inline;
+	padding: 0px 55px 0px 0px;
+}
+
+.container header nav li a {
+	text-decoration: none;
+	color: gray;
+}
+
+.container header nav li a:hover {
+	text-decoration: underline;
+}
+
+.container header .logo {
+	position: absolute;
+	right: 0px;
+}
+
+.container main .cta {
+	border: 1px solid green;
+	position: relative;
+}
+
+.container main .cta .cta-text {
+	display: inline-block;
+	margin: 180px 0px;
+}
+
+.container main .cta .cta-img {
+	position: absolute;
+	right: 0px;
+}
