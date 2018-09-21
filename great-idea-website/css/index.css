@@ -64,66 +64,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.page {
-	width: 1080px;
-	margin: 0 auto;
-	position: relative;
-	border: 2px solid goldenrod;
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
+.page {
+	margin: 0 auto;
+	position: relative;
+}
+
+.page,
+.header-container {
+	width: 900px;
+}
 
 
 .header-container{
 	position: fixed;
 	top: 0px;
-	width: 1080px;
-	border: 2px solid red;
-}
-
-.header-container header {
-	position: relative;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
+	z-index: 10;
 }
 
 nav {
 	display: inline-block;
+	width: 80%;
+
 }
 
 nav a {
-	display: inherit;
-	padding: 10px 30px 10px;
-	margin: 10px;
+	display: inline-block;
+	width: 15%;
+	margin: 20px 0px;
 	color: #B6B6B6;
-	text-decoration: none;
 }
 
 .logo {
 	display: inline-block;
-	position: absolute;
-	right: 0px;
-	margin-top: 7px;
+	width: 19%;
+	position: relative;
+	top: 10px;
 }
 
-.page .top-container {
-	width: inherit;
+.top-container {
 	position: relative;
-	top: 50px;
-	border: 1px solid aquamarine;
+	top: 90px;
+	margin-bottom: 50px;
 }
 
 .headline-button {
-	width: 50%;
+	width: 59%;
+	margin: 0 auto ;
 	text-align: center;
-	border: 1px solid salmon;
 	display: inline-block;
-	vertical-align: baseline;
+	position: relative;
+	bottom:	65px;
+	padding: 100px 0px;
 }
 
-.headline h1 {
+.headline {
 	font-size: 72px;
+	margin-bottom: 20px;
 }
 
-.button a {
+.button  {
 	padding: 0px 40px;
 	border: 1px solid black;
 	text-decoration: none;
@@ -131,7 +136,33 @@ nav a {
 }
 
 #head-image {
-	width: 50%;
+	width: 40%;
 	display: inline-block;
-	margin-left:50px;
+	position: relative;
+}
+
+.first-row,
+.bottom-row,
+.contact-info {
+	margin: 30px 0px;
+}
+
+.content-first-row {
+	width: 48%;
+	display: inline-block;
+	margin: 15px 15px 15px 0px;
+}
+
+.middle-img {
+	width: 900px;
+}
+
+.content-bottom-row {
+	width: 33%;
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;
 }
