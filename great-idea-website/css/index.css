@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 0 auto;
+	width: 800px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap:nowrap;
+}
+#navigation{
+	display: flex;
+	justify-content: space-around;
+	width: 620px;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color:gray;
+}
+.logo{
+	margin-bottom: 20px;
+	width: 170px;
+	margin-left: 40px;
+}
+#top{
+	height: 520px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+#starter{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 77px;
+	text-align: left;
+	width: 285px;
+}
+h1{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+img{
+	display: flex;
+	text-align: right;
+	
+}
+button {
+	padding: 6px 40px 4px 40px;
+	background: none;
+	border: 1px solid black;
+}
+#middle{
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid gray;
+	margin-bottom: 20px;
+}
+h3{
+	display: inline-block;
+	border: 0px solid black;
+}
+#features{
+	width:425px;
+	margin-top: 20px;
+}
+#about{
+	width: 350px;
+	margin-top: 20px;	
+}
+.text {
+	text-align: left;
+}
+.middle-img{
+	width: 800px;
+	margin-bottom: 20px;
+}
+#bottom{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid gray;
+	padding-bottom: 20px;
+}
+#services{
+	border: 0px solid black;
+	display: inline-block;
+	width: 259px;
+}
+#product{
+	border: 0px solid black;
+	display: inline-block;
+	width: 261px;
+}
+#vision{
+	border: 0px solid black;
+	display: inline-block;
+	width: 273px;
+}
+.number {
+	padding: 2px;
+}
+
+.end {
+	text-align: center;
+} 
+
+
+	
