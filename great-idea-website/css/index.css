@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h2, h3, h4, h5 {
+	font-family: 'Share Tech Mono', monospace;
+}
+
 /* Your code starts here! */
 a {
 	text-decoration: none;
