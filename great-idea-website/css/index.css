@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,21 +92,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -49,18 +130,148 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.header {
+	position: fixed;
+	background-color: lightsteelblue;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.header header {
+	position: relative;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.header header nav {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.header header nav li {
+	display: inline;
+	padding: 0 55px 0 0;
+}
+
+.header header nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+.header header nav li a:hover {
+	text-decoration: underline;
+}
+
+.header header .logo {
+	position: absolute;
+	right: 0;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.container main .cta {
+	position: relative;
+	height: 500px;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.container main .cta .cta-text {
+	display: inline-block;
+	font-size: 76px;
+	text-align: center;
+	margin: 120px 90px;
+}
+
+.container main .cta .cta-text h1 {
+	letter-spacing: 2px;
+}
+
+.container main .cta .cta-text a {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	padding: 4px 50px;
+}
+
+.container main .cta .cta-text a:hover {
+	color: white;
+	background-color: black;
+}
+
+.container main .cta .cta-img {
+	position: absolute;
+	right: 0px;
+	margin: 60px 0;
+}
+
+main .top-content {
+	border-top: 1px solid black;
+}
+
+main .top-content h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+main .top-content .text-content {
+	display: inline-block;
+	width: 425px;
+	margin: 40px 10px 30px 0;
+}
+
+main .bottom-content {
+	border-bottom: 1px solid black;
+}
+
+main .bottom-content h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+main .bottom-content .text-content {
+	display: inline-block;
+	width: 280px;
+	margin: 30px 10px 40px 0;
+}
+
+main .contact {
+	margin: 30px 0;
+}
+
+main .contact h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+}
