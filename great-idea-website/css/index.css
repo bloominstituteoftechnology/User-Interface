@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+  box-sizing: border-box;
+}
+
+  /* container layout */
+
+body {
+  margin: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  
+}
+
+.main_content {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.row_one {
+  display: inline-block;
+  width: 48%;
+}
+
+.row_two {
+  display: inline-block;
+  width: 30%;
+}
+
+.padd {
+  margin-left: 20px;
+}
+
+.img_container img {
+  width: 700px;
+  padding: 20px 0;
+}
+
+
+
+
+/* header/footer */
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.navigation {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0px 15px;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+  width: 12%;
+  margin: 0;
+  padding: 0;
+}
+
+footer .copywrite {
+  margin: 70px 0px;
+  text-align: center;
+}
+
+/* images */
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.intro div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  vertical-align: top; 
+  margin-bottom: 0px;
+  padding-top: 70px;
+}
+
+h1 span {
+  display: block;
+  font-size: 60px;
+}
+
+.code_img {
+  display: inline-block;
+  width: 40%;
+  margin: 30px 0px;
+}
+
+
+
+
+
+/* buttons/links */
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: arial;
+}
+
+.intro .button_container {
+  padding-top: 15px;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: 6px 30px;
+}
