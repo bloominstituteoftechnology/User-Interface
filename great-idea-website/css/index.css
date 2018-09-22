@@ -75,7 +75,8 @@ a {
 }
 
 .page,
-.header-container {
+.header-container,
+.middle-img {
 	width: 900px;
 }
 
@@ -100,6 +101,10 @@ nav a {
 	color: #B6B6B6;
 }
 
+nav a:hover {
+	color: #000000;
+}
+
 .logo {
 	display: inline-block;
 	width: 19%;
@@ -115,7 +120,7 @@ nav a {
 
 .headline-button {
 	width: 59%;
-	margin: 0 auto ;
+	margin: 0 auto;
 	text-align: center;
 	display: inline-block;
 	position: relative;
@@ -135,6 +140,16 @@ nav a {
 	width: 0 auto;
 }
 
+.button:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.button:active {
+	color: #000000;
+	background-color: #000000;
+}
+
 #head-image {
 	width: 40%;
 	display: inline-block;
@@ -151,10 +166,6 @@ nav a {
 	width: 48%;
 	display: inline-block;
 	margin: 15px 15px 15px 0px;
-}
-
-.middle-img {
-	width: 900px;
 }
 
 .content-bottom-row {
