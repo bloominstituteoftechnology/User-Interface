@@ -71,6 +71,9 @@ h2, h3, h4, h5 {
 	font-weight: bold;
 }
 
+hr {
+	margin: 0px;
+}
 /* Your code starts here! */
 a {
 	text-decoration: none;
@@ -173,10 +176,20 @@ nav a:hover {
 	position: relative;
 } */
 
-.first-row,
-.bottom-row,
+/* .first-row,
+.bottom-row, */
 .contact-info {
 	margin: 30px 0px;
+}
+
+.first-row,
+.bottom-row {
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+.bottom-row {
+	margin-top: 94px;
 }
 
 .content-first-row {
@@ -185,19 +198,17 @@ nav a:hover {
 	margin: 15px 15px 15px 0px;
 }
 
-.middle-img {
-	background-image: url('../img/mid-page-accent.jpg');
-	height: 100px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
 
 .content-bottom-row {
 	width: 33%;
 	display: inline-block;
+}
+
+.content {
+	background-image: url('../img/mid-page-accent.jpg');
+	height: 300px;
+	position: relative;
+	background-size: cover;
 }
 
 footer {
