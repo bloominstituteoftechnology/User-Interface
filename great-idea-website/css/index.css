@@ -59,12 +59,16 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+}
+
+h1 {
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 h2, h3, h4, h5 {
 	font-family: 'Share Tech Mono', monospace;
+	font-weight: bold;
 }
 
 /* Your code starts here! */
@@ -79,8 +83,7 @@ a {
 }
 
 .page,
-.header-container,
-.middle-img {
+.header-container {
 	width: 900px;
 }
 
@@ -118,18 +121,28 @@ nav a:hover {
 
 .top-container {
 	position: relative;
-	top: 90px;
 	margin-bottom: 50px;
+
+	background-image: url('../img/header-img.png');
+
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .headline-button {
-	width: 59%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	display: inline-block;
 	position: relative;
-	bottom:	65px;
 	padding: 100px 0px;
+	background-color: #ffffff;
+	opacity: 0.75;
 }
 
 .headline {
@@ -154,11 +167,11 @@ nav a:hover {
 	background-color: #000000;
 }
 
-#head-image {
+/* #head-image {
 	width: 40%;
 	display: inline-block;
 	position: relative;
-}
+} */
 
 .first-row,
 .bottom-row,
@@ -170,6 +183,16 @@ nav a:hover {
 	width: 48%;
 	display: inline-block;
 	margin: 15px 15px 15px 0px;
+}
+
+.middle-img {
+	background-image: url('../img/mid-page-accent.jpg');
+	height: 100px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .content-bottom-row {
