@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin-left: 5px;
+	width: 90%;
+	margin: auto;
+}
+
+nav {
+	position: fixed;
+	width: 90%;
+	display: inline-block;
+	background-color: white;
+	height: 50px;
+}
+
+.nav-item{
+	float: left;
+	padding: 10px;
+}
+
+.logo {
+	float: right;
+}
+
+header {
+	width: 100%;
+	padding: 50px 0px;
+	display: inline-block;
+}
+
+.head-item {
+	width: 50%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+h1 {
+	line-height: 1.5;
+	font-size: 50px;
+}
+
+button {
+	text-transform: capitalize;
+}
+
+.header-img {
+	float: right;
+}
+
+.main-container {
+	border-top: 1px solid black;
+}
+
+.main {
+	padding: 20px 0px;
+}
+
+.top {
+	/* display: inline-block; */
+}
+
+.tp {
+	width: 45%;
+	display: inline-block;
+}
+
+.features {
+	float: left;
+}
+
+.about {
+	float: right;
+}
+
+.middle-image {
+	width: 90%;
+	margin: auto;
+}
+
+.bottom {
+	/* display: inline-block; */
+}
+
+.btm {
+	width: 30%;
+	display: inline-block;
+}
+
+.services {
+	float: left;
+}
+
+.product {
+	margin-left: 50px;
+}
+
+.vision {
+	float: right;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+footer{
+	margin: 50px;
+	text-align: center;
+}
