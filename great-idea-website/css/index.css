@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 body {
   margin: auto;
-  width: 75%;
+  width: 65%;
 }
 
 .container {
@@ -120,7 +120,7 @@ body {
 .two {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 60%;
 }
 
 .next {
@@ -128,5 +128,90 @@ body {
 }
 
 .img_container img {
-  width: 800px;
+  width: 1000px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px 15px;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+}
+
+.nav li {
+  display: flex;
+  width: 12%;
+ 
+}
+
+footer {
+  margin: 70px 0px;
+  flex-direction: column;
+}
+.copywrite {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.intro div {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.h1Intro span {
+  font-size: 70px;
+}
+
+.h1Intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 55px;
+}
+
+.code_img {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  margin: 45px 0px 45px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: arial;
+}
+
+.intro .button_container {
+  margin: 25px;
+}
+
+.button {
+  border: 1px solid black;
 }
