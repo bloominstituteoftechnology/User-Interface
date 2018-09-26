@@ -65,114 +65,68 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container {
-	width: 700px;
-	margin: auto;
-}
-
-header {
-	width: 100%;
-	
+* {
+  box-sizing: border-box;
 }
 
 body {
-	margin: auto;
-	width: 100%;
-
+  margin: auto;
+  width: 75%;
 }
 
-.section2 {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-bottom: 40px;
-} 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
 
-.nav {
-	width: 100%;
-	margin-top: 20px;
-	display: inline-block;
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 25px 0px 25px 0px;
 }
 
-.nav a {
-	margin-left: 25px;
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 25px 0px 25px 0px;
 }
 
-
-.logo {
-
-margin-left: 70%;
-display: inline-block;
+.h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 25px;
 }
 
-.section1 {
-  display: inline-block;
-	width: 50px;
-	margin-bottom: 0px;
-	padding-top: 70px;
-	text-align: center;
-	vertical-align: top;
+.main {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-h1 span {
-	display: block;
-	font-size: 60px;
-	width: 35%;
-	
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 50%;
 }
 
-.img1 {
-  right: 80px;
-	position:absolute;
-	display: inline-block;
-	right: 50px;
-	top: 100px;
-}
-
-.img-container .img2 {
-	width: 700px;
-	padding: 20px 0;
-}
-
-.section2 {
-	margin-bottom: 40px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding-top: 40px;
-	padding-bottom: 40px; 
-}
-
-
-
-.div1 {
-	width: 35%;
-	display: inline-block;
-} 
-
-.div2 {
-	width: 30%;
-	display: inline-block;
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 
 .next {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
-a {
-	font-family: arial;
-	color: gray;
-	text-decoration: none;
-}
-
-.button {
-	margin: 20%;
-	padding: 6px 30px;
-	border: 1px solid gray;
-  display: inline-block;
-}
-
-footer .p3 {
-	text-align: center;
-	margin: 70px 0px;
+.img_container img {
+  width: 800px;
 }
