@@ -195,21 +195,30 @@ button {
 .header-section {
   border-bottom: 2px solid black;
   margin: 50px 0;
+  display: inline-block; /*1*/
+  width: 100%;
 }
 
 .header-section .innovation-section {
   display: inline-block;
-  margin: 50px;
+  margin: 75px;
+  margin-left: 125px;
   text-align: center;
+  float: left; /*2*/
 }
 
 .header-section img {
   display: inline-block;
-  margin-left: 100px;
+  margin-right: 125px;
+  float: right; /*3*/
 }
 
 .main-button {
-  padding: 10px 20px;
+  padding: 5px 50px;
+  font-size: 12px;
+  background-color: #ffffff;
+  text-align: center;
+  text-decoration: none;
 }
 
 .top-content {
