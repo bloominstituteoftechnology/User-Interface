@@ -3,153 +3,257 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 * {
-	font-family: 'Titillium+Web', cursive;
+  font-family: "Titillium+Web", cursive;
 }
 
-h1, h2 {
-	font-family: 'Bangers', cursive;
+h1,
+h2 {
+  font-family: "Bangers", cursive;
 }
 
 button {
-	font-family: inherit;
+  font-family: inherit;
 }
 
 .container {
-	width: 90%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .navigation {
-	margin: 30px 0;
-	padding: 25px 0;
-	/* border: 4px solid red; */
+  margin: 30px 0;
+  padding: 25px 0;
+  /* border: 4px solid red; */
 }
 
 .navigation .nav-menu {
-	display: inline-block;
+  display: inline-block;
 }
 
 .navigation .logo {
-	/* display: inline-block; */
-	float: right;
-	/* border: 1px solid red; */
+  /* display: inline-block; */
+  float: right;
+  /* border: 1px solid red; */
 }
 
 .navigation .nav-menu a {
-	text-decoration: none;
-	color: gray;
-	/* border: 1px solid red; */
-	padding: 25px;
+  text-decoration: none;
+  color: gray;
+  /* border: 1px solid red; */
+  padding: 25px;
 }
 
 .header-section h1 {
-	font-size: 80px;
+  font-size: 80px;
 }
 
 .header-section {
-	/* border: 2px solid red; */
-	border-bottom: 2px solid black;
-	margin: 50px 0;
+  border-bottom: 2px solid black;
+  margin: 50px 0;
 }
 
 .header-section .innovation-section {
-	display: inline-block;
-	margin: 50px;
-	/* border: 2px solid red; */
-	text-align: center
+  display: inline-block;
+  margin: 50px;
+  text-align: center;
 }
 
 .header-section img {
-	display: inline-block;
-	/* border: 2px solid red; */
-	margin-left: 100px;
+  display: inline-block;
+  margin-left: 100px;
 }
 
 .main-button {
-	padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 .top-content {
-	border: 2px solid red;
+	display: inline-block;
+}
+
+.top-content .content {
+  display: inline-block;
+  width: 48%;
+}
+
+.top-content .left {
+  float: left;
+  margin-right: 10px;
+}
+
+.top-content .right {
+  float: right;
+  margin-left: 10px;
 }
 
 .middle-img {
-	display: block;
-	margin: 25px auto;
-	width: 100%
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+}
+
+.bottom-content {
+  border-bottom: 2px solid black;
+  display: inline-block;
 }
 
 .contact {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 .footer {
-	padding: 75px 0;
+  padding: 75px 0;
 }
 
 .footer p {
-	text-align: center
+  text-align: center;
 }
