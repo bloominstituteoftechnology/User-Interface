@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+
+	width: 1016px;
+	margin: auto;
+	padding: 20px 70px 0px 70px;
+
+}
+
+.logo {
+
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	margin-top: -10px;
+
+}
+
+.header-img {
+
+	display: inline-block;
+	float: right;
+	margin: 6% 0;
+
+}
+
+.middle-img {
+
+	margin: 40px 0px;
+
+}
+
+.header-text {
+
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 5% 0px 10% 0px;
+	text-align: center;
+
+}
+
+.features {
+
+	width: 49%;
+	display: inline-block;
+	float: left;
+
+}
+
+.about {
+
+	width: 49%;
+	display: inline-block;
+	float: right;
+
+}
+
+.services {
+
+	width: 33%;
+	display: inline-block;
+	float: left;
+
+}
+
+.product {
+
+	display: inline-block;
+	width: 32%;
+	margin-left: 1%;
+	margin-right: 0.5%;
+	margin-bottom: 50px;
+
+}
+
+.vision {
+
+	width: 33%;
+	display: inline-block;
+	float: right;
+
+}
+
+.contact {
+
+	border-top: 1px solid black;
+	padding-top: 40px;
+
+}
+
+nav {
+
+	padding: 20px 0px 20px 20px;
+	width: 100%;
+	height: 76px;
+
+}
+
+header {
+
+	height: 520px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: grey;
+	margin: 0px 41px;
+
+}
+
+h1 {
+
+	font-size: 78px;
+
+}
+
+h2 {
+
+	font-size: 20px;
+
+}
+
+button {
+
+	border: 1px solid black;
+	padding: 10px 50px;
+
+}
+
+footer {
+
+	padding-top: 50px;
+	height: 200px;
+	text-align: center;
+
+}
