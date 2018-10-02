@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -64,3 +65,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 800px;
+}
+
+h1 {
+	font-size: 60px;
+	width: 50%;
+}
+header ul {
+	display: inline-block;
+	width: 550px;
+	padding-right: 10px;
+	}
+
+header li {
+	display: inline-block;
+	padding: 15px
+}
+
+header .logo {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+}
+
+.call-to-action {
+
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+}
+
+.innovation{
+	display: inline-block;
+	vertical-align: top;
+	width: 280px;
+	text-align: center;
+	margin-left: 70px;
+	padding-top: 100px;
+}
+
+.circle {
+	display: inline-block;
+	vertical-align: top;
+	width: 390px;
+
+}
+
+
+.middle-img{
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+.main-content {
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	padding: 20px 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-content .top-content .paragraphs{
+	
+	display: inline-block;
+	vertical-align: top;
+	width: 370px;
+	padding: 10px 10px 30px 15px;
+}
+
+.main-content .bottom-content .paragraphs {
+	
+	display: inline-block;
+	vertical-align: top;
+	width: 262px;
+}
+
+.contact {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.button {
+	border: 2px black solid;
+	width: 110px;
+	margin-left: 70px;
+}
+
