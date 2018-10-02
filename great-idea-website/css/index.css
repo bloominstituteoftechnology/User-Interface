@@ -244,7 +244,26 @@ button {
 .bottom-content {
   border-bottom: 2px solid black;
   display: inline-block;
+  padding-bottom: 75px;
 }
+
+.bottom-content .content {
+	display: inline-block;
+	width: 32%;
+}
+
+.bottom-content .left {
+	float: left;
+}
+.bottom-content .center {
+	margin-left: 15px;
+}
+
+.bottom-content .right {
+	float: right;
+}
+
+
 
 .contact {
   margin-top: 25px;
