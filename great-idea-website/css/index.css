@@ -141,3 +141,12 @@ button {
 	margin: 25px auto;
 	width: 100%
 }
+
+
+.footer {
+	padding: 75px 0;
+}
+
+.footer p {
+	text-align: center
+}
