@@ -132,4 +132,12 @@ button {
 	padding: 10px 20px;
 }
 
+.top-content {
+	border: 2px solid red;
+}
 
+.middle-img {
+	display: block;
+	margin: 25px auto;
+	width: 100%
+}
