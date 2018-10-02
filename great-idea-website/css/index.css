@@ -156,10 +156,16 @@ h1, h2, h3, h4, h5 {
 
 }
 
+.ml-0 {
+
+	margin-left: 0px;
+
+}
+
 nav {
 
 	padding: 20px 0px 20px 20px;
-	width: 100%;
+	width: 876px;
 	height: 76px;
 
 }
@@ -197,6 +203,7 @@ button {
 
 	border: 1px solid black;
 	padding: 10px 50px;
+	background-color: white;
 
 }
 
