@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 	width: 1016px;
 	margin: auto;
 	padding: 20px 70px 0px 70px;
+	margin-top: 76px;
 
 }
 
@@ -77,8 +78,8 @@ h1, h2, h3, h4, h5 {
 
 	display: inline-block;
 	float: right;
-	vertical-align: top;
 	margin-top: -10px;
+	padding-right: 10px;
 
 }
 
@@ -158,15 +159,20 @@ h1, h2, h3, h4, h5 {
 
 .ml-0 {
 
-	margin-left: 0px;
+	padding-left: 0px;
 
 }
 
 nav {
 
-	padding: 20px 0px 20px 20px;
+	padding: 25px 0px 20px 20px;
 	width: 876px;
 	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -438px;
+	background-color: rgba(234, 7, 255, 0.9)
 
 }
 
@@ -183,7 +189,13 @@ a {
 
 	text-decoration: none;
 	color: grey;
-	margin: 0px 41px;
+	padding: 0px 41px;
+
+}
+
+a:hover {
+
+	color: white;
 
 }
 
