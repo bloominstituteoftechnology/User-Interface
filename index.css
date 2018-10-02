@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body {
+	padding: 10px 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+header{
+	border-bottom: 1px solid black;
+	padding: 30px 10px 300px;
+	margin: 0 auto;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	top: 60px;
+	margin: 0px 0px 50px;
+}
+
+header nav a {
+	font-size: 30px;
+	color: grey;
+	padding: 100px;
+	text-decoration: none;
+	position: relative;
+
+}
+
+header img.headerimg{
+	display: inline-block;
+	position: relative;
+	left: 800px;
+	top: 150px;
+	
+}
+
+header img.logo {
+	float: right;
+	display: inline;
+	
+}
+
+header h1 {
+	font-size: 90px;
+	margin: 100px 0px 20px;
+	display: inline-block;
+	left: 50px;
+	text-align: center;
+}
+
+header button {
+	font-size: 20px;
+	border: 1px solid black;
+	background-color: white;
+	padding: 5px 40px;
+	position: relative;
+	display: inline-block;
+	
+}
+
+main {
+	border-bottom: 1px solid black;
+	padding: 30px 0px;
+}	
+
+main section {
+	display: inline-block;
+}
+
+main section h2{
+	display: inline-block;
+	font-size: 30px;
+	position: absolute;
+	margin: 10px 50px 10px 200px;
+}
+
+main section p {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+	height:200px;
+	font-size: 20px;
+	padding: 50px;
+	margin: 10px;
+}
+
+main img {
+	margin: 20px;
+	padding: 10px 100px;
+	display:block;
+	position: relative;
+	left: 800px;
+}
+footer {
+	padding: 30px 0px;
+	font-size: 25px;
+}
+footer address {
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+footer h5 {
+	display: inline-block;
+	position: absolute;
+}
