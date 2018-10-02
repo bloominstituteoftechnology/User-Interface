@@ -152,12 +152,12 @@ h5 {
 /* Your code starts here! */
 
 * {
-  font-family: "Titillium+Web", cursive;
+  font-family: "Lato", sans-serif;
 }
 
 h1,
 h2 {
-  font-family: "Bangers", cursive;
+  font-family: "Noto Serif", serif;
 }
 
 button {
@@ -171,9 +171,9 @@ button {
 }
 
 .navigation {
-  padding: 25px 50px;
+  padding: 25px 50px 0px;
   overflow: hidden;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   position: fixed;
   top: 0;
   width: 100%;
@@ -185,6 +185,7 @@ button {
 
 .navigation .logo {
   float: right;
+  margin-bottom: 25px;
 }
 
 .navigation .nav-menu a {
@@ -193,12 +194,16 @@ button {
   padding: 25px;
 }
 
+.navigation .nav-menu a:hover {
+  background-color: #bdbdbd;
+}
+
 .header-section h1 {
   font-size: 80px;
 }
 
 .header-section {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   margin: 50px 0;
   display: inline-block; /*1*/
   width: 100%;
@@ -252,7 +257,7 @@ button {
 }
 
 .bottom-content {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   display: inline-block;
   padding-bottom: 75px;
 }
