@@ -65,3 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+* {
+	font-family: 'Titillium+Web', cursive;
+}
+
+h1, h2 {
+	font-family: 'Bangers', cursive;
+}
+
+
