@@ -65,108 +65,147 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	padding: 10px 50px;
-	margin: 0 auto;
-	text-align: center;
+	background: #ECEBE9
 }
-header{
-	border-bottom: 1px solid black;
-	padding: 30px 10px 300px;
+.main-container {
 	margin: 0 auto;
+	width: 800px;
+	background-color: #A4EDE5;
+}	
+
+section {
+	margin: 20px 0px;
 }
 
-header nav {
+header section {
+		display: block;
+		
+}
+
+header .top-bar {
+	position: fixed;
+	top: 0;
+	width: 800px;
+	margin-top:0;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	background-color: rgba(239, 129, 136, 1);
+}
+
+.top-bar nav {
 	display: inline-block;
-	position: absolute;
-	top: 60px;
-	margin: 0px 0px 50px;
+	margin-right: 40px;
+	vertical-align: 50%;
 }
 
-header nav a {
-	font-size: 30px;
-	color: grey;
-	padding: 100px;
+.top-bar nav a {
+	color: white;
 	text-decoration: none;
-	position: relative;
-
+	padding-right: 40px;
+	font-size: 16px;
 }
 
-header img.headerimg{
+.top-bar .logo {
 	display: inline-block;
-	position: relative;
-	left: 800px;
-	top: 150px;
-	
 }
 
-header img.logo {
-	float: right;
-	display: inline;
-	
+header .upper {
+	border-bottom: 1px solid black;
+	margin-top: 50px;
 }
 
-header h1 {
-	font-size: 90px;
-	margin: 100px 0px 20px;
+header .upper-left {
 	display: inline-block;
-	left: 50px;
+	margin: 50px 25px;
+	padding: 0 50px ;
 	text-align: center;
+	vertical-align: text-bottom;
 }
 
-header button {
-	font-size: 20px;
-	border: 1px solid black;
-	background-color: white;
-	padding: 5px 40px;
-	position: relative;
+header .upper-right {
 	display: inline-block;
-	
+	margin: 50px 0;
+	padding: 50px 0;
+}
+
+h1 {
+	font-size: 60px;
+	color: white;
+}
+
+.upper-left button {
+	font-size: 16px;
+	color: white;
+	border: 2px solid white;
+	background-color: black;
+	padding: 5px 40px;	
 }
 
 main {
 	border-bottom: 1px solid black;
-	padding: 30px 0px;
-}	
+}
 
 main section {
-	display: inline-block;
+	display: block;
 }
 
-main section h2{
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.middle-top p {
+	font-size: 16px;
+	width: 48.5%;
 	display: inline-block;
-	font-size: 30px;
+	margin: 25px 10px 25px 0;
+}
+
+
+.middle-top h2 {
+	border-bottom: 1px solid black;
+	display: inline-block;
 	position: absolute;
-	margin: 10px 50px 10px 200px;
+	margin-bottom: 25px;
 }
 
-main section p {
+.middle-img {
+	display: block;
+	width: 800px;
+	opacity: 0.75;
+}
+.middle-bottom p {
+	font-size: 16px;
+	width: 31.5%;
 	display: inline-block;
-	position: relative;
-	width: 500px;
-	height:200px;
-	font-size: 20px;
-	padding: 50px;
-	margin: 10px;
+	margin: 25px 10px 25px 0;
 }
 
-main img {
-	margin: 20px;
-	padding: 10px 100px;
-	display:block;
-	position: relative;
-	left: 800px;
+.middle-bottom h2 {
+	border-bottom: 1px solid black;
+	display: inline-block;
+	position: absolute;
+	margin-bottom: 25px;
 }
+
 footer {
-	padding: 30px 0px;
-	font-size: 25px;
+	height: 100%;
 }
-footer address {
-	float: left;
-	display: inline-block;
-	position: relative;
+footer section {
+	text-align: center;
+}
+
+footer h2 {
+	margin: 25px 0 10px;
+	text-decoration: underline;
+}
+footer .contact-info {
+	margin-top: 0;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 footer h5 {
-	display: inline-block;
-	position: absolute;
+	font-size: 12px;
+	border-top: 1px solid black;
+	padding-top: 25px;
 }
