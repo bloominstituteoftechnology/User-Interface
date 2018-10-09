@@ -63,69 +63,111 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-header {
-	display: inline-block;
+.container {
+	width: 1000px;
+	margin: 0 auto;
 }
 
-header nav {
-	display: inline-block;
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-header nav a {
+nav {
+	display: inline-block;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+nav a {
+	display: inline-block;
+	margin: 10px 20px 10px 20px;
 	color: grey;
-	text-decoration: none;
-	display: inline-block;
-	margin: 20px;
-	width: 10%;
-	border: 2px solid red;
+	width: 8%;
 }
 
-header img {
+nav .logo {
 	display: inline-block;
-	margin-right: 0px;
-	margin: 10px;
-	width: 20%;
-	text-align: center;
-	border: 2px solid red;
+	margin-left: 20px;
+	margin-top: 30px;
+	width: 16%;
 }
 
 .cta {
 	display: inline-block;
+	margin-bottom: 10px;
+	width: 100%;
 }
 
 .cta .cta-text {
-	display: block;
+	display: inline-block;
 	text-align: center;
-	font-size: 40px;
-	width: 75%;
-	border: 2px solid red;
+	font-size: 64px;
+	width: 50%;
+}
+
+.cta .cta-text h1 {
+	height: 220px;
 }
 
 .cta img {
 	display: inline-block;
-	margin: 0px auto;
-	padding: 10px;
-	border: 2px solid red;
+	align-items: center;
+	padding: 20px auto;
+	margin-top: 30px;
+	border-radius: 50%;
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	border: 1px solid grey;
+	text-align: center;
+	font: 20px;
+	vertical-align: top;
 }
 
 .main-content {
-	display: inline-block;
+	padding: 0 10px;
+	width: 100%;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-top: 40px;
 }
 
 .main-content .top-content .text-content {
-	display: inline;
+	display: inline-block;
 	vertical-align: center;
-	width: 50%;
-	border: 2px solid red;
+	width: 45%;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	vertical-align: center;
+	width: 30%;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 .middle-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	border: 2px solid red;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: 95%;
 }
 
+.contact {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-left: 380px;
+	margin-bottom: 100px;
+}
