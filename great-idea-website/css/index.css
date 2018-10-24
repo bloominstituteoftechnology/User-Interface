@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	margin: auto;
+    width: 53%;
+    padding: 10px;
+}
+
+/*Navbar*/
+.topnav {
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+    color: black;
+    text-align: left;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo{
+	float: right;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: #ddd;
+}
+
+/*Top Section*/
+.top{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+h1{
+	font-size: 70px;
+	width: 40%;
+	text-align: center;
+
+}
+
+.words{
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+
+	width: 49%;
+
+}
+
+.button{
+	border: 2px solid black;
+	display: inline;
+	padding: 5px 30px;
+	margin: 10px;
+}
+
+.circle{
+	display: inline-block;
+	margin: auto;
+	padding: 20px;
+	width: 49%;
+}
+
+/*Middle Section*/
+.middle{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.upper-middle{
+	display: inline-block;
+	padding: 30px 5px;
+	margin: auto;
+	width: 49%;
+}
+
+.lower-middle{
+	display: inline-block;
+	padding: 30px 5px;
+	margin: 5px;
+	width: 31%;
+}
+
+/*The footer and stuff below it*/
+footer{
+	padding: 20px 5px;
+	margin: 5px;
+}
+
+.contacts{
+	display: block;
+	padding: 5px 5px;
+	margin: 5px;
+}
+
+.copyright{
+	text-align: center;
+}
