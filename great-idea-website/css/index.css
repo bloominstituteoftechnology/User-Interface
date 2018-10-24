@@ -104,18 +104,17 @@ body{
 }
 
 h1{
-	font-size: 70px;
-	width: 40%;
+	font-size: 88px;
 	text-align: center;
-
 }
 
 .words{
 	text-align: center;
 	display: inline-block;
-	margin: auto;
-
-	width: 49%;
+	margin: 40px 10px;
+	width: 40%;
+	padding-top: 30px;
+	vertical-align: top;
 
 }
 
