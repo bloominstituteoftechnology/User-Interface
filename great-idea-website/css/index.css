@@ -143,6 +143,13 @@ nav a:hover{
 	display: inline-block;
 	padding: 4px 35px;
 	font-size: 18px;
+	transition: background-color 0.2s ease, color 0.2s ease;
+	cursor: pointer;
+}
+
+.get-started-btn:hover{
+	background-color: #212121;
+	color: white;
 }
 
 .header-cont-right{
