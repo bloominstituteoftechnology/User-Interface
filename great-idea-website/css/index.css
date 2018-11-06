@@ -74,25 +74,29 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	top: 30px;
 	right: 0;
-	width: 550px;
+	width: 650px;
 }
 
 .container header nav a{
-	padding: 0 10px;
+	padding: 0 50px 0 0;
+	color: gray;
+	text-decoration: none;
+	font: bold;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .container header img {
 	display: inline-block;
 	position: relative;
 	top: 40px;
-	left: 150px;
+	left: 50px;
 }
 
 .container div.big {
 	position: relative;
 	top: 25px;
 	width: 900px;
-	height: 600px;
+	height: 530px;
 	border-bottom: 2px solid black;
 }
 
@@ -100,6 +104,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	position: relative;
 	left: 80px;
+	top: 30px;
 	width: 280px;
 	text-align: center;
 }
@@ -108,7 +113,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	position: relative;
 	top: 100px;
-	left: 180px;
+	left: 250px;
 	width: 366px;
 }
 
@@ -120,11 +125,12 @@ h1 {
 .container div.big div.title div.subhead {
 	display: inline-block;
 	border: 2px solid black;
-	padding: 4px 50px;
+	padding: 4px 40px;
 }
 
 .container section {
-	height: 600px;
+	height: 615px;
+	border-bottom: 2px solid black;
 }
 .container section div.content {
 	position: relative;
@@ -136,25 +142,46 @@ h1 {
 	padding: 20px 0px;
 }
 
-.container section div.content div.preimg div.halves {
+.container section div.content div.preimg div.halves1 {
 	position: relative;
+	margin: 0 20px 0 0;
 	display: inline-block;
 	width: 445px;
+}
+
+.container section div.content div.preimg div.halves2 {
+	position: relative;
+	display: inline-block;
+	width: 430px;
 }
 
 .container section div.content div.preimg div.thirds {
 	position: relative;
 	display: inline-block;
-	width: 295px;
+	margin: 0 25px 0 0;
+	width: 280px;
 }
 
+.container section div.content div.preimg div.lastthirds {
+	position: relative;
+	display: inline-block;
+	width: 280px;
+}
+
+.middle-img {
+	padding: 25px 0 25px 0;
+	width: 900px;
+}
 .container footer {
 	display: inline-block;
 	position: relative;
 	width: 900px;
+	height: 300px;
+	top: 40px;
 }
 
 .container footer div.copyright {
 	position: relative;
 	text-align: center;
+	top: 60px;
 }
