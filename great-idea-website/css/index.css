@@ -65,8 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+p{
+	color: #212121;
+}
+
 h1 {
-	font-size: 45px;
+	font-size: 55px;
 }
 
 .container {
@@ -74,10 +78,17 @@ h1 {
 	margin: 0 auto;
 }
 
+header{
+	border-bottom: 1px solid #212121;
+	padding-bottom: 80px;
+	margin-bottom: 80px;
+}
+
 nav{
 	padding: 10px 0;
 	margin: 35px 0px;
 	position: relative;
+	margin-bottom: 70px;
 }
 
 nav a{
@@ -90,4 +101,28 @@ nav a{
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+
+.header-cont-left{
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.get-started-btn{
+	border: 1px solid #212121;
+	display: inline-block;
+	padding: 4px 35px;
+	font-size: 18px;
+}
+
+.header-cont-right{
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
+	text-align: center;
 }
