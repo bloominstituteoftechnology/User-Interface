@@ -19,12 +19,12 @@
   <div class="container">
     <header>
       <nav>
-        <a href="#">Services</a>
-        <a href="#">Product</a>
-        <a href="#">Vision</a>
-        <a href="#">Features</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#services" onclick="scrollViewPost();return false;">Services</a>
+        <a href="#product"onclick="scrollViewPost();return false;">Product</a>
+        <a href="#vision"onclick="scrollViewPost();return false;">Vision</a>
+        <a href="#features"onclick="scrollViewPre();return false;">Features</a>
+        <a href="#about"onclick="scrollViewPre();return false;">About</a>
+        <a href="#contact"onclick="scrollViewContact();return false;">Contact</a>
       </nav>
       <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
     </header>
@@ -87,6 +87,22 @@
     </footer>
 
   </div>
+  <script type="text/javascript">
+    function scrollViewPre(){
+      document.querySelector('.content').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+    }
+    function scrollViewPost(){
+      document.querySelector('.thirds').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+    }
+    function scrollViewContact(){
+      document.querySelector('footer').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+    }
+  </script>
 </body>
-
 </html>
