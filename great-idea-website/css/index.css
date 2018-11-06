@@ -64,3 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* General */
+
+/* Page Styles */
+.navigation {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	right:70px;
+}
+
+/* Specific */
+.navigation a {
+	text-decoration: none;
+	color:grey;
+	margin: 0 30px;
+}
+
+
+.navigation a:first-child {
+	text-decoration: none;
+	color:grey;
+	margin-left: 70px;
+}
