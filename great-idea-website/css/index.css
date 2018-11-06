@@ -75,6 +75,18 @@ h1 {
 }
 
 /* Page Styles */
+.container {
+	position: relative;
+}
+
+/* realized I messed up later in the assignment so I needed this to make my life a little easier... */
+
+.hacky-container {
+	margin: 0 auto;
+	width: 1300px;
+	
+}
+
 .navigation {
 	position: relative;
 }
@@ -124,6 +136,30 @@ h1 {
 .navigation a:first-child {
 	text-decoration: none;
 	margin-left: 70px;
+}
+
+.container__section-left {
+	display: inline-block;
+	width:45%;
+}
+
+.container__section-left h5 {
+	margin-top:20px;
+}
+
+.container__section-right h5 {
+	margin-top:20px;
+}
+
+.container__section-right {
+	display: inline-block;
+	width:45%;
+}
+
+.middle-img {
+	position: relative;
+	left:15%;
+	
 }
 
 
