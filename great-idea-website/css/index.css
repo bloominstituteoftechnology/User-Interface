@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .2px;
+	line-height: 1.1;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+header {
+	/* border: 2px solid red; */
+	position: relative;
+	height: 80px;
+	width: 900px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background: #6f7c84;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+nav {
+	/* border: 2px solid blue; */
+	display: inline-block;
+	margin: 32px auto;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0px 30px;
+	color: lightgrey;
+}
+
+nav a:hover {
+	color: #2d3235;
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	padding: 8px 50px;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+button:hover {
+	box-shadow: 0 2px 2px #2d3235;
+}
+
+address {
+	margin: 40px 0;
+}
+
+footer {
+	background: #6f7c84;
+	height: 50px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	/* fixed footer at bottom of page */
+	/* position: fixed;
+	bottom: 0;
+	z-index: 1;
+	width: 900px; */
+}
+
+.logo {
+	/* border: 2px solid green; */
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin: 20px 0;
+	padding-right: 10px;
+}
+/* 
+.logo-image {
+	background-image: url("/img/header-img.png");
+} */
+
+.main-banner {
+	height: 400px;
+	position: relative;
+	margin: 150px 0 50px 0;
+}
+
+.title-block {
+	/* border: 1px solid red; */
+	display: inline-block;
+	margin: 70px 40px 0 60px;
+	text-align: center;
+}
+
+.header-image {
+	/* border: 1px solid red; */
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+
+.container-double-column{
+	/* border: 2px solid brown; */
+	display: inline-block;
+	width: 400px;
+	margin: 55px 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.container-triple-column{
+	/* border: 2px solid brown; */
+	display: inline-block;
+	width: 280px;
+	margin: 50px 8px;
+	padding-right: 10px;
+}
+
+.double-container-section {
+	border-top: 1px solid black;
+}
+
+.triple-container-section {
+	border-bottom: 1px solid black;
+}

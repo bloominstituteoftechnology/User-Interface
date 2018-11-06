@@ -5,59 +5,100 @@
   <meta charset="utf-8">
 
   <title>Great Idea!</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+<!-- stretch goals 
+
+  - [X] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
+- [X] Introduce a new font family from [google fonts](https://fonts.google.com/)
+
+- [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
+
+- [ ] Change all the image tags into background images instead
+
+- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items -->
 </head>
 
   <body>
+    <header>
+      <nav>    
+        <a href="#">Services</a>
+        <a href="#">Product</a>
+        <a href="#">Vision</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <!-- <div class="logo-image logo"></div> -->
+      <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+    </header>
+    
+    <section class="main-banner">
+        <div class="title-block">
+          <h1> 
+            Innovation <br>
+            On <br>
+            Demand
+          </h1>
+          <button>Get Started</button>
+        </div>
+        <div class="header-image">
+          <img src="img/header-img.png" alt="Image of a code snippet.">
+        </div>
+      </section>
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
+ 
+    
+    <section class="double-container-section">
+      <div class="container-double-column">
+        <h2>Features</h2>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </div>
 
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
+      <div class="container-double-column">
+        <h2>About</h2>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </div>
+    </section>
 
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+   <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    <section class="triple-container-section">
+      <div class="container-triple-column">
+        <h2>Services</h2>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </div>
+
+      <div class="container-triple-column">
+        <h2>Product</h2>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </div>
+
+      <div class="container-triple-column">
+        <h2>Vision</h2>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      </div>
+    </section>
 
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
 
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
+  <address>
+  <h2>Contact</h2>
+  123 Way 456 Street <br>
+  Somewhere, USA <br><br>
+  1 (888) 888-8888 <br><br>
   sales@greatidea.io
+  </address>
 
-  Copyright Great Idea! 2018
-  
+  <footer>
+    Copyright Great Idea! 2018
+  </footer>
+
   </body>
 </html>
