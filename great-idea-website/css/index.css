@@ -95,6 +95,12 @@ footer span {
 	text-align: center;
 }
 
+.btn {
+	width: 100px;
+	height:30px;
+	background:white !important;
+}
+
 /* realized I messed up later in the assignment so I needed this to make my life a little easier... */
 
 .hacky-container {
@@ -104,6 +110,7 @@ footer span {
 }
 
 .navigation {
+	margin-top:15px;
 	position: relative;
 }
 
@@ -181,8 +188,9 @@ footer span {
 
 .middle-img {
 	position: relative;
-	left:15%;
+	/*left:15%; */
 	margin: 30px 0;
+	width:100%;
 	
 }
 
