@@ -37,4 +37,8 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [ ] Change all the image tags into background images instead
 
+<<<<<<< HEAD
 - [X] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+=======
+- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+>>>>>>> c7b627ac86a6cbe7362fbbe496408bb45d312e8a
