@@ -73,6 +73,10 @@ h1 {
 	font-size: 55px;
 }
 
+h2{
+	font-size: 25px;
+}
+
 .container {
 	width: 1100px;
 	margin: 0 auto;
@@ -81,7 +85,7 @@ h1 {
 header{
 	border-bottom: 1px solid #212121;
 	padding-bottom: 80px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 nav{
@@ -89,6 +93,13 @@ nav{
 	margin: 35px 0px;
 	position: relative;
 	margin-bottom: 70px;
+}
+
+section{
+	text-align: center;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #212121;
+	margin-bottom: 50px;
 }
 
 nav a{
@@ -125,4 +136,24 @@ nav a{
 	height: 379px;
 	overflow: hidden;
 	text-align: center;
+}
+
+.info-blocks{
+	display: inline-block;
+	padding-right: 20px;
+	text-align: left;
+}
+
+.above-image{
+	width: 548px;
+}
+
+.middle-img{
+	width: 100%;
+	margin: 45px 0;
+
+}
+
+.below-image{
+	width: 364px;
 }
