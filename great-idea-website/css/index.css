@@ -74,9 +74,25 @@ h1 {
 	letter-spacing: .06em;
 }
 
+footer {
+	margin-top:25px;
+}
+
+footer span {
+	margin-top:10px;
+	display:block;
+}
+
+
+
 /* Page Styles */
 .container {
 	position: relative;
+}
+
+.copyright {
+	
+	text-align: center;
 }
 
 /* realized I messed up later in the assignment so I needed this to make my life a little easier... */
@@ -141,6 +157,13 @@ h1 {
 .container__section-left {
 	display: inline-block;
 	width:45%;
+	margin-right:15px;
+}
+
+.container__section-right {
+	display: inline-block;
+	width:45%;
+	margin-left:15px;
 }
 
 .container__section-left h5 {
@@ -159,7 +182,13 @@ h1 {
 .middle-img {
 	position: relative;
 	left:15%;
+	margin: 30px 0;
 	
+}
+
+.container__left, .container__middle, .container__right {
+	display:inline-block;
+	width:28%;
 }
 
 
