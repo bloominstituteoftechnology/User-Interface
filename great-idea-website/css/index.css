@@ -102,6 +102,15 @@ section{
 	margin-bottom: 50px;
 }
 
+footer{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+address{
+	text-align: left;
+}
+
 nav a{
 	text-decoration: none;
 	color: lightslategray;
@@ -156,4 +165,8 @@ nav a{
 
 .below-image{
 	width: 364px;
+}
+
+.copyright{
+	margin-top: 45px;
 }
