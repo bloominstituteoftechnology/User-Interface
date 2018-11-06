@@ -68,6 +68,12 @@ h1, h2, h3, h4, h5 {
 
 /* General */
 
+h1 {
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: .06em;
+}
+
 /* Page Styles */
 .navigation {
 	position: relative;
@@ -78,16 +84,46 @@ h1, h2, h3, h4, h5 {
 	right:70px;
 }
 
+.header {
+	margin: 80px 0;
+	position: relative;
+}
+
+.header__left {
+	display: inline-block;
+	width:50%;
+	height: 100%;
+	text-align: center;
+	/* vertical-align:middle; */
+
+	position: relative;
+	bottom:60px;
+	left:60px;
+
+}
+
+.header__right {
+	display: inline-block;
+	position: relative;
+	left: 60px;
+}
+
+.snippet {
+	display: inline-block;
+}
+
 /* Specific */
 .navigation a {
 	text-decoration: none;
-	color:grey;
+	color:rgba(0, 0, 0, .3);
 	margin: 0 30px;
+	font-size: 15px;
 }
 
 
 .navigation a:first-child {
 	text-decoration: none;
-	color:grey;
 	margin-left: 70px;
 }
+
+
