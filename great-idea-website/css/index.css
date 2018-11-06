@@ -151,7 +151,7 @@ header .logo {
 }
 
 .heading-text a:hover {
-	animation: glow 3s infinite;
+	animation: glow 4s infinite;
 }
 
 .heading-image {
@@ -217,12 +217,12 @@ footer .copyright {
 @keyframes glow {
 	0%, 100% {
 		box-shadow: 0px 2px 2px black;
+		background-color: white;
 	}
 	50% {
 		transform: translate(0px, -4px);
-		box-shadow: 0px 2px 12px black;
-		text-shadow: 0px 0px 1px black;
+		box-shadow: 0px 2px 16px black;
+		text-shadow: 2px 2px 4px goldenrod;
+		background-color: #b6b5b6;
 	}
-
-	
 }
