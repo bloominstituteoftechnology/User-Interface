@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.container header nav {
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	right: 0;
+	width: 550px;
+}
+
+.container header nav a{
+	padding: 0 10px;
+}
+
+.container header img {
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 150px;
+}
+
+.container div.big {
+	position: relative;
+	top: 25px;
+	width: 900px;
+	height: 600px;
+	border-bottom: 2px solid black;
+}
+
+.container div.big div.title {
+	display: inline-block;
+	position: relative;
+	left: 80px;
+	width: 280px;
+	text-align: center;
+}
+
+.container div.big img {
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	left: 180px;
+	width: 366px;
+}
+
+h1 {
+	font: bold;
+	font-size: 56pt;
+}
+
+.container div.big div.title div.subhead {
+	display: inline-block;
+	border: 2px solid black;
+	padding: 4px 50px;
+}
+
+.container section {
+	height: 600px;
+}
+.container section div.content {
+	position: relative;
+	display: inline-block;
+	top: 50px;
+}
+
+.container section div.content div.preimg {
+	padding: 20px 0px;
+}
+
+.container section div.content div.preimg div.halves {
+	position: relative;
+	display: inline-block;
+	width: 445px;
+}
+
+.container section div.content div.preimg div.thirds {
+	position: relative;
+	display: inline-block;
+	width: 295px;
+}
+
+.container footer {
+	display: inline-block;
+	position: relative;
+	width: 900px;
+}
+
+.container footer div.copyright {
+	position: relative;
+	text-align: center;
+}
