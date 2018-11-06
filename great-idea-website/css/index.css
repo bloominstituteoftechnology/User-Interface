@@ -23,6 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+a {
+	text-decoration: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +67,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 16px 0 64px;
+	position: relative;
+	width: 100%;
+}
+
+header nav {
+	color: #b6b5b6;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 36px;
+}
+
+header nav a:visited {
+	color: #b6b5b6;
+}
+/* 
+	Selecting .logo inside header, beacuse some day we may use
+	the Logo elsewhere and will want different properties
+*/
+header .logo {
+	display: inline-block;
+	position: relative;
+	top: 12px;
+	margin-left: 48px;
+}
+
+.page-heading {
+	display: block;
+	border-bottom: 1px solid black;
+	padding-bottom: 76px;
+	margin-bottom: 42px;
+}
+
+.page-heading .heading-text {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.heading-text h1 strong {
+	font-size: 94px;
+	font-family: 'Bangers', sans-serif;
+	letter-spacing: 5px;
+}
+
+.heading-text img {
+	display: inline-block;
+	width: 50%;
+}
+
+.heading-text span {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 8px 42px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 12px;
+}
+
+.main-content {
+	display: block;
+	margin: 0 auto;
+}
+
+.main-content h2 {
+	font-size: 22px;
+}
+
+.main-content p {
+	font-size: 18px;
+}
+
+.main-content img {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.main-content .top-content .info-text {
+	width: 49%;
+	display: inline-block;
+	padding: 12px;
+}
