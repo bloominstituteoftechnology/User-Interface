@@ -64,3 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 45px;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+nav{
+	padding: 10px 0;
+	margin: 35px 0px;
+	position: relative;
+}
+
+nav a{
+	text-decoration: none;
+	color: lightslategray;
+	margin: 0px 90px 0px 0px;
+}
+
+.logo{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
