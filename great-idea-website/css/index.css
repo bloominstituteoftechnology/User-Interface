@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h2 {
+	font-size: 1.2rem;
+}
+hr {
+	margin: 40px 0;
+}
+header {
+	position: relative;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.container {
+	max-width: 900px;
+	margin: 30px auto;
+}
+.navigation {
+	display: inline-block;
+}
+.navigation a {
+	margin-right: 50px;
+}
+.nav-logo {
+	right: 0;
+}
+.heading {
+	position: relative;
+	height: 380px;
+}
+.start {
+	display: inline-block;
+	padding: 50px;
+}
+.start h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+.heading img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+
+.about-blurb1 {
+	display: inline-block;
+	width: 450px;
+	float: left;
+}
+.about-blurb2 {
+	display: inline-block;
+	width: 450px;
+	float: right;
+}
+
+.middle-img {
+	margin: 25px auto;
+}
+.services-blurb {
+	width: 250px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.middle-services-blurb {
+	margin: 0 30px;
+}
+
+
+footer p {
+	margin-top: 20px;
+	text-align: center;
+}
