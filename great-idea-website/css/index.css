@@ -47,20 +47,151 @@ table {
 	border-spacing: 0;
 }
 
+/* Your code starts here! */
+
+/* General Styles */
+
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+/* Page Styles */
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container {
+	width: 1024px;
+	padding: 0 70px;
+	margin: 0 auto;
+	/* background: dodgerblue; */
+}
+
+/* Specific Styles */
+
+nav {
+	position: relative;
+	margin: 30px 0;
+}
+
+nav img {
+	position: absolute;
+	bottom: -10px;
+	right: 60px;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 55px;
+	color: lightgray;
+	font-size: .8em;
+}
+
+header {
+	padding: 50px 0;
+	position: relative;
+	height: 500px;
+}
+
+.header-left {
+	display: inline-block;
+	position: absolute;
+	width: 49.9%;
+	top: 23%;
+}
+
+.header-right {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	width: 49.9%;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+header button {
+	display: block;
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+	margin: 0 auto;
+	border-radius: 1px;
+}
+
+header button a {
+	text-decoration: none;
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.section-top {
+	padding: 40px 0;
+	border-top: 1px solid black;
+}
+
+.section-top p {
+		margin-bottom: 15px;
+		padding-right: 8px;
+}
+
+.section-top-left {
+	display: inline-block;
+	width: 49%;
+}
+
+.section-top-right {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img {
+	margin: 0 auto;
+}
+
+.section-bottom {
+	padding: 40px 0;
+}
+
+.section-bottom-left {
+	display: inline-block;
+	width: 33%;
+}
+
+.section-bottom-mid {
+	display: inline-block;
+	width: 33%;
+}
+.section-bottom-right {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding: 40px 0;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	padding: 50px 0 120px;
+}
