@@ -115,6 +115,12 @@ nav a{
 	text-decoration: none;
 	color: lightslategray;
 	margin: 0px 90px 0px 0px;
+	border-bottom: 3px solid transparent;
+	transition: border-color 0.2s ease;
+}
+
+nav a:hover{
+	border-color: #212121;
 }
 
 .logo{
