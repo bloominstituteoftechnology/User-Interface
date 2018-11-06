@@ -86,16 +86,23 @@ header nav {
 header nav a {
 	display: inline-block;
 	padding-right: 72px;
+	transition: border-left .75s, padding-left .75s;
 }
 
 header nav a:visited {
 	color: #b6b5b6;
 }
 
+header nav a:hover {
+	border-left: 1px solid black;
+	padding-left: 3px;
+}
+
 header .logo {
 	display: inline-block;
 	position: relative;
 	top: 12px;
+	right: 0px;
 	margin-left: 48px;
 }
 
@@ -127,7 +134,7 @@ header .logo {
 	vertical-align: top;
 }
 
-.heading-text span {
+/* .heading-text span {
 	border: 1px solid black;
 	border-radius: 2px;
 	padding: 8px 42px;
@@ -135,6 +142,26 @@ header .logo {
 	letter-spacing: 1px;
 	margin-top: 32px;
 	font-size: 18px;
+} */
+
+.heading-text a {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 8px 42px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 32px;
+	font-size: 18px;
+	color: black;
+	box-shadow: 0px 2px 2px black;
+}
+
+.heading-text a:visited {
+	color: black;
+}
+
+.heading-text a:hover {
+	animation: glow 3s infinite;
 }
 
 .heading-image {
@@ -194,4 +221,18 @@ footer .copyright {
 	width: 100%;
 	text-align: center;
 	margin: 36px;
+}
+
+/* Get started button animation on hover */
+@keyframes glow {
+	0%, 100% {
+		box-shadow: 0px 2px 2px black;
+	}
+	50% {
+		transform: translate(0px, -4px);
+		box-shadow: 0px 2px 12px black;
+		text-shadow: 0px 0px 1px black;
+	}
+
+	
 }
