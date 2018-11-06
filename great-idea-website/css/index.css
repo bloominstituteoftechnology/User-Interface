@@ -23,6 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+a {
+	text-decoration: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +67,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 16px 0 64px;
+	position: relative;
+	width: 100%;
+}
+
+header nav {
+	color: #b6b5b6;
+}
+
+header nav a {
+	display: inline-block;
+	padding-right: 72px;
+	transition: border-left .75s, padding-left .75s;
+}
+
+header nav a:visited {
+	color: #b6b5b6;
+}
+
+header nav a:hover {
+	border-left: 1px solid black;
+	padding-left: 3px;
+}
+
+header .logo {
+	display: inline-block;
+	position: relative;
+	top: 12px;
+	right: 0px;
+	margin-left: 48px;
+}
+
+.page-heading {
+	display: block;
+	border-bottom: 1px solid black;
+	padding-bottom: 76px;
+	margin-bottom: 42px;
+}
+
+.page-heading .heading-text {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 32px;
+}
+
+.heading-text h1 {
+	font-size: 94px;
+	font-family: 'Bangers', sans-serif;
+	letter-spacing: 5px;
+	padding-bottom: 24px;
+}
+
+.heading-text img {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.heading-text a {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 8px 42px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 32px;
+	font-size: 18px;
+	color: black;
+	box-shadow: 0px 2px 2px black;
+}
+
+.heading-text a:visited {
+	color: black;
+}
+
+.heading-text a:hover {
+	animation: glow 4s infinite;
+}
+
+.heading-image {
+	display: inline-block;
+	width: 49%;
+	position: relative;
+	text-align: right;
+}
+
+.heading-image img {
+	position: relative;
+	right: 0;
+}
+
+.main-content {
+	display: block;
+	margin: 0 auto 42px;
+	padding: 24px 0;
+	border-bottom: 1px solid black;
+}
+
+.main-content h2 {
+	font-size: 22px;
+}
+
+.main-content p {
+	font-size: 18px;
+}
+
+.main-content img {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.main-content .top-content .info-text {
+	width: 49%;
+	display: inline-block;
+	padding: 12px 0;
+}
+
+.main-content .bottom-content .info-text {
+	width: 33%;
+	display: inline-block;
+	padding: 12px 6px;
+}
+
+footer h2 {
+	font-size: 22px;
+}
+
+footer address {
+	font-size: 20px;
+}
+
+footer .copyright {
+	width: 100%;
+	text-align: center;
+	margin: 36px;
+}
+
+/* Get started button animation on hover */
+@keyframes glow {
+	0%, 100% {
+		box-shadow: 0px 2px 2px black;
+		background-color: white;
+	}
+	50% {
+		transform: translate(0px, -4px);
+		box-shadow: 0px 2px 16px black;
+		text-shadow: 2px 2px 4px goldenrod;
+		background-color: #b6b5b6;
+	}
+}
