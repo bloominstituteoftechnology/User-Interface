@@ -54,13 +54,141 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Maven Pro', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* Global */
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+hr{
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+/* Navigation styling */
+.navigation header{
+	width: 100%;
+	position: fixed;
+	margin-bottom: 85px;
+	padding: 30px;
+	background-color: rgba(248, 223, 78, 0.863);
+}
+
+nav{
+	display: inline-block;
+}
+.logo-container{
+	display: relative;
+}
+.logo{
+	display:inline-block;
+	position: absolute;
+	right: 5px;
+	top: 20px;
+}
+header h1{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	color: rgb(2, 2, 2);
+	font-size: 1.1em;
+	margin-left: 20px; 
+	margin-right: 20px;
+	transition: 0.5s;
+}
+nav a:hover{
+	color:black;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+	transition: 0.1s;
+}
+
+
+/* Main heading styling */
+
+
+.main-article section{
+	display: inline-block;
+	width: 49%;
+	height: 340px;
+	text-align: center;
+	margin-top: 100px;
+}
+.main-article h1{
+	font-size: 4.6em;
+	word-spacing: 300px;
+	line-height: 75px;
+}
+.main-article button{
+	padding: 10px 35px;
+	background-color: white;
+	border: 1px solid black;
+}
+.main-article button:hover{
+	background-color: rgb(173, 173, 173);
+	color: black;
+	transition: 0.5s;
+}
+.main-article img{
+	display: inline-block;
+	height: 100%;
+}
+
+/* Main content styling */
+.content-article{
+	display: relative;
+	margin: 35px auto;
+	width: 100%;
+}
+
+.content-article .first-section{ 
+	display:inline-block;
+	width: 49.7%;
+}
+.first-section h2{
+	font-size: 1.1em;
+}
+.first-section p{
+	padding: 0 0 0 3px;
+}
+.content-article img{
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.second-section{
+	display:inline-block;
+	width: 33%;
+	height: 120px;
+}
+
+/* Footer styling */
+
+footer h3{
+	margin: 45px 0 0 0;
+}
+footer p{
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+/* Other */
+
+#big-header{
+	font-size: 4em;
+	text-align: center;
+}
