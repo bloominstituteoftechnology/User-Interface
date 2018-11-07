@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 25px 25px;
+	border: 1px solid red;
+	
+}
+
+nav {
+	border: 1px solid red;
+	display: inline-block;
+}
+
+nav .logo {
+	border: 1px solid red;
+	margin-left: 50px;
+}
+
+/*more Specific*/
+
+nav a {
+	color: grey;
+	margin: 30px;
+	text-decoration: none;
+}
+
+header h1 {
+	border: 1px solid red;
+	font-size: 55pt;
+	display: inline-block;
+	text-align: center;
+	width: 250px;
+	margin-bottom: 120px
+}
