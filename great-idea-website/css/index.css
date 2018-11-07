@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* General styles at the top */
+
+
+
+/* page styles in the middle */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+	border: 1px solid red;
+  }
+
+/* specific styles at the bottom */
+
+.topbar {
+	position: relative;
+	border: 1px solid blue;
+	height: 100px;
+
+}
+
+.topbar nav {
+	color: gray;
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	word-spacing: 50px;
+}
+
+.topbar nav a {
+	color: gray;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.topbar img {
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.midgraphics {
+	position: relative;
+	height: 379px;
+	border: 1px solid pink;
+}
+
+.midgraphics h1 {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	height: 379px;
+	width: 497px;
+	border: 1px solid green;
+}
+
+.midgraphics h2 {
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+	height: 379px;
+	width: 497px;
+	border: 1px solid green;
+}
+	
+.midgraphics img{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	border: 1px solid green;
+}
