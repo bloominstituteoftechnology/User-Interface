@@ -131,6 +131,9 @@ nav a:hover{
 	word-spacing: 300px;
 	line-height: 75px;
 }
+#push-down{
+	padding-top: 100px;
+}
 .main-article button{
 	padding: 10px 35px;
 	background-color: white;
