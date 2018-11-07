@@ -64,3 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 33%;
+	margin: 0 auto;
+	border: 2px solid blue;
+}
+
+header {
+	border: 2px solid red;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
