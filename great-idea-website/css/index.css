@@ -75,16 +75,13 @@ h1, h2, h3, h4, h5 {
 body {
 	width: 876px;
 	margin: 0 auto;
-	border: 1px solid red;
   }
 
 /* specific styles at the bottom */
 
 .topbar {
 	position: relative;
-	border: 1px solid blue;
 	height: 100px;
-
 }
 
 .topbar nav {
@@ -110,30 +107,85 @@ body {
 .midgraphics {
 	position: relative;
 	height: 379px;
-	border: 1px solid pink;
 }
 
 .midgraphics h1 {
 	display: inline-block;
 	position: absolute;
 	top: 50px;
-	height: 379px;
 	width: 497px;
-	border: 1px solid green;
+	font-size: 72px;
+	text-align: center;
 }
 
 .midgraphics h2 {
 	display: inline-block;
 	position: absolute;
-	top: 200px;
-	height: 379px;
-	width: 497px;
-	border: 1px solid green;
+	top: 120px;
+	height: 40px;
+	width: 175px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 160px;
+	font-family: 'Titillium Web', sans-serif;
 }
 	
 .midgraphics img{
 	display: inline-block;
 	position: absolute;
 	right: 0;
-	border: 1px solid green;
+}
+
+section {
+	position: relative;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 40px 0px;
+}
+
+.top {
+	padding: 30px 0px;
+}
+
+.p1 {
+	display: inline-block;
+	width: 420px;
+
+}
+
+.p2 {
+	display: inline-block;
+	width: 420px;
+	position: absolute;
+	right: 0;
+}
+
+.bottom {
+	padding: 30px 0px;
+}
+
+.p3 {
+	display: inline-block;
+	width: 280px;
+
+}
+
+.p4 {
+	display: inline-block;
+	width: 280px;
+	position: absolute;
+	right: 290px;
+}
+
+.p5 {
+	display: inline-block;
+	width: 280px;
+	position: absolute;
+	right: 0;
+
+}
+
+footer p {
+	text-align: center;
 }
