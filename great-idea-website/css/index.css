@@ -92,7 +92,7 @@ header nav a {
 	text-decoration: none;
 	color: lightgray;
 	padding: 0 5px;
-	margin: 0 40px;
+	margin: 0 30px;
 }
 
 header nav a:hover {
@@ -132,16 +132,17 @@ header .logo {
 .banner .banner-title {
 	text-align: center;
 	display: inline-block;
-	position: absolute;
-	top: 30px;
+	margin-right: 100px;
 	
 	
 }
 
 .banner img {
+	
 	height: 300px;
 	width: 300px;
-	margin-left: 500px;
+	margin-left: 100px;
+	
 }
 
 
@@ -155,7 +156,7 @@ header .logo {
 }
 
 .features {
-	border: 1px solid black;
+	
 	display: inline-block;
 	max-width: 45%;
 	margin-right: 50px;
@@ -166,7 +167,7 @@ header .logo {
 }
 
 .about {
-	border: 1px solid black;
+	
 	display: inline-block;
 	max-width: 45%;
 	position: absolute;
@@ -178,21 +179,46 @@ header .logo {
 .middle-img {
 	display: block;
 	margin: 0 auto;
-	max-width: 100%;
+	width: 100%;
+	object-fit: fill;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
 	
 }
 
 
-
+.bottom-content {
+	margin-bottom: 30px;
+}
 .services {
-	border: 1px solid black;
+	
+	display: inline-block;
+	width: 30%;
+	
 }
 
 .product {
-	border: 1px solid black;
+	
+	display: inline-block;
+	width: 30%;
+	margin-left: 30px;
+	
 }
 
 .vision {
-	border: 1px solid black;
+	
+	display: inline-block;
+	width: 30%;
+	margin-left: 40px;
+
 }
 
+.contact {
+	margin-top: 30px;
+}
+
+
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+}
