@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, button {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -72,14 +72,26 @@ h2 {
 hr {
 	margin: 40px 0;
 }
+button {
+	background: none;
+	border: 2px solid black;
+	padding: 20px 30px;
+	margin-left: 60px;
+}
+button:hover {
+	background-color: #f7f7f7;
+}
 header {
 	position: relative;
 }
 
 nav a {
-	color: black;
+	color: gray;
 	text-decoration: none;
 	font-size: 1.2rem;
+}
+nav a:hover {
+	color: black;
 }
 .container {
 	max-width: 900px;
@@ -87,6 +99,7 @@ nav a {
 }
 .navigation {
 	display: inline-block;
+	margin-bottom: 30px;
 }
 .navigation a {
 	margin-right: 50px;
@@ -100,7 +113,10 @@ nav a {
 }
 .start {
 	display: inline-block;
-	padding: 50px;
+    /* padding: 50px; */
+    width: 50%;
+    margin: auto;
+    padding: 100px;
 }
 .start h1 {
 	font-size: 3rem;
