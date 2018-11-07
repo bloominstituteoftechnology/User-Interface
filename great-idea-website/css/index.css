@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -64,3 +65,65 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.header_container 	{
+	margin: 5px auto;
+	display: inline-block;
+}
+
+.featuresabout_container h2, p	{
+	display: inline-block;
+}
+
+header nav	{
+	display: inline-block;
+}
+
+header nav a	{
+	color: gray;
+	margin: 30px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+
+
+}
+
+header img	{
+	padding: 0px;
+	right: 100px;
+}
+
+h1	{
+	font-size: 75px;
+}
+
+
+.whole_page div {
+	margin: 0 150px;
+}
+
+.splash_container	{
+	border-bottom: 1px solid black;
+}	
+
+.splash_container img	{
+	display: inline-block;
+}
+
+.contact_container h2, p {
+	display:block
+}
+
+.features_container	{
+	display: inline-block;
+}
+
+.about_container	{
+	display: inline-block;
+}
+
+.copyright_container {
+
+}
