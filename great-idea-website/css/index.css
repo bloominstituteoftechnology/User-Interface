@@ -67,34 +67,150 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: 0 auto;
-	padding: 25px 25px;
-	border: 1px solid red;
+	padding: 10px 30px;
 	
+	background-color: rgb(165, 165, 165)
 }
 
 nav {
-	border: 1px solid red;
+	
 	display: inline-block;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(16, 255, 195);
+	border-radius: 5px;
+	position: fixed;
 }
 
 nav .logo {
-	border: 1px solid red;
-	margin-left: 50px;
+	display: inline-block;
+	
+	margin-left: 30px;
+	margin-bottom: none;
 }
 
 /*more Specific*/
 
 nav a {
 	color: grey;
-	margin: 30px;
+	margin: 0 50px 0 0;
 	text-decoration: none;
+	padding: 5px;
+	padding-bottom: 30px;
 }
 
-header h1 {
-	border: 1px solid red;
-	font-size: 55pt;
-	display: inline-block;
+nav a:hover {
+	color: white;
+}
+
+h1 {
+	
+	font-size: 60pt;
 	text-align: center;
-	width: 250px;
-	margin-bottom: 120px
+	margin: 120px auto 0 70px;
+	float: left;
+	width: 350px
+}
+
+header img {
+	border-radius: 50%;
+	margin: 50px 65px;
+	float: right;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0);
+	
+}
+
+hr {
+	clear: both;
+	margin: 20px;
+}
+
+header a {
+	color: black;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	margin: 10px 0 0 170px;
+	text-align: center;
+	padding: 10px 0;
+	width: 155px;
+	text-decoration: none;
+	background-color: rgb(107, 107, 250);
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px rgb(44, 44, 44)
+}
+
+header a:hover {
+	transform: translate(0.6%, -1.6%);
+	box-shadow: 2px 2px 7px rgb(56, 55, 55)
+}
+
+h3 {
+	margin: 20px 0 20px 0;
+}
+
+.upper {
+
+	margin: 0 30px;
+}
+
+.container .upper .first {
+	display: inline-block;
+	width: 425px;
+
+	margin: 10px 0;
+}
+
+.container .upper .second {
+	display: inline-block;
+	width: 425px;
+
+	margin-left: 20px;
+}
+
+.middle-img {
+
+	margin: 20px 30px;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0)
+}
+
+.lower {
+
+	margin: 0 30px;
+}
+
+.container .lower .first {
+	display: inline-block;
+	width: 275px;
+
+	margin: 10px 0;
+}
+
+.container .lower .second {
+	display: inline-block;
+	width: 275px;
+
+	margin-left: 20px;
+}
+
+.container .lower .third {
+	display: inline-block;
+	width: 275px;
+
+	margin-left: 20px;
+}
+
+.contact {
+	display: inline-block;
+
+	margin: 10px 30px;
+}
+
+.contact p {
+	margin: 15px 0;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(16, 255, 195);
+	padding: 10px;
 }
