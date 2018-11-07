@@ -64,3 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	color: gainsboro;
+	display: inline-block;
+	margin: 35px 0px 35px 70px;
+}
+
+.logo{
+	margin: 35px 0px -10px 100px;
+	display: inline;
+}
+
+.title {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	margin: 0px 100px 0px 250px;
+}
