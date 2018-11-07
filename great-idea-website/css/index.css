@@ -151,19 +151,24 @@ h5 {
 
 /* Your code starts here! */
 /*General styles*/
-/* nav {
+nav {
   background-color: gray;
-  border: 1px solid gray;
-} */
+}
 
 h1 {
+  font-family: "Kumar One Outline", cursive;
   font-size: 100px;
 }
+
 a {
   text-decoration: none;
-  color: grey;
+  color: black;
   display: inline-block;
   margin: 40px 50px;
+}
+
+a:hover {
+  color: white;
 }
 
 header {
@@ -177,9 +182,9 @@ header {
   border: 0.5px solid black;
 }
 
-/* footer {
+footer {
   border-bottom: 15px solid gray;
-} */
+}
 /* page style */
 
 .logo {
