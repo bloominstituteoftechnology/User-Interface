@@ -71,15 +71,25 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1024px;
 	padding: 0 70px;
-	margin: 0 auto;
+	margin: 10px auto 0;
 	/* background: dodgerblue; */
 }
 
 /* Specific Styles */
 
+.nav-container {
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
 nav {
 	position: relative;
-	margin: 30px 0;
+	width: 884px;
+	margin: 20px auto;
 }
 
 nav img {
