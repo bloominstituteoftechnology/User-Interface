@@ -78,13 +78,25 @@ header {
 	margin-top: 20px;
 	padding-top: 5px;
 	height: 40px;
+	margin-bottom: 100px;
 }
 
 header nav {
 	display: inline-block;
 	position: absolute;
 	left: 0px;
-	top: 10px;
+	top: 15px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+	padding: 0 5px;
+	margin: 0 40px;
+}
+
+header nav a:hover {
+	color: blue;
 }
 
 header .logo {
@@ -95,46 +107,92 @@ header .logo {
 }
 
 
-/* Banner */
-.banner {
-	border: 1px solid red;
-	width: 100%;
-	margin: 30px auto;
-	padding-top: 10px;
-	height: 500px;
-	position: relative;
-}
+/* BANNER */
 
-.banner .banner-title {
-	display: inline-block;
+.banner {
+	position: relative;
+	max-width: 90%;
+	height: 400px;
+	margin: 0 auto;
 	text-align: center;
-	position: absolute;
-	left: 0;
 }
 
 
 .banner .banner-title h1 {
-	font-size: 40px;
+	font-size: 60px;
 	
 }
+
 .banner .banner-title p {
-	font-size: 20px;
-	border: 1px solid grey;
-	padding: 5px 10px;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 5px 30px;
 }
 
-.banner .banner-title .banner-img {
-	display: inline;
+.banner .banner-title {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	
+	
+}
+
+.banner img {
 	height: 300px;
 	width: 300px;
+	margin-left: 500px;
+}
+
+
+
+/*  CONTENT  */
+
+.top-content {
+	margin-top: 50px;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.features {
+	border: 1px solid black;
+	display: inline-block;
+	max-width: 45%;
+	margin-right: 50px;
+	position: absolute;
+	left: 0;
+	line-height: 1.3;
 	
+}
+
+.about {
+	border: 1px solid black;
+	display: inline-block;
+	max-width: 45%;
+	position: absolute;
+	right: 0;
+	line-height: 1.3;
+	
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
 	
 }
 
 
-.content {
-	margin-top: 800px;
-	border: 1px solid grey;
+
+.services {
+	border: 1px solid black;
 }
 
+.product {
+	border: 1px solid black;
+}
+
+.vision {
+	border: 1px solid black;
+}
 
