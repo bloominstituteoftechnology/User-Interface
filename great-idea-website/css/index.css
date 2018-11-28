@@ -178,3 +178,7 @@ p, .features, .about, h2 {
 .middle-img {
   margin-left: 1px;
 }
+
+footer {
+  text-align: center;
+}
