@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .container {
@@ -88,7 +89,6 @@ nav {
 
 nav a {
   color: rgb(188,188,188);
-  text-decoration: none;
   font-size: 14px;
 }
 
