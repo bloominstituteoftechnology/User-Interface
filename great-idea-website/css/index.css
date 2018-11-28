@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+a {
+  color: inherit;
+}
+
 .container {
   width: 1024px;
   min-height: 1px;
@@ -128,20 +132,24 @@ nav a {
 }
 
 h1 {
-  font-size: 72px;
-  font-weight: semi-bold;
+  font-size: 72px;=
 }
 
 .get-started {
   display:inline-block;
   border: 1px solid black;
   padding: 10px 50px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .code-snippet {
   display:inline-block;
   margin-left: 125px;
+}
+
+main {
+  margin-left: 74px;
+  margin-right: 75px;
 }
 
 section {
@@ -152,13 +160,21 @@ p, .features, .about, h2 {
   display: inline-block;
 }
 
-.features, .about {
-  width: 49%;
+.features {
+  width: 425px;
+}
+
+.about {
+  width: 425px;
+  margin-left: 20px;
 }
 
 .top-section {
   border-top: 1px solid black;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-bottom: 40px;
   padding-top: 38px;
+}
+
+.middle-img {
+  margin-left: 1px;
 }
