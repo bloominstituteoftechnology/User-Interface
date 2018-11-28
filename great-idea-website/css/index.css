@@ -88,6 +88,27 @@ nav a {
   font-size: 14px;
 }
 
-.logo {
+#nav-product {
+  margin-left: 62px;
+}
+
+#nav-vision {
+  margin-left: 63px;
+}
+
+#nav-features {
+  margin-left: 64px;
+}
+
+#nav-about {
+  margin-left: 63px;
+}
+
+#nav-contact {
+  margin-left: 63px;
+}
+
+#logo {
   vertical-align: middle;
+  margin-left: 92px;
 }
