@@ -112,3 +112,53 @@ nav a {
   vertical-align: middle;
   margin-left: 92px;
 }
+
+#splash {
+  margin-top: 70px;
+  margin-bottom: 75px;
+}
+
+.innovation {
+  display:inline-block;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 65px;
+  vertical-align: top;
+  line-height: 0.85;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: semi-bold;
+}
+
+.get-started {
+  display:inline-block;
+  border: 1px solid black;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+
+.code-snippet {
+  display:inline-block;
+  margin-left: 125px;
+}
+
+section {
+  display: block;
+}
+
+p, .features, .about, h2 {
+  display: inline-block;
+}
+
+.features, .about {
+  width: 49%;
+}
+
+.top-section {
+  border-top: 1px solid black;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-top: 38px;
+}
