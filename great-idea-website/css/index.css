@@ -68,14 +68,22 @@ h1, h2, h3, h4, h5 {
 .container {
   width: 1024px;
   min-height: 1px;
+  margin: auto;
+}
+
+header {
+  margin-top: 27px;
 }
 
 nav {
   display: inline-block;
+  margin-left: 75px;
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 nav a {
-  color: silver;
+  color: rgb(188,188,188);
   text-decoration: none;
   font-size: 14px;
 }
