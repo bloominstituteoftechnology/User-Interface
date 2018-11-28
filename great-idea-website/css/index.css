@@ -74,6 +74,12 @@ nav {
   display: inline-block;
 }
 
+nav a {
+  color: silver;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 .logo {
   vertical-align: middle;
 }
