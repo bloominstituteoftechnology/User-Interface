@@ -182,6 +182,9 @@ p, .features, .about, h2, .services, .product, .vision {
 
 .bottom-section {
   margin-top: 42px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid black;
+  margin-bottom: 39px;
 }
 
 .services {
@@ -201,4 +204,7 @@ p, .features, .about, h2, .services, .product, .vision {
 small {
   text-align: center;
   display:block;
+  font-size: 14px;
+  margin-top: 56px;
+  margin-bottom: 114px;
 }
