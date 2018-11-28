@@ -156,8 +156,9 @@ section {
   display: block;
 }
 
-p, .features, .about, h2 {
+p, .features, .about, h2, .services, .product, .vision {
   display: inline-block;
+  vertical-align: top;
 }
 
 .features {
@@ -177,6 +178,24 @@ p, .features, .about, h2 {
 
 .middle-img {
   margin-left: 1px;
+}
+
+.bottom-section {
+  margin-top: 42px;
+}
+
+.services {
+  width: 275px;
+}
+
+.product {
+  width: 275px;
+  margin-left: 20px;
+}
+
+.vision {
+  width: 275px;
+  margin-left: 21px;
 }
 
 small {
