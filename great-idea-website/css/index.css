@@ -179,6 +179,7 @@ p, .features, .about, h2 {
   margin-left: 1px;
 }
 
-footer {
+small {
   text-align: center;
+  display:block;
 }
