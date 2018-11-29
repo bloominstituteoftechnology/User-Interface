@@ -65,18 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	margin: 50px auto;
+	margin: 50px 100px;
 	position: relative;
 }
 
 .logo {
 	position: absolute;
 	top: -15px;
-	left: 70%;
+	left: 75%;
 }
 
 nav > a {
-	padding: 50px;
+	left: 0;
+	padding: 50px 85px 50px 0px;
 	font-size: 1.3rem;
 	text-decoration: none;
 	color: grey;
@@ -88,8 +89,8 @@ nav > a:hover {
 
 .big-text {
 	display: inline-block;
-	margin: 150px 0px 50px 250px;
-	width: 400px;
+	margin: 120px 30px 50px 250px;
+	width: 300px;
 	height: 400px;
 	font-size: 5rem;
 	text-align: center;
@@ -118,7 +119,7 @@ button:hover {
 }
 
 .middle-img {
-	width: 100vw;
+	width: 100%;
 }
 
 .bottom-container {
