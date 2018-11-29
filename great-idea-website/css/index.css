@@ -114,13 +114,49 @@ button:hover {
 	margin: 100px 0px 50px 100px;
 }
 
-.top-section {
-	
+
+.top-section > div {
+	padding: 30px 30px 30px 0;
+}
+
+.left-div {
+	float: left;
+	width: 50%;
+}
+
+.right-div {
+	float: right;
+	width: 50%;
 }
 
 .middle-img {
 	width: 100%;
 }
 
-.bottom-container {
+.bottom-section > div {
+	padding: 30px 30px 30px 0;
+}
+
+.first-div {
+	float: left;
+	width: 33.3%;
+}
+
+.second-div {
+	float: left;
+	width: 33.3%;
+}
+
+.third-div {
+	float: left;
+	width: 33.3%;
+}
+
+.contact {
+	padding: 30px 30px 30px 0;
+}
+
+footer > p {
+	text-align: center;
+	padding: 80px;
 }
