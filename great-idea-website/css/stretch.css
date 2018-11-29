@@ -86,6 +86,7 @@ header {
   right: 100px;;
   padding-left: 75px;
   padding-right: 75px;
+  text-align: center;
 }
 
 nav {
@@ -133,7 +134,7 @@ nav a {
 .innovation {
   display:inline-block;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 65px;
   vertical-align: top;
   line-height: 0.85;
