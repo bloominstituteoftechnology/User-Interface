@@ -80,11 +80,16 @@ header {
   padding-top: 27px;
   padding-bottom: 27px;
   background-color: darkslategray;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: auto;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 nav {
   display: inline-block;
-  margin-left: 75px;
   vertical-align: top;
   margin-top: 10px;
 }
@@ -121,7 +126,7 @@ nav a {
 
 
 #splash {
-  margin-top: 43px;
+  margin-top: 132px;
   margin-bottom: 75px;
 }
 
