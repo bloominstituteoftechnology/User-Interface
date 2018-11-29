@@ -77,7 +77,9 @@ a {
 }
 
 header {
-  margin-top: 27px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: darkslategray;
 }
 
 nav {
@@ -117,8 +119,9 @@ nav a {
   margin-left: 92px;
 }
 
+
 #splash {
-  margin-top: 70px;
+  margin-top: 43px;
   margin-bottom: 75px;
 }
 
