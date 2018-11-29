@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Merriweather';
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Montserrat';
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -82,8 +82,8 @@ header {
   background-color: darkslategray;
   position: fixed;
   top: 0;
-  left: auto;
-  right: auto;
+  left: 100px;
+  right: 100px;;
   padding-left: 75px;
   padding-right: 75px;
 }
@@ -133,7 +133,7 @@ nav a {
 .innovation {
   display:inline-block;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 65px;
   vertical-align: top;
   line-height: 0.85;
@@ -147,7 +147,7 @@ h1 {
   display:inline-block;
   border: 1px solid black;
   padding: 10px 50px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .code-snippet {
