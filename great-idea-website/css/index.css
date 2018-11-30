@@ -189,16 +189,18 @@ nav a:hover {
   display: inline-block;
   width: 300px;
   height: 300px;
-  margin: 50px 100px;
-}
-
-#header {
-  text-align: center;
-  margin-left: 0;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 70px;
+}
+
+#header {
+  margin: 0 100px 50px 0;
+}
+
+.headerIMG {
+  margin-bottom: -70px;
 }
 
 article {
