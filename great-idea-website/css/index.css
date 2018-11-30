@@ -151,9 +151,21 @@ h5 {
 
 /* Your code starts here! */
 
-body {
-  margin: 60px 60px;
-  box-sizing: border-box;
+.nav {
+  margin: 30px 500px;
+}
+nav a {
+  margin: 0 20px 0 0;
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
 }
 
 .logo {
@@ -161,20 +173,63 @@ body {
 }
 
 .container {
-  display: flex;
+  margin: 35px 250px 0 250px;
+  text-align: center;
 }
 
-.headerIMG {
-  display: right;
+.innovation {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 50px 100px;
 }
 
-.container,
-.article,
+#header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+article {
+  margin: 0 500px;
+}
+
+.boxfeature {
+  width: 430px;
+  height: 100px;
+  display: inline-block;
+}
+
+#about {
+  margin-left: 30px;
+}
+
+.middleimg {
+  text-align: center;
+  margin: 35px 0;
+}
+
+#boxthree {
+  margin-left: 25px;
+}
+
+.boxthree {
+  width: 280px;
+  height: 100px;
+  display: inline-block;
+}
+
 .address {
-  margin: 0 auto;
-  padding: 40px;
+  margin-left: 500px;
 }
 
+hr {
+  margin: 35px 500px;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding-bottom: 100px;
