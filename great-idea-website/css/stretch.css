@@ -98,6 +98,15 @@ nav {
 nav a {
   color: rgb(188,188,188);
   font-size: 14px;
+  background-image: linear-gradient(to bottom, transparent 65%, #161616 10%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
 }
 
 #nav-product {
@@ -218,16 +227,3 @@ small {
   margin-bottom: 114px;
 }
 
-nav a {
-  background-image: linear-gradient(to bottom, transparent 65%, #161616 10%);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  text-decoration: none;
-  transition: background-size 0.4s ease;
-}
-
-
-nav a:hover {
-  background-size: 100% 100%;
-  cursor: pointer;
-}
