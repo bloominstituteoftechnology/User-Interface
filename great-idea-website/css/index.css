@@ -3,64 +3,339 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Ranga", cursive, "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+/* General */
+.container {
+  background-color: azure;
+  padding: 15px 75px;
+  margin: 0 auto;
+  width: 1024px;
+}
+/* Navigation Area */
+.sticky-nav {
+  background-color: lightblue;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  height: 10vh;
+}
+
+nav ul {
+  display: inline-block;
+  font-size: 14px;
+  position: absolute;
+  top: 25px;
+}
+
+.nav-ul li {
+  display: inline-block;
+}
+
+.nav-ul li:not(:first-child) {
+  margin-left: 63px;
+}
+
+.nav-ul a {
+  color: grey;
+  text-decoration: none;
+}
+
+nav .logo {
+  display: inline-block;
+  position: absolute;
+  margin-top: 12px;
+  right: 0;
+}
+
+/* Header */
+
+header {
+  border-bottom: 1px solid black;
+  position: relative;
+  height: 487px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 72px;
+  letter-spacing: 6px;
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  text-align: center;
+}
+
+header h1 span {
+  display: block;
+  margin-bottom: 3px;
+}
+
+header img {
+  position: absolute;
+  right: 2px;
+  top: 30px;
+}
+
+header img:hover {
+  animation: spin 2s linear infinite;
+}
+
+header a {
+  background-color: lightblue;
+  border: 1px solid black;
+  color: black;
+  padding: 6px 42px;
+  position: absolute;
+  bottom: 120px;
+  left: 152px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header a:hover {
+  animation: headerBtnFade 0.4s forwards ease-out;
+}
+
+header a:active {
+  animation: headerBtnClick 0.2s forwards ease-out;
+}
+
+@keyframes headerBtnFade {
+  0% {
+    background-color: lightblue;
+    color: black;
+  }
+  100% {
+    background-color: black;
+    color: white;
+  }
+}
+
+@keyframes headerBtnClick {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Main */
+
+main {
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+section {
+  margin-bottom: 39px;
+  line-height: 17px;
+}
+
+section img {
+  width: 100%;
+}
+
+.section-div-2col {
+  display: inline-block;
+  width: 49%;
+}
+
+.section-div-2col:last-child {
+  margin-left: 12px;
+}
+
+.section-div-3col {
+  display: inline-block;
+  width: 33%;
+}
+
+.section-div-3col:not(:first-child) {
+  padding-left: 10px;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 38px;
+  position: relative;
+  height: 300px;
+}
+
+footer span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.span-big-margin {
+  margin-top: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
