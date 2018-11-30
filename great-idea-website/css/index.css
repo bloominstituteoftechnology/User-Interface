@@ -152,8 +152,13 @@ h5 {
 /* Your code starts here! */
 
 .nav {
-  margin: 30px 500px;
+  margin: 30px 510px;
 }
+
+.linkone {
+  margin-left: 0;
+}
+
 nav a {
   margin: 0 20px 0 0;
   display: inline-block;
@@ -173,7 +178,7 @@ nav a:hover {
 }
 
 .container {
-  margin: 35px 250px 0 250px;
+  margin: 35px 260px 0 260px;
   text-align: center;
 }
 
@@ -186,6 +191,7 @@ nav a:hover {
 
 #header {
   text-align: center;
+  margin-left: 0;
 }
 
 h1 {
@@ -193,7 +199,7 @@ h1 {
 }
 
 article {
-  margin: 0 500px;
+  margin: 0 510px;
 }
 
 .boxfeature {
@@ -203,7 +209,7 @@ article {
 }
 
 #about {
-  margin-left: 30px;
+  margin-left: 5px;
 }
 
 .middleimg {
@@ -212,7 +218,7 @@ article {
 }
 
 #boxthree {
-  margin-left: 25px;
+  margin-left: 17px;
 }
 
 .boxthree {
@@ -222,16 +228,16 @@ article {
 }
 
 .address {
-  margin-left: 500px;
+  margin-left: 510px;
 }
 
 hr {
-  margin: 35px 500px;
+  margin: 35px 510px;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding-bottom: 100px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
