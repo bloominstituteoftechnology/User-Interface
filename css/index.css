@@ -151,8 +151,8 @@ h5 {
 
 /* Your code starts here! */
 
-.nav {
-  margin: 30px 510px;
+body {
+  margin: 30px 50px 50px 50px;
 }
 
 button {
@@ -181,7 +181,7 @@ nav a:hover {
 }
 
 .container {
-  margin: 35px 260px 0 260px;
+  margin: 35px 0 0 0;
   text-align: center;
 }
 
@@ -201,10 +201,6 @@ h1 {
 
 .headerIMG {
   margin-bottom: -70px;
-}
-
-article {
-  margin: 0 510px;
 }
 
 .boxfeature {
@@ -232,12 +228,8 @@ article {
   display: inline-block;
 }
 
-.address {
-  margin-left: 510px;
-}
-
 hr {
-  margin: 35px 510px;
+  margin: 35px 0;
 }
 
 /* Footer */
