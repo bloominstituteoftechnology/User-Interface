@@ -203,14 +203,15 @@ h1 {
   margin-bottom: -70px;
 }
 
-.boxfeature {
-  width: 430px;
-  height: 100px;
-  display: inline-block;
+#boxfeature {
+  text-align: center;
 }
 
-#about {
-  margin-left: 5px;
+.boxfeature {
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  text-align: left;
 }
 
 .middleimg {
@@ -222,8 +223,13 @@ h1 {
   margin-left: 17px;
 }
 
+.boxes {
+  text-align: center;
+}
+
 .boxthree {
-  width: 280px;
+  text-align: left;
+  width: 250px;
   height: 100px;
   display: inline-block;
 }
