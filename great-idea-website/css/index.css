@@ -91,9 +91,11 @@ nav a {
 }
 
 .innovation{
-	border: 5px solid black;
 	display: inline-block;
 	width: 435px;
+	border: 1px solid black;
+	padding: 100px;
+	height: 380px;
 }
 
 .large-image {
@@ -105,4 +107,23 @@ nav a {
 
 hr {
 	border-color: black;
+}
+
+h1 {
+	font-size: 50px;
+	white-space: pre-line;
+	height: 100px;
+	text-align: center;
+}
+
+.button-container {
+	padding-left: 43px;
+	padding-top: 50px;
+}
+
+.button {
+	border: 1px solid black;
+	width: 200px;
+	padding: 10px 20px;
+	display: inline-block;
 }
