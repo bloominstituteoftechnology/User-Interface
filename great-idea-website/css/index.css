@@ -72,16 +72,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .container header {
-	width: 100%;
+	background-color: orange;
+	position: fixed;
+	width: 876px;
 	height: 100px;
 	margin-bottom: 20px;
+	z-index: 1;
 }
 
 .container header nav {
-	position: absolute;
+	position: relative;
 	display: inline-block;
 	top: 20px;
-	left: 0;
+	/* left: 180px; */
 	
 }
 
@@ -89,10 +92,10 @@ h1, h2, h3, h4, h5 {
 	color: lightgray;
 	margin-right: 30px;
 }
-.container header .logo {
+.container	header .logo {
 	position: absolute;
+	top: 5%;
 	right: 0;
-	
 }
 
 .container section  {
@@ -100,6 +103,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	height: 379px;
 	width: 876px;
+	margin-top: 100px;
 	margin-bottom: 30px;
 }
 .container section .logo2 {
@@ -142,15 +146,15 @@ h1, h2, h3, h4, h5 {
 
 .containerFirstSection .Features {
 	display: inline-block;
-	position: absolute;
-	width: 438px;
+	/* position: absolute; */
+	width: 49%;
 	left: 0;
 }
 
 .containerFirstSection .About {
 	display: inline-block;
-	position: absolute;
-	width: 438px;
+	/* position: absolute; */
+	width: 49%;
 	right: 0;
 }
 
@@ -172,22 +176,21 @@ h1, h2, h3, h4, h5 {
 
 .containerThirdSection .Services {
 	display: inline-block;
-	position: absolute;
+	/* position: absolute; */
 	width: 280px;
 	left: 0;
 }
 
 .containerThirdSection .Product {
 	display: inline-block;
-	position: absolute;
+	/* position: absolute; */
 	width: 280px;
 	left: 292px;
-	margin: 0 10px;
+	margin: 0 10px; 
 }
 
 .containerThirdSection .Vision {
 	display: inline-block;
-	position: absolute;
 	width: 280px;
 	right: 0;
 }
