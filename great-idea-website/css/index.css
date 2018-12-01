@@ -65,17 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header {
-	margin-top: 65px;
-	text-align: center;
-	border: 2px solid black;
+body {
+	width: 876px;
+	margin: 0 auto;
 }
 
-h1 {
+header {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.h1-div {
 	font-size: 65px;
 	width: 250px;
+	height: 250px;
 	display: inline-block;
-	border: 2px solid red;
 }
 
 button {
@@ -87,7 +91,7 @@ button {
 	height: 40px;
 }
 
-.image-circle {
+.img-div {
 	display: inline-block;
 }
 
@@ -99,7 +103,7 @@ button {
 .navigation a {
 	text-decoration: none;
 	color: grey;
-	padding: 20px;
+	padding: 10px;
 	margin-left: 25px;
 }
 
@@ -109,3 +113,44 @@ button {
 	right: 0;
 }
 
+.top-content {
+	border-top: 2px solid black;
+	text-align: justify;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	
+}
+
+.features {
+	display: inline-block;
+	width: 400px; 
+}
+
+.about {
+	display: inline-block;
+	width: 400px;
+	position: absolute;
+	right: 0;
+}
+
+.bottom-content {
+	text-align: justify;
+	border-bottom: 2px solid black;
+}
+
+.contact {
+	margin-top: 20px;
+	width: 140px;
+	height: 140px;
+	
+}
+
+address {
+	line-height: 25px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+}
