@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5 {
 .navigation a {
 	color: rgb(184, 184, 184);
 	display: inline-block;
-	justify-content: space-around;
+	font-size: 24px;
+	/* justify-content: space-around; */
 	padding-left: 12%;
 }
 
@@ -104,10 +105,10 @@ header h1 {
 }
 
 @keyframes button-hover {
-	25% {border-left-width: 2px; border-left-color: chocolate;}
-	50% {border-top-width: 2px; border-left-color: aquamarine;}
-	75% {border-right-width: 2px; border-left-color: blueviolet;}
-	100% {border-bottom-width: 2px; border-bottom-color: maroon;}
+	25% {border-left-width: 2px; border-left-color: chocolate; color: chocolate;}
+	50% {border-top-width: 2px; border-top-color: aquamarine; color: aquamarine;}
+	75% {border-right-width: 2px; border-right-color: blueviolet; color: blueviolet;}
+	100% {border-bottom-width: 2px; border-bottom-color: maroon; color: maroon;}
 }
 
 .button:hover {
@@ -224,12 +225,12 @@ p {
 }
 
 @keyframes a-hover {
-	100% {background: lightgreen; border: 2px solid coral;}
+	100% {background: lightgreen;color:white; border: 2px solid coral;}
 }
 
 .navigation a:hover {
 	animation-name: a-hover;
-	animation-duration: 3s;
+	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
 }
