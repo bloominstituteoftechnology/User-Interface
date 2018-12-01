@@ -64,3 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* h1{
+	font-size: 24px; 
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+*/
+.navigation{
+	display: inline;
+	margin-top: 10px;
+}
+.navigation a {
+    padding: 35px;
+    border: 0;
+    font-size: 100%;
+	color: grey;
+	text-decoration: none;
+}
+
+	
