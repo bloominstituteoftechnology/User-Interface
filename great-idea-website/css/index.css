@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 auto;
+	width: 880px;
+	font-size: 16px;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	background-color: white;
+	padding: 5px;
+}
+
+header nav a {
+	margin: 10px 28px;
+	font-size: 15px;
+	text-decoration: none;
+	color: grey;
+	display: inline-block;
+}
+
+header nav a:first-of-type {
+	margin-left: 0;
+}
+
+.navigation-bar {
+	width: 850px;
+	top: 0;
+	border-bottom: 2px solid black;
+	position: fixed;
+	z-index: 2;
+}
+
+.logo {
+	position: absolute;
+	right: 0;
+	padding-bottom: 5px;
+	
+}
+
+h1 {
+	font-size: 70px;
+}
+
+
+
+.first-section {
+	margin-top: 35px;
+	width: 850px;
+	height: 440px;
+	position: relative
+}
+
+.first-section button {
+	border: 1px solid black;
+	background-color: white;
+	padding: 0 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	width: 170px;
+	height: 40px;
+}
+
+.left-side {
+	padding: 50px;
+	width: 440px;
+	text-align: center;
+	margin-top: 70px;
+	position: absolute;
+	display: inline-block;
+}
+
+.right-side {
+	padding: 30px 0;
+	right: 0;
+	width: 440px;
+	position: absolute;
+	display: inline-block;
+}
+
+.second-section {
+	padding: 30px 0 50px 0;
+	margin-top: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.third-section {
+	width: 275px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.third-section-left {
+	margin-left: 0;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 40px 0;
+}
