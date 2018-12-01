@@ -75,7 +75,7 @@ body{
 .navbar{
   width: 880px;
   top: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   position: fixed;
   z-index: 2;
 }
@@ -96,8 +96,6 @@ header nav a{
   text-decoration: none;
   color: gray;
   display: inline-block;
-
-
   background-position: right bottom;
   transition: all .25s ease-in-out;
 }
@@ -105,8 +103,6 @@ header nav a{
 header nav a:hover{
   background: linear-gradient(to right, black 50%, white 50%);
   background-size: 200% 100%;
-
-
   color: white;
   background-position: left bottom;
 }
@@ -143,7 +139,7 @@ h2{
 }
 
 .starting-section{
-  margin-top: 35px;
+  margin-top: 75px;
   width: 880px;
   height: 440px;
   position: relative;
