@@ -188,6 +188,11 @@ h1 {
   /* made div 20px shorter than image, which effectively crops bottom of image */
 }
 
+img.code {
+  width: 450px;
+  height: auto;
+}
+
 .code-snippet {
   display:inline-block;
   margin-left: 125px;
@@ -223,6 +228,27 @@ p, .features, .about, h2, .services, .product, .vision {
   border-top: 1px solid black;
   margin-bottom: 40px;
   padding-top: 38px;
+}
+
+section h2 {
+  display:block;
+}
+
+div.text {
+  display:inline-block;
+  vertical-align: top;
+}
+
+section p {
+  width: 350px;
+}
+
+.top-section .architecture .text {
+  margin-right: 50px;
+}
+
+.bottom-section .scaling .text {
+  margin-left: 50px;
 }
 
 .middle-img {
