@@ -103,6 +103,20 @@ header h1 {
 	text-align: center;
 }
 
+@keyframes button-hover {
+	25% {border-left-width: 2px; border-left-color: chocolate;}
+	50% {border-top-width: 2px; border-left-color: aquamarine;}
+	75% {border-right-width: 2px; border-left-color: blueviolet;}
+	100% {border-bottom-width: 2px; border-bottom-color: maroon;}
+}
+
+.button:hover {
+	animation-name: button-hover;
+	animation-duration: 2.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
 .button {
 	display: inline-block;
 	position: relative;
@@ -182,6 +196,7 @@ header h1 {
 
 p {
 	line-height: 1.5;
+	font-family: 'Indie Flower', cursive;
 }
 
 .contact-section {
@@ -206,4 +221,15 @@ p {
 	margin-top: 2%;
 	width: 100%;
 	text-align: center;
+}
+
+@keyframes a-hover {
+	100% {background: lightgreen; border: 2px solid coral;}
+}
+
+.navigation a:hover {
+	animation-name: a-hover;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
 }
