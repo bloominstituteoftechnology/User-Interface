@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -12,55 +12,166 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+   height: 100%;
+   font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+   font-family: 'Bangers', cursive;
+   letter-spacing: 1px;
+   margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.navBar {
+    display: inline-block;
+    position: fixed;
+    background: #6192F6;
+}
+
+
+
+.serv, .prod, .vis, .feat, .abou, .cont {
+	background-color:#6192F6;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 20px;
+	transition: 0.3s;
+	font-family: 'Permanent Marker', cursive;
+	display: inline-block;
+    margin: 9.5px;
+	padding: 49px;
+	text-decoration: none;
+}
+.serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
+	background-color: #0034A3;
+	color: white;
+  }
+
+
+.logo {
+    display: inline-block;
+    right: 0;
+    
+
+}
+
+.frontTitle {
+    display: inline-block;
+    margin: 250px 180px 100px 200px;
+    width: 280px;
+    font-size: 85px;
+    text-align: center;
+}
+
+.getStarted {
+    font-size: 25px;
+    padding: 5px 35px;
+    border: 1px solid black;
+}
+
+.topDesc {
+    width: 1000px;
+    margin-left: 200px;
+    border-top: 5px solid black;    
+}
+
+.features {
+    display: inline-block;
+    padding-top: 30px;
+    margin-right: 200px;
+    margin-left: 80px;
+    
+}
+
+.about {
+    display: inline-block;
+}
+
+p {
+    width: 300px;   
+
+    
+}
+.middle-img {
+    margin: 50px;   
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.bottom {
+    width: 1000px;
+    margin-left: 200px;
+    border-bottom: 5px solid black;
+}
+
+.services, .product, .vision {
+    display: inline-block;
+	margin: 10px;
+	margin-bottom: 40px;
+}
+
+.smallP {
+    width: 300px;
+    
+}
+
+address {
+    margin: 50px;
+}
+
+.number {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 10px 700px 120px;
+}
+
+
