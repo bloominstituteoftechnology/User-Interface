@@ -103,7 +103,8 @@ header nav img {
 	width: 490px;
 }
 #header-text h1 {
-	font-size: 84px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 72px;
 	margin-bottom: 0;
 	text-align: center;
 	transform: scaleY(.84);
