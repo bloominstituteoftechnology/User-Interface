@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.top-nav {
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;	
+	padding-right: 55px;
+}
+
+.nav-logo {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.logo {
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.header-title {
+	box-sizing: border-box;
+	display: inline-block;
+	/* margin-top: 20px; */
+}
+
+h1{
+	font-size: 70px;
+	text-align: center;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+button{
+	margin-left: 135px;
+	margin-bottom: 200px;
+	width: 120px;
+	height: 25px;
+}
+
+.header-img {
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+
+.header-img img {
+	padding-left: 300px;
+	padding-top: 50px;
+}
+
+
+.features {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 500px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-top: 10px;
+}
+
+.about {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 500px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.middle-img{
+	padding: 10px 200px ;
+}
+
+.services{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 400px;	
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 400px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.vision {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 400px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.contact {
+	display: inline-block;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 10px;
+}
