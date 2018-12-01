@@ -156,16 +156,16 @@ h2 {
 
 .bottom-left {
 	display: inline-block;
-	width: 200px;
+	width: 32%;
 	margin-right: 12px;
 }
 .bottom-middle {
 	display: inline-block;
-	width: 200px;
+	width: 32%;
 	margin-right: 12px;
 }
 .bottom-right {
 	display: inline-block;
-	width: 200px;
+	width: 32%;
 	margin-right: 12px;
 }
