@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+	margin: 0 auto;
 }
 
 html, body {
@@ -70,31 +71,116 @@ header {
 	width: 600px;
 }
 
+li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
 nav {
+	display: inline-block;
+	width: 500px;
 	margin-top: 10px;
 	padding: 10px;
+	display: inline-block;
+	border: 2px solid black;
+	margin-left: 300px;
+}
+
+.sectionOne {
+	
 }
 
 .logo {
+	display: inline-block;
+	width: 100px;
 	
 }
 
 .iod {
-	display: block;
-	width: 500px;
-	height: 500px;
+	width: 300;
+	height: 300;
 	border: solid 2px red;
 	padding: 45px;
 	font-size: 60px;
+	display: inline-block;
+	margin: 0 200px 0 300px;
+}
+.button1 {
+	display: inline-block;
+	font-size: 20px;
+	border: 2px solid grey;
 }
 
 .circle {
-	display: block;
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
 	border: solid 2px red;
 	padding: 46px;
+	display: inline-block;
+	
 	
 }
 
+.features {
+	display: inline-block;
+	border: 2px solid black;
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+}
 
+.about {
+	display: inline-block;
+	border: 2px solid black;
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.middle-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	border: 2px solid black;
+}
+
+.sectionThree {
+	display: inline-block;
+	
+}
+
+strong {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.services {
+	display: inline-block;
+	border: 2px solid black;
+	width: 33%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.product {
+	display: inline-block;
+	border: 2px solid black;
+	width: 33%;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+
+.vision {
+	display: inline-block;
+	border: 2px solid black;
+	width: 33%;
+	height: 100px
+	margin: 0 auto;
+}
+
+footer {
+	height: 300px;
+	width: 100%;
+}
