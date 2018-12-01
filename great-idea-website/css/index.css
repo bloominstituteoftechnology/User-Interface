@@ -74,8 +74,25 @@ header img, header nav{
 	display: inline-block;
 }
 
+header {
+	margin-top: 50px;
+}
+
+#topbar {
+	position: relative;
+	padding-bottom: 100px;
+}
+
+nav {
+	position: absolute;
+	top: 10px;
+}
+
 nav a {
 	margin-left: 100px;
+	text-decoration: none;
+	color: lightgray;
+	font-size: 18px;
 }
 
 nav a:first-child {
@@ -83,7 +100,9 @@ nav a:first-child {
 }
 
 .logo {
-	margin-left: 100px;
+	position: absolute;
+	top: 0;
+	right: 0px;
 	height: 40px;
 }
 
@@ -99,17 +118,26 @@ nav a:first-child {
 }
 
 div.banner-content {
-	margin-left: 200px;
-	margin-top: 150px;
+	margin-left: 120px;
+	margin-top: 120px;
 	text-align: center;
 }
 
 .banner-content h1 {
-	font-size: 90px;
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+
+.banner-content a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	border: 2px black solid;
+	padding: 5px 50px 5px 50px;
 }
 
 img.banner-content {
-	height: 500px;
+	height: 450px;
 	position: absolute;
 	right: 0px;
 	top: 50px;
