@@ -163,6 +163,16 @@ body {
   margin-top: 40px;
 }
 
+.nav {
+  display: inline-block;
+}
+
+nav {
+  /* border: 3px solid red; */
+  margin-right: 135px;
+  margin-bottom: ;
+}
+
 a {
   margin: 0 20px 0 0;
   display: inline-block;
@@ -180,8 +190,9 @@ a:hover {
 .logo {
   margin-top: -40px;
   /* border: 3px solid red; */
-  float: right;
-  margin-right: 15px;
+  /* float: right; */
+  padding-top: 10px;
+  position: absolute;
 }
 
 .box-one {
@@ -189,6 +200,10 @@ a:hover {
   width: 400px;
   height: 400px;
   margin-top: 45px;
+}
+
+#firstbox {
+  /* border: 3px solid red; */
 }
 
 #words {
