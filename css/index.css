@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -72,11 +72,20 @@ body{
 
 }
 
+.navbar{
+  width: 880px;
+  top: 0;
+  border-bottom: 2px solid black;
+  position: fixed;
+  z-index: 1;
+}
+
 header {
-  padding: 40px 0;
   display: inline-block;
-  position: relative;
   width: 100%;
+  position: relative;
+  background-color: white;
+  padding: 5px;
 }
 
 header nav a{
@@ -88,13 +97,12 @@ header nav a{
 }
 
 header nav a:first-of-type{
-	margin-left: 0;
+  margin-left: 0;
 }
 
 header img{
-	position: absolute;
-	right: 0;
-	padding-bottom: 10px;
+  position: absolute;
+  right: 0;
 }
 
 
@@ -103,44 +111,43 @@ header img{
   background-color: white;
   padding: 0 30px ;
   font-family: 'Titillium Web', sans-serif;
- 	font-weight: 600;
- 	font-size: 16px;
- 	font-
- 	width: 170px;
- 	height: 40px; 
+  font-weight: 600;
+  font-size: 16px;
+  width: 170px;
+  height: 40px; 
 }
 
 h1{
-  	font-size: 72px;
+    font-size: 72px;
     font-weight: 500;
 }
 
 h2{
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .starting-section{
-	margin: 0 auto;
-	width: 880px;
-	height: 440px;
-	position: relative;
+  margin-top: 35px;
+  width: 880px;
+  height: 440px;
+  position: relative;
 }
 
 .left-div {
-	display: inline-block;
-  	padding: 50px;
-  	width: 440px;
-  	text-align: center;
-  	margin-top: 70px;
-  	position: absolute;
+  display: inline-block;
+    padding: 50px;
+    width: 440px;
+    text-align: center;
+    margin-top: 70px;
+    position: absolute;
   }
 
 .right-div {
-	display: inline-block;
-	width: 440px;
-	position: absolute;
-	padding: 30px 0;
-	right: 0;
+  display: inline-block;
+  width: 440px;
+  position: absolute;
+  padding: 30px 0;
+  right: 0;
 }
 
 .main-section {
@@ -162,21 +169,21 @@ h2{
 
 
 .sec2 {
-	width:275px;
-	margin-left: 15px;
- 	display: inline-block;
+  width:275px;
+  margin-left: 15px;
+  display: inline-block;
 }
 
 .far-left {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .footer {
-	  margin-top: 30px;
-	  margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .copyright {
-	text-align: center;
-	margin-top: 40px 0;
+  text-align: center;
+  margin-top: 40px 0;
 }
