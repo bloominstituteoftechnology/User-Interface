@@ -75,11 +75,15 @@ header nav {
 	z-index: 1;
 }
 header nav a {
-	color: #333;
+	color: #666;
 	display: inline-block;
 	font-size: 12px;
 	margin: 0 34px;
 	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+}
+header nav a:hover {
+	color: #000;
 }
 header nav a:first-of-type {
 	margin: 0 34px 0 0;
@@ -123,6 +127,11 @@ header .logo {
 	line-height: 34px;
 	text-decoration: none;
 	width: 175px;
+	transition: all 0.5s ease-in-out;
+}
+#header-text a:hover {
+	background-color: #000;
+	color: #ccc;
 }
 #header-banner #header-image {
 	background-image: url(../img/header-img.png);
