@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,8 +23,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+		width: 875px;
+		margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,164 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	width: 875px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: fixed;
+	z-index: 1;
+	background-color: rgb(183, 201, 239, 0.8);
+	opacity: 1;
+}
+
+nav.fixed {
+	position: fixed;
+	top: 0;
+}
+
+nav .logo {
+	display: inline-block;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+nav > img {
+	margin-left: 200px;
+	display: inline-block;
+}
+
+nav > a {
+	font-family: 'Text Me One', sans-serif;
+	color: darkgray;
+	text-decoration: none;
+	margin-right: 50px;
+	margin-top: 50px;
+	display: fixed;
+}
+
+nav > a:first-of-type {
+	margin-left: 20px;
+}
+
+nav > a:hover {
+	animation-name: nav;
+	animation-duration: 5s;
+}
+
+header {
+	height: 450px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	border-bottom: 2px solid black;
+}
+
+h1 {
+	font-size: 80px;
+	display: inline-block;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+header > img {
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.derp {
+	display: inline-block;
+	text-align: center;
+}
+
+.head1 {
+	padding: 50px;
+	position: relative;
+	width: 450px;
+	height: 350px;
+}
+
+.derp > a {
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 5px 30px;
+	margin: 0 0 0 100px;
+	text-align: center;
+	position: relative;
+	
+}
+
+.content1 {
+	display: inline-block;
+	font-family: 'Text Me One', sans-serif;
+
+}
+
+.content1 p {
+	width: 410px;
+	margin-bottom: 20px;
+}
+
+.content1 h2 {
+}
+
+.content2 {
+	display: inline-block;
+	font-family: 'Text Me One', sans-serif;
+}
+
+.content2 p {
+	width: 275px;
+	margin-bottom: 20px;
+}
+
+.content2 h2 {
+}
+
+.middle-img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact {
+	border-top: 2px solid black;
+	padding-top: 20px;
+	margin-top: 20px;
+	font-family: 'Text Me One', sans-serif;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Text Me One', sans-serif;
+}
+
+#features {
+	padding-right: 50px;
+}
+
+#services {
+	padding-right: 15px;
+}
+
+#product {
+	padding-right: 15px;
+}
+
+#get-started {
+	font-family: 'Text Me One', sans-serif;
+	color: silver;
+	text-decoration: none;
+	margin-right: 70px;
+	margin-top: 50px;
+	display: fixed;
+}
+
+@keyframes nav {
+	from {color: darkgray;}
+	to {color: blue;}
+}
