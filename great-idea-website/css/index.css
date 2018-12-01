@@ -79,7 +79,7 @@ body{
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
-    color: black;
+    color: gray;
     text-align: left;
     padding: 14px 30px;
     text-decoration: none;
@@ -121,7 +121,7 @@ h1{
 .button{
 	border: 2px solid black;
 	display: inline;
-	padding: 5px 30px;
+	padding: 5px 35px;
 	margin: 10px;
 }
 
