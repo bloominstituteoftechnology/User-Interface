@@ -162,11 +162,7 @@ h5 {
 .h2-head {
     display: inline-block;
     margin-top: 100px;
-}
-
-header nav {
-    display: inline-block;
-    position: relative;
+    text-align: center;
 }
 
 header nav a {
@@ -174,14 +170,15 @@ header nav a {
     margin-bottom: 0px;
     display: inline-block;
     border: 1px solid black;
+    color: gray;
 }
 
 .company-logo {
     display: inline-block;
-    margin-left: 950px;
+    margin-left: 900px;
     border: 1px solid black;
     padding: 10px;
-    margin-bottom: 150px;
+    margin-top: -25px;
 }
 
 .logo-img {
@@ -195,8 +192,11 @@ header nav a {
 }
 
 .h2-head {
-    padding-left: 20px;
-    border: 1px solid black;
+    position: relative;
+    top: 50px;
+    padding-left: 200px;
+    font-size: 80px;
+    margin-top: 100px;
 }
 
 .container {
@@ -212,20 +212,39 @@ header nav a {
 
 .middle-headers {
     display: inline-block;
-    width: 400px;
-    padding: 20px;
-    border: 1px solid black;
+    width: 498px;
+    padding: 30px 20px 20px 5px;
+    border-top: 1px solid black;
+}
+
+.two-headers {
+    width: 1000px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 197px;
 }
 
 .inno-img {
-    margin-right: 100px;
+    margin-left: 650px;
+    margin-bottom: 300px;
+    margin-top: -300px;
 }
 
 .three-header {
     display: inline-block;
-    width: 800px;
-    padding: 20px;
-    border: 1px solid black;
+    position: relative;
+    width: 1000px;
+    bottom: 150px;
+    padding: 20px 10px 25px 20px;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+
+.heads-3 {
+    display: inline-block;
+    width: 300px;
+    margin: 20px 0px 0px 10px
 }
 
 .middle-headers3 {
@@ -233,4 +252,53 @@ header nav a {
     width: 600px;
     border: 1px solid black;
     padding: 0px;
+}
+
+.middle-headers {
+    display: inline block;
+    padding: 30px 0px 20px 25px;
+    font-size: 17px;
+    border-top: 1px solid black;
+}
+
+.middle-img {
+    position: relative;
+    left: 20px;
+    bottom: 175px;
+    width: 1000px;
+    padding: 0px;
+}
+
+.div-imm {
+    margin-left: 200px;
+}
+
+.on {
+    text-align: center;
+}
+
+.navver {
+    margin-right: 25px;
+}
+
+.btn {
+    position: relative;
+    top: 50px;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 10px 35px;
+    background-color: white;
+}
+
+.aa {
+    margin-right: 50px;
+}
+
+.bottom-section {
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
 }
