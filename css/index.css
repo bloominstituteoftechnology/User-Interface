@@ -241,22 +241,18 @@ article {
 .threebox {
   /* border: 3px solid red; */
   width: 290px;
-  height: 200px;
+  height: 120px;
   display: inline-block;
   text-align: left;
-  margin-top: 35px;
+  margin: 35px 0;
 }
-
-/* 
-
 
 .address {
   width: 600px;
 }
 
- Footer */
-/* footer {
+footer {
   text-align: center;
   padding-bottom: 100px;
   padding-top: 40px;
-} */
+}
