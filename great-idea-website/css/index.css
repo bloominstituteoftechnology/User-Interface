@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	vertical-align: center;
+	padding: 30px;
+}
+
+nav img{
+	margin-left: 30px;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+header {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	border-bottom: 1px solid black;
+	padding-top: 20px;
+}
+
+.header-left {
+	display: inline-block;
+	padding-left: 50px;
+	padding-bottom: 100px;
+	width: 450px;
+}
+
+.header-right {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.button {
+	position: block;
+	border: 1px solid gray;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.top-row {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	padding-top: 20px;
+}
+
+.top-row-content {
+	display: inline-block;
+	width: 440px;
+	padding: 10px;
+}
+
+.mid-row {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.bot-row {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.bot-row-content {
+	display: inline-block;
+	width: 290px;
+	padding: 10px;
+}
+
+.contact {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+footer {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	text-align: center;
+}
