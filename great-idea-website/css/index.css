@@ -91,6 +91,7 @@ nav {
 	text-decoration: none;
 	color: black;
 	margin-right: 50px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo {
@@ -162,7 +163,7 @@ nav {
 
 .bottom-content {
 	border-bottom: 1px solid black;
-	padding-bottom: 35px;
+	padding-bottom: 45px;
 }
 
 .services, .product, .vision {
@@ -176,7 +177,7 @@ nav {
 
 .copyright {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-bottom: 110px;
 	font-size: 14px;
 }
