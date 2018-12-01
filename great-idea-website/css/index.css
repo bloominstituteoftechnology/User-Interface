@@ -69,3 +69,9 @@ body {
 	width: 880px;
 	font-size: 16px;
 }
+header {
+	display:inline-block;
+	width: 100%;
+	position: relative;
+	padding: 15px;
+}
