@@ -117,10 +117,11 @@ header {
 .get-started-btn {
 	display: inline-block;
 	background-color: white;
+	border: 1px solid;
 	font-size: 20px;
 	margin-top: 10px;
 	padding: 5px;
-	width: 160px;
+	width: 185px;
 }
 
 .header-container.image {
