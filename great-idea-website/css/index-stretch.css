@@ -65,22 +65,39 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+p {
+	font-family: 'Lato', sans-serif;
+}
+
 .container {
 	width: 876px;
 	margin: 0 auto;
 	position: relative;
 }
 
+header {
+	position: fixed; 
+	background: teal;
+	height: 60px;
+	width: 876px;
+	padding-left: 10px;
+	z-index: 1;
+}
+
 .logo {
 	display: inline-block;
-	position: absolute;
+	position: fixed;
+	left: 876px;
 	top: 10px;
-	right: 0;
+}
+
+nav {
+	display: inline-block;
 }
 
 nav a {
 	margin-right: 55px;
-	color: darkgray;
+	color: black;
 	font-size: 90%;
 	text-decoration: none;
 	display: inline-block;
