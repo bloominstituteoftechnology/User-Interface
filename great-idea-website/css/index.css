@@ -66,13 +66,19 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .main-container {
-	margin: 50px;
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
 	background-color: cornflowerblue;
-	height: 40px;
-	position: relative;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	max-width: 1140px;
+	width: 100%;
+	z-index: 1;
 }
 
 nav a {
@@ -84,6 +90,7 @@ nav a {
 nav img {
 	position: absolute;
 	right: 10px;
+	top: 5px;
 	/*vertical-align: middle*/
 }
 
@@ -95,7 +102,7 @@ nav img {
 }
 
 header {
-	height: 420px;
+	height: 455px;
 	margin-bottom: 100px;
 	margin-top: 90px;
 }
@@ -133,7 +140,7 @@ header {
 }
 
 .header-image {
-	height: 100%;
+	width: 80%;
 }
 
 .divider {
