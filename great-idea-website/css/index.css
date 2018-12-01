@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.body{
+	height: 100%;
+	font-family: 'sans-serif';
+	line-height: 1;
+	margin: 0 auto;
+    width: 1000px;
+}
+
+.title{
+	box-sizing: border-box;
+	letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.head{
+	box-sizing: border-box;
+}
+
+li { 
+    background-color: white;
+}
+#menubar a{
+    text-decoration: none;
+	font-size: 15px;
+	font: inherit
+    font-family: PT sans, sans-serif;
+    color: lightgrey;
+}
+#menubar a:hover {
+    color: lightgrey;
+    background-color:white;
+}
+#menubar .active{
+    color: lightgrey;
+}
+ul{
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+}
+li{
+    list-style: none;
+    list-style:none;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+}
+body {
+  margin: 0px;
+}
+
+.logo{
+	box-sizing: border-box;
+	margin-left: 25px auto;
+	margin-right: 500px auto;
+	margin-top: 30px auto;
+	margin-bottom: 45px auto;
+    width: 100px;
+}
+
+.header-img{
+	box-sizing: border-box;
+	display: block;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 600px;
+		margin-right: 600px;
+}
+.middle-img{
+	box-sizing: border-box;
+	display: block;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 40px;
+		margin-right: 40px;
+}
+
+.section1{
+	box-sizing: border-box;
+	display: block;
+		display: block;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 40px;
+		margin-right: 40px;
+}
+
+.section2{
+	box-sizing: border-box;
+	display: block;
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.innov {
+	display: block;
+	    font-size: 100px;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 40px;
+		margin-right: 40px;
+}
+.contact-section{
+	box-sizing: border-box;
+	display: block;
+}
+
+  .copyright{
+	padding: 20px 0;
+	 /*======= center the text here */
+	 text-align: center;
+  }
+
+  .contact-section address {
+	line-height: 2;
+  }
+
+  hr { widows: 95%; height:1px; background: #fff }
