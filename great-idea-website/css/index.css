@@ -150,3 +150,40 @@ h1, h2, h3, h4, h5 {
 	width: 379px;
 	right: 0;
 }
+
+.middle-img {
+	display: block;
+	width: 758px;
+	margin-top: 30px;
+}
+
+.containerThirdSection {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	width: 758px;
+	height: 200px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.containerThirdSection .Services {
+	display: inline-block;
+	position: absolute;
+	width: 252.66px;
+	left: 0;
+}
+
+.containerThirdSection .Product {
+	display: inline-block;
+	position: absolute;
+	width: 252.66px;
+	left: 252.66px;
+}
+
+.containerThirdSection .Vision {
+	display: inline-block;
+	position: absolute;
+	width: 252.66px;
+	right: 0;
+}
