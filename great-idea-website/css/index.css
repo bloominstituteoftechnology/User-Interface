@@ -159,5 +159,78 @@ h5 {
     margin-bottom: 15px;
 }
 
+.h2-head {
+    display: inline-block;
+    margin-top: 100px;
+}
 
-/* Your code starts here! */
+header nav {
+    display: inline-block;
+    position: relative;
+}
+
+header nav a {
+    margin: 40px 40px;
+    margin-bottom: 0px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.company-logo {
+    display: inline-block;
+    margin-left: 950px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+
+.logo-img {
+    display: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: absolute;
+    padding-left: 750px;
+    padding-bottom: 300px;
+    border: 1px solid black;
+}
+
+.h2-head {
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+.container {
+    width: 900px;
+    display: relative;
+    margin: 0 auto;
+}
+
+.started-button {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.middle-headers {
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.inno-img {
+    margin-right: 100px;
+}
+
+.three-header {
+    display: inline-block;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.middle-headers3 {
+    display: inline-block;
+    width: 600px;
+    border: 1px solid black;
+    padding: 0px;
+}
