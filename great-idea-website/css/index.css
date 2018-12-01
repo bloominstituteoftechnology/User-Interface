@@ -66,13 +66,23 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
+	width: 800px;
 	border: 1px solid red;
 }
 
 nav {
+	text-decoration: none;
 	border: 1px solid blue;
 	color: grey;
 	display: inline-block; 
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	border: 1px solid brown;
 }
 
 button {
