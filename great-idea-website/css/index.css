@@ -74,7 +74,7 @@ header {
 	width: 100%;
 	position: relative;
 	padding: 15px;
-	background-color: white;
+	background-color: rgb(238, 235, 235);
 }
 .navigation {
 	width: 880px;
