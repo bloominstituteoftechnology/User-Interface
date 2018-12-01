@@ -88,6 +88,12 @@ header nav a {
 	text-decoration: none;
 	color: gray;
 	font-size: 16px;
+	transition: width 1s, height 1s, transform 1s;
+	transition: width 1s, height 1s, transform 1s;
+}
+header nav a:hover {
+	background-color: gray;
+	color: white;
 }
 header nav a:first-of-type {
 	margin-left: 0px;
@@ -120,7 +126,15 @@ header img {
 	font-size: 17px;
 	font-weight: 400;
 	height: 37px;
-	width: 180px
+	width: 180px;
+	animation: spin 10s linear infinite;
+  	animation-play-state: paused;
+}
+.contents button:hover {
+	animation-play-state: running;
+}
+@keyframes spin {
+  100% {transform: rotate(1turn); }
 }
 .right {
 	display: inline-block;
