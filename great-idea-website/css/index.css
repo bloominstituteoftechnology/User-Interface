@@ -79,13 +79,12 @@ header {
 }
 
 #topbar {
-	position: relative;
-	padding-bottom: 100px;
-}
-
-nav {
-	position: absolute;
-	top: 10px;
+	background-color: #3062b2;
+	width: 80%;
+	position: fixed;
+	top: 0px;
+	padding: 20px 5px 15px 5px;
+	z-index: 1;
 }
 
 nav a {
@@ -101,8 +100,8 @@ nav a:first-child {
 
 .logo {
 	position: absolute;
-	top: 0;
-	right: 0px;
+	top: 5px;
+	right: 5px;
 	height: 40px;
 }
 
