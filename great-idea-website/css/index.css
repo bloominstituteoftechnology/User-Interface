@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+.navigation a {
+	color: rgb(184, 184, 184);
+	display: inline-block;
+	justify-content: space-around;
+	padding-left: 12%;
+}
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	right: 1%;
+	top: 0;
+}
+
+.header-img {
+	display: inline-block;
+	position: absolute;
+	right: 33%;
+	top: 7%;
+}
+
+header h1 {
+	font-size: 75px;
+	display: inline-block;
+	position: relative;
+	left: 37%;
+	top: 70px;
+	width: 10%;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+	top: 138px;
+	width: 180px;
+	height: 45px;
+	left: 28%;
+	font-size: 24px;
+	background: whitesmoke;
+}
+
+.hr-1 {
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-top: 3px solid black;
+	border-radius: 7px;
+	margin-top: 8%;
+}
+
+.hr-2 {
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-top: 3px solid black;
+	margin-top: 3%;
+}
+
+.features-section {
+	display: inline-block;
+	position: relative;
+	margin-top: 2%;
+	font-size: 24px;
+	width: 35%;
+	left: 10%;
+}
+.about-section {
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	width: 35%;
+	left: 20%;
+}
+
+.middle-img {
+	display: inline-block;
+	position: relative;
+	margin: 2%;
+	left: 3%;
+	width: 90%;
+	height: 15%;
+}
+
+.services-section {
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	width: 20%;
+	left: 10%;
+}
+
+.product-section {
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	width: 20%;
+	left: 20%;
+}
+
+.vision-section {
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	width: 20%;
+	left: 30%;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.contact-section {
+	display: inline-block;
+	position: relative;
+	width: 12%;
+	left: 5%;
+	margin-top: 2%;
+}
+
+.contact-section h3 {
+	font-size: 24px;
+}
+
+.contact-section p {
+	font-size: 16px;
+}
+
+.copyright {
+	display: inline-block;
+	position: relative;
+	margin-top: 2%;
+	width: 100%;
+	text-align: center;
+}
