@@ -66,31 +66,41 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header {
-	margin-top: 60px;
+	margin-top: 65px;
 	text-align: center;
+	border: 2px solid black;
 }
 
 h1 {
 	font-size: 65px;
-	width: 200px;
+	width: 250px;
 	display: inline-block;
-	text-align: center;
+	border: 2px solid red;
+}
+
+button {
+	text-decoration: none;
+	border: 2px solid black;
+	background: white;
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
 }
 
 .image-circle {
 	display: inline-block;
-	right: 0;
 }
 
 .navigation {
 	position: relative;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 .navigation a {
 	text-decoration: none;
 	color: grey;
-	padding: 25px;
+	padding: 20px;
+	margin-left: 25px;
 }
 
 .navigation .logo {
@@ -98,3 +108,4 @@ h1 {
 	position: absolute;
 	right: 0;
 }
+
