@@ -64,3 +64,216 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width:800px;
+	margin: 0 auto;
+}
+.container{
+	/*border: 1px solid red;*/
+	width: 800px;
+	margin:0 auto;
+}
+
+header{
+	
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	margin-top: 15px;
+	line-height: 35px; 
+}
+
+header nav {
+	
+	display: inline-block;
+	
+}
+
+header nav a{
+	
+	margin: 15px 15px 40px 15px;
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+	width: 60px;
+}
+
+.imglogo{
+	display: inline-block;
+	margin-right: 0px;
+	padding-left: 40px;
+	padding-top: 10px;
+
+}
+
+ .logo{
+	
+	display: inline-block; 
+	margin-right: 0;
+	position: absolute;
+	padding-top: 10px;
+}
+
+.section1{
+	/*border: 1px solid purple;*/
+	display: inline-block;
+	position: relative;
+	padding-top: 0;
+	border-bottom: 3px solid black;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+button{
+	text-align: center;
+	display: block;
+	width: 150px;
+	height: 30px;
+	margin-left: 55px;
+	background: white;
+}
+
+.content1{
+	
+	font-size: 70px;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	padding-left: 70px;
+	position: absolute;
+	padding-top: 70px;
+	
+}
+
+.content1image{
+	display: inline-block;
+	margin-right: 0;
+	margin-left: 200px;
+	padding-left: 200px;
+	width: 250px;
+}
+
+.snippet{
+	
+}
+
+p{
+	font-size: 12px;
+}
+
+.section2{
+	margin-top: 15px;
+/*	border: 1px solid red;
+  background: lightgray;*/
+  position: relative;
+  height: 100px;
+
+}
+
+.main1{
+	
+	display: inline-block;
+	width: 50%;
+	height: 100px;
+}
+
+.main2{
+
+	display: inline-block;
+	width: 50%;
+	margin-right: 0;
+	position: absolute;
+	height: 100px;
+}
+
+.section3{
+	
+	display: block;
+	width: 100;
+}
+
+.main3{
+	
+	
+	width:100%;
+	display: block;
+}
+
+.middle-img{
+	
+	display: block;
+	width: 100%
+}
+
+.Section4{
+
+	margin-top: 15px;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	
+	position: relative;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+.Section4 .Services{
+
+	width: 250px;
+	
+	right: 50px;
+	display: inline-block;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:150px; 
+	position: absolute;
+}
+
+.Section4 .Products{
+	
+	width: 250px;
+	
+	display: inline-block;
+	top: 0;
+	bottom: 0;
+	left: 270px;
+	right: 160px; 
+	position: absolute;
+}
+
+
+.Section4 .Vision{
+
+	width: 250px;
+	
+	display: inline-block;
+	top: 0;
+	bottom: 0;
+	left: 550px;
+	right: 0px; 
+	position: absolute;
+}
+
+
+.bottomMain{
+	border-top: 2px solid black;
+	padding-top: 15px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.bottomMain{
+	margin-bottom: 50px;
+}
+
+footer{
+	margin-bottom: 75px;
+}
