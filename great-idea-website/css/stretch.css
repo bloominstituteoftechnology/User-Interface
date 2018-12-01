@@ -106,7 +106,6 @@ nav a {
 
 nav a:hover {
   background-size: 100% 100%;
-  cursor: pointer;
 }
 
 #nav-product {
@@ -132,8 +131,14 @@ nav a:hover {
 #logo {
   vertical-align: middle;
   margin-left: 92px;
+  background-image: url("../img/logo.png");
+  width: 183px;
+  height: 36px;
 }
 
+#logo {
+  display: inline-block;
+}
 
 #splash {
   margin-top: 132px;
@@ -163,6 +168,9 @@ h1 {
 .code-snippet {
   display:inline-block;
   margin-left: 125px;
+  width: 379px;
+  height: 379px;
+  background-image: url("../img/header-img.png");
 }
 
 main, footer {
@@ -196,6 +204,9 @@ p, .features, .about, h2, .services, .product, .vision {
 
 .middle-img {
   margin-left: 1px;
+  width: 876px;
+  height: 182px;
+  background-image: url("../img/mid-page-accent.jpg");
 }
 
 .bottom-section {
