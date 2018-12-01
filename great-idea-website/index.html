@@ -14,41 +14,43 @@
   <![endif]-->
 </head>
   <body>
-    <main class="container">
+    <main class="main-container">
       <nav>
-        <a href="">Services</a>
-        <a href="">Product</a>
-        <a href="">Vision</a>
-        <a href="">Features</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a class="nav-item" href="">Services</a>
+        <a class="nav-item" href="">Product</a>
+        <a class="nav-item" href="">Vision</a>
+        <a class="nav-item" href="">Features</a>
+        <a class="nav-item" href="">About</a>
+        <a class="nav-item" href="">Contact</a>
         <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
       </nav>
       <header>
-        <h1 class="header">
-          <div>Innovation</div>
-          <div>On</div>
-          <div>Demand</div>
-        </h1>
-
-        <button class="get-started-btn">Get Started</button>
-
-        <img src="img/header-img.png" alt="Image of a code snippet.">
+        <div class="header-container fifty-percent-wrapper">
+          <div class="header-wrapper">
+            <h1 class="header">Innovation On Demand</h1>
+            <button class="get-started-btn">Get Started</button>
+          </div>
+        </div>
+        <div class="header-container fifty-percent-wrapper image">
+          <img class="header-image" src="img/header-img.png" alt="Image of a code snippet.">
+        </div>
       </header>
 
-      <section class="feature-content">
-        <div class="features">
-          <h2>Features</h2>
-          <p>
-            Aliquam elementum magna eros, ac posuere elvit tempus et.
-            Suspendisse vel tempus odio, in interdutm nisi.
-            Suspendisse eu ornare nisl.
-            Nullam convallis augue justo,
-            at imperdiet metus scelerisque quis.
-          </p>
-        </div>
+      <hr class="divider" />
 
-        <div class="about">
+      <section class="feature-content">
+          <div class="feature-wrapper fifty-percent-wrapper">
+            <h2>Features</h2>
+            <p>
+              Aliquam elementum magna eros, ac posuere elvit tempus et.
+              Suspendisse vel tempus odio, in interdutm nisi.
+              Suspendisse eu ornare nisl.
+              Nullam convallis augue justo,
+              at imperdiet metus scelerisque quis.
+            </p>
+          </div>
+
+        <div class="feature-wrapper fifty-percent-wrapper">
           <h2>About</h2>
           <p>
             Aliquam elementum magna eros, ac posuere elvit tempus et.
@@ -65,7 +67,7 @@
            alt="Image of code snippets across the screen">
 
       <section class="service-content">
-        <div class="services">
+        <div class="service-wrapper thirty-percent-wrapper">
           <h2>Services</h2>
           <p>
             Aliquam elementum magna eros, ac posuere elvit tempus et.
@@ -76,7 +78,7 @@
           </p>
         </div>
 
-        <div class="product">
+        <div class="service-wrapper thirty-percent-wrapper">
           <h2>Product</h2>
           <p>
             Aliquam elementum magna eros, ac posuere elvit tempus et.
@@ -87,7 +89,7 @@
           </p>
         </div>
 
-        <div class="vision">
+        <div class="service-wrapper thirty-percent-wrapper">
           <h2>Vision</h2>
           <p>
             Aliquam elementum magna eros, ac posuere elvit tempus et.
@@ -99,15 +101,21 @@
         </div>
       </section>
 
-      <address class="contact">
+      <hr class="divider" />
+
+      <section>
         <h2>Contact</h2>
-        <p>
-          123 Way 456 Street
-          Somewhere, USA
-          1 (888) 888-8888
-          sales@greatidea.io
-        </p>
-      </address>
+        <address class="contact-container">
+          <div class="street">123 Way 456 Street</div>
+          <div class="contact state">Somewhere, USA</div>
+          <div class="contact mailto">
+            <a href="mailto:jim@rock.com">sales@greatidea.io</a>
+          </div>
+          <div class="contact tel">
+            <a href="tel:1 (888) 888-8888">1 (888) 888-8888</a>
+          </div>
+        </address>
+      </section>
 
       <footer class="footer">
         <p>Copyright Great Idea! 2018</p>
