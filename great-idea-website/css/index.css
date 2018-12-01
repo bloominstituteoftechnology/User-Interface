@@ -76,29 +76,29 @@ h1, h2, h3, h4, h5 {
 
 .main .navbar {
 	display: inline-block;
-	position: relative;
-	width: 100%;
+	position: fixed;
+	width: 800px;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	background: rgba(0,0,255,1);
+	z-index: 10;
 
 	
 }
 .main .navbar nav  {
 	position: absolute;
 	top: 20%;
-	
 	display: inline;
-	margin-right: 200px;
+	padding-left: 10px;
 	
 	
 }
 .navbar nav a {
 	margin-right: 20px;
 	text-decoration: none;
-	color: gray;
+	color: white;
 }
 
-.img {display: inline-block;}
+.main .img {display: inline-block;}
 
 
 .main .navbar .logo {
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 .main .wowmuchlarge .headimg {
 	display: inline;
 	position: absolute;
-	top: 50px;
+	top: 70px;
 	right: 5px;
 	border-radius: 25%;
 	margin-left: 20px;
@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	padding: 20px;
 	position: relative;
+	top: 20px;
 	right: 25px;
 	height: 450px;
 	width: 800px;
@@ -214,5 +215,22 @@ footer {
 	height: 100px;
 	text-align: center;
 	margin-top: 50px;
+}
+
+.container-above p, .container-below p {
+	font-family: 'Pacifico', cursive;
+
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/* The element to apply the animation to */
+
+a:hover, nav a:hover {
+	animation-name: spin;
+	animation-duration: 1s;
 }
 
