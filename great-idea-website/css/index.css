@@ -140,7 +140,7 @@ span {
 }
 
 .content {
-	border-top: solid blue 1px;
+	border-top: solid black 1px;
 	display: inline-block;
 	position: relative;
 	margin: 25px;
