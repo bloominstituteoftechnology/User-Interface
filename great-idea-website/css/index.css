@@ -71,28 +71,37 @@ body {
 }
 
 header {
+	height: 450px;
 	text-align: center;
 	margin-top: 100px;
+	position: relative;
+
 }
 
 .h1-div {
-	font-size: 65px;
-	width: 250px;
+	font-size: 75px;
+	width: 290px;
 	height: 250px;
-	display: inline-block;
+	position: absolute;
+	left: 115px;
+	top: 70px;
+}
+
+.img-div {
+	position: absolute;
+	right: 0;
 }
 
 button {
 	text-decoration: none;
-	border: 2px solid black;
+	border: 1px solid black;
 	background: white;
 	font-size: 15px;
-	width: 150px;
-	height: 40px;
-}
-
-.img-div {
-	display: inline-block;
+	width: 140px;
+	height: 30px;
+	position: absolute;
+	bottom: 110px;
+	left: 190px;
 }
 
 .navigation {
@@ -147,7 +156,7 @@ button {
 }
 
 address {
-	line-height: 25px;
+	line-height: 30px;
 }
 
 footer {
