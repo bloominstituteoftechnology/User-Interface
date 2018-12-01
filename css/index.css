@@ -59,7 +59,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Anton', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -85,15 +85,30 @@ header {
   width: 100%;
   position: relative;
   background-color: white;
-  padding: 5px;
 }
 
 header nav a{
-  margin: 10px 28px;
+  font-weight: 800;
+
+  padding: 25px 25px 25px 25px;
+  box-sizing: content-box;
   font-size: 15px;
   text-decoration: none;
   color: gray;
   display: inline-block;
+
+
+  background-position: right bottom;
+  transition: all .25s ease-in-out;
+}
+
+header nav a:hover{
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+
+
+  color: white;
+  background-position: left bottom;
 }
 
 header nav a:first-of-type{
@@ -103,6 +118,7 @@ header nav a:first-of-type{
 header img{
   position: absolute;
   right: 0;
+  padding: 15px;
 }
 
 
