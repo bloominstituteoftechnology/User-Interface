@@ -65,13 +65,22 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* NAV AND HEADER */
 
 .navigation {
-	margin: 0 auto;
-	height: 100px;
+	margin: 0 auto 50px auto;
+	height: 70px;
 	width: 100%;
 	background-color: #81DFA0; 
 	position: fixed;
+	z-index: 5;
+	display: inline-block;
+	top: 0;
+}
+
+.navcenter {
+	margin: 0 auto;
+	width: 1200px;
 }
 
 nav {
@@ -79,7 +88,6 @@ nav {
 	padding: 20px;
 	position: relative;
 	margin-left: 100px;
-	z-index: 1;
 }
 
 a {
@@ -98,12 +106,9 @@ h1 {
 }
 
 header {
-	margin: 50px auto 0 100px;
+	margin: 50px auto 0 auto;
 	width: 1000px;
-	height: 600px;
-	display: inline-block;
-	position: relative;
-	z-index: -1;
+	z-index: 0;
 }
 
 .innovationtext {
@@ -120,7 +125,7 @@ header {
 	padding: 20px;
 	position: relative;
 	height: 400px;
-	margin: 80px;
+	margin: 80px 80px 20px 80px;
 }
 
 .startbutton {
@@ -138,6 +143,7 @@ header {
 
 .startbutton:hover {
 	background-color: #81DFA0;
+	z-index: 0;
 }
 
 .circlecode {
@@ -147,6 +153,7 @@ header {
 	margin-top: 20px;
 }
 
+/* UNDERNEATH THE HEADER */
 .underhead {
 	margin: 0 auto;
 	width: 1000px;
