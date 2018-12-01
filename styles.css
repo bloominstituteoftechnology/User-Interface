@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+
+body {
+	width: 900px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 30px;
+	padding: 0;
+}
+
+.searchbar, .logo {
+	display: inline-block;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+
+}
+
+nav>a {
+	text-decoration: none;
+	color: silver;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+nav {
+	width: 750px;
+}
+
+header>img {
+	width: 100px;
+	height: 30px;
+	padding-left: 400px;
+}
+
+
+.get-started {
+	height: 300px;
+	width: inherit;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.get-started section, .get-started img {
+	display: inline-block;
+	width: 400px;
+	
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+
+}
+
+.get-started section {
+	padding: 20px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+
+.get-started section h1 {
+	height: 100px;
+	font-size: 3em;
+	margin-bottom: 80px;
+}
+
+#get-started-code {
+	width:300px;
+	height: 300px;
+	margin-left: 80px;
+}
+
+.get-started section button {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px 30px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.middle-img {
+	margin-bottom: 50px;
+  
+}
+
+section {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+#features, #about {
+	display: inline-block;
+	width: 400px;
+	height: 100px;
+}
+
+#about {
+	margin-left: 30px;
+}
+
+#services, #product, #vision {
+	display: inline-block;
+	width: 275px;
+	height: 100px;
+  padding: 10px;
+}
+
+.content {
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+footer p {
+	text-align: center;
+}
