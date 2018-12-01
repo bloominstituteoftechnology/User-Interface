@@ -88,6 +88,9 @@ header nav a {
 	color: gray;
 	font-size: 16px;
 }
+header nav a:first-of-type {
+	margin-left: 0px;
+}
 .contents {
 	position: relative;
 	width: 880px;
