@@ -65,118 +65,104 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .navigation {
+	width: 1200px;
+	height: 75px;
+	margin: 0 auto;
+	padding-right: 20px;
+}
+
+.navigation nav {
 	display: inline-block;
-	box-sizing: border-box;
-}
-
-.top-nav {
-	padding-left: 50px;
-	padding-top: 10px;
-}
-
-a {
-	text-decoration: none;
-	color: gray;	
-	padding-right: 55px;
-}
-
-.nav-logo {
-	box-sizing: border-box;
-	display: inline-block;
-}
-
-.logo {
-	padding-left: 150px;
-	padding-top: 20px;
-}
-
-.header-title {
-	box-sizing: border-box;
-	display: inline-block;
-	/* margin-top: 20px; */
-}
-
-h1{
-	font-size: 70px;
-	text-align: center;
-	padding-left: 50px;
-	padding-bottom: 50px;
-}
-
-button{
-	margin-left: 135px;
-	margin-bottom: 200px;
-	width: 120px;
-	height: 25px;
-}
-
-.header-img {
-	box-sizing: border-box;
-	display: inline-block;
-	
-}
-
-.header-img img {
-	padding-left: 300px;
-	padding-top: 50px;
-}
-
-
-.features {
-	display: inline-block;
-	box-sizing: border-box;
+	position: relative;
 	width: 500px;
-	padding-bottom: 10px;
-	padding-left: 100px;
-	padding-top: 10px;
 }
 
-.about {
+.navigation .nav-logo {
 	display: inline-block;
-	box-sizing: border-box;
+	position: relative;
 	width: 500px;
-	padding-bottom: 10px;
-	padding-left: 100px;
+
 }
 
-.middle-img{
-	padding: 10px 200px ;
+header {
+	width: 1200px;
+	height: 465px;
+	margin: 0 auto;
+
 }
 
-.services{
+header .header-title {
 	display: inline-block;
-	box-sizing: border-box;
-	width: 400px;	
-	padding-bottom: 10px;
-	padding-left: 100px;
-}
-
-.product {
-	display: inline-block;
-	box-sizing: border-box;
+	position: relative;
 	width: 400px;
-	padding-bottom: 10px;
-	padding-left: 100px;
 }
 
-.vision {
+h1 {
+	font-size: 60px;
+	text-align: center;	
+}
+
+header img {
 	display: inline-block;
-	box-sizing: border-box;
+	position: relative;
 	width: 400px;
-	padding-bottom: 10px;
-	padding-left: 100px;
-	padding-top: 20px;
 }
 
+.top-section {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.top-section .features {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+}
+
+.top-section .about {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+}
+
+.middle-img {
+	margin: 20px 0 20px 120px;
+}
+.bottom-section {
+	width: 1200px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.bottom-section .services {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+}
+
+.bottom-section .product {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+}
+
+.bottom-section .vision{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+}
 .contact {
+	width: 1200px;
+	height: 60px;
+	margin-top: 80px;
 	display: inline-block;
-	box-sizing: border-box;
-	padding-bottom: 10px;
-	padding-left: 100px;
-	padding-top: 50px;
+	margin-left: 100px;
 }
+
 
 footer {
-	text-align: center;
-	margin-top: 10px;
+	margin-top: 45px;
+	text-align: center; 
 }
+
