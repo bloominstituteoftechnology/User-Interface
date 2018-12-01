@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,10 +24,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -64,3 +65,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+setion {
+	position: relative;
+}
+
+h1 {
+	font-size: 60px;
+	position: relative;
+	/* padding-bottom: 20px; */
+}
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+nav {
+	display: inline-block;
+	position: relative;
+	width: 900px;
+	margin: 34px 0;
+}
+
+ul {
+	padding-top: 10px;
+}
+
+li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+.logo {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.hero {
+	margin: 0 auto;
+	width: 900px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #c9c9c9;
+	text-align: center;
+}
+
+.hero p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.hero-img {
+	/* max-width: 300px; */
+	padding-top: 60px;
+	/* margin-top: 60px;
+	/* vertical-align: middle; */
+}
+
+.inner1 {
+	display: inline-block;
+	max-width: 440px;
+}
+
+.inner2 {
+	display: inline-block;
+	max-width: 290px;
+}
+
+
+.hero .inner1 {
+	padding: 10px 80px 40px 80px;
+}
+
+.middle-img {
+	margin: 40px 0;
+}
+
+.cta {
+	width: 100px;
+	margin: 0 auto;
+	border: 2px solid #c9c9c9;
+	margin-bottom: 80px;
+}
