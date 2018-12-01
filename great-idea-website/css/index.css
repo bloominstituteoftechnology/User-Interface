@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+    width: 880px;
+    margin: 0 auto;
+}
+
+/* Top navigation bar */
+
+header {
+    position: fixed;
+    z-index: 2;
+    height: 60px;
+    width: 880px;
+    background-color: rgb(220,220,220);
+}
+
+header nav {
+    display: inline-block;
+    width: 680px;
+    height: 60px;
+}
+
+header nav a {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(100,100,100);
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: rgb(150,150,150);
+    color: white;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+
+/* Splash display */
+
+.splash {
+    display: inline-block;
+    margin-top: 60px;
+    height: 500px;
+}
+
+.splash-container {
+    position: relative;
+    height: 500px;
+    width: 880px;
+}
+
+.splash-container h1 {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    width: 400px;
+    height: 250px;
+    font-size: 72px;
+    text-align: center;
+    box-align: top;
+}
+
+.splash-container .start-button {
+    position: absolute;
+    top: 380px;
+    left: 165px;
+    height: 35px;
+    width: 165px;
+    border: 2px solid rgb(150,150,150);
+}
+
+.start-button a {
+    display: inline-block;
+    width: 161px;
+    height: 31px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(100,100,100);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.start-button a:hover {
+    background-color: rgb(150,150,150);
+    color: white;
+}
+
+.splash .splash-img {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(100,100,100);
+    margin: 30px 0px 40px 0px;
+}
+
+
+/* Top content section */
+
+.top-section {
+    display: inline-block;
+    width: 880px;
+}
+
+.two-column {
+    display: inline-block;
+    width: 438px;
+    padding: 0px 10px 10px 0px;
+}
+
+.two-column-right {
+    display: inline-block;
+    width: 438px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(100,100,100);
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(100,100,100);
+}
+
+
+/* image divider */
+
+.middle-img {
+    display: inline-block;
+    width: 876px;
+    margin: 30px 2px 20px 2px;
+}
+
+
+/* bottom content section */
+
+.bottom-section {
+    display: inline-block;
+    width: 880px;
+}
+
+.three-column {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 10px 20px 0px;
+}
+
+.three-column-right {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* contact section */
+
+address p {
+    margin: 20px 0px;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    text-align: center;
+    color: rgb(100,100,100);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 40px 0px;
+}
