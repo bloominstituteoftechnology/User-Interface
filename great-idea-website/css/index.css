@@ -65,6 +65,36 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header {
+	margin-top: 60px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 65px;
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
+.image-circle {
+	display: inline-block;
+	right: 0;
+}
+
 .navigation {
-	
+	position: relative;
+	margin-top: 15px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+.navigation .logo {
+	padding-right: 15px; 
+	position: absolute;
+	right: 0;
 }
