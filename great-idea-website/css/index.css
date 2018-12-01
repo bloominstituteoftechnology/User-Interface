@@ -66,14 +66,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-setion {
+section {
 	position: relative;
 }
 
 h1 {
 	font-size: 60px;
-	position: relative;
-	/* padding-bottom: 20px; */
+	padding-bottom: 20px;
 }
 
 .container {
@@ -105,23 +104,23 @@ li {
 
 .hero {
 	margin: 0 auto;
-	width: 900px;
-	margin-bottom: 40px;
 	border-bottom: 2px solid #c9c9c9;
 	text-align: center;
 }
 
 .hero p {
-	margin: 0 auto;
 	text-align: center;
-	padding: 10px 0;
 }
 
-.hero-img {
-	/* max-width: 300px; */
-	padding-top: 60px;
-	/* margin-top: 60px;
-	/* vertical-align: middle; */
+.hero .inner1 {
+	border: 2px solid red;
+	width: 450px;
+}
+
+.cta {
+	width: 100px;
+	margin: 0 auto;
+	border: 2px solid #c9c9c9;
 }
 
 .inner1 {
@@ -134,18 +133,6 @@ li {
 	max-width: 290px;
 }
 
-
-.hero .inner1 {
-	padding: 10px 80px 40px 80px;
-}
-
 .middle-img {
 	margin: 40px 0;
-}
-
-.cta {
-	width: 100px;
-	margin: 0 auto;
-	border: 2px solid #c9c9c9;
-	margin-bottom: 80px;
 }
