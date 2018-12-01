@@ -62,5 +62,157 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* --------------------------------------------------*/
+
+
+
 
 /* Your code starts here! */
+.main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.main .navbar {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+	
+}
+.main .navbar nav  {
+	position: absolute;
+	top: 20%;
+	
+	display: inline;
+	margin-right: 200px;
+	
+	
+}
+.navbar nav a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+.img {display: inline-block;}
+
+
+.main .navbar .logo {
+	position: relative;
+	left: 600px;
+}
+
+.main .wowmuchlarge .headimg {
+	display: inline;
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	border-radius: 25%;
+	margin-left: 20px;
+	
+	
+}
+
+.middle-img {
+	
+	height: 300px;
+	width: 100%;
+}
+.wowmuchlarge {
+	display: inline-block;
+	padding: 20px;
+	position: relative;
+	right: 25px;
+	height: 450px;
+	width: 800px;
+	margin-bottom: 50px;
+}
+.wowmuchlarge h1 {
+	font-size: 80px;
+}
+.wowmuchlarge .muchtext {
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	height: 180px;
+	text-align: center;
+	}
+#getitdone {
+	display: inline-block;
+	position: relative;
+	top: 330px;
+	left: 110px;
+	color: inherit;
+	height: 30px;
+	width: 150px;
+	padding: 5px 30px 5px 40px;
+	border: 1px solid black;
+}
+a {
+	text-decoration: none;
+}
+
+.container-above {
+	position: relative;
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	border-top: 1px solid black;
+
+}
+
+.container-below {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+
+}
+
+.middle-img {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.features, .about, .services, .product, .vision {
+	display: inline-block;
+	width: 375px;
+	height: 150px;
+	
+	}
+.container-above .about {
+	position: relative;
+	margin-left: 20px;
+	
+}
+
+.contact {
+	position: relative;
+	top: 10px;
+}
+
+.services, .product, .vision {
+	width: 250px;
+	}
+.product, .vision {
+	margin-left: 20px;
+}
+
+footer {
+	height: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+
