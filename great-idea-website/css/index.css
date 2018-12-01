@@ -95,12 +95,12 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.container section {
+.container section  {
 	position: relative;
 	display: inline-block;
 	height: 379px;
 	width: 758px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .container section .logo2 {
 	position: absolute;
@@ -125,4 +125,28 @@ h1, h2, h3, h4, h5 {
 	bottom: 50px;
 	left: 125px;
 	text-align: center;
+}
+
+.containerFirstSection {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	border-top: 1px solid black;
+	width: 758px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+.containerFirstSection .Features {
+	display: inline-block;
+	position: absolute;
+	width: 379px;
+	left: 0;
+}
+
+.containerFirstSection .About {
+	display: inline-block;
+	position: absolute;
+	width: 379px;
+	right: 0;
 }
