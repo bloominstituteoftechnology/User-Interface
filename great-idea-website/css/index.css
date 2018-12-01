@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	margin: 0 auto;
+	height: 100px;
+	width: 1000px;
+
+}
+
+nav {
+	display: inline-block;
+	padding: 20px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 30px;
+	color: black;
+	display: inline;
+	font-size: 15px;
+}
+
+h1 {
+	display: inline-block;
+	position: relative;
+	margin: 10px 0 10px 56px;
+	top: 10px;
+}
+
+header {
+	margin: 0 auto;
+	width: 1000px;
+	height: 600px;
+}
+
+.innovationtext {
+	font-size: 4.5em;
+	text-align: center;
+	letter-spacing: 5px;
+	position: relative;
+	display: inline-block;
+}
+
+.getstarted {
+	font-family: bangers;
+	display: inline-block;
+	padding: 20px;
+	position: relative;
+	height: 400px;
+	margin: 80px;
+}
+
+.startbutton {
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 7px 8px;
+	width: 160px;
+	font-family: 'Titillium Web';
+	font-size: 16px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.startbutton:hover {
+	background-color: #81DFA0;
+}
+
+.circlecode {
+	position: relative;
+	top: 60px;
+	display: inline-block;
+}
+
+.underhead {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top {
+	margin: 50px 0;
+}
+
+.sections {
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+}
+
+.top section {
+	width: 45%;
+	display: inline-block;
+	position: relative;
+}
+
+.top .sec2 {
+	margin-left: 90px;
+}
+
+.middle-img {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bottom {
+	margin: 50px 0;
+	position: relative;
+}
+
+.bottom section {
+	position: relative;
+	display: inline-block;
+	width: 315px;
+
+}
+
+.bottom .sec {
+	margin-left: 20px;
+}
+
+hr {
+	width: 1000px;
+}
+
+section {
+	font-size: 18px;
+}
+
+.contact{
+	height: 300px;
+}
+
+.contact h2 {
+	margin-top: 50px;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+
