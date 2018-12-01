@@ -131,28 +131,50 @@ button {
 	
 }
 
-.features {
+.top-content div {
+	width: 400px;
 	display: inline-block;
-	width: 400px; 
 }
 
+/* .features {
+	For Future use
+} */
+
 .about {
-	display: inline-block;
-	width: 400px;
 	position: absolute;
 	right: 0;
 }
 
 .bottom-content {
-	text-align: justify;
+	text-align: left;
 	border-bottom: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.bottom-content div {
+	width: 280px;
+	display: inline-block;
+}
+
+/* .services {
+	For future use
+} */
+
+.product {
+	padding-left: 20px;
+}
+
+.vision {
+	position: absolute;
+	right: 0;
 }
 
 .contact {
 	margin-top: 20px;
 	width: 140px;
 	height: 140px;
-	
 }
 
 address {
