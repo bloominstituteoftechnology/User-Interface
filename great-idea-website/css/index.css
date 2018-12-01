@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 0px solid black;
 	position: fixed;
 	background-color: white;
+	width: 900px;
+	z-index:2;
 }
 
 
@@ -94,6 +96,7 @@ header nav a {
 	text-decoration: none;
 	color: grey;
 	display: inline-block;
+	background-color: white;
 }
 
 header nav a:first-of-type {
