@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	height: 1536px;
+	width : 1024px;
+	border: solid 1px black;
+}
+header nav {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+header nav a {
+	font-weight: bold;
+	color: silver;
+	text-decoration: none;
+	padding: 0 30px 0 40px;
+	margin-top: 25px;
+}
+
+header nav img {
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+.second-part {
+	position: relative;
+	height: 30%;
+	text-align: center;
+}
+
+.second-part h1 {
+	display:inline-block;
+	position: absolute;
+	font-size: 80px;
+	top: 60px;
+	right: 580px;
+}
+
+.second-part .get-started {
+	width: 160px;
+	height: 30px;
+	display: inline-block;
+	text-decoration: none;
+	position: absolute;
+	border: solid 1px black;
+	padding-top: 5px;
+	left: 187px;
+	top: 320px;
+	color:gray;
+}
+
+.second-part img {
+	position: absolute;
+	right: 5%;
+	top: 30px;
+}
+
+hr {
+	width: 93%;
+}
+
+.top-content {
+	position: relative;
+	margin-top: 20px;
+}
+
+section .left-side, .right-side {
+    padding: 15px;
+    margin-left: 33px;
+    height: 160px;
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+
+img.middle-img {
+	margin-left: 45px;
+    width: 90%;
+}
+section.bottom-content {
+	position: relative;
+}
+
+ section.bottom-content div {
+    width: 30%;
+    display: inline-block;
+    height: 185px;
+    padding: 22px;
+    margin-left: 23px;
+}
+
+section.contact div {
+	width: 30%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+
