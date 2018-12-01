@@ -172,6 +172,10 @@ h2 {
 	width: 31%;
 	margin-right: 12px;
 }
-footer {
+.footer {
 	padding: 30px 0px 50px 0px;
+}
+.copyright {
+	text-align: center;
+    margin-top: 45px;
 }
