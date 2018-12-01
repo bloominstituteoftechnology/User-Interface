@@ -152,3 +152,10 @@ h2 {
 	width: 400px;
 	margin-right: 12px;
 }
+
+
+.bottom-left {
+	display: inline-block;
+	width: 200px;
+	margin-right: 12px;
+}
