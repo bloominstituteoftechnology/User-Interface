@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,4 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+header {
+	display: inline-block;
+}
+a {
+	padding: 20px;
+	color: lightgray;
+}
+
+.line1 {
+	position: absolute;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.buttons {
+	color: lightgrey;
+	display: inline-block;
+	width: 600px;
+	top: 0;
+    right: 5px;
+    border-radius: 25%;
+	padding: 5px;
+}
+
+.logo {
+	position: absolute;
+	display: inline-block;
+	width: 225px;
+	top: 0;
+	right: 0;
+	height: 45px;
+	left: 600px;
+}
+
+.title {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	margin: 50px;
+}
+
+.code-pic {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	right: 0;
+	left: 350px;
+	width: 250px;
+	height: 250px;
+	margin: 50px;
+}
+
+.title h1 {
+	width: 300px;
+	display: inline-block;
+	font-size: 60px;
+	position: relative;
+	top: 40px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+span {
+	border: solid 1px black;
+	font-size: 25px;
+	font-weight: normal;
+	padding: 15px;
+}
+
+.content {
+	border-top: solid blue 1px;
+	display: inline-block;
+	position: relative;
+	margin: 25px;
+}
+
+.features {
+	width: 400px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.features p {
+	display: inline-block;
+	position: relative;
+}
+
+.about {
+	display: inline-block;
+	position: relative;
+	right: 0;
+	top: 0;
+	left: 0px;
+	width: 400px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.services {
+	display: inline-block;
+	position: relative;
+	width: 280px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.product {
+	display: inline-block;
+	position: relative;
+	right: 0;
+	top: 0;
+	left: 0px;
+	width: 280px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.vision {
+	display: inline-block;
+	position: relative;
+	right: 0;
+	top: 0;
+	left: 0px;
+	width: 280px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.contact {
+	font-weight: bold;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.address {
+	margin: 20px;
+}
+
+.number {
+	margin: 20px;
+}
+
+.email {
+	margin: 20px;
+}
+
+.copyright {
+	margin: 20px;
+	text-align: center;
+}
+
+
+
 
