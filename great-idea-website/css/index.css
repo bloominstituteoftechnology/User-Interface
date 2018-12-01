@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width:876px;
+	margin:0 auto;
+}
+
+header{
+	height: 50px;
+	position: relative;
+	margin:55px 0px;
+}
+
+nav{
+	display: inline-block;
+	vertical-align: text-top;
+	position: absolute;	
+	padding-top: 10px;
+}
+
+section{
+	position: relative;
+}
+
+address{
+	display:block;
+	margin-top: 100px;
+}
+
+a{
+	text-decoration: none;
+	color:black
+}
+
+address p{
+	margin-bottom: 10px;
+}
+
+nav a{
+	margin-right: 64px;
+	font-size: 14px;
+	text-decoration: none;
+	color:#BFBFBF;
+}
+
+section h3, section p{
+	width: inherit;
+	display: inherit;
+}
+
+.logo, .big-pic{
+	position: absolute;
+	right:0;
+}
+
+.large-items {
+	width:100%;
+	height: 380px;	
+}
+
+.large-items div{
+	width:435px;
+	height: 380px;
+	display:inline-block;
+	padding:0;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.large-items div h1{
+	position: absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	font-size: 75px;
+	margin: 59px 26px 0px 75px;
+	letter-spacing: 4px;
+	font-stretch: expanded;
+}
+
+.large-items div p{
+	height: 32px;
+	width: 175px;
+	padding-top: 5px;
+	border: 1px solid black;
+	text-align: center;
+	letter-spacing: 2px;
+	display:inline-block;
+	position: absolute;
+	margin:302px 108px 0px 152px;	
+}
+
+.Features, .About{
+	margin:116px 0px 45px 0px;
+	display: inline-block;
+	width: 435px;
+}
+
+.Services, .Product, .Vision{
+	display: inline-block;
+	width: 289px;
+	margin-top:	30px;
+}
+
+.physical {
+	margin:0 0 0 0;
+}
+
+.copyright {
+	display: inline-block;
+	width:200px;
+	text-align: center;
+	margin: 70px 0px 0px 335px;
+	font-size: 14px;
+}
