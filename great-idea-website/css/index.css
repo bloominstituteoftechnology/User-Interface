@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	display: inline-block;
+	width: 600px;
+}
+
+nav {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.logo {
+	
+}
+
+.iod {
+	display: block;
+	width: 500px;
+	height: 500px;
+	border: solid 2px red;
+	padding: 45px;
+	font-size: 60px;
+}
+
+.circle {
+	display: block;
+	width: 500px;
+	height: 500px;
+	border: solid 2px red;
+	padding: 45px;
+	
+}
+
+
