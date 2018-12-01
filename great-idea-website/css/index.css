@@ -100,8 +100,9 @@ a {
 	padding-left:10px;
 }
 
-a :hover {
+a:hover {
 	background-color: yellow;
+	color: black;
 }
 .logo {
 	display: inline-block;
@@ -136,8 +137,8 @@ a :hover {
 	display: inline-block;
 	font-size: 20px;
 	border: 2px solid grey;
-	background-color: grey;
-	width: 33%;
+	
+	width: 100px%;
 
 }
 
@@ -171,6 +172,8 @@ a :hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
     width: 100%;
 }
 
