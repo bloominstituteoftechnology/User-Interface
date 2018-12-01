@@ -72,8 +72,12 @@ body{
 
 header{
 	height: 50px;
-	position: relative;
-	margin:55px 0px;
+	width: 876px;
+	display: block;
+	position: fixed;
+	margin:0px 0px;
+	background-color:white;
+	z-index: 10;
 }
 
 nav{
@@ -120,7 +124,8 @@ section h3, section p{
 
 .large-items {
 	width:100%;
-	height: 380px;	
+	height: 480px;	
+	padding-top: 100px;
 }
 
 .large-items div{
