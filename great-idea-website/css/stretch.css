@@ -145,9 +145,10 @@ nav a:hover {
   display: inline-block;
 }
 
-#splash {
+#splash, #splash2 {
   margin-top: 132px;
   margin-bottom: 75px;
+  display: table;
 }
 
 .innovation {
@@ -157,6 +158,14 @@ nav a:hover {
   margin-top: 65px;
   vertical-align: top;
   line-height: 0.85;
+}
+
+#splash2 .services {
+  display:inline-block;
+  text-align: center;
+  line-height: 0.85;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 h1 {
@@ -173,7 +182,7 @@ h1 {
 
 .consulting {
   display:inline-block;
-  margin-left: 125px;
+  margin-left: 100px;
   overflow: hidden;
   height: 260px;
   /* made div 20px shorter than image, which effectively crops bottom of image */
@@ -187,7 +196,7 @@ h1 {
   background-image: url("../img/header-img.png");
 }
 
-main, footer {
+main, footer, #splash2 {
   margin-left: 74px;
   margin-right: 75px;
 }
