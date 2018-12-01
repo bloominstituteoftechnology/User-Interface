@@ -75,3 +75,32 @@ header {
 	position: relative;
 	padding: 15px;
 }
+.navigation {
+	width: 880px;
+	top: 0;
+	position: fixed;
+	z-index: 2;
+}
+.contents {
+	position: relative;
+	width: 880px;
+	height: 440px;
+	margin-top: 50px;
+}
+.left {
+	display: inline-block;
+	position: absolute;
+	width: 440px;
+	padding: 50 50 50 50;
+	margin: 85px;
+	text-align: center;
+}
+.right {
+	display: inline-block;
+	position: absolute;
+	width: 440px;
+	padding: 30 0 30 0;
+	right: 0;
+
+
+}
