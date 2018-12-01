@@ -130,9 +130,9 @@ hr {
 }
 
 .navArea a:hover {
-	color: #fff;
-	background: #3a3d42;
+	/* color: #fff; */
 	transition: 1s;
+	border-bottom: 5px solid #3a3d42;
 }
 
 .navArea .logo {
@@ -179,7 +179,8 @@ font-size: 17.5px;
 
 .button a {
 	text-decoration: none;
-	border: 1px solid black;
+	border: 1px solid green;
+	color: green;
 	padding: 5px 38px;
 }
 
@@ -202,11 +203,6 @@ font-size: 17.5px;
 	/* margin: 10px; */
 	display: inline-block;
 }
-
-.info>.information {
-	/* padding-right:80px; */
-}
-
 
 /****** body image ******/
 .bodyImage img {
@@ -238,4 +234,9 @@ footer {
 
 footer p {
 	text-align: center;
+}
+
+.visionSection p{
+	width: 50%;
+	display: inline-block;
 }
