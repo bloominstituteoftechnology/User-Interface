@@ -78,22 +78,40 @@ p{
 	margin: 0 auto;
 }
 
+.nav-container{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+}
 nav {
-    margin-top: 1.2%;
-	position: relative;
- 
+    margin-top: 1%;
+    position: fixed;
+    padding-left: 120px;
+    width: 100%;
+ }
+.logo {
+    margin: 1%;
+	position: fixed;
+	right: 28%;
 }
 a{
-    padding: 2%;
-    color: grey;
+    display: block;
+    float: left;
+    padding: 10px 2%;
+    color: dodgerblue;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    padding: 10px 2%;
+    color: white;
+    background-color: dodgerblue;
     text-decoration: none;
 }
 
-.logo {
-	position: absolute;
-	top: .5%;
-	right: 28%;
-}
+
 
 
 h1{
