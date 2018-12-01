@@ -158,18 +158,29 @@ h5 {
 
 header {
   width: 880px;
-  margin-top: 40px;
+  position: fixed;
+  background: lightblue;
 }
 
 header nav {
   display: inline-block;
   width: 690px;
+  margin-top: 60px;
+  height: 30px;
 }
 
 header nav a {
   padding: 25px;
-  color: gray;
+  color: purple;
   text-decoration: none;
+  font-family: "Lucida Calligraphy";
+  font-size: 15px;
+}
+
+header nav a:hover {
+ background: yellow;
+ padding-bottom: 0px;
+ padding-top: 0px;
 }
 
 header .logo {
@@ -196,7 +207,7 @@ header .logo {
 }
 
 .first-section img {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .second-section {
@@ -208,7 +219,6 @@ header .logo {
   margin-top: 30px;
   width: 430px;
   padding: 10px;
-  margin-right: 0px;
 }
 
 .middle-img {
