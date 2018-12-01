@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	width: 950px;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 950px;
+	margin-bottom: 40px; 
+	padding-bottom: 90px; 
+	/* border-bottom: 2px solid black; */
+
+}
+
+header {
+	position: relative;
+}
+
+header nav {
+	/* width: 370px; */
+	display: inline-block;
+}
+
+header nav a {
+	display: inline-block;
+	margin-top: 39px;
+	margin-bottom: 39px;
+	padding-left: 63.5px;
+	color: gray;
+	font-size: 14px;
+}
+
+header nav a:first-child {
+	margin-left: 10px;
+}
+
+img.logo {
+	display: inline-block;
+	position: absolute;
+	right: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.title {
+	width: 950px;
+	/* position: relative; */
+	margin-top: 40px;
+}
+
+.left {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+}
+
+h1 {
+	font-size: 460%;
+	/* font-style: oblique; */
+	font-weight: bold;
+	padding: 10px;
+	display: inline-block;
+	padding-top: 59px;
+	/* padding-left: 40px; */
+	text-align: center;
+	margin: 0;
+	margin-left: 138px; 
+	letter-spacing: 0.065em;
+	line-height: 1.02em;
+}
+
+#get-started {
+	margin-left: 226px;
+	margin-top: 16px;
+	
+}
+
+#get-started>a {
+	color: black;
+	font-size: 110%;
+	letter-spacing: 0.04em;
+	border: 1px solid black;
+	padding: 2px 40px;
+	width: 170px;
+	margin: 8px auto;
+	/* padding: 5px 30px; */
+}
+
+.right {
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+	right: 0;
+	padding-left: 31px;
+}
+img .code {
+	/* display: inline-block; */
+	/* position: absolute;
+	right: 0; */
+	/* top: 50%;
+	transform: translateY(-50%); */
+}
+
+hr {
+	margin-left: 74px; 
+}
+
+.content {
+	margin-top: 38px;
+	margin-left: 74px;
+	padding-bottom: 37px; 
+
+}
+
+.first {
+	position: relative;
+	height: 140px;
+}
+
+h2 {
+	margin-bottom: 16px;
+	font-weight: bold; 
+}
+
+p {
+	line-height: 1.1em;
+	/* font-size: 98%; */
+	padding: 0.5px;
+}
+
+.features {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+
+}
+
+.about {
+	padding-left: 10px; 
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	width: 50%;
+}
+
+.aside {
+	margin-bottom: 37px; 
+}
+
+.second {
+	position: relative;
+	height: 140px;
+}
+
+.services {
+	display: inline-block;
+	width: 292px;
+}
+
+.product {
+	display: inline-block;
+	margin-left: 8px;
+	width: 284px;
+	/* padding-left: 5px; */
+
+}
+
+.vision {
+	display: inline-block;
+	margin-left: 13px;
+	width: 279px;
+}
+
+footer {
+	margin-left: 74px;
+	margin-top: 38px;
+	position: relative;
+}
+
+.footer-content {
+	padding-left: 1px;
+	/* width: 150px; */
+}
+
+.physical {
+	margin-bottom: 20px;
+}
+
+.phone {
+	margin-bottom: 20px;
+}
+
+.copyright {
+	margin-top: 53px;
+	margin-left: 360px;
+	font-size: 85%;
+	/* padding: 15px; */
+}
