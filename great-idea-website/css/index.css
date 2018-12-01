@@ -97,18 +97,14 @@ nav a {
 .innovation{
 	display: inline-block;
 	width: 435px;
-	padding-top: 150px;
-	height: 475px;
+	padding-top: 130px;
+	height: 500px;
 }
 
 .large-image {
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-bottom: 75px;
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 65px;
 }
 
 hr {
@@ -116,20 +112,20 @@ hr {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 65px;
 	white-space: pre-line;
 	height: 100px;
 	text-align: center;
 }
 
 .button-container {
-	padding-left: 43px;
-	padding-top: 50px;
+	padding-left: 25px;
+	padding-top: 95px;
 }
 
 .button {
 	border: 1px solid black;
-	padding: 10px 20px;
+	padding: 7px 40px;
 	display: inline-block;
 	margin-left: 112px;
 }
