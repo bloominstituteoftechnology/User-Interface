@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 5%;
+}
+
+#navwrapper {
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+nav > a {
+	color: gray;
+	margin-right: 65px;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+nav > a:hover {
+	color: royalblue;
+	border-bottom: 1px solid royalblue;
+}
+
+.logo {
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 4.5em;
+	width: 250px;
+	vertical-align: top;
+	margin-left: 55px;
+	letter-spacing: 2px;
+}
+
+#banner {
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#container > header > div:nth-child(2) > img {
+	padding-left: 250px;
+}
+
+button {
+	border: 1px solid black;
+	font-family: "Titillium Web";
+	background-color: white;
+	text-align: center;
+	width: 160px;
+	height: 35px;
+	position: relative;
+	margin-left: 55px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+button:hover {
+	border: 1px solid royalblue;
+	text-decoration: underline;
+	color: royalblue;
+}
+
+#bannerwrapper {
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 60px;
+}
+
+.dblbox {
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+	margin-left: 7px;
+}
+
+.trplbox {
+	display: inline-block;
+	width: 32%;
+	margin-left: 7px;
+	text-align: left;
+}
+
+section {
+	text-align: center;
+}
+
+h2 {
+	padding-top: 35px;
+}
+
+.middle-img {
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+#btmsection {
+	padding-bottom: 55px;
+	border-bottom: 1px solid black;
+}
+
+#phone {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#copy {
+	font-style: italic;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-family: 'Shadows Into Light';
+}
