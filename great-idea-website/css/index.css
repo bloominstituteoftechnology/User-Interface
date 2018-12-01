@@ -164,3 +164,8 @@ h2 {
 	width: 200px;
 	margin-right: 12px;
 }
+.bottom-right {
+	display: inline-block;
+	width: 200px;
+	margin-right: 12px;
+}
