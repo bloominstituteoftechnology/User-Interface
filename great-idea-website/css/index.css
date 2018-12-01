@@ -144,31 +144,30 @@ h2 {
 }
 .top-left {
 	display: inline-block;
-	width: 49%;
+	width: 48%;
 	margin-right: 12px;
 }
 .top-right {
 	display: inline-block;
-	width: 49%;
+	width: 48%;
 	margin-right: 12px;
 }
-
 .image {
-	padding: 30px 30px 30px 0px;
+	padding: 15px 0px 15px 0px;
 }
 
 .bottom-left {
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	margin-right: 12px;
 }
 .bottom-middle {
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	margin-right: 12px;
 }
 .bottom-right {
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	margin-right: 12px;
 }
