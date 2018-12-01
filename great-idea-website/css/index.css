@@ -70,13 +70,15 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
+	background-color: cornflowerblue;
 	height: 40px;
 	position: relative;
 }
 
 nav a {
-	color: gray;
+	color: white;
 	text-decoration: none;
+	padding-left: 15px;
 }
 
 nav img {
@@ -88,6 +90,8 @@ nav img {
 .nav-item {
 	margin-right: 70px;
 	/*vertical-align: middle*/
+	position: relative;
+	top: 30%;
 }
 
 header {
