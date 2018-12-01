@@ -83,11 +83,12 @@ h1, h2, h3, h4, h5 {
 }
 
 nav a {
-	margin-right: 60px;
-	color: black;
+	margin-right: 55px;
+	color: darkgray;
+	font-size: 90%;
 	text-decoration: none;
 	display: inline-block;
-	padding-top:20px;
+	padding-top:23px;
 }
 
 .top, .top-content, .bottom-content {
