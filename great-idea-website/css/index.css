@@ -144,10 +144,12 @@ h1, h2, h3, h4, h5 {
 .container header { 
 	margin: 0 auto;
 	padding-bottom: 30px;
+	position: relative; 
 }
 
 .container header nav { 
 	display: inline-block; 
+	margin-top: 30px; 
 }
 
 .container header nav a { 
@@ -156,16 +158,20 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none; 
 }
 
+
 .container .logo { 
 	display: inline-block; 
+	position: absolute; 
+	right: 0px; 
+	top: 30px; 
 }
 
 .container .main-heading { 
 	display: inline-block; 
 	position: relative;
-	width: 800px; 
-	height: 450px; 
-	margin-left: 25px; 
+	width: 881px; 
+	height: 540px; 
+	border-bottom: 2px solid black;
 }
 
 .container .main-heading .main-text { 
@@ -200,5 +206,40 @@ h1, h2, h3, h4, h5 {
 
 }
 
+.container .content-row { 
+	display: inline-block; 
+	width: 448px; 
+	margin-top: 37px;
+	margin-bottom: 50px; 
+}
 
+.container .content-box { 
+	display: inline-block; 
+	width: 297px; 
+	height: 200px; 
+	margin-top: 50px;
+	margin-bottom: -46px;
+}
 
+.container .content-boxes { 
+	border-bottom: 2px solid black;
+}
+
+.container .main-content { 
+	margin-bottom: 47px; 
+}
+
+.container address {
+    display: inline-block; 
+	line-height: 2; 
+	width: 147px;  
+	margin-top: -6px; 
+}
+
+.container .copyright { 
+	display: inline-block; 
+	width: 900px; 
+	text-align: center; 
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+}
