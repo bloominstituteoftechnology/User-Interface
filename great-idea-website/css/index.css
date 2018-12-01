@@ -60,28 +60,106 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+   
 }
 
 /* Your code starts here! */
-* h1{
-	font-size: 24px; 
-}
 .container {
 	width: 960px;
-	margin: auto;
+	margin: 0 auto;
+	padding: :20px;
 }
-*/
+
+h1 {
+	font-size: 60px; 
+	background-color: blueviolet;
+	width: 50%;
+	float: left;
+	display: inline-block
+}
+h2{
+	padding-bottom: 20px;
+}
+
 .navigation{
 	display: inline;
 	margin-top: 10px;
+	display: inline-block;
 }
 .navigation a {
-    padding: 35px;
+    padding: 30px;
     border: 0;
     font-size: 100%;
 	color: grey;
 	text-decoration: none;
 }
 
+.headerImage{
+	width: 50%;
+	float: left;
+}
+
+.features{
+	width: 50%;
+	float: left;
+	border-top: 1px solid black;
+	padding-top: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.about{
+	width: 50%;
+	float: left;
+	border-top: 1px solid black;
+	padding: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.middle-img{
+	width: 100%;
+	padding: 30px;
+}
+
+.services{
+	width: 33.3%;
+	float: left;
+	border-bottom: 1px solid black;
+	padding: 30px;
+}
+
+.products{
+	width: 33.3%;
+	float: left;
+	border-bottom: 1px solid black;
+	padding: 30px;
 	
+}
+
+.vision{
+	width: 33.3%;
+	float: left;
+	border-bottom: 1px solid black;
+	padding: 30px;
+}
+
+
+.address{
+	width:40%; 
+	
+}
+
+.mailing {
+	padding: 10px;
+}
+.phone {
+	padding: 10px;
+}
+.email {
+	padding: 10px;
+}
+.footer{
+	text-align: center;
+}
