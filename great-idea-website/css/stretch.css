@@ -108,6 +108,11 @@ nav a:hover {
   background-size: 100% 100%;
 }
 
+#nav-services {
+  color: white;
+  font-weight: bold;
+}
+
 #nav-product {
   margin-left: 62px;
 }
@@ -163,6 +168,15 @@ h1 {
   border: 1px solid black;
   padding: 10px 50px;
   margin-top: 40px;
+}
+
+
+.consulting {
+  display:inline-block;
+  margin-left: 125px;
+  overflow: hidden;
+  height: 260px;
+  /* made div 20px shorter than image, which effectively crops bottom of image */
 }
 
 .code-snippet {
