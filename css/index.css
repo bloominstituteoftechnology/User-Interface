@@ -151,15 +151,16 @@ h5 {
 
 /* Your code starts here! */
 body {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 0 auto;
-  width: 1000px;
+  width: 900px;
 }
 
 .header {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   display: inline-block;
-  width: 1000px;
+  width: 900px;
+  margin-top: 40px;
 }
 
 a {
@@ -171,85 +172,83 @@ a {
   padding: 10px;
 }
 
-.logo {
-  margin-top: -40px;
-  margin-right: 35px;
-  border: 3px solid red;
-  float: right;
+a:hover {
+  background: black;
+  color: white;
 }
 
-/* 
+.logo {
+  margin-top: -40px;
+  /* border: 3px solid red; */
+  float: right;
+  margin-right: 15px;
+}
+
+.box-one {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-top: 45px;
+}
+
+#words {
+  /* border: 3px solid red; */
+  font-size: 85px;
+  text-align: center;
+  margin: 0 90px 0 0;
+}
+
+#display {
+  /* border: 3px solid red; */
+  /* margin-bottom: -40px; */
+}
+
 button {
   background-color: white;
   color: black;
   border: 1px solid black;
   width: 150px;
+  margin-top: -40px;
 }
 
-
-
-nav a:hover {
-  background: black;
-  color: white;
+article {
+  /* border: 3px solid red; */
+  margin: 45px 0 10px 0;
 }
 
-.container {
-  margin: 35px 0 0 0;
+.two-box {
+  /* border: 3px solid red; */
   text-align: center;
 }
 
-.innovation {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-}
-
-h1 {
-  font-size: 70px;
-}
-
-#header {
-  margin: 0 100px 50px 0;
-}
-
-.headerIMG {
-  margin-bottom: -70px;
-}
-
-#boxfeature {
-  text-align: center;
-}
-
-.boxfeature {
-  width: 400px;
+.twobox {
+  /* border: 3px solid red; */
+  width: 440px;
   height: 100px;
   display: inline-block;
   text-align: left;
+  margin-bottom: 35px;
 }
 
 .middleimg {
   text-align: center;
-  margin: 35px 0;
 }
 
-#boxthree {
-  margin-left: 17px;
-}
-
-.boxes {
+.three-box {
   text-align: center;
 }
 
-.boxthree {
-  text-align: left;
-  width: 250px;
-  height: 100px;
+.threebox {
+  /* border: 3px solid red; */
+  width: 290px;
+  height: 200px;
   display: inline-block;
+  text-align: left;
+  margin-top: 35px;
 }
 
-hr {
-  margin: 35px 300px;
-}
+/* 
+
 
 .address {
   width: 600px;
