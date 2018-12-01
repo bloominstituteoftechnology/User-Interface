@@ -90,12 +90,15 @@ nav a {
 	padding-top:20px;
 }
 
+.top {
+	position: relative;
+}
+
 .innovation{
 	display: inline-block;
 	width: 435px;
-	border: 1px solid black;
-	padding: 100px;
-	height: 380px;
+	padding-top: 150px;
+	height: 475px;
 }
 
 .large-image {
@@ -103,6 +106,9 @@ nav a {
 	margin-top: 30px;
 	margin-left: 50px;
 	margin-bottom: 75px;
+	position: absolute;
+	right: 0;
+	top: 40px;
 }
 
 hr {
@@ -123,7 +129,7 @@ h1 {
 
 .button {
 	border: 1px solid black;
-	width: 200px;
 	padding: 10px 20px;
 	display: inline-block;
+	margin-left: 112px;
 }
