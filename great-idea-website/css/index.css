@@ -187,3 +187,19 @@ h1, h2, h3, h4, h5 {
 	width: 252.66px;
 	right: 0;
 }
+
+footer {
+	padding-top: 20px;
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 758px;
+	margin-bottom: 50px;
+}
+
+footer .Copyright {
+	padding-top: 30px;
+	width: 758px; 
+	text-align: center;
+	font-size: 14px;
+}
