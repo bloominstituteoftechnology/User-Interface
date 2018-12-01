@@ -112,11 +112,11 @@ header {
 }
 
 .innovationtext {
-	font-size: 4.5em;
+	font-size: 4em;
 	text-align: center;
-	letter-spacing: 5px;
 	position: relative;
-	display: inline-block;
+	display: block;
+	font-family: Unlock;
 }
 
 .getstarted {
@@ -212,6 +212,9 @@ hr {
 
 section {
 	font-size: 18px;
+	font-family: Roboto;
+	letter-spacing: 2px;
+	line-height: 1.2;
 }
 
 .contact{
