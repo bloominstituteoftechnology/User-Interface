@@ -65,17 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
 .navigation {
 	margin: 0 auto;
 	height: 100px;
-	width: 1000px;
-
+	width: 100%;
+	background-color: #81DFA0; 
+	position: fixed;
 }
 
 nav {
 	display: inline-block;
 	padding: 20px;
 	position: relative;
+	margin-left: 100px;
+	z-index: 1;
 }
 
 a {
@@ -94,9 +98,12 @@ h1 {
 }
 
 header {
-	margin: 0 auto;
+	margin: 50px auto 0 100px;
 	width: 1000px;
 	height: 600px;
+	display: inline-block;
+	position: relative;
+	z-index: -1;
 }
 
 .innovationtext {
@@ -137,11 +144,13 @@ header {
 	position: relative;
 	top: 60px;
 	display: inline-block;
+	margin-top: 20px;
 }
 
 .underhead {
 	margin: 0 auto;
 	width: 1000px;
+	z-index: -1;
 }
 
 .top {
@@ -152,6 +161,7 @@ header {
 	margin: 0 auto;
 	position: relative;
 	width: 1000px;
+	z-index: -1;
 }
 
 .top section {
@@ -173,12 +183,14 @@ header {
 .bottom {
 	margin: 50px 0;
 	position: relative;
+	z-index: -1;
 }
 
 .bottom section {
 	position: relative;
 	display: inline-block;
 	width: 315px;
+	z-index: -1;
 
 }
 
@@ -188,6 +200,7 @@ header {
 
 hr {
 	width: 1000px;
+	z-index: -1;
 }
 
 section {
