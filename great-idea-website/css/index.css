@@ -50,8 +50,8 @@ table {
     box-sizing: border-box;
 }
 html, body {
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    height: 100%;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -65,18 +65,18 @@ header {
 	width: 877px;
 }
 header nav {
-	position: fixed;
 	background-color: rgba(256,256,256,.9);
 	border-bottom: 1px solid #000;
-	height: 63px;
 	padding-top: 27px;
 	padding-bottom: 50px;
+	position: fixed;
+	height: 63px;
 	width: 877px;
 	z-index: 1;
 }
 header nav a {
-	display: inline-block;
 	color: #333;
+	display: inline-block;
 	font-size: 12px;
 	margin: 0 34px;
 	text-decoration: none;
@@ -84,9 +84,14 @@ header nav a {
 header nav a:first-of-type {
 	margin: 0 34px 0 0;
 }
-header nav img {
+header .logo {
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-left: 62px;
 	height: 36px;
-	margin: 0 0 0 62px;
+	width: 183px;
 }
 /*HEADER TEXT AND IMAGE*/
 #header-banner {
@@ -119,17 +124,21 @@ header nav img {
 	text-decoration: none;
 	width: 175px;
 }
-#header-banner img {
+#header-banner #header-image {
+	background-image: url(../img/header-img.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: inline-block;
+	height: 380px;
 	width: 380px;
 }
 /*CONTENT*/
 #content {
-	width: 877px;
-	margin: 0 auto;
-	padding: 40px 0 49px 0;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	margin: 0 auto;
+	padding: 40px 0 49px 0;
+	width: 877px;
 }
 #content > #features
 #content > #services,
@@ -153,8 +162,13 @@ header nav img {
 	width: 280px;
 }
 #content > #middle-img {
+	background-image: url(../img/mid-page-accent.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: inline-block;
 	margin: 40px 0;
+	height: 182px;
+	width: 877px;
 }
 /*FOOTER*/
 footer {
@@ -163,14 +177,14 @@ footer {
 }
 footer a {
 	display: inline-block;
-	text-decoration: none;
 	color: #000;
-	width: 100%;
 	margin-top: 24px;
+	text-decoration: none;
+	width: 100%;
 }
 footer p {
 	display: inline-block;
-	text-align: center;
 	margin-top: 60px;
+	text-align: center;
 	width: 100%;
 }
