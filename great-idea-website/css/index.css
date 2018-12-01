@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,124 +15,155 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-
 section {
-	position: relative;
+  position: relative;
 }
 
 h1 {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .container {
-	margin: 0 auto;
-	width: 900px;
+  margin: 0 auto;
+  width: 900px;
 }
 
 nav {
-	display: inline-block;
-	position: relative;
-	width: 900px;
-	margin: 34px 0;
+  display: inline-block;
+  position: relative;
+  width: 900px;
+  margin: 34px 0;
 }
 
 ul {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 li {
-	display: inline-block;
-	padding-right: 40px;
+  display: inline-block;
+  padding-right: 40px;
+  color: #999;
 }
 
 .logo {
-	position: absolute;
-	right: 0;
-	top: 0;
+  position: absolute;
+  right: 20px;
+  top: 0;
 }
 
 .hero {
-	margin: 0 auto;
-	border-bottom: 2px solid #c9c9c9;
-	text-align: center;
-
+  margin: 0 auto;
+  border-bottom: 2px solid #c9c9c9;
+  text-align: center;
 }
 
 .hero p {
-	text-align: center;
+  text-align: center;
 }
 
 .hero .inner1 {
-	border: 2px solid red;
-	width: 450px;
-		vertical-align: middle;
+  width: 450px;
+  vertical-align: middle;
 }
 
 .cta {
-	width: 100px;
-	margin: 0 auto;
-	border: 2px solid #c9c9c9;
+  width: 140px;
+  margin: 0 auto;
+  border: 2px solid #c9c9c9;
+  padding: 10px 26px;
+}
+
+.hero img {
+  max-width: 300px;
+  margin: 40px 0;
 }
 
 .inner1 {
-	display: inline-block;
-	max-width: 440px;
+  display: inline-block;
+  max-width: 440px;
 }
 
 .inner2 {
-	display: inline-block;
-	max-width: 290px;
+  display: inline-block;
+  max-width: 286px;
+}
+
+.inner1 h2 {
+  margin-top: 20px;
 }
 
 .middle-img {
-	margin: 40px 0;
+  margin: 40px 0;
+}
+
+.bottom-row {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+address {
+	margin-top: 40px;
+}
+
+.phone {
+	padding: 20px 0;
+}
+
+.copyright {
+	text-align: center;
+	margin: 80px 0;
 }
