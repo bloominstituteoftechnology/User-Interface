@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 900px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 30px;
+	padding: 0;
+}
+
+
+
+.nav, .logo {
+	display: inline-block;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	
+
+}
+
+nav>a {
+	text-decoration: none;
+	color: silver;
+	margin-right: 40px;
+	vertical-align: middle;
+	font-family: 'Unlock', cursive;
+}
+
+nav {
+	width: 750px;
+	height: 100%;
+
+}
+
+header img {
+	max-width: 100px;
+	max-height: 30px;
+	padding-left: 400px;
+}
+
+
+.start {
+	height: 300px;
+	width: inherit;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+.start section, .start img {
+	display: inline-block;
+	height: 100%;
+	width: 400px;
+	
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+
+}
+
+.start section {
+	padding: 20px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+
+.start section h1 {
+	height: 100px;
+	font-size: 3em;
+	margin-bottom: 80px;
+}
+
+#start-img {
+	max-width:300px;
+	max-height: 300px;
+	margin-left: 90px;
+}
+
+ button {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.g-button{
+	background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.g-button:hover {
+    background-color: #555555;
+    color: white;
+
+.mid {
+	margin-bottom: 40px;
+}
+section {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+#features, #about {
+	display: inline-block;
+	width: 48%;
+	height: 10%;
+}
+
+#about {
+	margin-left: 30px;
+}
+
+#services, #product, #vision {
+	display: inline-block;
+	width: 33%;
+	height: 10%;
+}
+
+.main {
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+footer p {
+	text-align: center;
+}
