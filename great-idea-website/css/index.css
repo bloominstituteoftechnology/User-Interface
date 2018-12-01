@@ -65,24 +65,102 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 80%;
+	margin: auto;
+}
+
 header img, header nav{
 	display: inline-block;
 }
 
-/* div h1, div button {
-	display: inline-block;
-} */
+nav a {
+	margin-left: 100px;
+}
 
-.banner {
+nav a:first-child {
+	margin-left: 0;
+}
+
+.logo {
+	margin-left: 100px;
+	height: 40px;
+}
+
+#banner {
+	position: relative;
+	height: 650px;
+	border-bottom: 2px black solid;
+	margin-bottom: 50px;
+}
+
+.banner-content {
 	display: inline-block;
+}
+
+div.banner-content {
+	margin-left: 200px;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.banner-content h1 {
+	font-size: 90px;
+}
+
+img.banner-content {
+	height: 500px;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+#main {
+	padding-bottom: 50px;
+	border-bottom: 2px black solid;
+	margin-bottom: 50px;
 }
 
 #section1 section {
-	width: 500px;
+	width: 550px;
 	display: inline-block;
+	margin-right: 20px;
+}
+
+#section1 section:last-child {
+	margin-right: 0px;
+}
+
+#section2 {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #section3 section {
-	width: 300px;
+	width: 365px;
+	margin-right: 20px;
 	display: inline-block;
+}
+
+#section3 section:last-child {
+	margin-right: 0px;
+}
+
+address p {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 100px;
 }
