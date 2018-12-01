@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #000;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,177 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.example {
+	background: url("/header-img.png") no-repeat center;
+	/* width: 900px; */
+	height: 400px;
+	/* background: url(img/header-img) */
+}
+
+/****** google font family ******/
+h2 {
+	text-transform: uppercase;
+	font-family: 'Proza Libre', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+	background: #fff;
+	/* position: absolute; */
+}
+
+hr {
+	width: 90%;
+}
+
+/****** nav links and logo ******/
+.container .navArea {
+	position: fixed;
+	display: inline-block;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	width: 1040px;
+	background: #fff;
+	z-index: 100;
+	box-shadow: 0px 0px 15px #000;
+	/* left: 100px; */
+}
+
+.navArea nav {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	/* left: 10%; */
+	padding-top: 15px;
+}
+
+.navArea li {
+	display: inline-block;
+	padding-right: 50px;
+	text-transform: uppercase;
+}
+
+.navArea a {
+	text-decoration: none;
+	display: block;
+	color: #3a3d42;
+}
+
+.navArea a:hover {
+	color: #fff;
+	background: #3a3d42;
+	transition: 1s;
+}
+
+.navArea .logo {
+	display: inline-block;
+	position: relative;
+	right: -75%;
+	padding-top: 5px;
+	/* padding-right: 10px; */
+}
+
+/****** header ******/
+header {
+	/* border: 1px solid orange; */
+	position: relative;
+	padding: 90px 0 460px 0;
+}
+
+header h1 {
+	font-size: 72px;
+	width: 25%;
+	left: 146px;
+	top: 160px;
+	position: absolute;
+	padding-right: 40px;
+	text-align: center;
+}
+
+.headerImage {
+	width: 40%;
+	right: 75px;
+	position: absolute;
+	padding-left: 40px;
+}
+
+.button {
+/* padding: 5px 38px; */
+/* border: 1px solid black; */
+display: inline;
+position: absolute;
+left: 160px;
+top: 400px;
+font-size: 17.5px;
+}
+
+.button a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 5px 38px;
+}
+
+.button a:hover {
+	color: #0070d2;
+	border-color: #0070d2;
+}
+
+/****** information section ******/
+.info {
+	/* border: 1px solid red; */
+	/* border-top: 1px solid black; */
+	/* border-width: 10px; */
+	padding: 30px 0;
+}
+
+.information {
+	width: 45%;
+	padding-left: 70px;
+	/* margin: 10px; */
+	display: inline-block;
+}
+
+.info>.information {
+	/* padding-right:80px; */
+}
+
+
+/****** body image ******/
+.bodyImage img {
+	width: 100%;
+	padding: 0 70px;
+}
+
+/****** additional information section ******/
+.additionalInfo {
+	padding: 40px 70px;
+}
+
+.extraInfo {
+	width: 30%;
+	display: inline-block;
+	margin-right: 27px;
+}
+
+
+/****** contact section ******/
+.contact {
+	padding: 30px 0 0 70px;
+}
+
+/****** footer ******/
+footer {
+	padding: 60px 0 114px 0;
+}
+
+footer p {
+	text-align: center;
+}
