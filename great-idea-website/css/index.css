@@ -96,17 +96,19 @@ header img {
 	right: 0;
 }
 .contents {
-	position: relative;
+	/* position: relative; */
+	/* border: 1px solid red; */
 	width: 880px;
 	height: 440px;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 .left {
 	display: inline-block;
-	position: absolute;
-	width: 440px;
-	padding: 50px 50px 50px 50px;
-	margin-top: 85px;
+	/* border: 1px solid red; */
+	/*position: absolute;*/
+	width: 49%;
+	/* padding: 0px 0px 0px 0px; */
+	margin-top: 60px;
 	text-align: center;
 }
 .contents button {
@@ -121,13 +123,17 @@ header img {
 }
 .right {
 	display: inline-block;
-	position: absolute;
-	width: 440px;
-	padding: 30px 0px 30px 0px;
+	/* border: 1px solid red; */
+	/*position: absolute;*/
+	width: 49%;
+	/* padding: 30px 0px 30px 0px; */
 	right: 0;
 }
 h1 {
 	font-size: 76px;
+	font-weight: 400;
+}
+h2 {
 	font-weight: 400;
 }
 .main-content {
@@ -135,4 +141,9 @@ h1 {
 	border-bottom: 1px solid black;
 	margin-top: 45px;
 	padding: 30px 0px 30px 0px;
+}
+.top-left {
+	display: inline-block;
+	width: 400px;
+	margin-right: 12px;
 }
