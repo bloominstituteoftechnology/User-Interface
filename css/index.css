@@ -150,19 +150,19 @@ h5 {
 }
 
 /* Your code starts here! */
-
 body {
-  margin: 30px 50px 50px 50px;
+  border: 3px solid red;
+  margin: 0 auto;
+  width: 1000px;
 }
 
-button {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  width: 150px;
+.header {
+  border: 3px solid red;
+  display: inline-block;
+  width: 1000px;
 }
 
-nav a {
+a {
   margin: 0 20px 0 0;
   display: inline-block;
   border-radius: 20px;
@@ -171,13 +171,26 @@ nav a {
   padding: 10px;
 }
 
+.logo {
+  margin-top: -40px;
+  margin-right: 35px;
+  border: 3px solid red;
+  float: right;
+}
+
+/* 
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 150px;
+}
+
+
+
 nav a:hover {
   background: black;
   color: white;
-}
-
-.logo {
-  float: right;
 }
 
 .container {
@@ -196,7 +209,7 @@ h1 {
 }
 
 #header {
-  margin: 0 200px 50px 0;
+  margin: 0 100px 50px 0;
 }
 
 .headerIMG {
@@ -235,12 +248,16 @@ h1 {
 }
 
 hr {
-  margin: 35px 0;
+  margin: 35px 300px;
 }
 
-/* Footer */
-footer {
+.address {
+  width: 600px;
+}
+
+ Footer */
+/* footer {
   text-align: center;
   padding-bottom: 100px;
   padding-top: 40px;
-}
+} */
