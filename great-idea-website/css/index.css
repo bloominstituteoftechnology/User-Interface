@@ -83,8 +83,8 @@ nav a{
 header{
 	width: 90%
 	margin-top: 1em;
-	margin-left: 2.5em;
-	margin-right:2.5em;
+	margin-left: 3em;
+	margin-right:2em;
 	margin-bottom: 30px;
 	padding-bottom: 35px;
 
@@ -113,6 +113,7 @@ footer{
 	margin-left: 5em;
 	margin-right: 0;
 	padding-top:0;
+	width: 430px;
 }
 
 #demand{
@@ -125,8 +126,8 @@ footer{
 }
 
 #ball{
-	margin-left: 4em;
-	padding-top: 50px;
+	margin-left: 2em;
+	padding-top: 60px;
 }
 form{
 
