@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
 
 /* Your code starts here! */
 
@@ -85,6 +87,7 @@ h1, h2, h3, h4, h5 {
 	 position: relative;
 	 margin-top: 20px;
 	 height: 120px;
+	
 	
 	 
  }
@@ -160,7 +163,7 @@ h1, h2, h3, h4, h5 {
  #main-p a {
 	 color: black;
 	 text-decoration: none;
-	 border: 1px solid black;
+	 border: 1px solid gray;
 	 padding: 10px 40px;
 	 transition: 0.2s ease-in;
 	 
@@ -184,6 +187,13 @@ h1, h2, h3, h4, h5 {
  
  
  /* Features and About  */
+
+
+ 
+h2 {
+	 font-weight: bold;
+	 font-size: 24px;
+}
  
  .secondContent {
 	 margin-top: 50px;
@@ -198,12 +208,7 @@ h1, h2, h3, h4, h5 {
 	 margin-top: 20px;
  }
  
- .secondContent .middle h2 {
-	 font-weight: bold;
-	 font-size: 20px;
- }
- 
- 
+
  
  
  /* Full Width Img */
@@ -227,11 +232,7 @@ h1, h2, h3, h4, h5 {
 	 width: 33%;
  }
  
- .thirdContent .final h2 {
-	 font-weight: bold;
-	 font-size: 20px;
-	 
- }
+
  
  .third {
 	 width: 95%;
@@ -240,19 +241,13 @@ h1, h2, h3, h4, h5 {
  
  
  /* Contact */
- 
+
  .contact {
  margin-top: 40px;
  border-top: 1px solid black;
  padding: 40px 0;
  
  }
- 
- .contact h2 {
-	 font-weight: bold;
-	 font-size: 20px;
- }
- 
  
  
  
