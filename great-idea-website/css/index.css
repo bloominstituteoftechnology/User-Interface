@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+	box-sizing: border-box;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -60,7 +61,84 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+
 }
 
 /* Your code starts here! */
+
+nav {
+	padding: 30px 0;
+	
+}
+nav a {
+	margin-right: 62px;
+	text-decoration: none;
+	color: #999;
+	display: inline-block;
+}
+h2 {
+	font-size: 20px;
+}
+p {
+	font-size: 18px;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	height: 1536px;
+}
+.contents {
+	height: 400px;
+}
+.top-left {
+	display: inline-block;
+	font-size: 72px;
+	width: 49%;
+	height: 400px;
+}
+.top-right {
+	display: inline-block;
+	font-size: 72px;
+	width: 49%;
+	height: 400px;
+}
+.top-content div {
+	width: 49%;
+}
+.card {
+	display: inline-block;
+	margin-top: 20px;
+}
+.bottom-content div {
+	width: 32%;
+}
+.logo {
+	margin-left: 130px;
+}
+.middle-img {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	width: 100%;
+}
+.contact {
+	margin-top: 5%;
+}
+hr {
+	margin-top: 5%;
+}
+footer p {
+	margin: 0 auto;
+	width: 20%
+}
+.btn {
+	background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 35%;
+    cursor: pointer;
+}
