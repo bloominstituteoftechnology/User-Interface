@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+}
+
+a {
+	color: lightgrey;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 40px 0 0;
+	padding: 10px;
+	text-decoration: none;
+	
+  }
+
+.nav-header {
+	display: inline-block;
+	width: 900px;
+	margin-top: 30px;
+	
+	
+}
+
+.nav {
+	display: inline-block;
+	position: absolute;
+
+}
+
+.nav-logo {
+	position: absolute;
+	right: 0;
+}
+
+.header-text {
+	display: inline-block;
+	width: 300px;
+	height: 350px;
+	font-size: 80px;
+	text-align: center;
+	margin: 0 90px 0 0;
+
+}
+
+.header-logo {
+	display: inline-block;
+	width: 300px;
+	margin: 55px auto;
+
+}
+
+.header-logo img {
+	height: 320px;
+}
+
+.header {
+	padding: 80px;
+	height: 550px;
+}
+
+.button {
+	display: block;
+	background-color: #FDFDFD;
+	border: 1px solid black;
+	font-size: 16px;
+	height: 30px;
+	width: 150px;
+	padding-top: 5px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.articletop {
+	width: 440px;
+	height: 100px;
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 35px;
+}
+
+.articlebottom {
+	width: 290px;
+	height: 120px;
+	display: inline-block;
+	text-align: left;
+	margin: 35px 0;
+}
+
+.address {
+	margin-top: 35px;
+	width: 150px;
+}
+.address p {
+	text-align: left;
+}
+  
+footer {
+	font-size: 14px;
+	padding-bottom: 100px;
+	padding-top: 40px;
+	text-align: center;
+
+}
