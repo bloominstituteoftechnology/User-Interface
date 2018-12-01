@@ -90,7 +90,7 @@ nav a {
 	padding-top:20px;
 }
 
-.top {
+.top, .top-content, .bottom-content {
 	position: relative;
 }
 
@@ -128,4 +128,41 @@ h1 {
 	padding: 7px 40px;
 	display: inline-block;
 	margin-left: 112px;
+}
+
+.content {
+	display: inline-block;
+}
+
+.features {
+	width: 435px;
+	margin-top: 30px;
+}
+
+.top-content, .bottom-content {
+	margin-bottom: 30px;
+}
+
+.about {
+	width: 435px;
+	margin-top: 30px;
+	position: absolute;
+	right: 0;
+}
+
+.small-content {
+	width: 278px;
+	margin-top: 30px;
+	margin-right: 17px;
+}
+
+.small-content:last-child {
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	font-size: 90%;
+	text-align: center;
+	margin-top: 40px;
 }
