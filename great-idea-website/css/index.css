@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
 header {
 	display: inline-block;
 	width: 600px;
+	background-color: lightgrey;
+	width: 100%;
+	height: 50px;
+	position: fixed;
 }
 
 li {
@@ -78,61 +82,87 @@ li {
 
 nav {
 	display: inline-block;
-	width: 500px;
-	margin-top: 10px;
-	padding: 10px;
+	width: 999px;
+	margin-top: 15px;
+	padding-right: 25px;
 	display: inline-block;
-	border: 2px solid black;
 	margin-left: 300px;
 }
-
-.sectionOne {
-	
+a {
+	border: 2px solid black;
+	background-color: lightblue;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	padding: 3px;
+	padding-left:10px;
 }
 
+a :hover {
+	background-color: yellow;
+}
 .logo {
 	display: inline-block;
+	height: 30px;
 	width: 100px;
+
 	
 }
 
+
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+.sectionOne {
+	display: inline-block;
+}
+
+
+
 .iod {
-	width: 300;
+	width: 45%;
 	height: 300;
-	border: solid 2px red;
+	
 	padding: 45px;
 	font-size: 60px;
 	display: inline-block;
-	margin: 0 200px 0 300px;
+	
 }
 .button1 {
 	display: inline-block;
 	font-size: 20px;
 	border: 2px solid grey;
+	background-color: grey;
+	width: 33%;
+
 }
 
 .circle {
-	width: 300px;
+	width: 45%;
 	height: 300px;
-	border: solid 2px red;
+	margin-top: 50px;
 	padding: 46px;
 	display: inline-block;
+	
 	
 	
 }
 
 .features {
 	display: inline-block;
-	border: 2px solid black;
-	width: 700px;
+	
+	width: 48%;
 	height: 100px;
 	margin: 0 auto;
 }
 
 .about {
 	display: inline-block;
-	border: 2px solid black;
-	width: 700px;
+	width: 48%;
 	height: 100px;
 	margin: 0 auto;
 }
@@ -142,7 +172,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-	border: 2px solid black;
 }
 
 .sectionThree {
@@ -157,7 +186,6 @@ strong {
 
 .services {
 	display: inline-block;
-	border: 2px solid black;
 	width: 33%;
 	height: 100px;
 	margin: 0 auto;
@@ -165,7 +193,6 @@ strong {
 
 .product {
 	display: inline-block;
-	border: 2px solid black;
 	width: 33%;
 	height: 100px;
 	margin: 0 auto;
@@ -174,13 +201,14 @@ strong {
 
 .vision {
 	display: inline-block;
-	border: 2px solid black;
 	width: 33%;
 	height: 100px
 	margin: 0 auto;
 }
 
 footer {
-	height: 300px;
+	height: 100px;
 	width: 100%;
+	
+	background-color: lightgrey;
 }
