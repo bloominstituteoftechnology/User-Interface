@@ -127,15 +127,8 @@ header img {
 	font-weight: 400;
 	height: 37px;
 	width: 180px;
-	animation: spin 10s linear infinite;
-  	animation-play-state: paused;
 }
-.contents button:hover {
-	animation-play-state: running;
-}
-@keyframes spin {
-  100% {transform: rotate(1turn); }
-}
+
 .right {
 	display: inline-block;
 	/* border: 1px solid red; */
@@ -143,6 +136,14 @@ header img {
 	width: 49%;
 	/* padding: 30px 0px 30px 0px; */
 	right: 0;
+	animation: spin 10s linear infinite;
+	animation-play-state: paused;
+}
+.right:hover {
+  animation-play-state: running;
+}
+@keyframes spin {
+100% {transform: rotate(1turn); }
 }
 h1 {
 	font-size: 76px;
