@@ -91,6 +91,10 @@ header nav a {
 header nav a:first-of-type {
 	margin-left: 0px;
 }
+header img {
+	position: absolute;
+	right: 0px;
+}
 .contents {
 	position: relative;
 	width: 880px;
