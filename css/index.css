@@ -127,6 +127,15 @@ header img{
   font-size: 16px;
   width: 170px;
   height: 40px; 
+  background-position: right bottom;
+  transition: all .25s ease-in-out;
+}
+
+.starting-section button:hover{
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  color: white;
+  background-position: left bottom;
 }
 
 h1{
