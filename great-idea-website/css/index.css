@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 0 auto 0 auto;
+	margin: 0px auto 0px auto;
 	width: 880px;
 	font-size: 16px;
 }
@@ -77,9 +77,9 @@ header {
 }
 .navigation {
 	width: 880px;
-	top: 0;
+	top: 0px;
 	position: fixed;
-	z-index: 2;
+	z-index: 2px;
 }
 header nav a {
 	display: inline-block;
@@ -98,7 +98,7 @@ header nav a {
 	display: inline-block;
 	position: absolute;
 	width: 440px;
-	padding: 50 50 50 50;
+	padding: 50px 50px 50px 50px;
 	margin: 85px;
 	text-align: center;
 }
@@ -106,6 +106,6 @@ header nav a {
 	display: inline-block;
 	position: absolute;
 	width: 440px;
-	padding: 30 0 30 0;
-	right: 0;
+	padding: 30px 0px 30px 0px;
+	right: 0px;
 }
