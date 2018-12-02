@@ -63,4 +63,125 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* ----------------------------------- */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+  position: relative;
+}
+
+.main-navigation {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.logoIMG {
+  display: inline-block;
+  padding-left: 240px;
+}
+
+.main-navigation a {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+header {
+   display: inline-block;
+   position: relative;
+   width: 500px;
+   margin-top: 100px;
+   margin-left: 100px;
+   text-align: center;
+}
+
+.data-image {
+  display: inline-block;
+  margin-left: 400px;
+}
+
+.title-button-image {
+  margin-bottom: 80px;
+}
+
+.title {
+  display: inline-block;
+  font-size: 80px;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  width: 79px;
+  left: 215px;
+}
+
+.break1 {
+  border-bottom: 1px solid lightgray;
+  width: 1500px;
+  margin-bottom: 40px;
+}
+
+section.content1 {
+  display: inline-block;
+  width: 750px;
+  margin-bottom: 20 px;
+}
+
+section.content2 {
+  display: inline-block;
+  width: 750px;
+  margin-bottom: 20px;
+}
+
+.middle-img {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section.content3 {
+  display: inline-block;
+  width: 500px;
+  margin-top: 20px;
+}
+
+section.content4 {
+  display: inline-block;
+  width: 500px;
+  margin-top: 20px;
+}
+
+section.content5 {
+  display: inline-block;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.break2 {
+  border: 1px solid lightgray;
+  width: 1500px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+.phone-number {
+  margin-bottom: 10px;
+}
+
+small {
+    position: absolute;
+    width: 183px;
+    left: 50%;
+    margin-top: 100px;
+}
