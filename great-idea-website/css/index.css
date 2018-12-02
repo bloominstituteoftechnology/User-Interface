@@ -64,8 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	position: relative;
+}
 
-.navigation a {
-	color: red;
-	font-size: 100px;
+.navigation a{
+	margin-right: 115px;
+	margin-left: 20px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	right: 100%;
+}
+ 
+header {
+	width: 699px;
+	display: inline-block;
+
+} 	
+
+h1 {
+	font-size: 65px;
+	font-weight: bold;
+	width: 75px;
+	display: inline-block;
+	position: absolute;
+	left: 30%;
+	bottom: 40%;
+}
+
+h1 span {
+	
+}
+
+button{
+	position: absolute;
+	left: 30%;
+	bottom: 35%;
+	font-size: 18px;
+	width:	155px;
+}
+
+.codePic {
+	margin-top: 75px;
+	position: relative;
+	left: 100%;	
+}
+
+.top-content{
+	margin-top: 75px;
+	display: inline-block;
+	border-top: solid grey;
+	border-spacing: 0px;
+	padding: 40px;
+
+}
+
+.features{
+	font-weight: bold;	
+}
+
+.about{
+	font-weight: bold;	
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	left: 715px;
+	top: 614px;
+
+}
+
+.firstP{
+	display: inline-block;
+	width: 50%;
+}
+
+.secondP{		
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	top: 600px;
+	padding: 40px;
+}
+
+.middle-img{
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bottom-content{
+	
+}
+
+.contact{
+	border-top: solid grey;
+	margin-top: 40px;
+	padding-top: 40px;	
+}
+
+h2{
+	font-weight: bold;
+}
+
+.web {
+	margin-top: 15px;
+}
+
+footer{
+	text-align: center;
 }
