@@ -64,3 +64,201 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.bar{
+	display: inline;
+}
+
+.logo{
+	margin-left: 50px;
+	margin-top: 50px
+
+}
+  .serv{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+  }
+  .prod{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+	
+  }
+  .vis{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+  }
+  .feat{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+  }
+  .abt{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+  }
+  .cont{
+	color: grey;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	margin: 20px;
+  }
+	
+	
+/*center section*/
+.box{
+	display: inline-block;
+	/* width: 300px;
+	font-size: 40px; */
+	
+	/* margin-left: 60px; */
+	/* text-align: center; */
+	/* padding: 40px; */
+	
+}	
+
+.innov{
+	width: 320px;
+	height: 400px;
+	font-size: 60px;
+	line-height: 1em;
+	margin-left: 60px;
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 0px;
+	/* background: gray;
+	border: 2px solid red; */
+	
+	}
+
+
+
+.firstimg{
+	
+margin-top: 80px;
+vertical-align: bottom;
+}
+
+.start{
+	width: 200px;
+	height: 30px;
+	margin-left: 125px;
+	margin-bottom: 120px;
+	padding: 0px;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid black;
+}
+
+
+
+
+
+	
+
+
+	.headerclass{
+		/* background: blue; */
+	}
+	
+	.container{
+		width:830px;
+		display: inline-block;
+		/* background-color: blueviolet;  */
+
+	}
+
+	/* .start{
+		background: green;
+	} */
+
+	/* top content section/*/
+
+	.topcontainer{
+		border-top: 2px solid gray;
+		width: 900px;
+	}
+	
+	.top{
+	width: 420px;
+	height: 150px;
+	margin-top: 20px;
+	/* border: 2px solid red; */
+	display: inline-block;
+	}
+
+	.topone{
+		margin-left: 20px;
+	}
+
+.middleimg{
+	margin-left: 20px;
+	padding-right: 100px;
+}
+
+	/* bottom content Section */
+
+	.botcontainer{
+		border-bottom: 2px solid grey;
+		width: 900px;
+	}
+	
+	.bot{
+		width:250px;
+		height: 170px;
+		margin-top: 20px;
+		margin-left: 20px;
+		display: inline-block;
+		
+	}
+
+	/* contact and footnote */
+
+.contactinfo{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.address{
+	width: 120px;
+}
+
+.numba{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 60px;
+}
