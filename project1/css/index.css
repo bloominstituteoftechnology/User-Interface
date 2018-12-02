@@ -64,3 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	position: relative;
+}
+
+.top-navigation{
+	display: inline-block;
+	margin: 0px 0px 15px 97px;
+}
+
+.top-logo {
+	display: inline-block;
+	margin: 26px 0px 0px 370px;
+}
+
