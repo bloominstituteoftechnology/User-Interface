@@ -68,23 +68,33 @@ h1, h2, h3, h4, h5 {
 body {
 	margin: 0 auto;
 	width: 900px;
+	height: 2500px;
 	position: relative;
 }
 
 a {
-	color: lightgrey;
+	color: black;
 	display: inline-block;
 	font-size: 15px;
 	margin: 0 40px 0 0;
 	padding: 10px;
 	text-decoration: none;
 	
-  }
+}
+
+a:hover {
+	color: #FDFDFD;
+}
 
 .nav-header {
 	display: inline-block;
 	width: 900px;
+	height: 50px;
 	margin-top: 30px;
+	padding: 8px 5px 5px 5px;
+	position: fixed;
+	background-color: #0066ff;
+	opacity: 0.65;
 	
 	
 }
@@ -92,12 +102,14 @@ a {
 .nav {
 	display: inline-block;
 	position: absolute;
+	
 
 }
 
 .nav-logo {
 	position: absolute;
 	right: 0;
+	padding: 0 8px 8px 0;
 }
 
 .header-text {
@@ -168,4 +180,14 @@ footer {
 	padding-top: 40px;
 	text-align: center;
 
+}
+
+.middle-img {
+	width: 900px;
+}
+
+.footer {
+	position: absolute;
+	left: 390px;
+	bottom: 0
 }
