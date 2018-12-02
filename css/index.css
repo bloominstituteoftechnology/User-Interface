@@ -113,13 +113,13 @@ header nav a:first-of-type{
 
 header img{
   position: absolute;
-  right: 0;
+  right: 15px;
   padding: 15px;
 }
 
 
 .starting-section button{
-  border: 1px solid black;
+  border: 1px solid sblack;
   background-color: white;
   padding: 0 30px ;
   font-family: 'Titillium Web', sans-serif;
@@ -144,6 +144,7 @@ h1{
 }
 
 h2{
+  font-size: 18px;
   font-weight: 500;
 }
 
