@@ -68,27 +68,36 @@ h1, h2, h3, h4, h5 {
 	width: 1200px;
 	height: 75px;
 	margin: 0 auto;
-	padding-right: 20px;
 }
 
-.navigation nav {
+.navigation .top-nav {
 	display: inline-block;
 	position: relative;
-	width: 500px;
+	width: 550px;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.navigation a {
+	color: grey;
+	text-decoration: none;
+	padding-right: 20px;
 }
 
 .navigation .nav-logo {
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	width: 500px;
-
+	padding-top: 20px;
+	padding-left: 60px;
+	
 }
 
 header {
 	width: 1200px;
 	height: 465px;
 	margin: 0 auto;
-
+	border-bottom: 1px solid black;
 }
 
 header .header-title {
@@ -97,67 +106,85 @@ header .header-title {
 	width: 400px;
 }
 
-h1 {
+header h1 {
 	font-size: 60px;
 	text-align: center;	
+	padding-bottom: 60px;
 }
 
-header img {
+button {
+	margin-left: 150px;
+	width: 100px;
+	height: 25px;
+	
+}
+header .img-head {
 	display: inline-block;
 	position: relative;
 	width: 400px;
+	padding-top: 20px;
+	padding-left: 35px;
 }
 
 .top-section {
 	width: 1200px;
 	height: 100px;
 	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 40px;
 }
 
 .top-section .features {
 	display: inline-block;
 	position: relative;
-	width: 500px;
+	width: 450px;
 }
 
 .top-section .about {
 	display: inline-block;
 	position: relative;
-	width: 500px;
+	width: 450px;
 }
 
 .middle-img {
-	margin: 20px 0 20px 120px;
+	margin: 20px 0 20px 150px;
 }
+
 .bottom-section {
 	width: 1200px;
 	height: 75px;
 	margin: 0 auto;
+	padding-left: 30px;
 }
 
 .bottom-section .services {
 	display: inline-block;
 	position: relative;
-	width: 300px;
+	width: 280px;
+	padding-left: 10px;
 }
 
 .bottom-section .product {
 	display: inline-block;
 	position: relative;
-	width: 300px;
+	width: 280px;
+	padding-left: 10px;
 }
 
 .bottom-section .vision{
 	display: inline-block;
 	position: relative;
-	width: 300px;
+	width: 280px;
+	padding-left: 10px;
 }
+
 .contact {
+	border-top: 1px solid black;
 	width: 1200px;
 	height: 60px;
 	margin-top: 80px;
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 140px;
 }
 
 
