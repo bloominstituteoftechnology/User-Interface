@@ -92,6 +92,11 @@ nav {
 	color: black;
 	margin-right: 50px;
 	font-family: 'Josefin Sans', sans-serif;
+	transition: transform 0.4s;
+}
+
+.nav-button:hover {
+	transform: scale(1.2);
 }
 
 .logo {
@@ -114,7 +119,7 @@ nav {
 
 .cta-text {
 	display: inline-block;
-	position:absolute;
+	position: absolute;
 	text-align: center;
 	bottom: 290px;
 	left: 380px;
@@ -125,15 +130,17 @@ nav {
 	margin-bottom: 30px;
 }
 
-.get-started a{
+.get-started a {
 	text-decoration: none;
 	border: 1px solid black;
 	padding: 5px;
-	padding-left: 50px;
-	padding-right:50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-.cta-img{
+.cta-img {
 	display: inline-block;
 	position: relative;
 	margin-left: 470px;
