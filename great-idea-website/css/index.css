@@ -65,6 +65,42 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-main section {
+nav {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  /* layout imagry */
+  border: 2px solid blue;
+}
+
+nav .nav-item {
+	padding: 10px;
 	display: inline;
+	margin-right: 50px;
+	margin-left: 100px;
+}
+header{
+	width: 100%;
+	height: 600px;
+	padding-left: 100px;
+	 /* layout imagry */
+	border: 2px solid blue;
+}
+.headerPhoto {
+	margin-left: 600px;
+	margin-top: 0;
+	 /* layout imagry */
+	 border: 2px solid blue;
+
+}
+.centerText{
+	text-align: center;
+	width: 150px;
+	/* margin-top: 50px; */
+	/* layout imagry */
+	border: 2px solid blue;
+}
+h1 {
+	font-size: 60px;
 }
