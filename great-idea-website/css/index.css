@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 800px;
 	border: 1px solid red;
+	position: relative;
 }
 
 nav {
@@ -79,18 +80,40 @@ nav {
 
 a {
 	text-decoration: none;
+	margin: 30px 20px;
+	
+}
+
+.logo {
+	border: 1px solid blue;
+	margin-left: 400px;
 }
 
 h1 {
 	border: 1px solid brown;
+	font-size: 60px;
+	height: 200px;
+	width: 350px;
+	margin: 50px;
+	padding: 50px;
+	display: inline-block;
 }
 
 button {
 	border: 1px solid green;
 }
 
+img {
+	border: 1px solid red;
+}
+
 .top-content {
 	border: 1px solid purple;
+}
+
+.middle-img {
+	border: 1px solid red;
+	position: absolute;
 }
 
 .bottom-content {
