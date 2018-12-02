@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -67,25 +67,24 @@ h1, h2, h3, h4, h5 {
 
 
 .pg-container {
-	width: 1000px;
+	width: 880px;
 	margin: auto;
 	position: relative;
-	height: 190%;
 }
 
 .top-header {
+	width: 880px;
 	display: inline-block;
-	position: relaitve;
+	position: relative;
 } 
 
 .top-header nav {
-	width: 1000px;
-	font-size: 14px;
-	margin-top: 20px;
+	font-size: 16px;
+	margin-top: 30px;
 }
 
 .top-header nav a {
-	padding: 0 40px;
+	padding-right: 58px;
 	text-decoration: none;
 	color: gray;
 }
@@ -93,19 +92,21 @@ h1, h2, h3, h4, h5 {
 .top-header img {
 	position: absolute;
 	right: 0;
-	top: 10px;
+	top: 20px;
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 78px;
+	letter-spacing: 3px;
+	line-height: 0.95;
 }
 
 .header-sans-nav {
 	height: 550px;
-	width: 1100px;
+	width: 880px;
 	display: inline-block;
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	position: relative;
 	border-bottom: 2px solid black;
 }
@@ -113,95 +114,106 @@ h1 {
 .header-sans-nav h1 {
 	text-align: center;
 	display: inline-block;
-	top: 150px;
-	left: 130px;
 	position: absolute;
+	top: 130px;
+	left: 70px;
 }
 
 .header-sans-nav img {
 	display: inline-block;
 	position: absolute;
-	top: 100px;
-	right: 100px;
+	top: 80px;
+	right: 0;
 }
 
 button {
 	position: absolute;
-	top: 400px;
-	left: 210px;
-	border: 2px solid black;
-	padding: 8px 40px;
+	top: 370px;
+	left: 140px;
+	border: 1px solid black;
+	padding: 5px 45px;
 	font-size: 16px;
-	pointer: cursor;
+	cursor: pointer;
 }
 
 button:hover {
-	color: black;
+	color: white;
+	background-color: black;
+	border: 
 }
 
 main {
-	width: 1100px;
-	height: 45%;
-	margin: auto;
+	width: 880px;
+	height: 560px;
+	margin: 0 auto;
 	position: relative;
 	border-bottom: 2px solid black;
 }
 
+main p {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
 h2 {
-	font-size: 36px;
+	font-size: 20px;
 }
 
 .features {
-	width: 380px;
-	margin: auto;
+	width: 430px;
 	position: absolute;
-	left: 100px;
+	left: 0;
 }
 
 .about {
-	width: 380px;
+	width: 430px;
 	position: absolute;
-	right: 100px;
+	right: 0;
 }
 
 .mid-page-img-break {
 	position: absolute;
-	top: 200px;
-	left: 100px;
+	top: 140px;
 }
 
 .services {
-	width: 250px;
+	width: 280px;
 	position: absolute;
-	top: 450px;
-	left: 100px;
+	top: 360px;
+	left: 0;
 }
 
 .product {
-	width: 260px;
+	width: 280px;
 	position: absolute;
-	top: 450px;
-	left: 420px;
+	top: 360px;
+	left: 300px;
 }
 
 .vision {
-	width: 250px;
+	width: 280px;
 	position: absolute;
-	top: 450px;
-	right: 100px;
+	top: 360px;
+	right: 0;
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
-	left: 100px;
+	height: 350px;
+	position: relative;
+	font-size: 16px;
 }
 
 .contact {
-	width: 280px;
-	margin: 0 auto;
+	width: 140px;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	line-height: 1.2;
 }
 
 .copyright {
-	margin-top: 20px;
+	position: absolute;
+	bottom: 80px;
+	width: 880px;
+	text-align: center;
 }
