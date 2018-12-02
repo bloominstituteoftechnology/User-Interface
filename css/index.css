@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body {
+  /* border: 3px solid red; */
+  margin: 0 auto;
+  width: 900px;
+}
+
+.header {
+  /* border: 3px solid red; */
+  display: inline-block;
+  width: 900px;
+  margin-top: 40px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+nav {
+  /* border: 3px solid red; */
+  margin-right: 135px;
+  margin-bottom: ;
+}
+
+a {
+  margin: 0 20px 0 0;
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
+
+.logo {
+  margin-top: -40px;
+  /* border: 3px solid red; */
+  /* float: right; */
+  padding-top: 10px;
+  position: absolute;
+}
+
+.box-one {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-top: 45px;
+}
+
+#firstbox {
+  /* border: 3px solid red; */
+}
+
+#words {
+  /* border: 3px solid red; */
+  font-size: 85px;
+  text-align: center;
+  margin: 0 90px 0 0;
+}
+
+#display {
+  /* border: 3px solid red; */
+  /* margin-bottom: -40px; */
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 150px;
+  margin-top: -40px;
+}
+
+article {
+  /* border: 3px solid red; */
+  margin: 45px 0 10px 0;
+}
+
+.two-box {
+  /* border: 3px solid red; */
+  text-align: center;
+}
+
+.twobox {
+  /* border: 3px solid red; */
+  width: 440px;
+  height: 100px;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.middleimg {
+  text-align: center;
+}
+
+.three-box {
+  text-align: center;
+}
+
+.threebox {
+  /* border: 3px solid red; */
+  width: 290px;
+  height: 120px;
+  display: inline-block;
+  text-align: left;
+  margin: 35px 0;
+}
+
+.address {
+  margin-top: 35px;
+  width: 600px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
