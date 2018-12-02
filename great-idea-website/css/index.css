@@ -92,6 +92,11 @@ a {
     right: 5px;
     border-radius: 25%;
 	padding: 5px;
+	text-decoration: none;
+}
+
+.buttons a {
+	text-decoration: none;
 }
 
 .logo {
@@ -132,11 +137,26 @@ a {
 	margin-bottom: 50px;
 }
 
-span {
+.get-started {
 	border: solid 1px black;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: normal;
-	padding: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	position: relative;
+	left: 30px;
+}
+
+.on {
+	position: relative;
+	left: 90px;
+}
+
+.demand {
+	position: relative;
+	left: 35px;
 }
 
 .content {
@@ -220,7 +240,8 @@ span {
 
 .copyright {
 	margin: 20px;
-	text-align: center;
+	position: relative;
+	left: 400px;
 }
 
 
