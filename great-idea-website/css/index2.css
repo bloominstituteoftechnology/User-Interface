@@ -91,30 +91,45 @@ nav {
     padding-left: 120px;
     width: 100%;
  }
+ nav:hover{
+     animation: none;
+ }
 .logo {
     margin: 1%;
 	position: fixed;
-	right: 28%;
+    right: 28%;
 }
-a{
+.anav{
     display: block;
     float: left;
     padding: 10px 2%;
     color: dodgerblue;
     text-decoration: none;
     text-align: center;
+    border-radius: 3px;
 }
-a:hover{
+.anav:hover{
     padding: 10px 2%;
     color: white;
     background-color: dodgerblue;
     text-decoration: none;
 }
 
+.anav.active-page{
+    color:white;
+    background-color:dodgerblue;
+    animation: pulse 2s infinite;
+    border-radius: 3px;
+}
+.anav.active-page:hover{
+    animation: none;
+    background-color: white;
+    color: dodgerblue;
+}
+
 h1{
 	font-size: 70px;
     text-align: center;
-	
 }
 
 .sector{
@@ -138,6 +153,9 @@ h1{
 .img-test{
     width: 290px;
     height: 290px;
+    border-radius: 100%;
+    animation: pulse 2s infinite;
+
 }
 
 strong{
@@ -156,7 +174,7 @@ strong{
 }
 .second-section{
     display: inline-block;
-    width: 49.6%
+    width: 46.6%
 }
 .c1{
     margin: 3% 0; 
@@ -196,3 +214,22 @@ strong{
     padding: 20px 0;
 }
 
+.pro1, .pro2, .pro3{
+    display: inline-block;
+    width: 33%;
+    border: 1px solid seagreen;
+}
+
+.pimg{
+    width: 150px;
+}
+
+.psection2, .psection1{
+    text-align: center;
+}
+
+@keyframes pulse{
+    0% {box-shadow: 0 0 0 0 rgba(0,0,0,0.4)}
+    70% {box-shadow: 0 0 0 10px rgba(0,0,0,0)}
+    100%{box-shadow: 0 0 0 0 rgba(0,0,0,0)}
+}
