@@ -110,11 +110,14 @@ section {
  margin: 50px auto;
  width: 876px;
  line-height: 1.5;
+ 
+ 
 }
 
 .banner {
 	position: relative;
-	height: 390px;
+	height: 450px;
+	border-bottom: 1px solid black;
 }
 
 .banner .banner-column {
@@ -156,6 +159,11 @@ section {
 	text-align: center;
 }
 
+.product-and-services {
+	padding: 0 0 40px 0;
+	border-bottom: 1px solid black;
+}
+
 .product-and-services .p-and-s-column {
 	display: inline-block;
 	width: 33%;
@@ -175,7 +183,7 @@ section {
 }
 
 .footer {
-	padding: 40px 0;
+	padding-bottom: 150px;
 	text-align: center;
 	font-size: .85rem;
 }
