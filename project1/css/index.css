@@ -66,15 +66,32 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	position: relative;
+	margin: 0px 100px 0px 100px;
+
+}
+
+.top-navigation a {
+	color: gray;
+	padding-right: 46px;
+	text-decoration: none;
 }
 
 .top-navigation{
 	display: inline-block;
-	margin: 0px 0px 15px 97px;
+	margin: 0px 0px 0px 174px;
 }
-
+ 
 .top-logo {
 	display: inline-block;
-	margin: 26px 0px 0px 370px;
+	margin: 25px 0px 0px 95px;
 }
 
+/* .mid-content {
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+}
+
+.mid-img {
+	display: inline-block;
+	margin: 0px 0px 0px 499px;
+} */
