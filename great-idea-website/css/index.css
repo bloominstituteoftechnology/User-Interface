@@ -158,152 +158,167 @@ h5 {
 /* Your code starts here! */
 
 .container {
-  width: 1265px;
+  width: 1250px;
+  height: auto;
   margin: 0 auto;
 }
 
-.container body {
-  display: inline-block;
-  position: relative;
-}
-
 nav {
-  background-color: #5CABC9;
+  border: 0.5px solid rgb(55, 111, 131);
+  border-radius: 35px;
+  background-color: rgb(68, 152, 185);
+  opacity: .9;
   z-index: 1;
   position: fixed;
   top: 0;
-  width: 1265px;
-  padding: 20px 20px;
+  width: 1250px;
+  padding: 25px 10px 25px 10px;
 }
 
 a { 
-  margin: 8px 40px;
-  color: #BEBEBE;
+  font-family: 'Abel', sans-serif;
+  padding: 0px 48px 0 ;
+  color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 800;
   text-align: center;
+}
+
+a:hover {
+  color: rgb(108, 236, 108); 
 }
 
 .logo {
+  position: absolute;
+  display: inline-block;
+  bottom: 14px;
+  width: 220px;
+  right: 35px;
+}
+
+.container .lg-logo {
   position: relative;
-  left: 150px;
-  
+  top: 130px;
+  height: 785px;
+}
+
+h1 button .round-imgage {
+  display: inline-block;
 }
 
 h1 {
-  position: relative;
-  display: inline-block;
-  top: 20px;
-  left: 90px;
-  padding: 30px 50px 40px 65px;
-  margin: 10px 70px 60px 10px;
-  font-size: 90px;
+  position: absolute;
+  top: 140px;
+  left: 154px;
+  font-size: 105px;
   text-align: center;
 }
  .round-image {
-   position: relative;
-   top: 150px;
-   /* right: 20px; */
-   /* margin: 15px 20px 5px 30px; */
-   width: 475px;
-   height: 475px;
+   position: absolute;
+   left: 733px;
+   top: 53px;
+   height: 515px;
  }
 
 button {
-  display: inline-block;
-  position: relative;
-  right: 300px;
-  top: 70px;
+  position: absolute;
+  right: 810px;
+  top: 475px;
   transition-duration: 0.4s;
   color: black;
   border: 1px solid black;
   font-size: 20px;
-  padding: 3px 35px;
+  padding: 5px 40px;
+  border-radius: 35px;
+  box-shadow: 3px 3px grey;
 }
 
 button:hover {
-  background-color: #0473D6;
+  background-color: rgb(68, 152, 185);
   color: white;
 }
 
 .top-content {
-  border-top: 1px solid black;
+  position: relative;
+  display: inline-block;
+  border-top: 2px solid #5CABC9;
   padding: 20px 0;
   margin-top: 20px;
   line-height: 2;
-  display: inline-block;
   height: 200px;
+  width: 1250px;
 }
-header {
-  height: 700px;
-}
+
 h2 {
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
   margin: 20px 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.25
 }
 
 .features {
-  margin: 10px 800px 0 0;
-  padding: 20px 0;
+  position: absolute;
+  display: inline-block;
+  margin: 0px 665px 0 0;
 }
 
 .about {
-  position: relative;
-  margin: 0 0 200px 800px; 
-  padding: 25px 0;
-  right: 60px;
-  bottom: 200px
+  position: absolute;
+  display: inline-block;
+  margin-left: 660px;
 }
 
 .middle-img {
   position: relative;
-  top: -150px;
-  width: 1265px;
+  border-radius: 35px;
+  top: 65px;
+  width: 1250px;
   height: 250px;
-  margin: 0 auto;
 }
 
-.bottom-content .product .vision {
+.bottom-content {
   position: relative;
   display: inline-block;
   width: 1265px;
+  height: 115px;
 }
 
 .services {
-  display: inline-block;
-  margin: 0 60px 0 0;
-  width: 300px;
+  position: absolute;
+  top: 95px;
+  width: 345px;
 }
 
 .product {
-  display: inline-block;
-  margin: 0 60px 0 50px;
-  width: 300px;
+  position: absolute;
+  left: 450px;
+  width: 345px;
+  top: 95px;
 }
 
 .vision {
-  display: inline-block;
-  margin: 0 0 0 70px;
-  width: 300px;
+  position: absolute;
+  left: 900px;
+  width: 345px;
+  top: 95px;
 }
 
 .contact {
-  border-top: 1px solid black;
-  padding: 0;
-  margin: 0 0 10px 0;
-  margin-top: 20px;
+  border-top: 2px solid #5CABC9;
+  padding: 27px 0;
+  width: 1250px;
   line-height: 2;
+  top: 248px;
+  position: relative;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 400px 0;
+  padding-bottom: 100px;
   text-align: center;
    /*======= center the text here */
 }
