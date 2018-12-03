@@ -150,7 +150,7 @@ button {
 button:hover {
 	color: white;
 	background-color: black;
-	border: 
+	transition: background-color ease-out 0.5s;
 }
 
 main {
