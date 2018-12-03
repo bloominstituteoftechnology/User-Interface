@@ -71,11 +71,39 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1024px;
+	background: lightgray;
+	position: relative;
+	margin: 0 auto;
 }
 
 header {
 	width: 100%;
-	position: absolute;
+	height: 36px;
+	position: relative;
 	top: 0;
 	border: 1px solid blue;
 }
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	line-height: 36px;
+}
+
+header nav a {
+  margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+  display: inline-block;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header .logo {
+	position: absolute;
+	right: 40px;
+}
+
