@@ -81,7 +81,6 @@ header {
 	height: 36px;
 	position: relative;
 	top: 0;
-	border: 1px solid blue;
 }
 
 header nav {
@@ -92,10 +91,10 @@ header nav {
 }
 
 header nav a {
-  margin: 0 20px;
+  margin: 0 30px;
 	text-decoration: none;
+	font-size: .95rem;
 	color: gray;
-  display: inline-block;
 }
 
 header nav a:hover {
