@@ -150,7 +150,6 @@ section {
 .introduction .intro-column {
 	display: inline-block;
 	width: 50%;
-	border: 1px solid purple;
 }
 
 .middle-image-wrapper {
@@ -160,7 +159,6 @@ section {
 .product-and-services .p-and-s-column {
 	display: inline-block;
 	width: 33%;
-	border: 1px solid green;
 }
 
 .contact-info {
@@ -180,5 +178,4 @@ section {
 	padding: 40px 0;
 	text-align: center;
 	font-size: .85rem;
-	border: 1px solid blue;
 }
