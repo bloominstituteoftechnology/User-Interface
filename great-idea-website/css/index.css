@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -72,7 +73,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 0px;
 	top: 0;
 	height: 50px;
-	background: lightblue;
+	background: lightskyblue;
 	z-index: 2;
 }
 
@@ -91,7 +92,6 @@ nav {
 	text-decoration: none;
 	color: black;
 	margin-right: 50px;
-	font-family: 'Josefin Sans', sans-serif;
 	transition: transform 0.4s;
 }
 
@@ -137,7 +137,14 @@ nav {
 	padding-left: 35px;
 	padding-right: 35px;
 	color: black;
-	font-family: 'Josefin Sans', sans-serif;
+}
+
+.get-started {
+	transition: 1s
+}
+
+.get-started:hover {
+	transform: scale(1.5);
 }
 
 .cta-img {
@@ -175,7 +182,11 @@ nav {
 
 .services, .product, .vision {
 	display: inline-block;
-	width: 33%
+	width: 32%
+}
+
+.services, .product {
+	margin-right: 13.6px;
 }
 
 .contact {
