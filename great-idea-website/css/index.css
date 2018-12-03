@@ -107,3 +107,41 @@ header .logo {
 	right: 40px;
 }
 
+section {
+ margin: 50px 0;
+}
+
+.banner {
+	position: relative;
+	height: 390px;
+	border: 1px solid orange;
+}
+
+.banner .banner-column {
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	border: 1px solid red;
+}
+
+.banner #headline {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.banner #headline h1 {
+	font-size: 4rem;
+}
+
+.banner #hero-image-wrapper {
+	right: 0;
+	text-align: center;
+}
+
+.banner #headline .button {
+	display: inline-block;
+	width: 150px;
+	padding: 5px 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
