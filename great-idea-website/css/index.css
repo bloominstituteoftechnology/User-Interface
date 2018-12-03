@@ -115,14 +115,12 @@ section {
 .banner {
 	position: relative;
 	height: 390px;
-	border: 1px solid orange;
 }
 
 .banner .banner-column {
 	display: inline-block;
 	position: absolute;
 	width: 50%;
-	border: 1px solid red;
 }
 
 .banner #headline {
