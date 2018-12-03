@@ -159,3 +159,9 @@ section {
 .middle-image-wrapper {
 	text-align: center;
 }
+
+.product-and-services .p-and-s-column {
+	display: inline-block;
+	width: 33%;
+	border: 1px solid green;
+}
