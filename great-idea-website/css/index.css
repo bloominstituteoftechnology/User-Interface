@@ -73,26 +73,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-header {
-	width: 880px;
+	width: 650px;
 	display: inline-block;
-	position: relative;
+	position: fixed;
+	background-image: linear-gradient(to left, rgb(25, 37, 148), black);
+	z-index: 1;
+	height: 40px;
 } 
 
 .top-header nav {
 	font-size: 16px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .top-header nav a {
-	padding-right: 58px;
+	padding-right: 60px;
 	text-decoration: none;
-	color: gray;
+	color: lightgray;
+}
+
+.top-header nav a:first-child {
+	margin-left: 15px;
+}
+
+.top-header nav a:last-child {
+	padding-right: 0
 }
 
 .top-header img {
 	position: absolute;
-	right: 0;
-	top: 20px;
+	right: -230px;
+	top: 0;
 }
 
 h1 {
