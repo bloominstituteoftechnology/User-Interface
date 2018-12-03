@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
 *{
 	box-sizing: border-box;
@@ -73,54 +74,71 @@ body{
 	margin: 0 auto;
 }
 .container{
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	width: 800px;
 	margin:0 auto;
+	}
+
+.Header{
+	border: 1px solid blue;
+	width: 100%;
+	display: inline-block;
+	position: relative;
 }
 
-header{
-	
-	position: relative;
+ div .Navshell {
+	border: 1px solid blue;
 	width: 100%;
 	display: inline-block;
 	margin-top: 15px;
 	line-height: 35px; 
 }
 
-header nav {
-	
+nav{
+	border: 1px solid purple;
+	background: lightgray;
+	position: fixed;
 	display: inline-block;
-	
-}
+	z-index: 1;
+	}
 
-header nav a{
-	
+div nav a{
+	border: 1px solid green;
 	margin: 15px 15px 40px 15px;
 	display: inline-block;
 	text-decoration: none;
 	color: grey;
 	font-size: 12px;
 	width: 60px;
+	
 }
 
-.imglogo{
+
+.Header .imglogo{
+	border: 1px solid yellowgreen;
 	display: inline-block;
 	margin-right: 0px;
 	padding-left: 40px;
-	padding-top: 10px;
+	padding-top: 30px;
+	position: absolute;
 
 }
 
  .logo{
-	
+	border: 1px solid orange;
 	display: inline-block; 
 	margin-right: 0;
+	padding-top: 30px;
+	left: 700px;
+	top: 0;
 	position: absolute;
-	padding-top: 10px;
-}
+	background-image: url("img/logo.png");
+ }
 
 .section1{
-	/*border: 1px solid purple;*/
+	border: 1px solid purple;
+	margin-top: 60px;
+
 	display: inline-block;
 	position: relative;
 	padding-top: 0;
@@ -139,18 +157,38 @@ button{
 }
 
 .content1{
-	
+	border: 1px solid red;
 	font-size: 70px;
 	display: inline-block;
-	width: 150px;
+	width: 400px;
 	text-align: center;
 	padding-left: 70px;
 	position: absolute;
 	padding-top: 70px;
-	
+	text-align: justify;
 }
 
+h1{
+	border: 1px solid red;
+
+}
+h1 p{
+	border: 1px solid green;
+	text-align: justify;
+	font-size: 70px
+  }
+
+  
+  h1 .On{
+	  padding-left: 80px;
+  }
+
+  h1 .Demand{
+	  padding-left: 40px;
+  }
+
 .content1image{
+	border: 1px solid blue;
 	display: inline-block;
 	margin-right: 0;
 	margin-left: 200px;
@@ -168,22 +206,22 @@ p{
 
 .section2{
 	margin-top: 15px;
-/*	border: 1px solid red;
-  background: lightgray;*/
+	border: 1px solid red;
+  background: lightgray;
   position: relative;
   height: 100px;
 
 }
 
 .main1{
-	
+	border: 1px solid yellow;
 	display: inline-block;
 	width: 50%;
 	height: 100px;
 }
 
 .main2{
-
+	border: 1px solid purple;
 	display: inline-block;
 	width: 50%;
 	margin-right: 0;
