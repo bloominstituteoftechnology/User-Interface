@@ -71,5 +71,11 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1024px;
-	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	border: 1px solid blue;
 }
