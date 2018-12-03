@@ -60,7 +60,121 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+	width: 900px;
+	margin: 0 auto;
+  }
+
+  h1 {
+	  font-size: 60px;
+  }
+
+
+.navigation {
+	display: inline-block;
+	position: fixed;
+
+	margin-bottom: 15px;
+	background: white;
+}
+
+.links {
+	color: grey;
+	display: inline-block;
+	width: 590px;
+	height: 50px;
+	padding: 20px 0 20px 0;
+	margin: 15px auto;
+
+	word-spacing: 50px;
+}
+
+.logo{
+	display: inline-block;
+	right: 0;
+	width: 290px;
+	height: 50px;
+	margin: 15px auto;
+	padding: 0 0 0 100px;
+
+}
+
+
+
+.title-button {
+	width: 445px;
+	height: 245px;
+	display: inline-block;
+	margin: 0 auto 0; 
+	text-align: center;
+	padding-top: 70px;
+	line-height: normal;
+	vertical-align: middle;
+
+}
+
+.title{
+
+}
+
+.button {
+
+}
+
+
+.circle-logo {
+	width: 445px;
+	height: 445px;
+	display: inline-block;
+	margin: 120px auto 0;
+	vertical-align: middle;
+
+}
+
+.features {
+	width: 445px;
+	height: 100px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.about {
+	width: 445px;
+	height: 100px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.services {
+	width: 291px;
+	height: 160px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.product {
+	width: 291px;
+	height: 160px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.vision {
+	width: 291px;
+	height: 160px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.contact {
+	line-height: 2;
+}
+
+footer {
+	padding: 20px 0;
+	text-align: center;
+}
