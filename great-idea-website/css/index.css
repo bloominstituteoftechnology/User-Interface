@@ -69,25 +69,27 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	margin: 0 auto 50px auto;
-	height: 70px;
 	width: 100%;
-	background-color: #81DFA0; 
+	background-color: rgb(129, 223, 160); 
 	position: fixed;
 	z-index: 5;
 	display: inline-block;
 	top: 0;
+	border-bottom: 1px solid black;
+	height: 60px;
 }
 
 .navcenter {
 	margin: 0 auto;
 	width: 1200px;
+	padding-bottom: 10px;
+	padding-left: 80px;
 }
 
 nav {
 	display: inline-block;
-	padding: 20px;
 	position: relative;
-	margin-left: 100px;
+	bottom: 5px;
 }
 
 a {
@@ -98,47 +100,96 @@ a {
 	font-size: 15px;
 }
 
-h1 {
-	display: inline-block;
+nav a {
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav a:hover {
+	animation-name: colorchange;
+	animation-duration: .3s;
+	animation-fill-mode: forwards;
+}
+@keyframes colorchange {
+	from {background:#81DFA0;}
+	to {background:#fae;}
+}
+
+.home {
+	background-image: linear-gradient(to left, rgba(0, 255, 170, 0.836), #ffffff00);
+	border-radius: 30px;
+	width: 190px;
+	height: 40px;
 	position: relative;
-	margin: 10px 0 10px 56px;
-	top: 10px;
+	display: inline-block;
+	padding: 2px 0px 0 0;
+	top: 6px;
+}
+
+
+h1 {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 190px;
+	height: 40px;
 }
 
 header {
-	margin: 50px auto 0 auto;
+	margin: 50px auto 50px auto;
 	width: 1000px;
 	z-index: 0;
-}
-
-.innovationtext {
-	font-size: 4em;
-	text-align: center;
 	position: relative;
-	display: block;
-	font-family: Unlock;
 }
 
 .getstarted {
 	font-family: bangers;
 	display: inline-block;
-	padding: 20px;
 	position: relative;
 	height: 400px;
-	margin: 80px 80px 20px 80px;
+	width: 1000px;
+	margin: 0 auto;
 }
+
+.circlecode {
+	position: relative;
+	display: inline-block;
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	width: 400px;
+	margin-left: 100px;
+	top: 40px;
+}
+
+.innovationtext {
+	display: inline-block;
+	font-size: 4em;
+	text-align: center;
+	position: relative;
+	font-family: Unlock;
+	height: 400px;
+	width: 400px;
+	padding-top: 90px;
+	padding-left: 13.6px;
+	margin-left: 30px;
+	bottom: 30px;
+}
+
 
 .startbutton {
 	display: block;
 	text-align: center;
 	border: 1px solid black;
-	margin: 0 auto;
 	padding: 7px 8px;
 	width: 160px;
 	font-family: 'Titillium Web';
 	font-size: 16px;
-	margin-top: 20px;
 	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .startbutton:hover {
@@ -146,12 +197,7 @@ header {
 	z-index: 0;
 }
 
-.circlecode {
-	position: relative;
-	top: 60px;
-	display: inline-block;
-	margin-top: 20px;
-}
+
 
 /* UNDERNEATH THE HEADER */
 .underhead {
@@ -185,6 +231,13 @@ header {
 	display: block;
 	width: 1000px;
 	margin: 0 auto;
+}
+
+.middleimg {
+	background-image: url(../img/mid-page-accent.jpg);
+	height: 200px;
+	width: 1000px;
+	background-repeat: repeat-x;
 }
 
 .bottom {
@@ -234,5 +287,4 @@ footer {
 	margin-bottom: 20px;
 	padding: 20px;
 }
-
 
