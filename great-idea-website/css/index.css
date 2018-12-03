@@ -111,6 +111,7 @@ nav a:hover {
 	animation-name: colorchange;
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
+	box-shadow: -2px 2px rgba(0, 0, 0, 0.541);
 }
 @keyframes colorchange {
 	from {background:#81DFA0;}
