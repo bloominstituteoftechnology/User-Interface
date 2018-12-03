@@ -63,35 +63,82 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* color borders */
+.top-section {
+	border: 1px solid red;
+}
+	
+	.mid-section {
+	border: 1px solid blue;
+}
+
+
 .container {
 	position: relative;
-	margin: 0px 100px 0px 100px;
-
+	margin: 0px 200px 0px 200px;
+border: 1px solid orange;
 }
 
 .top-navigation a {
 	color: gray;
-	padding-right: 46px;
+	padding-right: 64px;
 	text-decoration: none;
 }
 
+
+
+
+
+
+
 .top-navigation{
 	display: inline-block;
-	margin: 0px 0px 0px 174px;
+	font-size: 14px;
+	margin: 0px 0px 0px 72px;
+	
 }
  
 .top-logo {
 	display: inline-block;
-	margin: 25px 0px 0px 95px;
+	margin: 25px 0px 0px 0px;
 }
 
-/* .mid-content {
+
+
+
+
+
+
+.mid-content {
+	align-items: center;
 	display: inline-block;
-	margin: 0px 0px 0px 0px;
+	font-size: 74px;
+	margin: 0px 0px 0px 268px;
 }
 
 .mid-img {
 	display: inline-block;
-	margin: 0px 0px 0px 499px;
-} */
+	margin: 69px 0px 0px 95px;
+}
+
+span {
+	display: block;
+}
+
+
+
+
+
+
+.features {
+	display: inline-block;
+}
+.about {
+	display: inline-block;
+}
+
+
+
+
+
+
