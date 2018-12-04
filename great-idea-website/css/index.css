@@ -74,20 +74,20 @@ body{
 	margin: 0 auto;
 }
 .container{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 800px;
 	margin:0 auto;
 	}
 
 .Header{
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	width: 100%;
 	display: inline-block;
 	position: relative;
 }
 
  div .Navshell {
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	width: 100%;
 	display: inline-block;
 	margin-top: 15px;
@@ -95,15 +95,15 @@ body{
 }
 
 nav{
-	border: 1px solid purple;
-	background: lightgray;
+	/* border: 1px solid purple; */
+	/* background: lightgray; */
 	position: fixed;
 	display: inline-block;
 	z-index: 1;
 	}
 
 div nav a{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	margin: 15px 15px 40px 15px;
 	display: inline-block;
 	text-decoration: none;
@@ -115,28 +115,32 @@ div nav a{
 
 
 .Header .imglogo{
-	border: 1px solid yellowgreen;
+	/* border: 1px solid purple; */
 	display: inline-block;
 	margin-right: 0px;
+	/* margin-left: 40px; */
 	padding-left: 40px;
 	padding-top: 30px;
 	position: absolute;
+	/* left: 900px;
+	top: 0; */
 
 }
 
  .logo{
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	display: inline-block; 
 	margin-right: 0;
+	margin-left: 310px;
 	padding-top: 30px;
-	left: 700px;
+	left: 625px;
 	top: 0;
 	position: absolute;
 	background-image: url("img/logo.png");
  }
 
 .section1{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	margin-top: 60px;
 
 	display: inline-block;
@@ -154,10 +158,11 @@ button{
 	height: 30px;
 	margin-left: 55px;
 	background: white;
+	margin-top: 30px;
 }
 
 .content1{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	font-size: 70px;
 	display: inline-block;
 	width: 400px;
@@ -169,11 +174,11 @@ button{
 }
 
 h1{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 
 }
 h1 p{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	text-align: justify;
 	font-size: 70px
   }
@@ -188,7 +193,7 @@ h1 p{
   }
 
 .content1image{
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	display: inline-block;
 	margin-right: 0;
 	margin-left: 200px;
@@ -206,22 +211,22 @@ p{
 
 .section2{
 	margin-top: 15px;
-	border: 1px solid red;
-  background: lightgray;
+	/* border: 1px solid red; */
+  /* background: lightgray; */
   position: relative;
   height: 100px;
 
 }
 
 .main1{
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 	display: inline-block;
 	width: 50%;
 	height: 100px;
 }
 
 .main2{
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	display: inline-block;
 	width: 50%;
 	margin-right: 0;
