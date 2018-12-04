@@ -169,11 +169,11 @@ header nav a {
 
 .company-logo {
     display: inline-block;
-    margin-left: 875px;
+    margin-left: 0;
     padding: 10px;
-    margin-top: -25px;
-    position: relative;
-    right: 50px;
+    position: absolute;
+    left: 1000px;
+    top: 15px;
 }
 
 .logo-img {
@@ -189,6 +189,7 @@ header nav a {
 .h2-head {
     position: relative;
     top: 50px;
+    right: 200px;
     padding-left: 200px;
     font-size: 80px;
     margin-top: 100px;
@@ -220,9 +221,10 @@ header nav a {
 }
 
 .inno-img {
-    margin-left: 650px;
-    margin-bottom: 300px;
-    margin-top: -300px;
+    margin-left: 750px;
+    position: relative;
+    right: 230px;
+    bottom: 275px;
 }
 
 .three-header {
@@ -274,17 +276,20 @@ header nav a {
 
 .navver {
     margin-right: 0px;
-    position: relative;
-    right: 50px
+    position: fixed;
+    right: 500px;
+    top: 0;
+    background-color: lightblue;
 }
 
 .btn {
     position: relative;
     top: 50px;
+    right: 215px;
     margin-left: 300px;
     font-size: 20px;
     padding: 10px 35px;
-    background-color: white;
+    background-color: white
 }
 
 .aa {
