@@ -16,35 +16,40 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +69,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+
+nav a {
+	vertical-align: center;
+	color: gray;
+	text-decoration: none;
+	padding: 30px;	
+}
+
+nav img{
+	margin-left: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 70px;	
+}
+
+header {
+	position: relative;
+	margin: 0 auto;	
+	padding-top: 20px;
+	width: 1000px;
+	border-bottom: 1px solid black;
+}
+
+.header_left_side {
+	display: inline-block;
+	width: 450px;
+	padding-left: 50px;
+	padding-bottom: 100px;		
+}
+
+.header_right_side {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.button {
+	position: block;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+	border: 2px solid gray;
+	text-align: center;
+	padding-top: 10px;	
+}
+
+.top_row {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 900px;
+}
+
+.top_row_content {
+	display: inline-block;
+	padding: 10px;
+	width: 440px;
+}
+
+.mid_row {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 900px;
+	
+}
+
+.bot_row {
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	width: 900px;	
+}
+
+.bot_row_content {
+	display: inline-block;
+	padding: 10px;
+	width: 290px;
+}
+
+.contact {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+footer {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	text-align: center;
+}
