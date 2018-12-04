@@ -172,19 +172,25 @@ header figure {
 }
 /*FOOTER*/
 footer {
-	width: 877px;
-	margin: 40px auto 182px auto;
+	display: flex;
+	flex-direction: column;
+	height: 210px;
+		width: 877px;
+	margin-top: 43px;
+}
+footer address {
+	display: flex;
+	flex-direction: column;
+	height: 105px;
+	justify-content: space-between;
 }
 footer a {
-	display: inline-block;
-	color: #000;
-	margin-top: 24px;
+	color: black;
 	text-decoration: none;
-	width: 100%;
 }
-footer p {
-	display: inline-block;
-	margin-top: 60px;
-	text-align: center;
-	width: 100%;
+footer #copyright {
+	display: flex;
+	font-size: 14px;
+	justify-content: center;
+	margin-top: 55px;
 }
