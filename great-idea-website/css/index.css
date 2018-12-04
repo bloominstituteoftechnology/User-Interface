@@ -41,17 +41,29 @@ h1, h2, h3, h4, h5 { font-family: 'Bangers', cursive; letter-spacing: 1px; margi
 *****************************/
 body { width: 600px; margin: 0 auto; }
 h1 { font-size: 64px; }
-li { display: inline; }
+li { display: inline-block; }
 
-nav { margin: 0 0 48px 0; }
+nav { 
+	margin: 0 0 48px 0; 
+    position: fixed;
+    background-color: white;
+    padding: 12px 0 12px 0;
+    width: 600px;
+    z-index: 5;
+}
 nav a { 
-	font-size: 14px;
+	font-size: 12px;
 	text-decoration: unset;
 	color: #888888;
 }
-.logo { right: 0; }
+nav li { margin: 0 24px 0 0; }
+
+.nav-link { vertical-align: text-top; }
+
+.logo { margin: -5px 0 0 0; float: right; }
 
 
+#header { position: relative; top: 96px; margin: 0 0 133px 0; }
 #header header [class^=header-] { display: inline-block; }
 
 .header-left { 
@@ -79,10 +91,17 @@ nav a {
 footer { margin: 24px 0 0 0; padding: 24px 0 12px 0; }
 .copyright { font-size: 12px; text-align: center; }
 
-.w-50 { width: 50%; margin: 0 -2px 0 0; }
+.w-50 { width: 50%; margin: 0 -5px 0 0; }
 .w-33 { width: 33%; margin: 0 -1px 0 0; }
 
 
+.phone, .email { 
+	color: black;
+	text-decoration: none;
+	line-height: 2; }
+.phone:visited, .email:visited { 
+	color: black;
+	text-decoration: none; }
 
 /**************************
 Button styling override
