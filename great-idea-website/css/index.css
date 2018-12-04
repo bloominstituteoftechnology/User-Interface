@@ -66,41 +66,50 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 800px;
 	border: 1px solid red;
-	position: relative;
+	margin: 0 auto; 
 }
 
 nav {
 	text-decoration: none;
 	border: 1px solid blue;
 	color: grey;
-	display: inline-block; 
+	display: inline-block;
+	position: relative; 
 }
 
 a {
 	text-decoration: none;
-	margin: 30px 20px;
+	margin-left: 100px;
 	
 }
 
 .logo {
-	border: 1px solid blue;
-	margin-left: 400px;
+    border: 1px solid blue;
+	margin-left: 100px;
+	position: absolute;
+}
+
+.left {
+	display: inline-block;
 }
 
 h1 {
-	border: 1px solid brown;
+	/* border: 1px solid brown; */
 	font-size: 60px;
 	height: 200px;
 	width: 350px;
-	margin: 50px;
+	margin: 20px 100px;
 	padding: 50px;
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 button {
 	border: 1px solid green;
+}
+
+.right {
+	display: inline-block;
 }
 
 img {
