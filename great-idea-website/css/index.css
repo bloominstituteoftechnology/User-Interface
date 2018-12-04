@@ -118,8 +118,11 @@ header {
 .button {
   display: block;
   position: absolute;
-  width: 79px;
+  width: 100px;
   left: 215px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
 }
 
 .break1 {
