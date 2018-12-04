@@ -119,8 +119,6 @@ nav a:hover {
 }
 
 .home {
-	background-image: linear-gradient(to left, rgba(0, 255, 170, 0.836), #ffffff00);
-	border-radius: 30px;
 	width: 190px;
 	height: 40px;
 	position: relative;
@@ -131,8 +129,6 @@ nav a:hover {
 
 
 h1 {
-	background-image: url(../img/logo.png);
-	background-repeat: no-repeat;
 	width: 190px;
 	height: 40px;
 }
@@ -156,9 +152,6 @@ header {
 .circlecode {
 	position: relative;
 	display: inline-block;
-	background-image: url(../img/header-img.png);
-	background-repeat: no-repeat;
-	background-position: center;
 	height: 400px;
 	width: 400px;
 	margin-left: 100px;
@@ -235,10 +228,8 @@ header {
 }
 
 .middleimg {
-	background-image: url(../img/mid-page-accent.jpg);
 	height: 200px;
 	width: 1000px;
-	background-repeat: repeat-x;
 }
 
 .bottom {
