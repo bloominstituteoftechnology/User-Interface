@@ -141,32 +141,27 @@ header figure {
 #content {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	margin: 0 auto;
 	padding: 40px 0 49px 0;
 	width: 877px;
+	margin-top: 75px;
 }
-#content > #features
-#content > #services,
-#content > #product {
-	margin-right: 9px;
+#content p {
+	line-height: 17px;
 }
-#content > #about,
-#content > #product,
-#content > #vision {
-	margin-left: 9px;
+#content .content-row {
+	display: flex;
+	justify-content: space-between;
 }
-#content > #features,
-#content > #about {
-	display: inline-block;
-	width: 427px;
+#content .content-row section {
+	margin: 0 12px;
 }
-#content > #services,
-#content > #product,
-#content > #vision {
-	display: inline-block;
-	width: 280px;
+#content .content-row section:first-of-type {
+	margin-left: 0;
 }
-#content > #middle-img {
+#content .content-row section:last-of-type {
+	margin-right: 0;
+}
+#content #middle-img {
 	background-image: url(../img/mid-page-accent.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
