@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	padding: 30px 50px 30px 50px;
+	margin: 0 auto;
+}
+
+.navigation {
+	display:inline-block;
+	position: fixed; 
+	text-align: center;
+	left: 10px;
+	word-spacing: 2em;
+}
+
+
+.logo {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: 12px;
+}
+
+.subheading {
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+	left: 60px;
+	font-size: 50px;}
+
+	button {
+		display: inline-block;
+		position:absolute;
+		width: 80px;
+		height: 35px;
+		border-radius: 5px;
+		font-size: 12px;
+		cursor: pointer;
+		top: 80px;
+		left: 100px;
+	}
+		
+	
+	button:focus {
+		outline: 0;
+	}
+
+	
+.top-content {
+	position: relative;
+	height: 100px;	
+	top: 200px;
+	padding-top: 25px;
+}
+
+.features, .about {
+	display: inline-block;
+	width:300px;
+	position: relative; 
+	top: 50px;
+	left: 100px;
+	font-size: 16px;
+	}
+
+	.features {
+		text-align: 0px;
+	}
+
+	.about {
+		text-align: left;
+		top: 0px;
+		right: 200px;
+		
+	}
+
+.middle-img {
+	position: absolute;
+	bottom: 350px;
+	padding: 5px 300px 0px 0px;
+	left: 0px;
+	
+
+}
+
+
+.bottom-content {
+	position: relative;
+	height: 100px;
+}
+
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 225px;
+	position: relative;
+	top: 300px;
+	right: 0px;
+	left: 20px;
+	font-size: 16px;
+	padding-right: 30px;
+}
+
+.services {
+	left: 0px;
+}
+
+.product {
+	text-align:left;
+	
+}
+
+.vision {
+	text-align: left;
+	
+}
+ 
+
+footer {
+	bottom: 0px;
+	text-align: center;
+}
