@@ -73,10 +73,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-header {
-	width: 650px;
+	width: 800px;
 	display: inline-block;
 	position: fixed;
-	background-image: linear-gradient(to left, rgb(25, 37, 148), black);
+	background-image: linear-gradient(to left, white, rgb(25, 37, 148), black);
 	z-index: 1;
 	height: 40px;
 } 
@@ -100,10 +100,21 @@ h1, h2, h3, h4, h5 {
 	padding-right: 0
 }
 
+.header-img {
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: -80px;
+	z-index: 1;
+	background-color: white;
+}
+
 .top-header img {
 	position: absolute;
-	right: -230px;
+	right: 0;
 	top: 0;
+	width: 183px;
 }
 
 h1 {
