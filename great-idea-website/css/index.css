@@ -76,7 +76,6 @@ nav {
 	height: 50px;
 	position: fixed;
 	top: 0;
-	max-width: 1140px;
 	width: 100%;
 	z-index: 1;
 }
