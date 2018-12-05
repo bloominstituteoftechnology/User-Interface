@@ -158,12 +158,13 @@ h5 {
 /* Your code starts here! */
 
 .container {
-  width: 1250px;
+  width: 1000px;
   height: auto;
   margin: 0 auto;
 }
 
-nav {
+header nav {
+  display: inline-block;
   border: 0.5px solid rgb(55, 111, 131);
   border-radius: 35px;
   background-color: rgb(68, 152, 185);
@@ -171,155 +172,141 @@ nav {
   z-index: 1;
   position: fixed;
   top: 0;
-  width: 1250px;
-  padding: 25px 10px 25px 10px;
+  width: 1000px;
+  padding: 25px 25px;
 }
 
-a {
-  font-family: 'Abel', sans-serif;
-  padding: 0px 48px 0 ;
+header nav a {
+  display: inline-block;
+  margin-right: 80px;
   color: white;
-  text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 800;
-  text-align: center;
+  text-decoration: none;
 }
 
-a:hover {
+header nav a:hover {
   color: rgb(108, 236, 108);
 }
 
-.logo {
-  position: absolute;
-  display: inline-block;
-  bottom: 14px;
-  width: 220px;
-  right: 35px;
+header nav a:first-child {
+  margin-left: 0;
 }
 
-.container .lg-logo {
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header nav .logo {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.lg-logo .lg-logo-text {
   position: relative;
-  top: 130px;
-  height: 785px;
-}
-
-h1 button .round-imgage {
   display: inline-block;
-}
-
-h1 {
-  position: absolute;
-  top: 140px;
-  left: 154px;
-  font-size: 105px;
+  vertical-align: top;
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 70px;
   text-align: center;
+  padding: 0 70px;
 }
- .round-image {
-   position: absolute;
-   left: 733px;
-   top: 53px;
-   height: 515px;
- }
 
-button {
+.lg-logo button {
   position: absolute;
-  right: 795px;
-  top: 475px;
+  right: 150px;
+  top: 215px;
+  display: inline-block;
   transition-duration: 0.4s;
   color: black;
   border: 1px solid black;
-  font-size: 20px;
-  padding: 5px 40px;
+  font-size: 17px;
+  padding: 5px 25px;
   border-radius: 35px;
   box-shadow: 3px 3px grey;
 }
 
-button:hover {
+.lg-logo .lg-logo-text button:hover {
   background-color: rgb(68, 152, 185);
   color: white;
+  cursor: pointer;
 }
 
-.top-content {
-  position: relative;
+.lg-logo .round-img {
   display: inline-block;
+  margin-top: 135px;
+  margin-left: 45px;
+  height: 375px;
+}
+
+.main-content {
   border-top: 2px solid #5CABC9;
-  padding: 20px 0;
-  margin-top: 20px;
-  line-height: 2;
-  height: 200px;
-  width: 1250px;
+  margin-top: 70px;
+  padding-top: 40px;
 }
 
-h2 {
-  font-size: 22px;
-  margin: 20px 0;
+.main-content .top-content {
+  padding: 0 15px;
 }
 
-p {
-  font-size: 22px;
+.main-content .top-content .text-content {
+  width: 454px;
+  display: inline-block;
+  margin-right: 100px;
+  font-size: 17px;
   line-height: 1.25
 }
 
-.features {
-  position: absolute;
-  display: inline-block;
-  margin: 0px 665px 0 0;
+.main-content .top-content .text-content:first-child {
+ margin-right: 55px;
 }
 
-.about {
-  position: absolute;
-  display: inline-block;
-  margin-left: 660px;
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
 }
 
-.middle-img {
-  position: relative;
-  border-radius: 35px;
-  top: 65px;
-  width: 1250px;
+.main-content .middle-img {
+  margin-top: 45px;
+  width: 1000px;
   height: 250px;
+  border-radius: 35px;
 }
 
-.bottom-content {
-  position: relative;
+.main-content .bottom-content {
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 309px;
   display: inline-block;
-  width: 1265px;
-  height: 115px;
+  margin-right: 12px;
+  font-size: 17px;
+  line-height: 1.25
 }
 
-.services {
-  position: absolute;
-  top: 95px;
-  width: 345px;
-}
-
-.product {
-  position: absolute;
-  left: 450px;
-  width: 345px;
-  top: 95px;
-}
-
-.vision {
-  position: absolute;
-  left: 900px;
-  width: 345px;
-  top: 95px;
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
 }
 
 .contact {
+  margin-top: 57px;
   border-top: 2px solid #5CABC9;
-  padding: 27px 0;
-  width: 1250px;
+  padding: 39px 10px 0;
+}
+
+.contact p {
   line-height: 2;
-  top: 248px;
-  position: relative;
 }
 
 footer {
-  padding: 400px 0;
-  padding-bottom: 100px;
+  margin: 60px 0;
   text-align: center;
-   /*======= center the text here */
+  font-size: 15px;
 }
+   /*======= center the text here */
+
 
