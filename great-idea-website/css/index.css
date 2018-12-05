@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width:900px;
+	margin: auto;
+}
+nav {
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+nav .nav-items {
+	width: 65%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 16px;
+}
+
+nav .nav-items a {
+	display: inline-block;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: grey;
+}
+
+nav .logo {
+	width: 25%;
+	position: relative;
+	margin: 25px 40px 30px 40px;
+	padding: 5px 5px 5px 5px;
+	vertical-align: middle;
+	;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black; 
+}
+
+header  .getting-started {
+	width: 49.5%;
+	position: relative;
+	display: inline-block;
+	margin: 50px auto;
+	padding: 50px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 90px;
+}
+
+header .getting-started .start {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+header .snippet {
+	width: 49.5%;
+	position: relative;
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+main {
+	width: 100%;
+	display: inline-block;
+}
+
+main .top .features {
+	width: 49.5%;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+main .top .about {
+	width: 49.5%;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+main .middle .middle-img {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+main .bottom .services {
+	width: 33%;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+main .bottom .product {
+	width: 33%;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 50px;
+}
+main .bottom .vision {
+	width: 33%;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.contact {
+	width: 100%;
+	padding: 5px;
+	display: block;
+	position : relative;
+	margin: 0 auto;
+	border-top: 1px solid black;
+}
+
+.contact p {
+	text-align:left;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+footer {
+	width: 100%;
+	padding: 5px;
+	display: block;
+	position : relative;
+	margin: 0 auto;
+	text-align: center;
+}
