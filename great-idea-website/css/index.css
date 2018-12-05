@@ -64,3 +64,170 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navigation {
+	display: inline-block;
+	position: relative;
+	background: orange;
+}
+
+a {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 24px;
+	padding: 35px;
+	color: #E2E5E8;
+	text-decoration: none;
+}
+
+.innovation-header {
+	display: inline-block;
+	text-align: center;
+	font-size: 112px;
+	font-weight: bold;
+	position: relative;
+	left: 200px;
+	margin: 32px;
+	
+}
+
+.circle-img {
+	display: inline-block;
+	position: absolute;
+	top: 150px;
+	right: 250px;
+}
+
+.idea-img {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	right: 200px;
+	
+}
+
+.getstarted-button {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 32px;
+	text-align: center;
+	width: 175px;
+	position: relative;
+	left: -140px;
+	top: 60px;
+	margin-bottom: 25px;
+}
+
+.top-section {
+	border-top: 2px solid black;
+	margin-top: 100px;
+	margin: 100px;
+	margin-bottom: 150px;
+	width: 1200px;
+	padding: 25px;
+}
+
+.features-main {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	text-align: left;
+	
+}
+
+.features-text {
+	display: inline-block;
+	position: absolute;
+	top: 695px;
+	left: 120px;
+	margin-top: 5px;
+}
+
+
+.about-main {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	top: 665px;
+	right: 700px;
+	
+}
+
+.about-text {
+	display: inline-block;
+	position: absolute;
+	top: 695px;
+	right: 350px;
+	margin-top: 5px;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+.vision-main {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	bottom: -380px;
+	right: 512px;
+	
+}
+
+.vision-text {
+	display: inline-block;
+	position: absolute;
+	bottom: -500px;
+	right: 325px;
+}
+
+.product-main {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	bottom: -380px;
+	right: 750px;
+}
+
+.product-text {
+	display: inline-block;
+	position: absolute;
+	bottom: -500px;
+	right: 590px;
+}
+
+.services-main {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	bottom: -380px;
+	right: 1095px;
+}
+
+.services-text {
+	display: inline-block;
+	position: absolute;
+	bottom: -500px;
+	right: 875px;
+}
+
+.contact {
+	display: inline-block;
+	position: absolute;
+	bottom: -690px;
+	right: 1040px;
+}
+
+.footer {
+	display: inline-block;
+	position: absolute;
+	bottom: -850px;
+	right: 650px;
+	padding-bottom: 80px;
+}
