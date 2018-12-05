@@ -207,10 +207,73 @@ nav {
 
 }
 
+.contact p {
+}
+
 
 .copyr {
   align-self: flex-end;
 
 }
 
-/*-------------services css------------------------- */
+
+
+
+
+
+.button {
+
+}
+
+.first {
+
+}
+
+.bio {
+
+
+}
+
+.major {
+  border: 1px dashed red;
+}
+
+.design {
+  border: 1px solid black;
+}
+
+.ui {
+  border: 1px solid black;
+
+}
+.marketing {
+  border: 1px solid black;
+}
+
+.web {
+  border: 1px solid black;
+}
+
+.ios {
+  border: 1px solid black;
+}
+
+.andriod {
+  border: 1px solid black;
+}
+
+.fun-facts {
+
+}
+
+.fun-facts ul li {
+
+}
+
+.services-info-img {
+
+}
+
+.bottom {
+
+}
