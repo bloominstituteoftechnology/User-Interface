@@ -65,21 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navBar, .ops	 {
+ .navBar {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   position: fixed;
   background: #6192F6;
   width: 100%;
 }
 
-
-
-.logo {
+.logoImg {
+    margin-top: 50px;
     height: 40px;
-    margin: 50px 20px auto auto;
-}
 
+
+}
 
 .serv, .prod, .vis, .feat, .abou, .cont {
    background-color:#6192F6;
@@ -90,9 +90,9 @@ h1, h2, h3, h4, h5 {
    font-size: 20px;
    transition: 0.3s;
    font-family: 'Permanent Marker', cursive;
-  display: flex;
-  flex-direction: row;
-  margin: 9.5px;
+    display: flex;
+    flex-direction: row;
+    margin: 9.5px;
    padding: 49px;
     text-decoration: none;
 }
@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5 {
    background-color: #0034A3;
    color: white;
 }
+
 
 .frontTitle {   
   display: flex;
@@ -182,6 +183,7 @@ h3 {
 
 .container {
   margin: 0 auto;
+  width: 100%;
 }
 
 .copyright {
