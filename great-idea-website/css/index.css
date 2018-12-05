@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-  v2.0 | 20110126
-  License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,162 +16,182 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-   box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 html, body {
-   height: 100%;
-   font-family: 'Titillium Web', sans-serif;
+ height: 100%;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-   font-family: 'Bangers', cursive;
-   letter-spacing: 1px;
-   margin-bottom: 15px;
+ font-family: 'Bangers', cursive;
+ letter-spacing: 1px;
+ margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-.navBar {
-    display: inline-block;
-    position: fixed;
-    background: #6192F6;
+.navBar, .ops	 {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background: #6192F6;
+  width: 100%;
 }
 
-
-
-.serv, .prod, .vis, .feat, .abou, .cont {
-	background-color:#6192F6;
-	border: none;
-	color: white;
-	padding: 16px 32px;
-	text-align: center;
-	font-size: 20px;
-	transition: 0.3s;
-	font-family: 'Permanent Marker', cursive;
-	display: inline-block;
-    margin: 9.5px;
-	padding: 49px;
-	text-decoration: none;
-}
-.serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
-	background-color: #0034A3;
-	color: white;
-  }
 
 
 .logo {
-    display: inline-block;
-    right: 0;
-    
-
+    height: 40px;
+    margin: 50px 20px auto auto;
 }
 
-.frontTitle {
-    display: inline-block;
-    margin: 250px 180px 100px 200px;
-    width: 280px;
-    font-size: 85px;
+
+.serv, .prod, .vis, .feat, .abou, .cont {
+   background-color:#6192F6;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   justify-content: center;
+   font-size: 20px;
+   transition: 0.3s;
+   font-family: 'Permanent Marker', cursive;
+  display: flex;
+  flex-direction: row;
+  margin: 9.5px;
+   padding: 49px;
+    text-decoration: none;
+}
+
+.serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
+   background-color: #0034A3;
+   color: white;
+}
+
+.frontTitle {   
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 85px;
+}
+
+.title, .headerImg {
+  margin: 200px auto 100px;
+}
+.innov {
+  width: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-.getStarted {
-    font-size: 25px;
-    padding: 5px 35px;
-    border: 1px solid black;
-}
-
 .topDesc {
-    width: 1000px;
-    margin-left: 200px;
-    border-top: 5px solid black;    
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 5px solid black;  
+  padding-top: 50px;
 }
 
-.features {
-    display: inline-block;
-    padding-top: 30px;
-    margin-right: 200px;
-    margin-left: 80px;
-    
-}
+.started {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #e1e1e1;
+    box-shadow: 0 5px #666;
+    border: solid black;
+    padding: 10px;
+    }
 
-.about {
-    display: inline-block;
-}
 
 p {
-    width: 300px;   
+  width: 300px; 
+  font-size: 20px;
 
-    
-}
+ }
 .middle-img {
-    margin: 50px;   
-    display: inline-block;
-    margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+
 }
 
 .bottom {
-    width: 1000px;
-    margin-left: 200px;
-    border-bottom: 5px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 5px solid black;
+  padding-bottom: 50px;
 }
 
-.services, .product, .vision {
-    display: inline-block;
-	margin: 10px;
-	margin-bottom: 40px;
-}
 
+h3 {
+    font-size: 30px;
+}
 .smallP {
-    width: 300px;
-    
-}
+  width: 300px;
+ }
 
-address {
-    margin: 50px;
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+
 }
 
 .number {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+  margin: 0 auto;
 }
 
 .copyright {
-    display: inline-block;
-    margin: 10px 700px 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    
 }
+
+
 
 
