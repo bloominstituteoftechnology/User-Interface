@@ -148,7 +148,56 @@ header h2 {
 	margin-left: 16px;
 }
 /*MAIN */
+#main {
+	width: 882px;
+	border-top: 1px solid black;
+	margin-top: 41px;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding-bottom: 41px;
+}
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	width: 419px;
+	border: 1px solid black;
+	margin: 40px 21px 0 21px;
+	height: 252px;
+	background: #f2f2f4;
 
+}
+.service:nth-of-type(odd) {
+	margin-left: 2px;
+}
+.service:nth-of-type(even) {
+	margin-right: 0;
+}
+.service > h3 {
+	font-size: 16px;
+	margin-bottom: 17px;
+}
+.service > p {
+	line-height: 20px;
+}
+.service > a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background: white;
+	width: 140px;
+	height: 35px;
+	padding: 10px;
+	margin-top: 16px;
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
 /*CONTENT*/
 #content {
 	border-top: 1px solid black;
