@@ -62,154 +62,122 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Your code starts here! */
 body {
 	width:900px;
-	margin: auto;
+	margin: 20px auto;
+	padding: auto;
+
 }
+
 nav {
 	width: 100%;
-	margin-top: 10px;
-	position: relative;
-	display: inline-block;
+	display: flex;
 }
 
 nav .nav-items {
 	width: 65%;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	vertical-align: middle;
-	margin-bottom: 16px;
-}
-
-nav .nav-items a {
-	display: inline-block;
-	position: relative;
-	padding-left: 10px;
-	padding-right: 30px;
 	font-size: 16px;
 	text-decoration: none;
 	color: grey;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav .logo {
 	width: 25%;
-	position: relative;
-	margin: 25px 40px 30px 40px;
-	padding: 5px 5px 5px 5px;
-	vertical-align: middle;
-	;
+	justify-content: space-between;
 }
 
 header {
 	width: 100%;
-	position: relative;
-	display: inline-block;
-	margin-bottom: 20px;
-	border-bottom: 1px solid black; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto 40px auto;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
 }
 
 header  .getting-started {
 	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 50px auto;
-	padding: 50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	text-align: center;
-	vertical-align: middle;
-	font-size: 90px;
+	font-size: 80px;
 }
 
 header .getting-started .start {
-	position: relative;
-	display: inline-block;
+	justify-content: center;
 	font-size: 16px;
-	padding: 10px 20px;
+	padding: 5px 30px;
 	border: 1px solid black;
-	text-align: center;
 }
 
 header .snippet {
 	width: 49.5%;
-	position: relative;
-	display: inline-block;
 	margin: 20px auto;
-	text-align: center;
-	vertical-align: middle;
+	justify-content: flex-end;
+	align-self: center;
 }
 
 main {
 	width: 100%;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px auto 40px auto;
+	padding-bottom: 40px;
+}
+
+main .top {
+	width: 100%;
+	display: flex;
+	align-content: 
 }
 
 main .top .features {
-	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin: auto;
+	justify-content: flex-start;
+	ali
 }
 
 main .top .about {
-	width: 49.5%;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 50px;
+	margin: auto;
+	justify-content: flex-end;}
+
+main .middle {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 main .middle .middle-img {
 	width: 100%;
-	position: relative;
-	display: inline-block;
+}
+
+main .bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
 }
 
 main .bottom .services {
 	width: 33%;
-	position: relative;
-	display: inline-block;
 	margin: 0 auto;
 	padding: 50px;
 }
 
 main .bottom .product {
 	width: 33%;
-	position: relative;
-	display: inline-block;
 	margin: 0 auto;
 	padding: 50px;
 }
 main .bottom .vision {
 	width: 33%;
-	position: relative;
-	display: inline-block;
 	margin: 0 auto;
 	padding: 50px;
-}
-
-.contact {
-	width: 100%;
-	padding: 5px;
-	display: block;
-	position : relative;
-	margin: 0 auto;
-	border-top: 1px solid black;
-}
-
-.contact p {
-	text-align:left;
-	font-size: 16px;
-	margin-bottom: 16px;
-}
-
-footer {
-	width: 100%;
-	padding: 5px;
-	display: block;
-	position : relative;
-	margin: 0 auto;
-	text-align: center;
 }
