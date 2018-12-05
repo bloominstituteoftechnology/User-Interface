@@ -84,6 +84,12 @@ header nav a {
 	font-size: 14px;
 	text-decoration: none;
 }
+header img {
+	margin-top: 20px;
+}
+header p {
+	line-height: 19px;
+}
 header figure {
 	background-image: url(../img/logo.png);
 	background-size: contain;
@@ -92,6 +98,10 @@ header figure {
 	height: 37px;
 	margin: 0 0 0 28px;
 	width: 183px;
+}
+header h2 {
+	margin-top: 33px;
+	font-size: 26px;
 }
 /*HEADER TEXT AND IMAGE*/
 #header-banner {
@@ -137,6 +147,8 @@ header figure {
 	margin: 0;
 	margin-left: 16px;
 }
+/*MAIN */
+
 /*CONTENT*/
 #content {
 	border-top: 1px solid black;
