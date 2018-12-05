@@ -262,31 +262,35 @@ footer#services-footer {
 }
 footer #facts {
 	display: flex;
+	flex-direction: row;
+	height: 332px;
+	justify-content: space-between;
+}
+footer #facts > div {
+	display: flex;
+	width: 419px;
 	flex-direction: column;
-	height: 329px;
-	width: 403px;
 }
-footer #facts > h3 {
-	margin-bottom: 20px;
-}
-footer #facts > p {
-	line-height: 19px;
-	margin-bottom: 29px;
+footer #facts p {
+	line-height: 21px;
 }
 footer img {
 	display: block;
-	width: 421px;
-	margin-left: 459px;
-	margin-bottom: 200px;
+	width: 416px;
+	height: 298px;
 }
 footer ul {
 	list-style: square;
 	height: 103px;
 	margin-left:20px;
+	margin-top: 25px;
 }
 footer li {
 	margin-bottom: 14px;
 }
 footer#services-footer #copyright {
-	margin-bottom: -110px;
+	display: flex;
+	font-size: 16px;
+	justify-content: center;
+	margin-top: 55px;
 }
