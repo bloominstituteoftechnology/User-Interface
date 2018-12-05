@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 876px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navigation a{
+	margin-left: 50px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	position: absolute;
+	right: 0;
+}
+ 
+header{
+	padding-top: 75px;
+	margin-bottom: 75px;
+}
+
+.innovation{
+	font-size: 90px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+	/* height: 280px; */
+	position: relative;
+	bottom: 30px;
+	
+	
+}
+
+button{
+	position: relative;
+	bottom: 30px;
+	padding: 8px 55px;
+	font-size: 18px;
+	background: white;
+}
+
+
+.innovationDiv{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+
+.codePic{
+	display: inline-block;
+	width: 49%;
+}
+
+.top-content{
+	padding-top: 50px;
+	display: inline-block;
+	border-top: solid grey;
+	border-spacing: 0px;
+	margin-bottom: 50px;
+
+}
+
+.features{
+	font-weight: bold;	
+}
+
+.about{
+	font-weight: bold;	
+
+}
+
+.featuresDiv{
+	display: inline-block;
+	width: 49%;
+}
+.aboutDiv{
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img{
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bottom-content{
+	padding-top: 50px;
+}
+
+.services{
+	display: inline-block;
+	width: 33%;
+}
+.product{
+	display: inline-block;
+	width: 33%;
+}
+.vision{
+	display: inline-block;
+	width: 32%;
+}
+.contact{
+	border-top: solid grey;
+	margin-top: 40px;
+	padding-top: 40px;	
+}
+
+h2{
+	font-weight: bold;
+}
+
+.web {
+	margin-top: 15px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 60px;
+}
