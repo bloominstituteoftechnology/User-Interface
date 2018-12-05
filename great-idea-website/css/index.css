@@ -255,3 +255,38 @@ footer #copyright {
 	justify-content: center;
 	margin-top: 55px;
 }
+footer#services-footer {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+}
+footer #facts {
+	display: flex;
+	flex-direction: column;
+	height: 329px;
+	width: 403px;
+}
+footer #facts > h3 {
+	margin-bottom: 20px;
+}
+footer #facts > p {
+	line-height: 19px;
+	margin-bottom: 29px;
+}
+footer img {
+	display: block;
+	width: 421px;
+	margin-left: 459px;
+	margin-bottom: 200px;
+}
+footer ul {
+	list-style: square;
+	height: 103px;
+	margin-left:20px;
+}
+footer li {
+	margin-bottom: 14px;
+}
+footer#services-footer #copyright {
+	margin-bottom: -110px;
+}
