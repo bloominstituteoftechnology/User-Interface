@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/*  http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -63,14 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 
-nav ul li{
-  display: inline-block;
-  margin-right: 50px;
-  margin-top: 5px;
 
-}
+
 
 a {
   text-decoration: none;
@@ -90,7 +85,13 @@ a:hover {
   background: #CDFEAA;
 }
 
+nav ul li{
 
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 5px;
+
+}
 
 .container {
   max-width: 900px;
@@ -121,26 +122,19 @@ h2 {
 }
 
 .top{
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
 .big-text {
-  position: absolute;
-  display: inline-block;
-  text-align:center;
-  margin: 75px 250px 80px 50px;
-  height: 383px;
-  width: 373px;
-  padding-top: 70px;
+  text-align: center;
+
 
 }
 
 .round-img {
-  position: absolut;
-  display: inline-block;
-  margin: 50px 10px 25px 450px;
-
 
 }
 
@@ -153,100 +147,132 @@ span {
 
 
 .nav-container {
-  position: relative;
-  height:20px;
+  display: flex;
+  justify-content: space-between;
+
 
 }
 
  .logo {
-  display: inline-block;
-  position: absolute;
-  margin-left: 650px;
 }
 
 
 
 nav {
-  display: inline-block;
-  position: absolute;
+
 
 }
 
 .sec1 {
-  position: relative;
-  height: 200px;
-  margin-bottom: 25px;
+  display: flex;
+  justifly-content: space-around;
 }
 
 .features {
-  display: inline-block;
   width: 50%;
-  position: absolute;
 
 
 }
 
 .about {
-  display: inline-block;
   width: 50%;
-  position: absolute;
-  margin: 0px 50%;
 }
 
 .sec2{
-  position: relative;
-  height: 200px;
-  margin-bottom: 25px;
+  display: flex;
+  justifly-content: space-around;
 }
 
 .services {
-  display: inline-block;
-  width: 33.33%;
-  position: absolute;
-  padding-left: 20px;
-
+  width: 33%;
 }
 
 .product {
-  display: inline-block;
-  width: 33.33%;
-  position: absolute;
-  margin-left: 33.33%;
-  padding-left: 20px;
+  width: 33%;
 }
 
 .vision {
-  display: inline-block;
-  width: 33.33%;
-  position: absolute;
-  margin-left: 66.66%;
-  padding-left: 20px;
+  width: 33%;
 }
 
 
 
 .footer {
-  position: relative;
-  height: 150px
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact {
-  display:inline-block;
-  position: absolute;
 
 }
 
 .contact p {
-  margin-top: 20px
 }
-.contact h2 {
-  margin-top: 20px;
-}
+
 
 .copyr {
+  align-self: flex-end;
 
-  display: inline-block;
-  position: absolute;
-  margin-left: 40%;
-  margin-top: 200px;
+}
+
+
+
+
+
+
+.button {
+
+}
+
+.first {
+
+}
+
+.bio {
+
+
+}
+
+.major {
+  border: 1px dashed red;
+}
+
+.design {
+  border: 1px solid black;
+}
+
+.ui {
+  border: 1px solid black;
+
+}
+.marketing {
+  border: 1px solid black;
+}
+
+.web {
+  border: 1px solid black;
+}
+
+.ios {
+  border: 1px solid black;
+}
+
+.andriod {
+  border: 1px solid black;
+}
+
+.fun-facts {
+
+}
+
+.fun-facts ul li {
+
+}
+
+.services-info-img {
+
+}
+
+.bottom {
+
 }
