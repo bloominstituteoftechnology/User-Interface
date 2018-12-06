@@ -79,30 +79,37 @@ h1 {
 
 .container {
   margin: 0 auto;
-  width: 900px;
+  width: 876px;
+  -webkit-box-shadow: 0px 8px 50px 4px rgba(143, 143, 143, 0.32);
+  -moz-box-shadow: 0px 8px 50px 4px rgba(143, 143, 143, 0.32);
+  box-shadow: 0px 8px 50px 4px rgba(143, 143, 143, 0.32);
+	border-radius: 0 15px 15px 0;
 }
 
 nav {
   display: inline-block;
   position: relative;
-  width: 900px;
-  margin: 34px 0;
+  width: 876px;
+  height: 80px;
+  background-color: #03A4FC;
 }
 
 ul {
   padding-top: 10px;
+  padding-left: 20px;
 }
 
 li {
   display: inline-block;
+  padding-top: 20px;
   padding-right: 40px;
-  color: #999;
+  color: #fff;
 }
 
 .logo {
   position: absolute;
   right: 20px;
-  top: 0;
+  top: 20px;
 }
 
 .hero {
@@ -134,12 +141,14 @@ li {
 
 .inner1 {
   display: inline-block;
-  max-width: 440px;
+  max-width: 420px;
+		padding: 0 20px;
 }
 
 .inner2 {
   display: inline-block;
   max-width: 286px;
+		padding: 0 20px;
 }
 
 .inner1 h2 {
@@ -156,14 +165,14 @@ li {
 }
 
 address {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .phone {
-	padding: 20px 0;
+  padding: 20px 0;
 }
 
 .copyright {
-	text-align: center;
-	margin: 80px 0;
+  text-align: center;
+  margin: 80px 0;
 }
