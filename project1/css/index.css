@@ -37,8 +37,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -63,20 +62,109 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 10px;
 }
 
-header img, header nav{
+/* Your code starts here! */
+
+body {
+	width: 80%;
+	margin: auto;
+}
+header img, header nav {
 	display: inline-block;
 }
-
-.banner {
+header {
+	margin-top: 50px;
+}
+#topbar {
+	background-color: #3062b2;
+	width: 80%;
+	position: fixed;
+	top: 0px;
+	padding: 20px 5px 15px 5px;
+	z-index: 1;
+}
+nav a {
+	margin-left: 100px;
+	text-decoration: none;
+	color: lightgray;
+	font-size: 10px;
+}
+nav a:first-child {
+	margin-left: 0;
+}
+.logo {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+}
+#banner {
+	position: relative;
+	height: 650px;
+	border-bottom: 2px black solid;
+	margin-bottom: 50px;
+}
+.banner-content {
 	display: inline-block;
 }
-
+div.banner-content {
+	margin-left: 120px;
+	margin-top: 120px;
+	text-align: center;
+}
+.banner-content h1 {
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+.banner-content a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	border: 2px black solid;
+	padding: 5px 50px 5px 50px;
+}
+img.banner-content {
+	height: 450px;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+h2 {
+	font-size: 20px;
+}
+p {
+	font-size: 18px;
+}
+#main {
+	padding-bottom: 50px;
+	border-bottom: 2px black solid;
+	margin-bottom: 50px;
+}
 #section1 section {
-	width: 500px;
-	display:inline-block;
-}
-
-#section3 section {
-	width: 300px;
+	width: 550px;
 	display: inline-block;
+	margin-right: 20px;
+}
+#section1 section:last-child {
+	margin-right: 0px;
+}
+#section2 {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#section3 section {
+	width: 365px;
+	margin-right: 20px;
+	display: inline-block;
+}
+#section3 section:last-child {
+	margin-right: 0px;
+}
+address p {
+	margin-bottom: 20px;
+}
+footer {
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 100px
 }
