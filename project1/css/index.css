@@ -102,14 +102,14 @@ h1, h2, h3, h4, h5 {
 .top-navigation {
 	position: absolute;
 	display: inline;
-	border: 1px solid purple;
-	top: 15px;
+	top: 35px;
 }
 
 .top-logo {
 	position: absolute;
 	display: inline-block;
 	right: 0;
+	top: 25px;
 }
 
 
@@ -120,12 +120,28 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	font-size: 74px;
 	text-align: center;
+	border: 1px solid purple;
+	margin: 140px 0px 0px 80px;
+	width: 350px;
 }
 
 .mid-img {
 	position: absolute;
 	display: inline-block;
 	right: 0;
+	border: 1px solid blue;
+	margin: 80px 0px 0px 0px;
+}
+
+.mid-button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 8px 45px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;	
 }
 
 
@@ -155,6 +171,7 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	display: inline-block;
 	top: 600px;
+	margin: 170px 0px 0px 0px;
 }
 
 
