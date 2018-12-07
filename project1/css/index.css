@@ -68,16 +68,10 @@ h1, h2, h3, h4, h5 {
 
 /* color borders */
 .top-section {
-	border: 1px solid red;
 	position: relative;
 	height: 50px;
 }
 	
-.mid-section {
-	border: 1px solid blue;
-}
-
-
 
 
 /* code starts here */
@@ -120,16 +114,18 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	font-size: 74px;
 	text-align: center;
-	border: 1px solid purple;
-	margin: 140px 0px 0px 80px;
-	width: 350px;
+	margin: 140px 0px 0px 45px;
+	width: 380px;
+}
+
+.mid-text {
+	letter-spacing: 2px;
 }
 
 .mid-img {
 	position: absolute;
 	display: inline-block;
 	right: 0;
-	border: 1px solid blue;
 	margin: 80px 0px 0px 0px;
 }
 
@@ -151,17 +147,24 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 }
 
+.first-divider {
+	/* margin-top: 538px; */
+}
+
 .features {
 	position: absolute;
 	display: inline-block;
-	top: 500px;
+	top: 576px;
+	border: 1px solid green;
+	margin: 0px 450px 0px 0px;
 }
 
 .about {
 	position: absolute;
 	display: inline-block;
 	right: 0;
-	top: 500px;
+	top: 576px;
+	width: 425px
 }
 
 
@@ -180,19 +183,31 @@ h1, h2, h3, h4, h5 {
 .services {
 	position: absolute;
 	display: inline-block;
-	top: 800px;
+	top: 990px;
+	border: 1px solid blue;
+	width: 278px;
 }
 
 .product{
 	position: absolute;
 	display: inline-block;
-	top: 800px;
+	top: 990px;
+	border: 1px solid blue;
+	width: 278px;
+	margin-left: 300px;
 }
 
 .vision {
 	position: absolute;
 	display: inline-block;
-	top: 800px;
+	top: 990px;
+	right: 0; 
+	border: 1px solid blue;
+	width: 278px;
+}
+
+.second-divider {
+	margin-top: 585px;
 }
 
 
