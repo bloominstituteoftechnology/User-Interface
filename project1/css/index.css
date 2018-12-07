@@ -63,82 +63,126 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
 /* color borders */
 .top-section {
 	border: 1px solid red;
+	position: relative;
+	height: 50px;
 }
 	
-	.mid-section {
+.mid-section {
 	border: 1px solid blue;
 }
 
 
+
+
+/* code starts here */
 .container {
+	margin: 0 auto;
+	border: 1px solid orange;
+	width: 900px;
+	height: 900px;
 	position: relative;
-	margin: 0px 200px 0px 200px;
-border: 1px solid orange;
 }
+
+
+
 
 .top-navigation a {
 	color: gray;
 	padding-right: 64px;
 	text-decoration: none;
+
 }
 
-
-
-
-
-
-
-.top-navigation{
-	display: inline-block;
-	font-size: 14px;
-	margin: 0px 0px 0px 72px;
-	
+.top-navigation {
+	position: absolute;
+	display: inline;
+	border: 1px solid purple;
+	top: 10px;
 }
- 
+
 .top-logo {
+	position: absolute;
 	display: inline-block;
-	margin: 25px 0px 0px 0px;
+	right: 0;
 }
-
-
-
 
 
 
 
 .mid-content {
-	align-items: center;
+	position: absolute;
 	display: inline-block;
 	font-size: 74px;
-	margin: 0px 0px 0px 268px;
+	
 }
 
 .mid-img {
+	position: absolute;
 	display: inline-block;
-	margin: 69px 0px 0px 95px;
-}
-
-span {
-	display: block;
+	right: 0;
 }
 
 
 
 
-
+/* .above-pic-section {
+	position: relative;
+} */
 
 .features {
+	position: absolute;
 	display: inline-block;
+	top: 500px;
 }
+
 .about {
+	position: absolute;
 	display: inline-block;
+	right: 0;
+	top: 500px;
 }
 
 
 
 
+.lower-img {
+	position: absolute;
+	display: inline-block;
+	top: 600px;
+}
 
 
+
+
+.services {
+	position: absolute;
+	display: inline-block;
+	top: 800px;
+}
+
+.product{
+	position: absolute;
+	display: inline-block;
+	top: 800px;
+}
+
+.vision {
+	position: absolute;
+	display: inline-block;
+	top: 800px;
+}
+
+
+
+
+.footer {
+	position: absolute;
+	display: block;
+	top: 500px;
+}
