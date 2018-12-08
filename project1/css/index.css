@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5 {
 /* code starts here */
 .container {
 	margin: 0 auto;
-	border: 1px solid orange;
 	width: 878px;
 	height: 1440px;
 	position: relative;
@@ -148,22 +147,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .first-divider {
-	/* margin-top: 538px; */
+	/* position: absolute; */
+	margin-top: 538px;
 }
 
 .features {
 	position: absolute;
 	display: inline-block;
-	top: 578px;
+	top: -548px;
 	margin: 0px 450px 0px 0px;
+	line-height: 1.1;
 }
 
 .about {
 	position: absolute;
 	display: inline-block;
 	right: 0;
-	top: 578px;
-	width: 425px
+	top: -548px;
+	width: 425px;
+	line-height: 1.1;
 }
 
 
@@ -184,6 +186,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	top: 990px;
 	width: 278px;
+	line-height: 1.1;
 }
 
 .product{
@@ -192,6 +195,7 @@ h1, h2, h3, h4, h5 {
 	top: 990px;
 	width: 278px;
 	margin-left: 300px;
+	line-height: 1.1;
 }
 
 .vision {
@@ -200,10 +204,11 @@ h1, h2, h3, h4, h5 {
 	top: 990px;
 	right: 0; 
 	width: 278px;
+	line-height: 1.1;
 }
 
 .second-divider {
-	margin-top: 585px;
+	margin-top: 584px;
 }
 
 
@@ -212,12 +217,14 @@ h1, h2, h3, h4, h5 {
 .address {
 	position: absolute;
 	display: inline-block;
-	margin-top: 1165px;
+	margin-top: 30px;
 }
 
 .footer-text {
+	position: absolute; 
 	display: block;
-	margin-top: 1359px;
-	text-align: center;
-	border: 1px solid orange;
+	margin-top: 65px;
+	margin-left: 359px;
+	width: 200px;
+	font-size: 14px;
 }
