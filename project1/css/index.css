@@ -77,9 +77,9 @@ h1, h2, h3, h4, h5 {
 /* code starts here */
 .container {
 	margin: 0 auto;
-	/* border: 1px solid orange; */
+	border: 1px solid orange;
 	width: 878px;
-	height: 1000px;
+	height: 1440px;
 	position: relative;
 }
 
@@ -154,8 +154,7 @@ h1, h2, h3, h4, h5 {
 .features {
 	position: absolute;
 	display: inline-block;
-	top: 576px;
-	border: 1px solid green;
+	top: 578px;
 	margin: 0px 450px 0px 0px;
 }
 
@@ -163,7 +162,7 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	display: inline-block;
 	right: 0;
-	top: 576px;
+	top: 578px;
 	width: 425px
 }
 
@@ -184,7 +183,6 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	display: inline-block;
 	top: 990px;
-	border: 1px solid blue;
 	width: 278px;
 }
 
@@ -192,7 +190,6 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	display: inline-block;
 	top: 990px;
-	border: 1px solid blue;
 	width: 278px;
 	margin-left: 300px;
 }
@@ -202,7 +199,6 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	top: 990px;
 	right: 0; 
-	border: 1px solid blue;
 	width: 278px;
 }
 
@@ -213,8 +209,15 @@ h1, h2, h3, h4, h5 {
 
 
 
-.footer {
+.address {
 	position: absolute;
+	display: inline-block;
+	margin-top: 1165px;
+}
+
+.footer-text {
 	display: block;
-	top: 500px;
+	margin-top: 1359px;
+	text-align: center;
+	border: 1px solid orange;
 }
