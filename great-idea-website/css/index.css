@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -22,6 +22,47 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+
+h1{
+	font-size: 400%;
+	display:inline-block;
+	text-align: center;
+	padding: 100px;
+	
+	
+}
+h2{
+	display: inline-block;
+	padding: 10px;
+	font-size: 200%;
+	border: 1px solid black;
+	
+}
+
+h3{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	width: 100px;
+}
+p{
+	display: inline-block;
+	
+	padding: 10px;
+	width: 500px;
+}
+li{
+	display: inline; /* the default for span */
+	margin: 0 50px;
+     
+}
+img.second-img{
+	display: inline-block;
+	
+	padding: 10px;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -60,7 +101,15 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+img {
+	display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -9999px;
+    
 }
 
 /* Your code starts here! */
