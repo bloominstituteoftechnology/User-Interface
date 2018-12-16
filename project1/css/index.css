@@ -68,13 +68,13 @@ h1, h2, h3, h4, h5 {
 .outer-container {
 	margin: 0 auto;
 	width: 1025px;
-	padding: 0px 90px 0px 71px; 
+	padding: 0px 2px 0px 71px; 
 	border: 1px solid blue;
 }
 
 .inner-container {
 	/* margin: 0 auto; */
-	width: 1025px;
+	width: 881px;
 	border-left: 1px dashed red;
 	border-right: 1px dashed red;
 }
@@ -105,8 +105,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* top section */
-.top-section {
-	
+.top-section div {
 	border: 1px solid blue;
 }
 
