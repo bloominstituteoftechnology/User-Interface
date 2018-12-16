@@ -65,9 +65,18 @@ h1, h2, h3, h4, h5 {
 
 
 /* Your code starts here! */
-.container {
+.outer-container {
 	margin: 0 auto;
 	width: 1025px;
+	padding: 0px 90px 0px 71px; 
+	border: 1px solid blue;
+}
+
+.inner-container {
+	/* margin: 0 auto; */
+	width: 1025px;
+	border-left: 1px dashed red;
+	border-right: 1px dashed red;
 }
 
 /* nav section */
@@ -112,7 +121,29 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid orange;
 }
 
-/* above picture */
+/* above and below picture */
+.above-pic-left, .above-pic-right, 
+.below-pic-left, .below-pic-middle,
+.below-pic-right
+{
+	display: inline-block;
+}
 
+/* above picture */
+.above-picture {
+	border-top: 2px solid black;
+}
+
+.above-pic-left, .above-pic-right {
+	width: 200px;
+}
 
 /* below picture */
+.below-pic-left, .below-pic-middle, 
+.below-pic-right {
+	width: 150px;
+}
+
+.below-picture {
+	border-bottom: 2px solid black;
+}
