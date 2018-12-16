@@ -68,10 +68,51 @@ h1, h2, h3, h4, h5 {
 .container {
 	margin: 0 auto;
 	width: 1025px;
-	border: 1px solid orange;
 }
 
-.nav-section, .log {
+/* nav section */
+.nav-section {
+	height: 135px;
+	width: 1024px;
+	text-align: center;
+	border: 1px solid blue;
+}
+
+.nav {
 	display: inline-block;
 	border: 1px solid red;
 }
+
+.nav a {
+	text-decoration: none;
+	color: #B0B0B0;
+	border: 1px solid orange;
+}
+
+.logo {
+	display: inline-block;
+	margin: 26px 40px 0px 0px;
+	border: 1px solid orange;
+}
+
+/* top section */
+.top-section {
+	
+	border: 1px solid blue;
+}
+
+.top-section div {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid orange;
+}
+
+.top-section img {
+	display: inline-block;
+	border: 1px solid orange;
+}
+
+/* above picture */
+
+
+/* below picture */
