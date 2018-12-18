@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5 {
 	/* top: 35px; */
 	position: relative;
 	top: 35px;
-	margin-right: 45px;
+	margin-right: 54px;
 	text-decoration: none;
 	color: #B0B0B0;
 	border: 1px solid orange;
@@ -122,19 +122,39 @@ h1, h2, h3, h4, h5 {
 /* top section */
 .top-section {
 	margin-bottom: 67px;
+	position: relative;
+	height: 386px;
+	border: 1px solid purple;
 }
 
 .top-section div h1 {
-	font-size: 60px;
+	font-size: 80px;
+	
 }
 
 .top-section div {
+	position: absolute;
+	top: 54px;
+	left: 75px;
 	display: inline-block;
 	text-align: center;
 	border: 1px solid orange;
 }
 
+.button {
+	position: relative;
+	left: -6px;
+	bottom: 13px;
+	border: 1px solid black;
+	background-color: white;
+	font-size: 16px;
+	padding: 7px 43px;
+}
+
 .top-section img {
+	position: absolute;
+	right: 0;
+	top: -5px;
 	display: inline-block;
 	border: 1px solid orange;
 }
