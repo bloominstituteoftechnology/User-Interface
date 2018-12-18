@@ -74,39 +74,58 @@ h1, h2, h3, h4, h5 {
 
 .inner-container {
 	/* margin: 0 auto; */
-	width: 881px;
+	width: 880px;
 	border-left: 1px dashed red;
 	border-right: 1px dashed red;
 }
 
 /* nav section */
 .nav-section {
+	position: relative;
 	height: 135px;
-	width: 1024px;
-	text-align: center;
-	border: 1px solid blue;
-}
+	/* width: 880px; */
+		/* text-align: center; */
+	/* border: 1px solid blue; */
+} 
 
 .nav {
+	position: absolute;
+	left: 0;
 	display: inline-block;
+	width: 880px;
+	height: 130px; 
 	border: 1px solid red;
 }
 
 .nav a {
+	/* position: absolute;
+	top: 35px;
+	left: 0; */
+	/* top: 35px; */
+	position: relative;
+	top: 35px;
+	margin-right: 45px;
 	text-decoration: none;
 	color: #B0B0B0;
 	border: 1px solid orange;
 }
 
 .logo {
-	display: inline-block;
-	margin: 26px 40px 0px 0px;
+	position: absolute;
+	top: 24px;
+	right: 0;
+	/* display: inline-block; */
+	/* margin: 26px 40px 0px 0px; */
 	border: 1px solid orange;
 }
 
 /* top section */
-.top-section div {
-	border: 1px solid blue;
+.top-section {
+	margin-bottom: 67px;
+}
+
+.top-section div h1 {
+	font-size: 60px;
 }
 
 .top-section div {
