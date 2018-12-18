@@ -121,10 +121,10 @@ h1, h2, h3, h4, h5 {
 
 /* top section */
 .top-section {
-	margin-bottom: 67px;
+	/* margin-bottom: 67px; */
 	position: relative;
-	height: 386px;
-	border: 1px solid purple;
+	height: 454px;
+	border-bottom: 2px solid black;
 }
 
 .top-section div h1 {
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5 {
 
 .button {
 	position: relative;
-	left: -6px;
+	left: -7px;
 	bottom: 13px;
 	border: 1px solid black;
 	background-color: white;
@@ -169,19 +169,37 @@ h1, h2, h3, h4, h5 {
 
 /* above picture */
 .above-picture {
-	border-top: 2px solid black;
+	position: relative;
+	top: 0;
+	height: 180px;
+	border: 1px solid red;
 }
 
 .above-pic-left, .above-pic-right {
-	width: 200px;
+	position: relative;
+	top: 38px;
+	width: 430px;
+	line-height: 1.1;
+	border: 1px solid red;
+}
+
+.above-pic-right {
+	position: relative;
+	left: 15px;
 }
 
 /* below picture */
-.below-pic-left, .below-pic-middle, 
-.below-pic-right {
-	width: 150px;
-}
-
 .below-picture {
 	border-bottom: 2px solid black;
+	height: 222px;
 }
+
+.below-pic-left, .below-pic-middle, 
+.below-pic-right {
+	position: relative;
+	top: 35px;
+	line-height: 1.1;
+	width: 280px;
+	border: 1px solid red;
+}
+
