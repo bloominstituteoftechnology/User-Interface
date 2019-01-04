@@ -8,11 +8,11 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 ## To Get Started
 
-* Fork / Clone this project into a directory on your machine.
+- [X] Fork / Clone this project into a directory on your machine.
 
-* Open the code with your preferred integrated development environment (IDE).
+- [X] Open the code with your preferred integrated development environment (IDE).
 
-* Start on the objectives
+- [X] Start on the objectives
 
 ## Objectives:
 
