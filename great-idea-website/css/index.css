@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	width: 876px;
+	margin: 0 auto;
 	line-height: 1;
 }
 ol, ul {
