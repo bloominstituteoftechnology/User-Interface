@@ -78,26 +78,29 @@ hr {
 /* Header CSS*/
 
 nav {
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding: 20px;
-	position: fixed;
-	top: 0px;
-	background-color: azure;
+	background-color: gray;
+	
 }
 
-nav a {
-	padding: 24px;
-	color: gray;
+nav .links {
+	color: black;
 }
 
-nav a:hover {
+nav .links:hover {
 	color: blue;
 }
 
+nav .items {
 
-.logo {
-	margin-left: 40px;
 }
+
+
+
+
 
 /* Hero CSS*/
 
@@ -128,6 +131,7 @@ nav a:hover {
 
 .hero-right {
 	float: right;
+	background-image: url("img/header-img.png");
 }
 
 /* Hero CSS*/
