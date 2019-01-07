@@ -67,6 +67,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+hr {
+	color: black;
+}
 
 /* Header CSS*/
 
@@ -88,7 +91,7 @@ nav a {
 
 .hero {
 	width: 100%;
-	height: 500px;
+	height: 460px;
 	margin-top: 50px;
 }
 
@@ -115,7 +118,58 @@ nav a {
 	float: right;
 }
 
-.hero-code-img {
+/* Hero CSS*/
 
+.features-about {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
+.features {
+	width: 50%;
+	float: left;
+}
+
+.about {
+	width: 50%;
+	float: right;
+}
+
+/* Code Image CSS */
+
+.code-img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Services / Product / Vision CSS */
+
+.services-product-vision {
+	height: 160px;
+}
+
+.column3 {
+	width: 33%;
+	float: left;
+}
+
+/* Contact CSS */
+
+.contact {
+	width: 100%;
+	height: 160px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.phone, .email {
+	padding-top: 10px;
+}
+
+/* Copywright CSS */
+
+.copyright {
+	text-align: center;
+}
