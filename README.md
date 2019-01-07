@@ -24,17 +24,18 @@ Project objectives are meant to increase your knowledge by giving you practice o
 
 - [X] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
 
-- [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
+- [X] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
 
 ## Stretch Goals:
 
 Stretch goals are not required. Complete the project objectives before working on stretch. Stretch goals are not covered in the guided demo and need some research on your part. There is no particular order in this list, just pick one that sounds fun and push yourself.
 
-- [ ] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
+- [X] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
+
 - [ ] Introduce a new font family from [google fonts](https://fonts.google.com/)
 
 - [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
 - [ ] Change all the image tags into background images instead
 
-- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+- [X] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
