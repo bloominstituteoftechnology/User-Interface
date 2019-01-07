@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
 hr {
 	color: black;
 }
@@ -160,6 +164,7 @@ nav a:hover {
 .column3 {
 	width: 33%;
 	float: left;
+	padding: 10px;
 }
 
 /* Contact CSS */
