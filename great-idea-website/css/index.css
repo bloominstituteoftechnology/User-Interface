@@ -174,7 +174,7 @@ h5 {
   position: fixed;
   height: var(--top-nav-height);
   width: 100%;
-  background: #fffffffc;
+  background: #ffffffec;
 }
 
 .top-nav {
@@ -211,7 +211,7 @@ main {
 }
 
 header {
-  margin: 3rem 0;
+  margin: 3rem 0 5rem;
 }
 
 h1 {
@@ -245,19 +245,42 @@ header img {
 
 /***********/
 
-.top-content {
+section {
   display: block;
-  margin-top: 6rem;
+  padding: 2rem 0 3rem;
 }
 
 .top-content div {
   display: inline-block;
-  width: 50px;
-  outline: 1px solid magenta;
+  width: 50%;
 }
 
-.top-content {}
+.bottom-content {
+  border-bottom: 1px solid var(--main-color);
+}
 
-.bottom-content {}
+.bottom-content div {
+  display: inline-block;
+  width: 33%;
+}
 
-.contact {}
+.contact {
+  margin-top: 1rem;
+  display: block;
+}
+
+/**********/
+
+/* FOOTER */
+
+/**********/
+
+footer {
+  width: var(--main-width);
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 2rem;
+  text-align: center;
+}
