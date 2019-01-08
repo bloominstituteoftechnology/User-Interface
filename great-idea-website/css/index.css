@@ -64,3 +64,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.testing {
+	border: 0px solid red;
+}
+/* header {
+	position: fixed;
+	background-color: gray;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+} */
+section.text, section.jumbotron, section.contact, header {
+	margin: auto;
+	width: 880px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.image {
+	margin: auto;
+	width: 878px;
+}
+section.contact {
+	border-top: 2px solid black;
+}
+header a {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right:20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+header img {
+	display: inline-block;
+	margin-left: 20px;
+}
+.jumbotron {
+	border-bottom: 2px solid black;
+}
+.middle-two {
+	display: inline-block;
+	width: 49%;
+}
+.middle-three {
+	display:inline-block;
+	width: 32%;
+}
+.jumbotron-text {
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+	padding-top: 60px;
+}
+.jumbotron-text h1 {
+	text-align: center;
+	font-size: 60px;
+}
+.jumbotron-text button {
+	display: inline-block;
+	width: 30%;
+	margin-left: 146px;
+}
+.copyright {
+	text-align: center;
+	padding:30px;
+}
