@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -64,3 +67,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigationclass {
+	background-color: red
+}
+
+.headerclass {
+	
+}
