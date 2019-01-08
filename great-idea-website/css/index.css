@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-container {
+	margin: 20px 70px;
+}
+.main-container header nav {
+	margin-bottom: 30px;
+}
+
+.main-container header nav a {
+	display: inline-block;
+	width: 13%;
+	color: gray;
+	text-decoration: none;
+}
+
+.main-container header nav img.logo {
+	position: absolute;
+	top: 10px;
+	right: 70px;
+}
+
+ /*sucks*/
+.section1 {
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+.section1 .section1-slogan {
+	width: 45%;
+	height: 100%;
+	display: inline-block;	
+	border: 1px solid black;
+	vertical-align: auto;
+
+}
+
+.section1 .section1-slogan .slogan-container {
+	width: 60%;
+	display: block;	
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.section1 .section1-slogan h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+.section1 .section1-slogan a {
+	font-size: 1rem;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.section1 .section1-image {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	border: 1px solid black;
+	padding-top: 30px;
+}
+
+ /*sucks*/
+
+.section2 {
+	margin-top: 30px;
+}
+
+.section2 .article2 {
+	display: inline-block;
+	width: 49%;
+	line-height: 1.25;
+}
+
+.section2 .image img.middle-img {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.section2 .article3 {
+	display: inline-block;
+	width: 32%;
+	line-height: 1.25;
+	margin: 30px 3px;
+}
+
+.section3 {
+	margin-top: 30px;
+}
+
+.section3 address .contact-information {
+	line-height: 2; 
+}
+
+.copyright {
+	padding: 20px 0 50px 0;
+	text-align: center;
+}
