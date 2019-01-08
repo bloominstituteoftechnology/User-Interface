@@ -52,12 +52,15 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	width: 876px;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 40px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,9 +72,79 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .navigationclass {
-	background-color: red
+	padding: 15px;
+	
 }
 
+
+a {
+	display: inline-block;
+	width: 12.55%;
+	text-decoration: none;
+}
+
+
 .headerclass {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	
+}
+
+.topleftdivclass {
+	display: inline-block;
+	width: 40%;
+	padding-bottom: 30px; 
+}
+
+.headertitleclass {
+	font-size: 60px;
+	text-align: center;
+}
+
+.getstartedclass {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	width: 42%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 100px;
+}
+
+.circle {
+	display: inline-block;
+	width: 40%;
+	margin-left: 150px;
+}
+
+.section1divclass {
+	display: inline-block;
+	width: 49%;
+}
+
+.section2divclass {
+	display: inline-block;
+	width: 32%;
+}
+
+.sectionclass1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sectionclass2 {
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.contactclass {
+	display: inline-block;
+	width: 14%;
+	padding-top: 30px;
+}
+
+.footerclass {
+	text-align: center;
 }
