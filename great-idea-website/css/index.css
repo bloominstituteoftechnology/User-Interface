@@ -79,7 +79,6 @@ header .navbar {
 	position: fixed; 
 	top: 0; 
 	width: 100%;
-	margin-bottom: 30px;
   }
 
 header .navbar a {
@@ -92,7 +91,15 @@ header .navbar a {
 	font-family: 'Major Mono Display', monospace;
   }
 
-  header .navbar img {
+header .navbar a:hover {
+	  color:black;
+  }
+
+header .navbar a.nav-selected {
+	color: black;
+}
+
+header .navbar img {
 	filter: invert(100%);
   }
 
@@ -105,7 +112,7 @@ header .navbar a {
 	height: 100%;
 	display: inline-block;	
 	vertical-align:top;
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
 .section1 .section1-left .text-container {
@@ -132,10 +139,10 @@ header .navbar a {
 }
 
 .section1 .section1-right {
-	width: 49%;
+	width: 45%;
 	height: 100%;
 	display: inline-block;
-	padding-top: 5%;
+	padding-top: 10%;
 }
 
 .section2 .article2 {
@@ -163,4 +170,59 @@ header .navbar a {
 .copyright {
 	padding: 20px 0 50px 0;
 	text-align: center;
+}
+
+
+/* PRODUCT SITE*/
+
+.main-container h1.product-page {
+	font-size: 4em;
+	text-align: center;
+	margin: 100px 60px;
+}
+
+.product-section-A {
+	margin-top: 20px;
+}
+
+.product-section-A img.img-product {
+	width: 45%;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 10px; 
+}
+
+.product-section-A .text-product {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	vertical-align:top;
+	margin: 20px;
+}
+
+.product-section-A .text-product p {
+	line-height: 1.5;
+}
+
+.product-section-B {
+	margin-top: 20px;
+}
+
+.product-section-B img.img-product {
+	width: 45%;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 10px; 
+}
+
+.product-section-B .text-product {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	vertical-align:top;
+	margin: 20px;
+}
+
+.product-section-B .text-product p {
+	line-height: 1.5;
 }
