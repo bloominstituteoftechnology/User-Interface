@@ -213,7 +213,8 @@ main {
 
 header {
   margin: 3rem 0 5rem;
-  /* outline: 1px solid blue; */
+  /* border: 3px solid magenta; */
+  /* outline: 3px solid blue; */
 }
 
 h1 {
@@ -224,7 +225,7 @@ h1 {
 .header-inner {
   display: inline-block;
   text-align: center;
-  width: 50%;
+  width: calc(100% - 25rem);
   margin: 0 auto;
   padding-top: 3.5rem;
   vertical-align: top;
@@ -238,7 +239,7 @@ header button {
 }
 
 header img {
-  margin-left: 5%;
+  margin-left: 0;
 }
 
 /***********/
