@@ -69,9 +69,22 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
+.container {
+    padding-top: 71px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
 header nav {
     display: inline-block;
     margin-top: 35px;
+    font-family: 'Staatliches', cursive;
 }
 
 header .logo {
@@ -110,6 +123,7 @@ header nav a {
 }
 
 .code-circle {
+    position: relative;
     width: 50%;
     vertical-align: middle;
     margin-top: -60px;
