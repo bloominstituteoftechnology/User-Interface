@@ -70,6 +70,10 @@ body {
 	padding: 0 10%;
 }
 
+header {
+	height: 70px;
+}
+
 header nav a {
 	padding-top: 30px;
 	display: inline-block;
@@ -87,18 +91,39 @@ a {
 	right: 10%;
 }
 
-main div {
+main {
 	height: 70vh;
-	padding-top: 80px;
-	width: 49%;
-	display: inline-block;
-	vertical-align: center;
-	line-height: 1.2;
-	text-align: center;
+	vertical-align: middle;
+	padding-top: 70px;
 }
 
+.item-div {
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.2;
+	text-align: center;
+	position: relative;
+	height: 400px;
+}
+
+.text-div {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.img-div {
+	position: absolute;
+	right: 0;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+
 main div h1 {
-	font-size: 90px;
+	font-size: 70px;
 }
 
 main div button {
