@@ -74,8 +74,9 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
 }
 .header-section {
-    padding:70px;
+    padding:30px;
     color:gray;
+    margin-left: 70px
 }
 
 .section-two{
@@ -85,6 +86,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 .section-two-left {
+    margin-right:100px;
     display: inline-block;
     position: absolute;
     
@@ -92,7 +94,8 @@ h1, h2, h3, h4, h5 {
 
 #section-two-right{
     display: inline-block;
-    margin-left:400px;
+    margin-left:500px;
+
 }
 
 .section-three {
@@ -117,7 +120,6 @@ h1, h2, h3, h4, h5 {
 .image-center {
     text-align:center;
 }
-
 .section-four{
     margin-top:60px;
     margin-bottom: 60px;
@@ -138,10 +140,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .adress-section {
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
 
 .paragraph-center {
+    margin-top:70px;
     margin-bottom: 80px;
     text-align: center;
 }
@@ -156,3 +160,19 @@ h1, h2, h3, h4, h5 {
     margin-right: 200px;
     margin-left: 200px;
 }
+
+.text-mod {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top:20px;
+    font-size:70px;
+    margin-right: 100px;    
+}
+.text-mod2{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left:70px;
+    margin-right:70px;
+    padding:10px;
+}
+
