@@ -74,19 +74,17 @@ header {
 	width: 100%;
 }
 
-
-
+/* HEADER part need more work. */
 .nav-img {
-	/* box-sizing: border-box; */
-	border: 1px dotted green;
-	display: inline-block;
+	display: block;
 	width: 100%;
 }
 
 nav {
-	border: 1px dotted black;
-	/* position: relative; */
-	width: 40%;
+	display: inline-block;
+	width: 70%;
+	margin: auto;
+	padding: 15px 0;
 }
 
 a {
@@ -94,68 +92,42 @@ a {
 	text-decoration: none;
 	width: 5%;
 	padding: 10px;
-	/* display: inline-block; */
 	text-align: center;
 }
 
 .logo {
-	border: 5px solid pink;
 	display: inline-block;
-	/* width: 20%; */
+	/* This is not ideal solution  */
+	padding-left: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* CTA part need more work with aligning elements*/
 
 .title-and-image {
-	border: 1px dotted red;
+	display: block;
+	width: 100%;
+	padding: 40px 0;
+	/* border: 1px dashed red; */
 }
 
 .title {
-	padding: 100px;
 	display: inline-block;
 	width: 49%;
 	text-align: center;
 
-	border: 1px dashed black;
+	/* border: 1px dashed black; */
 }
 
 .round-img {
-	border: 1px dashed black;
+	/* border: 1px dashed black; */
 	width: 49%;
 	display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Code below this is ok. */
 
 h1 {
-	font-size: 600%;
+	font-size: 400%;
 }
 
 .get-started {
