@@ -65,71 +65,31 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-/* .container {
-	width: 90%;
-	text-align: center;
-	margin: 0 auto;
-}
-
-section {
-	border-bottom: 1px solid #000;
-	margin-bottom: 20px;
-}
-
-nav {
-	display: inline;
-	width: 100%;
-}
-
-footer {
-	text-align: center;
-}
-
-.middle-img {
-	width: 100%;
-}
-
-.main {
-	display: block;
-}
-.main-heading {
-
-	display: inline-block;
-	width: 50%;
-}
-
-.main-img {
-	display: inline-block;
-	width: 50%;
-} */
-
 .container {
 	height: 100%;
-	width: 90%;
-	background-color: #ccc;
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .header, .main {
 	width: 100%;
-	background-color: pink;
 	padding: 20px;
-	border-bottom: 5px solid yellow;
+	border-bottom: 1px solid #000;
 
 }
 
 .header-nav {
 	/* display: inline; */
 	height: 10%;
-	padding: 20px 0;
+	padding: 20px 0 70px 0;
 }
 
 .header-nav nav a {
 	display: inline-block;
 	width: calc(97% / 6);
-	color: red;
+	text-decoration: none;
+	color: #aaa;
 }
 
 .header-title {
@@ -140,8 +100,6 @@ footer {
 
 .header-item, .main-item {
 	display: inline-block;
-	background-color: yellow;
-	border: 10px solid black;
 	padding: 15px;
 	margin: 5px;
 	width: calc(50% - 15px);
@@ -153,16 +111,16 @@ footer {
 	height: 100%;
 }
 
-
 nav {
 	display: inline-block;
 	width: 80%;
 	text-align: left;
 }
 
+
 h1 {
-	font-size: 3.5rem;
-	padding: 15% 27% 5% 27%;
+	font-size: 4.5rem;
+	padding: 10% 20% 7% 20%;
 	text-align: center;
 	margin: 0;
 }
@@ -176,20 +134,35 @@ button {
 
 .main {
 	width: 100%;
-	background-color: blue;
+}
+.main > section > div {
+	height: 160px;
+	text-align: left;
 }
 
+.main > section > div.main-item--thirds {
+	height: 180px;
+}
 .main-item--thirds {
 	width: calc(33% - 15px);
+	padding-bottom: 20px;;
 }
 
 .middle-img {
 	width: calc(100% - 20px);
+	padding-bottom: 40px;
 }
 
 .footer {
 	width: 100%;
-	background-color: yellow;
+	padding: 40px;
+}
+
+.footer ul {
+	padding: 10px 0;
+}
+.footer p {
+	padding: 10px 0;
 }
 
 .contact {
