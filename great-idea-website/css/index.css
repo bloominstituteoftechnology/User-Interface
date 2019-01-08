@@ -65,55 +65,35 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-/* .nav {
-    display: inline-block;
-}
-
-.logo {
-    display: inline-block;
-}
-.header-section {
-    padding:30px;
-    color:gray;
-    margin-left: 70px
-} */
-
 a {
     box-sizing: border-box;
     display: inline-block;
     width: 10%;
     padding:30px;
     color:grey;
-    margin-left:70px;
+    margin-left:40px;
 }
 
 nav, .logo {
+    
     display:inline-block;
 }
 
-/* .section-two{
-    margin-top:60px;
-    margin-bottom: 60px;
-    width:100%;
-    text-align: center;
-}
-.section-two-left {
-    margin-right:100px;
-    display: inline-block;
-    position: absolute;
-    
+nav {
+    margin-left:250px;
 }
 
-#section-two-right{
-    display: inline-block;
-    margin-left:500px;
-
-} */
+header {
+background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  margin-bottom: 40px;
+}
 
 .section-two{
-    margin-top:70px;
-    margin-bottom: 80px;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
 
 .section-two-left, #section-two-right {
@@ -127,29 +107,12 @@ nav, .logo {
     margin-right: 100px;
 }
 
-/* .section-three {
-    margin-top:60px;
-    margin-bottom: 60px;
-    width:100%;
-    text-align: center;
-}
-.section-three-left{
-    display:inline-block;
-    width:500px;
-}
-.section-three-right{
-    display: inline-block;
-    width:500px;
-} */
-
 .section-three-left, .section-three-right {
     width:49%;
     display: inline-block;
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 40px;  
-    
-
 }
 .align-text {
     margin:0px;
@@ -159,25 +122,6 @@ nav, .logo {
 .image-center {
     text-align:center;
 }
-/* .section-four{
-    margin-top:60px;
-    margin-bottom: 60px;
-    width:100%;
-    text-align: center;
-}
-.section-four-left {
-    width:350px;
-    display: inline-block;
-}
-.section-four-middle {
-    width:350px;
-    display: inline-block;
-}
-.section-four-right {
-    width:300px;
-    display: inline-block;
-} */
-
 .section-four-left,.section-four-middle,.section-four-right{
     width:33%;
     display: inline-block;
