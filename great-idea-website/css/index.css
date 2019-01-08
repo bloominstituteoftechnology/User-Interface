@@ -65,19 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	padding: 20px 30px;
 	margin: 0 auto;
-	width: 880px;
+	width: 1024px;
 }
 
 header {
 	width: 100%;
-}
-
-/* HEADER part need more work. */
-.nav-img {
-	display: block;
-	width: 100%;
+	position: relative;
 }
 
 nav {
@@ -90,44 +84,43 @@ nav {
 a {
 	color:grey;
 	text-decoration: none;
-	width: 5%;
-	padding: 10px;
+	/* width: 10%; */
+	padding: 30px;
 	text-align: center;
 }
 
 .logo {
 	display: inline-block;
-	/* This is not ideal solution  */
-	padding-left: 5%;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
 }
-
-/* CTA part need more work with aligning elements*/
 
 .title-and-image {
 	display: block;
 	width: 100%;
 	padding: 40px 0;
-	/* border: 1px dashed red; */
-}
+} 
 
 .title {
 	display: inline-block;
 	width: 49%;
 	text-align: center;
-
-	/* border: 1px dashed black; */
+	vertical-align: middle;
 }
 
 .round-img {
-	/* border: 1px dashed black; */
-	width: 49%;
+	width: 50%;
 	display: inline-block;
+	vertical-align: middle;
 }
 
-/* Code below this is ok. */
+.round-img img {
+	float: right;
+}
 
 h1 {
-	font-size: 400%;
+	font-size: 500%;
 }
 
 .get-started {
@@ -137,7 +130,7 @@ h1 {
 	margin: auto;
 }
 
-.container {
+.section-container {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
