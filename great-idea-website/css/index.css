@@ -66,6 +66,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.row{
+	width:100%;
+	padding-bottom: 40px;
+}
+.row div.col-1-2 {
+	display: inline-block;
+	width: 49.7%;
+}
+.row div.col-1-3 {
+	display: inline-block;
+	width: 33%
+}
+.row div.col-1-8{
+	display: inline-block;
+	width: 12%;
+}
+.row div.col-2-8{
+	display: inline-block;
+	width: 24%;
+}
+
 body{
 	width: 90%;
 	max-width: 800px;
@@ -73,16 +94,21 @@ body{
 }
 nav {
 	display:block;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	
 }
+
 nav a {
 	color: grey;
 	text-decoration: none;
 }
 nav img {
+	
 	float: right;
-	padding-top: 30px;
+	float: bottom;
+	width: 100%;
+	padding-bottom: -10px;
 }
 
 header{
@@ -122,28 +148,6 @@ header a {
 header img {
 	
 }
-
-.row{
-	width:100%;
-	padding-bottom: 40px;
-}
-.row div.col-1-2 {
-	display: inline-block;
-	width: 49.7%;
-}
-.row div.col-1-3 {
-	display: inline-block;
-	width: 33%
-}
-.row div.col-1-8{
-	display: inline-block;
-	width: 12%;
-}
-.row div.col-2-8{
-	display: inline-block;
-	width: 24%;
-}
-
 .under-line{
 	border-bottom: 1px solid #000;
 	margin-bottom: 35px;
