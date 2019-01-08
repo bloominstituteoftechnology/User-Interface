@@ -65,27 +65,41 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.main-container {
-	margin: 20px 70px;
+.margin-top-30px {
+	margin-top: 30px;
 }
-.main-container header nav {
+
+.margin-top-60px {
+	margin-top: 60px;
+}
+
+header .navbar {
+	overflow: hidden;
+	background-color: #8DA1B9;
+	position: fixed; 
+	top: 0; 
+	width: 100%;
 	margin-bottom: 30px;
-}
+  }
 
-.main-container header nav a {
+header .navbar a {
 	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
 	width: 14%;
-	color: gray;
 	text-decoration: none;
+	padding: 10px 0;
+  }
+
+  header .navbar img {
+	filter: invert(100%);
+  }
+
+.main-container {
+	margin: 40px 70px;
 }
 
-.main-container header nav img.logo {
-	position: absolute;
-	top: 10px;
-	right: 70px;
-}
-
-.section1 .section1-slogan {
+.section1 .section1-left {
 	width: 50%;
 	height: 100%;
 	display: inline-block;	
@@ -93,17 +107,17 @@ h1, h2, h3, h4, h5 {
 	padding-top: 10%;
 }
 
-.section1 .section1-slogan .slogan-container {
+.section1 .section1-left .text-container {
 	width: 60%;
 	display: block;	
 	margin: 0 auto;
 }
 
-.section1 .section1-slogan h1 {
+.section1 .section1-left .text-container h1 {
 	font-size: 4rem;
 	text-align: center;
 }
-.section1 .section1-slogan a {
+.section1 .section1-left .text-container a {
     font-size: 1rem;
     text-decoration: none;
     color: black;
@@ -115,15 +129,11 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 }
 
-.section1 .section1-image {
+.section1 .section1-right {
 	width: 49%;
 	height: 100%;
 	display: inline-block;
-	padding-top: 30px;
-}
-
-.section2 {
-	margin-top: 30px;
+	padding-top: 5%;
 }
 
 .section2 .article2 {
@@ -151,12 +161,4 @@ h1, h2, h3, h4, h5 {
 .copyright {
 	padding: 20px 0 50px 0;
 	text-align: center;
-}
-
-.margin-top-30px {
-	margin-top: 30px;
-}
-
-.margin-top-60px {
-	margin-top: 60px;
 }
