@@ -68,6 +68,9 @@ body {
 	width: 600px;
 	margin: 0 auto;
 }
+nav {
+	margin-top: 20px;
+}
 nav a {
 	color: gray;
 	text-decoration: none;
