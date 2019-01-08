@@ -144,11 +144,17 @@ header img {
 	padding: 40px 0;
 }
 
+figure img {
+	width: 100%;
+}
+
 .services-section, .product-section, .vision-section {
 	display: inline-block;
 	width: 33.3%;
 	float: left;
 	padding: 40px 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
 }
 
 .contact-section p {
