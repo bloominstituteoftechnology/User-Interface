@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,134 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.nav-bar {
+	height: 66px;
+}
+
+.nav-bar div,
+.nav-bar figure {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.nav-bar div {
+	width: 75%;
+	height: 100%;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.nav-bar figure {
+	width: 20%;
+}
+
+.nav-bar div a {
+	display: inline-block;
+	margin: 5px 90px 0 10px;
+	vertical-align: middle;
+	color: grey;
+	text-decoration: none;
+}
+
+/* A row for the columns, and the columns themselves. When each column is given a width they start a new row because of a whitespace issue */
+.row {
+	white-space: nowrap;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.half-column {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	white-space: normal;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+
+.third-column {
+	display: inline-block;
+	height: 100%;
+	width: 33.3%;
+	white-space: normal;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+
+header.row {
+	margin: 70px auto 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 70px;
+}
+
+header.row div.half-column {
+	margin-top: 50px;
+}
+
+header.row .half-column h1 {
+	font-size: 90px;
+	text-align: center;
+	line-height: 75%;
+}
+
+header.row .half-column button {
+	background-color: white;
+	font-size: 15px;
+	color: black;
+	border: 1px solid black;
+	padding: 10px 60px;
+	display: block;
+	margin: 30px auto;
+}
+
+header.row figure img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+section.row,
+figure.row,
+address.row {
+	margin-bottom: 40px;
+}
+
+figure.row img {
+	width: 100%;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+footer.row {
+	text-align: center;
+}
+
+footer.row p {
+	margin: 80px 0;
+}
