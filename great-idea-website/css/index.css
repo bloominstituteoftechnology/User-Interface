@@ -96,19 +96,18 @@ nav {
 	display:block;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	
 }
 
 nav a {
 	color: grey;
 	text-decoration: none;
 }
+nav div.col-2-8{
+	position: relative;
+}
 nav img {
-	
-	float: right;
-	float: bottom;
-	width: 100%;
-	padding-bottom: -10px;
+	position: absolute;
+	top: -25px;
 }
 
 header{
