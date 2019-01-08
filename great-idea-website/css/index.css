@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.home{
+  /*border: 3px solid red;*/
+  margin: 0% 3%;
+}
+
+.home h3{
+  font-size: 20px;
+}
+
+main p{
+  font-size: 20px;
+}
+
+header{
+ border-bottom: 1px solid black;
+ margin: 0 3%;
+}
+
+header nav a{
+  color: grey;
+  padding: 0 4%;
+  text-decoration: none;
+}
+
+header nav{
+ /* border: 3px solid red;*/
+  text-align: center;
+}
+
+header h1{
+  font-size: 85px;
+  text-align: center;
+}
+
+.headerAndImage{
+ /* border: 2px solid coral;*/
+  display: inline-block;
+  padding: 3% 4% 6%;
+  margin-left: 15%;
+}
+
+.headerAndImage img{
+  display: inline-block;
+}
+
+.leftHeader{
+  display: inline-block;
+ /* border: 5px solid blue;*/
+  margin-right: 150px;
+  text-align: center;
+}
+
+header button{
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 40px;
+  font-family: 'Titillium Web', sans-serif;
+  border: 1px solid black;
+}
+
+.top-container{
+/*  border: 2px solid coral;*/
+  margin: 3%;
+}
+
+.top-container .features{
+  display: inline-block;
+  width: 500px;
+  margin-right: 10%
+
+}
+
+.top-container .about{
+  width: 500px;
+  display: inline-block;
+}
+
+main .middle-img{
+  margin-top: 3%;
+  min-width: 100%;
+}
+
+.bottom-container{
+  /*border: 2px solid dodgerblue;*/
+  margin: 0% 3% 3%;
+}
+
+.bottom-container .services{
+  display: inline-block;
+  width: 375px;
+  margin-right: 5%; 
+}
+
+.bottom-container .product{
+  display: inline-block;
+  width: 375px;
+  margin-right: 5%;
+}
+
+.bottom-container .vision{
+  display: inline-block;
+  width: 375px;
+}
+
+footer{
+  border-top: 1px solid black;
+  margin: 0 3%;
+}
+
+footer h3{
+  margin-top: 3%;
+}
+
+.copyright{
+  margin: 5% 0%;
+  text-align: center;
+}
