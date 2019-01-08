@@ -58,7 +58,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	/* font-family: 'Bangers', cursive; */
+	font-family: 'Staatliches', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -68,14 +69,18 @@ h1, h2, h3, h4, h5 {
 .testing {
 	border: 0px solid red;
 }
-/* header {
+header {
 	position: fixed;
 	background-color: gray;
 	top: 0;
 	width: 100%;
-	padding: 20px;
-} */
-section.text, section.jumbotron, section.contact, header {
+	text-align: center;
+}
+.header-section {
+	display:inline-block;
+	text-align: left;
+}
+section.text, section.jumbotron, section.contact {
 	margin: auto;
 	width: 880px;
 	padding-top: 20px;
@@ -94,12 +99,18 @@ header a {
 	margin-right:20px;
 	margin-bottom: 20px;
 	font-size: 16px;
+	padding: 10px;
+}
+header a:hover {
+	text-decoration: green wavy underline;
+	font-size: 20px;
 }
 header img {
 	display: inline-block;
 	margin-left: 20px;
 }
-.jumbotron {
+section.jumbotron {
+	margin-top: 100px;
 	border-bottom: 2px solid black;
 }
 .middle-two {
@@ -122,8 +133,21 @@ header img {
 }
 .jumbotron-text button {
 	display: inline-block;
-	width: 30%;
-	margin-left: 146px;
+	width: 50%;
+	margin-left: 110px;
+	font-size: 30px;
+	border-radius: 20%;
+}
+.jumbotron-text button:hover {
+	animation: rotate 0.5s;
+}
+@keyframes rotate {
+	from {
+		transform: rotateY(0);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
 }
 .copyright {
 	text-align: center;
