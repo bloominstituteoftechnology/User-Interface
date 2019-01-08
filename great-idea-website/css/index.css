@@ -68,27 +68,18 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	display: inline-block;
-	/* position: fixed; */
 	width: 100%;
 	margin: 0 auto;
 	position: sticky;
 	top: 0;
 	padding: 15px;
 	background-color: white;
-	/* z-index: 1000;
-	position: absolute; */
+	z-index: 3000; 
 }
 .navigation nav {
 	display: inline;
 	margin: 50px;
 }
-.logo {
-	position: relative;
-	right: 0;
-}
-/* .navigation .logo {
-	height: 50px;
-}  */
 
 a {
 	display: inline-block;
@@ -99,22 +90,28 @@ a {
 }
 header {
 	display: inline-block;
-	height: 500px;
 	width: 100%;
-	padding: 20% auto;
+	height: 500px;
+	margin-bottom: 50px;
 	margin: 0 auto;
 	border-bottom: 1px solid black;
 }
 
 header div .left {
 	display: block;
-	
+	padding: 50px auto;
 }
 
-header div img.right {
+.left {
+	background-color: lightblue;
+	box-sizing: border-box;
+}
+.right {
 	position: relative;
-	right: 0;
-	background-color: red;
+	left: 0;
+	width: 50%;
+	height: 500px;
+	background-color: lightpink;
 }
 header h1 {
 	display: block;
@@ -137,7 +134,7 @@ button {
 	
 }
 
-section .middle-image {
+section img.middle-image {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
@@ -155,47 +152,15 @@ section .middle-image {
 	width: 100%;
 	
 }
-/* section .content-top .content-right {
-	display: inline-block;
-	position: relative;
-	right: 0;
-	width: 50%;
-}
-section .content-top .content-left {
-	display: inline-block;
-	position: relative;
-	left: 0; */
 
 section h2 {
 	display: block;
-	/* padding: 15px 0; */
 }
 
 section p {
 	display: inline-block;
 	text-align: justify;
 }
-/* .title-page {
-	display: inline-block;
-	background-color: red;
-	width: 50%;
-} */
-
-/* .title-page {
-	display: inline-block;
-}
-.title-page {
-	display: inline-block;
-	background-color: aqua;
-}
-.content-top {
-	display: inline-block;
-	width: 300px;
-}
-
-section {
-	display: inline-block;
-} */
 
 .contact  {
 	line-height: 1.5;
@@ -208,7 +173,6 @@ div {
 
 	width: 40%;
 	height: 100px;
-	margin: 20px;
 	
 }
 
