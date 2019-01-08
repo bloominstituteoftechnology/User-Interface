@@ -125,15 +125,15 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 .section-four-left {
-    width:400px;
+    width:350px;
     display: inline-block;
 }
 .section-four-middle {
-    width:400px;
+    width:350px;
     display: inline-block;
 }
 .section-four-right {
-    width:400px;
+    width:300px;
     display: inline-block;
 }
 
@@ -148,4 +148,11 @@ h1, h2, h3, h4, h5 {
 
 .adress-style {
     margin-top: 20px;
+}
+
+.main-section {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 200px;
+    margin-left: 200px;
 }
