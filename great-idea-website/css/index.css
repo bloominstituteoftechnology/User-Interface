@@ -48,7 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+{
     box-sizing: border-box;
 }
 
@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*DID STRETCH EXERCISE TO MAKE NAVBAR STICK WHEN SCROLLING   */
+
+container {
+	width: 70%;
+	display: inline-block;
+	align-content: center;
+	margin-left: 10%;
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	background-color:white;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  	position: fixed;
+}
+
+header {
+	margin-top: 10%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+h1 {
+	font-family: Bangers;
+	font-size: 60px;
+}
+
+a {
+	padding-right: 4%;
+	padding-left: 5%;
+	color: rgb(170, 169, 169)
+}
+
+a:link {
+	text-decoration: none;
+	font-family: Titillium Web;
+	display: inline-block;
+}
+
+.titleBlock {
+	width: 200px;
+	height: 100px;
+	padding-bottom: 15%;
+	border-color: black;
+	text-align: center;
+	align-content: center;
+	display: inline-block;
+}
+
+.getStarted {
+	width: 125px;
+	height: 25px;
+	border: 1px solid black;
+	margin-top: 20%;
+	margin-left: 20px;
+	margin-bottom: 10%;
+	padding-top: 2%;
+	display: inline-block;
+}
+
+.codeCircle {
+	margin-left: 40%;
+	margin-top: 0%;
+	width: 100px;
+	height: 200px;
+	display: inline-block;
+}
+
+.infoBody {
+	margin-bottom: 2%;
+	padding-top: 2%;
+	border-bottom: 1px solid black;
+}
+.features {
+	width: 40%;
+	height: 100px;
+	display: inline-block;
+}
+
+.about {
+	width: 40%;
+	height: 100px;
+	display: inline-block;
+}
+
+.middle-img {
+	width: auto;
+	height: 100px;
+	margin-right: 20%;
+	display: inline-block;
+}
+
+.services {
+	width: 25%;
+	height: 125px;
+	display: inline-block;
+}
+.product {
+	width: 25%;
+	height: 125px;
+	display: inline-block;
+}
+
+.vision {
+	width: 25%;
+	height: 125px;
+	margin: 2%;
+	display: inline-block;
+}
+
+address {
+	height: 125px;
+	width: 200px;
+	display: inline-block;
+}
+
+.street {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.phoneNumber {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.copyright {
+	padding-left: 45%;
+	padding-top: 4%;
+}
