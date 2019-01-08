@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 
 .main-container header nav a {
 	display: inline-block;
-	width: 13%;
+	width: 14%;
 	color: gray;
 	text-decoration: none;
 }
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .section1 .section1-slogan {
-	width: 45%;
+	width: 50%;
 	height: 100%;
 	display: inline-block;	
 	vertical-align:top;
@@ -112,13 +112,13 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
     display: block;
 	width: 130px;
+	border: 1px solid black;
 }
 
 .section1 .section1-image {
-	width: 45%;
+	width: 49%;
 	height: 100%;
 	display: inline-block;
-	border: 1px solid black;
 	padding-top: 30px;
 }
 
@@ -141,11 +141,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	width: 32%;
 	line-height: 1.25;
-	margin: 30px 3px;
-}
-
-.section3 {
-	margin-top: 30px;
+	margin: 0px 3px;
 }
 
 .section3 address .contact-information {
@@ -155,4 +151,12 @@ h1, h2, h3, h4, h5 {
 .copyright {
 	padding: 20px 0 50px 0;
 	text-align: center;
+}
+
+.margin-top-30px {
+	margin-top: 30px;
+}
+
+.margin-top-60px {
+	margin-top: 60px;
 }
