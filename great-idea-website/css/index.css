@@ -94,23 +94,85 @@ nav {
 }
 
 .header-set {
-	background: orange;
 	width: 70%;
-	height: 600px;
+	height: 500px;
 	display: inline-block;
 	vertical-align: top;
+	margin-top: 40px;
 }
 
 .header-image {
-	background: orange;
 	width 45%;
-	height: 600px;
+	height: 500px;
 	display: inline-block;
+	margin-top: 40px;
 }
 
 h1 {
     font-size: 60pt;
-	padding-right: 150px;
+	padding-right: 300px;
 	padding-top: 50px;
 	text-align: center;
+}
+
+button {
+	border: 2px solid black;
+	width: 200px;
+	margin-left: 22%;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 12pt;
+}
+
+.circle-image {
+	padding-top: 40px;
+	width: 350px;
+}
+
+.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.features, .about{
+	width: 49.8%;
+	line-height: 1.4;
+	padding: 30px;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 15px 0px;
+}
+
+.services, .product, .vision {
+	width: 33%;
+	line-height: 1.4;
+	padding: 30px;
+	padding-bottom: 60px;
+	display: inline-block;
+}
+
+.contact-info {
+	padding-top: 50px;
+}
+
+address {
+	line-height:3;
+}
+
+.location {
+	line-height: 1.6;
+}
+
+.email {
+	text-decoration: none;
+	color: black;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 10pt;
 }
