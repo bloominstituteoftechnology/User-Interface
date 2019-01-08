@@ -64,13 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-section {
-	border: 1px solid red;
-}
 
 body {
-	border: 11px solid blue;
-	background-image: linear-gradient( #fff, #eee);
+	background: white;
 	width: 900px;
 	margin: 0 auto;
 }
@@ -103,9 +99,11 @@ header a img{
 }
 
 .herocontent {
-	margin: 200px 0;
+	margin: 45px 0 30px 0;
+	padding-bottom: 55px;
 	text-align: center;
 	position: relative;
+	border-bottom: 1px solid black;
 }
 
 .herocontent h1 {
@@ -116,24 +114,48 @@ header a img{
 .herocontent a {
 	padding: 5px 42px 5px 42px;
 	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	background-color: #fefefe;
+}
+
+.herocontent a:hover {
+	background-color: #fff;
+	text-decoration: underline;
 }
 
 .herotext {
 	width: 50%;
 	float: left;
-	margin: 100px 0;
 }
 
+.upper-section {
+	display: inline-block;
+	width: 49.8%;
+	padding: 10px 10px 40px 0;
+}
 
+.lower {
+	margin: 45px 0;
+	padding-bottom: 45px;
+	border-bottom: 1px solid black;
+}
 
+.lower-section {
+	display: inline-block;
+	width: 33%;
+}
+
+.phone {
+	margin: 10px 0;
+}
 
 footer {
 	margin-top: 50px;
-	border-top: black 1px dashed;
 	text-align: center;
 	text-decoration: underline;
 	font-weight: 500;
-	padding: 50px 0 100px 0;
+	padding: 25px 0 100px 0;
 }
 /* 
 	Question: is it best practice to be as specific as possible in CSS or is it acceptable,
