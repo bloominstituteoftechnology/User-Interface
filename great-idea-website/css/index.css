@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -54,13 +54,92 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Playfair Display';
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+	line-height: 1.6;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 10rem;
+  list-style: none;
+  display: inline-block;
+}
+li {
+	display: inline-block;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+  }
+  
+a {
+	text-decoration: none;
+	color: grey;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	
+}
+.main-nav {
+	display: inline-block;
+
+}
+.main-nav a {
+	padding: 10px 15px;
+	color: grey;
+	display: inline-block;
+}
+
+.main-nav a:hover {
+	color: green;
+}
+img{
+	border-radius: 10px;
+}
+	 div {
+		background-color: white;
+		 color:grey;
+		 padding: 25px;
+		 margin: 2px auto;
+		 display: inline-block;
+	
+	  }
+
+	  address{
+		line-height: 2;
+		text-align:center;
+	  }
+	  
+	  footer {
+		width: 100%;
+		background: #e5e8eb;
+	   
+	  }
+	  footer .footer-content { 
+		margin: 0 auto; 
+		width:100%;
+		text-align:center;
+		
+	  }
+	  
+	  footer .footer-content h3 {
+		padding: 0;
+		margin: 20px 0;
+	  }
+	  
+	  footer .footer-content .copyright {
+		padding: 20px 0;
+		text-align:center;
+		width: 100%;
+		
+	  }
