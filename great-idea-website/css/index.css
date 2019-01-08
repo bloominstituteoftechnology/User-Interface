@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-.nav {
+/* .nav {
     display: inline-block;
 }
 
@@ -77,9 +77,22 @@ h1, h2, h3, h4, h5 {
     padding:30px;
     color:gray;
     margin-left: 70px
+} */
+
+a {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 10%;
+    padding:30px;
+    color:grey;
+    margin-left:70px;
 }
 
-.section-two{
+nav, .logo {
+    display:inline-block;
+}
+
+/* .section-two{
     margin-top:60px;
     margin-bottom: 60px;
     width:100%;
@@ -96,9 +109,25 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     margin-left:500px;
 
+} */
+
+.section-two{
+    margin-top:70px;
+    margin-bottom: 80px;
 }
 
-.section-three {
+.section-two-left, #section-two-right {
+    width:20%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+
+#section-two-right{
+    margin-right: 100px;
+}
+
+/* .section-three {
     margin-top:60px;
     margin-bottom: 60px;
     width:100%;
@@ -111,16 +140,26 @@ h1, h2, h3, h4, h5 {
 .section-three-right{
     display: inline-block;
     width:500px;
+} */
+
+.section-three-left, .section-three-right {
+    width:49%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 40px;  
+    
+
 }
 .align-text {
-    margin:10px;
+    margin:0px;
     text-align: left;
 }
 
 .image-center {
     text-align:center;
 }
-.section-four{
+/* .section-four{
     margin-top:60px;
     margin-bottom: 60px;
     width:100%;
@@ -137,10 +176,19 @@ h1, h2, h3, h4, h5 {
 .section-four-right {
     width:300px;
     display: inline-block;
+} */
+
+.section-four-left,.section-four-middle,.section-four-right{
+    width:33%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 40px; 
 }
 
+
 .adress-section {
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 40px;
 }
 
@@ -157,22 +205,22 @@ h1, h2, h3, h4, h5 {
 .main-section {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
 .text-mod {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin-top:20px;
-    font-size:70px;
-    margin-right: 100px;    
+    margin-left:90px;
+    font-size:50px;
 }
 .text-mod2{
     border: 1px solid black;
     margin-top: 50px;
-    margin-left:70px;
-    margin-right:70px;
+    margin-left:100px;
+    margin-right:50px;
     padding:10px;
 }
 
