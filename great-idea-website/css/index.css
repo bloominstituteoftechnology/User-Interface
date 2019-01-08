@@ -99,6 +99,7 @@ header .logo {
 	width: 150px;
 	padding: 10px;
 	margin-bottom: 50px;
+	vertical-align: 80px;
 }
 
 .cta h1 {
