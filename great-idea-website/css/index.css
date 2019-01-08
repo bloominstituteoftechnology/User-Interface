@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Thasadith', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Major Mono Display', monospace;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -89,6 +89,7 @@ header .navbar a {
 	width: 14%;
 	text-decoration: none;
 	padding: 10px 0;
+	font-family: 'Major Mono Display', monospace;
   }
 
   header .navbar img {
@@ -118,7 +119,8 @@ header .navbar a {
 	text-align: center;
 }
 .section1 .section1-left .text-container a {
-    font-size: 1rem;
+	font-size: 1rem;
+	font-family: 'Major Mono Display', monospace;
     text-decoration: none;
     color: black;
     padding: 2px 15px;
