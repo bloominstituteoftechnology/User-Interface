@@ -87,29 +87,40 @@ nav img {
 
 header{
 	position: relative;
-	height: 500px;
+	height: 450px;
 }
-
-header h1{
+header div.title {
 	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 70px 100px 0 0;
+	height: 381px;
+	
+}
+.image{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 381px;
+}
+header h1{
+	
 	text-align: center;
 	font-size: 65px;
-	top:20%;
-	left:5%;
+
 }
 header a {
-	position: absolute;
-	
+	display: block;
+	width: 150px;
+	padding: 4px 0;
 	border: 1px solid black;
-	padding: 4px 30px;
-	left: 13%;
-	top: 63%;
+	text-align: center;
+	margin: 0 auto;
+	
 }
 
 header img {
-	position: absolute;
-	top:5%;
-	right: 0;
+	
 }
 
 .row{
