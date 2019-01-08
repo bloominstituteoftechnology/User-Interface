@@ -55,7 +55,7 @@ table {
 html, body {
     height: 100%;
 		font-family: 'Titillium Web', sans-serif;
-		margin: 20px;
+		margin: 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5 {
 	/* position: fixed; */
 	width: 100%;
 	margin: 0 auto;
+	position: sticky;
+	top: 0;
+	padding: 15px;
+	background-color: white;
 	/* z-index: 1000;
 	position: absolute; */
 }
@@ -104,16 +108,23 @@ header {
 
 header div .left {
 	display: block;
+	
 }
 
+header div img.right {
+	position: relative;
+	right: 0;
+	background-color: red;
+}
 header h1 {
 	display: block;
 	top: 50px;
 	font-size: 50px;
+	text-align: center;
 }
 
 button {
-	display: inline-block;
+	display: block;
 	font-size: 20px;
 	background-color: white;
 	text-decoration: none;
@@ -121,12 +132,15 @@ button {
 	padding: 10px;
 	border: 1px solid black;
 	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 
-.middle-image {
-	display: inline-block;
+section .middle-image {
+	display: block;
 	width: 100%;
+	margin: 0 auto;
 	
 }
 
@@ -190,11 +204,19 @@ section {
 
 div {
 	display: inline-block;
+	position: relative;
+
 	width: 40%;
+	height: 100px;
 	margin: 20px;
 	
 }
 
+section div.content-bottom {
+	display: inline-block;
+	width: 20%;
+	margin:0;
+}
 
 footer p {
 	text-align: center;
