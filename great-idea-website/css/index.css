@@ -52,6 +52,10 @@ table {
     box-sizing: border-box;
 }
 
+body{
+	margin:30px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,3 +68,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	height: 70px;
+}
+
+a {
+	margin: 0 10px;
+  	padding: 20px;
+  	display: inline-block;
+  	border-radius: 20px;
+  	color: gray;
+	margin-bottom: 20px;
+	text-decoration: none;
+}	
+
+.logo{
+	position: absolute;
+	right: 50px;
+	top: 30px;
+}
+
+.head{
+  padding: 50px;
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+h1{
+	font-size: 70px; 
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.call-to-action{
+	border: 1px solid black;
+	padding: 10px 30px;
+	display: inline-block;
+}
+
+.rounded{
+	border-radius: 50%;
+}
+
+.middle{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-width: 70%;
+}
+
+.two-columns{
+  padding: 30px;
+  width: 45%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.middle-img{
+	width: 90%;
+}
+
+.three-columns{
+	padding: 30px;
+	width: 30%;
+	display: inline-block;
+}
+
+.contact .postal{
+	line-height: 1;
+}
+.contact{
+	line-height: 2;
+	border-top: 0;
+}
+
+footer{
+	padding: 20px 0;
+	text-align: center;
+}
