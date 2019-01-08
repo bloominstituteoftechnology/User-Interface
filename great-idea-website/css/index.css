@@ -99,14 +99,15 @@ header {
 	width: 100%;
 	padding: 20% auto;
 	margin: 0 auto;
+	border-bottom: 1px solid black;
 }
 
- header .title-section {
-	display: inline-block; */
-} 
+header div .left {
+	display: block;
+}
 
 header h1 {
-	display: inline-block;
+	display: block;
 	top: 50px;
 	font-size: 50px;
 }
