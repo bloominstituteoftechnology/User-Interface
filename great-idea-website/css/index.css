@@ -148,7 +148,7 @@ body {
   font-family: var(--main-font);
   --main-font: 'Titillium Web', sans-serif;
   --top-nav-height: 5rem;
-  --main-width: 860px;
+  --main-width: 876px;
   --main-color: black;
 }
 
@@ -174,7 +174,7 @@ h5 {
   position: fixed;
   height: var(--top-nav-height);
   width: 100%;
-  background: #ffffffcc;
+  background: #fffffffc;
 }
 
 .top-nav {
@@ -211,7 +211,7 @@ main {
 }
 
 header {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -222,8 +222,10 @@ h1 {
 .header-inner {
   display: inline-block;
   text-align: center;
-  width: 28rem;
-  margin: 3.5rem auto 0;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 3.5rem;
+  vertical-align: top;
 }
 
 header button {
@@ -234,7 +236,7 @@ header button {
 }
 
 header img {
-  float: right;
+  margin-left: 5%;
 }
 
 /***********/
@@ -245,9 +247,16 @@ header img {
 
 .top-content {
   display: block;
-  display: none;
-  outline: 1px solid blue;
+  margin-top: 6rem;
 }
+
+.top-content div {
+  display: inline-block;
+  width: 50px;
+  outline: 1px solid magenta;
+}
+
+.top-content {}
 
 .bottom-content {}
 
