@@ -93,15 +93,12 @@ a {
 
 main {
 	height: 70vh;
-	vertical-align: middle;
 	padding-top: 70px;
 }
 
 .item-div {
 	width: 49%;
 	display: inline-block;
-	vertical-align: middle;
-	line-height: 1.2;
 	text-align: center;
 	position: relative;
 	height: 400px;
@@ -109,6 +106,7 @@ main {
 
 .text-div {
 	width: 100%;
+	line-height: 1.2;
 	position: absolute;
 	top: 50%;
   	transform: translateY(-50%);
