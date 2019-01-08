@@ -135,6 +135,7 @@ button {
 .main {
 	width: 100%;
 }
+
 .main > section > div {
 	height: 160px;
 	text-align: left;
@@ -143,6 +144,7 @@ button {
 .main > section > div.main-item--thirds {
 	height: 180px;
 }
+
 .main-item--thirds {
 	width: calc(33% - 15px);
 	padding-bottom: 20px;;
@@ -161,6 +163,7 @@ button {
 .footer ul {
 	padding: 10px 0;
 }
+
 .footer p {
 	padding: 10px 0;
 }
