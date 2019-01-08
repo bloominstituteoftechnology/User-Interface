@@ -63,4 +63,69 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+body {
+	padding: 0 10%;
+}
+
+header nav a {
+	padding-top: 30px;
+	display: inline-block;
+}
+
+a {
+	width: 12%;
+	color: rgb(120,120,120);
+	text-decoration: none;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	right: 10%;
+}
+
+main div {
+	height: 70vh;
+	padding-top: 80px;
+	width: 49%;
+	display: inline-block;
+	vertical-align: center;
+	line-height: 1.2;
+	text-align: center;
+}
+
+main div h1 {
+	font-size: 90px;
+}
+
+main div button {
+	height: 40px;
+	width: 170px;
+	background: none;
+	font-size: 16px;
+	border: solid 1px black;
+}
+
+section, footer {
+	padding: 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.info-section div {
+	display: inline-block;
+	width: 49%;
+	line-height: 1.2;
+}
+
+.services-section div {
+	display: inline-block;
+	width: 33%;
+	line-height: 1.2;
+}
+
