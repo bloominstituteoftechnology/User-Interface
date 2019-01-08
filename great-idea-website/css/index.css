@@ -85,24 +85,17 @@ h1, h2, h3, h4, h5 {
 	right: 70px;
 }
 
- /*sucks*/
-.section1 {
-	border: 1px solid black;
-	margin-bottom: 30px;
-}
 .section1 .section1-slogan {
 	width: 45%;
 	height: 100%;
 	display: inline-block;	
-	border: 1px solid black;
-	vertical-align: auto;
-
+	vertical-align:top;
+	padding-top: 10%;
 }
 
 .section1 .section1-slogan .slogan-container {
 	width: 60%;
 	display: block;	
-	border: 1px solid black;
 	margin: 0 auto;
 }
 
@@ -111,9 +104,14 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 .section1 .section1-slogan a {
-	font-size: 1rem;
-	text-align: center;
-	border: 1px solid black;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 2px 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	width: 130px;
 }
 
 .section1 .section1-image {
@@ -123,8 +121,6 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 	padding-top: 30px;
 }
-
- /*sucks*/
 
 .section2 {
 	margin-top: 30px;
