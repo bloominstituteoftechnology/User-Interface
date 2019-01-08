@@ -150,6 +150,7 @@ body {
   --top-nav-height: 5rem;
   --main-width: 876px;
   --main-color: black;
+  color: var(--main-color);
 }
 
 h1,
@@ -212,6 +213,7 @@ main {
 
 header {
   margin: 3rem 0 5rem;
+  /* outline: 1px solid blue; */
 }
 
 h1 {
@@ -246,8 +248,22 @@ header img {
 /***********/
 
 section {
+  /* outline: 1px solid magenta; */
   display: block;
-  padding: 2rem 0 3rem;
+  /* margin: 2rem 0 3rem; */
+  padding: 1rem 0 3rem;
+}
+
+section div {
+  padding: 1rem 0 1rem;
+}
+
+section div p {
+  line-height: 1.2;
+}
+
+.top-content {
+  border-top: 1px solid var(--main-color);
 }
 
 .top-content div {
