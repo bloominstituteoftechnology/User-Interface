@@ -185,7 +185,7 @@ h5 {
 	text-decoration: none;
 }
 
-/* A row for the columns, and the columns themselves. When each column is given a width they start a new row because of a whitespace issue */
+/* A row for the columns, and the columns themselves. When each column is given a width they start a new row because of a whitespace issue. That is the reason behind white-space: nowrap in row and white-space: normal in each of the columns. Vertical align middle keeps the divs from being all over the place when changed to inline-block */
 .row {
 	white-space: nowrap;
 	width: 90%;
