@@ -107,15 +107,49 @@ footer {
 .container {
 	height: 100%;
 	width: 90%;
-	background-color: #000;
+	background-color: #ccc;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .header {
 	width: 100%;
-	height: 33%;
 	background-color: pink;
 }
+
+.header-nav {
+		display: inline;
+		height: 10%;
+}
+
+.header-title {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.header-item {
+	display: inline-block;
+	background-color: yellow;
+	border: 10px solid black;
+	padding: 15px;
+	margin: 5px;
+	width: calc(50% - 15px);
+	vertical-align: top;
+	height: 431px;
+}
+
+.header-item--contents {
+	height: 100%;
+}
+
+
+nav {
+	display: inline-block;
+}
+
 .main {
 	width: 100%;
 	height: 37%;
@@ -126,4 +160,18 @@ footer {
 	width: 100%;
 	height: 30%;
 	background-color: yellow;
+}
+
+h1 {
+	font-size: 3.5rem;
+	padding: 15% 27% 5% 27%;
+	text-align: center;
+	margin: 0;
+}
+
+button {
+	background-color: transparent;
+	padding: 0.3rem 1.5rem;
+	border: 1px solid #000;
+
 }
