@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,8 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,6 +51,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+		/* border: 1px solid red */
 }
 
 html, body {
@@ -61,6 +63,114 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+		font-size: larger;
 }
 
 /* Your code starts here! */
+
+html, body, h1, h3, p, div, section, address, footer {
+
+}
+
+nav {
+	width: 100%;
+  display: inline-block;
+	margin: 0 auto;
+	padding: 50px 100px 0px;
+}
+
+nav a {
+	width: 12%;
+	display: inline-block;
+	padding: 5px 5px 10px 5px;
+	text-decoration: none;
+	color: lightgrey;
+	/* margin: 0 auto; */
+	text-align: center;
+}
+
+.logo {
+	width: 24%;
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+
+section {
+	width: 100%;
+	padding: 90px;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 10px;
+}
+
+.lefttopheader {
+	display: inline-block;
+	width: 55%;
+	padding: auto 0 auto 100px;
+}
+
+.headerbutton {
+	text-align: center;
+	border: 1px solid black;
+	width: max-content;
+	margin: 0 auto;
+	font-size: 18px;
+	color: black;
+	padding: 10px 50px;
+}
+
+.headerimage {
+	display: inline-block;
+	width: 44%;
+	object-fit: scale-down;
+	margin: 10px 0 0 0;
+	padding: 20px 100px 0px 0px;
+}
+
+section.first-in-line {
+	border-top: 1px solid black;
+	width: 83%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.first-in-line div {
+	display: inline-block;
+	width: 45%;
+	padding: 10px 10px 10px 2px;
+}
+
+.middle-img {
+	width: 100%;
+	padding: 10px 100px;
+	display: block;
+	object-fit: contain;
+	object-position: center;
+}
+
+section.second-in-line {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 95px;
+}
+.second-in-line div {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+address {
+	margin: 20px 50px 20px 100px;
+}
+
+address p {
+	margin: 15px 0;
+}
+footer {
+	text-align: center;
+	font-size: smaller;
+}
