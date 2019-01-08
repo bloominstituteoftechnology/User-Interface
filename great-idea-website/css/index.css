@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+section {
+	border: 1px solid red;
+}
+
+body {
+	border: 11px solid blue;
+	background-image: linear-gradient( #fff, #eee);
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header nav {
+	padding-top: 35px;
+}
+
+header nav a {
+	margin: 0 25px 0 15px;
+	text-decoration: none;
+	color: #999;
+}
+
+header nav a:hover {
+	color: #555;
+}
+
+header a img{
+	position: absolute;
+	right: 60px;
+	top: 25px;
+}
+
+.herocontent {
+	margin: 200px 0;
+	text-align: center;
+	position: relative;
+}
+
+.herocontent h1 {
+	margin: 50px 0 40px 0;
+	font-size: 5em;
+}
+
+.herocontent a {
+	padding: 5px 42px 5px 42px;
+	border: 1px solid black;
+}
+
+.herotext {
+	width: 50%;
+	float: left;
+	margin: 100px 0;
+}
+
+
+
+
+footer {
+	margin-top: 50px;
+	border-top: black 1px dashed;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 500;
+	padding: 50px 0 100px 0;
+}
+/* 
+	Question: is it best practice to be as specific as possible in CSS or is it acceptable,
+	when dealing with a semantic element with a single child (Like this <footer> with the <p> tag)
+	to style the <footer> with styles destined for the <p> tag?
+	Or should I make a separate 'footer p { ... }' in CSS to style the font-weight and text-decoration?
+*/
