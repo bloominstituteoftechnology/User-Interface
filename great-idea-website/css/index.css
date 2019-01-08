@@ -74,6 +74,21 @@ a {
     margin-left:40px;
 }
 
+a:hover {
+    color:green;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+/* animation thing */
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
 nav, .logo {
     
     display:inline-block;
@@ -88,7 +103,7 @@ background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .section-two{
@@ -117,7 +132,65 @@ background-color: #333;
 .align-text {
     margin:0px;
     text-align: left;
+    color: black;
+    animation: blur 10s ease-out 
+    infinite;
+	-webkit-animation: blur 10s ease-out infinite;
 }
+
+/* animation thing */
+.align-text:nth-child(1) {
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.align-text:nth-child(2) {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.align-text:nth-child(3) {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.align-text:nth-child(4) {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.align-text:nth-child(5) {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.align-text:nth-child(6) {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+.align-text:nth-child(7) {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #fff;}
+	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #fff;}
+	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+}
+/* animation thing end **************************************/ 
+
 
 .image-center {
     text-align:center;
@@ -166,5 +239,6 @@ background-color: #333;
     margin-left:100px;
     margin-right:50px;
     padding:10px;
+    text-align: center;
 }
 
