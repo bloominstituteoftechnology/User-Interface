@@ -65,15 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {	margin: 20px;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.navigation {	display: inline;
+	margin-left: 400px;
+	padding-right: 30px;
 }
-title {
-	margin-right: 10px;
+figure{ display: inline;
+margin-left: 10px;
 }
 
 header {margin-inline-start: 15px;}
