@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -16,13 +16,15 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 10px;
+	padding: 2px;
+	border: 10px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -53,14 +55,52 @@ table {
 }
 
 html, body {
-    height: 100%;
+    height: 200%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+	color: black;
+}
+
+
+h1{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+.navigation  {
+    word-spacing: 50px;
+    color: 	#D3D3D3;
+}
+
+.first-img {
+
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.top-content{
+border-top: 1px solid;
+}
+
+.bottom-content{
+border-bottom: 1px solid;
+}
+
+footer .footer-content {
+  padding: 20px 0;
+   /*======= center the text here */
+  text-align: center;
+}
