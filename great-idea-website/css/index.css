@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 90%;
-	margin: auto;
+	width: 1500px;
+	margin: 0 auto;
 }
 nav {
 	padding-bottom: 100px;
@@ -101,10 +101,13 @@ header a {
 	display: inline-block;
 	width: 48%;
 }
+
+
 .middle-img {
 	width: 90%;
 	display: block;
 	margin: auto;
+	padding: 50px 0;
 }
 .bottom {
 	display: inline-block;
@@ -112,4 +115,17 @@ header a {
 }
 .div-line {
 	
+	margin: 30px 0;
+	border: 1px solid black;
 }
+
+p {
+	font-size: 1.5em;
+	
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
