@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	padding: 20px 30px;
+	margin: 0 auto;
+	width: 880px;
+}
+
+header {
+	width: 100%;
+}
+
+
+
+.nav-img {
+	/* box-sizing: border-box; */
+	border: 1px dotted green;
+	display: inline-block;
+	width: 100%;
+}
+
+nav {
+	border: 1px dotted black;
+	/* position: relative; */
+	width: 40%;
+}
+
+a {
+	color:grey;
+	text-decoration: none;
+	width: 5%;
+	padding: 10px;
+	/* display: inline-block; */
+	text-align: center;
+}
+
+.logo {
+	border: 5px solid pink;
+	display: inline-block;
+	/* width: 20%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-and-image {
+	border: 1px dotted red;
+}
+
+.title {
+	padding: 100px;
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+
+	border: 1px dashed black;
+}
+
+.round-img {
+	border: 1px dashed black;
+	width: 49%;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+	font-size: 600%;
+}
+
+.get-started {
+	border: 1px solid black;
+	padding: 10px;
+	width: 200px;
+	margin: auto;
+}
+
+.container {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.features, .about {
+	width: 49%;
+	padding: 40px 0;
+	display: inline-block;
+}
+
+.services, .product, .vision {
+	width: 33%;
+	padding: 40px 0;
+	display: inline-block;
+}
+
+footer {
+	padding: 40px 0;
+}
+
+.phone-number {
+	padding: 15px 0;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 40px 0;
+}
