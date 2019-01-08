@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		margin: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	display: inline-block;
+	/* position: fixed; */
+	width: 100%;
+	margin: 0 auto;
+	/* z-index: 1000;
+	position: absolute; */
+}
+.navigation nav {
+	display: inline;
+	margin: 50px;
+}
+.logo {
+	position: relative;
+	right: 0;
+}
+/* .navigation .logo {
+	height: 50px;
+}  */
+
+a {
+	display: inline-block;
+  width: 10%;
+	padding: 15px;
+	text-decoration: none;
+	color: lightgrey;
+}
+header {
+	display: inline-block;
+	height: 500px;
+	width: 100%;
+	padding: 20% auto;
+	margin: 0 auto;
+}
+
+ header .title-section {
+	display: inline-block; */
+} 
+
+header h1 {
+	display: inline-block;
+	top: 50px;
+	font-size: 50px;
+}
+
+button {
+	display: inline-block;
+	font-size: 20px;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 10px;
+	border: 1px solid black;
+	width: 200px;
+	
+}
+
+.middle-image {
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.content-top {
+	border-top-style: solid black;
+	width: 100%;
+	
+}
+
+.content-bottom {
+	border-top-style: solid black;
+	width: 100%;
+	
+}
+/* section .content-top .content-right {
+	display: inline-block;
+	position: relative;
+	right: 0;
+	width: 50%;
+}
+section .content-top .content-left {
+	display: inline-block;
+	position: relative;
+	left: 0; */
+
+section h2 {
+	display: block;
+	/* padding: 15px 0; */
+}
+
+section p {
+	display: inline-block;
+	text-align: justify;
+}
+/* .title-page {
+	display: inline-block;
+	background-color: red;
+	width: 50%;
+} */
+
+/* .title-page {
+	display: inline-block;
+}
+.title-page {
+	display: inline-block;
+	background-color: aqua;
+}
+.content-top {
+	display: inline-block;
+	width: 300px;
+}
+
+section {
+	display: inline-block;
+} */
+
+.contact  {
+	line-height: 1.5;
+	border-bottom-style: solid black;
+}
+
+div {
+	display: inline-block;
+	width: 40%;
+	margin: 20px;
+	
+}
+
+
+footer p {
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	
+}
