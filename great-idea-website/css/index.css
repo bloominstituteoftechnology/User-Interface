@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 	width: 85%;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
 }
 
 .header, .main {
@@ -82,20 +83,25 @@ h1, h2, h3, h4, h5 {
 .header-nav {
 	/* display: inline; */
 	height: 10%;
-	padding: 20px 0 70px 0;
+	padding: 20px 30px 70px 30px;
+	position: fixed;
+	background-color: #ddd;
+	z-index: 99;
+	width: 85%;
 }
 
 .header-nav nav a {
 	display: inline-block;
 	width: calc(97% / 6);
 	text-decoration: none;
-	color: #aaa;
+	color: #000;
 }
 
 .header-title {
 	height: 100%;
 	width: 100%;
 	margin: auto;
+	padding-top: 100px;
 }
 
 .header-item, .main-item {
