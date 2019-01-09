@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Staatliches', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -85,13 +85,23 @@ header{
 
 header nav a{
   color: grey;
-  padding: 0 4%;
+  padding: 0% 4%;
   text-decoration: none;
+  letter-spacing: 1px
+}
+
+header nav a:hover{
+  color: white;
+  animation: grow 2s infinite;
 }
 
 header nav{
  /* border: 3px solid red;*/
   text-align: center;
+  position: fixed;
+  background-color: #6ae8a1;
+  border-radius: 6px;
+  min-width: 85%;
 }
 
 header h1{
@@ -103,7 +113,8 @@ header h1{
  /* border: 2px solid coral;*/
   display: inline-block;
   padding: 3% 4% 6%;
-  margin-left: 15%;
+  margin-left: 13%;
+  margin-top: 5%;
 }
 
 .headerAndImage img{
@@ -174,6 +185,10 @@ footer{
   margin: 0 3%;
 }
 
+footer p{
+  font-size: 18px;
+}
+
 footer h3{
   margin-top: 3%;
 }
@@ -181,4 +196,13 @@ footer h3{
 .copyright{
   margin: 5% 0%;
   text-align: center;
+}
+
+@keyframes grow{
+  50%{
+    font-size: 25px;
+  }
+  100%{
+    font-size: 16px;
+  }
 }
