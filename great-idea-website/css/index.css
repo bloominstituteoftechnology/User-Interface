@@ -71,18 +71,17 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0 auto;
-	width: 900px;
+	width: 876px;
 }
 
 .nav {
 	text-align: left;
-	margin-right:;
 	margin-top: 50px;
 	width: 800px;
 }
 
 .nav a {
-	position: relative;
+	position: inline-block;
 	text-align: left;
 	margin-right: 50px;
 	color: grey;
@@ -90,38 +89,46 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav .logo {
-	align-content: right;
 	position: absolute;
 	margin-left: 65px;
 	margin-bottom: 150px;
+}
+
+.top-section {
+	width: 100%;
 }
 
 .main-header {
 	display: inline-block;
 	text-align: center;
 	margin-top: 75px;
-	width: 900px;
+	width: 100%;
 	margin-bottom: 75px;
 }
 
 .main-header img {
-	width: 400px;
 	display: inline-block;
+	margin-left: 100px;
 }
 
 .main-header h1 {
 	font-size: 74px;
+	display: inline-block;
 }
 
 .main-header p {
 	display: inline-block;
 	border: 1px solid black;
-	padding: 10px 50px;
+	padding: 10px;
+	height: 35px;
+	width: 200px;
 }
 
 .main-header .big-text {
-	width: 400px;
 	display: inline-block;
+	position: relative;
+	top: -50px;
+	margin-right: 25px;
 }
 
 .main-content1 {
@@ -130,78 +137,33 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 }
 
-
-.main-content1 h2 {
-	margin: 0;
-}
-
-.main-content1 p {
-	margin: 10px 0;
-	width: 450px;
-}
-
-.main-content1 .features {
-	text-align: left;
+.main-content1-box {
+	width: 49%;
 	display: inline-block;
-	width: 400px;
-	padding: 0;
-	height: 100px;
-}
-
-.main-content1 .about {
-	text-align: left;
-	display: inline-block;
-	padding-left: 50px;
-	width: 450px;
-	height: 100px;
-}
-
-.middle-image img{
-	margin: 0 auto;
-	width: 900px;
 }
 
 .main-content2 {
 	display: inline-block;
 	width: 100%;
 	margin: 20px 0;
+	height: 200px;
 }
 
-.main-content2 .services {
-	text-align: left;
+.main-content2-box {
+	width: 33%;
 	display: inline-block;
-	width: 300px;
-	padding: 0;
-}
-
-.main-content2 .product {
-	text-align: left;
-	display: inline-block;
-	width: 300px;
-	padding: 0;
-}
-
-.main-content2 .vision {
-	text-align: left;
-	display: inline-block;
-	width: 280px;
-	padding: 0;
 }
 
 .main-content2 h2 {
 	margin-bottom: 20px;
 }
 
-.main-content2 p {
-	margin: 2px;
-	width: 280px;
-}
 
 .contact {
 	margin: 20px 0;
 }
 
-.footer {
+footer {
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
