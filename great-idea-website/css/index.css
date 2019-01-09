@@ -96,7 +96,7 @@ main {
 	padding-top: 70px;
 }
 
-.item-div {
+.item-wrapped {
 	width: 49%;
 	display: inline-block;
 	text-align: center;
@@ -112,13 +112,12 @@ main {
   	transform: translateY(-50%);
 }
 
-.img-div {
+.main-img {
 	position: absolute;
 	right: 0;
 	top: 50%;
   	transform: translateY(-50%);
 }
-
 
 main div h1 {
 	font-size: 70px;
