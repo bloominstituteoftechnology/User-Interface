@@ -67,23 +67,32 @@ h1, h2, h3, h4, h5 {
 
 /* ___HEADER___ */
 
-/* .header {
-	background-color: lightblue;
-	/* display: inline-block; */
 
 .container {
 	width: 880px;
 	margin: 0 auto;
 }
+
+h2 {
+	font-size: 20px;
+}
+
+header {
+	position: fixed;
+	background: white;
+	height: 67px;
+}
+
 header nav {
 	display: inline-block;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
+	/* position: fixed; */
+	/* top: 0;
+	z-index: 1000; */
 	vertical-align: top;
 	width: 691px;
 	margin-top: 35px;
-	/* width: calc(100% - 100px); */
+	margin-bottom: 35px;
+	background: white;
 }
 
 header nav a {
@@ -95,8 +104,9 @@ header nav a {
 }
 
 header nav a:hover {
-	transition: all 0.4s ease;
+	transition: all 1s ease;
 	text-decoration: underline;
+	color: #1b1d1b;
 }
 
 header nav a:first-child {
@@ -115,11 +125,15 @@ header .logo {
 
 /* _____TITLE_____ */
 
+section .title-header {
+	padding-top: 100px;
+}
+
 .title-header .left {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 70px;
-	margin-top: 120px;
+	margin-top: 150px;
 	text-align: center;
 	padding: 0px 75px;
 }
@@ -134,10 +148,12 @@ button {
 	border: 1px solid black;
 	margin-top: 6px;
 	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
 }
 
 button:hover {
 	box-shadow: 2px 2px 22px 4px rgba(0,0,0,0.35);
+	transition: all 0.2s ease;
 	background: #1b1d1b;
 	border: 1px solid #f3f4f3;
 	color: white;
@@ -145,20 +161,19 @@ button:hover {
 
 .title-header img {
 	display: inline-block;
-	margin-top: 69px;
+	margin-top: 100px;
+	padding-left: 60px;
 }
 
 /* ____MAIN____ */
 
 .main {
 	border-top: solid-black;
-	margin-top: 76px;
+	margin-top: 60px;
 	padding-top: 39px;
 }
 
-/* .main .content-top {
-	padding: 0;
-} */
+
 .main .content-top .content-text {
 	display: inline-block;
 	width: 410px;
