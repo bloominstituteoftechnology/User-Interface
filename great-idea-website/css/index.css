@@ -82,6 +82,11 @@ margin-bottom: 150px;
 }
 
 .top{width: 400%}
-header {margin-inline-start: 15px;}
+header {display: inline-block;
+margin-left: 100px;
+}
+h1 {display: inline-block:
+font-size: 75px;
+}
 
 footer {margin-bottom: 15px;}
