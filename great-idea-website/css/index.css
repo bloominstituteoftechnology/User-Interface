@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navigation {
+	display: inline-block;
+	padding: 0 auto;
+}
+
+.navigation a {
+	color: grey;
+	margin: 30px;
+}
+
+.logo {
+	margin: 20px 20px 20px 120px;
+}
+
+.invitation {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 40px 45px 40px 40px;
+	padding: 20px 20px 20px 20px;
+	border-bottom: 1px solid black;
+}
+
+.invitation h1 {
+	display: inline-block;
+	font-size: 65px;
+	
+}
+
+.invitation img {
+	display: inline-block;
+	vertical-align: middle;
+	height: 400px;
+	width: 400px;
+}
+
+.invitation button {
+	height: 30px;
+	width: 100px;
+}
+
+.text-layouts p {
+	display: inline-block;
+	padding: 0px;
+	margin: 40px;
+	width: 400px;
+}
+
+
+
+.text-layouts {
+	display: inline-block;
+}
+
+.first-text {
+	display: inline-block;
+	
+}
+
+.second-text p {
+	width: 250px;
+}
+
+.middle-img {
+	width: 950px;
+	padding: 41px;
+}
+
+.text-layouts strong {
+	font-family: 'Bangers', cursive;
+	padding: 10px 0 40px;
+}
+
+.contact {
+	margin: 41px;
+}
+
+footer {
+	margin-left: 400px;
+	margin-bottom: 60px;
+}
+
+address {
+	padding: 10px 0px 10px;
+}
