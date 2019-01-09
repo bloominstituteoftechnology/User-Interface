@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 	width: 900px;
 	margin: 0 auto;
+	padding: 24px;
 	/* border: 1px solid red; */
 }
 
@@ -78,10 +79,12 @@ h1, h2, h3, h4, h5 {
 .head-tags nav a{
 	font-size: 15px;
 	margin: 10px 20px 30px 20px;
+	text-decoration:none;
+	color: lightgray;
 }
 .head-tags img{
 	display:inline-block;
-	margin-left: 150px;
+	margin-left: 120px;
 	margin-top: 25px;
 	}
 
@@ -90,18 +93,22 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	/* border: 1px solid red; */
 	width: 350px;
-	height:270px;
+	height:280px;
 	padding: 0 20px;
 	margin: 10px 50px;
 }
 .title h1{
-	font-size: 73px;
+	font-size: 70px;
 }
 .title button{
-	font-size: 20px;
-	margin-top: 20px;
+	font-size: 15px;
+	margin: 20px;
+	background-color: white;
+	border: 1px solid black;
+	padding:4px;
+	height: 28px;
+	width: 130px;
 }
-
 .title img {
 	width: 320px;
 	height:320px;
@@ -109,3 +116,63 @@ h1, h2, h3, h4, h5 {
 	margin-top: 20px;
 }
 
+.border{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0;
+	margin: 50px 0;
+}
+
+.features{
+	width:49%;
+	height:10px;
+	display:inline-block;
+	margin-right: 10px;
+
+}
+.features h2{
+	font-size: 20px;
+}
+.features p{
+	font-size:17px;
+}
+
+.about{
+	width:49%;
+	height:10px;
+	display:inline-block;
+}
+.about h2{
+	font-size: 20px;
+}
+.about p{
+	font-size:17px;
+}
+
+.middle-img{
+width: 852px;
+margin: 40px 0;
+}
+
+.services {
+display:inline-block;
+width:33%;
+}
+
+.services h2{
+	font-size: 20px;
+}
+.services p{
+	font-size: 17px;
+}
+
+h3{
+	font-size:20px;
+}
+
+footer p{
+
+	height:25px;
+	width:200px;
+	margin: 0 auto;
+}
