@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,103 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+	color: black;
+}
+
 body {
-	margin: 0 auto;
 	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 80px;
 }
 
 header {
-	width: 100%;
 	position: relative;
 }
 
 nav {
 	display: inline-block;
-	width: 70%;
-	margin: auto;
-	padding: 15px 0;
 }
 
-a {
-	color:grey;
+nav a {
+	line-height: 120px;
 	text-decoration: none;
-	padding: 30px;
-	text-align: center;
+	margin-right: 70px;
+	color: #BCBCBC;
 }
 
-.first-img {
-	display: inline-block;
-	vertical-align: middle;
+header img {
 	position: absolute;
+	top: 50%;
 	right: 0;
+	transform: translateY(-50%);
 }
 
-.mainSection {
-	display: block;
-	width: 100%;
-	padding: 40px 0;
-} 
-
-.heading {
-	display: inline-block;
-	width: 49%;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.second-img {
-	width: 50%;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.second-img img {
-	float: right;
-}
-
-h1 {
-	font-size: 500%;
-}
-
-.get-started {
-	border: 1px solid black;
-	padding: 10px;
-	width: 200px;
-	margin: auto;
-}
-
-.container {
-	border-top: 1px solid black;
+.hero-section {
+	height: 500px;
 	border-bottom: 1px solid black;
 }
 
-.third-img {
-	width: 100%;
-}
-
-.features, .about {
-	width: 49%;
-	padding: 40px 0;
+.hero-section div {
+	width: 50%;
 	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
-.services, .product, .vision {
-	width: 33%;
-	padding: 40px 0;
-	display: inline-block;
-}
-
-footer {
-	padding: 40px 0;
-}
-
-.contact {
-	padding: 15px 0;
-}
-
-.copyright {
+.hero-section h1 {
 	text-align: center;
-	padding: 40px 0;
 }
 
+.hero-section button {
+	display: block;
+	margin: 45px auto 45px auto;
+	-webkit-appearance: none;
+	font-size: 16px;
+	padding: 10px 40px;
+	border: 1px solid black;
+	cursor: pointer;
+}
 
+.main-image-container {
+	float: right;
+}
+
+.main-image-container img {
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
