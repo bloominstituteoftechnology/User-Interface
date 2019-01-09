@@ -64,37 +64,49 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	box-sizing: border-box;
-	border: 1px solid red;
-}
-
 body{
 	border: 1px solid red;
-	width:875px;
-	align-content: center;
+	width:880px;
+	margin: 30%;
+	margin-top: 0px;
 }
 
 header{
 	border: 1px solid red;
 	width: 2560px;
 }
+
 nav{
 	border: 1px solid red;
 }
 
+a{
+	margin: 25px;
+}
+
 div{
 	border: 1px solid red;
+	width: 440px;
+	height: 427px;
+	display: inline-block;
+
 }
 
 section{
 	border: 1px solid red;
+	height: 427px;
+}
+
+section div{
+	display: inline-block;
+	margin: 0px;
 }
 
 a{
 	text-decoration: none;
 	color: gray;
 	border: 1px solid red;
+	display: inline-block;
 }
 
 nav{
@@ -103,28 +115,46 @@ nav{
 	width:75%;
 }
 
-
 h1{
-	font-size:125px;
-	height: 50px;
-	width: 400px;
+	font-size:80px;
+	text-align: center;
+	margin-bottom: 100px;
+	height: 200px;
+	width: 427px;
 	border: 1px red;
 	display: inline-block;
 }
 
 img{
 	display: inline-block;
-	border: 1px red
+	margin: 0px;
+}
+section img{
+	border: 1px solid red;
 }
 
+button{
+	display: block;
+	letter-spacing: 1px;
+    margin-bottom: -400px;
+    font-size: 20px;
+    margin-left: 13%;
 
+.circle-image{
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 15px;
+	padding: 25px;
+	height: inherit;
+	width: auto;
 
+}
 
-
-
-
-
-
+.UI{
+	display: inline-block;
+    width: 40%;
+    padding-bottom: 50px;
+}
 
 
 
