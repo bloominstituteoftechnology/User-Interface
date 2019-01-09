@@ -34,9 +34,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -71,7 +68,18 @@ body {
 }
 /* NEW */
 
-
+.container{
+	display:flex;
+	height:100px;
+	margin:0;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+  }
+  
+  .item{
+	margin:2px;
+  }
 /* OLD */
 ul {
   margin: 0;
@@ -107,9 +115,11 @@ li {
 .main-nav a:hover {
 	color: green;
 }
-img{
+.middle-img{
 	border-radius: 10px;
+	width: 100%;
 }
+
 	 div {
 		background-color: white;
 		 color:grey;
@@ -138,8 +148,22 @@ img{
 		  column-count: 3;
 	  }
 	  .seco{
-		display: inline-block;
+		  display: inline-flex;
 			column-count: 2;
+	  }
+	  .content-row {
+		display: inherit;
+	  }
+	  
+	  .content-row div {
+		margin:20px;
+		display: flex;
+	  }
+	  .tutu{
+		  width: 48%;
+		  height: 200px;
+		  display: flex;
+
 	  }
 	  footer {
 		width: 100%;
