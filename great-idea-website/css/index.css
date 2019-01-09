@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
 
 .navigation {
 	display: inline-block;
@@ -113,15 +117,8 @@ h1, h2, h3, h4, h5 {
 	width: 400px;
 }
 
-
-
 .text-layouts {
 	display: inline-block;
-}
-
-.first-text {
-	display: inline-block;
-	
 }
 
 .second-text p {
