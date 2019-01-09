@@ -79,11 +79,15 @@ header {
 	background-color: #6D466B;
 }
 
+.navigation div {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .navigation nav {
 	display: inline-block;
-	margin-left: 10%;
-	width: 60%;
 	margin-top: 20px;
+	margin-right: 100px;
 }
 
 .navigation img {
@@ -93,14 +97,18 @@ header {
 }
 
 .navigation nav a {
-	margin: 20px 1vw;
-	padding: 10px 20px;
+	margin: 20px 2vw;
+	padding: 10px 30px;
 	display: inline-block;
 	color: #EAD7D7;
 	text-decoration: none;
 	background-color: #412234;
 	border-radius: 10px;
 	transition: 0.2s;
+}
+
+.navigation nav a:first-child {
+	margin-left: 0;
 }
 
 .navigation nav a:hover {
