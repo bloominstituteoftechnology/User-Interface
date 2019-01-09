@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 876px;
+}
+
+.nav {
+	text-align: left;
+	margin-top: 50px;
+	width: 800px;
+}
+
+.nav a {
+	position: inline-block;
+	text-align: left;
+	margin-right: 50px;
+	color: grey;
+	text-decoration: none;
+}
+
+.nav .logo {
+	position: absolute;
+	margin-left: 65px;
+	margin-bottom: 150px;
+}
+
+.top-section {
+	width: 100%;
+}
+
+.main-header {
+	display: inline-block;
+	text-align: center;
+	margin-top: 75px;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.main-header img {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.main-header h1 {
+	font-size: 74px;
+	display: inline-block;
+}
+
+.main-header p {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	height: 35px;
+	width: 200px;
+}
+
+.main-header .big-text {
+	display: inline-block;
+	position: relative;
+	top: -50px;
+	margin-right: 25px;
+}
+
+.main-content1 {
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.main-content1-box {
+	width: 49%;
+	display: inline-block;
+}
+
+.main-content2 {
+	display: inline-block;
+	width: 100%;
+	margin: 20px 0;
+	height: 200px;
+}
+
+.main-content2-box {
+	width: 33%;
+	display: inline-block;
+}
+
+.main-content2 h2 {
+	margin-bottom: 20px;
+}
+
+
+.contact {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
