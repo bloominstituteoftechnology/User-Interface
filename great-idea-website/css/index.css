@@ -89,10 +89,53 @@ header nav a {
 display: inline-block;
 font-size: 55px;
 width: 300px;
+margin-bottom: 75px;
 margin-left: 100px;
 }
 .circlepicture{
 	display: inline-block;
 	width: 275px;
-	margin: 50px 0 0 100px;
+	margin-top: 50px;
+	Margin-bottom: 75px;
+	margin-left: 100px;
+}
+.first{
+	display: inline-block;
+	width: 400px;
+	border-top: 1px solid black;
+	padding: 25px;
+}
+.second{
+	display: inline-block;
+	width: 400px;
+	border-top: 1px solid black;
+	padding: 25px;
+}
+.third{
+	display: inline-block;
+	width: 250px;
+	border-bottom: 1px solid black;
+	padding: 31px;
+}
+.fourth{
+	display: inline-block;
+	width: 250px;
+	border-bottom: 1px solid black;
+	padding: 31px;
+}
+.fifth{
+	display: inline-block;
+	width: 250px;
+	border-bottom: 1px solid black;
+	padding: 31px;
+}
+.contact{
+	display: inline-block;
+	width: 300px;
+	padding-top: 31px;
+}
+.end{
+	margin: o auto;
+	width: 880px;
+	padding-left: 425px;
 }
