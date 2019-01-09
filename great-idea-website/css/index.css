@@ -55,7 +55,6 @@ table {
 html, body {
     height: 100%;
 		font-family: 'Titillium Web', sans-serif;
-		margin: 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,120 +65,151 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {
-	display: inline-block;
-	width: 100%;
+/* ___HEADER___ */
+
+/* .header {
+	background-color: lightblue;
+	/* display: inline-block; */
+
+.container {
+	width: 880px;
 	margin: 0 auto;
+}
+header nav {
+	display: inline-block;
 	position: sticky;
 	top: 0;
-	padding: 15px;
-	background-color: white;
-	z-index: 3000; 
-}
-.navigation nav {
-	display: inline;
-	margin: 50px;
+	z-index: 1000;
+	vertical-align: top;
+	width: 691px;
+	margin-top: 35px;
+	/* width: calc(100% - 100px); */
 }
 
-a {
+header nav a {
 	display: inline-block;
-  width: 10%;
-	padding: 15px;
+	margin-right: 65px;
+	font-size: 14px;
 	text-decoration: none;
-	color: lightgrey;
+	color:lightgray;
 }
-header {
+
+header nav a:hover {
+	transition: all 0.4s ease;
+	text-decoration: underline;
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
 	display: inline-block;
-	width: 100%;
-	height: 500px;
-	margin-bottom: 50px;
-	margin: 0 auto;
-	border-bottom: 1px solid black;
+	margin-top: 25px;
 }
 
-header div .left {
-	display: block;
-	padding: 50px auto;
-}
 
-.left {
-	background-color: lightblue;
-	box-sizing: border-box;
-}
-.right {
-	position: relative;
-	left: 0;
-	width: 50%;
-	height: 500px;
-	background-color: lightpink;
-}
-header h1 {
-	display: block;
-	top: 50px;
-	font-size: 50px;
+/* _____TITLE_____ */
+
+.title-header .left {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 70px;
+	margin-top: 120px;
 	text-align: center;
+	padding: 0px 75px;
 }
 
 button {
-	display: block;
 	font-size: 20px;
 	background-color: white;
+	vertical-align: top;
 	text-decoration: none;
 	border-radius: 2px;
-	padding: 10px;
+	padding: 8px 44px;
 	border: 1px solid black;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	
+	margin-top: 6px;
+	cursor: pointer;
 }
 
-section img.middle-image {
-	display: block;
-	width: 100%;
-	margin: 0 auto;
-	
+button:hover {
+	box-shadow: 2px 2px 22px 4px rgba(0,0,0,0.35);
+	background: #1b1d1b;
+	border: 1px solid #f3f4f3;
+	color: white;
 }
 
-.content-top {
-	border-top-style: solid black;
-	width: 100%;
-	
-}
-
-.content-bottom {
-	border-top-style: solid black;
-	width: 100%;
-	
-}
-
-section h2 {
-	display: block;
-}
-
-section p {
+.title-header img {
 	display: inline-block;
+	margin-top: 69px;
+}
+
+/* ____MAIN____ */
+
+.main {
+	border-top: solid-black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+/* .main .content-top {
+	padding: 0;
+} */
+.main .content-top .content-text {
+	display: inline-block;
+	width: 410px;
+	margin-right: 34px;
 	text-align: justify;
 }
 
-.contact  {
+.main .content-top .content-text:first-child {
+	margin-left: 0;
+}
+
+.main .content-top .content-text:last-child {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.main .middle-image {
+	margin-top: 45px;
+}
+
+.main .content-bottom {
+	margin-top: 37px;
+	padding: 0;
+}
+
+.main .content-bottom .content-text {
+	width: 275px;
+	display: inline-block;
+	text-align: justify;
+	margin-right: 12px;
+}
+
+.main .content-bottom .content-text:first-child {
+	margin-left: 0;
+}
+.main .content-bottom .content-text:last-child {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/* ___CONTACT___ */
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 0 0;
+}
+
+.contact p {
+	margin: 20px 0;
 	line-height: 1.5;
-	border-bottom-style: solid black;
-}
-
-div {
-	display: inline-block;
-	position: relative;
-
-	width: 40%;
-	height: 100px;
-	
-}
-
-section div.content-bottom {
-	display: inline-block;
-	width: 20%;
-	margin:0;
 }
 
 footer p {
