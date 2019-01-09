@@ -64,15 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+}
 
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
 .navigation {	display: inline;
 	margin-left: 400px;
 	padding-right: 30px;
 }
-figure{ display: inline;
-margin-left: 10px;
+.logo { display: inline;
+margin-left: 65px;
+margin-bottom: 150px;
 }
 
+.top{width: 400%}
 header {margin-inline-start: 15px;}
 
 footer {margin-bottom: 15px;}
