@@ -64,97 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 body{
-	border: 1px solid red;
-	width:880px;
-	margin: 30%;
-	margin-top: 0px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 header{
-	border: 1px solid red;
-	width: 2560px;
-}
-
-nav{
-	border: 1px solid red;
-}
-
-a{
-	margin: 25px;
-}
-
-div{
-	border: 1px solid red;
-	width: 440px;
-	height: 427px;
-	display: inline-block;
-
-}
-
-section{
-	border: 1px solid red;
-	height: 427px;
-}
-
-section div{
-	display: inline-block;
-	margin: 0px;
-}
-
-a{
-	text-decoration: none;
-	color: gray;
-	border: 1px solid red;
-	display: inline-block;
-}
-
-nav{
-
-	border: 1px red;
-	width:75%;
-}
-
-h1{
-	font-size:80px;
+	height: 10%;
 	text-align: center;
-	margin-bottom: 100px;
-	height: 200px;
-	width: 427px;
-	border: 1px red;
-	display: inline-block;
+	padding-bottom: 2%;
 }
 
-img{
+nav{
 	display: inline-block;
-	margin: 0px;
+	margin-right: 4%;
 }
-section img{
-	border: 1px solid red;
+
+header img{
+	position: realtive;
+	top: 10px;
+}
+a{
+	text-decoration:none;
+	padding: 5px;
+	margin: 0 2.5vw;
 }
 
 button{
-	display: block;
 	letter-spacing: 1px;
-    margin-bottom: -400px;
-    font-size: 20px;
-    margin-left: 13%;
-
-.circle-image{
-	display: inline-block;
-	margin-top: 25px;
-	margin-left: 15px;
-	padding: 25px;
-	height: inherit;
-	width: auto;
-
+	font-size: 20px;
+	background: white;
+	color:black;
 }
 
-.UI{
-	display: inline-block;
-    width: 40%;
-    padding-bottom: 50px;
+footer{
+	padding-top: 15px;
+	border-top: 1px solid black;
+}
+footer p{
+	text-align:center;
+	margin: 15px;
+}
+footer span{
+	line-height: 2em;
+}
+
+.UI{ 
+	display:inline-block;
+	margin-right:100px;
+	position: relative;
+	top:-50px;
+}
+
+.UI h1{
+	font-size:80px;
+}
+
+#section-1 {
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	text-align:center;
+	padding-bottom: 15px;
+}
+
+.section-2 div{
+	display:inline-block;
+	width:49%;
+	padding: 15px;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.section-3 div{
+	display:inline-block;
+	width: 32%;
+	padding: 15px;
 }
 
 
 
+
+
+
+
+ready to go
