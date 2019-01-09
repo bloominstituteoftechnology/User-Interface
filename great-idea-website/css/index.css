@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.logo {
+	position: relative;
+	right: 0;
+}
+
+button {
+	display: inline-block;
+	font-size: 20px;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 10px;
+	border: 1px solid black;
+	width: 200px;
+}
+.middle-img {
+	display: inline-block;
+	width: 80%;
+	margin: 0 auto;
+
+ }
+
+
+ footer {
+	padding: 20px 0;
+	text-align: center
+	 /*======= center the text here */
+  }
