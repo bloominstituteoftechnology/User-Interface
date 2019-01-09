@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
- h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -31,8 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+blockquote, q {
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -51,75 +51,26 @@ table {
 
 html, body {
     height: 100%;
-	/* font-family: 'Titillium Web', sans-serif; */
-	font-family: 'Playfair Display';
+    font-family: 'Abel', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 3px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* OLD */
 body {
 	line-height: 1.6;
 	margin: 0;
 }
-/* NEW */
 
-.container{
-	display:flex;
-	height:100px;
-	margin:0;
-	flex-wrap:wrap;
-	justify-content:center;
-	align-items:center;
-  }
-  
-  .item{
-	margin:2px;
-  }
-/* OLD */
-ul {
-  margin: 0;
-  padding: 10rem;
-  list-style: none;
-  display: inline-block;
-}
-li {
-	display: inline-block;
-		margin: 0 auto;
-		padding: 0;
-		display: inline-block;
-  }
   hr{
 	  width: 90%;
   }
-.main-nav {
-	display: inline-block;
-
-}
-.main-nav a {
-	padding: 10px 15px;
-	color: grey;
-	display: inline-block;
-	text-decoration: none;
-	color: grey;
-	display: inline-block;
-	margin: 10px;
-	text-decoration: none;
-	
-}
-
-.main-nav a:hover {
-	color: green;
-}
-.middle-img{
-	border-radius: 10px;
-	width: 100%;
-}
-
 	 div {
 		background-color: white;
 		 color:grey;
@@ -148,22 +99,12 @@ li {
 		  column-count: 3;
 	  }
 	  .seco{
-		  display: inline-flex;
+		display: inline-block;
 			column-count: 2;
 	  }
-	  .content-row {
-		display: inherit;
-	  }
-	  
-	  .content-row div {
-		margin:20px;
-		display: flex;
-	  }
-	  .tutu{
-		  width: 48%;
-		  height: 200px;
-		  display: flex;
-
+	  .seco1{
+		display: inline-block;
+			column-count: 2;
 	  }
 	  footer {
 		width: 100%;
@@ -186,5 +127,192 @@ li {
 		padding: 20px 0;
 		text-align:center;
 		width: 100%;
+		color: #aaa;
+		  }
+		  
+		/* Today's */
+		#banner {
+			background-size: cover;
+	}
+	
+	#banner-content.row {
+			padding-top: 170px;
+			padding-bottom: 100px;
+	}
+	
+	#banner h1 {
+			padding-top: 5%;
+	}
+	
+	#banner .section-heading:before {
+			content: "";
+			display: block;
+			width: 30px;
+			height: 5px;
+			margin-top: 30px;
+	}
+	
+		.section-heading {
+			padding: 0 0 15px 0;
+			text-align: center;
+	}
+		.col-1 {
+			width: 38.2%;
+	}
+	.button {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 11px 16px;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+}
+		/* 
+		replacements */
+		* {
+			box-sizing: border-box;
 		
+	}
+	h1, h2, h3, h4, h5 {
+			font-family: 'Satisfy', cursive;
+			letter-spacing: 1px;
+			margin-bottom: 15px;
+	}
+	
+	body {
+			font-family: 'Abel', sans-serif;
+	}
+	.row { 
+		display:flex;
+		flex-wrap: wrap;
+		column-count: 2;
+
 	  }
+	
+	.navbar {
+			font-size: 18px;
+			background-image: linear-gradient(260deg, #505a61 0%, #f1ecf1 100%);
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			padding-bottom: 10px;
+	}
+	
+	.main-nav {
+			list-style-type: none;
+			display: none;
+	}
+	
+	.nav-links,
+	.logo {
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.7);
+	}
+	
+	.main-nav li {
+			text-align: center;
+			margin: 15px auto;
+	}
+	
+	.logo {
+			display: inline-block;
+			font-size: 22px;
+			margin-top: 10px;
+			margin-left: 20px;
+	}
+	
+	.navbar-toggle {
+			position: absolute;
+			top: 10px;
+			right: 20px;
+			cursor: pointer;
+			color: rgba(255, 255, 255, 0.8);
+			font-size: 24px;
+	}
+	
+	.active {
+			display: block;
+	}
+	div {
+			background-color: white;
+			 color:grey;
+			 padding: 25px;
+			 margin: 10px auto;
+			 display: inline-block;
+	
+		}
+		.column {
+			text-align: center;
+			flex-wrap: wrap;
+			
+			}
+	
+		address{
+			line-height: 2;
+			text-align:center;
+		}
+		.first{
+				display: inline-block;
+				column-count: 3;
+		}
+		.seco{
+			display: inline-block;
+					column-count: 2;
+		}
+		.seco1{
+			display: inline-block;
+					column-count: 2;
+		}
+	
+		.img{
+				width: 100%;
+		}
+		@media screen and (max-width: 880px) {
+			.container {
+				overflow: inherit;
+			}
+			 .column {
+				 min-width: 100%;
+				 width: 100%;
+				 margin: 10px 0;
+			}
+			}
+	
+	@media screen and (min-width: 380px) {
+			.navbar {
+					display: flex;
+					justify-content: space-between;
+					padding-bottom: 0;
+					height: 70px;
+					align-items: center;
+			}
+	
+			.main-nav {
+					display: flex;
+					margin-right: 30px;
+					flex-direction: row;
+					justify-content: flex-end;
+			}
+	
+			.main-nav li {
+					margin: 0;
+			}
+	
+			.nav-links {
+					margin-left: 40px;
+			}
+	
+			.logo {
+					margin-top: 0;
+			}
+	
+			.navbar-toggle {
+					display: none;
+			}
+	
+			.logo:hover,
+			.nav-links:hover {
+					color: rgba(255, 255, 255, 1);
+			}
+	}
+	
+	
+	  
