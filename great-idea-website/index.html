@@ -1,63 +1,129 @@
-<!doctype html>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-  <title>Great Idea!</title>
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
 
-  <body>
+/* Your code starts here! */
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
-
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
-
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+* {
+    box-sizing: border-box;
+}
+header nav {
+  margin: 0 20px; 
+  display: inline-block;  
+  color: white;  
+  margin: 20px;
+}
+header nav a,b:first-child {
+	display: inline-block; 
+     padding: 20px 0;    
+     line-height: 2;
+     margin-left: 0;
+     margin: 10px;
+    color: black;
+     text-decoration: none;
+     hover-color:white;
+}
+header .logo{
+  display:inline-block
+  margin-top: 20px;
+}
+.text .text1
+{
+  margin-left:50px;
+  font-style: oblique;
+  font-size:25px;
+}
+ .on{
+  margin-left:45px;
+  font-style: oblique;
+  font-size:80; 
+   }  
+.demand {
+  margin-left:10px;
+  font-style: oblique;
+  font-size:45x;
+}
+.get-started{
+ margin:0px 0px 20px 50px; 
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+}
 
+section .sb{
+  display: inline-block;
+}  
+.one-column{
+ border-top: 1px solid black; 
+  display: inline-block
+ }
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
-
-  Copyright Great Idea! 2018
-  
-  </body>
-</html>
+.features {
+  width: 400px;
+  height: 200px;
+  margin:10px 20px;
+  display: inline-block
+}
+.about{
+  width: 400px;
+  height: 300px;
+  margin:10px 20px;
