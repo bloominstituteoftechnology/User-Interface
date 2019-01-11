@@ -94,23 +94,23 @@ nav {
 }
 
 .header-set {
-	width: 70%;
+	width: 60%;
 	height: 500px;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 40px;
+	padding-top: 60px;
 }
 
 .header-image {
-	width 45%;
+	width: 500px;
 	height: 500px;
 	display: inline-block;
 	margin-top: 40px;
 }
 
 h1 {
-    font-size: 60pt;
-	padding-right: 300px;
+    font-size: 65pt;
+	padding-right: 100px;
 	padding-top: 50px;
 	text-align: center;
 }
@@ -118,15 +118,16 @@ h1 {
 button {
 	border: 2px solid black;
 	width: 200px;
-	margin-left: 22%;
+	margin-left: 30%;
 	margin-top: 10px;
 	padding: 10px;
 	font-size: 12pt;
 }
 
 .circle-image {
-	padding-top: 40px;
-	width: 350px;
+	margin-top: 30px;
+	width: 90%;
+	padding: 0 40px 100px 0;
 }
 
 .content {
