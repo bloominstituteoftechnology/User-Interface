@@ -150,13 +150,24 @@ h5 {
 }
 
 /* Your code starts here! - Thank you for the Reset! - Christian*/
+h1 {
+	font-size: 80px;
+}
+
+button {
+	border: 1px solid #ccc;
+	padding: 10px 50px;
+	margin: 10px 0;
+	font-family: inherit;
+}
+
 .container {
   width: 876px;
   margin: 20px auto;
 }
 
 .header__nav {
-	/* margin-bottom: 30px; */
+  /* margin-bottom: 30px; */
 }
 
 .header__nav a {
@@ -166,17 +177,17 @@ h5 {
 }
 
 .header__nav img {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .header__hero {
-	margin: 70px 0;
-	height: 100%;
-	text-align: center;
+  margin: 70px 0;
+  height: 100%;
+  text-align: center;
 }
 
 .header__description {
-	display: inline-block;
+  display: inline-block;
   margin: 0 1%;
   width: 45%;
   display: inline-block;
@@ -185,9 +196,9 @@ h5 {
 
 /* style for each phrase */
 .header__description > div {
-	margin: 10px;
-	font-size: 80px;
+  margin: 10px;
 }
+
 .header__img {
   margin: 0 1%;
   width: 45%;
@@ -195,37 +206,39 @@ h5 {
   vertical-align: middle;
 }
 
+
+
 .mainContent {
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	padding: 20px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
 }
 
 .mainContent > div {
-	margin: 40px 0;
+  margin: 40px 0;
 }
 
-.mainContent__top > div{
-	width: 45%;
-	display: inline-block;
-	margin: 0 1%;
+.mainContent__top > div {
+  width: 45%;
+  display: inline-block;
+  margin: 0 1%;
 }
 
-.mainContent__bottom > div{
-	width: 30%;
-	display: inline-block;
-	margin: 0 1%;
+.mainContent__bottom > div {
+  width: 30%;
+  display: inline-block;
+  margin: 0 1%;
 }
 
 .footer {
-	padding: 20px 0;
-	margin: 40px 0;
+  padding: 20px 0;
+  margin: 40px 0;
 }
 
 .footer__address > div {
-	padding: 10px 0;
+  padding: 10px 0;
 }
 
 .footer__copyright {
-	text-align: center;
+  text-align: center;
 }
