@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 935px;
+	margin: auto;
+}
+
+nav a {
+	display: inline-block;
+	padding: 28px 58px 28px 0;
+	color: lightgray;
+	text-decoration: none;
+}
+
+nav img {
+	display: inline-block;
+	padding: 18px 20px;
+	vertical-align: top;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	padding: 60px;
+}
+
+header button {
+	background: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	border: 1px solid black;
+	padding: 3px 40px;
+	margin: 20px 0;
+	vertical-align: top;
+}
+
+header img {
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 50px;
+}
+
+.page-divider {
+	border-bottom: black solid 1px;
+	margin: 20px 0;
+	width: 876px; 
+}
+
+top-content h2 {
+	display: inline-block;
+}
+
+
+.column {
+	display: inline-block;
+	margin: 30px 5px;
+	width: 428px;
+	text-align: top;
+}
+
+.bottom-content .column {
+	display: inline-block;
+	margin: 30px 5px;
+	width: 281px;
+	text-align: top;
+}
+
+footer {
+	padding: 50px 0;
+	text-align: center;
+	font-size: .9em;
+}
