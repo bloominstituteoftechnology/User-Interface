@@ -177,7 +177,7 @@ h5 {
 
 .header__description {
 	display: inline-block;
-  /* margin: 20px 1%; */
+  margin: 0 1%;
   width: 45%;
   display: inline-block;
   vertical-align: middle;
@@ -189,7 +189,7 @@ h5 {
 	font-size: 80px;
 }
 .header__img {
-  /* margin: 20px 1%; */
+  margin: 0 1%;
   width: 45%;
   display: inline-block;
   vertical-align: middle;
@@ -198,10 +198,34 @@ h5 {
 .mainContent {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	padding: 70px 0;
+	padding: 20px 0;
 }
 
 .mainContent > div {
-	margin-bottom: 60px;
+	margin: 40px 0;
 }
 
+.mainContent__top > div{
+	width: 45%;
+	display: inline-block;
+	margin: 0 1%;
+}
+
+.mainContent__bottom > div{
+	width: 30%;
+	display: inline-block;
+	margin: 0 1%;
+}
+
+.footer {
+	padding: 20px 0;
+	margin: 40px 0;
+}
+
+.footer__address > div {
+	padding: 10px 0;
+}
+
+.footer__copyright {
+	text-align: center;
+}
