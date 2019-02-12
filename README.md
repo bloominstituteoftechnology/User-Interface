@@ -37,4 +37,7 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [ ] Change all the image tags into background images instead
 
-- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items# Great-Idea-Website---Lambda-Project
+# Great-Idea-Website---Lambda-Project
+# Great-Idea-Website---Lambda-Project
+# Great-Idea-Website---Lambda-Project
