@@ -170,14 +170,14 @@ h5 {
 }
 
 .header__hero {
-	margin: 80px 0;
+	margin: 70px 0;
 	height: 100%;
 	text-align: center;
 }
 
 .header__description {
 	display: inline-block;
-  margin: 20px 1%;
+  /* margin: 20px 1%; */
   width: 45%;
   display: inline-block;
   vertical-align: middle;
@@ -189,8 +189,19 @@ h5 {
 	font-size: 80px;
 }
 .header__img {
-  margin: 20px 1%;
+  /* margin: 20px 1%; */
   width: 45%;
   display: inline-block;
   vertical-align: middle;
 }
+
+.mainContent {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 70px 0;
+}
+
+.mainContent > div {
+	margin-bottom: 60px;
+}
+
