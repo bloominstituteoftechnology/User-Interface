@@ -131,6 +131,11 @@ top-content h2 {
 	text-align: top;
 }
 
+address a {
+	text-decoration: none;
+	color: black;
+}
+
 footer {
 	padding: 50px 0;
 	text-align: center;
