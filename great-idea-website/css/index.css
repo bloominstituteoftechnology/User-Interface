@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	text-align: center;
+	background-color: lightblue;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+nav a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	margin: 15px 40px;
+	vertical-align: middle;
+}
+
+nav a:hover {
+	animation: nav;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.main {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.main section {
+	display: inline-block;
+	margin: 40px 20px;
+	vertical-align: middle;
+	width: 30%;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	font-size: 20px;
+	padding: 2px 30px;
+}
+
+hr {
+	width: 89%;
+}
+
+.aboutOne {
+	margin-left: 100px;
+}
+
+.aboutOne section {
+	display: inline-block;
+	width: 45%;
+	margin: 20px 10px;
+}
+
+.aboutTwo img {
+	display: inline-block;
+	width: 80%;
+	margin: 20px 0 20px 120px;
+}
+
+.aboutThree {
+	margin-left: 100px;
+}
+
+.aboutThree section {
+	display: inline-block;
+	width: 30%;
+	margin: 20px 10px;
+}
+
+footer {
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+.address-space {
+	margin: 15px 0;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes nav {
+	0% {background-color: white; color: black;}
+	50% {background-color: black; color: white;}
+	100% {background-color: white; color: black;}
+}
