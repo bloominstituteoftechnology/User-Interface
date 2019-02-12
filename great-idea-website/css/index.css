@@ -63,4 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
 /* Your code starts here! */
+
+/* center entire website */
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* For Navigation section */
+
+nav {
+	margin: 20px 0;
+	padding: 20px 0;
+	background-image: linear-gradient(80deg, #3CB2DC, #59E16C); 
+	position: fixed;
+	top: 0;
+	width: 80%;
+}
+
+nav a {
+	margin-right: 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+}
+
+nav img {
+	margin-left: 30px;
+	display: inline-block;
+}
+
+/* For Header section */
+
+header {
+	margin-top: 100px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+header div {
+	margin: 20px 1px;
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+
+button {
+	font-size: 15px;
+	width: 170px;
+	height: 25px;
+	border: 1px solid black;
+	background-color: white;
+	
+}
+/* For top-text section */
+
+.top-text div {
+	margin: 40px 1px;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+section h3 {
+	font-size: 20px;
+}
+
+
+/* For middle image */
+.middle-img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* For bottom-text section */
+.bottom-text {
+	border-bottom: 1px solid black;
+}
+
+.bottom-text div {
+	margin: 40px 12px;
+	margin-bottom: 40px;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* For contact section */
+.contact {
+	margin: 40px 1px;
+}
+
+/* For footer */
+footer {
+	text-align: center;
+	margin-bottom: 40px;
+}
