@@ -66,20 +66,26 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container{
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 }
 h1{
-	font-size: 96px;
+	font-size: 95px;
 	text-align:center;
-	
-	border:1px solid black;
+	padding: 3%
+}
+h2{
+	font-size: 30px;
+}
+p{
+	font-size: 18px;
+	line-height: 1.25;
 }
 
 .top{
 	width:100%;
-	border: 1px solid blue;
-	margin: 5% 0%;
+	margin: 10% 0% 10% 0%;
+	
 }
 .middle-img{
 	width:100%;
@@ -87,37 +93,88 @@ h1{
 .button{
 	border: 3px solid black;
 	height: 45px;
-	width: 175px;
+	width: 250px;
 	text-align: center;
 	padding: 2% 2% 0% 2%;
 	font-size: 25px;
 	font-weight: bold;
 	position: relative;
 	top: 10%;
-	left: 25%;
+	left: 12%;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .mix{
 	display:inline-block;
-	width:45%;
-	margin: 2%;
+	width:40%;
+	margin: 2% 4%;
 	vertical-align: center;
-	border: 1px solid pink;
+}
+.mix1{
+	display:inline-block;
+	width:40%;
+	margin: 2% 4% 2% 7%;
+	vertical-align: center;
 }
 .fea-bout{
-	border: 1px solid red;
 	text-align: center;
+}
+.bar{
+	width:70%;
+	display: inline-block;
+}
+.logo{
+	display:inline-block;
+	padding: 3% 0% 0% 0%;
+}
+nav{
+	padding: 3% 1% 0% 6%;
+}
+.container nav a{
+	text-align:center;
+	padding:0px 10px 40px 10px ;
+	text-decoration: none;
+	font-size: 23px;
+	color:rgb(177, 173, 173);
 }
 .pie{
 	width: 49%;
 	display: inline-block;
-	padding: 3% 1%;
-	border: 1px solid yellow;
+	padding: 3% 0%;
 	text-align: left;
 }
 header{
-	border: 1px solid green;
+	display: inline-block;
+	width: 100%;
 }
 .sepavi{
-	border: 1px solid purple;
+	text-align: center;
+	margin: 2% 0%;
+	
+}
+.state{
+	display:inline-block;
+	width: 32%;
+	margin:.5%;
+	text-align: left;
+	padding: .5%;
+}
+.con{
+	width: 20%;
+	line-height: 1;
+	margin: 5%;
+}
+.middle{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.duck{
+	width: 100%;
+}
+.con p{
+	padding:4%;
+}
+footer{
+	width:100%;
+	text-align:center;
+	margin: 2%;
 }
