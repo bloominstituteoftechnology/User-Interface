@@ -129,7 +129,7 @@ header .header-text{
  .top-feature{
 	 display:inline-block;
 	 margin: 20px 1;
-	 margin-left: 20px;
+	 margin-left: 50px;
 	 width: 40%;	 
  }
 
@@ -142,43 +142,44 @@ header .header-text{
  .bottom-service{
 	display:inline-block;
 	margin: 10px 1;
-	margin-left: 20px;
-	width: 20%;
+	margin-left: 32px;
+	width: 30%;
+	margin-bottom: 20px;
 }
 .bottom-product{
 	display:inline-block;
 	margin: 20px 1;
 	margin-left: 20px;
-	width: 20%;
+	width: 30%;
 }
 
 .bottom-vision{
 	display:inline-block;
 	margin: 20px 1;
 	margin-right: 20px;
-	width: 20%;
+	width: 30%;
 }
 .bottom-middle{
 	border-bottom: 1px solid black;
-	margin-right:50px;
+	margin-right:60px;
 	margin-left: 20px;
 }
 .middle-img{
 	margin: 0 20px;	
 	margin-left: 30px;
+	padding: 20px;
 }
 	
 strong{
 	font-weight: bold;
-	color:black;
 }
 address{
-	
 	line-height: 1.75;
-	margin: 0 20px;	
+	margin: 0 43px;	
 }
 
 footer{
 	text-align: center;
+	
 }
 	
