@@ -180,6 +180,7 @@ button {
 .bottomcontent {
 	width: 85%;
 	margin: 0 auto;
+	align-items: center;
 	border: 1px solid red;
 }
 
@@ -188,6 +189,8 @@ button {
 	width: 400px;
 	height: 200px;
 	padding: 15px;
+	margin-right: 25px;
+	
 	border: 1px solid green;
 }
 
@@ -197,6 +200,7 @@ button {
 	width: 400px;
 	height: 200px;
 	padding: 15px;
+	margin-right: 25px;
 }
 
 .vision {
@@ -209,4 +213,14 @@ button {
 
 footer {
 	box-sizing: border-box;
+
+}
+
+.footernav {
+	margin-left: 100px;
+	padding: 25px;
+}
+
+footer p {
+	text-align: center;
 }
