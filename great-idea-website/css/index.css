@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 	width: 85%;
 	margin: 0 auto;
 	box-sizing: border-box;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .nav-header nav a {
@@ -95,7 +95,7 @@ header nav .first-anchor {
 }
 
 .logo {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	margin-left: 150px;
 }
 
@@ -103,7 +103,7 @@ header nav .first-anchor {
 				 
 .topsection {
 	display: inline-block;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	width: 100%; 
 	margin: 0 auto;
 
@@ -111,7 +111,7 @@ header nav .first-anchor {
 
 .textcontent  {
 	display: inline-block;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	width: 49%;
 	align-content: center;
 	
@@ -141,7 +141,7 @@ button {
 
 .circleimage {
 	display: inline-block;
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	width: auto;
 	margin-left: 272px;
 }
@@ -151,64 +151,64 @@ button {
 .middlecontent {
 	width: 85%;
 	margin: 0 auto;
-	border: 1px solid green;
-	border: 1px solid red;
+	/* border: 1px solid green;
+	border: 1px solid red; */
 }
 
 .features {
 	display: inline-block;
 	width: 49%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 25px;
 }
 
 .about {
 	display: inline-block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 49%;
 	padding: 25px;
 }
 
-.middleimg {
+
+.middle-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	
-	
+	width: 1258px;
 }
-
+	
 .bottomcontent {
 	width: 85%;
 	margin: 0 auto;
 	align-items: center;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .services {
 	display: inline-block;
 	width: 400px;
 	height: 200px;
-	padding: 15px;
+	padding: 20px;
 	margin-right: 25px;
 	
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .product {
 	display: inline-block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 400px;
 	height: 200px;
-	padding: 15px;
+	padding: 20px;
 	margin-right: 25px;
 }
 
 .vision {
 	display: inline-block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 400px;
 	height: 200px;
-	padding: 15px;
+	padding: 20px;
 }
 
 footer {
