@@ -90,8 +90,13 @@ nav a {
 	align-content: center;
 	text-decoration: none;
 	color: lightgrey;
-	text-align: center;
+	text-align: center; 
 
+}
+
+nav a:hover {
+	background: white;
+	color: dimgray;
 }
 
 header nav .first-anchor {
@@ -151,6 +156,7 @@ button {
 	display: block;
 	margin-left: 229px; 
 	position: relative;
+	cursor: pointer;
 }
 
 
