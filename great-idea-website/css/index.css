@@ -64,3 +64,149 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+                  /* Top Nav */
+
+.containerhome {
+	width: 85%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.nav-header nav a {
+	display: inline-block;
+	margin: 50px; 
+	align-content: center;
+}
+
+nav a {
+	padding-top: 38px;
+	align-content: center;
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center;
+
+}
+
+header nav .first-anchor {
+	margin-left: 0;
+}
+
+.logo {
+	border: 1px solid green;
+	margin-left: 150px;
+}
+
+				 /* topsection */
+				 
+.topsection {
+	display: inline-block;
+	border: 1px solid green;
+	width: 100%; 
+	margin: 0 auto;
+
+}
+
+.textcontent  {
+	display: inline-block;
+	border: 1px solid blue;
+	width: 49%;
+	align-content: center;
+	
+}
+
+h1 {
+	font-size: 80px;
+	padding: 55px;
+	text-align: center;
+	
+}
+
+
+
+
+
+button {
+	text-align: center;
+	border: 5px solid purple;
+	align-content: center;
+	background: white;
+	width: 135px;
+	padding: 5px;
+	/* display: block; */
+	
+}
+
+.circleimage {
+	display: inline-block;
+	border: 1px solid orange;
+	width: auto;
+	margin-left: 272px;
+}
+
+	/* mid content */
+	
+.middlecontent {
+	width: 85%;
+	margin: 0 auto;
+	border: 1px solid green;
+	border: 1px solid red;
+}
+
+.features {
+	display: inline-block;
+	width: 49%;
+	border: 1px solid red;
+	padding: 25px;
+}
+
+.about {
+	display: inline-block;
+	border: 1px solid red;
+	width: 49%;
+	padding: 25px;
+}
+
+.middleimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+.bottomcontent {
+	width: 85%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.services {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	padding: 15px;
+	border: 1px solid green;
+}
+
+.product {
+	display: inline-block;
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+	padding: 15px;
+}
+
+.vision {
+	display: inline-block;
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+	padding: 15px;
+}
+
+footer {
+	box-sizing: border-box;
+}
