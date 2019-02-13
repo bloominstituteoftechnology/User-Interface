@@ -224,3 +224,9 @@ ul.list {
 	background: white;
 	border-radius: 10px;
 }
+
+@media(max-width: 600px) {
+	.middle-services {
+		flex-direction:column;
+	}
+}
