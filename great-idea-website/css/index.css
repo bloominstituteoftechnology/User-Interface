@@ -49,18 +49,51 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	color: red;
+	display: inline-block;
+	margin: 20px 20px 20px 20px;
+	border: 20px 20px 20px 20px;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
 }
 
 /* Your code starts here! */
+
+.navigation {
+	color: lightgrey;
+	margin: 20px 20;
+	padding: 20px 20;
+	display: inline-block;
+	word-spacing: 55px;
+}
+
+footer {
+	color: green;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.Logo {
+	padding: 0 40px;
+	margin: 0 40px;
+	display: inline-block;
+	color: purple;
+}
+
+.title {
+	color: black;
+	font-size: 1820;
+}
