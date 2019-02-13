@@ -63,4 +63,119 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header nav a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta .cta-text {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 77px;
+  text-align: center;
+}
+
+.cta .cta-text button {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content .top-content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content .top-content .text-content {
+   display: flex;
+   justify-content: center;
+}
+
+.main-content .top-content .text-content:last-child {
+	display: flex;
+	justify-content: center;
+
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	  display: flex;
+	  justify-content: flex-start;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  flex-direction: column;
+}
+
+footer {
+  flex-direction: row;
+}
