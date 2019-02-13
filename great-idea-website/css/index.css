@@ -165,6 +165,7 @@ button {
 	width: 85%;
 	margin: 0 auto;
 	border-top: 1px solid black;
+	
 	/* border: 1px solid green;
 	border: 1px solid red; */
 }
@@ -173,14 +174,14 @@ button {
 	display: inline-block;
 	width: 49%;
 	/* border: 1px solid red; */
-	padding: 25px;
+	padding: 30px;
 }
 
 .about {
 	display: inline-block;
 	/* border: 1px solid red; */
 	width: 49%;
-	padding: 25px;
+	padding: 30px;
 }
 
 
@@ -196,6 +197,7 @@ button {
 	margin: 0 auto;
 	align-items: center;
 	border-bottom: 1px solid black;
+	margin-top: 20px;
 	/* border: 1px solid red; */
 }
 
