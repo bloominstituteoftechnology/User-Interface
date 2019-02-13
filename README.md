@@ -32,10 +32,10 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [X] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
 
-- [ ] Introduce a new font family from [google fonts](https://fonts.google.com/)
+- [X] Introduce a new font family from [google fonts](https://fonts.google.com/)
 
 - [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
-- [ ] Change all the image tags into background images instead
+- [X] Change all the image tags into background images instead
 
-- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+- [X] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items

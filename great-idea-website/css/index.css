@@ -136,7 +136,8 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.8px;
 }
 
 h1,
@@ -154,11 +155,12 @@ h1 {
   font-size: 80px;
 }
 
-button {
-  border: 1px solid #ccc;
-  padding: 10px 50px;
-  margin: 10px 0;
-  font-family: inherit;
+h2 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.35;
 }
 
 .container {
@@ -211,10 +213,29 @@ button {
 }
 
 .header__img {
+  background: url("./../img/header-img.png") no-repeat;
   margin: 0 1%;
   width: 45%;
+  height: 379px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.header__callToAction {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  margin: 10px 0;
+  font-family: inherit;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.header__callToAction:hover {
+  border: 1px solid #000;
+  background: black;
+  color:white;
+  cursor: pointer;
 }
 
 .mainContent {
