@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,51 +16,135 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  width:1000px;
+  margin: auto;
+  background: rgb(34, 34, 34);
+
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+  text-align: center;
+  padding: 0 50px;
+
+}
+
+strong {
+  font-weight: bold;
+  color: red;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+/* Header Styles Here */
+h1 {
+  font-size: 75px;
+  display: inline-block;
+}
+
+header nav {
+  margin: 20px 0;
+  display: inline-block;
+  margin-right: 62px;
+}
+
+header nav a {
+  margin-right: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+button {
+  font-size: 25px;
+}
+
+.top-left {
+  text-align: center;
+}
+
+.main-content section {
+  margin: 30px 1%;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom-content section {
+  margin: 20px 1%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom-content {
+    border-bottom: 1px solid black;
+
+}
+footer {
+  line-height: 1.25;
+  text-align: left;
+  
+  
+}
+
+.copyright {
+  margin: auto;
+}
+
