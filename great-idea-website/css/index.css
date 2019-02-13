@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+* {
+	display: inline-block;
+}
+
 body {
 	margin: 0 auto;
 	width: 80%;
@@ -101,11 +105,14 @@ nav a {
 
 .top-left{
 	font-size: 80px;
-	margin-right: 20px;
+	margin-left: 0;
+	margin-right: auto;
 }
 
 .top-right {
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: 0;
+
 }
 
 .top {
