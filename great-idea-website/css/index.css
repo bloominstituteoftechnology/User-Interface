@@ -81,6 +81,10 @@ h1, h2, h3, h4, h5 {
 	align-content: center;
 }
 
+.nav-header{
+	margin-bottom: 20px;
+}
+
 nav a {
 	padding-top: 38px;
 	align-content: center;
@@ -92,6 +96,7 @@ nav a {
 
 header nav .first-anchor {
 	margin-left: 0;
+	
 }
 
 .logo {
@@ -109,11 +114,14 @@ header nav .first-anchor {
 
 }
 
-.textcontent  {
+.textcontent   {
 	display: inline-block;
 	/* border: 1px solid blue; */
 	width: 49%;
 	align-content: center;
+	margin-bottom: 85px;
+	margin: 85px;
+	/* border: 1px solid green; */
 	
 }
 
@@ -124,33 +132,39 @@ h1 {
 	
 }
 
-
-
-
+.topsection .textcontent button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+  
+.topsection .textcontent button:hover {
+	background: black;
+	color: white;
+}
 
 button {
-	text-align: center;
-	border: 5px solid purple;
-	align-content: center;
-	background: white;
-	width: 135px;
-	padding: 5px;
-	/* display: block; */
-	
+	display: block;
+	margin-left: 229px; 
+	position: relative;
 }
+
+
+
 
 .circleimage {
 	display: inline-block;
-	/* border: 1px solid orange; */
-	width: auto;
-	margin-left: 272px;
 }
 
-	/* mid content */
 	
 .middlecontent {
 	width: 85%;
 	margin: 0 auto;
+	border-top: 1px solid black;
 	/* border: 1px solid green;
 	border: 1px solid red; */
 }
@@ -181,6 +195,7 @@ button {
 	width: 85%;
 	margin: 0 auto;
 	align-items: center;
+	border-bottom: 1px solid black;
 	/* border: 1px solid red; */
 }
 
