@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	box-sizing:border-box;
+}
+header{
+	border-bottom: 1px solid black;
+	margin-right:40px;
+	margin-left: 20px;
+}
+
+
+header .top{
+	display: inline-block;
+	margin: 20px;
+	font-size: 20px;
+}
+
+header nav{
+	display: inline-block;
+	margin: 20px 0;
+		
+}
+
+header nav a{
+	text-decoration: none;
+	margin-left:55px;
+	font-size: 18px
+	
+}
+
+.logo{
+	margin-left: 40px;
+	
+}
+
+header .header-middle{
+	margin: 50px 0;
+	margin-left: 150px;
+	font-size: 90px;
+	
+}
+
+header .header-text{
+	width:45%;
+	display: inline-block;
+	text-align: center;
+}
+
+ .header-picture{
+	margin-left: 60px;
+		
+ }
+/*button css*/ 
+ button{
+	width: 200px;
+	height: 45px
+ }
+
+ .middle{
+	 margin: 20px 0;
+ }
+
+ .top-feature{
+	 display:inline-block;
+	 margin: 20px 1;
+	 margin-left: 20px;
+	 width: 40%;	 
+ }
+
+ .top-about{
+	display:inline-block;
+	margin: 20px 1;
+	margin-left: 20px;
+	width: 40%;
+ }
+ .bottom-service{
+	display:inline-block;
+	margin: 10px 1;
+	margin-left: 20px;
+	width: 20%;
+}
+.bottom-product{
+	display:inline-block;
+	margin: 20px 1;
+	margin-left: 20px;
+	width: 20%;
+}
+
+.bottom-vision{
+	display:inline-block;
+	margin: 20px 1;
+	margin-right: 20px;
+	width: 20%;
+}
+.bottom-middle{
+	border-bottom: 1px solid black;
+	margin-right:50px;
+	margin-left: 20px;
+}
+.middle-img{
+	margin: 0 20px;	
+	margin-left: 30px;
+}
+	
+strong{
+	font-weight: bold;
+	color:black;
+}
+address{
+	
+	line-height: 1.75;
+	margin: 0 20px;	
+}
+
+footer{
+	text-align: center;
+}
+	
