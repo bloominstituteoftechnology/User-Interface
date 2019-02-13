@@ -151,33 +151,44 @@ h5 {
 
 /* Your code starts here! - Thank you for the Reset! - Christian*/
 h1 {
-	font-size: 80px;
+  font-size: 80px;
 }
 
 button {
-	border: 1px solid #ccc;
-	padding: 10px 50px;
-	margin: 10px 0;
-	font-family: inherit;
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  margin: 10px 0;
+  font-family: inherit;
 }
 
 .container {
+  position: relative;
   width: 876px;
   margin: 20px auto;
 }
 
+.header {
+  margin-top: 150px;
+}
+
 .header__nav {
-  /* margin-bottom: 30px; */
+  top: 0;
+  position: fixed;
+  width: 876px;
+  padding: 20px 50px;
+  background: lightgray;
 }
 
 .header__nav a {
-  margin-right: 50px;
+  margin-right: 33px;
   text-decoration: none;
-  color: #999;
+  color: #000;
+  vertical-align: middle;
 }
 
 .header__nav img {
-  margin-left: 30px;
+  margin-left: 55px;
+  vertical-align: middle;
 }
 
 .header__hero {
@@ -206,8 +217,6 @@ button {
   vertical-align: middle;
 }
 
-
-
 .mainContent {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -222,6 +231,12 @@ button {
   width: 45%;
   display: inline-block;
   margin: 0 1%;
+}
+
+.mainContent__middle {
+  background: url("./../img/mid-page-accent.jpg");
+  width: 100%;
+  height: 182px;
 }
 
 .mainContent__bottom > div {
