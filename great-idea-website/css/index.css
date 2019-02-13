@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,19 +69,19 @@ strong {
 	font-weight: bold;
   }
 
-.footer p {
-	text-align: center;
-}
-
 .container {
 	width: 875px;
 	margin: 0 auto;
 }
 
 .main-nav {
-	display: inline-block;
-	padding: 30px 0;
-	margin: 30px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-div {
+	display: flex;
+	margin: 20px 0 20px;
 }
 
 .main-nav a {
@@ -98,6 +98,8 @@ strong {
 .header.home {
 	padding: 20px 0 20px 0;
 	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-left {
@@ -105,15 +107,10 @@ strong {
 	text-align: center;
 	padding: 50px 0px 50px 50px;
 	width: 45%;
-	margin-left: 4%;
-	display: inline-block;
 }
 
 .header-right {
 	width: 45%;
-	margin-right: 0px;
-	margin-left: 4%;
-	display: inline-block;
 }
 
 .header-button {
@@ -126,30 +123,15 @@ strong {
 
 .top-home {
 	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
 }
 .features-p {
-	width: 45%;
-	display: inline-block;
+	width: 49%;
 }
 
 .about-p {
-	width: 45%;
-	display: inline-block;
-}
-
-.services-p {
-	width: 32%;
-	display: inline-block;
-}
-
-.product-p {
-	width: 32%;
-	display: inline-block;
-}
-
-.vision-p {
-	width: 32%;
-	display: inline-block;
+	width: 49%;
 }
 
 .middle-home {
@@ -159,9 +141,26 @@ strong {
 .bottom-home {
 	padding: 20px 0;
 	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-p {
+	width: 32%;
+}
+
+.product-p {
+	width: 32%;
+}
+
+.vision-p {
+	width: 32%;
 }
 
 .contact {
 	padding: 20px 0;
 }
 
+footer p {
+	text-align: center;
+}
