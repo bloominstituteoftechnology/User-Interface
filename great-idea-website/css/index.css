@@ -65,121 +65,120 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-*{
-	box-sizing:border-box;
+.container{
+    width:1000px;
+    margin: 0 auto;
 }
+/*header css*/
 header{
-	border-bottom: 1px solid black;
-	margin-right:40px;
-	margin-left: 20px;
+    border-bottom: 1px solid black; 
 }
-
 
 header .top{
-	display: inline-block;
-	margin: 20px;
-	font-size: 20px;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
 }
 
 header nav{
-	display: inline-block;
-	margin: 20px 0;
-		
+    display: inline-block;
+    margin: 20px 0;      
 }
 
 header nav a{
-	text-decoration: none;
-	margin-left:55px;
-	font-size: 18px
-	
+    text-decoration: none;
+    margin-left:55px;
+    font-size: 18px;   
 }
 
 .logo{
-	margin-left: 40px;
-	
+    margin-left: 40px;
+   
 }
 
 header .header-middle{
-	margin: 50px 0;
-	margin-left: 150px;
-	font-size: 90px;
-	
+    margin:30px 0;
+    margin-left: 100px;
+    font-size: 80px;
 }
 
 header .header-text{
-	width:45%;
-	display: inline-block;
+    width:40%;
+    display: inline-block;
 	text-align: center;
 }
 
- .header-picture{
-	margin-left: 60px;
-		
- }
-/*button css*/ 
- button{
-	width: 200px;
-	height: 45px
- }
+.header-picture{
+    margin-left: 60px;
+        
+}
+/*button css*/
+button{
+    width: 200px;
+    height: 45px
+}
+/*middle - section*/
 
- .middle{
-	 margin: 20px 0;
- }
+.middle{
+     margin: 20px 0;
+}
 
- .top-feature{
-	 display:inline-block;
-	 margin: 20px 1;
-	 margin-left: 50px;
-	 width: 40%;	 
- }
+.top-feature{
+     display:inline-block;
+     margin: 20px 1;
+     margin-left: 50px;
+     width: 40%;    
+}
 
- .top-about{
-	display:inline-block;
-	margin: 20px 1;
-	margin-left: 20px;
-	width: 40%;
- }
- .bottom-service{
-	display:inline-block;
-	margin: 10px 1;
-	margin-left: 32px;
-	width: 30%;
-	margin-bottom: 20px;
+.top-about{
+    display:inline-block;
+    margin: 20px 1;
+    margin-left: 20px;
+    width: 40%;
+}
+.bottom-service{
+    display:inline-block;
+    margin: 10px 1;
+    margin-left: 32px;
+    width: 30%;
+    margin-bottom: 20px;
 }
 .bottom-product{
-	display:inline-block;
-	margin: 20px 1;
-	margin-left: 20px;
-	width: 30%;
+    display:inline-block;
+    margin: 20px 1;
+    margin-left: 20px;
+    width: 30%;
+}
+ .middle h2{
+    margin: 0 5px;
 }
 
 .bottom-vision{
-	display:inline-block;
-	margin: 20px 1;
-	margin-right: 20px;
-	width: 30%;
+    display:inline-block;
+    margin: 20px 1;
+    margin-right: 20px;
+    width: 30%;
 }
 .bottom-middle{
-	border-bottom: 1px solid black;
-	margin-right:60px;
-	margin-left: 20px;
+    border-bottom: 1px solid black;
+    
 }
 .middle-img{
-	margin: 0 20px;	
-	margin-left: 30px;
-	padding: 20px;
+    margin: 0 20px; 
+    margin-left: 30px;
+    padding: 20px;
 }
-	
+    
 strong{
-	font-weight: bold;
+    font-weight: bold;
 }
 address{
-	line-height: 1.75;
-	margin: 0 43px;	
+    line-height: 1.75;
+    margin: 0 43px; 
 }
 
 footer{
-	text-align: center;
-	
+    text-align: center;
+    
 }
-	
+    
