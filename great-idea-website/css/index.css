@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: black;
+	padding: 10px 0;
+	position: fixed;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 709px;
+	margin-top: 17px;
+}
+
+
+nav a {
+	margin-right: 50px;
+	color:white;
+	text-decoration:none;
+	margin-left: 10px
+}
+
+.container {
+	width:60%;
+	margin:0 auto;
+}
+
+.the-word-on {
+	display: block;
+	margin-left: 115px;
+}
+
+.header-img {
+	margin-left: 492px;
+	margin-top: -332px;
+	margin-bottom: 58px;
+}
+
+h1 {
+	font-size:500%;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.the-word-demand {
+	margin-left:39px;
+}
+
+button {
+	margin-left: 175px;
+  width: 147px;
+	background-color:white;
+	border:1px solid black;
+	padding:4px 0;
+}
+
+header {
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.left-side {
+	display: inline-block;
+	margin: 2%;
+	width: 45%;
+	vertical-align: top;
+}
+
+.right-side {
+	display: inline-block;
+	margin: 2%;
+	width: 45%;
+	vertical-align: top;
+}
+
+.left {
+	display: inline-block;
+	margin: 20px 2%;
+	width: 30%;
+	vertical-align: top;
+}
+
+.mid {
+	display: inline-block;
+	margin: 20px 2%;
+	width: 30%;
+	vertical-align: top;
+}
+
+.right {
+	display: inline-block;
+	margin: 20px 2%;
+	width: 24%;
+	vertical-align: top;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	margin-bottom: 36px;
+}
+
+.slide-in-dm {
+	display: block;
+	margin-top:20px;
+}
+
+.copyright {
+	margin-top: 10px;
+	margin-left: 375px;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+button:hover {background-color: lightblue}
+
+button:active {
+  background-color: #lightblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
