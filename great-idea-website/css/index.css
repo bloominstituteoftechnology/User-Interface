@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ .container {
+	width: 800px;
+	margin: 0 auto;
+}
+header nav {
+	display: inline-block;
+	width: 800px;
+	vertical-align: top;
+	margin-top: 30px;
+	
+
+}
+.top-content header nav {
+	display: inline-block;
+	margin: 15px;
+	padding: 10px;
+	vertical-align: top;
+}
+header nav a {
+	padding: 15px;
+	display: inline-block;
+	font-size: 16px;
+	color: gray;
+	}
+.headings .head-image {
+	display: inline-block;
+	width: 800px;
+	vertical-align: top;
+	padding: 0px;
+
+}
+.mid-section, .mid-content {
+	display: inline-block;
+}
+header .logo {
+	display: inline-block;
+	padding: 0 20px;
+	}
+h1 {
+	font-size: 60px;
+}
+h2,p {
+	text-align: left;
+}
+.headings .head-image {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 0px 70px;
+} 
+.headings .head-image button {
+	background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.mid-content .text-section {
+	display: inline-block;
+  	vertical-align: top;
+  	font-size: 20px;
+  	margin-top: 20px;
+  	text-align: center;
+  	padding: 0px 10px;
+}
+.mid-content {
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
+.mid-content .mid-section .text-section {
+	width: 400px;
+  	display: inline-block;
+  	margin-right: 20px;
+}
+.mid-content .near-bottom .text-section {
+	width: 275px;
+  	display: inline-block;
+	margin-right: 12px;
+	padding: 10px;
+	
+}
+.middle-img {
+	padding-top: 20px;
+}
+li {
+	padding-top: 4px;
+}
+.bottom-section p {
+	padding-bottom: 3px;
+}
+.bottom-section p .gap {
+	padding-top: 0px;
+}
+.copyright {
+	text-align: center;
+}
