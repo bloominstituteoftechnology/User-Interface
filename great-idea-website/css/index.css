@@ -112,6 +112,8 @@ nav .logo {
 h1 {
 	font-size: 60px;
 	/* width: 400px; */
+	margin-top: -34px;
+	
 }
 
 h2,p {
