@@ -66,12 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 90%;
+	width: 876px;
+	margin: 0 auto;
 }
 
 header {
 	display:block;
-	border-bottom: 2px dotted black;
+	border-bottom: 1px solid black;
 }
 
 nav {
@@ -96,7 +97,7 @@ a {
 	display:inline-block;
 	text-decoration: none;
 	color:black;
-	margin: 40px;
+	margin: 24px;
 	text-align : center;
 	margin-bottom: 100px;
 }
@@ -108,7 +109,7 @@ small {
 .code {
 	display:inline-block;
 	/* float:right; */
-	margin: 0 50px 75px;
+	margin: 0 0px 75px;
 	width: 350px;
 	height: 350px;
 	
@@ -120,13 +121,61 @@ header h1 {
 	vertical-align: top;
 }
 
-main {
-	display: block;
-}
-
 .title {
 	display: inline-block;
 	text-align: center;
 	margin: 0px 0 50px 0;
 	vertical-align: top;
 }
+
+main h2 {
+	display: inline-block;
+}
+
+.top-main-left {
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+	
+}
+
+.top-main-right {
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+}
+
+.bottom-main-1 {
+	display: inline-block;
+	width: 28%;
+	margin: 20px;
+}
+
+.bottom-main-2 {
+	display: inline-block;
+	width: 28%;
+	margin: 20px;
+}
+
+.bottom-main-3 {
+	display: inline-block;
+	width: 28%;
+	margin: 20px;
+}
+
+address {
+	margin: 20px;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+address p {
+	margin-bottom: 20px;
+}
+
+
