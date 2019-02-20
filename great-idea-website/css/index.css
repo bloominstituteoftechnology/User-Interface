@@ -65,12 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
  .container {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 }
 header nav {
 	display: inline-block;
-	width: 800px;
+	/* width: 800px; */
 	vertical-align: top;
 	margin-top: 30px;
 	
@@ -83,28 +83,37 @@ header nav {
 	vertical-align: top;
 }
 header nav a {
-	padding: 15px;
+	padding: 17px;
 	display: inline-block;
 	font-size: 16px;
 	color: gray;
 	}
 .headings .head-image {
 	display: inline-block;
-	width: 800px;
+	/* width: 800px; */
 	vertical-align: top;
-	padding: 0px;
-
-}
+	padding: 0px; 
+	margin-top: 130px;
+	}
+	.headings .comp {
+		display: inline-block;
+	} 
+	
 .mid-section, .mid-content {
 	display: inline-block;
 }
-header .logo {
+nav .logo {
 	display: inline-block;
-	padding: 0 20px;
+	margin-left: 140px;
+	}
+	.logo {
+		display: inline-block;
 	}
 h1 {
 	font-size: 60px;
+	/* width: 400px; */
 }
+
 h2,p {
 	text-align: left;
 }
