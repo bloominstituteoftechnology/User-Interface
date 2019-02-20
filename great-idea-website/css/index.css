@@ -113,8 +113,9 @@ h1 {
 	font-size: 60px;
 	/* width: 400px; */
 	margin-top: -34px;
-	
+
 }
+
 
 h2,p {
 	text-align: left;
@@ -173,3 +174,9 @@ li {
 .copyright {
 	text-align: center;
 }
+
+/*stretch*/
+header nav a:hover {
+	text-decoration: underline;
+  }
+ 
