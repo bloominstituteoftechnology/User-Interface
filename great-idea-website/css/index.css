@@ -91,28 +91,35 @@ header img {
 
 /* top-section styles here */
 .top-section {
-	position: relative;
 	margin-top: 60px;
 	border-bottom: 1px solid black;
 	margin-bottom: 25px;
 	padding-bottom: 40px;
+	height: 472px;
 }
 .top-section .caption {
-	display: inline-block;
-	width: 50%;
+	width: 48%;
 	text-align: center;
+	display: inline-block;
 	position: relative;
-	left: 3%;
+	bottom: 60px;
+	left: 50px;
+	padding-right: 150px;
+}
+
+.top-section .caption button {
+	padding: 5px 50px;
+	background: white;
+	border: 1px solid black;
 }
 
 .top-section .caption h1 {
-	font-size: 60px;
+	font-size: 80px;
 
 }
 
 .top-section img {
-	display: inline-block;
-	
+	width: 48%;
 }
 
 .top-columns {
