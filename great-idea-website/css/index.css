@@ -68,16 +68,20 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 980px;
 	margin: auto;
-	padding: 40px;
+	padding: 0 40px;
 }
 
-.content1 {
+.content {
+	padding-top: 80px;
+}
+
+.column-2 {
 	display: inline-block;
 	width: 49%;
 	margin: 30px 0;
 }
 
-.content2 {
+.column-3 {
 	display: inline-block;
 	width: 33%;
 	margin: 30px 0;
@@ -128,6 +132,8 @@ button {
 }
 
 nav {
+	position: fixed;
+	padding-top: 20px;
 	margin-bottom: 60px;
 }
 
