@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 980px;
+	margin: auto;
+	padding: 40px;
+}
+
+.content1 {
+	display: inline-block;
+	width: 49%;
+	margin: 30px 0;
+}
+
+.content2 {
+	display: inline-block;
+	width: 33%;
+	margin: 30px 0;
+}
+
+header section div {
+	line-height: 4; 		/*Yes, this is ugly.  Nothing else so far wants to work for me though.*/
+}
+
+header section {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+
+header section h1 {
+	font-size: 60pt;
+}
+
+header img {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin-left: 50px;
+}
+
+footer {
+	text-align: center;
+}
+
+.contact-info {
+	margin: 30px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+button {
+	text-align: center;
+	text-decoration: none;
+	border-width: 2px;
+	border-color: darkgrey;
+	background: white;
+	padding: 5px 30px;
+	font-size: 16pt;
+	cursor: pointer;
+}
+
+nav {
+	margin-bottom: 60px;
+}
+
+nav div {
+	display: inline-block;
+}
+
+nav div br {
+	font-size: 1pt;
+}
+
+nav a {
+	margin: 0px 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+nav img {
+	margin-left: 30px;
+}
+
+.navlinks {
+	display: block;
+}
