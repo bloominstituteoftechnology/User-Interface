@@ -120,17 +120,6 @@ footer {
 	width: 100%;
 }
 
-button {
-	text-align: center;
-	text-decoration: none;
-	border-width: 2px;
-	border-color: darkgrey;
-	background: white;
-	padding: 5px 30px;
-	font-size: 16pt;
-	cursor: pointer;
-}
-
 nav {
 	position: fixed;
 	padding: 20px 10px 10px 10px;
@@ -153,4 +142,78 @@ nav a {
 nav img {
 	margin-left: 30px;
 	cursor: pointer;
+}
+
+/* ~BUTTON NONSENSE~ */
+
+/*
+	There's absolutely no way this last part would 
+	have happened without the examples of:
+
+	https://codepen.io/Volorf/pen/qopzaQ?editors=1100
+	https://codepen.io/zachacole/pen/KdGzgb?editors=1100
+
+	from whom I borrowed heavily
+	Credit to them for the heavy lifting on CSS animations.
+
+	I'm fairly happy with how it came out, and I learned quite a bit in the process
+	But doing this in pure CSS is still a bit over my head.
+*/
+
+button {
+	position: relative;
+	height: 50px;
+	
+	border: 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 0.2em;
+	overflow: hidden;
+	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+	z-index: -2;
+}
+
+
+.fill {
+	position: absolute;
+	background: linear-gradient(-45deg, #fe9245, #e2378b, #4f61af, #39b5bf);
+  background-size: 600%;
+	height: 70px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+  opacity: 0;
+	transition: opacity .3s ease-out;
+}
+
+.fill {
+	width: 420px;
+}
+
+.btn-container {
+	text-align: center;
+	position: relative;
+	width: 180px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.btn-container:hover .fill {
+	animation: gradient 6s ease infinite;
+  opacity: 1;
+	transition: opacity 2s ease;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
