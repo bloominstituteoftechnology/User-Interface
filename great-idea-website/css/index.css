@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .logo {
-    display: inline;
+    display: inline-block;
+    margin-left: 20px;
 }
 .container {
     width: 900px;
@@ -88,13 +89,13 @@ h1 {
 }
 .features {
     display: inline-block;
-    margin-right: 500px;
-
+    width: 450px;
+    margin: 20px 20px 20px 0px;
 }
 .about {
     display: inline-block;
-    margin-left: 500px;
-    margin-bottom: 20px;
+    width: 400px;
+    margin:20px 0px 20px 20px;
 }
 .main-header{
     padding: 30px;
