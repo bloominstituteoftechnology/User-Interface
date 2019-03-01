@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5 {
 	margin: 30px 0;
 }
 
+header {
+	margin-bottom: 70px;
+}
+
 header section {
 	display: inline-block;
 	width: 49%;
@@ -96,14 +100,14 @@ header section {
 }
 
 header section h1 {
-	font-size: 60pt;
+	font-size: 55pt;
 }
 
 header img {
 	display: inline-block;
-	width: 400px;
-	height: 400px;
-	margin-left: 50px;
+	width: 380px;
+	height: 380px;
+	margin-left: 70px;
 }
 
 footer {
