@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+  }
+
+/* ------   Navigation   ------ */
 header nav {
 	display: inline-block;
 	width: 691px;
@@ -93,4 +99,21 @@ header nav {
   
   header .logo {
 	margin-top: 25px;
+  }
+ 
+  /* ------   Header   ------ */
+  
+  .top-content .tc-text{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:120px;
+	text-align:center;
+	font-size: 80px;
+	padding:0px 75px;
+  }
+  
+  button{
+	font-size: 17px;
+	padding:10px 40px;
+	border: 1px solid black;  
   }
