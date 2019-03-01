@@ -87,14 +87,12 @@ h1, h2, h3, h4, h5 {
 	margin: 30px 0;
 }
 
-header section div {
-	line-height: 4; 		/*Yes, this is ugly.  Nothing else so far wants to work for me though.*/
-}
-
 header section {
 	display: inline-block;
 	width: 49%;
 	text-align: center;
+	vertical-align: top;
+	padding-top: 50px;
 }
 
 header section h1 {
