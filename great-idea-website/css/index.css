@@ -64,9 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-h1 {
-    display: inline-block;
-}
 .logo {
     display: inline;
 }
@@ -80,10 +77,26 @@ nav{
 .demand{
     display: inline-block;
     font-weight: bold;
+    margin-right: 200px;
 }
 h1 {
+    font-size: 60px;
     display: block;
 }
-button{
+.demand button{
     display: block;
+}
+.features {
+    display: inline-block;
+    margin-right: 500px;
+
+}
+.about {
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+.main-header{
+    padding: 30px;
+    word-spacing: 50px
 }
