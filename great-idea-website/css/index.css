@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .nav {
+	  border-radius: 30px;
 	display: inline-block;
 	margin: 0 40px;
 	padding: 0;
@@ -86,8 +87,8 @@ h1, h2, h3, h4, h5 {
 
   }
   .nav:hover{
-	  color: blanchedalmond ;
-	  font: gray;
+	  color: aqua ;
+	  background-color: black;
 	  
   }
   .logo{
@@ -121,17 +122,23 @@ h1, h2, h3, h4, h5 {
 	  font-size: 100px;
   }*/
   button{
+	  border-radius: 30px;
 	  align-items: center;
 	  background: whitesmoke;
 	  font: black;
 	  border: black;
 	  width: 600px
 	  margin-left: 60px;
+	  
 	
 	  
   }
+  button:hover{
+	  background: black;
+	  color: aqua;
+  }
   #container{
-	  margin: 40px;
+	  margin: 75px;
   }
   .features{
 	  display: inline-block;
