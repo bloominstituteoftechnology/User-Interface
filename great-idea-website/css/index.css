@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h3 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+P {
+	line-height: 1.3;
+}
+
+img.logo {
+	position: relative;
+	margin: 0 0 0 110px;
+	vertical-align: middle;
+}
+
+img.cta-img {}
+
+img.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+header nav a {
+	margin: 0 45px 0 0;
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	color: #49D7FE;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+section {
+	width: 100%;
+	margin: 70px 0;
+}
+
+.cta-contain {
+	display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 45%;
+  text-align: center;
+  margin: 21px;
+}
+
+h1.cta-header {
+	font-size: 75px;
+	margin-top: 50px;
+}
+
+button {
+	background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 7px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #49D7FE;
+  color: white;
+	border: none;
+}
+
+.cta-img-contain {
+	display: inline-block;
+	width: 45%;
+	margin: 21px 9px 21px 35px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+section.content {
+	margin-top: 45px;
+}
+
+.item-contain {
+	display: inline-block;
+	width: 45%;
+	margin: 0px 0px 40px 20px;
+}
+
+.item-contain-3 {
+	display: inline-block;
+	width: 30.5%;
+	margin-top: 40px;
+	margin-right: 23px;
+}
+
+section.contact {}
+
+footer {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+address {
+	line-height: 2;
+}
