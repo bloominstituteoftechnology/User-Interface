@@ -135,14 +135,13 @@ nav {
 	position: fixed;
 	padding: 20px 10px 10px 10px;
 	background-image: linear-gradient(indigo 45%, rgba(0, 0, 0, 0));
+	
 }
 
 nav div {
 	display: inline-block;
-}
-
-nav div br {
-	font-size: 1pt;
+	vertical-align: top;
+	padding-top: 10px;
 }
 
 nav a {
@@ -154,8 +153,4 @@ nav a {
 nav img {
 	margin-left: 30px;
 	cursor: pointer;
-}
-
-.navlinks {
-	display: block;
 }
