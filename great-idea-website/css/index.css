@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+ .main-header {
+	 vertical-align: top;
+	 text-align: center;
+	 font-size: 60px;
+	display: inline-block;
+	width: 25px
+	margin: 40px;
+	
+  }
+  
+  .nav {
+	display: inline-block;
+	margin: 0 40px;
+	padding: 0;
+	width: auto;
+	text-decoration:  none;
+	background: whitesmoke;
+	color: black;
+
+  }
+  .nav:hover{
+	  color: blanchedalmond ;
+	  font: gray;
+	  
+  }
+  .logo{
+	  display: inline-block;
+	  width: auto;
+	  padding: 20px;
+
+	  margin: 0 50px;
+  }
+  img{
+	  display: inline-block;
+	  padding: 40px;
+	  margin-right : 50px;
+	  margin-left: 50px;
+	  width: auto;
+  }
+
+  h1{
+	  font-size: 70px;
+	  display: inline-block;
+	  width: 100;
+	  margin-left: 40px;
+	  padding: 50px;
+  }
+/*
+  .header-logo{
+	  display: inline-block;
+	  width: 40px;
+	  padding: 20px;
+	  margin: 40px;
+	  font-size: 100px;
+  }*/
+  button{
+	  align-items: center;
+	  background: whitesmoke;
+	  font: black;
+	  border: black;
+	  width: 600px
+	  margin-left: 60px;
+	
+	  
+  }
+  #container{
+	  margin: 40px;
+  }
+  .features{
+	  display: inline-block;
+	  width: 40%
+  }
+  .about{
+	  display: inline-block;
+	  width: 40%;
+  }
+  .services{
+	display: inline-block;
+	width:30%;
+  }
+  .product{
+	display: inline-block;
+	width:30%
+  }
+  .vision{
+	display: inline-block;
+	width:30%;
+  }
+  .middle-img{
+	  height: auto
+	  width: 100%;
+  }
+  .copyright{
+	  width: auto;
+	  text-align: center;
+	  
+  }
+  .top-section{
+	margin: 40px;
+  }
