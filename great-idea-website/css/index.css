@@ -165,7 +165,7 @@ nav img {
 button {
 	position: relative;
 	height: 50px;
-	
+	width: 200px;
 	border: 0;
 	border-radius: 5px;
 	text-transform: uppercase;
@@ -197,7 +197,6 @@ button {
 .btn-container {
 	text-align: center;
 	position: relative;
-	width: 180px;
 	margin: 0 auto;
 	cursor: pointer;
 }
