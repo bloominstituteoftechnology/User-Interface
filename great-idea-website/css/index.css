@@ -66,26 +66,32 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .logo {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .container {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 nav{
     display: inline;
 }
+nav a{
+    text-decoration: none;
+     color: lightgray;
+}
 .demand{
     display: inline-block;
     font-weight: bold;
-    margin-right: 200px;
+    margin: 0px 100px 70px 0px;
 }
 h1 {
-    font-size: 60px;
+    font-size: 90px;
     display: block;
 }
 .demand button{
     display: block;
+    font-size: 20px;
+    margin-left: 60px;
 }
 .features {
     display: inline-block;
