@@ -64,3 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 878px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+header nav a {
+	margin: 0 20px;
+	padding: 
+
+}
+
+header .logo {
+	margin-left: 100px;
+}
+
+section.top-logo div.title-text {
+	font-size: 50pt;
+	width: 98px;
+	text-align: center;
+}
+
+section.top-logo div.title-text img.title-img {
+	margin-left: 390px;
+	margin-top: -290px;
+}
+
+.container section.top-logo .title-text {
+	display: inline-block;
+}
+
