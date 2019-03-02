@@ -72,32 +72,108 @@ h1, h2, h3, h4, h5 {
 }
 
 header nav {
+	vertical-align: middle;
 	display: inline-block;
-	margin-top: 50px;
+	padding-bottom: 20px;
 }
 
 header nav a {
 	margin: 0 20px;
-	padding: 
-
+	text-decoration: none;
+	color: lightgrey;
 }
 
 header .logo {
 	margin-left: 100px;
+	margin-top: 20px;
 }
 
-section.top-logo div.title-text {
-	font-size: 50pt;
-	width: 98px;
-	text-align: center;
-}
-
-section.top-logo div.title-text img.title-img {
-	margin-left: 390px;
-	margin-top: -290px;
-}
-
-.container section.top-logo .title-text {
+section.top-logo {
+	width: 800px;
+	margin: 30px;
 	display: inline-block;
 }
 
+section.top-logo .title-text {
+	font-size: 50pt;
+	width: 380px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 70px;
+	margin-bottom: -40px;
+}
+
+section.top-logo .title-text .title-img {
+	position: relative;
+	float: left;
+	box-sizing: content-box;
+	margin-left: 420px;
+	margin-top: -350px;
+	margin-bottom: 50px;
+}
+
+section.content .div {
+	display: inline-block;
+}
+
+.content .top-content {
+	border-top: 1px solid black
+}
+
+.content .top-content .text-content {
+	width: 407px;
+	margin: 30px 10px 30px 20px;
+	display: block;
+	float: left;
+
+}
+
+/* .container .content .bottom-context {
+	width: 876px;
+	padding: 20px;
+	display: inline-block;
+} */
+
+.content .bottom-content .text-content {
+	width: 282px;
+	margin: 30px 10px 20px 0;
+	display: block;
+	float: left;
+}
+
+.content .top-content .middle-img {
+	width: 876px;
+	height: 222px;
+	padding: 20px 0;
+}
+
+.contact {
+	border-top: 1px solid black
+}
+
+.contact .contact-text p {
+	margin: 20px 0;
+}
+
+footer p{
+	text-align: center;
+}
+
+.container .break {
+	width: 878px;
+	margin: 20px 0;
+	border: 1px solid yellow
+}
+
+button {
+	background: white;
+	width: 140px;
+	height: 27px;
+	border: 1px solid black;
+}
+
+.container .top-logo .title-text h1 {
+	margin-bottom: 5px;
+}
