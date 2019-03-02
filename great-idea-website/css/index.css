@@ -66,19 +66,18 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
  .main-header {
-	 vertical-align: top;
 	 text-align: center;
-	 font-size: 60px;
+	margin: 100px 40px 0px 20px;
+	 font-size: 90px;
 	display: inline-block;
-	width: 25px
-	margin: 40px;
+	
 	
   }
   
   .nav {
 	border-radius: 50px;
 	display: inline-block;
-	margin: 0 40px;
+	margin: 0 20px 90px 20px;
 	padding: 0;
 	width: auto;
 	text-decoration:  none;
@@ -96,36 +95,30 @@ h1, h2, h3, h4, h5 {
 	  width: auto;
 	  padding: 20px;
 
-	  margin: 0 50px;
+	  margin: 0 20px;
   }
   img{
-	  display: inline-block;
-	  padding: 40px;
-	  margin: 0 0 0 50px;
+	  margin-left: 40px;
 	  width: 300px;
+	  height: auto;
+	  display: inline-block;
   }
 
-  h1{
-	  font-size: 70px;
-	  display: inline-block;
-	  width: 100px;
-	  margin-left: 10px;
-	  padding: 50px;
-  }
-/
   
-  button{
-	  border-radius: 50px;
-	  align-items: center;
+  
+  .button{
+	  vertical-align: top; 
+	  margin-left: 40px;
+	  border-radius: 30px;
+	  width: 200px;
 	  background: whitesmoke;
 	  font: black;
+	  font-size: 25px;
 	  border: black;
-	  width: 600px
-	  margin-left: 60px;
-	  
 	
-	  
-  }
+
+	  }
+
   button:hover{
 	  background: black;
 	  color: aqua;
@@ -135,24 +128,34 @@ h1, h2, h3, h4, h5 {
 	  width: 1000px;
   }
   .features{
+	  padding: .5%;
+	  margin-left: 15%;
 	  display: inline-block;
 	  width: 40%
+	  
+	
   }
   .about{
+	  padding:.5%; 
 	  display: inline-block;
-	  width: 40%;
+	  width: 35%;
+	
   }
   .services{
 	display: inline-block;
-	width:30%;
+	width:25%;
+	padding: 2%;
+	margin-left: 15%;
   }
   .product{
 	display: inline-block;
-	width:30%
+	width:25%;
+	padding: 2%;
   }
   .vision{
 	display: inline-block;
-	width:30%;
+	width:25%;
+	padding: 2%;
   }
   .middle-img{
 	margin-right: 0 70px 0 0;
