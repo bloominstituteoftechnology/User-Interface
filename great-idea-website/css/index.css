@@ -117,3 +117,14 @@ header nav {
 	padding:10px 40px;
 	border: 1px solid black;  
   }
+
+  .top-content img {
+	display: inline-block;
+	margin-top: 69px;
+  }
+
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
