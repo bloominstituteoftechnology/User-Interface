@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: auto;
+	width: 1000px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+	margin: 20px;
+	text-decoration: none;
+	color: gray;
+	padding: 10px;
+}
+
+
+header nav {
+	display: inline-block;
+	margin-bottom: 30px;
+	vertical-align: middle;
+}
+
+
+.shout {
+	display: inline-block;
+	width: 49%;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+
+.under-header {
+	border-bottom: solid 2px black;
+	height: 480px;
+}
+
+.get-started {
+	background-color: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+}
+
+.logo {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+ footer p {
+	margin: 10px 0 10px 0;
+ }
+
+ .copyright {
+	width: 1000px;
+	text-align: center;
+ }
+
+ .middle-img {
+	 width: 1000px;
+ }
+
+ .mid-info {
+	 border-bottom: solid 2px black;
+ }
+
+ p {
+	font-size: 16px;
+ }
+
+ .top {
+	 display: inline-block;
+	 width: 49%;
+	 margin-top: 30px;
+	 margin-bottom: 30px;
+ }
+
+ .bottom {
+	 display: inline-block;
+	 width: 32%;
+	 margin-top: 30px;
+	 margin-bottom: 30px;
+ }
+
+ footer h2 {
+	 margin-top: 30px;
+	 margin-bottom: 20px;
+ }
