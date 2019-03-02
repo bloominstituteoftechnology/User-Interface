@@ -2,34 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-header {
-	display: block;
-}
 
-.box1 {
-	width: 400px;
-	display: inline-block;
-}
-
-.box2 {
-	width: 400px;
-	display: inline-block;
-}
-
-.image2 {
-	display: block;
-}
-
-.title-box {
-	width: 70px;
-	display: inline-block;
-}
-
-.nav {
-	width: 40px;
-	margin: 10px;
-	display: inline-block;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -91,4 +64,37 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+head {
+	display: block;
+}
+
+
+header {
+	padding-top: 50px;
+	display: block;
+}
+header h1 {
+	font-size: 60px;
+	text-align: center;
+}
+.htext {
+	display: inline-block;
+	width: 200px;
+}
+.image1 {
+	display: inline-block;
+	width: 200px;
+}
+nav b {
+	display: inline-block;
+}
+.logo {
+	display: inline-block;
+}
+body1 {
+	display: block;
+}
+.box1 {
+	display: inline-block;
+}
 /* Your code starts here! */
