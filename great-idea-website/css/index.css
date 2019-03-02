@@ -69,7 +69,6 @@ head {
 }
 
 header {
-	padding-top: 50px;
 	display: block;
 }
 
@@ -92,12 +91,11 @@ header h1 {
 nav b {
 	color: grey;
 	display: inline-block;
-	padding-top: 12px;
 }
 
 .logo {
 	display: inline-block;
-	padding-top: 20px;
+	margin-top: 70px;
 }
 
 body1 {
