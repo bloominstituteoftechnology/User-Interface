@@ -64,13 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-display: inline-block;
+
 .navigation {
 	margin-left: 20px;
 	font-size: 18px;
 	padding: 30px;
 	border: 10px;
-	
+	display: inline-block;
+	width: 2543px;
 }
 
 h1 {
@@ -99,31 +100,41 @@ header .navigation nav a {
 	border-bottom: 1px solid black
 }
 .roundcodeimg {
-	padding-left: 600px;
+	padding-left: 45%;
+	
 }
 button {
 	background-color: white;
-	padding 10px;
+	padding: 10px;
+	height: 42px;
+	width: 132px;
 	margin-top: 320px;
-	margin-right: 200px;
+	margin-left: 8%;
 	float: left;
 
 }
+.topcontent {
+	height: 279px;
+	width: 1144px;
+}
 .topcontent .features {
-width: 550px;
+width: 15%;
+height: 110%;
 text-align: left;
-margin-bottom 150px;
+margin-bottom: 24px;
+padding-left: 10px;
+}
+.fparagraph {
+	
 }
 .topcontent .features h3 {
 	margin-top: 10px;
-	height:300px
-	width: 400px;
+	height: 15px;
+	width: 15px;
 }
 .topcontent .about {
- text align: left;
- margin-left: 800px;
- width: 400px;
- height: 300px;
+ float: right;
+ align-content: right;
 }
 .middle-img {
 	padding-left: 200px;
