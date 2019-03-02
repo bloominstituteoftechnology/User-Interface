@@ -1,66 +1,264 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
+  margin: 0 auto;
+  width: 876px;
+}
+
+.nav {
+  margin: 20px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  margin-right: 60px;
+  text-decoration: none;
+  color: #9c9c9c;
+}
+
+.links {
+  display: inline-block;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.logo-section {
+  display: inline-block;
+  vertical-align: top;
+}
+.logo {
+  display: inline;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  margin: 30px 0;
+  padding: 30px 0 70px 0;
+}
+
+.main-header {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  width: 50%;
+  display: inline-block;
+  padding: 0 70px;
+  margin-right: 30px;
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.header-button {
+  text-align: center;
+}
+
+.btn-get-started {
+  width: 180px;
+  padding: 5px 0;
+  border: 1px solid black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  cursor: pointer;
+  background-color: white;
+}
+
+.img-header {
+  display: inline-block;
+}
+
+.top-section-item.left {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 40px;
+  margin-right: 4px;
+}
+.top-section-item.right {
+  display: inline-block;
+  width: 49%;
+}
+
+.middle-img {
+  margin-bottom: 40px;
+}
+
+.bottom-section-item {
+  width: 32%;
+  display: inline-block;
+  margin-bottom: 45px;
+  margin-left: 10px;
+}
+
+.bottom-section-item.first-item {
+  margin: 0;
+}
+
+.contact-section {
+  padding-top: 30px;
+  border-top: 1px solid black;
+}
+
+.contact-section address,
+.contact-section p {
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
