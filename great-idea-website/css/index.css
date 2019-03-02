@@ -68,44 +68,85 @@ body{
 	width: 876px;
 	margin: 0 auto;
 }
-
+p {
+	font-family: 'Raleway', sans-serif;
+}
 header img {
-	margin-left: 120px;
-	margin-top: 20px;
+	margin-left: 670px;
+	display: inline-block;
+	position: fixed;
+	margin-top: 5px;
 }
 nav {
-	display: inline-block;
+  	background: lightslategray;
+  	border-radius: 3px;
+	position: fixed;
+	width: 876px;
+	height: 50px;
+	animation-name: nav;
+	animation-duration: 2s;
+}
+@keyframes nav {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 nav a {
-	margin-right: 40px;
+	padding: 15px 10px;
+	display: inline-block;
 	text-decoration: none;
-	color: gray;
+	color: whitesmoke;
+	margin: 0px 12px;
+	vertical-align: middle;
+	
+}
+nav a:hover {
+	color: #111;
+	animation-name: navhover;
+	animation-duration: .5s;
+}
+@keyframes navhover {
+	0% {color: whitesmoke;}
+	50% {color: steelblue;}
+	100% {color: #111;}
 }
 .masthead {
 	margin-bottom: 60px;
-
+	
 }
 .masthead h1 {
 	font-size: 76px;
 	text-align: center;
-	margin: 80px 10px 0px 100px;
+	margin: 0px 10px 0px 100px;
 	display: inline-block;
 	
 }
-
-.masthead button {
+button {
 	background: white;
 	border: 1px solid black;
 	box-sizing: content-box;
 	padding: 3px 30px;
-	margin: 10px 0 40px 0;
+	margin: 5px 0px 0px 80px;
 	font-size: 16px;
 	font-family: 'Titillium Web', sans-serif;
-	display: inline-block;
+	display: block;
+	font-weight: bold;
+
+}
+button:hover {
+	color: lightsteelblue;
+	border-color: lightsteelblue;
+	animation-name: buttonhover;
+	animation-duration: 1s;
+}
+@keyframes buttonhover {
+	0% {color: black;}
+	0% {border-color: black;}
+	100% {color: lightsteelblue;}
+	100% {border-color: lightsteelblue;}
 }
 .masthead img {
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 90px;
 	margin-left: 60px;
 }
 .main-content {
@@ -113,7 +154,6 @@ nav a {
 	border-bottom: 1px solid black;
 	margin-bottom: 30px;
 }
-
 .about div {
 	width: 400px;
 	display: inline-block;
