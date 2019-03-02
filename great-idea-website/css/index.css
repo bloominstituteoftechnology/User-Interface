@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+  }
+
+/* ------   Navigation   ------ */
+header nav {
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+ 
+  /* ------   Header   ------ */
+  
+  .top-content .tc-text{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:120px;
+	text-align:center;
+	font-size: 80px;
+	padding:0px 75px;
+  }
+  
+  button{
+	font-size: 17px;
+	padding:10px 40px;
+	border: 1px solid black;  
+  }
+
+  .top-content img {
+	display: inline-block;
+	margin-top: 70px;
+  }
+
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 75px;
+	padding-top: 40px;
+  }
+
+  .main-content .first-sec {
+	padding: 0 10px;
+  }
+  
+  .main-content .first-sec .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 35px;
+	margin-bottom: 30px;
+  }
+
+  .main-content .first-sec .text-content:last-child {
+	margin-right: 0;
+  }
+  .main-content .second-sec {
+	margin-top: 35px;
+	padding: 0 10px;
+  }
+  
+  .main-content .second-sec .text-content {
+	display: inline-block;
+	width: 275px;
+	margin-right: 12px;
+  }
+  
+  .main-content .second-sec .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 60px;
+	border-top: 1px solid black;
+	padding: 40px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 35px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  /* ----------- Stretch Goals ------------- */
+
+
+ /* The navigation bar */
+header {
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	border:1px solid grey;
+	background-color: rgb(213, 214, 221);
+	padding:5px;
+  }
+  
+  /* Links inside the navbar */
+  nav a {
+	float: left;
+	display: block;
+	text-align: center;
+  }
+  
+  /* Change background on mouse-over */
+  nav a:hover {
+	background: rgb(255, 252, 252);
+	color: black;
+	
+  }
+  
+  /* Main content */
+  .top-content {
+	margin-top: 35px; /* Add a top margin to avoid content overlay */
+  }
