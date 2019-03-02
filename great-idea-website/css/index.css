@@ -47,9 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -60,6 +57,7 @@ html, body {
 	margin: 0 auto;
 	height: 100%;
 	width: 880px;
+	/* border: 1px solid black; */
 
     font-family: 'Titillium Web', sans-serif;
 }
@@ -73,9 +71,7 @@ h1, h2, h3, h4, h5 {
     
 }
 
-
 /* Your code starts here! */
-
 
 header nav {
 	display: inline-block;
@@ -84,10 +80,8 @@ header nav {
 
 nav a {
 
-	margin-right: 65px;
-
+	margin-right: 63px;
 	font-size: 14px;
-	font-weight: lighter;
 	text-decoration: none;
 	color: #B3B3B3;
 }
@@ -97,6 +91,45 @@ nav a {
 	position: relative;
 	top: 13px;
 
-	margin-left: 22px;
+	margin-left: 29px;
+}
+
+.slogan-container {
 	
+	padding: 73px 0px;
+	border-bottom: 1px solid black;
+}
+
+.slogan {
+	
+	display: inline-block;
+
+	position: relative;
+	bottom: 50px;
+
+	margin-left: 91px;
+	margin-right: 102px;
+
+	text-align: center;
+}
+
+/* ??? Am I allowed to over-ride lambda styles on the h1??? */
+.slogan h1 {
+
+	display: inline-block;
+	font-size: 75px;
+}
+
+.get-started-button {
+	
+	position: relative;
+	top: 2px;
+	
+	height: 34px;
+	width: 176px;
+
+	border: 1px solid black;
+
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
 }
