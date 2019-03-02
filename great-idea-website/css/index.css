@@ -64,3 +64,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header, header nav, .title-left, .title-right {
+	display: inline-block;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	width: 79%;
+	font-weight: bold;
+}
+
+nav a {
+	padding: 0% 5% 0% 5%;
+}
+
+nav a:link, nav a:visited { 
+	color: grey;
+	text-decoration: none;
+	cursor: pointer;
+}
+  
+nav a:link:active, nav a:visited:active { 
+	color: grey;
+}
+
+main{
+	width:100%;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+}
+
+.title-left{
+	width: 49%;
+	align-content: center;
+}
+
+.title-right{
+	align-content: center;
+}
+
+.content-top{
+	width: 100%;
+	padding: 5px 24% 5px 24%;
+
+}
+
+.top{
+}
