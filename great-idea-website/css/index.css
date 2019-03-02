@@ -68,33 +68,65 @@ head {
 	display: block;
 }
 
-
 header {
 	padding-top: 50px;
 	display: block;
 }
+
 header h1 {
+	padding: 20px;
 	font-size: 60px;
 	text-align: center;
 }
+
 .htext {
 	display: inline-block;
-	width: 200px;
+	width: 300px;
 }
+
 .image1 {
 	display: inline-block;
 	width: 200px;
 }
+
 nav b {
+	color: grey;
 	display: inline-block;
+	padding-top: 12px;
 }
+
 .logo {
 	display: inline-block;
+	padding-top: 20px;
 }
+
 body1 {
 	display: block;
 }
+
 .box1 {
+	width: 500px;
 	display: inline-block;
 }
+
+body2 {
+	display: block;
+}
+
+.box2 {
+	width: 300px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.Copyr {
+	padding-right: 700px ;
+	text-align: center;
+}
+
+button {
+	margin-left: 100px;
+	align: center;
+}
+
 /* Your code starts here! */
