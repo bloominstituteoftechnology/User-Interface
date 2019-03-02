@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .nav {
-	  border-radius: 30px;
+	border-radius: 50px;
 	display: inline-block;
 	margin: 0 40px;
 	padding: 0;
@@ -101,28 +101,21 @@ h1, h2, h3, h4, h5 {
   img{
 	  display: inline-block;
 	  padding: 40px;
-	  margin-right : 50px;
-	  margin-left: 50px;
-	  width: auto;
+	  margin: 0 0 0 50px;
+	  width: 300px;
   }
 
   h1{
 	  font-size: 70px;
 	  display: inline-block;
-	  width: 100;
-	  margin-left: 40px;
+	  width: 100px;
+	  margin-left: 10px;
 	  padding: 50px;
   }
-/*
-  .header-logo{
-	  display: inline-block;
-	  width: 40px;
-	  padding: 20px;
-	  margin: 40px;
-	  font-size: 100px;
-  }*/
+/
+  
   button{
-	  border-radius: 30px;
+	  border-radius: 50px;
 	  align-items: center;
 	  background: whitesmoke;
 	  font: black;
@@ -137,8 +130,9 @@ h1, h2, h3, h4, h5 {
 	  background: black;
 	  color: aqua;
   }
-  #container{
-	  margin: 75px;
+ .container{
+	  margin: 0 auto;
+	  width: 1000px;
   }
   .features{
 	  display: inline-block;
@@ -161,14 +155,15 @@ h1, h2, h3, h4, h5 {
 	width:30%;
   }
   .middle-img{
-	  height: auto
-	  width: 100%;
+	margin-right: 0 70px 0 0;
+	margin-left: 0;
+	width: 1000px;
+	
+
   }
   .copyright{
 	  width: auto;
 	  text-align: center;
 	  
   }
-  .top-section{
-	margin: 40px;
-  }
+  
