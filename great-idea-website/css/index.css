@@ -133,3 +133,40 @@ nav a {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 17px;
 }
+
+.main-content {
+	border-bottom: 1px solid black;
+}
+
+.features, .about {
+	display: inline-block;
+	width: 423px;
+	padding: 42px 0;
+}
+
+.about {
+	margin-left: 30px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 280px;
+	padding: 35px 0 61px 0;
+}
+
+.product, .vision {
+	margin-left: 16px;
+}
+
+footer {
+	margin-top: 35px;
+}
+
+#copyright {
+	margin-top: 40px;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
