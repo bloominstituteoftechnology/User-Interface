@@ -128,3 +128,18 @@ header nav {
 	margin-top: 76px;
 	padding-top: 39px;
   }
+
+  .main-content .first-sec {
+	padding: 0 10px;
+  }
+  
+  .main-content .first-sec .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+	margin-bottom: 30px;
+  }
+
+  .main-content .first-sec .text-content:last-child {
+	margin-right: 0;
+  }
