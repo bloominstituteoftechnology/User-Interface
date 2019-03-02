@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +65,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+.navigation  {
+margin: 10px;
+display: inline-block;
+}
+.services,.product,.vision,.features,.about,.contact{
+margin:50px;
+display: inline-block;
+color:gray;
+}
+
+.logo-box{
+ margin:50px;
+display: inline-block;}
+
+
+.title{
+ margin-left: 175px;
+ width: 200px;
+ height:200px;
+ font-size: 400%;     /* Here */
+ margin-right: 400px;
+ display: inline-block;
+}
+.button{
+	border: 1px solid black;
+width: 120px;
+height:50px;
+margin:30px;
+margin-left: 240px;
+padding:12px;
+text-align: center;
+}
+.inlineblock {
+	display: inline-block;
+}
+
+.paragraph1{
+width: 580px;
+ height:200px;
+display: inline-block;
+}
+ .paragraph2{
+ width: 580px;
+  height:200px;
+	margin-left: 20px;
+display: inline-block;}
+	.paragraph3{
+	 width: 380px;
+	 height:200px;
+	 display: inline-block;
+ }
+	 .paragraph4{
+	 width: 380px;
+	  height:200px;
+		margin: 20px;
+	  display: inline-block;}
+		.paragraph5{
+		 width: 380px;
+		 height:200px
+		 margin: 20px;
+		 display: inline-block;
+	 }
+.footer{
+width: 200px;
+ height:80px;
+ margin:20px,20px
+}
