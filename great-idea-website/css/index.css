@@ -64,3 +64,70 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 876px;
+	margin: 0 auto;
+}
+
+header img {
+	margin-left: 120px;
+	margin-top: 20px;
+}
+nav {
+	display: inline-block;
+}
+nav a {
+	margin-right: 40px;
+	text-decoration: none;
+	color: gray;
+}
+.masthead {
+	margin-bottom: 60px;
+
+}
+.masthead h1 {
+	font-size: 76px;
+	text-align: center;
+	margin: 80px 10px 0px 100px;
+	display: inline-block;
+	
+}
+
+.masthead button {
+	background: white;
+	border: 1px solid black;
+	box-sizing: content-box;
+	padding: 3px 30px;
+	margin: 10px 0 40px 0;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+}
+.masthead img {
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.about div {
+	width: 400px;
+	display: inline-block;
+	margin: 20px 30px 20px 0px;
+}
+.service div {
+	width: 250px;
+	display: inline-block;
+	margin: 20px 39px 20px 0px;
+}
+.contact p {
+	margin-bottom: 14px;
+}
+#copy-right {
+	text-align: center;
+	margin-bottom: 60px;
+}
