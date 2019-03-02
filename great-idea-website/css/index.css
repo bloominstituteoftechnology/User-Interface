@@ -47,20 +47,56 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	
+	margin: 0 auto;
+	height: 100%;
+	width: 880px;
+
     font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	
+	margin-bottom: 15px;
+	
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    
 }
 
+
 /* Your code starts here! */
+
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+nav a {
+
+	margin-right: 65px;
+
+	font-size: 14px;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #B3B3B3;
+}
+
+.logo {
+	
+	position: relative;
+	top: 13px;
+
+	margin-left: 22px;
+	
+}
