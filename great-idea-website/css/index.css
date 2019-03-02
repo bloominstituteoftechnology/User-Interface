@@ -120,13 +120,13 @@ header nav {
 
   .top-content img {
 	display: inline-block;
-	margin-top: 69px;
+	margin-top: 70px;
   }
 
   .main-content {
 	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
+	margin-top: 75px;
+	padding-top: 40px;
   }
 
   .main-content .first-sec {
@@ -136,10 +136,40 @@ header nav {
   .main-content .first-sec .text-content {
 	width: 410px;
 	display: inline-block;
-	margin-right: 34px;
+	margin-right: 35px;
 	margin-bottom: 30px;
   }
 
   .main-content .first-sec .text-content:last-child {
 	margin-right: 0;
+  }
+  .main-content .second-sec {
+	margin-top: 35px;
+	padding: 0 10px;
+  }
+  
+  .main-content .second-sec .text-content {
+	display: inline-block;
+	width: 275px;
+	margin-right: 12px;
+  }
+  
+  .main-content .second-sec .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 60px;
+	border-top: 1px solid black;
+	padding: 40px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 35px 0;
+	text-align: center;
+	font-size: 14px;
   }
