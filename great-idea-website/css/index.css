@@ -94,8 +94,9 @@ nav b {
 }
 
 .logo {
+	padding-bottom: 0px;
 	display: inline-block;
-	margin-top: 70px;
+	
 }
 
 body1 {
@@ -113,7 +114,6 @@ body2 {
 
 .box2 {
 	width: 300px;
-	margin: 20px;
 	display: inline-block;
 }
 
@@ -123,6 +123,11 @@ body2 {
 }
 
 button {
+	background: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-left: 100px;
 	align: center;
 }
