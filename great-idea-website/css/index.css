@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,9 +17,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 20px;
+	padding: 20px;
+	border: 20px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -61,6 +62,74 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+head {
+	display: block;
+}
+
+header {
+	display: block;
+}
+
+header h1 {
+	padding: 20px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.htext {
+	display: inline-block;
+	width: 300px;
+}
+
+.image1 {
+	display: inline-block;
+	width: 200px;
+}
+
+nav b {
+	color: grey;
+	display: inline-block;
+}
+
+.logo {
+	padding-bottom: 0px;
+	display: inline-block;
+	
+}
+
+body1 {
+	display: block;
+}
+
+.box1 {
+	width: 500px;
+	display: inline-block;
+}
+
+body2 {
+	display: block;
+}
+
+.box2 {
+	width: 300px;
+	display: inline-block;
+}
+
+.Copyr {
+	padding-right: 700px ;
+	text-align: center;
+}
+
+button {
+	background: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 100px;
+	align: center;
 }
 
 /* Your code starts here! */
