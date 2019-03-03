@@ -87,7 +87,7 @@ nav {
 	background-color: #007AF5;
 }
 
-nav > a {
+.nav-link {
 	margin-right: 30px;
 	padding-right: 38px;
 
@@ -99,21 +99,17 @@ nav > a {
 	text-decoration: none;
 }
 
-nav > a:last-of-type {
+.nav-link:last-of-type {
 	margin-right: 29px;
 	border-right: none;
 }
 
-nav > a:hover {
+.nav-link:hover {
 	color: white;
 	transition: color 150ms linear;
 }
 
-.logo-container {
-	display: inline-block;
-}
-
-.logo-container a {
+.logo {
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -179,12 +175,8 @@ nav > a:hover {
 /* ************************************************
 *                   MAIN CONTENT                  *
 ***************************************************/ 
-.content-container {
-	border-bottom: 1px solid black;
-}
-
 .content-row-1 {
-	margin: 42px 0;
+	padding: 42px 0;
 }
 
 .content-row-1 section
@@ -194,8 +186,10 @@ nav > a:hover {
 }
 
 .content-row-2 {
-	margin-top: 35px;
-	margin-bottom: 61px;
+	padding-top: 35px;
+	padding-bottom: 61px;
+
+	border-bottom: 1px solid black;
 }
 
 .content-row-2 section {
