@@ -57,8 +57,6 @@ html, body {
 	margin: 0 auto;
 	height: 100%;
 	width: 880px;
-	/* border: 1px solid black; */
-
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -72,12 +70,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header nav {
+
+/* ************************************************
+*                       NAV                       *
+***************************************************/ 
+nav {
 	display: inline-block;
 	margin-top: 15px;
 }
 
-nav a {
+nav > a {
 	margin-right: 63px;
 
 	font-size: 14px;
@@ -85,19 +87,22 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:nth-child(6) {
+nav > a:last-of-type {
 	margin-right: 97px;
 }
 
-nav a:last-child {
-	margin-right: 0px;
+.logo-container {
+	display: inline-block;
 }
 
-#logo {
+.logo-container a {
 	position:relative;
 	top: 13px;
 }
 
+/* ************************************************
+*                     BANNER                      *
+***************************************************/ 
 .banner-container {
 	padding: 78px 0px;
 	border-bottom: 1px solid black;
@@ -129,18 +134,20 @@ nav a:last-child {
 
 	border: 1px solid black;
 
-	font-family: 'Titillium Web', sans-serif;
+	font-family: inherit;
 	font-size: 17px;
-	color: black;
+	color: inherit;
 	line-height: 33px;
 	text-decoration: none;
 }
 
-.hero-image-container {
-	display: inline-block;
+.hero-image {
 	vertical-align: middle;
 }
 
+/* ************************************************
+*                   MAIN CONTENT                  *
+***************************************************/ 
 .content-container {
 	border-bottom: 1px solid black;
 }
@@ -149,7 +156,7 @@ nav a:last-child {
 	margin: 42px 0;
 }
 
-.content-row-1 article
+.content-row-1 section
 {
 	display: inline-block;
 	width: 50%;
@@ -160,31 +167,26 @@ nav a:last-child {
 	margin-bottom: 61px;
 }
 
-.content-row-2 article {
+.content-row-2 section {
 	display: inline-block;
+	
 	width: 33.3%;
 	padding-right: 2px;
 }
 
-
 .middle-img {
 	width: 100%;
-} 
-
-
-/* 
-.services, .product, .vision {
-	display: inline-block;
-	width: 280px;
-	padding: 35px 0 61px 0;
 }
 
-.product, .vision {
-	margin-left: 16px;
-} */
-
+/* ************************************************
+*                      FOOTER                     *
+***************************************************/ 
 footer {
 	margin-top: 35px;
+}
+
+footer a {
+	text-decoration: none;
 }
 
 #copyright {
