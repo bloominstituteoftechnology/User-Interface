@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,270 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+
+
+
+
+
+* div p span {
+	font-style: Garamond;
+
+}
+
+
+
+
+.wrap {
+	width:485px;
+
+
+}
+.left {
+	width:50%;
+	height: 123px;
+	float: left;
+	/* margin-left: 10px; */
+	position: relative;
+	text-align: center;
+	line-height: 1.15;
+
+}
+.right {
+	width:50%;
+	height: 123px;
+	float: left;
+	text-align: center;
+	line-height: 1.15;
+	/* margin-right: 10px; */
+
+}
+
+.left1 {
+	width: 33.3333333333%;
+	height: 123px;
+	text-align: center;
+	float: left;
+	padding-left: 10px;
+	line-height: 1.15;
+
+
+
+}
+
+.right1 {
+	width: 33.3333333333%;
+	height: 123px;
+	text-align: center;
+	float: left;
+	padding-left: 10px;
+	line-height: 1.15;
+
+
+
+}
+
+
+ .center {
+	width: 33.3333333333%;
+	height: 123px;
+	text-align: center;
+	float: left;
+	padding-left:5px;
+	line-height: 1.15;
+
+
+}
+
+#wrap {
+	height: 140px;
+}
+ul {
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 78%;
+	float:left;
+}
+
+li {
+	float: left;
+	padding: 0 14px;
+	text-transform: uppercase; /* capitalize is for first letter*/
+
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	color: grey;
+}
+
+.content-row {
+	display: flex;
+}
+
+a.navigation-link {
+	padding: 0px 10px;
+	word-wrap: normal;
+	display: inline-block;
+  }
+
+
+
+
+.btn:hover{
+	background-color: #F9F4F4;
+	transition-duration: 500ms;
+
+
+}
+
+.btn:active{
+	box-shadow: 0 5px #666;
+	transfor: translateY(4px);
+	 }
+
+
+
+.button  {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: black;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	margin-top: 70px;
+	margin-left: 180px;
+	margin-right: auto;
+	margin-bottom: auto;
+
+	transition: transform .35s;
+
+}
+
+.button:hover {
+	background-color: lightgrey;
+
+	-ms-transform: scale(1.25);
+	-webkit-tranform: scale(1.25);
+	transform: scale(1.25);
+}
+
+.button:active {
+	background-color: #fff;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+
+}
+
+
+.logo {
+	display: inline-block;
+	width: 20%;
+	padding-top: 12px;
+	/* position: absolute;
+	right: 0;
+	*/
+	float:left;
+
+
+}
+body {
+	background-color: lightgrey;
+}
+.fullPage {
+	width: 930px;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+nav {
+	position: relative;
+}
+
+.navPad {
+	padding-top: 20px;
+
+}
+.codeSnippet {
+	 margin-right: 50px;
+	 margin-left: auto;
+	 margin-top: -400px;
+	 display: block;
+	 width: 350px;
+	 position: relative;
+	 align-content: right;
+
+ }
+
+ /* margin Top Right Left Bottom */
+
+ .font {
+	 font-family: "Brush Script MT",cursive;
+	 font-size: 70px;
+	 margin-top: 100px;
+	 margin-left: 50px;
+	 position: relative;
+	 text-align: center;
+	 width: 50%;
+
+ }
+
+
+
+.middle-img {
+	width: 95%;
+	margin: 10 10;
+	padding-left: 4%;
+	padding-bottom: 4%;
+	padding-top: 1.5%;
+
+}
+
+.footer {
+	align-content: center;
+	text-align: center;
+}
+
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+  }
+
+
+.bottomLine {
+	margin-bottom: 50px;
+	width: 85%;
+	border-width: 1px;
+}
+
+
+.topLine {
+	width: 85%;
+	margin-top: 45px;
+	border-width: 1px;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.name {
+	font-family: "Brush Script MT",cursive;
+	font-size: 40px;
+}
