@@ -183,6 +183,7 @@ a.navigation-link {
 
 .btn:hover{
 	background-color: #F9F4F4;
+	transition-duration: 500ms;
 
 
 }
