@@ -68,44 +68,45 @@ h1, h2, h3, h4, h5 {
 	
 	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    
 }
 
 /* Your code starts here! */
 
 header nav {
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 15px;
 }
 
 nav a {
-
 	margin-right: 63px;
+
 	font-size: 14px;
-	text-decoration: none;
 	color: #B3B3B3;
+	text-decoration: none;
 }
 
-.logo {
-	
-	position: relative;
-	top: 13px;
+nav a:nth-child(6) {
+	margin-right: 97px;
+}
 
-	margin-left: 29px;
+nav a:last-child {
+	margin-right: 0px;
+}
+
+#logo {
+	position:relative;
+	top: 13px;
+}
+
+.banner-container {
+	padding: 78px 0px;
+	border-bottom: 1px solid black;
 }
 
 .slogan-container {
 	
-	padding: 73px 0px;
-	border-bottom: 1px solid black;
-}
-
-.slogan {
-	
 	display: inline-block;
-
-	position: relative;
-	bottom: 50px;
+	vertical-align: middle;
 
 	margin-left: 91px;
 	margin-right: 102px;
@@ -113,41 +114,65 @@ nav a {
 	text-align: center;
 }
 
-/* ??? Am I allowed to over-ride lambda styles on the h1??? */
-.slogan h1 {
+.slogan-container h1 {
 
 	display: inline-block;
 	font-size: 75px;
 }
 
-.get-started-button {
+.slogan-container a {
 	
-	position: relative;
-	top: 2px;
+	display: inline-block;
 	
 	height: 34px;
-	width: 176px;
+	width: 175px;
 
 	border: 1px solid black;
 
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 17px;
+	color: black;
+	line-height: 33px;
+	text-decoration: none;
 }
 
-.main-content {
+.hero-image-container {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content-container {
 	border-bottom: 1px solid black;
 }
 
-.features, .about {
+.content-row-1 {
+	margin: 42px 0;
+}
+
+.content-row-1 article
+{
 	display: inline-block;
-	width: 423px;
-	padding: 42px 0;
+	width: 50%;
 }
 
-.about {
-	margin-left: 30px;
+.content-row-2 {
+	margin-top: 35px;
+	margin-bottom: 61px;
 }
 
+.content-row-2 article {
+	display: inline-block;
+	width: 33.3%;
+	padding-right: 2px;
+}
+
+
+.middle-img {
+	width: 100%;
+} 
+
+
+/* 
 .services, .product, .vision {
 	display: inline-block;
 	width: 280px;
@@ -156,7 +181,7 @@ nav a {
 
 .product, .vision {
 	margin-left: 16px;
-}
+} */
 
 footer {
 	margin-top: 35px;
