@@ -64,56 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-header, header nav, .title-left, .title-right {
-	display: inline-block;
+
+/*I'll just hard-code widths in px*/
+/*bad for responsive design, but this is a 101-sort of assignment*/
+
+header, main, footer {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.content {
+	margin: auto;
+	width: 1024px;
 }
 
 header {
-	width: 100%;
+	margin-top: 25px;
 }
 
-nav {
-	width: 79%;
-	font-weight: bold;
+header nav {
+	display: inline-block;
 }
 
-nav a {
-	padding: 0% 5% 0% 5%;
+.top {
+	width: 435px;
+	display: inline-block;
 }
 
-nav a:link, nav a:visited { 
-	color: grey;
-	text-decoration: none;
-	cursor: pointer;
-}
-  
-nav a:link:active, nav a:visited:active { 
-	color: grey;
-}
-
-main{
-	width:100%;
-}
-
-h1 {
-	font-size: 45px;
-	text-align: center;
-}
-
-.title-left{
-	width: 49%;
-	align-content: center;
-}
-
-.title-right{
-	align-content: center;
-}
-
-.content-top{
-	width: 100%;
-	padding: 5px 24% 5px 24%;
-
-}
-
-.top{
+.bottom {
+	width: 288px;
+	display: inline-block;
 }
