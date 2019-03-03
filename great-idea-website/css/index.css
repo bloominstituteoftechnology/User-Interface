@@ -73,6 +73,11 @@ header, main, footer {
 	margin-right: 75px;
 }
 
+.top, .bottom {
+	display: inline-block;
+	margin: 40px 0px 40px 0px
+}
+
 .content {
 	margin: auto;
 	width: 1024px;
@@ -88,10 +93,8 @@ header nav {
 
 .top {
 	width: 435px;
-	display: inline-block;
 }
 
 .bottom {
 	width: 288px;
-	display: inline-block;
 }
