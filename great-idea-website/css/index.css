@@ -69,8 +69,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-
 /* ************************************************
 *                       NAV                       *
 ***************************************************/ 
@@ -96,8 +94,8 @@ nav > a:last-of-type {
 }
 
 .logo-container a {
-	position:relative;
-	top: 13px;
+	position: relative;
+	top: 11px;
 }
 
 /* ************************************************
@@ -128,7 +126,6 @@ nav > a:last-of-type {
 .slogan-container a {
 	
 	display: inline-block;
-	
 	height: 34px;
 	width: 175px;
 
@@ -189,11 +186,16 @@ footer a {
 	text-decoration: none;
 }
 
-#copyright {
+.copyright {
 	margin-top: 40px;
 	font-size: 14px;
 	text-align: center;
 }
 
+/*
+	TO DO:
 
+	Change Get Started Link to a button instead of an anchor?
 
+	Does h1 go in the header?
+*/
