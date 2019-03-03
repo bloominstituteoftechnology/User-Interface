@@ -55,8 +55,6 @@ table {
 html, body {
 	
 	margin: 0 auto;
-	height: 100%;
-	width: 880px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -70,25 +68,42 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
 
 /* ************************************************
 *                       NAV                       *
 ***************************************************/ 
 nav {
-	display: inline-block;
-	margin-top: 15px;
+	position: fixed;
+	width: 100%;
+	
+	text-align: center;
+	background-color: #a0a0a0;
 }
 
 nav > a {
-	margin-right: 63px;
+	margin-right: 30px;
+	padding-right: 38px;
 
+	border-right: 1px solid black;
 	font-size: 14px;
-	color: #B3B3B3;
+	color: black;
+
+	line-height: 50px;
 	text-decoration: none;
 }
 
 nav > a:last-of-type {
-	margin-right: 97px;
+	margin-right: 29px;
+	border-right: none;
+}
+
+nav > a:hover {
+	color: white;
+	transition: color 150ms linear;
 }
 
 .logo-container {
@@ -96,8 +111,8 @@ nav > a:last-of-type {
 }
 
 .logo-container a {
-	position:relative;
-	top: 13px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* ************************************************
@@ -126,7 +141,7 @@ nav > a:last-of-type {
 }
 
 .slogan-container a {
-	
+
 	display: inline-block;
 	
 	height: 34px;
@@ -139,6 +154,16 @@ nav > a:last-of-type {
 	color: inherit;
 	line-height: 33px;
 	text-decoration: none;
+}
+
+.slogan-container a:hover {
+	color: white;
+	background-color: black;
+	border-color: #a0a0a0;
+	transition: color 150ms linear,
+				background-color 150ms linear;
+				
+	
 }
 
 .hero-image {
@@ -189,11 +214,13 @@ footer a {
 	text-decoration: none;
 }
 
-#copyright {
+.copyright {
 	margin-top: 40px;
 	font-size: 14px;
 	text-align: center;
 }
+
+
 
 
 
