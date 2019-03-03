@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 
 * div p span {
 	font-style: Garamond;
-	
+
 }
 
 
@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5 {
 
 .wrap {
 	width:485px;
-	
-	
+
+
 }
 .left {
 	width:50%;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5 {
 	/* margin-left: 10px; */
 	position: relative;
 	text-align: center;
-	
+
 }
 .right {
 	width:50%;
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5 {
 	float: left;
 	text-align: center;
 	/* margin-right: 10px; */
-	
+
 }
 
 .left1 {
@@ -109,9 +109,9 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	float: left;
 	padding-left: 10px;
-	
-	
-	 
+
+
+
 }
 
 .right1 {
@@ -120,19 +120,19 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	float: left;
 	padding-left: 10px;
-	
-	
-	
+
+
+
 }
 
- 
+
  .center {
 	width: 33.3333333333%;
 	height: 123px;
 	text-align: center;
 	float: left;
 	padding-left:5px;
-	
+
 
 }
 
@@ -149,7 +149,7 @@ li {
 	float: left;
 	padding: 0 14px;
 	text-transform: uppercase; /* capitalize is for first letter*/
-	
+
 }
 
 li a {
@@ -174,9 +174,9 @@ a.navigation-link {
 
 
 .btn:hover{
-	background-color: #F9F4F4; 
-	
-	
+	background-color: #F9F4F4;
+
+
 }
 
 .btn:active{
@@ -187,10 +187,10 @@ a.navigation-link {
 
 
 .button  {
-	padding: 15px 25px; 
+	padding: 15px 25px;
 	font-size: 24px;
 	text-align: center;
-	cursor: pointer; 
+	cursor: pointer;
 	outline: none;
 	color: black;
 	background-color: white;
@@ -203,13 +203,13 @@ a.navigation-link {
 	margin-bottom: auto;
 
 	transition: transform .35s;
-	
+
 }
 
 .button:hover {
 	background-color: lightgrey;
 
-	-ms-transform: scale(1.25); 
+	-ms-transform: scale(1.25);
 	-webkit-tranform: scale(1.25);
 	transform: scale(1.25);
 }
@@ -234,14 +234,14 @@ a.navigation-link {
 
 }
 body {
-	background-color: lightgrey; 
+	background-color: lightgrey;
 }
 .fullPage {
 	width: 930px;
 	margin: 0 auto;
 	background-color: white;
 	padding-bottom: 20px;
-	
+
 }
 nav {
 	position: relative;
@@ -260,16 +260,19 @@ nav {
 	 position: relative;
 	 align-content: right;
 
- } 
- 
+ }
+
  /* margin Top Right Left Bottom */
 
  .font {
 	 font-family: "Brush Script MT",cursive;
 	 font-size: 70px;
 	 margin-top: 100px;
-	 margin-left: 175px;
+	 margin-left: 50px;
 	 position: relative;
+	 text-align: center;
+	 width: 50%;
+
  }
 
 
@@ -280,7 +283,7 @@ nav {
 	padding-left: 4%;
 	padding-bottom: 4%;
 	padding-top: 1.5%;
-	
+
 }
 
 .footer {
@@ -319,4 +322,3 @@ nav {
 	font-family: "Brush Script MT",cursive;
 	font-size: 40px;
 }
-
