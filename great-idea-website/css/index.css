@@ -97,8 +97,8 @@ nav > a:last-of-type {
 }
 
 .logo-container a {
-	position: relative;
-	top: 11px;
+	position:relative;
+	top: 13px;
 }
 
 /* ************************************************
@@ -129,6 +129,7 @@ nav > a:last-of-type {
 .slogan-container a {
 	
 	display: inline-block;
+	
 	height: 34px;
 	width: 175px;
 
@@ -153,7 +154,7 @@ nav > a:last-of-type {
 }
 
 .content-row-1 {
-	margin: 42px 0;
+	padding: 42px 0;
 }
 
 .content-row-1 section
@@ -163,8 +164,10 @@ nav > a:last-of-type {
 }
 
 .content-row-2 {
-	margin-top: 35px;
-	margin-bottom: 61px;
+	padding-top: 35px;
+	padding-bottom: 61px;
+
+	border-bottom: 1px solid black;
 }
 
 .content-row-2 section {
