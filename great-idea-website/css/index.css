@@ -55,8 +55,6 @@ table {
 html, body {
 	
 	margin: 0 auto;
-	height: 100%;
-	width: 880px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -69,6 +67,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
 /* ************************************************
 *                       NAV                       *
 ***************************************************/ 
@@ -198,4 +202,6 @@ footer a {
 	Change Get Started Link to a button instead of an anchor?
 
 	Does h1 go in the header?
+
+	Should the header go inside a section?
 */
