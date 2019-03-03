@@ -60,7 +60,6 @@ html, body {
 h1, h2, h3, h4, h5 {
 	
 	margin-bottom: 15px;
-	
 	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 }
@@ -76,8 +75,8 @@ h1, h2, h3, h4, h5 {
 *                       NAV                       *
 ***************************************************/ 
 nav {
-	display: inline-block;
-	margin-top: 15px;
+	margin-top: 30px;
+	white-space: nowrap;
 }
 
 nav > a {
@@ -97,15 +96,15 @@ nav > a:last-of-type {
 }
 
 .logo-container a {
-	position:relative;
-	top: 13px;
+	display:inline-block;
+	vertical-align: middle;
 }
 
 /* ************************************************
 *                     BANNER                      *
 ***************************************************/ 
 .banner-container {
-	padding: 78px 0px;
+	padding: 72px 0px;
 	border-bottom: 1px solid black;
 }
 
@@ -115,8 +114,7 @@ nav > a:last-of-type {
 	vertical-align: middle;
 
 	margin-left: 91px;
-	margin-right: 102px;
-
+	
 	text-align: center;
 }
 
@@ -127,23 +125,21 @@ nav > a:last-of-type {
 }
 
 .slogan-container a {
-	
 	display: inline-block;
-	
 	height: 34px;
 	width: 175px;
 
 	border: 1px solid black;
 
-	font-family: inherit;
 	font-size: 17px;
-	color: inherit;
+	color: black;
 	line-height: 33px;
 	text-decoration: none;
 }
 
 .hero-image {
 	vertical-align: middle;
+	margin-left: 102px;
 }
 
 /* ************************************************
