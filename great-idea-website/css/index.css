@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5 {
 	/* margin-left: 10px; */
 	position: relative;
 	text-align: center;
+	line-height: 1.15;
 
 }
 .right {
@@ -99,6 +100,7 @@ h1, h2, h3, h4, h5 {
 	height: 123px;
 	float: left;
 	text-align: center;
+	line-height: 1.15;
 	/* margin-right: 10px; */
 
 }
@@ -109,6 +111,7 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	float: left;
 	padding-left: 10px;
+	line-height: 1.15;
 
 
 
@@ -120,6 +123,7 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	float: left;
 	padding-left: 10px;
+	line-height: 1.15;
 
 
 
@@ -132,8 +136,13 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	float: left;
 	padding-left:5px;
+	line-height: 1.15;
 
 
+}
+
+#wrap {
+	height: 125px;
 }
 
 ul {
