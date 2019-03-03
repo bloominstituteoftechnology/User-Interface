@@ -81,6 +81,7 @@ nav {
 	width: 100%;
 	
 	text-align: center;
+	white-space: nowrap;
 	background-color: #a0a0a0;
 }
 
@@ -119,7 +120,8 @@ nav > a:hover {
 *                     BANNER                      *
 ***************************************************/ 
 .banner-container {
-	padding: 78px 0px;
+	padding-top: 78px;
+	padding-bottom: 30px;
 	border-bottom: 1px solid black;
 }
 
