@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* ************************************************
+*                    CONTAINER                     *
+***************************************************/ 
 .container {
 	width: 880px;
 	margin: 0 auto;
@@ -195,7 +198,7 @@ footer a {
 }
 
 /*
-	TO DO:
+	?'s
 
 	Change Get Started Link to a button instead of an anchor?
 
