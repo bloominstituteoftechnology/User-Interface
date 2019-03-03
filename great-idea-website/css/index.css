@@ -157,6 +157,7 @@ header nav img {
 }
 .middle-img {
 	margin-left: 15px;
+	border-radius: 10px;
 }
 .services {
 	display: inline-block;
