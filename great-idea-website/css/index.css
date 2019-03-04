@@ -90,9 +90,7 @@ nav {
 	background-color: #007AF5;
 }
 
-nav > a {
-	position: relative;
-	
+nav > a {	
 	margin-right: 34px;
 	padding-right: 34px;
 	border-right: 1px solid black;
@@ -249,9 +247,3 @@ footer a {
 	font-size: 14px;
 	text-align: center;
 }
-
-
-
-
-
-
