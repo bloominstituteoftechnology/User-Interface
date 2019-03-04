@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+    padding: 20px 0;
+}
+
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    font-size: 65px;
+    margin-top: 80px;
+}
+
+header {
+    padding: 20px 0 50px 0;
+}
+
+header,
+.bottom-content {
+    border-bottom: 1px solid black;
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 45px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button {
+    border: 1px solid black;
+}
+
+header img {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.headline-img,
+.headline,
+.nav-links,
+.top-content div,
+.bottom-content div {
+    display: inline-block;
+}
+
+.headline,
+.nav-links {
+    vertical-align: top;
+}
+
+.nav-links {
+    margin-right: 50px;
+    margin-top: 12px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.headline {
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.headline-img {
+    height: 400px;
+    width: 45%;
+}
+
+.middle-img,
+header img {
+    width: 100%;
+}
+
+.top-content div {
+    width: 48%;
+}
+
+.top-content div:first-child {
+    margin-right: 3.5%;
+}
+
+.bottom-content div{
+    width: 32%;
+}
+
+.bottom-content div:nth-of-type(1),
+.bottom-content div:nth-of-type(2) {
+    margin-right: 1.5%;
+}
+
+.contact {
+    width: 25%;
+}
