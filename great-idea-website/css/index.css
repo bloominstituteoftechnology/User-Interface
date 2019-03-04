@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	width: 100%;
+	height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -65,113 +66,56 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* This is all navigation related css code */
 .navigation {
-	margin-left: 20px;
-	font-size: 18px;
-	padding: 30px;
-	border: 10px;
-	display: inline-block;
-	width: 2543px;
+	width: 85%;
 }
-
-h1 {
-	height: 100px;
-	width: 120px;
-	padding-top: 150px;
-	padding-left: 120px;
-	font-size: 100px;
+.navigation nav {
+width: 85%;
 }
-header .navigation nav a {
-	margin-left: 50px;
-	font-size: 15px;
+.navigation nav a {
+	padding-left: 13.6%;
 }
-.navigation nav .logo {
-	margin-left: 380px;
-	margin-right: 30px;
-	margin-top: 3px;
-	margin-bottom: 10px;
-	float: right;
-
+/* img Related code/images */
+.imgs {
+	width: 50%;
 }
-.eyecatcher {
-	border-bottom: 1px solid black
+.imgs .logo {
+	position: relative;
+	right: 5%;
+	top: 0%;
 }
-.bottom-content{
-	border-bottom: 1px solid black
+.imgs .roundcode {
+	position: relative;
+	right: 23%;
+	top: 8%;
 }
-.roundcodeimg {
-	padding-left: 45%;
-	
+.imgs .middle-img {
+	position: relative;
+	right: 35%;
+	bottom: 17%;
 }
-button {
-	background-color: white;
-	padding: 10px;
-	height: 42px;
-	width: 132px;
-	margin-top: 320px;
-	margin-left: 8%;
-	float: left;
-
+/* header related code */
+header {
+	width: 100%;
+	height: 50%;
+	position: relative;
+	bottom: 45%;
+	background-color: transparent;
+	border-bottom: 1px solid black;
 }
-.topcontent {
-	height: 279px;
-	width: 1144px;
+header h1 {
+	width: 15%;
+	font-size: 80px;
+	position: relative;
+	left: 23%;
+	bottom: 65%;
 }
-.topcontent .features {
-width: 15%;
-height: 110%;
-text-align: left;
-margin-bottom: 24px;
-padding-left: 10px;
-}
-.fparagraph {
-	
-}
-.topcontent .features h3 {
-	margin-top: 10px;
-	height: 15px;
-	width: 15px;
-}
-.topcontent .about {
- float: right;
- align-content: right;
-}
-.middle-img {
-	padding-left: 200px;
-}
-.bottom-content .services {
-height: 200px;
-width: 200px;
-margin-left: 10px;
-display: inline-block;
-
-
-}
-.bottom-content .product {
-	display: inline-block;
-height: 200px;
-width: 200px;
-margin-left: 150px;
-margin-bottom: 50px;
-}
-.bottom-content .vision {
-	height: 200px;
-	width: 200px;
-	margin-left: 800px;
-	margin-bottom: 100px;
-}
-footer .contact-info {
-margin-top: 100px;
-text-align: left;
-height: 100px;
-width: 120px;
-margin-top: 10px;
-}
-.copyright {
-	text-align: center;
-	margin-top: 10px;
-}
-p {
-	margin-top: 10px;
-	width: 130px;
+/*footer related code*/
+footer {
+	position: relative;
+	width: 100%;
+	height: 20%;
+	top: 75%;
+	background-color: gray;
 }
