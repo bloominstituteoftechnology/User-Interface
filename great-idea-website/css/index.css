@@ -151,7 +151,7 @@ h1 {
 	0%
 	{ 
 		transform: scale(10, 10);
-		opacity 0;
+		opacity: 0;
 	}
 	40%
 	{
