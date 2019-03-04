@@ -79,7 +79,6 @@ h1, h2, h3, h4, h5 {
 ***************************************************/ 
 nav {
 	margin-top: 30px;
-	/* white-space: nowrap; */
 }
 
 nav > a {
@@ -111,7 +110,6 @@ nav > div, .logo-link {
 }
 
 .slogan-container {
-	
 	display: inline-block;
 	vertical-align: middle;
 
@@ -121,7 +119,6 @@ nav > div, .logo-link {
 }
 
 .slogan-container h1 {
-
 	display: inline-block;
 	font-size: 75px;
 }
@@ -195,9 +192,7 @@ footer a {
 /*
 	?'s
 
-	Change Get Started Link to a button instead of an anchor?
+	Change Get Started Link to a button instead of an link?
 
 	Does h1 go in the header?
-
-	Should the header go inside a section?
 */
