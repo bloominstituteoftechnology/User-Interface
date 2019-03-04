@@ -55,7 +55,7 @@ table {
 html, body {
 	
 	margin: 0 auto;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -135,7 +135,6 @@ nav > div, .logo-link {
 	vertical-align: middle;
 
 	margin-left: 91px;
-	margin-right: 102px;
 
 	text-align: center;
 }
@@ -175,6 +174,7 @@ nav > div, .logo-link {
 }
 
 .hero-image {
+	margin-left: 101px;
 	vertical-align: middle;
 }
 
@@ -189,22 +189,22 @@ nav > div, .logo-link {
 	margin: 42px 0;
 }
 
-.content-row-1 section
-{
-	display: inline-block;
-	width: 50%;
-}
-
 .content-row-2 {
 	margin-top: 35px;
 	margin-bottom: 61px;
 }
 
+.content-row-1 section
+{
+	display: inline-block;
+	width: 50%;
+	padding-right: 20px;
+}
+
 .content-row-2 section {
 	display: inline-block;
-	
 	width: 33.3%;
-	padding-right: 2px;
+	padding-right: 20px;
 }
 
 .middle-img {
