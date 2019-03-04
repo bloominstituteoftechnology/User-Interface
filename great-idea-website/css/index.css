@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav{
+	width:90%;
+	margin: auto;
+	padding: 5px;
+}
+nav a{
+	display: inline-block;
+	padding:20px;
+	margin:20px;
+	text-decoration: none;
+	color: gray;
+	box-sizing: border-box;
+	text-align: : center;
+	font-size:16px;
+}
+
+nav img{
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	padding: 20px;
+	margin:20px;
+}
+
+.hero-section{
+	width:90%;
+	margin: auto;
+	height: 550px;
+	border-bottom: 1px solid #717171
+}
+
+.hero-section h1{
+	display: : inline-block;
+	font-size: 85px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 300px;
+	position: relative;
+	top: 100px;
+	left: 200px;
+}
+
+.hero-section img{
+	display: inline-block;
+	box-sizing: border-box;
+	position: absolute;
+	width:450px;
+	height: 450px;
+	top: 150px;
+	right: 150px;
+}
+
+.hero-section button{
+	display: inline-block;
+	width: 200px;
+	font-size:16px;
+	height: 50px;
+	position: absolute;
+	top: 470px;
+	left: 330px;
+	background: white;
+	border-style: solid;
+	border-radius: : 2px;
+	border-color: black;
+}
+
+.intro{
+	margin: auto;
+	width: 90%;
+}
+
+.intro h2{
+	font-size: 24px;
+}
+.intro .features{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	width:45%;
+}
+.intro .about{
+	display:inline-block;
+	margin:20px;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 45%;
+}
+.intro img{
+	width: 100%;
+	margin: auto;
+}
+
+.details{
+	margin: 0 auto;
+	width: 90%;
+	border-bottom: 1px solid #717171;
+}
+
+.details h2{
+	font-size: 24px;
+}
+
+.details .services{
+	display: inline-block;
+	width: 30%;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.details .products{
+	display: inline-block;
+	width:30%;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+.details .vision{
+	display:inline-block;
+	width: 30%;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+footer{
+	margin: 20px;
+	margin-left: 90px;
+	padding: 20px;
+	width: 90%;
+}
+
+footer span{
+	text-align: center;
+	position: relative;
+	left:45%;
+	top: 90%
+}
+
+
+footer p{
+	line-height: 25px;
+}
+
+footer address{
+	padding-bottom: 20px;
+}
+
+footer h2{
+	font-size: 24px;
+}
