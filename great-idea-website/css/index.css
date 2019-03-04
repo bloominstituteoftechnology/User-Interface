@@ -83,6 +83,7 @@ nav {
 	position: fixed;
 	width: 100%;
 
+	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	
 	text-align: center;
@@ -91,8 +92,10 @@ nav {
 }
 
 nav > a {
-	margin-right: 30px;
-	padding-right: 38px;
+	position: relative;
+	
+	margin-right: 34px;
+	padding-right: 34px;
 
 	border-right: 1px solid black;
 	font-size: 14px;
@@ -107,9 +110,29 @@ nav > a:last-of-type {
 	border-right: none;
 }
 
+nav > a:after {
+	content: "";
+	visibility: hidden;
+
+	position: absolute;
+	width: 80%;
+	height: 2px;
+	bottom: -3px;
+	left: -8px;
+
+	background-color: white;
+
+	transform: scaleX(0);
+	transition: all 150ms ease-in-out 0s;
+}
+
 nav > a:hover {
 	color: white;
 	transition: color 150ms linear;
+}
+nav > a:hover:after {
+	visibility: visible;
+	transform:scaleX(1);
 }
 
 nav > div, .logo-link {
@@ -133,8 +156,9 @@ nav > div, .logo-link {
 	
 	display: inline-block;
 	vertical-align: middle;
-
-	margin-left: 91px;
+	
+	width: 50%;
+	/* margin-left: 91px; */
 
 	text-align: center;
 }
@@ -157,14 +181,14 @@ nav > div, .logo-link {
 	font-family: inherit;
 	font-size: 17px;
 	color: inherit;
-	line-height: 33px;
+	line-height: 31px;
 	text-decoration: none;
 }
 
 .slogan-container a:hover {	
 	border: 2px solid black;
 	
-	line-height: 31px;
+	line-height: 29px;
 	color: white;
 
 	background-color: #007AF5;
@@ -174,8 +198,11 @@ nav > div, .logo-link {
 }
 
 .hero-image {
-	margin-left: 101px;
+	display: inline-block;
 	vertical-align: middle;
+	
+	width: 50%;
+	text-align: center;
 }
 
 /* ************************************************
