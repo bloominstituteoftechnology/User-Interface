@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 ***************************************************/ 
 nav {
 	margin-top: 30px;
-	white-space: nowrap;
+	/* white-space: nowrap; */
 }
 
 nav > a {
@@ -94,12 +94,11 @@ nav > a:last-of-type {
 	margin-right: 97px;
 }
 
-.logo-container {
-	display: inline-block;
+nav > div, .logo-link {
+	display:inline-block;
 }
 
-.logo-container a {
-	display:inline-block;
+.logo-link {
 	vertical-align: middle;
 }
 
@@ -153,25 +152,21 @@ nav > a:last-of-type {
 }
 
 .content-row-1 {
-	padding: 42px 0;
+	margin: 42px 0;
 }
 
-.content-row-1 section
-{
+.content-row-2 {
+	margin-top: 35px;
+	margin-bottom: 61px;
+}
+
+.content-row-1 section {
 	display: inline-block;
 	width: 50%;
 }
 
-.content-row-2 {
-	padding-top: 35px;
-	padding-bottom: 61px;
-
-	border-bottom: 1px solid black;
-}
-
 .content-row-2 section {
 	display: inline-block;
-	
 	width: 33.3%;
 	padding-right: 2px;
 }
