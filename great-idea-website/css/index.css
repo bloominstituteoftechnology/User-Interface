@@ -53,14 +53,146 @@ table {
 }
 
 html, body {
-    height: 100%;
+	margin: 0 auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	
+	margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* ************************************************
+*                    CONTAINER                     *
+***************************************************/ 
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* ************************************************
+*                       NAV                       *
+***************************************************/ 
+nav {
+	margin-top: 30px;
+}
+
+nav > a {
+	margin-right: 63px;
+
+	font-size: 14px;
+	color: #B3B3B3;
+	text-decoration: none;
+}
+
+nav > a:last-of-type {
+	margin-right: 97px;
+}
+
+nav > div, .logo-link {
+	display: inline-block;
+}
+
+.logo-link {
+	vertical-align: middle;
+}
+
+/* ************************************************
+*                     BANNER                      *
+***************************************************/ 
+.banner-container {
+	padding: 72px 0px;
+	border-bottom: 1px solid black;
+}
+
+.slogan-container {
+	display: inline-block;
+	vertical-align: middle;
+
+	margin-left: 91px;
+	
+	text-align: center;
+}
+
+.slogan-container h1 {
+	display: inline-block;
+	font-size: 75px;
+}
+
+.slogan-container a {
+	display: inline-block;
+	height: 34px;
+	width: 175px;
+
+	border: 1px solid black;
+
+	font-size: 17px;
+	color: black;
+	line-height: 33px;
+	text-decoration: none;
+}
+
+.hero-image {
+	vertical-align: middle;
+	margin-left: 102px;
+}
+
+/* ************************************************
+*                   MAIN CONTENT                  *
+***************************************************/ 
+.content-container {
+	border-bottom: 1px solid black;
+}
+
+.content-row-1 {
+	margin: 42px 0;
+}
+
+.content-row-2 {
+	margin-top: 35px;
+	margin-bottom: 61px;
+}
+
+.content-row-1 section {
+	display: inline-block;
+	width: 50%;
+}
+
+.content-row-2 section {
+	display: inline-block;
+	width: 33.3%;
+	padding-right: 2px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* ************************************************
+*                      FOOTER                     *
+***************************************************/ 
+footer {
+	margin-top: 35px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.copyright {
+	margin-top: 40px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*
+	?'s
+
+	Change Get Started Link to a button instead of an link?
+
+	Does h1 go in the header?
+*/
