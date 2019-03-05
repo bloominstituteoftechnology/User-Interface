@@ -75,7 +75,46 @@ header, main, footer {
 
 .top, .bottom {
 	display: inline-block;
-	margin: 40px 0px 40px 0px
+	margin: 40px 0px 40px 0px;
+}
+
+header{
+	margin-bottom: 40px;
+}
+
+nav {
+	width: 650px;
+	text-align: center;
+}
+
+a {
+	text-align: center;
+	margin: 25px;
+}
+
+.get-started{
+	width: 435px;
+	display: inline-block;
+	margin: auto;
+}
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 75px;
+}
+
+.button{
+
+	background-color: white;
+	border: 1px solid black;
+	color: grey;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: auto;
 }
 
 .content {
