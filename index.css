@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 60px;
+	border: 40px;
+	padding: 40px;
+}
+
+ .nav a{
+	padding: 40px;
+	border: 20px;
+	margin: 20px;
+	text-decoration: none;
+	color: grey;
+	text-align: center;	
+	background-color: rgb(65, 65, 173);
+}
+.nav img {
+	margin-left: 30px;
+	width:auto;
+}
+
+h1{
+	margin-left: 100px;
+	margin-bottom: 60px;
+	width:48%;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Bangers', cursive;
+}
+	
+.header{
+	display: inline-block;
+	width: 48%;
+	padding-bottom: 40px;
+}
+
+.button{
+	margin-bottom: 20px;
+	background-color: white;
+	border: 1px solid black;
+	height: 50px;
+	width: 180px;
+	display: block;
+	margin-left: 160px;
+}
+
+.space img {
+	display: inline-block;
+	width:49%;
+	margin-left: 160px;
+	margin-top: 160px;
+}
+
+.space{
+	width: 49%;
+	display: inline-block;
+
+}
+
+.aboutfeature {
+	width: 100%;
+	padding-top: 20px;
+	border-top: 1px solid black;
+}
+.feature , .about {
+	display: inline-block;
+	width : 48%;
+	
+}
+
+.accent {
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+	border-bottom: 1px solid black; 
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 33%;
+}
+
+.accent img {
+	width: 100%;
+	padding: 20px 0px 20px 0px;	
+}
+
+.copyright {
+	text-align: center;
+}
+
+.bottom {
+	line-height: 2;
+	padding-bottom: 60px;
+}
