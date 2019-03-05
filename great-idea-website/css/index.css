@@ -96,13 +96,21 @@ h1, h2, h3, h4, h5 {
 	  padding: 20px;
 
 	  margin: 0 20px;
-  }
+	}
+	
+	
   img{
 	  margin-left: 40px;
 	  width: 300px;
 	  height: auto;
-	  display: inline-block;
-  }
+	
+	}
+	.header{
+		display: inline-block;
+	}
+	.image{
+		display: inline-block;
+	}
 
   
   
