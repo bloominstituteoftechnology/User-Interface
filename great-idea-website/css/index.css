@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	width: 100%;
+	height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +65,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* This is all navigation related css code */
+body {
+	position: absolute;
+}
+.navigation {
+	width: 85%;
+}
+.navigation nav {
+width: 85%;
+}
+.navigation nav a {
+	padding-left: 13%;
+}
+/* img Related code/images */
+.imgs {
+	width: 50%;
+}
+.imgs .logo {
+	position: absolute;
+	right: 5%;
+	top: 0%;
+}
+.imgs .roundcode {
+	position: absolute;
+	right: 40%;
+	top: 10%;
+	height: 45%;
+	width: 15%;
+}
+.imgs .middle-img {
+	position: absolute;
+	right: 35%;
+	bottom: 17%;
+}
+/* header related code */
+header {
+	display: inline-block;
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	bottom: 45%;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+}
+header h1 {
+	font-size: 80px;
+	margin: 1%;
+	height: 70%;
+	width: 18%;
+	position: absolute;
+	
+}
+button {
+	position: absolute;
+	background-color: transparent;
+	top: 45%;
+	right: 75%;
+	height: 4%;
+	width: 6%;
+}
+/*footer related code*/
+footer {
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	top: 85%;
+	background-color: gray;
+	left: .2%;
+}
+footer .copyright {
+	text-align: center;
+}
+.columns {
+height: 10%;
+width: 13%;
+
+}
+.columns .features {
+	bottom: 30%;
+	width: 10%;
+	position: absolute;
+	border-right: 1px solid black;
+}
+.columns .about {
+	bottom: 30%;
+	width: 10%;
+	left: 11%;
+	position: absolute;
+}
+.columns .services {
+	width: 10%;
+	bottom: 28%;
+	right: 3%;
+	position: absolute;
+	border-left: 1px solid black;
+	padding-left: 1%;
+}
+.columns .product {
+	width: 10%;
+	bottom: 28%;
+	position: absolute;
+	right: 13%;
+	border-left: 1px solid black;
+	padding-left: 1%;
+}
+.columns .vision {
+	width: 10%;
+	bottom: 30%;
+	position: absolute;
+	right: 23%;
+}
