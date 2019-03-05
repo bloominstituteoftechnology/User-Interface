@@ -67,31 +67,94 @@ h1, h2, h3, h4, h5 {
 
 * {
 	box-sizing: border-box;
+	margin: 100px ;
 }
-.container {
-margin:30px 50px;	
-padding: 40px;
-}
-.container nav a {
+
+
+.container .navitems, .navlogo{
+	display: inline-block;
 	margin: 10px;
+	padding: 40px;
+}
+
+.container .navitems a {
+	margin: 20px;
 	padding: 30px;
 	text-decoration: none;
 	color: gray;
-	display: inline-block;
 }
 
-.container .imageOne .logo {
-	margin: 50px;
-	height: 50px;
+.heading .heading1 {
+	display: inline-block;
+}
+.heading1, .getStarted {
+display: block;
+}
+
+.heading .heading1 {
+	margin-top: 30px;
+	margin-left: 250px;
+	font-size: 70px;
+	padding: 30px;
+}
+.heading .getStarted {
+	margin-bottom: 100px;
+	margin-left: 300px;
+	padding: 30px;
+	height: 20px;
 	width: 200px;
+	border: 1px solid black;
+}
+
+.container .heading .headerimage {
+	position: absolute;
+	right: 800px;
+	top: 10%;
+	margin: 20px;
+	padding: 30px;
+}
+
+.container .content {
+	margin: 100px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+ .container .section1, .section2 { 
+	 font-size: 20px;
+	 height:150px;
+	 width:500px;
+	 padding: 10px;
+	 margin: 60px;
 	display: inline-block;
-	border: 4px dashed green;
 }
 
-.container .heading h1 {
-	margin: 50px;
-	display: block;
-	font-size: 50px;
+.imageThree .middle-img {
+	margin-top: 10px 30px;
+	width: 1200px;
+	height:300px;
+	position: relative;
+	left: 50px;
+	
 }
 
+.container .section3, .section4, .section5 {
+	font-size: 20px;
+	padding: 30px;
+	margin: 60px;
+	height: 200px;
+	width: 300px; 
+	display: inline-block;
+}
+
+.container footer .footer-content{
+	font-size: 18px;
+	margin: 70px 100px;
+}
+
+.container .copyright {
+	margin: 70px;
+	text-align: center;
+	padding: 30px 0;
+}
 
