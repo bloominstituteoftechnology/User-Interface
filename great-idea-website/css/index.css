@@ -64,3 +64,76 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*I'll just hard-code widths in px*/
+/*bad for responsive design, but this is a 101-sort of assignment*/
+
+header, main, footer {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.top, .bottom {
+	display: inline-block;
+	margin: 40px 0px 40px 0px;
+}
+
+header{
+	margin-bottom: 40px;
+}
+
+nav {
+	width: 650px;
+	text-align: center;
+}
+
+a {
+	text-align: center;
+	margin: 25px;
+}
+
+.get-started{
+	width: 435px;
+	display: inline-block;
+	margin: auto;
+}
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 75px;
+}
+
+.button{
+
+	background-color: white;
+	border: 1px solid black;
+	color: grey;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: auto;
+}
+
+.content {
+	margin: auto;
+	width: 1024px;
+}
+
+header {
+	margin-top: 25px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+.top {
+	width: 435px;
+}
+
+.bottom {
+	width: 288px;
+}
