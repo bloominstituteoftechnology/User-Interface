@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr {
+	width: 80%;
+}
+.main-content {
+	margin: 0 20%;
+}
+
+nav {
+	width: 70%;
+	display: inline-block;
+	margin: 0 0 0 5%;
+
+}
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 5%;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.top-feature {
+	margin: 5% 10%;
+}
+
+.feature-text {
+	display: inline-block;
+	width: 30%;
+	height: 220px;
+	margin: 5% 10%;
+}
+
+.feature-text h2 {
+	font-size: 70px;
+}
+
+.first-h2 {
+	text-align: center;
+}
+
+.second-h2 {
+	text-align: center;
+}
+
+.third-h2 {
+	text-align: center;
+}
+
+.get-started-btn {
+	margin-left: 25%;
+	width: 50%;
+	height: 15%;
+	background-color: #fff;
+}
+
+.feature-pic {
+	display: inline-block;
+	Vertical-align: top;
+}
+
+.top-content {
+	margin: 5% 10%;
+	padding-left: 2%;
+}
+
+.features {
+	display: inline-block;
+	width: 40%;
+	margin: 2% 5%;
+}
+
+.about {
+	display: inline-block;
+	width: 40%;
+}
+
+.middle-img {
+	margin: 0 6%;
+}
+
+.bottom-content {
+	margin: 5% 10%;
+	padding-left: 2% 7%;
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1% 0 3%;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+}
+
+.main-address {
+	display: inline-block;
+	margin: 5% 10%;
+}
+
+.main-phone {
+	margin: 15% 0;
+}
+
+.copyright {
+	text-align: center;
+}
