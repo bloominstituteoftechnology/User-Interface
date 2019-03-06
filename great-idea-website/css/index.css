@@ -72,7 +72,7 @@ h1 {
 .container {
 	margin: 0 auto;
 	text-align: center;
-	width: 800px;
+	width: 700px;
 }
 
 header {
@@ -100,39 +100,66 @@ header .logo {
 	padding: 0;
 }
 
-.features, .about, .services, .product, .vision, .contact {
+.features, .about {
 	display: inline-block;
 	width: 45%;
 	text-align: left;
+	margin-right: 4%;
 }
 
 .services, .product, .vision {
 	display: inline-block;
-	width: 27%;
+	width: 30.9%;
 	text-align: left;
-	margin: 3%
+	margin-right: 2%;
+}
+
+.services {
+	margin-left: 0px;
 }
 
 .contact {
 	display: inline-block;
 	width: 100%;
 	text-align: left;
+	margin-bottom: 50px;
 }
 
 .title {
 	display: inline-block;
+	width: 100%;
+}
+
+.title h1 {
+	display: inline-block;
+	width: 40%;
+}
+
+.title button {
+	display: inline-block;
+	width: 125px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.title img {
+	display: inline-block;
+	width: 40%;
 }
 
 .divider {
 	display: inline-block;
 	width: 100%;
 	border-bottom: 1px black solid;
-	margin: 50px;
+	margin: 50px 0px;
 }
 
 .middle-img {
 	display: inline-block;
-	text-align: center;
 	width: 100%;
-	margin: 20px 2%;
+	margin: 50px 0px;
+}
+
+.footer {
+	display: inline-block;
 }
