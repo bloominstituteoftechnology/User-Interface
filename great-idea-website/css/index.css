@@ -64,3 +64,168 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	width: 600px;
+	height:30px;
+	box-sizing:border-box;
+	margin-left:100px;
+	word-spacing: 40px;
+	color:grey;
+	margin-bottom:40px;
+	font-size:15px;
+	margin-top:50px;
+}
+	
+.logo {
+	width: 200px;
+	height:30px;
+	box-sizing:border-box;
+	position:absolute;
+	Margin-right:auto;
+	margin-left:10px;
+	margin-top:45px;
+	
+	
+}
+
+ nav, .logo{
+	display:inline-block;
+	vertical-align:text-top; 
+	 
+}
+
+.main-header {
+	text-align: center;
+	margin-left:170px;
+	box-sizing:border-box;
+	margin-top: 40px;
+    font-size:70px;
+	margin-right: 60px;
+	
+}
+
+
+.main-header, .Image-of-a-code-snippet{
+	display:inline-block;
+	vertical-align:top;
+	
+}
+hr {
+	width:810px;
+	margin-left:100px;
+}
+.features {
+	width:400px;
+	height:20px;
+	margin-left:100px;
+	
+}
+.about {
+	width:400px;
+	height:20px;
+	margin-left: 10px;
+	
+}
+
+.about, .features {
+	display: inline-block;
+	
+}
+
+.p-features {
+	width:400px;
+	height:110px;
+	margin-left:100px;
+	box-sizing:border-box;
+	
+}
+.p-about {
+	width:400px;
+	height:110px;
+	margin-left:10px;
+	box-sizing:border-box;
+}
+.p-features, .p-about {
+	display: inline-block
+}
+
+.middle-img {
+	Width:810px;
+	Height:182px;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+
+.services {
+	width: 260px;
+	height: 20px;
+	margin-left:100px;
+}
+
+.product {
+	width: 260px;
+	height: 20px;
+	margin-left:10px;
+}
+.vision {
+	width: 260px;
+	height: 20px;
+	margin-left:10px;
+}
+
+
+.services, .product, .vision {
+	display:inline-block;
+}
+
+.p-services {
+	width: 260px;
+	height: 130px;
+	margin-left: 100px;
+}
+
+.p-product {
+	width: 260px;
+	height: 130px;
+	margin-left: 10px;
+}
+
+.p-vision {
+	width: 260px;
+	height: 130px;
+	margin-left: 10px;
+	
+}
+
+.p-vision, .p-product, .p-services {
+	display:inline-block;
+}
+.contact {
+	margin-left: 100px;
+	width:710px;
+	height:16px;
+	margin-top: 20px;
+	box-sizing:border-box;
+
+}
+address {
+	margin-left:100px;
+}
+.small {
+	margin-left:380px;
+	width:810px;
+	height:100px;
+	
+	
+	
+}
+.phone, .sales {
+	width:810px;
+	height:16px;
+	
+	margin-top:20px;
+}
+.sales {
+	margin-bottom: 20px;
+}
