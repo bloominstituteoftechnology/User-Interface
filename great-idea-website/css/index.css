@@ -53,8 +53,9 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+}
+.logo {
+	margin-top: 10px;
+	text-align: center;
+}
+.button {
+	width: 150px;
+	padding-left:30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	margin-left: 150px;
+}
+.button:hover {
+	color: red;
+
+}
+.inno {
+	font-weight: 700;
+	font-size: 70px;
+	width: 200px;
+	padding: 5px;
+	text-align: center;
+	margin-left: 100px;
+	
+}
+.nav {
+	margin: 10px 30px 0 30px;
+}
+.nav:hover {
+	color:red;
+}
+.footer {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 50px;
+}
+.undnav {
+	display: inline-block;
+	width: 400px;
+	margin: 20px 20px 40px 0px;
+}
+.section {
+	display: inline-block;
+	width: 435px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.section2 {
+	display: inline-block;
+	width: 269px;
+	margin: 20px 20px 40px 0px;
+}
+.mid {
+	width: 1000px;
+	display: inline-block;
+}
+.wow {
+	margin-top: 10px;
+}
+.fix { 
+	width: 150px;
+}
+.botsect {
+	border-bottom: 2px solid black;
+	width: 875px;
+}
+.cont {
+	margin-top: 30px;
+}
+.topsect {
+	border-top: 2px solid black;
+	width: 875px;
+}
+.mainpic {
+	margin: 10px 10px 10px 30px;
+}
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
