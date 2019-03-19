@@ -79,6 +79,10 @@ div:not(.main-header) {
 	text-align: initial;
 }
 
+div.main-header {
+	margin-left: 4em;
+}
+
 
 nav {
 	display: inline-block;
