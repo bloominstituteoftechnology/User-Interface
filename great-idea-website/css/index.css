@@ -177,4 +177,13 @@ li {
 		padding-bottom: 50px;
 	} 
 
-	
+	nav .logo1 {
+		display: inline-block;
+		margin-left: 0;
+		width: 100%;
+		height: 300px;
+	}
+	.btn1 {
+		width: 200px;
+		background: grey;
+	}
