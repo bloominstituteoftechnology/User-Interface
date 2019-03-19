@@ -75,11 +75,6 @@ div {
 	padding: 2em;
 }
 
-img:last-of-type {
-	border: 2px solid black;
-	box-shadow: 2px 2px 5px rgba(50,50,50, .8)
-}
-
 nav {
 	display: inline-block;
 	margin: 0 auto;
@@ -207,7 +202,8 @@ span {
 	display: block;
 	width: 80%;
 	margin: 2em auto;
-	
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px rgba(50,50,50, .8)
 }
 
 .two-x-two {
