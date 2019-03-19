@@ -161,6 +161,24 @@ nav li:hover {
 	transform: scale(1.1);
 }
 
+footer {
+	padding: 1em;
+
+}
+
+footer span {
+	padding: .5em 0;
+}
+
+address {
+	padding: .5em 0;
+}
+
+span {
+	display: block;
+	padding: .5em 0;
+}
+
 
 .logo {
 	display: inline-block;
@@ -194,24 +212,6 @@ nav li:hover {
 	display: inline-block;
 	width: 30%;
 	padding: 1em;
-}
-
-footer {
-	padding: 1em;
-
-}
-
-footer span {
-	padding: .5em 0;
-}
-
-address {
-	padding: .5em 0;
-}
-
-span {
-	display: block;
-	padding: .5em 0;
 }
 
 #contactInfo {
