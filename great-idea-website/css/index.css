@@ -70,31 +70,32 @@ h1, h2, h3, h4, h5 {
 }
 header nav {
 	display: inline-block;
-	/* width: 800px; */
 	vertical-align: top;
 	margin-top: 30px;
-	
-
-}
+	}
 .top-content header nav {
 	display: inline-block;
 	margin: 15px;
 	padding: 10px;
 	vertical-align: top;
+	position: fixed;
+	background:#515D70;
 }
 header nav a {
 	padding: 17px;
 	display: inline-block;
 	font-size: 16px;
-	color: gray;
+  color: white; 
+	font-family: 'Libre Barcode 39 Extended Text', cursive;
+	font-size: 18px;
 	}
 .headings .head-image {
 	display: inline-block;
-	/* width: 800px; */
 	vertical-align: top;
 	padding: 0px; 
 	margin-top: 130px;
 	}
+	
 	.headings .comp {
 		display: inline-block;
 	} 
@@ -111,15 +112,12 @@ nav .logo {
 	}
 h1 {
 	font-size: 60px;
-	/* width: 400px; */
 	margin-top: -34px;
 
 }
-/* body {
-	background-image: url("https://www.bing.com/th?id=OIP.YKjxr5cRUsZ7UYD-JfpRKAHaFL&w=242&h=169&c=7&o=5&pid=1.7");
-} */
 
-h2,p {
+
+h2, p {
 	text-align: left;
 }
 .headings .head-image {
@@ -170,15 +168,13 @@ li {
 .bottom-section p {
 	padding-bottom: 3px;
 }
-.bottom-section p .gap {
-	padding-top: 0px;
-}
+
 .copyright {
 	text-align: center;
 }
-
-/*stretch*/
-header nav a:hover {
-	text-decoration: underline;
-  }
  
+	.spacer {
+		padding-bottom: 50px;
+	} 
+
+	
