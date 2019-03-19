@@ -75,14 +75,10 @@ div {
 	padding: 2em;
 }
 
-div:not(.main-header) {
-	text-align: initial;
+img:last-of-type {
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px rgba(50,50,50, .8)
 }
-
-div.main-header {
-	margin-left: 4em;
-}
-
 
 nav {
 	display: inline-block;
@@ -107,6 +103,14 @@ p {
 	background: rgba(255,255,255,0.4);
 	padding: .5em 1em;
 	box-shadow: 1px 1px 5px black;
+}
+
+div:not(.main-header) {
+	text-align: initial;
+}
+
+div.main-header {
+	margin-left: 4em;
 }
 
 nav ul li a {
