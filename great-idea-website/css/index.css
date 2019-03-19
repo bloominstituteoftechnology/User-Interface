@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	background: #ddd;
 }
 
 h1, h2, h3, h4, h5 {
@@ -81,19 +82,32 @@ div:not(.main-header) {
 
 nav {
 	display: inline-block;
-	width: 80%;
 	margin: 0 auto;
+	background: rgba(200,200,200, 1)
 }
 
 h1 {
 	display: inline-block; 
 	font-size: 6em;
 	text-align: center;
+	text-shadow: 1px 1px white;
 }
 
 h2 {
+	text-shadow: 1px 1px white;
 	width: 33%;
 	display: inline-block;
+}
+
+p {
+	background: rgba(255,255,255,0.4);
+	padding: .5em 1em;
+	box-shadow: 1px 1px 5px black;
+}
+
+nav ul li a {
+	font-weight: bold;
+	text-shadow: .5px .5px black;
 }
 
 div span {
@@ -113,9 +127,11 @@ div a {
 }
 
 div a:hover {
-	transform: scale(1.3);
-	color: cyan;
-	background: green;
+	/* transform: scale(1.3); */
+	color: black;
+	background: white;
+	animation: 1.2s infinite pulse;
+
 }
 
 li a {
@@ -130,18 +146,28 @@ nav li {
 	flex-basis: 80%;
 	padding: 1.75em;
 	display: inline-block;
+	border-right: 2px double black;
+	border-bottom: 2px double black;
+	box-shadow: 1px 2px 1px rgba(50,50,50,0.7);
 }
+
 
 nav li:first-child {
 	margin-left: 1em;
+}
+
+nav li:hover {
+	background: white;
+	transform: scale(1.1);
 }
 
 
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 1em;
+	margin: 0 1em;
 	padding-top: 1em;
+
 }
 
 .img-right {
@@ -172,6 +198,11 @@ nav li:first-child {
 
 footer {
 	padding: 1em;
+
+}
+
+footer span {
+	padding: .5em 0;
 }
 
 address {
@@ -183,8 +214,30 @@ span {
 	padding: .5em 0;
 }
 
+#contactInfo {
+	display: block;
+	width: 30%;
+	padding: .5em 1em;
+	background: rgba(255,255,255,0.4);
+	box-shadow: 1px 2px 1px rgba(50,50,50,0.7);
+}
 
 #copyright {
 	display: block;
 	text-align: center;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.3);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+
 }
