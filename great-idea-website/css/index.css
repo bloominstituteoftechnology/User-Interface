@@ -62,5 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+
+body {
+  margin:20px 40px 50px 40px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+	margin-right: 90px;	
+	color: grey;
+	position: relative;
+}
+
+.logo {
+	float: right;
+	margin-top: -20px;
+}
+
+.top-header {
+	display: inline-block;
+	width: 500px;
+	height: 100px;
+}
+
+.theme {
+	font-size: 70px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+ button {
+	background: white;
+	border: 1px solid grey;
+	position: relative;
+	left: 150px;
+	bottom: 60px;
+}
+
+.top .top-left {
+	display: inline-block;
+	width: 49%;
+	padding-bottom: 50px;
+}
+
+.top .top-right {
+	display: inline-block;
+	width: 49%;
+	position: relative;
+	left: 20px;
+}
+
+.header-img {
+	height: 300px;
+	width: 300px;
+}
+
+.block1 {
+	display: inline-block;
+}
+
+.middle {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
