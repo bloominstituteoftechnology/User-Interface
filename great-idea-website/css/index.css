@@ -91,6 +91,7 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol,
 ul {
 	list-style: none;
 }
+
 blockquote,
 q {
 	quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -157,18 +163,30 @@ h5 {
 	/* border: 1px dashed red; */
 }
 
+.mainScrollArea {
+	margin-top: 30px;
+}
+
 header {
 	margin: 14px 20px;
+	position: fixed;
+	top: 0;
 }
 
 header nav {
 	display: inline-block;
+	background-color: steelblue;
 }
 
 header nav a {
 	margin: 0 25px;
 	text-decoration: none;
 	color: lightgray;
+}
+
+header nav a:hover {
+	background-color: lightgray;
+	color: steelblue;
 }
 
 .logo {
@@ -196,6 +214,7 @@ main button {
 main img {
 	margin: 0 0 -57px 40px;
 }
+
 main {
 	margin: 70px 0 100px 0;
 }
