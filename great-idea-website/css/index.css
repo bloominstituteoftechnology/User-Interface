@@ -72,21 +72,33 @@ body {
 
 .nav {
 	display:inline-block;
+	background-color: greenyellow;
+	border: 2px solid black;
+	position: fixed;
+  	top: 0;
+  
 }
 
 a {
+	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
 	color: grey;
 	padding: 0 50px 0 0;
 }
 
+a:hover { 
+	background-color: lightskyblue;
+  }
+
 a:last-child {
-	padding-left: 7px;
+	padding-right: 0;
 }
 
 .logo-box {
 	display: inline-block;
+	padding-left: 590px;
 }
+
 
 h1 {
 	font-size: 80px;
@@ -151,8 +163,99 @@ main {
 	margin: 40px 0;
 }
 
+.contact-nav {
+	background-color:lightskyblue;
+}
 
+.contact-nav a:hover { 
+	background-color: greenyellow;
+  }
 
+.contact-us {
+	font-size: 60px;
+	text-align:center;
+	margin-top: 40px;
+}
+
+.info {
+	font-size: 20px;
+	text-align: center;
+}
+
+.find-us {
+	font-size: 60px;
+	text-align:center;
+	margin-top: 40px;
+}
+
+.social-media {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/*Social meadia button styles*/
+.fa {
+	padding: 0;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+  .fa-pinterest {
+	background: #cb2027;
+	color: white;
+  }
+  
+  .fa-snapchat-ghost {
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .closing {
+	  font-size: 40px;
+	  text-align:center;
+
+  }
+  
+  
 
 
 
