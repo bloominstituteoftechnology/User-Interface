@@ -152,9 +152,9 @@ h5 {
 /* Your code starts here! */
 
 .container {
-	width: 1000px;
-	margin: auto;
-	border: 1px dashed red;
+	width: 900px;
+	margin: 0 auto;
+	/* border: 1px dashed red; */
 }
 
 header {
@@ -167,6 +167,8 @@ header nav {
 
 header nav a {
 	margin: 0 25px;
+	text-decoration: none;
+	color: lightgray;
 }
 
 .logo {
@@ -200,4 +202,47 @@ main {
 
 .lasth1 {
 	margin-bottom: -11px;
+}
+
+.TopRow {
+	margin: 50px 0px;
+}
+
+.Features {
+	width: 400px;
+	display: inline-block;
+}
+
+.About {
+	width: 450px;
+	display: inline-block;
+	margin: 0 0 0 44px;
+}
+
+.BottomRow {
+	margin: 50px 0;
+}
+
+.Services {
+	display: inline-block;
+	width: 280px;
+}
+
+.Product {
+	display: inline-block;
+	width: 280px;
+	margin: 0 15px;
+}
+
+.Vision {
+	display: inline-block;
+	width: 280px;
+}
+
+footer {
+	text-align: center;
+}
+
+.Contact {
+	margin: 50px 0 0 0;
 }
