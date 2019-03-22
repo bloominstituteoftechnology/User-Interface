@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Global definitions */
+body {
+	padding: 15px 50px;
+	width: 920px;
+	color: gray;
+	line-height: 1.1;
+}
+
+h1, h2 {
+	color: black;
+}
+
+.box {
+	margin: 25px 0;
+	vertical-align: top;
+}
+
+/* Menu bar */
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.menu-box {
+	width: 875px;
+}
+
+nav, .logo, .innovation, .box {
+	display: inline-block;
+}
+
+nav {
+	width: 625px;
+	vertical-align: top;
+	padding-top: 12px;
+}
+
+nav a {
+	margin-left: 40px;
+	text-decoration: none;
+	color: lightgray;
+	font-size: 13px;
+	padding: 3px 5px;
+	border: 1px solid transparent;
+}
+
+nav a:hover {
+	color: black;
+	border: 1px solid black;
+}
+
+nav a:first {
+	margin-left: 0;
+}
+
+.logo {
+	vertical-align: top;
+}
+
+/* Hero */
+.hero-box {
+	margin: 50px 0;
+}
+
+.innovation {
+	width: 60%;
+	height: 200px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.hero-button {
+	padding: 7px 35px;
+	border: 1px solid gray;
+	background-color: white;
+	color: gray;
+}
+
+.hero-button:hover {
+	border: 1px solid black;
+}
+
+.hero-img {
+	width: 39%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Midsection */
+.features, .about {
+	width: 48%;
+}
+
+.services, .product, .vision {
+	width: 33%;
+}
+
+.middle-img {
+	display: block;
+	width: 100%;
+}
+
+/* Footer area */
+.contact p {
+	padding: 10px 0;
+}
+
+.copyright {
+	text-align: center;
+	padding: 0 0 10px;
+}
+
+small {
+	font-size: 10px;
+}
