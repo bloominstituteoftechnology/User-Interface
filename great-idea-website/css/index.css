@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+div.navigation{
+	margin: 0 0 0 50px;
+	display: inline-block;
+}
+
+div.navigation a{
+	color: grey;
+	padding: 70px;
+}
+
+div.navigation img.logo{
+	margin: 20px 0 -10px 80px;
+	padding: 10px 0 0 100px;
+}
+
+header h1{
+	text-align: center;
+	width: 400px;
+	font-size: 100px;
+	display: inline-block;
+	margin: 0 0 20px 300px;
+	padding: 0 20px 60px 0;
+}
+
+header button{
+	display: inline-block;
+	vertical-align: 40px;
+	margin: -100px 0 0 380px;
+	padding: 10px 80px 10px 80px;
+	background-color: white;
+	border-color: grey;
+}
+
+header img{
+	margin: 10px 0 -50px 300px;
+	padding: 50px 0 0 0;
+	display: inline-block;
+}
+
+hr.top{
+	border-width: 1px;
+	border-color: rgb(182, 180, 180);
+	margin: 0 200px 0 200px;
+}
+
+section.top-content h2{
+	font-size: 20px;
+}
+
+section.top-content h2.features{
+	margin: 50px 0 20px 320px;
+	display: block;
+}
+
+section.top-content p.features{
+	margin: 0 0 0 320px;
+	width: 450px;
+}
+
+section.top-content h2.about{
+	display: block;
+	margin: -110px 0 20px 850px;
+}
+
+section.top-content p.about{
+	vertical-align: middle;
+	margin: 0 0 0 850px;
+	width: 450px;
+	display: inline-block;
+	
+}
+
+img.middle-img {
+	display: inline-block;
+	margin: 50px 0 0 400px;
+}
+
+section.bottom-content h2{
+	font-size: 20px;
+}
+
+section.bottom-content h2.services{
+	margin: 50px 0 20px 220px;
+	display: block;
+}
+
+section.bottom-content p.services{
+	margin: 0 0 0 220px;
+	width: 350px;
+}
+
+
+section.bottom-content h2.product{
+	display: block;
+	margin: -120px 0 20px 650px;
+}
+
+section.bottom-content p.product{
+	vertical-align: middle;
+	margin: 0 0 0 650px;
+	width: 350px;
+	display: inline-block;
+}
+
+section.bottom-content h2.vision{
+	display: block;
+	margin: -120px 0 20px 1050px;
+}
+
+section.bottom-content p.vision{
+	vertical-align: middle;
+	margin: 0 0 0 1050px;
+	width: 350px;
+	display: inline-block;
+}
+
+section.contact h2{
+	font-size: 20px;
+	margin: 50px 0 0 220px;
+}
+
+section.contact p{
+	width: 220px;
+	margin: 20px 0 0 220px;
+}
+
+footer{
+	margin: 60px 0 150px 0;
+	text-align: center;
+}
+
+
