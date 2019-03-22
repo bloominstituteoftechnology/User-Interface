@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+
+body {
+	width: 67%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	margin: 0 60px 0 0; 
+	position: relative;
+	bottom: 10px;
+}
+
+nav .logo {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+header h1 {
+	font-size: 70px;
+	margin: 40px 20px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+header button {
+	background: white;
+	border: 1px solid gray;
+	color: gray;
+	padding: 5px 40px;
+	position: relative;
+	left: 150px;
+	bottom: 60px;
+}
+
+header .side-left {
+	display: inline-block;
+	width: 49%;
+	padding-bottom: 50px;
+
+}
+
+header .side-right {
+	display: inline-block;
+	width: 49%;
+	position: relative;
+	left: 20px;
+}
+
+.top-content {
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+}
+
+.features {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.about {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.middle-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+.bottom-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	display: inline-block;
+	width: 33%;
+}
+
+.product {
+	display: inline-block;
+	width: 33%;
+}
+
+.vision {
+	display: inline-block;
+	width: 33%;
+}
+
+footer .footer-contact {
+	padding-top: 40px;
+}
+
+footer address {
+	padding: 10px 0px;
+}
+
+footer .phone {
+	padding: 10px 0px;
+}
+footer .email {
+	padding: 10px 0px;
+}
+
+footer .copyright {
+	text-align: center;
+	padding: 30px 0px 150px 0px;
+}
