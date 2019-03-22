@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -160,26 +160,37 @@ h5 {
 .container {
 	width: 900px;
 	margin: 0 auto;
-	/* border: 1px dashed red; */
+}
+
+.fixedNavBar {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	z-index: 999;
 }
 
 .mainScrollArea {
 	margin-top: 30px;
 }
 
+header nav a.firstNav {
+	margin-left: 0;
+}
+
 header {
-	margin: 14px 20px;
-	position: fixed;
-	top: 0;
+	margin: 0 20px 14px 0;
+	width: 900px;
+	background-color: steelblue;
 }
 
 header nav {
 	display: inline-block;
-	background-color: steelblue;
+	width: 650px;
 }
 
 header nav a {
-	margin: 0 25px;
+	margin: 0 30px 10px;
+	display: inline-block;
 	text-decoration: none;
 	color: lightgray;
 }
@@ -191,32 +202,32 @@ header nav a:hover {
 
 .logo {
 	margin-left: 50px;
+	vertical-align: bottom;
 }
 
 main {
-	margin-top: 70px;
+	margin: 50px 0 70px 0;
+	display: inline-block;
 }
 
 .Company {
+	width: 515px;
 	display: inline-block;
-	margin: 0 0 0px 100px;
 	font-size: 80px;
 	text-align: center;
 	line-height: 60px;
+	vertical-align: auto;
+}
+
+main img {
+	margin: 0 0 -40px 0;
 }
 
 main button {
 	padding: 5px 50px;
 	display: inline-block;
 	background-color: white;
-}
-
-main img {
-	margin: 0 0 -57px 40px;
-}
-
-main {
-	margin: 70px 0 100px 0;
+	border: 1px solid black;
 }
 
 .lasth1 {
@@ -224,18 +235,13 @@ main {
 }
 
 .TopRow {
-	margin: 50px 0px;
+	display: block;
+	margin: 50px 0;
 }
 
 .Features {
-	width: 400px;
 	display: inline-block;
-}
-
-.About {
-	width: 450px;
-	display: inline-block;
-	margin: 0 0 0 44px;
+	width: 445px;
 }
 
 .BottomRow {
@@ -244,18 +250,7 @@ main {
 
 .Services {
 	display: inline-block;
-	width: 280px;
-}
-
-.Product {
-	display: inline-block;
-	width: 280px;
-	margin: 0 15px;
-}
-
-.Vision {
-	display: inline-block;
-	width: 280px;
+	width: 290px;
 }
 
 footer {
@@ -263,5 +258,5 @@ footer {
 }
 
 .Contact {
-	margin: 50px 0 0 0;
+	margin: 30px 0 0 0;
 }
