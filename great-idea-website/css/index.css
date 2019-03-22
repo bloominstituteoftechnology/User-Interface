@@ -86,7 +86,7 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	border: 2px solid green;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -157,3 +157,67 @@ h5 {
 }
 
 /* Your code starts here! */
+
+div.container {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+
+
+}
+
+header nav {
+	display: inline-block;
+	margin: 0 0 10px 10px;
+}
+
+header nav .nav-item {
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 0 10px 10px 10px;
+	margin: 0 10px 10px 0;
+	color: #373737;
+	text-decoration: none;
+}
+
+header nav .nav-item:hover {
+	color: dodgerblue;
+}
+
+.container header nav img.logo {
+	display: inline-block;
+	padding: 2px;
+	margin: 0 0 0 40px;
+}
+
+.container header h1 {
+	font-size: 5rem;
+	text-align: center;
+	margin: 150px 350px 10px 0;
+}
+
+.container header p {
+	display: inline-block;
+	font-size: 1.4rem;
+	border: 2px solid #373737;
+	margin: 10px 0 10px 140px;
+}
+
+.container header img.header-image {
+	display: inline-block;
+	margin: 0 0 0 350px;
+}
+
+hr {
+	width: 100%;
+}
+
+img.middle-img {
+	width: 100%;
+	display: inline-block;
+}
+
+header nav img {
+	display: inline-block;
+
+}
