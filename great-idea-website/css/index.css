@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 1060px;
+	margin: auto;	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navbox{
+border-bottom: solid 2px black;
+box-sizing:border-box;
+display: block;
+width: 1060px;
+margin-bottom: 25px;
+}
+
+.navlink {
+color:darkgrey;
+text-decoration: none;
+font-size: 14px;
+width: 100px;
+text-align: center;
+box-sizing: border-box;
+margin: 0 10px 5px;
+display: inline-block;
+vertical-align: bottom;
+padding-bottom: 5px;
+}
+
+.logo {
+width: 300px;
+box-sizing: border-box;
+margin-left: 10px;
+margin-bottom: 5px;
+display: inline-block;
+vertical-align: bottom;
+}
+
+.headerbox {
+color:black;
+width:1060px;
+border-bottom: thick 1px black;
+box-sizing: border-box;
+display:block;
+}
+
+.mainheader {
+font-size: 90px;
+width: 350px;
+text-align: center;
+box-sizing: border-box;
+margin-top: 40px;
+margin-left: 210px;
+margin-bottom: 60px;
+display: inline-block;
+vertical-align:top;
+}
+
+.headerimg {
+font-size: 16px;
+box-sizing: border-box;
+float: right;
+display: inline-block;
+}
+
+.getstarted {
+color:black;
+text-decoration: none;
+font-size: 20px;
+width: 175px;
+padding: 5px;
+border: solid 1px grey;
+text-align: center;
+box-sizing: border-box;
+display: block;
+margin-left: 290px;
+}
+
+.featuressection{
+width:530px;
+padding: 20px 0;
+border-top: solid 1px black;
+display: inline-block;
+margin-top:25px;
+}
+.aboutsection{
+width:530px;
+padding: 20px 0;
+border-top: solid 1px black;
+display: inline-block;
+margin-top:25px;
+}
+
+.middleimage{
+width: 1060px;
+display: block;
+box-sizing: border-box;
+}
+
+.servicessection{
+width:353px;
+padding: 20px 0;
+border-bottom: solid 1px black;
+display: inline-block;
+margin:25px 0;
+}
+.productsection{
+width:353px;
+padding: 20px 0;
+border-bottom: solid 1px black;
+display: inline-block;
+margin:25px 0;
+}
+.visionsection{
+width:353px;
+padding: 20px 0;
+border-bottom: solid 1px black;
+display: inline-block;
+margin:25px 0;
+}
+
+.footer {
+width: 1060px;
+display: inline-block;
+text-align: center;
+}
