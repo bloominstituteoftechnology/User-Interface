@@ -55,7 +55,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+  height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	max-width: 1060px;
 	margin: auto;	
@@ -70,132 +70,137 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .navbox{
-box-shadow:2px 5px 7px black ;
-background-image: radial-gradient(circle, white, lightblue, aqua);
-border-bottom: solid 2px black;
-position: fixed;
-z-index: 3;
 box-sizing:border-box;
 display: block;
 width: 1060px;
 margin-bottom: 25px;
+position: fixed;
+z-index: 3;
+box-shadow:2px 5px 7px black ;
+background-image: radial-gradient(circle, white, lightblue, aqua);
+border-bottom: solid 2px black;
 }
 
 .navlink {
-color:darkgrey;
-text-decoration: none;
-font-size: 14px;
-width: 100px;
-text-align: center;
 box-sizing: border-box;
-margin: 0 10px 5px;
 display: inline-block;
+text-decoration: none;
+text-align: center;
 vertical-align: bottom;
-padding-bottom: 1px;
+color:darkgrey;
 background:linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-background-position: 0 100%;
 background-repeat: repeat-x;
-background-size: 4px 1px;
 transition: background-size .5s;
+width: 100px;
+padding-bottom: 1px;
+margin: 0 10px 5px;
+font-size: 14px;
+background-size: 4px 1px;
+background-position: 0 100%;
 }
+
 .navlink:hover {
 	background-size: 4px 60px;
-  }
+	}
+	
 .logo {
-width: 300px;
 box-sizing: border-box;
-margin-left: 10px;
-margin-bottom: 5px;
 display: inline-block;
 vertical-align: bottom;
+width: 300px;
+margin-left: 10px;
+margin-bottom: 5px;
+
 }
 
 .headerbox {
-margin-top: 80px;
-color:black;
-width:1060px;
-border-bottom: thick 1px black;
 box-sizing: border-box;
 display:inline-block;
+color:black;
+border-bottom: thick 1px black;
+width:1060px;
+margin-top: 80px;
+
 }
 
 .mainheader {
-font-size: 90px;
-width: 350px;
-text-align: center;
 box-sizing: border-box;
+text-align: center;
+vertical-align:top;
+width: 350px;
 margin-top: 40px;
 margin-left: 210px;
 margin-bottom: 60px;
-display: inline-block;
-vertical-align:top;
+font-size: 90px;
 }
 
 .headerimg {
-font-size: 16px;
 box-sizing: border-box;
 float: right;
-display: inline-block;
 }
 
 .getstarted {
+box-sizing: border-box;
+display: block;
+text-align: center;
 color:black;
 text-decoration: none;
+border: solid 1px grey;
 font-size: 20px;
 width: 175px;
 padding: 5px;
-border: solid 1px grey;
-text-align: center;
-box-sizing: border-box;
-display: block;
 margin-left: 290px;
 }
 
 .featuressection{
-width:530px;
-padding: 20px 0;
 border-top: solid 1px black;
 display: inline-block;
+width:530px;
+padding: 20px 0;
 margin-top:25px;
 }
+
 .aboutsection{
-width:530px;
-padding: 20px 0;
 border-top: solid 1px black;
 display: inline-block;
+width:530px;
+padding: 20px 0;
 margin-top:25px;
 }
 
 .middleimage{
-width: 1060px;
 display: block;
-box-sizing: border-box;
+box-sizing: border-box;	
+width: 1060px;
 }
 
 .servicessection{
+display: inline-block;	
 width:353px;
 padding: 20px 0;
-border-bottom: solid 1px black;
-display: inline-block;
 margin:25px 0;
-}
-.productsection{
-width:353px;
-padding: 20px 0;
 border-bottom: solid 1px black;
-display: inline-block;
-margin:25px 0;
-}
-.visionsection{
-width:353px;
-padding: 20px 0;
-border-bottom: solid 1px black;
-display: inline-block;
-margin:25px 0;
 }
 
+.productsection{
+display: inline-block;	
+width:353px;
+padding: 20px 0;
+margin:25px 0;
+border-bottom: solid 1px black;
+}
+
+.visionsection{
+display: inline-block;	
+width:353px;
+padding: 20px 0;
+margin:25px 0;
+border-bottom: solid 1px black;
+}
+
+
 .footer {
-width: 1060px;
 display: inline-block;
 text-align: center;
+width: 1060px;
 }
