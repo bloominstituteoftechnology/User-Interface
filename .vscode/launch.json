@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Launch Extension",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm"
+        },
+        {
+            "name": "Launch Script on Server",
+            "request": "launch",
+            "type": "janus",
+            "script": "",
+            "username": "",
+            "password": "extension.vscode-janus-debug.askForPassword",
+            "principal": "",
+            "host": "localhost",
+            "applicationPort": 11000,
+            "debuggerPort": 8089,
+            "currentConfiguration": true,
+            "stopOnEntry": true,
+            "log": {
+                "fileName": "/vscode-janus-debug-launch.log",
+                "logLevel": {
+                    "default": "Debug"
+                }
+            },
+            "timeout": 6000
+        },
+        {
+            "name": "Launch Script on Server",
+            "request": "launch",
+            "type": "janus",
+            "script": "",
+            "username": "",
+            "password": "${command:extension.vscode-janus-debug.askForPassword}",
+            "principal": "",
+            "host": "localhost",
+            "applicationPort": 11000,
+            "debuggerPort": 8089,
+            "currentConfiguration": true,
+            "stopOnEntry": true,
+            "log": {
+                "fileName": "${workspaceRoot}/vscode-janus-debug-launch.log",
+                "logLevel": {
+                    "default": "Debug"
+                }
+            },
+            "timeout": 6000,
+            "localSources": {
+                "include": "**/*.js",
+                "exclude": "**/node_modules/**"
+            }
+        },
+        {
+            "name": "Attach to Server",
+            "request": "attach",
+            "type": "janus",
+            "host": "localhost",
+            "debuggerPort": 8089,
+            "log": {
+                "fileName": "${workspaceRoot}/vscode-janus-debug-attach.log",
+                "logLevel": {
+                    "default": "Debug"
+                }
+            },
+            "timeout": 6000,
+            "localSources": {
+                "include": "**/*.js",
+                "exclude": "**/node_modules/**"
+            }
+        }
+    ]
+}
