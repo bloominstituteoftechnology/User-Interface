@@ -3,64 +3,279 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+title {
+    display: none;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    margin-top: 60px;
+    margin-left: 180px;
+    text-decoration: none;
+    color: silver;
+}
+
+header img {
+    padding: 0px 0px 0px 35px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+
+/* END OF HEADER PORTION, LOOKS GOOD */
+
+h1 {
+    font-size: 170px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 0px;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    vertical-align: 50%;
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    width: 30%;
+    margin-top: 125px;
+    margin-left: 125px;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    margin-left: 420px;
+    margin-bottom: 150px;
+    font-size: 20px;
+}
+
+
+/* END OF BIG CONTENT, DID THE BEST I COULD */
+
+.midContent {
+    border-top: 2px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 40px;
+}
+
+
+/* .midContent h3 {
+    font-size: 50px;
+} */
+
+.middle-img {
+    display: block;
+    width: 84.5%;
+    margin: 150px;
+    margin-right: 150px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+div {
+    display: inline-block;
+    width: 45%;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+
+/* END OF MIDCONTENT HAPPY WITH RESULTS */
+
+.lowContent {
+    border-bottom: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100x;
+}
+
+.lowcont {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 40px;
+    width: 25%;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+
+/* END OF LOW CONTENT */
+
+.contact {
+    font-size: 40px;
+    margin: 120px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-left: 875px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
