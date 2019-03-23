@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+:root {
+	--mainColor: black;
+  }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -68,7 +70,11 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .navbox{
+box-shadow:2px 5px 7px black ;
+background-image: radial-gradient(circle, white, lightblue, aqua);
 border-bottom: solid 2px black;
+position: fixed;
+z-index: 3;
 box-sizing:border-box;
 display: block;
 width: 1060px;
@@ -85,9 +91,16 @@ box-sizing: border-box;
 margin: 0 10px 5px;
 display: inline-block;
 vertical-align: bottom;
-padding-bottom: 5px;
+padding-bottom: 1px;
+background:linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 4px 1px;
+transition: background-size .5s;
 }
-
+.navlink:hover {
+	background-size: 4px 60px;
+  }
 .logo {
 width: 300px;
 box-sizing: border-box;
@@ -98,11 +111,12 @@ vertical-align: bottom;
 }
 
 .headerbox {
+margin-top: 80px;
 color:black;
 width:1060px;
 border-bottom: thick 1px black;
 box-sizing: border-box;
-display:block;
+display:inline-block;
 }
 
 .mainheader {
