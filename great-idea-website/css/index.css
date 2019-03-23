@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, button {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	
+	height: 1200px
+}
+header nav{
+	display:inline-block;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+header nav a{
+	margin: 0 24px;
+	text-decoration: none;
+	color:#a6a6a6;
+}
+a:hover{
+	background: gray;
+}
+a:active {
+	color: #0000FF;
+}
+
+p{
+	font-size: 11px;
+}
+.logo{
+	margin-left: 38px;
+	margin-top: 21px;
+	margin-bottom: -12px;
+}
+.demand{
+	margin-top: 20px;
+	vertical-align: top;
+}
+.text{
+	font-size: 80px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 73px;
+    margin-right: 75px;
+    vertical-align: top;
+    margin-top: 43px;
+	
+}
+button {
+	border: 2px solid black;
+	background: white;
+    border: 2px solid black;
+    vertical-align: top;
+    padding: 4px 38px;
+    font-size: 18px;
+}
+.demand img{
+	margin-bottom: 120px;
+}
+
+.top-content{
+	display:inline-block;
+	column-count:2;
+	border-top: 2px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+.text-content{
+	margin:10px;
+	margin-left: 0px;
+}
+.bottom-content{
+	display:inline-block;
+	column-count: 3;
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.contact h4{
+	margin-top: 25px;
+}
+.contact p{
+	margin-bottom: 12px;
+}
+footer{
+	text-align: center;
+	margin-bottom: 100px;
+    margin-top: 30px;
+}
