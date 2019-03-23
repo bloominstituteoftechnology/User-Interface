@@ -84,13 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -105,45 +104,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1,
@@ -151,73 +150,69 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-div.container {
-	display: inline-block;
-	width: 100%;
-	padding: 10px;
-
-
+.container {
+  width: 100%;
+  padding: 10px 50px 10px 50px;
 }
 
-header nav {
-	display: inline-block;
-	margin: 0 0 10px 10px;
+nav {
+  display: inline-block;
+  margin: 0 0 10px 10px;
 }
 
-header nav .nav-item {
-	display: inline-block;
-	font-size: 1.2rem;
-	padding: 0 10px 10px 10px;
-	margin: 0 10px 10px 0;
-	color: #373737;
-	text-decoration: none;
+.nav-item {
+  display: inline-block;
+  font-size: 1.2rem;
+  /* padding: 0 10px 10px 10px; */
+  margin: 0 40px 10px 0;
+  color: #373737;
+  text-decoration: none;
 }
 
-header nav .nav-item:hover {
-	color: dodgerblue;
+.nav-item:hover {
+  color: dodgerblue;
 }
 
-.container header nav img.logo {
-	display: inline-block;
-	padding: 2px;
-	margin: 0 0 0 40px;
+.logo {
+  display: inline-block;
+  margin: 0 0 0 40px;
 }
 
-.container header h1 {
-	font-size: 5rem;
-	text-align: center;
-	margin: 150px 350px 10px 0;
+.h1andbutton {
+  display: inline-block;
 }
 
-.container header p {
-	display: inline-block;
-	font-size: 1.4rem;
-	border: 2px solid #373737;
-	margin: 10px 0 10px 140px;
+header h1 {
+  font-size: 4rem;
 }
 
-.container header img.header-image {
-	display: inline-block;
-	margin: 0 0 0 350px;
+header button {
 }
 
-hr {
-	width: 100%;
+img.header-image {
+  display: inline-block;
+  margin: 20px 0 20px 180px;
 }
 
-img.middle-img {
-	width: 100%;
-	display: inline-block;
+.top-content {
+  width: 45%;
 }
 
-header nav img {
-	display: inline-block;
+.top-content h2 {
+  display: inline-block;
+}
 
+.top-content p {
+  display: inline-block;
+}
+
+.bottom-content {
+  width: 30%;
 }
