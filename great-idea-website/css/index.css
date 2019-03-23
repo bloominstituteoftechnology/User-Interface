@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5 {
 	color: gray;
   }
 
+  span{
+	  margin: 50px;
+  }
+
 nav ul li {
 	display: inline-block;
 	margin-right: 130px;
@@ -82,8 +86,8 @@ h1 {
 
 header {
 	border-bottom: 1px solid black;
-	margin: 20px 0;
-  	padding: 20px 0;
+	width: 800px;
+	margin: 0 auto;
 }
 
 header div img {
@@ -99,6 +103,12 @@ header img{
 header div{
 	margin-top: 200px;
 }
+
+.img-main{
+	width: 800px;
+	margin: 0 auto;
+}
+
 div .img-main {
 	object-fit: fill;
 	display: block;
@@ -111,16 +121,20 @@ div .img-main {
 
 .container div{
   display: inline-block;
-  width: 400px;
-  margin-right: 90px;
+  width: 310px;
+  margin-right: 80px;
 }
 
+.container2{
+	width: 800px;
+	margin: 0 auto;
+}
 
 .container2 div {
 	margin-bottom: 40px;
 	display: inline-block;
-	width:200px;
-	margin-right: 90px;
+	width:170px;
+	margin-right: 70px;
 	margin-bottom: 20px;
 	
 }
@@ -128,6 +142,8 @@ div .img-main {
 address{
 	border-top: 1px solid black;
 	padding-top: 20px;
+	width: 800px;
+	margin: 0 auto;
 }
 
 footer p {
