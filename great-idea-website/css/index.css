@@ -150,26 +150,26 @@ TOP-CONTENT
 
 
 
-.top-content section {
+header .top-content section {
 	display: inline-block;
 	width: 49%;
 	vertical-align: middle;
-	margin-bottom: 70px;
+	margin: 70px 0;
 }
 
 .left-column {
 	padding-left: 60px;
 }
 
-.left-column h2 {
+.left-column h1 {
 	font-size: 86px;
 }
 
-.left-column h2 .center-text {
+.left-column h1 .center-text {
 	margin-left: 130px;
 }
 
-.left-column h2 .bottom-text{
+.left-column h1 .bottom-text{
 	margin-left: 50px;
 }
 
