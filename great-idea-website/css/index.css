@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.bortest{
+}
+.nav {
+display: inline-block;
+width: 500px;
+}
+
+.gidea{
+display: inline;
+margin: 20px 0 0 20px;
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	margin: 100px 50px 30px 100px;
+}
+
+.roundimg{
+display: inline-block;
+margin: 50px 0;
+}
+
+.biglet{
+	display: inline-block;
+	vertical-align: top;
+}
+	
+.para1{
+	display: inline-block;
+	width: 450px;
+
+}
+.para2{
+	display: inline-block;
+	width: 300px;
+}
+
+p{
+margin: 20px;
+}
+
+.parawhole{
+	
+}
+
+h2{
+	display: inline;
+	margin: 20px;
+}
+
+.imagemargin{
+	margin: 20px;
+}
+
+body{
+	margin: 20px;
+	/* background: black; */
+}
+
+.button {
+	margin: 27px;
+	text-decoration: none;
+	color: grey;
+}
+
+address{
+	
+}
+
+.GS{
+	border: 1px solid black;
+	padding: 5px 20px;
+	margin: 20px 20px 20px 200px;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	color:grey;
+}
+
+.container{
+	margin: 0 auto;
+	width: 920px;
+	background:white;
+}
+.copy{
+	text-align: center;
+	margin: 50px;
+}
+
+.contact{
+	margin-top: 40px;
+	display: block;
+}
