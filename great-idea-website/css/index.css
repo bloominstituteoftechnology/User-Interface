@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+hr {
+	border: .25px solid;
+}
+
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 20px 0;
+	border: 2px solid green;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	margin-left: 17px;
+	/* border: 2px solid red; */
+}
+
+nav a:first-child {
+	margin-left: 0px;
+}
+
+img.logo {
+	width: 150px;
+	display: inline-block;
+	margin-left: 111px;
+	border: 2px solid red;
+}
+
+#topLeft {
+	width: 290px;
+	/* border: 2px solid red; */
+	display: inline-block;
+}
+
+#topRight {
+	width: 290px;
+	/* border: 2px solid purple; */
+	display: inline-block;
+	margin-left: 16px;
+}
+
+#headerHeader {
+	font-size: 40px;
+	/* border: 2px solid green; */
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
+
+button {
+	margin: 0 auto;
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#headerImage {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+#features {
+	display: inline-block;
+	width: 200px;
+	border: 2px solid red;
+}
+
+#about {
+	display: inline-block;
+	width: 200px;
+	border: 2px solid red;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.contact {
+	margin-top: 20px;
+}
+
+.contact a {
+	text-decoration: none;
+	color:inherit;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 20px 100px 20px;
+}
