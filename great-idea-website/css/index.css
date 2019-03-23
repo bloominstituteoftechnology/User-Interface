@@ -163,10 +163,11 @@ h5 {
 
 .nav a {
   text-decoration: none;
-  vertical-align: bottom;
   padding: 0px 60px 0px 0px;
   color: lightgray;
   font-size: 14px;
+  border: 1px solid red;
+  vertical-align: middle;
 }
 
 .nav a:hover {
@@ -183,8 +184,12 @@ h5 {
 .logo{
   display: inline-block;
   padding-left: 30px;
-  margin-top: 20px;
+  border: 1px solid red;
   vertical-align: bottom;
+}
+
+.logo img {
+  display: inline-block;
 }
 
 .splash {
