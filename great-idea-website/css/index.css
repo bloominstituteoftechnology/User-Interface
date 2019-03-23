@@ -142,5 +142,20 @@ header nav a {
 
 .main .main-content {
 	background: lightgreen;
-	width: 50%;
+	width: 49%;
+	display: inline-block;
+}
+
+
+.content .content-triple {
+	background: gray;
+	width: 32%;
+	display: inline-block;
+}
+
+
+
+footer {
+	text-align: center;
+	margin: 20px 0;
 }
