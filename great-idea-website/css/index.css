@@ -64,3 +64,225 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/************************
+
+Google Fonts Noto Sans
+
+**************************/
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v8/o-0NIpQlx3QUlC5A4PNjXhFVZNyBx2pqPA.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/************************
+
+General
+
+**************************/
+
+nav a, h3, p {
+	font-family: 'Noto Sans', sans serif;
+}
+
+.container {
+	width: 870px;
+	margin: 0 auto;
+}
+
+.middle-content h3, .features h3, .contact h3 {
+	font-weight: 700;
+}
+
+/************************
+
+HEADER
+
+**************************/
+
+
+
+header {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+header nav {
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	vertical-align: top;
+	margin-top: 10px;
+	
+}
+
+header nav a {
+	padding-left: 12px;
+	text-decoration: none;
+	color: #B6B7B8;
+	padding-right: 33px;
+	font-size: 15px;
+}
+
+header img.logo {
+	margin-left: 71px;
+}
+
+
+
+/************************
+
+TOP-CONTENT
+
+**************************/
+
+
+
+.top-content section {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	margin-bottom: 70px;
+}
+
+.left-column {
+	padding-left: 60px;
+}
+
+.left-column h2 {
+	font-size: 86px;
+}
+
+.left-column h2 .center-text {
+	margin-left: 130px;
+}
+
+.left-column h2 .bottom-text{
+	margin-left: 50px;
+}
+
+.left-column button.btn-started {
+	margin-left: 80px;
+	padding: 8px 40px;
+	font-size: 16px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.right-column img {
+	padding-left: 35px;
+}
+
+hr {
+	border: 0.5px solid black;
+}
+
+/************************
+
+MIDDLE CONTENT
+
+**************************/
+
+
+
+.middle-content section {
+	display: inline-block;
+	width: 49%;
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+.middle-content .left-mid-column {
+	width: 49%;
+}
+
+.middle-content .right-mid-column {
+	width: 49%;
+	margin-left: 13px;
+}
+
+
+
+/************************
+
+HERO-IMG
+
+**************************/
+
+
+
+.hero-img {
+	margin: 30px 0 30px;
+}
+
+
+
+/************************
+
+FEATURES
+
+**************************/
+
+.features {
+	margin-bottom: 50px;
+}
+
+.features section {
+	display: inline-block;
+	font-size: 14px;
+	
+}
+
+.features .services {
+	width: 33%;
+}
+
+.features .product {
+	width: 33%;
+}
+
+.features .vision {
+	width: 33%;
+}
+
+
+
+/************************
+
+CONTACT
+
+**************************/
+
+.contact {
+	margin-top: 40px;
+}
+
+.number {
+	padding: 15px 0;
+}
+
+
+
+/************************
+
+FOOTER
+
+**************************/
+
+footer {
+	margin: 50px 0;
+	text-align: center;
+	font-size: 14px;
+}
