@@ -73,7 +73,10 @@ body {
 /* why doesn't the margin-top property work on header nav to lower the nav bar? */
 header {
 	margin-top: 20px;
-	/* border: 1px solid green; */
+	position: sticky;
+	top: 0;
+	background-color: #05c6fb;
+	padding: 5px;
 }
 header nav {
 	display: inline-block;
