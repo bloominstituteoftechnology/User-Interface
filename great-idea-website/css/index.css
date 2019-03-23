@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+div {
+	display: inline-block;
+}
+
+.menu a:link {
+	padding-right: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+	text-decoration: none;
+	color: gray;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+/******** CONTAINERS **********/
+.site-container {
+	width: 100%;
+	padding: 3px;
+}
+
+.top-container {
+	width: 100%;
+}
+.codecircle-slogan-container {
+	width: 100%;
+}
+
+.middle-container {
+	width: 100%;
+	padding: 30px 0 40px 0;
+	border-top: 2px solid black;
+}
+
+.services-container {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
+	
+}
+/************ END CONTAINERS ************/
+
+.get-started-button {
+	padding: 2px 42px 2px 42px;
+}
+
+.menu {
+	width: 100%;
+	padding-bottom: 25px;
+	vertical-align: middle;
+}
+
+.big-box {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	width: 49.8%;
+	vertical-align: top;	
+}
+
+.big-box h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.features-about-boxes {
+	width: 48.5%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.services-product-vision-boxes {
+	width: 32.8%;
+	padding-top: 3px;
+	padding-bottom: 3px;	
+}
+
+#logo-image {
+	vertical-align: middle;
+	padding-left: 30px;
+}
+
+#slogan {
+	vertical-align: bottom;
+	margin-bottom: 65px;	
+}
+
+#codecircle {
+
+}
+
+#codecircle img {
+	display: block;
+	margin-left: auto;
+	/*margin-right: auto;*/
+}
+
+#middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#features {
+	margin-right: 10px;
+}
+
+#about {
+	margin-left: 10px;
+}
+
+#copyright {
+	font-size: 12px;
+	text-align: center;
+}
+
+
