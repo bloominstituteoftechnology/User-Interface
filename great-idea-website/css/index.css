@@ -190,4 +190,17 @@ footer p {
 	text-align: center;
 }
 
+#get-started-button-box {
+	width: 50%;
+	padding-left: 150px;
+	
+}
+
+#get-started-button-box input {
+	padding: 3px 50px 3px 50px;
+	background-color: white;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
 
