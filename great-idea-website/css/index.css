@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 900px;
 	margin: auto;
-
 }
 header nav {
 	display: inline-block;
@@ -79,23 +78,45 @@ header nav a {
 }
 header nav a:link {
 		color: gray;
+	 	text-decoration: none;
 }
 header nav a:visited {
 		color: gray;
+		text-decoration: none;
 }
 header .logo {
 	margin-left: 100px;
 	margin-right: 30px;
 	margin-top: 20px;
 }
-.top h1 {
+.leftpane {
 	display: inline-block;
-	font-size: 60px;
+	border: 1px solid red;
+	margin-left: 54px;
+	height: 100px;
+  	line-height: 82px;
+  	white-space: nowrap;
+}
+.leftpane h1 {
+	font-size: 75px;
 	text-align: center;
 }
-.top img{
+.leftpane button {
+	border: 1px solid black;
+	font-size: 20px;
+	margin: 0 25px;
+	margin-left: 95px;
+	text-align: center;
+	color: black;
+	background: white;
+}
+.top img {
 	margin-top: 30px;
 	margin-left: 130px;
+}
+.top {
+	margin-bottom: 62px;
+	margin-top: 38px;
 }
 .textblocks {
 	width: 290px;
