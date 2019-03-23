@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 0 auto;
 	border: 1px solid red;
+	box-sizing: border-box;
+	vertical-align: top;
 }
 
 header {
@@ -103,6 +105,22 @@ header nav a {
 	display: inline-block;
 }
 
+.banner {
+	border: 1px solid red;
+}
+
+.banner .banner-text {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+	width: 50%;
+	margin: 10px 0 50px 0;
+	border: 1px solid slategray;
+}
 .banner .banner-text h1 {
 	font-size: 80px;
+}
+
+.banner .banner-text button {
+	width: 150px;
 }
