@@ -67,10 +67,11 @@ h1, h2, h3, h4, h5 {
 
 /* Global definitions */
 body {
-	padding: 15px 50px;
 	width: 920px;
-	color: gray;
+	padding: 15px 50px;
+	margin: 0 auto;
 	line-height: 1.1;
+	color: gray;
 }
 
 h1, h2 {
