@@ -64,3 +64,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    font-family: 'Impact bolder', sans-serif;
+}
+
+
+.first-img  {
+		display: block;
+		margin-left: auto;
+		margin-right: 0px;
+		width: 50%;
+		padding: 10px;
+  }
+
+ .carrot { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	  }
+
+ } 
+
+.apple {
+	color: #00ff00;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+
+.grape {
+	color: #00ff00;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 55;
+	font: inherit;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+  }
