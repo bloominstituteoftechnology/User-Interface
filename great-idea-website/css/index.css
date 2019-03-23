@@ -191,9 +191,12 @@ nav {
 
 header h1 {
   font-size: 4rem;
+  margin: 0 0 70px 0;
 }
 
 header button {
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
 }
 
 img.header-image {
@@ -202,17 +205,25 @@ img.header-image {
 }
 
 .top-content {
-  width: 45%;
+  display: inline-block;
+  width: 90%;
 }
 
 .top-content h2 {
   display: inline-block;
+  position: relative;
 }
 
 .top-content p {
   display: inline-block;
+  position: relative;
 }
 
 .bottom-content {
-  width: 30%;
+  display: inline-block;
+}
+
+.container footer {
+  display: inline-block;
+  margin: 0 auto;
 }
