@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 30px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+header nav .first-anchor {
+	margin-left: 0;
+}
+
+header .logo {
+	margin-left: 50px;
+}
+
+div.top{
+	padding: 25px;
+	margin: 30px 0px;
+}
+
+div.top section.title {
+	display: inline-block;
+	width: 450px;
+	vertical-align: top;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+	width: 450px;
+	margin-top: 40px;
+}
+
+button{
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1.5px solid black;
+	padding: 2px 45px;
+	margin-left: 150px;
+}
+
+div.middle {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+div.middle div.top-text{
+	margin: 35px 0px;
+}
+div.middle div.top-text .left {
+	display: inline-block;
+	width: 449px;
+}
+
+div.middle div.top-text .right {
+	display: inline-block;
+	width: 449px;
+}
+
+div.middle div.bottom-text{
+	margin: 35px 0px;
+}
+
+div.middle div.bottom-text .left{
+	display: inline-block;
+	width: 290px;
+}
+
+div.middle div.bottom-text .middle{
+	display: inline-block;
+	width: 290px;
+}
+
+div.middle div.bottom-text .right{
+	display: inline-block;
+	width: 290px;
+}
+
+div.contact {
+	margin: 35px 0px;
+}
+
+div.contact p{
+	margin: 12px 0px;
+}
+
+div.contact p.copyright {
+	text-align: center;
+}
