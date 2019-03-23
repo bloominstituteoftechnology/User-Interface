@@ -60,7 +60,29 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin: 10px auto;
+padding:50px;
+border: 30px;
 }
 
 /* Your code starts here! */
+.navigation{background-color:black;
+	color:dodgerblue;}
+
+
+	.top-content{
+	text-align:center;
+	display:inline-block;
+	margin: 10px auto;
+	padding:50px;
+	border: 30px;
+	  position: relative;}
+	
+	.bottom-content{margin: 10px auto;
+		padding:50px;
+		border: 30px;
+		position: relative;
+		.contact{display:block;}
+		.header{text-align:center;
+			display:inline-block;}
