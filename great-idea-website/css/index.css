@@ -64,3 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+header {
+	height: 60px;
+	border: 1px solid rebeccapurple;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 125px;
+	height: 35px;
+	
+
+	border: 1px solid rgb(19, 91, 139);
+}
+
+header nav a {
+	margin: 20px;
+	vertical-align: middle;
+
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.banner-text {
+	display: inline-block;
+}
+
+.content-double {
+	display: inline-block;
+}
+
+.banner .banner-text h1 {
+	font-size: 80px;
+}
