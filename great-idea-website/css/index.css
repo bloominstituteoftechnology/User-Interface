@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 800px;
+	margin: auto;
+	vertical-align: top;
+}
+
+header {
+	margin: 10px 0;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 0;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: darkgray;
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+
+header img {
+	margin: 20px 0 10px 60px;
+}
+
+.contentHeader {
+	margin: 30px 0;
+}
+
+/* section padding */
+.twocol, .threecol, .contact {
+	padding: 30px 0;
+}
+
+/* 2 columns wide */
+.twocol {
+	display: inline-block;
+	width: 398px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 90px;
+}
+h2 {
+	font-size: 18px;
+}
+
+.contentHeader .twocol:first-child {
+	margin: 35px 0;
+	text-align: center;
+}
+.contentHeader .twocol:last-child {
+	text-align: right;
+}
+
+button {
+	background-color: snow;
+	border: 1px solid black;
+	padding: 5px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+  .content {
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+  }
+
+  .content .twocol:first-child {
+	  padding-right: 10px;
+  }
+
+  .middle-img {
+	text-align: center;
+	width: 800px;
+  }
+
+/* 3 columns wide */
+.threecol {
+	display: inline-block;
+	width: 264px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.contact p {
+	line-height: 20px;
+	padding-bottom: 15px;
+}
+
+footer {
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 14px;
+}
