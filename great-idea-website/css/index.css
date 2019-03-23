@@ -213,6 +213,11 @@ button {
   background: white;
   padding: 5px 35px 5px 35px;
   margin-bottom: 40px;
+  color: black;
+}
+
+button:hover {
+  color: hotpink;
 }
 
 .features,
