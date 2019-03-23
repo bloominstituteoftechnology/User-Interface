@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	border: 1px solid red;
 	box-sizing: border-box;
-	vertical-align: top;git c
+	vertical-align: top;
 }
 
 header {
@@ -89,7 +89,7 @@ header nav {
 
 header nav a {
 	margin: 20px;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 
 }
 
@@ -98,7 +98,7 @@ header nav a {
 }
 
 .banner-text {
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 .content-double {
@@ -120,6 +120,7 @@ header nav a {
 
 .banner .banner-text h1 {
 	font-size: 80px;
+	display: inline-block;
 }
 
 .banner .banner-text button {
@@ -142,14 +143,17 @@ header nav a {
 
 .main .main-content {
 	background: lightgreen;
-	width: 49%;
+	width: 49.5%;
 	display: inline-block;
 }
 
+.pic-content .middle-img {
+	margin-left: 10px;
+}
 
 .content .content-triple {
 	background: gray;
-	width: 32%;
+	width: 33%;
 	display: inline-block;
 }
 
