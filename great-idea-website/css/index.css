@@ -124,6 +124,7 @@ margin-top: 80px;
 }
 
 .mainheader {
+display:inline-block;	
 box-sizing: border-box;
 text-align: center;
 vertical-align:top;
