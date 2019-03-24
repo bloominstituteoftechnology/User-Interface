@@ -1,0 +1,5 @@
+{
+    "eslint.run": "onSave",
+    "html.format.indentInnerHtml": true,
+    "editor.formatOnSave": true
+}
