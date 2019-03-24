@@ -71,6 +71,7 @@ margin-top: 30px;
 margin-bottom: 30px;
  margin-left: 200px;;
 }
+
 .nav-item {
  margin: 50px;
  color: grey;
@@ -82,3 +83,41 @@ margin-bottom: 30px;
 	margin-right: 100px;
 }
 
+/*Hero Section*/
+.hero-section {
+	content: "";
+    display: table;
+    clear: both;
+    margin: 0 auto;
+}
+.hero-text-container {
+	font-size: 50px;
+	display: inline-block;
+	position: relative;
+    bottom: 100px;
+    margin: 0 300px;
+}
+.hero-text-container p {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px; 
+	text-align: center;
+}
+
+#get-started {
+    position: relative;
+    left: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 17px;
+}
+
+#circle-img {
+	float: right;
+}
+
+/*Helper classes */
+.text-center {
+	text-align: center;
+}
