@@ -89,8 +89,6 @@ header nav {
 
 header nav a {
 	margin: 20px;
-	/* vertical-align: middle; */
-
 }
 
 .logo {
@@ -126,7 +124,9 @@ header nav a {
 }
 
 .banner .banner-text button {
-	width: 150px;
+	width: 170px;
+	padding: 7px 0;
+	font-size: 1.1em;
 }
 
 .main {
@@ -135,7 +135,7 @@ header nav a {
 }
 
 .main .main-content {
-	padding: 20px 10px;
+	padding: 25px 10px;
 }
 .main .main-content {
 	background: lightgreen;
@@ -144,18 +144,22 @@ header nav a {
 }
 
 .pic-content .middle-img {
-	margin-left: 10px;
+	padding: 10px 10px;
 }
 
 .content .content-triple {
 	background: gray;
 	width: 33%;
 	display: inline-block;
+	padding: 25px 10px;
 }
 
-
+.contact {
+	padding: 25px 10px;
+}
 
 footer {
 	text-align: center;
 	margin: 20px 0;
+	padding: 25px 0;
 }
