@@ -66,16 +66,16 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 90%;
-	margin: 5% auto;
+	width: 80%;
+	margin: 10% auto;
 	background-color: whitesmoke;
 }
 
 
 footer.footer {
 	text-align:center;
-	width:90%;
-	margin: 5% auto;
+	width:80%;
+	margin: 10% auto;
 }
 
 .copyright {
