@@ -64,6 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+/* Your code starts here! */
+html {
     box-sizing: border-box;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.container{
+    width: 1024px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+}
+
+.logo{
+    padding: 10px 0px 0px 51px;
+    vertical-align: bottom;
+}
+
+.navigation {
+    text-decoration: none;
+    /*margin: 20px 0px 0px 0px;*/
+    /* border: 2px solid dodgerblue; */
+    margin: 0 auto;
+    padding: 0px 0px 13px 0px;
+    width: 960px;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    color: gray;
+    margin: 0px 27px 0px 27px;
+    /* border: 2px solid darkgreen; */
+    vertical-align: middle;
+    padding: 0px 0px 20px 0px;
+}
+
+.header{
+    box-sizing: border-box;
+
+}
+
+.banner-text{
+    font-size: 85px;
+    font-family: 'Bangers', cursive;
+    /* border: 2px solid #0cce00; */
+    margin-bottom: 100px;
+}
+.word-splash {
+    text-align: center;
+    width: 512px;
+    margin: 100px 0px 0px 0px;
+    display: inline-block;
+}
+
+.tagline{
+    margin: 0px 0px 0px 0px;
+    /* border: 3px solid darkviolet; */
+    padding: 0px 0px 0px 111px;
+    box-sizing: border-box;
+}
+
+.imageHeader{
+    height: 364px;
+    width: 364px;
+    display: inline-block;
+}
+
+.button{
+    font-family: 'Titillium Web' ,sans-serif;
+    font-size: 18px;
+    border: 1px solid grey;
+    padding: 6px 30px;
+    width: 175px;
+    margin: 10px 0px 0px 220px;  
+}
+
+.button a{
+    text-decoration: none;
+    color: grey;
+}
+
+.horizontal-line{
+    width:900px;
+}
+
+.middle-img{
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-content{
+    display: inline-block;
+    /* border: 1px solid darkviolet; */
+    box-sizing: border-box;
+    margin: 0px 65px 40px;
+    width: 890px;
+}
+
+.top-content .half-way-boxes{
+    width: 442px;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+.bottom-content{
+    display: inline-block;
+    /*! margin: 0px 0px 0px 0px; */
+    box-sizing: border-box;
+    padding: 0px 0px 0px 43px;
+}
+
+.bottom-content .bottom-boxes{
+    /* border: 1px solid blue; */
+    width: 310px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.contact-info{
+    width: 900px;
+    margin: 0 auto;
+
+    /*! line-height: 1.5; */
+}
+
+ #contact-font-change{
+    font-family: 'Bangers', cursive;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.email-paragraph{
+    padding: 15px 0px 0px 0px;  
+}
+
+.copyright{
+    text-align: center;
+        
+    line-height: 8;
+}   
