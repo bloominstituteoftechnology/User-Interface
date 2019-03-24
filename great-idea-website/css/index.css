@@ -97,10 +97,6 @@ header nav a {
 	margin-top: 10px;
 }
 
-.banner-text {
-	/* display: inline-block; */
-}
-
 .content-double {
 	display: inline-block;
 }
@@ -112,10 +108,16 @@ header nav a {
 .banner .banner-text {
 	margin: 0 auto;
 	text-align: center;
-	vertical-align: center;
-	width: 50%;
-	margin: 10px 0 50px 0;
+	vertical-align: top;
+	display: inline-block;
+	width: 49.5%;
+	height: 400px;
+	margin: 20px 0;
 	border: 1px solid slategray;
+}
+
+.banner .banner-text#b-text {
+	padding-top: 40px;
 }
 
 .banner .banner-text h1 {
@@ -130,17 +132,11 @@ header nav a {
 .main {
 	vertical-align: top;
 	border: 1px solid red;
-	/* background: gray; */
 }
 
-/* .main-left {
-	background: lightblue;
+.main .main-content {
+	padding: 20px 10px;
 }
-
-.main-right {
-	background: lightcoral;
-} */
-
 .main .main-content {
 	background: lightgreen;
 	width: 49.5%;
