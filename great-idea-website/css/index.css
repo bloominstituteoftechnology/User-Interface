@@ -239,7 +239,7 @@ button {
     display: inline-block;
     /* border: 5px solid green; */
     width: 33%;
-    margin-top: 40px;
+    margin: 40px 0;
     padding: 1%;
 }
 
