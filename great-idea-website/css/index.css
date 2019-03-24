@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*Site Navigation Menu*/
+.navbar {
+margin-top: 30px;
+margin-bottom: 30px;
+ margin-left: 200px;;
+}
+.nav-item {
+ margin: 50px;
+ color: grey;
+ text-decoration-line: none;
+}
+
+.logo {
+	float: right;
+	margin-right: 100px;
+}
+
