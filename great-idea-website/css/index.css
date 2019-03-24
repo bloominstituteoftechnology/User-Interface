@@ -162,20 +162,34 @@ h5 {
 
 /* Your code starts here! */
 
+* {
+    margin: auto;
+}
+
 header {
     display: inline-block;
+    width: 100%;
+    padding-left: 5%;
+}
+
+nav {
+    display: inline-block;
+    margin: 0 auto 15px;
     width: 100%;
 }
 
 nav a {
     text-decoration: none;
-    margin-left: 5%;
-    font-size: 14px;
-    color: #888
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+    padding: 0 3%;
 }
 
 .logo {
     vertical-align: middle;
+    float: right;
+    margin-right: 4%;
 }
 
 nav+div h1 {
@@ -186,30 +200,19 @@ nav+div h1 {
 }
 
 header div {
-    margin: 8% 0%;
-    width: 60%;
-    vertical-align: top;
     display: inline-block;
+    width: 45%;
+    /* border: 5px solid pink; */
+    vertical-align: middle;
     text-align: center;
-}
-
-nav {
-    margin-bottom: 70px;
-    width: 100%;
+    margin: 5% auto;
+    padding-left: 10%;
 }
 
 header div+img {
     display: inline-block;
     width: 40%;
     vertical-align: top;
-    float: right;
-}
-
-header div {
-    display: inline-block;
-    width: 45%;
-    border: 5px solid pink;
-    vertical-align: middle;
 }
 
 button {
@@ -221,12 +224,34 @@ button {
 
 .toptext div {
     display: inline-block;
-    border: 5px solid blue;
-    width: 45%;
+    /* border: 5px solid blue; */
+    width: 49%;
+    margin: 40px auto;
+    padding: 2.5%
+}
+
+.middle-img {
+    width: 98%;
+    margin: 0 1%;
 }
 
 .bottomtext div {
     display: inline-block;
-    border: 5px solid green;
-    width: 30%;
+    /* border: 5px solid green; */
+    width: 33%;
+    margin-top: 40px;
+    padding: 1%;
 }
+
+address {
+    width: 150px;
+    margin: 40px 1%;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+f
