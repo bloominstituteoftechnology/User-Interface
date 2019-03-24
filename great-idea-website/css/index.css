@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 80%;
-	margin: 10% auto;
+	width: 85%;
+	margin: 7.5% auto;
 	background-color: whitesmoke;
 }
 
@@ -77,12 +77,12 @@ h1 {
 
 footer.footer {
 	text-align:center;
-	width:80%;
-	margin: 10% auto;
+	width:85%;
+	margin: 7.5% auto;
 }
 
-.contact {
-	
+.contactINFO {
+
 }
 
 .copyright {
