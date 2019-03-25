@@ -89,6 +89,7 @@ margin-bottom: 30px;
 	width: 100vw;
 	vertical-align: middle;
 	text-align: center;
+	border-bottom: 1px solid black;
 }
 
 /* Create two equal columns */
@@ -109,45 +110,85 @@ margin-bottom: 30px;
     font-size: 17px;
 }
 
-#circle-img {
-}
-
 /*Services Section */
 
 .services {
+	content: "";
+    display: table;
+    clear: both;
 	border-bottom: 1px solid black;
 }
-.service-section{
-	margin:50px;
-	text-align: center;
+
+.services-row1 {
+	margin: 0 auto;
+	width: 100vw;
+	text-align: left;
 }
 
-.group1{
-	margin-top: 100;
+.feature-info-col {
+	margin: 35px auto;
+	width: 50vw;
+	float: left;
 }
 
-.content{
-	width: 300px;
-	height: 100px;
-	border: 50px;
-	margin-top: 30;
-	margin-left: 20px;
-	display: inline-block;
+.about-info-col {
+	margin: 35px auto;
+	width: 50vw;
+	float: left;
 }
 
-.content2{
-	width: 200px;
-	height: 150px;
-	display: inline-block;
-	text-align: center;
+.services-row2 {
+	width: 100vw;
 }
 
-.info-heading{
-  width: 150px;
-  height: 100px;
-  margin: 100px 0px 0px 20px;
+.services-row3 {
+	margin: 0 auto;
+	width: 100vw;
+	text-align: left;
 }
 
-.coppyRight{
+.services-info-col {
+	margin: 35px auto;
+	width: 33.3vw;
+	float: left;
+}
+.product-info-col {
+	margin: 35px auto;
+	width: 33.3vw;
+	float: left;
+}
+
+.vision-info-col {
+	margin: 35px auto;
+	width: 33.3vw;;
+	float: left;
+}
+
+/*Footer Section */
+
+.contact-info {
+	display: block;
+	margin: 35px 0px;
+	color: black;
+}
+
+.contact-info a {
+	text-decoration-line: none;
+	color: black;
+}
+
+.contact-info address {
+	margin: 15px 0px;
+} 
+
+.contact-info div {
+	margin: 15px 0px;
+}
+
+.contact-info p {
+	margin: 15px 0px;
+}
+
+.copyright{
 	text-align: center;
 }
