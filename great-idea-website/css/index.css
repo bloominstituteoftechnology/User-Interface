@@ -83,38 +83,33 @@ margin-bottom: 30px;
 }
 
 /*Hero Section*/
-.hero-section {
-	content: "";
-    display: table;
-    clear: both;
-	margin: 0 auto;
-	border-bottom: 1px solid black;
-}
-.hero-text-container {
-	font-size: 50px;
+.hero-row {
 	display: inline-block;
-	position: relative;
-    bottom: 100px;
-    margin: 0 300px;
-}
-.hero-text-container p {
-	font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	margin-bottom: 15px; 
+	margin: 0 auto;
+	width: 100vw;
+	vertical-align: middle;
 	text-align: center;
 }
 
+/* Create two equal columns */
+.hero-column {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 100px;
+}
+
+/* Center Innovation On Demand Text & Button*/
+.hero-title-text {
+	font-size: 50px;
+}
+
 #get-started {
-    position: relative;
-    left: 40px;
-    padding: 10px 20px;
     background-color: white;
     border: 1px solid black;
     font-size: 17px;
 }
 
 #circle-img {
-	float: right;
 }
 
 /*Services Section */
