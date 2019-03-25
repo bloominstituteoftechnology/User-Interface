@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+nav {
+	text-align: center;
+	margin: auto;
+	width: 900px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	padding: 30px;
+}
+
+.logo {
+	margin-top: 27px;
+	margin-left: 30px;
+}
+
+header {
+	text-align: center;
+	margin: auto;
+	width: 950px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-bottom: solid black 1px;
+	padding-bottom: 20px;
+}
+
+.titlebutton {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 100px 40px 0 40px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+button {
+	border: solid black 1px;
+	color: black;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	background: white;
+	padding: 1px 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.headerimg {
+	margin: 50px;
+}
+
+.top-content {
+	text-align: left;
+	margin: auto;
+	width: 950px;
+	vertical-align: top;
+}
+
+.features {
+	display: inline-block;
+	width: 450px; 
+}
+
+.about {
+	display: inline-block;
+	width: 450px;
+	margin-left: 45px;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 950px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.bottom-content {
+	text-align: left;
+	margin: auto;
+	width: 950px;
+	vertical-align: top;
+	margin-top: 50px;
+	display: block;
+	border-bottom: solid black 1px;
+	padding-bottom: 50px;
+}
+
+.services  {
+	display: inline-block;
+	width: 275px; 
+	margin-right: 50px;
+}
+
+.product {
+	display: inline-block;
+	width: 275px; 
+	margin-right: 50px;
+}
+
+.vision {
+	display: inline-block;
+	width: 275px; 
+}
+
+.address {
+	text-align: left;
+	margin: auto;
+	width: 950px;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+button:hover {
+	background: lightgreen;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: lightgreen;
+	transition: 0.5s;
+}
