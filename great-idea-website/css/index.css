@@ -122,10 +122,6 @@ header nav a {
 
 }
 
-.contactINFO {
-
-}
-
 #headerTOP {
 	width:100%;
 	display:inline-block;
@@ -151,7 +147,7 @@ header nav a {
 }
 
 .headerTEXT {
-	width:49%;
+	width:475px;
 	display:inline-block;
 	vertical-align: top;
 }
@@ -170,24 +166,24 @@ header .divNAV {
 .IOD {
 	line-height: 2;
 	font-size: 72px;
-	display:block;
+	display:inline-block;
 
 }
 .button {
-	display:block;
+	display:inline-block;
 	text-align:center;
-	width:370px;
+	width:475px;
 	
 }
 
 #button {
 	font-family: 'Titillium Web', sans-serif;
-	background-color:lightgray;
+	background-color:whitesmoke;
 	text-align:center;
 	padding:10px;
 	border: .75px solid black;
 	width:150px;
-	display:block;
+	display:inline;
 	margin:0px auto;
 }
 
@@ -213,4 +209,8 @@ header .divNAV {
 	width:100%;
 	display:block;
 
+}
+
+#codeSNIPPET {
+	display:inline-block;
 }
