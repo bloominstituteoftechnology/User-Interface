@@ -3,192 +3,278 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 /*Site Navigation Menu*/
 .navbar {
-margin-top: 30px;
-margin-bottom: 30px;
- margin-left: 200px;;
+  margin: 30px 0px 30px 200px;
 }
 
 .nav-item {
- margin: 50px;
- color: grey;
- text-decoration-line: none;
+  margin: 50px;
+  color: grey;
+  text-decoration-line: none;
 }
 
 .logo {
-	margin-left: 100px;
+  margin-left: 100px;
 }
 
 /*Hero Section*/
 .hero-row {
-	display: inline-block;
-	margin: 0 auto;
-	width: 100vw;
-	vertical-align: middle;
-	text-align: center;
-	border-bottom: 1px solid black;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100vw;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 /* Create two equal columns */
 .hero-column {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 100px;
 }
 
 /* Center Innovation On Demand Text & Button*/
 .hero-title-text {
-	font-size: 50px;
+  font-size: 50px;
 }
 
 #get-started {
-    background-color: white;
-    border: 1px solid black;
-    font-size: 17px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 17px;
 }
 
 /*Services Section */
 
 .services {
-	content: "";
-    display: table;
-    clear: both;
-	border-bottom: 1px solid black;
+  content: "";
+  display: table;
+  clear: both;
+  border-bottom: 1px solid black;
 }
 
+/* Create two equal columns */
 .services-row1 {
-	margin: 0 auto;
-	width: 100vw;
-	text-align: left;
+  margin: 0 auto;
+  width: 100vw;
+  text-align: left;
 }
 
 .feature-info-col {
-	margin: 35px auto;
-	width: 50vw;
-	float: left;
+  margin: 35px auto;
+  width: 50vw;
+  float: left;
 }
 
 .about-info-col {
-	margin: 35px auto;
-	width: 50vw;
-	float: left;
+  margin: 35px auto;
+  width: 50vw;
+  float: left;
 }
 
 .services-row2 {
-	width: 100vw;
+  width: 100vw;
 }
 
+/* Create three equal columns */
 .services-row3 {
-	margin: 0 auto;
-	width: 100vw;
-	text-align: left;
+  margin: 0 auto;
+  width: 100vw;
+  text-align: left;
 }
 
 .services-info-col {
-	margin: 35px auto;
-	width: 33.3vw;
-	float: left;
+  margin: 35px auto;
+  width: 33.3vw;
+  float: left;
 }
 .product-info-col {
-	margin: 35px auto;
-	width: 33.3vw;
-	float: left;
+  margin: 35px auto;
+  width: 33.3vw;
+  float: left;
 }
 
 .vision-info-col {
-	margin: 35px auto;
-	width: 33.3vw;;
-	float: left;
+  margin: 35px auto;
+  width: 33.3vw;
+  float: left;
 }
 
 /*Footer Section */
 
 .contact-info {
-	display: block;
-	margin: 35px 0px;
-	color: black;
+  display: block;
+  margin: 35px 0px;
+  color: black;
 }
 
 .contact-info a {
-	text-decoration-line: none;
-	color: black;
+  text-decoration-line: none;
+  color: black;
 }
 
 .contact-info address {
-	margin: 15px 0px;
-} 
+  margin: 15px 0px;
+}
 
 .contact-info div {
-	margin: 15px 0px;
+  margin: 15px 0px;
 }
 
 .contact-info p {
-	margin: 15px 0px;
+  margin: 15px 0px;
 }
 
-.copyright{
-	text-align: center;
+.copyright {
+  text-align: center;
 }
