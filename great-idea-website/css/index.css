@@ -154,7 +154,6 @@ header nav a {
 	width:49%;
 	display:inline-block;
 	vertical-align: top;
-	height:379px;
 }
 
 header .divNAV {
@@ -168,22 +167,50 @@ header .divNAV {
 	text-align:center;
 }
 
-#IOD {
+.IOD {
 	line-height: 2;
 	font-size: 72px;
+	display:block;
 
 }
+.button {
+	display:block;
+	text-align:center;
+	width:370px;
+	
+}
+
+#button {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:lightgray;
+	text-align:center;
+	padding:10px;
+	border: .75px solid black;
+	width:150px;
+	display:block;
+	margin:0px auto;
+}
+
+.section1 {
+	border-top: 2px solid grey;
+}
+
+.section2 {
+	border-bottom: 2px solid grey;
+}
+
 
 .copyright {
 	text-decoration:none;
 }
 
 .electronic {
-	line-height:2;
+	line-height:.5;
 }
 
 .hr {
-	border: 1.5px solid black;
+
 	width:100%;
+	display:block;
 
 }
