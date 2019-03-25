@@ -117,20 +117,21 @@ hr {
 
 .top-content #features {
 	display: inline-block;
-	width: 50%;
+	width: 395px;
 }
 
 .top-content #about {
 	display: inline-block;
-	width: 50%;
+	width: 395px;
 }
 
 .middle-img {
+	width: 800px;
 	padding: 75px 0px;
 }
 
 .bottom-content {
-	width: 850px;
+	width: 800px;
 }
 
 .bottom-content #services {
