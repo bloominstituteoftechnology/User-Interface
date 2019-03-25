@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 	width: 876px;
 	margin: 20px auto;
 	padding:20px 0px 20px 0px;
-	background-color: whitesmoke;
+	background-color: white;
 }
 
 h1 {
@@ -129,13 +129,6 @@ header nav a {
 	margin-bottom:10px;
 }
 
-.article {
-	width:416px;
-	display:inline-block;
-	padding:5px;
-	margin-bottom:20px;
-	box-sizing:border-box;
-}
 
 .article2 {
 	width:33%;
@@ -143,7 +136,7 @@ header nav a {
 	padding:10px 0px;
 	margin-bottom:20px;
 	box-sizing:border-box;
-
+	vertical-align: top;
 }
 
 .headerTEXT {
@@ -164,13 +157,14 @@ header .divNAV {
 }
 
 .IOD {
-	line-height: 2;
+	line-height: 1;
 	font-size: 72px;
 	display:inline-block;
 
 }
 .button {
 	display:inline-block;
+	vertical-align:center;
 	text-align:center;
 	width:475px;
 	
@@ -178,18 +172,31 @@ header .divNAV {
 
 #button {
 	font-family: 'Titillium Web', sans-serif;
-	background-color:whitesmoke;
+	background-color:white;
 	text-align:center;
-	padding:10px;
+	padding:5px;
 	border: .75px solid black;
 	width:150px;
 	display:inline;
 	margin:0px auto;
+	font-size:16px;
 }
 
 .section1 {
 	border-top: 2px solid grey;
+	width:100%;
+	text-align:center;
 }
+
+.article {
+	width:435px;
+	display:inline-block;
+	padding:0px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	text-align:left;
+}
+
 
 .section2 {
 	border-bottom: 2px solid grey;
@@ -211,6 +218,12 @@ header .divNAV {
 
 }
 
+section .text {
+	line-height: 1;
+	font-size:14;
+	text-align:left;
+}
+
 #codeSNIPPET {
-	display:inline-block;
+	display:inline;
 }
