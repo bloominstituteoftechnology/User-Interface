@@ -66,25 +66,124 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 85%;
-	margin: 7.5% auto;
+	width: 876px;
+	margin: 20px auto;
+	padding:20px 0px 20px 0px;
 	background-color: whitesmoke;
 }
 
 h1 {
-	text-align: center
+	text-align: center;
+	height: 72px;
 }
 
 footer.footer {
 	text-align:center;
-	width:85%;
+	width:876;
 	margin: 7.5% auto;
+}
+
+.logo {
+	display:inline-block;
+	
+}
+
+
+header nav a:link {
+	text-decoration: none;
+	color:lightgray;
+}
+  
+header nav a:visited {
+	text-decoration: none;
+	color:lightgray;
+
+}
+  
+header nav a:hover {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+  
+header nav a:active {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+
+header nav a {
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color:lightgray;
+	padding:20px;
+	vertical-align: center;
+	text-align:left;
+
 }
 
 .contactINFO {
 
 }
 
+#headerTOP {
+	width:100%;
+	display:inline-block;
+	vertical-align: center;
+	margin-bottom:10px;
+}
+
+.article {
+	width:416px;
+	display:inline-block;
+	padding:5px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+}
+
+.article2 {
+	width:33%;
+	display:inline-block;
+	padding:10px 0px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+
+}
+
+.headerTEXT {
+	width:49%;
+	display:inline-block;
+	vertical-align: top;
+	height:379px;
+}
+
+header .divNAV {
+	width: 75%;
+	display:inline-block;
+	vertical-align: center;
+	
+}
+
+.middle-img {
+	text-align:center;
+}
+
+#IOD {
+	line-height: 2;
+	font-size: 72px;
+
+}
+
 .copyright {
 	text-decoration:none;
+}
+
+.electronic {
+	line-height:2;
+}
+
+.hr {
+	border: 1.5px solid black;
+	width:100%;
+
 }
