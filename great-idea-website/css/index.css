@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	color: white; 
+   
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,52 +67,125 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
-    box-sizing: border-box;
-}
 
-
-html, body {
-    height: 100%;
-    font-family: 'Impact bolder', sans-serif;
-}
-
-
-.first-img  {
-		display: block;
-		margin-left: auto;
-		margin-right: 0px;
-		width: 50%;
-		padding: 10px;
-  }
-
- .carrot { 
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
-	  }
-
- } 
-
-.apple {
-	color: #00ff00;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+.logo {
+	position: absolute;
+	margin-top: -75px;
+	right: 50px;
 	
 }
 
-.grape {
-	color: #00ff00;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 55;
-	font: inherit;
-	position: absolute;
-	left: 100px;
-	top: 150px;
+
+.first-img {
+	display: inline-block;
+	vertical-align: top;
+   	margin-right:55px;
+	margin-left:auto;
+    height: 350px;
+	width: 350px;
+	}
+
+	
+	.grape {
+		color: #FF00FF;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 65px;
+		margin-top: 0px;
+		padding: 93px;
+		Font-family: 'Bangers', cursive;
+			}
+
+  nav { 
+		display: block;
+		margin: 50px; 
+		padding: 50;
+		border: 10;
+		font-size: 15px;
+		text-align: left;
   }
+
+
+  .button {
+	background-color:#F0FFFF;
+	display: inline-block;
+	border: none;
+	color: darkslategrey;
+	padding: 5px 32px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -150px;
+	margin-left: 160px;
+	font-size: 16px;
+	vertical-align: middle;
+	}
+
+
+	.middle-img{
+		vertical-align: middle;
+		margin-left: 50px;
+	}
+ .carrot { 
+		color: #A9A9A9;
+	    text-decoration: none;
+ } 
+
+ .tomato {
+color: white;
+ }
+
+p.apple {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	width: 435px;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+p.apple2 {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	width: 435px;
+	vertical-align: bottom;
+	margin-right: 50px;
+}
+
+p.apple3 {
+	display: inline-block;
+	margin: 90;
+	padding: 50;
+	width: 290px;
+	vertical-align: bottom;
+	margin-left: 50px;
+}
+
+p.apple4 {
+	display: inline-block;
+	margin: 90;
+	padding: 50;
+	width: 290px;
+	vertical-align: bottom;
+	}
+
+p.apple5 {
+	display: inline-block;
+	margin: 90;
+	padding: 50;
+	width: 290px;
+	vertical-align: bottom;
+	margin-right:40px;
+}
+
+
+p.apple7{
+	display: inline-block;
+	margin-left: 50px;
+
+}
+p.apple6 {
+    text-align: center;
+}
+
