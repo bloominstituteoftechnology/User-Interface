@@ -70,16 +70,19 @@ h1, h2, h3, h4, h5 {
 nav {
 	text-align: center;
 	margin: auto;
-	width: 900px;
+	width: 950px;
 }
 
+.firstlink {
+	padding-left: 0px;
+}
 a {
 	text-decoration: none;
 	color: grey;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 10px;
-	padding: 30px;
+	padding: 35px;
 }
 
 .logo {
