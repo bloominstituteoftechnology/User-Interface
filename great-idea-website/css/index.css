@@ -122,19 +122,48 @@ header img {
 
 .upper,
 .bottom-content {
-	position: relative;
 	display: inline-block;
 	margin: 0;
 
 }
 .upper {
-	width: 48%;
+	display: inline-block;
 
 }
 
 .bottom-content {
-	width: 31%;
+	display: inline-block;
 }
+ .c1 {
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+	margin: 1em;
+ }
+ .c2 {
+	display: inline-block;
+  width: 40%;
+  height: 100px;
+  margin: 1em;
+ }
+ .c3 {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	margin: 1em;
+ }
+ .c4 {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	margin: 1em;
+ }
+ .c5 {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	margin: 1em;
+ }
 .contact {
 	display: block;
 	line-height: 1.2;
