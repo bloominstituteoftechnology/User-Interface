@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 1em 3em;
+  padding-top: 70px;}
+.container {
+  height: 3em;
+	margin-bottom: 3em;
+  background-color:white;
+  position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.container nav a {
+  margin: 0 10px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.logo {
+width: fit-content;
+	display: block;
+	float: right;}
+header {
+	height: 300px;
+	border-bottom: 1px solid #171717;
+  margin-top: 3em;}
+.text-container {
+  display: inline-block;
+	transform: translateY(25%);
+	width: 50%;
+}
+h1 {font-size: 4em;
+  text-align: center;}
+button {
+	margin: 0 auto;
+	display: block;
+	background: none;
+	border: 1px darkgrey;
+  color:black;
+  padding: 5px 30px;}
+header img {
+	display: block;
+	float: right;
+}
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+.main-content {
+	display: inline-block;
+	margin: 2em 0px;
+}
+
+.upper,
+.bottom-content {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+
+}
+.upper {
+	width: 48%;
+
+}
+
+.bottom-content {
+	width: 31%;
+}
+.contact {
+	display: block;
+	line-height: 1.2;
+	margin: 1em 0px;
+	width: 150px; }
+footer {
+	margin-top: 3em;
+	height: 3em;
+}
+footer p {
+	text-align: center;
+}
