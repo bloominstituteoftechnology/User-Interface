@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: 20px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 header {
@@ -83,7 +83,7 @@ header nav {
 header a {
 	/* border: 1px solid red; */
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-bottom: 50px; 
 	text-align: center;
 	text-decoration: none;
@@ -92,12 +92,13 @@ header a {
 }
 
 header img {
-	margin-left: 260px;
+	margin-left: 120px;
+	margin-top: 15px;
 	
 }
 
 .top-section {
-	/*border: 1px solid red; */
+	/* border: 1px solid red; */
 	display: block;
 }
 
@@ -115,14 +116,91 @@ header img {
 }
 
 .top-section-left button {
-	border: 1px solid color dodgerblue;
+	
 	display: inline-block;
 	text-align: center;
 	margin: 10px 0 40px 0;
 }
 
 .top-section-right {
-	?border: 1px solid green;
+	/*border: 1px solid green; */
 	display: inline-block;
 	width: 50%;
+}
+
+.main-top {
+	border-top: 1px solid black;
+	padding-top: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-top h2 {
+	
+	display: inline-block;
+}
+
+.main-top .features {
+	/*border: 1px solid blueviolet; */
+	
+	vertical-align: top;
+	display: inline-block;
+	width: 49%;
+
+}
+
+.main-top .about {
+	
+	/*border: 1px solid green; */
+	display: inline-block;
+	width: 50%;
+}
+
+
+
+.main-top p {
+	/*border: solid yellow; */
+	display: inline-block;
+}
+
+.main-bottom {
+	
+	display: inline-block;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+
+.main-bottom .services {
+	
+	width: 32%;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.main-bottom .product {
+	
+	width:  32%;
+	display: inline-block;
+}
+
+.main-bottom .vision {
+	
+	width: 32%;
+	display: inline-block;
+}
+
+.contact {
+	
+	margin-top: 50px;
+	
+}
+
+.address {
+	line-height: 5px
+}
+
+footer {
+	margin-top: 10px;
+	text-align: center
 }
