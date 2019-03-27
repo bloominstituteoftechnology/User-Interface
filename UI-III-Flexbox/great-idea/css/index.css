@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+#container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-left: 10%;
+	
+}
+
+
+a {
+	color: gray;
+	text-decoration: none;
+	display: flex;
+	
+	
+}
+
+ #nav {
+
+	display: flex;
+	justify-content: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	
+ }	
+
+ 
+
+#services {
+	display: flex;
+	flex-direction: column; 
+	
+	
+	border-bottom: solid black;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 1;
+	
+}
+
+
+ .Main-Content .content {
+	width: 450px;
+	height: 240px;
+	border: solid black;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	margin-right: 35px;
+	align-content: center;
+	background: lightgrey;
+	flex-grow: 1;
+	
+}
+
+.Main-Content {
+	flex-wrap: wrap;
+	
+	height: 600px;
+	margin-bottom: 450px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+h2 {
+	font-size: 16px;
+	margin: 20px;
+}
+
+
+
+
+p {
+	text-align: left;
+	margin: 20px;
+}
+
+button {
+	width: 180px;
+	height: 40px;
+	margin: 20px;
+	margin-top: 10px;
+	background: white;
+	
+}
+
+.container {
+	width: 100%;
+	
+}
+
+.services {
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 75%;
+	padding-bottom: 30px;
+	border-bottom: solid black;
+
+	.services-image {
+		margin-left: 30px;
+	}
+
+	#Bottom {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: wrap;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+		
+	 }	
+	
+	
+
+	 .dubs {
+		 display: flex;
+	 }
