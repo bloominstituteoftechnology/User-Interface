@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+.dubs  {
+	display: flex;
+	
+ }
 
 
 
@@ -178,19 +182,6 @@ button {
 		margin-left: 30px;
 	}
 
-	#Bottom {
-
-		display: flex;
-		flex-direction: column;
-		justify-content: wrap;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 20px;
-		
-	 }	
+	 	
 	
-	
-
-	 .dubs {
-		 display: flex;
-	 }
+	 
