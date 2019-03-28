@@ -66,23 +66,25 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 hr {
 	border: .25px solid;
+	margin: 10px 0;
 }
 
 .container{
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 }
 
-nav {
+ nav {
+	display: inline-block;
 	margin: 20px 0;
-	border: 2px solid green;
+	/* border: 2px solid green; */
+	vertical-align: center;
 }
 
 nav a {
-	display: inline-block;
 	text-decoration: none;
 	color: gray;
-	font-size: 12px;
+	font-size: 16px;
 	margin-left: 17px;
 	/* border: 2px solid red; */
 }
@@ -91,64 +93,77 @@ nav a:first-child {
 	margin-left: 0px;
 }
 
-img.logo {
+.logo {
+	display: inline-block;
 	width: 150px;
-	display: inline-block;
-	margin-left: 111px;
-	border: 2px solid red;
-}
-
-#topLeft {
-	width: 290px;
+	margin-left: 240px;
 	/* border: 2px solid red; */
-	display: inline-block;
+	vertical-align: top;
+	margin-top: 13px;
 }
 
-#topRight {
-	width: 290px;
-	/* border: 2px solid purple; */
-	display: inline-block;
-	margin-left: 16px;
+.hero {
+	margin: 10px 0;
 }
 
-#headerHeader {
-	font-size: 40px;
-	/* border: 2px solid green; */
+.heroText {
+	display: inline-block;
+	width: 375px;
 	text-align: center;
-	display: block;
-	margin: 0 auto;
-	width: 200px;
+	vertical-align: bottom;
+	margin-bottom: 80px;
+}
+
+h1{
+	font-size: 50px;
 }
 
 button {
+	font-size: 17px;
 	margin: 0 auto;
-	width: 100px;
+	width: 150px;
 	display: block;
-	margin: 0 auto;
 	border: 1px solid black;
 }
 
-#headerImage {
-	width: 200px;
-	display: block;
-	margin: 0 auto;
+.heroImage {
+	width: 375px;
+	margin-left: 42px;
+	vertical-align: bottom;
 }
 
-#features {
+.topic{
 	display: inline-block;
-	width: 200px;
-	border: 2px solid red;
+	/* border: 2px solid purple; */
+
 }
 
-#about {
-	display: inline-block;
-	width: 200px;
-	border: 2px solid red;
+.left {
+	width: 390px;
+}
+
+.right {
+	width: 390px;
+	margin-left: 16px;
 }
 
 .middle-img {
 	width: 100%;
 	margin: 20px 0px;
+}
+
+.bLeft{
+	width: 253px;
+}
+
+.bMiddle {
+	width: 253px;
+	margin-left: 16px;
+}
+
+.bRight {
+	width: 253px;
+	margin-left: 16px;
 }
 
 .contact {
