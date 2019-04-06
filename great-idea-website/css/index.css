@@ -91,7 +91,6 @@ header .logo {
 }
 .leftpane {
 	display: inline-block;
-	border: 1px solid red;
 	margin-left: 54px;
 	height: 100px;
   	line-height: 82px;
