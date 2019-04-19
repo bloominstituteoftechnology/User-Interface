@@ -64,3 +64,154 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+/* Stretch #1 - fixed nav bar */
+
+.container {
+	background-color: lightgray;
+}
+
+header {
+	position: fixed;
+	width: 900px;
+	top: 0;
+	background-color: teal;
+	z-index: 9999;
+}
+
+header nav {
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+/* Stretch #2 - new font */
+header nav a {
+	font-family: 'Orbitron', sans-serif;
+	margin: 0 25px 20px 0;
+	color: white;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	opacity: 1.0;
+}
+
+/* Stretch #4a - background image */
+.logo { 
+	display: inline-block;
+	width: 183px;
+	height: 36px;
+	margin-left: 100px;
+	margin-top: 10px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+
+.top-content {
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+button {
+	display: inline-block;
+}
+
+.top-content {
+	text-align: center;
+}
+
+.tc-text {
+	display: inline-block;
+	position: relative;
+	top: -90px;
+	margin: 0 50px 0px 100px;
+}
+
+
+/* Stretch #5 - animation */
+h1 {
+	display: inline-block;
+	font-size: 65px;
+
+	animation: slam 0.5s;
+	animation-timing-function: ease-in;
+}
+
+@keyframes slam {
+	0%
+	{ 
+		transform: scale(10, 10);
+		opacity: 0;
+	}
+	40%
+	{
+		opacity: 0;
+	}
+	100% 
+	{
+		transform: scale(1, 1);
+		opacity: 1;
+	}
+}
+
+/* Stretch #4b - background image */
+.top-image {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 40px;
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+}
+
+.main-content {
+	margin-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 20px 0 20px 0;
+}
+
+.mc-top {
+	display: inline-block;
+	width: 440px;
+	margin-bottom: 20px;
+}
+
+/* Stretch #4c - background image */
+.mc-img {
+	display: inline-block;
+	width: 900px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+}
+
+.mc-bottom {
+	display: inline-block;
+	width: 290px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+address {
+	margin-top: 30px;
+}
+
+.number {
+	margin: 15px 0 15px 0;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
