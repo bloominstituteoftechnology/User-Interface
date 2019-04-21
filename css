@@ -1,0 +1,36 @@
+section{
+  display: inline-block;
+  text-align:center;
+}
+.Main{
+  text-align:center;
+}
+.nav{
+  background:lightGreen;
+  width:20px;
+  height:20px;
+}
+
+.Features {
+  width:350px;
+  
+}
+.About{
+  width: 300px;
+  
+}
+.Section{
+  width:300px
+}
+.Vision{
+  width:350px
+}
+.Product{
+  width:350px
+}
+.Services{
+  width:350px
+}
+.copyright{
+  text-align:center;
+}
