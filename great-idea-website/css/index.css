@@ -251,7 +251,6 @@ button {
 }
 
 .middle-img {
-  display: block;
   margin: 50px auto;
   width: 100%;
 }
@@ -288,4 +287,11 @@ button {
 
 .footer p {
   text-align: center;
+}
+
+
+/* CSS For Index HTML */
+
+.header-section .innovation-section h1 {
+
 }
