@@ -151,19 +151,20 @@ h5 {
 
 /* Your code starts here! */
 
-.container {
-  width: 80%;
-  margin: 15px auto;
-  display: block;
+body {
+  max-width: 1100px;
+  min-width: 1099px;
+  margin: auto;
 }
 
-.container > section {
+.container {
+  width: 90%;
+  margin: 15px auto;
   display: block;
 }
 
 header {
   display: block;
-  margin: 25px auto;
   width: auto;
 }
 
@@ -182,6 +183,7 @@ nav a {
 
 .heading {
   width: 100%;
+  margin: 25px 0px;
 }
 
 .heading div {
@@ -197,7 +199,11 @@ nav a {
 }
 
 .heading button {
-  display: inline;
+  display: inline-block;
+  width: 50%;
+  height: 35px;
+  background: none;
+  box-shadow: 2px 3px 10px;
 }
 
 div {
@@ -210,6 +216,7 @@ div section {
 }
 
 .wrapper {
+  height: 600px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin: 50px 0px;
@@ -217,6 +224,7 @@ div section {
 }
 
 .container1 section {
+  float: left;
   width: 45%;
   margin: auto;
 }
@@ -227,12 +235,19 @@ div section {
 }
 
 .container2 section {
-  display: inline-block;
-  width: 33%;
+  float: left;
+  width: 33.3%;
   margin: auto;
   padding: 0px 10px;
 }
 
 address {
   margin: 0px;
+  padding: 10px 0px;
+}
+
+.container4 {
+  text-align: center;
+  width: 100%;
+  margin: 25px 0px;
 }
