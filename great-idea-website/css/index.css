@@ -114,6 +114,7 @@ body{
 	background-image: url(../img/logo.png);
 	width: 183px;
 	height: 36px;
+	cursor: pointer;
 }
 
 #topContent{
