@@ -84,7 +84,26 @@ h1{
 	padding:3% 17%;
 	width:49%;
 }
+section {
+	border-top:1px solid black;
+	border-bottom: 1px solid black;
+}
 .align{
-	vertical-align: middle;
+	vertical-align: top;
+}
+#startButton{
+	width: 130px;
+	margin: 0 15px;
+	text-align:center;
+	padding: 10px;
+	background-color: inherit;
+	outline:none;
+	border: 1px solid black;
+}
+#alignDown{
+	padding-top: 20%;
+}
+.center{
+	left:50%;
 }
 /* Your code starts here! */
