@@ -178,7 +178,6 @@ h4 {
 .container {
   width: 90%;
   margin: 15px auto;
-  display: block;
 }
 
 header {
@@ -191,7 +190,6 @@ header {
 }
 
 nav {
-  display: block;
   width: 100%;
   max-width: 1000px;
   min-width: 999px;
