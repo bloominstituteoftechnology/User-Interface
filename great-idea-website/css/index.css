@@ -55,8 +55,7 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	margin-left:100px;
-	margin-right:180px;
+	margin:0 140px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -115,6 +114,33 @@ section {
 	padding-top: 20%;
 }
 .center{
-	padding-left: 16%;
+	text-align:center;
+}
+.sectionDivs{
+	display:inline-block;
+	margin-top:25px;
+	padding:0 5px;
+	width:49%;
+}
+.sectionDivs2{
+	display:inline-block;
+	padding:0 3px;
+	width:33%;
+	margin-bottom:30px;
+
+}
+p{
+	padding: 10px 0px;
+}
+
+#pictureDiv{
+	margin: 25px 0px;
+}
+#footerDiv{
+	padding:20px 0;
+	width:30%;
+}
+.block{
+	display:block;
 }
 /* Your code starts here! */
