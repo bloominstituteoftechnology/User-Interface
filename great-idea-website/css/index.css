@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 18%;
+	display: inline-block;
+	margin-top: 20px;
+	}
+
+nav {
+	display: inline-block;
+	width: 80%;
+}
+nav a{
+	padding: 0 30px;
+	display: inline-block;
+	
+}
+
+nav a:link {
+	text-decoration: none;
+	color: lightgray;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: dodgerblue;
+}
+
+header{
+	width: 60%;
+	display:inline-block;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+header h1 {
+	 display: inline-block;
+	 font-size: 80px;
+	 }
+.get-started{
+	border: 1px solid black;
+	padding: 10px;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.header-img{
+	width: 35%;
+	margin-top: 40px;
+}
+
+hr{
+	display: block;
+}
+
+.features, .about{
+	display: inline-block;
+	width: 49%;
+	padding: 30px 0;
+	margin-right: 5px;
+	}
+
+.middle-img{
+	width: 100%;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 32%;
+	padding: 30px 0;
+	margin-right: 5px;
+}
+
+.contact{
+	padding: 30px 0;
+}
+footer{
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 50px;
+}
