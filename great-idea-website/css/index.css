@@ -178,15 +178,19 @@ body {
 }
 
 header {
-  width: auto;
+  width: 100%;
   background-color: pink;
   position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
 }
 
 nav {
-  display: inline-block;
+  display: block;
   width: 100%;
-  margin: 15px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 nav a {
