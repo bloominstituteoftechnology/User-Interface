@@ -73,7 +73,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -81,41 +81,65 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	min-width: 960px;
-	max-width: 1280px;
 	margin: auto;
-	width: 50%;
+	width: 60%;
 	display: block;
-	/*margin: 0px 30px;*/
+	margin-top: 100px;
+}
+
+.navbackground {
+	top: 0;
+	position: fixed;
+	height: 80px;
+	right: 0;
+	left: 0;
+	background: #B2B2B4;
 }
 
 nav {
-	margin: 5px;
-	padding: 10px;
-	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px 0px;
+	width: 60%;
+	min-width: 800px;
 }
 
-nav a {
+nav .navitem {
 	width: 12.5%;
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 0;
 	text-decoration: none;
-	color: #C1C1C1;
+	color: #202020;
 }
 
 nav a:hover {
-	color: black;
+	color: white;
 }
 
 nav img {
+	vertical-align: bottom;
+	padding-top: 9.12px;
+	padding-bottom: 9.12px;
+	display: inline-block;
 	width: 20%;
 	text-align: right;
-	margin-top: 10px;
-	padding: 0px;
 }
 
 hr {
 	margin: 10px;
 	border: 0.5px solid black;
+}
+
+#bulbimg {
+	text-align: right;
+	width: auto;
+	max-width: 25%;
+}
+
+.defaulth1 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin: 15px;
 }
 
 article {
@@ -155,15 +179,23 @@ footer {
 	text-align: center;
 	padding: 20px;
 	margin-top: 5%;
-	font-family: 'Bangers', cursive;
+	font-family: 'Rubik Mono One', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	font-size: 72px;
 }
 
+p {
+	margin-right: 5px;
+}
+
 section {
 	display: block;
 	margin: 25px 0;
+}
+
+.titleSection {
+	display: inline-block;
 }
 
 .bottomSection {
