@@ -94,11 +94,14 @@ body{
 }
 
 .navigationBar .logo{
+	display: inline-block;
 	position: fixed;
-	float: right;
 	z-index: +1;
 	top: 20px;
 	margin-left: 80px;
+	background-image: url(../img/logo.png);
+	width: 183px;
+	height: 36px;
 }
 
 #topContent{
@@ -111,9 +114,9 @@ body{
 
 #motto{
 	position: relative;
-	font-size: 72px;
+	font-size: 64px;
 	display: inline-block;
-	width: 375px;
+	width: 345px;
 	left: 50px;
 	top: 50px;
 	text-align: center;
@@ -126,7 +129,9 @@ body{
 #headerIMG{
 	float: right;
 	margin-right: 10px;
-	width: 355px;
+	background-image: url(../img/header-img.png);
+	width: 379px;
+	height: 379px;
 }
 
 #getStartedBtn{
@@ -134,7 +139,7 @@ body{
 	width: 155px;
 	height: 25px;
 	top: 105px;
-	left: -215px;
+	left: -195px;
 	text-decoration: none;
 	background: white;
 	border: 1px solid black;
@@ -166,8 +171,10 @@ body{
 }
 
 .middle-img{
+	background-image: url(../img/mid-page-accent.jpg);
 	width: 900px;
 	margin-top: 10px;
+	height: 181px
 }
 
 #middleInfoBottomSection{
