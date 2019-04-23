@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin:0px 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+#navbar{
+	margin-top:20px;
+}
+.navbarlink{
+	display:inline-block;
+	margin:1%;
+	padding:2%;
+	text-decoration: none;
+	color:grey;
+}
 /* Your code starts here! */
