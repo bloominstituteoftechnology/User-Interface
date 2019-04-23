@@ -190,6 +190,7 @@ nav {
   display: block;
   width: 100%;
   max-width: 1000px;
+  min-width: 999px;
   margin: auto;
 }
 
