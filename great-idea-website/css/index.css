@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header 	{
+	min-height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav 	{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+a 	{
+	color: #222;
+	text-decoration: none;
+}
+
+#logo 	{
+	display: inline-block;
+}
+
+ul 	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul li 	{
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li a		{
+	text-decoration:  none;
+	 margin-right: 5em; 
+	color: grey;
+	padding: 10px;
+	font-size: 16px;
+	display: block;
+}
+
+.right-container 	{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	
+}
+.left-container 	{
+	display: inline-block;
+	margin-right: -4px;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding-top: -20px;
+}
+
+main 	{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+
+.statement-text 	{
+	font-size: 100px;
+}
+
+.ctn 	{
+	border: 1px solid #333;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #222;
+	font-weight: 700;
+}	
+
+section 	{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.middle-container 	{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.image-container img	{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.top-container 	{
+	margin-bottom:20px;
+}
+
+#features 	{
+	display: inline-block;
+	width: 49%;
+}
+
+#about 	{
+	display: inline-block;
+	width: 49%;
+}
+
+#services 	{
+	display: inline-block;
+	width: 33%;
+}
+
+#product 	{
+	display: inline-block;
+	width: 33%;
+}
+
+#vision 	{
+	display: inline-block;
+	width: 33%;
+}
+
+.box 	{
+	margin-bottom: 20px;
+}
+
+
+footer .bottom 	{
+	padding: 20px;
+	text-align: center;
+}
