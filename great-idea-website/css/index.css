@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	display: block;
+	width: 900px;
+	margin: 0px auto;
+}
+
+.navigationBar{
+	display: inline-block;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.navigationBar a{
+	position: relative;
+	color: grey;
+	text-decoration: none;
+	padding: 0px 25px;
+	top: 10px;
+}
+
+.navigationBar .logo{
+	float: right;
+}
+
+#topContent{
+	display: inline-block;
+	width: 900px;
+	margin: 25px auto;
+	margin-bottom: 55px;
+}
+
+#motto{
+	position: relative;
+	font-size: 76px;
+	display: inline-block;
+	width: 275px;
+	left: 125px;
+	top: 65px;
+	text-align: center;
+
+}
+
+#headerIMG{
+	float: right;
+	margin-right: 10px;
+}
+
+#getStartedBtn{
+	position: relative;
+	width: 155px;
+	height: 25px;
+	top: 115px;
+	left: -95px;
+	text-decoration: none;
+	background: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+#getStartedBtn:hover{
+	background: rgb(230,230,230);
+}
+
+#middleInfoTopSection{
+	display: inline-block;
+	width: 900px;
+	margin: 25px auto;
+}
+
+#middleInfoTopSection div{
+	width: 48%;
+	font-size: 16px;
+}
+
+#featuresInfo{
+	display: inline-block;
+	float: left;
+}
+
+#aboutInfo{
+	display: inline-block;
+	float: right;
+}
+
+.middle-img{
+	width: 900px;
+	margin-top: 10px;
+}
+
+#middleInfoBottomSection{
+	display: inline-block;
+	width: 900px;
+	margin: 35px auto;
+	font-size: 16px;
+}
+
+#servicesInfo{
+	float: left;
+	display: inline-block;
+	width: 32%;
+}
+
+#productInfo{
+	display: inline-block;
+	width: 32%;
+}
+
+#visionInfo{
+	float: right;
+	display: inline-block;
+	width: 32%;
+}
+
+footer{
+	width: 900px;
+}
+
+footer address{
+	width: 120px;
+	font-size: 14px;
+}
+
+footer #contactInfo{
+	margin: 25px 0px;
+	width: 125px;
+}
+
+footer #emailAddress{
+	margin-top: 20px;
+}
+
+#copyright{
+	font-size: 14px;
+	margin: 10px auto;
+	text-align: center;
+}
