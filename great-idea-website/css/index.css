@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+.nav-bar {
+	/* height: 50px; */
+	width: 900px;
+	padding: 7px 0 7px 0;
+	margin: 0;
+	background: #cce6ff;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.nav-bar nav {
+	display: inline-block;
+}
+
+.nav-bar nav a {
+	text-decoration: none;
+	margin: 15px 20px;
+	color: black;
+}
+
+.nav-bar nav a:hover {
+	color: gray;
+}
+
+.logo {
+	margin-left: 110px;
+	vertical-align: middle;
+}
+
+.about {
+	margin-top: 60px;
+}
+
+.title {
+	display: inline-block;
+	width: 47%;
+	margin: 12px;
+	vertical-align: top;
+}
+
+.title h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.title button {
+	background: white;
+	display: block;
+	border: 1px solid black;
+	width: 130px;
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 1px;
+}
+
+.title button:hover {
+	transform: scale(1.2);
+}
+
+hr {
+	margin: 30px 0;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.top-section {
+	display: inline-block;
+	width: 49.7%;
+}
+
+.middle-img {
+	display: block;
+	margin: 30px auto;
+	width: 100%;
+}
+
+.bottom-section {
+	display: inline-block;
+	width: 33%;
+}
+address {
+	margin: 20px 0;
+}
+footer {
+	text-align: center;
+	padding: 20px;
+	width: 900px;
+}
+
+
