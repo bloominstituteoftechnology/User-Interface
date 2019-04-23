@@ -69,9 +69,12 @@ h1, h2, h3, h4, h5 {
 }
 .navbarlink{
 	display:inline-block;
-	margin:1%;
-	padding:2%;
+	margin:1% 2%;
+	padding:1% 2%;
 	text-decoration: none;
 	color:grey;
+}
+.logo{
+	padding-left:8%;
 }
 /* Your code starts here! */
