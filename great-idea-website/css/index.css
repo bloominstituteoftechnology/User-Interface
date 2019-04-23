@@ -76,28 +76,45 @@ header nav{
 	margin-top: 50px;
 }
 header .logo{
-	margin-top: 50px;
+	margin-top: 40px;
+	position: relative;
+	left: 22px;
 	display: inline-block;
 }
 header nav a {
-	margin: 0 25px;
+	margin: 0 31px;
 	font-size: 14px;
 	color: grey;
 	text-decoration: none;
 }
 .icd{
 display: inline-block;
-font-size: 55px;
+font-size: 80px;
 width: 300px;
 margin-bottom: 75px;
 margin-left: 100px;
+position: relative;
+top: 50px;
+bottom: 100px;
+}
+
+.on {
+ position: relative;
+ left: 125px;
+}
+
+.demand {
+	position: relative;
+	left: 50px;
+	bottom: 10px;
 }
 .circlepicture{
 	display: inline-block;
-	width: 275px;
-	margin-top: 50px;
-	Margin-bottom: 75px;
-	margin-left: 100px;
+	width: 43%;
+	position: relative;
+	left: 121px;
+	top: 70px;
+	
 }
 .first{
 	display: inline-block;
