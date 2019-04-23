@@ -168,10 +168,49 @@ header nav a {
     font-size: 14px;
 }
 
-header nav a:last-child {
-    padding-right: 94px;
-}
-
 header .logo {
     width: 183px;
+}
+
+/********** Intro **********/
+.intro {
+    display: inline-block;
+    height: 488px;
+    width: 100%;
+    padding: 31px 75px 78px 75px;
+    white-space: nowrap;
+}
+
+.intro .half-width {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    vertical-align: top;
+    white-space: normal;
+    text-align: center;
+}
+
+.intro .half-width:last-child {
+    text-align: right;
+}
+
+.intro h1 {
+    display: inline-block;
+    margin-top: 57px;
+    width: 100%;
+    font-size: 76px;
+    letter-spacing: 4.5px;
+    line-height: 74px;
+}
+
+.intro button {
+    display: inline-block;
+    width: 174px;
+    font-family: TitilliumWeb-Regular;
+    background: transparent;
+    border: 1px solid #737373;
+    font-size: 16px;
+    color: #737373;
+    letter-spacing: 1px;
+    padding: 5px 0px;
 }
