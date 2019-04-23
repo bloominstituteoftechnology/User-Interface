@@ -157,10 +157,11 @@ h5 {
 }
 
 p {
-	text-align: left;
+	text-align: justify;
 	font-weight: normal;
 	font-family: 'Lato', Arial, Helvetica, sans-serif;
 	color: rgba(1, 10, 38, 0.582);
+	line-height: 1.5;
 }
 
 /* Your code starts here! */
@@ -275,6 +276,7 @@ body {
 
 .company-info-features,
 .company-info-about {
+	padding: 1em;
 	display: inline-block;
 	width: 50%;
 	margin: -4px;
