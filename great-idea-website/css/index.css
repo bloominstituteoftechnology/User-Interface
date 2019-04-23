@@ -165,28 +165,32 @@ h5 {
 nav {
 	box-sizing: border-box;
 	padding-top: 30px;
+	padding-bottom: 20px;
 	width: 100%;
 	margin: 0 auto;
 }
 
 .menu {
 	display: inline-block;
-	width: 65%
 }
 
 .menu a {
 	text-decoration: none;
-	color: lightgray;
-	padding-left: 40px;
+	color: #cfcfd4;
+	padding-right: 60px;
+	transition: ease-in-out 300ms;
+}
+
+.menu a:hover {
+	color: grey;
 }
 
 .menu-logo {
 	display: inline-block;
-	width: 30%;
 }
 
 .menu-logo img {
-	padding-left: 80px;
+	padding-left: 30px;
 	padding-bottom: 10px;
 	vertical-align: middle;
 }
@@ -194,7 +198,7 @@ nav {
 header {
 	width: 100%;
 	margin-top: 40px;
-	margin-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 div.intro {
@@ -206,15 +210,17 @@ div.intro {
 	padding-top: 40px;
 }
 
+.intro h2 {
+	margin: 0;
+}
+
 button {
 	height: 30px;
 	width: 150px;
 	border: 1px solid black;
+	font-size: 16px;
 }
-section {
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
-}
+
 .box-one {
 	display: inline-block;
 	width: 48%;
@@ -237,23 +243,38 @@ section {
 	margin-left: 10px;
 }
 
-address {
-	line-height: 2;
+.address {
 	margin-left: 10px;
 	padding-top: 20px;
 }
 
 address a {
+	padding-top: 20px;
 	text-decoration: none;
 	color: black;
 }
 
-.section-two {
-	width: 100%;
-    padding: 2px;
-}
-footer {
-	padding-top: 50px;
-	text-align: center;
+address p:first-child {
+	padding-bottom: 20px;
 }
 
+address p:last-child {
+	padding-top: 20px;
+}
+
+.section-two {
+	width: 100%;
+	padding: 2px;
+
+}
+
+footer {
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+hr {
+	width: 95%;
+	margin-left: 14px;
+}
