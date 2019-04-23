@@ -150,3 +150,28 @@ h5 {
 }
 
 /* Your code starts here! */
+
+/********** Header **********/
+header {
+    position: relative;
+    width: 100%;
+    padding: 35px 75px 46px 75px;
+}
+header nav {
+    display: inline-block;
+}
+header nav a {
+    display: inline-block;
+    padding-right: 66px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:last-child {
+    padding-right: 94px;
+}
+
+header .logo {
+    width: 183px;
+}
