@@ -55,7 +55,8 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	margin:0px 20px;
+	margin-left:100px;
+	margin-right:180px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,7 +65,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 h1{
-	font-size: 60px;
+	font-size: 70px;
+}
+h2{
+	font-size:20px;
+	padding:10px;
 }
 #navbar{
 	margin-top:20px;
@@ -72,28 +77,34 @@ h1{
 .navbarlink{
 	display:inline-block;
 	margin:1% 2%;
-	padding:1% 2%;
+	padding:1% 1%;
 	text-decoration: none;
 	color:grey;
 }
 .logo{
-	padding-left:8%;
+	padding-left:5%;
 }
 .halfdiv{
 	display:inline-block;
+	padding:3% 8%;
+	width:40%;
+}
+#anotherHalfDiv{
+	display:inline-block;
 	padding:3% 17%;
-	width:49%;
+	width:45%;
+	vertical-align: top;
+	
 }
 section {
 	border-top:1px solid black;
 	border-bottom: 1px solid black;
 }
-.align{
-	vertical-align: top;
-}
+
+	
 #startButton{
-	width: 130px;
-	margin: 0 15px;
+	width: 180px;
+	margin: 0 20px;
 	text-align:center;
 	padding: 10px;
 	background-color: inherit;
@@ -104,6 +115,6 @@ section {
 	padding-top: 20%;
 }
 .center{
-	left:50%;
+	padding-left: 16%;
 }
 /* Your code starts here! */
