@@ -64,23 +64,58 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	background-color: #000;
+}
+
+p{
+	font-size: 1rem;
+}
+
+.heading-primary{	
+	font-size: 4.5rem;
+	margin-bottom: 20px;
+}
+
+.heading-secondary{
+	font-size: 1.4rem;
+}
+
+.heading-tertiary{
+	margin-top: 30px;
+	font-size: 1.3rem;
+}
+
 .container{
-	width: 60%;
+	background-color: #fff;
+	width: 1000px;
 	margin: 0 auto;
 	padding: 0px 50px;
 }
 
-nav{
-	height: 10vh;
+header{
+	margin-bottom: 50px;
 }
 
-header nav a{
-	margin-right: 20px;
+.main-nav{
+	display: inline-flex;
+	vertical-align: top;
+	margin-bottom: 40px;
 }
 
-.logo{
-	background-color: yellow;
+header nav a{	
+	margin: 30px 0;
+	text-decoration: none;
+	color: rgb(175, 175, 175);
+}
+
+header nav a:not(:last-child){
+	margin-right: 60px;
+}
+
+.header-logo{
 	display: inline-block;
+	margin: 20px 0px 0px 100px;
 }
 
 .header-box{
@@ -88,15 +123,87 @@ header nav a{
 	display: inline-block;
 	width: 50%;
 	vertical-align: top;
-	margin-top: 25%;
+	margin-top: 20%;
 	transform: translateY(-50%);
 }
 
 .header-img{
 	display: inline-block;
 	width: 45%;
+	margin-left: 30px;
 }
 
-.heading-primary{	
-	font-size: 3.5rem;
+.btn{
+	display: inline-block;
+	background-color: #fff;
+	text-decoration: none;
+	border: 2px solid rgb(150, 150, 150);
+	font-size: 1rem;
+	width: 150px;
+	padding: 7px;
 }
+
+.main-top-content{
+	margin-top: 50px;
+}
+
+.features-content,
+.about-content{
+	display: inline-block;
+	width: 49.5%;
+	
+}
+
+.features-content{
+	padding-right: 20px;
+}
+
+.about-content{
+	padding-left: 20px;	
+}
+
+.middle-img{
+	width: 100%;
+	margin: 50px 0;
+}
+
+.main-bottom-content{
+	margin-bottom: 50px;
+}
+
+.services-content,
+.product-content,
+.vision-content{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+.services-content,
+.product-content{
+	margin: 0 auto;
+	padding-right: 10px;
+}
+
+.vision-content{
+	padding-left: 10px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+	height: 40vh;
+}
+
+footer nav a{
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+footer p{
+	margin-top: 50px;
+	text-align: center;
+}
+
