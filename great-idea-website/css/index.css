@@ -239,3 +239,54 @@ footer #emailAddress{
 	margin: 10px auto;
 	text-align: center;
 }
+
+/* Contact Us Page */
+
+#contactUsPageContent{
+	margin-top: 90px;
+}
+
+#contactUsPageContent h1{
+	font-size: 42px;
+}
+
+#contactForm{
+	font-weight: bold;
+	display: inline-block;
+	width: 900px;
+	margin: 5px 0px;
+}
+#nameInput{
+	background: white;
+	margin: 5px 20px;
+	border: 1px solid black;
+}
+
+#emailInput{
+	margin: 5px 20px;
+	border: 1px solid black;
+	background: white;
+}
+
+#phoneInput{
+	margin: 5px 20px;
+	border: 1px solid black;
+	background: white;
+}
+
+#commentInput{
+	width: 900px;
+	height: 300px;
+	margin: 5px 0px;
+	border: 1px solid black;
+	background: white;
+}
+
+#submitButton{
+	position: relative;
+	width: 155px;
+	height: 25px;
+	text-decoration: none;
+	background: white;
+	border: 1px solid black;
+}
