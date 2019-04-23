@@ -73,6 +73,13 @@ body{
 	margin: 0px auto;
 }
 
+@keyframes textColorChange {
+	0%   {color: green;}
+	25%  {color: blue;}
+	50%  {color: purple;}
+	100% {color: red;}
+  }
+
 .navigationBar{
 	position: fixed;
 	background: white;
@@ -91,6 +98,11 @@ body{
 	padding: 0px 25px;
 	top: 30px;
 	width: 900px;
+}
+.navigationBar a:hover{
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 .navigationBar .logo{
@@ -145,8 +157,11 @@ body{
 	border: 1px solid black;
 	cursor: pointer;
 }
+
 #getStartedBtn:hover{
-	background: rgb(230,230,230);
+	animation-name: textColorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 #middleInfoTopSection{
