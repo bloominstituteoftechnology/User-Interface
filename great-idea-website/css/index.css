@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
 html,
 body,
 div,
@@ -144,7 +146,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family: "Dancing Script", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
