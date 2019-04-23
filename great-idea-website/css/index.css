@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5 {
 	width: 60%;
 	text-align: center;
 	display: inline-block;
+	margin-bottom: 50px;
 }
 
 .header-image-container {
