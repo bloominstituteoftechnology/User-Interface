@@ -214,3 +214,59 @@ header .logo {
     letter-spacing: 1px;
     padding: 5px 0px;
 }
+
+/********** Main **********/
+main {
+    display: inline-block;
+    width: 874px;
+    margin-left: 75px;
+}
+
+main .rule {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
+main h2 {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 13px;
+}
+
+main p {
+    line-height: 18px;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.col-50 {
+    display: inline-block;
+    width: 49%;
+}
+
+.col-50:last-child {
+    margin-left: 13px;
+}
+
+main img {
+    margin: 37px 0;
+}
+
+.col-33 {
+    display: inline-block;
+    width: 32%;
+}
+
+.col-33:first-child {
+    margin-right: 13px;
+}
+
+.col-33:last-child {
+    margin-left: 13px;
+}
