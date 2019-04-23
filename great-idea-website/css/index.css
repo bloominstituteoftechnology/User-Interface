@@ -53,14 +53,68 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	max-width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container{
+	margin: 30px;
+}
+
+header nav{
+	width: 80%;
+	box-align: border-box;
+	display: inline-block;
+	float: left;
+}
+.main-content img{
+	align-content: stretch
+}
+.leftpart h1{
+	font-size: 80px;
+}
+.h3{
+	font-size: 30px;
+}
+.top-content{
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+  padding: 20px 0;
+}
+.bottom-content{
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+  padding: 20px 0;
+}
+.features{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.about{
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+.services{
+	width: 33.3%;
+	display: inline-block;
+	float: left;
+}
+.product{
+	width: 33.3%;
+	display: inline-block;
+	float: left;
+}
+footer{
+	align-items: center
+}
