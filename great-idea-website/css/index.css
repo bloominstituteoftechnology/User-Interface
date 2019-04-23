@@ -171,6 +171,10 @@ body {
   margin: auto;
 }
 
+h4 {
+  font-size: 30px;
+}
+
 .container {
   width: 90%;
   margin: 15px auto;
@@ -241,7 +245,7 @@ div section {
 }
 
 .wrapper {
-  height: 600px;
+  height: 625px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin: 50px 0px;
@@ -250,8 +254,9 @@ div section {
 
 .container1 section {
   float: left;
-  width: 45%;
+  width: 50%;
   margin: auto;
+  padding: 5px 15px;
 }
 
 .middle-img {
