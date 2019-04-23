@@ -5,6 +5,8 @@
 
 html, body {
     height: 100%;
+    width: 874px;
+    margin: auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -15,3 +17,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Column styling */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
+}
+
+.middle-column {
+  padding: 0 10px;
+}
+
+hr {
+  border: 0.5px solid black;
+  width: 100%;
+}
+
+/* header and navbar */
+header {
+  padding: 30px 0;
+  width: 100%;
+}
+
+.navlinks {
+  display: table;
+  text-align: left;
+  table-layout: fixed;
+  height: 36px;
+  width: 100%;
+}
+
+.navlinks a {
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+.navlinks a:hover {
+  color: #a8a8a8;
+}
+
+.logo {
+  width:215px;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Call To Action */
+.cta {
+  text-align: center;
+  margin: 40px 0 75px 0;
+}
+
+.site-title {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  font-size: 85px;
+  margin: 40px 0 30px 0;
+  width: 100%;
+}
+
+.cta-button {
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px 40px;
+}
+
+/* Main content */
+.site-content {
+  margin: 50px auto;
+}
+
+.middle-img {
+  margin: 40px 0;
+}
+
+/* footer */
+.contact-info {
+  margin: 50px 0;
+}
+
+.contact-info p {
+  display: block;
+}
+
+.phone-number {
+  margin: 20px auto;
+}
+
+.copyright {
+  margin: 30px auto;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
