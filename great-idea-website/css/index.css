@@ -65,6 +65,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+}
+a{
+	padding: 20px;
+	margin: 20px;
+	text-decoration: none;
+}
+.head{
+	display: inline-block;
+	width: 100%;
+	margin: 10px;
+	padding: 20px;
+	border-bottom: solid red;
+}
+.header{
+	display: inline-block;
+	width: 35%;
+	padding: 40px;
+	margin: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
 .top-content{
 	display: inline-block;
 
@@ -86,7 +114,12 @@ h1, h2, h3, h4, h5 {
 	margin: 10px;
 }
 .codepic{
-	width: 50px;
+	width: 45%;
+	display: inline-block;
+	padding: 50px;
+	margin: 10px;
+	text-align: center;
+
 }
 .left{
 	display: inline-block;
@@ -111,6 +144,9 @@ h1, h2, h3, h4, h5 {
 	width: 30%;
 	margin: 10x;
 }
+.bottom-content{
+	border-bottom: solid red;
+}
 .middle-img{
 	width: 80%;
 	margin: 50px;
@@ -118,8 +154,9 @@ h1, h2, h3, h4, h5 {
 }
 
 footer{
-	width: 50%;
+	width: 100%;
 	text-align: center;
+	padding: 20px;
 }
 .contact {
 	text-align: left;
