@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
 body{
 	display: block;
 	width: 900px;
@@ -72,9 +74,14 @@ body{
 }
 
 .navigationBar{
+	position: fixed;
+	background: white;
 	display: inline-block;
-	margin: 20px auto;
-	width: 100%;
+	
+	width: 900px;
+	height: 75px;
+	z-index: +1;
+	top: 0px;
 }
 
 .navigationBar a{
@@ -82,42 +89,52 @@ body{
 	color: grey;
 	text-decoration: none;
 	padding: 0px 25px;
-	top: 10px;
+	top: 30px;
+	width: 900px;
 }
 
 .navigationBar .logo{
+	position: fixed;
 	float: right;
+	z-index: +1;
+	top: 20px;
+	margin-left: 80px;
 }
 
 #topContent{
 	display: inline-block;
 	width: 900px;
-	margin: 25px auto;
+	margin: 0px auto;
 	margin-bottom: 55px;
+	margin-top: 125px;
 }
 
 #motto{
 	position: relative;
-	font-size: 76px;
+	font-size: 72px;
 	display: inline-block;
-	width: 275px;
-	left: 125px;
-	top: 65px;
+	width: 375px;
+	left: 50px;
+	top: 50px;
 	text-align: center;
+}
 
+#motto h1{
+	font-family: 'Sigmar One', cursive;
 }
 
 #headerIMG{
 	float: right;
 	margin-right: 10px;
+	width: 355px;
 }
 
 #getStartedBtn{
 	position: relative;
 	width: 155px;
 	height: 25px;
-	top: 115px;
-	left: -95px;
+	top: 105px;
+	left: -215px;
 	text-decoration: none;
 	background: white;
 	border: 1px solid black;
