@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Alfa Slab One', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -70,10 +70,17 @@ body{
 	margin: 0 auto;
 }
 
-.logo{
-	width: 18%;
-	display: inline-block;
-	margin-top: 20px;
+.navigation {
+	overflow: hidden;
+	background-color: dodgerblue;
+	position: sticky;
+	top: 0;
+	padding:30px 0;
+	width: 100%;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	z-index: 1;
 	}
 
 nav {
@@ -82,58 +89,86 @@ nav {
 }
 nav a{
 	padding: 0 30px;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 nav a:link {
 	text-decoration: none;
-	color: lightgray;
+	color: white;
 }
 
 nav a:hover {
 	text-decoration: none;
 	font-weight: bold;
-	color: dodgerblue;
+	color: black;
 }
 
 header{
-	width: 60%;
+	width: 100%;
 	display:inline-block;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	margin: 40px 0;
+	padding: 150px 0;
+	background-image: url("../img/header-img.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	line-height: 1;	
 }
 
 header h1 {
-	 display: inline-block;
-	 font-size: 80px;
-	 }
+	 font-size: 60px;
+	 width: 60%;
+	 position: absolute;
+	 top: 150px;
+	 left: 50px;
+	  }
+
 .get-started{
 	border: 1px solid black;
 	padding: 10px;
-	width: 30%;
-	margin: 0 auto;
+	width: 150px;
+	display: block;
+	position: absolute;
+	top: 350px;
+	left: 375px;
+	
+	}
+
+.get-started a:link{
+	text-decoration: none;
+	color: black;
 }
+
+.get-started:hover{
+	background-color: dodgerblue;
+	}
 
 .header-img{
 	width: 35%;
 	margin-top: 40px;
+	
 }
 
 hr{
 	display: block;
 }
-
+section h3{
+	font-size: 25px;
+}
 .features, .about{
 	display: inline-block;
 	width: 49%;
 	padding: 30px 0;
-	margin: 10px 5px 10px 0;
+	margin: 10px 5px 30px 0;
 	}
 
 .middle-img{
 	width: 100%;
+	padding: 110px 0;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .services, .product, .vision {
