@@ -347,6 +347,10 @@ body {
 	padding: 3em 0 6em 0;
 }
 
+.company-info-contact {
+	text-align: left;
+}
+
 @media screen and (max-width: 1024px) {
 	.container {
 		width: 100%;
