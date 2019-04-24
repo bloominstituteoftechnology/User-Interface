@@ -28,69 +28,67 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 10px;
 }
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Your code starts here! */
 .navigation-bar {
-	width: 100%;
-	overflow: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: stretch;
 }
 .navigation-bar a {
 	color: gray;
 	text-decoration: none;
-	float: left;
-	padding: 12px;
-	font-size: 17px;
-	width: 14.28%;
+}
+.first-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.first-section p {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	font-size: 50px;
+}
+.second-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 .c1 {
-	float: left;
-	width: 50%;
+	font-weight: bold;
 }
-h1 {
-	text-align: center;
-	font-size: 40px;
-
+.h2 {
+	font-weight: bold;
+	font-size: 20px;
 }
-
-.top-content {
+.middle-img{
 	width: 100%;
-	overflow: auto;
 }
+.fourth-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.bottom-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
 
-.top-content h2 {
-	width: 50%;
 }
+.favorite-styled{
+	background-color: white;
+	color: black;
+	margin: 20px;
+	border: 1px solid gray;
+	padding: 15px 32px;
+	font-size: 16px;
+}
+.footer{
+	align-self: auto;
