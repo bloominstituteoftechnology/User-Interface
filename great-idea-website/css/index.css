@@ -203,6 +203,10 @@ nav a {
   color: grey;
 }
 
+nav a:hover {
+  background-color: white;
+}
+
 .heading {
   width: 100%;
   margin-top: 92px;
