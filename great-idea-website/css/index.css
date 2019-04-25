@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+  box-sizing: border-box;
+  text-align: 0 auto;
+}
+body {
+
+  
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+nav {
+  background: #ff9999;
+  position: fixed;
+  top: 10px; 
+  display: inline-block;
+  z-index: 1;
+}
+nav a {
+  
+  display: inline-block;
+  color: #666666;
+  text-decoration: none;
+  font-size: 10pt; 
+  padding: 5px 15px;
+  vertical-align: middle;
+ 
+   
+}
+nav a:hover{
+  color: black;
+}
+.logo{
+  text-align: right;
+  
+  display: inline-block;
+  margin-left: 75%;
+}
+header{
+  margin: 50px 0 20px 0;
+}
+
+.headButton{
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+}
+.headButton:hover{
+  color: white;
+  background: black;
+}
+header h1{
+  text-align: center;
+  font-size: 350%;
+  width: 45%;
+  display: inline-block;
+  padding: 50px;
+  box-sizing: border-box;
+  vertical-align: text-bottom;
+}
+header img {
+  
+  width: 45%;
+  display: inline-block;  
+}
+.topSection{
+  margin: 50px 0 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+.topLeft {
+  display: inline-block;
+  width: 49%;
+}
+
+
+.topRight {
+  display: inline-block;
+  width: 49%;
+}
+
+.middle-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bottomLeft{
+  display: inline-block;
+  width: 33%;
+}
+.bottomCenter{
+  display: inline-block;
+  width: 33%;
+}
+.bottomRight{
+  display: inline-block;
+  width: 33%;
+}
+.contact {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+footer{
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 20px;
+}
+.topSection, .bottomSection  {
+    font-family: 'Cute Font', cursive;
+}
+
