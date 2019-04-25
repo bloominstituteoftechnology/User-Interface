@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+.container {
+	width: 876px;
+	margin: auto;
+}
+
+header nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content:space-between;
+
+
+}
+header {
+	margin: 35px 0px 50px;
+	display:flex;
+	align-items: center;
+}
+
+.logo {
+	margin-left: 130px;
+}
+
+.cta-text h1 {
+	font-size: 50pt;
+}
+
+.cta {
+	display:flex;
+	align-items: center;
+}
+.cta-text {
+	
+	margin-left: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+button {
+	background: white;
+	padding: 5px 40px 5px 40px;
+	font-size: 16px;
+}
+.cta img {
+	display: flex;
+	margin-left: 100px;
+	vertical-align: middle;
+
+}
+
+.top-content {
+	border-top: 1px solid black;
+	margin-bottom: 40px;
+}
+.top-content {
+	display: flex;
+	flex-direction: row;
+
+}
+.top-content .text-content {;
+	width:49%;
+	padding-top:40px;
+
+}
+
+.bottom-content {
+	display:flex;
+
+}
+.bottom-content .text-content {
+	
+	width: 33%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bottom-content {
+	border-bottom: 1px solid black;
+	
+}
+.cta {
+	margin-bottom: 40px;
+}
+
+.contact{
+	margin-top:40px;
+}
+
+.contact p{
+	margin-top: 10px;
+}
+
+footer {
+	margin-top: 10px;
+	text-align: center;
+}
