@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	margin:auto;
+	width:900px;
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.logo{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+header nav a{
+	padding:20px;
+}
+.sec1 {
+	text-align: center;
+    display: inline-block;
+    width:900px;
+    margin: 40px;
+}
+
+.sec1left {
+    display: inline-block;
+    width: 49.5%;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.sec1right {
+    display:inline-block;
+    width: 49.5%;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+
+.features{
+	width: 49.5%;
+	height: 50%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.about{
+	width: 49.5%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.Services{
+	width: 33%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.Product{
+	width: 33%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.Vision{
+	width: 33%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.tophalf{
+	margin: 20px;
+	display:inline-block;
+}
+.bottomhalf{
+	margin: 20px;
+	display:inline-block;
+}
+
+.wholesection{
+	display:inline-block;
+	
+}
+.contacts{
+	margin-top: 30px;
+	margin-left:20px;
+}
+.copy{
+	margin-left:40%;
+}
+
+.wholesection{
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-width: 1px;
+}
+.sec1left button{
+	margin: 40px;
+	border: 50px;
+	border-width:1px;
+	border-color:grey;
+	
+}
