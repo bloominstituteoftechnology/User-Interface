@@ -53,8 +53,9 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Helper Tags */
+
+h1 {
+	font-size: 70px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+/* End Helper Tags */
+
+/* Header */
+
+header {
+	display: block;
+	padding: 20px;
+	width: 100%;
+}
+
+header nav {
+	height: 60px;
+	text-align: center;
+	display: inline-block;
+}
+
+header nav a {
+	padding: 0px 40px;
+}
+
+header img {
+	float: right;
+}
+
+
+/* End Header */
+
+/* Hero */
+
+hero {
+	display: inline-block;
+	height: 600px;
+	width: 100%;
+	padding: 0px;
+	position: relative;
+}
+
+hero h1 {
+	display: block;
+	width: 40%;
+}
+
+hero button {
+	display: block;
+	width: 40%;
+}
+
+hero img {
+	display: block;
+	width: 400px;
+	float: right;
+}
+
+/* End Hero */
+
+/* first-content */
+
+.first-content {
+	display: inline-block;
+	width: 80%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border-top: 1px solid black;
+}
+
+.first-content .features {
+	width: 50%;
+	display: inline-block;
+}
+
+.first-content .about {
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+/* End first-content */
+
+/* Middle Image */
+.middle-img{
+	width: 100%;
+}
+
+/* End Middle Image */
