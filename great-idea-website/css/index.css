@@ -179,30 +179,30 @@ header img {
   padding: 5px;
 }
 
-.s-1 {
+.section-1 {
   align-items: center;
   height: 500px;
 }
 
-.s-1 div {
+.section-1 div {
   display: inline-block;
   padding-bottom: 75px;
 }
 
-.s-1 h1 {
+.section-1 h1 {
   text-align: center;
   font-size: 75px;
   margin: 0px 100px 0px 100px;
   padding-bottom: 75px;
 }
 
-.s-1 img {
+.section-1 img {
   display: inline-block;
   height: 300px;
   margin: 50px 0px 50px 100px;
 }
 
-.s-1 button {
+.section-1 button {
   margin: 0px 200px 50px 200px;
   padding: 10px 25px;
   background: white;
@@ -210,12 +210,12 @@ header img {
   border-radius: 5px;
 }
 
-.s-1 button:hover {
+.section-1 button:hover {
   background: black;
   color: white;
 }
 
-.s-2 div {
+.section-2 div {
   font-size: 1.2em;
   font-weight: bold;
   line-height: 1.2em;
@@ -229,7 +229,7 @@ header img {
   width: 100%;
 }
 
-.s-3 div {
+.section-3 div {
   font-size: 1.2em;
   font-weight: bold;
   line-height: 1.2em;
@@ -239,11 +239,11 @@ header img {
   padding: 25px;
 }
 
-.s-4 h2 {
+.section-4 h2 {
   margin: 25px;
 }
 
-.s-4 address {
+.section-4 address {
   font-size: 1.2em;
   font-weight: bold;
   margin: 25px;
