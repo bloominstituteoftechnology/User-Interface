@@ -85,14 +85,9 @@ h2{
 }
 .halfdiv{
 	display:inline-block;
-	padding:3% 8%;
 	width:40%;
 }
-#anotherHalfDiv{
-	display:inline-block;
-	padding:3% 17%;
-	width:45%;
-	vertical-align: top;
+
 	
 }
 section {
@@ -110,9 +105,7 @@ section {
 	outline:none;
 	border: 1px solid black;
 }
-#alignDown{
-	padding-top: 20%;
-}
+
 .center{
 	text-align:center;
 }
@@ -122,6 +115,7 @@ section {
 	padding:0 5px;
 	width:49%;
 }
+
 .sectionDivs2{
 	display:inline-block;
 	padding:0 3px;
@@ -143,4 +137,3 @@ p{
 .block{
 	display:block;
 }
-/* Your code starts here! */
