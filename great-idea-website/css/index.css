@@ -70,17 +70,21 @@ h1, h2, h3, h4, h5 {
 }
 header nav{
 	display: inline-block;
-	margin: 10px;
+	margin: 0px;
+	background-color: aqua;
+	position: fixed;
+	top:0;
+	width:900px;
 }
 
 header nav a {
 	margin:25px;
 	text-decoration: none;
-	color:gray;
+	color: black;
 }
 
 .logo{
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .cta{
 	font-size: 70px;
@@ -99,11 +103,28 @@ header nav a {
 .cta img{
 	display: inline-block;
 }
+
+@keyframes buttonFade{
+	from{
+		background-color:white;
+		color: black;
+	}
+	to{
+		background-color: aqua;
+		color: white;
+	}
+}
 button{
 	background-color: white;
 	border: 1px solid black;
 	font-size: 16px;
 	padding: 8px 50px;
+}
+button:hover{
+	animation-name: buttonFade;
+	animation-duration: 3s;
+	background-color: aqua;
+	color:white;
 }
 .two-column{
 	display: inline-block;
