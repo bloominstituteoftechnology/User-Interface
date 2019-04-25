@@ -58,9 +58,172 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Alfa Slab One', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+nav a li{
+  text-decoration: none;
+  color: #adadad;
+  margin: 39px 62px 21px 0;
+  font-size: .9em;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+nav a li:hover {
+  color: black;
+}
+
+nav {
+  display: inline-block;
+/*   background-color: blue; */
+}
+
+#nav-container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+#fixed-nav {
+  display: block;
+  background-color: #eee;
+  position: fixed;
+  left: 0;
+  width: 100%;
+/*   height: 100px; */
+}
+
+button {
+  display: inline-block;
+  width: 175px;
+  height: 34px;
+  font-family: sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 580px;
+  margin: 0;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 876px;
+  margin-left: 0;
+}
+
+
+#snippet {
+  display: inline-block;
+  text-align: center;
+}
+
+#right-header {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 45px;
+  margin-top: 85px;
+}
+
+#left-header {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  padding: 170px 50px 0 75px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+
+h1 {
+  display: inline-clock;
+  font-size: 3.5em;
+  font-weight: 500;
+  letter-spacing: 3.4px;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.logo {
+  float: right;
+  display: inline;
+  margin: 26px;
+}
+
+p {
+  display: block;
+  color: black;
+}
+
+#features {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin: 30px 0;
+  line-height: 1.1em;
+}
+
+#about {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin: 30px 0 40px 0;
+  line-height: 1.1em;
+}
+
+#services {
+  margin: 36px 8px 36px 0;
+  display: inline-block;
+  float: left;
+  width: 32%;
+  line-height: 1.1em;
+}
+
+#product {
+  margin: 36px 0;
+  display: inline-block;
+  width: 32%;
+  line-height: 1.1em;
+}
+
+#vision {
+  margin: 36px 15px 36px 0;
+  display: inline-block;
+  float: right;
+  width: 32%;
+  line-height: 1.1em;
+  height: 150px;
+}
+
+body section {
+  height: 300px;
+}
+
+footer {
+  margin: 37px 0;
+  line-height: 1em;
+  width: 876px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: .9em;
+  margin: 65px 0 80px 0;
+}
