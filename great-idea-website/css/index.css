@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 975px;
+	margin: auto;
+	padding: 50px;
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 60px;
+	color:red;
+} 
+
+header nav a{
+	margin: 0 27px;
+	color:rgb(131, 131, 131);
+	font-size: 14px;
+	text-decoration: none;
+}
+
+header .logo{
+	margin-left: 80px;
+}	
+
+.get-started-btn{
+	/* display: inline-block; */
+    margin-left: 175px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 40px 8px 40px;
+	font-size: 18px;
+	font: inherit;
+}
+
+.banner{
+	display:inline-block;
+	padding-bottom: 100px;
+}
+
+.banner-top{
+	margin: 75px 0px 50px 90px;
+	font-size: 75px;
+	text-align: center;
+	
+}
+
+.banner-text{
+	display: inline-block;
+}
+
+.main-content{
+	display: inline-block;
+
+}
+ .main-content h2{
+	 margin-top: 30px;
+ }
+
+ .main-content div{
+	 float: right;
+	 width: 50%;
+	 padding-bottom: 35px;
+ }
+
+ .maint-content-bottom{
+	 display: inline-block;
+ }
+
+ .main-content-bottom div{
+	 float: left;
+	 width: 33%;
+	 padding-bottom: 35px;
+ }
+
+.header-img{
+	margin-left: 70px;
+}
+
+.middle-img{
+	padding-bottom: 35px;
+}
+
+.contact{
+	display: inline-block;
+}
+
+.contact p{
+	margin-bottom: 25px;
+}
+
+.contact address{
+	width: 60%;
+}
+
+footer{
+	font-size: 13px;
+	text-align: center;
+}
