@@ -118,7 +118,6 @@ header nav img{
 	width: 100%;
 	margin-top: 10px;
 	padding-bottom: 20px;
-	border-bottom: 2px solid black;
 }
 
 .start{
@@ -128,6 +127,7 @@ header nav img{
 .description{
 	border-top: 2px solid black;
 	padding-top: 20px;
+	margin-bottom: 20px;
 }
 .contact{
 	margin-top: 10px;
@@ -136,13 +136,20 @@ header nav img{
 	line-height: 2;
 }
 
+address .street{
+	line-height: 1.2;
+	margin-bottom: -10px;
+}
+
 .description2{
 	margin-top: 10px;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
+	border-bottom: 2px solid black;
 }
 footer{
 	text-align: center;
+	margin:50px;
 }
 
 button{
