@@ -38,3 +38,25 @@ Stretch goals are not required. Complete the project objectives before working o
 - [ ] Change all the image tags into background images instead
 
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+
+Hello world!!!
+
+  START STUFF
+
+  I am all excited starting a new
+  FEATURE!!!
+
+  // THE IMPORTANT STUFF FOR TODAY
+  git status (dont nest repos!)
+  git init (start a repo, hidden .git folder)
+  git add . & git commit (create commits)
+  git log (chain of commits)
+  git checkout hash (time travel on same chain/branch)
+  git checkout -b branchname (create new and check it out)
+  git checkout branchname (move to existing branch tip)
+
+  // CHERRY ON TOP
+  git stash & git stash pop
+
+  Killer FEATURE
+  shola ayeni
