@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 0 100px;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	width: calc(100% - 100px);
+	z-index: 1;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+header nav {
+	display: inline-block;	
+	padding: 15px 0px;
+	margin: 15px 0;
+	width: calc(100% - 233px);
+}
+
+header nav .nav-link {
+	width: calc(100% / 6.2);
+	margin: 0 0;
+	display: inline-block;
+}
+
+header nav .nav-link a {
+	text-decoration: none;
+	color: #9D9D9D;
+}
+
+header img {
+	right: 100px;
+	margin: 15px 0;
+	position: absolute
+}
+
+.cta-text {
+	display: inline-block;
+	width: calc(100% - 379px);
+	margin: 178.5px auto;
+	text-align: center;
+}
+
+.cta h1 {
+	font-size: 80px;
+}
+
+.cta button {
+	margin: 10px auto;
+	font-size: 18px;
+	width: 150px;
+	height: 40px;
+	border: 1px solid black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.cta button:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta img {
+	display: inline-block;
+	right: 100px;
+	position: absolute;
+	margin: 126px 0;
+}
+
+.top-content {
+	border-top: 1px solid black;
+}
+
+.middle-content img {
+	width: 100%;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+}
+
+.text-content {
+	margin: 50px 0;
+	display: inline-block;
+}
+
+.divider {
+	width: 20px;
+	display: inline-block;
+}
+
+.top-content .text-content {
+	width: calc((100% - 20px) / 2.02);
+}
+
+.bottom-content .text-content {
+	width: calc(100% / 3.2);
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact {
+	margin: 50px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 50px;
+}
