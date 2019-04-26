@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header nav a{
+	padding: 40px;
+	text-decoration: none;
+	color:black;
+
+}
+
+header nav img{
+	position: relative;
+	left:75px;
+}
+
+.container{
+	width: 70%;
+	margin: 10px auto;
+}
+
+.column{
+	display:inline-block;
+	width:calc(98%/2);
+	text-align: justify;
+	padding:5px;
+}
+
+.left{
+	margin-left: -10px;
+	position:relative;
+	bottom:50px;
+	text-align: center;
+	line-height: 2;
+}
+
+.left h1{
+	font-size: 400%;
+	font-weight: 400%;
+}
+
+.right{
+	position: relative;
+	left:175px;
+	bottom:50px;
+}
+
+.column2{
+	width: calc(98%/3);
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+.middle-img{
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.start{
+	margin: 100px;
+}
+
+.description{
+	border-top: 2px solid black;
+	padding-top: 20px;
+}
+.contact{
+	margin-top: 10px;
+}
+.contact address{
+	line-height: 2;
+}
+
+.description2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+footer{
+	text-align: center;
+}
+
+button{
+	background-color: white;
+	color:black;
+	border: 2px solid black;
+	padding: 10px 50px;
+}
