@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Defaults */
+
+.container {
+	width: 900px;
+	margin: auto;
+	/* border: 1px solid red; */
+	position: relative;
+}
+
+header, .cta, .main-content, .contact, footer {
+	margin-bottom: 40px;
+}
+
+/* Header */
+
+header {
+	background:	#06A8E3;
+	top: 0;
+	position: fixed;
+	z-index: 2;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+header nav a:hover {
+	color: lightgreen;
+
+}
+
+.logo {
+	margin-left: 140px;
+	padding-top: 5px;
+}
+
+/* CTA */
+
+.cta {
+	/* border: 1px solid red; */
+	position: relative;
+	margin-top: 100px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	/* border: 1px solid red; */
+	text-align: center;
+	margin-left: 100px;
+	position: absolute;
+	margin-top: 60px;
+}
+
+.cta .cta-text h1 {
+	font-size: 72px;
+	/* margin: auto auto 70px 5px; */
+	/* border: 1px solid red; */
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 16px;
+}
+
+button:hover {
+	background: lightgreen;
+	cursor: pointer;
+}
+
+.cta .cta-img {
+	display: inline-block;
+	/* border: 1px solid red; */
+	margin-left: 520px;
+}
+
+/* Main */
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.top-content, .middle-img, .bottom-content {
+	margin: 20px  auto;
+}
+
+	/* Top Content */
+.main-content .top-content .text-content {
+	display: inline-block;
+	width: 400px;
+	margin: auto 40px auto auto;
+	font-size: 16px;
+	font-weight: 500;
+}
+	
+	/* Image */
+
+	/* Botton Content */
+.main-content .bottom-content .text-content {
+	display: inline-block;
+	width: 270px;
+	margin: auto 20px auto auto;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* Address */
+
+/* Footer */
+footer {
+	text-align: center;
+}
