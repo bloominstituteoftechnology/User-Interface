@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+.navigation {
+	display: inline-block;
+	width: 876px;
+}
+.navigation nav {
+	margin-top: 35px;
+}
+.navigation label {
+	margin: 0 20px;
+	color: gray;
+	opacity: 25%;
+	display: inline-block;
+}
+.navigation :first-child {
+	margin-left: 0;
+}
+.navigation img {
+	margin-bottom: -15px;
+	margin-left: 130px;
+}
+header {
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding-bottom: 50px;
+}
+header div {
+	display: inline-block;
+}
+.title {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-15%);
+}
+.title ul{
+	width: auto;
+	height: auto;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 100px;
+}
+.title ul button {
+	height: 30px;
+	width: 150px;
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+}
+.title-img {
+	margin-left: 100px;
+	margin-top: 70px;
+}
+.top-content {
+	padding: 40px 0;
+}
+.top-content div {
+	width: 435.5px;
+	display: inline-block;
+}
+.top-content .left {
+	margin-left: 0;
+}
+.top-content .right {
+	margin-left: 1px;
+}
+.bottom-content {
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding: 40px 0;
+}
+.bottom-content div {
+	width: 282px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.bottom-content .left {
+	margin-left: 0;
+}
+.bottom-content div h3 {
+	margin-block-start: 0;
+}
+.contact {
+	padding-top: 40px;
+}
+.contact .phone-number {
+	padding: 15px 0;
+}
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
