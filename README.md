@@ -8,11 +8,26 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 ## To Get Started
 
-* Fork / Clone this project into a directory on your machine.
+* [] Option 1: Recommended
+  * Clone or download a ZIP of this project into a directory on your machine
+  * Copy all folder contents over to CodePen
+  * Read the project README carefully
+  * Begin working on the objectives
 
-* Open the code with your preferred integrated development environment (IDE).
 
-* Start on the objectives
+* [] Option 2: Advanced
+  * Fork the project to your GitHub account
+  * Add your project manager as collaborator on Github.
+  * Clone your OWN forked version of the repository (Not Lambda's by mistake!).
+  * Create a new branch: git checkout -b `<firstName-lastName>`.
+  * Begin working on the objectives on your `<firstName-lastName>` branch, committing changes regularly
+
+To submit your project:
+  * Push your commits: git push origin `<firstName-lastName>`
+  * Submit a Pull-Request to merge your <firstName-lastName> branch into your own forked repository **Please don't merge your own pull request**
+  * Request a REVIEW from your project manager on the pull-request
+  * Your project manager will count the project as complete by merging the branch back into master and sending you feedback
+
 
 ## Objectives:
 
