@@ -60,7 +60,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+		margin-bottom: 10px;
+		font-size: 20px;
 }
 
 /* Your code starts here! */
@@ -73,29 +74,41 @@ h1, h2, h3, h4, h5 {
 header nav {
 	display: inline-block;
 	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
-header nav a{
-	margin: 20px;
+nav a{
+	margin: 0 20px 10px;
+	text-decoration: none;
+	display: inline-block;
+	color: gray;
+
+	
 }
 
-header.logo {
-	margin-left: 120px;
+.logo {
+	margin-left: 80px;
+	display:inline-block;
+	vertical-align: middle;
 }
 
-h1{
-	font-size: 80px;
+h1 {
+	font-size: 70px;
+}
+
+.column-left {
 	display: inline-block;
 	text-align: center;
-	margin-top: 20px;
+	vertical-align: middle;
+	margin: 20px auto;
 	
 }
 
 .header-img {
 	display: inline-block;
 	width: 300px;
-	margin-bottom: 15px;
-	margin-left: 20px;
+	vertical-align: middle;
+	margin-left: 30px;
 }
 
 .middle-img {
@@ -108,7 +121,8 @@ h1{
 .content {
 	display: inline-block;
 	width: 395px;
-}
+	margin-top: 40px;
+	}
 
 .content2 {
 	display: inline-block;
@@ -117,7 +131,9 @@ h1{
 
 .contact {
 	display: block;
-	margin-top: 15px;
+	margin-top: 40px;
+	padding: 40px 0 0 0;
+	border-top: 1px solid black;
 }
 
 footer {
@@ -126,5 +142,25 @@ footer {
 }
 
 .contact p {
-	margin-top: 5px;
+	margin-top: 15px;
+}
+
+section {
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+	
+button {
+	display: block;
+	color: black;
+	border: 1px solid black;
+	width: 103px;
+	height: 23px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.top-header{
+	margin: auto;
+	width: 700px
 }
