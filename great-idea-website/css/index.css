@@ -84,7 +84,7 @@ header nav img {
 .container {
   width: 80%;
   margin: 10px auto;
-	border:2px solid black;
+	/* border:2px solid black; */
 }
 
 .column {
