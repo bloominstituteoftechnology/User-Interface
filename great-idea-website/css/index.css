@@ -68,17 +68,17 @@ h1, h2, h3, h4, h5 {
 header nav a{
 	padding: 40px;
 	text-decoration: none;
-	color:black;
+	color:grey;
 
 }
 
 header nav img{
 	position: relative;
-	left:75px;
+	left:170px;
 }
 
 .container{
-	width: 70%;
+	width: 80%;
 	margin: 10px auto;
 }
 
@@ -98,15 +98,22 @@ header nav img{
 }
 
 .left h1{
-	font-size: 400%;
+	font-size: 500%;
 	font-weight: 400%;
+	line-height: 1;
 }
 
 .right{
 	position: relative;
-	left:175px;
-	bottom:50px;
+	left:60px;
 }
+
+.right img{
+	width: 400px
+}
+
+
+
 
 .column2{
 	width: calc(98%/3);
