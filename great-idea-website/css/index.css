@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 876px;
+	width: 900px;
 	margin: auto;
 }
 .navbar {
@@ -85,6 +85,15 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
+
+
+.innovation {
+	display: inline-block;
+	text-align: center;
+	width: 425px;
+	padding-top: 50px;
+}
+
 .header {
 	Font-size: 100px;
 	display: inline-block;;
@@ -97,30 +106,29 @@ h1, h2, h3, h4, h5 {
 }
 
 .button1 {
-	border: 1px solid red;
 	display: inline-block;
 	font-size: 16px;
 	text-align: center;
   }
 
-.codeimg {
+.header-img {
 	display:inline-block;
-	border: 1px solid red;
-	float: right up;
+	border: 1px solid blue;
 }
 
 .features {
 	width: 400px;
-	height: 200px;
+	height: 150px;
 	display: inline-block;
-	margin: 0 auto;
-	padding:10px;
+	padding: 20px;
 }
 
 .about {
-	width: 410px;
-	height: 200px;
+	width: 400px;
+	height: 150px;
 	display: inline-block;
+	padding: 20px;
+	align: center;
 
 }
 
