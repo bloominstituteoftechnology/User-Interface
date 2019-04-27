@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+p{
+	font-family: 'Gugi', cursive;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 600px;
+}
+
+nav{
+	display: inline-block;
+	background-color: black;
+	position: fixed;
+	z-index: 1;
+	color: white;
+	padding-top: 30px;
+}
+
+.noLeftMargin{
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+nav a{
+	margin: 0 20px;
+}
+
+div{
+	display: inline-block;
+}
+
+.container{
+	margin: 0 25%;
+	width: 950px;
+}
+
+button{
+	display: block;
+	background-color: white;
+	border: 1px solid grey;
+	color: grey;
+	padding: 10px 40px;
+	margin-left: 70px;
+}
+
+h1{
+	font-size: 75px;
+}
+
+ .header-img{
+	display: inline-block;
+	margin-bottom: -50px;
+}
+
+header{
+	display: block;
+}
+
+div h1 span{
+	margin-left: 110px;
+}
+
+section section{
+	display: inline-block;
+	max-width: 500px;
+	margin: 50px 0;
+}
+
+.middle-img{
+	display: block;
+}
+
+.smallerSection{
+	max-width: 300px;
+}
+
+.Innovation{
+	margin: 50px 0;
+	margin-left: 50px;
+}
+
+.bigSectionP{
+	max-width: 400px;
+}
+
+.biggerRightMargin{
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+
+#demand{
+	margin-left: 50px;
+}
+
+#contact{
+	margin-top: 50px;
+}
+
+.contact h2{
+	margin: 30px 0;
+}
+
+#phoneNumber{
+	margin: 30px 0;
+}
+
+#Copyright{
+	margin-top: 10px;
+	margin-left: 40%;
+}
