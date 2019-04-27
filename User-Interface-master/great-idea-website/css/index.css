@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container{
+	width: 900px;
+	margin:auto;
+}
+
+
+header nav{
+	display:inline-block;
+	margin-top:35px;
+	background-color:gray;
+	height:20px;
+}
+
+header nav a{
+	margin:28px;
+	color:white;
+	text-decoration:none;
+	background:gray;
+	border-radius: 6px;
+	cursor: pointer;
+	text-align: center;
+	transition-property: background, border-radius;
+	transition-duration: .2s, 1s;
+	transition-timing-function: linear;
+	width: 95px;
+  }
+}
+
+header img{
+	margin: 0 0 0 20px;
+}
+
+.top-main{
+	display:inline-block;
+}
+.top-main h1{
+	font-size:70px;
+	margin: 145px -47px 15px 83px;
+	display:inline-block;
+
+}
+
+.top-main img{
+	margin:-342px 12px -34px 497px;
+
+
+}
+
+.top-main button{
+    border: 1px solid black;
+    width: 156px;
+    height: 35px;
+	font-size: 17px;
+	margin: -17px 245px -7px 105px;
+}
+
+.line{
+	border:.5px solid black;
+	width:750px;
+	margin:auto;
+}
+
+ .main-section div{
+	height:144px;
+	width:291px;
+	display:inline-block;
+	font-family: 'Cutive Mono', monospace;
+
+}
+
+.main-section .top{
+	height:135px;
+	width:423px;
+}
+
+.main-section img{
+	margin:10px;
+
+}
+
+footer{
+margin-left:365px;
+}
+
+
+
+header nav a:hover{
+	background:dodgerblue;
+	border-radius: 50%;
+}
