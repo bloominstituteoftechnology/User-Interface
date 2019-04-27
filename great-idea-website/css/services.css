@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+	margin: 0 100px;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin: 0;
+    width: calc(100% - 100px);
+	z-index: 1;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+header nav {
+	display: inline-block;	
+	padding: 15px 0px;
+	margin: 15px 0;
+	width: calc(100% - 233px);
+}
+
+header nav .nav-link {
+	width: calc(100% / 6.2);
+	margin: 0 0;
+	display: inline-block;
+}
+
+header nav .nav-link a {
+	text-decoration: none;
+	color: #9D9D9D;
+}
+
+header nav .selected a {
+    text-decoration: none;
+	color: #484848;
+}
+
+header img {
+	right: 100px;
+	margin: 15px 0;
+	position: absolute
+}
+
+.cta {
+    margin: 100px auto;
+    position: absolute;
+}
+
+.card {
+    width: 330px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+}
+
+.card-middle {
+    margin: 0 40px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h4 {
+    margin: 20px 0 20px 10px;
+}
+
+.card p {
+    margin: 0 0 0 10px;
+    padding: 0 0 40px 0;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact {
+    margin: 572px 0;
+    position: absolute;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 756px;
+    margin-bottom: 50px;
+    position: absolute;
+}
