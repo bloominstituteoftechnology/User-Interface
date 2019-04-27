@@ -3,64 +3,311 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+* {
+}
+
+body {
+  width: 100vw;
+}
+
+h1,
+h2 {
+}
+
+p {
+}
+
+@media (max-width: 880px) {
+  header img {
+    width: 40vw;
+    height: 40vw;
+  }
+  header div h1 {
+    font-size: 35px;
+  }
+  header div button {
+    width: 150px;
+  }
+  nav {
+    margin: 0px;
+  }
+  nav-item {
+    padding: 2px;
+    margin: 10px 2px;
+  }
+}
+nav {
+  color: gray;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  margin-top: 0px;
+  background: #f8d974;
+}
+nav-item {
+  color: gray;
+  padding: 20px;
+  margin: 0px 20px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+nav-item:hover {
+  font-size: 20px;
+  color: #278dc3;
+  font-weight: 900;
+}
+.logo {
+  padding-left: 60px;
+  vertical-align: middle;
+}
+header {
+  width: 100%;
+  padding: 80px;
+}
+header div {
+  display: inline-block;
+}
+
+#left-header {
+  padding-right: 5px;
+  width: 40%;
+  margin-right: 5%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+#right-header {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+  padding-left: 5px;
+}
+
+header h1 {
+  font-weight: bolder;
+  font-size: 70px;
+}
+header button {
+  background-color: #fff;
+  border: solid 2px black;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+button:hover {
+  border: inset 5px #278dc3;
+  color: #278dc3;
+  background: #f8d974;
+  font-weight: bolder;
+  font-size: 20px;
+}
+header img {
+  vertical-align: middle;
+}
+/* After header, div section should have a top and bottom border to create divider effect */
+#content {
+  width: 96%;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+div section {
+}
+
+div section h2 {
+}
+
+div section p {
+}
+.half-section {
+  width: 48%;
+  display: inline-block;
+}
+section {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.middle-img {
+  width: 95%;
+  margin: 10px 2.25%;
+}
+.third-section {
+  width: 32%;
+  display: inline-block;
+}
+#services-section {
+}
+
+#product-section {
+}
+
+#vision-section {
+}
+
+#contact-section {
+  width: 25%;
+  margin-left: 2%;
+}
+
+address {
+}
+
+footer {
+  text-align: center;
+  margin: 60px;
+  margin-bottom: 100px;
+}
