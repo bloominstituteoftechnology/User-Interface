@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+html{
+    --marginPercentage: 30%;
+    --paddingPercentage: 2%;
+    --buttonWidth: 40%; 
+    --buttonHeight: 40px;
+}
+header {
+    width: 870px;
+    /*border: 3px solid red;*/
+    padding: 1%;
+}
+.wrapper {
+    width: 876px;
+    height: 562px;
+    /*border: 3px solid blue;*/
+}
+
+header nav {
+    /*border: 3px solid green;*/
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+}
+
+header nav a {
+        /*border: 3px solid red;*/
+        padding: inherit;
+        color: lightgray;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+header nav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    transition-duration: 1.5s;
+}
+
+.logo {
+    /*border: 3px solid green;*/
+    float: right;
+    padding: inherit;
+}
+
+.callToAction{
+    color: black;
+    font-size: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+}
+
+.centerHorizontalUsingMargin{
+    margin-left: var(--marginPercentage);
+}
+
+.topBlock {
+    width: 50%;
+    height: 342px;
+    /*border: 3px solid red; comment out after debugging*/
+    float: left;
+    }
+
+.midBlock {
+    width: 100%;
+    height: 342px;
+    border-top: 1px solid black;
+    }
+
+h1 {
+    font-size: 75px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.paddingPushTopBottom{
+    padding-top: var(--paddingPercentage);
+    padding-bottom: var(--paddingPercentage);
+}
+
