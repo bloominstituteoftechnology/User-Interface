@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Aladin', cursive;
+font-family: 'Almendra SC', serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* Your code starts here! */
+
+
+
+nav {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: grey;	
+}
+a {
+	margin: 50px;
+	text-decoration: none;
+	color: grey;
+}
+
+
+h1 {
+	font-size: 80px;
+	padding-bottom: 20px;
+	padding-top: -50px;
+
+
+}
+.Button {
+	color: black;
+	padding: 5px 40px;
+	border: solid black 1px;
+	
+}
+.Header {
+	height: 400px;
+}
+.InnovationText {
+	display: inline-block;
+	height: 100px;
+	width: 50% ;
+	text-align: center ;
+}
+.headerimg {
+	display: inline-block;
+	height: 100px ;
+	width: 40% ;
+	text-align: right;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.FeatureAbout {
+	margin: 0px 20px 40px 20px;
+}
+.Features {
+	display: inline-block;
+	height: 100px;
+	width: 45% ;
+	margin: 40px 60px 40px 0px
+}
+.About {
+	display: inline-block;
+	height: 100px ;
+	width: 45% ;
+	padding-top: 50px;
+}
+.Middle {
+	display: block;
+	
+
+}
+.middle-img{
+	width: 100%;
+}
+.BottomText {
+	height: 100px;
+	margin: 30px 10x 40px 0px;
+}
+.Services {
+	display: inline-block;
+	height: 100px ;
+	width: 28% ;
+	margin: 40px 20px 40px 20px;
+	
+}
+.Product {
+	display: inline-block;
+	height: 100px ;
+	width: 28% ;
+	margin: 40px 30px 40px 20px;
+	
+}
+.Vision {
+	display: inline-block;
+	height: 100px ;
+	width: 28% ;
+	margin: 40px 30px 40px 20px;
+	
+}
+.copyright {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 30px;
+
+	
+
+}
+.LineBreak1 {
+	margin: 80px auto 0px auto;
+  width: 1000px;
+
+
+}
+.LineBreak2 {
+	margin: 100px auto 0 auto;
+	width: 1000px;
+}
+body {
+	width: 1400px;
+	margin: 0 auto;
+}
+.content {
+		margin: 0 auto;
+		width: 1000px;
+		text-align: left;
+}
+.contact {
+	display: inline-block;
+	margin: 40px 60px 40px 225px;
+	padding-top: 10px;
+	
+}
+.email
+{
+  color: black;
+  margin: 0px 0px 0px 0px
+}
