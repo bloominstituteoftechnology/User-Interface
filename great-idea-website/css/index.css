@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 80%;
+	margin: 0px auto;
+	/* border: 1px solid blue; */
+}
+
+
+nav {
+	display: inline-block;
+	width: 100%;
+	margin: 15px auto;
+	/* border: 1px solid black; */
+	/* align-content: center; */
+	padding-top: 20px;
+}
+
+nav a {
+	padding: 0px 50px;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	padding-left: 25px;
+}
+
+header {
+	display: inline-block;
+	/* border: 1px solid black; */
+}
+
+.headertext {
+	display: inline-block;
+	/* border: 1px solid green; */
+	width: 600px;
+	height: 600px;
+}
+
+header h1 {
+	margin-top: 150px;
+	font-size: 400%;
+	text-align: center;
+}
+
+header img {
+	display: inline-block;
+	/* border: 1px solid red; */
+}
+
+.button {
+	display: inline-block;
+	margin-left: 225px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 25px;
+	size: 110%;
+}
+
+.info {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-width: 80%;
+}
+
+.infoblock {
+	display: inline-block;
+	padding: 20px 15px;
+	width: 48%;
+}
+
+.middle-img {
+	padding: 0 20px;
+	width: 95%;
+}
+
+.info-two {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	border-width: 80%;
+}
+
+.infoblock-two {
+	display: inline-block;
+	padding: 20px 15px;
+	width: 33%;
+}
+
+footer {
+	margin: 20px;
+	padding: 20px;
+	line-height: 2;
+	/* border: 1px solid black; */
+}
+
+footer .copy {
+	text-align: center;
+}
