@@ -53,8 +53,11 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +67,175 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Helper Tags */
+
+h1 {
+	font-size: 70px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+/* End Helper Tags */
+/* Header */
+
+header {
+	display: block;
+	width: 100%;
+	padding-top: 15px
+}
+
+header nav {
+	height: 60px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 12px;
+}
+
+header nav a {
+	padding: 0px 20px;
+}
+
+header nav a:hover {
+	padding: 5px 20px;
+	background-color: darkslategray;
+	color:white;
+	transition: 1s;
+}
+
+header img {
+	float: right;
+}
+/* End Header */
+/* .container area */
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* Hero Area */
+
+hero {
+	display: inline-block;
+	height: 500px;
+	width: 100%;
+	padding: 50px 0;
+}
+
+hero .hero-content {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	padding-top: 70px;
+}
+
+hero .hero-img {
+	width: 50%;
+	float: right;
+}
+
+hero h1 {
+
+}
+
+hero button {
+	border: 1px solid darkslategray;
+	padding: 5px 40px;
+	cursor: pointer;
+}
+
+hero button:hover {
+	background-color: darkslategray;
+	color: white;
+	padding: 5px 40px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+/* End Hero */
+/* First Content block */
+
+.first-content {
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+}
+
+.first-content .divider-bar{
+	border-top: 2px solid black;
+	height: 5px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.first-content .features {
+	width: 50%;
+	float: left;
+	padding-right:20px;
+}
+
+.first-content .about {
+	width: 50%;
+	float: right;
+}
+/* End First Content Block */
+/* Middle Image */
+
+.middle-img{
+	width: 100%;
+	margin: 0 auto;
+}
+/* End Middle Image */
+/* Second Content Area */
+
+.second-content {
+	margin-top: 40px;
+}
+
+.second-content .divider-bar {
+	border-top: 2px solid black;
+	height: 5px;
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0px;
+}
+
+.second-content .services {
+	width: 33%;
+	display:inline-block;
+	padding-right: 15px;
+}
+
+.second-content .product {
+	width: 33%;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.second-content .vision {
+	width: 33%;
+	display: inline-block;
+}
+
+/* End Second Content */
+/* Address Block */
+
+address p{
+	margin: 20px 0px;
+}
+
+/* End Address Blcok */
+/* Footer */
+footer {
+	text-align:center;
+	padding: 50px 0px;
+}
+/* End Footer */
