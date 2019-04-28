@@ -71,21 +71,21 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
+	letter-spacing:.5px;
 }
 .navbar {
-	color: gray;
+	color: lightgray;
 	padding: 20px;
 	display: inline;
 }
 
 .logo {
-	margin: 10px;
-	display: inline;
-	padding: 10px;
-	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding-top: 20px;
 }
-
-
 
 .innovation {
 	display: inline-block;
@@ -93,6 +93,26 @@ h1, h2, h3, h4, h5 {
 	width: 425px;
 	padding-top: 50px;
 }
+
+.button {
+
+	background: #0066A2;
+	
+	color: white;
+	
+	border-style: outset;
+	
+	border-color: #0066A2;
+	
+	height: 50px;
+	
+	width: 100px;
+	
+	font: bold 15px arial, sans-serif;
+	
+	text-shadow:none;
+	
+	}
 
 .header {
 	Font-size: 100px;
@@ -103,6 +123,7 @@ h1, h2, h3, h4, h5 {
 
 .header h1 {
 	text-align: center;
+	padding-top: 50px;
 }
 
 .button1 {
@@ -111,52 +132,63 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
   }
 
-.header-img {
+.header-img.png {
 	display:inline-block;
-	border: 1px solid blue;
+	padding-bottom: 50px;
+}
+
+.top-content {
+	padding-top: 20px;
 }
 
 .features {
-	width: 400px;
+	width: 50%;
 	height: 150px;
 	display: inline-block;
-	padding: 20px;
 }
 
 .about {
-	width: 400px;
+	width: 49%;
 	height: 150px;
 	display: inline-block;
-	padding: 20px;
-	align: center;
+	position: right;
+}
 
+.bottom-content {
+	padding-top: 20px;
 }
 
 .services {
-	width: 290px;
-	height: 200px;
+	width: 33%;
+	height: 150px;
 	display: inline-block;
-	margin: 0 auto;
-	padding:10px;
+	padding:20px;
 }
 
 .product {
-	width: 280px;
-	height: 200px;
+	width: 33%;
+	height: 150px;
 	display: inline-block;
-	margin: 0 auto;
-	padding:10px;
+	padding:20px;
 }
 
 .vision {
-	width: 280px;
-	height: 200px;
+	width: 33%;
+	height: 150px;
 	display: inline-block;
-	margin: 0 auto;
-	padding:10px;
+	padding:20px;
+}
+
+.line {
+	padding-top: 20px;
+}
+
+.contact {
+	padding-top: 20px;
 
 }
 
 .copyright {
+	padding-top: 80px;
 	text-align: center;
 }
