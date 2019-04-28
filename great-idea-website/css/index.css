@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle; /* Changed from baseline to middle */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	padding-top: 40px;
+}
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+p {
+	color: #525252;
+}
+
+header img {
+	display: inline-block;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	padding: 15px 0;
+	background-color: #fff;
+	z-index: 99;
+	border-bottom: 1px solid #afafaf;
+}
+
+header nav {
+	width: 693px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+header nav a {
+	color: #afafaf;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+section {
+	margin: 30px 0;
+}
+
+main {
+	border-top: 1px solid #afafaf;
+	border-bottom: 1px solid #afafaf;
+}
+
+.one-half {
+	width: 50%;
+	display: inline-block;
+	margin-right: -2px;
+	padding: 30px 15px 30px 0;
+}
+
+.one-third {
+	width: 33.33333%;
+	display: inline-block;
+	margin-right: -3px;
+	padding: 40px 15px 40px 0;
+}
+
+.hero {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.hero h2 {
+	font-size: 68px;
+	margin-bottom: 40px;
+}
+
+.hero a {
+	padding: 5px 30px;
+	border: 1px solid #000;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+.hero a:hover,
+.hero a:visited {
+	color: #000;
+}
+
+a:hover {
+	animation: RAINBOW 4s infinite;
+}
+
+footer {
+	margin: 30px 0 60px 0;
+}
+
+footer p {
+	margin-bottom: 20px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+@keyframes RAINBOW {
+
+	0% {
+		font-weight: bold;
+		color: red;
+	}
+
+	20% {
+		font-weight: bold;
+		color: yellow;
+	}
+
+	40% {
+		font-weight: bold;
+		color: green;
+	}
+
+	60% {
+		font-weight: bold;
+		color: blue;
+	}
+
+	80% {
+		font-weight: bold;
+		color: purple;
+	}
+
+	100% {
+		font-weight: bold;
+		color: red;
+	}
+}
