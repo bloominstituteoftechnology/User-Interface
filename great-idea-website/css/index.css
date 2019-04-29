@@ -71,16 +71,25 @@ body {
 }
 .navigation {
 	display: inline-block;
-	width: 876px;
+	overflow: hidden;
+	position: fixed;
+	background: white;
+	top: 0;
+	width: 100%;
 }
 .navigation nav {
 	margin-top: 35px;
+	padding-bottom: 15px;
 }
 .navigation label {
 	margin: 0 25px;
 	color: gray;
 	opacity: 25%;
 	display: inline-block;
+}
+.navigation label:hover {
+	transform: scale(2.0);
+
 }
 .navigation :first-child {
 	margin-left: 0;
@@ -93,16 +102,13 @@ header {
 	border: 1px solid white;
 	border-bottom-color: black;
 	padding-bottom: 50px;
+	margin-top: 75px;
 }
 header div {
 	display: inline-block;
 }
 header .bottom-text {
 	margin-bottom: -20px;
-}
-header .button {
-	vertical-align: top;
-	border: solid 1px red;
 }
 .title {
     top: 50%;
@@ -122,6 +128,26 @@ header .button {
 	background: white;
 	font-size: 17px;
 	border: 1px solid black;
+	font-family: "Anton";
+}
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+.title ul button:hover {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-name: bounceIn;
+	animation-name: bounceIn;
 }
 .title-img {
 	margin-left: 100px;
@@ -139,6 +165,13 @@ header .button {
 }
 .top-content .right {
 	margin-left: 1px;
+}
+.middle-img {
+	display: block;
+	box-sizing: border-box;
+	background: url(img/mid-page-accent.jpg) no-repeat;
+	width: 876px;
+	height: 182px;
 }
 .bottom-content {
 	border: 1px solid white;
