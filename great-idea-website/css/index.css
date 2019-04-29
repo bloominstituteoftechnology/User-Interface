@@ -66,37 +66,68 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .wrapper {
-	width: 876px;
+	width: 880px;
 	margin: 0 auto;
 }
 
-nav {
-	height: 100px;
+/* nav {
+	height: 50px;
 	display: block;
+	background-color: mediumslateblue;
+	margin-bottom: 10px;
+	border: solid blue 2px;
+		
+} */
+
+nav {
+	position: fixed;
+	width: 880px;
+	height: 50px;
+	top: 0;
+	background-color: mediumslateblue;
+	border: solid blue 2px;
+	border-top: 0;
 }
 
 .navLinks {
 	display: inline-block;
+	position: absolute;
 	vertical-align: middle;
-	margin-top: -28px;
+	height: 50px;
+	top: 15px;
 }
 
 .navLinks a {
 	text-decoration: none;
 	color: #b1b1b1;
-	margin-right: 60px;
-	margin: 43px 60px 43px 0;
-	font-size: 11pt;
-  vertical-align: middle; 
-	display: inline-block;
+	font-size: 14pt;
+	display: inline;
+	vertical-align: middle;
+	margin-left: 45px;
 	
 }
 
-.logo {
+/* .logo {
 	padding: 32px 0 0 35px;
 	display: inline-block;
-}
+} */
+
+.logo {
+	position: relative;
+	display: inline-block;
+	top: 5px;
+	left: 685px;
+	height: 71px;
+	width: 183px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
 	
+}
+
+header {
+	margin-top: 60px;
+}
+
 header div {
 		width: 49%;
 		display: inline-block;
@@ -104,8 +135,16 @@ header div {
 		text-align: center;
 }
 
-header div img {
+/* header div img {
 	margin-left: 64px;
+} */
+
+#snippetImage {
+	height: 379px;
+	width: 379px;
+	display: inline-block;
+	margin-left: 64px;
+	background-image: url("../img/header-img.png")
 }
 
 h1 {
@@ -145,6 +184,12 @@ main section {
 	width: 49.8%;
 	height: 100px;
 	margin-bottom: 40px;
+}
+
+#midBarImg {
+	width: 876px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
 }
 
 .trplCol {
