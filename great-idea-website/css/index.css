@@ -152,7 +152,8 @@ div .features {
 }
 
 div .about {
-	margin-left: 50%;
+	margin-left: 35%;
+	margin-right: 20%;
 	float: right;
 	position: absolute;
     box-sizing: border-box;
@@ -184,7 +185,7 @@ div .product {
 div .vision {
 	display: inline-block;
     margin-left: 60%;
-    margin-right: 39px;
+    margin-right: 18%;
     position: absolute;
     left: 4px;
 }
