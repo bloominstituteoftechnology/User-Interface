@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 876px;
-	height: 2000px;
+	width: 878px;
+	height: 1500px;
 	margin: auto;
 	border: 1px solid red;
 }
@@ -82,14 +82,28 @@ header nav {
 
 header nav a {
 	margin: 0 25px;
+	text-decoration: none;
 }
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: rgb(48, 2, 92);
+}
+
+a:hover {
+	color: blue;
+}
+
 .logo {
 	margin-left: 66px;
 }
 
 .main-header {
 	border: 1px solid red;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 .content-header {
 	border: 1px solid red;
@@ -107,8 +121,10 @@ h1 {
 
 button {
 	width: 150px;
-	height: 25px;
+	height: 30px;
 	margin-left: 80px;
+	background-color: white;
+	border: 1px solid black;
 }
 .header-img {
 	border: 1px solid red;
@@ -127,7 +143,7 @@ button {
 
 .content-top {
 	column-count: 2;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
 .features-content {
@@ -140,13 +156,13 @@ button {
 
 .mid-img {
 	border: 1px solid red;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .content-bottom {
 	column-count: 3;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .bottom-content {
@@ -163,7 +179,8 @@ button {
 
 .contact-content {
 	border: 1px solid red;
-	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .contact-comm {
@@ -174,6 +191,7 @@ button {
 footer {
 	border: 1px solid red;
 	text-align: center;
+	margin-bottom: 100px;
 }
 
 
