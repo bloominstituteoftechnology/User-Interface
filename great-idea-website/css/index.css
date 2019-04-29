@@ -48,7 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+*, *:before, *::after {
     box-sizing: border-box;
 }
 
@@ -77,7 +77,7 @@ body {
 	margin-top: 35px;
 }
 .navigation label {
-	margin: 0 20px;
+	margin: 0 25px;
 	color: gray;
 	opacity: 25%;
 	display: inline-block;
@@ -87,7 +87,7 @@ body {
 }
 .navigation img {
 	margin-bottom: -15px;
-	margin-left: 130px;
+	margin-left: 96px;
 }
 header {
 	border: 1px solid white;
@@ -96,6 +96,13 @@ header {
 }
 header div {
 	display: inline-block;
+}
+header .bottom-text {
+	margin-bottom: -20px;
+}
+header .button {
+	vertical-align: top;
+	border: solid 1px red;
 }
 .title {
     top: 50%;
