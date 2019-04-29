@@ -66,19 +66,19 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	border: 1px solid red;
+	border: 0px solid white;
 	width: 878px;
 	height: 1500px;
 	margin: auto;
 }
 
 header {
-	border: 1px solid red;
-	background-image: linear-gradient(rgb(2, 30, 73), rgb(23, 117, 172), white);
+	border: 0px solid white;
+	background-image: linear-gradient(rgb(2, 30, 73), rgb(23, 117, 172), white, white);
 	position: fixed;
 	z-index: 1;
 	width: 878px;
-	height: 70px;
+	height: 77px;
 }
 
 header nav {
@@ -91,7 +91,7 @@ header nav a {
 }
 
 nav a:hover {
-	color: white;
+	color: rgb(114, 114, 114);
 }
 
 a {
@@ -112,40 +112,41 @@ a:hover {
 
 .logo {
 	margin-left: 66px;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .main-header {
-	border: 1px solid red;
+	border: 1px solid white;
 	margin-bottom: 60px;
 }
 .content-header {
-	border: 1px solid red;
-	width: 320px;
+	border: 0px solid red;
+	width: 330px;
 	height: 250px;
 	margin-top: 170px;
 	margin-bottom: 70px;
-	margin-left: 90px;
+	margin-left: 75px;
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 80px;
 	text-align: center;
 	background-image: linear-gradient(white, white, white, rgb(3, 139, 3), white, white, white);
 }
 
 button {
 	border: 1px solid black;
-	width: 150px;
+	font-size: 15px;
+	width: 175px;
 	height: 30px;
-	margin-left: 80px;
+	margin-left: 78px;
 	background-color: white;
 }
 
 .header-img {
-	border: 1px solid red;
+	border: 0px solid red;
 	position: absolute;
-	top: 105px;
+	top: 115px;
 	right: 237px;
 	margin-bottom: 30px;
 }
@@ -163,15 +164,15 @@ button {
 }
 
 .features-content {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .about-content {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .mid-img {
-	border: 1px solid red;
+	border: 0px solid red;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -182,19 +183,19 @@ button {
 }
 
 .bottom-content {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .product-content {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .vision-content {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .contact-content {
-	border: 1px solid red;
+	border: 0px solid red;
 	background-image: linear-gradient(white, rgb(23, 117, 172), rgb(2, 44, 109));
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -206,7 +207,7 @@ button {
 }
 
 footer {
-	border: 1px solid red;
+	border: 0px solid red;
 	text-align: center;
 	font-weight: bold;
 	height: 125px;
