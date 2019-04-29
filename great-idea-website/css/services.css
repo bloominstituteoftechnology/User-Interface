@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,10 +136,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 15px;
@@ -60,10 +148,14 @@ html, body {
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -72,15 +164,15 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size: 70px;
 	font-family: 'Abril Fatface',
-	cursive;
+		cursive;
 	text-transform: uppercase
 }
 
 h3 {
-	font-size: 24px;
-	font-family: 'Knewave',
-	cursive;
-	color: lightcoral;
+	font-size: 30px;
+font-family: 'Abril Fatface',
+cursive;
+text-transform: uppercase
 }
 
 a {
@@ -115,7 +207,7 @@ header nav a {
 header nav a:hover {
 	padding: 5px 20px;
 	background-color: darkslategray;
-	color:white;
+	color: white;
 	transition: 1s;
 }
 
@@ -123,6 +215,7 @@ header img {
 	float: right;
 	padding-right: 5%;
 }
+
 /* End Header */
 /* .container area */
 
@@ -154,9 +247,7 @@ hero .hero-img {
 	float: right;
 }
 
-hero h1 {
-
-}
+hero h1 {}
 
 hero button {
 	border: 1px solid darkslategray;
@@ -173,83 +264,58 @@ hero button:hover {
 }
 
 /* End Hero */
-/* First Content block */
 
-.first-content {
+/* Cards */
+.card {
 	display: inline-block;
+	width: 30%;
+	height: 40%;
+	margin: 25px;
+	background-color: white;
+	box-shadow: 0px 0px 20px #cccccc;
+}
+
+.card img {
 	width: 100%;
-	height: 200px;
 }
-
-.first-content .divider-bar{
-	border-top: 2px solid black;
-	height: 5px;
-	display: inline-block;
-	width: 100%;
-	margin-bottom: 40px;
-}
-
-.first-content .features {
-	width: 50%;
-	float: left;
-	padding-right:20px;
-}
-
-.first-content .about {
-	width: 50%;
-	float: right;
-}
-/* End First Content Block */
-/* Middle Image */
-
-.middle-img{
-	width: 100%;
+.card .content {
+	padding-top: 20px;
+	width: 80%;
 	margin: 0 auto;
 }
-/* End Middle Image */
-/* Second Content Area */
 
-.second-content {
-	margin-top: 40px;
+.card .content h3 {
+	text-align: center;
 }
 
-.second-content .divider-bar {
-	border-top: 2px solid black;
-	height: 5px;
-	display: inline-block;
-	width: 100%;
-	margin: 40px 0px;
+.card .content p {
+	margin: 5%;
 }
 
-.second-content .services {
-	width: 33%;
-	display:inline-block;
-	padding-right: 15px;
+.card button {
+	border: 1px solid darkslategray;
+	background-color: transparent;
+	padding: 5px 40px;
+	cursor: pointer;
+	margin: 30px auto;
+	display: block;
 }
 
-.second-content .product {
-	width: 33%;
-	display: inline-block;
-	padding-right: 15px;
+.card button:hover {
+	background-color: darkslategray;
+	color: white;
+	padding: 5px 40px;
+	cursor: pointer;
+	transition: 1s;
+	margin-top: 20px;
 }
 
-.second-content .vision {
-	width: 33%;
-	display: inline-block;
-}
 
-/* End Second Content */
-/* Address Block */
 
-address p{
-	margin: 20px 0px;
-}
-
-/* End Address Blcok */
 /* Footer */
 footer {
-	text-align:center;
+	text-align: center;
 	padding: 50px 0px;
 }
-/* End Footer */
 
+/* End Footer */
