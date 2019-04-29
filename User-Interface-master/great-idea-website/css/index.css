@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container nav {
+  padding: 10px;
+}
+
+.container nav a {
+  font-size: 14px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  color: gray;
+}
+
+.logo {
+  display: inline-block;
+  padding: 0 0 0 50px;
+  vertical-align: middle;
+  margin-left: 15px;
+
+}
+
+
+h1{
+  margin-top: 20px;
+  line-height: 45px;
+}
+.container2{
+   border-bottom: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 40px;
+  height: 30px;
+  width: 200px;
+}
+
+h1{
+  margin-bottom: -10px;
+}
+.box1 {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  font-size: 70px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 65px;
+}
+
+.box2 {
+  width: 400px;
+  display: inline-block;
+  margin: 30px 40px 45px 0;
+}
+
+.box3 {
+  width: 260px;
+  display: inline-block;
+  margin: 35px 35px 40px 0;
+}
+
+.secondsection {
+  border-bottom: 1px solid black;
+}
+
+.footer1 {
+  margin-top: 35px;
+}
+.copyright {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
