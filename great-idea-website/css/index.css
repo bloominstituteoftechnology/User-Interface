@@ -156,14 +156,9 @@ h5 {
 body {
   width: 100vw;
 }
-
-h1,
 h2 {
+  font-size:40px;
 }
-
-p {
-}
-
 @media (max-width: 880px) {
   header img {
     width: 40vw;
@@ -174,6 +169,7 @@ p {
   }
   header div button {
     width: 150px;
+    font-size:16px;
   }
   nav {
     margin: 0px;
@@ -265,12 +261,6 @@ header img {
   margin-left: 2%;
 }
 
-div section {
-}
-
-div section h2 {
-}
-
 div section p {
 }
 .half-section {
@@ -289,21 +279,10 @@ section {
   width: 32%;
   display: inline-block;
 }
-#services-section {
-}
-
-#product-section {
-}
-
-#vision-section {
-}
 
 #contact-section {
   width: 25%;
   margin-left: 2%;
-}
-
-address {
 }
 
 footer {
