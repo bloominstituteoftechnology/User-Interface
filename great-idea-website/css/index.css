@@ -78,28 +78,32 @@ header nav {
     padding-top: 20px;
 	padding-bottom: 22px;
 	z-index: 1;
-}
-
-header nav a {
-	margin-left: 15px;
-	color: grey;
-	text-decoration: none;
-
-}
-header .logo {
-	margin-left: 15%;
-	box-sizing: border-box;
-	float: right;
-	padding-top: 25px;
-    padding-right: 14px;
+	border: 2px solid black;
 }
 
 header nav a {
 	margin: 0 20px;
+	margin-left: 15px;
+	color: grey;
+	text-decoration: none;
+	box-sizing: border-box;
+	
+	animation-name: switch;
+	animation-duration: 5s;
+}
+
+
+header .logo {
+	margin-left: 15%;
+	box-sizing: border-box;
+	float: right;
+	padding-top: 35px;
+    padding-right: 40px;
 }
 
 header nav a:hover {
-	color: black;
+	color: white;
+	text-shadow: 0 2px;
 }
 
 h1 {
@@ -113,16 +117,18 @@ h1 {
 }
 
 h1 span {
-	font-size: 21px;
+	font-size: 16px;;
     text-align: center;
     border: 1px solid black;
     box-sizing: border-box;
-    padding: 3px 30px;
+	padding: 3px 30px;
+	border-style: outset;
+	font-family: 'Titillium Web';
 }
 
 .mainImg img {
 	margin-top: 58px;
-    margin-left: 75px;
+	margin-left: 75px;
 }
 
 main {
