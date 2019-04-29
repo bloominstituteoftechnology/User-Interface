@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper {
+	width: 876px;
+	margin: 0 auto;
+}
+
+nav {
+	height: 100px;
+	display: block;
+}
+
+.navLinks {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -28px;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: #b1b1b1;
+	margin-right: 60px;
+	margin: 43px 60px 43px 0;
+	font-size: 11pt;
+  vertical-align: middle; 
+	display: inline-block;
+	
+}
+
+.logo {
+	padding: 32px 0 0 35px;
+	display: inline-block;
+}
+	
+header div {
+		width: 49%;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+}
+
+header div img {
+	margin-left: 64px;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 0;
+	letter-spacing: .2px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+button { 
+	font-size: 18px;
+	background: none;
+	box-shadow: none;
+	border: 1px solid black;
+	padding: 5px 30px;
+	margin-top: 10px;
+}
+
+main {
+	padding: 45px 0;
+	margin: 75px 0; 
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray; 
+	
+}
+
+main section {
+	display: inline-block;
+	text-align: left;
+
+}
+
+.dblCol {
+	width: 49.8%;
+	height: 100px;
+	margin-bottom: 40px;
+}
+
+.trplCol {
+	width: 33%;
+	height: 100px;
+	margin-top: 40px;
+}
+
+address p {
+	margin-bottom: 25px;
+}
+
+address a {
+	text-decoration: none;
+	color: black;
+}
+
+#copyright {
+	margin: 50px 0;
+	text-align: center;
+}
