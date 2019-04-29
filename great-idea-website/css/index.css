@@ -66,14 +66,19 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
+	border: 1px solid red;
 	width: 878px;
 	height: 1500px;
 	margin: auto;
-	border: 1px solid red;
 }
 
 header {
 	border: 1px solid red;
+	background-image: linear-gradient(rgb(2, 30, 73), rgb(23, 117, 172), white);
+	position: fixed;
+	z-index: 1;
+	width: 878px;
+	height: 70px;
 }
 
 header nav {
@@ -81,7 +86,15 @@ header nav {
 }
 
 header nav a {
+	font-weight: bold;	
 	margin: 0 25px;
+}
+
+nav a:hover {
+	color: white;
+}
+
+a {
 	text-decoration: none;
 }
 
@@ -90,7 +103,7 @@ a:link {
 }
 
 a:visited {
-	color: rgb(48, 2, 92);
+	color: rgb(7, 7, 7);
 }
 
 a:hover {
@@ -99,6 +112,7 @@ a:hover {
 
 .logo {
 	margin-left: 66px;
+	padding-top: 10px;
 }
 
 .main-header {
@@ -109,7 +123,7 @@ a:hover {
 	border: 1px solid red;
 	width: 320px;
 	height: 250px;
-	margin-top: 130px;
+	margin-top: 170px;
 	margin-bottom: 70px;
 	margin-left: 90px;
 }
@@ -117,21 +131,23 @@ a:hover {
 h1 {
 	font-size: 75px;
 	text-align: center;
+	background-image: linear-gradient(white, white, white, rgb(3, 139, 3), white, white, white);
 }
 
 button {
+	border: 1px solid black;
 	width: 150px;
 	height: 30px;
 	margin-left: 80px;
 	background-color: white;
-	border: 1px solid black;
 }
+
 .header-img {
 	border: 1px solid red;
 	position: absolute;
 	top: 105px;
 	right: 237px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .content-body {
@@ -179,6 +195,7 @@ button {
 
 .contact-content {
 	border: 1px solid red;
+	background-image: linear-gradient(white, rgb(23, 117, 172), rgb(2, 44, 109));
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -191,7 +208,9 @@ button {
 footer {
 	border: 1px solid red;
 	text-align: center;
-	margin-bottom: 100px;
+	font-weight: bold;
+	height: 125px;
+	padding-top: 100px;
 }
 
 
