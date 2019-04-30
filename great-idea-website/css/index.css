@@ -1,66 +1,268 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+		display: block;
 }
+
 body {
-	line-height: 1;
+		line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+		list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+		quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+		content: '';
+		content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+		height: 100%;
+		font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+		font-family: 'Bangers', cursive;
+		letter-spacing: 1px;
+		margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+
+ul {
+		display: inline-block;
+}
+
+.started {
+		display: inline-block;
+}
+
+title {
+		margin-left: 200px;
+}
+
+.heading {
+		float: left;
+		padding-top: 150px;
+		text-align: center;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+
+li {
+		float: left;
+}
+
+li a {
+		display: block;
+		padding: 8px;
+}
+
+h3 {
+		padding-top: 15px;
+		display: block;
+}
+
+.logo {
+		padding-left: 100px;
+}
+
+.fcomplex {
+		display: inline-block;
+		padding-left: 260px;
+		box-sizing: border-box;
+}
+
+html {
+		max-width: 800px;
+		margin: 0 auto;
+}
+
+.middle-img {
+		padding-top: 20px;
+}
+
+button {
+		padding-right: 80px;
+		background-color: inherit;
+}
+
+title {
+		padding-bottom: 100px;
+}
+
+.block {
+		flex: 50%;
+		padding: 10px;
+}
+
+.block1,
+.block2,
+.block3 {
+		display: inline-block;
+		width: 280px;
+		height: 200px;
+		box-sizing: border-box;
+		padding-left: 10px;
+}
+
+.row {
+		display: flex;
+}
+
+* {
+		box-sizing: border-box;
+}
+
+.contact {
+		padding-top: 10px;
+}
+
+section {
+		display: inline;
+}
+
+.mobile-phone {
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+.bottom {
+		text-align: center;
+}
+
+.container {
+		display: inline-block;
+}
