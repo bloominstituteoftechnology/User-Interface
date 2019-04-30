@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.links {
+	width: 800px;
+	margin: auto;
+}
+header {
+	width: 878px;
+	height: 77px;
+}
+header nav {
+	display: inline-block;
+}
+header nav a {
+	font-weight: bold;	
+	margin: 0 25px;
+}
+.logo {
+	margin-left: 66px;
+	padding-top: 20px;
+}
+.head { 
+	margin-bottom: 150px;
+}
+.title {
+	width: 330px;
+	height: 250px;
+	margin-top: 170px;
+	margin-bottom: 70px;
+	margin-left: 75px;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+#button {
+	width: 175px;
+	height: 30px;
+	margin-left: 120px;
+}
+#img {
+	border: 0px;
+	position: absolute;
+	top: 170px;
+	right: 450px;
+	margin-bottom: 30px;
+}
+.content-center {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
+}
+.content-top {
+	column-count: 2;
+	margin-top: 30px
+}
+.mid-img{ margin-top: 30px;
+	margin-bottom: 30px;
+	width: 800px;
+}
+.para {
+	column-count: 3;
+} 	
+.services {
+	margin-bottom: 30px; 
+}
+.product {
+	margin-bottom: 30px;
+}
+.vision {
+	margin-bottom: 30px;
+}
+.bottom {
+	margin-bottom: 20px;} 
+.contacts {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.contact-address {
+	line-height: 2;
+	margin-top: 10px;
+}
+footer {
+	border: 0px;
+	text-align: center;
+	height: 125px;
+	padding-top: 100px;
+}
