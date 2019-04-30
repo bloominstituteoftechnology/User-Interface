@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: flex;
+}
+
+body {
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+/* Helper Tags */
+
+h1 {
+	font-size: 70px;
+	font-family: 'Abril Fatface',
+		cursive;
+	text-transform: uppercase
+}
+
+h3 {
+	font-size: 30px;
+font-family: 'Abril Fatface',
+cursive;
+text-transform: uppercase
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* End Helper Tags */
+/* Header Area */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	top: 0;
+	width: 100%;
+	padding-top: 15px;
+	background-color: lightcoral;
+	position: fixed;
+	z-index: 5;
+}
+
+header nav {
+	height: 60px;
+	padding-top: 12px;
+	padding-left: 5%;
+}
+
+header nav a {
+	height: 30px;
+	padding: 0px 20px;
+}
+
+header nav a:hover {
+	padding: 5px 20px;
+	background-color: darkslategray;
+	color: white;
+	transition: 1s;
+}
+
+header .logo {
+	padding-right: 40px;
+}
+
+/* End Header */
+/* .container area */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 100px 5%;
+}
+
+/* Hero Area */
+/* End Hero */
+
+/* Cards */
+.card {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 350px;
+	height: 450px;
+	margin: 25px;
+	background-color: white;
+	box-shadow: 0px 0px 20px #cccccc;
+}
+
+.card img {
+	width: 100%;
+}
+.card .content {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.card .content h3 {
+	text-align: center;
+	height: 70px;
+	padding-top: 15px;
+}
+
+.card .content p {
+	margin: 5%;
+}
+
+.card button {
+	border: 1px solid darkslategray;
+	background-color: transparent;
+	padding: 5px 40px;
+	cursor: pointer;
+	margin: 30px auto;
+	display: flex;
+}
+
+.card button:hover {
+	background-color: darkslategray;
+	color: white;
+	padding: 5px 40px;
+	cursor: pointer;
+	transition: 1s;
+	margin-top: 20px;
+}
+
+
+
+/* Footer */
+footer {
+	display: flex;
+	padding: 50px 0px;
+	justify-content: center;
+}
+
+/* End Footer */
+
+/* Media Changes */
+@media(max-width: 775px) {
+	header {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		top: 0;
+		width: 100%;
+		padding-top: 15px;
+		background-color: lightcoral;
+		position: fixed;
+		z-index: 5;
+	}
+	header .logo {
+		order: -1;
+		padding: 0;
+	}
+	header nav {
+		height: 60px;
+		padding-top: 12px;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 125px 5%;
+	}
+}
