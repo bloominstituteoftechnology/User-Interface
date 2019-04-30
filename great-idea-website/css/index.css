@@ -46,11 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Set every element's box-sizing to border-box */
-
+* {
+	box-sizing: border-box;
 	
 }
+/* Set every element's box-sizing to border-box */
 
 html, body {
     height: 100%;
@@ -66,14 +66,30 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .nav a{
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 40px;
+	color: grey;
 }
+
 .body{
-	display:inline-block;
-	border: 10px solid red;
+	border: 1px solid red;
+	padding: 10px;
+	width: 900px;
+	margin: auto;
 }
-* {
-	box-sizing: border-box;
-	width: 600px;
-	margin: center
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+	
+}
+.logo{
+	margin-left: 50px;
+}
+.header-name{
+	display: inline-block;
+	font-size: 20px;
+
+}
+.header-image{
+	display: inline-block;
+
 }
