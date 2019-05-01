@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.services-header {
+	font-family: 'Bangers', cursive;
+	font-size: 25px;
+}
 .container {
 	width: 880px;
 	/* TB LR */
