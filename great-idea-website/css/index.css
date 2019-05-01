@@ -64,51 +64,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* updating code to match solution*/
+
 .container {
-	width: 975px;
-	padding: 25px;
-	margin: auto;
+	width: 880px;
+    margin: 0 auto;
 	border: 1px solid black;
 }
 
+/*header*/
 header nav {
 	display: inline-block;
-	margin-top: 42px;
-    margin-bottom: 64px;
-}
-
-header .logo {
-	margin-left: 80px;
+	/*margin-top: 42px;
+    margin-bottom: 64px;*/
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
 }
 
 header nav a {
-	margin: 0 28px;
+	/*margin: 0 28px;
     text-decoration: none;
     color: gray;
     font-size: 14px;
-    font-weight: 45%;
+    font-weight: 45%;*/
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
 }
 
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header .logo {
+    /*margin-left: 80px;*/
+    margin-top: 25px;
+}
+
+/*get started*/ 
 .getStarted .intro {
-    display: inline-block;
+    /*display: inline-block;
     margin-right: 74px;
-	margin-left: 74px;
+    margin-left: 74px;*/
+    display: inline-block;
+    vertical-align: top;
+    font-size: 77px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 0px 75px;
 }
 
 .getStarted img {
-    vertical-align: top;
+    /*vertical-align: top;
     margin-left: 20px;
-    margin-bottom: 64px;
+    margin-bottom: 64px;*/
+    display: inline-block;
+    margin-top: 69px;
 }
 
-.intro h1 {
+/*.intro h1 {
     font-size: 80px;
     text-align: center;
     margin-top: 56px;
-}
+} this is now in the .getstarted .intro body*/
 
-button {
-	display: inline-block;
+.getStarted .intro button {
+	/*display: inline-block;
 	text-align: center;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
@@ -116,40 +147,95 @@ button {
 	background-color: white;
 	padding: 2px 36px;
 	border: 1px solid black;
-    margin-left: 72px;
+    margin-left: 72px;*/
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
+.getStarted .intro button:hover {
+    background: black;
+    color: white;
+}
 
-.topContent {
-    margin: 20px;
+.getStarted img {
+    display: inline-block;
+    margin-top: 69px;
+}
+
+.mainContent {
+    border-top: 1px solid black;
+    margin-top: 76px;
+    padding-top: 39px;
+}
+
+.mainContent .topContent {
+    /*margin: 20px;
     padding-bottom: 5px;
     padding-top: 35px;
     position: relative;
     border-top: 1px solid black;
-    column-count: 2;
+    column-count: 2;*/
+    padding: 0 10px;
 }
 
-.bottomContent {
+.mainContent .topContent .textContent {
+    width: 410px;
+    display: inline-block;
+    margin-right: 34px;
+}
+
+.mainContent .topContent .textContent:last-child {
+    margin-right: 0;
+}
+
+.mainContent .middle-img {
+    /*margin: 20px;
+    position: relative;*/
+    margin-top: 45px;
+}
+
+/*.bottomContent {
     margin: 20px;
     padding-top: 5px;
     padding-bottom: 35px;
     position: relative;
     border-bottom: 1px solid black;
     column-count: 3;
+}*/
+
+.mainContent .bottomContent .textContent {
+    width: 275px;
+    display: inline-block;
+    margin-right: 12px;
 }
 
-.middle-img {
-    margin: 20px;
-    position: relative;
+.mainContent .bottomContent .textContent:last-child {
+    margin-right: 0;
 }
 
 .contact {
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    margin-top: 57px;
+    border-top: 1px solid black;
+    padding: 39px 10px 0;
+}
+
+.contact p {
+    margin: 20px 0;
 }
 
 footer {
-    margin: 45px 25px;
+    /*margin: 45px 25px;
+    text-align: center;*/
+    margin: 32px 0;
     text-align: center;
+    font-size: 14px;
 }
 
 
