@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+head, body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body nav a {
+	text-decoration: none;
+	color: lightgray;
+	padding: 30;
+	margin: 30px; 
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	width: 500px;
+	margin: 80px 0;
+	display: inline-block;
+	position: absolute;
+	
+}
+button {
+	border: 2px solid black;
+	background: white;
+	font-size: 17px;
+	width: 150px;
+	display: inline-block;
+	margin: 0 170px;
+	position: relative;
+	bottom: 50px;
+	right: 350px;
+}
+.code {
+	width: 350px;
+	display: inline-block;
+	margin: 50px 0px 0px 0px;
+	position: relative;
+	left: 500px;
+}
+div.head {
+	border-bottom: 1px solid black;
+	padding-bottom: 80px;
+}
+h2 {
+	padding: 20px 0px 0px 20px;
+	font-size: 20px;
+	width: 50%;
+}
+p {
+	float: left;
+	width: 100%;
+	padding: 20px 0px 0px 20px;
+}
+div.column {
+	width: 480px;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.middle-img {
+	width: 100%;
+}
+div.threes {
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.columns {
+	border-bottom: 1px solid black;
+}
+ul {
+	margin-top: 50px;
+}
+.contact {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+	font-size: 20px;
+}
+li {
+	margin: 20px;
+}
+div.copyright {
+	margin: 20px 0px 50px 10px;
+	text-align: center;
+}
