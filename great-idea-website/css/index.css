@@ -62,5 +62,128 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+.container {
+	width: 880px;
+	margin: auto;
+}
 /* Your code starts here! */
+nav {
+	
+	margin: 5px 30px;  
+	border: 30px; 
+	padding: 10px; 
+	color: gray; 
+	text-decoration: none; 
+	display: inline-block;  	
+}
+.nav1 {
+	padding: 20px; 
+}
+.nav2 {
+	padding: 20px; 
+}
+.nav3 {
+	padding: 20px; 
+}
+.nav4 {
+	padding: 20px;
+}
+.nav5 {
+	padding: 20px;
+}
+.nav6 {
+	padding: 20px; 
+}
+.logo {
+	display: inline-block; 
+	padding: 10px 20px; 
+	border: 20px;
+	box-sizing: border-box; 
+	
+}
+h1 {
+	text-align: center; 
+	font-size: 70px;
+	padding: 50px 50px 250px 50px;
+	margin: 50px 50px -10px 50px; 
+	height: 30px;
+	width: 300px; 
+	box-sizing: border-box; 
+	display: inline-block;
+}
+.circle {
+	height: 350px;
+	width: 350px; 
+	display: inline-block;
+	margin: 30px 10px 20px 80px; 
+}
+.button {
+	text-decoration: none;
+	border: 1px solid rgb(44, 44, 44);
+	background: white;
+	display: block; 
+	height: 30px;
+	width: 150px; 
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font: "Titillium Web";
+	color:rgb(44, 44, 44);
+	margin: -10px 50px 40px 130px;
+}
+hr {
+	display:block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+	border-width: 1px;
+}
+h2 {
+	display: inline-block;
+}
+.second {
+	display: inline; 
+}
+.d1 {
+	height: 130px;
+	width: 400px; 
+	margin: 20px -10px 0px 0px; 
+	float: left;
+	
+}
+.d2 {
+	height: 130px;
+	width: 400px; 
+	float: right; 
+	margin: 20px 0px 0px -20px;
+}
+.d3 {
+	height: 200px;
+	width: 250px;
+	float: left; 
+	margin: 20px 0px 10px 0px;
+}
+.d4 {
+	height: 200px;
+	width: 250px;
+	display: inline-block;
+	margin: 20px 40px 10px 40px; 
+}
+.d5 {
+	height: 200px;
+	width: 250px;
+	display: inline-block; 
+	margin: 20px 40px 10px 0px; 
+}
+footer{
+	margin: 50px 0px;
+	
+}
+.copyright {
+	text-align: center; 
+	margin: 20px;
+}
+
+
+	  
