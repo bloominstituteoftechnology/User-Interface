@@ -86,8 +86,11 @@ header nav {
 }
 .header-name{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 70px;
 
+}
+.header-name button{
+	font-size: 50px;
 }
 .header-image{
 	display: inline-block;
