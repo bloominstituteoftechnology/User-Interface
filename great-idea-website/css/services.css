@@ -74,7 +74,8 @@ a {
 }
 
 header {
-	width: calc(100% - 100px);
+    margin: 0;
+    width: calc(100% - 100px);
 	z-index: 1;
 	position: fixed;
 	background-color: rgba(255, 255, 255, 0.9);
@@ -98,71 +99,46 @@ header nav .nav-link a {
 	color: #9D9D9D;
 }
 
+header nav .selected a {
+    text-decoration: none;
+	color: #484848;
+}
+
 header img {
 	right: 100px;
 	margin: 15px 0;
 	position: absolute
 }
 
-.cta-text {
-	display: inline-block;
-	width: calc(100% - 379px);
-	margin: 178.5px auto;
-	text-align: center;
+.cta {
+    margin: 100px auto;
+    position: absolute;
 }
 
-.cta h1 {
-	font-size: 80px;
+.card {
+    width: 330px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
 }
 
-.cta button {
-	margin: 10px auto;
-	font-size: 18px;
-	width: 150px;
-	height: 40px;
-	border: 1px solid black;
-	font-family: 'Open Sans', sans-serif;
+.card-middle {
+    margin: 0 40px;
 }
 
-.cta button:hover {
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+.card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
-.cta img {
-	display: inline-block;
-	right: 100px;
-	position: absolute;
-	margin: 126px 0;
+.card h4 {
+    margin: 20px 0 20px 10px;
 }
 
-.top-content {
-	border-top: 1px solid black;
-}
-
-.middle-content img {
-	width: 100%;
-}
-
-.bottom-content {
-	border-bottom: 1px solid black;
-}
-
-.text-content {
-	margin: 50px 0;
-	display: inline-block;
-}
-
-.divider {
-	width: 20px;
-	display: inline-block;
-}
-
-.top-content .text-content {
-	width: calc((100% - 20px) / 2.02);
-}
-
-.bottom-content .text-content {
-	width: calc(100% / 3.2);
+.card p {
+    margin: 0 0 0 10px;
+    padding: 0 0 40px 0;
 }
 
 h4 {
@@ -175,7 +151,8 @@ p {
 }
 
 .contact {
-	margin: 50px 0;
+    margin: 572px 0;
+    position: absolute;
 }
 
 .contact p {
@@ -183,6 +160,8 @@ p {
 }
 
 footer p {
-	text-align: center;
-	margin-bottom: 50px;
+    text-align: center;
+    margin-top: 756px;
+    margin-bottom: 50px;
+    position: absolute;
 }
