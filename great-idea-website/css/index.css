@@ -94,26 +94,6 @@ h1, h2, h3, h4, h5 {
 	padding-top: 50px;
 }
 
-.button {
-
-	background: #0066A2;
-	
-	color: white;
-	
-	border-style: outset;
-	
-	border-color: #0066A2;
-	
-	height: 50px;
-	
-	width: 100px;
-	
-	font: bold 15px arial, sans-serif;
-	
-	text-shadow:none;
-	
-	}
-
 .header {
 	Font-size: 100px;
 	display: inline-block;;
