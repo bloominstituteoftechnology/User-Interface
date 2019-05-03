@@ -79,6 +79,7 @@ header nav {
 	padding-bottom: 22px;
 	z-index: 1;
 	border: 2px solid black;
+	border-radius: 25px 25px 25px 25px;
 }
 
 header nav a {
