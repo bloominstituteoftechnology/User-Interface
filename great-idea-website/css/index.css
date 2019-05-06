@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	width: 100%;
+	position: fixed;
+	border: 1px solid black;
+	margin-top: 0px;
+	top: 0;
+	height: 50px;
+	background: lightskyblue;
+	z-index: 2;
+}
+
+header {
+	width: 876px;
+	margin: 0 auto;
+}
+
+nav {
+	display:inline-block;
+	margin: 15px auto;
+}
+
+.nav-button {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-right: 50px;
+	transition: transform 0.4s;
+}
+
+.nav-button:hover {
+	transform: scale(1.2);
+}
+
+.logo {
+	display: inline;
+	position: absolute;
+	margin: 5px auto;
+	left: 1010px;
+}
+
+.container {
+	width: 876px;
+	margin: 0px auto;
+}
+
+.call-to-action {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+.cta-text {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	bottom: 290px;
+	left: 380px;
+}
+
+.innovation {
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+
+/* 
+@keyframes pulse {
+	0% {
+		transform: scale(1.0) rotate(0deg);
+	}
+	100% {
+		transform: scale(1.0) rotate(360deg);
+	}
+ }
+ 
+.get-started {
+animation-name: pulse;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+} */
+
+.get-started {
+	transition: 1s
+}
+
+.get-started:hover {
+	transform: scale(1.2);
+}
+
+.get-started a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 5px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color: black;
+}
+
+.cta-img {
+	display: inline-block;
+	position: relative;
+	margin-left: 470px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding-top: 35px;
+	width: 100%;
+}
+
+.features {
+	display: inline-block;
+	width: 430px;
+}
+
+.about {
+	display: inline-block;
+	width: 430px;
+	margin-left: 12px;
+}
+
+.middle-img {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 45px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 32%
+}
+
+.services, .product {
+	margin-right: 13.6px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 110px;
+	font-size: 14px;
+}
