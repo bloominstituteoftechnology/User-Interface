@@ -3,64 +3,254 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+header {
+  height: 50px;
+}
+
+header ul {
+  padding: 20px;
+  display: inline-block;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: grey;
+}
+
+header ul li a:hover {
+  color: black;
+}
+
+header img {
+  float: right;
+  display: inline-block;
+  padding: 5px;
+}
+
+.section-1 {
+  align-items: center;
+  height: 500px;
+}
+
+.section-1 div {
+  display: inline-block;
+  padding-bottom: 75px;
+}
+
+.section-1 h1 {
+  text-align: center;
+  font-size: 75px;
+  margin: 0px 100px 0px 100px;
+  padding-bottom: 75px;
+}
+
+.section-1 img {
+  display: inline-block;
+  height: 300px;
+  margin: 50px 0px 50px 100px;
+}
+
+.section-1 button {
+  margin: 0px 200px 50px 200px;
+  padding: 10px 25px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.section-1 button:hover {
+  background: black;
+  color: white;
+}
+
+.section-2 div {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 25px 0;
+  padding: 25px;
+  display: inline-block;
+  width: 49%;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.section-3 div {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  display: inline-block;
+  width: 32%;
+  margin: 25px 0;
+  padding: 25px;
+}
+
+.section-4 h2 {
+  margin: 25px;
+}
+
+.section-4 address {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 25px;
+  line-height: 2.5em;
+}
+
+footer {
+  margin: 50px;
+  text-align: center;
+}
