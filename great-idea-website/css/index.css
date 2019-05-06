@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,236 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	padding: 5px;
+	height: 100px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	background-color: white;
+
+
+	/* border: 1px solid red; */
+}
+nav {
+	display: inline-block;
+}
+
+header nav a{
+	padding-right: 40px;
+	margin: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	/* border: 1px solid green; */
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header .logo{
+	display: inline;
+	position: relative;
+	right: 20;
+	border: 1px solid blue;
+}
+
+.section-one{
+	/* display: inline-block; */
+	position: relative;
+	width: 100%;
+	padding-top: 100px;
+ 	z-index: 0;
+}
+
+h1 {
+	font-size: 60pt;
+	text-align: center;
+}
+
+button{
+	position: relative;
+	margin-left: 175px;
+	height: 25px;
+	width: 150px;
+}
+
+.left, .right {
+	width: 50%;
+	margin: 0px;
+	display: inline-block;
+	/* border: 1px solid red; */
+	vertical-align: middle;
+}
+
+.right {
+	/* border: 1px solid purple; */
+	padding: 60px;
+}
+
+.line{
+	background: black;
+	height: 2px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+.double-textbox{
+	position: relative;
+	/* border: 1px solid black; */
+	width: 100%;
+}
+
+.features, .about{
+	width: 49%;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-right: 50px;
+}
+/* .features {
+	padding-right: 50px;
+} */
+
+.middle-img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.triple-textbox{
+		position: relative;
+		width: 100%;
+		/* border: 1px solid black; */
+}
+
+.services, .product, .vision {
+	width: 33%;
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/* border: 1px solid red; */
+}
+
+.contact{
+	margin-top: 10px;
+}
+.copyright{
+	margin:20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+/*
+body{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav{
+	vertical-align: center;
+	width: 100%;
+	padding: 1%;
+}
+
+.logo{
+	width: 20%;
+	padding-left: 2%;
+	vertical-align: middle;
+}
+
+ul{
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	padding: 4%, 0, 4%, 0;
+	vertical-align: middle;
+}
+
+.header-img{
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-text{
+	width: 49%;
+	display: inline-block;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.button{
+	display: inline-block;
+	width: 35%;
+	margin-left: 38%;
+}
+
+button{
+	width: 150px;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.line{
+	background: black;
+	height: 2px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+h2 {
+margin-top: 20px;
+}
+
+.two {
+	display:inline-block;
+	width: 49%;
+}
+
+p{
+	font-size: 13px;
+	padding: 10px, 0px;
+	margin-bottom: 15px;
+}
+.middle-img{
+	width: 100%;
+}
+
+.three {
+	display: inline-block;
+	width: 32.5%;
+	padding: 10px;
+}
+
+ */

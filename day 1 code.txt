@@ -1,0 +1,99 @@
+/*Day 1 code*/
+/* body{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav{
+	vertical-align: center;
+	width: 100%;
+	padding: 1%;
+}
+
+.logo{
+	width: 20%;
+	padding-left: 2%;
+	vertical-align: middle;
+}
+
+ul{
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	padding: 4%, 0, 4%, 0;
+	vertical-align: middle;
+}
+
+.header-img{
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-text{
+	width: 49%;
+	display: inline-block;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.button{
+	display: inline-block;
+	width: 35%;
+	margin-left: 38%;
+}
+
+button{
+	width: 150px;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.line{
+	background: black;
+	height: 2px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+h2 {
+margin-top: 20px;
+}
+
+.two {
+	display:inline-block;
+	width: 49%;
+}
+
+p{
+	font-size: 13px;
+	padding: 10px, 0px;
+	margin-bottom: 15px;
+}
+.middle-img{
+	width: 100%;
+}
+
+.three {
+	display: inline-block;
+	width: 32.5%;
+	padding: 10px;
+}
+
+.contact{
+	margin-top: 10px;
+}
+.copyright{
+	margin:20px;
+	text-align: center;
+	font-size: 10px;
+} */
