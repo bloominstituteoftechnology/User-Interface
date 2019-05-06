@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* Set every element's box-sizing to border-box */
+* { box-sizing: border-box; }
+html, body { height: 100%; font-family: 'Titillium Web', sans-serif; }
+h1, h2, h3, h4, h5 { font-family: 'Bangers', cursive; letter-spacing: 1px; margin-bottom: 15px; }
+
+
+/*****************************
+	Your code starts here! 
+*****************************/
+body { width: 600px; margin: 0 auto; }
+h1 { font-size: 64px; }
+li { display: inline-block; }
+
+nav { 
+	margin: 0 0 48px 0; 
+    position: fixed;
+    background-color: white;
+    padding: 12px 0 12px 0;
+    width: 600px;
+    z-index: 5;
+}
+nav a { 
+	font-size: 12px;
+	text-decoration: unset;
+	color: #888888;
+}
+nav li { margin: 0 24px 0 0; }
+
+.nav-link { vertical-align: text-top; }
+
+.logo { margin: -5px 0 0 0; float: right; }
+
+
+#header { position: relative; top: 96px; margin: 0 0 133px 0; }
+#header header [class^=header-] { display: inline-block; }
+
+.header-left { 
+	padding: 0 0 24px 0;
+	vertical-align: bottom; 
+}
+
+.header-img { width: 100%; }
+.middle-img { width: 100%; }
+
+.border-top { 
+	border-top: 1px solid black;
+	margin: 32px 0 32px 0;
+	padding: 32px 0 0 0;
+}
+.border-bottom { 
+	border-bottom: 1px solid black;
+	margin: 32px 0 32px 0;
+	padding: 0 0 32px 0;
+}
+.border-top div { display: inline-block; }
+.border-bottom div { display: inline-block; }
+
+
+footer { margin: 24px 0 0 0; padding: 24px 0 12px 0; }
+.copyright { font-size: 12px; text-align: center; }
+
+.w-50 { width: 50%; margin: 0 -5px 0 0; }
+.w-33 { width: 33%; margin: 0 -1px 0 0; }
+
+
+.phone, .email { 
+	color: black;
+	text-decoration: none;
+	line-height: 2; }
+.phone:visited, .email:visited { 
+	color: black;
+	text-decoration: none; }
+
+/**************************
+Button styling override
+https://css-tricks.com/overriding-default-button-styles
+**************************/
+button {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    color: #000000;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px 24px 6px 24px;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+button:hover, button:focus { border: 1px solid white; background: #030303; color: #ffffff; }
+button:focus { outline: 1px solid #ffffff; outline-offset: -4px; }
+button:active { transform: scale(0.99); }
