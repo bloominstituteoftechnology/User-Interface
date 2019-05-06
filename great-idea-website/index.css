@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5 {
 	margin: 10px auto;
 padding:50px;
 border: 30px;
-<<<<<<< HEAD
 
 }
 
@@ -142,28 +141,3 @@ border: 30px;
 .copy{
 	margin-top: 35px;
 	text-align: center;}
-	
-=======
-}
-
-/* Your code starts here! */
-.navigation{background-color:black;
-	color:dodgerblue;}
-
-
-	.top-content{
-	text-align:center;
-	display:inline-block;
-	margin: 10px auto;
-	padding:50px;
-	border: 30px;
-	  position: relative;}
-	
-	.bottom-content{margin: 10px auto;
-		padding:50px;
-		border: 30px;
-		position: relative;
-		.contact{display:block;}
-		.header{text-align:center;
-			display:inline-block;}
->>>>>>> 8cff918ae6e26ff372c7a29a85d90cb1a754548e
