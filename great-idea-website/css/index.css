@@ -3,64 +3,283 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+body {
+  max-width: 1100px;
+  min-width: 1099px;
+  margin: auto;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.container {
+  width: 90%;
+  margin: 15px auto;
+}
+
+header {
+  width: 100%;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+}
+
+nav {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 999px;
+  margin: auto;
+}
+
+nav a {
+  padding: 0px 35px;
+  height: 50px;
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+.heading {
+  width: 100%;
+  margin-top: 92px;
+}
+
+.heading div {
+  display: inline-block;
+  font-size: 80px;
+  width: 49%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.heading img {
+  width: 75%;
+}
+
+.heading div h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.heading button {
+  display: inline-block;
+  width: 250px;
+  height: 35px;
+  background: none;
+  box-shadow: 2px 3px 10px;
+}
+
+div {
+  width: 100%;
+}
+
+div section {
+  display: inline-block;
+  margin: auto;
+}
+
+.wrapper {
+  height: 625px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 50px 0px;
+  padding: 50px 0px;
+}
+
+.container1 section {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 5px 15px;
+}
+
+.middle-img {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.container2 section {
+  float: left;
+  width: 33.3%;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+address {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.container4 {
+  text-align: center;
+  width: 100%;
+  margin: 25px 0px;
+}
