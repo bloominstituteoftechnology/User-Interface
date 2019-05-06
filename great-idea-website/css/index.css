@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 20px; 
+	position: fixed;
+	background: navy;
+	box-sizing: border-box;
+    padding-top: 20px;
+	padding-bottom: 22px;
+	z-index: 1;
+	border: 2px solid black;
+	border-radius: 25px 25px 25px 25px;
+}
+
+header nav a {
+	margin: 0 20px;
+	margin-left: 15px;
+	color: grey;
+	text-decoration: none;
+	box-sizing: border-box;
+	
+	animation-name: switch;
+	animation-duration: 5s;
+}
+
+
+header .logo {
+	margin-left: 15%;
+	box-sizing: border-box;
+	float: right;
+	padding-top: 35px;
+    padding-right: 40px;
+}
+
+header nav a:hover {
+	color: white;
+	text-shadow: 0 2px;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-size: 75px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 105px;
+    padding-top: 110px;
+}
+
+h1 span {
+	font-size: 16px;;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+	padding: 3px 30px;
+	border-style: outset;
+	font-family: 'Titillium Web';
+}
+
+.mainImg img {
+	margin-top: 58px;
+	margin-left: 75px;
+}
+
+main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 60px;
+	display: inline-block;
+	box-sizing: border-box;
+    padding-bottom: 50px;
+	
+}
+section .top {
+	display: inline-block
+}
+
+div .features {
+	margin-top: 60px;
+    display: inline-block;
+	margin-right: 50%;
+	float: left;
+}
+
+div .about {
+	margin-left: 35%;
+	margin-right: 20%;
+	float: right;
+	position: absolute;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+.middle-img {
+	box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section .bottom {
+	display: inline-block;
+}
+
+div .services {
+	margin-right: 70%;
+    display: inline-block;
+    float: left;
+}
+
+div .product {
+	margin-left: 20%;
+    margin-right: 40%;
+    position: absolute;
+}
+
+div .vision {
+	display: inline-block;
+    margin-left: 60%;
+    margin-right: 18%;
+    position: absolute;
+    left: 4px;
+}
+
+address {
+	box-sizing: border-box;
+    padding-top: 45px;
+    padding-bottom: 29px;
+}
+
+.contact {
+	font-family: 'Bangers', cursive;
+
+}
+
+.copyright {
+	text-align: center;
+	box-sizing: border-box;
+    padding-bottom: 10%;
+}

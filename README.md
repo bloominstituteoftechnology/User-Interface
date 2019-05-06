@@ -38,3 +38,9 @@ Stretch goals are not required. Complete the project objectives before working o
 - [ ] Change all the image tags into background images instead
 
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+
+## Git for Web Development Objective 
+
+* Add your first and last name to the README.md file in the project and save.
+
+Toosdai Otte
