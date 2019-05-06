@@ -63,4 +63,22 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.top-header {
+	display: flex;
+	justify-content: space-around;
+    align-items: flex-end;
+}
+
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-around;
+}
+
+section {
+	display: flex;
+}
+
+
 /* Your code starts here! */
