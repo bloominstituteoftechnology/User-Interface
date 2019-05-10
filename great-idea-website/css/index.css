@@ -84,13 +84,15 @@ time,
 mark,
 audio,
 video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 
 article,
@@ -104,45 +106,47 @@ hgroup,
 menu,
 nav,
 section {
-		display: block;
+    display: block;
 }
 
 body {
-		line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-		list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-		quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-		content: '';
-		content: none;
+    content: '';
+    content: none;
 }
 
 table {
-		border-collapse: collapse;
-		border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
+
 /* Set every element's box-sizing to border-box */
 
 * {
-		box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-		height: 100%;
-		font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -150,119 +154,101 @@ h2,
 h3,
 h4,
 h5 {
-		font-family: 'Bangers', cursive;
-		letter-spacing: 1px;
-		margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
+
+
 /* Your code starts here! */
 
-ul {
-		display: inline-block;
+.container {
+    width: 900px;
+    margin: 0 auto;
 }
 
-.started {
-		display: inline-block;
+header nav {
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+    margin-top: 35px;
 }
 
-title {
-		margin-left: 200px;
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
 }
 
-.heading {
-		float: left;
-		padding-top: 150px;
-		text-align: center;
+header .logo {
+    margin-top: 25px;
 }
 
-ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
+.heading img {
+    margin-right: 35px;
 }
 
-li {
-		float: left;
+header nav a:hover {
+    text-decoration: underline;
 }
 
-li a {
-		display: block;
-		padding: 8px;
+.heading .text {
+    display: inline-block;
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 0px 75px;
 }
 
-h3 {
-		padding-top: 15px;
-		display: block;
+.heading .text button {
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 6px 30px;
+    font-size: 20px;
+    border: 1px solid black;
 }
 
-.logo {
-		padding-left: 100px;
+.container-div {
+    border-top: 1px solid black;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 
-.fcomplex {
-		display: inline-block;
-		padding-left: 260px;
-		box-sizing: border-box;
+.container-div .top-container {
+    display: inline-block;
 }
 
-html {
-		max-width: 800px;
-		margin: 0 auto;
+.container-div .top-container .block {
+    width: 420px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.middle-img {
-		padding-top: 20px;
+.container-div .middle-img {
+    margin: 20px 0px;
 }
 
-button {
-		padding-right: 80px;
-		background-color: inherit;
+.container-div .bottom-container .block {
+    width: 250px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
-title {
-		padding-bottom: 100px;
-}
-
-.block {
-		flex: 50%;
-		padding: 10px;
-}
-
-.block1,
-.block2,
-.block3 {
-		display: inline-block;
-		width: 280px;
-		height: 200px;
-		box-sizing: border-box;
-		padding-left: 10px;
-}
-
-.row {
-		display: flex;
-}
-
-* {
-		box-sizing: border-box;
+.bottom-container {
+    border-bottom: 1px solid black
 }
 
 .contact {
-		padding-top: 10px;
+    margin-top: 20px;
 }
 
-section {
-		display: inline;
+.contact p {
+    padding-top: 10px;
 }
 
-.mobile-phone {
-		padding-top: 10px;
-		padding-bottom: 10px;
-}
-
-.bottom {
-		text-align: center;
-}
-
-.container {
-		display: inline-block;
+footer {
+    text-align: center;
 }
