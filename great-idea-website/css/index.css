@@ -78,12 +78,16 @@ margin: 50px;
 header nav {
 	display: inline-block;
 	margin-top: 40px;
+	position: fixed;
+	background-color: pink;
+	color: black;
 }
 
 
 header img.logo {
-margin-left: 140px;
+margin-left: 800px;
 position: relative;
+
 
 
 }
