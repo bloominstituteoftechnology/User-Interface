@@ -85,6 +85,7 @@ header img.logo {
 margin-left: 140px;
 position: relative;
 
+
 }
 
 
@@ -107,6 +108,7 @@ margin: 0 20px;
 
 img {
 position: relative;
+margin-bottom: 30px;
 }
 
 .features {
@@ -161,9 +163,8 @@ text-align: center;
 width: 900px;
 }
 
-img {
-	margin-bottom: 30px;
-}
+
+
 
 
 
