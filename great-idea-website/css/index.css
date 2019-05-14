@@ -64,50 +64,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* updating code to match solution*/
+/* updating code to attempt again for practice*/
 
 .container {
 	width: 880px;
-    margin: 0 auto;
+    margin: 0 auto; /*Centers your container*/
 	border: 1px solid black;
 }
 
 /*header*/
 header nav {
-	display: inline-block;
-	/*margin-top: 42px;
-    margin-bottom: 64px;*/
-    width: 691px;
-    vertical-align: top;
+    display: inline-block;
+    vertical-align: top; /*The element is aligned with the top of the tallest element on the line*/
+    width: 78%;
     margin-top: 35px;
+    
 }
 
 header nav a {
-	/*margin: 0 28px;
-    text-decoration: none;
-    color: gray;
-    font-size: 14px;
-    font-weight: 45%;*/
     margin-right: 65px;
     font-size: 14px;
     color: gray;
     text-decoration: none;
+
 }
 
 header nav a:hover{
     text-decoration: underline;
 }
 
-header nav a:first-child {
-    margin-left: 0;
-}
-
-header nav a:last-child {
-    margin-right: 0;
-}
-
 header .logo {
-    /*margin-left: 80px;*/
     margin-top: 25px;
 }
 
@@ -237,5 +223,6 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
 
 
