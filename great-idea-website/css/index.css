@@ -169,41 +169,30 @@ html {
 .container {
   width: 1020px;
   margin: 0 auto;
-  padding: 0 73px;
+  border: 1px solid orange;
 }
 
-.container .heading {
+.top-bar {
   display: inline-block;
+  border: 2px solid green;
+  margin: 25px 0;
+  margin-left: 70px;
 }
 
 nav {
   display: inline-block;
   font-size: 14px;
-  border: 1px solid black;
-}
-
-.conatainer header .top-bar .nav {
-  display: inline-block;
-  margin-bottom: 20px;
+  vertical-align: 100%;
 }
 
 nav a {
-  margin-right: 43px;
+  margin-right: 64px;
   text-decoration: none;
 }
 
-.top-bar {
+.logo {
   display: inline-block;
-  margin: 20px 0;
-  border: 1px solid red;
-}
-
-.container .top-bar .logo {
-  display: inline-block;
-  margin-left: 13px;
-  border: 1px solid blue;
-}
-
-.img {
-  display: inline-block;
+  margin-left: 26px;
+  /* border: 1px solid blue; */
+  /* vertical-align: -10%; */
 }
