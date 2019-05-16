@@ -199,7 +199,7 @@ nav a {
 .logo {
   display: inline-block;
   margin-left: 26px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* vertical-align: -10%; */
 }
 
