@@ -213,7 +213,7 @@ nav a {
 .cta-text {
   display: inline-block;
   vertical-align: 80%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 0px 60px;
 
   font-size: 74px;
@@ -274,7 +274,7 @@ address {
 }
 
 .copyright {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
   margin-top: 50px;
   font-size: 14px;
