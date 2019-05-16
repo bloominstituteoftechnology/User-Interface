@@ -144,12 +144,14 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family: "Orbitron", sans-serif;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+}
 
 p {
   line-height: 1.25;
@@ -180,9 +182,12 @@ header {
 
 .top-bar {
   display: inline-block;
-  /* border: 2px solid green; */
+  background-color: #6195ed;
+  padding: 1px 10px;
+  border: 1px solid grey;
   margin: 25px 0;
-  /* margin-left: 70px; */
+  position: fixed;
+  z-index: 4;
 }
 
 nav {
@@ -194,47 +199,41 @@ nav {
 nav a {
   margin-right: 64px;
   text-decoration: none;
+  color: white;
 }
 
 .logo {
   display: inline-block;
-  margin-left: 26px;
-  /* border: 1px solid blue; */
-  /* vertical-align: -10%; */
+  margin-left: 8px;
 }
 
 .cta {
   margin: 45px 0;
+  margin-top: 140px;
   padding-bottom: 30px;
   vertical-align: 100%;
   display: inline-block;
+  /* background-image: url("header-img.png"); */
 }
 
 .cta-text {
   display: inline-block;
-  vertical-align: 80%;
-  /* border: 1px solid green; */
+  vertical-align: 170%;
   margin: 0px 60px;
-
-  font-size: 74px;
+  font-size: 54px;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  letter-spacing: 6px;
-}
-
-.cta-img {
-  /* margin-left: 10px; */
+  letter-spacing: 0px;
 }
 
 button {
   display: block;
   font-size: 18px;
   padding: 5px 39.5px;
-  /* margin-top: 10px; */
-  margin-left: 95.5px;
+  margin-left: 75.5px;
   margin-top: 16px;
 }
 
@@ -245,7 +244,6 @@ button {
 
 .top-describe {
   display: inline-block;
-  /* border: 2px solid red; */
   width: 48.5%;
   margin-right: 10px;
   margin-bottom: 5px;
