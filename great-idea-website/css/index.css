@@ -64,3 +64,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation-top {
+	width: 100%;
+	height: 55px;
+	display: inline-block;
+	background-color: lightcyan;
+	position: sticky;
+	top: 0;
+	text-align: left;
+}
+.logo {
+	display: inline-block;
+}
+
+.mantra {
+	display: inline-block;
+}
+.circle-code {
+	display: inline-block;
+}
+a {
+	padding: 20px 30px;
+	margin: 30px 10px;
+	height: 150px;
+}
