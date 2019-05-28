@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 ==============================*/
 header {
  text-align: center;
-
+ padding: 10px;
 }
 .navBar a{
   text-decoration: none;
@@ -95,6 +95,9 @@ h1 {
 /* ============================
   MAIN
 ============================ */
+main {
+  padding: 10px;
+}
 .firstRow .itemOne{
   display: inline-block;
   width: 50%;
@@ -111,19 +114,25 @@ h1 {
 .thirdRow .left {
   display: inline-block;
   padding: 20px;
+  width: 30%;
 }
 .thirdRow .middle {
   display: inline-block;
   padding: 20px;
+  width: 30%;
 }
 .thirdRow .right {
   display: inline-block;
   padding: 20px;
+  width: 30%;
 }
 
 /* ============================
  FOOTER
 ============================= */
+footer {
+  padding: 10px;
+}
 .contactInfo {
   padding: 20px;
 }
