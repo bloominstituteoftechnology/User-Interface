@@ -3,64 +3,314 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+body {
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #202020;
+    width: 85%;
+}
+
+header {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header nav {
+    margin-right: 250px;
+}
+
+header nav a {
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline;
+    text-align: center;
+}
+
+.navpluslogo {
+    width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    float: right;
+    margin-top: -25px;
+    margin-right: 100px;
+}
+
+footer {
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 0 100px 0;
+}
+
+.container {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    display: inline;
+    text-align: center;
+}
+
+.topHalf {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    height: 450px;
+    display: inline-block;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.leftSide {
+    width: 40%;
+    float: left;
+}
+
+.rightSide {
+    width: 50%;
+    float: right;
+    height: 500px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.getStartedBtn {
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    background: white;
+    margin-top: 20px;
+}
+
+.bottomHalf {
+    margin: 30px auto 30px auto;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.leftSide_MainTop {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 8%;
+}
+
+.rightSide_MainTop {
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 9%;
+}
+
+.leftSide_MainBottom {
+    width: 28%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 8%;
+    height: auto;
+}
+
+.centerSide_MainBottom {
+    width: 23%;
+    float: left;
+    height: auto;
+    margin-left: 20px;
+}
+
+.rightSide_MainBottom {
+    width: 24%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 8%;
+    height: auto;
+}
+
+.contact {
+    width: 100%;
+    height: 130px;
+    text-align: left;
+    margin: 20px 0 0 8%;
+}
+
+.middle-img {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 8% 0 8%;
+}
