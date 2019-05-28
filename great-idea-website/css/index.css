@@ -64,3 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	width: 1024px;
+}
+
+body nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body a {
+	text-decoration: none;
+	color: #A7A7A7;
+	font-size: 14px;
+	padding: 25px;
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+
+body h1 {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
