@@ -72,24 +72,50 @@ html {
 body nav {
 	display: inline-block;
 	vertical-align: middle;
+	text-align: left;
+	padding-top: 10px;
 }
 
 body a {
 	text-decoration: none;
 	color: #A7A7A7;
 	font-size: 14px;
-	padding: 25px;
-	text-align: center;
+	padding: 45px;
+	vertical-align: middle;
 }
 
 .logo {
-	display: inline-block;
 	vertical-align: middle;
-	text-align: right;
+	float: right;
 }
 
 body h1 {
 	display: inline-block;
-	vertical-align: middle;
 	text-align: center;
+	font-size: 60px;
+	padding: 50px;
+}
+
+.header-title {
+	display: inline-block;
+	justify-content: center;
+}
+
+/* having some trouble getting the font text for the button to spread out like the design image */
+
+button {
+	border: 1px solid black;
+	padding: 10px 40px;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.header-image {
+	display: inline-block;
+	justify-content: center;
+	margin: 50px;
+}
+
+.features-about h3 {
+	margin: 20px 0px 5px 0px;
 }
