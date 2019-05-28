@@ -67,10 +67,15 @@ h1, h2, h3, h4, h5 {
 
 html {
 	width: 1024px;
+	padding: 0px 50px;
 }
 
 p {
 	font-size: 18px;
+}
+
+header {
+	margin: 15px 0px 35px 0px;
 }
 
 body nav {
@@ -83,8 +88,8 @@ body nav {
 body a {
 	text-decoration: none;
 	color: #A7A7A7;
-	font-size: 14px;
-	padding: 45px;
+	font-size: 15px;
+	padding: 35px;
 	vertical-align: middle;
 }
 
@@ -101,27 +106,25 @@ body h1 {
 
 .title {
 	display: inline-block;
-	justify-content: center;
-	width: 40%;
+	margin: 40px 0px 0px 65px;
+	width: 395px;
+	height: auto;
+	vertical-align: middle;
+	text-align: center;
 }
-
-/* having some trouble getting the font text for the button to spread out like the design image */
 
 button {
 	border: 1px solid black;
 	padding: 10px 40px;
 	font-size: 20px;
-	justify-content: center;
+	width: 220px;
+	letter-spacing: 2px;
 }
 
 hr {
 	width: 100%;
-	margin: 50px 0px;
+	margin: 50px 0px 50px 0px;
 	border-top: 1px solid black;
-}
-
-.features-about h3 {
-	margin: 20px 0px 5px 0px;
 }
 
 .columns-top {
@@ -137,12 +140,13 @@ hr {
 
 .columns-bottom {
 	display: inline-block;
-	width: 32%;
+	width: 32.5%;
 	margin-right: 5px;
+	vertical-align: top;
 }
 
 #copyright {
 	width: 100%;
 	text-align: center;
-	margin: 10px 0px;
+	margin: 25px 0px 100px 0px;
 }
