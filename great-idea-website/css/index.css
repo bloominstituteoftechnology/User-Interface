@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-container {
+	width: 85%;
+	margin: auto;
+}
+
+nav {
+	display: inline-block;
+	width: 90%;
+	height: 40px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	padding-bottom: 20px;
+	align-self: center;
+}
+
+nav a:visited {
+	text-decoration: none;
+}
+
+nav img {
+	display: inline-block;
+	
+}
+
+header {
+	margin: auto;
+	display: inline-block;
+	height: 500px;
+	width: 90%;
+}
+
+header button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+}
+
+
+
+.header-left {
+	margin-top: 50px;
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	text-align: center;	
+}
+
+.header-right {
+	margin-top: 50px;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+}
+
+
+header h1 {
+	font-size: 80px;
+}
+
+.top-content {
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 90%;
+}
+
+.top-content-right {
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+}
+
+.top-content-left {
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+}
+
+.bottom-content {
+	margin-top: 20px;
+	width: 90%;
+	display: inline-block;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	text-align: center;
+}
+
+.middle-img {
+	width: 90%;
+	margin: auto;
+}
