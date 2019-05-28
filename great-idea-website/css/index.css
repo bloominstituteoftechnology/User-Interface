@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 1100px;
+}
+
+nav {
+	padding: 5px;
+	margin: 20px;
+	text-align: center;
+	word-spacing: 70px;
+	color: lightgray;
+}
+
+nav a {
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	border: 30px;
+	color: lightgray;
+}
+
+h1 {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	font-size: 80px;
+}
+
+.button {
+	padding-top: 0px;	
+	border: 1px solid black;
+	background-color: lightgray;
+}
+
+.code-img {
+	display: inline-block;
+	height: 100%;
+	padding-top: 50px;
+	padding-left: 350px;
+	margin-bottom: 50px;
+	content: 100%;
+}
+
+.top-content {
+	display: inline-block;
+	padding-top: 40px;
+}
+
+span {
+	font-family: 'Bangers', cursive;
+	font-size: 18px;
+}
+
+
+.features {
+	display: inline-block;
+	height: 50px;
+	width: 420px;
+	margin-left: 50px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+.about {
+	display: inline-block;
+	height: 50px;
+	width: 420px;
+	margin-left: 50px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+.middle-img {
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+.services {
+	display: inline-block;
+	height: 50px;
+	width: 320px;
+	margin-left: 30px;
+	margin-bottom: 75px;
+	padding-left: 50px;
+	padding-bottom: 70px;
+}
+
+.product{
+	display: inline-block;
+	height: 50px;
+	width: 320px;
+	margin-left: 30px;
+	margin-bottom: 75px;
+	padding-left: 50px;
+	padding-bottom: 70px;
+}
+
+.vision {
+	display: inline-block;
+	height: 50px;
+	width: 320px;
+	margin-left: 30px;
+	margin-bottom: 75px;
+	padding-left: 20px;
+	padding-bottom: 70px;
+}
+
+.contact {
+	height: 50px;
+	width: 320px;
+	margin-left: 50px;
+	padding-left: 30px;
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+
+footer {
+	padding-top: 70px;
+	padding-bottom: 80px;
+	padding-left: 450px;
+	margin-left: 70px;
+} 
