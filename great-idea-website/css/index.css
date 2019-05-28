@@ -92,35 +92,32 @@ h1, h2, h3, h4, h5 {
 }
 .Innovation_header
 {
+	margin-top: 50px;
+	padding: 40px;
+	text-align: center;
 	padding-top: 10px;
 	padding-left: 15%;
 	font-size: 75px;
 	display: inline-block;
 }
-#on
-{
-	padding-left: 100px;
-}
-#demand
-{
-	padding-left: 40px;
-}
+
 .code_img
 {
-
+	text-align: right;
 	padding-top: 41px;
-	padding-left: 15%;
+	padding-left: 19%;
 	display: inline-block;
 	height: 325px;
 }
 .btn_get_started
 {
+	text-align: left;
 	padding: 5px;
 	padding-left: 320px;
 }
 button
 {
-
+	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 10px;
@@ -156,10 +153,7 @@ button
 {
 	font-size: 15px;
 }
-.about
-{
-	padding-left: 200px;
-}
+
 #contact {
 	padding: 15px;
 }
