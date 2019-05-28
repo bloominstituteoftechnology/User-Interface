@@ -65,22 +65,75 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-
-nav {
-    list-style-type: none;
-    color: gray;
+header {
     display: inline;
-    float: left;
+    width: 100%;
+
 }
 
+header div nav {
+
+    color: gray;
+    width: 80%;
+    display: inline-block;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 2%;
+}
+
+header div img {
+    width: 20%;
+    display: inline;
+    display: inline-block;
+}
+
+.imageRow {
+    width: 100%;
+    display: inline;
+}
+
+.firstRow {
+    width: 100%;
+}
+
+.firstRowNav {
+    width: 80%;
+    display: inline-block;
+}
+
+.firstRowPicture {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
+
+.innovationOnDemand {
+    style: bold;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+.imageRow {
+    width: 100%;
+    display: inline-block;
+}
+
+.one-word-per-line {
+    word-spacing: 1000px;
+} /* got help from https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element*/
 
 
-
-
-
-
-
-
+.codePicture {
+    width: 50%;
+    display: inline-block;
+}
 
 
