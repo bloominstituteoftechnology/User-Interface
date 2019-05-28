@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5 {
 header nav  {
 	display: inline-block;
 	margin-top: 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
 }
 
 header nav a{
@@ -118,11 +122,21 @@ hr {
 }
 
 .about .about-h3 {
-	margin-top: 30px;	
+	margin-top: 30px;
+	font-size: 	
 }
 
 .about .about-p {
 	margin-bottom:  35px;
+	font-size: 16px;
+}
+
+.about .x3{
+	display: inline-block;
+	width: 30%;
+}
+footer div {
+	text-align: center;
 }
 
 
