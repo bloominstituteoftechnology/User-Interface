@@ -55,7 +55,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    width: 50px;
 }
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -64,3 +66,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+head{
+	width: 50px;
+}
+.header{
+	width:32%;
+	display: inline-block;
+}
+.middle{
+	float: center;
+}
+.topimage{
+		float: right;
+}
+
+.one{
+	width: 49%;
+	display: inline-block;
+}
+.two {
+	width: 49%;
+	display: inline-block;
+}
+.three{
+	width: 32%;
+	display: inline-block;
+}
+.four{
+	width: 32%;
+	display: inline-block;
+}
+.five{
+	width: 32%;
+	display: inline-block;
+}
+.this{
+	width: 49%;
+	display: inline-block;
+}
+
+body{
+	width: 500px;
+	margin: 100px;
+}
+header{
+	display: inline-block;
+}
+h1{
+	font-size: 300%;
+	text-decoration: 0;
+	text-align: left;
+}
+
+main{
+	width: 876px;
+	display: inline-block;
+}
+hr{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+button{
+	border: 3px solid black;
+	float: left;
+}
+a{
+	word-spacing: 20px;
+	color: lightgray;
+	font-size: 20px;
+	list-style-type: none;
+	margin-right:15px;
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+}
