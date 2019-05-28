@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#menu {
+    padding: 60px 20px 0px 50px;
+}
+#menu a{
+    color:#b7b7b7;
+    text-decoration: none;  
+}
+#menu a:hover{
+    color:red;
+    font-size: 20px;
+    transition: font-size 0.3s ease;    
+}
+#menu ul li{
+    float: left;
+    padding: 15px 40px;
+    height: 30px;
+}
+.logo {
+    float: right;
+    padding: 0px 100px 0px 0px;
+    width: 350px;
+}
+button{
+    background: white;
+    border: 1px solid black;
+    padding: 8px 55px;
+    position: absolute;
+    top: auto;
+    left: 255px;
+    bottom: auto;
+    right: 300px;
+}
+
+.code {
+    padding-bottom: 200px;
+    position: absolute;
+    top: 160px;
+    left: auto;
+    bottom: auto;
+    right: 120px;
+    width: 479px;
+}
+ 
+#one{
+    font-size: 550%;
+    text-align: left;
+    padding: 180px 10px 0px 160px;
+}
+#two{
+    font-size: 550%;
+    text-align: left;
+    padding: 0px 10px 0px 300px;
+}
+#three{
+    font-size: 550%;
+    text-align: left;
+    padding: 0px 10px 0px 220px;
+}
+
+.top-content {
+    position: relative;
+    top: 200px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    height: 300px;
+    width: 600px;
+    border-top: 1px solid black;
+    padding: 50px 30px;
+}
+#left1 {
+float: left;
+}
+#right1 {
+float: right;
+}
+.middle-img {
+padding: 80px 0px 0px 30px;
+width: 1176px;
+}
+.bottom-content {
+    position: relative;
+    top: 0px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    height: 300px;
+    width: 400px;
+    padding: 20px 20px 0 20px;
+}
+#left {
+float: left;
+}
+#middle {
+position: relative;
+top: auto;
+left: 400px;
+bottom: 280px;
+right: auto;
+}
+#right {
+float: right;
+position: relative;
+top: auto;
+left: auto;
+bottom: 300px;
+right: auto;
+}
+.contact p {
+    padding: 20px 0px 0px 0px;
+}
+
+.contact {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 80px 0px 100px 400px;
+}
