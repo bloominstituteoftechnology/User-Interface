@@ -60,7 +60,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+		margin-bottom: 20px;
+		margin-top: 5px;
 }
 
 /* Your code starts here! */
