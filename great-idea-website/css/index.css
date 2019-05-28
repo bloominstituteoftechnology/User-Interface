@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +63,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header nav {
+	display:inline-block;
+  width: 650px;
+  margin-right: 10px;
+}
+header nav a{
+  color: lightgray;
+  margin: 25px;
+}
+
+h1 {
+  font-size: 75px;
+  width:200px;
+  display:inline-block;
+  margin: 50px;
+  text-align:center;
+  position: relative;
+  top: -40px;
+}
+
+.logo{
+	position:relative;
+	top: 10px;
+}
+
+.pic{
+	position:relative;
+	top: 50px;
+	left: 100px;
+} 
+
+button{
+  position: relative;
+  left: -575px;
+}
+
+hr {
+	border-top: 2px solid black;
+	width: 800px;
+	position: relative;
+	top:20px;
+	left: -350px;
+}
+
+.one {
+	display:inline-block;
+	width: 450px;
+	margin:20px;
+}
+
+.two {
+	display:inline-block;
+	width: 450px;
+	margin-right: 200px;
+}
+
+
+.middle-img {
+	position: relative;
+	margin: 25px;
+	margin-right: 400px;
+}
+
+.three {
+	display:inline-block;
+	width: 250px;
+	margin: 10px;
+}
+
+.four {
+	display:inline-block;
+	width: 250px;
+	margin:10px;
+}
+
+.five {
+	display:inline-block;
+	width: 250px;
+	margin: 10px;
+	margin-right: 600px;
+}
+
+footer{
+	margin: 30px;
+	position: relative;
+	top:10px;
+}
+
+footer a{
+	width: 20px;
+	margin:5px;
+	margin-right: 1500px;
+}
+
+.Copy {
+	position:relative;
+	left:300px;
+}
