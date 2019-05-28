@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* main container */
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* flatten out the navigation onto one line */
+.nav-item,
+.nav-list-item {
+	display: inline;
+	color: #A0A0A0;
+	transition: 0.7s color;
+}
+
+.nav-list-item:hover {
+	color: black;
+}
+
+/* space nav list and logo out */
+.nav-list {
+	margin-left: 1rem;
+	margin-right: 15rem;
+}
+
+/* style header nav */
+.header-nav {
+	margin-top: 1rem;
+}
+
+/* style nav-list-items */
+.nav-list-item {
+	margin-right: 6rem;
+	font-size: 1.5rem;
+}
+
+/* style landing section */
+
+.landing-section {
+	margin: 3rem;
+}
+
+.section-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.call-to-action {
+	display: inline-block;
+	width: 45%;
+	margin-right: 9%;
+	font-size: 7rem;
+}
+
+.computer-img {
+	display: inline-block;
+	width: 45%;
+}
+
+.tagline {
+	margin-bottom: -2rem;
+}
+
+.cta-button {
+	border: 2px solid black;
+	background: white;
+	color: black;
+	font-size: 2rem;
+	padding: 1rem;
+	transition: 1.4s color, 0.7s background;
+}
+
+.cta-button:hover {
+	border: 2px solid white;
+	background: black;
+	color: white;
+}
+
+/* style hr lines */
+hr {
+	border: 0.5px solid black;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+/* style cards */
+.card {
+	display: inline-block;
+	text-align: justify;
+}
+
+.card-body {
+	max-width: 80%;
+}
+
+.card-2 {
+	width: 45%;
+	margin-right: 4%;
+}
+
+.card-3 {
+	width: 30%;
+	margin-right: 3%;
+}
+.card-3 .card-body {
+	max-width: 85%;
+}
+
+/* make middle image bigger */
+.middle-img {
+	margin: 3rem auto;
+	width: 100%;
+}
+
+/* style footer */
+footer {
+	margin-top: 5rem;
+	margin-bottom: 10rem;
+	text-align: center;
+}
