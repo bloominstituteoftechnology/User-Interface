@@ -64,3 +64,54 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 880px;
+	margin: auto;
+	height: auto;
+	border: 1px solid red;
+}
+
+header nav{
+	display: inline-block;
+}
+
+header a{
+	margin: 20px;
+}
+
+.logo{
+	margin-left: 110px;
+}
+
+.left-banner{
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	width: 379px;
+	height: 379px;
+	font-size: 55px;
+	text-align: center;
+}
+
+#cta{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 22px;
+	padding: 20px;
+	margin: 95px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.top-main{
+	display: inline-block;
+	height:auto;
+	width:420px;
+	padding: 10px;
+}
+
+.bottom-main{
+	display: inline-block;
+	height: auto;
+	width: 270px;
+}
+
