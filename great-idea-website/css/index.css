@@ -81,10 +81,19 @@ header {
 nav a {
 	display: inline-block;
 	margin-right: 60px;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: rgb(179, 178, 178);
 	text-decoration: none;
 	vertical-align: middle;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted transparent;
+	transition: all .15s linear;
+}
+
+nav a:hover {
+	color: #000;
+	border-bottom: 1px dotted #000;
 }
 
 
@@ -149,8 +158,8 @@ section {
 .product,
 .vision {
 	display: inline-block;
-	width: 33%;
-	margin-bottom: 50px;
+	width: 32%;
+	margin: 0 8px 50px 0;
 }
 
 footer {
@@ -172,10 +181,13 @@ footer {
 	font-size: 14px;
 }
 
+/* GENERAL TEXT STYLES */
+
 h3 {
 	font-size: 16px;
 }
 
 p {
-	font-size: 16px;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
 }
