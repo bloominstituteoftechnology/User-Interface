@@ -64,3 +64,66 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1{
+	font-size: 60px;
+	max-width: 200px;
+}
+h2{
+	padding: 20px 0 5px 0;
+}
+.div1{
+	max-width: 450px;
+	display: inline-block;
+	padding: 10px 5px 20px 0;
+}
+.div2{
+	max-width: 290px;
+	display: inline-block;
+	padding: 10px 5px 20px 0;
+}
+.div3{
+	max-width: 150px;
+}
+.mainBody{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 0 700px 0 30px;
+}
+.address{
+	margin: 20px 0;
+}
+.phoneNumber{
+	margin: 30px 0;
+}
+.copyright{
+	margin: 50px 325px;
+}
+button{
+	border: 1px solid black;
+	padding: 2px 20px;
+	margin: 10px;
+	background-color: white;
+}
+header{
+	padding: 100px;
+}
+.title{
+	text-align: center;
+	display: inline-block;
+}
+.image{
+	display: inline-block;
+}
+a{
+	padding: 5px 50px 0 15px;
+	color: grey;
+}
+nav{
+	background-color: lightsteelblue;
+	max-width: 1000px;
+	position: fixed;
+	padding: 0 75px 0 20px;
+}
+.contact{
+	margin: 0 0 0 30px;
+}
