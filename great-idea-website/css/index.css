@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,144 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+main {
+	margin: 0 auto;
+	width: 88%;
+}
+
+/* nav */
+nav a {
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+}
+
+nav .alignment {
+	margin-left: 40px;
+}
+
+.logo {
+	display: inline-block;
+	float: right;
+}
+
+
+nav {
+	height: 70px;
+	margin-top: 20px;
+
+}
+
+/* Header */
+
+.banner {
+
+	margin-top: 50px;
+	text-align: center;
+	height: 500px;
+
+}
+
+.header-img {
+
+	display: inline-block;
+	float: right;
+
+}
+
+button {
+
+	padding: 10px 30px;
+	border-radius: 0;
+	font-size: 16px;
+	background-color: white;
+
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.invitation {
+
+	display: inline-block;
+	margin-top: 40px;
+
+
+}
+
+
+/*sections */
+
+section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0;
+}
+
+.container1 {
+	margin-bottom: 40px;
+	overflow: hidden;
+
+}
+
+.features {
+	width: 48%;
+	display: inline-block;
+
+}
+
+.about {
+	width: 48%;
+	float: right;
+	padding-left: 40px;
+
+}
+
+.container2 {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.infoText {
+	width: 33%;
+	display: inline-block;
+}
+
+
+.middle-img {
+	width: 100%;
+}
+
+/*footer*/
+
+footer {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
