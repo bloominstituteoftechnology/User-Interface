@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* General */
+hr {
+	width: 85%;
+}
+
+/* header */
+header {
+	margin: 50px auto;
+  width: 85%;
+	height: 50px;
+}
+
+header nav {
+	float: left;
+	margin-top: 10px;
+}
+
+header nav a{
+	margin: 20px;
+}
+
+.logo {
+	float: right;
+}
+
+/* section1 */
+.section1 {
+	margin: auto;
+	width: 85%;
+	height: 400px;
+
+}
+
+h1 {
+	float: left;
+	margin: 20px 0 0 50px;
+	font-size: 5rem;
+	text-align: center;
+}
+
+button {
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 25px;
+  background: #ffffff;
+  padding: 5px 20px 5px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+button:hover {
+	background: #ebebeb;
+  text-decoration: none;
+}
+
+.circle-img {
+	float: right;
+}
+
+/* section2 */
+.section2 {
+	margin: 50px auto;
+	width: 900px;
+	height: 100px;
+}
+
+.features {
+	float: left;
+	width: 400px;
+	height: auto;
+}
+
+.about {
+	float: right;
+	width: 400px;
+	height: auto;
+}
+
+/* middle-img */
+.middle-img {
+	display: block;
+	margin: auto;
+	width: 85%;
+}
+
+/* section3 */
+.section3 {
+	margin: 50px auto;
+	width: 900px;
+	height: 100px;
+}
+
+.services{
+	float: left;
+	width: 300px;
+	height: auto;
+	padding: 10px;
+}
+
+.product{
+	float: left;
+	width: 300px;
+	height: auto;
+	padding: 10px;
+}
+
+.vision{
+	float: left;
+	width: 300px;
+	height: auto;
+	padding: 10px;
+}
+
+/* contact-section */
+.contact-section {
+	margin: auto;
+	width: 900px;
+	height: 150px;
+}
+
+.contact {
+	float: left;
+	width: 175px;
+	padding: 10px;
+}
+
+/* footer */
+footer {
+	text-align: center;
+}
