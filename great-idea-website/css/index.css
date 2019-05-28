@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+	padding: 20px;
+	color: black;
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	display: inline-block;
+	word-wrap: normal;
+}
+nav {
+	padding: 20px;
+	margin-left: 50px;
+	color: grey;
+	margin: 20px;
+	word-spacing: 50px;
+}
+button {
+	padding: 200 px;
+	color: black;
+	background-color: white;
+	display: inline-block;
+}
+article {
+	color: black;
+}
+footer {
+	margin-bottom: 1000px;
+	padding: 300px;
+}
+hr {
+	width: 1000px;
+	height: 3px;
+	background-color: black;
+	margin-left: 20px;
+	margin-right: 300px;
+}
+#logo {
+	margin-right: 30px;
+}
+
+img #middle-img {
+	margin: auto;
+}
+
+div {
+	display: inline-block;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+h1 {
+	margin-top: 30px;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.box {
+	
+}
+#top-section {
+	display: inline-block;
+}
+#about {
+	display: inline-block;
+	width: 50%;
+}
+#features {
+	display: inline-block;
+	width: 50%;
+}
+#services {
+	display: inline-block;
+	width: 30%;
+}
+#product {
+	display: inline-block;
+	width: 30%;
+}
+#vision {
+	display: inline-block;
+	width: 30%;
+}
+#bottom-section {
+	display: inline-block;
+}
+article p {
+	margin-left: 20px;
+	margin: 20px 0;
