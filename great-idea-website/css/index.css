@@ -64,3 +64,65 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: 50px auto; 
+} 
+
+header nav  {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: gainsboro;
+}
+
+header img {
+	margin-left: 100px;
+
+}
+
+.hero div   {
+	display: inline-block;
+	font-size: 75px;
+}
+
+.hero-h1 {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+
+.hero .hero-img  {
+	margin-top: 75px;
+}
+
+.hero-btn {
+	margin-bottom: 100px;
+	padding: 8px 45px;
+	border: 1px solid black;
+	background: white;
+	font-size: 15px;
+}
+
+hr {
+	border: .5px solid black;
+}
+
+ .about-2x2{
+	display: inline-block;
+	width: 49%;
+}
+
+.about .about-h3 {
+	margin-top: 30px;	
+}
+
+.about .about-p {
+	margin-bottom:  35px;
+}
+
+
