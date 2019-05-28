@@ -80,44 +80,37 @@ header {
   color: grey;
 }
 .navBar img {
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  height: 100%;
+  vertical-align: middle;
 }
 h1 {
   font-size: 60px;
 }
 .headerContent {
   border-bottom: 1px solid black;
-  /* padding: 20px; */
   vertical-align: middle;
-
 }
 .title {
   display: inline-block;
-  padding: 50px;
-  margin-top: 0px;
-
+  padding: 70px;
+  height: 100%;
+  vertical-align: middle;
 }
 .headerImage {
   display: inline-block;
-  padding: 50px;
-  margin-top: 0px;
-  /* line-height: 100px;
-  height: 100px; */
-  
+  padding: 70px;
+  height: 100%;
+  vertical-align: middle;
 }
 button {
   width: 130px;
- 
 }
 
 /* ============================
   MAIN
 ============================ */
-main {
- 
-  /* border-bottom: 1px solid black; */
 
-}
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -125,14 +118,14 @@ p {
 .firstRow .itemOne{
   display: inline-block;
   width: 50%;
-  padding: 20px;
+  padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
 }
 .firstRow .itemTwo {
   display: inline-block;
   width: 50%;
-  padding: 20px;
+  padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -144,21 +137,21 @@ p {
 }
 .thirdRow .left {
   display: inline-block;
-  padding: 20px;
+  padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
   width: 33%;
 }
 .thirdRow .middle {
   display: inline-block;
-  padding: 20px;
+  padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
   width: 33%;
 }
 .thirdRow .right {
   display: inline-block;
-  padding: 20px;
+  padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
   width: 33%;
