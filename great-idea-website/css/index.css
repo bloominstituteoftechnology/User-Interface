@@ -70,8 +70,9 @@ head{
 	width: 50px;
 }
 .header{
-	width:32%;
+	width:50%;
 	display: inline-block;
+	float: right;
 }
 .middle{
 	float: center;
@@ -113,7 +114,7 @@ header{
 	display: inline-block;
 }
 h1{
-	font-size: 300%;
+	font-size: 400%;
 	text-decoration: 0;
 	text-align: left;
 }
