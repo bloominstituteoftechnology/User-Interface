@@ -64,3 +64,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* =============================
+  HEADER
+==============================*/
+header {
+ text-align: center;
+
+}
+.navBar a{
+  text-decoration: none;
+  padding: 45px;
+  text-align: center;
+  
+}
+h1 {
+  font-size: 70px;
+}
+.headerContent {
+  border-bottom: 1px solid black;
+}
+.title {
+  display: inline-block;
+  padding: 50px;
+}
+.headerImage {
+  display: inline-block;
+  padding: 50px;
+}
+
+/* ============================
+  MAIN
+============================ */
+.firstRow .itemOne{
+  display: inline-block;
+  width: 50%;
+  padding: 20px;
+}
+.firstRow .itemTwo {
+  display: inline-block;
+  width: 50%;
+  padding: 20px;
+}
+.secondRow {
+  padding: 20px;
+}
+.thirdRow .left {
+  display: inline-block;
+  padding: 20px;
+}
+.thirdRow .middle {
+  display: inline-block;
+  padding: 20px;
+}
+.thirdRow .right {
+  display: inline-block;
+  padding: 20px;
+}
+
+/* ============================
+ FOOTER
+============================= */
+.contactInfo {
+  padding: 20px;
+}
+.copyright {
+  text-align: center;
+}
