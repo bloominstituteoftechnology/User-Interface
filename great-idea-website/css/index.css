@@ -63,4 +63,93 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+html{
+	margin: auto;
+}
+
+div nav {
+	display: inline-block;
+	font-size: 100%;
+    color: rgb(197, 193, 193);
+	margin-left: 20px;
+	word-spacing: 50px;
+    
+}
+.logo {
+	display: inline-block;
+	margin-left:60px;
+}
+
+h3{
+	font-size: 500%;
+	text-align: center;
+}
+
+.left{
+	display: inline-block;
+	vertical-align: center;
+	width: 45%;
+}
+
+button{
+	font-size: 20%;
+	border: 1px solid black;
+}
+
+.circle{
+	display: inline-block;
+	width:30%;
+	padding-top: 40px;
+}
+
+.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+main div{
+	padding: 15px;
+	margin: 0, auto;
+	display: inline-block;
+	text-align: left;
+}
+
+.features{
+	display: inline-block;
+	vertical-align: center;
+	width: 45%;
+}
+
+.about{
+	display: inline-block;
+	vertical-align: center;
+	width: 45%;
+}
+
+.services{
+	display: inline-block;
+	vertical-align: center;
+	width: 30%;
+}
+
+.product{
+	display: inline-block;
+	vertical-align: center;
+	width: 30%;
+}
+
+.vision{
+	display: inline-block;
+	vertical-align: center;
+	width: 30%;
+}
+
+hr{
+	margin: 5%;
+}
+
+.end{
+	margin-left: 50%;
+}
