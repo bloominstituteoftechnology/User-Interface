@@ -81,15 +81,16 @@ header {
 nav a {
 	display: inline-block;
 	margin-right: 60px;
-	padding: 10px;
 	font-size: 14px;
 	color: rgb(179, 178, 178);
 	text-decoration: none;
+	vertical-align: middle;
 }
+
 
 .logo {
 	vertical-align: middle;
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 .heading,
@@ -109,9 +110,15 @@ nav a {
 .get-started-btn {
 	border: 1px solid #000;
 	padding: 5px 50px;
-	background: transparent;
+	background: #fff;
 	font-size: 16px;
 	font-family: 'Titillium Web';
+	transition: all .2s linear;
+}
+
+.get-started-btn:hover {
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, .2);
+	cursor: pointer;
 }
 
 
