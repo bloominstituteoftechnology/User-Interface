@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5 {
 }
 .code_img
 {
-	padding: 10px;
+ 
+	padding-top: 41px;
 	padding-left: 15%;
 	display: inline-block;
 	height: 325px;
@@ -159,7 +160,7 @@ button
 	padding: 15px;
 }
 .middle-img{
-
+        max-height: 200px;
 	width: 100%;
 
 }
