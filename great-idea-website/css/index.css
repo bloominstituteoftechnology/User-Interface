@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,5 +62,101 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+.menu{
+	top: 0px;
+	width: 100%;
+}
+.menu a{
+	float: left;
+  padding: 12px;
+	color: grey;
+  text-decoration: none;
+  font-size: 15px;
+  width: 14%;
+  text-align: center
+}
+#nav_link
+{
+	padding : 20px;
+}
+.Innovation_box
+{
+	padding: 20px;
+}
+.Innovation_header
+{
+	padding-top: 10px;
+	padding-left: 15%;
+	font-size: 75px;
+	display: inline-block;
+}
+#on
+{
+	padding-left: 100px;
+}
+#demand
+{
+	padding-left: 40px;
+}
+.code_img
+{
+	padding-left: 15%;
+	display: inline-block;
+	height: 325px;
+}
+.btn_get_started
+{
+	padding: 5px;
+	padding-left: 320px;
+}
+button
+{
+
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+.article_box1
+{
+	padding: 20px;
+		display: inline-block;
+}
+.article_box2
+{
+	padding: 20px;
+		display: inline-block;
+}
+.article_box3
+{
+	padding: 20px;
+		display: inline-block;
+}
+.article_box4
+{
+	padding: 20px;
+		display: inline-block;
+}
+.article_box5
+{
+	padding: 20px;
+		display: inline-block;
+}
+.section2
+{
+	font-size: 15px;
+}
+.about
+{
+	padding-left: 200px;
+}
+#contact {
+	padding: 15px;
+}
+.middle-img{
+
+	width: 100%
+
+}
