@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 10;
+	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+	margin-top: 20px;
+	display: inline-block;
+	width: 1000px;
+}
+header a{
+	text-decoration: none;
+	color:gray;
+}
+
+header nav{
+	word-spacing: 80px;
+	font-size: 80%;
+	margin-left: 40px;
+}
+
+#innovation-heading{
+	text-align: center;
+	font-size: 500%;
+	margin-left: 30px;
+	display: inline-block;
+	width: 450px;
+}
+
+#get-started{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-left: 150px;
+	font-size: 120%;
+	border: 1px solid black;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+}
+
+.main-heading {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	display: inline-block;
+	width: 900px;
+}
+
+.main-heading h1{
+	display: inline-block;
+	margin-top: 150px;
+}
+
+.main-heading img{
+	float: right;
+	margin-top: 100px;
+	display: inline-block;
+}
+
+.top-row {
+	margin: 10px;
+	margin-top: 40px;
+	width: 900px;
+}
+.features {
+	width: 450px;
+	float: left;
+}
+
+.about {
+	width: 450px;
+	float: right;
+}
+
+.bottom-row {
+	margin: 10px;
+	width: 900px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.services {
+	width: 290px;
+	display: inline-block;
+}
+
+.product {
+	width: 290px;
+	display: inline-block;
+}
+
+.vision {
+	width: 290px;
+	display: inline-block;
+}
+
+.middle-img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+#phone-number {
+	margin-top: 20px;
+}
+
+#email {
+	margin-top: 20px;
+}
+
+#copyright {
+	text-align: center;
+	margin-bottom: 200px;
+	margin-left: -10px;
+	margin-top: 50px;
+}
+
+footer {
+	margin: 30px;
+}
+
+main {
+	margin: 20px;
+}
