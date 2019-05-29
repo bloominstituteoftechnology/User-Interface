@@ -91,6 +91,17 @@ li {
     padding-top: 100px;
 }
 
+.lastSection {
+    margin-top: 5%;
+    width: 80%
+    margin-left: 20%;
+}
+
+.contactColumn {
+
+
+}
+
 
 .firstRow {
     width: 95%;
@@ -146,6 +157,7 @@ li {
     border-bottom: 2px solid gray;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .middleSectionRow1 {
