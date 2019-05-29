@@ -64,3 +64,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navClass {
+	color: lightgray;
+	display: inline-block;
+	margin-top: 15px;
+	text-align: center;
+}
+
+
+.logo {	
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+.navBox {
+	text-align: center;
+	margin-right: 250px;
+	margin-top: 50px;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: gray;
+	margin: 0 40px;
+}
+
+.hero h1 {
+	font-size: 100px;
+	margin-top: 50px;
+	margin-left: 550px;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+}
+
+.hero {
+	margin-top: 150px;
+	display: inline-block;
+}
+
+.getstarted {
+	display: inline-block;
+}
+
+button {
+	margin-left: 600px;
+	width: 150px;
+}
+
+.codeCircle {
+	margin-left: 300px;
+}
+
+.features {
+	display: inline-block;
+	height: 50px;
+	width: 400px;
+	margin: 0px 50px;
+	
+}
+
+.about {
+	display: inline-block;
+	height: 50px;
+	width: 400px;
+	margin: 0px 50px;
+}
+
+.topSection {
+	width: 80%;
+	margin-left: 450px;
+	margin-top: 100px;
+	border-top: 1px solid black;
+	padding-top: 100px;
+}
+
+
