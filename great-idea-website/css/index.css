@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Here is where the header styling will go */
+
+header {
+	width: 80%;
+	padding: 40px 75px;
+	margin: 0 auto;
+}
+/* aligning the navigation and the image */
+header nav {
+	background: #ddf;
+	position: fixed;
+	width: 620px;
+    margin-top: 45px;
+}
+header nav a {
+	display: inline-block;
+	padding: 12px 25px;
+	text-decoration: none; 	
+	color: #333;
+}
+header nav a:hover {
+	background: #444;
+	color: #fff;
+}
+/*aliging the logo to the right */
+.logo {
+	display: inline-block;
+	margin: 44px 0 85px 775px;
+}
+/* Resizing and positioning the header */
+header h1 {
+	margin: 85px 0 15px 185px;
+	text-align: center;
+	display: block;
+	width: 200px;
+	font-size: 75px;
+}
+  /* Adding a color border radius that act as a botton*/
+ .cta a {
+	 border: 1px solid #333;
+	 width: 195px;
+	 text-align: center;
+	 text-decoration: none;
+	 padding: 6px 42px;
+	 margin: 45px 0 0 202px;
+	 color:#000;
+ }
+ 
+/* Positioning the image to the rigth */
+
+header img {
+	display: inline-block;
+	margin: -285px 0 0 600px;
+}
+/* Creating top border using section semantic tags */
+section {
+	border-top: 3px solid #ccc;
+	width: 57%;
+	margin: 0 auto;
+	border-bottom: 3px solid #ccc;
+}
+/*Moving the class secondary-h2 */
+.secondary-h2 {
+	margin-top: 24px;
+}
+/* creating the columns */
+.col-1, .col-2 {
+	width: 425px;
+	display: inline-block;
+	line-height: 22px;
+}
+/* aligning the two columns horizontal with margin right from the first one and using inline-block */
+.col-1 {
+	margin-right: 45px;
+}
+/* applying inline-block to the second column */
+
+.col-1, col-2 {
+	margin-bottom: 45px;
+}
+/* Centering the image */
+.middle-img {
+	margin: 0 2px 65px 2px;
+}
+/* The last three columns will have the same style as well */
+.col-3, .col-4, .col-5 {
+	width: 250px;
+	display: inline-block;
+	line-height: 22px;
+	margin-bottom: 33px;
+}
+/* Adding spacing */
+.col-3, .col-4 {
+	margin-right: 60px;
+}
+/* Adding style to the footer */
+footer h3 {
+	margin: 25px 0 0 337px;
+}
+footer address {
+	display: block;
+	width: 200px;
+	margin: 15px 0 0 337px;
+}
+footer p {
+	padding: 18px 0;
+}
+.cpyrght {
+	margin: 33px 700px 145px 700px;
+}
