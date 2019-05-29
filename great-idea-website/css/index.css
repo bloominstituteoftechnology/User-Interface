@@ -115,19 +115,25 @@ li {
     text-align: center;
 }
 
-.imageRowColumn2 {
-    width: 48%;
-    display: inline-block;
-}
-
 .innovationOnDemand {
     font-weight: bold;
     font-style: italic;
     font-size: 50pt;
     padding-right: 5%;
-
     display: inline-block;
     word-spacing: 1000px; /* got help from https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element*/
+}
+
+.getStartedButton {
+    color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    height: 30px;
+}
+
+.imageRowColumn2 {
+    width: 48%;
+    display: inline-block;
 }
 
 
