@@ -65,11 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
+	height: 100%;
+    margin: 0;
+	background-image: linear-gradient(lightgrey, lightblue);
+	background-repeat: no-repeat;
+    background-attachment: fixed
+	
+}
+
 .wrapper{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 800px;
 }
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Nav
@@ -77,6 +87,8 @@ Nav
 header nav{
 	display: inline-block;
 	background: lightblue;
+	border: 2px solid black;
+	border-radius: 50px;
 	position: fixed;
 	top:0;
 	z-index: 100;
@@ -147,8 +159,18 @@ header{
 .tagline a{
 	text-decoration: none;
 	border: 1px solid black;
+	border-radius: 20px;
 	padding: 2px 20px;
-	color: black;
+	color: grey;
+	box-shadow: inset 12px -12px 5px -10px darkblue;
+	
+}
+.tagline a:hover{
+	color: white;
+}
+.tagline a:active{
+	color:grey;
+	background: darkblue;	
 }
 
 .hero-img{
@@ -193,6 +215,7 @@ main h3{
 	background-image: url("../img/mid-page-accent.jpg");
 	background-repeat: no-repeat;
 	background-size: 800px 182px;
+	margin: 10px 0;
 }
 
 .bottom-left, .bottom-right, .bottom-middle{
