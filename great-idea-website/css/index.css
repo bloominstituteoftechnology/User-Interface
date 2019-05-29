@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.headerClass{
+	display: flex;
+	border: 5px solid black;
+	padding: 10px;
+}
+.button a{
+	margin: 0 50px;
+	display: inline-block;
+}
+
+.logo{
+	flex: 1;
+	object-fit: none;
+	position: right;
+	display: inline-block;
+}
+
+
+.bigStyle{
+	font-size: 500%;
+	
+}
+
+.sectionOne{
+ 	display:flex;
+}
+.sectionOne .bigstyle{
+	display: block;
+	margin:100px;
+}
+.sectionOne button{
+	display: bottom;
+}
+.sectionOne img{
+	flex: 1;
+	margin: 100px
+}
+
+.contentDiv{
+	display: block;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	
+}
+.parent{
+	display: flex;
+	
+}
+
+.parent .articleOne{
+	display: inline-block;
+	width: 250px;
+	margin: 50px;
+}
+
+.parent .articleTwo{
+	flex: 1;
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+	margin: 50px;
+}
+.middle-img{
+	object-fit: none;
+	position: center;
+}
+
+.parentTwo{
+ display:flex;
+ margin: 20px;
+ padding: 15px;
+}
+
+.parentTwo .articleOne{
+	display: inline-block;
+	width: 150px;
+}
+
+.parentTwo .articleTwo{
+	flex: 1;
+	display: inline-block;
+	width: 150px;
+}
+
+.parentTwo .articleThree{
+	flex: 2;
+	display: inline-block;
+	width: 150px;
+}
+
+.contactDiv{
+	margin: 20px;
+}
+.contactDiv p{
+	margin: 20px 20px 20px 0px
+}
+.legalFooter{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+
