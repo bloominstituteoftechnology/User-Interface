@@ -65,75 +65,88 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header {
-    display: inline;
-    width: 100%;
 
-}
-
-header div nav {
-
-    color: gray;
-    width: 80%;
-    display: inline-block;
-
-}
 
 ul {
     list-style-type: none;
-}
-
-nav li {
-    display: inline;
-    padding: 2%;
-}
-
-header div img {
-    width: 20%;
-    display: inline;
-    display: inline-block;
-}
-
-.imageRow {
-    width: 100%;
     display: inline;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 5%;
+}
+
 
 .firstRow {
-    width: 100%;
+    width: 95%;
 }
 
 .firstRowNav {
-    width: 80%;
+    width: 75%;
+    color: gray;
     display: inline-block;
 }
 
 .firstRowPicture {
-    width: 20%;
+    width: 10%;
     position: relative;
     display: inline-block;
+    float: right;
 }
 
-.innovationOnDemand {
-    style: bold;
-    text-align: center;
-    width: 50%;
-    display: inline-block;
-}
 
 .imageRow {
-    width: 100%;
+    width: 95%;
     display: inline-block;
 }
 
-.one-word-per-line {
-    word-spacing: 1000px;
-} /* got help from https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element*/
+.imageRowColumn1 {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.imageRowColumn2 {
+    width: 30%;
+}
+.innovationOnDemand {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40pt;
+    float: left;
+    display: inline-block;
+    word-spacing: 1000px; /* got help from https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element*/
+}
 
 
 .codePicture {
-    width: 50%;
+    width: 40%;
     display: inline-block;
+    float: right;
 }
 
 
+.middleSectionRow1 {
+    width: 99%;
+    display: inline;
+}
+
+.middleSectionRow1Column1 {
+    width: 45%;
+    display: inline;
+    float: left;
+    padding-left: 5%;
+}
+
+.middleSectionRow1Column2 {
+    width: 45%;
+    display: inline;
+    float: right;
+    padding-right: 5%;
+}
