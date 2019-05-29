@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ea605c-5145-4c2d-add7-3ef6e387010f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="61ea605c-5145-4c2d-add7-3ef6e387010f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -87,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="761" />
     <option name="y" value="6" />
     <option name="width" value="1750" />
@@ -163,12 +161,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559074117683</updated>
       <workItem from="1559074119608" duration="12933000" />
-      <workItem from="1559090161709" duration="947000" />
+      <workItem from="1559090161709" duration="1197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13880000" />
+    <option name="totallyTimeSpent" value="14130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,7 +178,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" sideWeight="0.50147057" side_tool="true" weight="0.24983476" />
