@@ -107,6 +107,7 @@ li {
 .imageRow {
     width: 95%;
     display: inline-block;
+    padding-bottom: 5%;
 }
 
 .imageRowColumn1 {
@@ -137,12 +138,14 @@ li {
 .middleSection {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .middleSectionRow1 {
     width: 99%;
     display: inline;
+    padding-top: 3%;
 }
 
 .middleSectionRow1Column1 {
@@ -175,7 +178,7 @@ li {
 
 .middleSectionRow3 {
     width: 99%;
-    padding: 5%;
+
     margin: auto;
 }
 
