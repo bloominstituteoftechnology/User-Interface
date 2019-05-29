@@ -73,10 +73,18 @@ body {
 }
 
 nav {
-	margin: 10px;
+	display: inline-block;
+	margin: 25px;
 	align-content: center;
-	border: 3px solid red;
+	position: relative;
+	column-count: 2;
+
 }
+
+img.logo{
+	float:right;
+}
+
 header {
 	display: inline-block;
 	column-count:2;
