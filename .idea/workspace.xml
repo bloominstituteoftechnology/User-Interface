@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ea605c-5145-4c2d-add7-3ef6e387010f" name="Default Changelist" comment="" />
+    <list default="true" id="61ea605c-5145-4c2d-add7-3ef6e387010f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,10 +20,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5718062">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea-website/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1608">
+                <state relative-caret-position="89">
                   <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
                   <folding>
                     <element signature="n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -32,7 +34,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -54,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea-website/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+                <state relative-caret-position="854">
+                  <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -85,9 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="761" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="70" />
+    <option name="y" value="41" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -163,11 +165,15 @@
       <updated>1559074117683</updated>
       <workItem from="1559074119608" duration="12933000" />
       <workItem from="1559090161709" duration="1982000" />
+      <workItem from="1559157557213" duration="70000" />
+      <workItem from="1559158428789" duration="41000" />
+      <workItem from="1559158545175" duration="288000" />
+      <workItem from="1559164521765" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14915000" />
+    <option name="totallyTimeSpent" value="15327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,9 +185,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="56" y="33" width="1400" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.27732942" />
       <window_info id="Structure" order="1" sideWeight="0.50147057" side_tool="true" weight="0.24983476" />
       <window_info id="Favorites" order="2" sideWeight="0.50147057" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,7 +199,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35782748" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -206,7 +212,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/great-idea-website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
+        <state relative-caret-position="89">
           <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
           <folding>
             <element signature="n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -224,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/great-idea-website/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        <state relative-caret-position="854">
+          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
         </state>
       </provider>
     </entry>
