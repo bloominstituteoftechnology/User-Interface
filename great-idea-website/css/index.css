@@ -131,6 +131,11 @@ li {
     float: right;
 }
 
+.middleSection {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin: auto;
+}
 
 .middleSectionRow1 {
     width: 99%;
@@ -167,22 +172,30 @@ li {
 
 .middleSectionRow3 {
     width: 99%;
-    display: inline;
+    padding: 5%;
+    margin: auto;
 }
 
 .middleSectionRow3Column1 {
     width: 25%;
-    display: inline;
-    float: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .middleSectionRow3Column2 {
     width: 25%;
-    display: inline;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middleSectionRow3Column3 {
     width: 25%;
-    display: inline;
-    float: right;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
