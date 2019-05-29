@@ -85,23 +85,6 @@ li {
     padding: 5%;
 }
 
-.copyright {
-    text-align: center;
-    color: gray;
-    padding-top: 100px;
-}
-
-.lastSection {
-    margin-top: 5%;
-    width: 80%
-    margin-left: 20%;
-}
-
-.contactColumn {
-
-
-}
-
 
 .firstRow {
     width: 95%;
@@ -120,7 +103,6 @@ li {
     float: right;
 }
 
-
 .imageRow {
     width: 95%;
     display: inline-block;
@@ -136,6 +118,7 @@ li {
 .imageRowColumn2 {
     width: 30%;
 }
+
 .innovationOnDemand {
     font-weight: bold;
     font-style: italic;
@@ -184,6 +167,7 @@ li {
     width: 99%;
     margin: auto;
 }
+
 .middle-img {
     width: 90%;
     display: block;
@@ -192,7 +176,6 @@ li {
     margin-left: 5%;
     margin-right: auto;
 }
-
 
 .middleSectionRow3 {
     width: 89%;
@@ -221,7 +204,17 @@ li {
     margin-left: auto;
     margin-right: auto;
 
-
-
-
 }
+
+.lastSection {
+    margin-top: 5%;
+    width: 80%
+    margin-left: 20%;
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+
