@@ -208,8 +208,13 @@ li {
 
 .lastSection {
     margin-top: 5%;
-    width: 80%
+    width: 99%
     margin-left: 20%;
+}
+
+.contactColumn {
+    width: 25%;
+    margin-left: 5%;
 }
 
 .copyright {
