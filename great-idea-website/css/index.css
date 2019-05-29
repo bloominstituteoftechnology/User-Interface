@@ -84,9 +84,12 @@ body{
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Nav
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 header nav{
 	display: inline-block;
 	background: lightblue;
+	width: 100%;
+	max-width: 800px;
 	border: 2px solid black;
 	border-radius: 50px;
 	position: fixed;
@@ -98,9 +101,10 @@ header nav{
 }
 
 header nav a{
+	width:12%;
 	text-decoration: none;
 	color: grey;
-	padding: 0 20px;
+	padding: 0 1vw;
 }
 header nav a:hover{
 	animation-duration: 0.3s;
@@ -116,21 +120,33 @@ header nav a:hover{
 	}
 }
 
+
 .nav-logo, .nav-logo a{
-	width: 220px;
+	width: 24%;
 	height:40px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .nav-logo a{
+	width: 100%;
 	background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .logo{
 	margin: 0 30px;
 }
+
+@media (max-width:600px) {
+	header nav a{
+	  font-size: 14px;
+	}
+	.nav-logo{
+		padding-top:8px;
+	}
+  }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Header
@@ -139,12 +155,13 @@ header{
 	margin-top: 50px;
 }
 .hero{
-	width:800px;
+	width:100%;
+	max-width:800px;
 	height:300px;
 }
 .tagline{
 	display: inline-block;
-	width:400px;
+	width:48%;
 	height:300px;
 	text-align: center;
 	padding-top: 50px;
@@ -175,12 +192,12 @@ header{
 
 .hero-img{
 	display: inline-block;
-	width:350px;
+	width:48%;
 	height:300px;
 
 	background-image: url("../img/header-img.png");
 	background-repeat: no-repeat;
-	background-size: 299px 299px;
+	background-size: contain;
 	background-position: center; 
 	
 }
@@ -210,13 +227,14 @@ main h3{
 
 }
 .banner{
-	width:800px;
-	height: 182px;
+	width:100%;
+	height: 180px;
 	background-image: url("../img/mid-page-accent.jpg");
 	background-repeat: no-repeat;
-	background-size: 800px 182px;
+	background-size: contain;
 	margin: 10px 0;
 }
+
 
 .bottom-left, .bottom-right, .bottom-middle{
 	display: inline-block;
