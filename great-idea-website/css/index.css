@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* https://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 50px;
+}
+
+nav {
+	padding: 10px 0;
+	height:  50px;
+	display: inline-block;
+	margin: 5px 0 100px 0;
+}
+
+.navers a {
+	color: lightgray;
+	text-decoration: none;
+	margin-right: 70px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+header {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+}
+
+.innovation {
+	display: inline-block;
+	text-align: center;
+	padding: 0 60px;
+	margin-bottom: 30px;
+	
+}
+
+.innovation h1 {
+	font-size: 450%;
+}
+
+#get-started {
+	font-size: 125%;
+	padding: 5px 20px 5px 20px;
+	border: 1px solid black;
+}
+
+.imgr {
+	height: 500px;
+	display: inline-block;
+	text-align: center;
+	padding: 0 60px;
+	size: 75%;
+	position: relative;
+	
+}
+
+.top-content {
+	display: inline-block;
+	margin-bottom: 40px;
+	
+}
+
+.features {
+	display: inline-block;
+	width: 400px;
+	margin-right: 30px;
+}
+
+.about {
+	display: inline-block;
+	width: 400px;
+}
+
+.middle-img {
+	margin-bottom: 40px;
+}
+
+.bottom-content {
+	display: inline-block;
+	margin-bottom: 40px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.services {
+	display: inline-block;
+	width: 300px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.product {
+	display: inline-block;
+	width: 300px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.vision {
+	display: inline-block;
+	width: 300px;
+
+}
+
+address p {
+	padding-bottom: 4px;
+}
+
+footer {
+	text-align: center;
+	padding: 70px 50px;
+}
