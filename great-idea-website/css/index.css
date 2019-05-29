@@ -136,7 +136,7 @@ li {
 
 
 .codePicture {
-    width: 40%;
+    width: 30%;
     display: inline-block;
     float: right;
 }
@@ -183,16 +183,14 @@ li {
 
 
 .middleSectionRow3 {
-    width: 99%;
-    padding-left: 5%;
+    width: 85%;
     margin: auto;
 }
 
 .middleSectionRow3Column1 {
     width: 25%;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 12%;
 
 }
 
@@ -200,7 +198,8 @@ li {
     width: 25%;
     display: inline-block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 12%;
+
 
 }
 
@@ -209,6 +208,8 @@ li {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+
+
 
 
 }
