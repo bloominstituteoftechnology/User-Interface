@@ -80,7 +80,6 @@ header {
   color: grey;
 }
 .navBar img {
-  /* padding-top: 20px; */
   height: 100%;
   vertical-align: middle;
 }
@@ -104,7 +103,11 @@ h1 {
   vertical-align: middle;
 }
 button {
-  width: 130px;
+  width: 120px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: white;
 }
 
 /* ============================
