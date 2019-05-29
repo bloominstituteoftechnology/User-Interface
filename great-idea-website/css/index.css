@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
+body {
+    width: 90%;
+    margin: auto;
+}
 
 ul {
     list-style-type: none;
