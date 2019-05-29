@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Nav
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header nav{
+	display: inline-block;
+	background: lightblue;
+	position: fixed;
+	top:0;
+	z-index: 100;
+}
+.nav-links{
+	display: inline-block;
+}
+
+header nav a{
+	text-decoration: none;
+	color: grey;
+	padding: 0 20px;
+}
+header nav a:hover{
+	animation-duration: 0.3s;
+	  animation-name: fadein;
+	  animation-fill-mode: forwards;
+}
+@keyframes fadein{
+	from{
+		color: grey;
+	}
+	to{
+		color: white;
+	}
+}
+
+.nav-logo, .nav-logo a{
+	width: 220px;
+	height:40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-logo a{
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+
+.logo{
+	margin: 0 30px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header{
+	margin-top: 50px;
+}
+.hero{
+	width:800px;
+	height:300px;
+}
+.tagline{
+	display: inline-block;
+	width:400px;
+	height:300px;
+	text-align: center;
+	padding-top: 50px;
+	vertical-align: top;
+}
+
+.tagline h1{
+	font-size:60px;
+	text-align: center;
+}
+
+.tagline a{
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 2px 20px;
+	color: black;
+}
+
+.hero-img{
+	display: inline-block;
+	width:350px;
+	height:300px;
+
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+	background-size: 299px 299px;
+	background-position: center; 
+	
+}
+/*.hero-img img{
+	height: 375px;
+	width:100%;
+	padding: 50px;
+}*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Main
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main h3{
+	font-family: 'Ranga';
+	font-size: 20px;
+}
+.top-left, .top-right{
+	display: inline-block;
+	width: 45%;
+	margin-bottom: 20px;
+}
+.top-left{
+	margin-right: 20px;
+}
+.top-right{
+	margin-left: 20px;
+
+}
+.banner{
+	width:800px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px 182px;
+}
+
+.bottom-left, .bottom-right, .bottom-middle{
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 10px;
+}
+.bottom-middle{
+	margin: 20px;
+}
+
+.contact p{
+	line-height: 30px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer{
+	margin: 20px 0;
+	text-align: center;
+	font-size: 12px;
+}
