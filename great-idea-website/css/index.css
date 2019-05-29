@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+ nav {
+	color:grey;
+	display:flex;
+	justify-content: space-betwween;
+	padding-bottom:80px;
+	padding-top:45px;
+}
+ul li {
+	display:inline-block;
+	padding:0px 30px;
+}
+
+.logo {
+	margin-left:70px;
+
+}
+ 	
+#Motto {
+	display:flex;
+	position:relative;
+	width:100%;
+	padding-bottom:65px;
+}
+
+
+#Motto h1 {
+	font-size:72px;
+	text-align: center;
+	padding-top:50px;
+}
+
+#Motto button{
+	display:block;
+	position:relative;
+	padding: 10px 30px;
+	background-color:white;
+	border: 1px solid;
+	margin: auto;
+} 
+
+.Col-1{
+	width:49%;
+}
+#Features {
+	float:left;
+	width: 50%;
+
+}
+
+#About {
+	float: right;
+	width: 50%;
+}
+
+	.middle-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding: 50px;
+	}
+
+	#Services {
+		
+		width:33%;
+		display: inline-block;
+		padding-right:10px;
+		padding-bottom:40px;
+	}
+
+	#Product {
+		display: inline-block;
+		width:33%;
+		padding-right:10px;
+		padding-bottom:40px;
+	}
+
+	#Vision {
+		display: inline-block;
+		width:33%;
+	}
+
+	#Contact {
+		width:20%;
+		margin-top:25px;		
+	}
+
+	hr {
+		border:0.5px solid black;
+	}
+
+	footer{
+		padding: 20px 0px 50px 0px;
+		
+	}
+
+	span.Copy { 
+		text-align:center;
+		font-size: 14px; 
+		padding-top:50px;
+		display:block;
+		
+	}
+
+	
