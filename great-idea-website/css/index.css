@@ -65,7 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
 
+	max-width: 1000px;
+	margin: auto;
+}
 nav a{
 	display: inline-block;
 	color: lightgray;
@@ -84,4 +88,31 @@ width: 400px;
 font-size: 96px;
 text-align: center;
 padding: 40px;
+}
+button{
+	font-size: 20px;
+}
+.header-img{
+	padding: 50px;
+	margin-left: 40px;
+}
+.top-content div{
+	display:inline-block;
+	width: 400px;
+	padding: 20px;
+	margin-right: 40px;
+}
+.middle-img{
+	padding: 20px;
+}
+.bottom-content div{
+	display:inline-block;
+	width: 275px;
+	padding 20px;
+	margin: 20px;
+}
+footer{
+	width: 1000;
+	margin: auto;
+	text-align: center;
 }
