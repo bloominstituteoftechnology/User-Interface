@@ -150,3 +150,16 @@ li {
     float: right;
     padding-right: 5%;
 }
+
+.middleSectionRow2 {
+    width: 99%;
+    margin: auto;
+}
+.middle-img {
+    width: 80%;
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
