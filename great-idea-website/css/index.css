@@ -85,6 +85,11 @@ li {
     padding: 5%;
 }
 
+footer {
+    text-align: center;
+    color: gray;
+}
+
 
 .firstRow {
     width: 95%;
