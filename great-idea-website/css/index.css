@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 1050px;
+}
+nav{
+	display: inline-block;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	width:100%;
+
+}
+.logo{
+	display: inline-block;
+}
+a{
+	margin: 10px 10px;
+	padding: 20px 30px 20px 0px;
+	text-decoration:none;
+	color: gray;
+}
+h1{ 
+	font-size: 520%;
+	padding: 30px 30px 40px 30px;
+	border: 20px 20px 20px 30px;
+}
+button{
+	margin: 5px;
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	background: white;
+	
+}
+section{
+	margin: 10px;
+	vertical-align: top;
+	padding: 10px;
+	border: 10px;
+	display: inline-block;
+}
+.top{
+	text-align: center;
+}
+.image{
+	margin: 10px 20px 10px 20px;
+	padding: 10px 20px 10px 20px;
+	border: 10px;
+	display: inline-block;
+}
+main{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin: 20px;
+	padding: 5px;
+}
+.middle-top{
+	margin: 10px;
+	padding: 20px;
+}
+h4{
+	display:inline-block;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	padding: 10px;
+}
+.middle-top-left {
+	display:inline-block;
+	width: 430px;
+	height: 120px;
+}
+.middle-top-right {
+	display: inline-block;
+	width: 430px;
+	height: 120px;
+}
+
+.middle-bottom-right {
+	display: inline-block;
+	width: 250px;
+	height: 170px;
+}
+.middle-bottom {
+	display: inline-block;
+	width: 250px;
+	height: 170px;
+}
+.middle-bottom-left {
+	display: inline-block;
+	width: 250px;
+	height: 170px;
+}
+
+footer{
+	text-align: left;
+	margin: 5px;
+	border: 10px;
+	padding: 10px;
+}
+address{
+	margin: 5px;
+	padding: 10px;
+}
+.foot{
+	margin: 5px;
+	padding: 10px;
+}
+.copy{
+	text-align: center;
+	margin: 5px;
+	border: 10px;
+	padding: 10px;
+}
