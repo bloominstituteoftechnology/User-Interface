@@ -163,3 +163,26 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.middleSectionRow3 {
+    width: 99%;
+    display: inline;
+}
+
+.middleSectionRow3Column1 {
+    width: 25%;
+    display: inline;
+    float: left;
+}
+
+.middleSectionRow3Column2 {
+    width: 25%;
+    display: inline;
+}
+
+.middleSectionRow3Column3 {
+    width: 25%;
+    display: inline;
+    float: right;
+}
