@@ -54,13 +54,13 @@ table {
 
 html, body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Noto Sans HK', sans-serif;
 	width: 600px;
 	margin: 20px auto;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Noto Sans HK', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -69,6 +69,12 @@ h1, h2, h3, h4, h5 {
 body nav {
 	display: inline-block;
 	height: 50px;
+	background-color:#AED6F1;
+	text-align: center;
+	padding-top: 10px;
+	position: fixed;
+	margin-bottom: 100px; 
+
 }
 
 .navigation-bar img {
@@ -77,6 +83,7 @@ body nav {
 	height: auto;
 	float: right;
 	vertical-align: middle;
+	padding-top: 0;
 }
 
 body nav a {
@@ -85,6 +92,7 @@ body nav a {
 	font-size: 11px;
 	text-decoration: none;
 	vertical-align: middle;
+	color: black;
 }
 
 .last-item{
@@ -136,7 +144,7 @@ header button {
     text-decoration: none;
     color: #566573;
 	background: transparent;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Noto Sans HK', sans-serif;
 	display: inline-block;
 	margin-left: 70px;
 	margin-bottom: 10px;
@@ -185,7 +193,7 @@ h2 {
 }
 
 address {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Noto Sans HK', sans-serif;
 	font-size: 12px;
 }
 
