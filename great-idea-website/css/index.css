@@ -85,9 +85,10 @@ li {
     padding: 5%;
 }
 
-footer {
+.copyright {
     text-align: center;
     color: gray;
+    padding-top: 100px;
 }
 
 
