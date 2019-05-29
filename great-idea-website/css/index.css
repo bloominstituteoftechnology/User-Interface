@@ -173,18 +173,18 @@ li {
     margin: auto;
 }
 .middle-img {
-    width: 80%;
+    width: 90%;
     display: block;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
 }
 
 
 .middleSectionRow3 {
     width: 99%;
-
+    padding-left: 5%;
     margin: auto;
 }
 
@@ -201,6 +201,7 @@ li {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .middleSectionRow3Column3 {
