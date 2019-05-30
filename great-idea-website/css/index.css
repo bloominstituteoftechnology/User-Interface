@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	margin-left: 20px;
+	margin-top: 20px;
+	color: lightgray;
+}
+section div{
+	display: inline-block
+}
+.logo{
+	margin-left: 60px;
+	display: inline-block;
+}
+.toplinks{
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: inline-block;
+}
+h1{
+	display: inline-block;
+	width: 340px;
+	height: 340px;
+	padding: 15px;
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-right: 120px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.iodheader{
+	font-size: 500%;
+	margin-bottom: 25px;
+}
+.gsbutton{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 110%;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	width: 180px;
+	height: 40px;
+	padding: 5px;
+}
+.hackertext{
+	display: inline-block;
+	margin-top: 80px;
+}
+button{
+	display: inline-block;
+    margin-left:
+}
+.toprow{
+	height: 150px;
+	width: 400px;
+	padding: 10px;
+}
+.bottomrow{
+	height: 150px;
+	width: 280px;
+	padding: 5px;
+}
+.top-content{
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.bottom-content{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.middle-img{
+	margin-left: 80px;
+}
+.contact{
+	height: 200px;
+	width: 150px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
