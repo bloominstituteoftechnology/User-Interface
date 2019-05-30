@@ -94,22 +94,22 @@ nav .logo{
 
 }
 header{
-
+	display: inline-block;
 }
 
 header h1{
 	border:3px solid blue;
 	text-align:center;
-	font-size:75px;
-	width:200px;
-
-
-
+	font-size:85px;
+	width:250px;
+	padding-bottom:50px;
+	padding-left:100px;
 }
 .middleimage{
 	display:inline-block;
 	border:3px solid red;
 	text-align: right;
 	padding-top:50px;
+	padding-left:350px;
 
 }
