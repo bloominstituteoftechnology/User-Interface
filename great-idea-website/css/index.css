@@ -54,11 +54,12 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Abril Fatface', cursive;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Abril Fatface', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -68,6 +69,10 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 50px auto; 
 } 
+
+h3 {
+	font-size: 20px;
+}
 
 header nav  {
 	display: inline-block;
@@ -84,6 +89,10 @@ header nav a{
 	color: gainsboro;
 }
 
+header nav a:hover{
+	color: black;
+}
+
 header img {
 	margin-left: 100px;
 
@@ -91,13 +100,16 @@ header img {
 
 .hero div   {
 	display: inline-block;
-	font-size: 75px;
+	font-size: 61px;
 }
 
 .hero-h1 {
 	margin-left: 100px;
 	margin-right: 100px;
 	text-align: center;
+	position: relative;
+	top: -50px;
+	bottom: 50px;
 }
 
 .hero .hero-img  {
@@ -110,6 +122,10 @@ header img {
 	border: 1px solid black;
 	background: white;
 	font-size: 15px;
+}
+
+.hero-btn:focus {
+	outline: none;
 }
 
 hr {
@@ -127,7 +143,7 @@ hr {
 
 .about .about-p {
 	margin-bottom:  35px;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .about .x3{
