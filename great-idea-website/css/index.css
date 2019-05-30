@@ -72,8 +72,16 @@ body{
 }
 
 .headerClass{
-	display: float;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
 }
 
+.button{
+	display:flex;
+	flex-wrap: nowrap;
+}
 
-
+.button a{
+	margin: 20px;
+}
