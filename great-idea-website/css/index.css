@@ -88,28 +88,49 @@ width: 400px;
 font-size: 96px;
 text-align: center;
 padding: 40px;
+
 }
 button{
-	font-size: 20px;
+	background-color: white;
+	border: 1px solid black;
+	width: 200px;
+	font-size: 18px;
+}
+button:hover{
+	background-color: lightgray;
+	
 }
 .header-img{
 	padding: 50px;
 	margin-left: 40px;
 }
+hr{
+	border: 0px;
+	height: 1px;
+	width: 900px;
+	background-color: black;
+}
 .top-content div{
 	display:inline-block;
-	width: 400px;
-	padding: 20px;
-	margin-right: 40px;
+	width: 425px;
+	padding: 30px;
+	margin-left: 25px;
+	
 }
 .middle-img{
-	padding: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
 }
 .bottom-content div{
 	display:inline-block;
 	width: 275px;
-	padding 20px;
+	padding: 30px;
 	margin: 20px;
+}
+.contact{
+	margin: 50px;
 }
 footer{
 	width: 1000;
