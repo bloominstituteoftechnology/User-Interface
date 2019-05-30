@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	padding: 0 5rem 0;
+	max-width: 70rem;
+	margin: 0 auto;
+}
+/* HEADER */
+header {
+	margin: 0;
+	height: 5rem;
+}
+.logo {
+	float: right;
+	margin: 2rem 1rem 0 0;
+}
+header nav {
+	padding: 2rem;
+	margin-left: 2rem;
+}
+header nav a {
+	text-decoration: none;
+	color: rgb(185, 185, 185);
+	margin-right: 3rem;	
+}
+a:hover {
+	color: #000;
+	transition: .5s ease;
+}
+
+/* SECTION ONE */
+#section-one {
+	width: 90%;
+	margin: 8rem 0;
+	padding: 0 3rem 0 3rem;
+	text-align: center;
+}
+#section-one img {
+	width: 20rem;
+	float: right;
+}
+.first-header {
+	font-size: 5rem;
+}
+.get-started-btn {
+	width: 9rem;
+	height: 2rem;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #000;
+	font-size: 1rem;
+	font-weight: lighter;
+}
+.get-started-btn:hover {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	transition: .5s ease;
+}
+hr {
+	width: 100%;
+}
+
+/* SECTION TWO */
+#section-two {
+	margin: 0 auto;
+	padding: 2rem 0 2rem 0;
+}
+
+.s-two-container {
+	margin: 0 1rem;
+	width: 15rem;
+	display: inline-block;
+	text-align: left;
+}
+.part-two-tst {
+	width: 20rem;
+}
+
+/* MIDDLE IMG */
+.middle-img {
+	max-width: 100%;
+	margin: 2rem 0 2rem 0;
+}
+
+/* FOOTER */
+footer {
+	padding: 2rem 0 8rem 4rem;
+}
+.contact-item {
+	margin: 1rem 0 1rem 0;
+}
+.cp-right {
+	text-align: center;
+	font-size: .8rem;
+}
