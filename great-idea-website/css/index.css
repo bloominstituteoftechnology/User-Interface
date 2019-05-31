@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5
+}
+
 /* Your code starts here! */
 .container {
 	width: 900px;
@@ -77,6 +82,14 @@ h1, h2, h3, h4, h5 {
 	top: 10px;
 }
 
+#headerdiv {
+	background: #C0C0C0;
+	width: 900px;
+	margin: auto;
+	height: 80px;
+	z-index: 1;
+}
+
 header nav {
 	display: inline-block;
 	margin-top: 35px;
@@ -85,16 +98,25 @@ header nav {
 header nav a {
 	margin: 20px;
 	text-decoration: none;
-	color: lightgray;
+	color: black;
 	transition-property: background transform;
 	transition-duration: .3s;
 }
 
 header nav a:hover {
-	color: black;
 	transform: scale(2);
 	border-bottom: 1px solid black;
 
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .main-content {
+	padding-top: 60px;
 }
 
 /* TITLE */
@@ -102,6 +124,7 @@ header nav a:hover {
 .cta {
 	display: inline-block;
 	text-align: center;
+	margin-top: 50px;
 }
 
 .cta h1 {
