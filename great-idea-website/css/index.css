@@ -64,3 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	margin-left: 30px;
+	color:gray;
+}
+
+.firstDiv {
+	display:inline-block;
+}
