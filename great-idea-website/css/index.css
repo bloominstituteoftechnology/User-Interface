@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.headerClass{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.button{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+.button a{
+	margin: 0 30px 0 0;
+}
+
+.logo{
+	object-fit: none;
+	padding: 15px;
+	margin: 15px;
+}
+
+.sectionOne{
+	display:flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+/* .colummflex{
+	display:flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+
+.pictureFlex{
+	display: flex;
+	justify-content: flex-end;
+} */
+
+.contentDiv{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+}
+
+.contentDiv article{
+	margin: 10px;
+	/* padding: 15px; */
+}
+.parent{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+/* .atricleOne{
+	display:flex;
+	flex-flow: column;
+} */
+
+.parent{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.parentTwo{
+	display: flex;
+	flex-flow: row nowrap;
+}
+ .middle-img{
+	 width: 100%;
+	 height: 182px;
+ }
+
+ /* adress{
+	 display: flex;
+	 align-items: space-around;
+ } */
+
+ footer{
+	 display:flex;
+	 justify-content: center;
+	 align-content: center;
+	 margin: 20px 0;
+ }
