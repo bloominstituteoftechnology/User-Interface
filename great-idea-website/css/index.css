@@ -74,8 +74,9 @@ nav {
 	width: 100%;
 	display: inline-block;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 25px;
 	word-spacing: 48px;
+	height: 20px;
 }
 
 a {
@@ -99,23 +100,25 @@ header {
 	float: left;
 	width:50%;
 	overflow:hidden;
-	padding-top: 60px;
+	padding-top: 45px;
 }
 
 .header-text h1 {
-	font-size: 75px;
+	font-size: 78px;
 	text-align: center;
-	line-height: 0.85;
-	padding-left: 52px;
-	letter-spacing: 4px;
+	line-height: 0.35;
+	padding-left: 50px;
+	padding-top: 33px;
+	letter-spacing: 3px;
 }
 
 .header-text button {
-	font-size: 15px;
-	width: 30%;
-	margin-left: 35%;
-	margin-right: 35%;
-	overflow:hidden;
+	font-size: 17px;
+	color: grey;
+	width: 173px;
+	height: 33px;
+	margin-top: 30px;
+	margin-left: 160px;
 }
 
 .header-img {
@@ -123,7 +126,7 @@ header {
 	width:50%;
 	overflow:hidden;
 	padding-bottom: 30px;
-	padding-left: 58px;
+	padding-left: 55px;
 }
 
 
