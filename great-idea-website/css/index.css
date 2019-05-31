@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+/* Navigation */
+nav {
+	width: 100%;
+}
+/* Header */
+
+.header-text {
+	float: left;
+	width:50%;
+	overflow:hidden;
+	padding-top: 60px;
+}
+
+.header-text h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.header-text button {
+	font-size: 15px;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	overflow:hidden;
+}
+
+.header-img {
+	align: right;
+	width:50%;
+	overflow:hidden;
+	padding-bottom: 30px;
+}
+
+
+/* Handles Features and About Section */
+
+.section-top-a {
+	float:left;
+	width:50%;
+	overflow:hidden;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.section-top-b {
+	float:left;
+	width:50%;
+	overflow:hidden;
+	padding-left: 10px;
+}
+
+.top-content h3 {
+	text-align: left;
+	padding-top: 30px;
+	font-weight: 550;
+}
+
+.top-content p {
+	text-align: left;
+	line-height: 1.25;
+	padding-bottom: 25px;
+	font-weight: 550;
+}
+
+/* Handles Middle Img */
+
+.middle-img {
+	float:left;
+	width: 100%;
+	overflow:hidden;
+	padding: 10px;
+}
+
+/* Handles Services, Product, and Vision section */
+
+.section-bot-a {
+	float:left;
+	width: 33.33%;
+	width: calc(100% / 3);
+	overflow:hidden;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.section-bot-b {
+	float:left;
+	width: 33.33%;
+	width: calc(100% / 3);
+	overflow:hidden;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.section-bot-c {
+	float:left;
+	width: 33.33%;
+	width: calc(100% / 3);
+	overflow:hidden;
+	padding-left: 10px;
+}
+
+.bottom-content h3 {
+	text-align: left;
+	padding-top: 25px;
+	font-weight: 550;
+}
+
+.bottom-content p {
+	text-align: left;
+	line-height: 1.25;
+	padding-bottom: 30px;
+	font-weight: 550;
+}
+
+/* Black line above top section and below bottom section */
+
+hr.line1 {
+  border-top: 1px solid black;
+}
+
+/* Contact and Address section */
+
+.contact h3 {
+	padding-top: 25px;
+}
+
+/* Footer Copyright */
+
+footer p {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
