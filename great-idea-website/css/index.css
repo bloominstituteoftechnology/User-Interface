@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 10px 10px 10px 10px;
+}
+
+header {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+}
+
+main {
+	margin-left: 80px;
+}
+
+header nav {
+	display: inline-block;
+	margin: 20px 10px 20px 8px;
+	vertical-align: top;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 60px; 
+	color: gray;
+	font-size: 14px;
+	height: 10px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 18px 10px 10px 82px;
+}
+
+
+.txt-left {
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	font-size: 76px;
+	font-style: bold;
+	margin: 100px 10px 10px 30px;
+	text-align: center;
+	height: 235px;
+	width: 400px;
+	vertical-align: top;
+}
+
+.start-button {
+	background-color: white;
+	border: 1px solid black;
+	margin: 1px 674px 1px 135px;
+	padding: 10px;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+
+.snippet {
+	display: inline;
+	margin: 45px 20px 10px 30px;
+}
+
+hr {
+	border-top: 1px solid black;
+	margin-top: 28px;
+	margin-left: 80px;
+	margin-right: 80px;
+	display: block;
+}
+
+
+.features {
+	display: inline-block;
+	margin-top: 14px;
+	width: 450px;
+}
+
+.about {
+	display: inline-block;
+	margin-top: 14px; 
+	width: 450px;
+}
+
+.middle-img {
+	display: block;
+	margin: 45px 30px 40px 0px;
+
+}
+
+.services {
+	display: inline-block;
+	margin-top: 14px;
+	width: 280px;
+}
+
+.product {
+	display: inline-block;
+	margin-top: 14px;
+	width: 280px;
+}
+
+.vision {
+	display: inline-block;
+	margin-top: 14px;
+	width: 280px;
+}
+
+.contact {
+	margin: 53px 10px 40px 0px;
+	width: 140px;
+	left: 10px;
+}
+
+footer {
+	text-align: center;
+}
