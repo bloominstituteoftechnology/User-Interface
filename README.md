@@ -6,7 +6,7 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 **Lambda Life Tip:** Use the code from your instructor's demonstration to help you tackle the objectives.
 
-## To Get Started
+To Get Started
 
 * Fork / Clone this project into a directory on your machine.
 
