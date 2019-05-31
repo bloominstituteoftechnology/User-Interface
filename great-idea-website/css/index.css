@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+/* HEADER */
+.logo {
+	display: inline-block;
+	margin-left: 140px;
+	position: relative;
+	top: 10px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: lightgray;
+	transition-property: background transform;
+	transition-duration: .3s;
+}
+
+header nav a:hover {
+	color: black;
+	transform: scale(2);
+	border-bottom: 1px solid black;
+
+}
+
+/* TITLE */
+
+.cta {
+	display: inline-block;
+	text-align: center;
+}
+
+.cta h1 {
+	font-size: 60px;
+	margin-right: 450px;
+	margin-top: 130px;
+}
+
+.cta button {
+	margin-right: 450px;
+	padding: 5px 40px;
+	background-color: transparent;
+	border-radius: 10px;
+	transition-property: background transform;
+	transition-duration: .2s;
+}
+
+.cta button:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.1);
+}
+
+.cta-img {
+	height: 320px;
+	width: 320px;
+	margin-left: 300px;
+	position: relative;
+	bottom: 280px;
+}
+
+.cta hr {
+	position: relative;
+    bottom: 210px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+	white-space: nowrap;
+	width: 100%;
+	position: relative;
+    bottom: 160px;
+}
+
+.first {
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+.middle-img {
+	display: block;
+}
+
+.second {
+	width: 100%;
+	white-space: normal;
+	margin-bottom: 40px;
+}
+
+.second-div {
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
+/* CONTACT */
+.contact {
+	position: relative;
+    bottom: 150px;
+}
+.contact h2 {
+	margin-top: 40px;
+}
+.contact p {
+	margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+}
+
+
+
