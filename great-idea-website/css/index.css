@@ -64,3 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo { 
+	border: 5px solid red;
+	
+	margin: 10px 50px 300px 10px;
+	box-sizing: border-box;
+	vertical-align: left;
+}
