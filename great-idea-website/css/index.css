@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+* {
+	vertical-align: top;
+}
 nav {
 	display: inline;
 	margin: 0 auto;
@@ -85,6 +88,7 @@ a {
 	margin-left: 100px;
 }
 .start {
+	background-color: white;
 	display: inline-block;
 	font-size: 18px;
 	align: left;
