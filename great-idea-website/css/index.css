@@ -85,13 +85,16 @@ font-size: 100px;
 font-size: 100px;	
 height: 40px;
 width: 170px; 
-margin-bottom: 170px;
+margin-top: 80px ;
+margin-bottom: 200px;
+margin-left: 280px;
 box-sizing: border-box;
 }
 
 .get-started-button {
 margin-top: 80px;
 margin-bottom: 70px;
+margin-left: 350px;
 border: solid 1px;
 background: transparent;
 width: 120px;
@@ -110,7 +113,10 @@ text-decoration: none;
 color: rgb(82, 79, 79);
 }
 
-
+.line1 {
+margin-top: 50px;
+margin-bottom: 30PX;
+}
 .section1{
 display: inline-block;
 margin: 5px;
@@ -150,16 +156,19 @@ div.ex1{
 width:30%;
 height: 30px ;
 display:inline-block;
-margin: 0;
+margin: 50;
 padding: 0;
+font-size: 25px;
 }
 	
 div.ex2{
 width:30%;
 height:200px;
 display:inline-block;
-margin: 0;
+margin: 50;
 padding: 0;
+font-size: 25px;
+
 }
 	
 	
@@ -167,8 +176,10 @@ div.ex3{
 width:30%;
 height:200px;
 display:inline-block;
-margin: 0;
+margin: 50;
 padding: 0;
+font-size: 25px;
+
 }
 
 .address-box {
