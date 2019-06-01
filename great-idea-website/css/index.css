@@ -160,3 +160,45 @@ section .section-text p{
 .br-1{
 margin: 134px 0 0 0;
 }
+
+/* content section */
+.features{
+	margin: 40px 0 0 0;
+	width: 49%;
+	display: inline-block;
+}
+
+.about{
+	margin: 40px 0 0 0;
+	width: 48%;
+	display: inline-block;
+}
+
+.middle-img{
+	margin: 45px 0 0 0;
+}
+.services{
+	margin: 38px 0 0 0 ;
+	width:32%;
+	display: inline-block;
+}
+.product{
+	margin: 38px 0 0 0 ;
+	width:32%;
+	display: inline-block;
+}
+
+.vision{
+	margin: 38px 0 0 0 ;
+	width:32%;
+	display: inline-block;
+}
+
+.phone{
+	padding: 10px 0
+}
+
+.copyright {
+text-align: center;
+margin-top: 70px;
+}
