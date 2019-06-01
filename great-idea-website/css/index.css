@@ -65,13 +65,12 @@ margin-bottom: 15px;
 
 /* Your code starts here! */
 .bar{
-	margin-left: 50px;
+margin-left: 50px;
 }
 
 .container{
 width: 1000px;
 margin:auto;
-border: 1px solid red;
 }
 
 header nav{
@@ -87,6 +86,7 @@ margin-top: 50px;
 color:lightgray;
 text-decoration: none;
 margin-left: 20px;
+padding:10px;
 
 }
 
@@ -124,60 +124,83 @@ margin-left: 50px;
 
 }
 
-button{
-	margin-left: 65px;
-	text-align: center;
-}
 
 .services{
-	display: inline-block;
-	width:75px;
-	margin-right: 100px;
+display: inline-block;
+width:75px;
+margin-right: 100px;
 }
 
 .features{
-	width: 200px;
-	display:inline-block;
-	float: left;
-	margin-right: 500px;
+width: 200px;
+display:inline-block;
+float: left;
+margin-right: 500px;
 }
 
 .about{
-	width: 200px;
-	display: inline-block;
-	float:right;
-	margin-left: 500px;
-	margin-top: -90px;
-	word-wrap: break-word;
+width: 200px;
+display: inline-block;
+float:right;
+margin-left: 500px;
+margin-top: -90px;
+word-wrap: break-word;
 }
 
 p{
-	width:400px;
+width:250px;
 }
 
+.FA p{
+
+width: 415px;
+}
 .myborder{
-	line-height: 2;
-	border: 1px solid black;
-	margin-top: 70px;
+line-height: 2;
+border: .5px solid black;
+margin-top: 70px;
 }
 
-.middle-img{
-	margin-top: 50px;
-}
+
 
 .SP{
-	display: inline-block;
-	margin-top:	25px;
+display: inline-block;
+margin-top:	25px;
 
 }
 
 .product{
-	display: inline-block;
-	width:75px;
+display: inline-block;
+width:75px;
+margin-left: 160px;
 }
 
 .vision{
-	display: inline-block;
-	width: 75px;
-	overflow-wrap:break-word;
+display: inline-block;
+width: 75px;
+margin-left: 280px;
+}
+
+.middle-img{
+width:999px;
+margin-top:50px;
+}
+
+.getstarted{
+margin-top: 35px;
+margin-left: 45px;
+margin-right: 122px;
+border: 1px solid gray;
+text-align: center;
+padding: 4px;
+font-family: times;
+color: gray;
+font-size: 13px;
+
+}
+
+.copyright{
+text-align: center;
+margin-top: 15px;
+margin-bottom: 75px;
 }
