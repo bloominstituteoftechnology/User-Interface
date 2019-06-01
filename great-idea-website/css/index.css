@@ -99,16 +99,13 @@ header nav {
 header nav a {
 	margin: 20px;
 	text-decoration: none;
-	color: black;
-	transition-property: background transform;
-	transition-duration: .3s;
+	color: black;	
 }
 
 header nav a:hover {
-	transform: scale(2);
 	border-bottom: 1px solid black;
-
 }
+
 
 .sticky {
 	position: fixed;
