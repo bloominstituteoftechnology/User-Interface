@@ -72,15 +72,26 @@ display: inline-block;
 
 .image-box {
 display: inline-block;
-margin-left: 250px;
+margin-left: 100px;
+padding: 10px;
 margin-bottom: 90px;
 border: none;
 width: 600px;
-height: 100px
+height: 100px;
+font-size: 100px;
+}
+
+.banner {
+font-size: 100px;	
+height: 40px;
+width: 170px; 
+margin-bottom: 170px;
+box-sizing: border-box;
 }
 
 .get-started-button {
 margin-top: 80px;
+margin-bottom: 70px;
 border: solid 1px;
 background: transparent;
 width: 120px;
@@ -99,52 +110,72 @@ text-decoration: none;
 color: rgb(82, 79, 79);
 }
 
-.banner {
-font-size: 40px;	
-height: 40px;
-margin-bottom: 170px;
-box-sizing: border-box;
-}
 
 .section1{
 display: inline-block;
-margin: 100px;
+margin: 5px;
 border: none;
-width: 70px;
-height: 100px
+width: 700px;
+height: 100px;
+box-sizing: border-box;
 }
 
 .section2 {
 display: inline-block;
 margin: 5px;
 border: none;
-width: 450px;
+width: 700px;
 height: 100px;
 box-sizing: border-box;
 font-size: 25px;
 }
 
 .middle-img {
-width: 90%;
-margin-left: 50px;
-margin-right: 50px;
+width: 100%;
+margin-bottom: 30px;
+margin-top: 30px;
 }
 
-.section3 .section-content{
+.section-prime {
 display: inline-block;
-margin-top: 1px;;
-margin: 30px;
-border: none;
-width: 400px;
+margin-top: 20px;;
+margin: 1px;
+border: 0;
+width: 350px;
 height: 90px;
+box-sizing: border-box;
+}
+
+div.ex1{
+width:30%;
+height: 30px ;
+display:inline-block;
+margin: 0;
+padding: 0;
+}
+	
+div.ex2{
+width:30%;
+height:200px;
+display:inline-block;
+margin: 0;
+padding: 0;
+}
+	
+	
+div.ex3{
+width:30%;
+height:200px;
+display:inline-block;
+margin: 0;
+padding: 0;
 }
 
 .address-box {
+box-sizing: border-box;
 display: inline-block;
-width: 100px;
+width: 90px;
 height: 100px;
-padding: 5px;
-border: 1px ;    
 background-color: transparent;
 }
 
@@ -156,6 +187,7 @@ margin-bottom: 50px;
 .phone-number {
 margin-top: 40px;
 margin-bottom: 40px;
+width: 200px;
 }
 
 .copyright {
