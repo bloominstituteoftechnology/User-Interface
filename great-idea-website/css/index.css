@@ -78,6 +78,7 @@ header {
 }
 
 main {
+	margin-right: 20px;
 	margin-left: 65px;
 }
 
@@ -139,7 +140,7 @@ header nav a {
 	margin-top: 63px;
 	margin-right: 80px;
 	display: block;
-	width: 875px;
+	width: 100%;
 }
 
 
@@ -218,7 +219,7 @@ h4 .vision {
 	margin-top: 30px;
 	margin-right: 50px;
 	display: block;
-	width: 875px;
+	width: 100%;
 }
 
 .contact {
