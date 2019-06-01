@@ -70,7 +70,7 @@ margin-top: 30px;
 display: inline-block;
 }
 
-.logo {
+img .logo {
 margin-left: 1240px;
 margin-bottom: auto;
 }
@@ -98,10 +98,11 @@ width: 700px;
 height: 100px;
 }
 
-.section3 {
+.section3 .section-content{
 display: inline-block;
-margin: 5px;
+margin-top: 
+margin: 30px;
 border: none;
-width: 600px;
-height: 100px;
+width: 400px;
+height: 90px;
 }
