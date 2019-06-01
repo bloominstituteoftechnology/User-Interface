@@ -109,6 +109,7 @@ h1{
 
 .logo {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .header-btn {
