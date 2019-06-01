@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,99 +16,168 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-
+.bar{
+	margin-left: 50px;
+}
 
 .container{
-	width: 800px;
-	margin:auto;
-	border: 1px solid red;
+width: 1000px;
+margin:auto;
+border: 1px solid red;
 }
 
 header nav{
-	display: inline-block;
+display: inline-block;
+margin-top: 30px;
 }
 
 header nav a{
-	/* add only value for left and right margins shorthand*/
+/* add only value for left and right margins shorthand*/
 
-	margin: 0 20px;
-	margin-top: 30px;
+margin: 0 10px;
+margin-top: 50px;
+color:lightgray;
+text-decoration: none;
+margin-left: 20px;
 
 }
 
 
 .logo{
-	float: right;
+float: right;
+margin-left: 125px;
 }
 
 .FA{
-	display: inline-block;
+display: inline-block;
+margin-top:	25px;
+
 }
 
 .IOD {
-	display: inline-block;
+display: inline-block;
 }
 
 h1{
-	display: inline-block;
-	line-height: 1;
-	font-size: 40px;
-	width: 300px;
-	margin-top: 95px;
-	margin-left: 75px;
+display: inline-block;
+line-height: 1;
+font-size: 55px;
+width: 300px;
+margin-top: 100px;
+margin-left: 120px;
+word-wrap: break-word;
 }
 .round{
-	display: inline-block;
-	width: 300px;
-	margin-top: 60px;
-	float: right;
+display: inline-block;
+width: 300px;
+margin-top: 60px;
+float: right;
+margin-left: 50px;
 
+}
+
+button{
+	margin-left: 65px;
+	text-align: center;
+}
+
+.services{
+	display: inline-block;
+	width:75px;
+	margin-right: 100px;
+}
+
+.features{
+	width: 200px;
+	display:inline-block;
+	float: left;
+	margin-right: 500px;
+}
+
+.about{
+	width: 200px;
+	display: inline-block;
+	float:right;
+	margin-left: 500px;
+	margin-top: -90px;
+	word-wrap: break-word;
+}
+
+p{
+	width:400px;
+}
+
+.myborder{
+	line-height: 2;
+	border: 1px solid black;
+	margin-top: 70px;
+}
+
+.middle-img{
+	margin-top: 50px;
+}
+
+.SP{
+	display: inline-block;
+	margin-top:	25px;
+
+}
+
+.product{
+	display: inline-block;
+	width:75px;
+}
+
+.vision{
+	display: inline-block;
+	width: 75px;
+	overflow-wrap:break-word;
 }
