@@ -185,14 +185,14 @@ font-size: 25px;
 .address-box {
 box-sizing: border-box;
 display: inline-block;
-width: 90px;
+width: 190px;
 height: 100px;
 background-color: transparent;
 }
 
 .email {
-margin-top: 50px;
-margin-bottom: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .phone-number {
