@@ -68,37 +68,95 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: 0 auto;
 }
+/* line break */
 .br{
 	border-bottom: 1px black solid;
 	margin: 50px 0;
 }
-
+/* Header section */
 header{
 	height: 50px;
+	position: relative;
 }
 header nav{
 	display: inline-block;
+	
+	position: absolute;
+	margin: 15px 0 0 -30px
 }
 header nav a{
 	margin: 0 32px;
 	font-size: 14px;
+	text-decoration: none;
+	color: lightgray;
 	
 }
 
 header div {
 	display: inline-block;
+	position: absolute;
+	
 
 }
 header div img {
 	
-		margin: 10px 0 auto 50px;
+		margin: 6px 0 0 691px ;
 }
+/* SECTION BEGGINGS */
 
-section div {
+section {
+	margin: 60px 0 0 0px;
+	width: 50%;
 	display: inline-block;
+	/* position: relative; */
+	
+}
+section .section-text{
+	width: 50%;
+	height: 00px;
+	
+}
+section .section-text .first{
+	margin: 55px 0 5px 80px;
+	font-size: 80px;
+	text-align: center
+}
+section .section-text .second{
+	margin: -10px 0 0px 200px;
+	font-size: 80px;
+	text-align: center
+}
+section .section-text .third{
+	/* background: blue; */
+	margin: -5px 0 0 125px;
+	font-size: 80px;
+	text-align: center
+}
+section .section-text p{
+	/* background: blue; */
+	margin: 15px 0 -400px 150px;
+	padding: 0px 0 0 0;
+	width: 175px;
+	height: 35px;
+	font-size: 16px;
+	text-align: center;
+	border: solid black 1px;
+	display: inline-block;
+	line-height: 30px;
+
+}
+ .image{
+	
+	display: inline-block;
+	width: 49%;
+	position: absolute;
 }
 
-.section-text{
-	padding-bottom: 100px;
-	margin-right: 80px;
+.image img{
+	margin: 60px 0 0 45px;
+	
+}
+/* Break Line */
+.br-1{
+margin: 134px 0 0 0;
 }
