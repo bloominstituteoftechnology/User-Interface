@@ -65,6 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-testing {
-	color: red;
+
+a {
+	color:lightgrey;
+	text-decoration: none;
+	margin: 50px;
+	padding-top: 1cm;
+	}
+
+nav {
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo {
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 200px;
 }
