@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	vertical-align: top;
+}
+
+nav {
+	display: inline;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+a {
+	display: inline;
+	margin: 40px;
+	color: black;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.innovation {
+	display: inline-block;
+	text-align: center;
+	font-size: 75px;
+	margin-top: 145px;
+	margin-left: 100px;
+}
+.start {
+	background-color: white;
+	display: inline-block;
+	font-size: 18px;
+	align: left;
+	margin-left: 170px;
+	width: 174px;
+	height: 34px;
+	border: 1px solid black;
+}
+
+.code {
+	display: inline-block;
+	align: right;
+	vertical-align: center;
+	height: 379px;
+	width: 379px;
+	margin-left: 200px;
+	margin-top: -300px;
+}
+
+.line {
+	margin-top: 50px;
+}
+
+.features {
+	align: center;
+	display: inline-block;
+	width: 410px;
+	margin: 30px 10px 25px 40px;
+}
+
+.about {
+	display: inline-block;
+	width: 410px;
+	margin: 30px 10px 25px 40px;
+}
+
+.middle-img {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.services {
+	display: inline-block;
+	width: 280px;
+	margin: 20px 10px 25px 40px;
+}
+
+.product {
+	display: inline-block;
+	width: 280px;
+	margin: 20px 10px 25px 40px;
+}
+
+.vision {
+	display: inline-block;
+	width: 280px;
+	margin: 20px 10px 25px 40px;
+}
+
+footer {
+	margin-left: 40px
+}
+footer div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer h3 {
+	margin-top: 40px;
+}
+
+.cr {
+	width: 900px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+hr {
+	width: 960px;
+	align: left;
+	margin-left: 40px;
+}
+.center {
+	width: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
