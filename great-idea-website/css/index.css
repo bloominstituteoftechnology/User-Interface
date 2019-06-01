@@ -103,6 +103,7 @@ header {
 	margin: 5px 50px 0px 0px;
 	position: relative;
 	top: 180px;
+	left: 140px;
 	text-align: center;
 	font-size: 60px;
 	font-weight: bold;
@@ -113,6 +114,8 @@ header {
 	display: block;
 	position: relative;
 	top: 180px;
+	left: 120px;
+	right: 10px;
 	width: 20%;
 	font-size: 15px;
 	background-color: whitesmoke;
@@ -125,6 +128,7 @@ header {
 display: inline-block;
 position: relative;
 bottom: 100px;
+left: 50px;
 margin: 0px 400px;
 }
 	
@@ -158,17 +162,16 @@ margin: 0px 400px;
 }
 
 .box-4 {
-	margin: auto;
+	margin:0px 0px 0px 100px;
 	display: inline-block;
 	width: 200px;
-	margin:0px 0px 0px 100px;
 }
+	
 
 .box-5 {
-	margin: auto;
+	margin:0px 0px 0px 100px;
 	display: inline-block;
 	width: 200px;
-	margin:0px 0px 0px 100px;
 }
 
 /* footer */ 
