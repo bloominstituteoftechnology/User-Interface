@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 500px;
+	width: 876px;
 }
 
 header nav {
@@ -83,6 +83,7 @@ border-bottom: 1px solid black;
 }
 
 header img{
+
 	margin-left: 500px;
 	display: inline-block;
 	}
@@ -107,7 +108,8 @@ header h1 {
 	
   }
 
-content{
+content p{
+	width: 500px;
 	display: inline-block;
 }
 .middle-img {
@@ -120,7 +122,9 @@ content{
 	display: inline-block;
 }
 
-
+footer{
+	border-top: 1px solid black;
+}
 footer .footer-content .copyright {
 	padding: 20px 0;
 	 /*======= center the text here */
