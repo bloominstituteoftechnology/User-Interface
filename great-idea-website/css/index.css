@@ -88,10 +88,20 @@ font-size: 40px;
 
 .section1{
 display: inline-block;
-box-sizing: border-box;
-
 }
 
-button {
-color: black;
+.section2 {
+display: inline-block;
+margin: 5px;
+border: none;
+width: 700px;
+height: 100px;
+}
+
+.section3 {
+display: inline-block;
+margin: 5px;
+border: none;
+width: 600px;
+height: 100px;
 }
