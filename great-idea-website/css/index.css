@@ -72,7 +72,8 @@ display: inline-block;
 
 .image-box {
 display: inline-block;
-margin: 5px;
+margin-left: 250zpx;
+margin-bottom: 90px;
 border: none;
 width: 700px;
 height: 100px
@@ -84,6 +85,7 @@ border: solid 1px;
 background: transparent;
 width: 120px;
 height: 30px;
+margin-bottom: 300px;
 }
 
 img .logo {
@@ -97,9 +99,10 @@ text-decoration: none;
 color: rgb(82, 79, 79);
 }
 
-#banner {
+.banner {
 font-size: 40px;	
 height: 40px;
+margin-bottom: 170px;
 }
 
 .section1{
@@ -120,7 +123,7 @@ height: 100px;
 
 .section3 .section-content{
 display: inline-block;
-margin-top: 
+margin-top: 1px;;
 margin: 30px;
 border: none;
 width: 400px;
