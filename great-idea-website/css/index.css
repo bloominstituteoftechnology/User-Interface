@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, header {
 
 header {
 display: inline-block;
-width: auto;
+width: 500px;
 }
 
 h1 {
