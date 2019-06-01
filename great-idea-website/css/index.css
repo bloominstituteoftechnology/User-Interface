@@ -105,6 +105,7 @@ button {
 
 .topSection {
 	width: 900px;
+	margin-bottom: 40px;
 }
 
 .features {
@@ -115,4 +116,39 @@ button {
 .About {
 	display:inline-block;
 	width:400px;
+	margin-left: 30px;
+}
+
+.middle-img {
+	margin-bottom: 30px;
+}
+
+.middleSection {
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+.services {
+	display:inline-block;
+	width: 280px;
+}
+
+.product {
+	display:inline-block;
+	width: 280px;
+}
+
+.vision {
+	display:inline-block;
+	width: 280px;
+}
+
+.contact {
+	margin-top: 30px; 
+}
+
+span {
+	text-align: center;
+	margin-left: 370px;
+	padding-bottom: 50px;
 }
