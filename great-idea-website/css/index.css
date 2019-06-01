@@ -72,10 +72,10 @@ display: inline-block;
 
 .image-box {
 display: inline-block;
-margin-left: 250zpx;
+margin-left: 250px;
 margin-bottom: 90px;
 border: none;
-width: 700px;
+width: 600px;
 height: 100px
 }
 
@@ -103,6 +103,7 @@ color: rgb(82, 79, 79);
 font-size: 40px;	
 height: 40px;
 margin-bottom: 170px;
+box-sizing: border-box;
 }
 
 .section1{
@@ -117,8 +118,16 @@ height: 100px
 display: inline-block;
 margin: 5px;
 border: none;
-width: 700px;
+width: 450px;
 height: 100px;
+box-sizing: border-box;
+font-size: 25px;
+}
+
+.middle-img {
+width: 90%;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .section3 .section-content{
@@ -128,4 +137,29 @@ margin: 30px;
 border: none;
 width: 400px;
 height: 90px;
+}
+
+.address-box {
+display: inline-block;
+width: 100px;
+height: 100px;
+padding: 5px;
+border: 1px ;    
+background-color: transparent;
+}
+
+.email {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.phone-number {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.copyright {
+margin-top: 150px;
+margin-bottom: 150px;
+text-align: center;
 }
