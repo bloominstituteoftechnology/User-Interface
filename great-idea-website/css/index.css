@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Rubik', Titillium Web, sans-serif; /*Rubik Font*/
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+@@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');  /* Import Google Font Rubik*/ 
 
 nav {
 margin-top: 30px;
@@ -103,7 +105,7 @@ margin-bottom: 300px;
 }
 
 img .logo {
-margin-left: 1240px;
+margin-left: 1270px;
 margin-bottom: auto;
 }
 
@@ -180,6 +182,11 @@ margin: 50;
 padding: 0;
 font-size: 25px;
 
+}
+
+.line2 {
+margin-top: 80px;
+margin-bottom: 50px;
 }
 
 .address-box {
