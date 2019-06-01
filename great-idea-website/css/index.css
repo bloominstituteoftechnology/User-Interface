@@ -173,3 +173,8 @@ hr {
 	align: left;
 	margin-left: 40px;
 }
+.center {
+	width: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
