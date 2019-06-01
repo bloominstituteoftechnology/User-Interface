@@ -64,42 +64,80 @@ h1, h2, h3, h4, h5, header {
 }
 
 /* Your code starts here! */
+.container {
+	display: inline-block;
+	align-content: center;
+	margin: 100px;
+}
+
+nav {
+	display: inline-block;
+	text-align: right;
+}
+
+a {
+	display: inline-block;
+	padding: 10px;
+	margin: 50px;
+}
 
 header {
 display: inline-block;
-width: 500px;
+align-content: center;
+}
+
+button {
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 100px;
 }
 
 h1 {
 	display: inline-block;
 	font-size: 100px;
 	width: 500px;
+	height: 500px;
+	align-content: center;
+}
+
+
+img{
+	display: inline-block;
+	text-align: right;
+	padding: 10px;
+	margin: 25px;
+	margin-left: 100px;
 }
 
 .top-section {
 	display: inline-block;
+	margin: 50px;
+}
+
+.bottom-section {
+	display: inline-block;
+	align-content: center;
+}
+
+.paragraph {
+	display: inline-block;
 	width: 500px;
-}
-
-.top-section p {
-	text-align: right;
-}
-
-nav {
-	display: inline-block;
-	text-align: center;
-}
-
-.paragraph-1 {
-	display: inline-block;
-	text-align: center;
-}
-
-h2 {
-	text-align: left;
+	align-content: center;
+	padding: 0px 25px;
 }
 
 .top-img {
 	display: inline-block;
 	width: 500px;
+}
+
+.contact{
+	display: inline-block;
+	margin: 20px auto;
+	padding: 10px 5px;
+}
+
+footer{
+	display: inline-block;
+	padding: 10px 5px;
 }
