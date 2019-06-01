@@ -74,24 +74,24 @@ header {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-left: 10px;
-
+	
 }
 
 main {
-	margin-left: 80px;
+	margin-left: 65px;
 }
 
 header nav {
 	display: inline-block;
 	margin: 20px 10px 20px 8px;
 	vertical-align: top;
+	padding: 1px;
 }
 
 header nav a {
 	display: inline-block;
 	text-decoration: none;
-	margin-top: 10px;
-	margin-left: 60px; 
+	margin: 8px 24px 10px 40px;
 	color: gray;
 	font-size: 14px;
 	height: 10px;
@@ -99,7 +99,7 @@ header nav a {
 
 .logo {
 	display: inline-block;
-	margin: 18px 10px 10px 82px;
+	margin: 17px 10px 10px 58px;
 }
 
 
@@ -108,79 +108,136 @@ header nav a {
 	display: inline-block;
 	font-size: 76px;
 	font-style: bold;
-	margin: 100px 10px 10px 30px;
+	margin: 101px 10px 7px 41px;
 	text-align: center;
 	height: 235px;
 	width: 400px;
 	vertical-align: top;
+	letter-spacing: 4px;
 }
 
 .start-button {
 	background-color: white;
 	border: 1px solid black;
-	margin: 1px 674px 1px 135px;
-	padding: 10px;
+	margin: 15px 116px 17px 111px;
+	padding: 6px;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 	display: block;
-	text-align: center;
+	text-align: middle;
+	letter-spacing: 1px;
+	height: 33px;
 }
 
 .snippet {
 	display: inline;
-	margin: 45px 20px 10px 30px;
+	margin: 45px 20px 10px 39px;
 }
 
-hr {
+.hr1 {
 	border-top: 1px solid black;
-	margin-top: 28px;
-	margin-left: 80px;
+	margin-top: 63px;
 	margin-right: 80px;
 	display: block;
+	width: 875px;
 }
 
 
 .features {
 	display: inline-block;
 	margin-top: 14px;
-	width: 450px;
+	width: 444px;
+}
+
+.features-par {
+	margin-top: 17px;
+    font-size: 16px;
+}
+
+.about-par {
+	margin-top: 17px;
+	font-size: 16px;
 }
 
 .about {
 	display: inline-block;
-	margin-top: 14px; 
-	width: 450px;
+	margin: 14px 0px 0px 0px; 
+	width: 444px;
 }
 
 .middle-img {
 	display: block;
-	margin: 45px 30px 40px 0px;
+	margin: 43px 30px 17px 0px;
 
 }
 
 .services {
 	display: inline-block;
-	margin-top: 14px;
+	margin-top: 21px;
 	width: 280px;
+}
+
+.services-par {
+	margin-top: 17px;
+	font-size: 16px;
 }
 
 .product {
 	display: inline-block;
-	margin-top: 14px;
-	width: 280px;
+	margin: 10px 0px 15px 8px;
+	width: 296px;
+}
+
+h4 .product {
+	margin: 10px 18px 15px 16px;
+    width: 56px;
+}
+
+.product-par {
+	margin: 2px 0px 12px 7px;
+	font-size: 16px;
 }
 
 .vision {
 	display: inline-block;
-	margin-top: 14px;
+	margin: 0px 0px 0px 3px;
 	width: 280px;
 }
 
+h4 .vision {
+	margin: 10px 18px 15px 16px;
+}
+
+.vision-par {
+	margin-top: 17px;
+	font-size: 16px;
+}
+
+.hr2 {
+	border-top: 1px solid black;
+	margin-top: 30px;
+	margin-right: 50px;
+	display: block;
+	width: 875px;
+}
+
 .contact {
-	margin: 53px 10px 40px 0px;
+	margin: 38px 10px 40px 1px;
 	width: 140px;
 	left: 10px;
 }
 
-footer {
+.phone {
+	margin: 6px 0px 0px 0px;
+}
+
+.email {
+	margin: 2px 0px 0px 0px;
+}
+
+footer .copy {
 	text-align: center;
+	margin: 4px 67px 9px 0px;
+	height: 50px;
+	font-size: 14px;
 }
