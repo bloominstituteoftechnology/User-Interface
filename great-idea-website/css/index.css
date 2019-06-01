@@ -79,12 +79,12 @@ display: inline-block;
 
 .image-box {
 display: inline-block;
-margin-left: 100px;
+margin-left: 40px;
 margin-right: 100px;
 padding: 10px;
 margin-bottom: 70px;
 border: none;
-width: 320px;
+width: 20px;
 height: 379px;
 font-size: 100px;
 }
