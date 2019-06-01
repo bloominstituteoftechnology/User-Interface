@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-navigation nav{
-	height: 36px;
+	height: 40px;
 	display: inline-block;
 }
 
@@ -83,30 +83,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	margin-left: 30px;
+	margin-left: 100px;
 	display: inline-block;
 }
 header {
+	height: 600px;
 border-bottom: 1px solid black;
 
 }
 
-header img{
-
-	margin-left: 500px;
+.right-header {
+	padding-left: 60px;
 	display: inline-block;
+
 	}
-header h1 {
-	text-align: center;
-	margin: 200px 0 0 100px;
-	width: 200px;
-	font-size: 100px;
-	display: inline-block;
+	.right-header img{
+		margin: 0 auto;
 	
-  }
+		}
+	
+	.left-header h1 {
+		padding-top: 100px;
+		}
 
+	.left-header {
+			width: 400px;
+			text-align: center;
+			font-size: 100px;
+			display: inline-block;
+			
+			}
   header button {
-	margin-left: 150px;
 	height: 30px;
 	width: 150px;
 	text-align: center;
