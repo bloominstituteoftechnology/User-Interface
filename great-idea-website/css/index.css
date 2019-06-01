@@ -64,8 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
 a {
 	color:lightgrey;
 	text-decoration: none;
@@ -73,8 +78,9 @@ a {
 	}
 
 nav {
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
+	border: 1px solid black;
 }
 .logo {
 	 position: fixed;
@@ -82,25 +88,50 @@ nav {
 	 right: 0;
 	 width: 200px;
 }
- .image1 {
-	width: 20%;
-	height: 10%
-	padding: 10px;
-	margin: 10px;
-	box-sizing: border-box;
-	display	 inline-block;
-}
+
 .heading {
-	width: 15%;
-	height: 20%;
-	content: 100px;
+	width: 100%;
 	margin: 20px;
 	padding: 10px;
-	box-sizing: border-box;
+	border: 1px solid dodgerblue;
 	display: inline-block;
 }
 
+.innovation {
+	display: inline-block;
+	width: 45%;
+}
+
+button {
+	align: center;
+}
+
+.image1 {
+	width: 40%;
+	/* height: 300px; */
+	padding: 10px;
+	display: inline-block; 
+}
+
  h1 {
+	 width: 25%;
 	font-size: 35px;
 	text-align: center;
+	border: 1px solid green;
 	}
+
+h2 {
+	font-size: 25px;
+	text-align: left;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: left;
+}
+
+.header-text {
+	width: 45%;
+	border: 1px solid red;
+	display: inline-block;
+}
