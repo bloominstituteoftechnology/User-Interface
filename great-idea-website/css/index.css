@@ -101,9 +101,14 @@ h1{
 	display: inline-block;
 	line-height: 1;
 	font-size: 40px;
+	width: 300px;
+	margin-top: 95px;
+	margin-left: 75px;
 }
 .round{
 	display: inline-block;
-	margin-left: 155px;
+	width: 300px;
+	margin-top: 60px;
+	float: right;
 
 }
