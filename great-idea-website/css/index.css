@@ -64,12 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 /* Navigation */
 
 
 
 .container {
-	width: 55%;
+	width: 70%;
 	height: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -97,7 +98,27 @@ header {
 	padding: 20px 0;
 }
 
+.demand {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "bangers";
+	
+	}
 
+.button-1 {
+	display: block;
+	width: 20%;
+	font-size: 15px;
+	background-color: white;
+}
+
+.circle {
+display: inline-block;
+margin: 0px 0px 0px 400px;
+}
 	
 
 /* body */
@@ -106,37 +127,50 @@ header {
 
 .box-1 {
 	margin: auto;
-	float: left;
+	display: inline-block;
 	width: 300px;
   }
 
 .box-2 {
-	display: block;
-	margin:auto;
-	float: right;
+	display: inline-block;
+	margin:0px 0px 0px 150px;
 	width: 350px; 
 }
 
 .middle-img{
-	
-	margin: 20px auto 20px auto;
+	display: block;
+	margin: 20px 0px 20px 0px;
 	
 }
 
 .box-3 {
 	margin: auto;
-	float: left;
+	display: inline-block;
 	width: 200px;
 }
 
 .box-4 {
 	margin: auto;
-	float: center;
+	display: inline-block;
 	width: 200px;
+	margin:0px 0px 0px 100px;
 }
 
 .box-5 {
 	margin: auto;
-	text-align: right;
+	display: inline-block;
 	width: 200px;
+	margin:0px 0px 0px 100px;
+}
+
+/* footer */ 
+
+footer {
+	border-top: 1px solid black;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+
+.copyright {
+	text-align: center;
 }
