@@ -77,7 +77,8 @@ h1, h2, h3, h4, h5 {
   }
 
 nav {
-	word-spacing: 30px;
+	word-spacing: 70px;
+	
 	}
 
 a:link {
@@ -90,6 +91,9 @@ a:link {
 .logo {
 	display: inline-block;
 	padding: 0px 0px 0px 600px;
+	position: relative;
+	left: 160px;
+	bottom:30px;
 }
 
 header {
@@ -105,17 +109,18 @@ header {
 	top: 180px;
 	left: 140px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: bold;
 	font-family: "bangers";
+	
 	}
 
 .button-1 {
 	display: block;
 	position: relative;
 	top: 180px;
-	left: 120px;
-	right: 10px;
+	left: 160px;
+	right: 100px;
 	width: 20%;
 	font-size: 15px;
 	background-color: whitesmoke;
@@ -128,7 +133,7 @@ header {
 display: inline-block;
 position: relative;
 bottom: 100px;
-left: 50px;
+left: 170px;
 margin: 0px 400px;
 }
 	
@@ -139,37 +144,39 @@ margin: 0px 400px;
 
 .box-1 {
 	margin: auto;
+	margin-left: 60px;
 	display: inline-block;
 	width: 300px;
   }
 
 .box-2 {
 	display: inline-block;
-	margin:0px 0px 0px 150px;
+	margin:0px 0px 0px 180px;
 	width: 350px; 
 }
 
 .middle-img{
 	display: block;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 40px 60px;
 	
 }
 
 .box-3 {
 	margin: auto;
+	margin-left: 60px;
 	display: inline-block;
 	width: 200px;
 }
 
 .box-4 {
-	margin:0px 0px 0px 100px;
+	margin:0px 0px 0px 130px;
 	display: inline-block;
 	width: 200px;
 }
 	
 
 .box-5 {
-	margin:0px 0px 0px 100px;
+	margin:0px 0px 0px 130px;
 	display: inline-block;
 	width: 200px;
 }
@@ -178,8 +185,13 @@ margin: 0px 400px;
 
 footer {
 	border-top: 1px solid black;
-	margin: 20px 0;
+	margin: 20px 0px;
 	padding: 20px 0;
+}
+
+.box-6 {
+	margin: auto;
+	margin-left: 60px;
 }
 
 .copyright {
