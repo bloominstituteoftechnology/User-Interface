@@ -76,9 +76,13 @@ body {
 	margin: 0 auto;
 }
 
-nav {
-	width: auto;
+.navbar {
+	width: 100%;
 	margin-bottom: 50px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+
 }
 ul{
 	margin-top: 50px;
@@ -94,7 +98,7 @@ h1{
 	width: 379px;
 	padding: 0px;
 	font-size: 99px;
-	margin: 25px 100px 0px 25px;
+	margin: 150px 100px 0px 25px;
 	align-content: center;
 	text-align: center;
 	vertical-align: top;
@@ -116,10 +120,6 @@ h1{
 	
 }
 
-.hidden{
-	display: inline-block;
-}
-
 a {
 	margin: 20px;
 	text-decoration: none;
@@ -129,7 +129,7 @@ a {
 
 .header-img {
 	vertical-align: top;
-	margin-top: 25px;
+	margin-top: 150px;
 	display : inline-block;
 }
 
