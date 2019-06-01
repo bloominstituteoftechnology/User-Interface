@@ -70,6 +70,22 @@ margin-top: 30px;
 display: inline-block;
 }
 
+.image-box {
+display: inline-block;
+margin: 5px;
+border: none;
+width: 700px;
+height: 100px
+}
+
+.get-started-button {
+margin-top: 80px;
+border: solid 1px;
+background: transparent;
+width: 120px;
+height: 30px;
+}
+
 img .logo {
 margin-left: 1240px;
 margin-bottom: auto;
@@ -77,17 +93,21 @@ margin-bottom: auto;
 
 nav .anchors {
 margin: 70px;
-margin-top:  30px;	
 text-decoration: none;
 color: rgb(82, 79, 79);
 }
 
 #banner {
 font-size: 40px;	
+height: 40px;
 }
 
 .section1{
 display: inline-block;
+margin: 100px;
+border: none;
+width: 70px;
+height: 100px
 }
 
 .section2 {
