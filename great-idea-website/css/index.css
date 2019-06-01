@@ -70,7 +70,6 @@ a {
 	color:lightgrey;
 	text-decoration: none;
 	margin: 50px;
-	padding-top: 1cm;
 	}
 
 nav {
@@ -78,8 +77,30 @@ nav {
 	margin: 0 auto;
 }
 .logo {
-	 position: absolute;
+	 position: fixed;
 	 top: 0;
 	 right: 0;
 	 width: 200px;
 }
+ .image1 {
+	width: 20%;
+	height: 10%
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	display	 inline-block;
+}
+.heading {
+	width: 15%;
+	height: 20%;
+	content: 100px;
+	margin: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+ h1 {
+	font-size: 35px;
+	text-align: center;
+	}
