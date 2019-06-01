@@ -78,17 +78,17 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	word-spacing: 30px;
-	padding: 20px;
 	}
 
 a:link {
 	color:grey;
 	text-decoration: none;
+	
 }
 /* header */
 
 .logo {
-	display: block;
+	display: inline-block;
 	padding: 0px 0px 0px 600px;
 }
 
@@ -100,24 +100,32 @@ header {
 
 .demand {
 	display: inline-block;
-	margin: auto;
+	margin: 5px 50px 0px 0px;
+	position: relative;
+	top: 180px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: bold;
 	font-family: "bangers";
-	
 	}
 
 .button-1 {
 	display: block;
+	position: relative;
+	top: 180px;
 	width: 20%;
 	font-size: 15px;
-	background-color: white;
+	background-color: whitesmoke;
+	font-weight: lighter;
+	margin: 0px 0px 0px 30px;
+	
 }
 
 .circle {
 display: inline-block;
-margin: 0px 0px 0px 400px;
+position: relative;
+bottom: 100px;
+margin: 0px 400px;
 }
 	
 
