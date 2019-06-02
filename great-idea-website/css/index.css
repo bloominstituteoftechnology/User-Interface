@@ -63,4 +63,70 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container{
+    width: 950px;
+    margin: 0 auto;
+     background-color: white;
+}
+.container header nav{
+    display: inline-block;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    background: white;
+}
+ header nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: gray;
+    width: 60%;
+    
+    
+}
+.logo{
+   float: right;
+    
+}
+.west{
+height: 30%;
+width: 30%;
+display: inline-block;
+font-size: 95px;
+margin: auto;
+text-align: center;
+}
+.east{
+float: right;
+margin: auto;
+clear: right;
+}
+.features{
+width: 47%;
+display: inline-block;
+}
+.about{
+width: 47%;
+display: inline-block;
+}
+.img{
+    display: inline-block;
+}
+.middle-img{
+	display: center;
+}
+.services{
+display: inline-block;
+width:33%;
+}
+.product{
+display: inline-block;
+width: 33%;
+}
+.vision{
+display: inline-block;
+width: 33%;
+}
+.copyright{
+    text-align: center;
+}
