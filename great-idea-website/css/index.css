@@ -64,3 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container header nav{
+	border: 2px solid red;
+	width: 48%;
+	display: inline-block;
+
+}
+.container header div{
+	border: 2px solid purple;
+	width: 30%;
+	display: inline-block;
+	right: 0px;
+
+}
+
+	
