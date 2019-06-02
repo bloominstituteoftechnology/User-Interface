@@ -75,7 +75,11 @@ h1, h2, h3, h4, h5 {
 	width: 30%;
 	display: inline-block;
 	right: 0px;
+	position: relative;
 
+}
+header{
+	position: absolute;
 }
 
 	
