@@ -104,5 +104,24 @@ width: 47%;
 display: inline-block;
 
 }
+.img{
+
+}
+.middle-img{
+
+}
+.services{
+display: inline-block;
+width:33%;
+}
+.product{
+display: inline-block;
+width: 33%;
+}
+.vision{
+display: inline-block;
+width: 33%;
+}
+
 
 	
