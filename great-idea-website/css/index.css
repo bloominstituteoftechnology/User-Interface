@@ -63,11 +63,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container{
+	width: 800px;
+}
 .container header nav{
 	border: 2px solid red;
-	width: 48%;
+	width: 68%;
 	display: inline-block;
+	position: absolute;
 
 }
 .container header div{
@@ -75,11 +78,31 @@ h1, h2, h3, h4, h5 {
 	width: 30%;
 	display: inline-block;
 	right: 0px;
+	top: 0px;
 	position: relative;
 
 }
 header{
-	position: absolute;
+	
+}
+.west{
+border: 2px solid green;
+width: 48%;
+display: inline-block;
+}
+.east{
+border: 2px solid orangered;
+width: 48%;
+display: inline-block;
+}
+.features{
+width: 47%;
+display: inline-block;
+}
+.about{
+width: 47%;
+display: inline-block;
+
 }
 
 	
