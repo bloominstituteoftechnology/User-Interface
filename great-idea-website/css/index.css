@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin:50px;
+}
+
+header{
+	display:inline;
+}
+
+a{
+	color:gray;
+	padding-right: 100px;
+	text-decoration: none;
+}
+
+.logo{
+	margin-left:100px;
+}
+
+.main{
+	display: inline-block;
+	padding-top: 80px;
+}
+button{
+	height: 25px;
+	width: 160px;
+}
+.header1{
+	font-size: 60px;
+	text-align: center;
+	padding-left:250px;
+}
+
+.header2{
+	padding-left:250px;
+	
+}
+
+.line1{
+	width: 1250px;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+.content1{
+	height:40px;
+	width:610px;
+}
+
+.content2{
+	height:40px;
+	width:610px;
+}
+
+h2{
+	font-size: 18px;
+	font-weight:bold;
+}
+
+p{
+	font-size: 16px;
+}
+
+.first{
+	padding-top:100px;
+	display: inline-block;
+}
+
+.middle-img{
+	height:190px;
+	width:1250px;
+	margin-top: 70px;
+}
+
+.row1{
+	height:40px;
+	width: 390px;
+}
+
+.row2{
+	height:40px;
+	width: 390px;
+}
+
+.row3{
+	height:40px;
+	width: 390px;
+}
+
+.second{
+	display: inline-block;
+	margin-top: 60px;
+}
+
+.line2{
+	width: 1250px;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+.contact{
+	margin-top:40px;	
+}
+
+.contact p{
+	margin-bottom: 10px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
