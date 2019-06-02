@@ -64,10 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.logo { 
-	border: 5px solid red;
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+
+.top-page{
+	margin: 0px;
+	display: inline-block;
 	
-	margin: 10px 50px 300px 10px;
-	box-sizing: border-box;
-	vertical-align: left;
+}
+
+
+a {
+	padding-right: 57px;
+	
+	color: gray;
+	text-decoration: none;
+}
+header{
+	display: inline-block;
+}
+
+.home-anchor {
+	margin:0px;
+}
+
+ 
+.box1 {
+	
+	display: inline-block;
+	text-align: center;
+	font-size: 3.2rem;
+	width: 49%;
+	margin: 40px 20px 0px 0px;
+	
+	
+}
+.logo{
+	width: 20%;
+	margin-left: 60px;
+	
+}
+.circle {
+	height: 240px;
+	width: 100%;
+}
+
+button {
+	border: 2px solid black;
+	font-size: 1.5rem;
+	padding: 0px 30px;
+	background-color: white;
+	margin: 10px 0px 30px 0px;
+}
+.box2 {
+	display: inline-block;
+	width: 35%;
+	padding-left: 20px;
+	margin-left: 90px;
+	margin-top: 30px;
+	
+	
+	
+}
+h1{
+	margin-bottom: 5px;
+
+}
+
+
+
+
+.box3 {
+	margin-top: 30px;
+	display: inline-block;
+	
+	width: 45%;
+
+	
+	
+}
+.middle-section{
+	border-top: 1px solid black;
+	display: inline-box;
+	margin-top: 20px;
+	
+	
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	
+}
+.box4 {
+	
+	display: inline-block;
+	width: 45%;
+	padding-left: 50px;
+	margin-left: 44px;
+	
+}
+
+.middle-img {
+	margin-top: 10px;
+	width: 95%;
+	height: 100px;
+}
+
+.box5 {
+	padding-top: 30px;
+	display: inline-block;
+	width: 32%;
+	
+}
+
+.box6  {
+	
+	display: inline-block;
+	width: 33%;
+	
+}
+
+.box7 {
+	
+	display: inline-block;
+	width: 31%;
+	 
+}
+footer
+{
+	display: inline-block;
+	
+	margin-top: 20px;
+	width:20%;
+	
+	
+}
+
+.copyright{
+	
+	
+	text-align: center;
+	
 }
