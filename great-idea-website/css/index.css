@@ -65,13 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.top menu {
-	display: inline;
-	
+nav a {
+	margin: 50px;
+	color: gray;
+
 }
-.title {
+h1 {
+	margin: 100px;
+	font-size: 50px;
+	width: 180px;
+	height: 120px;
+	text-align: center;
 	display: inline-block;
-}
-.button {
-	
 }
