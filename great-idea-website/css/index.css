@@ -192,6 +192,8 @@ header {
 
 button {
 	display: inline-block;
+	border: 1px solid black;
+	font-family: 'Bangers', cursive;
 	font-size: 20px;
 	margin-left: 75px;
 	background-color: transparent;
