@@ -183,14 +183,6 @@ a:hover{
 	text-decoration: underline;
 }
 
-a:active {
-	color: black;
-}
-
-a:visited {
-	color: lightsalmon;
-}
-
 header {
 	display: inline-block;
 	align-content: center;
