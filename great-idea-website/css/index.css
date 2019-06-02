@@ -62,5 +62,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+ 
 /* Your code starts here! */
+.container {
+	width: 890px;
+	margin: auto;
+}
+
+nav {
+	width: 675px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+nav a {
+	color: gray;
+	display: inline-block;
+	font-size: 15px;
+	margin-right: 60px;
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.cap {
+	border-bottom: 2px solid black;
+}
+
+.cap-content{
+	text-align: center;
+	display: inline-block;
+	margin: 85px;	
+	font-size: 80px;
+}
+
+.cap-content button{
+	width: 140px;
+	height: 25px;	
+	position: relative;
+	top: -40px;
+	background-color: white;
+	color: black;
+	border: 1px solid gray;
+}
+
+.cap image{
+	display: inline-block;
+	position: relative;
+}
+
+.middle-img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 1%;
+	padding-right: 1%
+}
+
+.top-of-pic .sec-content{
+	width: 48%;
+	margin-top: 31px;
+	padding-right: 1%;
+	padding-left: 1%;
+	display: inline-block;
+	padding-bottom: 28px;
+	position: relative;
+}
+
+.bottom-of-pic {
+	border-bottom: 2px solid black;
+	margin-bottom: 28px;
+}
+
+.bottom-of-pic .sec-content {
+	width: 33%;
+	margin-top: 28px;
+	padding-right: 1%;
+	padding-left: 1%;
+	display: inline-block;
+	padding-bottom: 28px;
+}
+
+.contact p {
+	padding-bottom: 20px;
+}
+footer {
+	text-align: center;
+}
+
