@@ -87,3 +87,32 @@ h1 {
 	width: 100px;
 	text-align: center;	
 }
+
+
+.topContentLeft {
+ 
+	margin: 10px 10px 10px 10px;
+	padding: 20px 0px 0px;
+	width: 400px;
+	display: inline-block;
+  }
+
+.headerContainer {
+	border-bottom: 1px solid;
+	width: 100%
+
+}
+
+.topContentRight {
+	margin: 10px 10px 10px 10px;
+	padding: 20px 0px 0px;
+	width: 400px;
+	display: inline-block;
+
+}
+
+.topContentLeft.topContentRight{
+	display: inline-block
+
+}
+  
