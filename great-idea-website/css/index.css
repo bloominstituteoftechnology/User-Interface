@@ -41,7 +41,7 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
+} 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 1px black solid;
 	margin: 50px 0;
 }
+.br-2{
+	border-bottom: 1px black solid;
+	margin: 48px 0 40px;
+}
 /* Header section */
 header{
 	height: 50px;
@@ -88,7 +92,7 @@ header nav a{
 	margin: 0 32px;
 	font-size: 14px;
 	text-decoration: none;
-	color: lightgray;
+	color: #E1E1E1;
 	
 }
 
@@ -167,38 +171,58 @@ margin: 134px 0 0 0;
 	width: 49%;
 	display: inline-block;
 }
+.features p{
+line-height: 18px;
+}
 
 .about{
 	margin: 40px 0 0 0;
 	width: 48%;
 	display: inline-block;
 }
+.about p{
+	line-height: 18px;
+	}
 
 .middle-img{
-	margin: 45px 0 0 0;
+	margin: 35px 0 0 0;
+}
+.spv{
+	margin-top: 38px;
 }
 .services{
-	margin: 38px 0 0 0 ;
 	width:32%;
 	display: inline-block;
 }
+.services p{
+	line-height: 18px;
+	}
+	
 .product{
-	margin: 38px 0 0 0 ;
 	width:32%;
 	display: inline-block;
 }
+.product p{
+	line-height: 18px;
+	}
 
 .vision{
-	margin: 38px 0 0 0 ;
 	width:32%;
 	display: inline-block;
 }
+.vision p{
+	line-height: 18px;
+}
+
+/* footer section */
+
 
 .phone{
-	padding: 10px 0
+	padding: 20px 0
 }
 
 .copyright {
 text-align: center;
-margin-top: 70px;
+margin: 55px 20px 0 0;
+font-size: 14px
 }
