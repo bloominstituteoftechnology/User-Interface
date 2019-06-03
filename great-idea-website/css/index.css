@@ -66,22 +66,37 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	width: 890px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 nav {
-	width: 675px;
+	width: 690px;
 	display: inline-block;
-	vertical-align: top;
 	margin-top: 30px;
+	padding-top: 11px;
+	padding-right: 7px;
+	color: gray;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 nav a {
-	color: gray;
+	color: black;
 	display: inline-block;
 	font-size: 15px;
 	margin-right: 60px;
+}
+
+a {
 	text-decoration: none;
+}
+
+ul {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+
 }
 
 .logo {
@@ -90,7 +105,7 @@ nav a {
 }
 
 .cap {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .cap-content{
@@ -98,11 +113,13 @@ nav a {
 	display: inline-block;
 	margin: 85px;	
 	font-size: 80px;
+	padding-top: 41px;
+	padding-left: -20px;
 }
 
 .cap-content button{
-	width: 140px;
-	height: 25px;	
+	width: 174px;
+	height: 35px;	
 	position: relative;
 	top: -40px;
 	background-color: white;
@@ -113,6 +130,7 @@ nav a {
 .cap image{
 	display: inline-block;
 	position: relative;
+	padding-left: 20px;
 }
 
 .middle-img {
@@ -126,16 +144,16 @@ nav a {
 
 .top-of-pic .sec-content{
 	width: 48%;
-	margin-top: 31px;
-	padding-right: 1%;
-	padding-left: 1%;
+	margin-top: 23px;
+	padding-right: 1px;
+	padding-left: 10px;
 	display: inline-block;
-	padding-bottom: 28px;
+	padding-bottom: 60px;
 	position: relative;
 }
 
 .bottom-of-pic {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	margin-bottom: 28px;
 }
 
@@ -153,5 +171,7 @@ nav a {
 }
 footer {
 	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 50px;
 }
 
