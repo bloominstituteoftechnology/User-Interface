@@ -64,3 +64,186 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.wholePage {
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+hr {
+    border: 1px solid #202020;
+    width: 85%;
+}
+
+header {
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    position: fixed;
+    background-color: rgba(231, 223, 223, .7);
+    padding-top: 30px;
+    height: 80px;
+}
+
+header nav {
+    margin-right: 250px;
+}
+
+header nav a {
+    color: rgb(231, 223, 223);
+    font-size: 15px;
+    font-family: slabo;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: #252525;
+    color: white;
+}
+
+.navpluslogo {
+    width: 1000px;
+    margin: auto;
+}
+
+header .navBG {
+    background-color: #555555;
+    border-radius: 30px;
+}
+
+.logo {
+    float: right;
+    margin-top: -25px;
+    margin-right: 100px;
+}
+
+footer {
+    font-weight: normal;
+    text-align: center;
+    font-family: slabo;
+    margin: 20px 0 100px 0;
+}
+
+.container {
+    font-family: slabo;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    display: inline;
+    text-align: center;
+}
+
+.topHalf {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    height: 450px;
+    display: inline-block;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.leftSide {
+    width: 40%;
+    float: left;
+}
+
+.rightSide {
+    width: 50%;
+    float: right;
+    height: 500px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.getStartedBtn {
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    background: white;
+    margin-top: 20px;
+}
+
+.getStartedBtn:hover {
+    background: lightgrey;
+    width: 173px;
+    height: 42px;
+    margin-top: 17px;
+    font-size: 21px;
+}
+
+.bottomHalf {
+    margin: 30px auto 30px auto;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.leftSide_MainTop {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 8%;
+}
+
+.rightSide_MainTop {
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 9%;
+}
+
+.leftSide_MainBottom {
+    width: 28%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 8%;
+    height: auto;
+}
+
+.centerSide_MainBottom {
+    width: 23%;
+    float: left;
+    height: auto;
+    margin-left: 20px;
+}
+
+.rightSide_MainBottom {
+    width: 24%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 8%;
+    height: auto;
+}
+
+.contact {
+    width: 100%;
+    height: 130px;
+    text-align: left;
+    margin: 20px 0 0 8%;
+    font-family: slabo;
+}
+
+.middle-img {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 8% 0 8%;
+}
