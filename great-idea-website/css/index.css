@@ -65,54 +65,114 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
 nav a {
-	text-decoration: none;
-	margin: 25px;
+  text-decoration: none;
+	margin: 35px;
 	color: gray;
-
 }
+
 h1 {
-	margin: 100px;
-	font-size: 50px;
-	width: 180px;
-	height: 120px;
-	text-align: center;
-	display: inline-block;
+	margin: 100px 100px 0px 100px;
+  font-size: 95px;
+  width: 180px;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
 }
+
 .button {
-	margin: 10px 20px 100px 150px;
-	font-size: 15px;
-	background-color: white;
-	border: 1px solid black;
-	width: 100px;
-	text-align: center;	
+  margin: 10px 20px 100px 150px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
 }
-
-
+    
 .topContentLeft {
  
-	margin: 10px 10px 10px 10px;
-	padding: 20px 0px 0px;
-	width: 400px;
-	display: inline-block;
-  }
-
+  margin: 10px 20px 10px 10px;
+  padding: 20px 0px 0px;
+  width: 40%;
+  display: inline-block;
+}
 .headerContainer {
-	border-bottom: 1px solid;
-	width: 100%
-
+  border-bottom: 1px solid;
+  width: 1000px;
 }
 
 .topContentRight {
-	margin: 10px 10px 10px 10px;
-	padding: 20px 0px 0px;
-	width: 400px;
-	display: inline-block;
-
+  margin: 10px 20px 10px 10px;
+  padding: 20px 0px 0px;
+  width: 40%;
+  display: inline-block;
 }
-
 .topContentLeft.topContentRight{
-	display: inline-block
-
+  display: inline-block;
 }
+
+.bottomContentLeft {
+  width: 25%;
+  margin: 10px 20px 10px 10px;
+  padding: 20px 0px 0px;
+  display: inline-block;
   
+}
+
+.bottomMiddleContent {
+  width: 25%;
+  margin: 10px 20px 10px 10px;
+  padding: 20px 0px 0px;
+  display: inline-block;
+}
+
+.bottomRightContent {
+  width: 25%;
+  margin: 10px 20px 10px 10px;
+  padding: 20px 0px 0px;
+  display: inline-block;
+}
+
+.bottomContentLeft.bottomContentMiddle.bottomContentRight{
+  display: inline-block
+}
+
+.address {
+  border-top: 1px solid;
+  margin: 20px 0px 20px 0px;
+	padding: 20px 0px 0px;
+	width: 1000px;
+}
+
+address {
+  display: inline-block;
+  width: 150px;
+}
+
+footer {
+  text-align: center;
+}
+
+.phoneNumber {
+  margin: 10px 0px 10px ;
+}
+
+body {
+  margin: 20px;
+	padding: 100px;
+	
+}
+
+.middleImg{
+	padding: 100px 0px 0px 200px;
+	margin: 20px 0px 0px 0px;
+	
+}
+.middle-img {
+	margin: 20px 0px 0px 0px;
+}
+
+
+
