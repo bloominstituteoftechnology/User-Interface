@@ -90,7 +90,7 @@ header img.logo {
 .main .div-main h1 {
 	display: inline-block;
 	font-size: 56px;	
-	padding: 120px;
+	padding: 40px;
 	text-align: center;
 }
 .main {
@@ -118,7 +118,7 @@ header img.logo {
 	margin: 0 20px;
 	text-align: auto;
 	font-size: 20px;
-	width: 400px;
+	width: 500px;
 };
 
 .top .features .about {
