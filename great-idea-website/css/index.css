@@ -64,17 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo{
+
+}
 a{
 	color: grey;
 	text-decoration: none;
 	margin: 0 10px;
- 	padding: 20px;
+ 	padding: 10px;
 	display: inline-block;
 	color: lightgray;
 	text-decoration: none;
 	margin-blightgrayottom: 20px;
 }
-
+.giant-letters{
+	font-size: 60px;
+}
+.button{
+	padding: 20px;
+}
 .copyright{
 	padding: 20px 0;
 	text-align: center;
