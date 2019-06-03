@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width:876px;
+	box-sizing: border-box;
+}
+html{
+	margin: 200px;
+}
+
+html body header nav{
+	display: inline;
+}
+
+html body header nav a{
+	margin: 0px 10px;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color:grey;
+	background-color: white;
+}
+.logo{
+	margin-left: 10px
+}
+
+.head{
+	display: inline-block;
+}
+
+.line{
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.line2{
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+html body .image{
+	padding: 50px;
+	width: 400px
+}
+html body .slogan{
+	margin-right: 175px;
+	margin-bottom: 150px;
+	margin-left: 50px;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+h2{
+	font-size:20px
+}
+html body .slogan a{
+	border:2px solid black;
+	padding: 7px;
+	color:black;
+	
+}
+
+.slogan{
+	height:200px;
+	width: 200px;
+	text-align: center;
+}
+.grouping1{
+	text-align: center;
+	display:inline-block;
+}
+
+
+html body .section1{
+	width: 415px;
+	margin-right: 10px;
+	
+}
+html body .section2{
+	width: 415px;
+}
+
+.group1{
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 40px;
+	
+}
+
+html body .section3{
+width: 266px;
+}
+html body .section4{
+width: 266px;
+}
+html body .section5{
+width: 266px;
+}
+.group2{
+	text-align: left;
+	display: inline-block;
+	margin-top:35px;	
+}
+
+footer{
+	margin-top: 50px;
+}
+
+.space{
+	margin-bottom: 15px;
+}
+.copy{
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
