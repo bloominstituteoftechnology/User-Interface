@@ -80,12 +80,12 @@ a {
 nav {
 	width: 100%;
 	margin: 0 auto;
-	border: 1px solid black;
 }
 .logo {
 	 position: fixed;
 	 top: 0;
 	 right: 0;
+	 margin-right: 60px;
 	 width: 200px;
 }
 
@@ -93,45 +93,57 @@ nav {
 	width: 100%;
 	margin: 20px;
 	padding: 10px;
-	border: 1px solid dodgerblue;
-	display: inline-block;
+	border-bottom: 1px solid black;
 }
 
 .innovation {
 	display: inline-block;
-	width: 45%;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
 }
-
-button {
-	align: center;
-}
-
-.image1 {
-	width: 40%;
-	/* height: 300px; */
-	padding: 10px;
-	display: inline-block; 
+.right {
+	vertical-align: middle;
+	display: inline-block;
 }
 
  h1 {
-	 width: 25%;
-	font-size: 35px;
+	font-size: 70px;
 	text-align: center;
-	border: 1px solid green;
 	}
 
-h2 {
+h2 h3{
 	font-size: 25px;
 	text-align: left;
 }
-
-h3 {
-	font-size: 25px;
-	text-align: left;
+button {
+	color: black;
 }
-
-.header-text {
-	width: 45%;
-	border: 1px solid red;
+.section2 section {
 	display: inline-block;
+	width: 49%;
+	line-height: 1.15;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0;
+}
+.middle-img {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.section3 section {
+	display: inline-block;
+	width: 32%;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0;
+}
+.contact {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.footer {
+	text-align: center;
+	margin-bottom: 50px;
 }
