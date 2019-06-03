@@ -64,3 +64,62 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 1000px;
+	margin: auto;
+}
+
+header{
+	font: 'Titillium Web', sans-serif;
+	color: light-gray;
+	display: in-line;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.button{
+	width: 140px;
+	font-size: 16px;
+	text-align: center;
+	border: solid 1px gray;
+	padding: 10px 30px 10px 30px;
+	margin: 20px auto;
+}
+
+.get-started{
+	display: inline-block;
+	margin: 100px;
+}
+
+.section-zero{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.first-section{
+	display: inline-block;
+	border-top: solid 1px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.second-section{
+	display: inline-block;
+	border-bottom: solid 1px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+
+}
+
+footer{
+	margin-top: 40px;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 10px;
+	margin: 40px;
+}
