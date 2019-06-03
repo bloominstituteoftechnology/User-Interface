@@ -64,14 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 .container {
 	margin: 50px;
-	width: 876px;
+	width: 880px;
 	display: inline-block;
 }
-
-.top-navigation nav{
-	height: 40px;
+.top-navigation{
+	display: inline-block;
+}
+.top-navigation nav {
 	display: inline-block;
 }
 
@@ -83,64 +85,73 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
+	position: relative;
+	top: 10px;
 	margin-left: 100px;
 	display: inline-block;
 }
+
 header {
 	height: 600px;
-border-bottom: 1px solid black;
-
+	border-bottom: 1px solid black;
 }
-
+.header {
+	display: inline-block;
+}
 .right-header {
+	width: 350px;
 	padding-left: 60px;
 	display: inline-block;
+}
 
-	}
-	.right-header img{
-		margin: 0 auto;
-	
-		}
-	
-	.left-header h1 {
-		padding-top: 100px;
-		}
+.right-header img {
+	position: relative;
+	top: 70px;
+	display: inline-block;
+}
 
-	.left-header {
-			width: 400px;
-			text-align: center;
-			font-size: 100px;
-			display: inline-block;
-			
-			}
-  header button {
+.left-header h1 {
+	display: inline-block;
+}
+
+.left-header {
+	margin: 0 auto;
+	width: 379px;
+	text-align: center;
+	font-size: 90px;
+	display: inline-block;
+}
+
+.left-header button {
+	
 	height: 30px;
 	width: 150px;
-	text-align: center;
+	position: absolute;
+	left: 8%;
 	background-color: white;
 	border: 1px solid black;
 	font-size: 15px;
 	display: inline-block;
-	
-  }
+}
 
 .upper-content {
-	margin: 20px 0 20px;
+	margin: 30px 0 30px;
 	display: inline-block;
 }
 
-.upper-content div{
+.upper-content div {
 	width: 436px;
 	display: inline-block;
 }
 
 .lower-content {
-	margin: 20px 0 20px;
+	margin: 30px 0 30px;
 	display: inline-block;
 }
 
-.lower-content div{
-	width: 280px;
+.lower-content div {
+	width: 290px;
+	padding-right: 10px;
 	display: inline-block;
 }
 
@@ -149,23 +160,26 @@ border-bottom: 1px solid black;
 	display: inline-block;
 }
 
-
-
-footer{
-	margin-top: 50px;
+footer {
+	margin-top: 10px;
 	border-top: 1px solid black;
 }
+
 footer .footer-content .copyright {
 	padding: 20px 0;
-	 /*======= center the text here */
+	/*======= center the text here */
 	text-align: center;
-  }
-  footer .footer-content {
-	margin-top: 30px;
-	
-  }
+}
 
-  footer .footer-content a {
+footer .footer-content {
+	margin-top: 30px;
+}
+
+footer .footer-content a {
 	color: black;
 	text-decoration: none;
-  }
+}
+
+.footer-content p {
+	margin: 12px 0 12px;
+}
