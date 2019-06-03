@@ -69,14 +69,63 @@ h1, h2, h3, h4, h5 {
 	width: 1000px;
 	margin: auto;
 	border: 1px solid red;
+	padding: 20px;
 }
 
 header nav {
 	display: inline-block;
-	margin-top: 20px;
-	
-};
+	margin-top: 36px;
+	margin-left: 40px;
+}
 
 header nav a {
-	margin: 0 40px;	
+	margin: 0 20px;
+}
+
+header img.logo {
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+.main .div-main h1 {
+	display: inline-block;
+	font-size: 56px;	
+	padding: 120px;
+	text-align: center;
+}
+.main {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin: 40px;
+}	
+
+.main .div-main img {
+	float: right;
+    margin-top: 50px;
+	margin-right: 60px;	
 };
+
+.top {
+	width: 800px;
+}
+
+.top .features h3 {
+	margin-bottom: 5px;
+    margin-left: 22px;
+}
+.top .features p{
+	display: inline-block;
+	margin: 0 20px;
+	text-align: auto;
+	font-size: 20px;
+	width: 400px;
+};
+
+.top .features .about {
+	display: block;
+	padding: 60px;
+	text-align: auto;
+	font-size: 20px;
+	width: 500px;
+},
+
