@@ -83,14 +83,23 @@ header nav a{
 }
 header h1{
 	font-size:60px;
+	text-align: center;
+	vertical-align:
 }
 header .Innovation{
 	/* vertical-align: top; */
+    vertical-align: top;
+    display: inline-block;
+    width: 448px;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+    padding: 100px 0;
 }
 header .button{
 	width: 10px;
 	line-height: normal;
 }
 .circle-img{
-	margin-left: 490px;
+	display:inline-block;
 }
