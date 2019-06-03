@@ -68,5 +68,5 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
-	border: 1px solid blue
+	border: 1px solid red;
 }
