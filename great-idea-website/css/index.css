@@ -64,7 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 500px;
+	width: 900px;
 	margin: auto;
-	border: 1px solid red;
+	border: 1px solid black;
+}
+
+nav {
+	display: inline-block;
+	margin: 30px;
+}
+
+nav a {
+	margin: 15px;
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.top-img {
+	margin-left: 500px;
+	margin-bottom: 100px;
+	margin-top: -250px;
+}
+
+header h1 {
+	font-size: 65px;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+header button {
+	margin-left: 150px;
+}
+
+.container section .mid-text {
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+}
+
+.container section .top-para {
+	display: inline-block;
+	width: 400px;
+	float: left;
+}
+
+header {
+	border-bottom: 1px solid black;
+}
+
+.container section .top-paraone {
+	display: inline-block;
+	width: 400px;
+	float: left;
+}
+
+/*h5 {
+	display: inline-block;
+}*/
+
+
+.container .bottom-text .bottom-para {
+	display: inline-block;
+	width: 900px;
+	height: 100px;
+}
+.container .bottom-text {
+	border-bottom: 1px solid black;
+	display: inline-block;
 }
