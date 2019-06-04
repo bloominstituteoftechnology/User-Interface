@@ -63,4 +63,61 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+/* container of everything */
+.container {
+    width: 900px;
+	margin: 0 auto;
+}
+
+/* navigation */
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+header .logo {
+	margin-left: 140px;
+}
+header nav a {
+	margin: 0 20px;
+}
+
+/*  headBanner  */
+section .headBanner {
+	display: inline-block;
+	width: 900px;
+	/* height: 100px; */
+	padding: 5px;
+  }
+section .headBanner-left {
+	display: inline-block;
+
+}
+
+/* inline block p content.  */
+.upperContent {
+	display: inline-block;
+}
+
+/* .upperContent .paragraphUpper {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 40px;
+	margin: inline-block;
+}  */
+
+/* upperContent h3 p img */
+
+/* lowerContent  */
+/* .lowerContent h3 {
+	
+}
+.lowerContent p {
+	display:;
+	margin:;
+} */
+
+/* footer */
