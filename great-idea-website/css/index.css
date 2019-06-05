@@ -157,23 +157,20 @@ header {
 }
 
 /* Your code starts here! */
-.container {
-	display: inline-block;
-	align-content: center;
-	margin: 10px;
-}
 
-nav {
-	display: inline-block;
-	text-align: right;
-	padding-left: 90px;
-	margin: 10px;
+
+nav div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+	justify-content: space-around;
 }
 
 a {
-	display: inline-block;
+	display: flex;
 	padding: 10px;
-	margin: 50px;
+	margin: 25px;
 	color: grey;
 	text-decoration: none;
 }
@@ -184,102 +181,93 @@ a:hover{
 }
 
 header {
-	display: inline-block;
-	align-content: center;
-	padding-left: 220px;
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
 }
 
 button {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	border: 1px solid black;
 	font-family: 'Bangers', cursive;
 	font-size: 20px;
-	margin-left: 75px;
 	background-color: transparent;
-	padding: 20px;
-	width: 250px;
 }
 
 h1 {
-	display: inline-block;
 	font-size: 100px;
-	width: 500px;
 	padding-bottom: 150px;
 	align-content: center;
 }
 
-
 .logo {
-	display: inline-block;
-	text-align: right;
-	padding-top: 25px;
-	margin-top: 25px;
+	display: flex;
 }
 
 .top-img {
-	display: inline-block;
-	margin: 0 25px;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .top-section {
-	display: inline-block;
-	margin: 25px;
-	padding: 0 0 0 225px;
+	display: flex;
 }
 
 .middle-img {
-	display: inline-block;
-	padding-left: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .bottom-section {
-	display: inline-block;
-	padding: 20px 0 0 250px;
+	display: flex;
 }
 
 .contact {
-	display: inline-block;
-	width: 30%;
-	margin: 20px;
-	padding-left: 250px;
+	display: flex;
+}
+
+.address {
+	display: flex;
 }
 
 footer {
-	display: inline-block;
-	padding-left: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 hr {
-	width: 65%;
+	display: flex;
+	width: 75%;
 }
 
 address p {
-	display: inline-block;
-	padding: 10px 10px 0 0;
+	display: flex;
 }
 
 .product {
-	display: inline-block;
-	width: 25%;
+	display: flex;
 }
 
 .services {
-	display: inline-block;
-	width: 25%;
+	display: flex;
 }
 
 .vision {
-	display: inline-block;
-	width: 25%;
+	display: flex;
 }
 
 .about {
-	display: inline-block;
-	width: 40%;
+	display: flex;
 }
 
 .features {
-	display: inline-block;
-	width: 40%;
+	display: flex;
+}
+.header-img {
+	display: flex;
+	align-items: end;
 }
