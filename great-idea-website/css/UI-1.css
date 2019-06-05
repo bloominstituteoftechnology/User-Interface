@@ -119,7 +119,21 @@ header .top-section {
 header.top-section .top-box {
   display: flex;
   flex-direction: column;
-  justify-content: center
+  justify-content: center;
+  /* vertical-align: top;
+  text-align: center; */
+}
+
+.top-section .top-box button {
+  background-color: white;
+  padding: 5px 40px;
+  /* margin-left: 16px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section .top-box button :hover {
+  background-color: lightgray;
 }
 
 header .top-section .top-img {
@@ -235,8 +249,18 @@ footer {
   font-size: 14px;
 }
 
-footer address {
+footer address .end-text {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+address .end-text p {
+  margin: 5px;
+}
+
+footer address #end {
+  display: flex;
   justify-content: center;
 }
