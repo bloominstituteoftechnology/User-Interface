@@ -72,15 +72,18 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 a {
-	color:lightgrey;
+	color:black;
 	text-decoration: none;
 	margin: 50px;
 	}
 
 nav {
-	width: 100%;
+	width: 70%;
 	margin: 0 auto;
-}
+	background: linear-gradient(mintcream, blue);
+	border-radius: 4px;
+	position: fixed;
+	}
 .logo {
 	 position: fixed;
 	 top: 0;
@@ -95,6 +98,9 @@ nav {
 	padding: 10px;
 	border-bottom: 1px solid black;
 }
+.image1 {
+	margin: 20px;
+}
 
 .innovation {
 	display: inline-block;
@@ -102,7 +108,10 @@ nav {
 	margin: 0 auto;
 	text-align: center;
 	vertical-align: middle;
+	background: linear-gradient(mintcream, aquamarine,blue);
+	border-radius: 20px;
 }
+
 .right {
 	vertical-align: middle;
 	display: inline-block;
@@ -142,6 +151,8 @@ button {
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
+	background: linear-gradient(blue, mintcream);
+	border-radius: 10px;
 }
 .footer {
 	text-align: center;
