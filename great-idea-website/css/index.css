@@ -103,7 +103,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+  display: flex;
 }
 body {
   line-height: 1;
@@ -157,62 +157,70 @@ body {
 }
 
 .navigation {
-  display: inline-block;
-  width: 1000px;
-  height: 60px;
+  display: flex;
+  width: 800px;
+  height: 40px;
   margin-top: 30px;
   margin-bottom: 20px;
-  background-color: lightgray;
+  background-color: white;
   z-index: 1;
 }
 
 .navigation a {
-  font-size: 20px;
-  display: inline-block;
+  font-size: 15px;
+  display: flex;
   text-decoration: none;
   color: grey;
   margin: 10px 30px 10px 40px;
 }
 
 .navigation img {
-  display: inline-block;
+  display: flex;
+ 
+  margin-left: 100px;
   float: right;
 }
 
 header {
   height: 380px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 header .left-content {
   position: relative;
   width: 600px;
   height: 379px;
-  display: inline-block;
+  display: flex;
   text-align: center;
   padding-top: 70px;
 }
 
 header h1 {
-  font-size: 70px;
-  width: 400px;
-  text-align: center;
-  margin: 0px auto;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 0px;
+  margin-left:70px;
+  padding: 0px 75px;
 }
 
 header img {
   float: right;
 }
 
-header .button {
-  border: 2px solid grey;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px 30px 5px 30px;
+.header .left-content button {
+  margin-right: 50px;
+
+ border: 2px solid grey;
+display: inline-block;
+ font-size: 20px;
+ padding: 10px 50px 10px 50px
+ 
+ 
 }
 
-header .button a {
-  text-decoration: none;
-  color: black;
+header .left-content button hover {
+  background: black;
+  color:white;
 }
 
 .divider {
@@ -227,23 +235,25 @@ header .button a {
 }
 
 .middle .middle-left {
-  width: 480px;
+  width: 50%;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 12px;
 }
 
 .middle .middle-right {
-  width: 490px;
+  width: 50%;
   display: inline-block;
+  margin-right: 12px;
 }
 
 h1 {
   font-size: 25px;
+  justify-content: space-between;
 }
 p {
   font-family: "Noto Serif", serif;
-  font-size: 25px;
-  display: inline-block;
+  font-size: 15px;
+  display: flex;
   /* width: 450px; */
   margin-left: 20px;
 }
@@ -255,26 +265,30 @@ p {
 }
 
 .bottom {
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .bottom .bottom-left {
+  width: 30%;
   display: inline-block;
-  width: 310px;
-  margin-right: 31px;
+  margin-right: 15px;
+
 }
 
 .bottom .bottom-middle {
+  width: 30%;
   display: inline-block;
-  width: 310px;
-  margin: 0px auto;
+  margin-right: 15px;
 }
 
 .bottom .bottom-right {
-  margin-left: 30px;
+
+  width: 30%;
   display: inline-block;
-  width: 310px;
+  margin-right: 15px;
 }
+.bottom .V
 
 .contact {
   margin-bottom: 80px;
@@ -293,4 +307,5 @@ footer {
   font-size: 15px;
   margin-bottom: 80px;
   font-weight: bold;
+  justify-content: center
 }
