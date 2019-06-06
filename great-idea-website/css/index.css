@@ -60,7 +60,24 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
+.Top {
+	display: inline-block;
+}
+.Bottom {
+	display: inline-block;
+}
+#button{
+	background-color: grey;
+	border: none;
+	padding: 5px 2px;
+	text-align: center;
+	display: inline-block;
+	font-size: 10px;
+    color: black;
+
+}
