@@ -113,18 +113,13 @@ button {
 
 
 .bottom-text-content {
-	width: 200px;
+	width: 275px;
 	display: inline-block;
-	margin-left: 100px;
 	margin-top: 50px;
 }
 
 .title {
 	text-align: center;
-}
-
-.middle-img {
-	margin-left: 100px;
 }
 
 .main-content .top-text {
@@ -139,16 +134,13 @@ button {
 }
 
 .top-text-content {
-	width: 375px;
+	width: 420px;
 	display: inline-block;
 }
 
 .contact {
 	display: inline-block;
-	margin-top: 50px;
-	margin-left: 100px;
 	width: 850px;
-	border-top: 1px solid black;
 	padding-top: 40px;
 }
 
