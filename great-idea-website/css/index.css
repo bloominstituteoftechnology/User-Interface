@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Ropa+Sans&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +66,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 70%;
+	margin: 0 auto;
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+header nav {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 70%;
+	
+}
+header nav li{
+	display: inline-block;
+	padding: 20px;
+	color: #A9A9A9;
+} 
+
+header .logo {
+	display: inline-block;
+	width: 25%;
+	width: 200px;
+	height: 60px;
+	padding: 10px;
+	vertical-align: baseline;
+	
+}
+
+#intro {
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	font-family: 'Luckiest Guy', cursive;
+	text-transform: uppercase;
+}
+
+#intro .left-intro {
+	font-size: 4.5em;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 64%;
+}
+
+#intro .right-intro{
+	display: inline-block;
+	width: 35%;
+	padding: 0px;
+	margin: 0;
+	
+}
+
+#intro .right-intro img{
+	width: 300px;
+}
+
+input[type="button" i] {
+	padding: 1px 7px 2px;
+	border: 1px solid black;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	background-color: white;
+}
+
+hr{
+	margin-top: 60px;
+}
+
+.main-content{
+	width: 100%;
+	padding-top: 20px;
+	
+	
+}
+
+.main-content p{
+	color: #696969;
+}
+
+.top{
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+.top-left{
+	width: 48%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 30px;
+}
+
+.top-right{
+	width: 45%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 30px;
+}
+
+.full{
+	margin: 30px 0px 30px 0px;
+
+}
+
+.full img{
+	width:100%;
+}
+
+.bottom-left{
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 30px;
+	font-size: 1.1em;
+}
+
+.bottom-middle{
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 30px;
+	font-size: 1.1em;
+}
+
+.bottom-right{
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 30px;
+	font-size: 1.1em;
+}
+
+footer{
+	padding-top: 20px;
+}
+
+footer .address{
+	color: #696969;
+}
+
+footer .copyright{
+	text-align: center;
+	padding: 20px;
+}
