@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.body-area{
+	display: block;
+	max-width: 1950px;
+}
+/* Nagigation */
+.navigation{
+display: block;
+margin-right: 50rem;
+text-align: center;
+margin-left: 1rem;
+padding-top: 6px;
+}
+
+.navigation a{
+	padding: 40px;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+
+/* Logo section */
+
+.logo{
+	padding-left: 90rem;
+	margin-top: -20px;
+}
+
+/* code-snippet */
+
+.code-snippet{
+	margin-left: 65rem;
+	margin-top: 4px;
+	padding: 0;
+}
+
+/* header */
+.header-section {
+	position: absolute;
+	width: 50rem;
+	display: block;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 65px;
+}
+
+.randomText{
+	width: 190px;
+	margin-left: 20rem;
+}
+
+hr{
+	display: inline-block;
+	width: 100rem;
+	margin-left: 90px;
+}
+
+.second-hr{
+		display: inline-block;
+		margin-top: 10rem;
+		padding: 0;
+		margin-left: 80px;
+}
+
+/* content */
+.big-section{
+	display: inline-block;
+}
+
+.first-section{
+	max-width: 500px;
+	display: inline-block;
+	margin-top: 90px;
+	margin-left: 900px;
+	padding: 10px;
+}
+.second-section{
+	position: absolute;
+	max-width: 500px;
+	display: inline-block;
+	margin-top: 5.5rem;
+	margin-left: -1300px;
+}
+
+.middle-img{
+	display: inline-block;
+	margin-left: 5rem;
+	width: 100rem;
+	height: 15rem;
+	padding: 10px;
+}
+
+/* last-section */
+.third-section{
+	position: absolute;
+	display: inline-block;
+	max-width: 500px;
+	margin-left: 1135px;
+	/* margin-top: -700px; */
+	padding: 20px;
+	margin-top: -10px;
+}
+
+.forth-section{
+	position: absolute;
+	display: inline-block;
+	max-width: 500px;
+	margin-left: 600px;
+	margin-top: -10px;
+	padding: 20px;
+}
+
+.last-section{
+	position: absolute;
+	display: inline-block;
+	max-width: 500px;
+	margin-left: 70px;
+	margin-top: 1rem;
+	padding: 5px;
+}
+
+.contact{
+	max-width: 500px;
+	margin-left: 60px;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+/* footer */
+
+.foot{
+	margin-left: 50rem;
+}
