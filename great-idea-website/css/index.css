@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: 0px 300px;
+	border: 1px solid lightgray;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 50px;
+	
+}
+
+header .logo {
+	margin-left: 140px;
+}
+header nav a {
+	margin: 0 20px;
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.import-text {
+	display: inline-block;
+	font-size: 70px;
+	margin: 50px 90px;
+	text-align: center;
+	margin-bottom: 0px;
+	
+	
+}
+
+.banner {
+	display: inline-block;
+	margin: 50px 20px;
+	
+}
+
+button {
+	background-color: white; 
+	border: 1px solid black;
+	margin-top: 0px;
+	font-size: 15px;
+	padding: 5px 30px;
+}
+
+.features {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	box-sizing: border-box;
+	margin-left: 70px;
+	padding: 10px;
+	text-align: justify;
+}
+
+.about {
+	display: inline-block;
+	margin-left: 70px;
+	width: 300px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: justify;
+}
+
+.middle-img {
+	width: 800px;
+	margin-left: 70px;
+	margin-right: 40px;
+	padding: 20px;
+	display: inline-block;
+}
+
+hr {
+	border-bottom: 1px solid black;
+	width: 90%;
+	margin-right: 20px;
+}
+
+.services {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 45px 0 0 50px;
+	text-align: justify;
+
+}
+
+.product {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 45px 0 0 50px;
+	text-align: justify;
+}
+
+.vision {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 45px 0 0 50px;
+	text-align: justify;
+
+}
+
+
+.contact  {
+	line-height: 1.5;
+	padding: 20px;
+	margin: 45px;
+}
+footer {
+	text-align: center;
+}
