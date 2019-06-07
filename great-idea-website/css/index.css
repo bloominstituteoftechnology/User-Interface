@@ -65,14 +65,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-.nav {
- margin: 40px;
- padding: 20px;
-  text-decoration: none;
-  text-align: 
+ 
+nav{
+	text-decoration: none;
+	color: black;
+	line height: 30px;
+	display: block;
+	text-align: 
 }
-p{
-	width: 280px;
-	height: 140px;
+.container{
+	width:200px;
+	height: 200px;
+	display: left;
+}
+.logo{
+	margin:400;
 }
