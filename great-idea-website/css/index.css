@@ -65,33 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here */
 
-.idea {
-	background-color: blue;
-}
-a {
-	
-	background-color: pink;
-	height: 50px;
-	margin: 60px;
-	padding: 4px 5px;
-	text-align: center;
-
-}
-.logo { 
-	padding-top: 5px;
-	padding-left: 1150px;
-	margin: 0 auto;
-
-}
-.Inno {
-	padding: 20px;
+.idea, .section1 {
+	klkl
+	width: 50%;
 	margin: 20px;
-	border: 20px;
+	padding: 30px;
+	display: inline-block;
+
 }
-.img1 {
-	padding-left: 700px;
-	margin: 50px;
-}
-
-
-
