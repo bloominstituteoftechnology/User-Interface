@@ -64,12 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here */
-
-.idea, .section1 {
-	klkl
-	width: 50%;
-	margin: 20px;
-	padding: 30px;
-	display: inline-block;
-
+nav{
+	background-color: blue;
+	
 }
