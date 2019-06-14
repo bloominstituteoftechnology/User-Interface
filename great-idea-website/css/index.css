@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,28 +65,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav a{
-	display: inline-block;
-	margin-right: 40px;
-	padding: 40px;
-	line-height: 50px;
-	text-decoration: none;
-	color: grey;
-	}
-div{
-display: inline-block;
-margin-left: 980px;	
+.container{
+  width: 800px;
+  margin: 0 auto;
 }
-h1{
-	display: block;
-	font-size: 60px;
-	width: 200px;
-	height: 30px;
-	padding: 20px;
-	margin-left: 160px;
-	text-align:center;
+.top-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  margin: 25px;
 }
-.img{
-	display:inline-block;
-	margin-left: 800px;
+a{
+ margin-right: 30px;
+}
+.idea{
+  margin-right: 60px;
+}
+.square {
+  font-size: 80px;
+  margin: 150px 80px;
+  text-align: center;
+  width: 270px
+}
+button{
+  width: 160px;
+  height: 30px;
+}
+.sphere{
+  margin-left: 600px;
+  position: absolute;
+  center: 50px;
+  top: 300px;
+}
+.main-content{ 
+  width: 900px;
+  margin-top: 30px;
+  column-count: 2;
+  margin-bottom: 20px;
+}
+
+.mac{
+  margin: 40px;
+}
+.bottom-content{
+  width: 900px;
+  column-count: 3;
+  margin-bottom: 20px
+}
+.copy{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
