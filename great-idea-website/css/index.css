@@ -65,19 +65,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
- 
-nav{
+nav a{
+	display: inline-block;
+	margin-right: 40px;
+	padding: 40px;
+	line-height: 50px;
 	text-decoration: none;
-	color: black;
-	line height: 30px;
+	color: grey;
+	}
+div{
+display: inline-block;
+margin-left: 980px;	
+}
+h1{
 	display: block;
-	text-align: 
+	font-size: 60px;
+	width: 200px;
+	height: 30px;
+	padding: 20px;
+	margin-left: 160px;
+	text-align:center;
 }
-.container{
-	width:200px;
-	height: 200px;
-	display: left;
-}
-.logo{
-	margin:400;
+.img{
+	display:inline-block;
+	margin-left: 800px;
 }
