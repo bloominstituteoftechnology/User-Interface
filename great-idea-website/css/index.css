@@ -72,19 +72,17 @@ h1, h2, h3, h4, h5 {
 .top-text{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: flex-start;
   margin: 25px;
 }
 a{
- margin-right: 30px;
+ margin-left: 30px;
 }
-.idea{
-  margin-right: 60px;
-}
+
 .square {
   font-size: 80px;
-  margin: 150px 80px;
+  margin: 200px 60px;
   text-align: center;
   width: 270px
 }
@@ -93,20 +91,20 @@ button{
   height: 30px;
 }
 .sphere{
-  margin-left: 600px;
+  margin-left: 500px;
   position: absolute;
   center: 50px;
-  top: 300px;
+  top: 250px;
 }
 .main-content{ 
   width: 900px;
-  margin-top: 30px;
   column-count: 2;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .mac{
-  margin: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
 .bottom-content{
   width: 900px;
@@ -117,4 +115,9 @@ button{
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+.border{
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
