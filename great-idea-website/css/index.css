@@ -3,129 +3,270 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 .container {
-	width: 1000px;
-	margin: auto;
-	border: 1px solid red;
-	padding: 20px;
+  width: 880px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 header nav {
-	display: inline-block;
-	margin-top: 36px;
-	margin-left: 40px;
+  display: inline-block;
+  margin-top: 35px;
+  width: 691px;
+  vertical-align: top;
 }
 
 header nav a {
-	margin: 0 20px;
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
 }
 
 header img.logo {
-	margin-top: 20px;
-	margin-left: 110px;
+  margin-top: 25px;
 }
 
 .main .div-main h1 {
-	display: inline-block;
-	font-size: 56px;	
-	padding: 40px;
-	text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  padding: 0 75px;
+  text-align: center;
+  margin-top: 120px;
 }
-.main {
-	display: inline-block;
-	border-bottom: 1px solid black;
-	margin: 40px;
-}	
+
+.main .div-main button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.main .div-main button:hover {
+  background: black;
+  color: white;
+}
+/* .main {
+  display: inline-block;
+  margin: 40px;
+} */
 
 .main .div-main img {
-	float: right;
-    margin-top: 50px;
-	margin-right: 60px;	
-};
+  display: inline-block;
+  margin-top: 69px;
+}
 
 .top {
-	width: 800px;
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
 }
 
-.top .features h3 {
-	margin-bottom: 5px;
-    margin-left: 22px;
+.top .features {
+  padding: 0 10px;
 }
-.top .features p{
-	display: inline-block;
-	margin: 0 20px;
-	text-align: auto;
-	font-size: 20px;
-	width: 500px;
-};
 
-.top .features .about {
-	display: block;
-	padding: 60px;
-	text-align: auto;
-	font-size: 20px;
-	width: 500px;
-},
+.top .features .first {
+  display: inline-block;
+  width: 410px;
+  margin-right: 34px;
+}
 
+.top .features .first:last-child {
+  margin-right: 0;
+}
+
+.middle-img {
+  margin-top: 45px;
+}
+
+.bottom {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.bottom .bottom-content {
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.bottom .bottom-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
