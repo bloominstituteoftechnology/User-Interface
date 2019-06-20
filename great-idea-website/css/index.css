@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav {
+	padding: 20px;
+	margin-left: 50px;
+	color: grey;
+	margin: 20px;
+	word-spacing: 60px;
+}
+.tag .tagline-text {
+	display: inline-block;
+	padding: 10px 70px;
+	font-size: 80px;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 120px;
+	font-family: 'Bangers', cursive;
+}
+.tag .tagline-text button {
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	background-color: white;
+	margin-top: 5px;
+	padding: 8px 45px;
+	border: 1px solid black;
+	vertical-align: top;
+}
+.header-image {
+	display: inline-block;
+	margin-top: 70px;
+}
+.page {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	margin-top: 75px;
+	margin-right: 300px;
+	margin-left: 20px;
+}
+.page .top-section {
+	padding: 0 20px;
+}
+.page .top-section .box {
+	display: inline-block;
+	width: 400px;
+	margin-right: 35px;
+}
+.page .top-section .box:last-child {
+	margin-right: 0;
+}
+.page .middle-img {
+	margin-top: 45px;
+	margin-left: 30px;
+}
+.page .bottom-section {
+	margin-top: 40px;
+	padding: 0 20px;
+}
+.page .bottom-section .box {
+	display: inline-block;
+	width: 280px;
+	margin-right: 10px;
+}
+.page .bottom-section .box:last-child {
+	margin-right: 0;
+}
+footer {
+	font-size: 15px;
+	text-align: center;
+	margin: 30px 0;
+}
+div {
+	display: inline-block;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+article {
+	padding: 40px 10px 0;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-right: 300px;
+}
+
+article p {
+	margin: 20px 0;
+}
