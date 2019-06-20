@@ -63,4 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h1 {
+font-size: 70px;
+margin: 50px;
+}
+
 /* Your code starts here! */
+ 
+.container {
+	width: 900px;
+	margin: auto;
+	}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+	position: fixed;
+	background-color: pink;
+	color: black;
+}
+
+
+header img.logo {
+margin-left: 800px;
+position: relative;
+
+
+
+}
+
+
+
+/* TB LR */
+header nav a {
+margin: 0 20px;	
+}
+
+#quote {
+    text-align: center;
+    height: 200px;
+    width: 450px;
+    padding: 10px;
+    margin: 30px;
+	display: inline-block;
+	position: relative;
+}
+	
+
+img {
+position: relative;
+margin-bottom: 30px;
+}
+
+.features {
+height: 200px;
+width: 400px;
+float: left;
+}
+
+.about {
+height: 200px;
+width: 400px;
+float: right;
+}
+
+.services {
+margin-top: 45px;
+height: 200px;
+width: 250px;
+float: left;
+}
+
+.product {
+	margin-top: 45px;
+	margin-left: 60px;
+	height: 200px;
+	width: 250px;
+	float: left;
+
+}
+
+.vision {
+	margin-top: 45px;
+	margin-left: 80px;
+	height: 200px;
+	width: 250px;
+	float: left;
+}
+
+.contact-info {
+color: black;
+width: 256px;
+
+}
+
+footer {
+color: black;
+margin: 40px auto;
+text-align: center;
+}
+
+.bottom-content {
+width: 900px;
+}
+
+
+
+
+
+
