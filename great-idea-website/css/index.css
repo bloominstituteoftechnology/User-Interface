@@ -63,4 +63,180 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5
+}
+
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+/* HEADER */
+.logo {
+	display: inline-block;
+	margin-left: 140px;
+	position: relative;
+	top: 10px;
+	background-image: url(../img/logo.png);
+}
+
+#headerdiv {
+	background: #C0C0C0;
+	width: 900px;
+	margin: auto;
+	height: 80px;
+	z-index: 1;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: black;	
+}
+
+header nav a:hover {
+	border-bottom: 1px solid black;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .main-content {
+	padding-top: 60px;
+}
+
+/* TITLE */
+
+.cta {
+	display: inline-block;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.cta h1 {
+	font-size: 60px;
+	margin-right: 450px;
+	margin-top: 130px;
+}
+
+.cta button {
+	margin-right: 450px;
+	padding: 5px 40px;
+	background-color: transparent;
+	border-radius: 10px;
+	transition-property: background transform;
+	transition-duration: .2s;
+}
+
+.cta button:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.1);
+}
+
+.cta-img {
+	height: 320px;
+	width: 320px;
+	margin-left: 300px;
+	position: relative;
+	bottom: 280px;
+}
+
+.cta hr {
+	position: relative;
+    bottom: 210px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+	white-space: nowrap;
+	width: 100%;
+	position: relative;
+    bottom: 160px;
+}
+
+
+.first {
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+.middle-img {
+	display: block;
+}
+
+.second {
+	width: 100%;
+	white-space: normal;
+	margin-bottom: 40px;
+}
+
+.second-div {
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
+/* CONTACT */
+.contact {
+	position: relative;
+    bottom: 150px;
+}
+.contact h2 {
+	margin-top: 40px;
+}
+.contact p {
+	margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+}
+
+/* PRODUCTS CSS */
+
+.main-content2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.main-content2 h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.second-div2 {
+	position: relative;
+	bottom: 180px;
+}
+
+
+
+
+
+
+
