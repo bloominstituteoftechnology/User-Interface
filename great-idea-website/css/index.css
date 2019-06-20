@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 850px;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	width: 650px;
+	vertical-align: top;
+	margin-top: 40px;
+}
+
+a {
+	font-size: 15px;
+	color: gray;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+button {
+	display: block;
+	margin-left: 200px;
+}
+
+.title-text {
+	font-size: 60px;
+	width: 350px;
+	display: inline-block;
+}
+
+img {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+button {
+	border: 1px solid black;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.top-text .bottom-text {
+	width: 800px;
+	display: inline-block;
+}
+
+
+.bottom-text-content {
+	width: 275px;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.title {
+	text-align: center;
+}
+
+.main-content .top-text {
+	display: inline-block;
+	width: 850px;
+	margin: 15px;
+}
+
+.main-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.top-text-content {
+	width: 420px;
+	display: inline-block;
+}
+
+.contact {
+	display: inline-block;
+	width: 850px;
+	padding-top: 40px;
+}
+
+footer p {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
