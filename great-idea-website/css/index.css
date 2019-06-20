@@ -64,3 +64,48 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation-top {
+	width: 100%;
+	height: 55px;
+	display: inline-block;
+	background-color: lightcyan;
+	position: sticky;
+	top: 0;
+	text-align: left;
+}
+.logo {
+	display: inline-block;
+}
+
+.mantra {
+	display: inline-block;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	word-break: break-all;
+}
+.circle-code {
+	display: inline-block;
+}
+.upper {
+	column-count: 2;
+	column-gap: 40px;
+	column-span: all;
+}
+.lower {
+	column-count: 3;
+	column-gap 10px;
+	column-span: all;
+}
+.middle-image {
+	position: absolute;
+	top: 20px;
+	bottom: 
+}
+a {
+	padding: 20px 30px;
+	margin: 30px 10px;
+	height: 150px;
+}
+hr {
+	border: 1px solid black;
+}
