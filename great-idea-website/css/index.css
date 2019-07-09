@@ -31,6 +31,25 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+h1 {
+  margin: 20px 0;
+  font-size: 60px;
+  text-align: ;
+}
+
+
+
+p {
+font-size: 16px;
+padding: 10px;
+line-height: 1.4;
+}
+
+h2 {
+	padding:10px;
+}
+
 ol, ul {
 	list-style: none;
 }
