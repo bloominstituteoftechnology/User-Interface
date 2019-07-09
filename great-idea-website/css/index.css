@@ -3,64 +3,265 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+nav {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+}
+
+nav a {
+    margin:  20px 40px;
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    vertical-align: middle;
+    margin: 20px 0px;
+}
+
+section, footer {
+    width: 80%;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom:  30px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h1 {
+    font-size: 65pt;
+    font-family: 'Bangers', cursive;
+    display: block;
+    
+}
+
+.heading .button {
+    margin: 20px 0;
+    color: black;
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.middle-img {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.first {
+    border-top: 1px solid black; 
+}
+
+.last {
+    border-bottom: 1px solid black;
+}
+
+.wrapper {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.first .wrapper {
+    width: 50%;
+    padding: 20px;
+}
+
+.heading .wrapper{
+    height: 100%;
+    width: 50%;
+    
+    padding: 20px 0;
+    text-align: center;
+}
+
+.last .wrapper {
+    width: 33%;
+    padding: 10px;
+}
+
+.contact {
+    margin: 50px auto 100px;
+}
