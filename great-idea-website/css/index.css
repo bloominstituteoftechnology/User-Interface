@@ -49,7 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 html, body {
@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 	width: 800px;
 	height: 1200px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 header {
@@ -96,11 +95,13 @@ h3 {
 
 .getStarted {
 	font-family: "Russo One", sans-serif;
-	font-size: 24px;
+	font-size: 21px;
 	position: relative;
+	text-align: center;
 	width: 145px;
-	height: 35px;
-	border: 1px solid black;
+	height: 26px;
+	border: 3px solid orange;
+	border-radius: 15px;
 	top: 120px;
 	left: 127px;
 }
@@ -114,13 +115,23 @@ h3 {
 
 .logo {
 	position: relative;
+	left: 30px;
+}
+nav {
+	width: 80px;
+	display:inline;
 }
 
 nav a {
 	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
 	text-align: center;
-	padding-right: 36px;
-	padding-left: 5px;
+	display: inline;
+	border: 1px solid orange;
+	border-radius: 20px;
+	padding-right: 15px;
+	padding-left: 12px;
+	padding-top: 3px;
 }
 
 .middle-img {
@@ -182,13 +193,18 @@ p {
 	width: 90%;
 	left: 20px;
 }
-
+p:hover {
+	transform: scale(1.2);
+}
 h6 {
 	font-family: "Shadows Into Light", serif;
 	font-size: 20px;
 	position: relative;
 	width: 85%;
 	left: 20px;
+}
+h6:hover {
+	transform: scale(1.2);
 }
 
 
