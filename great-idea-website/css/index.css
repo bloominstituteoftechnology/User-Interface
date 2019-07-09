@@ -93,6 +93,7 @@ video {
 }
 
 
+/* HTML5 display-role reset for older browsers */
 
 article,
 aside,
@@ -321,4 +322,4 @@ p {
 
 img {
     max-width: 100%;
-}
+} 
