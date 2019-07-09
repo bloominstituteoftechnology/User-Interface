@@ -58,7 +58,15 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, span {
-    font-family: 'Bangers', cursive;
+    font-family: ;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-family: 'Lalezar', cursive;
+}
+
+span {
+
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
 }
@@ -85,6 +93,10 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 30px;
+}
+
 p {
 	line-height: 1.5;
 }
@@ -93,8 +105,14 @@ p {
 /*****nav and header********/
 
 .header-nav {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	padding-top: 20px;
+	background: #40a5ed;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+
 }
 nav {
 	padding-top: 15px;
@@ -105,15 +123,18 @@ nav a {
 	margin-top: 15px;
 	margin-right: 60px;
 	text-decoration: none;
-	color: gray;
+	color: #ceedea;
 }
 .title-box {
 	vertical-align: top;
-	padding-top: 100px;
+	padding-top: 90px;
 }
 
 header {
 	padding-bottom: 30px;
+	background: #ceedea;
+	padding-top: 115px;
+
 }
 
 
@@ -176,7 +197,11 @@ header {
 /*******footer**********/
 footer {
 	display: inline-block;
+	background: #40a5ed;
+	width: 100%;
 }
 footer p {
 	text-align: center;
+	color: #ceedea;
+	
 }
