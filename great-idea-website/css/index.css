@@ -68,38 +68,42 @@ h1, h2, h3, h4, h5 {
 	box-sizing: inherit;
 }
 .container {
-	width: 90%;
+	width: 800px;
 	margin: 0 auto;
 }
 a {
 	color:black;
 	text-decoration: none;
-	margin: 50px;
+	margin: 15px;
 	}
 
 nav {
-	width: 70%;
+	width: 68%;
 	margin: 0 auto;
-	background: linear-gradient(mintcream, blue);
-	border-radius: 4px;
-	position: fixed;
+	margin-top: 20px;
+	border: 1px solid green;
 	}
+
 .logo {
 	 position: fixed;
-	 top: 0;
+	 top: 10px;
 	 right: 0;
-	 margin-right: 60px;
-	 width: 200px;
+	 margin-right: 200px;
+	 width: 180px;
 }
 
 .heading {
-	width: 100%;
+	width: 800px;
 	margin: 20px;
 	padding: 10px;
-	border-bottom: 1px solid black;
-}
+	display: inline-block;
+	border: 1px solid orange;
+
+	}
+	
 .image1 {
 	margin: 20px;
+	border: 1px solid red;
 }
 
 .innovation {
@@ -107,14 +111,14 @@ nav {
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
-	vertical-align: middle;
-	background: linear-gradient(mintcream, aquamarine,blue);
-	border-radius: 20px;
+	vertical-align: middle;	
+	border: 1px solid blue;
 }
 
 .right {
 	vertical-align: middle;
 	display: inline-block;
+	border: 1px solid brown;
 }
 
  h1 {
@@ -151,10 +155,16 @@ button {
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
-	background: linear-gradient(blue, mintcream);
-	border-radius: 10px;
+	
 }
 .footer {
 	text-align: center;
 	margin-bottom: 50px;
+}
+
+/* FEATURES PAGE STARTS HERE */
+.header {
+	text-align: center;
+	margin: 20px;
+	/* background: linear-gradient(mintcream, blue); */
 }
