@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Whole Page */
+p {
+	font-family: 'Barriecito', cursive;
+}
+#container {
+	width:1000px;
+	margin:auto;
+}
+
+/* Links and Image  */
+nav * {
+	display:inline-block;
+	margin: auto 30px;
+	text-decoration:none;
+	color:lightgray;
+	font-size:14px;
+}
+
+/* Animations for Nav bar */
+
+nav a {
+	-webkit-animation: rotate .3s linear infinite alternate;
+}
+@-webkit-keyframes rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(10deg);
+    }
+}
+/* Whole Nav Bar: Seperate navbar and header */
+nav {
+	margin-bottom: 50px;
+	background-color:rosybrown;
+	position:fixed;
+}
+
+/*  Main header */
+h1 {
+	font-size:70px;
+	margin-bottom:20px;
+}
+
+/* Header + Button */
+#title { 
+	display:inline-block;
+	width:50%;
+	margin:auto;
+	text-align:center;
+}
+/* Want everything to be centered vertically in nav and header */
+header * {
+	vertical-align:middle;
+}
+
+header {
+	margin-bottom:80px;
+}
+
+#start-button {
+	color:black;
+	text-decoration: none;
+	text-align:center;
+	border: 2px solid black;
+	padding:10px;
+	transition:.2s;
+}
+/* change color of starting button */
+#start-button:hover {
+	background-color:black;
+	color:white;
+}
+
+/* Main section */
+section { 
+	margin: 2% 0%;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+/* Top half of info */
+.info {
+	display:inline-block;
+	width: 47%;
+	margin: 2% 2% 2% 0%;
+}
+
+/* Bottom half of info */
+.info-2 {
+	width:30%;
+	margin: 2% 2% 2% 0%;
+}
+/* Most bottom picture */
+section img {
+	width:100%;
+}
+
+/* Contact info spacing */
+address {
+	line-height:1;
+}
+
+/* Copyright */
+footer p {
+	margin:50px;
+	text-align:center;
+}
+
+#image-1 {
+	display:inline-block;
+	vertical-align: middle;
+	width:379px;
+	height:379px;
+	background-image:url("../img/header-img.png");
+}
+
+#image-2 {
+	display:inline-block;
+	vertical-align: middle;
+	width:100%;
+	height:182px;
+	background-image:url("../img/mid-page-accent.jpg");
+}
+.logo {
+	display:inline-block;
+	vertical-align: middle;
+	width:183px;
+	height:36px;
+	background-image:url("../img/logo.png");
+}
