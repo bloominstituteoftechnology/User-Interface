@@ -167,33 +167,42 @@ h5 {
 }
 
 header {
-    box-sizing: border-box;
     width: 100%;
-    height: 70px;
-    margin: 0 auto;
-    display: inline-block;
+    margin: auto;
 }
 
 nav {
-    margin: 0;
-    text-align: center;
-    height: 100%;
-    width: 80%;
+    width: 100%;
     display: inline-block;
+    text-align: center;
+    background: whitesmoke;
+    top: 0; 
+    position: fixed;
+    margin-bottom: 100px;
 }
 
-nav a {
-    margin:  20px 40px;
+nav .nav-links {
+    width:  75%;
+    display: inline-block;
+    margin: 15px auto;
+}
+
+.nav-links a{
+    padding: 0 20px;
+    margin: 0 20px;
     text-decoration: none;
     color: grey;
 }
 
-.logo {
-    vertical-align: middle;
-    margin: 20px 0px;
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px auto;
+	padding: 0 0 0 100px;
+
 }
 
-section, footer {
+section, footer, header {
     width: 80%;
     margin: 10px auto;
 }
@@ -203,18 +212,18 @@ footer {
     margin-bottom:  30px;
 }
 
-.heading {
-    margin-bottom: 50px;
+header {
+    margin: 50px auto;
 }
 
-.heading h1 {
+header h1 {
     font-size: 65pt;
     font-family: 'Bangers', cursive;
     display: block;
     
 }
 
-.heading .button {
+header .button {
     margin: 20px 0;
     color: black;
     display: inline-block;
@@ -222,6 +231,11 @@ footer {
     padding: 10px 0;
     border: 1px solid black;
     text-decoration: none;
+}
+
+header .button:hover {
+    background: black;
+    color: white;
 }
 
 .middle-img {
@@ -249,8 +263,8 @@ footer {
     padding: 20px;
 }
 
-.heading .wrapper{
-    height: 100%;
+header .wrapper{
+    height: 400px;
     width: 50%;
     
     padding: 20px 0;
@@ -264,4 +278,12 @@ footer {
 
 .contact {
     margin: 50px auto 100px;
+}
+
+p {
+    font-size: 15pt;
+}
+
+img {
+    max-width: 100%;
 }
