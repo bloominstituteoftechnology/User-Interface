@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,19 +12,18 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,6 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+	border: 1px solid red;
 }
 
 html, body {
@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 800px;
+	height: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+header {
+	display: block;
+	height: 35%;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	position: relative;
+	font-size: 48px;
+	text-align: center;
+	top: 100px;
+	right: 400px;
+	margin-left: 400px;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+h3 {
+	text-align: center;
+	font-size: 24px;
+}
+
+.getStarted {
+	font-family: "Russo One", sans-serif;
+	font-size: 24px;
+	position: relative;
+	width: 145px;
+	height: 35px;
+	border: 1px solid black;
+	top: 120px;
+	left: 127px;
+}
+
+
+.bigPic {
+	position: relative;
+	top: -175px;
+	left: 400px;
+}
+
+.logo {
+	position: relative;
+}
+
+nav a {
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	padding-right: 36px;
+	padding-left: 5px;
+}
+
+.middle-img {
+	position: relative;
+	width: 90%;
+	left: 41px;
+	bottom: 10px;
+}
+
+.Features {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	height: 200px;
+}
+.About {
+	display: inline-block;
+	width: 400px;
+	position: absolute;
+	height: 200px;
+}
+.Services {
+	display: inline-block;
+	width: 33%;
+	position: relative;
+	height: 230px;
+}
+.Product {
+	display: inline-block;
+	width: 33%;
+	position: relative;
+	height: 230px;
+}
+.Vision {
+	display: inline-block;
+	width: 268px;
+	position: absolute;
+	height: 230px;
+}
+address a{
+	font-size: 12px;
+	display: inline;
+	position: relative;
+	padding-left: 70px;
+	padding-right: 60px;
+	bottom: 15px;
+
+}
+h4 {
+	font-family: "Monospaced", serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+p {
+	font-family: "Shadows Into Light", serif;
+	font-size: 22px;
+	position: relative;
+	width: 90%;
+	left: 20px;
+}
+
+h6 {
+	font-family: "Shadows Into Light", serif;
+	font-size: 20px;
+	position: relative;
+	width: 85%;
+	left: 20px;
+}
+
+
+
+
