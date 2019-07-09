@@ -68,13 +68,26 @@ h1, h2, h3, h4, h5 {
 /*elements*/
 
 body{
-box-sizing: border-box;
-padding: 20px;
-margin: 0 20%;
+margin: 0 22%;
 }
 
 div{
 	width:50%;
+}
+
+h1{
+	text-align: center;
+	font-size: 90px;
+	padding: 40px;
+}
+
+header{
+	display:inline;
+	padding: 40px;
+}
+
+nav{
+	text-align:center;
 }
 
 nav a{
@@ -86,28 +99,50 @@ nav a{
 	text-transform: capitalize;
 }
 
+nav img{
+	display: inline-block;
+	padding: 30px 0 0 60px;
+}
+
 h2{
 	display:block;
 	font-size:16px;
 }
 
-header{
-	display:inline;
-	padding: 40px;
+address{
+	padding: 40px 0;
 }
 
-address{
-	padding: 100px;
+li{
+	height:2em;
 }
+
+footer{
+	text-align: center;
+}
+
+
+
 
 /*classes*/
+
+.header{
+	display:inline;
+}
 
 .container{
 	display:inline-block;
 	padding: 60px;
 }
 
+.mailing{
+	height: 3em;
+}
 
+.button{
+	display:inline;
+
+}
 .button a{
 	text-align: center;
 	display: block;
@@ -123,16 +158,19 @@ address{
 	font-size: 80px;
 }
 
-.header{
+.features{
 	display:inline;
+	margin: 5px;
+}
+
+.about{
+	display:inline;
+	margin: 5px;
+}
+
+.middle-img{
+	width: 100%;
 }
 
 /* IDs */
 
-#features{
-	display:block;
-	}
-
-#about{
-	display:inline-block;
-}
