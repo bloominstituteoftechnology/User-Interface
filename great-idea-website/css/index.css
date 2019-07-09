@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	margin: 45px;
+}
+
+nav a {
+	padding-right: 40px;
+	text-decoration: none;
+	color: #d3d3d3;
+}
+
+.logo {
+	margin-left: 175px;
+}
+
+.cta img {
+	display: inline-block;
+	
+}
+ .cta-content {
+	display: inline-block;
+	width: 50%;
+	margin: 50px auto;
+} 
+
+.cta-content h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+.cta button {
+	margin-left: 200px;
+	border: 1px solid black;
+	padding: 10px 30px;
+	background: white;
+}
+
+.main-content {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.features {
+	float: left;
+	width: 50%;
+	padding: 30px;
+	margin: 30px auto;
+}
+
+.about {
+	float: right;
+	width: 50%;
+	padding: 30px;
+	margin: 30px auto;
+}
+
+.middle-img {
+	width: 90%;
+	margin-left: 50px;
+}
+
+.services {
+	display: inline-block;
+	width: 33%;
+	float: left;
+	/* margin: 10px; */
+	padding: 30px;
+}
+
+.product {
+	display: inline-block;
+	width: 33%;
+	float: center;
+	/* margin: 10px; */
+	padding: 30px;
+}
+
+.vision {
+	display: inline-block;
+	width: 33%;
+	float: right;
+	/* margin: 10px; */
+	padding: 30px;
+}
+
+.contact {
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+small {
+	display: block;
+	text-align: center;
+	margin: 30px 0;
+}
+
+
+
+
