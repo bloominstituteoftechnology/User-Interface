@@ -64,3 +64,153 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr{
+	border: none;
+	height: 2px;
+	color: black;
+	background-color: black;
+}
+
+/* Navbar & Logo */
+.center{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.navigation-container{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	height: 100px;
+}
+.navbar{
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+}
+
+.navbar a{
+	margin-right: 120px;
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.navbar a:hover{
+	color: black;
+}
+
+.logo-container {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* Text, Button and Right Image */
+
+.showcase{
+	margin: 80px 0px;
+}
+
+.header-text{
+	display: inline-block;
+	width:60%;
+	text-align: center;
+	height: 500px;
+	vertical-align: top;
+}
+
+.header-text h1{
+	font-size: 90px;
+}
+
+.header-text a{
+	border: 2px solid black;
+	display: inline-block;
+	width: 23%;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.header-text a:hover{
+	border-color: grey;
+	color: grey;
+}
+
+.header-img-container{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+/* Main Page Content */
+
+.main-content{
+	height: 670px;
+}
+
+.features-section,
+.about-section {
+	display: inline-block;
+	width: 46%;
+	margin-top: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.features-section{
+	margin-right: 70px
+}
+
+.features-section p,
+.about-section p,
+.services-section p,
+.product-seciton p,
+.vision-section p{
+	font-size: 19px;
+}
+
+.main-content-img-container{
+	margin-bottom: 30px; 
+}
+
+.main-content-img-container .middle-img{
+	width: 100%;
+}
+
+.services-section,
+.product-seciton,
+.vision-section{
+	display: inline-block;
+	width: 28.2%;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.product-seciton {
+	margin:0px 110px;
+}
+
+address{
+	margin-top: 40px;
+}
+
+address a{
+	display: block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+address a:last-child{
+	margin-bottom: 50px;
+}
+
+footer{
+	height: 100px;
+	text-align: center;
+}
