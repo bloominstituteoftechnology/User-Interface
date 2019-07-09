@@ -86,6 +86,10 @@ header{
 	padding: 40px;
 }
 
+hr{
+	margin-bottom:60px;
+}
+
 nav{
 	text-align:center;
 }
@@ -159,17 +163,42 @@ footer{
 }
 
 .features{
-	display:inline;
-	margin: 5px;
+	display:inline-block;
+	margin-right: 20px;
+	width:45%;
+
 }
 
 .about{
-	display:inline;
-	margin: 5px;
+	display:inline-block;
+	margin-left: 20px;
+	width:45%;
+}
+
+.services{
+	display:inline-block;
+	width:33%;
+}
+
+.product{
+	display:inline-block;
+	width:33%;
+}
+
+.vision{
+	display:inline-block;
+	width:33%;
+}
+
+.contact h2{
+padding-top: 30px;
+margin: 0;
 }
 
 .middle-img{
 	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 /* IDs */
