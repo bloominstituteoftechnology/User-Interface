@@ -62,5 +62,116 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	margin: 0 22px;
+	color: grey;
+	text-decoration:none;
+	position: relative;
+	top: -50px;
+	
+
+}
+.logo{
+	margin-bottom:50px;
+	margin-left:60px;
+	margin-top:10px;
+	position: relative;
+	right: -60px;
+	position: relative;
+	bottom: -10px;
+
+	
+}
+.bigtitle{
+	height:175px;
+	width:350px;
+	font-size:75px;
+	font-family: 'Bangers', cursive;
+	text-align:center;
+	margin-left:60px;
+	display:inline-block;
+	margin-right:80px;
+	position: relative;
+	top: -100px;
+}
+
+.button1 {
+	border: 1px solid black;
+	height: 25px;
+	width: 110px;
+	margin-left: 175px;
+	position: relative;
+	top: -85px;
+}
+.content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height:515px;
+	width:900px;
+	margin-top:40px;
+}
+.features{
+	
+	height: 100px;
+	width: 440px;
+	display:inline-block;
+	margin-bottom:20px;
+}
+.about{
+	
+	height: 100px;
+	width: 440px;
+	display:inline-block;
+	margin-top: 30px;
+}
+.middle-img{
+	display:block;
+	margin:auto;
+}
+.services{
+
+	height: 133px;
+	width: 285px;
+	display:inline-block;
+	margin-top: 30px;
+	margin-right:10px;
+}
+.product{
+	
+	height: 133px;
+	width: 285px;
+	display:inline-block;
+	margin-right: 10px;
+}
+.vision{
+	
+	height: 133px;
+	width: 285px;
+	display:inline-block;
+}
+
+footer h3{
+	margin-top:30px;
+}
+#copyright{
+	margin-bottom:70px;
+	text-align: center;
+	margin-top:40px;
+}
+footer address{
+	margin-bottom:15px;
+}
+footer #p1{
+	margin-bottom:15px;
+}
