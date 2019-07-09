@@ -150,6 +150,9 @@ h5 {
 }
 
 /* Your code starts here! */
+.logo {
+  vertical-align: text-bottom;
+}
 .container {
   width: 1300px;
   margin: 0 auto;
