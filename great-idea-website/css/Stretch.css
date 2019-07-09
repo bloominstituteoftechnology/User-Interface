@@ -1,0 +1,7 @@
+
+/* Goal: Introdeuce a new font family from Google Fonts  */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+}
