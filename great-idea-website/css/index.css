@@ -54,13 +54,13 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Anaheim', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Electrolize', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    
 }
 
 /* Your code starts here! */
@@ -78,7 +78,8 @@ div{
 h1{
 	text-align: center;
 	font-size: 90px;
-	padding: 40px;
+	margin-bottom: 40px;
+	
 }
 
 header{
@@ -92,6 +93,7 @@ hr{
 
 nav{
 	text-align:center;
+	margin-bottom: 60px;
 }
 
 nav a{
@@ -110,7 +112,9 @@ nav img{
 
 h2{
 	display:block;
-	font-size:16px;
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom:6px;
 }
 
 p{
@@ -118,7 +122,8 @@ p{
 }
 
 address{
-	padding: 40px 0;
+	padding: 0 0 40px 0;
+	margin-top:6px;
 }
 
 li{
@@ -149,16 +154,17 @@ footer{
 
 .button{
 	display:inline;
-
 }
 .button a{
 	text-align: center;
+	font-size: 18px;
 	display: block;
+	width: 50%;
 	border: 1px solid black;
-	padding: 20px;
+	padding: 15px;
 	text-decoration: none;
 	color:black;
-	margin: 20px;
+	margin: auto;
 }
 
 .title{
