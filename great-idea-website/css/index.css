@@ -187,11 +187,33 @@ nav .nav-links {
     margin: 15px auto;
 }
 
+
+
 .nav-links a{
-    padding: 0 20px;
-    margin: 0 20px;
+    padding: 20px 40px;
+    margin: 0px;
     text-decoration: none;
     color: grey;
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    color: black;
+    border: 1px solid black;
+    animation-name: nav;
+    animation-duration: 500ms; 
+    background: gray;
+}
+
+@keyframes nav {
+    from {
+        color: grey;
+        background: whitesmoke;
+    }
+    to {
+        color:black;
+        background: gray;
+    }
 }
 
 .logo{
@@ -231,11 +253,25 @@ header .button {
     padding: 10px 0;
     border: 1px solid black;
     text-decoration: none;
+    background: whitesmoke;
 }
 
 header .button:hover {
     background: black;
     color: white;
+    animation-name: button;
+    animation-duration: 500ms;
+}
+
+@keyframes button {
+    from {
+        background: whitesmoke;
+        color: black;
+    }
+    to {
+        background: black;
+        color: white;
+    }
 }
 
 .middle-img {
