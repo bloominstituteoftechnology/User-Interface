@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,46 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* * {
+	box-sizing: 0;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 1px solid grey !important;
+} */
+
+body {
+  display: inline;
+  width: 900px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+
+}
+
+header {
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  margin: 20px 0;
+  padding: 30px;
+  width: 800px;
+  text-align: left;
+}
+
+
