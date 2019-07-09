@@ -64,3 +64,51 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.border {
+	margin:auto;
+	width: 900px;
+	border: 1px solid red;
+}
+
+nav{
+	border: 1px solid red;
+	display:inline-block;
+}
+
+.greatidea{
+	border: 1px solid red;
+	display:inline-block;
+}
+
+.ctaleft{
+	border: 1px solid blue;
+	display:inline-block;
+}
+
+.ctaright{
+	border: 1px solid red;
+	display:inline-block;
+}
+
+.main{
+	border: 1px solid blue;
+	display:inline-block;
+}
+
+/*
+.main1{
+	border: 1px solid red;
+	display:inline-block;
+}
+
+.main2{
+	border: 1px solid red;
+	display:inline-block;
+}
+*/
+
+.bigpic{
+	border: 1 px solid red;
+	display:inline-block;
+}
