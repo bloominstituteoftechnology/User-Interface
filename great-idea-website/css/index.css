@@ -72,11 +72,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .toolbar {
-	margin: 40px;
+	margin: 30px;
+	color:lightgray;
+	text-decoration: none;
 }
 
 .logo {
-	display:inline-block;
+	display: inline-block;
 }
 
 #startbutton {
@@ -84,40 +86,65 @@ h1, h2, h3, h4, h5 {
 	Margin: 20px;
 	padding: 5px 20px; 
 	border: 2px solid black; 
+	margin-left: 200px;
+	padding-right: 30px;
+	padding-left: 30px;	
+	color: black;
+	/* font-size: 25%; */
+	height: 50px;
+	width: 150px;
+	padding-top: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	text-decoration: none;
 }
 
 nav {
 	display: inline-block;
 	margin-top: 20px;
+	margin-left: 100px;
+	text-decoration: none;
 }
 
 .titlediv {
 	text-align: left;
+	margin-left: 130px;
 }
 
 .title {
 	display:inline-block;
 	font-size: 500%;
-	border: 2px solid black;
 	text-align: center;
+	margin-top: 120px;
 }
 
 .pic1 {
 	display:inline-block;
 	margin-top: 100px;
-	border: 2px;
+	position: absolute; right: 200px; top: 0px;
+	margin-bottom: 400px;
 }
 
 h1 {
 	display: inline-block;
-	width: 49%;
-	border: 2px solid black;
+	width: 30%;
+	
 }
 
 div .class1 {
 	display: inline-block;
-	width: 49%;
-	border: 2px solid black;
+	width: 43%;
+	margin-left: 130px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size:115%;
+	/* margin-right:  */
+}
+
+div .class3 {
+	display: inline-block;
+	width: 43%;
+	font-size:115%;
 }
 
 /* p {
@@ -125,6 +152,49 @@ div .class1 {
 	width: 50%;
 } */
 
-#About {
-	
+.middle-img {
+	margin-left: 130px;
+}
+
+div .middlesection {
+	margin-left: 130px;
+}
+
+div .class2 {
+	display:inline-block;
+	width: 25%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	font-size: 115%;
+	margin-right: 70px;
+}
+
+div .spacing {
+	display: inline-block;
+	margin: 10px;
+	margin-left: 0px;
+	text-align:left;
+	width: 100%;
+}
+
+div .s2 {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	text-align:left;
+}
+
+.ci {
+	display:inline-block; 
+	margin-left: 130px;
+	font-size: 110%;
+}
+
+div .copyright {
+	display:inline-block;
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 100px;
 }
