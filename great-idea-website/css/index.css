@@ -79,18 +79,23 @@ html {
 	width: 66%;
 	margin: 0 auto;
 }
+
+/* NAVIGATION */
+
 nav {
-	border: 1px solid orange;
-	height: 40px;
+	/* border: 1px solid orange; */
+	margin-top: 10px;
 }
 nav a{
 	color:lightgray;
 	text-decoration: none;
 	margin: 25px;
 	}
-a {
-	border: 1px solid black;
-}
+/* a {
+	 border: 1px solid black; 
+} */
+
+/* HEADER */
 
 .logo {
 	position: fixed;
@@ -98,12 +103,12 @@ a {
 	right: 170px;
 	margin-right: 60px;
 	width: 190px;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 .heading {
 	width: 100%;
 	padding: 10px;
-	border: 1px solid dodgerblue;
+	/* border: 1px solid dodgerblue; */
 	display: inline-block;
 	margin-bottom: 60px;
 	
@@ -112,19 +117,19 @@ a {
 	display: inline-block;
 	width: 40%;
 	margin: 0 auto;
-	margin-left: 60px;
+	margin-left: 70px;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 60px;
+	padding-top: 90px;
 	padding-bottom: 10px;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 .right {
 	vertical-align: middle;
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 70px;
 	margin-left: 60px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 h1 {
 	font-size: 70px;
@@ -140,36 +145,44 @@ button {
 	padding: 5px 35px;
 	margin-top: 20px;
 	font-size: 18px;
+	background-color: white;
 	border: 1px solid black;
 }
 hr {
 	border: 2px solid lightgray;
+	margin-bottom: 40px;
 }
+
+/* TOP 2 PARAGRAPHS */
+
 .section2 div {
 	display: inline-block;
 	width: 49%;
 	line-height: 1.15;
 	margin: 0 auto;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .middle-img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+/* BOTTOM PARAGRAPHS */
+
 .section3 div {
 	display: inline-block;
 	width: 32%;
 	margin: 0 auto;
-	padding: 10px 10px 10px 0;
-	border: 1px solid green;
+	padding: 10px;
+	/* border: 1px solid green; */
 }
+/* CONTACT/FOOTER */
+
 .contact {
-	width: 90%;
-	margin: 0 auto;
 	margin-top: 20px;
 }
-.footer {
+footer {
 	text-align: center;
 	margin-bottom: 50px;
 }
