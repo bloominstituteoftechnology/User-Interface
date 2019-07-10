@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	padding:40px;
+}
+.nav{
+	/* THIS IS THE STRETCH */
+	background-color: royalblue;
+	position: fixed;
+	top:0;
+}
+
+.topImages{
+	margin-top:30px;
+}
+
+.nav a{
+	box-sizing: border-box;
+	display: inline-block;
+	text-decoration: none;
+	color: lightgrey;
+	padding: 35px;
+	vertical-align: 73%;
+	/* border: 1px solid red; */
+}
+
+.nav img{
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 40px;
+	/* border: 1px solid pink; */
+}
+
+
+h1.IODImage{
+	 /* border: 2px solid purple;  */
+	display: inline-block;
+	padding:10px;
+	margin-right: 50px;
+	width:43%;
+	text-align: center;
+	font-size: 65px;
+	vertical-align: 100%;
+}
+
+.startbutton{
+	box-sizing: border-box;
+	display: inline-block;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 40px;
+	padding: 5px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.codeSnip{
+	/* border: 2px solid sienna; */
+	box-sizing: border-box;
+	padding: 40px;
+	display: inline-block;
+	max-width:100%;
+}
+
+section .topImages{
+	/* border: 2px solid salmon; */
+	display: inline-block;
+	box-sizing: border-box;
+
+}
+
+.topText{
+	border-top: 2px solid black;
+	align-content: center;
+	
+}
+
+.featuresText {
+	/* border: 2px solid sandybrown; */
+	display: inline-block;
+	/* box-sizing: border-box; */
+	margin: 40px 20px 40px 20px;
+	width: 35%;
+}
+.aboutText {
+	/* border: 2px solid sandybrown; */
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 40px 20px 40px 20px;
+	width: 35%;
+}
+
+.midimage .middle-img{
+	/* border: 2px solid red; */
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 0 40px 5%;
+	
+}
+.services{
+	/* border: 2px solid sandybrown; */
+	display: inline-block;
+	/* box-sizing: border-box; */
+	margin: 20px 20px 20px 20px;
+	width:25%;
+}
+
+.product{
+	/* border: 2px solid sandybrown; */
+	display: inline-block;
+	/* box-sizing: border-box; */
+	margin: 20px 0px 0px 20px;
+	width:25%;
+}
+
+.vision{
+	/* border: 2px solid sandybrown; */
+	display: inline-block;
+	/* box-sizing: border-box; */
+	margin: 20px 40px 20px 20px;
+	width:25%;
+}
+.bottomText{
+	border-bottom: 2px solid black;
+	align-content: center;
+	
+}
+
+
+.contact{
+	/* border: 2px solid red; */
+	margin: 20px;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 40px;
+}
