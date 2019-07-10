@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	margin: 0 auto 30px auto;
+	/*border: 1px solid salmon; */
+}
+
+nav{
+display: inline-block;
+/*border: 1px solid chocolate; */
+/* scrollable*/
+overflow: hidden;
+background-image:radial-gradient(purple,cornflowerblue);
+position:fixed;
+top:0;
+width:876px;
+}
+nav a{
+	font: Titillium;
+	color:lightgray;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight:bold;
+	text-align:center;
+	margin: 10px 38px 0 10px;
+	/*border: 1px solid black; */
+	/* scroll */
+	float: left;
+	display: block;
+}
+nav a:hover{
+	color:purple;
+	background-color:cornflowerblue;
+}
+.title{
+	margin-bottom: 50px;
+	/* border: 1px solid cyan; */
+}
+.title img{
+	display:inline-block;
+}
+.title .title-text{
+	width:400px;
+	height:376px;
+	display:inline-block;
+	padding:20px;
+	/* border: 1px solid green; */
+	font-size:80px;
+	text-align: center;
+	vertical-align: top;
+}
+.title button{
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	padding: 05px 30px;
+	font-size:20px;
+}
+@keyframes button-change{
+	from{background-color: white;}
+	to{color:white;border-color:tomato;background-image:radial-gradient(blue,black)}
+}
+.title	button:hover{
+	/* animation */
+	animation-name: button-change;
+	animation-duration: 2s;
+}
+
+.text h4{
+	font-family: Bahianita;
+	font-size: 20px;
+}
+.text{
+	display:inline-block;
+	font-style: Titillium;
+	color:rgb(64, 64, 64);
+	/* border: 1px solid orange; */
+}
+.top{
+	border-top: 1px solid rgb(64, 64, 64);
+}
+.top .text{
+	/* border: 1px solid blue; */
+	width: 400px;
+	margin: 10px auto;
+	padding: 30px 20px 30px 0;
+}
+.bottom{
+	border-bottom:1px solid rgb(64, 64, 64);
+}
+.bottom .text{
+	width: 260px;
+	margin:10px 20px 30px 0;
+	padding:30px 0;
+}
+.container {
+	width: 876px;
+	margin: 40px;
+	/* border: 1px solid red; */
+}
+.contact{
+	margin: 30px auto;
+	color: rgb(64, 64, 64)
+}
+.contact p{
+	margin:10px 0 0 0;
+}
+footer{
+text-align: center;
+margin:15px 0;
+color: rgb(64, 64, 64);
+}
