@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,64 +67,66 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	box-sizing: border-box;
+}
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
 .container {
-	width: 800px;
+	width: 66%;
 	margin: 0 auto;
 }
-a {
-	color:black;
-	text-decoration: none;
-	margin: 15px;
-	}
-
 nav {
-	width: 68%;
-	margin: 0 auto;
-	margin-top: 20px;
-	border: 1px solid green;
+	border: 1px solid orange;
+	height: 40px;
+}
+nav a{
+	color:lightgray;
+	text-decoration: none;
+	margin: 25px;
 	}
+a {
+	border: 1px solid black;
+}
 
 .logo {
-	 position: fixed;
-	 top: 10px;
-	 right: 0;
-	 margin-right: 200px;
-	 width: 180px;
+	position: fixed;
+	top: 0;
+	right: 170px;
+	margin-right: 60px;
+	width: 190px;
+	border: 1px solid green;
 }
-
 .heading {
-	width: 800px;
-	margin: 20px;
+	width: 100%;
 	padding: 10px;
+	border: 1px solid dodgerblue;
 	display: inline-block;
-	border: 1px solid orange;
-
-	}
+	margin-bottom: 60px;
 	
-.image1 {
-	margin: 20px;
-	border: 1px solid red;
 }
-
 .innovation {
 	display: inline-block;
-	width: 60%;
+	width: 40%;
 	margin: 0 auto;
+	margin-left: 60px;
 	text-align: center;
-	vertical-align: middle;	
-	border: 1px solid blue;
+	vertical-align: middle;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	border: 1px solid green;
 }
-
 .right {
 	vertical-align: middle;
 	display: inline-block;
-	border: 1px solid brown;
+	margin-top: 60px;
+	margin-left: 60px;
+	border: 1px solid red;
 }
-
- h1 {
+h1 {
 	font-size: 70px;
 	text-align: center;
 	}
@@ -132,39 +137,39 @@ h2 h3{
 }
 button {
 	color: black;
+	padding: 5px 35px;
+	margin-top: 20px;
+	font-size: 18px;
+	border: 1px solid black;
 }
-.section2 section {
+hr {
+	border: 2px solid lightgray;
+}
+.section2 div {
 	display: inline-block;
 	width: 49%;
 	line-height: 1.15;
 	margin: 0 auto;
-	padding: 10px 10px 10px 0;
+	border: 1px solid red;
 }
 .middle-img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.section3 section {
+.section3 div {
 	display: inline-block;
 	width: 32%;
 	margin: 0 auto;
 	padding: 10px 10px 10px 0;
+	border: 1px solid green;
 }
 .contact {
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
-	
 }
 .footer {
 	text-align: center;
 	margin-bottom: 50px;
-}
-
-/* FEATURES PAGE STARTS HERE */
-.header {
-	text-align: center;
-	margin: 20px;
-	/* background: linear-gradient(mintcream, blue); */
 }
