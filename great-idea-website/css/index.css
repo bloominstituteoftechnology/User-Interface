@@ -64,3 +64,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.contact :hover {
+	text-align: left;
+	padding: 20px;
+	color: aquamarine
+}
+
+.innovation {
+	width: 100px;
+	font-size: 110px;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	padding: 10px;
+	
+}
+ 
+.bottom-content {
+	text-align: left;
+	padding: 20px;
+}
+
+.services {
+	width: 100px;
+	height: 99px;
+
+}
+
+.top-content {
+	text-align: center;
+	padding: 20px;
+}
+
+.logo {
+	
+	position: absolute;
+	right: 100px;
+    top: 50px;
+    z-index: +4;
+}
+
+.top-image {
+	position: relative;
+	left: 300px;
+    top: 100px;
+	padding: 10px;
+}
+
+.middle-img {
+	padding:30px;
+}
+
+.features {
+	position: relative;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+
+body { 
+	background-color: coral;}
+
+header {
+	display :block;
+}	
+
+.button {
+	border-bottom-color: blue
+}
+
