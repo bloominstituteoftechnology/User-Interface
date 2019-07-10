@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	background: black;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+	background: white;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+	opacity: 0.5;
+	transition: 0.8s;
+}
+
+header nav a:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+header .logo {
+	margin-left: 140px;
+}
+
+.cta {
+	margin-bottom: 100px;
+}
+
+.cta h1 {
+	font-size: 90px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+.cta .header-img {
+	display: inline-block;
+	float: right;
+	margin-top: 70px;
+	margin-right: 50px;
+}
+
+.cta .btn {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	color: black;
+	padding-top: 15px;
+	margin-left: 145px;
+	font-size: 22px;
+	font-family: Arial;
+	opacity: 0.5;
+	transition: 0.8s;
+}
+
+.cta .btn:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+hr {
+	color: black;
+	font-weight: bold;
+}
+
+.main-content {
+	margin: 40px 0;
+}
+
+.main-content .two-boxes {
+	width: 45%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-content .two-boxes .right {
+	float: right;
+}
+
+.main-content .center-photo {
+	text-align: center;
+}
+
+.main-content .middle-img {
+	margin: 40px 0;
+
+}
+
+.main-content .three-boxes {
+	width: 29%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-content .three-boxes .right {
+	float: right;
+}
+
+.contact {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.copyright p {
+	margin: 40px 0;
+	text-align: center;
+}
