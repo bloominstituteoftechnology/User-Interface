@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+h1 {
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.container {
+	width: 900px;
+	margin: auto;
+	
+}
+header nav {
+	display: inline-block;
+	
+}
+
+header nav a {
+	margin: 0 20px;
+	color: grey;
+	text-decoration:none;
+}
+.logo {
+	text-align: right;
+}
+#small {
+		text-align: right;
+		padding: 5px;
+		vertical-align: text-bottom;
+}
+	
+
+#first {
+	font-size: 75px;
+	padding: 100px;
+	text-align: center;
+	display:inline-block;
+}
+
+
+
+img.big {
+  position: relative;
+  padding: 1px;
+ 
+}
+
+
+h5 {
+	display: inline-block;
+	box-sizing: border-box;
+	background: white;
+	border: 2px solid grey;
+	padding: 25px;
+	margin: 50px 50px 10px 10px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	position: relative;;
+}
+
+
+
+img  .middle-img {
+	text-align: center;
+}
+
+
+
+.br {
+	margin-top: 10px;
+}
+
+nav .vision {
+  display:inline-block;
+  height:100px;
+  margin:10px;
+}
+
+div #top{
+	display: inline-block;
+}
+
+div {
+  display:inline-block;
+  }
+
+hr {
+	color: black;
+}
+
+
+.the {
+	text-align: center;
+}
