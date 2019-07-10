@@ -65,76 +65,92 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+*{
+	margin: 50px;
+}
 
 
-
-.navigation{
-	margin: 0 10px;
-	padding: 18px;
+.navigation .anchor a{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 50px;
+	margin-right: 20px;
 	display:inline-block;
-
 }
 
-
-
-header{
-	display: flex;
-	align-content: right;
-	margin: 20px 0;
-	padding-left:30px;
-	padding-right:30px;
+.logo{
+	padding: 20px;
+	padding-top:10px;
 }
+/* .anchor{
+	display:inline;
+	padding:350px;
+	width: 100px;
+} */
 
+.header{
+	display:inline-block;
+	width: 100px;
+	padding: 50px;
+	margin:80px;
+
+}
+.middle-section{
+	display:inline-block;
+	width: 400px;
+	margin: 80px;
+}
 h1{
-	font-size: 40px;
+	font-size: 60px;
+	width: 100px;
+	padding-top: 30px;
+	text-align:center;
 }
 
 button{
+	width: 200px;
+	height: 30px;
 	margin:5px;
-	padding 5px;
-}
-.top-content{
-	display: flex;
-	width:95%;
-	margin-top:20px;
-
 
 }
+
 
 .middle-img{
 	width:96%;
-	margin:20px;
+	margin:40px;
 }
 
-.bottom-content{
-	display: flex;
-	width:96%
-	margin:20px;
-	padding: 15px;
-
+.bottom-section{
+	margin: 80px;
+	display:inline-block;
+	width: 250px;
 }
 
-.contact{
-	text-align: left;
+.bottom-contact{
+	width: 40px;
+	text-align:left;
+	display: inline;
 
 }
 
 footer{
-	text-align: center;
-	padding:0;
 	margin:100px;
 }
-.logo{
-	display:inline;
+
 
 }
 
-header{
-	display:inline-block;
-}
+
 .header-img{
 	display:inline-block;
 }
-.logo2{
-	display:inline;
+
+
+.copyright{
+	text-align:center;
 }
+
+.logo2{
+	margin-left: 0px;
+}
+
