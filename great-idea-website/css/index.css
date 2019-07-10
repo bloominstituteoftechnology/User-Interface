@@ -61,9 +61,10 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Russo One', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 /* Your code starts here! */
@@ -85,15 +86,17 @@ html {
 nav {
 	/* border: 1px solid orange; */
 	margin-top: 10px;
+	position: fixed;
+	background: linear-gradient(0.25turn, #009FFE, #AFFFD9, #FEAAF5);
 }
 nav a{
-	color:lightgray;
+	color: black;
 	text-decoration: none;
 	margin: 25px;
 	}
-/* a {
-	 border: 1px solid black; 
-} */
+a:hover {
+	color: aliceblue;
+}
 
 /* HEADER */
 
@@ -118,10 +121,13 @@ nav a{
 	width: 40%;
 	margin: 0 auto;
 	margin-left: 70px;
+	margin-top: 70px;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 90px;
+	padding-top: 40px;
 	padding-bottom: 10px;
+	border-radius: 40px;
+	background: radial-gradient(closest-side, #AFFFD9, #FEAAF5, #009FFE);
 	/* border: 1px solid green; */
 }
 .right {
@@ -132,7 +138,7 @@ nav a{
 	/* border: 1px solid red; */
 }
 h1 {
-	font-size: 70px;
+	font-size: 60px;
 	text-align: center;
 	}
 
@@ -145,8 +151,12 @@ button {
 	padding: 5px 35px;
 	margin-top: 20px;
 	font-size: 18px;
-	background-color: white;
+	background-color: #AFFFD9;
 	border: 1px solid black;
+}
+button:hover {
+	background: #009FFE;
+	color: white;
 }
 hr {
 	border: 2px solid lightgray;
@@ -162,10 +172,12 @@ hr {
 	margin: 0 auto;
 	/* border: 1px solid red; */
 }
+
 .middle-img {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background-image: image(img/mid-page-accent.jpg)
 }
 
 /* BOTTOM PARAGRAPHS */
@@ -185,4 +197,7 @@ hr {
 footer {
 	text-align: center;
 	margin-bottom: 50px;
+}
+.contact, footer {
+	background: linear-gradient(0.25turn, #009FFE, #AFFFD9, #FEAAF5);
 }
