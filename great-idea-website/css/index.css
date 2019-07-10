@@ -82,6 +82,7 @@ nav {
 
 nav .nav-links {
     width:  75%;
+    border: 1px solid whitesmoke;
     display: inline-block;
     margin: 15px auto;
 }
