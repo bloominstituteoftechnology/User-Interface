@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+	max-width: 100%;
+	border: 1px solid lightblue;
+}
+nav{
+	width: 100%;
+    display: inline-block;
+}
+a {
+	margin: 1% 4.5%;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+
+}
+.logo {
+	margin-left: 5.5%;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	margin-top: 4%;
+	padding-bottom: 3%;
+}
+.leftHeader {
+	text-align: center;
+	margin-left: 20%;
+	width: 20%;
+	font-size: 80px;
+	display: inline-block;
+}
+button {
+	border: 1px solid black;
+	padding: 2% 10%;
+	background: white;
+	vertical-align: top;
+	font-size: 16px;
+}
+.headerImg {
+	margin-left: 20%;
+}
+
+.content1 {
+	border-top: 1px solid black;
+	width: 60%;
+	margin: 0% auto;
+	padding: 3%;
+}
+
+.topHalf {
+	display: inline-block;
+	margin: 2%;
+	width: 38%;
+	
+}
+.about {
+	margin-left: 15%;
+}
+.middle-img {
+	display: inline-block;
+	width: 60%;
+	margin: 0% 20%;
+}
+
+.content2 {
+	border-bottom: 1px solid black;
+	width: 60%;
+	margin: 0% auto;
+	padding: 4%;
+}
+.bottomHalf {
+	display: inline-block;
+	margin: .4%;
+	width: 30%;
+}
+section.contact {
+	margin: 0% 20%;
+	padding: 3% 0%
+}
+section.p {
+	margin: 0% auto;
+}
+footer {
+	font-size: 14px;
+    margin: 0% 43%;
+}
