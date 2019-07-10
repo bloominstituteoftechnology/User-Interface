@@ -1,3 +1,82 @@
+@-webkit-keyframes text-shadow-pop-top {
+	0% {
+	  text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	}
+	100% {
+	  text-shadow: 0 -1px #555555, 0 -2px #555555, 0 -3px #555555, 0 -4px #555555, 0 -5px #555555, 0 -6px #555555, 0 -7px #555555, 0 -8px #555555;
+	  -webkit-transform: translateY(8px);
+			  transform: translateY(8px);
+	}
+  }
+  @keyframes text-shadow-pop-top {
+	0% {
+	  text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	}
+	100% {
+	  text-shadow: 0 -1px #555555, 0 -2px #555555, 0 -3px #555555, 0 -4px #555555, 0 -5px #555555, 0 -6px #555555, 0 -7px #555555, 0 -8px #555555;
+	  -webkit-transform: translateY(8px);
+			  transform: translateY(8px);
+	}
+  }
+
+@-webkit-keyframes vibrate-1 {
+	0% {
+	  -webkit-transform: translate(0);
+			  transform: translate(0);
+	}
+	20% {
+	  -webkit-transform: translate(-2px, 2px);
+			  transform: translate(-2px, 2px);
+	}
+	40% {
+	  -webkit-transform: translate(-2px, -2px);
+			  transform: translate(-2px, -2px);
+	}
+	60% {
+	  -webkit-transform: translate(2px, 2px);
+			  transform: translate(2px, 2px);
+	}
+	80% {
+	  -webkit-transform: translate(2px, -2px);
+			  transform: translate(2px, -2px);
+	}
+	100% {
+	  -webkit-transform: translate(0);
+			  transform: translate(0);
+	}
+  }
+  @keyframes vibrate-1 {
+	0% {
+	  -webkit-transform: translate(0);
+			  transform: translate(0);
+	}
+	20% {
+	  -webkit-transform: translate(-2px, 2px);
+			  transform: translate(-2px, 2px);
+	}
+	40% {
+	  -webkit-transform: translate(-2px, -2px);
+			  transform: translate(-2px, -2px);
+	}
+	60% {
+	  -webkit-transform: translate(2px, 2px);
+			  transform: translate(2px, 2px);
+	}
+	80% {
+	  -webkit-transform: translate(2px, -2px);
+			  transform: translate(2px, -2px);
+	}
+	100% {
+	  -webkit-transform: translate(0);
+			  transform: translate(0);
+	}
+  }
+  
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -69,12 +148,25 @@ body{
 	margin: 5% 25%;
 }
 
+nav{
+	background: lightblue;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	width: 50%;
+}
+
 nav a{
 	display: inline-block;
 	color: grey;
 	width: 10%;
 	height: 50px;
 	margin: 10px;
+}
+
+nav a:hover{
+	-webkit-animation: text-shadow-pop-top 0.6s both;
+	animation: text-shadow-pop-top 0.6s both;
 }
 
 nav img{
@@ -97,6 +189,7 @@ nav img{
 .title h1{
 	font-size: 3.5em;
 	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 .getStarted{
@@ -104,6 +197,12 @@ nav img{
 	text-align: center;
 	margin: 20px 100px 20px 100px;
 	padding: 10px 40px 10px 40px;
+
+}
+
+.getStarted:hover{
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	animation: vibrate-1 0.3s linear infinite both;
 }
 
 hr{
@@ -137,4 +236,8 @@ hr{
 
 footer h2{
 	margin-top: 20px;
+}
+
+img{
+	z-index: -1;
 }
