@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 1px solid red !important; */
 }
 
 html, body {
@@ -64,3 +65,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 90%;
+	margin: auto;	
+}
+
+/* Header */
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 30px;
+	text-decoration: none;
+	color:grey;
+}
+
+header img {
+	margin-left: 20%;
+	display: inline;
+}
+
+/* CTA */
+
+h1 {
+	font-size: 5rem;
+}
+
+button {
+	text-decoration: none;
+	border 1px solid grey;
+}
+
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.cta-text button {
+	font-size: 1rem;
+	border: 1px solid black;
+	padding: 1% 5%;
+}
+
+.cta {
+	padding: 5% 5%;
+}
+
+/* Main Content */
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main-content img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 80%;
+}
+
+.text-content-top {
+	display: inline-block;
+	padding: 4%;
+	width: 45%;
+}
+
+.text-content-bottom {
+	display: inline-block;
+	padding: 3%;
+	width: 30%;
+}
+
+/* contact */
+
+.contact {
+	width: 35%;
+	margin-top: 5%;
+	display: block;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	padding: 5% 10%;
+}
