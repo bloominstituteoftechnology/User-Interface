@@ -80,8 +80,16 @@ header nav {
 
 header nav a {
   margin: 0 20px;
-  color: gray;
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  background-color: silver;
 }
 
 img {
@@ -94,7 +102,7 @@ header .logo {
 }
 
 .code-snippet {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
   align-self: center;
   border-bottom: 1px solid black;
@@ -102,8 +110,8 @@ header .logo {
 
 .snippet-text {
   display: inline-block;
-  font-size: 60px;
-  height: 400px;
+  font-size: 80px;
+  bottom: 40px;
 }
 
 h1 {
@@ -119,14 +127,16 @@ h1 {
 button {
   width: 130px;
   height: 35px;
+  margin: 10px 192px;
+  margin-bottom: 80px;
   background: white;
   border: 1px solid black;
 }
 
-.button {
-  margin-left: 150px;
-  margin-bottom: 50px;
-}
+/* .button {
+  margin-left: 188px;
+  margin-bottom: 10px;
+} */
 
 .main-content {
   border-bottom: 1px solid black;
@@ -151,7 +161,7 @@ p {
 .info-text {
   display: inline-block;
   height: 100px;
-  width: 250px;
+  width: 252px;
   margin: 20px;
 }
 
