@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 1024px;
+	margin: auto;
+}
+
+
+
+nav{
+	display: inline-block;
+	width: 100%;
+	
+}
+
+nav a{
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+	padding: 30px 4%;
+	color: lightslategray;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.logo{
+	vertical-align: middle;
+	padding: 0 1%;
+}
+
+header{
+	padding: 5% 0;
+}
+
+
+.first{
+	width: 1024px;
+	height: 500px;
+	display: inline-block;
+
+}
+
+#circle{
+	width: 400px;
+	display: inline-block;
+	margin-right: 0;
+
+	
+}
+
+#slogan{
+	text-align: center;
+	font-size: 5em;
+	display: inline-block;
+	padding: 30px 5% 0 5%;
+	
+}
+
+button{
+	border: 1px black solid;
+	font-family: 'Titillium Web', sans-serif;
+	background: white;
+	display: block;
+	align-content: center;
+	margin: 0 23%;
+	width: 150px;
+	height: 35px;
+	font-size: 20px;
+	margin-top: 25px;
+
+}
+
+button:hover{
+	background: lightblue;
+	transition: .4s;
+}
+
+#firsthalf{
+	vertical-align: middle;
+
+	width: 50%;
+	display: inline-block;
+	
+
+}
+
+#secondhalf{
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	
+}
+
+
+
+
+h2{
+	font-size: 20px; 
+}
+
+h2, p{
+	padding: 0 5%;
+}
+
+.second{
+	width: 1024px;
+	margin-bottom: 20px;
+}
+
+.second div{
+	display: inline-block;
+	width: 49%; 
+	padding: 0px 20px 0px 0px;
+}
+
+.third{
+	width: 1024px;
+	margin: 20px 0;
+	padding: 0 0 20px 0;
+}
+
+.third div{
+	width: 33%;
+	margin: auto;
+	display: inline-block;
+	padding: 0px 0;
+}
+
+.middle-img{
+	width: 100%;
+	margin: auto;
+	padding: 10px 0;
+}
+
+address{
+	display: inline;
+}
+
+#contactinfo{
+	padding: 20px 0;
+}
+
+hr{
+	width: 1024px;
+	align-content: center;
+	margin: auto;
+}
+
+footer{
+	padding: 5% 40%;
+}
