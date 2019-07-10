@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +63,78 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+body{
+	margin: 5% 25%;
+}
+
+nav a{
+	display: inline-block;
+	color: grey;
+	width: 10%;
+	height: 50px;
+	margin: 10px;
+}
+
+nav img{
+	display: inline-block;
+	color: grey;
+	width: auto;
+	height: auto;
+	max-width: 15%;
+	max-height: 10%;
+}
+
+.innovation{
+	width: 45%;
+	border: 5px black;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.title h1{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.getStarted{
+	border: 1px solid black;
+	text-align: center;
+	margin: 20px 100px 20px 100px;
+	padding: 10px 40px 10px 40px;
+}
+
+hr{
+	height: 2px;
+	background: gray;
+	margin: 25px 0px;
+}
+
+.firstPart{
+  width: 49%;
+  height: 100px;
+  display: inline-block;
+}
+
+.middle-img{
+	width: 100%;
+	margin: 20px 20px 0px 0px;
+}
+
+.secondPart{
+	width: 30%;
+	height: 100px;
+	margin: 20px 20px 0px 0px;
+	display: inline-block;
+}
+
+.copywright{
+	text-align: center;
+	margin: 20px;
+}
+
+footer h2{
+	margin-top: 20px;
+}
