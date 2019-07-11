@@ -66,71 +66,76 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 *{
-	margin: 50px;
+	margin: 80px;
 }
 
-
-.navigation .anchor a{
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-left: 50px;
-	margin-right: 20px;
-	display:inline-block;
+.container .anchor{
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-
-.logo{
-	padding: 20px;
-	padding-top:10px;
-}
-/* .anchor{
-	display:inline;
-	padding:350px;
-	width: 100px;
-} */
+	.anchor{
+		text-decoration: none;
+		
+	}
+	
 
 .header{
-	display:inline-block;
-	width: 100px;
-	padding: 50px;
-	margin:80px;
-
-}
-.middle-section{
-	display:inline-block;
-	width: 400px;
 	margin: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
+
+
+.middle-section{
+	display: flex;
+	flex-direction: row;
+margin-left: 40px;
+padding: 20px;
+	
+}
+.info1-2{
+	width: 45%;
+	margin-left:40px;
+	
+}
+/* .info2{
+	width: 45%;
+	padding: 10px;
+} */
 h1{
-	font-size: 60px;
+	font-size: 40px;
 	width: 100px;
-	padding-top: 30px;
-	text-align:center;
+	text-align: center;
 }
-
-button{
-	width: 200px;
-	height: 30px;
-	margin:5px;
-
-}
-
+/* footer{
+	margin:100px;
+} */
 
 .middle-img{
-	width:96%;
-	margin:40px;
+width: 92%;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
-.bottom-section{
-	margin: 80px;
+.bottom-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.info3{
+	width 25%;
+	padding-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.header-img{
 	display:inline-block;
-	width: 250px;
-}
-
-.bottom-contact{
-	width: 40px;
-	text-align:left;
-	display: inline;
-
 }
 
 footer{
@@ -138,19 +143,11 @@ footer{
 }
 
 
+.bottom{
+	width: 200px;
 }
-
-
-.header-img{
-	display:inline-block;
-}
-
-
 .copyright{
 	text-align:center;
 }
 
-.logo2{
-	margin-left: 0px;
-}
 
