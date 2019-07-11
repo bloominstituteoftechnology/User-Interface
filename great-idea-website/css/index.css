@@ -18,7 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+  /* border: 1px solid black; */
+  border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +65,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 50px;
+  margin-top: 4%;
+}
+
+li {
+  display: inline;
+  margin: 50px 20px 50px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav .logo {
+  float: right;
+}
+
+header {
+  /* margin: auto; */
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
+}
+
+.center {
+  margin: 0 auto;
+  display: inline;
+}
+
+.title {
+  display: inline-block;
+  width: 50%;
+}
+
+.title h1 {
+  font-size: 3.5em;
+  max-width: 35%;
+  text-align: center;
+  /* margin-bottom: 5%; */
+  margin: 0 3% 5% 10%;
+}
+
+.button {
+  /* display: inline; */
+  max-width: 150px;
+  padding: 5px 33px;
+  background-color: aliceblue;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10%
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.hero {
+  margin: 100px 0;
+  /* display: inline-block; */
+}
+
+#circle-img{
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.about {
+  margin: 50px 0;
+}
+
+
+.code-img {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.main {
+  display: inline-block;
+  padding-right: 10px;
+  width: 49%;
+}
+
+.products {
+  margin: 50px 0;
+}
+
+.main-3 {
+  display: inline-block;
+  padding-right: 10px;
+  width: 33%;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 60px;
+}
+
