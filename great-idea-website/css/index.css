@@ -65,94 +65,91 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.border {
-	margin:auto;
-	width: 900px;
-
-}
-
 nav{
-	display:inline-block;
+	
+	display:flex;
+	justify-content:space-evenly;
 	width:100%;
+	margin-bottom:20px;
+
 }
 
 nav a{
-	
-	display:inline-block;
-	margin: 10px;
+	display:flex;
+	align-items:center;
 }
+
+
+
 
 header{
 	
-	display:inline-block;
+	display:flex;
 	width:100%;
 }
 
 .logo{
 	
-	display:inline-block;
+	display:flex;
 	margin-left:225px;
 }
 
+.cta{
+	display:flex;
+	justify-content:space-between;
+}
+
 .ctaleft{
-	
-	display:inline-block;
+	display:flex;
 	font-size:104px;
-	width:49%;
-}
-.getstarted{
-	font-size: 50px;
-	margin-left:85px;
-}
 
 .ctaright{
 	
-	display:inline-block;
-	width:49%;
+	display:flex;
 }
 
 .main{
 	margin:50px 0px;
-	display:inline-block;
+	display:flex;
 }
 
 .main1{
 	
-	display:inline-block;
+	display:flex;
 	width:49%;
 }
 
 .main2{
 	
-	display:inline-block;
+	display:flex;
 	width:49%;
 }
 
 .middle-img{
 	
-	display:inline-block;
+	display:flex;
 }
 
 .subhead{
 	margin: 50px 0px;
-	display:inline-block;
+	display:flex;
 }
 
 .services{
 	
-	display:inline-block;
+	display:flex;
 	width:32%;
 }
 
 .product{
 	
-	display:inline-block;
+	display:flex;
 	width:32%;
 }
 
 .vision{
 	
-	display:inline-block;
+	display:flex;
 	width:32%;
 }
 
