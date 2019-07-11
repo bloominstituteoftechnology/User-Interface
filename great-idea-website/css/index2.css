@@ -72,33 +72,38 @@ h1, h2, h3, h4, h5 {
 	height: auto;
 }
 
+header {
+	margin-bottom: 163px;
+}
+
 header nav {
-	display: inline-block;
-	margin: 40px;
+    margin: 40px;
+    display: flex;
+    width: 71%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav a {
 	/* TB LR */
-	margin: 0 23px;
 	text-decoration: none;
 	color: darkgrey;
 }
 
 header .logo {
-	margin-left: 14px;
+    display: flex;
+    margin-right: -234px;
 }
 
 h1 {
-	font-size: 73px;
-    text-align: center;
-    display: inline-block;
-    margin-inline-start: 80px;
-	margin-bottom: 79px;
-	margin-top: 64px;
-}
-
-span {
-    display: block;
+    font-size: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    margin-inline-start: 91px;
+    margin-bottom: 79px;
+    margin-top: 64px;
 }
 
 .code {
@@ -115,45 +120,45 @@ span {
     padding-right: 15px;
 }
 
-header {
-	margin-bottom: 100px;
-   
-}
-
 hr {
-    display: block;
-    height: 1px;
+    display: flex;
     border: 0;
     border-top: 2px solid #ccc;
-    margin: 1em 0;
+    margin-top: 32px;
+    margin-bottom: 30px;
     padding: 0;
 }
 
 .contain {
-	width: 426px;
-    padding: 2px;
-    margin: 7px;
     margin-bottom: 20px;
-    display: inline-block;
+    display: flex;
 }
 
-.middle.img {
-	width: 800;
+.containception {
+
+}
+
+.middle-img {
+	width: 100%;
 }
 
 .contain2 {
-	width: 283px;
-    padding: 2px;
+    width: 32%;
+}
+
+.supercontain {
     margin: 4px;
     margin-top: 19px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact {
-	width: 144px;
-	padding: 2px;
-	margin: 7px;
-	display: inline-block;
+    width: 144px;
+    padding: 2px;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
 }
 
 .copyright {
