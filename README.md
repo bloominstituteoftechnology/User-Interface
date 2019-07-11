@@ -39,4 +39,4 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
 
-Jamie Geisler final submission
+Jamie Geisler final submission 2
