@@ -56,7 +56,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -86,12 +86,16 @@ header {
 }
 
 nav {
-	margin-left: 250px
+	
+	margin-left: 250px;
+	text-decoration: none;
+	
 }
 
 nav a {
-	padding: 50px;
-text-decoration: none;
+	block: inline-block;
+	height:20px;
+	text-decoration: none;
 }
 
 .slogan {
@@ -127,6 +131,7 @@ button {
 
 .contact {
 	padding: 20px;
+	text-align: center;
 }
 
 .copyright {
