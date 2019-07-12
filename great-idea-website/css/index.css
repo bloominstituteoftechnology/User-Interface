@@ -200,6 +200,15 @@ footer {
 	padding: 40px 0px;
 }
 
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+}
+
 .copyright {
 	width: 100%;
 	text-align: center;
