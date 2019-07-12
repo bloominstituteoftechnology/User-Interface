@@ -89,6 +89,7 @@ nav a {
 	text-decoration: none;
 	color: black;
 	padding: 20px 0px;
+	transition: 0.5s;
 }
 
 nav a:hover {
@@ -127,6 +128,28 @@ nav a:hover {
 	font-size: 18px;
 	border: 1px solid black;
 	padding: 2px 50px;
+	cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cta:hover {
+	background-color: #8794B2;
+}
+
+.cta:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+	right: 0px;
+  transition: 0.5s;
+}
+
+.cta:hover:after {
+  opacity: 1;
+  right: 35px;
 }
 
 .intro-img {
