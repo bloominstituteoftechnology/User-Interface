@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: inline-block;
+    padding: 4vh 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 3vh 3vw;
+    color: #888888;
+}
+
+header {
+    position: relative;
+    text-align: right;
+    clear: right;
+    padding: 50px 0;
+}
+
+header div {
+    display: inline-block;
+    width: 49%;
+}
+
+header .left-col {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-66%, -50%);
+    text-align: center;
+}
+
+header .right-col {
+    text-align: right;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 1vh 4vw;
+    font-size: 1.25em;
+    margin-top: 2vh;
+}
+
+img, .row {
+    width: 100%;
+}
+
+.tag-line {
+    font-family: 'Bangers', cursive;
+    font-size: 5.5em;
+}
+
+#header-image {
+    width: 85%;
+    padding-left: 20px;
+}
+
+#content {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+#logo {
+    width: 20%;
+    float: right;
+    padding: 3vh 0;
+}
+
+article {
+    display: inline-block;
+    padding: 3vh 0;
+}
+
+.two-col-row article {
+    width: 49.5%;
+}
+
+.three-col-row article {
+    width: 33%;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 8vh;
+}
