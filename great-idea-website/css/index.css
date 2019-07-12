@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
+main {
     width: 85%;
     margin: 0 auto;
 }
@@ -77,7 +77,7 @@ nav {
 nav a {
     text-decoration: none;
     padding: 3vh 3vw;
-    color: #888888;
+    color: #4A4A4A;
 }
 
 header {
@@ -155,4 +155,14 @@ article {
 footer {
     text-align: center;
     padding-bottom: 8vh;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #E2ECDA;
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
