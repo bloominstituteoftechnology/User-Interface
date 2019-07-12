@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
 .container{
 margin:50px;
  
@@ -81,17 +83,44 @@ nav {
 	text-align: center  ;
 }
 .logo {
-	float:right;
+	display:inline;
 }
 
 .title{
 font-size: 40px;
-
 display:inline-block;
-float: left;
-height:0px;
+height:300px;
 margin:0 auto;
 text-align:center;
 padding: 100px 70px 0px 100px;
 }
-	
+
+button{
+	padding: 10px;
+	border-radius: 30px;
+	background: transparent;
+}
+	button:hover{
+		background:rgb(9, 124, 153);
+		color:black;
+		border: 1px solid rgb(29, 188, 228);
+	}
+
+.Features{
+	background:blue;
+	width:400px;
+	display:inline-block;
+	padding: 20px;
+}
+.About{
+	width:400px;
+	display:inline-block;
+	padding: 20px
+}
+	hr{
+		color:black;
+		height:50px;
+		display: none;
+	}
+
+
