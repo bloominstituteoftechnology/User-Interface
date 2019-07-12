@@ -65,12 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.menu{
+.menu {
 	color:#2F4F4F;
+	width:30px
+	height:30px
+	padding:10px;
 }
-.a:hover
-	background-color:#flflfl
-}
+
 .header{
 	color:#008B8B;
 }
