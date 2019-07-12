@@ -93,6 +93,7 @@ nav {
 	margin-left: 2px;
 	text-decoration: none;
 	padding: 1em;
+	
 }
 
 nav a {
@@ -101,6 +102,7 @@ nav a {
 	text-decoration: none;
 	padding: 1em;
 	font-display: grey;
+	background-color: grey;
 }
 
 .slogan {
@@ -125,28 +127,28 @@ button{
 		margin: 5px;
 	}
 
-.button {  
+button {  
 	  cursor: pointer;
 	  display: inline-block;  
 	  position: relative;  
 	  transition: 0.5s;
 	}
 
-.button:after {
+button:after {
 		content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
 		position: absolute;  
 		opacity: 0;
 		top: 0;
-		right: -20px; 
+		right: 20px; 
 		transition: 0.5s;
 	}
 		
 
-.button:hover  { 
+button:hover  { 
 	 padding-right: 25px;
     }
 
-.button:hover:after {  
+button:hover:after {  
 	opacity: 1;
 	right: 0;
 	}
