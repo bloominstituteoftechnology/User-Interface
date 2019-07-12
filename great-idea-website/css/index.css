@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	margin:0 auto;
+	text-align: inherit;
 }
 
 h1 {
@@ -79,39 +80,82 @@ h2 {
 }
 
 header {
+
 	}
 
 .logo {
-	margin-left:1250px;
+	margin-left:700px;
+	
 }
 
 nav {
 	
-	margin-left: 250px;
+	margin-left: 2px;
 	text-decoration: none;
-	
+	padding: 1em;
 }
 
 nav a {
-	block: inline-block;
+	display: inline-block;
 	height:20px;
 	text-decoration: none;
+	padding: 1em;
+	font-display: grey;
 }
 
 .slogan {
-	height: 100px;
-	width: 200px;
+	height: 10px;
+	width: 20px;
 	text-align: center;
-	margin-left: 350px;
-	padding-top: 200px;}
+	margin-left: 35px;
+	padding-top: 20px;}
 
-button {
-	font-size:20px;
-}
+button{  
+		display: inline-block;  
+		border-radius: 4px;  
+		background-color: grey;  
+		border: none;  
+		color: #FFFFFF;  
+		text-align: center;  
+		font-size: 28px;  
+		padding: 20px;  
+		width: 200px;  
+		transition: all 0.5s;  
+		cursor: pointer;  
+		margin: 5px;
+	}
+
+.button {  
+	  cursor: pointer;
+	  display: inline-block;  
+	  position: relative;  
+	  transition: 0.5s;
+	}
+
+.button:after {
+		content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
+		position: absolute;  
+		opacity: 0;
+		top: 0;
+		right: -20px; 
+		transition: 0.5s;
+	}
+		
+
+.button:hover  { 
+	 padding-right: 25px;
+    }
+
+.button:hover:after {  
+	opacity: 1;
+	right: 0;
+	}
+	  
+
 
 #topimage {
-	margin-left: 1000px;
-	padding-bottom: 100px;}
+	margin-left: 500px;
+	padding-bottom: 75px;}
 
 .top-box {
 	width: 45%;
@@ -135,7 +179,8 @@ button {
 }
 
 .copyright {
-	text-align: center
+	text-align: center;
+	padding:1em;
 }
 
 hr {
