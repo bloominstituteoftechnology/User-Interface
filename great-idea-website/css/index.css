@@ -69,9 +69,11 @@ body {
 }
 
 header {
-	height: 100px;
-	width: 100%;
-	padding-top: 20px;
+	height: auto;
+	width: 90%;
+	background-color: #8794B2;
+	position: fixed;
+	top: 0;
 }
 
 nav {
@@ -85,7 +87,12 @@ nav a {
 	text-align: center;
 	width: 15.5%;
 	text-decoration: none;
-	color: gray;
+	color: black;
+	padding: 20px 0px;
+}
+
+nav a:hover {
+	background-color: #787E98;
 }
 
 .logo {
@@ -98,7 +105,7 @@ nav a {
 .intro {
 	height: 375px;
 	width: 100%;
-	margin: 30px 0px 75px 0px;
+	margin: 86px 0px 75px 0px;
 }
 
 .intro-text {
