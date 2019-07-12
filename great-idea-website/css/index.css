@@ -108,9 +108,11 @@ header nav a{
 }
 
 .cta .title {
+	display: inline-block;
 	text-align: center;
 	width: 50%;
 	margin: 90px 50px 50px 0;
+
 }
 .cta .headerButton {
 	padding: 5px 20px 5px 20px;
@@ -124,6 +126,8 @@ header nav a{
 .cta img {
 	display: inline-block;
 	vertical-align: top;
+	margin: 50px 0 0 0;
+	width:310px;
 }
 
 .main-content {
