@@ -81,11 +81,21 @@ body {
   nav {    
     float: left;    
     padding-top: 15px;
+    padding-bottom: 10px;
+    position: fixed;
+    background: slategray;
   }
   nav a {    
     padding: 30px;    
     text-decoration: none;    
-    color: gray;
+    color: whitesmoke;
+  }
+  nav a:hover {
+    color: black;
+    border: 1px solid white;
+    background: red;
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
   }
   .logo {    
     float: right;
@@ -106,12 +116,24 @@ body {
   button {
     padding: 5px 45px 5px 45px;
   }
+  button:hover {
+    color: white;
+    font-size: 20px; 
+    background: black;
+  }
+  p {
+    font-family: cursive;
+  }
   .circle {    
       float: right;
     }
   .first-content {    
       padding-top: 70px;
     }
+  h3 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 25px;
+  }
   .features {   
        float: left;    
        width: 450px;    
