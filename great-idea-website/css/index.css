@@ -48,7 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+@import url(http://fonts.googleapis.com/css?family=Varela+Round)
+
+** {
     box-sizing: border-box;
 }
 
@@ -64,3 +66,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 100px
+}
+
+h2 {
+	display:inline;
+}
+
+header {
+	}
+
+.logo {
+	margin-left:1250px;
+}
+
+nav {
+	margin-left: 250px
+}
+
+nav a {
+	padding: 50px;
+text-decoration: none;
+}
+
+.slogan {
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	margin-left: 350px;
+	padding-top: 200px;}
+
+button {
+	font-size:20px;
+}
+
+#topimage {
+	margin-left: 1000px;
+	padding-bottom: 100px;}
+
+.top-box {
+	width: 45%;
+	display: inline-block;
+	padding: 20px;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.bottom-box {
+	width: 25%;
+	display: inline-block;
+	padding: 20px;}
+
+.contact {
+	padding: 20px;
+}
+
+.copyright {
+	text-align: center
+}
+
+hr {
+	color: black;
+}
