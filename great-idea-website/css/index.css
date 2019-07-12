@@ -60,7 +60,36 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+  .features {
+	width: 400px;
+	display: inline-block;
+  }
+
+  .about {
+	width: 400px;
+	display: inline-block;
+  }
+
+.top-image {
+	display: inline-block;
+}
+
+
+  .services{
+	width: 400px;
+	display: inline-block;
+  }
+
+  .product {
+	width: 400px;
+	display: inline-block;
+  }
+
+  .vision {
+	width: 400px;
+	display: inline-block;
+  }
