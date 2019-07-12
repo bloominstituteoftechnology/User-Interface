@@ -65,21 +65,95 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+h1 {
+	font-size: 4rem;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 .container {
-	width: 800px;
-	margin: auto;
-	border: 1px solid red;;
+	width: 880px;
+	margin: 0 20px 0 50px;
 }
 
 header nav {
 	display: inline-block;
-	border: 1px solid yellow;;
 }
 
 header .logo {
-	margin-left: 140px;
+	margin-left: 80px;
+	margin-top: 30px;
 }
 
 header nav a{
-	margin: 0 20px;
+	margin: 0 50px 0 0;
+	color: gray;
+	font-size: 12px;
+}
+
+.cta {
+	margin: 0 0 20px 0;
+}
+
+.cta .title {
+	text-align: center;
+	width: 50%;
+	margin: 90px 50px 50px 0;
+}
+.cta .headerButton {
+	padding: 5px 20px 5px 20px;
+}
+.cta .headerButton:hover {
+	background-color: lightblue;
+}
+.cta .headerButton:active {
+	background-color: lightblue;
+}
+.cta img {
+	display: inline-block;
+}
+
+.main-content {
+	margin: 20px 0 20px 0;
+}
+
+.main-content div {
+	display: inline-block;
+}
+
+.main-content .features {
+	width:50%;
+}
+.main-content .about {
+	width:49%;
+}
+.main-content .services {
+	width:33%;
+}
+.main-content .product {
+	width:33%;
+}
+.main-content .vision {
+	width:33%;
+}
+
+.main-content .middle-img {
+	margin: 20px 0 20px 0;
+}
+.contact {
+	margin: 20px 0 20px 0;
+}
+.copyright {
+	text-align: center;
 }
