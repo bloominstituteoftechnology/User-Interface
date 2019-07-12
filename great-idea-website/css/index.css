@@ -132,9 +132,12 @@ nav a:hover {
 .intro-img {
 	display: inline-block;
 	width: 44%;
-	height: auto;
+	height: 380px;
 	text-align: right;
 	vertical-align: middle;
+	background-image: url("../img/header-img.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .info {
@@ -147,12 +150,15 @@ nav a:hover {
 .info-half {
 	display: inline-block;
 	width: 48%;
-	margin-right: 1%
+	margin-right: 1%;
+	padding-bottom: 40px;
 }
 
 .middle-img {
 	width: 100%;
-	padding: 40px 0px;
+	padding: 80px 0px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-position: center;
 }
 
 .middle-img img {
@@ -163,7 +169,8 @@ nav a:hover {
 .info-third {
 	display: inline-block;
 	width: 31%;
-	margin-right: 1.75%
+	margin-right: 1.75%;
+	padding-top: 40px;
 }
 
 footer {
