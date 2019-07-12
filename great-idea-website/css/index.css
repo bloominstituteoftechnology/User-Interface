@@ -81,7 +81,7 @@ main {
 
 nav {
     display: inline-block;
-    padding: 4vh 0;
+    padding: 3vh 0;
 }
 
 nav a {
@@ -146,7 +146,7 @@ img, .row {
 #logo {
     width: 20%;
     float: right;
-    padding: 3vh 0;
+    padding: 1.75vh 0;
 }
 
 article {
@@ -173,6 +173,6 @@ footer {
     z-index: 1000;
     background: #E2ECDA;
     width: 100%;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
