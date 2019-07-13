@@ -64,3 +64,49 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.sign {
+	font-size: 60px;
+	font-family:'Bangers', cursive;
+}
+
+ header nav a{
+	padding:5px 20px;
+	background: white;
+	margin:20px;
+	color:gray;
+	display:inline-block;
+	text-decoration: none;
+}
+
+.container {
+	margin:0 auto;
+	width: 800px;
+}
+
+.contain-row {
+	display:inline-flex;
+	margin:10px ;
+}
+
+.top-portion {
+	
+}
+
+.button2 {
+	border:1px solid black;
+	padding:15px 32px;
+	margin:4px 2px;
+	}
+
+#logo {
+	position:relative;
+	left:800px;
+	bottom:50px;
+}
+
+#head {
+	position: relative;
+	left: 425px;
+	bottom:200px;
+}
