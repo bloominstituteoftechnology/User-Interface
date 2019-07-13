@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* tags */
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+	font-size: 10pt;
+}
+
+footer {
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 11pt;
+}
+
+/* classes */
+
+.nav_box {
+	display: inline-block;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.logo {
+	display: inline-block;
+	box-sizing: content-box;
+}
+
+.iod {
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	font-size: 40pt;
+	text-align: center;
+	float: left;
+}
+
+.iod_inner {
+	display: block;
+	padding: 70px;
+	box-sizing: border-box;
+}
+
+.get_started {
+	font-size: 15pt;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+}
+
+.content_one {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.c1_inner {
+	width: 50%;
+	float: left;
+}
+
+.c1_inner, .c2_inner p {
+	font-size: 11pt;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.content_two {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.c2_inner {
+	width: 33.33%;
+	float: left;
+}
+
+/* ids */
+
+#main_wrap {
+	width: 800px;
+	margin: auto;
+}
+
+#iod_wrapper {
+	display: inline-block;
+	height: 400px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#copyright {
+	font-size: 11pt;
+	text-align: center;
+}
