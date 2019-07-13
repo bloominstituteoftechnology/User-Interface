@@ -64,3 +64,58 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 4em;
+}
+section {
+	margin: 2em;
+	width: 100%;
+}
+
+.inline {
+	display: inline-block;
+}
+.columns-2 {
+	columns: 2;
+}
+.halves {
+	width: 49%;
+}
+.columns-3 {
+	columns: 3;
+}
+.thirds {
+	width: 32%;
+}
+
+.header {
+	margin: 3em;
+	color: gray;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 6.5em;
+}
+
+.intro {
+	text-align: center;
+}
+
+button {
+	border: 1px;
+	width: 150px;
+	height: 35px;
+	padding: 5px 15px;
+	font-size: 2em;
+	background-color: white;
+	cursor: pointer;
+}
+
+p {
+	margin: 0.25em;
+}
+
+.middle-img {
+	width: 100%;
+}
