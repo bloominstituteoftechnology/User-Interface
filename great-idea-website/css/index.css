@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+  .navigation a {
+	margin: 0 10px;
+	border: none;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: gray;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background:none;
+	
+  }
+
+  .header {
+	background:none;
+	font-family: 
+
+	/* Box Model: Content Area */
+	width: 50%;
+	height: 100px;
+	
+	/* Box Model: Padding */
+	padding: 20px;
+	box-sizing: border-box;
+	
+	/* Box Model: Border */  
+	border: none; 
+	  
+	/* Box Model: Margin */
+	margin: 20px;
+  }
+
+  .top-content {
+	background:none;
+	
+
+	/* Box Model: Content Area */
+	width: 800px;
+	height: 100px;
+	
+	/* Box Model: Padding */
+	padding: 20px;
+	box-sizing: border-box;
+	
+	/* Box Model: Border */  
+	border: none; 
+	  
+	/* Box Model: Margin */
+	margin: 20px;
+  }
+
+  .bottom-content {
+	background:none;
+	
+
+	/* Box Model: Content Area */
+	width: 800px;
+	height: 100px;
+	
+	/* Box Model: Padding */
+	padding: 20px;
+	box-sizing: border-box;
+	
+	/* Box Model: Border */  
+	border: none; 
+	  
+	/* Box Model: Margin */
+	margin: 20px;
+  }
+
+  .contact {
+	background:none;
+	
+
+	/* Box Model: Content Area */
+	width: 800px;
+	height: 100px;
+	
+	/* Box Model: Padding */
+	padding: 20px;
+	box-sizing: border-box;
+	
+	/* Box Model: Border */  
+	border: none; 
+	  
+	/* Box Model: Margin */
+	margin: 20px;
+  }
+
+  .footer {
+	background:none;
+	
+
+	/* Box Model: Content Area */
+	width: 800px;
+	height: 100px;
+	
+	/* Box Model: Padding */
+	padding: 20px;
+	box-sizing: border-box;
+	
+	/* Box Model: Border */  
+	border: none; 
+	  
+	/* Box Model: Margin */
+	margin: 20px;
+  }
