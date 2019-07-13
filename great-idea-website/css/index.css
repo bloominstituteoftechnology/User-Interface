@@ -95,15 +95,22 @@ header nav a {
 }
 
 .innovation h1 {
-	font-size: 60px;
+	font-size: 80px;
 	text-align: center;
 	float: left;
-	margin: 50px;
+	margin: 70px;
 }
 
-.innovation img {
-	float: right;
+.innovation button {
+	position: relative;
+	top: 320px;
+	left: -315px;
+	border: 1px solid black;
+	font-size: 18px;
+	padding: 8px 40px;
+
 }
+
 
 .top-content {
 	border-top: 1px solid black;
