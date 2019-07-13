@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
 h1 {
 	font-size: 4rem;
 }
@@ -78,23 +77,29 @@ h4 {
 a {
 	text-decoration: none;
 	color: black;
+	margin: 0 18px; 
 }
 
 a:hover {
 	text-decoration: underline;
 }
+
 .container {
 	width: 880px;
-	margin: 0 20px 0 50px;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	margin: 0 auto;
+	width: 880px;
 }
 
 header nav {
 	display: inline-block;
-	position: fixed;
 	top: 0;
-	width: 90%;
+	width: 100%;
 	background-color: lightblue;
-	padding: 20px;
 	font-size: 1.1rem;
 }
 
@@ -103,23 +108,21 @@ header .logo {
 }
 header nav a {
 	color: black;
-	margin: 0 50px 0 0;
+	vertical-align: 10px;
 }
 /* header nav a:nth-last-child(n+2){
 	margin: 0 50px 0 0;
 
 } */
 header nav a:first-child{
-	margin-right: 0;
-}
-header nav a:last-child {
-	margin-right: 0;
+	vertical-align: baseline;
 }
 
 
 .cta {
 	margin: 20px 0 30px 0;
-	background-image: url("img/header-img.png");
+	/* background-image: url("img/header-img.png");
+	background-repeat: no-repeat; */
 }
 
 .cta .title {
@@ -216,6 +219,10 @@ header nav a:last-child {
 }
 .contact {
 	margin: 30px 0 30px 0;
+}
+
+.contact a {
+	margin: auto;
 }
 .copyright {
 	text-align: center;
