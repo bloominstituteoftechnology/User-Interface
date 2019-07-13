@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+
+	width: 900px;
+	margin: auto;
+}
+
+nav {
+
+display: inline-block;
+padding-left: 50px;
+
+}
+
+header nav {
+
+
+
+}
+
+header nav a {
+
+margin: 0 20px;
+text-decoration: none;
+color: #bfbfbf;
+}
+
+header {
+
+
+
+}
+
+.logo {
+
+	margin-left: 80px;
+}
+
+.container header {
+	margin-top: 20px;
+}
+
+.banner {
+
+
+	padding-bottom: 20px;
+border-bottom: 2px solid black;
+display: inline-block;
+width: 100%;
+}
+
+ h1 {
+
+
+font-size: 75px;
+
+}
+
+.codeCircle {
+	border 9px solid red;
+	margin: 68px 0px 52px 117px;
+
+
+}
+
+.tagline {
+	text-align: center;
+	margin: 128px 0px 0px 73px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.tagline a {
+
+border: 1px solid black;
+text-decoration: none;
+color: black;
+padding: 3px 50px;
+}
+
+ #quoteDividerBlock {
+
+    padding-bottom: 15px;
+
+
+}
+
+.contentBox {
+
+width: 400px;
+display: inline-block;
+padding: 40px 40px 0px 40px;
+margin-bottom: 30px;
+}
+
+.contentBoxTriple {
+
+	width: 250px;
+	display: inline-block;
+	padding: 40px 0px;
+	}
+
+	.tripleContainer {
+
+border-bottom: 1px solid black;
+margin-bottom: 50px;
+
+	}
+
+	footer p {
+
+padding: 5px 0px;
+
+	}
+
+	.copyright {
+text-align: center;
+padding: 50px 100px;
+margin-bottom: 30px;
+
+	}
