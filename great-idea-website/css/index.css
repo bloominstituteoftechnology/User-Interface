@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 900px;
+	margin: auto;
+	border: 5px solid purple;
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 30px;
+
+}
+header nav a{
+	margin: 0 15px;
+	height: 25px;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+header .logo{
+	margin: 10px;
+}
+h1{
+	font-size: 80px;
+}
+
+.button{
+	height: 60px;
+	width: 100px;
+	border: 1px solid black;
+	padding: 10px;
+}
