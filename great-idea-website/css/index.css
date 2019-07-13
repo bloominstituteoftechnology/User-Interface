@@ -63,4 +63,113 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h2 {
+	font-size: 1.2em;
+}
+
 /* Your code starts here! */
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	margin: 0px 25px 25px 25px;
+	text-decoration: none;
+	color: grey;
+}
+
+header img {
+	margin-left: 150px;
+}
+
+/* Stretch Goal */
+header {
+	background: lightskyblue;
+	position: fixed;
+}
+
+.top-container {
+	display: inline-block;
+	width: 980px;
+	border-bottom: 1.2px solid black;
+	
+}
+.top-container .left{
+	display: inline-block;
+	padding: 0 50px 0 0;
+	height: 400px;
+}
+
+.top-container .right{
+	display: inline-block;
+	padding: 0 0 0 50px;
+	height: 400px;
+}
+.top-container .motto {
+	display: block;
+	font-size: 90px;
+    padding: 10px;
+    margin: 0px 10px 0px 90px;
+	text-align: center;
+	}
+
+.top-container .startbutton {
+	text-decoration: none;
+	display: inline-block;
+	color: black;	
+	border: 1px solid black;
+	width: 180px;
+	height: 30px; 
+	text-align: center;
+	padding: 5px;
+	margin-left: 190px;
+	margin-bottom: 50px;
+	}
+
+.top-container .startbutton:hover {
+	background: lightskyblue;
+}
+
+.top-container .codepic {
+	display: inline-block;
+	padding-top: 90px;
+	height: 430px;
+	}
+
+.content .two-cols article{
+	display:inline-block;
+	width: 490px;
+	padding: 30px 50px 30px 0px;
+}
+
+.content .middle-img {
+	width: 975px;
+}
+
+.content .three-cols article{
+	display:inline-block;
+	width: 330px;
+	padding: 30px 50px 30px 0px;
+}
+
+.content {
+	border-bottom: 1.2px solid black;
+}
+
+.contact h2 {
+	margin-top: 30px;
+}
+
+.contact p {
+	margin: 25px 0px;
+}
+
+footer #copyright {
+	margin: 50px;
+	text-align: center;
+}
