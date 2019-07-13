@@ -64,3 +64,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ .container{
+	width: 880px;
+	margin:auto;
+}
+header nav{
+	display: inline-block;
+	margin-top:35px
+}
+header nav a{
+	margin: 25px;
+	color:gray
+}
+.logo{
+	margin-left: 30px
+}
+.cta div img{
+	display: inline-block;
+	margin-top: 40px;
+	padding: 15px;
+	max-width: 125px;
+	margin: 5px
+}
+.cta div {
+	display: inline-block;
+	text-align: center;
+}
+.cta img{
+	padding:20px;
+	margin-top: 15px
+}
+.cta-text{
+	font-size: 70px;
+    padding: 70px;
+}
+button{
+	background-color: white;
+    padding-left: 30px;
+	padding-right: 30px;
+	font-size:20px
+}
+
+	.ana {
+	width: 49%;
+	height: 20%;
+	text-align: left;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 20px 0px;
+  }
+  .ana3 .ana{
+	width: 33%;
+	height: 20%;
+	text-align: left;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 20px 0px;
+  }
+  .text-content .ana{
+	  display: inline-block
+  }
+  footer{
+	  text-align: center;
+	  padding-bottom:20px
+  }
+ 
+
