@@ -73,18 +73,19 @@ h1, h2, h3, h4, h5 {
 	display: inline-block; 
 	}
 
-body nav a {
+.navigation a {
 	color: gray;
 	margin: 0 10px;
 	padding: 20px;
 	text-decoration: none;
 }
 
-body header h1 {
-	padding: 100px;
-	font-size: 40px;
-	width: 50%;
-	text-align: center;
+.logo {
+	border: solid 1px black;
+}
+
+.title h1 {
+	font-size: 50px;
 	border: solid 1px black;
 }
 
@@ -97,14 +98,6 @@ body header h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-.logo {
-	display: inline-block;
-	position: relative;
-	margin: 0 10px;
-	padding: 5px;
-	border: solid 1px black;
 }
 
 .top-image {
@@ -133,6 +126,7 @@ body header h1 {
   }
 
   .middle-image {
+	
 	border: solid 5px green;
   }
 
