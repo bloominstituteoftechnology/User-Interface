@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav a{
+	margin: 0 35px;
+	margin-top: 35px;
+	text-decoration: none;
+	color: silver;
+
+}
+
+header .logo {
+	margin-left: 700px;
+}
+
+cta{
+	margin: 
+}
+
+.cta img {
+	display: block;
+    	margin: 0 0 0 450px;
+}
+
+.cta-text {
+	font-size: 100px;
+}
