@@ -103,12 +103,12 @@ h1, h2, h3, h4, h5 {
 	  font-size: 75px;
   }
   .top-content {
-	background:none;
+	background:lightblue;
 	
 
 	/* Box Model: Content Area */
-	width: 800px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	
 	/* Box Model: Padding */
 	padding: 20px;
@@ -121,13 +121,21 @@ h1, h2, h3, h4, h5 {
 	margin: 20px;
   }
 
+  .top-content h1 {
+	  font-size: 24px;
+  }
+
+  .top-content p {
+	  
+  }
+
   .bottom-content {
-	background:none;
+	background:lightcoral;
 	
 
 	/* Box Model: Content Area */
-	width: 800px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	
 	/* Box Model: Padding */
 	padding: 20px;
@@ -138,6 +146,10 @@ h1, h2, h3, h4, h5 {
 	  
 	/* Box Model: Margin */
 	margin: 20px;
+  }
+
+  .bottom-content h1 {
+	  font-size: 24px;
   }
 
   .contact {
@@ -145,8 +157,8 @@ h1, h2, h3, h4, h5 {
 	
 
 	/* Box Model: Content Area */
-	width: 800px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	
 	/* Box Model: Padding */
 	padding: 20px;
@@ -159,13 +171,17 @@ h1, h2, h3, h4, h5 {
 	margin: 20px;
   }
 
+  .contact h1 {
+	font-size: 24px;
+  }
+
   .footer {
 	background:none;
 	
 
 	/* Box Model: Content Area */
-	width: 800px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	
 	/* Box Model: Padding */
 	padding: 20px;
