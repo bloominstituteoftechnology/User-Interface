@@ -76,13 +76,13 @@ section {
 	display: inline-block;
 }
 .columns-2 {
-	columns: 2;
+	/* columns: 2; */
 }
 .halves {
 	width: 49%;
 }
 .columns-3 {
-	columns: 3;
+	/* columns: 3; */
 }
 .thirds {
 	width: 32%;
@@ -100,6 +100,7 @@ h1 {
 
 .intro {
 	text-align: center;
+	columns: 2;
 }
 
 button {
