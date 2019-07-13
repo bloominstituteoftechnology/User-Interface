@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*header*/
+
+.container {
+	width: 1000px;
+	margin: auto;
+	padding: 40px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	margin: 60px;
+	margin-left: 0;
+	text-decoration: none;
+	color: LightGray;
+}
+
+header img {
+	margin-bottom: -10px;
+}
+
+/* cta */
+
+.cta {
+	margin-left: 70px;
+}
+
+.cta img {
+	display: inline-block;
+    height: 400px;
+	margin: 50px 0px 50px 100px;
+}
+
+h1 {
+	font-size: 70px;
+    text-align: center;
+    height: 330px;
+    margin-right: 30px
+}
+
+.cta-text button {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: -8rem;
+    left: -1rem;
+	height: 30px;
+    width: 130px;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    font-family: inherit;
+}
+
+.cta-text {
+	display: inline-block;
+	text-align: center;
+}
+
+/* main content */
+
+.main-content {
+
+	display: inline-block; width: 96%;  
+	border-top: 1px solid black;
+}
+
+.top-text{
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.features {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	clear: none;
+}
+
+.about {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	clear: none;
+}
+
+.middle-image {
+	width 96%;
+}
+
+/* bottom content */
+
+.bottom-content {
+	display: inline-block;
+	margin-top: 40px;
+	width: 96%;
+}
+
+.bottom-text {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.services {
+	display: inline-block;
+	width: 33%;
+}
+
+.product {
+	display: inline-block;
+	width: 33%;
+}
+.vision {
+	display: inline-block;
+	width: 33%;
+}
+
+/* contact */
+
+.contact {
+	border-top: 1px solid black;
+	text-align: left;
+	width: 96%
+}
+
+footer .contact h4 {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	margin-top: 40px;
+}
