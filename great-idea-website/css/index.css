@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+width: 70%;
+margin: 5px;
+
+
+}
+.nav a{ 
+	 
+	 margin-top: 10px;
+	 text-decoration-color: black;
+		color: black;
+		display:inline-block;
+		margin-top: 5px;
+			margin-bottom: 20px;
+			margin-left: 65px;
+			margin-right: 0px;
+			padding-top: 35px; 
+			
+			
+}
+
+
+
+.nav .logo{
+	 
+	margin-left:70px; 
+	
+}
+
+	
+
+header h3{
+/* inline-block; */
+border-spacing: 10px; 
+
+}
+
+
+
+
+
+
+
+#p1{
+	display: inline-block;
+	width: 410px;
+	margin-left:75px;
+}
+#p2{
+	display: inline-block;
+	width: 410px;
+	margin-left:40px;
+}
+
+.middle-img{
+
+	size: 100%;
+	margin-left: 75px; 
+	margin-top: 30px;
+	margin-bottom: 30px; 
+	
+}
+
+#p3{
+	display: inline-block;
+	width: 290px; 
+	margin-left: 75px; 
+}
+
+#p4{
+	display: inline-block;
+	width: 290px; 
+	margin-left: 5px; 
+}
+
+#p5{
+	display: inline-block;
+	width: 290px; 
+	margin-left: 5px; 
+}
+footer{
+text-align: center
+
+
+}
+.topgraphic1{
+	
+	display: inline-block;
+	width: 100%;
+}
+header h3{
+	display: inline-block;
+	font-size: 75px;}
+	
+header p{
+		display: inline;
+		font-size: 45px;
+		border: solid
+}
+.topgraphic2{
+
+	display: inline-block;
+	width: 100%;
+	margin-left: 1px; 
+}
+.contact{
+	margin-left: 75px; 
+
+}.header-img{
+	margin-left: 10px; 
+	margin-bottom: 50px; 
+	}
+	 
