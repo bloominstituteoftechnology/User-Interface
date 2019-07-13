@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+}
+
+nav {
+	display: inline-block;
+}
+
+nav > * {
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px 30px;
+	color: gray;
+}
+
+.logo {
+	float: right;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 56px;
+}
+
+.title {
+	display: inline-block;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+h1 {	
+	font-size: 35px;
+	display: inline-block;
+	width: 400px;
+	font-size: 70px;
+	margin-top: 50px;
+}
+
+button {
+	margin: auto;
+	display: block;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-image {
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+
+hr {
+	margin: 40px;
+}
+
+main section {
+	display: inline-block;
+	width: 40%;
+	margin: 20px;
+	margin-left: 50px;
+}
+
+.middle-img {
+	margin: 50px;
+}
+
+.bottom-section section {
+	display: inline-block;
+	width: 25%;
+}
+
+img {	
+	display: inline-block;
+}
+
+footer {
+	margin-left: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+address {
+	line-height: 20px;
+}
+
+small {
+	font-family: 'Tangerine', serif;
+	display: block;
+	text-align: center;
+	font-size: 35px;
+}
+
