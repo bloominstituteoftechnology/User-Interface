@@ -77,10 +77,15 @@ header nav {
 }
 
 header nav a {
-	margin:0 30px;
+	margin:0 20px;
 	color:grey;
 	text-decoration:none;
 }
+
+header nav a:hover {
+	background: green;
+	color: white;
+  }
 
 header img.logo {
 	margin-left: 120px;
@@ -111,9 +116,9 @@ header img.logo {
 .heading button {
 	
 	border: 1px solid black;
-    width: 170px;
+    width: 140px;
 	height: 32px;
-	margin-left:60px;
+	margin-left:70px;
 	padding: 10px;
 	text-align:center;
 	background-color: white;
@@ -124,22 +129,30 @@ header img.logo {
   }
 .heading2 {
 	display:inline-block;
-	margin-right: 100px;
+	margin-right: 50px;
+	margin-left:0px;
 	vertical-align:top;
 	
+}
+
+.imgHeading {
+	
+	margin-left:50px;
+
 }
 
 .heading2 h1 {
 	font-size:80px;
 	padding:20px;
+	margin-left:0px;
 }
 
 
 .main-content .firstsection .two-column{
-	width: 400px;
+	width: 420px;
+    margin-right:65px;
  
- 
- margin-left:54px;
+ /*margin-left:54px;*/
   
 	display:inline-block;
 }
@@ -151,20 +164,19 @@ footer p {
 }
 
 .main-content .secondsection .three-column{
-	width:255px;
+	width:280px;
 	
-	
-	margin-left:54px;
+	margin-right:30px;
+ 
+	/*margin-left:54px;*/
 	
 	display:inline-block;
 	
 }
 
 .middle-img {
-	margin: 6%;
+	width: 980px;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
-.contact {
-	margin-left:54px;
-
-}
