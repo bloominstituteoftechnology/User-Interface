@@ -98,10 +98,10 @@ section {
 	columns: 2;
 }
 .halves {
-	width: 49%;
+	width: 49.5%;
 }
 .thirds {
-	width: 32%;
+	width: 33%;
 }
 
 a {
@@ -121,11 +121,12 @@ nav {
 	text-align: justify;
 	min-width: 600px;
 }
-nav * {
-	padding: 20px 0;
-	/* margin: 0 10px; */
-	/* margin-bottom: 20px; */
+nav a {
 	color: gray;
+	padding-right: 60px;
+}
+nav img {
+	padding: 20px 0;
 }
 nav::after {
 	content: '';
@@ -146,17 +147,17 @@ button {
 	border-style: solid;
 	border-color: black;
 	width: 170px;
-	/* height: 35px; */
 	padding: 5px 15px;
 	font-size: 1.1em;
 	background-color: white;
 	cursor: pointer;
 }
 
-p {
-	/* margin: 0.25em; */
+.middle-img {
+	width: 100%;
 }
 
+/* Tweaks */
 .v-pad-1 {
 	margin: 1em 0;
 }
@@ -169,7 +170,14 @@ p {
 .v-pad-3 {
 	margin: 3em 0;
 }
+.r-pad-0_75 {
+	margin-right: 0.75em;
+}
+.b-pad-4_5 {
+	margin-bottom: 4.5em;
+}
 
-.middle-img {
-	width: 100%;
+p {
+	transform: scale(1, 1.1);
+	margin: 1.25em 0;
 }
