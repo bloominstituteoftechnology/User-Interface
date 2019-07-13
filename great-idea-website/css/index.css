@@ -90,6 +90,11 @@ a:hover {
 
 header nav {
 	display: inline-block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: lightblue;
+	padding: 20px;
 	
 }
 
