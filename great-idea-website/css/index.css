@@ -116,7 +116,12 @@ body header h1 {
   }
 
   .upper-section {
-	width: 1000px;
+	display: inline-block;
+	border: solid 1px black;
+  }
+
+  .features {
+	width: 400px;
 	display: inline-block;
 	border: solid 1px black;
   }
@@ -131,20 +136,25 @@ body header h1 {
 	border: solid 5px green;
   }
 
+  .middle-section {
+	display: inline-block;
+	border: solid 1px black;
+  }
+
   .services {
-	width: 400px;
+	width: 33%;
 	display: inline-block;
 	border: solid 1px black;
   }
 
   .product {
-	width: 400px;
+	width: 33%;
 	display: inline-block;
 	border: solid 1px black;
   }
 
   .vision {
-	width: 400px;
+	width: 33%;
 	display: inline-block;
 	border: solid 1px black;
   }
