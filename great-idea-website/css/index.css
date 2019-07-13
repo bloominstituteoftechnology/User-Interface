@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+header div {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+header < img {
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+}
+header a {
+	padding: 5px 30px;
+	color: black;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+nav {
+	display: inline-block;
+	width: 90%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+	margin: 0 3%;
+}
+
+.logo {
+	float: right;
+	width: 15%
+}
+
+main {
+	width: 90%;
+	margin: 20px auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-size: 1em
+}
+
+.row {
+	margin: 20px auto;
+}
+
+.half {
+	display: inline-block;
+	width: 45%;
+}
+
+.half:first-child {
+	margin-right: 5%
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.third {
+	margin: auto;
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	width: 90%;
+	margin: auto;
+}
+
+footer p {
+	text-align: center;
+}
