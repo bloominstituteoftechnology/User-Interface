@@ -64,14 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 /* Your code starts here! */
 body {
-  width: 900px;
+  width: 905px;
   margin: auto;}
 
-nav{margin-bottom: 20px;}
+nav{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: steelblu
+}
 
 .nav{
   display: inline-block;
-  
 }
 
 nav a {
@@ -137,6 +140,7 @@ nav a {
 	display: inline-block;
   width:445px;
 }
+
 .middle-img{
   display:block;
   margin:30px 5px 30px 5px;
@@ -148,11 +152,17 @@ nav a {
   margin-right:10px;
 }
 
-.below {border-bottom: 1px solid black;}
+.below {
+  border-bottom: 1px solid black;
+}
 
-.contact h4 {padding-top: 40px;}
+.contact h4 {
+  padding-top: 40px;
+}
 
-.number {padding-top: 20px; padding-bottom: 20px;}
+.number {
+  padding-top: 20px; padding-bottom: 20px;
+}
 
 footer{
   text-align: center;
