@@ -73,10 +73,6 @@ h1, h2, h3, h4, h5 {
 	display: inline-block; 
 	}
 
-body nav {
-	
-}	
-
 body nav a {
 	color: gray;
 	margin: 0 10px;
@@ -105,7 +101,7 @@ body header h1 {
 }
 
 .logo {
-	display: inline;
+	display: inline-block;
 	position: relative;
 	margin: 0 10px;
 	padding: 5px;
@@ -113,7 +109,7 @@ body header h1 {
 }
 
 .top-image {
-	display: inline;
+	display: block;
 	margin-left: 60%;
 	margin-right: 40%;
 	width: 25%;
