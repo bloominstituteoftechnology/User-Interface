@@ -84,79 +84,81 @@ h1, h2, h3, h4, h5 {
 	border: solid 1px black;
 }
 
+body div section {
+	
+	display: inline-block;
+}
+
 .title h1 {
 	font-size: 50px;
-	border: solid 1px black;
+	margin: 50px;
+	padding: 50px;
+	width: 400px;
 }
 
 .button {
+  display: inline-block;
   background-color: white;
   border: 1px solid black;
   color: black;
   padding: 10px 30px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
 .top-image {
-	display: block;
-	margin-left: 60%;
-	margin-right: 40%;
-	width: 25%;
-	border: solid 1px black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
   }
 
   .upper-section {
 	display: inline-block;
-	border: solid 1px black;
+	padding: 50px;
+		
   }
 
   .features {
 	width: 400px;
 	display: inline-block;
-	border: solid 1px black;
+	
   }
 
   .about {
 	width: 400px;
 	display: inline-block;
-	border: solid 1px black;
+	
   }
 
   .middle-image {
-	
-	border: solid 5px green;
+	heigth: 50%;
+	width: 100%;
   }
 
-  .middle-section {
+  .lower-section {
 	display: inline-block;
-	border: solid 1px black;
+	padding: 50px;
   }
 
   .services {
 	width: 33%;
 	display: inline-block;
-	border: solid 1px black;
   }
 
   .product {
 	width: 33%;
 	display: inline-block;
-	border: solid 1px black;
+	
   }
 
   .vision {
 	width: 33%;
 	display: inline-block;
-	border: solid 1px black;
+	
   }
 
-  .contact {
-	border: solid 1px black;
-  }
+ 
 
   footer {
-	border: solid 1px black;
+	  text-align: center;
   }
