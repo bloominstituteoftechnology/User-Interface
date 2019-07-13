@@ -70,12 +70,20 @@ h1, h2, h3, h4, h5 {
 header {
 	width: 100%;
 	height: 100px;
+	box-sizing: border-box;
 }
 
 a{
+	box-sizing: border-box;
 	text-decoration: none;
 	color: grey;
 	font-size: 10pt;
+}
+
+header img {
+	box-sizing: border-box;
+	padding: 15px;
+	float: right;
 }
 
 footer {
