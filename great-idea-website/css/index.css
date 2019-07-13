@@ -65,56 +65,109 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 4em;
+	margin: 0 4em;
+	/* max-width: 1024px; */
 }
 section {
-	margin: 2em;
+	margin: 2em 0;
 	width: 100%;
 }
 
+.h-center {
+	text-align: center;
+}
+.h-right {
+	text-align: right;
+}
+
+.v-center {
+	vertical-align: middle;
+}
+
 .inline {
+	display: inline;
+}
+.inline-block {
 	display: inline-block;
 }
+.block {
+	display: block;
+}
+
 .columns-2 {
-	/* columns: 2; */
+	columns: 2;
 }
 .halves {
 	width: 49%;
-}
-.columns-3 {
-	/* columns: 3; */
 }
 .thirds {
 	width: 32%;
 }
 
-.header {
-	margin: 3em;
-	color: gray;
+a {
 	text-decoration: none;
+	color: black;
+}
+
+.header {
+	/* margin: 3em; */
+	width: 100%;
+}
+nav {
+	height: 76px;
+	/* vertical-align: center; */
+	line-height: 76px;
+	white-space: nowrap;
+	text-align: justify;
+	min-width: 600px;
+}
+nav * {
+	padding: 20px 0;
+	/* margin: 0 10px; */
+	/* margin-bottom: 20px; */
+	color: gray;
+}
+nav::after {
+	content: '';
+	width: 100%;
+}
+
+.logo {
+	float: right;
 }
 
 h1 {
-	font-size: 6.5em;
-}
-
-.intro {
-	text-align: center;
-	columns: 2;
+	font-size: 5em;
+	transform: scale(1, 0.9);
 }
 
 button {
-	border: 1px;
-	width: 150px;
-	height: 35px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	width: 170px;
+	/* height: 35px; */
 	padding: 5px 15px;
-	font-size: 2em;
+	font-size: 1.1em;
 	background-color: white;
 	cursor: pointer;
 }
 
 p {
-	margin: 0.25em;
+	/* margin: 0.25em; */
+}
+
+.v-pad-1 {
+	margin: 1em 0;
+}
+.v-pad-2 {
+	margin: 2em 0;
+}
+.v-pad-2_5 {
+	margin: 2.5em 0;
+}
+.v-pad-3 {
+	margin: 3em 0;
 }
 
 .middle-img {
