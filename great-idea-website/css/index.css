@@ -62,5 +62,97 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+body {
+  width: 900px;
+  margin: auto;}
+
+nav{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 50px 0px 50px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+	padding: 0px 55px 0px 0px;
+	color: LightGray;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+.header {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.title h1{
+  font-size:75px;
+  text-align:center;
+  margin:0px 50px 0px 100px;
+}
+
+.title a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size:15px;
+  color: Gray;
+  padding: 6px 20px;
+  border: 1px solid black;
+  height:30px;
+  width:150px;
+  margin: 20px 20px 20px 180px;
+}
+
+.image1 {
+  height:300px;
+  width:300px;
+  margin: 0px 70px;
+}
+
+.start{
+  display:block;
+  width:100px;
+  height:20px;
+}
+
+.above {
+  border-top: 1px solid black;
+  padding-top: 40px;
+  margin-top: 150px;
+}
+
+.top {
+	display: inline-block;
+  width:445px;
+}
+.middle-img{
+  display:block;
+  margin:30px 5px 30px 5px;
+}
+.bottom {
+  display: inline-block;
+  width:280px;
+  padding-bottom: 40px;
+  margin-right:10px;
+}
+
+.below {border-bottom: 1px solid black;}
+
+.contact h4 {padding-top: 40px;}
+
+.number {padding-top: 20px; padding-bottom: 20px;}
+
+footer{
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+}
