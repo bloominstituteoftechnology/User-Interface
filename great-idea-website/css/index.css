@@ -80,8 +80,7 @@ h1, h2, h3, h4, h5 {
   }
 
   .header {
-	background:none;
-	font-family: 
+	background:grey;
 
 	/* Box Model: Content Area */
 	width: 50%;
@@ -98,6 +97,11 @@ h1, h2, h3, h4, h5 {
 	margin: 20px;
   }
 
+ 
+
+  h1 {
+	  font-size: 75px;
+  }
   .top-content {
 	background:none;
 	
