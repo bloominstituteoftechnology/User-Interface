@@ -80,34 +80,52 @@ a {
 
 }
 nav {
-	text-align: center  ;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Wallpoet';
+}
+a:hover{
+	color: darkblue;
+	transform: skewY(1deg);
 }
 .logo {
-	display:inline;
+	display:inline-block;
 }
 
+
 .title{
-font-size: 40px;
+
+font-size: 70px;
+width:600px;
 display:inline-block;
-height:300px;
-margin:0 auto;
-text-align:center;
-padding: 100px 70px 0px 100px;
+vertical-align: 100px;
+padding:30px;
+}
+h1{
+font-family: 'Wallpoet', cursive;
+
+}
+.image{
+	
+	padding:20px;
+	display:inline-block;
 }
 
 button{
 	padding: 10px;
 	border-radius: 30px;
 	background: transparent;
+	
 }
 	button:hover{
 		background:rgb(9, 124, 153);
 		color:black;
-		border: 1px solid rgb(29, 188, 228);
+		transform: skewY(4deg);
+		border: 1px solid rgb(8, 72, 88);
 	}
 
+
 .Features{
-	background:blue;
 	width:400px;
 	display:inline-block;
 	padding: 20px;
@@ -117,10 +135,38 @@ button{
 	display:inline-block;
 	padding: 20px
 }
-	hr{
-		color:black;
-		height:50px;
-		display: none;
-	}
 
+.Services{
+	
+	width:300px;
+	display:inline-block;
+	padding:20px;
+}
+.Product{
+	width:300px;
+	display:inline-block;
+	padding:20px;
+}
+.Vision{
+	width:300px;
+	display: inline-block;
+	padding: 20px;
+}
+.container2{
+	text-align: center;
 
+}
+.Contact{
+	padding: 20px;
+}
+footer{
+	padding:40px;
+}
+.section-titles{
+	font-size:20px;
+	font-family: 'Permanent Marker', cursive;
+}
+.section-titles:hover{
+	color: darkblue;
+	transform: skewY(5deg);
+}
