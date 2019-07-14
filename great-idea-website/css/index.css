@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -74,13 +74,12 @@ h2 {
 }
 
 hr {
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 70%;
+	margin-left: 150px;
 }
 
 body {
-	margin: 0px 50px 0px 50px;
+	margin: 0px 50px;
 }
 
 nav {
@@ -142,7 +141,7 @@ a {
 /* Box Right with Image */
 .box-content-two {
 	display: inline-block;
-	margin: 60px 0px 0px 75px;
+	margin: 60px 0px 0px 100px;
 }
 
 /* Middle Section Above Banner Image in Middle */
