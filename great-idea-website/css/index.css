@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.bigBox{
+
+	border: 1px solid blue;
+	width: 1050px;
+	height: 1300px;
+}
+
+hr{
+	width: 100%;
+	border: 2px solid black;
+}
+
+nav{
+	display: inline-block;
+	position: fixed;
+	background-color: indigo;
+}
+
+a{
+	display: inline-block;
+	margin: 20px 15px 20px 35px;
+	color:silver;
+	text-decoration:none;
+	vertical-align: middle;
+
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 243px;
+}
+
+.title section{
+	display:inline-block;
+    width: 49%;
+	height: 320px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.title h1{
+	font-size: 75px;
+	word-spacing: 300px;
+	line-height: 75px;
+}
+
+.title button{
+	padding: 15px 35px;
+    background-color: white;
+}
+
+.title button:hover{
+	background-color: silver;
+	color:black;
+}
+
+.main-content{
+	display: relative;
+	margin: 35px, auto;
+	width: 100%;
+}
+
+.main-content .firstPart{ 
+	display:inline-block;
+	width: 49.7%;
+}
+.firstPart h2{
+	font-size: 18px;
+}
+.firstPart p{
+	padding: 0 0 0 3px;
+}
+.main-content img{
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.secondPart{
+	display:inline-block;
+	width: 33%;
+	height: 120px;
+}
+
+
+address h3{
+	margin: 45px 0 0 0;
+}
+footer p{
+	text-align: center;
+	margin-top: 25px;
+}
