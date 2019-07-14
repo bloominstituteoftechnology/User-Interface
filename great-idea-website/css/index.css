@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url("img/logo.png");
+	background-image: url("img/header-img.png")
 }
 ol, ul {
 	list-style: none;
@@ -65,17 +67,32 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
  .container{
+	background-color:#E0FFFF;
+	z-index:-1;
 	width: 880px;
-	margin:auto;
+	margin:auto
 }
 header nav{
 	display: inline-block;
 	margin-top:35px
 }
 header nav a{
-	margin: 25px;
-	color:gray
+    margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background:#00ace6;;
+	transition: 1s;
 }
+.container header nav a:hover {
+	background: white;
+	color:black;
+}
+
 .logo{
 	margin-left: 30px
 }
@@ -99,7 +116,7 @@ header nav a{
     padding: 70px;
 }
 button{
-	background-color: white;
+	background-color: #00ace6;
     padding-left: 30px;
 	padding-right: 30px;
 	font-size:20px
@@ -122,11 +139,18 @@ button{
 	padding: 20px 0px;
   }
   .text-content .ana{
-	  display: inline-block
+	  display: inline-block;
+	  
   }
   footer{
 	  text-align: center;
-	  padding-bottom:20px
+	  padding-bottom:40px
+  }
+  .ana h4{
+	font-family: 'Russo One', sans-serif;
+  }
+  .ana p{
+	font-family: 'Josefin Sans', sans-serif;
   }
  
 
