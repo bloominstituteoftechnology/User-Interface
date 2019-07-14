@@ -6,6 +6,7 @@
 
 .hero {
     height: 100%;
+    margin-bottom: 25px;
     padding: 125px;
 
     background-image: url("https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
@@ -43,8 +44,22 @@
 }
 
 .hero-box span {
-    font-size: 4em;
+    opacity: 0;
 
+    font-size: 4em;
     color: #000000;
 }
 
+
+.hero-box:hover > span {
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
