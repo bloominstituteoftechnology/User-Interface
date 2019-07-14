@@ -109,8 +109,14 @@ article {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .tag-line {
+        font-size: 6vw;
+    }
+}
+
 @media screen and (max-width: 710px) {
-    article {
+    .two-col-row article, .three-col-row article {
         width: 100%;
     }
 }
