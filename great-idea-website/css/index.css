@@ -76,17 +76,42 @@ p {
 	padding: 30px 50px 30px 50px;
 }
 
+header {
+	/* stretch goals */
+	width: 1000px;
+	margin: auto;
+	background-color: #285D2F;
+	padding: 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	font-family: 'Mountains of Christmas', cursive;
+
+}
 header nav {
 	display: inline-block;
+	
+	/* stretch goals */
+	vertical-align: center;
 }
 header nav a {
 	text-decoration: none;
 	margin: 0 20px;
-	color: lightgray;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header nav a:hover {
+	box-sizing: border-box;
+	background: red;
+	padding: 0px 10px;
+	font-family: 'Indie Flower', cursive;
+
 }
 
 .logo {
-	margin-left: 120px;
+	margin-left: 20px;
 }
 
 .innovation{
@@ -141,4 +166,37 @@ header nav a {
 footer p {
 	text-align: center;
 	margin-bottom: 70px;
+}
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid green;
+	text-align: center;
+	padding: 10px;
+	width: 33%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.content {
+	padding-bottom: 20px;
+}
+
+.service2-inn {
+	width: 900px;
+	background: url("../header-img.png") no-repeat  right ;	
+}
+
+.bk-img {
+	background-image: url("../img/mid-page-accent.jpg");
 }
