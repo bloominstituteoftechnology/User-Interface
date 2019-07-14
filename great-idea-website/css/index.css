@@ -156,10 +156,11 @@ h5 {
   margin: 0 auto;
 }
 
-/* set section element to 100% width */
+/* section base properties */
 
 section {
   width: 100%;
+  padding: 40px 0;
 }
 
 /* header */
@@ -217,7 +218,6 @@ img .logo {
 .information {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 40px 0;
 }
 
 .two-col-text {
@@ -239,4 +239,17 @@ div .first {
   display: inline-block;
   width: 30%;
   margin-left: 4.69%;
+}
+
+/* Contact */
+.contact {
+  margin-bottom: 20px;
+}
+address a {
+  line-height: 3;
+}
+
+.copywrite {
+  text-align: center;
+  padding: 40px 0;
 }
