@@ -68,6 +68,7 @@ header {
 	width: 90%;
 	margin: auto;
 	margin-bottom: 50px;
+	margin-top: 100px;
 }
 
 header div {
@@ -95,15 +96,21 @@ header a {
 
 nav {
 	display: inline-block;
-	width: 90%;
-	margin: 30px auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: auto;
+	padding: 30px; 
 	text-align: center;
+	background-color: darkblue;
 }
 
 nav a {
 	display: inline-block;
 	color: grey;
 	text-decoration: none;
+	font-weight: bold;
+	color: ivory;
 	margin: 0 3%;
 }
 
