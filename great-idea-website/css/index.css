@@ -27,6 +27,12 @@ article {
     width: 49.5%;
 }
 
+#middle-image {
+    height: 182px;
+
+    background-image: url("../img/mid-page-accent.jpg");
+}
+
 .three-col-row article {
     width: 32.5%;
 }
@@ -55,12 +61,16 @@ article {
 }
 
 .hero-col.right {
+    width: 379px;
+    height: 379px;
+
     text-align: right;
+    background-image: url("../img/header-img.png");
 }
 
 .tag-line {
     font-family: 'Bangers', cursive;
-    font-size: 8vw;
+    font-size: 6vw;
 }
 
 #cta-button {
@@ -84,6 +94,20 @@ article {
 /********
 * State *
 ********/
+
+@media screen and (max-width: 990px) {
+    .nav-link {
+        padding: 3vh 2.5vw;
+    }
+
+    #logo {
+        padding: 2.75vh 0;
+    }
+
+    .tag-line {
+        font-size: 8vw;
+    }
+}
 
 @media screen and (max-width: 710px) {
     article {
