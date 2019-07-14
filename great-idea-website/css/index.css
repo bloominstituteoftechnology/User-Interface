@@ -64,3 +64,153 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+hr {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	margin: 0px 50px 0px 50px;
+}
+
+nav {
+	display: inline-block;
+}
+
+.logo {
+	display: inline-block;
+	margin: 15px 0px 0px 75px;
+}
+
+.box-nav {
+	margin-left: 100px;
+}
+
+a {
+	font-size: 18px;
+	color: gray;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+/* Box for top section */
+.box-section-one {
+	display: inline-block;
+	width: 100%;
+	height: 450px;
+	margin-top: 15px;
+	margin-bottom: 75px;
+}
+
+/* Box for Slogan & Start button */
+.box-content-one {
+	display: inline-block;
+	height: 200px;
+	width: 275px;
+	margin-left: 200px;
+}
+
+/* Innovation on demand Box */
+.box-one {
+	display: inline-block;
+	margin: 0px 0px 10px 10px;
+}
+
+/* Get Started Button */
+.box-two {
+	display: inline-block;
+	font-size: 20px;
+	color: gray;
+	width: 175px;
+	height: 30px;
+	text-align: center;
+	margin-left: 65px;
+	padding-top: 2px;
+	border: 2px solid gray;
+}
+
+/* Box Right with Image */
+.box-content-two {
+	display: inline-block;
+	margin: 60px 0px 0px 75px;
+}
+
+/* Middle Section Above Banner Image in Middle */
+
+/* Section 2 */
+.box-section-two {
+	width: 100%;
+	height: 150px;
+}
+
+.box-content-three {
+	display: inline-block;
+	height: 200px;
+	width: 400px;
+	margin-left: 150px;
+}
+
+.box-content-four {
+	display: inline-block;
+	height: 200px;
+	width: 400px;
+	margin-left: 50px;
+}
+
+/* Banner Image */
+.box-banner-image {
+	display: inline-block;
+	margin-left: 150px;
+}
+/* Section Below Image Banner */
+
+/* Section 3 */
+.box-section-three {
+	width: 100%;
+	height: 150px;
+	margin-top: 25px;
+}
+
+.box-content-five {
+	display: inline-block;
+	height: 200px;
+	width: 250px;
+	margin-left: 150px;
+}
+
+.box-content-six {
+	display: inline-block;
+	height: 200px;
+	width: 250px;
+	margin-left: 50px;
+}
+
+.box-content-seven {
+	display: inline-block;
+	height: 200px;
+	width: 250px;
+	margin-left: 50px;
+}
+
+.section-four {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 150px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 10px;
+}
