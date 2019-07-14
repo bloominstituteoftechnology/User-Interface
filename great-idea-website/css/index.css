@@ -86,7 +86,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    padding: 3vh 3vw;
+    padding: 3vh 3.5vw;
     color: #4A4A4A;
 }
 
@@ -94,7 +94,7 @@ header {
     position: relative;
     text-align: right;
     clear: right;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 header div {
@@ -119,8 +119,8 @@ header a {
     text-decoration: none;
     color: #000000;
     border: 1px solid #000000;
+    font-size: 1.5vw;
     padding: 1vh 4vw;
-    font-size: 1.25em;
     margin-top: 2vh;
 }
 
@@ -130,7 +130,7 @@ img, .row {
 
 .tag-line {
     font-family: 'Bangers', cursive;
-    font-size: 5.5em;
+    font-size: 8vw;
 }
 
 #header-image {
@@ -144,9 +144,9 @@ img, .row {
 }
 
 #logo {
-    width: 20%;
+    width: 15%;
     float: right;
-    padding: 1.75vh 0;
+    padding: 2.25vh 0;
 }
 
 article {
@@ -159,7 +159,7 @@ article {
 }
 
 .three-col-row article {
-    width: 33%;
+    width: 32.5%;
 }
 
 footer {
@@ -175,4 +175,28 @@ footer {
     width: 100%;
     padding-left: 7.5%;
     padding-right: 7.5%;
+}
+
+@media screen and (max-width: 990px) {
+    nav a {
+        padding: 3vh 2.5vw;
+    }
+
+    #logo {
+        padding: 2.75vh 0;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    nav a {
+        padding: 3vh 1.5vw;
+    }
+
+    #logo {
+        padding: 3vh 0;
+    }
+
+    .two-col-row article, .three-col-row article {
+        width: 100%;
+    }
 }
