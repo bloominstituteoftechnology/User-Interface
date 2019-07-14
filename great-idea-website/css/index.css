@@ -71,15 +71,32 @@ h1, h2, h3, h4, h5 {
 	/*border:1px solid blue;*/
 }
 
+/*stetch 1 begin */
+header {
+	display: inline-block;
+    padding-right: 100px;
+    margin: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+	
+
+}
+
+
+/*stretch1 End */
+
 header nav {
 	display:inline-block;
 	margin-top: 50px;
+	background-color:whitesmoke        /*stretch ***/
 }
 
 header nav a {
 	margin:0 20px;
 	color:grey;
 	text-decoration:none;
+	
 }
 
 header nav a:hover {
