@@ -111,7 +111,7 @@ footer {
 }
 
 .nav-link {
-    padding: 3vh 3.5vw;
+    padding: 2.5vh 3.5vw;
 }
 
 #logo {
@@ -140,6 +140,38 @@ footer {
 /********
 * State *
 ********/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes changebackground {
+    from {
+        background: #E2ECDA;
+    }
+    to {
+        background: #333333;
+    }
+}
+
+@keyframes changecolor {
+    from {
+        color: #4A4A4A
+    }
+    to {
+        color: #E2ECDA;
+    }
+}
+
+.nav-link:hover {
+
+    animation: changecolor .5s forwards, changebackground .5s forwards;
+}
 
 @media screen and (max-width: 990px) {
     .nav-link {
