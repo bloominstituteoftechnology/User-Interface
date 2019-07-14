@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 h1 {
-	font-size: 70px;
+	font-size: 80px;
 	text-align: center;
 }
 
@@ -116,7 +116,7 @@ a {
 .box-content-one {
 	display: inline-block;
 	height: 200px;
-	width: 275px;
+	width: 300px;
 	margin-left: 200px;
 }
 
@@ -134,7 +134,7 @@ a {
 	width: 175px;
 	height: 30px;
 	text-align: center;
-	margin-left: 65px;
+	margin-left: 80px;
 	padding-top: 2px;
 	border: 2px solid gray;
 }
