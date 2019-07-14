@@ -189,10 +189,10 @@ img .logo {
   width: 45%;
   height: 100%;
   display: inline-block;
-  font-size: 70px;
+  font-size: 80px;
   text-align: center;
-  padding: 5% 10%;
-  margin-bottom: 10%;
+  padding: 0 10%;
+  margin-bottom: 5%;
 }
 
 .cta button {
@@ -201,14 +201,42 @@ img .logo {
   display: inline-block;
   font-size: 16px;
   padding: 9px 50px;
-  margin: 0 0 20px 0;
+  position: relative;
+  /* margin: 0 0 20px 0; */
   background: #fff;
+  top: -30px;
 }
 
 .code {
   position: relative;
   margin: 7% 0 0 20%;
-  top: 50px;
+  top: 10px;
 }
 
 /* Information */
+.information {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+}
+
+.two-col-text {
+  display: inline-block;
+  width: 45%;
+  margin-left: 9%;
+}
+
+div .first {
+  margin: 0;
+}
+
+.middle-img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.three-col-text {
+  display: inline-block;
+  width: 30%;
+  margin-left: 4.69%;
+}
