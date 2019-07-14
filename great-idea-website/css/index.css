@@ -152,7 +152,7 @@ h5 {
 /* Your code starts here! */
 
 .container {
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -164,13 +164,13 @@ section {
 
 /* header */
 nav {
-  width: 85%;
+  width: 80%;
   height: 36px;
   display: inline-block;
   vertical-align: middle;
 }
 nav a {
-  margin: 0 12.25%;
+  margin: 0 10%;
   color: #bbb;
   text-decoration: none;
   font-size: 1em;
@@ -182,3 +182,33 @@ nav:first-child a {
 img .logo {
   display: inline-block;
 }
+
+/* Intro */
+
+.cta {
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  font-size: 70px;
+  text-align: center;
+  padding: 5% 10%;
+  margin-bottom: 10%;
+}
+
+.cta button {
+  border-radius: 0;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 16px;
+  padding: 9px 50px;
+  margin: 0 0 20px 0;
+  background: #fff;
+}
+
+.code {
+  position: relative;
+  margin: 7% 0 0 20%;
+  top: 50px;
+}
+
+/* Information */
