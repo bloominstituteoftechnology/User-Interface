@@ -49,9 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 *
- .box       {
-box-sizing: border-box;
-}
+ }
 .box  {
 	display: inline-flex;
 }
