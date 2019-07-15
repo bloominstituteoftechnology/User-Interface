@@ -71,10 +71,10 @@ h1, h2, h3, h4, h5 {
 }
 
 body { 
-  width: 1000px;    
-  margin: 0 auto;    
-  padding: 30px;    
-  display: inline-block;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
 }
   .navigation {    
     padding: 40px 10px 50px 20px;
@@ -139,6 +139,7 @@ body {
       height: 400px;
       vertical-align: bottom;
     }
+
   .first-content {    
       padding-top: 70px;
       margin: 0 auto;
