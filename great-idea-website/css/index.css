@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5 {
 
  .header {
 	display: inline-block;
-	font-size: 0px;
 	}
 
   .header-words-button{
@@ -93,21 +92,28 @@ h1, h2, h3, h4, h5 {
 	
 	}
 
+   .button {
+		border: 1px solid black;
+		width: 200px;
+		padding: none;
+		margin-top: 10px
+		height: 35px;
+		font-size: 20px;
+		background-color: white;
+		
+	}
+
  
   
   .top-content {
 	background:lightblue;
-	display: inline-block;
+	display: block;
   }
 
   .top-content h1 {
 	  font-size: 24px;
   }
 
-  .top-content p {
-	  display: inline-block;
-	  
-  }
 
   .middle-img {
 	  text-align: center;
@@ -115,7 +121,7 @@ h1, h2, h3, h4, h5 {
 
   .bottom-content {
 	background:lightcoral;
-	display: inline-block;
+	display: block;
   }
 
   .bottom-content h1 {
@@ -126,7 +132,7 @@ h1, h2, h3, h4, h5 {
 
   .contact {
 	background:lightseagreen;
-	display: inline-block;
+	display: block;
 	margin-top: 30px
   }
 
