@@ -17,17 +17,15 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 30px;
-	padding: 39px;
-	border: 15px;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-  box-sizing: flexbox;
- 
-	
-} 
- <!-- comment-->
+  margin: 30px;
+  padding: 39px;
+  border: 15px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+   box-sizing: flexbox;
+}
+	<!-- comment-->
 body {
 	line-height: 1;
 }
