@@ -18,12 +18,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
   box-sizing: border-box;
-  logo: top-right;
+  
 	
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display:  block;
+	display:  inline-block;
 }
 
 }
