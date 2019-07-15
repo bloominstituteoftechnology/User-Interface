@@ -81,8 +81,7 @@ h2 {
 
 
 .logo {
-	margin-left:700px;
-	padding-bottom: 5em;
+	margin-left:150px;
 	
 }
 
@@ -99,7 +98,7 @@ nav a {
 	text-decoration: none;
 	padding: .7em;
 	font-display: bold;
-	
+	color: #bfbfbf;
 	
 }
 
@@ -175,7 +174,7 @@ button:hover:after {
 
 .contact {
 	padding: 20px;
-	text-align: center;
+	
 }
 
 .copyright {
