@@ -25,17 +25,22 @@ time, mark, audio, video {
    font: inherit;
    vertical-align: baseline;
    box-sizing: flexbox;
+   
+
+   
 }
 	<!-- comment-->
 body {
-	line-height: 1;
+	line-height: 3px;
 }
 ol, ul {
-	list-style: none;
-}
+	list-style: circle;
+	height: 20in;
+	width:  21in;
+}	
 blockquote, q {
 	quotes: none;
-    
+
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -46,11 +51,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 100%;
 }
+   
+
 
 /* Set every element's box-sizing to border-box */
 *
- }
-.box  {
+
+   .box  {
 	display: inline-flex;
 }
 
