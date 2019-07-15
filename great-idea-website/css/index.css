@@ -23,13 +23,18 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  box-sizing: border-box;
+  box-sizing: flexbox;
  
 	
 } 
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
 display:  inline-block;
+border: 10px;
+padding-block:  24px;
+margin-block:   24px;
+border-block-width: 26px;
+height:   26px;
 }
 
 body {
@@ -56,6 +61,7 @@ table {
 *
  {
 box-sizing: border-box;
+display: flexbox;
 }
 
 html, body {
