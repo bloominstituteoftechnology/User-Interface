@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 *
  .box       {
-box-sizing: border-box;
+box-sizing: inline-border;
 }
 .box  {
 	display: flexbox;
