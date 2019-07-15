@@ -136,7 +136,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -144,7 +144,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family: "Pacifico", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -164,6 +164,13 @@ section {
 }
 
 /* header */
+header {
+  background-color: dodgerblue;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+}
 nav {
   width: 80%;
   height: 36px;
@@ -176,16 +183,27 @@ nav a {
   text-decoration: none;
   font-size: 1em;
 }
+
+nav a:hover {
+  font-size: 1.4em;
+  color: black;
+}
 nav:first-child a {
   margin-left: 0;
 }
 
-img .logo {
+.logo {
+  background-image: url("../img/logo.png");
+
   display: inline-block;
+  height: 36px;
+  width: 183px;
 }
 
 /* Intro */
-
+.intro {
+  padding: 80px 0;
+}
 .cta {
   width: 45%;
   height: 100%;
@@ -193,25 +211,37 @@ img .logo {
   font-size: 80px;
   text-align: center;
   padding: 0 10%;
-  margin-bottom: 5%;
+  margin: 0 20% 5% 0;
 }
 
 .cta button {
+  background-color: #fff;
   border-radius: 0;
   border: 1px solid black;
   display: inline-block;
+  font-family: "Pacifico", cursive;
   font-size: 16px;
   padding: 9px 50px;
   position: relative;
-  /* margin: 0 0 20px 0; */
-  background: #fff;
   top: -30px;
+  transition: top 0.5s ease-out, box-shadow 3s ease, background-color 0.25;
+}
+
+.cta button:hover {
+  background-color: dodgerblue;
+  box-shadow: 10px 50px 25px 10px rgba(100, 100, 100, 0.3);
+  position: relative;
+  top: -38px;
+  transition: top 0.5s ease-out, box-shadow 1s ease, background-color 0.25s;
 }
 
 .code {
+  background-image: url("../img/header-img.png");
+  display: inline-block;
+  top: 35px;
   position: relative;
-  margin: 7% 0 0 20%;
-  top: 10px;
+  width: 379px;
+  height: 379px;
 }
 
 /* Information */
@@ -231,6 +261,7 @@ div .first {
 }
 
 .middle-img {
+  background-image: url("../img/mid-page-accent.jpg");
   width: 100%;
   margin: 40px 0;
 }
@@ -238,7 +269,7 @@ div .first {
 .three-col-text {
   display: inline-block;
   width: 30%;
-  margin-left: 4.69%;
+  margin-left: 4.6%;
 }
 
 /* Contact */
