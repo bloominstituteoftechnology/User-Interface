@@ -1,8 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+
 */
 
+
+
+/* Your code starts here! */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,18 +17,21 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 39px;
-	padding: 25px;
-	border: 5px;
+	margin: 30px;
+	padding: 39px;
+	border: 15px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  box-sizing: border-box;
+ 
+	
+} 
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+display:  inline-block;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: inline-block;
-}
+
 body {
 	line-height: 1;
 }
@@ -36,6 +40,7 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+    
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -44,23 +49,23 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 100%;
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+*
+ {
+box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+    font-family: 'Titillium Web', sans-serif;}
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Your code starts here! */
+h1, h2, h3, h4, h5  {
+	font-family:"bangers", cursive;
+	letter-spacing:  12px;
+	margin-bottom:   29px;
+}	
+	
+	
