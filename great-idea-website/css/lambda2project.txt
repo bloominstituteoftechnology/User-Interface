@@ -1,0 +1,98 @@
+<h1> INNOVATION ON DEMAND</h1>
+
+<h3> <img src="img/header-img.png" alt="Image of a code snippet"</img>
+</h3>
+  
+  <html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Great Idea!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+  <body>
+<!-- comment -->
+    
+    <a href="box1">Services</a>
+    <a href="box2"> Product</a>
+    <a href="box3">Vision</a>
+    <a href="box4">Features</a>
+    <a href="box5">Contact</a>
+   
+   
+    <a href="box7">Get Started</a>
+    
+    
+    <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+   
+ <section>
+  <h2> Features</h2>
+    </section
+    
+   <section>
+  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    </section>
+
+<section>
+ <section>
+   <h4>   About </h4>
+  </section>
+  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    </section>
+<section>
+  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+ 
+    
+    </section>
+ 
+   
+    
+    <section>
+  
+   <section>   
+     <h5> Services</h5>
+     </sectio>
+      
+      <section>
+  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    </section>
+
+
+    
+    
+ <section>
+   <h6>Product</h6>
+    </section>
+   
+    
+    <section>
+  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    </section>
+    <section>
+ <section>
+   <h>Vision</h>
+      </section>
+     <section>
+  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    </section>
+<section>  
+  <font color="blue">Contact</font>
+  <font color="blue"> 123 WaySide 455 St.</font>
+  <section>
+  <font color="blue"> Somewhere, USA</font>
+  </section>
+ <a href="">1 (888) 888-9922</a>
+ <a href=color "blue">sales@greatidea.io
+    </section>
+
+  Copyright Great Idea! 2018
+  
+  </body>
+</html>
