@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin: auto;
+}
+
+.block {
+	position: relative;
+	width: 100%;
+}
+
+/* nav */
+nav {
+	display: inline-block;
+	text-align: center;
+	height: 60px;
+	padding: 20px 0px px 0px;
+}
+
+.nav_button {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #1d1d1d;
+	margin: 25px 20px;
+	position: relative;
+	border: none;
+	outline: none;
+}
+
+.nav_button:hover {
+	opacity: 0.9;
+	background: white;
+	transform: scale(2);
+	color: rgb(54, 3, 238);
+}
+
+#navbar {
+	overflow: hidden;
+  }
+
+.logo {
+	float: right;
+	padding: 15px 0px 0px 0px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.gts {
+	position: relative;
+}
+.gts .gts_text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 80px;
+	margin: 100px 0px;
+	text-align: center;
+	padding: 0px 60px;
+	width: 55%;
+}
+
+.gts .gts_text button {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	background: white;
+	vertical-align: top;
+	margin-top: 5px;
+	padding: 5px 35px;
+	font-size: 14px;
+	border: 1px dotted black;
+	cursor: pointer;
+}
+
+.gts .gts_text button:hover {
+	background: rgb(54, 3, 238);
+	color: whitesmoke;
+}
+
+.gts_image {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+
+img {
+	border-radius: 10px;
+	filter: grayscale(75%);
+	transition: filter 0.5s;
+  }
+  
+  img:hover {
+	filter: grayscale(25%);
+  }
+
+.content {
+	position: relative;
+}
+
+.content .content_above {
+	display: inline-block;
+	width: 420px;
+	margin: 1% 1% 2% 1%;
+	padding: 20px 0; 
+	line-height: 20px;
+}
+
+.content .content_below {
+	display: inline-block;
+	width: 274px;
+	margin: 1% 8px 2% 8px;	
+	padding: 20px 0px;
+	line-height: 20px;	
+}
+
+footer {
+	padding: 25px 0px 0px 0px;
+	text-align: center; 
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px 0px;
+}
