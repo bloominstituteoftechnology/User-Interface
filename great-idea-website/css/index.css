@@ -40,8 +40,8 @@ ol, ul {
 }	
 blockquote, q {
 	quotes: none;
-
 }
+<!--comment-->
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
