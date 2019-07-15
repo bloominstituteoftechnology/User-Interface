@@ -96,7 +96,7 @@ nav {
 
 .nav_button:hover {
 	opacity: 0.9;
-	background: white;
+	background: whitesmoke;
 	transform: scale(2);
 	color: rgb(54, 3, 238);
 }
