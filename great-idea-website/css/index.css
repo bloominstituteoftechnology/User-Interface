@@ -17,12 +17,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 30px;
-  padding: 39px;
-  border: 15px;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+ 
+	margin: 26em;
+	padding: 21em;
+	border: 29em;	
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
    box-sizing: flexbox;
 }
 	<!-- comment-->
