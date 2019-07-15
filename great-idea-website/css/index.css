@@ -49,9 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 *
- {
+ .box       {
 box-sizing: border-box;
-display: flexbox;
+}
+.box  {
+	display: flexbox;
 }
 
 html, body {
