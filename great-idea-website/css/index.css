@@ -110,15 +110,17 @@ body {
   .inside-header { 
      display: inline-block; 
      vertical-align: bottom;
-     margin-bottom: 70px;
+     margin-bottom: 110px;
   }  
   h1 {    
-      font-size: 90px;    
+      font-size: 80px;    
       text-align: center;
       margin-left: 45px;
     }
   button {
     padding: 5px 45px 5px 45px;
+    margin-left: 40px;
+    background: white;
   }
   button:hover {
     color: white;
