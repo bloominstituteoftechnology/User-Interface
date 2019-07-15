@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 * {    
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 body { 
@@ -76,17 +77,16 @@ body {
   display: inline-block;
 }
   .navigation {    
-    padding: 40px 20px 100px 20px;
+    padding: 40px 10px 50px 20px;
   }
-  nav {    
-    float: left;    
-    padding-top: 15px;
-    padding-bottom: 10px;
+  nav {
+    display: inline-block;  
+    padding: 20px;
     position: fixed;
     background: slategray;
   }
   nav a {    
-    padding: 30px;    
+    padding: 25px;  
     text-decoration: none;    
     color: whitesmoke;
   }
@@ -98,20 +98,24 @@ body {
     font-size: 20px;
   }
   .logo {    
-    float: right;
+    display: inline-block;
+    margin-left: 750px;
+    height: 50px;
   }
-  .header {    
-    text-align: center;    
-    padding-bottom: 70px;    
+  .header {   
+    text-align: center;
     border-bottom: 2px solid black;
+  
   }
-  .inside-header {   
-     float: left;    
-     padding: 75px 100px 30px 90px;
-    }
+  .inside-header { 
+     display: inline-block; 
+     vertical-align: bottom;
+     margin-bottom: 70px;
+  }  
   h1 {    
-      font-size: 85px;    
+      font-size: 90px;    
       text-align: center;
+      margin-left: 45px;
     }
   button {
     padding: 5px 45px 5px 45px;
@@ -125,30 +129,38 @@ body {
     font-family: cursive;
   }
   .circle {    
-      float: right;
+      display: inline-block;
+      margin-left: 125px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 400px;
+      height: 400px;
+      vertical-align: bottom;
     }
   .first-content {    
       padding-top: 70px;
+      margin: 0 auto;
     }
   h3 {
     font-family: "Brush Script MT", cursive;
     font-size: 25px;
   }
-  .features {   
-       float: left;    
+  .features {     
+       display: inline-block;  
        width: 450px;    
        height: 200px;
       }
-  .about {    
-      float: right;    
+  .about {  
+      display: inline-block;      
       width: 450px;    
       height: 200px;
+      margin-left: 35px;
     }
   .middle-img { 
       width: 100%;
     }
       .second-content {    
-        padding: 70px 0 70px 0;    
+        padding: 100px 0 70px 0;    
         border-bottom: 2px solid black;   
         margin: 0 auto;
       }
@@ -156,13 +168,13 @@ body {
         display: inline-block;    
         width: 275px;   
         height: 200px;    
-        margin-right: 45px;
+        margin-right: 57px;
       }
       .product {    
         display: inline-block;    
         width: 275px;    
         height: 200px;    
-        margin-right: 45px;
+        margin-right: 50px;
       }
       .vision {    
         display: inline-block;    
