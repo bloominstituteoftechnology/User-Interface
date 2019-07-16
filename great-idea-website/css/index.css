@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+nav {
+	/*boreder: 1px solid red;**/
+	margin-top: 20px;
+	display:inline-block;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+nav .logo {
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	color:gray;
+}
+
+header{
+/*boreder: 1px solid red;**/
+display: flex; 
+justify-content: space-around;
+margin: 40px;
+align-items: center; 
+}
+
+header .left-container{
+	/*border: 1px solid black;*/
+font-size: 80px;
+display: inline-block;
+}
+
+header .left-container .button .header-img{
+	display: inline-block;
+	vertical-align: top;
+	} 
+
+header .h1{
+	font-size: 70px;
+	text-align: center; 
+}
+
+.button{
+	/*border: 1px solid black;*/
+	widows: 50%;
+	font-size:20px;
+	padding: 5px 10px;
+}
+
+.button a{
+	text-decoration:none;
+	color: black;
+	border: .5px solid black;
+	margin: 0px 10px 10px 0px auto; /*to center the button*/
+	padding: 10px;
+}
+
+hr{
+	border: .5px solid  black; /* border top increases the thickness of the line, don't comment out the border here*/
+}
+
+.top-paragraphs{
+	display: flex;
+	margin: 20px;
+	 /*manipulate this to fix top paragraphs*/
+}
+.middle-img {
+	width: 100%;
+	margin: 20px 0; /* to put space around the image*/
+}
+.bottom-paragraphs{
+  display: flex;
+  margin: 20px;
+}
+
+.contact-info{
+line-height: 2;
+margin: 30px 0;
+}
+
+footer .copyright{
+	text-align: center;
+}
