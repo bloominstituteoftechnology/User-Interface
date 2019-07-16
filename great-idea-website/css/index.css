@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,49 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+nav {
+	text-align: center;
+	display: inline-block;
+	word-spacing: 70px;
+	padding: 5%;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	opacity: 0.5;
+}
+
+.logo {
+	position: fixed;
+	margin-left: 30px;
+	margin-top:  30px;
+	font-family: 'Bangers', cursive;
+}
+
+.pic {
+	float: right;
+	vertical-align: top;
+	position: absolute;
+	right: 10px;
+}
+
+.info h1 {
+	margin: 20px;
+	display: block;
+	width: 45%;
+}
+
+.title {
+	display: inline;
+}
+
+.big {
+	font-size: 70px;
+}
 /* Your code starts here! */
