@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 800px;
+	margin: auto;
+}
+header nav {
+	display: inline-block;
+	margin: 20px;
+}
+header nav a{
+	margin: 0 20px;
+	color: gray;
+}
+header .logo{
+	display: inline-block;
+	padding: 5px;
+}
+
+.cta {
+display: inline-block;
+}
+h1{
+	font-size: 70px;
+}
+.cta-text {
+	
+    display: inline-block;
+    position: relative;
+    bottom: 134px;
+    left: 60px;
+    text-align: center;
+    padding: 52px 20px 10px 10px;
+    margin: 140px;
+
+}
+
+button {
+    width: 150px;
+    height: 44px;
+    padding: 10px;
+    border: 4px solid black;
+    margin: 25px;
+    display: inline-block;
+  
+}
+  
+button:hover {
+  background: black;
+  color: white;
+}
+.circle{
+	border: 2px red solid;
+	display: inline-block;
+    padding: -8px 0px 0px 238px;
+    margin-bottom: 80px;
+}
+
+
+
+.top{
+	display: inline-block;
+}
+.features{
+	padding: 20px;
+	width: 45%;
+	display: inline-block;
+	border: 2px red solid;
+	
+}
+.about{
+	padding: 20px;
+	width: 45%;
+	display: inline-block;
+	border: 2px red solid;
+}
+.services{
+	padding: 40px 20px 60px 20px;
+	width: 60%;
+	display: inline-block;
+	border: 2px red solid;
+	width: 30%;
+
+}
+.product{
+	padding: 40px 20px 60px 20px;
+	width: 60%;
+	display: inline-block;
+	border: 2px red solid;
+	width: 30%;
+}
+.vision{
+	padding: 40px 20px 60px 20px;
+	width: 60%;
+	display: inline-block;
+	border: 2px red solid;
+	width: 30%;
+}
+
+
+
+
+
+
+h6{
+	text-align: center;
+}
