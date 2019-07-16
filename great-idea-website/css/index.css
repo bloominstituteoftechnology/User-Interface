@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	padding: 0 30px;
+	font-size: .9em;
+	margin-top: 25px;
+}
+
+nav a{
+	display: inline-block;
+	padding: 0 30px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	display: inline-block;
+	float: right;
+}
+
+body{
+	width: 1000px;
+	margin: auto;
+}
+h1{
+	font-size: 4.5em;
+	text-align: center;
+	margin-bottom: .25em;
+}
+
+h2 {
+	font-weight: solid;
+}
+
+* {
+	text-decoration: none;
+}
+
+header{
+	min-height: 500px;
+	max-width: 100%;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
+
+.headerLeft{
+	margin: 0;
+	display: inline-block;
+	width: 48%;
+	height: 350px;
+}
+
+.getStarted{
+	display: block;
+	width: 100px;
+	height: 35px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1.5ex;
+}
+
+.headerRight{
+	width: 50%;
+	display: inline-block;
+	background: url(.../img/logo.png);
+	background-size: 80%;
+	vertical-align: bottom;
+	height: 400px;
+	padding: 20px 0px 0px 0px;
+}
+
+.headerImage{
+	display: inline-block;
+	float: right;
+}
+
+.contentTop{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+
+.contentBottom{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+
+.twoColumns{
+	margin: 0 auto;
+	display: inline-block;
+	max-width: 49.8%;
+}
+.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.threeColumns{
+	display: inline-block;
+	max-width: 33%;
+	padding: 35px 0px;
+}
+
+.contact{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 35px 0px;
+	border-top: 1px solid black;
+}
+
+footer{
+	text-align: center;
+	padding: 0px 0px 25px 0px;
+}
