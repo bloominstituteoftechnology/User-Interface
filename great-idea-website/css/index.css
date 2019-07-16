@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	margin: 0 4em;
-	/* max-width: 1024px; */
+	min-width: 896px;
+	max-width: 896px;
 }
 section {
 	margin: 2em 0;
@@ -110,43 +111,39 @@ a {
 }
 
 .header {
-	/* margin: 3em; */
 	width: 100%;
 }
 nav {
 	height: 76px;
-	/* vertical-align: center; */
 	line-height: 76px;
-	white-space: nowrap;
-	text-align: justify;
-	min-width: 600px;
 }
 nav a {
 	color: gray;
 	padding-right: 60px;
+	vertical-align: top;
 }
 nav img {
 	padding: 20px 0;
 }
-nav::after {
-	content: '';
-	width: 100%;
-}
 
-.logo {
-	float: right;
+.logo1 {
+	padding-left: 30px;
+}
+.logo2 {
+	margin-left: auto;
+	margin-right: 0;
 }
 
 h1 {
 	font-size: 5em;
-	transform: scale(1, 0.9);
+	transform: scale(1.1, 0.9);
 }
 
 button {
-	border: 2px;
+	border: 1.5px;
 	border-style: solid;
 	border-color: black;
-	width: 170px;
+	width: 180px;
 	padding: 5px 15px;
 	font-size: 1.1em;
 	background-color: white;
@@ -155,6 +152,11 @@ button {
 
 .middle-img {
 	width: 100%;
+}
+
+p {
+	transform: scale(1, 1.1);
+	margin: 1.25em 0;
 }
 
 /* Tweaks */
@@ -173,11 +175,9 @@ button {
 .r-pad-0_75 {
 	margin-right: 0.75em;
 }
-.b-pad-4_5 {
-	margin-bottom: 4.5em;
+.b-pad-5 {
+	margin-bottom: 5em;
 }
-
-p {
-	transform: scale(1, 1.1);
-	margin: 1.25em 0;
+.t-pad-2_5 {
+	margin-top: 2.5em;
 }
