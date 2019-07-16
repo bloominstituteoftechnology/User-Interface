@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5 {
 .sign {
 	font-size: 60px;
 	font-family:'Bangers', cursive;
+	text-align: center;
+	margin-right: 500px;
 }
 
  header nav a{
@@ -81,18 +83,21 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin:0 auto;
-	width: 800px;
+	width: 975px;
 }
 
 .contain-row {
-	display:inline-flex;
-	margin:10px ;
+	display:inline-block;
+	margin: 0 auto;
 }
 
 .button2 {
 	border:1px solid black;
-	padding:15px 32px;
-	margin:4px 2px;
+	height:40px;
+	width:200px;
+    padding:10px 20px 25px 50px;
+	box-sizing: border-box;
+	font-size: 20px;
 	}
 
 #logo {
@@ -101,8 +106,26 @@ h1, h2, h3, h4, h5 {
 	bottom:50px;
 }
 
-#head {
+.idea {
 	position: relative;
 	left: 425px;
 	bottom:200px;
+
+}
+
+.left {
+    width:50%;
+	display:inline-block;
+}
+
+.right {
+	width:50%;
+	display:inline-block;
+}
+
+.bottom-section .paragraph-content {
+	display:inline-block;
+	width:275px;
+	margin:20px;
+
 }
