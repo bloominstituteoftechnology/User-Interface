@@ -65,11 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.sign {
-	font-size: 60px;
+.sub-head .sign {
+	font-size: 80px;
 	font-family:'Bangers', cursive;
 	text-align: center;
 	margin-right: 500px;
+	position: relative;
+	top:150px;
+	left:50px;
 }
 
  header nav a{
@@ -86,18 +89,24 @@ h1, h2, h3, h4, h5 {
 	width: 975px;
 }
 
-.contain-row {
+.top-section .top-paragraph {
 	display:inline-block;
-	margin: 0 auto;
-}
+	width:450px;
+	margin-top:20px;
+	margin-bottom: 25px;
 
-.button2 {
+} 
+
+.button {
 	border:1px solid black;
 	height:40px;
 	width:200px;
     padding:10px 20px 25px 50px;
 	box-sizing: border-box;
 	font-size: 20px;
+	position: relative;
+	top:175px;
+	left:180px;
 	}
 
 #logo {
@@ -106,21 +115,12 @@ h1, h2, h3, h4, h5 {
 	bottom:50px;
 }
 
-.idea {
+.sub-head .circle {
 	position: relative;
-	left: 425px;
-	bottom:200px;
+	left: 550px;
+	bottom:150px;
+	
 
-}
-
-.left {
-    width:50%;
-	display:inline-block;
-}
-
-.right {
-	width:50%;
-	display:inline-block;
 }
 
 .bottom-section .paragraph-content {
@@ -128,4 +128,15 @@ h1, h2, h3, h4, h5 {
 	width:275px;
 	margin:20px;
 
+}
+
+.copyright {
+	position:relative;
+	left:400px;
+}
+
+.font {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;;
 }
