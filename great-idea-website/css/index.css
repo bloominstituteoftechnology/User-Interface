@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px solid black;
+	display: inline-block; 
+}
+header nav{ 
+	margin-top: 35px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+header nav a { 
+	margin: 0 20px;
+} 
+
+header .logo {
+	margin-left: 140px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.ctaBox { 
+	width:50%;
+	margin: auto;
+	margin-right: 40px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	display:inline-block;
+	text-align:center;
+}
+
+.cta { 
+	font-size:60px;
+	padding-top: 50px;
+	/* text-align:center;
+	max-width: 49%; */
+}
+
+button {
+	width: 180px;
+	height: 35px;
+	margin-left: 120px;
+	border: 1px solid black; 
+	font-size: 1em;
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif; 
+	display: block;
+}
+
+.header-img {
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+
+hr {
+	width:800px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.topContent {
+	max-width:800px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.title {
+	font-size:16px;
+	padding-bottom: 2px;
+}
+
+.topLeft {
+	max-width:49%;
+	display:inline-block;
+}
+
+.topRight {
+	max-width:49%;
+	padding: 5px;
+	display:inline-block;
+}
+
+.middle-img {
+	width:900px;
+	padding:40px;
+}
+
+.bottomContent {
+	max-width:900px;
+	padding:10 40 10 40px;
+}
+
+.bottomLeft {
+	max-width:33%;
+	padding-left:40px;
+	padding-right:5px;
+	display:inline-block;
+}
+
+.bottomMiddle {
+	max-width:33%;
+	padding:10px;
+	display:inline-block;
+}
+
+.bottomRight {
+	max-width:33%;
+	padding-right:40px;
+	display:inline-block;
+}
+
+.contact {
+	max-width:700px;
+	padding:40px;
+	text-align:left;
+}
+
+footer {
+	max-width:800px;
+	padding:5px;
+	text-align:center;
+}
+
