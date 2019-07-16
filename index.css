@@ -64,58 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
-	box-sizing: border-box;
-	width: 878px;
-    margin: auto;
-	border: 1px solid red;
+.body{
+	margin: 0px 0px 0px 65px;
+    border: 10px;
+    border-style: solid;
 }
-header .logo{
-	box-sizing: border-box;
-	margin-left:614px;
-}
-header nav{
-	box-sizing: border-box;
-	width:678px;
-	height:20px;
-	display: inline-block;
-	margin-top: 35px;
-}
-header nav a{
-	margin: 0 25px;
-    margin-top: 35px;
-    text-decoration: none;
-	color: silver;
-}
-h1{
-	width: 450px;
-    font-size: 100px;
-	float: left;
-	margin-left: 35px;
-	margin-top: 30px;
-
-}
-.top-img{
-	display: inline-block;
-}
-button{
-	display: inline-block;
-    text-align: center;
-    width: 85px;
-    background-color: gold;
-    border-radius: 25px;
-    box-shadow: 0px 4px 0px 0px;
-    margin: 342px -353px;
-}
-hr{
-	border: solid 1px;
-}
-
-
-
-
-
-
-
-
+	
 
