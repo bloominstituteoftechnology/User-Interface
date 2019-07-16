@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background:red;
+	
 }
 ol, ul {
 	list-style: none;
@@ -65,3 +65,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container nav a {
+	margin: 0 10px;
+	border: 1px solid white;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: lightgray;
+	text-decoration: none;
+	margin-bottom: 20px;
+	
+	background: white;
+  }
+
+  .topRow2 {
+	  
+	  text-align: center;
+  }
+
+
+}
+.topRow {
+
+	
+	
+	display: inline-block;
+}
+
+
+h1 {
+	font-size: 85px
+	
+	
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.headerRight {
+	width: 50%;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 50px;
+}
+
+.topContent {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 25px 10px;
+}
+
+
+.topContent .firstRow {
+	display: inline-block;
+	max-width:49%;
+	padding: 10px;
+}
+
+.contact{
+	font-size: 25px;
+}
+
+
