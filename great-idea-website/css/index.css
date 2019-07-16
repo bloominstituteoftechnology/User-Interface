@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	width: auto;
 }
+/* try z index */
 button {
 	display: inline-block;
 	text-decoration: none;
