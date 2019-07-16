@@ -88,7 +88,7 @@ header img {
 }
 
 /* Stretch Goal */
-header {
+.nav-header {
 	background: lightskyblue;
 	position: fixed;
 }
@@ -141,7 +141,7 @@ header {
 	height: 430px;
 	}
 
-.content .two-cols article{
+.content .two-cols header {
 	display:inline-block;
 	width: 490px;
 	padding: 30px 50px 30px 0px;
@@ -151,7 +151,7 @@ header {
 	width: 975px;
 }
 
-.content .three-cols article{
+.content .three-cols header {
 	display:inline-block;
 	width: 330px;
 	padding: 30px 50px 30px 0px;
