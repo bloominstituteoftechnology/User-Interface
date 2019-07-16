@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1050px;
+  margin: auto;
+}
+
+header {
+	display: flex;
+	align-content: start;
+}
+
+#header {
+  text-align: center;
+  display: inline-block;
+}
+
+.navigation a {
+  color: gray;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  margin: 60px 10px 20px 30px;
+}
+
+.header_div {
+  width: 800px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 50px;  
+}
+
+#innovation {
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 80px;
+  float: left;
+  margin: 60px 100px 0px 150px;
+}
+
+button {
+  font-size: 16px;
+  border: 1px solid grey;
+  display: inline-block; 
+  background: white;
+  border: 1px solid;
+  padding: 5px 50px 5px 50px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+button:hover {
+	background-color: #4CAF50; 
+	color: white;
+  }
+
+#image {
+  float: right   
+  margin: 0 0 0 200px;
+}
+
+.header-image {
+  box-sizing: border-box;
+  float: left;
+}
+
+.section {
+  text-align: left;
+  display: inline-block;
+}
+
+.h3 { 
+  width: 375px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 30px 0px 85px;
+}
+
+.p {
+  width: 375px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 30px 0px 85px;
+}
+
+#body-image {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 50px 80px 40px 80px;
+}
+
+.h3_2 {
+  width: 245px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 75px;
+}
+
+.p2 {
+  width: 245px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 75px;
+}
+
+#hr-top {
+  border-top: 1px solid black;
+  margin: 70px 95px 40px 80px;
+}
+
+#hr-bottom {
+  border-top: 1px solid black;
+  margin: 50px 85px 40px 75px;
+}
+
+#address {
+  margin: 0px 0px 0px 70px;
+}
+
+#footer {
+  text-align: center;
+  margin: 30px 0px 80px 0px;
+}
