@@ -53,11 +53,9 @@ table {
 }
 
 html, body {
-    height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 90%;
+	margin: 0 auto;
+	width: 900px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -82,6 +80,11 @@ h1, h2, h3, h4, h5 {
 	
   }
 
+  .navigation {
+	width: 98%;
+	
+  }
+
   .header-words-button{
 	font-size: 75px;
 	text-align: center;
@@ -93,6 +96,7 @@ h1, h2, h3, h4, h5 {
 	width: 45%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 35px;
 	}
 
    .button {
@@ -124,7 +128,7 @@ h1, h2, h3, h4, h5 {
 
 .thirds {
 	display: inline-block;
-	width: 30%;
+	width: 29%;
 	margin: 15px;
 	font-size: 23px;
 }
