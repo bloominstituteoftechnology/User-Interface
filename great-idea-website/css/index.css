@@ -48,7 +48,6 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-@import url(http://fonts.googleapis.com/css?family=Varela+Round)
 
 ** {
     box-sizing: border-box;
@@ -56,7 +55,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,72 +65,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
-	margin:0 auto;
-	text-align: inherit;
+.container{
+	width:800px;
+	margin: 0 auto;
+
 }
 
-h1 {
-	font-size: 100px
+header nav{
+display: inline-block;
+margin:20px;
+height: 100%;
+width:70%;	
+}
+header nav a{
+	padding-right:20px;
 }
 
-h2 {
-	display:inline;
-}
-
-header {
-
-	}
-
-.logo {
-	margin-left:700px;
+header img{
+	display:inline-block;
+	width:20%;
 	
 }
 
-nav {
-	
-	margin-left: 2px;
-	text-decoration: none;
-	padding: 1em;
-	
+.title{
+	border-bottom: 1px solid grey;
+	margin:20px;
+	font-weight:bold;
 }
-
-nav a {
+.title section{
+	width: 40%;
 	display: inline-block;
-	height:20px;
-	text-decoration: none;
-	padding: 1em;
-	font-display: grey;
-	background-color: grey;
+	vertical-align: middle;
 }
-
-.slogan {
-	height: 10px;
-	width: 20px;
+.main{
+	height: 100px;
+	width: 50px;
 	text-align: center;
 	margin-left: 35px;
-	padding-top: 20px;}
-
-button{  
-		display: inline-block;  
-		border-radius: 4px;  
-		background-color: grey;  
-		border: none;  
-		color: #FFFFFF;  
-		text-align: center;  
-		font-size: 28px;  
-		padding: 20px;  
-		width: 200px;  
-		transition: all 0.5s;  
-		cursor: pointer;  
-		margin: 5px;
-	}
+	padding-top: 20px;
+	font-size: 50px;
+	font-family: 'Bangers';
+	margin-bottom: 200px;
+}
 
 button {  
 	  cursor: pointer;
 	  display: inline-block;  
 	  position: relative;  
-	  transition: 0.5s;
+	  display: inline-block;  
+	  border-radius: 4px;  
+	  background-color: grey;  
+	  border: none;  
+	  color: #FFFFFF;  
+	  text-align: center;  
+	  font-size: 28px;  
+	  padding: 20px;  
+	  width: 200px;  
+	  transition: all 0.5s;   
+	  margin: 5px;
 	}
 
 button:after {
@@ -152,39 +143,40 @@ button:hover:after {
 	opacity: 1;
 	right: 0;
 	}
-	  
 
-
-#topimage {
-	margin-left: 500px;
-	padding-bottom: 75px;}
-
-.top-box {
-	width: 45%;
-	display: inline-block;
-	padding: 20px;
+.above section{
+	display:inline-block;
+	width:45%;
+	margin:20px 2%;
+}
+.middle-img{
+	width:800px; 
 }
 
-.middle-img {
-	display: block;
-	margin: 0 auto;
+.under{
+	border-bottom:1px solid grey;
+	margin: 20px;
+}
+.under section{
+	display:inline-block;
+	width:30%;
+	margin:20px 1%;
 }
 
-.bottom-box {
-	width: 25%;
-	display: inline-block;
-	padding: 20px;}
-
-.contact {
-	padding: 20px;
-	text-align: center;
+.contact{
+	margin: 20px;
+	padding-bottom:20px;
 }
 
-.copyright {
-	text-align: center;
-	padding:1em;
+address{
+text-align:left;
 }
 
-hr {
-	color: black;
-}
+footer{
+	text-align:center;
+	font-size:10px;
+	margin:20px;
+} 
+		
+
+
