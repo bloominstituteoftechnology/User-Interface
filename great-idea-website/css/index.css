@@ -65,13 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 0 4em;
+	width: 100%;
+}
+.inner-body {
+	margin: 0 auto;
 	min-width: 896px;
 	max-width: 896px;
 }
 section {
 	margin: 2em 0;
 	width: 100%;
+}
+section a div {
+	vertical-align: top;
 }
 
 .h-center {
@@ -81,6 +87,9 @@ section {
 	text-align: right;
 }
 
+.v-top {
+	vertical-align: top;
+}
 .v-center {
 	vertical-align: middle;
 }
