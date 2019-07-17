@@ -18,25 +18,35 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
  
-	margin: 26em;
-	padding: 21em;
-	border: 29em;	
-   font-size: 100%;
-   font: inherit;
    vertical-align: baseline;
-   box-sizing: flexbox;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-weight: bold;
+}
    
 
    
-}
-	<!-- comment-->
-body {
-	line-height: 3px;
-}
+body { 
+	display: inline-block;
+	margin: 15px;
+  }
+  
+  body:focus { 
+	outline: none;
+  }
+
+
 ol, ul {
 	list-style: circle;
 	height: 20in;
 	width:  21in;
+	padding: 20px
+	
 }	
 blockquote, q {
 	quotes: none;
@@ -51,24 +61,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 100%;
 }
-   
+
+    
+section { 
+	display: block;
+  }
 
 
 /* Set every element's box-sizing to border-box */
 *
 
    .box  {
-	display: inline-flex;
+	display: border-box;
+	width:  200px;
+	background: crimson
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;}
+   font-family: 'Times New Roman', Times, serif 
 
-h1, h2, h3, h4, h5  {
-	font-family:"bangers", cursive;
-	letter-spacing:  19px;
-	margin-bottom:   23px;
-}	
 	
-	
+	  
+}
+header {
+	flex-direction:  column-reverse;
+  }
+  .nav {
+	background-color: rgb(248, 19, 19); 
+	list-style-type: none;
+	text-align: center; 
+	padding:26px;
+	margin: 26px;
+	width: 19px;
+  } 
+  
+  footer { 
+	display: block;
+  }
