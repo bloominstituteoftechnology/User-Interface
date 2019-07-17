@@ -70,45 +70,138 @@ h1, h2, h3, h4, h5 {
 	margin:auto;
 	border: 5px solid red;
 }
+.directory a{
+	display:inline;
+	color: #b1bccc;
+	width:600px;
+	height: inherit;
+	margin:auto;
+	text-align: center;
+	line-height: 12;
+	text-decoration: none;
+}
+#title{
+	font-family: Bangers;
+}
+.space1 {
+	width: auto;
+	height:auto;
+	padding: 30px 30px 30px 90px;
+	margin: auto;
+	display: inline;
+}
+.space2 {
+	width: auto;
+	height:auto;
+	padding: 30px;
+	margin: auto;
+	display: inline;
+}
+.space3 {
+	width: auto;
+	height:auto;
+	padding: 30px;
+	margin: auto;
+	display: inline;
+}
+.space4 {
+	width: auto;
+	height:auto;
+	padding: 30px;
+	margin: auto;
+	display: inline;
+}
+.space5 {
+	width: auto;
+	height:auto;
+	padding: 30px;
+	margin: auto;
+	display: inline;
+}
+.space6 {
+	width: auto;
+	height:auto;
+	padding: 30px;
+	margin: auto;
+	display: inline;
+}
+.logo{
+	width: auto;
+	height:auto;
+	padding: 30px 30px 30px 90px;
+	margin: auto;
+	display: inline;
+}
+#innovation {
+	font-family: Bangers;
+	display:block;
+	font-size: 90px;
+	font-style: bold;
+	text-align: center;
+	display: block;
+	}
+#get {
+	width:19%;
+	height: auto;
+	padding: 10px 60px 10px 90px;
+	margin:auto;
+	border: 1px solid black;
+	display:block;
+}
 
-.directory{
-	width:100px;
-	height: 6px;
-	display: inline-flex;
+#together2{
+	line-height:1;
+	display:inline-flex;
 }
-#directory1{
-	display:inline;
-	width:6px;
-	height: 5px;
-	color:grey;
+#headerimg{
+	line-height:1;
+	display:inline-flex;
 }
-#directory2{
-	display:inline;
-	width:6px;
-	height: 5px;
-	color:grey;
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: solid;
+    border-width: .5px;
+		width: 90%;
 }
-#directory3{
-	display:inline;
-	width:6px;
-	height: 5px;
-	color:grey;
+#middle-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
-#directory4{
-	display:inline
-	width:6px;
-	height: 5px;
-	color:grey;
+#features, #about{
+	width:40%;
+	height: auto;
+	padding: 10px 60px 50px 90px;
+	margin:auto;
+	border: 1px;
+	display:inline-flex;
 }
-#directory5{
-	display:inline;
-	width:6px;
-	height: 5px;
-	color:grey;
+#services, #product, #vision{
+	width:33%;
+	height: auto;
+	padding: 10px 60px 50px 90px;;
+	margin:auto;
+	border: 1px;
+	display:inline-flex;
 }
-#directory6{
-	display:inline;
-	width:6px;
-	height: 5px;
-	color:grey;
+
+#address{
+	width:33%;
+	height: auto;
+	padding: 10px 60px 50px 90px;;
+	margin:auto;
+	border: 1px;
+	display:inline-flex;
+	line-height: 2;
+
+}
+
+footer{
+	text-align: center;
 }
