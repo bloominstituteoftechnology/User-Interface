@@ -48,7 +48,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+
+** {
     box-sizing: border-box;
 }
 
@@ -64,3 +65,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width:800px;
+	margin: 0 auto;
+
+}
+
+header nav{
+display: inline-block;
+margin:20px;
+height: 100%;
+width:70%;	
+}
+header nav a{
+	padding-right:20px;
+}
+
+header img{
+	display:inline-block;
+	width:20%;
+	
+}
+
+.title{
+	border-bottom: 1px solid grey;
+	margin:20px;
+	font-weight:bold;
+}
+.title section{
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.main{
+	height: 100px;
+	width: 50px;
+	text-align: center;
+	margin-left: 35px;
+	padding-top: 20px;
+	font-size: 50px;
+	font-family: 'Bangers';
+	margin-bottom: 200px;
+}
+
+button {  
+	  cursor: pointer;
+	  display: inline-block;  
+	  position: relative;  
+	  display: inline-block;  
+	  border-radius: 4px;  
+	  background-color: grey;  
+	  border: none;  
+	  color: #FFFFFF;  
+	  text-align: center;  
+	  font-size: 28px;  
+	  padding: 20px;  
+	  width: 200px;  
+	  transition: all 0.5s;   
+	  margin: 5px;
+	}
+
+button:after {
+		content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
+		position: absolute;  
+		opacity: 0;
+		top: 0;
+		right: 20px; 
+		transition: 0.5s;
+	}
+		
+
+button:hover  { 
+	 padding-right: 25px;
+    }
+
+button:hover:after {  
+	opacity: 1;
+	right: 0;
+	}
+
+.above section{
+	display:inline-block;
+	width:45%;
+	margin:20px 2%;
+}
+.middle-img{
+	width:800px; 
+}
+
+.under{
+	border-bottom:1px solid grey;
+	margin: 20px;
+}
+.under section{
+	display:inline-block;
+	width:30%;
+	margin:20px 1%;
+}
+
+.contact{
+	margin: 20px;
+	padding-bottom:20px;
+}
+
+address{
+text-align:left;
+}
+
+footer{
+	text-align:center;
+	font-size:10px;
+	margin:20px;
+} 
+		
+
+
