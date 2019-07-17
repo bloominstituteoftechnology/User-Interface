@@ -108,10 +108,8 @@ h1, h2, h3, h4, h5 {
 
 .logo {
 	position: absolute;
-	width:200px;
-	height:100px;
 	top: 10px;
-	right: 0px;
+	right: 0;
 
 }
 #slogan {
@@ -130,7 +128,7 @@ h1, h2, h3, h4, h5 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-	position: absolute;
+	position: static;
 	right: 0px;
 }
 .button:hover {
@@ -190,14 +188,17 @@ color: aqua;
 }
 
 .contact-info{
+margin: auto;
+width:100%;
+font-size: 16px;
 display: inline-block;
 margin-top: 100px;
-text-align:center;
+text-align: center;
 }
 
 .footer {
-	width:1000px;
-	height:300px;
-	background-color: #A9A9A9
-	dispay:inline-box
+	margin:auto;
+	width:100%;
+	dispay:inline-block;
+	text-align: center;
 }
