@@ -216,13 +216,8 @@ a {
 	text-decoration: none;
 	color: gray;
 }
-figure {
-    display: flex;
-    width: 880px;
-}
 .img-logo {
     display: flex;
-
 }
 .services {
     display: flex;
