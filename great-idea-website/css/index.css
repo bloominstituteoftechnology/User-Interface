@@ -1,8 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+
 */
 
+
+
+/* Your code starts here! */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,27 +17,41 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+ 
+   vertical-align: baseline;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-weight: bold;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
+   
+
+   
+body { 
+	display: inline-block;
+	margin: 15px;
+  }
+  
+  body:focus { 
+	outline: none;
+  }
+
+
 ol, ul {
-	list-style: none;
-}
+	list-style: circle;
+	height: 20in;
+	width:  21in;
+	padding: 20px
+	
+}	
 blockquote, q {
 	quotes: none;
 }
+<!--comment-->
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -44,23 +59,44 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 100%;
 }
 
+    
+section { 
+	display: block;
+  }
+
+
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+*
+
+   .box  {
+	display: border-box;
+	width:  200px;
+	background: crimson
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+   font-family: 'Times New Roman', Times, serif 
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	
+	  
 }
-
-/* Your code starts here! */
+header {
+	flex-direction:  column-reverse;
+  }
+  .nav {
+	background-color: rgb(248, 19, 19); 
+	list-style-type: none;
+	text-align: center; 
+	padding:26px;
+	margin: 26px;
+	width: 19px;
+  } 
+  
+  footer { 
+	display: block;
+  }
