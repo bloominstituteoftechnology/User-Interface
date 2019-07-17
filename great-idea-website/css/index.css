@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+-html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -64,49 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 .container {
 	width: 876px;
-	margin: auto;
+	margin: 0 auto;
 }
 
-header nav {
+.top-header nav {
+	margin: 30px 0;
 	display: inline-block;
 }
 
-header nav a {
-	height: auto;
-	width: auto;
-	color: grey;
-	text-decoration: none;
-	margin: 0px 10px;
-	font-size: 14px;
-}
-.main-section{
-	display: inline-block;	
+.top-header nav a {
+	margin: 0px 33px;
 }
 
-h1{
-	font-size: 77px;
+.top-header nav a:first-child {
+	margin-left: 0px;
 }
 
-.button{
-
-}
-
-.first-img{
-	display: inline-block;
-	height: 379px;
-	width: 379px;
-	margin: 0px 500px;
-}
-.one {
-	display: inline-block;
-	width: 378px;
-	margin: 10px 30px;
-}
-
-.two {
-	display: inline-block;
-	width: 378px;
-	margin: 10px 20px;
+.container .top-header .logo {
+	margin-right: 0px;
+	vertical-align: middle;
 }
