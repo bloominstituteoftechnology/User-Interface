@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5 {
 	margin-left: 1300px;
 	margin-bottom: 10px;
 	margin-top: none;
+	position: inherit;
 }
 .logo-container1 {
 	display: inline-block
@@ -99,16 +100,18 @@ h1, h2, h3, h4, h5 {
 	font-size: 75px;
 	margin-left: 145px;
 	margin-bottom: 100px;
-	position: inherit;
+	position: absolute;
 }
 .code-snippet {
 	display: inline-block;
-	margin-left: 280px;
-	position: absolute;
+	margin-left: 680px;
+	position: relative;
 }
 .button {
 	display: inline-block;
 	width: auto;
+	padding: 5px 40px;
+	margin-left: 50px;
 }
 /* try z index */
 button {
