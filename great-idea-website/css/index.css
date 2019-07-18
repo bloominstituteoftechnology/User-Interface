@@ -91,8 +91,16 @@ h1, h2, h3, h4, h5 {
 	
 	
 	display: inline-block;
+	text-align: center;
+	vertical-align: top;
 }
 
+.box1 {
+	text-align: center;
+	display: inline-block;
+	
+
+}
 
 h1 {
 	font-size: 85px
@@ -102,6 +110,7 @@ h1 {
 
 h2{
 	font-size: 20px;
+
 	font-weight: bold;
 	margin-bottom: 1em;
 }
@@ -122,14 +131,35 @@ h2{
 
 .topContent .firstRow {
 	display: inline-block;
+	vertical-align: top;
+
 	max-width:49%;
 	padding: 10px;
 }
 
 .contact{
 	font-size: 25px;
+	border-top: 1px solid black;
+	
 }
 .topContent2 {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
+	padding: 30px;	
+	text-align: center;
+	border-top: 1px solid black;
 }
 
+.bottomContent {
+	display: inline-block;
+
+	vertical-align: top;
+	padding: 30px;
+	text-align: center;
+}
+
+footer {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
