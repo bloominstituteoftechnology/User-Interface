@@ -65,118 +65,54 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
+	box-sizing: border-box;
 	width: 878px;
-	margin: auto;
-	
+    margin: auto;
+	border: 1px solid red;
 }
-
-header nav {
+header .logo{
+	box-sizing: border-box;
+	margin-left:614px;
+}
+header nav{
+	box-sizing: border-box;
+	width:678px;
+	height:20px;
 	display: inline-block;
 	margin-top: 35px;
 }
 header nav a{
 	margin: 0 25px;
-	margin-top: 35px;
-	text-decoration: none;
+    margin-top: 35px;
+    text-decoration: none;
 	color: silver;
 }
-
-header .logo {
-	margin-left: 70px;
-}
-
-.top-img {
-	box-sizing: border-box;
-	display: inline-block;
-	margin: 50px 105px;
-}
-
-.top-img-text {
-	font-size: 50pt;
+h1{
+	width: 450px;
+    font-size: 100px;
 	float: left;
-	text-align: center;
-	margin: 100px 0 0 0;
-}
-.top-img img{
-	float: right;
-}
-
-button {
-	padding: 10px 45px;
-	background: none;
-	font-size: 10pt;
-	border-color: black;
-}
-
-hr {
-	border: 1px solid black;
-	border-bottom: none; 
-	margin-bottom: 30px;
+	margin-left: 35px;
 	margin-top: 30px;
-}
 
-.features {
-	box-sizing: border-box;
-	width: 400px;
-	height: 100px;
-	margin: 0px 0px;
 }
-
-.about {
-	box-sizing: border-box;
-	width: 400px;
-	height: 100px;
-	float: right;
-	margin: -113px 0px;
+.top-img{
+	display: inline-block;
 }
-
-.services{
-	box-sizing: border-box;
-	width: 300px;
-	height: 100px;
-	margin: 35px 0px;
+button{
+	display: inline-block;
+    text-align: center;
+    width: 85px;
+    background-color: gold;
+    border-radius: 25px;
+    box-shadow: 0px 4px 0px 0px;
+    margin: 342px -353px;
 }
-
-.product{
-	box-sizing: border-box;
-	width: 270px;
-	height: 100px;
-	margin: -140px 324px;
-}
-
-.vision {
-	box-sizing: border-box;
-	width: 290px;
-	height: 100px;
-	margin: 40px 602px;
-}
-
-footer {
-	box-sizing: border-box;
-	width: 878px;
-	height: 300px;
-}
-
-footer address {
-	margin: 25px 0px;
-}
-
-#ph {
-	margin: 25px 0px;
+hr{
+	border: solid 1px;
 }
 
 
-.copyright {
-	text-align: center
-}
 
-#e-mail {
-	margin-bottom: 35px;
-}
-
-.copyright {
-	vertical-align: middle;
-}
 
 
 
