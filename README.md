@@ -1,4 +1,4 @@
-NAME Kyle Richardson
+NAME Kyle Richardson 
 
 # User Interface Project: Great Idea Web Page
 
