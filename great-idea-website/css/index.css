@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5 {
 
 .top-header nav a {
 	margin: 0px 33px;
+	text-decoration: none;
+	color: grey;
 }
 
 .top-header nav a:first-child {
@@ -87,3 +89,23 @@ h1, h2, h3, h4, h5 {
 	margin-right: 0px;
 	vertical-align: middle;
 }
+
+.main-section {
+	display: inline-block;
+    width: 100%;
+    height: 500px;
+    margin: 30px;
+}
+.main-section .cta {
+	font-size: 60px;
+	text-align: center;
+	margin-left: 0px;
+	vertical-align: middle;
+	width: 49%;
+}
+
+.main-section .first-img {
+	margin-right: 0px;
+	width: 49%;
+}
+
