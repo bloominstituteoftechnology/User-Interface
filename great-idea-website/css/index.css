@@ -99,14 +99,14 @@ h1, h2, h3, h4, h5 {
 	font-size: 75px;
 	text-align: center;
 	display: inline-block;
-  	width: 49%;
+  	width: 49.5%;
 	height: 250px;
 	margin-bottom: 0px;  
 }
 
 .main-section .first-img {
 	display: inline-block;
-  	width: 50%;
+  	width: 49.5%;
   	height: auto;
   	margin-right: 0px;
 }
@@ -117,7 +117,6 @@ h1, h2, h3, h4, h5 {
     padding: 10px 40px;
     border: 1px solid black;
 	vertical-align: text-top;
-	
 }
 
 .main-section .cta button a {
@@ -150,3 +149,29 @@ h1, h2, h3, h4, h5 {
 	width: 49.5%;
 }
 
+.text-below-picture {
+	margin: 30px 0;
+}
+
+.text-below-picture .below-one {
+	display: inline-block;
+	width: 33%;
+}
+
+.text-below-picture .below-two {
+	display: inline-block;
+	width: 33%;
+}
+
+.text-below-picture .below-three {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact-info {
+	margin: 30px 0;
+}
+
+.container footer {
+	text-align: center;
+}
