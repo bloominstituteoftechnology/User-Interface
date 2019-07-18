@@ -91,21 +91,62 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-section {
-	display: inline-block;
-    width: 100%;
-    height: 500px;
-    margin: 30px;
+	margin: 50px 0;
 }
+
 .main-section .cta {
-	font-size: 60px;
+	display: inline-block;
+	font-size: 75px;
 	text-align: center;
-	margin-left: 0px;
-	vertical-align: middle;
-	width: 49%;
+	display: inline-block;
+  	width: 49%;
+	height: 250px;
+	margin-bottom: 0px;  
 }
 
 .main-section .first-img {
-	margin-right: 0px;
-	width: 49%;
+	display: inline-block;
+  	width: 50%;
+  	height: auto;
+  	margin-right: 0px;
+}
+
+.main-section .cta button {
+	margin-top: -70px;
+    background-color: white;
+    padding: 10px 40px;
+    border: 1px solid black;
+	vertical-align: text-top;
+	
+}
+
+.main-section .cta button a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-section .cta button:active {
+	background-color: black;
+	color: white;
+}
+
+.main-section .cta button:hover {
+	background-color: black;
+}
+.main-section .cta button a:hover {
+	color: white;
+}
+
+.text-above-picture {
+	margin: 30px 0;
+}
+.text-above-picture .above-one {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.text-above-picture .above-two {
+	display: inline-block;
+	width: 49.5%;
 }
 
