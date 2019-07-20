@@ -64,3 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1024px;
+	border-left: 1px solid #D1D5DA;
+	border-right: 1px solid #D1D5DA;
+	padding: 25px 75px 200px;
+	margin: auto;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a {
+	color: #BDBDBD;
+	margin-right: 56px;
+	text-decoration: none;
+}
+
+header {
+	margin-bottom: 100px;
+}
+
+header img {
+	vertical-align: middle;
+	margin-left: 30px;
+}
