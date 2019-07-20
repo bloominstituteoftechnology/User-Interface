@@ -85,10 +85,40 @@ nav a {
 }
 
 header {
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 header img {
 	vertical-align: middle;
 	margin-left: 30px;
 }
+
+
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 75px;
+}
+
+.cta-text a {
+	display: inline-block;
+	color: black;
+	border: 1px solid black;
+	padding: 7px 40px 8px;
+	margin-top: 8px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.cta-img {
+	vertical-align: middle;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+
