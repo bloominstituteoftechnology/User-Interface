@@ -109,6 +109,10 @@ button{
 	font-size: 1em;
 	font-family: 'Titillium Web', sans-serif;
 }
+button:hover{
+	color:red;
+	background-color: yellow;
+}
 
 .leftSide{
 float: left;
@@ -139,6 +143,7 @@ margin-left: 250px;
 	padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
+	border-top: 2px solid black;
 	
 
 }
@@ -148,4 +153,26 @@ margin-left: 250px;
 	display: block;
 	width: 83%;
 	max-height: 250px;
+}
+.threeCol{
+	
+	max-width: 90%;
+	
+
+}
+.contentBottom{
+	column-count: 3;
+	margin: 0 auto;
+	padding: 35px 5px;
+	margin-left: 90px;
+	margin-right: 35px;
+	display: block;
+	border-bottom: 2px solid black;
+}
+footer{
+	text-align: center;
+	display: block;
+}
+.bottomcontact{
+	margin-left: 25px;
 }
