@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 25px;
+	color: grey;
+	text-decoration: none;
+	
+}
+
+ a:hover{
+	color: red;
+}
+
+nav .logo{
+	display:inline-block;
+	height:80px;
+	width:180px;
+	float:right;
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	vertical-align: bottom;
+	background-position: center;
+	padding-right: 10px;
+
+}
+
+#headerCta{
+	display: block;
+	margin-top: 20%;
+	margin-right:10px;
+	font-size: 75px;
+}
+
+button{
+	display: block;
+	width: 175px;
+	height: 35px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1em;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.leftSide{
+float: left;
+text-align: center;
+margin: 15px;
+margin-left: 250px;
+}
+
+.rightSide{
+	float: right;
+	margin:15px;
+	margin-right: 50px;
+
+}
+
+.topSect{
+	display: inline-block;
+	
+}
+.contentTop{
+	max-width: 1024px;
+	margin:0 auto;
+	padding: 35px 5px;
+}
+.twoCol{
+	display: inline-block;
+	max-width: 49%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+.middle-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 83%;
+	max-height: 250px;
+}
