@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: goldenrod;
+	margin-bottom: 15px;
+	color: transparent;
+}
+
+nav a {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 25px;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ a:hover{
+	color: red;
+}
+
+nav .logo{
+	display:inline-block;
+	height:80px;
+	width:180px;
+	float:right;
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	vertical-align: bottom;
+	background-position: center;
+	padding-right: 10px;
+
+}
+
+#headerCta{
+	display: block;
+	margin-top: 30%;
+	margin-right:10px;
+	font-size: 75px;
+}
+
+button{
+	display: block;
+	width: 175px;
+	height: 35px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1em;
+	font-family: 'Titillium Web', sans-serif;
+}
+button:hover{
+	color:red;
+	background-color:goldenrod;
+}
+
+.leftSide{
+float: left;
+text-align: center;
+margin: 15px;
+margin-left: 250px;
+}
+
+.rightSide{
+	float: right;
+	margin:30px;
+	margin-top: 30px;
+	margin-right: 50px;
+
+}
+
+.topSect{
+	display: inline-block;
+	margin-top:70px;
+	
+}
+.contentTop{
+	max-width: 1024px;
+	margin:0 auto;
+	padding: 35px 5px;
+}
+.twoCol{
+	display: inline-block;
+	max-width: 49%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid black;
+	
+
+}
+.middle-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 83%;
+	max-height: 250px;
+}
+.threeCol{
+	
+	max-width: 90%;
+	
+
+}
+.contentBottom{
+	column-count: 3;
+	margin: 0 auto;
+	padding: 35px 5px;
+	margin-left: 90px;
+	margin-right: 35px;
+	display: block;
+	border-bottom: 2px solid black;
+}
+footer{
+	text-align: center;
+	display: block;
+}
+.bottomcontact{
+	margin-left: 90px;
+	margin-top: 25px;
+}
