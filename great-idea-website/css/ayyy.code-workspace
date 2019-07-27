@@ -3,5 +3,8 @@
 		{
 			"path": "C:\\Users\\micha\\Documents\\GitHub\\User-Interface"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
 }

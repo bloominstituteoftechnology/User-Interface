@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
 * {
 	display: inline-block;
 	text-decoration: none;
@@ -85,9 +85,10 @@ h1, h2, h3, h4, h5 {
 	margin-left: 1300px;
 	margin-bottom: 10px;
 	margin-top: none;
+	position: inherit;
 }
 .logo-container1 {
-	display: inline-block
+	display: inline-block;
 	width: 500px;
 	padding: auto;
 	content: center;
@@ -99,16 +100,18 @@ h1, h2, h3, h4, h5 {
 	font-size: 75px;
 	margin-left: 145px;
 	margin-bottom: 100px;
-	position: inherit;
+	position: absolute;
 }
 .code-snippet {
 	display: inline-block;
-	margin-left: 280px;
-	position: absolute;
+	margin-left: 680px;
+	position: relative;
 }
 .button {
 	display: inline-block;
 	width: auto;
+	padding: 5px 40px;
+	margin-left: 50px;
 }
 /* try z index */
 button {
@@ -198,33 +201,5 @@ footer h6 {
 	width: 1000px;
 	margin-left: 210px;
 	text-align: center;
-}
-/* Services CSS */
-.top-line {
-	display: flex;
-	margin-left: 20px; 
-	margin-bottom: 20px;
-	font-size: 20px;
-	flex-wrap: nowrap; 
-	justify-content: space-between;
-	padding: auto;
-}
-a {
-	width: 100px;
-}
-.top-line a {
-	text-decoration: none;
-	color: gray;
-}
-.img-logo {
-	display: flex;
-	width: px;
-}
-.services {
-	display: flex;
-}
 
-footer h6 {
-	display: flexbox;
-	margin-left: 350px;
 }
