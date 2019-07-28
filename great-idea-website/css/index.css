@@ -81,13 +81,19 @@ header{
    display: flexbox;
    color: black;
 }
-.first img{
-  width: 400px;
+.first {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+
 	
 	
 	
 
-}
+
 
 
 
