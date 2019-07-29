@@ -1,0 +1,96 @@
+// Navigation code here
+
+
+.navDiv{
+
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    margin: 0 auto;
+    background: @nav-bg;
+    
+    
+
+    @media @mobile{
+        width: 500px;
+      }
+
+    h1{
+    font-size: 4rem;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+     
+    }
+
+    nav{
+        color: @nav-font;
+       
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 1.3%;
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+        }
+
+
+        a{
+            font-weight: bold;
+            font-size: 1.8rem;
+            display: flex;
+            padding: 1.4rem;
+            color:#bcbcbc;
+            text-decoration: none;
+            align-items: baseline;
+            
+
+            &:hover{
+                text-shadow: #bcbcbc 1px 0 10px;
+            }
+
+
+
+           
+        }
+    }
+
+
+}
+
+
+.navContainer{
+    width: 100%;
+    background: @nav-bg;
+    margin:0;
+    padding: 0;
+
+    position: fixed;
+    top: 0;
+   
+}
+
+#logo{
+    width: 20rem;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+   
+    &:hover{
+        box-shadow: #bcbcbc 1px 0 10px;
+        
+    }
+}
+
+#logoA{
+    padding: 0;
+    margin-bottom: 4%;
+}
+

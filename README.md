@@ -1,40 +1,145 @@
-# User Interface Project: Great Idea Web Page
+# Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
-Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
-Given this [design file](design-files/desktop.jpg), use HTML and CSS to build the web page layout. Remember, you can only use `display:inline-block` and box model CSS properties for this project. **Note: you are NOT permitted to use Flexbox or CSS Grid. This is an exercise in basic layout techniques.**
+## Instructions
 
-**Lambda Life Tip:** Use the code from your instructor's demonstration to help you tackle the objectives.
+**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-## To Get Started
+This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-* Fork / Clone this project into a directory on your machine.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in advanced css and your command of the concepts and techniques in responsive web design and preprocessing.
 
-* Open the code with your preferred integrated development environment (IDE).
+You have three hours to complete this challenge. Plan your time accordingly.
 
-* Start on the objectives
+## Commits
 
-## Objectives:
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
-Project objectives are meant to increase your knowledge by giving you practice on the principles learned earlier in the day. Aim to complete every objective on this list. Get as far as you can on the design as we will be using your work today for tomorrow's project as well.
+## Description
 
-**Watch this short guide on how to setup your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
+The client for this challenge is _Spacewalkers Magazine_. Spacewalkers needs your help to build a small proof of concept website for their marketing team. They have provided designs for both desktop and phone views. In addition to designs and content they have most of the home page coded for you. You just need to finish the navigation and header as well as the mobile styles.
 
-- [ ] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
+In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution design files of the desktop and mobile views:
 
-- [ ] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
+[Click here to review the home design](design-files/home-desktop.png)
 
-- [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
+[Click here to review the mobile design](design-files/home-mobile.png)
 
-## Stretch Goals:
+## Self-Study Questions
 
-Stretch goals are not required. Complete the project objectives before working on stretch. Stretch goals are not covered in the guided demo and need some research on your part. There is no particular order in this list, just pick one that sounds fun and push yourself.
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-- [ ] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
-- [ ] Introduce a new font family from [google fonts](https://fonts.google.com/)
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-- [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
+1. What is the difference between an adaptive website and a fully responsive website?
 
-- [ ] Change all the image tags into background images instead
+Adaptive sites have media queries to ensure that design will switch to a friendlier version at certain markers (500px, 800px, etc.). Whereas fully responsive design grows and shrinks with any screen size, not just when the marker is hit. Responsive sites will accomodate any width or orientation by contracting and expanding precisely with the page.
 
-- [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+2. Describe what it means to be mobile first vs desktop first.
+
+This simply means whether the design was originally made for a mobile device, then scaled up with media queries to be used for desktop, or if it was originally designed for desktop, then scaled down for mobile devices. 
+
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+Due to the browser's default font size of 16px, this percentage gives us a font size of 10px in the root html element. Having such an easy number to work with in the root element means that scaling other things on the page is simple by way of root-element units, or rem. (Ex: 17 px = 1.7rem;)
+
+4. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing is like having another type of css that's easier to work with when you style your pages. When you make changes in the easy css, the preprocessor then does the heavy lifting of converting the easy css into real css for the browser to read.
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like all the things that preprocessors provide, but to choose one I'd say mixins are the most useful. They allow much less code repetition and especially parametric mixins allow further customisability than ever before. Though they are also my favorite, my most difficult concept at the moment is creating advanced mixins that use flex-box and things that are more widely applicable. I need to work on creating better universal mixins that I can use more than a few times.
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+## Project Set Up
+
+Follow these steps to set up your project:
+
+### Git Set up
+
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
+ 
+Follow these steps for completing your project.
+
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your project manager as a reviewer on the pull-request
+- [X] Your project manager will count the project as complete by merging the branch back into master.
+ 
+
+### Preprocessor Set up
+
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
+
+## Minimum Viable Product
+
+Your finished project must include all of the following requirements:
+
+### Import LESS Files
+
+* [X] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+
+```markdown
+1.variables.less
+2.mixins.less
+3.reset.less
+4.global.less
+5.navigation.less
+6.footer.less
+7.home-page.less
+```
+
+_You will know everything is working properly when you see the styles enabled for the provided content._  
+
+### Home Page - Desktop HTML & LESS
+
+* [X] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+
+* [X] Add a viewport meta tag to the head of your index.html page
+
+* [X] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+
+* [X] Navigation Styles: Use the `navigation.less` file for styling.
+
+* [X] Main Content Styles: Use the `home-page.less` file for styling
+
+* [X] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+
+* [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+
+* [X]  Use at least 2 parameters to create your button
+
+* [X] Create a hover state that swaps the background color and font color of the base button styles.
+
+### Mobile Design
+
+* [X] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+
+* [X] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+
+* [X] Push your changes and create a pull request if you haven't already.
+
+In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+
+## Stretch Problems
+
+After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
+
+* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+
+* [X] Introduce CSS animations to your site.
+
+* [X] Create a fixed navigation and add some opacity to the background
+
+* [X] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
