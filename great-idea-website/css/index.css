@@ -64,3 +64,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#section2{
+	display: inline-block;
+	border-radius: 10px;
+	background: #BADA55;
+	border: 30px solid #BADA55;
+}
+.p1{
+		font-size: 4rem;
+		padding-left: 150px;
+		margin-top: 40px;
+		text-align: center;
+		width: 30%;
+	
+}
+.headline nav li{
+	width: 13%;
+		margin-top: 5px;
+		padding: 20px;
+		color: gray;
+		padding: 15px;
+		display: inline-block;
+		text-align: center;
+		//background-color:red;
+}
