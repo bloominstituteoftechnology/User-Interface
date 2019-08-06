@@ -63,4 +63,126 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+
+/* i feel like i got lost and over wheamled and butched this asignment. 
+though it looks very close to the example site i had a horrible time with trying to get is working 
+and feel like im using suboptiaml code and way over complicating things. If i could start form scratch 
+i think i know where it all went wrong but im out of time so apologies. */
+
+.container{
+	max-width:900px;
+	margin: 0 auto;
+	
+}
+
+.navClass {
+	position: relative;
+	top: 36px;
+	right: 20px;
+	
+}
+
+nav a {
+	margin: 30px
+	
+}
+
+.imgone {
+	position: relative;
+	left: 705px;
+	top: 10px
+}
+
+.jumbotron {
+	position: relative;
+	text-align: center;
+	width: 500px;
+	font-size: 80px;
+	top: 135px;
+	left: 5px
+}
+
+.started {
+	border: solid 1px black;
+	padding: 8px;
+	width: 175px;
+	text-align: center;
+	position: relative;
+	top: 125px;
+	left: 165px;
+	
+}
+
+.imgtwo {
+	position: relative;
+	left: 508px;
+	bottom: 225px
+}
+
+
+
+.rows {
+	display: inline-block
+
+}
+
+.feat {
+	position: relative;
+	width: 450px;
+	bottom: 109px;
+	left: 12px;
+}
+
+.abo {
+	position: relative;
+	width: 450px;
+	bottom: 203px;
+	left: 460px;
+
+}
+
+.midimg {
+	position: relative;
+	bottom: 160px;
+	left: 12px
+}
+
+.serv {
+	position: relative;
+	width: 275px;
+	bottom: 118px;
+	left: 16px;
+}
+
+.prod {
+	position: relative;
+	width: 275px;
+	left: 300px;
+	bottom: 246px;
+	left: 310px
+}
+
+.vis {
+	position: relative;
+	width: 275px;
+	left: 608px;
+	bottom:373px
+	
+}
+
+.addy {
+	position: relative;
+	bottom: 275px;
+	left: 515px;
+	line-height: 2
+}
+
+.copyrite {
+	position: relative;
+	left: 850px;
+	bottom: 250px
+}
+
