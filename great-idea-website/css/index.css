@@ -68,17 +68,14 @@ header {
   margin-top: var(--marginTop);
 }
 
-header nav ul li{
-  list-style-type: none;
-  display: inline-block;
-};
 
- section, footer h2{
-  font-size: 1.75rem;
+ section h2 , footer h2{
+  font-size: 1.5rem;
 }
 
 footer{
   margin-top: var(--marginTop);
+  line-height: 2em;
 }
 
 footer a{
@@ -92,8 +89,19 @@ footer > p:last-of-type {
   text-align: center;
 }
 
+nav{
+  position: relative;
+  top: 17px;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
 :root{
-  --marginTop: 20px;
+  --marginTop: 35px;
 }
 
 .wrapper {
@@ -112,26 +120,30 @@ footer > p:last-of-type {
   display: inline-block;
 }
 
-.d-relative{
-  position: relative;
-};
 
-nav ul li a.navButton {
-  font-size: 1.5em;
-  height: 30px;
-  width: 100px;
-  color: #000;
-  border: 1px solid #000;
+.navButton {
+  display: inline-block;
+  font-size: 1.25em;
+  height: 34px;
+  padding: 5px 10px;
+  color: #bebebe;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all  1s;
+}
+
+.navButton:hover{
+  color: #4e4e4e;
+  border: 1px solid black;
 }
 
 .getStarted {
-  height: 30px;
-  width: 175px;
   border: 1px solid #000;
   color: #000;
   text-align: center;
-  padding: 5px;
+  padding: 4px 35px;
   text-decoration: none;
+  margin: 0 auto ;
 }
 
 .getStarted:visited{
@@ -142,29 +154,31 @@ nav ul li a.navButton {
   position: relative;
   top: -18px;
   left: 0;
-  margin-left: 75%;
+  margin-left: 78%;
 }
 
 .hero{
   margin-top: var(--marginTop);
+  /* width: max-content; */
 }
 .hero img{
  display: inline-block;
- margin-left: 50%;
+ /* margin-left: 50%; */
 }
 
 .innovateContainer{
   text-align: center;
+  position: relative;
+  top: -60px;
+  width: 50%;
 }
 
 .innovateContainer h1 {
-  font-size: 4em;
+  font-size: 4.5em;
 }
 
 .innovateContent{
-  position: absolute;
-  top: 15%;
-  transform:  translateX( 40%);
+  display: inline-block;
 }
 
 .sectionBreak{
