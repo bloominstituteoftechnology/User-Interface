@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav a {
+	margin: 20px;
+	padding: 90px;
+	display: inline-block;
+	border-radius: 20px;
+	color: grey;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background:white;
+	
+	
+  }
+
+  h1{
+	  font-size:80px;
+  }
+div .big{
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+section .top{
+	display:block;
+	width:47px;
+	
+}
+
+section .bottom{
+	display:block;
+	width:47px; 
+	
+}
+
+p{
+	
+ display:block;
+ 
+}
+}
