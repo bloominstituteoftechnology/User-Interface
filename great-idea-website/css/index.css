@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.header .nav{
+height: 80px;
+width: 100%;
+background-color: aqua;
+
+display: inline-block;
+position: fixed;
+padding-bottom: 40px;
+}
+
+header{
+padding-bottom: 50px;
+}
+
+.slogan{
+	left:200px;
+	top:200px;
+	position: relative;
+}
+
+body > header > img.logo{
+
+display: inline-block;
+top: 19px;
+position:relative; 
+left: 850px;
+}
+
+.nav a {
+
+	
+	text-decoration:none;
+	padding: 30px;
+	margin: 30;
+	border: 20px;
+display: inline-block;
+position: relative
+
+
+}
+.code
+{
+ position: relative;
+ left:550px;
+
+}
+.middle-img{
+	width: 95%;
+    padding-left:55px ;
+
+}
+
+.button{
+	display: inline-block;
+	left:200px;
+}
+
+.features{
+	width: 49%;
+	display: inline-block;
+}
+
+.about{
+	width: 49%;
+	display: inline-block;
+}
+
+.services{
+	display: inline-block;
+	width: 32%;
+}
+ 
+.product{
+
+display: inline-block;
+width:32%;
+}
+
+.vision{
+	display: inline-block;
+    width:32%;
+}
+
+div{
+	padding:10px 5px;
+	/* margin:12px;
+	display: inline-block; */
+	
+}
+.footer{
+padding-top: 10px;
+
+}
+
+.footer div p {
+	padding-top: 3px;
+    
+}
