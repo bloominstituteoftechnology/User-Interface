@@ -13,7 +13,7 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 * Open the code with your preferred integrated development environment (IDE).
 
 * Start on the objectives
-
+Hello world
 ## Objectives:
 
 Project objectives are meant to increase your knowledge by giving you practice on the principles learned earlier in the day. Aim to complete every objective on this list. Get as far as you can on the design as we will be using your work today for tomorrow's project as well.
