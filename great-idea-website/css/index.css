@@ -69,3 +69,22 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 }
+
+* {
+	max-width: 100%;
+}
+.container {
+	width: 800px;
+}
+nav a {
+	text-decoration: none;
+	color: gray;
+	border-bottom: 1px solid black;
+}
+.logo {
+	align-content: flex-end;
+}
+
+footer .copyright {
+	text-align: center;
+}
