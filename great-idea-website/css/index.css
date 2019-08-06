@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 0 auto;
+	width: 800px;
+	font-size: 20px;
+	height: 150%;
+}
+.top-container {
+display: flex;
+width: 900px;
+margin-bottom: 30px;
+padding-top: 20px;
+}
+nav {
+	font-size: 20px;
+	justify-content: space-between;
+	word-spacing: 60px;
+}
+nav a {
+	justify-content: space-between;
+	width: 900px;
+}
+.logo {
+	display: inline-block;
+	justify-content: end;
+	margin-left: 18px;
+}
+.middle-container {
+	display: flex;
+	width: 130%;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	margin-top: 15px;
+	font-size: 60px;
+	width: 20px;
+	justify-content: center;
+	margin-left: 60px;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+.img-id1 { 
+justify-items: end;
+justify-items: right;
+margin-bottom: 15px;
+padding-bottom: 20px;
+padding-top: 5px;
+}
+.double-btn {
+	display: inline;
+}
+.btn {
+	height: 25px;
+	font-size: 20px;
+	margin-left: 80px;
+	border: 2px solid black;
+}
+.parent-container {
+	margin: 0 auto;
+	height: 50%;
+	margin-top: 20px;
+}
+.top-content {
+	display: flex;
+	width: 120%;
+	margin-bottom: 15px;
+}
+.inner-1 {
+    line-height: 1.3;
+}
+.inner-2 {
+	justify-content: right;
+	justify-content: end;
+	margin-left: 80px;
+	line-height: 1.3;
+	padding-left: 15px;
+}
+.middle-content {
+	display: flex;
+	margin-top: 20px;
+	width: 130%;
+	margin-bottom: 20px;
+	
+}
+.middle-img {
+	width: 130%;
+}
+.outter-1 {
+	line-height: 1.3;
+	height: 100%;
+	padding: 20px;
+}
+.outter-1 p {
+	word-break: inherit;
+}
+.outter-2 {
+    line-height: 1.3;
+}
+.outter-2 p {
+	word-break: inherit;
+}
+.outter-3 {
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+.outter-3 p {
+	word-break: inherit;
+}
+.content-bottom {
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.id-1 {
+	border-top: 1px solid black;
+	width: 130%;
+	height: 25%;
+}
+footer h2 {
+	margin-top: 20px;
+}
