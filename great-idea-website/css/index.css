@@ -27,6 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	
 }
 body {
 	line-height: 1;
@@ -64,6 +65,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+<<<<<<< HEAD
 {
     margin-bottom: 15px;   
 }
@@ -182,3 +184,6 @@ text-align: left;
 	margin-top: 30px;
 	margin-bottom: 75px;
 } 
+=======
+
+>>>>>>> 7748ac743254dd71f0d493a88c63c9a518233e1d
