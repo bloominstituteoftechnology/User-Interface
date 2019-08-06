@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	max-width:900px;
 	margin: 0 auto;
-	background-color: pink;
+	
 }
 nav {
 	display: inline-block;
@@ -102,7 +102,7 @@ header {
 	width: 450px;
 	font-size: 50px;
 	display: inline-block;
-	background: yellow;
+	
 	height: 450px;
 	vertical-align: middle;
 	text-align: center;
@@ -126,7 +126,7 @@ header {
 .topimg {
 	display: inline-block;
 	max-width: 450px;
-	background: green;
+	
 	height: 450px;
 	 vertical-align: bottom;
 	 width: 400px;
@@ -148,6 +148,9 @@ header {
 hr { 
 	display: block;
 	margin: 20px;
+	padding: 20px;
+	border: 0;
+	color: black;
   } 
 	
 	
@@ -188,7 +191,17 @@ footer a{
 	text-decoration: none;
 	color: black;
 }
-footer {
+#footer {
 	margin-top: 20px;
+	bottom: 40px;
+	position: absolute;
 
+}
+.spacer {
+	height: 80px;
+	width: 800px;
+
+}
+.spacer2{
+	height: 50px;
 }
