@@ -16,7 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-
+	margin-left:5px;
+	
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -71,7 +72,7 @@ nav {
 header {
 	 display:block;
 	 background:dodgerblue;
-	 padding-bottom:10px;
+
 	 z-index:99;
 	 width:100%;
 	 position:fixed;
@@ -91,8 +92,8 @@ h1.splashtext{
 
 }
 .splash{
-	margin-top:30px;
-	margin-left 5%;
+	margin-top:50px;
+
 	display:inline-block;
 }
 
@@ -142,10 +143,13 @@ h2{
 	display:inline-block;
 	width:40%;
 }
-
-h2, p 
+.contactblock{
 	display:inline-block;
-	
+	width:40%;
+}
+
+h2, p {
+	display:inline-block;
 } 
 
 p{
