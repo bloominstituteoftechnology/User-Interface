@@ -69,12 +69,13 @@ h1, h2, h3, h4, h5 {
 	padding: 20px;
 	text-align: center;
 	border-bottom: 2px solid black;
+	background-color: #D0CFCF;
 	display: inline-block;
 }
 
 .logo{
 	position:absolute;
-	left: 1500px;
+	left: 1600px;
 	top: 10px;
 }
 
@@ -82,7 +83,12 @@ nav a{
 	text-decoration: none;
 	font-size: 16px;
 	margin-right: 200px;
-	color: gray;
+	color: black;
+	transition: all 0.4s ease 0s;
+}
+
+nav a:hover{
+	color: white;
 }
 
 .head{
@@ -103,8 +109,13 @@ nav a{
 	position: absolute;
 	text-decoration: none;
 	top: 540px;
-	left: 530px;
+	left: 600px;
 }
+.head a:hover{
+	background-color: white;
+	color: black;
+}
+
 .head img{
 	padding-top: 20px;
 }
@@ -116,6 +127,10 @@ h1{
 
 h2{
 	font-size: 32px;
+}
+
+p{
+	font-family: helvetica;
 }
 
 .features, .about{
