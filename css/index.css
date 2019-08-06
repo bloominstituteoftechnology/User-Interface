@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.scaffold {
+	margin: 0 75px 0;
+	padding-bottom: 100px;
+}
+
+nav * {
+	color: gray;
+	/* width: 100px; */
+	/* border: 1px solid black; */
+	margin-left: 120px;
+}
+
+.top-nav {
+	margin-top: 55px;
+	/* border: 1px solid black; */
+}
+
+.aHeader {
+	margin-top: 40px;
+}
+
+nav a:hover {
+	color: pink;
+}
+
+#getStarted {
+	margin: auto;
+	text-align: center;
+	border: 1px solid gray;
+	width: 100px;
+
+	padding: 10px 20px;
+}
+
+.aHeader .headerText{
+
+	/* font-size: 150px;
+	width: 600; */
+
+	overflow: unset;
+	width: 500px;
+	display: inline-block;
+	/* border: 1px solid black; */
+	margin-left: 200px;
+}
+
+header h1 {
+font-size: 130px;
+	width: 500px;
+	text-align: center;
+}
+
+.header-image {
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+}
+
+.top-content * {
+	display: inline-block;
+	width: 600px;
+}
+
+.top-content div:last-child{
+	margin-left: 100px;
+}
+
+.content *{
+	margin-top: 20px;
+}
+
+
+.bottom-section {
+	width: 400px;
+	display: inline-block;
+}
+
+footer {
+	text-align: right;
+}
+
+.bottom {
+	margin-top: 20px;
+	border-top: 1px solid black;
+}
+
+.bottom h5, address{
+	margin-top: 20px;
+}
+
+.middle-img {
+	width: 1400px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
