@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5 {
 	border-right: 1px solid #fff;
 	padding: 25px 75px 200px;
 	margin: auto;
-	font-optical-sizing: auto;
 }
 
 nav {
@@ -112,7 +111,6 @@ header img {
 	padding: 7px 40px 8px;
 	margin-top: 8px;
 	text-decoration: none;
-	text
 	font-size: 17px;
 }
 
