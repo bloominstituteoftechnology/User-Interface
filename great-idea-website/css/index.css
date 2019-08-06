@@ -64,3 +64,65 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.main-header {
+	width: 100%;
+	margin-bottom: 30px;
+}
+nav {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 28px;
+	margin-top: 20px;
+}
+.header-icon {
+	position: absolute;
+	top: 20px;
+	left: 850px;
+}
+.subheader {
+	width: 100%;
+	margin-bottom: 200px;
+}
+.prompt {
+	display: inline-block;
+	
+}
+.banner {
+	display: inline-block;
+	background-color: lightblue;
+}
+.prompt h1 {
+	font-size: 4.5em;
+	text-align: center;
+	padding: 50px;
+	margin-top: 50px;
+}
+.prompt a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	margin-left: 120px;
+	margin-top: 5px;
+	display: block;
+	width: 173px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.banner img {
+	position: absolute;
+	left: 650px;
+	top: 120px;
+}
