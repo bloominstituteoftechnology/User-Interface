@@ -28,6 +28,39 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/**{
+	box-sizing: border-box;
+}
+
+.container div {
+	max-width: 900px;
+	
+	
+}
+.header nav {
+	padding:20px 10px 10px 30 px ;
+	border: 50px;
+	margin: 40px;
+}
+.logo div {
+	padding:20px 10px 10px 30 px ;
+	border: 70px;
+	margin-top: 70px;
+	position: relative;
+	
+
+}
+.logo2 h1{
+	font-size: 150px;
+	font-weight: bold;
+	padding:20px;
+	margin:20px;
+	border:20px;
+}
+
+
+}*/
+
 body {
 	line-height: 1;
 }
