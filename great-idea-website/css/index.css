@@ -49,6 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
+	
     box-sizing: border-box;
 }
 
@@ -58,9 +59,214 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+* {
+	transition: all .3s;
+}
+
+html {
+	background-image: url(https://media.istockphoto.com/photos/white-crumpled-lines-paper-school-background-picture-id948019132?k=6&m=948019132&s=170667a&w=0&h=bzqu_3WXI2dXu-OLpIlhoWxq3XVCyXjCm8jgNxDF65U=);
+}
+
+body {
+	background: rgba(125, 202, 250, .8);
+	width: 1000px;
+	height: 1300px;
+	margin: 80px auto 0;
+	padding-top: 30px;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+address {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+address span {
+	font-style: italic;
+}
+
+hr {
+	width: 90%;
+	height: 1px;
+	background-color: black;
+	border: none;
+}
+
+.top-hr {
+	height: .5px;
+}
+
+.bottom-hr {
+	margin-top: 40px;
+}
+
+address h2 {
+	font-size: 22px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0px;
+	width: 1000px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-bottom: 1px solid black;
+	background-color: rgba(15, 160, 250, 1);
+	z-index: 1;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.navButtons {
+	width: 100px;
+	color: black;
+	padding: 0 1%;
+	margin: 5px 1%;
+	background: none;
+	border: none;
+}
+
+.navButtons:hover {
+	animation-name: rotateNavButton;
+	animation-duration: .3s;
+}
+
+.navButtons:hover a {
+	color: rgba(255, 255, 255, .8);
+	text-decoration: underline;
+}
+
+.logoContainer {
+	display: inline-block;
+	position: relative;
+	height: 80px;
+	top: 8px;
+}
+
+.sloganHeader {
+	width: 100%;
+	height: 375px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.slogan {
+	display: inline-block;
+	position: relative;
+	top: -50px;
+	width: 40%;
+	height: 350px;
+	padding: 60px 0;
+	text-align: center;
+	font-size: 60px;
+}
+
+.slogan h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.slogan button {
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background: rgba(15, 160, 250, .8);
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.slogan button:hover {
+	background-color: rgba(15, 160, 250, 1);
+	color: rgba(255, 255, 255, .8);
+}
+
+.computerMatrixImg {
+	display: inline-block;
+	width: 40%;
+	height: 350px;
+	text-align: center;
+}
+
+.computerMatrixImg img{
+	height: 350px;
+}
+
+.informationContainers {
+	display: inline-block;
+	text-align: left;
+	font-family: 'Red Hat Display', sans-serif;
+	padding: 0 40px;
+}
+
+.informationContainers h2 {
+	font-size: 22px;
+}
+
+.topContent {
+	width: 100%;
+	text-align: center;
+}
+
+.topContent div {
+	width: 45%;
+}
+
+.middleComputerMatrixImg {
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+	box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, .4);
+}
+
+.middleComputerMatrixImg img {
+	width: 100%;
+	height: 100%;
+}
+
+.bottomContent {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.bottomContent div {
+	width: 29%;
+	margin: 1% .5% .5%;
+}
+
+.copyrightFooter {
+	background-color: rgba(15, 160, 250, 1);
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+@keyframes rotateNavButton {
+	0% { transform: translateX(0px); }
+	25% { transform: translateX(6px); } 
+	50% { transform: translateX(-6px); }
+	100% { transform: translateX(0px); }
+}
