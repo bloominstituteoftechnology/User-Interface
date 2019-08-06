@@ -68,7 +68,6 @@ header {
   margin-top: var(--marginTop);
 }
 
-
  section h2 , footer h2{
   font-size: 1.5rem;
 }
@@ -120,7 +119,6 @@ li{
   display: inline-block;
 }
 
-
 .navButton {
   display: inline-block;
   font-size: 1.25em;
@@ -159,11 +157,9 @@ li{
 
 .hero{
   margin-top: var(--marginTop);
-  /* width: max-content; */
 }
 .hero img{
  display: inline-block;
- /* margin-left: 50%; */
 }
 
 .innovateContainer{
