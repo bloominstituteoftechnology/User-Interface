@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	border: 1px solid grey !important;
+ }
+
+ nav a, nav img {
+	display: inline-block;
+	width: 14%;/*I don't really know how to not hard-code this*/
+	text-align: center;
+	margin-bottom: 20px;
+ }
+
+.headerContent{
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+ .left {
+	width: 49%;
+	float: left;
+	text-align: center;
+	font-size: 85px;
+ }
+
+ .right {
+	width: 49%;
+	float: right;
+ }
+
+ #snippetImg {
+    display: block;
+    margin-left: auto;
+	margin-right: auto 
+}
