@@ -91,7 +91,7 @@ width: 100%;
  #navbar {
 	border: 1px solid rgb(12, 12, 12);
 	vertical-align: middle;
-	background-color: plum;
+	background-color: gold;
 	position: fixed;
 	top: 0;
 	right:0;
@@ -106,7 +106,8 @@ vertical-align: middle;
 margin-left: 20%;
 }
 .logo{
-
+   display: inline-block;
+   
  }
 
 
@@ -131,8 +132,11 @@ margin-bottom: 20px;
 	height: 35px;
 }
 #square:hover {
-	color: purple;
+	color:red;
 	background-color: white;
+	-webkit-transition: .3s;
+    transition: .3s;
+    transform: rotate(360deg);
 }
 #innovateimg{
 	display: inline-block;
