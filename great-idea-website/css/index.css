@@ -62,7 +62,44 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+/* normalized css ends */
 /* Your code starts here! */
 
-test entry
+.menu{
+font-family:Titillium+web;
+}
+
+.menu a{
+	color:gray;
+text-align:center;
+}
+
+.nav-logo{
+
+}
+
+.heroCopy{
+display: inline-block;
+}
+
+.heroImage{
+display:inline-block;
+}
+
+.button{
+display:inline-block;
+}
+
+.copy{
+border-top:1.5px solid gray;
+border-bottom: 1.5px solid gray;
+
+}
+
+.copy h2{
+font-family: Bangers;
+}
+
+.copy p{
+font-family:Titillium+web;
+}
