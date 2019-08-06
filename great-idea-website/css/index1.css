@@ -77,100 +77,18 @@ h1, h2, h3, h4, h5 {
 	background: red;
 } */
 body{
-	width: 1000px;
-	height: 1000px;
-	background-color: white;
-    margin: auto;
+	width: 800px;
+	height: 800px;
+	background: grey;
+	margin: auto;
 	padding: 20px;
-
-
-}
-
-div{
-	
-	background-color: white;
-	padding: 10px;
-	margin: auto -40px:
-
-}
-
-.navbar{
-	width: 100%;
-	height: 100%;
-	
-	background-color: white;
-	padding: 5px 0 30px 20px;
 	box-sizing: border-box;
 }
-header .innerNav{
-	/* text-align: center; */
-	display: inline-block;
-	margin: 0 0 0 40px;
-}
-header .innerNav a{
-	padding: 25px;
-	text-decoration: none;
-	color: grey;
-}
-/* .navbar .logo{
-	box-sizing: border-box;
-	padding-top: 20px;
+/* title{
+	padding: 20px;
+	margin: 10px 10xp 10px 10px;
 } */
 
-h1{
-	font-size: 40px;
-}
 
-.titleAndPic{
-	border-bottom: 2px solid grey;
 
-}
-.titleAndPic h1, .bigpic{
-	display: inline-block;
-	position: relative;
-	width:40%;
-    padding: 20px;
-	margin-left: 20px;
-	
 
-}
-.titleAndPic h1{
-	padding-bottom: 200px;
-	box-size: border-box;
-}
-
-.titleAndPic .bigpic{
-	/* position: rleative;
-	top: 500px; */
-	/* margin-top: 500px; */
-}
-
-h2{
-	font-size: 18px;
-}
-
-.featuresAbout div{
-	width: 40%;
-	display: inline-block;
-	padding-left: 60px;
-	margin-left: 40px;
-}
-.featuresAbout p{
-	padding-left: 20px;
-}
-
-.middle-img{
-	margin-left: 50px;
-}
-.ServicesProductVision div{
-	width: 33%;
-	display: inline-block;
-	border-bottom: 2px solid grey;
-}
-.contact{
-	padding-left: 12px;
-}
-.copywrite{
-	margin-left: 400px;
-	margin-bottom: 100px;
-}
