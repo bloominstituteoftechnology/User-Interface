@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width:100%;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,25 +67,51 @@ h1, h2, h3, h4, h5 {
 /* normalized css ends */
 /* Your code starts here! */
 
-.menu{
-font-family:Titillium+web;
+
+
+header{
+
 }
 
-.menu a{
+.navBar{
+text-align:center;
+vertical-align:top;
+font-family:Titillium+web;
+width:100%;
+}
+
+.navBar a{
 	color:gray;
 text-align:center;
+text-decoration: none;
+padding-left:30px;
 }
 
-.nav-logo{
+.navLogo{
+	display:inline-block;
+	vertical-align: top;
+margin-right:20px;
+padding-left:100px;
 
 }
 
+.heroBanner{
+text-align:center;
+}
 .heroCopy{
 display: inline-block;
+text-align:center;
+font-size:60px;
+
 }
 
 .heroImage{
 display:inline-block;
+max-width:30%;
+text-align:right;
+margin-top:;
+padding:50px;
+
 }
 
 .button{
@@ -91,6 +119,7 @@ display:inline-block;
 }
 
 .copy{
+text-align:center;
 border-top:1.5px solid gray;
 border-bottom: 1.5px solid gray;
 
@@ -102,4 +131,16 @@ font-family: Bangers;
 
 .copy p{
 font-family:Titillium+web;
+}
+
+.topRow {
+ display:inline-block;
+ width:49%
+}
+.contact{
+	text-align:center;
+}
+
+footer{
+	text-align:center;
 }
