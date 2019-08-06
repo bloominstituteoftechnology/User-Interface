@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	max-width: 2000px;
+
 	margin: 0, auto;
 
 }
@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5 {
 .header {
 	width: 100%;
 	padding: 50px;
-	background-color: hotpink;
 }
 
 nav {
@@ -82,61 +81,91 @@ nav {
 	
 }
 
+nav a {
+	padding: 40px;
+	text-decoration: none;
+	color: grey;
+}
+
 img {
 	float: right;
+	position: relative;
+	right: 100px;
+	bottom: 10px;
 	}
 
 .marketing {
-	background-color: rgb(24, 211, 195);
 	padding: 50px;
-	border-bottom: 10px solid blue;
 	height: 400px;
-	
-}
+	}
 
 .heading {
-	float: left;
+	padding-bottom: 60px;
 	width: 50%;
+	position: relative;
+	left: 200px;
 }
 
 .heading-font{
-	font-size: 65px;
+	font-size: 80px;
 	float:left;
 	text-align: center;
 	display: block;
+	position: relative;
+	left: 120px;
+	top: 30px;
 }
 
 .get-started {
-	float: left;
-	text-align: center;
+     position: relative;
+	 top: 280px;
+	 right: 120px;
+	 display: inline-block;
+	 padding: 15px;
+	 padding-left: 24px;
+	 height: auto;
+	 width: 150px;
+	 font-size: 20px;
 }
 
 .header-img {
 	display: block;
 	float: right;
 	position: relative;
-	bottom: 50px;
+	bottom: 30px;
+	right: 140px;
+	padding-left: 50px;
+	
 }
 
-.main {
-	padding: 0;
+main {
+	border-top: 1px solid black;
+	position: relative;
+	top: 50px;
+	margin-left: 80px;
+	margin-right: 100px;
+	padding-bottom: 0;
+	
 }
+
 
 .top-content {
-	background-color: orange;
-	border: 5px solid black;
-	height: 200px;
+	height: 150px;
 }
 
 .features {
 	float: left;
-	width: 400px;
-	padding: 20px;
+	width: 50%;
+	padding-left: 40px;
+	padding-top: 30px;
 }
 
 .about {
 	float: right;
-	width: 350px;
+	width: 50%;
+	padding: 30px;
+	position: relative;
+	bottom: 30px;
 }
 
 .middle {
@@ -144,44 +173,54 @@ height: 200px;
 }
 
 .middle-img {
-	position: absolute;
+	position: relative;
+	right: 80px;
    
     
 }
 
 .bottom-content {
 	width: 100%;
-	background-color: orange;
-	border: 5px solid black;
 	height: 200px;
 	display: inline-block;
+	border-bottom: 1px solid black;
+	position: relative;
+	top: 20px;
 }
 
 .services {
 	padding: 30px;
-	width: 350px;
+	width: 33%;
 }
 
 .product {
 	padding: 30px;
-	width: 350px;
+	width: 33%;
 	position: relative;
-	left: 370px;
-	bottom: 200px;
+	left: 330px;
+	bottom: 190px;
 }
 
 .vision {
 	padding: 30px;
-	width: 350px;
-	float: right;
+	width: 33%;
 	position: relative;
-	bottom: 400px;
+	bottom: 380px;
+	left: 650px;
+
 }
 
-footer {
-	background-color: lightgreen;
+
+
+address {
+	position: relative;
+	bottom: 250px;
+	padding: 30px;
+	margin-left: 80px;
 }
 
 .copyright {
 	text-align: center;
+	position: relative;
+	bottom: 250px;
 }
