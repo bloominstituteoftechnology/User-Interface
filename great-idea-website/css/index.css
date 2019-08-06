@@ -75,16 +75,28 @@ h1 {
 }
 .container {
 	width: 800px;
+	margin: 0 25%;
 }
 nav a {
 	text-decoration: none;
 	color: gray;
-	border-bottom: 1px solid black;
 }
 .logo {
-	align-content: flex-end;
+	margin-left: 700px;
 }
 
 footer .copyright {
 	text-align: center;
 }
+
+.header {
+	display: inline-block;
+	width: 45%;
+	
+}
+
+nav{
+	position: absolute;
+	margin-left: 20px;
+}
+
