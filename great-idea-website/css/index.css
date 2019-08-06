@@ -63,4 +63,98 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+nav {
+	display: inline-block;
+	height: 60px;
+	text-align: center;	
+}
+
+.logo {
+	float: right;
+	padding: 15px 0px 0px 0px;
+	position: relative;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb (42, 42, 42);
+    margin: 15px 10px;
+    position: relative;
+    border: none;
+	outline: none;
+	text-decoration: none;
+	height: 10px;
+}
+
+.header-img {
+	position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+
+  .iod-box {
+	  position: relative;
+  }
+
+  .iod-text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 80px;
+    margin: 100px 0px;
+    text-align: center;
+    padding: 0px 60px;
+	width: 55%;
+	position: relative;
+  }
+
+  	button.iod-button {
+	background: white;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 10px 50px;
+    font-size: 18px;
+    border: 1px solid black;
+	cursor: pointer;
+	}
+
+	.content-bloack {
+		position: relative;
+		width:100%
+	}
+
+	.features-block, .about-block {
+	display: inline-block;
+    width: 420px;
+    margin: 1% 1% 2% 1%;
+    padding: 25px 0;
+	line-height: 20px;
+	}
+
+	.services-block, .vision-block, .product-block {
+		display: inline-block;
+		width: 274px;
+		margin: 1% 8px 2% 8px;
+		padding: 25px 0px;
+		line-height: 20px;
+	}
+
+	.contact-section address {
+		padding: 25px 0px 0px 0px;	
+	}
+
+	footer {
+	line-height: 100px;
+	display: inline-block;
+	margin-left: 450px;
+
+	}
