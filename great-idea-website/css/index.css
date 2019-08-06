@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 1px solid black !important;  */
 }
 
 html, body {
@@ -64,3 +65,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* need to expand each nav apart a litte bit */
+body {
+	max-width: 880px;
+	margin: auto;
+}
+
+nav {
+	width: 100%;
+	height: 20%;
+}
+
+.nav p{
+	display: inline-block;
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 40px;
+	color: grey;
+
+}
+
+.logo {
+	position: relative;
+	left: 10%;
+	margin-top: 50px;
+	width: 20%;
+	height: 50px;
+}
+
+header {
+
+	display: inline-block;
+	position: relative;
+	width: 800px;
+	
+}
+
+.circle {
+	position: absolute;
+	left: 65%;
+	width: 320px;
+	top: 1px;
+	/* -800px; */
+}
+
+div {
+	position: relative;
+	
+}
+
+h1 {
+	font-size: 70px;
+	padding: 40px 40px;
+	position: relative;
+	margin: 10px;
+	text-align: center;
+	right: 130px;
+}
+
+.btn {
+	position: relative;
+	left: 25%;
+	bottom: 40px;
+	font-size: 12px;
+	border: 1px solid black;
+	padding: 5px 8px;
+	width: 130px;
+}
+
+.top-content {
+	margin-top: 100px;
+	display: inline-block;
+	width: 100%;
+	border-top: 2px solid black;
+}
+.content1 {
+	display: inline-block;
+	width: 48%;
+	margin-top: 50px;
+	
+
+}
+
