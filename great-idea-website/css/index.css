@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 2px solid black;
 	background-color: #D0CFCF;
 	display: inline-block;
+	z-index: 1;
 }
 
 .logo{
