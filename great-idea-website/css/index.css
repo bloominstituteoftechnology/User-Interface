@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 0, auto;
+	margin-right: 300px;
+	
+}
+
+.header {
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	padding-left: 68px;
+	}
+
+nav {
+	background-color: aliceblue;
+	display: table-cell;
+	margin-right: 5px;
+}
+
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.img {
+
+	display: table-cell;
+	margin-right: 100px;
+	padding-left: 145px;
+	position: relative;
+	top: 10px;
+	}
+
+.marketing {
+	width: 100%;
+	display: block;
+	padding: 30px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid black;
+	margin-left: 50px;
+	margin-right: 300px;
+}
+
+.heading {
+	position: relative;
+	top: 60px;
+	left: 50px;
+	padding: 50px;
+}
+
+.heading h1 {
+	font-size: 70px;
+	
+}
+
+.header-img {
+	position: relative;
+	bottom: 310px;
+	right: 50px;
+	float: right;
+	
+}
+
+main {
+	margin-right: 200px;
+	margin-left: 50px;
+}
+
+.top-content {
+	display: block;
+}
+
+.features {
+	padding: 30px;
+	position: relative;
+	width: 500px;
+	
+}
+
+.about {
+	padding: 30px;
+	position: relative;
+	left: 500px;
+	bottom: 152px;
+	width: 500px;
+}
+
+.middle-img {
+	display: block;
+	position: relative;
+	bottom: 150px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.bottom-cotent {
+	display: block;
+}
+
+.services {
+	width: 300px;
+	position: relative;
+	bottom: 100px;
+}
+
+.product {
+	width: 300px;
+	position: relative;
+	bottom: 208px;
+	left: 315px;
+}
+
+.value {
+	width: 300px;
+}
