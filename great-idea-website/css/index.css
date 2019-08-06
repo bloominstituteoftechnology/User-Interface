@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: lightgray; 
+	vertical-align: top;
+	margin: 50px;
+	
+
+}
+
+.logo {
+	display: inline-block; 
+	vertical-align: top;
+	margin-right: 20px;
+	padding-left: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	padding: 50px 50px;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.button {
+	text-align: center;
+	font-size: 40px;
+}
