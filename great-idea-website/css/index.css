@@ -66,12 +66,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav a {
-	display: inline-block;
 	text-decoration: none;
 	color: lightgray; 
 	vertical-align: top;
 	margin: 50px;
-	
+	vertical-align: top;
+	display: inline-block;
 
 }
 
@@ -89,9 +89,16 @@ h1 {
 	position: relative;
 	vertical-align: top;
 	display: inline-block;
+	width: 30%; 
 }
 
 .button {
-	text-align: center;
 	font-size: 40px;
+	margin: 0 auto; 
+	padding: 5px 20px 5px;
+	display: block; 
+}
+
+.headerImg {
+	vertical-align: center;
 }
