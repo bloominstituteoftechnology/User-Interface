@@ -92,7 +92,7 @@ nav a {
 }
 .subheader {
 	width: 100%;
-	margin-bottom: 200px;
+	margin-bottom: 130px;
 }
 .prompt {
 	display: inline-block;
@@ -125,4 +125,39 @@ nav a {
 	position: absolute;
 	left: 650px;
 	top: 120px;
+}
+.section-1 {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.2em;
+}
+.left {
+	width: 48%;
+	float: left;
+	margin-right: 30px;
+}
+.right {
+	width: 48%;
+	float: left;
+	padding-bottom: 35px;
+}
+.section-2 img {
+	width: 100%;
+	padding-bottom: 35px;
+}
+.column-left{
+	width: 32.333%;
+	float: left;
+}
+.column-center {
+	display: inline-block;
+	width: 32.333%;
+	padding-bottom: 35px;
+}
+.column-right {
+	width: 32.333%;
+	float: right;
+}
+.copyright {
+	text-align: center;
 }
