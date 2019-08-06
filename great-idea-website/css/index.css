@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+  margin-top: var(--marginTop);
+}
+
+header nav ul li{
+  list-style-type: none;
+  display: inline-block;
+};
+
+ section, footer h2{
+  font-size: 1.75rem;
+}
+
+footer{
+  margin-top: var(--marginTop);
+}
+
+footer a{
+  display: block;
+  margin: 1rem 0;
+  color: #000;
+  text-decoration: none;
+}
+
+footer > p:last-of-type {
+  text-align: center;
+}
+
+:root{
+  --marginTop: 20px;
+}
+
+.wrapper {
+  max-width: 880px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.d-relative{
+  position: relative;
+};
+
+nav ul li a.navButton {
+  font-size: 1.5em;
+  height: 30px;
+  width: 100px;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.getStarted {
+  height: 30px;
+  width: 175px;
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.getStarted:visited{
+  color: #000;
+}
+
+.logo {
+  position: relative;
+  top: -18px;
+  left: 0;
+  margin-left: 75%;
+}
+
+.hero{
+  margin-top: var(--marginTop);
+}
+.hero img{
+ display: inline-block;
+ margin-left: 50%;
+}
+
+.innovateContainer{
+  text-align: center;
+}
+
+.innovateContainer h1 {
+  font-size: 4em;
+}
+
+.innovateContent{
+  position: absolute;
+  top: 15%;
+  transform:  translateX( 40%);
+}
+
+.sectionBreak{
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: var(--marginTop);
+}
+
+.content1 div{
+  width: 49%;
+  margin-top: var(--marginTop);
+}
+
+.content2 div{
+  width: 30%;
+  margin-top: var(--marginTop);
+}
+
+.middle-img{
+  margin-top: var(--marginTop);
+}
