@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr {
+	margin: 35px 0px 35px 0px;
+}
+.container{
+	width: 876px;
+	margin: 0px auto;
+/*	border: 5px solid red; For Testing Purposes*/
+	}
+.container header{
+	margin-top: 25px;
+}
+.container header img{
+	vertical-align: middle;
+	padding-left: 110px;
+}
+nav {
+	display: inline-block;
+}
+nav a{
+	color: gainsboro;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 15px;
+}
+.content-row{
+	margin: 60px 0px 60px 0px;
+}
+.content-row div{
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.content-row h1{
+	text-align: center;
+	font-size: 80px;
+	padding: 0px 50px 0px 50px;
+}
+.content-row button{
+	margin: auto;
+	display: block;
+	background-color: white;
+	border: solid 1px black;
+	height: 32px;
+	width: 170px;
+	font-size: 105%;
+}
+.content-row img{
+	padding-left: 65px;	
+}
+
+.content-img{
+	width: 100%;
+	padding: 40px 0px 40px 0px;
+}
+.content-row div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.text-row-2 span{
+	display: inline-block;
+	width: 49%;
+}
+.text-row-3 span{
+	display: inline-block;
+	width: 33%;
+}
+footer{
+	margin: 50px 0px 100px 0px;
+}
+footer .copyright{
+	text-align: center;
+	font-size: 90%;
+}
+.contact-section .telephone{
+	padding: 20px 0px 20px 0px;
+}
