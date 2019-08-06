@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -62,5 +62,92 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+nav {
+	display:inline;
+
+	
+}
+header {
+	 display:block;
+	 background:dodgerblue;
+	 padding-bottom:10px;
+	 z-index:99;
+	 width:100%;
+	 position:fixed;
+}
+
+nav a{
+	padding-left:4%;
+	padding-right:4%;
+}
+h1.splashtext{
+	font-size:72px;
+	text-align:center;
+	font-weight:bold;
+	display:inline-block;
+	margin-left:20%;
+
+
+}
+.splash{
+	margin-top:30px;
+	margin-left 5%;
+	display:inline-block;
+}
+
+button.startbutton{
+	display:inline-block;
+	background:white;
+	height:50px;
+	width:250px;
+	margin-left:25%;
+
+    
+}
+
+.textwrapper{
+	display:inline-block;
+	margin-right;
+}
+
+section{
+	padding:20px 0px;
+}
+
+.middle-img{
+	display:block;
+}
+
+.topp{
+	display:inline-block;
+	width:40%;
+	padding-bottom 20px;
+}
+
+h2{
+	display:inline-block;
+}
+
+.featurediv{
+	display:inline-block;
+}
+
+.botblock{
+	display:inline-block;
+	width:30%;
+}
+
+.topblock{
+	display:inline-block;
+	width:40%;
+}
+
+h2, p 
+	display:inline-block;
+	
+} 
+
+p{
+	font-family: 'Blinker', sans-serif;
+}
