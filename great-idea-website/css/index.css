@@ -93,22 +93,32 @@ div{
 	margin: auto -40px:
 
 }
-
 .navbar{
 	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+}
+.navbar .innerNav a{
+	width: 100px;
 	height: 100%;
-	
+	vertical-align: middle;
 	background-color: white;
 	padding: 5px 0 30px 20px;
 	box-sizing: border-box;
 }
-header .innerNav{
+.navbar .logo{
+	box-sizing: border-box;
+	padding-left: 60px;
+}
+.innerNav{
 	/* text-align: center; */
 	display: inline-block;
-	margin: 0 0 0 40px;
+	: top;
+	margin: 0 0 0 0;
 }
-header .innerNav a{
-	padding: 25px;
+div .innerNav a, .logo{
+	display: inline-block;
+	padding: 0;
 	text-decoration: none;
 	color: grey;
 }
@@ -123,8 +133,9 @@ h1{
 
 .titleAndPic{
 	border-bottom: 2px solid grey;
-
+    position: relative;
 }
+
 .titleAndPic h1, .bigpic{
 	display: inline-block;
 	position: relative;
@@ -134,8 +145,13 @@ h1{
 	
 
 }
+.bigpic{
+	position: absolute;
+	top: -30px;
+	right: -30px;
+}
 .titleAndPic h1{
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 	box-size: border-box;
 }
 
