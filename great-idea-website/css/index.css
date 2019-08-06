@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +65,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a{
+	text-decoration: none;
+	color: black;
+	margin-left: 60px;
+}
+
+.logo{
+	margin-left: 70px;
+}
+
+nav, .logo{
+	display: inline-block;
+}
+
+#slogan{
+	text-align: center;
+	font-size: 80px;
+	margin-left: 200px;
+	margin-right:50px;
+	margin-top: 100px;
+}
+
+.button{
+	position: relative;
+	text-align: center;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	padding: 5px 55px;
+	bottom: 50px;
+	border: 1px solid black;
+}
+
+#slogan, .circleimg, .button{
+	display: inline-block;
+	position: relative;
+	/* background-color: green; */
+}
+
+#content{
+	position:relative;
+	width:914px;
+	left: 50px;
+}
+
+.featurescontent, .aboutcontent{
+	display: inline-block;
+	position:relative;
+	width: 450px;
+	height: 130px;
+}
+
+section{
+	position:absolute;
+	top: 50px;
+}
+
+.servicescontent, .productcontent, .visioncontent{
+	display: inline-block;
+	position:relative;
+	width: 280px;
+	height: 130px;
+	top: 45px;
+}
+
+.contactsection, #copyright{
+	position: relative;	
+	top: 175px;
+	left: 50px;
+}
+
+/* *{
+	border: 1px black solid !important;
+} */
