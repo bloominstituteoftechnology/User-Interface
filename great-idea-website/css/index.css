@@ -123,7 +123,13 @@ header img {
 	text-align: right;
 }
 
-
+.main-content {
+	width: 875px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0 40px;
+	margin: 75px 0 50px;
+}
 
 .content-one {
 	padding-bottom: 40px;
