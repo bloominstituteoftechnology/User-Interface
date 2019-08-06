@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a{
+	display: inline-block;
+	padding: 50px;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	right: 250px;
+}
+
+.head span{
+	display: inline-block;
+	position: relative;
+	left: 500px;
+}
+
+.code {
+	display: inline-block;
+	margin-left: 50px;
+
+}
+
+
+#feature {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	width: 770px;
+	height: 80px;
+
+}
+
+#about {
+	display: inline-block;
+	position: absolute;
+	right: 110px;
+	width: 670px;
+}
+
+.middle-img {
+	margin-left: 50px;
+	width: 90%;
+	margin-right: 43px;
+}
+
+#services {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+#product {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+#vision {
+	display: inline-block;
+	position: relative;
+	margin-left: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+.copyright {
+	text-align: center;
+}
