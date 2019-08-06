@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 body{
 	width:75%;
 	margin-left:200px;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 
@@ -97,7 +97,7 @@ padding:30px 50px;
 }
 
 .heroBanner{
-	text-align:center;
+text-align:center;
 }
 .heroCopy{
 display: inline-block;
@@ -113,7 +113,7 @@ max-width:250px;
 
 }
 
-.heroRight{
+.heroLeft{
 	display:inline-block;
 	width:
 	margin:
@@ -127,6 +127,7 @@ border:1px solid red;
 text-decoration: none;
 color:white;
 padding: 5px 20px;
+
 }
 
 .copy{
@@ -148,21 +149,24 @@ font-family:Titillium+web;
 
 
 .topRowLeft p{
-	display:inline-block;
+	/* display:inline-block; */
    /* margin-top:20px; */
 border: 2px solid red;
 width:45%;
+margin-bottom:15px;
 }
 
 .topRowRight{
-	display:inline-block;
+display:inline-block;
    /* margin-top:20px; */
 border: 2px solid red;
-width:45%;
+width:30%;
+margin-bottom:15px;
 }
 .middle-img{
 display:inline-block;
-margin-left:10%;
+/* margin-left:10%; */
+width:100%;
 }
 
 .bottomRowRight{
