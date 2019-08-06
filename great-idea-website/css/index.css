@@ -54,13 +54,154 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Lacquer', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Saira Stencil One', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container{
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+nav {
+	display: inline-block;
+	width: 600px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.fixed-navbar{
+	z-index: 9999;
+	position: fixed;
+	top: 10px;
+	height: 50px;
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+nav a{
+	text-decoration: none;
+	margin: 20px;
+	color: grey;
+	transition: all 0.3s ease;
+
+}
+
+
+.nav a {
+    float: left;
+    width: 20%;
+  }
+nav a:hover a::before {
+    right: 0;
+    left: 0;
+  }
+  
+  nav a:hover {
+    color: grey;
+  }
+  nav a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: grey;
+  }
+  nav a:hover::before {
+    right: 0;
+    left: 0;
+  }
+
+
+
+
+header .logo{
+	position: relative;
+	left: 700px;
+	margin-top: 20px;
+}
+
+.image-button{
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about .big-text{
+	font-size: 70px;
+	font-weight: bolder;
+	margin-top: 90px;
+	text-align: center;
+	display: inline-block;
+	max-width: 400px;
+	margin-left: 60px;
+}
+
+.button{
+	border: 2px solid black;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	padding-left: 30px;
+	display: block;
+	width: 150px;
+	margin-left: 200px;
+}
+
+.top-image{
+	display: inline-block;
+	margin-top: 30px;
+	width: 300px;
+}
+
+.main{
+	margin-top: 100px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 20px;
+}
+
+.top-half .info{
+	width: 400px;
+	display: inline-block;
+}
+
+.top-half .info:first-child{
+	margin-right: 30px;
+}
+
+.middle-img{
+	padding: 50px 0px;
+}
+
+.bottom-half .info{
+	width: 230px;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.bottom-half .info:last-child{
+	margin-right: 0px;
+	margin-left: 0px
+}
+
+address{
+	margin-top: 30px;
+
+}
+
+footer{
+	margin: 50px;
+	text-align: center
+}
