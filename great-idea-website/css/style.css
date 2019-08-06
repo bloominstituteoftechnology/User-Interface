@@ -1,0 +1,103 @@
+header .header {
+  display: inline;
+  padding: 5px;
+}
+.header nav {
+  position: relative;
+  width: 100%;
+  margin-left: 85px;
+}
+
+header nav a {
+  margin-right: 60px;
+  text-decoration: none;
+  color: grey;
+}
+.logo {
+  text-align: right;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+.first-section {
+  margin-top: 50px;
+  text-align: center;
+}
+.first-section > div {
+  display: inline-block;
+  width: 440px;
+  height: 300px;
+}
+#content {
+  left: 10px;
+  vertical-align: bottom;
+}
+#content * {
+  text-align: center;
+}
+
+#content h2 {
+  font-size: 70px;
+}
+
+sub-content {
+  text-align: center;
+  left: 10px;
+}
+.get {
+  border: 1px solid black;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  width: 40%;
+  left: 120px;
+  vertical-align: text-bottom;
+}
+.content-right img {
+  padding-left: 60px;
+}
+
+.second-section {
+  margin-top: 30px;
+}
+
+.second-section > div {
+  display: inline-block;
+  width: 440px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+.act-img img {
+  margin-top: 5px;
+}
+
+.third-section {
+  margin-top: 30px;
+  /* text-align: center; */
+}
+
+.third-section > div {
+  display: inline-block;
+  width: 280px;
+  height: 200px;
+  margin-left: 30px;
+}
+/* .third-section p {
+  text-align: left;
+}
+.third-section h3 {
+  text-align: left;
+} */
+img.middle-img {
+  margin-left: 25px;
+}
+footer {
+  margin-left: 20px;
+  height: 200px;
+}
+.copy {
+  text-align: center;
+}
+.text {
+  margin-top: 25px;
+}
