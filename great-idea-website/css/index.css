@@ -67,9 +67,10 @@ h1, h2, h3, h4, h5 {
 /* normalized css ends */
 /* Your code starts here! */
 
-.container{
+body{
 	width:75%;
 	margin-left:200px;
+	border: 2px solid red;
 }
 
 
@@ -133,33 +134,68 @@ border-top:1.5px solid gray;
 border-bottom: 1.5px solid gray;
 vertical-align:middle;
 margin-top:10px;
+margin-bottom:10px;
 }
 
 .copy h2{
 font-family: Bangers;
-top-padding:20px;
+margin-top:20px;
 }
 
 .copy p{
 font-family:Titillium+web;
 }
 
-.topRow {
- display:inline-block;
- width:49%
+
+.topRowLeft p{
+	display:inline-block;
+   /* margin-top:20px; */
+border: 2px solid red;
+width:45%;
 }
 
-.bottomRow{
+.topRowRight{
 	display:inline-block;
+   /* margin-top:20px; */
+border: 2px solid red;
+width:45%;
+}
+.middle-img{
+display:inline-block;
+margin-left:10%;
+}
+
+.bottomRowRight{
+	display:inline-block;
+	/* border: 2px solid red; */
+	width:33%;
+	margin-bottom:15px;
+}
+
+.bottomRowMiddle{
+	display:inline-block;
+	/* border: 2px solid red; */
+	width:33%;
+	margin-bottom:15px;
+}
+
+.bottomRowLeft{
+	display:inline-block;
+	/* border: 2px solid red; */
+	width:33%;
+	margin-bottom:15px;
 }
 .contact{
 	text-align:left;
+	/* border: 2px solid red; */
 }
 
 .contact h2{
-top-margin:10px;
+margin-top:20px;
+/* border: 2px solid red; */
 }
 
 footer{
 	text-align:center;
+	/* border: 2px solid red; */
 }
