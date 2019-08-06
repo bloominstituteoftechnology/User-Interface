@@ -67,66 +67,77 @@ h1, h2, h3, h4, h5 {
 /* normalized css ends */
 /* Your code starts here! */
 
-
-
-header{
-
+.container{
+	width:75%;
+	margin-left:200px;
 }
 
+
+
 .navBar{
+	margin-top:20px;
 text-align:center;
-vertical-align:top;
 font-family:Titillium+web;
 width:100%;
 }
 
 .navBar a{
+	margin-top:10px;
 	color:gray;
-text-align:center;
+text-align:right;
 text-decoration: none;
-padding-left:30px;
+padding:30px 50px;
 }
 
 .navLogo{
 	display:inline-block;
 	vertical-align: top;
-margin-right:20px;
-padding-left:100px;
 
 }
 
 .heroBanner{
-text-align:center;
+	text-align:center;
 }
 .heroCopy{
 display: inline-block;
-text-align:center;
 font-size:60px;
+
 
 }
 
 .heroImage{
-display:inline-block;
-max-width:30%;
 text-align:right;
-margin-top:;
-padding:50px;
+margin-top:0px;
+max-width:250px;
 
+}
+
+.heroRight{
+	display:inline-block;
+	width:
+	margin:
+	padding-bottom:
+	border:
 }
 
 .button{
-display:inline-block;
+background:black;
+border:1px solid red;
+text-decoration: none;
+color:white;
+padding: 5px 20px;
 }
 
 .copy{
-text-align:center;
 border-top:1.5px solid gray;
 border-bottom: 1.5px solid gray;
-
+vertical-align:middle;
+margin-top:10px;
 }
 
 .copy h2{
 font-family: Bangers;
+top-padding:20px;
 }
 
 .copy p{
@@ -137,8 +148,16 @@ font-family:Titillium+web;
  display:inline-block;
  width:49%
 }
+
+.bottomRow{
+	display:inline-block;
+}
 .contact{
-	text-align:center;
+	text-align:left;
+}
+
+.contact h2{
+top-margin:10px;
 }
 
 footer{
