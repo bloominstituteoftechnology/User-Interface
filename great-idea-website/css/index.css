@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	margin:1% 20%;
+	position:absolute;
+}
+
+/* NAVIGATION */
+nav{
+	float:left;
+	padding:15px;
+}
+nav a{
+	text-decoration:none;
+	color:grey;
+	opacity:0.7;	
+	padding:0 20px;
+}
+.logo{
+	display:inline;
+	margin-left:20px;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+
+/* HEADER  */
+.header{
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-bottom:70px;
+	border-bottom:1px solid black;
+}
+.codePic{
+	float:right;
+	width:45%;
+	display:inline-block;
+	padding-top:15px;
+	padding-right:30px;
+}
+.headline{
+	font-size:5.0em;
+	letter-spacing:0.5rem;
+	width:49%;
+	display:inline-block;
+	text-align:center;
+	margin:left;
+	padding-top:90px;
+	padding-left:90px;
+	padding-right:70px;
+}
+.start{
+	border:1px solid black;
+	width:150px;
+	font-size:1rem;
+	padding:8px 25px;
+	margin-bottom:0px;
+	display:inline;
+}
+
+/* FEATURES & ABOUT - 50% */
+.featuresAbout{
+	width:48%;
+	display:inline-block;
+	margin-top:25px;
+	padding-bottom:35px;
+}
+.moreMargin{
+	margin-right:3%;
+}
+
+/* MIDDLE IMAGE */
+.middle-img{
+	width:100%;
+	margin-bottom:40px;
+}
+
+/* SERVICES, PRODUCT, VISION - 33% */
+.services{
+	width:31%;
+	display:inline-block;
+	margin-bottom:40px;
+}
+.extraMargin{
+	margin-right:3%;
+}
+.border{
+	border-bottom:1px solid black;
+	margin-bottom:40px;
+}
+
+/* CONTACT - BLOCK */
+span{
+	display:inline-block;
+	padding:15px 0;
+}
+
+/* FOOTER */
+.footer{
+	margin:50px auto;
+	text-align:center;
+}
