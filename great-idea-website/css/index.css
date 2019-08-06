@@ -64,3 +64,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav ul li{
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  background: #4ecfe9;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.container {
+  max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.top{
+  position: relative;
+}
+
+.slogan {
+  position: absolute;
+  display: inline-block;
+  text-align:center;
+  margin: 75px 250px 80px 50px;
+  height: 383px;
+  width: 373px;
+  padding-top: 70px;
+}
+
+.round-img {
+  position: absolut;
+  display: inline-block;
+  margin: 50px 10px 25px 450px;
+}
+
+span {
+  border: solid 1px black;
+  padding: 1px 30px 1px 30px;
+}
+
+.nav-container {
+  position: relative;
+  height:20px;
+}
+
+ .logo {
+  display: inline-block;
+  position: absolute;
+  margin-left: 650px;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+}
+
+.part1 {
+  position: relative;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.features {
+  display: inlinr-block;
+  width: 50%;
+  position: absolute;
+}
+
+.about {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  margin: 0px 50%;
+}
+
+.part2{
+  position: relative;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.services {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  padding-left: 20px; 
+}
+
+.product {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  margin-left: 33.33%;
+  padding-left: 20px;
+}
+
+.vision {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  margin-left: 66.66%;
+  padding-left: 20px;
+}
+
+.footer {
+  position: relative;
+  height: 150px
+}
+
+.contact {
+  display:inline-block;
+  position: absolute;
+}
+
+.contact p {
+  margin-top: 20px
+}
+
+.contact h2 {
+  margin-top: 20px;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 200px;
+}
