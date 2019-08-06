@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+	 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+nav{
+	display:inline; 
+	color: lightgray; 
+}
+.container header nav a{	
+	margin: 0 20px; 
+	text-decoration: none; 
+	color: lightgrey; 
+
+	
+}
+.container h1 {
+	size: 130px; 
+}
+
+.section{ 
+	border-bottom:1px solid black;
+	padding: 20px; 
+	margin: 20px; 
+ display:inline-block; 
+
+}
+.section div.paragraph {
+	display:inline-block; 
+	margin: auto; 
+	width: 40%;  
+	
+}
+.headerimg {
+	float:right; 
+	vertical-align: top; 
+	width: 100%; 
+}
+
+.section div.paragraph2{
+	display:inline-block; 
+	margin: auto; 
+	width: 32%; 
+}
+
+header div {
+	text-align: center; 
+	display: inline-block; 
+	width: 40%; 
+	margin: auto; 
+}
+
+
+.container{
+	width: 75%; 
+	margin: 0 auto; 
+}
+
+
+.logo .headerimg{
+	float:right; 
+	margin: 0; 
+}
+
+
+.h1{
+	font-size:90px; 
+	
+}
+
+button {
+	background: white; 
+	border: 1px solid black; 
+	padding:6px 40px; 
+	color: black; 
+}
+
+button a {
+	text-decoration: none; 
+}
+
+.middle-img {
+	width: 100%; 
+}
+
+footer{
+	margin-top: 20px; 
+	text-align: center; 
+}
