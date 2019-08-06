@@ -72,7 +72,7 @@ nav {
 header {
 	 display:block;
 	 background:dodgerblue;
-
+	 padding-bottom:10px;
 	 z-index:99;
 	 width:100%;
 	 position:fixed;
