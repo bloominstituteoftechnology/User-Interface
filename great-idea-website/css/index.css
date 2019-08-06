@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.sticky{
+	position: fixed;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+
+.logo{
+	position:absolute;
+	left: 1500px;
+	top: 10px;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 200px;
+	color: gray;
+}
+
+.head{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+.head a{
+	padding: 20px 50px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	position: absolute;
+	text-decoration: none;
+	top: 540px;
+	left: 530px;
+}
+.head img{
+	padding-top: 20px;
+}
+h1{
+	font-size: 122px;
+	display: inline-block;
+	margin-right: 90px;
+}
+
+h2{
+	font-size: 32px;
+}
+
+.features, .about{
+	display:block;
+	width: 40%;
+	padding: 50px 0 50px 0;
+	display: inline-block;
+}
+
+.features{
+	margin-left: 5%;
+}
+
+.middle-img{
+	width:100%;
+	max-height: 300px;
+}
+
+.services, .product, .vision{
+	display: block;
+	width: 30%;
+	margin: 10px;
+	padding: 50px 0 50px 0;
+	display: inline-block;
+}
+
+.services{
+	margin-left: 5%;
+}
+
+.footer{
+	padding: 50px 0 50px 0;
+	margin-left: 5%;
+}
+
+.num{
+	margin: 15px 0 15px 0;
+}
+
+.copy{
+	text-align: center;
+	margin-top: 25px;
+}
