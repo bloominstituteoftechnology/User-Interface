@@ -66,11 +66,129 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 *{
-	box-sizing:border-box;
 	max-width:100%;
-	margin:0;
-	padding:0;
+	box-sizing:border-box;
+}
+
+.navigation {	
+	position:relative;
+	margin-top:15px;
+
 	
 }
 
+.nav a{
+	display:inline-block;
+	text-decoration:none;		
+}
+a{
+	text-decoration:none;
+	color:grey;
+	padding:10px;
+	margin:30px;
+	box-sizing:border-box;
+	
+}
+.logo{
+	display:inline-block;
+	vertical-align: top;
+	margin-right:20px;
+	padding-left:150px;
+	/* position:absolute;
+	right:0px;
+	width:300px;
+	border:1px solid black;
+	padding:10px; */
+}
 
+header{
+	width:98%;
+	text-align:center;
+	border-bottom:1px solid black;
+	margin-top:25px;
+	/* position:relative;
+	box-sizing:border-box;
+	margin:10px; */
+}
+h1{
+	font-size:50px;
+	display:inline-block;
+	margin-right:25%;
+	position:relative;
+}
+
+.button{
+	border:1px solid black;
+}
+
+.cirlceImg{
+	/* padding:20px;
+	margin:10px 0 0px 20px;
+	display:inline-block; */
+	position:relative;
+	/* display:inline; */
+	right:0px;
+	width:300px;
+	padding:10px;
+	margin-top:10px;
+}
+
+.top-content{
+	width:100%;
+	margin:20px;
+	display:table;
+}
+
+.box1{
+	display:inline-block;
+	width: 48%;
+	margin:0 20px 0 0;
+	
+}
+
+.box2{
+	display:inline-block;
+	width:48%;	
+}
+
+.middle-img{
+	margin: 10px;
+	display:inline-block;
+	width:98%;
+	
+}
+
+.bottom-content{
+	width:100%;
+	margin:20px;
+	display:table;
+}
+
+.box3{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;
+	
+}
+
+.box4{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;
+	
+}
+
+.box5{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;
+}
+
+.contact{
+	width:10%;
+	margin:20px;
+}
+
+footer{
+	text-align:center;
+}
