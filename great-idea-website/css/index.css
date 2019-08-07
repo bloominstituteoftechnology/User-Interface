@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,111 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 1rem;
+}
+
+nav a {
+	padding: 0 1.5em;
+	color: lightgrey;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.logo {
+	/*float: right;*/
+	margin-left: 7em;
+	vertical-align: middle;
+}
+
+header {
+	/*vertical-align: middle;*/
+	/*margin-bottom: 5em;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	border-bottom: 1px solid black;
+	padding: 4em 0;
+}
+
+header .div1 {
+	grid-column-start: 1;
+	/*text-align: center;*/
+	padding-top: 5em;
+	text-align: center;
+	/*padding: 10em 1em;*/
+}
+
+header .div1 button {
+	/*margin: 0 auto;*/
+	background-color: white;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+header h1 {
+	font-size: 3em;
+}
+
+header img {
+	grid-column-start: 2;
+	width: 17em;
+}
+
+main {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+		border-bottom: 1px solid black;
+		padding: 4em 0;
+}
+
+main .div1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+main .div2 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+}
+
+main .middle-img {
+	grid-row-start: 2;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	width: 40em;
+}
+
+main .div3 {
+	grid-row-start: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+main .div4 {
+	grid-row-start: 3;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+main .div5 {
+	grid-row-start: 3;
+	grid-column-start: 5;
+	grid-column-end: 7;
+}
+
+main .copyright {
+	margin: 0 auto;
+}
