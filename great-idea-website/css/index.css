@@ -86,16 +86,15 @@ width: 100%;
 }
 
  #navbar {
-	vertical-align: middle;
+	vertical-align: baseline;
 	background-color: none;
 	position: fixed;
+	height: 45px;
+	margin: 0 auto;
 	top: 0;
 	right:0;
 	left:0;
 	bottom:0;
-	height: 45px;
-	margin: 0 auto;
-	
 }
 #navlogo {
 display: inline-block;
