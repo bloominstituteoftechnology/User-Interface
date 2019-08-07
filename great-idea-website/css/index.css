@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+footer{
+	text-align:center;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -62,5 +66,110 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+.contact{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	padding-left:20px;
+	padding-top:20px;
+	
+}
+.bttm-p1{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	padding-left:20px;
+	width: 29%;
+}
+.bttm-p2{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	width: 29%;
+	left: 2%;
+	
+}
+.bttm-p3{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	width: 29%;
+	left: 2%;
+}
+.middle-img{
+	position: relative;
+	padding-left: 20px;
+	bottom: 100px;
+}
+
+.paragraph1{
+	width: 300px;
+	position: relative;
+}
+.paragraph2{
+	width: 300px;
+	position: relative;
+	left: 400px;
+	bottom: 110px;
+}
+.top-section{
+	padding: 30px;
+	position: relative;
+	text-align: justify;
+}
+
+button{
+	position: relative;
+	width: 150px;
+	left: 110px;
+	bottom: 230px;
+}
+
+.img1{
+	padding-top: 90px;
+}
+.box1{
+	position: relative;
+	bottom: 230px;
+	box-sizing: content-box;
+	display:inline-block; 
+		font-size: 4rem;
+		padding-left: 80px;
+}
+.box2{
+	box-sizing: content-box;
+	padding-top:30px;
+	//background-color:red;
+	display: inline-block;
+	margin-bottom:3px;
+}
+.headline nav li{
+	width: 13%;
+		margin-top: 5px;
+		padding: 20px;
+		color: gray;
+		padding: 15px;
+		display: inline-block;
+		text-align: center;
+		//background-color:red;
+}
+.container .box { 
+	width:140px; 
+	display:table-row; 
+} 
+.container .box .box-row { 
+	display:table-row; 
+} 
+.container .box .box-cell { 
+	display:table-cell; 
+	width:45%; 
+	padding-right:20px; 
+} 
+.container .box .box-cell.box1 {
+	display: block;
+	text-align:center; 
+ } 
+.container .box .box-cell.box2 { 
+	text-align:justify 
+} 
