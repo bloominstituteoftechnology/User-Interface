@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+nav{
+	
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logo{
+	padding-left: 15px;
+	margin: auto;
+}
+header{
+	width: 40px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 50pt;	
+}
+
+.getStarted{
+	font-size: 15pt;
+	padding: 10px;
+	margin: 10px;
+	border: 2pt solid black;
+}
+
+.largeLogo{
+	
+}
