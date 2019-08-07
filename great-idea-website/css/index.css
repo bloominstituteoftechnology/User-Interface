@@ -55,7 +55,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +71,10 @@ nav a{
 	padding: 50px;
 	text-decoration: none;
 	color: grey;
+}
+/*Changes text blue when mouse hovers*/
+nav a:hover {
+	color: blue;
 }
 
 .logo {
@@ -157,4 +161,8 @@ nav a{
 
 .copyright {
 	text-align: center;
+}
+/*Changes images to background images*/
+img {
+	background-image: url("img/logo.png"), url("img/mid-page-accent.jpg");
 }
