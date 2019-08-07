@@ -185,7 +185,7 @@ section {
 }
 
 .top-container {
-  width: 60%;
+  width: 40%;
   /* border: 3px solid yellow; */
   border-bottom: 1px solid gray;
   padding: 30px;
@@ -237,7 +237,7 @@ h1 {
   border-bottom: 1px solid gray;
   padding: 30px;
   box-sizing: border-box;
-  width: 60%;
+  width: 40%;
   position: relative;
   display: block;
   margin: 0 auto;
