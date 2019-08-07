@@ -1,3 +1,10 @@
+/* Base styles */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
 /* Navigation styles */
 
 .nav__container {
@@ -38,4 +45,41 @@
     display: flex;
     align-items: center;
     margin-left: 10px;
+}
+
+/* Heading styles */
+
+.heading__inner-wrapper {
+    margin: 5rem auto;
+    position: relative;
+    vertical-align: middle;
+}
+
+.heading__inner-container {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.heading__inner-div {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 13rem;
+    font-size: 5rem;
+}
+
+.heading__inner-div2 {
+    display: inline-block;
+    margin-left: 10rem;
+}
+
+/* .heading__intro {
+    font-size: 10rem;
+} */
+
+.heading__btn {
+    font-family: 'Titillium Web', sans-serif;
+    border: none;
+    cursor: pointer;
 }
