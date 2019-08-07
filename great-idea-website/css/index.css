@@ -63,38 +63,106 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here
 * {
 	border: 1px solid grey !important;
  }
+*/
+
+p {
+text-align: left;
+}
 
  nav a, nav img {
 	display: inline-block;
 	width: 14%;/*I don't really know how to not hard-code this*/
 	text-align: center;
-	margin-bottom: 20px;
+	color: grey;
+
  }
 
 .headerContent{
 	display: inline-block;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+
+.big {
+	font-size: 85px;
 }
 
  .left {
-	width: 49%;
+	width: 45%;
 	float: left;
 	text-align: center;
-	font-size: 85px;
+	margin-left: 5%;
  }
 
  .right {
-	width: 49%;
+	width: 45%;
 	float: right;
+	text-align: center;
+	margin-right: 5%;
  }
 
  #snippetImg {
     display: block;
     margin-left: auto;
 	margin-right: auto 
+}
+
+.button {
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid;
+	border-color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.sectionTitle {
+	text-align: left;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 50px;
+}
+
+.thirdSize{
+	width: 30%;
+}
+
+.middle {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+.lineBreak {
+	width: 90%;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+address {
+padding: 40px;
+}
+
+.copyright{
+	margin-bottom: 15px;
+	display: block; 
+	text-align: center;
 }
