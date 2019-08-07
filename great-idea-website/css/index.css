@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-}
+
 body{
 	width: 900px;
 	margin: auto;
@@ -118,6 +118,7 @@ h1{
 	position: relative;
 	top: -300px;
 	border-top: 2px solid grey;
+	width: 900px;
 }
 .features{
 	position: relative;
@@ -150,6 +151,7 @@ h1{
 	top: -200px;
 	border-bottom: 2px solid grey;
 	padding-bottom: 50px;
+	width: 900px;
 }
 .services{
 	position: relative;
