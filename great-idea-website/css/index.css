@@ -72,21 +72,104 @@ h1, h2, h3, h4, h5 {
 .logo{
 	position: absolute;
 	top: 5%;
-	right: 10%;
+	right: 27%;
 }
 
 .speech1{
 	/*text-align: center;*/
 }
 
-nav{
-	display: block;
-	top: 5%;
-
+nav a{
+	text-decoration: none;
+	color: lightgray;
+	vertical-align: top;
+	margin: 10px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	top: 20px;
+	right: -13%;
+	width: 6%;
 }
 .circle{
-	right: -40%;
+	right: -34%;
 	top: 90%;
 	margin: 5%;
 }
-.speech1
+h1 {
+	text-align: center;
+	font-size: 80px;
+	position:absolute;
+	display: inline-block;
+	width: 100%;
+	padding: 70px 70px;
+	left: -19%;
+	top: 10%;
+
+
+
+}
+
+button{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	/*padding:10px 30px;*/
+	right: -25.5%;
+	bottom: 150px;
+	font-family:Verdana,sans-serif;
+	font-size: 100%;
+	width: 11%;
+	height: 5%;
+}
+
+.middle-img{
+	right: -14.5%;
+	width: 60%;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	right: -15%;
+
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+hr{
+	width: 60%;
+	right: 90px;
+}
+
+.column2 {
+	float: left;
+	width: 19%;
+	padding: 10px;
+	right: -15%;
+
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+h2{
+	right: -14.3%;
+	top:.7%;
+}
+ footer{
+	 text-align: center;
+	 right:31.2%;
+	 top: .9%;
+ }
+ a{
+	 right: -40%;
+	 top: -70%;
+ }
