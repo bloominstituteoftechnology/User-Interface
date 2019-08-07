@@ -102,7 +102,7 @@ header nav a:first-child{
 
 header nav .logo{
 	vertical-align:middle;
-	padding-right60px;
+	padding-right:60px;
 	margin-left:80px;
 }
 
@@ -146,18 +146,19 @@ section .hero-image{
 }
 /* top content */
 
-section.content-top{
-	width:100%
+.content-top{
+	width:100%;
+	display:inline-flex;
 }
 
 section div p{
 	text-align:justify;
-	line-height:2px;
+	
 }
 
 section.content-top div{
 	width:48%;
-	display:inline-block;
+	
 }
 
 section.content-top div:first-child{
@@ -173,21 +174,21 @@ section.content-bottom{
 	width:100%;
 	border-bottom:1px double black;
 	padding-bottom:30px;
+	display:inline-flex;
 }
-section.content-bottom div{
+.content-bottom div{
 	width:30%;
 	margin-right:22px;
-	display:inline-block;
+	
 }
 
 section.content-bottom div:last-child{
 	margin-right:40px;
 }
 
-section.content-bottom div p{
-	text-align:justify;
-	display:inline-block;
-}
+
+	
+
 
 /* footer */
 
