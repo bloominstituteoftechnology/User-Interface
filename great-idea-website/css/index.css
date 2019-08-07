@@ -74,8 +74,12 @@ body {
 }
 
 nav {
-	width: 100%;
-	height: 20%;
+	width: 880px;
+	height: 15%;
+	background-color: grey;
+	z-index: 999;
+	position: fixed;
+	
 }
 
 .nav p{
@@ -83,8 +87,9 @@ nav {
 	padding: 10px;
 	font-size: 12px;
 	text-align: center;
-	margin-left: 40px;
-	color: grey;
+	margin-left: 25px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
 
 }
 
@@ -101,6 +106,7 @@ header {
 	display: inline-block;
 	position: relative;
 	width: 800px;
+	margin-top: 150px;
 	
 }
 
@@ -146,7 +152,26 @@ h1 {
 	display: inline-block;
 	width: 48%;
 	margin-top: 50px;
-	
-
 }
 
+.middle-img {
+	margin-top: 40px;
+	width: 880px;
+}
+
+.bottom-content {
+	border-bottom: 2px solid black;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.content2 {
+	display: inline-block;
+	width: 33%;
+	margin-bottom: 60px;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
