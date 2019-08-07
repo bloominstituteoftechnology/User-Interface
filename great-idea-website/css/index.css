@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 
 header nav{
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 20px;
 	
 	
 }
@@ -84,11 +84,12 @@ header nav a{
 	margin: 0 25px;
 	text-decoration: none;
 	color: grey;
-	margin-left: 60
+	margin-left: 60;
 }
 
 .logo {
 	margin-left: 70px;
+	margin-top: 25px;
 	
 }
 
@@ -97,7 +98,7 @@ header nav a{
 	font-size: 70px;
 	position: absolute;
 	top: 23%;
-	left: 18%;
+	left: 23%;
 }
 
 .callToAction{
@@ -113,8 +114,8 @@ header nav a{
 
 .content{
 	margin-top: 430px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	padding: 30px 0px 30px 0px;
 }
 
@@ -133,4 +134,45 @@ button{
 
 
 }
+
+.featuresText{
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.aboutText{
+	width: 450px;
+	position: absolute;
+	left: 50%;
+	top: 68.5%;
+}
+
+.servicesText{
+	width: 280px;
+	margin-top: 30px;
+}
+
+.productText{
+	width: 280px;
+	position: absolute;
+	top:111.5%;
+	left:40%;
+}
+.visionText{
+	width: 280px;
+	position: absolute;
+	top:111.5%;
+	left: 60%;
+
+}
+
+.contact{
+	margin-top: 30px;
+}
+
+.footerText{
+	text-align: center;
+}
+
+
 
