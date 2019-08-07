@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 
 /* Your code starts here! */
 
@@ -75,16 +74,26 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 }
 
+header{
+	background-color: dodgerblue;
+	width:880px;
+	height: 80px;
+	position: fixed;
+	z-index: 20;
+	opacity: .8
+}
 nav {
 	display: inline-block;
+	margin-left: 40px;
 	height: 60px;
 	text-align: center;
+	
 }
 
 .logo {
 	right: 20px;
 	width: 20%;
-	padding-top: 28px;
+	padding-top: 24px;
 	position: absolute;
 }
 
@@ -94,7 +103,7 @@ a {
 	font-size: 14px;
 	text-decoration: none;
 	word-spacing: 20px;
-	color: rgb(151, 151, 151);
+	color:lightgray;
 	margin: 30px 52px 30px 0px;
 	top: 36px;
 	height: 30px;
@@ -109,7 +118,13 @@ a {
 
 .splashBox {
 	position: relative;
+	top: 20px;
 }
+
+h3{
+	font-family: 'Quintessential', cursive;
+	font-size: 2rem;
+ }
 
 .splashText {
 	display: inline-block;
