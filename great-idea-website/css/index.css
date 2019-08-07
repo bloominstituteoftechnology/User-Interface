@@ -64,26 +64,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	
+	width: 1000px;
+	margin: auto px;
+	padding: 1px;
+}
 
-.contact :hover {
-	text-align: left;
-	padding: 20px;
-	color: aquamarine
+nav {
+	display: inline;	
+	position: relative;
+	width: 100%;
+	padding-left: 15px;
+	margin-right: 6px;
+}
+nav a {
+	display: inline-block;
+	padding: 40px;
+	text-decoration: none;
+	color: lightgray;
+	margin-top:20px;
 }
 
 .innovation {
-	width: 100px;
-	font-size: 110px;
-	position: absolute;
-	top: 300px;
-	left: 100px;
-	padding: 10px;
-	
+	display: inline-block;
+	font-size: 5rem;
+	position: relative;;
+	text-align: center;
+	bottom: 100px;
+	left:175px;
+}
+.top-content{
+	display: inline-block;
+	left: 10px;
+	text-align: right;
+	display: inline-block;
+	margin-left: 15px; 
 }
  
 .bottom-content {
+	display: inline-block;
+	width: 100%;
 	text-align: left;
-	padding: 20px;
+	padding: 50px;
+	border-bottom: 2px solid black;
 }
 
 .services {
@@ -92,45 +116,55 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.top-content {
-	text-align: center;
-	padding: 20px;
-}
 
 .logo {
-	
-	position: absolute;
-	right: 100px;
-    top: 50px;
-    z-index: +4;
+	position: relative;
+	top: 10px;
+	left: 15px;
+	margin-left: px;
+
 }
 
 .top-image {
+	display: inline-block;
 	position: relative;
-	left: 300px;
-    top: 100px;
-	padding: 10px;
+	left: 125px;
+	
+	
+	
 }
 
 .middle-img {
-	padding:30px;
+
+	width: 100%;
 }
 
 .features {
-	position: relative;
-	padding-top: 10px;
-	margin-top: 10px;
+	width: 100%
+
 }
 
 
 body { 
-	background-color: coral;}
+	width: 1200px;
+}	
 
 header {
 	display :block;
 }	
 
-.button {
-	border-bottom-color: blue
+button {
+	display: inline-block;
+	position: relative;
+	width: 135px;
+	height: 25px;
+	bottom:70px;
+	right: 75px;
+
 }
 
+p{
+	display:inline-block;
+	width:100%;
+  }
+  
