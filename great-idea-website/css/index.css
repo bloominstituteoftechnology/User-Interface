@@ -80,15 +80,23 @@ nav a{
 	right: 250px;
 }
 
-.head span{
+.head h1{
 	display: inline-block;
 	position: relative;
+	padding-top: 160px;
+	margin-left: 200px;
 	left: 500px;
 }
 
-.code {
+.head p {
+	height: 90px;
+}
+
+
+.code1 {
 	display: inline-block;
-	margin-left: 50px;
+	position: relative;
+	left: 500px;
 
 }
 
@@ -99,6 +107,7 @@ nav a{
 	margin-left: 50px;
 	width: 770px;
 	height: 80px;
+	
 
 }
 
@@ -110,6 +119,8 @@ nav a{
 }
 
 .middle-img {
+	margin-top: 15px;
+	margin-bottom: 15px;
 	margin-left: 50px;
 	width: 90%;
 	margin-right: 43px;
