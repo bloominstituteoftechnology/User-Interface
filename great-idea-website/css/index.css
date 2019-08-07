@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	position:relative;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+a{
+text-decoration: none;
+color: grey; 
+margin-right: 100px;
+display:inline-block;
+vertical-align:top;
+margin-top:20px;	
+
+}
+
+.navigation{
+	position:relative;
+}
+
+.logo{
+	position:absolute;
+	top: 20px;
+	right: 50px;
+	
+}
+
+.IOD{
+	display:inline-block;
+	margin-left: 10%;
+	font-size:88px;
+	text-align:center;
+	font-weight:bold;
+	top:40px;
+	margin-top:80px;
+	
+	  
+
+}
+
+.GS{
+	top: -55px;
+	border:1px solid black;
+    background:white;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+
+}
+
+.img2{
+	top:40px;
+	right:-50%;
+	display:inline-block;
+	margin-top:80px;
+	
+}
+
+.content{
+border-top:1px solid black;
+border-bottom:1px solid black;
+margin-top: 153px;
+margin-bottom: 50px;
+}
+
+
+
+.paragraphtwocolumns{
+	display:inline-block;
+	width:49%;
+	margin-top:25px;
+	
+}
+
+.middle-img{
+	margin-left: auto;
+	margin-right: auto; 
+	width:50%; 
+	margin-top:25px;
+	margin-bottom:25px;
+	
+}
+
+.paragraphthreecolumns{
+	display:inline-block;
+	width:33%;
+	margin-bottom:25px;
+	
+}
+
+
+footer{
+	text-align:center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
