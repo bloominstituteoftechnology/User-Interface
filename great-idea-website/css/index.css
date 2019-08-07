@@ -104,7 +104,7 @@ nav a:hover {
 	display: inline-block;
 	position: relative;
 	left: 300px;
-	top: -70px;
+	top: -10px;
 
 }
 
@@ -147,7 +147,7 @@ nav a:hover {
 #product {
 	display: inline-block;
 	position: relative;
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-right: 200px;
 	width: 250px;
 	height: 80px;
