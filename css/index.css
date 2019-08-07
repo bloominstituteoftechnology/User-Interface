@@ -97,3 +97,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container  {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.greatnav{
+	padding:100px 10px 10px 30 px ;
+	border: 10px;
+	margin: 0 40px;
+	display: inline-block;
+	width: 70%;
+}
+.greatnav a{
+	padding:100px 50px 10px 30 px; 
+	border: 50px;
+	margin: 0 20px;
+	display: inline-block;
+
+}
+.logo{
+	display: inline;
+	position:relative;
+	padding:20px 10px 10px 30 px ;
+	border: 70px;
+}
+.logo div {
+	padding:20px 10px 10px 30 px ;
+	border: 70px;
+	margin-top: 70px;
+	position: relative;
+	
+
+}
+.greatlogo2 {
+	font-size: 75px;
+	font-weight: bold;
+	padding: 0px 0px 30px 80px;
+	/*margin:0 25px;*/
+	/*border:20px;*/
+	display: inline-block;
+	width: 45%;
+
+}
+.greatimage2{
+	display:inline-block;
+	padding: 100px 0px 20px 60px;
+	position: relative;
+	width: 50px;
+}
+
+
+.greatbutton{
+	font-size: 16px;
+	display:inline-block;
+	padding: 10px 20px 20px 20px;
+	border: 10 solid black;
+	margin: 20px;
+}
+
+.greatfeature{
+	padding: 20px 20px 20px 20px;
+	border: 20px;
+	margin: 20px;
+	
+}
+
+.features {
+	padding: 85px 80px 20px 60px;
+	display: inline-block;
+	position:relative;
+}
+.about{
+	padding: 85px 20px 20px 70px;
+	display: inline-block;
+	position:relative;
+}
+.greatimage img {
+	display:block;
+	padding: 100px 0px 20px 60px;
+	position: relative;
+	width: 50px;
+}
+.greatservices{
+	/*padding: 20px 20px 20px 20px;*/
+	border: 20px;
+	margin: 20px;
+}
+.services{
+	display: inline-block;
+	position:relative;
+	
+}
+.products{
+	display: inline-block;
+	position: relative;
+}
+.vision {
+	display: inline-block;
+	position: relative;
+}
+ .contact address{
+	 line-height: 1.5;
+ }
+.copyright{
+	text-align: center;
+}
