@@ -62,21 +62,53 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
-#section2{
-	display: inline-block;
-	border-radius: 10px;
-	background: #BADA55;
-	border: 30px solid #BADA55;
+.middle-img{
+	position: relative;
+	padding-left: 20px;
+	bottom: 100px;
 }
-.p1{
+
+.paragraph1{
+	width: 300px;
+	position: relative;
+}
+.paragraph2{
+	width: 300px;
+	position: relative;
+	left: 400px;
+	bottom: 110px;
+}
+.top-section{
+	padding: 30px;
+	position: relative;
+	text-align: justify;
+}
+
+button{
+	position: relative;
+	width: 150px;
+	left: 110px;
+	bottom: 230px;
+}
+
+.img1{
+	padding-top: 90px;
+}
+.box1{
+	position: relative;
+	bottom: 230px;
+	box-sizing: content-box;
+	display:inline-block; 
 		font-size: 4rem;
-		padding-left: 150px;
-		margin-top: 41px;
-		text-align: center;
-		width: 30%;
-	
+		padding-left: 80px;
+}
+.box2{
+	box-sizing: content-box;
+	padding-top:30px;
+	//background-color:red;
+	display: inline-block;
+	margin-bottom:3px;
 }
 .headline nav li{
 	width: 13%;
@@ -88,4 +120,22 @@ h1, h2, h3, h4, h5 {
 		text-align: center;
 		//background-color:red;
 }
- 
+.container .box { 
+	width:140px; 
+	display:table-row; 
+} 
+.container .box .box-row { 
+	display:table-row; 
+} 
+.container .box .box-cell { 
+	display:table-cell; 
+	width:45%; 
+	padding-right:20px; 
+} 
+.container .box .box-cell.box1 {
+	display: block;
+	text-align:center; 
+ } 
+.container .box .box-cell.box2 { 
+	text-align:justify 
+} 
