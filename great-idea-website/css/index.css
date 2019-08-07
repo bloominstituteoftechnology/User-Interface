@@ -87,13 +87,13 @@ nav a:hover {
 .head h1{
 	display: inline-block;
 	position: relative;
-	padding-top: 160px;
+	padding-top: 150px;
 	margin-left: 200px;
-	left: 500px;
+	left: 200px;
 }
 
 .head p {
-	height: 90px;
+	height: 150px;
 	text-align: center;
 }
 
@@ -101,7 +101,8 @@ nav a:hover {
 .code1 {
 	display: inline-block;
 	position: relative;
-	left: 500px;
+	left: 300px;
+	top: -70px;
 
 }
 
@@ -162,6 +163,7 @@ nav a:hover {
 
 .copyright {
 	text-align: center;
+	margin-bottom: 30px;
 }
 /*Changes images to background images*/
 img {
