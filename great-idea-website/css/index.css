@@ -65,101 +65,129 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header{
+padding-bottom:60px;
+border-bottom: 3px solid lightslategray;
+}
 .header .nav{
 height: 80px;
 width: 100%;
-background-color: aqua;
-
+background-color: rgb(146, 156, 156);
 display: inline-block;
+padding-bottom:50px; 
 position: fixed;
-padding-bottom: 40px;
+z-index:2;
 }
 
-header{
-padding-bottom: 50px;
+.nav a {
+	text-decoration:none;
+	padding-top: 35px;
+	padding-left: 30px;
+	padding-right:30px;
+	margin: 30;
+	border: 20px;
+    display: inline-block;
+	position: relative;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .slogan{
 	left:200px;
-	top:200px;
+	top:240px;
 	position: relative;
+	font-size: 60px;
+	width:45%
+	font-family:
 }
 
 body > header > img.logo{
-
 display: inline-block;
 top: 19px;
-position:relative; 
+position: fixed; 
 left: 850px;
-}
-
-.nav a {
-
-	
-	text-decoration:none;
-	padding: 30px;
-	margin: 30;
-	border: 20px;
-display: inline-block;
-position: relative
-
-
-}
-.code
-{
- position: relative;
- left:550px;
-
-}
-.middle-img{
-	width: 95%;
-    padding-left:55px ;
-
+z-index: 3;
 }
 
 .button{
 	display: inline-block;
-	left:200px;
+	left:240px;
+	position: relative;
+	height: 25px;
+	width: 160px;
+	background-color: white;
+	color: black;
+	border: 1px black solid;
+	top:-40px;
 }
+
+.code
+{
+ position: relative;
+ left:500px;
+ 
+
+}
+.middle-img{
+	width: 100%;
+    right:30px;
+	
+}
+
+div p {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
 
 .features{
 	width: 49%;
 	display: inline-block;
+	padding-bottom: 
 }
 
 .about{
 	width: 49%;
 	display: inline-block;
+	padding-bottom:60px 
 }
 
 .services{
 	display: inline-block;
 	width: 32%;
+	padding-top: 40px;
 }
  
 .product{
 
 display: inline-block;
 width:32%;
+padding-top: 40px;
 }
 
 .vision{
 	display: inline-block;
-    width:32%;
+	width:32%;
+	padding-top: 40px;
 }
 
 div{
 	padding:10px 5px;
-	/* margin:12px;
-	display: inline-block; */
+	
 	
 }
 .footer{
 padding-top: 10px;
-
+border-top:3px solid lightslategray
 }
 
 .footer div p {
-	padding-top: 3px;
+	padding-top: 6px;
+	margin-left: 30px;
     
+}
+.copyright{
+	text-align: center;
+	/* display: inline-block; */
+	left:205px;
+	height: 20px;
+	
 }
