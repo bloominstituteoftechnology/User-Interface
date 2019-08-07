@@ -114,14 +114,11 @@ margin-bottom: 6%;
 	border-top: 1px solid black;
 	font-size: 1.5em;
 	margin-right: 0%;
-	width: 35%;
+	max-width: 35%;
 }
-.middle-img{
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
+/* .middle-img{
+ 
+} */
 
 .textTwo{
 	border-bottom: 1px solid black;
