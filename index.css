@@ -67,88 +67,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 75%; 
+	margin: auto; 
+
+}
+
+/*header elements*/
 
 nav{
 	display:inline; 
+	
+}
+
+nav a {
+	text-decoration: none; 	
 	color: lightgray; 
-}
-.container header nav a{	
-	margin: 0 20px; 
-	text-decoration: none; 
-	color: lightgrey; 
-
-	
-}
-.container h1 {
-	size: 130px; 
-}
-
-.section{ 
-	border-bottom:1px solid black;
-	padding: 20px; 
+	font-size: 18px; 
 	margin: 20px; 
- display:inline-block; 
 
 }
-.section div.paragraph {
-	display:inline-block; 
-	margin: auto; 
-	width: 40%;  
-	
-}
-.headerimg {
-	float:right; 
-	vertical-align: top; 
-	width: 100%; 
+
+h1{
+	font-size: 100px; 
 }
 
-.section div.paragraph2{
-	display:inline-block; 
-	margin: auto; 
-	width: 32%; 
-}
-
-header div {
-	text-align: center; 
+header div{
 	display: inline-block; 
 	width: 40%; 
-	margin: auto; 
+	position: relative; 
+	text-align: center; 
+	margin: 40px; 
 }
-
-
-.container{
-	width: 75%; 
-	margin: 0 auto; 
+/* header images*/
+.logo{
+	padding: 0px 20px; 
 }
-
-
-.logo .headerimg{
-	float:right; 
-	margin: 0; 
+.headerimg{
+	float: right; 
+	vertical-align: top; 
 }
-
-
-.h1{
-	font-size:90px; 
+div.h1{
+	text-align:center; 
+}
+button{
+	background: white; 
+	border: 1px solid black; 
+	padding: 10px 50px; 
 	
 }
 
-button {
-	background: white; 
-	border: 1px solid black; 
-	padding:6px 40px; 
-	color: black; 
-}
-
-button a {
+button a{
 	text-decoration: none; 
+	color:black; 
 }
 
-.middle-img {
+
+/*sections*/
+.section {
+	padding: 50px 0px;
+
+}
+
+.border-bottom{
+	border-bottom: 1px solid black; 
+}
+
+.paragraphs2 div.paragraph{
+	width: 45%; 
+	display:inline-block; 
+	margin: auto; 
+}
+
+.paragraphs3 div.paragraph{
+	display:inline-block; 
+	margin: auto; 
+	width: 30%; 
+}
+
+.contacts{
+	padding: 20px 0px; 
+}
+
+
+
+.middle-img{
 	width: 100%; 
 }
 
 footer{
-	margin-top: 20px; 
+	padding: 30px;  
 	text-align: center; 
 }
