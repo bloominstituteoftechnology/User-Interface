@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	background: brown;
+	margin: 30px;
+}
+
+header nav {
+	display:inline-block;
+	margin-right: 30px;
+	padding-bottom: 40px;
+}
+
+header .logo {
+	padding-top: 30px;
+}
+
+
+
+.mainTitle {
+	background: yellow;
+	margin: 30px;
+	padding: 25px;
+}
+
+.mainTitle div {
+	display:inline-block;
+}
+
+.mainTitle h1 {
+	margin-bottom: 200px
+}
+
+.mainTitle #picPic {
+	height: 100px;
+	width: 100px;
+}
+
+
+
+.topContent{
+	background: pink;
+	margin: 30px;
+}
+
+.topContent .features {
+	display: inline-block;
+}
+
+.topContent .about {
+	
+}
+
+
+#mainImage {
+	margin: 30px;
+}
+
+
+
+.bottomContent {
+	margin: 30px;
+	background-color: grey;
+}
+
+.contact {
+	margin: 30px;
+}
+
+.contact p {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.titleOfContent {
+	font-weight:bold;
+	padding-bottom: 10px;
+}
+
+
