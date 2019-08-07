@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+{
+    margin-bottom: 15px;   
+}
+	
+{
+	margin: 0 auto;
+}
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+#navbar {
+width: 100%;
+}
+.navigation a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: lightslategray;
+}
+.navigation{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15%;
+	margin-right:15%
+}
+
+ #navbar {
+	vertical-align: middle;
+	background-color: none;
+	position: fixed;
+	top: 0;
+	right:0;
+	left:0;
+	bottom:0;
+	height: 45px;
+	margin: 0 auto;
+	
+}
+#navlogo {
+display: inline-block;
+vertical-align: middle;
+margin-left: 20%;
+}
+
+#info {
+margin-top: 75px;
+margin-bottom: 20px;
+}
+#innovate {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 49%;
+}
+
+ #title {
+	text-align: center;
+	font-size: 70px;
+}
+
+ #button1{
+	border-radius: 10px;
+	height: 35px;
+	width: 100px;
+}
+#button1:hover {
+	color: rgb(100, 128, 0);
+	background-color: white;
+}
+#innovateimg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 49%;
+}
+
+
+ .upper-wrapper{
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+#feat, #about {
+	display: inline-block;
+	width: 47%;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+ .middle-img {
+	text-align: center;
+	width: 100%;
+}
+
+ .lower-wrapper{
+width: 100%;
+vertical-align: middle;
+text-align: left;
+}
+#services, #product, #vison{
+	display: inline-block;
+	width: 32%;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+
+ #Copyright{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+} 
