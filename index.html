@@ -1,5 +1,25 @@
 <!doctype html>
 
+
+<!--
+  TODO:
+    [x] Create a container for all element with a class called "container"
+    [x] Set the container width to 75%, margin: 0 auto
+    [x] Wrap nav and h1 in header
+    [X] Wrap Each group in sections: 1.(header, button, roundImage), 2.(features, about), 3.(services, product, vision)
+    [x] Make each section apart of the "section class"
+    [x] Section class:  padding: 20px 0px;
+    [x] Make section 1 and 3 apart of "border" class then assign css properties: border-bottom: 1px solid black,
+    [x] Section 2 apart of two class: width: 40%; display:inline-block; 
+    [x] Make section 3 apart of three class width: 30%; display:inline-block;
+    [x] Make h1 font-size: 100px; 
+    [x] button: background: white; color: black; border 1px solid black; padding: 10px 50px; 
+    [x] wrap h1 and button in a div. img in another 
+    [x] Make div image float right
+    [x] Make div text alignment
+    [x] Center footer and give padding 30px; 
+    [x] Wrap links in nav color: light-grey, display:inlineblock
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,7 +27,7 @@
   <title>Great Idea!</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="index.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,7 +36,7 @@
 
   <body>
 <div class="container">
-  <section class="section">
+  <section class="section border-bottom">
 
   <header>
   <nav>
@@ -27,7 +47,7 @@
     <a href="#">About</a>
     <a href="#">Contact</a>
   </nav>
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+  <img class="logo" src="great-idea-website\img\logo.png" alt="Great Idea! Company logo.">
  <div> <h1 class="h1">
   Innovation
   On
@@ -36,7 +56,7 @@
 <button>
   <a href="#">Get Started</a></button></div>
 <div>
-  <img class="headerimg" src="img/header-img.png" alt="Image of a code snippet.">
+  <img class="headerimg" src="great-idea-website\img\header-img.png" alt="Image of a code snippet.">
 </div>
   
 
@@ -44,7 +64,7 @@
 </header>
 
 </section>
-<section class="section">
+<section class="section paragraphs2">
   <div class="paragraph">
     <h2>Features</h2>
     <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
@@ -55,32 +75,36 @@
 </div>
 </section>
 
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+  <img class="middle-img" src="great-idea-website\img\mid-page-accent.jpg" alt="Image of code snippets across the screen">
 
-  <section class="section">
-    <div class="paragraph2">
+  <section class="section paragraphs3 border-bottom">
+    <div class="paragraph">
   <h2>Services</h2>
   <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
   </div>
   
-  <div class="paragraph2">
+  <div class="paragraph">
   <h2>Product</h2>
   <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
   </div>
 
-  <div class="paragraph2">
+  <div class="paragraph">
   <h2>Vision</h2>
   <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
   </div>
 </section>
 
-
+<section class="contacts">
   <h2>Contact</h2>
+  <address>
   <p>123 Way 456 Street</p>
   <p>Somewhere, USA</p>
+  </br>
   <p>1 (888) 888-8888</p>
+  </br>
   <p>sales@greatidea.io</p>
-
+</address>
+</section>
 <footer>
   Copyright Great Idea! 2018
   </footer>
