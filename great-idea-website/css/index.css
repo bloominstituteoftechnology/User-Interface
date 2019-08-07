@@ -64,3 +64,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	background-color:white;
+}
+.container{
+	width:880px;
+	margin:0 auto;
+	padding:40px;
+}
+
+a{
+	color:gray;
+	text-decoration:none;
+}
+
+/*header*/
+
+header{
+	widows: 100%;
+	text-align:right;
+	margin-bottom:50px;
+}
+
+header nav{
+	display:inline-block;
+}
+
+header nav a{
+	display:inline-block;
+	margin:25px;
+}
+
+header nav a:first-child{
+	margin-left:20px;
+}
+
+header nav .logo{
+	vertical-align:middle;
+	padding-right60px;
+	margin-left:80px;
+}
+
+section{
+	margin:24px 0;
+	
+}
+
+/* Innovation */
+
+section.section-banner{
+	border-bottom:1px double black;
+	padding-bottom:50px;
+}
+
+section div.innovation{
+	width:50%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+	height:100%;
+	padding:40px;
+	margin-right:70px;
+}
+
+div.innovation h1 span{
+	font-size:60px;
+	display:block;
+}
+
+div.innovation button{
+	width:160px;
+	padding:4px;
+}
+
+section .hero-image{
+	width:35%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+
