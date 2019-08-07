@@ -191,6 +191,7 @@ h1 {
 
 .shop {
 	display: inline-block;
+	margin-bottom: 40px;
 }
 
 .shop .shopItem {
@@ -205,8 +206,4 @@ h1 {
 .shop .shopItem img {
 	width: 300px;
 	height: 150px;
-}
-
-footer2 {
-	margin-top: 100px;
 }
