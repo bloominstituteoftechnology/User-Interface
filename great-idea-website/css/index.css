@@ -1,66 +1,252 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+.container {
+    width: 950px;
+    margin: auto;
+}
+
+header nav {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+header img.logo {
+    margin-left: 140px;
+}
+
+header nav a {
+    margin: 0 20px;
+}
+
+.company.logo {
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.company.logo #text {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 10%;
+    height: 30%;
+    width: 30%;
+    margin: 0 0 0 5%;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    width: 150px;
+    color: black;
+    background: white;
+    margin: 20px 0px;
+    border: 1px solid black;
+}
+
+.top.main {
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.middle-img {
+    align: center;
+    width: 100%;
+}
+
+.bottom.main {
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+hr {
+    margin-top: 50px;
+    border-top: .5px solid black;
+}
+
+.contact {
+    padding: 20px 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 40px;
+}
