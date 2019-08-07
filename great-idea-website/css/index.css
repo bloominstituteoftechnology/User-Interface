@@ -91,10 +91,7 @@ width: 100%;
 	position: fixed;
 	height: 45px;
 	margin: 0 auto;
-	top: 0;
-	right:0;
-	left:0;
-	bottom:0;
+	top: 0; left: 0; bottom: 0; right: 0;
 }
 #navlogo {
 display: inline-block;
