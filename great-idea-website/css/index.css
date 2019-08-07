@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	max-width:100%;
+	box-sizing:border-box;
+	/* margin:3px auto; */
+}
+
+.navigation {	
+	display:block;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:10px;	
+}
+
+.nav a{
+	text-decoration:none;		
+}
+a{
+	text-decoration:none;
+	color:grey;
+	padding:10px;
+	margin:30px;
+	box-sizing:border-box;
+	
+}
+.logo{
+	display:inline-block;
+	vertical-align: top;
+	margin-right:20px;
+	padding-left:150px;
+}
+
+header {
+	width:100%;
+	text-align:center;
+	margin-top:25px;
+	
+}
+
+h1{
+	font-size:80px;
+	display:inline-block;
+	margin-right:50px;;
+	position:relative;
+	padding-bottom:60px;
+	margin-bottom:30px;
+	
+}
+
+.button{
+	border:1px solid black;
+	padding:5px 25px 5px 25px;
+	margin-bottom:30px;
+}
+
+
+
+.top-content{
+	width:90%;
+	margin:20px;
+	display:table;
+	border-top:1px solid black;
+	padding-top:60px;
+}
+
+.box1{
+	display:inline-block;
+	width: 48%;
+	margin:0 20px 0 0;
+	
+}
+
+.box2{
+	display:inline-block;
+	width:48%;	
+}
+
+.middle-img{
+	margin: 10px;
+	display:inline-block;
+	width:90%;
+	
+}
+
+.bottom-content{
+	width:90%;
+	margin:20px;
+	display:table;
+	padding-bottom:60px;
+	border-bottom:1px solid black;
+	
+}
+
+.box3{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;
+	
+}
+
+.box4{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;	
+}
+
+.box5{
+	display:inline-block;
+	width: 30.5%;
+	margin:0 20px 0 0;
+}
+
+.contact{
+	width:10%;
+	margin:20px;
+	padding-top:15px;
+}
+
+footer{
+	box-sizing:border-box;
+	text-align:center;
+	margin-bottom:50px;
+}
