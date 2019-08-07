@@ -68,17 +68,17 @@ h1, h2, h3, h4, h5 {
 *{
 	max-width:100%;
 	box-sizing:border-box;
+	/* margin:3px auto; */
 }
 
 .navigation {	
+	display:block;
 	position:relative;
 	margin-top:15px;
-
-	
+	margin-bottom:10px;	
 }
 
 .nav a{
-	display:inline-block;
 	text-decoration:none;		
 }
 a{
@@ -94,49 +94,39 @@ a{
 	vertical-align: top;
 	margin-right:20px;
 	padding-left:150px;
-	/* position:absolute;
-	right:0px;
-	width:300px;
-	border:1px solid black;
-	padding:10px; */
 }
 
-header{
-	width:98%;
+header {
+	width:100%;
 	text-align:center;
-	border-bottom:1px solid black;
 	margin-top:25px;
-	/* position:relative;
-	box-sizing:border-box;
-	margin:10px; */
+	
 }
+
 h1{
-	font-size:50px;
+	font-size:80px;
 	display:inline-block;
-	margin-right:25%;
+	margin-right:50px;;
 	position:relative;
+	padding-bottom:60px;
+	margin-bottom:30px;
+	
 }
 
 .button{
 	border:1px solid black;
+	padding:5px 25px 5px 25px;
+	margin-bottom:30px;
 }
 
-.cirlceImg{
-	/* padding:20px;
-	margin:10px 0 0px 20px;
-	display:inline-block; */
-	position:relative;
-	/* display:inline; */
-	right:0px;
-	width:300px;
-	padding:10px;
-	margin-top:10px;
-}
+
 
 .top-content{
-	width:100%;
+	width:90%;
 	margin:20px;
 	display:table;
+	border-top:1px solid black;
+	padding-top:60px;
 }
 
 .box1{
@@ -154,14 +144,17 @@ h1{
 .middle-img{
 	margin: 10px;
 	display:inline-block;
-	width:98%;
+	width:90%;
 	
 }
 
 .bottom-content{
-	width:100%;
+	width:90%;
 	margin:20px;
 	display:table;
+	padding-bottom:60px;
+	border-bottom:1px solid black;
+	
 }
 
 .box3{
@@ -174,8 +167,7 @@ h1{
 .box4{
 	display:inline-block;
 	width: 30.5%;
-	margin:0 20px 0 0;
-	
+	margin:0 20px 0 0;	
 }
 
 .box5{
@@ -187,8 +179,11 @@ h1{
 .contact{
 	width:10%;
 	margin:20px;
+	padding-top:15px;
 }
 
 footer{
+	box-sizing:border-box;
 	text-align:center;
+	margin-bottom:50px;
 }
