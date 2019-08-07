@@ -92,11 +92,16 @@ footer .copyright {
 .header {
 	display: inline-block;
 	width: 45%;
-	
+	margin:1% auto;
 }
 
 nav{
 	position: absolute;
 	margin-left: 20px;
+	margin: 1% auto;
+	width: 400px;
 }
 
+nav a {
+	margin: 0 1%;
+}
