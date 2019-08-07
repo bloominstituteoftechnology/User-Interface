@@ -86,7 +86,7 @@ width: 100%;
 }
 
  #navbar {
-	 
+
 	vertical-align: baseline;
 	background-color: none;
 	position: fixed;
@@ -94,6 +94,19 @@ width: 100%;
 	margin: 0 auto;
 	top: 0; left: 0; bottom: 0; right: 0;
 }
+/*The vertical-align CSS property sets
+ vertical alignment of an
+  inline or table-cell box.
+https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+
+Setting top: 0; left: 0; bottom: 0; right: 0;
+ gives the browser a new bounding box
+  for the block. At this point the block 
+  will fill all available space in 
+  its offset parent, which is 
+  the body or position:
+   relative; container.*/
+
 #navlogo {
 display: inline-block;
 vertical-align: middle;
@@ -109,12 +122,10 @@ margin-bottom: 20px;
 	text-align: center;
 	vertical-align: middle;
 	width: 49%;
-}
-
- #title {
-	text-align: center;
 	font-size: 70px;
 }
+
+
 
  #button1{
 	border-radius: 10px;
