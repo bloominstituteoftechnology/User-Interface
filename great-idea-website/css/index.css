@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+}
+body{
+	width: 900px;
+	margin: auto;
+}
+/* styling links*/
+a{
+	display: inline-block;
+	width: 95px;
+	color: grey;
+	text-decoration: none;
+	text-align: left;
+}
+.logo{
+	position: relative;
+	right: -100px;
+	top: 15px;
+}
+header{
+	width:
+}
+
+h1{
+	position: relative;
+	right: -30px;
+	top: 100px;
+	width:350px;
+	height:400px;
+	font-size: 75px;
+	text-align: center;
+	padding: 50px;
+}
+
+
+.button{
+	width:150px;
+	height:40px;
+	text-align: center;
+	position: relative;
+	right: -120px;
+	border: 1px solid black;
+	padding-top: 10px;
+}
+.photo{
+	position: relative;
+	right: -500px;
+	top: -380px;
+}
+.top{
+	position: relative;
+	top: -300px;
+	border-top: 2px solid grey;
+}
+.features{
+	position: relative;
+	display: inline-block;
+	width: 450px;
+	padding-top: 50px;
+}
+.features p{
+	display: inline-block;
+	width: 450px;
+}
+.about{
+	position: relative;
+	display: inline-block;
+	right: -40px;
+	width: 400px;
+	padding-top: 50px;
+}
+.about p{
+	display: inline-block;
+	width: 400px;
+}
+.middle-img{
+	position: relative;
+	top: -250px;
+}
+
+.bottom{
+	position: relative;
+	top: -200px;
+	border-bottom: 2px solid grey;
+	padding-bottom: 50px;
+}
+.services{
+	position: relative;
+	display: inline-block;
+	width: 295px;
+}
+.services p{
+	position: relative;
+	width:295px;
+}
+.product{
+	position: relative;
+	display: inline-block;
+	width: 295px;
+}
+.product p{
+	position: relative;
+	width: 295px;
+}
+.vision{
+	position: relative;
+	display: inline-block;
+	width: 295px;	
+}
+.vision p{
+	position: relative;
+	width: 295px;
+}
+.contact{
+	position: relative;
+	top: -100px;
+	width: 300px;
+	height: 200px;
+}
+footer{
+	position: relative;
+	top: -100px;
+}
+
+span{
+	position: relative;
+	width: 200px;
+	right: -375px;
+}
