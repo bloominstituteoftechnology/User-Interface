@@ -70,23 +70,9 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	width: 1000px;
 }
-#navbar {
-width: 100%;
-}
-.navigation a {
-	padding-left: 20px;
-	text-decoration: none;
-	color: lightslategray;
-}
-.navigation{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 15%;
-	margin-right:15%
-}
 
  #navbar {
-
+	width: 100%;
 	vertical-align: baseline;
 	background-color: none;
 	position: fixed;
@@ -106,6 +92,19 @@ Setting top: 0; left: 0; bottom: 0; right: 0;
   its offset parent, which is 
   the body or position:
    relative; container.*/
+
+   .navigation a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: lightslategray;
+}
+.navigation{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15%;
+	margin-right:15%
+}
+
 
 #navlogo {
 display: inline-block;
