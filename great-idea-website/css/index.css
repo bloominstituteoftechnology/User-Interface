@@ -144,4 +144,51 @@ section .hero-image{
 	text-align:center;
 	vertical-align:middle;
 }
+/* top content */
+
+section.content-top{
+	width:100%
+}
+
+section div p{
+	text-align:justify;
+	line-height:2px;
+}
+
+section.content-top div{
+	width:48%;
+	display:inline-block;
+}
+
+section.content-top div:first-child{
+	margin-right:40px;
+}
+
+.middle-img{
+	width:100%;
+}
+
+/* bottom content */
+section.content-bottom{
+	width:100%;
+	border-bottom:1px double black;
+	padding-bottom:30px;
+}
+section.content-bottom div{
+	width:30%;
+	margin-right:22px;
+	display:inline-block;
+}
+
+section.content-bottom div:last-child{
+	margin-right:40px;
+}
+
+section.content-bottom div p{
+	text-align:justify;
+	display:inline-block;
+}
+
+/* footer */
+
 
