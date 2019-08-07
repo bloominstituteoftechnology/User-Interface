@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+footer{
+	text-align:center;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -63,6 +67,36 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* Your code starts here! */
+.contact{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	padding-left:20px;
+	padding-top:20px;
+	
+}
+.bttm-p1{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	padding-left:20px;
+	width: 29%;
+}
+.bttm-p2{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	width: 29%;
+	left: 2%;
+	
+}
+.bttm-p3{
+	position: relative;
+	box-sizing: content-box;
+	display:inline-block;
+	width: 29%;
+	left: 2%;
+}
 .middle-img{
 	position: relative;
 	padding-left: 20px;
