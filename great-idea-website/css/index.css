@@ -63,4 +63,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+header{
+	background-color: dodgerblue;
+	width:880px;
+	height: 80px;
+	position: fixed;
+	z-index: 20;
+	opacity: .8
+}
+nav {
+	display: inline-block;
+	margin-left: 40px;
+	height: 60px;
+	text-align: center;
+	
+}
+
+.logo {
+	right: 20px;
+	width: 20%;
+	padding-top: 24px;
+	position: absolute;
+}
+
+a {	
+	position: relative;
+	font-weight: 300;
+	font-size: 14px;
+	text-decoration: none;
+	word-spacing: 20px;
+	color:lightgray;
+	margin: 30px 52px 30px 0px;
+	top: 36px;
+	height: 30px;
+}
+
+
+.headerIMG {
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+
+.splashBox {
+	position: relative;
+	top: 20px;
+}
+
+h3{
+	font-family: 'Quintessential', cursive;
+	font-size: 2rem;
+ }
+
+.splashText {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 80px;
+	margin: 130px 0px 55px 0px;
+	text-align: center;
+	padding: 0px 80px;
+	width: 55%;
+	position: relative;
+}
+
+button.getStarted {
+	background: white;
+  vertical-align: top;
+  margin-top: -15px;
+  padding: 10px 45px;
+  font-size: 14px;
+  border: 1px solid black;
+	cursor: pointer;
+}
+
+.features, .about {
+	display: inline-block;
+  width: 49%;
+  padding: 15px 0;
+	line-height: 17px;
+}
+
+.services, .vision, .product {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.contact-section address {
+	padding: 25px 0px 0px 0px;	
+}
+
+footer {
+	line-height: 100px;
+	display: inline-block;
+	margin-left: 40%;
+}
+
+
+
