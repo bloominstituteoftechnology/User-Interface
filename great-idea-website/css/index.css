@@ -64,22 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 975px;
+	margin: 0 auto;
+	padding: 10px 50px;
+}
 
 nav a {
 	text-decoration: none;
 	color: lightgray; 
 	vertical-align: top;
-	margin: 50px;
+	margin: 5px;
 	vertical-align: top;
 	display: inline-block;
+	text-align: center;
+	padding: 40px;
 
 }
 
 .logo {
-	display: inline-block; 
-	vertical-align: top;
-	margin-right: 20px;
-	padding-left: 100px;
+	display: inline;
+	vertical-align: middle;
+	padding: 10px;
 }
 
 h1 {
@@ -99,6 +109,27 @@ h1 {
 	display: block; 
 }
 
-.headerImg {
-	vertical-align: center;
+h2 {
+	font-size: 25px;
 }
+
+.headerImage {
+	margin-left: 70px;
+}
+
+.topsection {
+	display: inline-block; 
+	width: 100%;
+	vertical-align: middle;
+}
+
+.topsection-text {
+	display: inline-block; 
+	text-align: center; 
+}
+
+header {
+	margin-left: 400px;
+	vertical-align: middle; 
+}
+
