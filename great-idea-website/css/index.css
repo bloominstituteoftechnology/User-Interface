@@ -64,3 +64,29 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	position: relative;
+}
+
+.logo{
+	position: absolute;
+	top: 5%;
+	right: 10%;
+}
+
+.speech1{
+	/*text-align: center;*/
+}
+
+nav{
+	display: block;
+	top: 5%;
+
+}
+.circle{
+	right: -40%;
+	top: 90%;
+	margin: 5%;
+}
+.speech1
