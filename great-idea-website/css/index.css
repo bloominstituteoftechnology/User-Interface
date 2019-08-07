@@ -64,12 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-{
+
+
+ {
+	
     margin-bottom: 15px;   
 }
+
+
 	
-{
+ {
 	margin: 0 auto;
+	
 }
 .container {
 	margin: 0 auto;
@@ -91,11 +97,7 @@ width: 100%;
  #navbar {
 	border: 1px solid rgb(12, 12, 12);
 	vertical-align: middle;
-<<<<<<< HEAD
 	background-color: plum;
-=======
-	background-color:rgb(0, 217, 255);
->>>>>>> 8a5d32b498389c59097451c006b11c972580492e
 	position: fixed;
 	top: 0;
 	right:0;
@@ -109,13 +111,10 @@ display: inline-block;
 vertical-align: middle;
 margin-left: 20%;
 }
-.logo{
-<<<<<<< HEAD
 
-=======
-    dispaly: inline-block;
->>>>>>> 8a5d32b498389c59097451c006b11c972580492e
- }
+.logo {
+	 display: inline-block;
+}
 
 
  #call-to-action {
@@ -139,13 +138,8 @@ margin-bottom: 20px;
 	height: 35px;
 }
 #square:hover {
-<<<<<<< HEAD
 	color: purple;
 	background-color: white;
-=======
-	color: red;
-	background-color:blueviolet;
->>>>>>> 8a5d32b498389c59097451c006b11c972580492e
 }
 #innovateimg{
 	display: inline-block;
