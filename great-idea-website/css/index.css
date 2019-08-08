@@ -100,11 +100,16 @@ body>hr {
 
 .div-content__container-top {
     width: 45%;
-    margin-left: 5rem;
+    margin-left: 8rem;
     text-align: left;
 }
 
 .div-content__container-bottom {
     width: 25%;
-    margin-left: 5rem;
+    margin-left: 8rem;
+}
+
+.middle-img {
+    margin: 2rem 0 2rem 25rem;
+    max-width: 100%;
 }
