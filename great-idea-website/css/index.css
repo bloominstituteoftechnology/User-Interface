@@ -5,81 +5,90 @@ html {
     box-sizing: border-box;
 }
 
+body>hr {
+    width: 92%;
+}
+
 /* Navigation styles */
 
-.nav__container {
-    display: flex;
+.nav__list-items>li,
+.nav__list-items {
+    display: inline-block;
 }
 
 .nav__list {
-    width: 75%;
-    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.nav__list-item {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+.nav__list-items {
+    vertical-align: text-bottom;
+    font-size: 1.5rem;
+    margin-left: 20%;
 }
 
-.nav__list-item>li>a {
+.nav__list-items>img {
+    display: inline-block;
+}
+
+.nav__list-items>li>a {
     text-decoration: none;
     color: grey;
 }
 
-.nav__list-item>li {
+.nav__list-items>li {
     padding: 15px;
+    margin-right: 2rem;
 }
 
-.nav__list-item>li:hover {
+.nav__list-items>li:hover {
     background: black;
     transition: 2s;
 }
 
-.nav__list-item>li a:hover {
+.nav__list-items>li a:hover {
     color: aqua;
     transition: 2s;
 }
 
-.nav__logo {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-
 /* Heading styles */
 
-.heading__inner-wrapper {
-    margin: 5rem auto;
+.header {
     position: relative;
-    vertical-align: middle;
+    margin-bottom: 6rem;
 }
 
-.heading__inner-container {
-    width: max-content;
-    margin: 0 auto;
-}
-
-.heading__inner-div {
+.header__inner-div {
     display: inline-block;
     position: relative;
-    margin: auto;
-    vertical-align: middle;
-    bottom: 13rem;
+    bottom: 6rem;
+}
+
+.header__inner-div h1 {
     font-size: 5rem;
 }
 
-.heading__inner-div2 {
+.header__inner-div img {
     display: inline-block;
-    margin-left: 10rem;
 }
 
-/* .heading__intro {
-    font-size: 10rem;
-} */
-
-.heading__btn {
+.header__btn {
     font-family: 'Titillium Web', sans-serif;
     border: none;
     cursor: pointer;
+}
+
+/* Content styles */
+
+.div-content__container-top,
+.div-content__container-bottom {
+    display: inline-block;
+}
+
+.div-content__container-top {
+    width: 45%;
+}
+
+ .div-content__container-bottom {
+    width: 32%;
 }
