@@ -66,28 +66,30 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	margin:1% 20%;
-	position:absolute;
+	width:800px;
+	margin:30px auto;
 }
 
 /* NAVIGATION */
-nav{
-	float:left;
-	padding:15px;
+.navigation{
+	display:flex;
+	margin:15px 0;
+}
+.nav{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+	align-items:center;
 }
 nav a{
 	text-decoration:none;
 	color:grey;
-	opacity:0.7;	
-	padding:0 20px;
+	opacity:0.7;
+	display:flex;	
 }
 .logo{
-	display:inline;
-	margin-left:20px;
-	padding-top:5px;
-	padding-bottom:20px;
+	display:flex;
 }
-
 
 /* HEADER  */
 .header{
