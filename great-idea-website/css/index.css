@@ -89,12 +89,22 @@ body>hr {
 .div-content__container-top,
 .div-content__container-bottom {
     display: inline-block;
+    width: min-content;
 }
+
+.div-content__container-top>p {
+    width: 400px;
+}
+
+.div-content__container-bottom>p {}
 
 .div-content__container-top {
     width: 45%;
+    margin-left: 5rem;
+    text-align: left;
 }
 
 .div-content__container-bottom {
-    width: 32%;
+    width: 25%;
+    margin-left: 5rem;
 }
