@@ -16,35 +16,37 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1.4;
+  width:900px;
+  margin:0 auto;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -54,13 +56,95 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	  font-family: 'Noto Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Fjalla One', serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+h1{
+  font-size:60px;
+  line-height:.8;
+}
 
 /* Your code starts here! */
+
+nav{
+  width:900px;
+  padding:20px;
+  background-color:white;
+  top:0;
+/*   border:1px solid blue; */
+  position:fixed;
+  z-index:999;
+}
+
+nav a{
+  text-decoration:none;
+  padding:20px 30px 20px 0;
+/*   border:1px solid orange; */
+}
+
+nav .GreatIdea{
+  float:right;
+  margin-top:-10px;
+/*   border:1px solid green; */
+}
+
+header{
+  margin: 90px 0px 0px;
+  width: 100%;
+/*   border:1px solid green; */
+}
+
+header .main{
+  display:inline-block;
+  text-align:center;
+  margin:0 10%;
+/*   border:1px solid red; */
+}
+button{
+  font-size:15px;
+  font-family:'Noto Sans';
+  padding:5px 25px;
+  background:white;
+  border:1px solid black;
+  margin:20px auto 0;
+}
+
+header img{
+  display:inline-block;
+  width:50%;
+}
+hr{
+  margin:20px 0;
+}
+.middle-img{
+	margin:20px auto;
+	width:100%;
+}
+
+.content-row1, content-row2{
+  width:100%
+}
+
+.content-row1 div{
+  display:inline-block;
+  width:49%;
+  padding:15px;
+/*   border:1px solid orange; */
+}
+
+.content-row2 div{
+  display:inline-block;
+  width:33%;
+  padding:15px;
+/*   border:1px solid blue; */
+}
+
+footer{
+/*   border:1px solid blue; */
+  text-align:center;
+}
