@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 975px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 10px 50px;
 }
 
@@ -83,10 +83,11 @@ nav a {
 	display: inline-block;
 	text-align: center;
 	padding-top: 10px;
+	
 }
 
 nav {
-	width: 100%; 
+	text-align: center;
 }
 
 .logo {
@@ -100,17 +101,17 @@ h1 {
 	text-align: center;
 	font-size: 80px;
 	position: relative;
-	vertical-align: top;
-	display: inline-block;
-	width: 30%; 
-	padding: 50px 50px;
+	display: block;
+	width: 100%; 
+	padding: 70px 70px;
 }
 
-.button {
-	font-size: 40px;
+button {
+	font-size: 20px;
 	margin: 0 auto; 
 	padding: 5px 20px 5px;
 	display: block; 
+	display: inline-block;
 }
 
 h2 {
@@ -119,6 +120,7 @@ h2 {
 
 .headerImage {
 	margin-left: 70px;
+
 }
 
 .topsection {
@@ -138,5 +140,40 @@ header {
 }
 
 .getItCentered {
-	display: inline-box; 
+	display: block; 
+}
+
+.middle-img {
+	width: 80%;
+	box-align: center; 
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.top {
+	width: 100%;
+}
+
+
+
+
+.features,
+.about {
+	display: inline-block;
+	width: 49%;
+	padding: 30px;
+	
+}
+
+.services, 
+.product,
+.vision {
+	display: inline-block;
+	width: 33%;
+	padding: 30px;
+	
 }
