@@ -48,9 +48,12 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	border:1px solid grey;
+  }
 
 html, body {
     height: 100%;
@@ -109,8 +112,7 @@ h1{
 	margin-right:50px;;
 	position:relative;
 	padding-bottom:60px;
-	margin-bottom:30px;
-	
+	margin-bottom:30px;	
 }
 
 .button{
@@ -132,8 +134,7 @@ h1{
 .box1{
 	display:inline-block;
 	width: 48%;
-	margin:0 20px 0 0;
-	
+	margin:0 20px 0 0;	
 }
 
 .box2{
@@ -144,8 +145,7 @@ h1{
 .middle-img{
 	margin: 10px;
 	display:inline-block;
-	width:90%;
-	
+	width:90%;	
 }
 
 .bottom-content{
@@ -153,15 +153,13 @@ h1{
 	margin:20px;
 	display:table;
 	padding-bottom:60px;
-	border-bottom:1px solid black;
-	
+	border-bottom:1px solid black;	
 }
 
 .box3{
 	display:inline-block;
 	width: 30.5%;
-	margin:0 20px 0 0;
-	
+	margin:0 20px 0 0;	
 }
 
 .box4{
