@@ -136,6 +136,11 @@ body>hr {
 
 /* Contact styles */
 
+.contact {
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+}
+
 .contact>div>h2 {
     font-size: 2rem
 }
@@ -149,4 +154,5 @@ body>hr {
 body>footer {
     text-align: center;
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
