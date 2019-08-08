@@ -49,12 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a{
+	display: inline-block;
+	padding: 50px;
+	text-decoration: none;
+	color: grey;
+}
+/*Changes text blue when mouse hovers*/
+nav a:hover {
+	color: blue;
+}
+
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	right: 250px;
+}
+
+.head h1{
+	display: inline-block;
+	position: relative;
+	padding-top: 150px;
+	margin-left: 200px;
+	left: 200px;
+}
+
+.head p {
+	position: relative;
+	text-align: center;
+	top: -100px;
+}
+
+
+.code1 {
+	display: inline-block;
+	position: relative;
+	left: 300px;
+	top: -10px;
+
+}
+
+
+#feature {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	width: 770px;
+	height: 80px;
+	
+
+}
+
+#about {
+	display: inline-block;
+	position: absolute;
+	right: 110px;
+	width: 670px;
+}
+
+.middle-img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	width: 90%;
+	margin-right: 43px;
+}
+
+#services {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+#product {
+	display: inline-block;
+	position: relative;
+	margin-left: 100px;
+	margin-right: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+#vision {
+	display: inline-block;
+	position: relative;
+	margin-left: 200px;
+	width: 250px;
+	height: 80px;
+
+}
+
+.copyright {
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*Changes images to background images*/
+img {
+	background-image: url("img/logo.png"), url("img/mid-page-accent.jpg");
+}
