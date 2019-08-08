@@ -79,7 +79,8 @@ a{
 	text-decoration: none;
 	color: grey;
 	margin-left: 100px;    
-	display:inline-block;
+	display:flex;
+	justify-content:space-evenly;
 	vertical-align:top;	
 	margin-top:10px;
 	}
