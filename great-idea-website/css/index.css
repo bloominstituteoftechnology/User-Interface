@@ -5,6 +5,11 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 body>hr {
     width: 92%;
 }
@@ -57,22 +62,25 @@ body>hr {
     position: relative;
     margin-bottom: 6rem;
     margin-top: 6rem;
+    padding: 0 10rem;
 }
 
 .header__inner-div {
     display: inline-block;
     position: relative;
     bottom: 5rem;
-    margin-left: 25%;
-    margin-right: 8rem;
+    margin: 0 auto;
+    width: 49%;
 }
 
 .header__inner-div h1 {
     font-size: 7.5rem;
 }
 
-.header__inner-div img {
+.header img {
     display: inline-block;
+    margin: 0 auto;
+    width: 49%;
 }
 
 .header__btn {
@@ -92,24 +100,53 @@ body>hr {
     width: min-content;
 }
 
-.div-content__container-top>p {
-    width: 400px;
+.div-content__container-top>h2,
+.div-content__container-bottom>h2 {
+    font-size: 2rem;
 }
 
-.div-content__container-bottom>p {}
+.div-content__container-top>p {
+    width: 400px;
+    font-size: 1.4rem;
+}
+
+.div-content__container-bottom>p {
+    font-size: 1.4rem;
+}
 
 .div-content__container-top {
+    display: inline-block;
     width: 45%;
-    margin-left: 8rem;
+    margin-left: 4.6%;
     text-align: left;
+    margin-top: 3rem;
 }
 
 .div-content__container-bottom {
+    display: inline-block;
     width: 25%;
-    margin-left: 8rem;
+    margin-left: 5%;
+    margin-bottom: 3rem;
 }
 
 .middle-img {
-    margin: 2rem 0 2rem 25rem;
-    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Contact styles */
+
+.contact>div>h2 {
+    font-size: 2rem
+}
+
+.contact>div>address {
+    font-size: 1.5rem;
+}
+
+/* Footer styles */
+
+body>footer {
+    text-align: center;
+    font-size: 1.5rem;
 }
