@@ -77,12 +77,17 @@ header {
 
 header nav, header .logo {
 	display:inline-block;
-	width: 49%;
+	/* width: 49%; */
 }
 
 header nav {
 	/* margin-right: 30px; */
 	padding-bottom: 40px;
+	width: 70%;
+}
+
+header nav a {
+	margin-right: 30px;
 }
 
 header .logo {
@@ -99,10 +104,18 @@ header .logo {
 	display:inline-block;
 	width: 49%;
 	height: 80%;
+	/* padding-bottom:3rem; */
 }
 
 .mainTitle .leftSide h1 {
-	height: 50%;
+	/* height: 50%; */
+	font-size:4rem;
+	text-align: center;
+}
+
+.mainTitle .leftSide button {
+	margin: 0 auto;
+	display: block;
 }
 
 /* .mainTitle h1 {
