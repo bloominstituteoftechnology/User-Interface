@@ -76,30 +76,51 @@ nav a {
 	
 	
   }
-
+  .big{
+	  width: 100%;
+	  text-align:center;
+	  border-bottom: 1px solid black;
+  }
   h1{
 	  font-size:80px;
+	  padding:50px 50px;
+	  text-align:center;
+	  position:relative;
+	  vertical-align:center;
+	  display:inline-block;
+	  
   }
-div .big{
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
-}
-section .top{
-	display:block;
-	width:47px;
+  
+		
+			
+
+ .top{
+	width: 100%;
+	text-align:center;
+	
+	 
+   }
+	
+ .bottom{
+	width: 100%;
+	
 	
 }
 
-section .bottom{
-	display:block;
-	width:47px; 
-	
+h3{
+
+	padding:50px 50px;
+	text-align:center;
+	position:relative;
+	vertical-align:center;
+	display:inline-block;
+  
+  
+ 
 }
 
 p{
+	display:inline-block;
+    width:20%;
 	
- display:block;
- 
-}
 }
