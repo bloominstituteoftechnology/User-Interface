@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main {
+	border: 2px solid red;
+	width: 99%;
+	height: auto;
+  }
+  nav {
+	width: 90%;
+	height: 80px;
+	border: 2px solid blue;
+	margin-left: 5%;
+  
+  }
+  header {
+	  width: 90%;
+	  height: 450px;
+	  border: 2px solid hotpink;
+	  margin-left: 5%;
+
+  }
+  .features-about {
+	width: 90%;
+	height: 150px;
+	border: 2px solid green;
+	margin-left: 5%;
+  
+  } 
+  .long-photo {
+	width: 90%;
+	height: 175px;
+	border: 2px dashed purple;
+	margin-left: 5%;
+  
+  }
+  .srvc-prod-vis {
+	width: 90%;
+	height: 150px;
+	border: 2px solid green;
+	margin-left: 5%;
+  
+  }
+  footer {
+	width: 90%;
+	height: 150px;
+	border: 2px solid fuchsia;
+	margin-left: 5%; 
+  }
