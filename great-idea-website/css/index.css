@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -58,9 +59,119 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Indie Flower', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+
+
+nav{
+	display:inline-block;
+	color: gray;
+	text-align:center;
+	padding:25px 25px 50px 25px;
+	width:100%;
+	word-spacing:50px;
+	/* background-color:#708090; */
+	/* position:absolute; */
+
+}
+
+nav a{
+padding: 0px 20px 0px 20px;
+text-decoration:none;
+}
+
+nav a:visited{
+	color:white;
+
+}
+
+h1{
+	font-size: 65px;
+	display:inline-block;
+	text-align:center;
+	position:absolute;
+	top:85px;
+	left:200px;
+	
+}
+#start{
+	display:inline-block;
+	text-align:center;
+	position:absolute;
+	left:275px;
+	top:290px;
+	border:solid black 1px;
+	padding:5px 35px 5px 35px;
+}
+
+.innovation{
+	display:inline-block;
+	left: 200px;
+	
+	width:49%;
+	padding: 50px;
+	
+}
+.topimage{
+	display:inline-block;
+	width:49%;
+
+}
+
+header{
+	border-bottom:1px solid black;
+	position:relative;
+	padding:0px 0px 50px 0px;
+}
+
+
+.features {
+	display:inline-block;
+	width:50%;
+	padding:20px;
+}
+
+.about {
+	display:inline-block;
+	width:49%;
+	padding:50px;
+}
+
+.middle-img{
+	width:100%;
+}
+
+.services {
+	display:inline-block;
+	width:30%;
+	padding:20px;
+}
+.product {
+	display:inline-block;
+	width:30%;
+	padding:20px;
+}
+.vision {
+	display:inline-block;
+	width:30%;
+	padding:20px;
+}
+.contact{
+	border-top:1px solid black;
+padding:20px;
+}
+
+footer{
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	padding:100px;
+
+}
+
+
