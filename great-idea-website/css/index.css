@@ -56,12 +56,15 @@ body>hr {
 .header {
     position: relative;
     margin-bottom: 6rem;
+    margin-top: 6rem;
 }
 
 .header__inner-div {
     display: inline-block;
     position: relative;
     bottom: 6rem;
+    margin-left: 25%;
+    margin-right: 8rem;
 }
 
 .header__inner-div h1 {
@@ -89,6 +92,6 @@ body>hr {
     width: 45%;
 }
 
- .div-content__container-bottom {
+.div-content__container-bottom {
     width: 32%;
 }
