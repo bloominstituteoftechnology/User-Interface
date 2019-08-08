@@ -48,7 +48,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
