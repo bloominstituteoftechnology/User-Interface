@@ -76,14 +76,49 @@ h1, h2, h3, h4, h5 {
 	height: 80px;
 	border: 2px solid blue;
 	margin-left: 5%;
+	text-align: center;
+  }
+  .menu-item {
+	margin-left: 60px;
+  }
+  .logo {
+	margin-left: 60px;
+	text-decoration: none;
+  }
+  a {
+	text-decoration: none;
   
   }
   header {
-	  width: 90%;
-	  height: 450px;
-	  border: 2px solid hotpink;
-	  margin-left: 5%;
+	width: 90%;
+	height: 450px;
+	border: 2px solid hotpink;
+	margin-left: 5%;
+	padding-bottom: 70px;
+  }
+  h1 {
+	font-size: 88px;
+  }
+  .innovation-text-and-button {
+	border: 2px dashed rosybrown;
+	width: 150px;
+	height: 220px;
+	background: gray;
+	display: inline-block;
+	margin-left: 250px;
+	/* margin-bottom: 150px; */
+  }
+  .round-image {
+	width: 20%;
+	height: 20%;
+	display: inline;
+	margin-left: 320px;
 
+  }
+  
+  button {
+	width: 110px;
+	height: 30px;
   }
   .features-about {
 	width: 90%;
