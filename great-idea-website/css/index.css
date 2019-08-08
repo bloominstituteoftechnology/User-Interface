@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* juste pour marquer les frontieres */
+#navibar{
+}
+#start{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	border: solid 2px black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans serif;
+	font-size: 20px;
+	padding-top: 10px;
+	left: 360px;
+	top: 330px;
+}
+#topImg {
+	position: relative;
+	left: 750px;
+	bottom: 40px;
+}
+.features{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	left: 40px;
+	margin: 0 20px 0 0;
+	vertical-align: bottom;
+}
+.pointers{
+	width: 500px;
+	height: 100px;
+	position: relative;
+
+	left: 700px;
+}
+.middleImg{
+	
+	height: 200px;
+	position: relative;
+	left: 40px;
+
+}
+.services{
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-left: 40px;
+	
+}
+.product{
+	width:350px;
+	height: 200px;
+	position: relative;
+	top: 0px;
+	left: 450px;
+}
+.vision{
+	width: 350px;
+	height: 200px;
+	position: relative;
+	top: -200px;
+	left: 850px;
+}
+.contact{
+	width: 100px;
+	height: 100px;
+}
+.footerDiv{
+	width: 200px;
+	height: 200px;
+}
+
+.footerDiv a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.navbar a{
+	color: grey;
+	
+	margin: 20px 20px 0 20px;
+	padding: 30px 20px;
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+}
+#innov {
+	text-align: center;
+	font-size: 92px;
+	position: absolute;
+	margin: 50px;
+	left: 240px;
+	vertical-align: bottom;
+}
+
+.logo{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+};
+
+#middleImg img{
+	display: block;
+	position: relative;
+	left: 88;
+}
+
+.footerDiv{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+.footerDiv small {
+	text-align: center;
+	display: inline-block;
+}
+
+.superBorder {
+	padding-top: 100px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 1000px;
+}
+hr {
+	border: white;
+}
+
+footer #small{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+  }
+
+.container{
+	margin-bottom: 40px;
+}
