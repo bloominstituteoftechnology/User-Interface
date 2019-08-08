@@ -62,13 +62,13 @@ body>hr {
 .header__inner-div {
     display: inline-block;
     position: relative;
-    bottom: 6rem;
+    bottom: 5rem;
     margin-left: 25%;
     margin-right: 8rem;
 }
 
 .header__inner-div h1 {
-    font-size: 5rem;
+    font-size: 7.5rem;
 }
 
 .header__inner-div img {
@@ -79,6 +79,9 @@ body>hr {
     font-family: 'Titillium Web', sans-serif;
     border: none;
     cursor: pointer;
+    border: 1px solid black;
+    margin-top: 3rem;
+    padding: 1.5rem 5.5rem;
 }
 
 /* Content styles */
