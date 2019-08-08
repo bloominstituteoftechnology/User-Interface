@@ -132,7 +132,14 @@ nav a:hover{
 	  /* background-color:rgb(24, 155, 184); */
 	}
   }
+.logo-set{
+	margin-left:2px;
+	/* background-color */
+	/* margin-top:-10px; */
+	/* position: absolute;
+	right:200px; */
 
+}
 
 .logo {
 	display: inline-block;
@@ -140,6 +147,7 @@ nav a:hover{
 	vertical-align: middle;
 	width: 200px;
 	height: 50px;
+	
 	
 }
 header{
