@@ -65,14 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 header {
-	background: brown;
 	margin: 30px;
+	/* border: 1px solid grey; */
+}
+
+header nav, header .logo {
+	display:inline-block;
+	width: 49%;
 }
 
 header nav {
-	display:inline-block;
-	margin-right: 30px;
+	/* margin-right: 30px; */
 	padding-bottom: 40px;
 }
 
@@ -80,31 +89,38 @@ header .logo {
 	padding-top: 30px;
 }
 
-
-
 .mainTitle {
-	background: yellow;
+	/* border: 1px solid grey; */
 	margin: 30px;
 	padding: 25px;
 }
 
-.mainTitle div {
+.mainTitle .leftSide {
 	display:inline-block;
+	width: 49%;
+	height: 80%;
 }
 
-.mainTitle h1 {
-	margin-bottom: 200px
+.mainTitle .leftSide h1 {
+	height: 50%;
 }
+
+/* .mainTitle h1 {
+	margin-bottom: 200px
+} */
 
 .mainTitle #picPic {
 	height: 100px;
 	width: 100px;
 }
 
-
+.content {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey
+}
 
 .topContent{
-	background: pink;
+	/* border: 1px solid grey; */
 	margin: 30px;
 }
 
@@ -112,20 +128,29 @@ header .logo {
 	display: inline-block;
 }
 
-.topContent .about {
-	
-}
-
-
 #mainImage {
 	margin: 30px;
 }
 
+.features, .about, .services, .product, .vision {
+	display: inline-block;
+}
 
+.features, .about {
+	width: 49%;
+}
+
+.services, .product, .vision {
+	width: 32%;
+}
 
 .bottomContent {
 	margin: 30px;
-	background-color: grey;
+	/* border: 1px solid grey; */
+}
+
+.services, .product, .vision {
+	display: inline-block;
 }
 
 .contact {
@@ -136,14 +161,16 @@ header .logo {
 	margin-bottom: 20px;
 }
 
-footer {
-	margin-top: 20px;
-	text-align: center;
-}
-
 .titleOfContent {
 	font-weight:bold;
 	padding-bottom: 10px;
 }
 
+#mainImage img {
+	width: 100%;
+}
 
+footer {
+	margin: 30px;
+	text-align: center;
+}
