@@ -68,3 +68,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*  Main Navigation */
+
+body {
+    margin: 0 auto;
+    width: 1100px;
+}
+#mainHeader {
+	padding: 25px;
+}
+#mainNavigation {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+.navigationUl {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    top: -10px;
+    left: -50px;
+    width: 80%;
+}
+li.navigationListItems {
+    padding: 0 20px;
+    display: inline;
+}
+li.navigationListItems a {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    transition: all ease-in-out 120ms;
+}
+li.navigationListItems a:hover {
+	color: #000;
+}
+.image-container {
+    display: inline-block;
+}
+/* Section One */
+#cardOne {
+    position: relative;
+    height: 400px;
+}
+.cardOneContentWrapper {
+    width: 49%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.cardOneContentWrapper.welcomeText {
+	top: -55px;
+}
+.cardOneContentWrapper h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
+.cardOneContentWrapper h1 span {
+    width: 100%;
+    display: block;
+}
+.cardOneContentWrapper a {
+    padding: 5px 40px;
+    border: 1px solid #000;
+    color: gray;
+    text-decoration: none;
+}
+
+/* Section Two */
+section#cardTwo {
+    border-top: 1px solid #000;
+    padding-top: 30px;
+    position: relative;
+    height: fit-content;
+}
+.cardTwoContentWrapper {
+    position: relative;
+}
+.double-column {
+    width: 49%;
+	padding: 20px 20px 40px 0;
+	display: inline-block;
+}
+.double-column p {
+    line-height: 18px;
+}
+.middle-img {
+	width: 100%;
+}
+.tripple-column {
+    width: 33%;
+    padding: 40px 10px 40px 0;
+    display: inline-block;
+}
+/* Footer */
+footer {
+	width: 100%;
+	padding-top: 40px;
+	border-top: 1px solid #000;
+}
+.address-information .three,
+.address-information .four{
+	padding-top: 20px;
+}
+.address-information .four {
+	padding-bottom: 50px;
+}
+.copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 100px;
+}
