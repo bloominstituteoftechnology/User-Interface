@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	max-width: 880px;
+	margin: auto;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+nav a{
+	text-decoration: none;
+	color: silver;
+}
+a{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin: auto;
+}
+.logo{
+	padding-left: 15px;
+	margin: auto;
+}
+header h1{
+	font-size: 75px;
+	position: absolute;
+   text-align: center;
+   top: 15%;
+   left: 10%;
+   height: 100%;
+   width: 30%;
+   margin: 0 0 0 5%;
+}
+header{
+	display: inline-block;
+	margin-left: 500px;
+}
+.header button{
+	margin-top: -100px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	width: 40%;
+}
+
+.topSection{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-top: 1px solid black;
+	padding: 40px;
+	text-align: justify;
+}
+.features{
+	margin: 0 20px;
+}
+.about{
+	margin: 0 20px;
+}
+.middle-img{
+	margin-top: -30px;
+}
+.bottomSection{
+	display: inline-flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: justify;
+	padding: 30px;
+	border-bottom: 1px solid black;
+}
+.services{
+	margin: 0 10px;
+}
+.product{
+	margin: 0 10 px;
+}
+.vision{
+	margin: 0 10px;
+}
+
+.contact h3{
+	margin-bottom: 5px;
+}
+address{
+	padding: 5px;
+}
+.contact p{
+	padding: 5px;
+}
+
+footer{
+	padding: 50px;
+	text-align: center;
+}
