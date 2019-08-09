@@ -68,67 +68,111 @@ h1, h2, h3, h4, h5 {
 /* navBar and logo */
 .navBar{
     margin: auto;
-    width: 79%;
+	width: 88;
+	margin-left: 8%;
+}
+
+.logo{
+	padding-top: 2;
+	margin-left: 5%;
 }
 
 .navBar a{
     text-decoration: none;
     color: gray;
     margin: auto;
-    padding: 2%;
+    padding: 3%;
 }
 
 /*header and picture*/
-header{
-    display: inline;
+
+header {
+	line-height: .45;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
 }
+
+header .header {
+	font-size: 68px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 15px;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+header .header button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+}
+
+header img {
+	display: inline-block;
+	width: 35%; 
+	margin-left: 10%;
+}
+
+/* header{
+	font: 68px;
+	width: 79%;
+	margin: 50px 0px 50px 100px;
+}
+
+header .header button{
+	display: inline-block;
+} */
+
 /*topcontent info: features and about section*/
+
 .topinfo{
-    display: inline-block;
-    width: 49%;
+	width: 79%;
+	margin-left: 10%;
+	border-top: 1px solid black;
+	padding-top: 3%;
+}
+
+.topinfo div{
+	display: inline-block;
+	width: 49%;
+	text-align: justify;
+	padding: 10px;
 }
 
 .mid{
     margin: auto;
     width: 79%;
-    margin-left: 10%;
+	margin: 3% 0% 3% 10%;
 }
 
 /*services product and vision info*/
 .bottominfo{
-    width: 79%;
-    margin: auto;
+	width: 79%;
+	margin-left: 10%;
+	padding-bottom: 3%;
 }
 
-.services{
-    /* display: inline; */
-    width: 30%;
-    display: inline;
-}
-
-.product{
-    /* display: inline; */
-    display: inline;
-    /* margin: auto; */
-}
-
-.vision{
-    /* display: inline; */
-    width: 30%;
+.bottominfo div{
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	padding: 10px;
 }
 
 /* footer */
 
 footer{
     margin-bottom: 2%;
-    width: 79%;
-    margin: auto;
+	width: 79%;
+	margin: auto;
 }
 
 /*contact and body*/
 .contact{
     border-top: 1px solid black;
-    padding-top: 2%;
+	padding-top: 3%;
+	padding-bottom: 1%;
     width: 79%;
     margin: auto;
 }
