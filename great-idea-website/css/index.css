@@ -68,22 +68,31 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 80%;
 	margin: 0 auto;
-	border-left: 1px ;
+	
 	/*I used this to center all the Html*/	
 }
 
 nav {
-	width: 100%;
-	
+	width: 80%;
+	position: fixed;
+	background-color: rgb(2, 127, 209);
+	z-index: 3;
 }
-nav .nav-item {
+.nav-item {
 	display: inline-block;
 	text-decoration: none;
 	padding: 46px;
 	vertical-align: middle;
 	color: rgba(175, 172, 172, 0.8);
-
+	text-shadow: 1px 1px 1px #111;
+	font-weight: bold;
+	transition: color 0.3s ease-in, text-shadow 0.3s ease-in;
 	/*I spent too long trying to use vertical-align: center because I though I knew what I was doing*/
+}
+
+.nav-item:hover {
+	color: #111;
+	text-shadow: 2px 2px 1px rgb(175, 172, 172);
 }
 nav img {
 	margin-left: 120px;
@@ -96,6 +105,7 @@ nav img {
 	
 	margin-bottom: 20px;
 	padding-bottom: 50px;
+	padding-top: 100px;
 	
 }
 
@@ -131,22 +141,31 @@ nav img {
 
 /*MAIN CONTENT STYLING BEGINS*/
 
+main {
+	padding-top: 50px;
+}
+
 .main-content {
 	display: inline-block;
-	width: 45%;
+	width: 49%;
 	padding: 3% 0%;
 }
 
 main img {
-	width: 99%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 
 .main-content2 {
 	display: inline-block;
 	width: 33%;
-	padding-right: 30px;
+	padding-right: 10px;
 	
+}
+
+main p {
+	font-size: 20px;
+	font-family: 'Exo', sans-serif;
 }
 
 .triplets {
@@ -170,4 +189,5 @@ footer p {
 	text-align: center;
 	vertical-align: top;
 	padding-bottom: 100px;
+	font-family: 'Saira Stencil One', cursive;
 }
