@@ -65,4 +65,102 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* sjcoisdjciosd */
+a {
+	text-decoration: none;
+	color: lightgrey;
+	margin-left: 25px;
+	margin-right: 34px;
+	vertical-align: middle;
+  }
+  
+  a:hover {
+	color: black;
+  }
+  
+  .logo {
+	padding-left: 30px;
+	display:inline-block;
+	vertical-align: middle;
+  }
+  
+  nav {
+	padding: 20px;
+  }
+  
+  header {
+	margin-top: 40px;
+	width: 916px;
+	margin-bottom:30px;
+  }
+  
+  h1 {
+	font-size: 80px;
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 50px
+  
+  }
+  
+  .circle{
+	display: inline-block;
+	float: right;
+  }
+  
+  button {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	background-color: white;
+	border: 1px solid black;
+	padding-left: 40px;
+	padding-right: 40px;
+	vertical-align: top;
+	margin-top: 20px;
+  }
+  
+  button:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+  }
+  
+  hr {
+	border-top: solid 1px
+  }
+  
+  .container_hr {
+	width: 876px;
+	margin-left: 40px
+  }
+  
+  
+  .sectionof2 section {
+	display: inline-block;
+	width: 49%;
+	padding-left: px;
+	padding-top: 30px;
+  }
+  
+  .middle-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+  
+  .sectionof3 section {
+	display: inline-block;
+	width: 33%;
+	padding-bottom: 30px
+  }
+  
+  .contact {
+	padding-top: 30px;
+	
+  }
+  
+  footer{
+	margin-top: 30px;
+	padding-bottom: 100px;
+	text-align: center;
+	font-size: 12px;
+  }
