@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	border-left: 1px ;
+	/*I used this to center all the Html*/	
+}
+
+nav {
+	width: 100%;
+	
+}
+nav .nav-item {
+	display: inline-block;
+	text-decoration: none;
+	padding: 46px;
+	vertical-align: middle;
+	color: rgba(175, 172, 172, 0.8);
+
+	/*I spent too long trying to use vertical-align: center because I though I knew what I was doing*/
+}
+nav img {
+	margin-left: 120px;
+	vertical-align: middle;
+
+}
+
+.showcase {
+	border-bottom: 1px solid black;
+	
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	
+}
+
+.showcase-item {
+	display: inline-block;
+}
+
+.snippet {
+	margin-left: 150px;
+	width: 35%;
+	padding-top: 25px;
+	
+}
+
+.innovation {
+	display: inline-block;
+	font-size: 6rem;
+	width: 40%;	
+	text-align: center;
+	z-index: 1;
+	vertical-align: top;
+	padding-top: 5%;
+}
+
+.showcase button {
+	background: none;
+	border: 1px solid black;
+	padding: 5px 60px;
+	vertical-align: top;
+
+}
+/*SHOWCASE STYLING ENDS*/
+
+/*MAIN CONTENT STYLING BEGINS*/
+
+.main-content {
+	display: inline-block;
+	width: 45%;
+	padding: 3% 0%;
+}
+
+main img {
+	width: 99%;
+	padding-bottom: 20px;
+}
+
+.main-content2 {
+	display: inline-block;
+	width: 33%;
+	padding-right: 30px;
+	
+}
+
+.triplets {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+}
+
+.contact {
+	
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+}
+
+.contact .phone {
+	padding: 20px 0px;
+
+}
+
+footer p {
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 100px;
+}
