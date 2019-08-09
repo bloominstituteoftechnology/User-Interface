@@ -84,9 +84,7 @@ a{
 	right: -100px;
 	top: 15px;
 }
-header{
-	width:
-}
+
 
 h1{
 	position: relative;
@@ -195,4 +193,16 @@ span{
 	position: relative;
 	width: 200px;
 	right: -375px;
+}
+.services-header-img{
+	margin-bottom: 40px;
+}
+
+.services-digital{
+	display: flex;
+	justify-content: space-around;
+
+}
+h2{
+	border: 1px solid red !important;
 }
