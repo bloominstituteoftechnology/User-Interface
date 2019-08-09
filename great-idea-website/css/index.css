@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	background-color:black;
+}
+.container {
+width: 1000px;
+margin: 0 auto;
+background-color: gray;
+}
+/* Begin Header/Navigation menu code */
+header{
+margin: 0px 0px 60px 0px;
+text-align: center;
+width: 100%;
+padding: 10px 0px;
+position: fixed;
+background-color: rgb(1, 64, 136);
+}
+
+#nav-menu, #nav-logo{
+display: inline-block;
+vertical-align: middle;
+
+}
+#nav-menu{
+padding: 0px 100px 0px 0px;
+margin: 0px;
+}
+nav a {
+padding: 30px;
+color: white;
+text-decoration: none;
+}
+/* End Header/Navigation menu code */
+/* Begin The Call to Action code */
+
+#section1{
+width:100%;
+padding: 10px 0px;
+text-align: center;
+margin: 0px 0px 100px 0px;
+}
+#sub, #sub-logo{
+display: inline-block;
+vertical-align: middle;
+margin-top: 100px;
+}
+#sub {
+font-size: 75px;
+margin:0px;
+padding: 0px;
+text-align: center;
+}
+#button1{
+padding: 10px 40px;
+margin: 0px;
+background-color: blue;
+border: 1px black solid;
+color:white;
+}
+#button1:hover {
+background-color: white;
+color: blue;
+}
+#mega-huge{
+padding: 0px;
+margin: 0px;
+}
+/* End The Call to Action code */
+
+/* Begin Features and about sections code */
+
+.wrapper{
+width: 100%;
+vertical-align: middle;
+}
+
+.section-block1 {
+display: inline-block;
+text-align: left;
+max-width: 49%;
+margin: 0px 5px 25px 0px;
+}
+
+.section-block2 {
+display: inline-block;
+text-align: left;
+max-width: 31%;
+margin: 25px 0px 25px 0px;
+}
+
+/* End Features and about sections code */
+
+/* Begin the Middle graphic code */
+.wrapper img{
+width: 100%;
+padding: 10px;
+}
+
+/* End the Middle graphic code */
+
+/* Begin the footer code */
+
+footer {
+margin: 35px 0px 0px 0px;
+}
+#copy {
+text-align: center;
+}
+footer a {
+text-decoration: none;
+color: black;
+}
+footer a:hover, footer a:active {
+	color: black;
+	background-color: white;
+}
+/* End the footer code */
