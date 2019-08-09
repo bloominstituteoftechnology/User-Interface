@@ -20,8 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Laila', serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black;
 }
 
 html, body {
@@ -64,96 +65,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.full-container{
-	width: 1000px;
-	margin: 0 auto;
-}
-/* Begin Header/Navigation menu code */
-#header{
-	margin: 0px 0px 60px 0px;
-	text-align: center;
-	width: 100%;
-	padding: 10px 0px;
-	position: fixed;
-	background-color: rgb(1, 64, 136);
+
+nav {
+	display: flex;
+	justify-content: space-around;
 }
 
-#nav-menu, #nav-logo{
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+nav .logo {
+	padding-left: 50px;
+}
+
+header {
+	display: flex;
+	line-height: 0.75;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
+}
+header div{
+	
+		display: flex;
+	justify-content: flex-start;
+}
+header .title {
+	font-size: 68px;
+	text-align: center;
 	display: inline-block;
-	vertical-align: middle;
+	margin: 0px 15px;
+	margin-right: 100px;
+}
+
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+}
+
+header img {
+	display: flex;
+justify-content: stretch;
+}
+
+.top-content {
+	display: flex;
+}
+.middle-img {
+	margin: 30px 0px;
+}
+
+.bottom-content {
+	display: flex;
 	
 }
-#nav-menu{
-	padding: 0px 100px 0px 0px;
-	margin: 0px;
-}
-nav a {
-	padding: 30px;
-	color: white;
-	text-decoration: none;
-}
-/* End Header/Navigation menu code */
-/* Begin The Call to Action code */
 
-#section1{
- width:100%;
- padding: 10px 0px;
- text-align: center;
- margin: 0px 0px 100px 0px;
-}
-#section1 .left{
- display: inline-block;
- width: 49%;
-}
-#section1 .right
-{
-	display: inline-block;
-	width: 49%;
-   }
- #sub-logo{
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 100px;
-}
-#button1{
-	padding: 10px 50px;
-	margin: 0px;
-	background-color:black;
-	border: 1px white solid;
-	color:white;
-}
-#button1:hover {
-	background-color: white;
-	color: blue;
-}
-.features, .about
-{
-	display: inline-block;
-	text-align: left;
-	max-width: 49%;
-	margin: 0px 5px 25px 0px;
+.bottom-content div {
+	display: flex;
+	
 }
 
-.services, .product, .vision{
-	display: inline-block;
-	text-align: left;
-	max-width: 31%;
-	margin: 25px 0px 25px 0px;
+.contact {
+	margin-top: 30px;
 }
-/* Begin the footer code */
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
 
 footer {
-	margin: 35px 0px 0px 0px;
+	display: flex;
 }
-#copy {
-	text-align: center;
-}
-footer a {
-	text-decoration: none;
-	color: black;
-	}
-	footer a:hover, footer a:active {
-		color: black;
-		background-color: white;
-	}
-	/* End the footer code */
+
+
+
