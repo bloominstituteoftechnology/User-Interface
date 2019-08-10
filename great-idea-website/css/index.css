@@ -66,22 +66,72 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body{
 	background-color: white;
+	margin: 0 auto;
 }
+
 h1, h2, nav, p, address{
 	color:black;
 }
 
 button{
 	color:black;
+	text-align: center;
+	display: inline-block;
 }
 h1{
 	font-size: 70px;
 	display: inline-block;
 	text-align: right;
-	padding: 25px;
+	box-sizing: border-box;
+	width: 500px;
+	height: 500px;
+	padding: 100px;
+	border: 1 px; 
+	margin: 0px;
 }
 
 footer{
-	padding: 20px 0;
-  text-align: center;
+	display: inline-block;
+
+}
+
+.logo{
+position: fixed;
+top: 0;
+right: 0;
+}
+
+.middle-img{
+	width:100%;
+}
+
+h2{
+	font-size: 60px;
+	display: inline-block;
+	text-align: right;
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 1 px; 
+	margin: 0px;
+}
+
+p{
+	font-size: 25px;
+	text-align: left;
+}
+
+address{
+	font-size: 25px;
+	text-align: center;
+}
+.contact{
+	display: inline-block;
+}
+footer{
+	display: inline-block;
+	font-size:20px;
+	text-align: center;
+	width:100%;
 }
