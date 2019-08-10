@@ -59,8 +59,148 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 15px;
+    letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+.content-title {
+	font-size: 20px;
+	font-family: 'Yellowtail', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/*Navigation bar*/
+
+.navigation {
+	margin-bottom: 25px;
+	z-index: 100;
+	position: sticky;
+	top: 0;
+	background-color: lightgray;
+	padding-bottom: 40px;
+}
+
+nav {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.links {
+	display: inline;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 39px;
+}
+
+a:hover {
+	color: white;
+}
+
+.logo {
+	top: 50%;
+	transform: translateY(50%);
+}
+
+/*Welcome Content*/
+
+header {
+	height: 400px;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.header-text {
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-30%);
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 1px 40px 1px 40px;
+}
+
+.header-img{
+	display: inline-block;
+}
+
+/*Features+About Content*/
+
+.top-content {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.content-text-top {
+	width: 100%;
+	display: inline-block;
+}
+
+.block1 {
+	width: 49%;
+	padding: 0 10px 40px 10px;	
+	display: inline-block;
+}
+
+/*Middle Pic Content*/
+
+.middle-img {
+	width: 100%;
+	margin: 10px 0;
+}
+
+/*Services+Product+Vision Content*/
+
+.bottom-content {
+	width: 100%;
+}
+
+.content-text-bottom {
+	width: 100%;
+	display: inline-block;
+}
+
+.block2 {
+	width: 33%;
+	padding: 20px 10px 20px 10px;	
+	display: inline-block;
+}
+
+/*Contact*/
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+/*Footer*/
+
+footer {
+	padding: 50px 0 110px 0;
+	text-align: center;
+}
