@@ -189,9 +189,75 @@ h1 {
   position: relative;
   height: 400px;
   width: 400px;
-  left: 20px;
+  right: 40px;
 }
 
-.main-content .button {
-  border: 2px;
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+  user-select: none;
+  color: black;
+  right: 285px;
+  top: 55px;
+}
+
+.content-1 {
+  display: inline-block;
+  border-top: 1px solid black;
+  margin: 50px 0px 0px;
+}
+
+.half-content {
+  width: 500px;
+  display: inline-block;
+  margin: 50px auto;
+}
+
+.image-stretch img {
+  width: 100%;
+}
+
+.content-2 {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+}
+
+.third-content {
+  width: 33%;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin: 60px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.address {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.phone {
+  margin-bottom: 20px;
+  text-decoration: none;
 }
