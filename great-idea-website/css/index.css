@@ -57,10 +57,17 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Roboto', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-weight: 600;
 }
 
 /* Your code starts here! */
@@ -71,33 +78,47 @@ a {
 	margin-left: 25px;
 	margin-right: 34px;
 	vertical-align: middle;
-  }
+  transition: all .2s ease-in-out;
+}
   
-  a:hover {
+a:hover {
 	color: black;
-  }
+  transform: scale(1.2);
+}
   
-  .logo {
-	padding-left: 30px;
+.firstlink {
+  margin-left: 0px;
+}
+
+.logo {
+	padding-left: 0px;
 	display:inline-block;
 	vertical-align: middle;
-  }
+}
   
-  nav {
+nav {
+	width: 876px;
 	padding: 20px;
-	background-color: navy;
+	background-color: rgb(34, 171, 212);
 	position: fixed;
 	top: 0;
-  }
+	margin-left: 40px;
+  opacity: .5;
+  transition: all .2s ease-in-out;
+}
+
+nav:hover {
+  opacity: 1
+}
   
-  header {
+header {
 	margin-top: 40px;
 	width: 916px;
 	margin-bottom:30px;
 	margin-top: 100px;
-  }
+}
   
-  h1 {
+h1 {
 	font-size: 80px;
 	display: inline-block;
 	width: 50%;
@@ -105,14 +126,14 @@ a {
 	vertical-align: top;
 	padding-top: 50px
   
-  }
+}
   
-  .circle{
+.circle{
 	display: inline-block;
 	float: right;
-  }
+}
   
-  button {
+button {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 	background-color: white;
@@ -121,50 +142,93 @@ a {
 	padding-right: 40px;
 	vertical-align: top;
 	margin-top: 20px;
-  }
+}
   
   button:hover {
 	background-color: black;
 	color: white;
 	cursor: pointer;
-  }
+}
   
-  hr {
+hr {
 	border-top: solid 1px
-  }
+}
   
-  .container_hr {
+.container_hr {
 	width: 876px;
 	margin-left: 40px
-  }
+}
   
   
-  .sectionof2 section {
+.sectionof2 section {
 	display: inline-block;
 	width: 49%;
 	padding-left: px;
 	padding-top: 30px;
-  }
+}
   
-  .middle-img {
+.middle-img {
 	padding-top: 30px;
 	padding-bottom: 30px;
-  }
+}
   
-  .sectionof3 section {
+.sectionof3 section {
 	display: inline-block;
 	width: 33%;
 	padding-bottom: 30px
-  }
+}
   
-  .contact {
+.contact {
 	padding-top: 30px;
 	
-  }
+}
   
-  footer{
+footer{
 	margin-top: 30px;
 	padding-bottom: 100px;
 	text-align: center;
 	font-size: 12px;
-  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: navy;
+/*   min-width: 100px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  float: left;
+  opacity: .5;
+  transition: all .2s ease-in-out;
+}
+
+.dropdown-content a {
+  color: lightgray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: block;
+  margin-left:0;
+}
+
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
+.dropdown-content:hover {
+    opacity: 1
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
