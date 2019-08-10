@@ -150,3 +150,48 @@ h5 {
 }
 
 /* My code starts here! */
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+nav a {
+  color: grey;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 40px 80px 40px 0px;
+}
+
+.nav-bar img {
+  top: 10px;
+  left: 50px;
+  position: relative;
+}
+
+h1 {
+  font-size: 92px;
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+}
+
+.main-content {
+  position: relative;
+  left: 80px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.main-content img {
+  top: 70px;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  left: 20px;
+}
+
+.main-content .button {
+  border: 2px;
+}
