@@ -31,6 +31,16 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+nav {
+padding: 30px;
+}
+.services, .products, .vision, .features, .about, .contact {
+	padding: 25px;
+}
+.logo {
+margin-left: 35px;
+}
 ol, ul {
 	list-style: none;
 }
