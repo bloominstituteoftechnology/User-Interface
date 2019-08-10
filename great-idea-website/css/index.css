@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .nav-links {
 	display: inline;
 	margin-left: 70px;
-    color: darkgrey;
+    
 }
 .nav-combined {
     margin: 0px 390px;
@@ -180,4 +180,17 @@ h1, h2, h3, h4, h5 {
     position: relative;
     bottom: 195px;
     
+}
+.nav-links2 {
+    color: gainsboro;
+    text-decoration: none;
+    
+    
+    
+}
+.nav-links2:visited {
+    color: gainsboro;
+}
+.nav-links2:active {
+    color: gainsboro;
 }
