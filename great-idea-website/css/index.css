@@ -156,66 +156,110 @@ h5 {
   margin: auto;
 }
 
+.header-content {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  margin-top: 50px;
+}
+
 nav a {
   color: grey;
   display: inline-block;
   text-decoration: none;
   font-size: 15px;
-  padding: 40px 80px 40px 0px;
+  margin: 100px 80px 0px 0px;
 }
 
-.nav-bar img {
-  top: 10px;
-  left: 50px;
-  position: relative;
+.nav-bar {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  align-content: center;
 }
 
-h1 {
+.logo {
+  display: inline-block;
+  width: 20%;
+}
+
+.logo img {
+  width: 100%;
+  vertical-align: top;
+  margin-top: -30px;
+}
+
+.main-content h1 {
   font-size: 92px;
   text-align: center;
   display: inline-block;
-  width: 40%;
 }
 
 .main-content {
+  width: 100%;
   position: relative;
-  left: 80px;
+  display: inline-block;
   align-items: center;
-  margin-bottom: 80px;
+  margin-top: -80px;
+  margin-bottom: -50px;
 }
 
-.main-content img {
-  top: 70px;
+.content-left {
+  width: 40%;
+  display: inline-block;
+  justify-content: center;
   position: relative;
-  height: 400px;
-  width: 400px;
-  right: 40px;
+  top: -50px;
+  text-align: center;
 }
 
+.content-right {
+  width: 40%;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 100px;
+}
+
+.content-right img {
+  width: 450px;
+}
+
+.button-content {
+  width: 50%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
 .button {
   position: relative;
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 50px;
   text-decoration: none;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   cursor: pointer;
   user-select: none;
   color: black;
-  right: 285px;
-  top: 55px;
+  font-size: 18px;
 }
 
 .content-1 {
   display: inline-block;
+  position: relative;
+  width: 100%;
   border-top: 1px solid black;
   margin: 50px 0px 0px;
+  /* found this on stackoverflow to ignore white space for percentage */
+  font-size: 0;
 }
 
 .half-content {
-  width: 500px;
+  width: 50%;
   display: inline-block;
-  margin: 50px auto;
+  padding: 40px 20px 40px 0px;
 }
 
 .image-stretch img {
@@ -227,6 +271,7 @@ h1 {
   border-bottom: 1px solid black;
   margin-top: 50px;
   padding-bottom: 50px;
+  font-size: 0;
 }
 
 h2 {
@@ -245,7 +290,7 @@ p {
 footer p {
   text-align: center;
   font-size: 14px;
-  margin: 60px;
+  margin: 120px auto;
 }
 
 footer {
