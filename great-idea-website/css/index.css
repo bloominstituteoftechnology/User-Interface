@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .nav-links {
 	display: inline;
 	margin-left: 70px;
+    color: darkgrey;
 }
 .nav-combined {
     margin: 0px 390px;
