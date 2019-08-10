@@ -64,7 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	background-color: black;
+}
+h1, h2, nav, p, address{
+	color:white;
+}
 
-
+button{
+	color:black;
+}
+h1{
+	font-size: 20px;
+	text-align: right;
+}
 
 
