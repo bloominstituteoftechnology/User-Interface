@@ -65,18 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-	background-color: black;
+	background-color: white;
 }
 h1, h2, nav, p, address{
-	color:white;
+	color:black;
 }
 
 button{
 	color:black;
 }
 h1{
-	font-size: 20px;
+	font-size: 70px;
+	display: inline-block;
 	text-align: right;
+	padding: 25px;
 }
 
-
+footer{
+	padding: 20px 0;
+  text-align: center;
+}
