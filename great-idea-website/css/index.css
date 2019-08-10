@@ -60,7 +60,37 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	padding: 10px 0;
 }
 
 /* Your code starts here! */
+.logo {
+	display: inline-block;
+}
+.Innovation {
+	font-size: 36px;
+}
+
+.snippet {
+	display: inline-block;
+	margin: 20px;
+}
+
+.snippet-container {
+	display: block;
+	float: right; 
+	height: 500px;
+	width: 100%;
+	margin: 20px;
+	padding: 15px;
+}
+
+body {
+	background-color: #B3F2FF;
+	padding: 15px;
+}
+
+nav a {
+	padding: 10px;
+}
