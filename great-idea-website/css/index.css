@@ -162,6 +162,7 @@ h5 {
   width: 100%;
   font-size: 0;
   margin-top: 50px;
+  overflow: hidden;
 }
 
 nav a {
@@ -178,6 +179,50 @@ nav a {
   margin-bottom: 80px;
   padding-top: 20px;
   align-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 60%;
 }
 
 .logo {
@@ -197,6 +242,9 @@ nav a {
   display: inline-block;
 }
 
+.main-content-container p {
+  font-family: 'Montserrat', sans-serif;
+}
 .main-content {
   width: 100%;
   position: relative;
@@ -243,7 +291,33 @@ nav a {
   cursor: pointer;
   user-select: none;
   color: black;
+  transition: all 0.5s;
   font-size: 18px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .content-1 {
@@ -279,6 +353,7 @@ h2 {
 }
 p {
   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .third-content {
