@@ -60,64 +60,67 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-	margin-bottom: 15px;
+	  margin-bottom: 15px;
 	
 }
 
 /* Your code starts here! */
 .container{
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
 }
-.top-text{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: flex-start;
+.top-text nav a{
+  display:inline;
   margin: 25px;
 }
-a{
- margin-left: 30px;
+.idea{
+	margin-left: 20px;
 }
-
 .square {
-  font-size: 80px;
-  margin: 200px 60px;
-  text-align: center;
-  width: 270px
+	margin: 80px 20px;	
+	padding: 40px 50px;
+}
+h1{	
+	display:inline-block;
+	font-size: 80px;
+	width: 300px;
+	text-align: center;	
+	margin-right: 20px;	
+	
 }
 button{
-  width: 160px;
-  height: 30px;
+	width: 200px;
+	height: 30px;
+	margin: 0 40px;
 }
-.sphere{
-  margin-left: 500px;
-  position: absolute;
-  center: 50px;
-  top: 250px;
+.square img{
+    margin-left: 20px;
 }
-.main-content{ 
-  width: 900px;
-  column-count: 2;
-  margin-bottom: 40px;
-}
-
-.mac{
-  margin-right: 20px;
-  margin-bottom: 40px;
+.main-content {
+display: inline-block;
+width: 850px;
+margin-top: 20px;
+columns: 2;
+margin-bottom: 20px;
 }
 .bottom-content{
-  width: 900px;
-  column-count: 3;
-  margin-bottom: 20px
+		display: inline-block;
+		width: 850px;
+		margin-top: 20px;
+		columns: 3;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		}
+.contact{
+	margin-top: 20px;
 }
 .copy{
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
 }
-.border{
-  width: 900px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
+
+
+
+
+
