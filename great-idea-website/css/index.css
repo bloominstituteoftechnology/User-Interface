@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,6 +24,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -54,7 +59,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +69,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+    margin: 0 auto;
+    width: 1100px;
+}
+#mainHeader {
+    padding: 25px;
+    background-color: #ffffff;
+    position: sticky;
+    box-shadow: 0px 2px 5px 0px #9a9595;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+#mainNavigation {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+.navigationUl {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    top: -10px;
+    left: -50px;
+    width: 80%;
+}
+a {
+    padding: 0 20px;
+	display: inline;
+	color:black;
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    transition: all ease-in-out 120ms;
+}
+a:hover {
+	background-color:skyblue;
+	color:white;
+}
+.logo {
+    display: inline-block;
+}
+
+/* Section with the Innovation On Demand and code image */
+#mainHead {
+    position: relative;
+    height: 400px;
+}
+.Section1 {
+    width: 49%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+	top: -55px;
+}
+.Section1 h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
+.Section1 h1 span {
+    width: 100%;
+    display: block;
+}
+.Section1 a {
+    padding: 5px 40px;
+    border: 1px solid #000;
+    color: gray;
+    text-decoration: none;
+}
+
+/* Section Two */
+section#FeatureAbout {
+    border-top: 1px solid #000;
+    padding-top: 30px;
+    position: relative;
+    height: fit-content;
+}
+.Section2 {
+    position: relative;
+}
+.double{
+    width: 49%;
+	padding: 20px 20px 40px 0;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+.tripple {
+    width: 33%;
+    padding: 40px 10px 40px 0;
+    display: inline-block;
+}
+/* Footer */
+footer {
+	width: 100%;
+	padding-top: 40px;
+	border-top: 1px solid #000;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 100px;
+}
+.image2 {
+	text-align:right;
+}
