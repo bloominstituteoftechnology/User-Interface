@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 880px;
+	margin: auto;
+}
+
+nav {
+	display: inline-block;
+	width: 880px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.logo{
+	float: right;
+	margin-top: -25px;
+}
+
+ul li{
+	display: inline-block;
+	padding-right: 30px;
+	margin-top: 50px;
+	color: lightgrey;
+	margin-right: 25px;
+}
+h1{
+	font-size: 90px;
+	margin-bottom: 0px;
+}
+.title{
+	display: inline-block;
+	width: 400px;
+	position: relative;
+	margin: 100px 0px 50px 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+button{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	font-size: 16px;
+	height: 35px;
+	width: 170px;
+	bottom: 195px;
+	text-align: center;
+	margin-top: -15px;
+	cursor: pointer;
+}
+
+.codeimage{
+	margin-top: 60px;
+	width: 40%;
+	position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.contentblock{
+	width: 49%;
+	display: inline-block;
+
+}
+
+.contentblock2{
+	width: 33%;
+	display: inline-block;
+}
+
+
+.content1{
+	border-top: 1px solid black;
+	padding-top: 35px;
+	margin-bottom: 25px;
+}
+
+.content2{
+	margin-top: 25px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+
+p{
+	font-size: 16px;
+	font-weight: 560;
+	
+}
+
+.contact{
+	margin: 25px 0px 30px 0px;
+
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 50px;
+}
