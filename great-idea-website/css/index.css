@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 50px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+li {
+	display: inline-block;
+	width: 105px;
+	text-decoration: none;
+	color: grey;
+	
+}
+
+.last-li {
+	width: 148px;
+}
+
+button {
+	background: white;
+	border-color: black;
+	text-decoration: none;
+	box-shadow: none;
+}
+h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 400%;
+	margin-bottom: 125px;
+	width: 438px;
+}
+
+.top-img {
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+}
+.top-divs {
+	display: inline-block;
+	width: 430px;
+}
+
+.top-divs:first-child {
+	margin-right: 12px;
+}
+
+.main-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 876px;
+	border: 1px;
+	border-top-style: solid;
+	border-bottom-style:solid;
+}
+
+
+.middle-img {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom-divs {
+	display: inline-block;
+	width: 280px;
+	margin-right: 10px;
+}
+
+.bottom-divs:last-child {
+	margin-right: 0px;
+}
+
+.contact-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer {
+	font-size: 75%;
+	margin-left: 350px;
+	margin-bottom: 100px;
+}
