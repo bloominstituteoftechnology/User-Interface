@@ -93,7 +93,6 @@ header {
 
 
 .top-nav {
-	text-align: center;
 	padding-left: 20px;
 	box-sizing: border-box;
 	display: inline;
@@ -113,6 +112,7 @@ header {
 	align-content: center;
 	display: inline-block;
 	box-sizing: border-box;
+	padding-bottom: 90px;
 }
 
 .title {
@@ -127,23 +127,42 @@ header {
 }
 
 .top-content-div {
-	width: 500px;
+	padding-top: 30px;
+	width: 490px;
+	display: inline-block;
 }
 
-h2 {
-
+.middle-img{
+	width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
 
 .bottom-content{
-	margin: 20px 120px 10px 120px;
-	border-bottom: 1px solid black;
+	width: 1000px;
+	margin-left: 250px;
+	border-bottom: 2px solid black;
+}
+
+.bottom-content-div {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 330px;
+	display: inline-block;
 }
 
 .contact{
-	margin: 20px 120px 10px 120px;
-	align-content: left;
+	width: 1000px;
+	margin-left: 250px;
 }
 
 .copyright {
-	margin: 20px 120px 10px 120px;
+	width: 1000px;
+	margin-left: 600px;
+}
+
+li {
+	padding-top:5px;
+	padding-bottom: 5px;
 }
