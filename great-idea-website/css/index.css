@@ -63,4 +63,98 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+body {
+	margin: 30px;
+}
+
+/* Navigation Bar Styling */
+
+nav {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+nav a {
+	color:lightslategray;
+	text-decoration: none;
+	display:inline-block;
+	width: 12%;
+}
+
+/* Header Styling */
+
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+.header-splash, .header-image {
+	width: 40%;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+button {
+	background-color: white;
+	color:black;
+	width: 30%;
+	height: 50px;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+
+/* Main Styling */
+
+main {
+	border-color: slategrey;
+	border-top: 2px solid;
+	margin-top: 30px;
+	padding-top: 20px;
+	border-bottom: 2px solid;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.top-content div {
+	width: 49%;
+	display: inline-block;
+}
+
+.top-content p {
+	margin-right: 5px;
+}
+
+.middle-image {
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.bottom-content div {
+	width: 32%;
+	display: inline-block;
+}
+
+.bottom-content p {
+	margin-right: 5px;
+}
+
+/* Footer Styling */
+
+.contact {
+	margin: 15px 0px;
+}
+.contact p {
+	line-height: 2;
+}
+
+.copyright {
+	text-align: center;
+	margin: 15px 0px;
+}
