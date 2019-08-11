@@ -135,3 +135,13 @@ footer{
 	text-align: center;
 	width:100%;
 }
+.IoD{
+    display: inline-block;
+    float: left;
+    padding-top: 20px;
+}
+.code {
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+}
