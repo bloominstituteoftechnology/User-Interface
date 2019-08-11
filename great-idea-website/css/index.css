@@ -64,3 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.top-nav {
+	text-align: center;
+	align-content: center;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.top-nav a {
+	text-decoration: none;
+	padding-right: 35px;
+	color: gray;
+	margin-right: 100px;
+	box-sizing: border-box;
+}	
+
+header{
+
+}
+
+.title{
+
+}
+
+.circle-img {
+
+}
+
+.box1 {
+width: 250px;
+height: 250px;
+box-sizing: border-box;
+}
+
+
+button{
+	border: 2px solid gray;
+}
