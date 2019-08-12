@@ -63,4 +63,124 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+ display:inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+header .logo {
+  display: inline;
+  margin-top: 25px;
+   
+ 
+  
+}
+
+
+
+ .west{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+ button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+ button:hover {
+  background: black;
+  color: white;
+}
+
+.east {
+  display: inline-block;
+  margin-top: 69px;
+  float: right;
+}
+
+ .features{
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  box-sizing: border-box;
+}
+
+. {
+  padding: 0 10px;
+}
+
+.graph {
+  width: 410px;
+  display: inline-;
+  margin-right: 34px;
+}
+
+ .middle{
+  margin-right: 0;
+  display: inline;
+}
+
+.middle-img {
+  margin-top: 45px;
+}
+
+.end{
+  margin-top: 37px;
+  padding: 0 10px;
+  display: inline;
+}
+
+.green{
+  width: 275px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
