@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+/* Start working on the Nav Bar and logo here */
+nav {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: 3px solid gray;
+}
+a {
+	display: inline-block;
+	border: 3px solid pink;
+	width: 14%;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	color: darkgray;
+	font-size: 16px;
+}
+.logo{
+	border: 3px solid blue;
+	width: 14%;
+	padding: 30px 20px;
+}
+/* From here I'm working on the header!*/
+header{
+display: inline-block;
+width:100%;
+}
+
+h1{
+	font-size: 65px;
+	border: 3px solid blue;
+	padding: 10px;
+	display: inline-block;
+	height: 45%;
+}
+header img{
+	border: 3px solid red;
+	padding: 15px;
+	display: inline-block;
+	height: 45%;
+}
+header h2{
+	font-family: Arial;
+	padding: 5px 10px;
+	border: 1px solid black;
+	text-align: center;
+	width: 12%;
+}
+.about{
+	border: 3px solid green;
+	padding: 5px;
+	width: 100%;
+}
+.about h2{
+	font-size: 20px;
+	display: inline-block;
+	width: 20%;
+	border: 3px solid yellow;
+}
+.about p{
+	border: 3px solid brown;
+	margin: 5px;
+	display: inline-block;
+	width: 25%;
+}
+.middle-img{
+	width: 100%;
+	height:auto;
+}
+/*
+header{
+	display: inline-block;
+}
+h1{
+	font-size: 60px;
+	border: 3px solid blue;
+	padding: 20px;
+	margin: 20px;
+	height: 300px;
+	width: 300px;
+}
+header h1 img{
+	display: inline-block;
+}
+h2{
+	font-size: 26px;
+}
+
+.about p{
+	margin: 10px;
+	border: 3px solid lightpink;
+	padding: 5px;
+	display: inline-block;
+}
+.middle-img{
+	margin:30px;
+	padding: 15px;
+	border: 3px solid green;
+}
+.about div{
+	display: inline-block;
+	word-wrap: normal;
+	width: 500px;
+	height: auto;
+}
+
+.products div p{
+	margin: 10px;
+	border: 3px solid hotpink;
+	padding: 5px;
+	display: inline-block;
+	width: 300px;
+	height: auto;
+}
+footer {
+	border: 3px solid coral;
+} */
