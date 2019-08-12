@@ -65,6 +65,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@keyframes nav-items {
+	from 
+	{
+		color: grey;
+	
+	}
+	to 
+	{
+		color: purple;
+		font-size: 150%;
+	}
+}
+
+@keyframes main-content-ani {
+	form
+	{
+
+	}
+	to
+	{
+		background-image: none;
+		color: black;
+	}
+}
+
+
+nav {
+	background-color: lightcoral;
+	width: 878px;
+	position: fixed;
+	z-index: 1;
+}
 
 li {
 	display: inline-block;
@@ -72,6 +104,10 @@ li {
 	text-decoration: none;
 	color: grey;
 	
+}
+
+li:hover {
+	animation: nav-items 3s;
 }
 
 .last-li {
@@ -82,10 +118,17 @@ li {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	width: 438px;
+	width: 878px;
+	height: 350px;
+	background-image: url("../img/header-img.png");
+	color: purple;
+	margin: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 h1 {
+	font-family: 'Playfair Display', serif;
 	font-size: 450%;
 	margin-bottom: 0px;
 }
@@ -118,6 +161,8 @@ h1 {
 }
 
 .main-content {
+	background-image: url("../img/mid-page-accent.jpg");
+	color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 876px;
@@ -126,6 +171,10 @@ h1 {
 	border-bottom-style:solid;
 }
 
+.main-content:hover {
+	animation: main-content-ani 2s;
+	animation-fill-mode: forwards;
+}
 
 .middle-img {
 	display: block;
@@ -134,6 +183,7 @@ h1 {
 }
 
 .bottom-divs {
+	margin-top: 20px;
 	display: inline-block;
 	width: 280px;
 	margin-right: 10px;
