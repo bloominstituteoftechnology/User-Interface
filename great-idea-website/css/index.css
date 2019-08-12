@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* .a-nav {
+	margin-bottom: 2px;
+} */
+
+header {
+	width: 1000px;
+	margin-left: 230px;
+}
+
+.circle-img {
+	position: sticky;
+	left: 69%;
+	margin-top: 5%;
+}
+
+.el-button {
+	border: 1px solid black;
+	text-decoration: none;	
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-color: white;
+	color: black;
+}
+
+.logo {
+	margin-top: 5px;
+	display: inline;
+}
+
+.top-div{
+	width: 1000px;
+	margin-left: 300px;
+}
+
+
+.top-nav {
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline;
+}
+.top-nav a {
+	text-decoration: none;
+	padding-right: 35px;
+	color: gray;
+	margin-right: 20px;
+	padding-bottom: 2px;
+}	
+
+.div1 {
+	height: auto;
+	width: 50%;
+	text-align: center;
+	align-content: center;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+}
+
+.title {
+	font-size: 80px;
+}
+
+
+.top-content {
+	width: 1000px;
+	margin-left: 250px;
+	border-top: 2px solid black;
+}
+
+.top-content-div {
+	padding-top: 30px;
+	width: 490px;
+	display: inline-block;
+}
+
+.middle-img{
+	width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.bottom-content{
+	width: 1000px;
+	margin-left: 250px;
+	border-bottom: 2px solid black;
+}
+
+.bottom-content-div {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 330px;
+	display: inline-block;
+}
+
+.contact{
+	width: 1000px;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+.copyright {
+	width: 1000px;
+	margin-left: 650px;
+	margin-bottom: 80px;
+}
+
+li {
+	padding-top:5px;
+	padding-bottom: 5px;
+}
