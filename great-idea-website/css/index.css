@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 .nav li { 
 	
 	/* display:inline; */
-	margin:0px 0px 10px 50px;
+	margin:0px 0px 10px 30px;
     padding:25px;
     list-style:none;
     display:inline-block;
@@ -96,13 +96,13 @@ header {
 
 .right-block{
 	display: inline-block;
-	margin: 0px 100px 0px 150px;
+	margin: 0px 100px 0px 0px;
 }
 
 .left-block{
 	font-size: 70px;
-	text-align: center;
-	margin: 0px 0px 0px 150px;
+	 text-align: center; 
+	margin: 0px 0px 0px 250px;
 }
 
 .On{
@@ -116,19 +116,73 @@ button{
 .Features {
 	display: inline-block;
 	/* margin: 0px 600px 0px 0px */
-	width: 30%;
+	width: 45%;
+	margin: 15px 20px 10px 0px
 }
 
 .About {
 	display: inline-block;
 	/* margin: 0px 0px 0px 600px */
-	width: 30%;
+	width: 45%;
+	margin: 15px 20px 10px 5px
 }
 
 .featureAboutBlock{
 	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 150px;
+	margin-right: 140px
 }
 
+
+
+.middle-img{
+	margin: 0px 150px 20px 150px;
+	width: 970px;
+}
+
+.everything {
+	margin: 10px 60px 10px 60px;
+	box-sizing: border-box;
+}
+
+
+
+.Services{
+	display: inline-block;
+	width: 29%;
+	margin: 15px 20px 10px 5px
+
+}
+
+.Product{
+	display: inline-block;
+	width: 29%;
+	margin: 15px 20px 10px 5px
+}
+
+.Vision{
+	display: inline-block;
+	width: 29%;
+	margin: 15px 20px 10px 5px
+}
+
+.bottom {
+	display: inline-block; 
+	/* margin: 0px 600px 0px 0px */
+	
+	 margin: 15px 140px 10px 145px; 
+}
+
+.contact{
+	
+	margin: 20px 0px 0px 150px;
+}
+
+.copyright{
+	text-align: center;
+	/* margin: 20px 0px 0px 440px; */
+}
 h3{
 	display: inline-block;
 }
