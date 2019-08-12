@@ -81,6 +81,17 @@ header {
 	margin-top: 5%;
 }
 
+.el-button {
+	border: 1px solid black;
+	text-decoration: none;	
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-color: white;
+	color: black;
+}
+
 .logo {
 	margin-top: 5px;
 	display: inline;
@@ -155,11 +166,13 @@ header {
 .contact{
 	width: 1000px;
 	margin-left: 250px;
+	margin-top: 20px;
 }
 
 .copyright {
 	width: 1000px;
-	margin-left: 600px;
+	margin-left: 650px;
+	margin-bottom: 80px;
 }
 
 li {
