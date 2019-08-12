@@ -71,10 +71,16 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
+	border: 5px dotted black;
 	display: inline-block;
-	width: 880px;
-	margin-top: 20px;
+	width: 900px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-top: 20px;
 	margin-bottom: 100px;
+	background-color: #0388fc;
+	position: fixed;
+	z-index: 1;
 }
 
 .logo{
@@ -86,18 +92,28 @@ ul li{
 	display: inline-block;
 	padding-right: 30px;
 	margin-top: 50px;
-	color: lightgrey;
-	margin-right: 25px;
+	color: black;
+	margin-right: 15px;
+	font-family: Sofia;
+	font-size: 20px;
+}
+
+a:hover{
+	background-color: white;
 }
 h1{
 	font-size: 90px;
 	margin-bottom: 0px;
 }
+
+h2{
+	font-size: 60px;
+}
 .title{
 	display: inline-block;
 	width: 400px;
 	position: relative;
-	margin: 100px 0px 50px 30px;
+	margin: 250px 0px 50px 30px;
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -115,11 +131,11 @@ button{
 }
 
 .codeimage{
-	margin-top: 60px;
+	margin-top: 215px;
 	width: 40%;
 	position: absolute;
     text-align: center;
-    display: inline-block;
+	display: inline-block;
 }
 
 .contentblock{
@@ -157,7 +173,27 @@ p{
 
 }
 
+.contactpage{
+	margin: 25px 0px 300px 320px;
+}
+
+
 footer{
 	text-align: center;
 	margin-bottom: 50px;
+}
+
+.pagetitle{
+	display: inline-block;
+	width: 400px;
+	text-align: right;
+	margin: 150px 50px 50px 170px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted black;
+}
+
+.construction{
+	margin: 0px 150px 40px 300px;
+	height: 300px;
+	width: 300px;
 }
