@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 1000px;
+	margin: 180px auto 10px auto;
+  }
+  
+  
+  nav{
+	background: #737373;
+	border: 2px solid black;
+	width: 1000px;
+	margin: 25px auto;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	display: inline-block;
+	padding: 12px;
+	color: gray;
+  }
+  nav a{
+	background-color: white;
+	color: #737373;
+	text-align: left;
+	text-decoration: none;
+	margin-right: 61px;
+	margin-left: 5px;
+	transition: .04s;
+  }
+  nav a:hover{
+	background: white;
+	color: #737373;
+	padding: 12px 12px;
+	border: 5px double black;
+	animation-name: slide;
+	animation-duration: .5s;
+  }
+  .navigation{
+	vertical-align: top;
+	text-decoration: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  .GreatIdea{
+	position: static;
+	margin-top: -5px;
+	margin-left: -40px;
+  }
+  header{
+	margin-top: 50px;
+  }
+  .IOD{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+  }
+  h1{
+	font-size: 80px;
+  }
+  .Img1Div{
+	display: inline-block;
+	width: 49%;
+	position: absolute;
+	margin-top: -30px;  
+  }
+  .GetS{
+	background-color: white;
+	color: #737373;
+	width: 200px;
+	margin: 0 auto;
+	border-style: inset;
+	padding: 5px 20px 5px;
+	display:block;
+  }
+  .GetS:hover{
+	background-color: white;
+	color: #737373;
+	border: 2px double black;
+	animation-name: slide;
+	animation-duration: .3s;
+	padding: 10px 30px 10px;
+	transition: .02s;
+  }
+  p{
+	font-size: 110%;
+  }
+  .Content1{
+	margin-top: 100px;
+	border-top: 1px solid black;
+	padding-top: 60px;
+  }
+  h2{
+	font-weight: bold;
+  }
+  #features{
+	display: inline-block;
+	width: 35%;
+	margin-right: 28px;
+	margin-bottom: 25px;
+  }
+  #about{
+	display: inline-block;
+	width: 35%;
+  }
+  .Content2{
+	margin-top: 5px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid black;
+  }
+  #services, #product, #vision{
+	display: inline-block;
+	width: 30%;
+  }
+  #services, #product{
+	margin-right: 38px;
+  }
+  footer{
+	margin-top: 60px;
+	margin-bottom: 60px;
+  }
+  .copyright{
+	text-align: center;
+	font-size: 75%;
+  }
