@@ -55,8 +55,6 @@ table {
 
 
 
-
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -69,3 +67,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.nav li { 
+	
+	/* display:inline; */
+	margin:0px 0px 10px 50px;
+    padding:25px;
+    list-style:none;
+    display:inline-block;
+	text-align:center;
+	color: lightgray;
+}
+
+ul.nav {
+}
+
+header li {
+
+	text-transform: uppercase;
+	
+	display: inline-block;
+	text-align: center;
+}
+
+header {
+	display: inline-block;
+}
+
+.right-block{
+	display: inline-block;
+	margin: 0px 100px 0px 150px;
+}
+
+.left-block{
+	font-size: 70px;
+	text-align: center;
+	margin: 0px 0px 0px 150px;
+}
+
+.On{
+	text-align: center;
+}
+
+button{
+	margin-top: 0px;
+}
+
+.Features {
+	display: inline-block;
+	/* margin: 0px 600px 0px 0px */
+	width: 30%;
+}
+
+.About {
+	display: inline-block;
+	/* margin: 0px 0px 0px 600px */
+	width: 30%;
+}
+
+.featureAboutBlock{
+	display: inline-block;
+}
+
+h3{
+	display: inline-block;
+}
