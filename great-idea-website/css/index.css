@@ -26,20 +26,15 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
 }
-
 nav {
-padding: 30px;
-}
-.services, .products, .vision, .features, .about, .contact {
-	padding: 25px;
-}
-.logo {
-margin-left: 35px;
+	height: 80px;
+	background-color: black;
+	position: fixed;
 }
 ol, ul {
 	list-style: none;
