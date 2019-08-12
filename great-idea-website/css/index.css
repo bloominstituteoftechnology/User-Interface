@@ -65,18 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
+	background-color: darkseagreen;
+}
+
 .container{
 	width: 880px;
 	margin: auto;
 }
 
 nav {
-	border: 5px dotted black;
+	border: 5px outset black;
 	display: inline-block;
 	width: 900px;
 	margin-top: 0px;
-	padding-bottom: 10px;
-	padding-top: 20px;
+	padding: 20px 10px 10px 10px;
 	margin-bottom: 100px;
 	background-color: #0388fc;
 	position: fixed;
@@ -96,6 +99,7 @@ ul li{
 	margin-right: 15px;
 	font-family: Sofia;
 	font-size: 20px;
+	background-color: none;
 }
 
 a:hover{
@@ -130,12 +134,26 @@ button{
 	cursor: pointer;
 }
 
+.middleimg{
+	background-image: url("../img/mid-page-accent.jpg");
+	width: 876px;
+	height: 182px;
+	margin: 10px 0px 10px 0px;
+	border: 5px solid black;
+}
+
 .codeimage{
-	margin-top: 215px;
-	width: 40%;
+	margin: 215px 0px 0px 50px;
+	width: 379px;
+	height: 379px;
 	position: absolute;
-    text-align: center;
+	text-align: center;
 	display: inline-block;
+	background-image: url("../img/header-img.png");
+}
+
+h4{
+	color: darkblue;
 }
 
 .contentblock{
