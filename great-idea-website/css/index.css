@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 900px;
+	margin-left: 20px;
+}
+
+.navigation {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: lightgray;
+	vertical-align: 75%;
+	padding: 0 30px 0 30px;
+}
+
+.navigation img {
+	margin-left: 25px;
+}
+
+header {
+	display: inline-block;
+	padding: 100px 0 50px 0;
+}
+
+header h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 78px;
+	width: 34%;
+	margin: 25px 0 15px 100px;
+}
+
+header div {
+	text-align: center;
+	font-size: 16px;
+	color: gray;
+	height: 30px;
+	width: 18%;
+	padding: 5px;
+	border: 1px solid gray;
+	margin-left: 175px;
+}
+
+header img {
+	margin: -340px 0 0 510px;
+}
+
+.top-content {
+	display: inline-block;
+	border-top: 1px solid black;
+	padding: 40px 0;
+}
+
+.top-content div {
+	display: inline-block;
+	width: 49%;
+}
+
+.bottom-content {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding: 40px 0;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 33%;
+	padding-right: 6px;
+}
+
+.contact {
+	width: 20%;
+	margin-top: 40px;
+}
+
+.contact .phone {
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 50px 0 100px 0;
+}
