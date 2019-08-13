@@ -1,0 +1,199 @@
+/*  http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	
+	box-sizing: border-box;
+}
+
+a {
+	color: silver;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+
+.logo {
+	margin-left: 100px;
+	
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 25px;
+	font-family: 'Bangers', cursive;
+}
+
+.content {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+h2{
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px 75px;
+}
+
+.main-header {
+    display:inline-block;
+    width: 300px;
+    height: 400px;
+    margin:50px;
+    margin-bottom: 50px;
+    vertical-align:top;
+}
+
+.circle {
+    display:inline-block;
+	margin: 50px 50px;
+}
+
+
+.top-content {
+	width: 900px;
+	margin: auto;
+	border-top: 1px solid black;
+	box-sizing: border-box;
+	padding: 20px 0 20px 0;
+}
+
+.box1 {
+	width: 445px;
+	height: 100px;
+	margin: auto;
+	display: inline-block;
+}
+
+.box2 {
+	width: 445px;
+	height: 100px;
+	margin: auto;
+	display: inline-block;
+}
+.bottom-content {
+	width: 900px;
+	margin: auto;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 20px 0 20px 0;
+
+}
+
+.box3 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.box4 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.box5 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+}
+
+.text {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+address {
+	font-size: 13px;
+}
+
+h6 {
+	display: inline-block;
+	height: 20px;
+	width: 150px;
+	margin: 40px 0px 15px 0px; 
+}
