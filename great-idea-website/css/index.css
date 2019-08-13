@@ -181,16 +181,7 @@ h1, h2, h3, h4, h5 {
     bottom: 195px;
     
 }
-.nav-links2 {
-    color: gainsboro;
+a {
+    color: grey;
     text-decoration: none;
-    
-    
-    
-}
-.nav-links2:visited {
-    color: gainsboro;
-}
-.nav-links2:active {
-    color: gainsboro;
 }
