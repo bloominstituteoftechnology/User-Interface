@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.sub-head .sign {
+	font-size: 80px;
+	font-family:'Bangers', cursive;
+	text-align: center;
+	margin-right: 500px;
+	position: relative;
+	top:150px;
+	left:50px;
+}
+
+ header nav a{
+	padding:5px 20px;
+	background: white;
+	margin:20px;
+	color:gray;
+	display:inline-block;
+	text-decoration: none;
+}
+
+.container {
+	margin:0 auto;
+	width: 975px;
+}
+
+.top-section .top-paragraph {
+	display:inline-block;
+	width:450px;
+	margin-top:20px;
+	margin-bottom: 25px;
+
+} 
+
+.button {
+	border:1px solid black;
+	height:40px;
+	width:200px;
+    padding:10px 20px 25px 50px;
+	box-sizing: border-box;
+	font-size: 20px;
+	position: relative;
+	top:175px;
+	left:180px;
+	}
+
+#logo {
+	position:relative;
+	left:800px;
+	bottom:50px;
+}
+
+.sub-head .circle {
+	position: relative;
+	left: 550px;
+	bottom:150px;
+	
+
+}
+
+.bottom-section .paragraph-content {
+	display:inline-block;
+	width:275px;
+	margin:20px;
+
+}
+
+.copyright {
+	position:relative;
+	left:400px;
+}
+
+.font {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;;
+}
