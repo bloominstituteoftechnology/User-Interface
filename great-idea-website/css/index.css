@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5 {
 .inline-1 {
 	display: inline-block;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .inline-2 {
 	display: inline-block;
@@ -184,4 +184,8 @@ h1, h2, h3, h4, h5 {
 a {
     color: grey;
     text-decoration: none;
+}
+.test1 {
+    position: relative;
+    right: 5px;
 }
