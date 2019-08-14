@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.nav-links {
+	display: inline;
+	margin-left: 70px;
+    
+}
+.nav-combined {
+    margin: 0px 390px;
+    
+}
+.logo {
+    margin-top: 25px;
+    margin-bottom: -10px;
+    
+}
+.big-logo {
+	display: inline-block;
+}
+.copyright {
+	text-align: center;
+    margin-top: 50px;
+}
+
+.inline-1 {
+	display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.inline-2 {
+	display: inline-block;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;	
+}
+.innovation {
+    font-size: 90px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 500px;
+
+}
+.huge-logo {
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-bottom: 60px
+}
+.aligning-correct {
+    display: inline-block;
+    margin-left: 500px
+}
+.first-boxes {
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    width: 300px;
+    
+}
+.second-boxes {
+    display: inline-block;
+    margin-left:200px;
+    margin-bottom: 30px;
+    width: 270px;
+}
+.standalone {
+    margin-left: 250px;
+}
+.middle-img {
+    display: inline;
+    margin-left: 500px;
+}
+.border1 {
+    margin-left: 500px;
+    margin-right: 525px;
+}
+.border2 {
+    margin-left: 500px;
+    margin-right: 525px;
+    margin-bottom: 30px;
+}
+.contact {
+    margin-left: 500px;
+    margin-bottom: 15px;
+}
+.contact-info {
+    margin-left: 500px;
+    margin-bottom: 
+}
+.about {
+    margin-left: 252px;
+}
+.one {
+    margin-left: 500px;
+    
+}
+.two {
+   margin-left: 35px 
+}
+.three {
+    margin-left: 35px;
+}
+
+.started {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 600px;
+    font-size: 16px;
+    height: 35px;
+    width: 170px;
+    position: relative;
+    bottom: 195px;
+    
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+.test1 {
+    position: relative;
+    right: 5px;
+}
