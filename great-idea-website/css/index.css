@@ -3,64 +3,381 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* My code starts here! */
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.header-content {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+nav a {
+  color: grey;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 100px 80px 0px 0px;
+}
+
+.nav-bar {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  align-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 60%;
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+}
+
+.logo img {
+  width: 100%;
+  vertical-align: top;
+  margin-top: -30px;
+}
+
+.main-content h1 {
+  font-size: 92px;
+  text-align: center;
+  display: inline-block;
+}
+
+.main-content-container p {
+  font-family: 'Montserrat', sans-serif;
+}
+.main-content {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  margin-top: -80px;
+  margin-bottom: -50px;
+}
+
+.content-left {
+  width: 40%;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+.content-right {
+  width: 40%;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 100px;
+}
+
+.content-right img {
+  width: 450px;
+}
+
+.button-content {
+  width: 50%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 50px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+  user-select: none;
+  color: black;
+  transition: all 0.5s;
+  font-size: 18px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.content-1 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid black;
+  margin: 50px 0px 0px;
+  /* found this on stackoverflow to ignore white space for percentage */
+  font-size: 0;
+}
+
+.half-content {
+  width: 50%;
+  display: inline-block;
+  padding: 40px 20px 40px 0px;
+}
+
+.image-stretch img {
+  width: 100%;
+}
+
+.content-2 {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  font-size: 0;
+}
+
+h2 {
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.third-content {
+  width: 33%;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin: 120px auto;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.address {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.phone {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
