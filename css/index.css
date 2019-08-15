@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +25,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +67,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.site-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+nav{
+	height: 70px;
+	position: fixed;
+	background: white;
+	width: 100%;
+	background: #f1f1f1;
+}
+.nav-links{
+	width: 1200px;
+	margin: 0 auto ;
+	
+}
+.nav-links a{
+	display: inline-block;
+	color: #363636;
+	text-decoration: none;
+	padding: 20px 20px 20px 0px;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+.nav-links a:last-child{
+	margin-right: 0;
+}
+
+.logo{ 
+	vertical-align: middle;
+	float: right;
+	margin-top: 15px;
+}
+.banner{
+	height: 600px;
+	text-align: center;
+}
+.banner div {
+	margin: 100px 100px;;
+	display: inline-block;
+}
+.banner div h1{
+	text-align: center;
+	font-size: 96px;
+	margin-top: 100px;
+}
+.banner div img{
+	width: 120%;
+}
+.cta{
+	font-size: 24px;
+	color: black;
+	text-decoration: none;
+	border: solid 2px black;
+	padding: 5px 60px;
+}
+.row{
+	margin-top: 20px;
+}
+.item-2-col{
+	display: inline-block;
+	width: 590px;
+	font-family: 'Roboto', sans-serif;
+}
+.item-3-col{
+	width: 396px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.middle-img{
+	width: 100%;
+	
+}
+.footer-content{
+	margin-top: 30px;
+}
+.footer-content .copyright{
+	text-align: center;
+	padding: 20px;
+
+}
