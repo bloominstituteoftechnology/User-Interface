@@ -65,32 +65,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.logo {
-	display: inline-block;
-}
-.Innovation {
-	font-size: 36px;
-}
 
-.snippet {
-	display: inline-block;
-	margin: 20px;
-}
-
-.snippet-container {
-	display: block;
-	float: right; 
-	height: 500px;
-	width: 100%;
-	margin: 20px;
-	padding: 15px;
-}
-
-body {
-	background-color: #B3F2FF;
-	padding: 15px;
+nav {
+	height: 100px;
+	width: 878px;
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav a {
-	padding: 10px;
+	color: lightgray;
+	text-decoration: none;
+}
+
+.container {
+	width: 878px;
+	margin: 0 auto;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.button1 {
+	padding: 4px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px;
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.section p {
+	font-size: 70px;
+	font-weight: bolder;
+	margin-right: 50px;
+	font-family: 'Bangers', cursive;
+}
+
+.info {
+	display: flex;
+	justify-content: flex-start;
+	padding: 20px 0px;
+	font-size: 16px;
+}
+
+div .image {
+	display: block;
+	text-align: center;
+}
+
+.services {
+	display: flex;
+	padding: 10px 0px;
+	font-size: 14px;
+}
+
+.services div {
+	margin-left: 10px;
+}
+
+.services div:first-child {
+	margin-left: 0px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
