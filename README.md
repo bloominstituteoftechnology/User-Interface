@@ -1,3 +1,4 @@
+-Alexander Harrison 
 # User Interface Project: Great Idea Web Page
 
 Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
@@ -20,11 +21,11 @@ Project objectives are meant to increase your knowledge by giving you practice o
 
 **Watch this short guide on how to setup your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
 
-- [ ] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
+- [x] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
 
-- [ ] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
+- [x] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
 
-- [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
+- [x] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
 
 ## Stretch Goals:
 
