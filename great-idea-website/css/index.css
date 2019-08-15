@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size:22px;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+
+.container nav a {
+	
+	text-decoration:none;
+	color:lightgrey;
+	margin:15px;
+}
+
+header nav{
+	display:inline-block;
+	
+	
+}
+
+.top-header{
+	margin: 20px auto;
+	
+}
+
+.logo{
+	margin: 0 20px 0 20px;
+}
+
+.bottom-header-container {
+	margin: 50px auto;
+}
+
+.bottom-header-container img{
+	margin: 0 60px 0 150px;
+	width: 300px;
+}
+
+.bottom-header{
+	display:inline-block;
+	position:relative;
+	top:-40px;
+	
+}
+
+.bottom-header h1{
+	margin: auto;
+	width:50px;
+}
+
+ .bottom-header h1:first-of-type{
+	margin: auto;
+	width:240px;
+}
+
+.bottom-header h1:last-of-type{
+	margin: auto;
+	width: 150px;
+}
+
+.bottom-header p{
+	margin:5px auto;
+	width:90px;
+}
+
+.content-row{
+	display:inline-block;
+	margin: 10px auto;
+	width:800px;
+	border-top:2px solid black;
+	padding-top:30px;
+}
+
+
+.content-row div:first-of-type{
+	display:inline-block;
+	margin: 0 40px 0 0;
+	width:350px;
+}
+
+.content-row div:last-of-type{
+	display:inline-block;
+	margin: 0 0 0 40px;
+	width:350px;
+}
+
+.middle-img{
+	margin: 30px auto;
+	width:800px;
+}
+
+.content-row2{
+	display:inline-block;
+	margin: 10px auto;
+	width:800px;
+	border-bottom:2px solid black;
+	padding-bottom:30px;
+	
+}
+
+.content-row2 div{
+	display:inline-block;
+	margin: 0 10px 0 10px;
+	width:250px;
+}
+
+.content-row2 div:first-of-type{
+	display:inline-block;
+	margin: 0 10px 0 0;
+	width:250px;
+}
+
+.content-row2 div:last-of-type{
+	display:inline-block;
+	margin: 0 0 0 10px;
+	width:250px;
+}
+
+footer {
+	margin: 30px 0 20px 0;
+}
+
+address{
+	
+}
+
+.copyright{
+	width:180px;
+	margin: 50px auto;
+	
+}
