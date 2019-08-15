@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Titillium Web';
+}
+
+
+
+header {
+   
+    height: 850px;
+    text-align: center;
+    border-bottom: 2px groove black;
+}
+
+
+nav {
+    margin-top: 35px;
+    margin-left: 60px;
+    float: left;
+    
+    border-radius: 2px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+   
+    color: #d3d3d3;
+    font-size: 20px;
+    font-family:  'Titillium Web'; 
+}
+
+.logo {
+    float: right;
+    height: 50px;
+    display: block;
+    margin:  25px 75px 15px 0px;
+}
+
+
+
+button {
+    color: black;
+    background-color: white;
+    font-family:  'Titillium Web'; 
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border: 1px groove black;
+    
+    
+}
+
+h1 {
+    font-family: 'Bangers';
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 5px;
+   
+}
+
+.header-info {
+   position: absolute;
+   top: 300px;
+   left: 250px;
+   width: 400px;
+  
+  
+}
+
+
+h2 {
+    font-family: 'Bangers';
+    
+}
+
+.header-image {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    height: 550px;
+    
+
+}
+
+.main {
+    border-bottom: 2px groove black;
+    margin-bottom: 30px;
+    height: 800px;
+}
+
+
+
+.features {
+    float: left;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about {
+    float: right;
+    width: 600px; 
+    margin-left: 80px; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+p {
+      font-size: 20px;
+      font-weight: lighter;
+      color: black;
+      margin-top: 20px;
+      
+  }  
+  
+  .middle-img {
+      width: 1500px;
+      height: 200px;
+      margin: 20px 30px;
+     
+  }
+
+  
+
+#vision{
+    display: inline-block;
+    position: absolute;
+    width: 350px;
+    margin-left: 1100px;
+    margin-top: -230px;
+    
+}
+
+footer {
+    margin: 40px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer address {
+    font-family:  'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product{
+    display: inline-block;
+    position: absolute;
+    width: 350px;
+    margin-left: 600px;
+    margin-top: -230px;
+}
+
+#services{
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+ 
+    
+
+      
+
