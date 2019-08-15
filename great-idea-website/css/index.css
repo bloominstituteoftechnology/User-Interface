@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+ #navbar {
+	width: 100%;
+	vertical-align: baseline;
+	background-color: none;
+	position: fixed;
+	height: 45px;
+	margin: 0 auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+/*The vertical-align CSS property sets
+ vertical alignment of an
+  inline or table-cell box.
+https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+
+Setting top: 0; left: 0; bottom: 0; right: 0;
+ gives the browser a new bounding box
+  for the block. At this point the block 
+  will fill all available space in 
+  its offset parent, which is 
+  the body or position:
+   relative; container.*/
+
+   .navigation a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: lightslategray;
+}
+.navigation{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15%;
+	margin-right:15%
+}
+
+
+#navlogo {
+display: inline-block;
+vertical-align: middle;
+margin-left: 20%;
+}
+
+
+#innovate {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 49%;
+	font-size: 70px;
+}
+
+
+
+ #button1{
+	border-radius: 10px;
+	height: 35px;
+	width: 100px;
+}
+#button1:hover {
+	color: rgb(100, 128, 0);
+	background-color: white;
+}
+#innovateimg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 49%;
+}
+
+
+ .upper-wrapper{
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+#feat, #about {
+	display: inline-block;
+	width: 47%;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+ .middle-img {
+	text-align: center;
+	width: 100%;
+}
+
+ .lower-wrapper{
+width: 100%;
+vertical-align: middle;
+text-align: left;
+}
+#services, #product, #vison{
+	display: inline-block;
+	width: 32%;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+
+ #Copyright{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+} 
