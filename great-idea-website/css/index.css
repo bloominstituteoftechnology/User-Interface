@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*  http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -57,10 +55,145 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	
+	box-sizing: border-box;
+}
+
+a {
+	color: silver;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+
+.logo {
+	margin-left: 100px;
+	
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 25px;
+	font-family: 'Bangers', cursive;
+}
+
+.content {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+h2{
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px 75px;
+}
+
+.main-header {
+    display:inline-block;
+    width: 300px;
+    height: 400px;
+    margin:50px;
+    margin-bottom: 50px;
+    vertical-align:top;
+}
+
+.circle {
+    display:inline-block;
+	margin: 50px 50px;
+}
+
+
+.top-content {
+	width: 900px;
+	margin: auto;
+	border-top: 1px solid black;
+	box-sizing: border-box;
+	padding: 20px 0 20px 0;
+}
+
+.top-content-box1 {
+	width: 445px;
+	height: 100px;
+	margin: auto;
+	display: inline-block;
+}
+
+.top-content-box2 {
+	width: 445px;
+	height: 100px;
+	margin: auto;
+	display: inline-block;
+}
+.bottom-content {
+	width: 900px;
+	margin: auto;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 20px 0 20px 0;
+
+}
+
+.bottom-content-box1 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.bottom-content-box2 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.bottom-content-box3 {
+	width: 295px;
+	height: 120px;
+	margin: auto;
+	display: inline-block;
+}
+
+.text {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+address {
+	font-size: 13px;
+}
+
+h6 {
+	display: inline-block;
+	height: 20px;
+	width: 150px;
+	margin: 40px 0px 15px 0px; 
+}
