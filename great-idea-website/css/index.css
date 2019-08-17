@@ -70,75 +70,90 @@ nav {
 	height: 100px;
 	width: 878px;
 	margin: 0 auto;
-	display: flex;
-    align-items: center;
-    justify-content: space-around;
+	display: block;
 }
 
 nav a {
 	color: lightgray;
 	text-decoration: none;
+	padding: 20px;
+	margin-left: 20px;
 }
 
 .container {
 	width: 878px;
 	margin: 0 auto;
+	text-align: center;
 }
 
-.section {
-	display: flex;
-	align-items: center;
-	padding: 15px;
-	text-align: center;
-	padding-bottom: 50px;
+.innovation {
+	height: 381px;
+	width: 50%;
+	float: left;
+	padding-top: 80px;
+	font-family: "bangers";
+	font-size: 70px;
+}
+
+.code-snippet {
+	width: 50%;
+	float: right;
 }
 
 .button1 {
 	padding: 4px 30px;
-	text-align: center;
 	text-decoration: none;
-	display: inline-block;
 	font-size: 14px;
-	margin: 4px;
+	margin: 4px ;
 	background-color: transparent;
 	font-weight: 100;
 }
 
-.section p {
-	font-size: 70px;
-	font-weight: bolder;
-	margin-right: 50px;
-	font-family: 'Bangers', cursive;
+.info {
+	border: 2px solid blue;
 }
 
-.info {
-	display: flex;
-	justify-content: flex-start;
-	padding: 20px 0px;
-	font-size: 16px;
+.features {
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.about {
+	width: 50%;
+	float: right;
+	text-align: left;
+	padding-bottom: 20px;
 }
 
 div .image {
 	display: block;
 	text-align: center;
+	padding-bottom: 15px;
 }
 
-.services {
-	display: flex;
-	padding: 10px 0px;
-	font-size: 14px;
+.triColumn {
+	width: 30%;
+	float: left;
+	text-align: left;
+	margin-right: 25px;
+	margin-bottom: 20px;S
 }
 
-.services div {
-	margin-left: 10px;
+.contact {
+	text-align: left;
+	padding-top: 20px;
 }
 
-.services div:first-child {
-	margin-left: 0px;
+.break1 {
+	clear: right;
+}
+
+.break2 {
+	clear: both;
 }
 
 .copyright {
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 50px;
 }
