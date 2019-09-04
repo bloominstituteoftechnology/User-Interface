@@ -196,6 +196,7 @@ header nav a:hover {
   100% { transform: translateY(0); }
 }
 /*END OF STRETCH TASK*/
+
 header nav a:first-child {
   margin-left: 0;
 }
