@@ -182,8 +182,20 @@ header nav a {
 
 header nav a:hover {
   text-decoration: underline;
+  /*STRETCH TASK*/
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+  
 
+@keyframes bounce{
+  0%{ transform: translateY(0); }
+  50%  { transform: translateY(-.9px); }
+  100% { transform: translateY(0); }
+}
+/*END OF STRETCH TASK*/
 header nav a:first-child {
   margin-left: 0;
 }
