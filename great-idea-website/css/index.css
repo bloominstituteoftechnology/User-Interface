@@ -153,13 +153,6 @@ h5 {
   margin-bottom: 15px;
 }
 
-.slogan{
-display:flex;
-justify-content: center;
-flex-flow: row wrap;
-align-content: space-around;
-}
-
 .container {
   width: 880px;
   /* TB LR */
@@ -296,16 +289,13 @@ header .logo {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 50px 0;
-
-}
-
-.contact-info {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: left;
   align-content: center;
-
 }
+
 
 .contact p {
   margin: 20px 0;
@@ -327,3 +317,8 @@ justify-content: right;
 flex-flow: row wrap;
 }
 
+.main-content2{
+  background-color: whitesmoke;
+border: .45px solid black;
+padding: 10px;
+}
