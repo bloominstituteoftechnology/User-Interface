@@ -65,8 +65,41 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation{
-	color: gray;
-	font-size: 20px;
+
+.navigation {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+ }
+
+a {
+  color: slategray;
+  text-decoration: none;
 }
 
+.navigation a:hover {
+  color: red;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.logo {
+ display: flex;
+ height: 50px;
+ float: right;
+ overflow: auto;
+ padding: 5px;
+ position: absolute;
+ right: 55px;
+ top: 10px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 80px;
+  text-align: center;
+}
