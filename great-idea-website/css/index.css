@@ -136,19 +136,21 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1{
+  font-family: 'Monoton', cursive;
   font-size: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", cursive;
+  font-family: 'Orbitron', sans-serif;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -174,8 +176,9 @@ header {
 }
 
 header nav a {
-  margin-right: 65px;
-  font-size: 17px;
+  font-family: 'Orbitron', sans-serif;
+  margin-right: 45px;
+  font-size: 14px;
   color: gray;
   text-decoration: none;
 }
@@ -206,7 +209,11 @@ header nav a:last-child {
 }
 
 header .logo {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: right;
   margin-top: 25px;
+  margin-left: 25px;
 }
 
 /* cta */
@@ -228,6 +235,7 @@ header .logo {
 }
 
 .cta .cta-text button {
+  font-family:'Orbitron', sans-serif; 
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -327,7 +335,9 @@ img {
 .logo {
 display: flex;
 justify-content: right;
+align-content: space-around;
 flex-flow: row wrap;
+margin-right: -55px;
 }
 
 .main-content2{
