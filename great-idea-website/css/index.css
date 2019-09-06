@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-size:1em;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +65,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration:none;
+	color: gray;
+}
+
+.container{
+	width:100%;
+	height:100vh;
+}
+
+.header{
+	width: 100%;
+	height:100px;
+	text-align: justify;
+	line-height: 100px;
+	position: relative;
+}
+
+.header a{
+	width: 100%;
+	margin-left:5%;
+}
+
+.header:after{
+	display: inline-block;
+	width: 100%;
+	content: '';
+}
+
+.header img{
+	vertical-align: middle;
+	margin-bottom: 0.25em;
+	margin-right:5%;
+}
+
+.main{
+	width:100%;
+	height:auto;
+	font-size:0em;
+	border-bottom:solid 2px;
+	padding-bottom: 125px;
+	margin-top:50px;
+}
+
+.text-main{
+	width:50%; 
+	text-align: center;
+	display:inline-block;
+	font-size:1.5rem;
+}
+
+.text-main span{
+	padding:50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:solid 1px;
+	width:auto;
+}	
+
+.text-main a {
+	color: black;
+}
+
+.main h1{
+	font-size:6rem;
+}
+
+.main .img{
+	display:inline-block;
+	width:50%;
+	text-align:center;
+}
+
+.info{
+	width:100%;
+	display:inline-block;
+	font-size:0em;
+	padding:50px;
+	margin-bottom:50px;
+	border-bottom:solid 2px;
+}
+.info div{
+	font-size:1.5rem;
+	display:inline-block;
+}
+.info img{
+	width:100%;
+	padding:25px;
+}
+.features{
+	width:50%;
+}
+.about{
+	width:50%;
+}
+.services{
+	width:33.3%;
+}
+.product{
+	width: 33.3%;
+}
+.vision{
+	width: 33.3%;
+}
+.footer{
+	padding:50px;
+	font-size:1.5rem;
+}
+.copyright{
+	width:100%;
+	text-align:center;
+	padding-bottom:100px;
+}
