@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.main-header .navbar {
+  padding: 10px;
+  background: #ccc;
+  position: fixed;
+  width: 75%;
+}
+
+.main-header .navbar ul {
+  display: inline-block;
+}
+
+.main-header .navbar ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.main-header .navbar ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.main-header .navbar ul li a:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  margin-left: 35%;
+}
+
+/* Hero section */
+.main-header .caption {
+  display: inline;
+  text-align: center;
+}
+
+.main-header .caption h1 {
+  font-size: 75px;
+  display: inline-block;
+  padding: 5px;
+  margin: 10% 0 2% 10%;
+  font-family: "Anton" sans-serif;
+}
+
+.main-header .caption a {
+  padding: 0 20px 0 20px;
+  border: #333 1px solid;
+  color: #333;
+  text-decoration: none;
+  margin: 0 0 0 16%;
+  font-size: 20px;
+}
+
+.main-header .caption a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.main-header .header-img {
+  margin: -25% 0 8% 70%;
+}
+
+/* Content section */
+
+.content-section .content-box-top {
+  display: inline-block;
+  max-width: 500px;
+  margin: 2% 0 2% 8%;
+  padding: 20px;
+}
+
+.content-section .content-box h1 {
+  font-size: 30px;
+}
+
+.content-section .content-box p {
+  font-size: 18px;
+}
+
+.content-section .middle-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content-section .content-box-bottom {
+  display: inline-block;
+  max-width: 300px;
+  margin: 2% 0 2% 8%;
+  padding: 20px;
+}
+
+/* Footer */
+footer h1 {
+  margin-top: 2%;
+}
+
+/* Margin-bottom */
+footer p {
+  margin-bottom: 2%;
+}
+
+footer .copyright {
+  text-align: center;
+}
