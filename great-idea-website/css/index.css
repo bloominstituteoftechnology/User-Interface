@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+#navigation{
+    margin: 0px 0px 60px 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;    
+}
+#navigation a{
+    padding: 20px;
+    color: gray;
+}
+#navigation, #navlogo{
+    display: inline-block;
+}
+#get-attention{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+}
+#innovate, #innovate-logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+#innovate{
+    font-size: 75px;
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+}
+#button1{
+    padding: 10px 40px;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+#button1:hover{
+    background-color: black;
+    color: white;
+}
+#title{
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    width: 100%;
+    vertical-align: middle;
+}
+.content1{
+    display: inline-block;
+    text-align: left;
+    max-width: 49%;
+    margin: 25px 0px 25px 0px;
+}
+.content2{
+    display: inline-block;
+    text-align: left;
+    max-width: 31%;
+    margin: 25px 0px 25px 0px;
+}
+.content img{
+    width: 100%;
+    padding: 10px;
+}
+footer{
+	padding: 25px;
+}
