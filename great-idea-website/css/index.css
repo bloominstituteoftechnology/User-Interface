@@ -72,3 +72,18 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	font-size: 16px;
 }
+.second{
+	margin: 30px;
+	border: 1px solid black;
+	padding: 40px;	
+}
+.second img{
+	vertical-align:10px
+	
+}
+
+
+
+
+
+
