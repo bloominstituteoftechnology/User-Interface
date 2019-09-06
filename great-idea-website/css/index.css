@@ -65,27 +65,26 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-    margin: 0 auto;
+    margin: auto;
     width: 1000px;
 }
-#navigation{
-    margin: 0px 0px 60px 0px;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px;    
-}
-#navigation a{
-    padding: 20px;
-    color: gray;
-}
-#navigation, #navlogo{
+
+header nav{
     display: inline-block;
+}
+header nav a{
+    margin: 0px 20px;
+    padding: 20px
+   color: gray;
+}
+#navlogo{
+    margin-left: 200px;
 }
 #get-attention{
     width: 100%;
     padding: 10px 0px;
     text-align: center;
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 150px 0px;
 }
 #innovate, #innovate-logo{
     display: inline-block;
@@ -95,7 +94,7 @@ h1, h2, h3, h4, h5 {
 #innovate{
     font-size: 75px;
     margin: 0px;
-    padding:0px;
+    padding:50px;
     text-align: center;
 }
 #button1{
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     text-align: left;
     max-width: 49%;
-    margin: 25px 0px 25px 0px;
+
 }
 .content2{
     display: inline-block;
@@ -134,5 +133,6 @@ h1, h2, h3, h4, h5 {
     padding: 10px;
 }
 footer{
-	padding: 25px;
+    margin-bottom: 100px;
+    padding: 25px;
 }
