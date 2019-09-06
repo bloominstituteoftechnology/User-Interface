@@ -58,7 +58,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Shadows Into Light', cursive;
+    /* font-family: 'Bangers', cursive; */
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -68,6 +69,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
+	/* border: 1px solid red; */
 }
 
 header nav {
@@ -75,16 +77,37 @@ header nav {
 	margin-top: 35px;
 }
 
-header .logo {
-	margin-left: 140px
+header nav a {
+	text-decoration: none;
+	color: grey;
+}
+header a {
+	display: inline-block;
+	margin: 0 77px;
+}
+
+header {
+	background-image: linear-gradient(#008cff, white, rgba(255,0,0,0));
+	padding-bottom: 150px;
+	position: fixed;
+	top: 0;
 }
 
 header nav a {
 	margin: 0 20px;
+	color: black;
+}
+
+header nav a:hover {
+	background: grey;
+	color: white;
+	transition: 0.8s;
+	padding: 5px 0;
 }
 
 section.cta {
 	margin: 35px;
+	margin-top: 150px;
 }
 section .cta-text {
 	display: inline-block;
@@ -133,4 +156,28 @@ img.middle-img {
 footer {
 	text-align: center;
 	margin: 30px;
+}
+
+/* 
+#######################
+#######################
+Products Page
+#######################
+#######################
+*/
+
+div.main-product {
+	margin: 200px 0;
+}
+
+div.main-product h2 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 75px; 
+}
+
+div.text-product {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
 }
