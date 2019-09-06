@@ -59,6 +59,36 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header .logo {
+.mainNav {
+	/* border: 2px solid black; */
+	margin: 20px;
+	padding: 10px;
+	width: 100%;
+	text-align: left;
 	display: inline-block;
+}
+
+.mainNav a {
+	/* border: 2px solid green; */
+	margin: 2%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content_2 {
+	border: 2px solid red;
+	margin: 1%;
+	width: 100%;
+}
+
+.content_2_box {
+	border: 2px solid blue;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 1%;
+	width: 48%;
+	min-width: 250px;
 }
