@@ -72,11 +72,13 @@ h1, h2, h3, h4, h5 {
 header nav{
     display: inline-block;
 }
+
 header nav a{
-    color: gray;
+    color: #3FF06C;
     margin: 0px 20px;
     padding: 20px;
     text-decoration: none;
+    background: #598EA0;
 }
 
 #navlogo{
@@ -110,9 +112,18 @@ header nav a{
     border: 1px solid black;
     color: black;
 }
+@keyframes link{
+    0%{background:black;}
+    25%{background:darkgreen;}
+    50%{background: darkblue;}
+    100%{background:blueviolet }
+}
 #button1:hover{
-    background-color: black;
     color: white;
+    font-size: 75%;
+    animation-name: link;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 #title{
     padding: 0px;
@@ -129,6 +140,7 @@ header nav a{
     display: inline-block;
     text-align: left;
     max-width: 49%;
+    font-family: 'Livvic', sans-serif;
 
 }
 .content2{
@@ -136,6 +148,7 @@ header nav a{
     text-align: left;
     max-width: 31%;
     margin: 25px 0px 25px 0px;
+    font-family: 'Livvic', sans-serif;
 }
 .content img{
     width: 100%;
