@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+p{
+	font-weight: bold;
+	
+}
+.container{
+	margin: 0 auto;
+	width: 900px;
+	
+	
+	
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 5%;
+	
+}
+
+header nav{
+	display: inline-block;
+	
+	
+	
+}
+
+	header nav a{
+		
+		color: lightgray;
+		text-decoration: none;
+		text-align: left;
+		margin-right: 55px;
+
+	}
+	
+
+.iod{
+	width: 49%;
+	vertical-align: middle;
+	padding: 5%;
+	text-align: center;
+	display: inline-block;
+	font-size: 80px;
+	
+	font-family: 'Bangers';
+}
+span{
+		border-bottom: 1px solid black;
+		display: inline-block;
+	}
+	
+	
+}
+.b{
+
+}
+
+button{
+	padding: 0 25px;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 20px;
+
+	
+	
+}
+
+.middle-img{
+width: 98%;
+margin: 4% 0;
+}
+
+
+
+.features{
+	
+	display: inline-block;
+	width: 49%;
+	
+	
+	
+}
+
+.services{
+	width: 33%;
+	display: inline-block;
+	
+}
+
+.contact{
+	text-align: left;
+	margin-top: 10%;
+}
+
+footer{
+	text-align: center;
+	margin: 5%;
+}
