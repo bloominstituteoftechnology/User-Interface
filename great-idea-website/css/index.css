@@ -103,6 +103,7 @@ nav a:hover {
 	width: 49%;
 	height: 100%;
 	vertical-align: middle;
+	text-align: center;
 }
 .title {
 	display: inline-block;
