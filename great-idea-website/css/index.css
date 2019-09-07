@@ -64,3 +64,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 72px;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto; 
+	/*border: 12px solid black;*/
+}
+.navigation-bar {
+	overflow: hidden;
+    background-color:grey;
+    position: fixed;
+    top: 0;
+    padding-bottom: 28px;
+    width: 100%;
+}
+
+.navigation-bar a{
+	color: white;
+	text-decoration: none;
+	margin: 30px;
+	padding: 10px;
+	position: relative;
+	top: 1px;
+	left: 230px;
+	/*background-color: black;
+	border-radius: 12px;*/
+
+}
+
+.navigation-bar img {
+	margin-left: 12px;
+	position: relative;
+	top: 12px;
+	left 50px;
+}
+
+header{
+	border-bottom: 2px solid black;
+}
+.header-content {
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+    margin: 10%;
+    width: 20%;
+    min-width: 250px;
+}
+
+.header-container{
+	display: inline-block;
+	margin: 120px;
+}
+
+.header-container img{
+	align-content: right;
+}
+
+.logo{
+	position: relative;
+	left: 250px;
+}
+
+.button-header {
+	border: 2px solid black;
+	padding: 10px 0 10px 0;
+
+}
+
+.features-about{
+	display: inline-block;
+    margin: 1%;
+	width: 47%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.middle-img{
+	width: 100%;
+
+}
+
+.content-3-box{
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+
+.service-product-vision{
+	display: inline-block;
+    margin: 1%;
+	width: 31%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.contactme{
+	padding-top: 40px;
+	display: inline-block;
+    margin: 1%;
+	width: 31%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
