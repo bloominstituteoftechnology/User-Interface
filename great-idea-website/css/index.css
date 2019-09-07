@@ -73,12 +73,14 @@ header nav{
     display: inline-block;
 }
 header nav a{
+    color: gray;
     margin: 0px 20px;
-    padding: 20px
-   color: gray;
+    padding: 20px;
+    text-decoration: none;
 }
+
 #navlogo{
-    margin-left: 200px;
+    margin-left: 10px;
 }
 #get-attention{
     width: 100%;
@@ -90,12 +92,16 @@ header nav a{
     display: inline-block;
     vertical-align: middle;
     margin-top: 100px;
+    
 }
 #innovate{
     font-size: 75px;
-    margin: 0px;
+    margin-right: 50px;
     padding:50px;
     text-align: center;
+}
+#innovate-logo{
+    margin-left: 50px;
 }
 #button1{
     padding: 10px 40px;
@@ -111,6 +117,9 @@ header nav a{
 #title{
     padding: 0px;
     margin: 0px;
+}
+.cont-header{
+    margin-top: 25px;
 }
 .content{
     width: 100%;
