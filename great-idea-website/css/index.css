@@ -78,11 +78,15 @@ a {
 }
 
 .header{
+	position:fixed;
+	z-index:1;
+	top:0;
 	width: 100%;
 	height:100px;
 	text-align: justify;
 	line-height: 100px;
-	position: relative;
+	background-color:white;
+	border-bottom: solid 2px;
 }
 
 .header a{
@@ -108,7 +112,7 @@ a {
 	font-size:0em;
 	border-bottom:solid 2px;
 	padding-bottom: 125px;
-	margin-top:50px;
+	margin-top:150px;
 }
 
 .text-main{
