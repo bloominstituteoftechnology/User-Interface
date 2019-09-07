@@ -3,87 +3,7 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -94,17 +14,7 @@ video {
 
 /* HTML5 display-role reset for older browsers */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -112,20 +22,15 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
@@ -141,17 +46,12 @@ table {
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -181,7 +81,6 @@ h1 {
 .logo {
     display: inline;
     margin: 0px 30px 0px 5%;
-
 }
 
 a {
@@ -200,7 +99,6 @@ p {
     /* border: 2px solid red; */
     margin: 1%;
     width: 100%;
-
 }
 
 .content_2_box {
@@ -210,9 +108,6 @@ p {
     text-align: center;
     margin: 1%;
     width: 23%;
-
-
-
 }
 
 .getStartedBox {
@@ -222,7 +117,6 @@ p {
     width: 100%;
     text-align: center;
     width: 23%;
-
 }
 
 .content_1_box {
@@ -231,7 +125,6 @@ p {
     padding: 10px;
     margin: 1%;
     width: 31%;
-
 }
 
 .middle-img {
@@ -241,7 +134,6 @@ p {
     margin: 1%;
     width: 50%;
 }
-
 
 .bottom_2_box {
     /* border: 2px solid blue; */
@@ -257,7 +149,6 @@ p {
     margin: 10px;
     width: 23%;
 }
-
 
 footer {
     text-align: center;
