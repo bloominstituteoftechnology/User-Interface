@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav a {
+  margin: 0 25px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: stretch;
+}
+
+img {
+  margin: 10px;
+}
+
+.logo {
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.company_info {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  align-self: center;
+  border-bottom: 1px solid black;
+}
+
+.company_goals {
+  display: inline-block;
+  font-size: 80px;
+  bottom: 40px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0 100px 0;
+  text-align: center;
+}
+
+.heading {
+  height: 250px;
+}
+
+button {
+  width: 130px;
+  height: 35px;
+  margin: 10px 192px;
+  margin-bottom: 30px;
+  background: white;
+  border: 1px solid black;
+}
+
+.main_content {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.top_text {
+  display: inline-block;
+  line-height: 1.6;
+  height: 200px;
+  width: 352px;
+  margin: 40px;
+  text-align: justify;
+}
+
+.bottom_text {
+  display: inline-block;
+  line-height: 1.6;
+  height: 200px;
+  width: 252px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.contact_us {
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.copyright {
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
