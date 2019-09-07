@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-	border: 1px solid red;
+	border: 1px
 }
 
 .container nav a {
@@ -91,8 +91,22 @@ h1, h2, h3, h4, h5 {
 	  max-width: 270px;
 	  margin: 140px 40px 0px 80px;
 	  text-align: center;
+	  display: inline-block;
 
 	  
+  }
+
+  h1 {
+	  display:inline-block;
+  }
+
+  .headerButton {
+	  border: solid black;
+	  margin: 15px;
+	  border-radius: 150px 40px 150px 40px;
+  }
+  img {
+	  display:inline-block;
   }
 
   .topRow2 {
@@ -162,21 +176,27 @@ h2{
 	
 }
 .topContent2 {
-	display: inline-block;
+	
 	vertical-align: top;
 	padding: 30px;	
 	text-align: center;
 	border-top: 2px solid black;
-	border: 2px solid red;
+	border: 2px 
 }
 
 
 .box1 {
-	border: 2px solid purple;
+	display: inline-block;
+	border-top: 1px solid black; ;
 	
 	padding: 30p 20px;
 	
 	
+}
+
+.middle-img{
+	padding: 20px 20px;
+	align:center;
 }
 
 .bottomContent {
@@ -185,7 +205,7 @@ h2{
 	vertical-align: top;
 	padding: 30px;
 	text-align: center;
-	border:2px purple;
+	border:2px;
 }
 
 h2 {
