@@ -66,6 +66,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+.container {
+	border: 1px solid red;
+}
+
 .container nav a {
 	margin: 0 10px;
 	border: 1px solid white;
@@ -75,13 +80,27 @@ h1, h2, h3, h4, h5 {
 	color: lightgray;
 	text-decoration: none;
 	margin-bottom: 20px;
+	max-width:100%;
 	
 	background: white;
   }
 
-  .topRow2 {
-	  
+
+  .topRow1{
+	  font-size: 430%;
+	  max-width: 270px;
+	  margin: 140px 40px 0px 80px;
 	  text-align: center;
+
+	  
+  }
+
+  .topRow2 {
+	  display:
+	  border: solid green;
+	  padding: 20px;
+	  
+	  text-align: right;
   }
 
 
@@ -93,11 +112,10 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
+	
 }
 
-.box1 {
-	text-align: center;
-	display: inline-block;
+
 	
 
 }
@@ -126,6 +144,7 @@ h2{
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 25px 10px;
+	display: inline-block;
 }
 
 
@@ -147,7 +166,17 @@ h2{
 	vertical-align: top;
 	padding: 30px;	
 	text-align: center;
-	border-top: 1px solid black;
+	border-top: 2px solid black;
+	border: 2px solid red;
+}
+
+
+.box1 {
+	border: 2px solid purple;
+	
+	padding: 30p 20px;
+	
+	
 }
 
 .bottomContent {
@@ -156,6 +185,12 @@ h2{
 	vertical-align: top;
 	padding: 30px;
 	text-align: center;
+	border:2px purple;
+}
+
+h2 {
+	display: inline-block;
+	padding: 20px;
 }
 
 footer {
