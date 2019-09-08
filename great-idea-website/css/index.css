@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 	
+header{
+	border: 1px solid black
+}
 .navigation a{
 	margin: 20px;
 	display: inline;
@@ -73,26 +76,44 @@ h1, h2, h3, h4, h5 {
 	font-size: 16px;
 }
 .second{
-	margin: 30px;
-	border: 1px solid black;
+	margin-left: 30px;
+	
+
+	
 	
 		
 	
 }
 .second .left{
-	text-align: left;
+	
 	font-size: 50px;
-	display: block;
-	border: 1px solid black;
-	padding: 20px;
-	margin: 5px;
-	
-
+	display: inline-block;
+	padding: 40px;
+	margin-bottom: 20px;
 }
-.second .rigth{
-	text-align: end;
+.second .left button{
+	margin: 105px;
+}
+.innovation{
+	font-size: 60px;
+	padding:25%;
+	margin: 1%;
+	vertical-align: top;
+}
+
+	
+	.second .rigth{
+		margin-left: 20px ;
+		padding: 5px;
+	
+	display: inline-block;
 	
 	
+}
+.theer{
+	display: inline-block;
+	border :1px solid black;
+	width: 100%;
 }
 
 	
