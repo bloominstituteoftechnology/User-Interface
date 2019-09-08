@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 90%;
+	margin: 5rem;
+}
+.navigation a{
+	margin: 20px;
+	display: inline;
+	padding: 40px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.second{
+	margin: 2%;
+	
+}
+.second .left{
+	
+	font-size: 50px;
+	display: inline-block;
+	padding: 40px;
+	margin-bottom: 5px;
+	width: 43%;
+}
+.second .left button{
+	margin: 60px;
+	border: 1px solid black;
+	vertical-align: center;
+	width: 43%;
+
+}
+.innovation{
+	font-size: 50px;
+	padding:1%;
+	margin-top: 5%;
+	vertical-align: center;
+}
+	.second .rigth {
+	vertical-align: center;
+	display: inline-block;	
+	width: 43%;
+	padding: 30px;
+	
+}
+.theer{
+	display: inline;
+	width: 80%;
+
+}
+.theer div{
+	width: 450px;
+	height: 90px;
+	margin: 10px;
+	padding: 40px;
+	display:inline-block;
+	
+}
+.middle-img{
+ margin: 20px;
+ padding: 30px;
+}
+.for{
+	width: 80%;
+}
+.for div{
+	width: 250px;
+	height: 2px;
+	margin-left:30px; 
+	padding: 20px;
+	display:inline-block;
+}
+.five{
+	width: 80%;
+	margin: 20px;
+	padding: 20px;
+}
+.five  span h4{
+	color: red;
+	
+	
+}
+
+
+	
+
+
+
+
+
+
+
