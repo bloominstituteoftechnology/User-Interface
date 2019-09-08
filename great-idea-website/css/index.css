@@ -65,9 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 	
-header{
-	border: 1px solid black
-}
+
+	
+
 .navigation a{
 	margin: 20px;
 	display: inline;
@@ -102,9 +102,10 @@ header{
 }
 
 	
-	.second .rigth{
-		margin-left: 20px ;
-		padding: 5px;
+	.second .rigth {
+		vertical-align: 150px;
+		
+		
 	
 	display: inline-block;
 	
@@ -114,7 +115,16 @@ header{
 	display: inline-block;
 	border :1px solid black;
 	width: 100%;
+	display: inline-block;
 }
+.first{
+	width: 50%;
+}
+	
+ .second2{
+	 width: 50%;
+	 
+ }
 
 	
 
