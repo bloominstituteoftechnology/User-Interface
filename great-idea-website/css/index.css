@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-	
-
-	
-
+.container{
+	width: 90%;
+	margin: 5rem;
+}
 .navigation a{
 	margin: 20px;
 	display: inline;
@@ -76,12 +76,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 16px;
 }
 .second{
-	margin-left: 30px;
-	
-
-	
-	
-		
+	margin: 2%;
 	
 }
 .second .left{
@@ -89,42 +84,67 @@ h1, h2, h3, h4, h5 {
 	font-size: 50px;
 	display: inline-block;
 	padding: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+	width: 43%;
 }
 .second .left button{
-	margin: 105px;
+	margin: 60px;
+	border: 1px solid black;
+	vertical-align: center;
+	width: 43%;
+
 }
 .innovation{
-	font-size: 60px;
-	padding:25%;
-	margin: 1%;
-	vertical-align: top;
+	font-size: 50px;
+	padding:1%;
+	margin-top: 5%;
+	vertical-align: center;
 }
-
-	
 	.second .rigth {
-		vertical-align: 150px;
-		
-		
-	
-	display: inline-block;
-	
+	vertical-align: center;
+	display: inline-block;	
+	width: 43%;
+	padding: 30px;
 	
 }
 .theer{
-	display: inline-block;
-	border :1px solid black;
-	width: 100%;
-	display: inline-block;
+	display: inline;
+	width: 80%;
+
 }
-.first{
-	width: 50%;
-}
+.theer div{
+	width: 450px;
+	height: 90px;
+	margin: 10px;
+	padding: 40px;
+	display:inline-block;
 	
- .second2{
-	 width: 50%;
-	 
- }
+}
+.middle-img{
+ margin: 20px;
+ padding: 30px;
+}
+.for{
+	width: 80%;
+}
+.for div{
+	width: 250px;
+	height: 2px;
+	margin-left:30px; 
+	padding: 20px;
+	display:inline-block;
+}
+.five{
+	width: 80%;
+	margin: 20px;
+	padding: 20px;
+}
+.five  span h4{
+	color: red;
+	
+	
+}
+
 
 	
 
