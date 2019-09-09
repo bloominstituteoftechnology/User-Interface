@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+a{
+	box-sizing: border-box;
+	margin-top: 20px;
+	color: grey;
+	margin: 20px;
+  }
+  a:hover{
+	color: red;
+  }
+  .logo{
+	box-sizing: border-box;
+	margin-left: 570px;
+	margin-top:-100px;
+	width: 150px;  
+  }
+  h1{
+	box-sizing: border-box;
+	margin-top: 100px;
+	margin-left:100px;
+	text-align: right;
+	width: 50px;
+	font-size: 50pt;
+  }
+  h3{
+	box-sizing: border-box;
+	margin-left: 120px;
+	text-align:center;
+	height: 30px;
+	width:150px;
+	padding: 7px;
+	border: 2px solid black;
+  }
+  h3:hover{
+	background-color: grey;
+  }
+  .code{
+	margin-left: 500px;
+	margin-top: -270px;
+	box-sizing: border-box;
+	height:300px;
+	border-radius: 50%
+  
+  }
+  .info{
+	box-sizing:border-box;
+	margin-top: 50px;
+  }
+  .features{
+	box-sizing: border-box;
+	text-align: left;
+	width: 430px;
+	height: 100px;
+  }
+  .about{
+	box-sizing: border-box;
+	width: 430px;
+	height: 100px;
+	margin-left: 500px;
+	margin-top: -100px;
+  }
+  .middle-img{
+	box-sizing:border-box;
+  
+  }
+  .services{
+	box-sizing: border-box;
+	width: 280px;
+   
+  }
+  .product{
+	box-sizing: border-box;
+	width: 280px;
+	margin-left: 350px;
+	margin-top: -120px;
+	
+  }
+  .vision{
+	box-sizing: border-box;
+	width: 280px;
+	margin-left: 700px;
+	margin-top: -127px;
+  }
+  
+  footer{
+	box-sizing:border-box;
+	margin-top: 100px;
+  }
+  .line{
+	box-sizing:border-box;
+	border: .5px solid black;
+	margin-top: 100px;
+	width: 1000px;
+  }
+  h5{
+	box-sizing:border-box;
+	margin-top: 50px;
+  }
+  span{
+	box-sizing:border-box;
+	margin-left: 500px;
+	margin-bottom: 100px;
+  }
+  
+  
+  
