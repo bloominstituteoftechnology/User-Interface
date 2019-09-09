@@ -113,29 +113,31 @@ nav {
 
 .header-container {
 	width: 100%;
-	height: 500px;
-  margin: 0px 20px;
+	height: 300px;
+  	margin: 0px 20px 0px 100px;
   
 }
 
 .subtitle {
 	width: 300px;
 	display: inline-block;
-  text-align: center;
+  	text-align: center;
 }
 
 h1 {
   font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .button {
-	width: 100px;
+	width: 115px;
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
 	font-size: 12px;
 	border: 1px solid black;
-	padding: 3px;
-  margin: 0px;
+	padding: 4px;
+  	margin: 0px 0px 0px 90px;
 	text-align: center;
 }
 
@@ -148,7 +150,7 @@ h1 {
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-  
+	vertical-align: top;  
 }
 
 
