@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,119 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h2 {
+	font-size: 24px;
+}
+
 /* Your code starts here! */
+body {
+	width: 880px;
+	margin: auto;
+}
+
+.block {
+	position: relative;
+	width: 100%;
+}
+
+/* nav */
+nav {
+	display: inline-block;
+	text-align: center;
+	height: 60px;
+	padding: 20px 0px px 0px;
+	background:white;
+}
+.nav_button {
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	background-color: white;
+	margin: 25px 20px;
+	position: relative;
+	border: none;
+	outline: none;
+	
+}
+
+.nav_button:hover {
+	opacity: .3;
+}
+
+#navbar {
+	overflow: hidden;
+  }
+
+.logo {
+	float: right;
+	padding: 15px 0px 0px 0px;
+}
+
+/* call to action */
+.cta {
+	position: relative;
+}
+.cta .cta_text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 80px;
+	margin: 100px 0px;
+	text-align: center;
+	padding: 0px 60px;
+	width: 55%;
+}
+
+.cta .cta_text button {
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	background: white;
+	vertical-align: top;
+	margin-top: 5px;
+	padding: 10px 50px;
+	font-size: 18px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.cta .cta_text button:hover {
+	background: black;
+	color: whitesmoke;
+}
+
+.cta_image {
+	/* display: inline-block; */
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+
+/* content */
+.content {
+	position: relative;
+}
+
+.content .content_above {
+	display: inline-block;
+	width: 420px;
+	margin: 1% 1% 2% 1%;
+	padding: 25px 0; 
+	line-height: 20px;
+}
+
+.content .content_below {
+	display: inline-block;
+	width: 274px;
+	margin: 1% 8px 2% 8px;	
+	padding: 25px 0px;
+	line-height: 20px;	
+}
+
+/* address and footer */
+footer {
+	padding: 25px 0px 0px 0px; 
+}
+
+#copyright {
+	text-align: center;
+	padding: 35px 0px;
+}
