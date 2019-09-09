@@ -3,64 +3,265 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+header nav {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+header nav a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: gray;
+}
+
+header img {
+  display: inline-block;
+  margin: 2% 0 0 8%;
+}
+
+.main {
+  margin: 5%;
+  width: 100%;
+}
+
+.main-content-right {
+  display: inline-block;
+  width: 44%;
+  margin: 1%;
+  vertical-align: top;
+  min-width: 250px;
+}
+
+.main-content-right img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content-left {
+  width: 44%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-content-left h1 {
+  font-size: 500%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.main-content-left button {
+  display: inline-block;
+  margin: 0% 30%;
+  background-color: white;
+  width: 40%;
+  height: 30px;
+  border: 1px solid black;
+  color: black;
+}
+
+.top-content {
+  margin: 1%;
+  width: 100%;
+}
+
+.top-row {
+  width: 47%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.middle-row img {
+  width: 97%;
+  margin: 2%;
+  height: auto;
+}
+
+.bottom-content {
+  margin: 1%;
+  width: 100%;
+}
+
+.bottom-row {
+  width: 31%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.divider-top {
+  color: black;
+  background-color: black;
+  height: 3px;
+  width: 97%;
+  margin: 2%;
+}
+
+.divider-bottom {
+  color: grey;
+  background-color: grey;
+  height: 3px;
+  width: 97%;
+  margin: 2%;
+}
+
+.contact {
+  margin: 2%;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 40px;
+}
