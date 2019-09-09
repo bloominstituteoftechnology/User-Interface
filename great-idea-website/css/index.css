@@ -58,9 +58,130 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Modak', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* NAVIATION SECTION */
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: antiquewhite;
+}
+.nav_class  {
+	display: inline-block;
+	margin: 1%;
+	width: 12%;
+	vertical-align: middle;
+	color: gray;
+}
+
+/* .nav a {
+	display: inline-block;
+} */
+
+.logo {
+
+}
+/* HEADER SECTION */
+
+.header_sections {
+	margin: 1%;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.header_divs {
+	display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+	width: 47.5%;
+	vertical-align: middle;
+    /* min-width: 250px; */
+}
+
+.header_box{
+	margin: 1%;
+	width: 98%;
+	/* vertical-align: middle; */
+}
+
+.header_text {
+	font-family: 'Modak', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+	font-size: 100px;
+	text-align: center;
+}
+
+.header_button {
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	width: 200px;
+	padding: 10px 30px 10px 30px;
+}
+
+.header_image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/* background-color: red; */
+}
+/* CONTENT SECTION 1 */
+
+hr {
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.section1 {
+	margin: 1%;
+	width: 100%;
+}
+
+.section1_div {
+	display: inline-block;
+	margin: 1%;
+	width: 47.5%;
+}
+
+/* CONTENT SECTION 2 */
+
+.section2 {
+	margin: 1%;
+	width: 100%;
+}
+
+.section2_div {
+	display: inline-block;
+	margin: 1%;
+	width: 31%;
+}
+
+#section_image {
+	width: 97%;
+	margin: 2%;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+
+/* CONTACT SECTION */
+
+.contact_section {
+	margin: 2%;
+}
+/* FOOTER SECTION 1 */
+
+.footer_class {
+	text-align: center;
+}
