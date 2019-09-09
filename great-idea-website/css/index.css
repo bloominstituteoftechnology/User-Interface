@@ -57,10 +57,26 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     font-family: 'Modak', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+h4 {
+	font-family: 'Modak', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Modak', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 100px;
 }
 
 /* Your code starts here! */
@@ -168,10 +184,14 @@ hr {
 #section_image {
 	width: 97%;
 	margin: 2%;
+	/* width: 100%; */
 	background-image: url("../img/mid-page-accent.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center;
 	background-attachment: scroll;
+	background-size: cover;
+	height: 250px;
+	
 }
 
 
