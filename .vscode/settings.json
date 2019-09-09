@@ -1,0 +1,6 @@
+{
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorWidth": 1,
+    "terminal.integrated.confirmOnExit": true,
+}

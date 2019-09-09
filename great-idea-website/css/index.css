@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1024px;
+	border-left: 1px solid #D1D5DA;
+	border-right: 1px solid #D1D5DA;
+	padding: 25px 75px 200px;
+	margin: auto;
+	font-optical-sizing: auto;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a {
+	color: #BDBDBD;
+	margin-right: 56px;
+	text-decoration: none;
+}
+
+header {
+	margin-bottom: 75px;
+}
+
+header img {
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.cta-text {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cta-text h1 {
+	font-size: 75px;
+}
+
+.cta-text a {
+	display: inline-block;
+	color: black;
+	border: 1px solid black;
+	padding: 7px 40px 8px;
+	margin-top: 8px;
+	text-decoration: none;
+	text
+	font-size: 17px;
+}
+
+.cta-img {
+	vertical-align: middle;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+
+.main-content {
+	width: 876px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0 40px;
+	margin: 75px 0 50px;
+}
+
+.content-one {
+	padding-bottom: 40px;
+}
+
+.content-one .p-left {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: left;
+}
+
+.content-one .p-right {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: left;
+}
+
+.content-two {
+	padding-top: 40px;
+}
+
+.content-two-one {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.33%;
+	text-align: left;
+	margin-right: 0px;
+	padding-right: 5px;
+}
+
+.content-two-two {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.33%;
+	text-align: left;
+	margin-right: 0px;
+	padding-right: 5px;
+}
+
+.content-two-three {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.33%;
+	text-align: left;
+}
+
+.contact {
+	display: block;
+	text-align: left;
+}
+
+.copyright {
+	display: block;
+	margin: 0px;
+	margin-top: 25px;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 40px;
+}
