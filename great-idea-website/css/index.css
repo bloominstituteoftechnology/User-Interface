@@ -126,13 +126,12 @@ h1, h2, h3, h4, h5 {
 .main {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	display: inline-block;
 }
 
 .main_top {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin: 1%;
-	width: 48%;
+	width: 47%;
 	display: inline-block;
 }
 
