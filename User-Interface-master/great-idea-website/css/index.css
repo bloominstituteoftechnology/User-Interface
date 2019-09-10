@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.navigation {
+	display: inline;
+	padding: 30px;
+	text-align: center;
+  }
+  a.nav {
+	  display:inline;
+	  padding: 20px;
+	  text-align: center;
+	  color: grey;
+	  margin-left: 2%;
+  }
+
+  .logo {
+	  margin-left: 50px;
+  }
+
+  .middle-image {
+	height: 300px;
+	margin-left: 700px;
+		margin-top: -240px;
+		
+}
+.top-part {
+	font-size: 300%;
+	height: 300px;
+	margin-top: 100px;
+	text-align: center;
+	margin-right: 1000px;
+
+	
+	
+
+}
+
+.get-started {
+	border: 1px solid grey;
+	width: 200px;
+	font-size: 40%;
+	margin-left: 150px;
+	color: grey;
+	
+}
+
+.left-part {
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 75px;
+	margin-left: 170px;
+}
+
+.right-part {
+margin-top: -185px;
+margin-left: 570px;
+width: 400px;
+}
+
+.middle-img {
+	margin-left: 150px;
+	width: 5000px;
+}
+
+.bottom-left {
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 75px;
+	margin-left: 170px;
+
+	
+}
+
+.bottom-middle {
+	margin-left: 500px;
+width: 300px;
+margin-top: -190px;
+
+
+}
+
+.bottom-right {
+	margin-left: 810px;
+	margin-top: -110px;
+	width: 240px;
+	
+
+}
+
+.contact {
+	margin-left: 175px;
+}
+
+body {
+	margin-left: 200px;
+}
+
+.border {
+	border: 3px solid grey;
+	margin-right: 400px;
+}
+
+footer {
+	margin-left: 500px;
+}
