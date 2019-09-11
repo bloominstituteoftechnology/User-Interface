@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+img{
+	background:aqua;
+	border-radius: 18px;
+}
 .container{
 	width: 90%;
 	margin: 5rem;
@@ -114,6 +118,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;	
 	width: 43%;
 	padding: 30px;
+	
 	
 }
 .theer{
