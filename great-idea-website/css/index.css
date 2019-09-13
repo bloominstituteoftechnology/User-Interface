@@ -1,3 +1,4 @@
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +65,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.head {
+	margin-top: 100px;
+}
+.nav_bar {
+	background-color: #2f64a1;
+	overflow: hidden;
+	position: fixed;
+	top: 0%;
+	margin: auto;
+	width: 100%;
+	
+}
+
+.nav_bar a{
+	text-decoration: none;
+	color: #8dc26e;
+	margin: 1%;
+	padding: 1%;
+	width: 12%;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+.nav_bar a:hover {
+	background: #8dc26e;
+	color: #2f64a1;
+}
+
+.logo {
+	float: right;
+	margin-top: 2%;
+	width: 15%; 
+
+}
+
+.head_img {
+	margin: 1%;
+	width: 47%;
+	display: inline-block;
+	max-width: 400px;
+}
+.inner_left {
+	/* border: 2px solid blue; */
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 47%;
+}
+
+.inner_left section {
+	text-align: center;
+	font-size: 75px;
+}
+
+.inner_left p {
+	border: 1px solid black;
+	margin: 2%;
+	padding: 5px;
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main_top {
+	/* border: 1px solid black; */
+	margin: 1%;
+	width: 47%;
+	display: inline-block;
+}
+
+.main img {
+	/* border: 2px solid black; */
+	width: 98%;
+	max-height: 225px;
+	margin: 1%;
+}
+
+.main_bottom {
+	/* border: 2px solid black; */
+	margin: 1%;
+	width: 31%;
+	display: inline-block;
+}
+
+.copy {
+	text-align: center
+}
