@@ -1,5 +1,3 @@
-
-Bret Knight
 Bret Knight
 # User Interface Project: Great Idea Web Page
 
