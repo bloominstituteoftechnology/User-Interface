@@ -128,8 +128,13 @@ h1, h2, h3, h4, h5 {
 	padding: 5px;
 	width: 15%;
 	margin-left: auto;
+<<<<<<< HEAD
 	margin-right: auto;
 	text-align: center;
+=======
+	  margin-right: auto;
+	  text-align: center;
+>>>>>>> 326a0682ea0c1d8e2b41ec1a6412a4a8e3165d59
 }
 
 .main {
@@ -160,4 +165,8 @@ h1, h2, h3, h4, h5 {
 
 .copy {
 	text-align: center
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 326a0682ea0c1d8e2b41ec1a6412a4a8e3165d59
