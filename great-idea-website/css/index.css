@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header {
+    margin-top: 20px;
+}
 body {
     width: 90%;
     margin: auto;
@@ -228,8 +231,14 @@ li {
 }
 
 .copyright {
-    text-align: center;
+
     color: gray;
     padding-top: 100px;
+    text-align: center;
+
+
 }
 
+.copyrightp {
+    display: inline-block;
+}
