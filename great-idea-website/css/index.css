@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.top-left {
+color: orange;
+}
+.top-right-img {
+
+}
+.middle-features {
+color: blue;
+}
+.middle-about {
+color: pink;
+}
+.middle-img {
+
+}
+.bottom-services {
+color:yellow;
+}
+.bottom-product {
+color:aqua;
+}
+.bottom-vision {
+color:magenta;
+}
+.bottom-contact {
+color: palegreen;
+}
+footer {
+color: salmon;
+}
