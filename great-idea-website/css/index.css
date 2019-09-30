@@ -69,6 +69,17 @@ body {
 	margin: 0 auto;
 }
 
+/* wobble is from https://www.tutorialspoint.com/css/css_animation_wobble.htm */
+@keyframes wobble {
+   0% { transform: translateX(0%); }
+   15% { transform: translateX(-25%) rotate(-5deg); }
+   30% { transform: translateX(20%) rotate(3deg); }
+   45% { transform: translateX(-15%) rotate(-3deg); }
+   60% { transform: translateX(10%) rotate(2deg); }
+   75% { transform: translateX(-5%) rotate(-1deg); }
+   100% { transform: translateX(0%); }
+}
+
 nav {
 	display: inline-block;
 }
@@ -78,6 +89,11 @@ nav a {
 	color: gray;
 	padding-right: 2em;
 	text-decoration: none;
+}
+
+nav a:hover {
+	animation-name: wobble;
+	animation-duration: 3s;
 }
 
 .logo-div {
@@ -100,12 +116,25 @@ nav a {
 
 }
 
+
 .headline h4 {
 	padding: 0.5em;
 	border: 1px solid black;
 	width: 50%;
 	margin: 0 auto;
 	font-family: 'Titillium Web', sans-serif;
+}
+
+/* Pulse is from https://www.tutorialspoint.com/css/css_animation_pulse.htm*/
+@keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); }
+}
+
+.headline h4:hover {
+	animation-name: pulse;
+	animation-duration: 4s;
 }
 
 .header-img {
