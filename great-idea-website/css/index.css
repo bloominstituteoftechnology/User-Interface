@@ -71,11 +71,16 @@ h1 {
 	margin: 0 auto;
 	width: 980px;
 }
+nav {
+	width: 1100px;
+
+}
 .container nav a{
 	display: inline-block;
 	color: lightgrey;
-	margin: 0px 40px 0px 20px;
+	margin: 0px 60px 0px 0px;
 	text-decoration: none;
+	
 }
 .container nav img {
 	margin: 50px 0px 0px 10px;
@@ -119,7 +124,7 @@ h1 {
 
 footer div p {
 	text-align: center;
-	margin: 100px 0px 0px 0px;
+	margin: 100px 0px 150px 0px;
 }
 .services {
 	border-bottom: 1px solid black;
