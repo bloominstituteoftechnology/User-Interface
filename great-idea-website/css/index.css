@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	padding: 5% 25px;
+	word-wrap: normal;
+	display: inline-block;
+}
+
+.logo {
+	position: absolute;
+	left: 75%;
+	top: 5%;
+	z-index: 1;
+
+}
+
+h1 {
+	position: absolute;
+	font-size: 72px;
+	text-align: center;
+	left: 17%;
+	top: 25%;
+}
+
+button {
+	position: absolute;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border-color: black;
+	font-size: 22px;
+	width: 13%;
+	left: 22%;
+	top: 58%;
+}
+
+.circular-img {
+	position: relative;
+	padding-top: 1%;
+	left: 60%;
+}
+
+.first {
+	position: relative;
+	left: 5%;
+	top: 3%;
+}
+
+.first-paragraph {
+	position: relative;
+	width: 35%;
+	left: 5%;
+	top: 3%;
+}
+
+.second {
+	position: absolute;
+	left: 50%;
+	bottom: 20%;
+}
+
+.second-paragraph {
+	width: 35%;
+	position: relative;
+	left: 50%;
+	bottom: 5%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.third {
+	position: relative;
+	left: 5%;
+	top: 8%;
+}
+
+.third-paragraph {
+	width: 25%;
+	position: relative;
+	left: 5%;
+	top: 8%;
+}
+
+.fourth {
+	position: relative;
+	bottom: 6%;
+	left: 35%;
+}
+
+.fourth-paragraph {
+		width: 25%;
+		position: relative;
+		bottom: 6.5%;
+		left: 35%;
+	}
+
+.fifth {
+	position: relative;
+	bottom: 20.5%;
+	left: 70%;
+}
+
+.fifth-paragraph {
+	width: 25%;
+	position: relative;
+	bottom: 21%;
+	left: 70%;
+}
+
+.phone-number {
+	line-height: 4em;
+}
+
+.copyright {
+	text-align: center;
+	line-height: 10em;
+}
