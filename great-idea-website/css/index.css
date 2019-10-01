@@ -96,6 +96,9 @@ header a{
 	color: grey;
 	text-decoration: none;
 }
+header a:hover{
+	color: black;
+}
 header img{
 	position: absolute;
 	top: 10%;
@@ -129,6 +132,11 @@ header img{
 	background-color: white;
 	position: absolute;
 	left: 45%;
+}
+
+.CTASection button:hover{
+	color: white;
+	background-color: grey;
 }
 
 
