@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	border: 1px solid red;
+	width: 900px;
+	margin: auto;
+}
+nav {
+	display: inline-block;
+	border: 1px solid red;
+	width: 600px;
+	height: 50%;
+	margin: 20px;
+}
+
+a {
+	padding: 20px;
+}
+
+.logo {
+	display: inline-block;
+	border: 1px solid red;
+	margin: 20px;
+	
+}
+
+.left {
+	border: 1px solid red;
+	display: inline-block;
+	width: 47%;
+}
+
+.circle {
+	border: 1px solid red;
+	display: inline-block;
+	width: 40%;
+}
