@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +65,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	margin:auto;
+	max-width:900px;
+}
+
+head{
+	
+	height:60px;
+	
+}
+
+nav {
+	display:inline-block;
+	
+}
+
+nav a{
+	display:inline-block;
+	text-decoration:none;
+	color:grey;
+	padding:0 25px;
+
+	
+}
+
+.logo {
+	display:inline-block;
+	position:relative;
+	top:10px;
+	
+	
+}
+
+.banner{
+	margin-top:50px;
+	height:500px;
+	border-bottom:2px solid black;
+}
+.banner div{
+	display:inline-block;
+	/* padding:10%; */
+	text-align:center;
+	width:400px;
+	/* height:318px; */
+	
+}
+
+.banner div h2{
+	font-size:62px;
+}
+
+.banner div a{
+	text-decoration:none;
+	color:black;
+	padding: 5px 15px;
+	border: 2px solid black;
+	font-size:18px;
+	
+}
+
+.banner img{
+	height:300px;
+	position:relative;
+	top:50px;
+	/* display:inline-block; */
+}
+main{
+	border-bottom:2px solid black;
+	margin:0 15px;
+}
+main div{
+	display:inline-block;
+	padding: 30px 15px;
+}
+main img{
+	padding:10px 0;
+}
+div .one-2 {
+	width:420px;
+	
+
+}
+div .one-3{
+	width:280px;
+}
+.contact{
+	padding:25px 0;
+}
+.contact address,p{
+	padding:10px 0;
+}
+.contact .copyright{
+	text-align:center;
+}
