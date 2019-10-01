@@ -83,14 +83,15 @@ header{
 .logo{
 	display: inline-block;
 	position: relative;
-	padding-left: 10%;
+	padding: 1% 0 0 5%;
+
 }
 
 nav{
 	display: inline-block;
-	width: 100%;
+	width: 90%;
 	font-family: 'Titillium Web', sans-serif;
-	padding: 10px 0px 10px 0px;
+	padding: 0 0 1% 15%;
 }
 
 nav a{
@@ -98,7 +99,7 @@ nav a{
 	font-size: 14px;
 	text-decoration: none;
 	text-align: center;
-	padding: 50px 50px;
+	padding: 0 3% 3% 3%;
 	vertical-align: middle;
 }
 
