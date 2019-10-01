@@ -73,7 +73,7 @@ h1 {
 }
 nav {
 	width: 1100px;
-
+	
 }
 .container nav a{
 	display: inline-block;
@@ -98,7 +98,7 @@ nav {
 	margin: 0 0 0 0;
 }
 .title div p {
-	width: 180px;
+	width: 190px;
 	border: 1px solid black;
 	margin: 20px 30px 100px 100px;
 	padding: 7px 20px 7px 20px;
