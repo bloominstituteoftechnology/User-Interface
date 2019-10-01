@@ -69,7 +69,7 @@ h1 {
 }
 .container {
 	margin: 0 auto;
-	width: 1000px;
+	width: 980px;
 }
 .container nav a{
 	display: inline-block;
@@ -77,13 +77,12 @@ h1 {
 	margin: 0px 40px 0px 20px;
 	text-decoration: none;
 }
-container nav img {
-	margin: 50px 0px 0px 30px;
+.container nav img {
+	margin: 50px 0px 0px 10px;
 	
 }
-.logo {
 	
-}
+
 .title div {
 	text-align: center;
 	display: inline-block;
@@ -96,27 +95,43 @@ container nav img {
 .title div p {
 	width: 180px;
 	border: 1px solid black;
-	margin: 20px 30px 30px 100px;
+	margin: 20px 30px 100px 100px;
 	padding: 7px 20px 7px 20px;
 
 	
 }
 .title div img {
-	margin: 60px 0px 0px 140px;
+	margin: 60px 0px 0px 100px;
+}
+.features {
+	border-top: 1px solid black;
+	margin: 10px 0px ;
+	width: 90%;
+	
+
 }
 .features div {
 	display: inline-block;
-	width: 45%;
-	
+	width: 49%;
+	padding-top: 50px;
+	padding-bottom: 35px;	
 }
 
 footer div p {
 	text-align: center;
 	margin: 100px 0px 0px 0px;
 }
+.services {
+	border-bottom: 1px solid black;
+	margin: 30px 0px 50px 0px;
+	width: 90%;
+}
 .services div {
 	display: inline-block;
 	width: 33%;
-	margin: 
+	padding-bottom: 50px;
 }
+
+
+
 
