@@ -64,3 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.copyright{
+	text-align: center;
+}
+
+.get-started{
+	border:2px solid black;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	
+}
