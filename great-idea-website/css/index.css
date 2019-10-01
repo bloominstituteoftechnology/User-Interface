@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	position: absolute;
+	width: 1000px;
+}
+
+.nav {
+	text-align: center;
+	display: inline-block;
+	width: 80%;
+	}
+
+.nav li {
+	display: inline-block;
+	padding: 25px;
+}
+
+.logo {
+	position: relative;
+	left: 10px;
+	top: 15px;
+	}
+
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	top: -75px;
+	left: 110px;
+	width: 25%;
+}
+
+button {
+	border: 2px solid black;
+	font-size: 20px;
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	left: -75px;
+	top: -15px;
+}
+
+.round {
+	display: inline-block;
+	position: relative;
+	left: 250px;
+	top: 25px;
+}
+
+.box1 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	width: 495px;
+	left: 15px;
+	top: 15px;
+}
+
+.box2 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	width: 495px;
+	right: -15px;
+	top: 15px;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 95%;
+	margin: 20px;
+	position: relative;
+	top: 25px;
+}
+
+.box3 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	bottom: -50px;
+	margin: 3px;
+
+}
+
+.box4 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	bottom: -50px;
+	margin: 3px;
+}
+
+.box5 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	bottom: -50px;
+	margin: 3px;
+}
+
+.address {
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	top: 100px;
+}
+
+.copyright {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	bottom: -120px;
+}
