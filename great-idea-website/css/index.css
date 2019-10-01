@@ -72,27 +72,25 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-	display: inline;
+	display: inline-block;
 	position: fixed;
-	margin: 2% 5% 0% 5%;
+	margin: 0% 0% 10% 0%;
 	z-index: 99;
 	background-color: #0099fa;
+	width: 100%;
 }
 
 .logo{
 	display: inline-block;
-	position: absolute;
-	padding: 0px 0px 0px 0px;
-	z-index: 99;
-	background-color: #0099fa;
+	position: relative;
+	padding-left: 10%;
 }
 
 nav{
 	display: inline-block;
 	width: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	text-decoration: none;
-	padding: 10px 50px 10px 0px;
+	padding: 10px 0px 10px 0px;
 }
 
 nav a{
@@ -100,42 +98,42 @@ nav a{
 	font-size: 14px;
 	text-decoration: none;
 	text-align: center;
-	margin: 0px 10px 0px 10px;
-	padding: 20px;
+	padding: 50px 50px;
+	vertical-align: middle;
 }
 
 .jumbotron{
 	display: inline-block;
 	position: relative;
-	font-size: 70px;
-	text-align: center;
-	margin: 20% 1% 20% 1%;
-	width: 48%;
+	width: 100%;
 }
 
-.jumbotron h1{
-	margin: 0;
+section h1{
+	display: inline-block;
+	position: relative;
+	margin: 150px 0px 20px 0px;
+	width: 100%;
+	font-size: 75px;
+	text-align: center;
+	padding: 10%;
+}
+
+.jumbotron img{
+	vertical-align: top;
+	margin-top: 100px;
 }
 
 .button{
+	display: block;
 	font-size: 18px;
 	font-family: 'Titillium Web', sans-serif;
 	text-decoration: none;
 	text-align: center;
 	color: black;
 	border: 1px solid black;
-	padding: 0 30px 0 30px;
-	margin: 0px;
-	width: 20%;
-}
-
-.jumbotron-img{
-	margin: 20% 0% 20% 0%;
-	position: absolute;
-	display: inline-block;
-	width: 42%;
-	bottom: 100px;
-	z-index: 0;
+	padding: 0px 15px 0px 15px;
+	width: 25%;
+	margin: 0 35% 0 35%;
 }
 
 .box-2{
