@@ -1,6 +1,7 @@
 <h1 align="center">Great Idea Mk. 1</h1>
+<img align="right" src="https://img.shields.io/badge/Mach-1-red?style=flat&logo=appveyor"></img>
 <p align="center">Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.</p>
-<img src="https://img.shields.io/badge/Mach-1-red"></img>
+
 
 Given this [design file](design-files/desktop.jpg), use HTML and CSS to build the web page layout. Remember, you can only use `display:inline-block` and box model CSS properties for this project. **Note: you are NOT permitted to use Flexbox or CSS Grid. This is an exercise in basic layout techniques.**
 
