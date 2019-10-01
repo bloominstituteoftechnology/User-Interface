@@ -200,6 +200,10 @@ header .slogan {
 	border: 1px solid red;
 }
 
+header .slogan div {}
+
 header img {
 	vertical-align: middle;
 }
+
+this is a test
