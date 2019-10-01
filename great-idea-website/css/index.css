@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 50px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@keyframes nav-items {
+	from 
+	{
+		color: grey;
+	
+	}
+	to 
+	{
+		color: purple;
+		font-size: 150%;
+	}
+}
+
+@keyframes main-content-ani {
+	form
+	{
+
+	}
+	to
+	{
+		background-image: none;
+		color: black;
+	}
+}
+
+
+nav {
+	background-color: lightcoral;
+	width: 878px;
+	position: fixed;
+	z-index: 1;
+}
+
+li {
+	display: inline-block;
+	width: 105px;
+	text-decoration: none;
+	color: grey;
+	
+}
+
+li:hover {
+	animation: nav-items 3s;
+}
+
+.last-li {
+	width: 148px;
+}
+
+.title {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 878px;
+	height: 350px;
+	background-image: url("../img/header-img.png");
+	color: purple;
+	margin: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 450%;
+	margin-bottom: 0px;
+}
+
+.button {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: white;
+	border: 2px solid black;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.top-img {
+	margin-top: 50px;
+	margin-bottom:50px;
+	vertical-align: middle;
+}
+
+.top-divs {
+	display: inline-block;
+	width: 430px;
+}
+
+.top-divs:first-child {
+	margin-right: 12px;
+}
+
+.main-content {
+	background-image: url("../img/mid-page-accent.jpg");
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 876px;
+	border: 1px;
+	border-top-style: solid;
+	border-bottom-style:solid;
+}
+
+.main-content:hover {
+	animation: main-content-ani 2s;
+	animation-fill-mode: forwards;
+}
+
+.middle-img {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom-divs {
+	margin-top: 20px;
+	display: inline-block;
+	width: 280px;
+	margin-right: 10px;
+}
+
+.bottom-divs:last-child {
+	margin-right: 0px;
+}
+
+.contact-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer {
+	font-size: 75%;
+	margin-left: 350px;
+	margin-bottom: 100px;
+}
