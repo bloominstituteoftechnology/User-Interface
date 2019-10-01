@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	position: relative;
+	width: 75%;
+	margin: auto;
+	/* border: 4px solid red; */
+}
+header .logo {
+	margin-left: 200px;
+}
+header nav {
+	display: inline-block;
+	margin-top: 37px; 
+}
+header nav a {
+	margin: 0 30px;
+	text-decoration: none;
+}
+.introText h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-left:  20%;
+	margin-top: 15%;
+	display: inline-block;
+	width: 20%;
+	/* border: 4px solid red; */
+}
+button{
+	margin-left: 20%;
+	width: 20%;
+	margin-bottom: 5%; 
+	padding: 14px 28px;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+
+
+}
+.intro img{
+display: inline-block;
+position: absolute;
+left: 620px;
+bottom: 620px;
+}
+hr { 
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+  } 
+ .content {
+	 padding: 10px 0;
+	 text-align: center;
+ }
+.textContent {
+	width: 30%;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 25px;
+
+}
+.textContent2 {
+	width: 30%;
+	display: inline-block;
+	margin-left: 150px;
+	padding: 25px;
+}
+.proText {
+	width: 290px;
+	display: inline-block;
+	margin-left: 150px;
+	padding: 25px;
+}
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px
+}
+.service {
+	display: inline-block;
+	width: 30%;
+}
+.product {
+	display: inline-block;
+	width: 30%;
+}
+.vision {
+	display: inline-block;
+	width: 30%;
+}
