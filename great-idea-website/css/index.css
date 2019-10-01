@@ -64,7 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header  {
+box-sizing: border-box;
+display: block;
+margin: auto;
+}
+
 .top-left {
+
 color: orange;
 }
 .top-right-img {
@@ -72,15 +79,26 @@ color: orange;
 }
 .middle-features {
 color: blue;
+display: block;
+height: 200px;
+width: 200px;
 }
 .middle-about {
 color: pink;
+display: block;
+height: 200px;
+width: 200px;
+}
+.middle-t {
+	display: block;
+	height: 200px;
+	width: 200px;
 }
 .middle-img {
 
 }
 .bottom-services {
-color:yellow;
+color: purple;
 }
 .bottom-product {
 color:aqua;
