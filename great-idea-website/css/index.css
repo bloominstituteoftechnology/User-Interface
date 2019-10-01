@@ -63,4 +63,114 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+.top{
+	margin-top: 20px;
+	position: relative;
+}
+
+/* navigation */
+nav a{
+	color: gray;
+	text-decoration: none;
+	font-size: 18px;
+	display: inline-block;
+	margin: 15px;
+
+
+}
+nav a:first-child{
+	margin-left: 100px;
+}
+
+/* logo next to navigation */
+.logo{
+	
+	margin-right: 20px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+
+header{
+width: 100%;
+height: 500px;
+}
+
+
+.mainHeading{
+	
+	display: inline-block;
+	margin: 130px;
+
+}
+
+/* headings in header */
+.mainHeading h1{
+	font-size: 80px;
+	width: 250px;
+	text-align: center;
+	
+}
+
+/* 'Get Started' button */
+.mainButton{
+	font-size: 20px;
+	margin: 20px auto;
+	text-align: center;
+	width: 150px;
+	padding: 5px 10px;
+	border: 1px solid black;
+
+
+}
+/* image in header */
+.headerImg{
+
+	margin-left: 60px;
+	display: inline-block;
+
+}
+
+/* section starts here */
+section{
+	width: 80%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+section div{
+	margin: 20px;
+	display: inline-block;
+
+}
+
+/* section low 1 content */
+.low1{
+	width: 45%;
+	}
+
+/* section content after section image */	
+.low3{
+	width: 28%;
+	
+}
+/* footer starts here */
+address{
+	display: inline-block;
+	margin: 40px 150px;
+
+}
+
+.copyRight{
+	display: inline-block;
+	margin: 100px;
+	padding-top: 50px;
+	position: relative;
+	top: 30px;
+}
