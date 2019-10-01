@@ -65,12 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+/* Keep everything nice and tidy */
 .container{
 	display: inline-block;
 	width: 90%;
 	margin: 0% 5% 0% 5%;
 }
 
+
+/* Header Styles */
 header{
 	display: inline-block;
 	position: fixed;
@@ -84,7 +88,6 @@ header{
 	display: inline-block;
 	position: relative;
 	padding: 1% 0 0 5%;
-
 }
 
 nav{
@@ -103,6 +106,8 @@ nav a{
 	vertical-align: middle;
 }
 
+
+/* Main Content Styles */
 .jumbotron{
 	display: inline-block;
 	position: relative;
@@ -137,6 +142,8 @@ section h1{
 	margin: 0 35% 0 35%;
 }
 
+
+/* Secondary Content Styles */
 .box-2{
 	display: inline-block;
 	width: 47%;
@@ -153,6 +160,8 @@ section h1{
 	width: 100%;
 }
 
+
+/* Footer Styles */
 address{
 	margin: 2% 1% 2% 1%;
 }
