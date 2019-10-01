@@ -162,8 +162,8 @@ h1 {
   font-size: 45px;
   font-weight: bold;
   letter-spacing: 4px;
-  top: 100px;
-  left: 165px;
+  top: 110px;
+  left: 195px;
   display: inline-block;
   width: 25%;
 }
@@ -171,7 +171,7 @@ h1 {
 .BTN {
   position: absolute;
   top: 250px;
-  left: 220px;
+  left: 250px;
   width: 12%;
   margin: 0 auto;
   padding: 5px 10px;
@@ -183,7 +183,7 @@ h1 {
 nav {
   display: inline-block;
   width: 75%;
-  margin: 15px 20px 50px;
+  margin: 15px 20px 60px;
 }
 
 nav a {
@@ -204,7 +204,7 @@ nav a {
 
 .img1 {
   position: relative;
-  top: -25px;
+  top: -15px;
   left: 455px;
   width: 225px;
 }
