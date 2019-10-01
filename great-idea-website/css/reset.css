@@ -46,37 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Your code starts here! */
-header nav{
-	
-	display: inline-block;
-	width: 100%;
-}
-
-header nav a{
-	margin: 20px;
-	vertical-align: 10px;
-	color: grey;
-}
-
-.logo{
-	text-align: right;
-	margin-left: 500px;
-}
