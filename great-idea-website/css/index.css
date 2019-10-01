@@ -108,8 +108,8 @@ button{
 .intro img{
 display: inline-block;
 position: absolute;
-left: 620px;
-bottom: 620px;
+left: 60%;
+bottom: 60%;
 }
 hr { 
 	display: block;
@@ -160,4 +160,10 @@ hr {
 .vision {
 	display: inline-block;
 	width: 30%;
+}
+.contact {
+	margin-top: 50px; 
+}
+footer {
+ text-align: center;
 }
