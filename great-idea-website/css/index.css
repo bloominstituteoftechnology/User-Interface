@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,185 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	border: 1px solid purple;
+}
+
+.container nav a {
+	margin: 0 10px;
+	border: 1px solid white;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: lightgray;
+	text-decoration: none;
+	margin-bottom: 20px;
+	max-width:100%;
+	border: 2px solid green;
+	
+	background: white;
+  }
+
+nav .logo {
+	display: inline-block;
+	
+}
+
+img .logo {
+margin-top: 35px;
+
+}
+
+  .topRow1{
+	  font-size: 430%;
+	  
+	  /* margin: 140px 40px 0px 80px; */
+	  /* text-align: center; */
+	  /* display: inline-block; */
+	  border: 2px solid orange;
+	  
+  }
+
+  .text-content {
+	  border: 2px solid fuchsia;
+	  display: inline-block
+	  
+  }
+
+
+
+  h1 {
+	  display:inline-block;
+	  border: 2px solid pink;
+  }
+
+  .headerButton {
+	  border: solid black;
+	  margin: 15px;
+	  border-radius: 150px 40px 150px 40px;
+  }
+  .image{
+	  /* display:inline-block; */
+	  border: 2px solid rgb(0, 128, 85);
+	
+	  display: inline-block
+  }
+
+  .topRow2 {
+	  display:
+	  border: 2px solid green;
+	  padding: 20px;
+	  
+	  text-align: right;
+  }
+
+
+}
+.topRow {
+
+	
+	
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	border: 2px solid blue;
+}
+
+
+	
+
+}
+
+h1 {
+	font-size: 85px
+	border: 2px solid green;
+	
+	
+}
+
+h2{
+	font-size: 20px;
+
+	font-weight: bold;
+	margin-bottom: 1em;
+	border: 3px solid red
+}
+
+/* .headerRight {
+	width: 50%;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 50px;
+	border: 3px solid darkblue;
+} */
+
+.topContent {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 25px 10px;
+	display: inline-block;
+	border: 3px solid peru;
+}
+
+
+.topContent .firstRow {
+	display: inline-block;
+	vertical-align: top;
+
+	max-width:49%;
+	padding: 10px;
+	border: 2px solid red;
+}
+
+.contact{
+	font-size: 25px;
+	border-top: 1px solid black;
+	
+}
+.topContent2 {
+	
+	vertical-align: top;
+	padding: 30px;	
+	text-align: center;
+	border-top: 2px solid black;
+	border: 2px 
+}
+
+
+.box1 {
+	display: inline-block;
+	border-top: 1px solid black; ;
+	
+	padding: 30p 20px;
+	
+	
+}
+
+.middle-img{
+	padding: 20px 20px;
+	align:center;
+}
+
+.bottomContent {
+	display: inline-block;
+
+	vertical-align: top;
+	padding: 30px;
+	text-align: center;
+	border:2px solid yellowgreen;
+
+}
+
+h2 {
+	display: inline-block;
+	padding: 20px;
+	border: 2px solid rosybrown
+}
+
+footer {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
