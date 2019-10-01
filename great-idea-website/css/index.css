@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.nav {
+	
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+
+.iod {
+	border: 1px solid red;
+	display: inline-block;
+	font-size: 70px;
+	font-family: 'Bangers', cursive;
+	width: 400px;
+	text-align: center;
+}
+
+.getstarted {
+	/* position: relative; */
+
+	border: 1px solid black;
+	display: inline-block;
+	padding: 5px 30px 5px 30px;
+	font-size: 14px;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	top: -20px;
+	right: -20px;
+}
+
+.top-image {
+	display: inline-block;
+}
