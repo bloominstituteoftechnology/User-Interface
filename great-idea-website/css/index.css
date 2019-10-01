@@ -161,3 +161,32 @@ h5 {
 
 
 /* Your code starts here! */
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+header .headerTitle {
+    padding: 20px;
+    width: 500px;
+}
+
+.container {
+    margin: 0 auto;
+    width: max-content;
+}
+
+#navSelect,
+#navLogo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#headerIMG {
+    width: 48%;
+}
