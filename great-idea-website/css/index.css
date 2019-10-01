@@ -16,20 +16,73 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 20px 50px 50px 20px;
+	padding: auto;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
+
+
 }
 /* HTML5 display-role reset for older browsers */
+head {
+	position: relative;
+}
+title {
+	display: block;
+	position: absolute;
+	text-align: right;
+	
+}
+
+
+
+.motto {
+	position: relative;
+	border: 2px solid blue;
+	height: 300px;
+	width: 350px;
+	font-size: 5rem;
+	display:inline-block;
+	text-align:center;
+}
+
+
+.start {
+	
+	border: 2px solid black;
+	height: 40px;
+	width: 100px;
+	
+}
+
+nav img {
+	border: 2px solid red;
+	display: inline-block;
+}
+
+
+nav a{
+	color: rgba(105,105,105, .7);
+	text-decoration: none;
+}
+
+.contact {
+	text-align: left;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
+	box-sizing: border-box;
+	padding: 20px 75px 50px 75px;
+	border: 1px solid grey;
+	text-align:center;
+	
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +113,8 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	position: absolute;
 }
 
 /* Your code starts here! */
