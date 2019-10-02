@@ -162,31 +162,107 @@ h5 {
 
 /* Your code starts here! */
 
+body {
+    width: 1000px;
+}
+
 h1 {
-    font-size: 60px;
-    text-align: center;
+    font-size: 85px;
+    vertical-align: text-top;
 }
 
 h2 {
     font-size: 26px;
 }
 
-header .headerTitle {
-    padding: 20px;
-    width: 500px;
+.navContainer {
+    padding: 20px 0 0 50px;
+    display: block;
 }
 
-.container {
-    margin: 0 auto;
-    width: max-content;
-}
-
-#navSelect,
-#navLogo {
+.navContainer #navMenu {
     display: inline-block;
-    vertical-align: middle;
+    align-content: middle;
+    text-decoration: none;
 }
 
-#headerIMG {
-    width: 48%;
+.navContainer #navMenu a {
+    padding: 0 10px 0 10px;
+}
+
+.navContainer #navMenu .logo {
+    display: inline-block;
+    padding: 0 0 0 50px;
+    position: absolute;
+    left: 800px;
+}
+
+header {
+    padding: 50px;
+    width: 1000px;
+    border-bottom: 1px solid black;
+}
+
+header .headerTitle {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+header .headerIMG {
+    display: inline-block;
+    width: 49%;
+}
+
+.topSection {
+    padding: 50px;
+    width: 1000px;
+}
+
+.topSection #topLeft {
+    display: inline-block;
+    width: 49%;
+    padding: 0 20px 0 0;
+}
+
+.topSection #topRight {
+    display: inline-block;
+    width: 49%;
+}
+
+.middle-img {
+    padding: 0 50px 0 50px;
+}
+
+.bottomSection {
+    padding: 50px;
+    width: 1000px;
+    border-bottom: 1px solid black;
+}
+
+.bottomSection #bottomLeft {
+    display: inline-block;
+    width: 33%;
+}
+
+.bottomSection #bottomMiddle {
+    display: inline-block;
+    width: 33%;
+}
+
+.bottomSection #bottomRight {
+    display: inline-block;
+    width: 33%;
+}
+
+address {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0 50px;
+}
+
+footer {
+    display: block;
+    text-align: center;
 }
