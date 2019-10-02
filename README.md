@@ -24,7 +24,7 @@ Project objectives are meant to increase your knowledge by giving you practice o
 
 - [x] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
 
-- [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
+- [x] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
 
 ## Stretch Goals:
 
