@@ -64,39 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 900px;
+	margin: 0 auto;
+}
 
-.nav {
+header {
+
+}
+a {
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	display: inline-block;
+    position: relative;
+	left: 700px;
+    bottom: 55px;
+	padding: 10px 30px;
+}
+
+.banner {
+	border-bottom: 1px solid black;
+	padding: 25px 0px
+}
+
+nav {
 	
 	text-decoration: none;
 	display: inline-block;
 	width: 100%;
+	padding: 10px 0px;
+}
+
+h1 {
+	display: inline-block;
+	width: auto;
+	margin: 0px;
+	
 }
 
 .iod {
-	border: 1px solid red;
 	display: inline-block;
 	font-size: 70px;
 	font-family: 'Bangers', cursive;
-	width: 400px;
+	position: relative;
+	right: -69px;
+    bottom: 160px;
 	text-align: center;
 }
 
 .getstarted {
-	/* position: relative; */
-
-	border: 1px solid black;
+	position: relative;
+    left: -223px;
+    bottom: -44px;
+	background-color: white;
 	display: inline-block;
 	padding: 5px 30px 5px 30px;
 	font-size: 14px;
 }
 
-.logo {
-	display: inline-block;
-	position: relative;
-	top: -20px;
-	right: -20px;
-}
-
 .top-image {
 	display: inline-block;
+	padding: 20px;
+	width: auto;
+	height: 379px;
+	position: relative;
+    right: -60px;
+    bottom: 50px;
+}
+
+.top-section {
+	padding: 30px 0px 10px 0px;
+	
+}
+
+.features {
+	
+	display: inline-block;
+	height: 140px;
+	width: 49%;
+}
+
+.about {
+	
+	display: inline-block;
+	height: 140px;
+	width: 49%;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 900px;
+	height: 180px;
+}
+
+.bottom-section {
+	padding: 50px 0px 30px 0px;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	
+	display: inline-block;
+	position: relative;
+	height: 140px;
+	width: 33%;
+}
+
+.product {
+	
+	display: inline-block;
+	position: relative;
+	height: 140px;
+	width: 33%;
+}
+
+.vision {
+	
+	display: inline-block;
+	position: relative;
+	height: 140px;
+	width: 33%;
+}
+
+.contact {
+	padding: 40px 0px;
+}
+
+footer {
+	text-align: center;
+	padding: 0px 0px 100px 0px;
 }
