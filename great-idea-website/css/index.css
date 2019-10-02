@@ -157,15 +157,19 @@ h5 {
 }
 
 /* Your code starts here! */
+
+
+
+/* start of top-bar styling */
 .top-bar {
 	text-align: center;
 	margin-top: 2%;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 }
 
 .top-navigation {
 	display: inline-block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 650px;
 	padding-right: 12%;
 
@@ -180,30 +184,120 @@ h5 {
 }
 
 .logo {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+
+
+
+
+/* start of header styling */
+
 header {
+	padding-top: 60px;
 	height: 500px;
-	text-align: center;
-	border: 1px solid red;
+	/* text-align: center; */
+	/* border: 1px solid red; */
 }
 
 header .slogan {
-	height: 100px;
+	position: relative;
+	top: 50px;
+	left: 150px;
 	display: inline-block;
-	font-size: 35px;
-	vertical-align: middle;
-	border: 1px solid red;
+	font-size: 65px;
+	/* border: 1px solid red; */
+	text-align: center;
+
 }
 
-header .slogan div {}
+header .slogan div {
+	border: 1px solid black;
+	font-size: 20px;
+	width: 170px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 header img {
-	vertical-align: middle;
+	position: relative;
+	left: 150px;
+	bottom: 260px;
+	padding-left: 450px;
+
 }
 
-this is a test
+
+
+/* start of section styling */
+
+.description {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+
+}
+
+.features {
+	display: inline-block;
+	width: 45%;
+	margin: 3% 0%;
+}
+
+.about {
+	display: inline-block;
+	width: 45%;
+	margin: 3% 0%;
+
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+	margin: 3% 0%;
+
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	margin: 3% 0%;
+
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+	margin: 3% 0%;
+
+}
+
+
+
+
+/* start of contact info styling */
+
+.contact-info {
+	margin-top: 3% 5%;
+}
+
+
+/* start of copyright styling */
+
+.copyright {
+	width: 50%;
+	text-align: center;
+	/* margin-bottom: 40px; */
+	margin: 0 auto;
+	/* border: 2px solid red; */
+}
