@@ -64,3 +64,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*header contains all navigation and top logo*/
+header{
+    padding:40px;
+}
+.b1{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b2{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b3{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b4{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b5{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b6{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+.b7{
+    display: inline-block;
+    width: 100px;
+    padding: 10px 10px 10px 70px;
+}
+/*Splash contains title graphic and button*/
+.splash{
+	/* width: 50%;
+	padding: 0px;
+	border: 2px solid gray;
+	margin: 40px; */
+
+}
+h1{
+font-size:50px;	
+}
+*.iod{
+    display:inline-block;
+	align: top;
+	padding: 10px;
+	border: 2px solid gray;
+	margin: 0;
+}
+.graphic{
+	display: inline-block;
+	padding: 40px;
+	width:50%;
+}
+/*{
+	width: 40%;
+}*/
+
