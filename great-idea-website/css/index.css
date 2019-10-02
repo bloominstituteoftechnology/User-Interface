@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,51 +16,134 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
+ 
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
+ 
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
+ 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+ 
 /* Your code starts here! */
+ 
+ 
+ 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+ 
+header nav{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+header .logo{
+    margin-left: 80px;
+}
+ 
+header nav a{
+    margin: 0 30px;
+    color: silver;
+    text-decoration: none;
+}
+ 
+.head2{
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+ 
+.head2 .div{
+    display: inline-block;
+    width: 48%;
+}
+.head2 .innovation p{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    text-align: bottom;
+    margin-left: 120px;
+    
+ 
+}
+ 
+.innovation h1{
+    font-size: 80px;
+    text-align: center;
+}
+ 
+.innovation, .circlelogo{
+    display: inline-block;
+    width:48%;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+}
+.content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+ 
+.feature, .about{
+    display: inline-block;
+    width: 48%;
+ 
+}
+ 
+.services, .product, .vision{
+    display: inline-block;
+    width: 33%;
+}
+ 
+ 
+.contact{
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+ 
+footer{
+    text-align: center;
+}
