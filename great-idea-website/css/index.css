@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +11,149 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body {
+	display: block;
+	width: 1100px;
+	margin: auto;
+	height: auto;
+}
+
+nav {
+	margin: 20px 10px;
+	padding: 10px;
+	margin-right: 100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0 40px;
+	color: #bbb5b5;
+	text-decoration: unset;
+	font-size: 12px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 40%;
+	margin-left: 6%;
+}
+
+.matrix {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	margin: 1% 6%;
+}
+
+header h1 {
+	margin: 10px;
+	font-size: 67px;
+}
+
+header button {
+	background: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding: 6px 38px;
+}
+
+.firstsection {
+	display: inline-block;
+	border-top: 1px solid black;
+	margin: 3% 5% 0% 5%;
+}
+
+.firstcontent {
+	display: inline-block;
+	width: 48%;
+	margin: 2% 0%;
+}
+
+.middle-img {
+	margin: 0% 5%;
+	width: 90%;
+}
+
+.secondsection {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin: 1% 5% 0% 5%;
+}
+
+.secondcontent {
+	display: inline-block;
+	width: 33%;
+	margin: 2% 0%;
+}
+
+.contact {
+	display: block;
+	margin: 3% 5%;
+}
+
+.farp {
+	margin: 3% 0%;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 3%;
+}
