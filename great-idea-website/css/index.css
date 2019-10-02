@@ -275,7 +275,8 @@ width: 100%;
     border-bottom-width: 100%;
     padding: 40px 0 40px;
     display: inline-block;
-    margin: 0 50px;
+    margin-left: 0;
+    
 }
 
 .services {
