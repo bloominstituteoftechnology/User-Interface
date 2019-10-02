@@ -163,38 +163,40 @@ h5 {
 /* Your code starts here! */
 
 body {
-    width: 1000px;
+    width: 1200px;
+    padding: 0 0 0 500px;
 }
 
 h1 {
-    font-size: 85px;
-    vertical-align: text-top;
+    font-size: 80px;
+    padding: 0 0 50px 0;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .navContainer {
-    padding: 20px 0 0 50px;
-    display: block;
+    display: inline-block;
+    width: 1000px;
 }
 
 .navContainer #navMenu {
-    display: inline-block;
+    display: block;
     align-content: middle;
-    text-decoration: none;
 }
 
 .navContainer #navMenu a {
-    padding: 0 10px 0 10px;
+    padding: 0 30px 0 30px;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .navContainer #navMenu .logo {
     display: inline-block;
     padding: 0 0 0 50px;
-    position: absolute;
-    left: 800px;
+    /* position: absolute;
+    left: 800px; */
 }
 
 header {
@@ -212,6 +214,16 @@ header .headerTitle {
 header .headerIMG {
     display: inline-block;
     width: 49%;
+}
+
+header #GSbutton {
+    display: inline;
+    padding: 5px 50px 5px 50px;
+    border: 2px solid black;
+}
+
+header #GSbutton a {
+    text-decoration: none;
 }
 
 .topSection {
@@ -260,6 +272,7 @@ address {
     width: 200px;
     height: 200px;
     margin: 50px auto 0 50px;
+    line-height: 150%;
 }
 
 footer {
