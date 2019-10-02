@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* .main {
+.main {
 	position: relative;
 	border-bottom: 1px solid black;
-  } */
+  }
   ​
   h1 {
 	border: 2px solid red;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	top: 50px;
 	display: inline-block;
-	width: 25%;
+	width: 25%; 
   }
 
   .navLinks nav {
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5 {
 	margin: 10px;
   }
   ​
-  .img1 {
+  .codeSnip {
 	position: relative;
 	top: 10px;
 	left: 375px;
@@ -138,21 +138,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 80%;
   }
   ​
-  #services {
-	display: inline-block;
-	width: 25%;
-	margin: 20px 5px;
-	font-size: 80%;
-  }
-  ​
-  #product {
-	display: inline-block;
-	width: 25%;
-	margin: 20px 5px;
-	font-size: 80%;
-  }
-  ​
-  #vision {
+  .header2 {
 	display: inline-block;
 	width: 25%;
 	margin: 20px 5px;
