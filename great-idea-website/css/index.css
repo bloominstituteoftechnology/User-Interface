@@ -64,51 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-header  {
-box-sizing: border-box;
-display: block;
-margin: auto;
+.container header nav a {
+	color:orange;
+	box-sizing: border-box;
+	display: inline-block;
 }
 
-.top-left {
+h4 {
+	color:black;
+}
 
-color: orange;
+address {
+	color:grey;
 }
-.top-right-img {
 
-}
-.middle-features {
-color: blue;
-display: block;
-height: 200px;
-width: 200px;
-}
-.middle-about {
-color: pink;
-display: block;
-height: 200px;
-width: 200px;
-}
-.middle-t {
-	display: block;
-	height: 200px;
-	width: 200px;
-}
-.middle-img {
-
-}
-.bottom-services {
-color: purple;
-}
-.bottom-product {
-color:aqua;
-}
-.bottom-vision {
-color:magenta;
-}
-.bottom-contact {
-color: palegreen;
-}
 footer {
-color: salmon;
+color: black;
+text-align: center;
 }
