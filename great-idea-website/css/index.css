@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 879px;
+	margin: auto;
+}
+
+.navigation nav {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.navigation a {
+	margin: 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+.navigation .logo {
+	margin-left: 2px;
+}
+
+
+     
+.header-content {
+	padding: 40px 0px;
+}
+
+.header-content .tag-line h1{
+	font-size: 72px;
+	margin-bottom: 80px;
+}
+.header-content .tag-line {
+	text-align: center;
+	position: relative;
+}
+
+.header-content div, .top-content div {
+	display: inline-block;
+	width: 49%;
+}
+
+.header-content .tag-line .get-started-button {
+	
+	border: 1px  solid black;
+	text-align: center;
+	padding: 7px 12px;
+	width: 185px;
+	margin: 0 auto;
+}
+
+.top-content {
+	font-size: 13pt;
+	border-top: solid gray 1px ;
+	padding: 20px 0;
+	line-height: 2;
+	margin-top: 50px;
+}
+
+.top-content p {
+	display: inline-block;
+	line-height: 1;
+	padding: 1px 0;
+	width: 100%;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 289px;
+}
+
+.middle-img {
+	padding: 5px 0;
+	margin-bottom: 20px;
+}
+
+.footer-content {
+	border-top: solid gray 1px ;
+	padding: 20px 0;
+	line-height: 2;
+	margin-top: 50px;
+}
+ .footer-content address {
+	 line-height: 1;
+ }
+
+ .footer-content .copyright {
+	 text-align: center;
+	 margin-top: 40px;
+ }
+
+ .logo {
+	 position: relative;
+	 left: 130px;
+ }
+
+.circle-img {
+	margin-left: 65px;
+}
