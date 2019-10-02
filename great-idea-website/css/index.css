@@ -156,11 +156,15 @@ body {
   margin: auto;
 }
 
+.aboveline {
+  margin-top: 100;
+}
+
 nav a {
   text-decoration: none;
   color: rgb(186, 186, 186);
   display: inline-block;
-  padding: 20px 30px 20px 0px;
+  padding: 40px 30px 65px 0px;
 }
 
 .logo {
@@ -180,11 +184,17 @@ section {
 }
 
 .button {
-  text-decoration: none;
-  font-size: 15pt;
+  font-size: 13pt;
   border: 1px solid black;
   text-align: center;
-  padding: 7px 30px;
+  padding: 7px 12px;
+  width: 185px;
+  margin: 0 auto;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
 }
 
 .codeimage {
@@ -195,11 +205,11 @@ section {
 
 .aboveline {
   border-bottom: 1px solid black;
-  padding-bottom: 90px;
+  padding-bottom: 75px;
 }
 
 .twoparagraphs {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .first {
@@ -242,7 +252,7 @@ section {
 
 .copyright {
   padding-top: 60px;
-
+  padding-bottom: 30px;
   text-align: center;
   font-size: 11pt;
 }
