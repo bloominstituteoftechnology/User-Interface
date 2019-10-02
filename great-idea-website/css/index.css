@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,31 +63,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.navigation{
-	display:inline-block;
-	padding:20px;
-	margin:50px;
-}
-
-nav a{
-	margin:20px; 
-}
-
-header h1 {
-	text-align: left;
-	padding:50px;
-	margin:50px;
-	font-size: 50px;
-  }
-.image{
-	display: inline-block;
-}
-
-footer{
+*{
+	/* border:3px solid red; */
 	text-align: center;
+	
+	
+}
+
+.all_content{
+	border-bottom: 1px solid black;
+	 border-top: 1px solid black;
+	 border:1px solid red;
+}
+
+.nav_manu{
+	text-align: left;
+	margin:40px;
+	border:1px solid red;
+}
+
+.nav_manu a{
+	text-decoration: none;
+	background-color:white;
+	color:grey;
+	margin: 35px;
+	border:1px solid red;
+}
+
+header{
+	text-align: center;
+	padding:20px;
+	border:1px solid red;
 }
 
 .header{
 	display: inline-block;
+	margin:30px;
+	border:1px solid red;
 }
 
+h1{
+	font-size: 100px;
+	border:1px solid red;
+}
+
+
+.content1{
+	display:inline-block;
+	margin:30px;
+	border:1px solid red;
+	
+}
+
+.content2{
+	display:inline-block;
+	margin:30px;
+	border:1px solid red;
+}
+
+.contact{
+	text-align: left;
+	border:1px solid red;
+}
+
+.contact h2{
+	text-align: left;
+	border:1px solid red;
+}
+
+p{
+	text-align: left;
+	border:1px solid red;
+}
+
+.header button{
+	background-color:white;
+	padding:8px;
+	width:200px;
+	border:1px solid black;
+}
+
+body{
+	margin:50px;
+}
+
+section{
+	border:1px solid red;
+}
