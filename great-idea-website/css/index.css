@@ -49,12 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	max-width: 900px;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+button {
+	border: black solid 1.5px;
+	margin: 20px 0 20px 100px;
+	padding: 5px 30px 5px 30px;
+}
+
+h1 {
+	font-size: 70px;
+	width: 80%;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+.navigation a{
+	color: gray;
+	text-decoration: none;
+	display: inline-block;
+	width: 10%;
+	height: 40px;
+	vertical-align: middle
+}
+
+.logo {
+	display: inline-block;
+}
+
+.headline {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 50px;
+	vertical-align: top;
+	padding: 100px 0 0 50px;
+}
+
+
+.headerImg {
+	width: 48%;
+	display: inline-block;
+}
+
+.features {
+	width: 48%;
+	display: inline-block;
+	padding: 15px;
+}
+
+.services {
+	width: 32%;
+	display: inline-block;
+	padding: 15px;
+}
+
+.pageBreak {
+	border-top: black solid 1px;
+	margin: 20px 0;
+}
+
+.contact {
+	margin: 20px 0;
+}
+
+.phone {
+	margin: 20px 0;
+}
