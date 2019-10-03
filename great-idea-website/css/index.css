@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-repeat: no-repeat;
+	background-position: 65% 150px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper{
+	max-width:900px;
+	margin:auto;
+}
+
+.inlineHalf{
+	display:inline-block;
+	width:48%;
+}
+
+.logo{
+	z-index:999;
+	position:fixed;
+	left:65%;
+	top:25px;
+	background-color:white;
+	padding:20px 10px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+
+.inlineThird{
+	display:inline-block;
+	width:33%;
+}
+
+nav{
+	top:0px;
+	z-index: 998;
+	background-color:white;
+	position:fixed;	
+}
+
+a{
+	line-height:30px;
+	width:100px;
+	display:inline-block;
+	color:gray;
+	text-decoration:none;
+	text-align:center;
+	margin-top:35px;
+}	
+
+a:hover {
+	position:relative;
+}
+
+a:hover:after{
+	content: url("https://lh3.googleusercontent.com/YOwDUtX8Q2dZYMhWiSwgINsr_yNl6ccqEiZ7TYRP6zho6HVeu_DyFJkY7PxWj-n43DAQf53_ndRO7WhOCVxlpr0UtqEejQ-ih97tYMmHYQceLh-oMIiuVqi51Cj9ba1ZilHexk4L2MePV3-x1cKEHaZAbwjGWkWt_RZcWDDntbfLwYs67LyLdbQGDkbRlRCWZsPKnE4hqty6cQYmEkyoJ4cEf-fNQdRqMXk-mdw3hthjiTb3JkUNjqHBIZWLZdDZzTHMUPgI57b9YmcFEY_r7CewpssRZW9r5dtVWkrBYLs1ibARWxpPcYN57JjL6mfdhpiMvO0sOW8yvfSm0a0HJLoOA6BQQEj7Y-PQU8ivMxxn4N-M3zodTV6FJlAldcxfeHQ-xEtzrzLRo2W6W6rhoWiCl5GnR2PJyEgSXuVFyAYbmvSMJq0XmGKtNCfv1d5VBJ2s6XXYbO8fSq8KpKhEbqRWgt20ouSpZXAfwGShhrCz2F2HDtCOjwGIRg0jq_Ez4yxSGpcL3gAzalmUAGcqv9e9iU5bp6xSrjExMRogJ1XP2BBPk8VJsOrzxlpRnl0ltAA3_xRZdLMNBzlaWdOca74d2b4kzcxUKduGw6Iq2lF3dgHXCUbGsX20SZUb4rS_cS9BtXXq0ZKLhLIK03N88pisz-sOBJ6pkgL7whQKL5SkAxiB1iaMYA=s60-no");
+	display:block;
+	position:absolute;
+	bottom:12px;
+	left:17px;
+}
+
+.cta img{
+	margin:40px 40px;
+}
+
+h1{
+	font-size:70px;
+	margin: 100px 100px 0 100px;
+	text-align:center;
+}
+
+.cta p{
+	position:relative;
+	top:20px;
+	left:140px;
+	text-align:center;
+	height:35px;
+	width:150px;
+	padding: 7px 30px 10px 30px;
+	border: 1px solid black;
+}
+
+.iod{
+	position:relative;
+	bottom:120px;
+	margin-top:100px;
+}
+
+.content div{
+	margin:20px 0px;
+}
+
+.contact h3{
+	margin-top:40px;
+}
+
+footer{
+	text-align:center;
+}
+
+.cta{
+	margin-top:100px;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+.middle-img{
+	padding:100px 100px;
+	background: url("../img/mid-page-accent.jpg");
+}
