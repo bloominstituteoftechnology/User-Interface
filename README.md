@@ -1,3 +1,5 @@
+Chance Rutledge
+
 # User Interface Project: Great Idea Web Page
 
 Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
@@ -38,3 +40,5 @@ Stretch goals are not required. Complete the project objectives before working o
 - [ ] Change all the image tags into background images instead
 
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+
+chance rutledge
