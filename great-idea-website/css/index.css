@@ -48,8 +48,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+*{
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	margin: 0 auto;
+	max-width: 90%;
+	padding-right: 10px;
+	padding-left:  10px;
+}
+
+header nav, header img{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px 0;
+}
+
+header nav a{
+	/* TB  LR */
+	margin-right: 105px;
+	text-decoration: none;
+	color: slategray;
+	margin-top: 10px;
+}
+
+header .logo{
+	margin-left:120px;
+}
+
+.top_section{
+	margin: 40px auto;
+}
+.innovation{
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+}
+
+.top_section img{
+	margin-left: 150px;
+}
+
+.innovation button{
+	border: 1px solid black;
+	padding: 2px 32px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.top_content{
+	margin: 40px 30px;
+}
+.top_content div{
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 1.2;
+}
+
+.text1{
+	width: 48%;
+	height: 100px;
+}
+.text2{
+	width: 48%;
+	height: 100px;
+}
+
+.middle_content img{
+	width: 100%;
+	height: 200px;
+}
+
+.bottom_content{
+	margin: 40px 30px;
+}
+.bottom_content div{
+	display: inline-block;
+	line-height: 1.2;
+	margin: 0 18px;
+}
+
+.text3{
+	width: 30%;
+	height: 100px;
+}
+.text4{
+	width: 30%;
+	height: 100px;
+}
+.text5{
+	width: 30%;
+	height: 100px;
+}
+
+.contact{
+	margin: 40px 0;
+	line-height: 1.3;
+}
+
+footer p{
+	margin: 100px 0;
+	text-align: center;
+}
