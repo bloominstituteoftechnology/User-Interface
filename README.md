@@ -1,4 +1,4 @@
-Jacob Washburn
+Jacob Washburn was here.
 
 # User Interface Project: Great Idea Web Page
 
