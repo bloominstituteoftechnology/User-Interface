@@ -63,13 +63,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	/* border:3px solid red; */
-	text-align: left;
-	
-	
-}
-
 .all_content{
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
@@ -99,7 +92,6 @@ header{
 .header{
 	display: inline-block;
 	margin:30px;
-	
 	text-align: center;
 }
 
@@ -112,22 +104,25 @@ h1{
 
 .content1{
 	display:inline-block;
-	padding:20px;	
+	margin:20px 10px 20px 0;
 }
 
 .content2{
 	display:inline-block;
-	padding:20px;
+	margin:20px 10px 20px 0;
+
 	
 }
 
 .contact{
 	text-align: left;
+	margin:20px 10px 20px 0;
 
 }
 
 .contact h2{
 	text-align: left;
+
 	
 }
 
