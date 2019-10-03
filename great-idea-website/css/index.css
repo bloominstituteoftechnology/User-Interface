@@ -223,6 +223,13 @@ header .slogan div {
 	margin-right: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
+
+}
+
+header .slogan div a {
+	text-decoration: none;
+	color: rgb(158, 157, 157);
+
 }
 
 header img {
@@ -235,7 +242,7 @@ header img {
 
 
 
-/* start of section styling */
+/* start of main section styling */
 
 .description {
 	display: inline-block;
@@ -250,35 +257,39 @@ header img {
 
 .features {
 	display: inline-block;
-	width: 45%;
-	margin: 3% 0%;
+	width: 49%;
+	margin: 3% auto;
 }
 
 .about {
 	display: inline-block;
-	width: 45%;
-	margin: 3% 0%;
+	width: 50%;
+	margin: 3% auto;
 
+}
+
+.description img {
+	width: 100%;
 }
 
 .services {
 	display: inline-block;
-	width: 30%;
-	margin: 3% 0%;
+	width: 33%;
+	margin: 3% auto;
 
 }
 
 .product {
 	display: inline-block;
-	width: 30%;
-	margin: 3% 0%;
+	width: 33%;
+	margin: 3% auto;
 
 }
 
 .vision {
 	display: inline-block;
-	width: 30%;
-	margin: 3% 0%;
+	width: 33%;
+	margin: 3% auto;
 
 }
 
@@ -288,7 +299,7 @@ header img {
 /* start of contact info styling */
 
 .contact-info {
-	margin-top: 3% 5%;
+	margin: 10px 30px;
 }
 
 
@@ -298,6 +309,6 @@ header img {
 	width: 50%;
 	text-align: center;
 	/* margin-bottom: 40px; */
-	margin: 0 auto;
+	margin: 10px auto;
 	/* border: 2px solid red; */
 }
