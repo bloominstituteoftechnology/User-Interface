@@ -4,7 +4,7 @@ Being able to create a user interface from scratch based on a design file is con
 
 Given this [design file](design-files/desktop.jpg), use HTML and CSS to build the web page layout. Remember, you can only use `display:inline-block` and box model CSS properties for this project. **Note: you are NOT permitted to use Flexbox or CSS Grid. This is an exercise in basic layout techniques.**
 
-**Lambda Life Tip:** Use the code from your instructor's demonstration to help you tackle the objectives.
+**Lambda Life Tip:** Use the code from your instructor's demonstration to help you tackle the objectives..
 
 ## To Get Started
 
@@ -20,11 +20,11 @@ Project objectives are meant to increase your knowledge by giving you practice o
 
 **Watch this short guide on how to setup your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
 
-- [ ] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
+- [x] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
 
-- [ ] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
+- [x] Go to your [index.html](great-idea-website/index.html) file and build out your HTML structure. You have been provided all the content and images you need to get started inside the `index.html` file.  Start to code HTML around the content!
 
-- [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
+- [x] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
 
 ## Stretch Goals:
 
@@ -38,3 +38,5 @@ Stretch goals are not required. Complete the project objectives before working o
 - [ ] Change all the image tags into background images instead
 
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+
+Brittany Isaacson
