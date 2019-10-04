@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+nav a {
+	display: inline-block;
+	color: gray;
+	text-decoration-line: none;
+	display: inline-block;
+	padding: 20px; 
+	
+}
+
+p {
+	display: inline-block;
+	height: 225px;
+	width: 425px;
+	padding: 10px;
+	margin 0;
+	}
+
+nav a:hover {
+	color: blue;
+}
+
+.about {
+	display: inline-block;
+	text-align: left;
+	
+}
+
+.features {
+	display: inline-block;
+	text-align: left;
+}
+
+.product {
+	display: inline-block;
+	
+}
+
+h2  {
+	font-size: 65px;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	
+}
+
+.middle-img {
+	padding: 5px;
+	position: relative;
+	top: -75px;
+	
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	width: 300px;
+	top: 12px;
+	
+}
+
+.circle-pic {
+	text-align: right;
+	width: 400px;
+	
+	
+}
+
+.services {
+	display: inline-block;
+	height: 200px;
+	width: 50px;
+	
+	
+}
+
+.product {
+	position: relative;
+	left: 400px;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.vision {
+	display: inline-block;
+	position: relative;
+	left: 650px;
+	
+}
+
+.started {
+	width: 400px;
+	margin: 0 auto;
+}	
+
+}
+
+address {
+	text-align: left;
+}
+
+.end {
+	text-align: center;
+}
+
