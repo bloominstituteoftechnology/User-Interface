@@ -64,3 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	display: inline-block;
+	color:gray;
+	text-decoration: none;
+	width: 14%;
+}
+
+.button{
+	height: 20px;
+	width: 45px;
+}
+
+h1{
+	font-size: 64px;
+}
+
+h3{
+	font-size 16px;
+}
+
+footer{
+	text-align: center;
+}
+
+
+
+.inner-p{
+	display: inline-block;
+	width: 45%;
+	
+}
+
+.header{
+	display: inline-block
+	height: 400px;
+	width: 45%;
+}
