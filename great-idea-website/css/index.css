@@ -84,94 +84,92 @@ p {
 	width: 425px;
 	padding: 10px;
 	margin 0;
-	}
+}
 
 nav a:hover {
 	color: blue;
 }
 
-.about {
-	display: inline-block;
-	text-align: left;
-	
-}
-
-.features {
-	display: inline-block;
-	text-align: left;
-}
-
-.product {
-	display: inline-block;
-	
-}
-
-h2  {
-	font-size: 65px;
-	height: 250px;
-	width: 250px;
-	text-align: center;
-	
-}
-
-.middle-img {
-	padding: 5px;
-	position: relative;
-	top: -75px;
-	
+.started .box:hover {
+	color: blue;
 }
 
 .logo {
-	display: inline-block;
-	text-align: right;
-	position: relative;
-	width: 300px;
-	top: 12px;
+	float: right;
 	
-}
-
-.circle-pic {
-	text-align: right;
-	width: 400px;
-	
-	
-}
-
-.services {
-	display: inline-block;
-	height: 200px;
-	width: 50px;
-	
-	
-}
-
-.product {
-	position: relative;
-	left: 400px;
-	height: 200px;
-	width: 200px;
-	
-}
-
-.vision {
-	display: inline-block;
-	position: relative;
-	left: 650px;
 	
 }
 
 .started {
-	width: 400px;
-	margin: 0 auto;
-}	
-
+	font-size: 65px;
+	text-align: center;
+	width: 450px;
+	float: left;
+	position: relative;
+	top: 75px;
+	
 }
 
-address {
+.box {
+	font-size: 25px;
+	position: relative;
+	top: -10px;
+	text-decoration: none;
+	color: black;
+
+	
+}
+
+.circle-pic {
+	float: right;	
+	width: 450px;
+}
+
+
+.features {
+	display: inline-block;
 	text-align: left;
+	width: 450px;
+
+ 
+}
+
+.about {
+	display: inline-block;
+	text-align: left;
+	float: right;
+	width: 450px;
+}
+
+.mid {
+	width: 900px;
+	position: relative;
+	top: -100px;
+}
+
+
+.first-sec {
+	display: inline-block;
+	
+}
+
+
+.services {
+	display: inline-block;
+	width: 200px;
+	
+}
+
+.product {
+	display: inline-block;
+	width: 200px;
+}
+
+.vision {
+	display: inline-block;
+	width: 200px;
 }
 
 .end {
 	text-align: center;
 }
-
