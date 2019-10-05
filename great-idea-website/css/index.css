@@ -28,8 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+ body {
 	line-height: 1;
+	display: inline-block;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +55,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	color: gray;
+	margin-right: 40px;
+}
+
+.main-title-text {
+	display: block;
+	font-size: 80px;
+	width: 270px; 
+	margin-top: 170px; 
+	text-align: center;
+	margin-left: 30px;
+}
+
+.button {
+	display: block;
+	font-size: 16px;	
+	padding: -30px;
+	background-color: white;
+	color: black;
+	width: 175px;
+	margin-left: 20px;
+}
+
+.main-title-pic {
+	display: block;
+	margin-top: -350px;
+	float: right;
+	margin-right: 50px;
+}
+
+#top-line {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.top-row {
+	display: inline-block;
+	margin-top: 50px;
+	width: 48%;
+	margin-right: 15px;
+}
+
+.middle-img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.bottom-row {
+	display: inline-block;
+	margin-top: 50px;
+	width: 33%;
+}
+
+#bottom-line {
+	margin-top: 50px;
+	width: 100%;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 60px;
+}
