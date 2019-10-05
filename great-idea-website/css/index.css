@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.everything {
+	margin: 100px;
+}
 
 nav a {
 	display: inline-block;
@@ -82,11 +85,13 @@ a:hover {
 	text-align: right;
 	margin: auto;
 }
+
 .squareBoxed {
 	border: 2px solid black;
 	display: inline-block;
 	font-size: 30px;
 	text-align: center;
+	margin: 0px;
 }
  .containerTop {
 	 border: 1px solid black;
@@ -110,7 +115,7 @@ a:hover {
 	border: 1px solid red;
 }
 h1 {
-	font-size: 65px;
+	font-size: 50px;
 	margin: 5%;
 }
 .upperImage {
@@ -118,10 +123,10 @@ h1 {
 	display: inline-block;
 	width: 48%;
 	height: 390px;
+	text-align: center;
 	
 }
 
-}
 .upperBodyText {
 	display: inline-block;
 	border: 1px solid blue;
@@ -141,8 +146,7 @@ h1 {
 
 .middleImg {
 	width: 100%;
-	margin: 25%;
-	padding: 25%;
+	text-align: center;
 }
 
 .lowerBody {
@@ -166,5 +170,8 @@ h1 {
 	margin: 1%;
 }
 footer {
-	text-align: center;
+	text-align: left;
+}
+.copyright {
+	margin: 10px;
 }
