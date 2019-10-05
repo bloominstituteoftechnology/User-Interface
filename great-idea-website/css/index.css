@@ -52,11 +52,13 @@ table {
 	box-sizing: border-box;
 }
 html, body {
+	color:white;
     height: 100%;
     font-family:'Permanent Marker', cursive;
 }
-}
+
 h1, h2, h3, h4, h5 {
+	color:white;
     font-family:'Permanent Marker', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -69,7 +71,7 @@ h1, h2, h3, h4, h5 {
 .main_nav {
 	height: 60px;
 	width: 886px;
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.781);
 	border-radius: 15px;
 	position: fixed;
     top: 5px;
@@ -84,19 +86,19 @@ h1, h2, h3, h4, h5 {
 	padding-top: 12px;
 	position: fixed;
 	top: 5px;
-	margin-left: 620px;
+	margin-inline: 315px;
 }
 .main_nav a {
 	text-transform: uppercase;
 	padding: 20px 10px;
 	display:inline-block;
 	text-decoration: none;
-	color: rgb(255, 0, 0);
+	color: rgb(228, 51, 51);
 	margin: 0px 12px;
 	vertical-align:middle;
 }
 .main_nav a:hover {
-	animation-name: jseffect;
+	animation-name: hover;
 	animation-duration: 0.5s;
 }
  
@@ -109,7 +111,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 30px;
-	border-bottom: solid 2px black;
+	border-bottom: solid 2px rgb(255, 0, 0);
 	padding-bottom: 50px;
 }
 .top_div {
@@ -124,7 +126,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 }
 .button_get {
 	margin-top: 15px;
@@ -132,16 +134,17 @@ h1 {
 	height: 45px;
 }
 h2 {
-	font-size: 22px;
+	font-size: 40px;
 }
 p {
 	font-family: 'Roboto', sans-serif;
 	text-justify: auto;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.5;
 	text-align: justify
 }
 .two_column_div {
+	
 	margin: 0 auto;
 	margin-top: 20px;
 	padding-bottom: 30px;
@@ -161,7 +164,7 @@ p {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 30px;
-	border-bottom: solid 2px black;
+	border-bottom: solid 2px rgb(255, 0, 0);
 }
 .three_column1 {
 	display: inline-block;
@@ -170,13 +173,16 @@ p {
 .three_column2_3 {
 	display: inline-block;
 	width: 250px;
-	margin: 0px 0px 0px 55px;
+	margin: 0px 0px 0px 50px;
 }
 address {
 	margin: 20px;
 	line-height: 1.5;
+	
 }
 .copyright {
 	text-align: center;
-	margin-bottom: 25px;
+	margin: 25px;
 }
+
+body {background-color: rgb(0, 0, 0);}
