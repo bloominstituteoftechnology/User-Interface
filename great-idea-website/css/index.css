@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
+} 
 ol, ul {
 	list-style: none;
 }
@@ -64,3 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+nav a {
+	display: inline-block;
+	width: 10.5%;
+	height: 5%;
+	margin: 1%;
+	color: grey;
+}
+a:hover {
+	color: blue;
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	margin: auto;
+}
+git
+.squareBoxed {
+	border: 1px solid black;
+	display: inline-block;
+	width: 380px;
+	height: 33px;
+	text-align: center;
+}
+.text {
+	display: inline-block;
+	height: 380px;
+	width: 380px;
+	text-align: center;
+
+}
+
+.containerMid {
+	display: inline-block;
+	width: 100%;
+}
+ }
+.upperBodyText {
+	display: inline;
+}
+.upperBodyLeft {
+	width: 600px;
+}
+.upperBodyRight {
+	width: 600px;
+}
+
+footer {
+	text-align: center:
+}
