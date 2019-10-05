@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	margin: 30px;
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px white;
+	
+}
+h2 {
+	font-size: 50px;
+	float: left;
+	margin : 100px;
+	
+	
+}
+
+.on { 
+	position:relative; 
+	left: 80px;
+
+
+}
+
+.demand { 
+	position:relative; 
+	left: 30px;
+
+
+}
+
+p {
+    display: inline-block;
+	border:  1px solid;
+	position:relative; 
+	right: 240px;
+	top: -50px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	}
+
+.right{
+
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	margin: 20px;
+}
+
+.left {
+	
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	margin: 20px;
+}
+
+.middle-img {
+	
+	display: inline-block;
+	margin: 20px;
+}
+
+.right1{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+}
+
+.right2{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+}
+	
+.right3{
+
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	margin: 20px;
+	
+}
+
+.contact{
+	display: inline-block;
+	width: 270px;
+	height: 80px;
+	
+	margin:  45px  20px;
+}
+
+footer {
+	position:relative; 
+	height:380px;
+	 top:50px;
+	 left: 380px;
+	 font-size: 14px;
+	 text-shadow: 1px 1px gray;
+}
+
+.number {
+	position:relative;
+	 margin: 8px;
+	 right: 2px;
+}
+
+
+.bottom-content {
+
+	border-bottom: solid 1px #000;
+	width: 950px;
+	padding: 10px;
+}
+
+.top-content{
+	border-bottom: solid 1px #000;
+	width: 950px;
+	padding: 10px;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+  }
