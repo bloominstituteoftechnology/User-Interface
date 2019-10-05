@@ -6,6 +6,8 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 **Lambda Life Tip:** Use the code from your instructor's demonstration to help you tackle the objectives.
 
+
+
 ## To Get Started
 
 * Fork / Clone this project into a directory on your machine.
@@ -26,7 +28,7 @@ Project objectives are meant to increase your knowledge by giving you practice o
 
 - [ ] Style your HTML using the [desktop design file](design-files/desktop.jpg) as a visual guide. Use any CSS properties you want for general styling but for layout, you can only use the box model (content, padding, margin, border) and `display:inline-block`.
 
-## Stretch Goals:
+## Stretch Goals: 
 
 Stretch goals are not required. Complete the project objectives before working on stretch. Stretch goals are not covered in the guided demo and need some research on your part. There is no particular order in this list, just pick one that sounds fun and push yourself.
 
