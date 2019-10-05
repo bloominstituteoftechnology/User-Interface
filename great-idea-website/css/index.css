@@ -64,11 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 * {
 	max-width: 99%;
 	min-width: 1px;
 	content: center;
 }
+.nav-bar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	max-width: 82%;
+	height: 8%;
+	margin: 2%;
+	padding-bottom: 8%;
+	background: white;
+}
+.nav-bar:hover {
+	background:whitesmoke;
+	color: black;
+}
+
 .nav-bar a {
 	
 	height: 5%;
@@ -80,6 +97,11 @@ h1, h2, h3, h4, h5 {
 
 }
 
+body {
+	margin-top: 19%;
+	background-image: url("img/header-img.png");
+	background-repeat: no-repeat, repeat;
+}
 
 .header h1 {
 	/* border: solid black; */
@@ -126,6 +148,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header .roundImage {
+	
 	display: inline-block;
 	/* border: solid black; */
 	padding-left: 65%;
@@ -147,13 +170,14 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-	padding-left: 20%;	
+	padding-left: 0;
+	padding-bottom: 6%;	
 	height: 0%;
   	width: 0%;
 	margin: 0%;
 	padding-top: 1%;
   	display: inline-block;
-  	text-align: center;
+  	text-align: left;
 }
 
 .top-content {
@@ -164,11 +188,13 @@ h2 {
 }
 
 .top-content .left {
+	font-family: 'Oswald', sans-serif;
 	display: inline-block;
 	max-width: 41%;
 	margin: 4%;
 }
 .top-content .right {
+	font-family: 'Oswald', sans-serif;
 	display: inline-block;
 	max-width: 42%;
 	margin: 4%;
@@ -183,10 +209,12 @@ h2 {
 
 
 .bottom-content {
+	font-family: 'Oswald', sans-serif;
 	display: inline-block;
 	/* border: solid black; */
 	width: 100%;
 	margin: 4%;
+	
 }
 
  .bottomOne {
@@ -217,23 +245,28 @@ h2 {
 } */
 .contactus {
 	font-family: 'Bangers', cursive;
-	margin: 2%;
+	margin-left: 2%;
+	margin-bottom: 0%;
 }
 .address {
+	font-family: 'Mansalva', cursive;
 	display: inline-block;
 	max-width: 16%;
 	margin: 2%;
 }
 .number {
+	font-family: 'Mansalva', cursive;
 	/* display: inline-block; */
 	max-width: 14%;
 	margin: 2%
 }
 .email {
+	font-family: 'Mansalva', cursive;
 	/* display: inline-block; */
 	max-width: 16%;
 	margin: 2%
 }
 footer {
+	font-family: 'Mansalva', cursive;
 	text-align: center;
 }
