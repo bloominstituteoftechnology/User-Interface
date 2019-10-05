@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container{
+	width: 65%;
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+}
+
+header{
+	text-align: center;
+	padding: 0 0 25px 0;
+}
+
+header nav{
+	display: inline-block;
+	margin: -15px 90px 0 0;	
+}
+
+header nav a{
+	margin: 0px 50px 0 0;
+	display: inline-block;
+}
+
+header img{
+	display: inline-block;
+	margin: 50px 0 0 0;
+
+}
+
+/* /////////////////////////////////////////////////// */
+
+section#callToAction{
+	text-align: right;
+	margin: 0 auto;
+	width: 95%;
+	padding: 25px 0 100px 0;
+	border-bottom: 1px solid black;
+}
+
+section#callToAction div{
+	margin: 0 150px 0 0px;
+	height: 200px;
+	width: 360px;
+	display: inline-block;
+	text-align: center;
+}
+
+section#callToAction div h1{
+	font-size: 600%;
+	text-align: center;
+}
+
+section#callToAction div a{
+	display: inline-block;
+	padding: 10px 25px;
+	border: solid black 1px;
+	text-decoration: none;
+	color: black;
+}
+
+#callToAction #image2{
+	width: 380px;
+	height: 380px;
+	margin: 0 0 0 0;
+	display: inline-block;
+}
+	/* //////////////////////////////////////////////////////// */
+
+main{
+	text-align: center;
+	padding: 50px 10px 50px 0;
+	width: 90%;
+	margin: 0 0 50px 10%;
+	border-bottom: 1px solid black
+}
+
+#features{
+	display: inline-block;
+	text-align: left;
+	height: 100px;
+	width: 49%;	
+	margin: 0 0 50px 0;
+}
+
+#about{
+	display: inline-block;
+	text-align: left;
+	height: 100px;
+	width: 49%;	
+	margin: 0 0 50px 0;
+}
+
+main img{
+	margin: 0 0 50px 0;
+	width: 100%;	
+
+}
+
+/* ////////// */
+
+#services{
+	display: inline-block;
+	text-align: left;
+	height: 100px;
+	width: 32%;	
+	margin: 0 0 50px 0;
+}
+
+#product{
+	display: inline-block;
+	text-align: left;
+	height: 100px;
+	width: 32%;	
+	margin: 0 0 50px 1%;
+}
+
+#vision{
+	display: inline-block;
+	text-align: left;
+	height: 100px;
+	width: 32%;	
+	margin: 0 0 50px 1%;
+}
+
+/* ////////////////////////////// */
+
+footer{
+	text-align: left;
+	padding: 0 0 0 10%;
+}
+
+footer section{
+	padding: 0 0 50px 0;
+}
+
+footer p{
+	margin: 20px 0;
+}
+
+footer div{
+	text-align: center;
+	padding: 0 0 25px 0;
+}
