@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	text-align: center;
+		}
+
+a {
+	margin: 28px;
+	padding: 12px;
+}
+
+div h1 {
+	border: solid white 3px;
+	margin: 100px 300px 100px 100px;
+	width: 230px;
+	height: 230px;
+	font-size: 56px;
+	text-align: center;
+	}
+
+p barimage {
+	border: green solid 2px;
+	margin: 200px;
+	padding: 20px;
+	}
+
+.div h2 {
+	border: solid black 3px;
+	margin-left: 250px;
+	font: bold black 22px;
+	height: 20px;
+	width:50px;
+	}
+
+img {
+	border: red 2px;
+	margin-left: 250px;
+	}
+
+.features {
+	border: green solid 2px;
+	margin: 50px;
+	width: 450px;
+	height: 150px;
+}	
+
+.About {
+	margin-top: -200px;
+	margin-bottom: 50px;
+	margin-left: 560px;
+	width: 450px;
+	height: 150px;
+	border: solid red 2px;
+}
+
+.Services {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 350px;
+	height: 150px;
+	border: solid magenta 2px;
+}
+
+.Product {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 350px;
+	height: 150px;
+	border: solid orange 2px;
+}
+
+.Vision {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 350px;
+	height: 150px;
+	border: solid brown 2px;
+}
+
+.div Contact {
+	margin-top: 35px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	border: solid magenta 5px;
+	}	
+	
+footer {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: black solid 3px;
+	}
