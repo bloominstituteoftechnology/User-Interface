@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.nav-bar a {
+	
+	height: 5%;
+  	width: 5%;
+  	margin: 4%;
+  	display: inline-block;
+  	text-align: center;
+
+}
+
+}
+.header p {
+	border: solid black;
+	display: border-box;
+	font-size: 200%;
+	margin: 4%;
+	text-align: center;
+	width: 5%;
+	padding-left: 10%	
+
+}
+.header p {
+	/* border: solid black; */
+	display: border-box;
+	font-size: 300%;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 1%;
+	text-align: center;
+	width: 40%;
+	padding-top: 1%;
+	padding-left: 0%
+}
+.header div {
+	
+	
+	/* display: border-box; */
+	font-size: 150%;
+	margin: 2%;
+	text-align: center;
+	width: 15%;
+	padding-top: 1%;
+	padding-left: 0%;
+	margin-left: 14%;
+	text-decoration: none;
+	
+}
+
+.header .roundImage {
+	display: inline-block;
+	/* border: solid black; */
+	padding-left: 65%;
+	margin-top: -25%;
+}
+
+.button {
+	display: block;
+	border: solid black;
+	width: 15%;
+	padding-left: 22%;
+	margin: 40%;
+}
+section .top-content{
+	border: solid black;
+	display: inline-block;
+}
+
+}
+.top-content p {
+	display: border-box;
+	display: inline-block;
+	/* border: solid black; */
+	height: 15%;
+  	width: 25%;
+  	margin: 0%;
+	text-align: left;
+	padding: 0%;
+	/* border:solid black;
+	height: 1%;
+  	width: 50%;
+  	margin: 0%;
+  	background-color: pink;
+  	display: inline-block;
+  	text-align: left; */
+}
+.topOne .features {
+	/* border: solid black; */
+	height: 50%;
+  	width: 10%;
+	  margin: 1%;
+	  padding-right: 80%;
+  	text-align: center;
+
+}
