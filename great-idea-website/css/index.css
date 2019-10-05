@@ -80,9 +80,9 @@ h1, h2, h3, h4, h5 {
 
 }
 
-}
+
 .header h1 {
-	border: solid black;
+	/* border: solid black; */
 	display: border-box;
 	font-size: 200%;
 	margin: 4%;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5 {
 	
 	
 	/* display: border-box; */
-	font-size: 100%;
+	font-size: 90%;
 	margin: 0%;
 	text-align: center;
 	width: 8%;
@@ -155,93 +155,85 @@ h2 {
   	display: inline-block;
   	text-align: center;
 }
-.h2left {
-	margin-top: 1%;
-}
-.h2right {
-	padding-left: 28%;
-	margin-top: 0%;
-}
+
 .top-content {
 	display: inline-block;
-	width: 98%;
+	/* border: solid black; */
+	width: 100%;
+	margin: 0%;
 }
 
 .top-content .left {
-	display: border-box;
-	float: left;
-	width: 40%;
-	padding-left: 5%;
-	padding-right: 5%
-	padding-bottom: 1%;
-	height: 0%;
-	margin: 0%;
+	display: inline-block;
+	max-width: 41%;
+	margin: 4%;
 }
 .top-content .right {
-	display: border-box;
-	float: right;
-	width: 40%;
-	padding-left: 5%;
-	padding-right: 5%
-	padding-bottom: 1%;
-	height: 0%;
-	margin: 0%;
+	display: inline-block;
+	max-width: 42%;
+	margin: 4%;
 }
 
 .middle-img {
 	width: 100%;
 	height: 40%;
-	padding: 5%;
+	margin: 2%;
 	
 }
 
 
 .bottom-content {
 	display: inline-block;
-	border: solid black;
+	/* border: solid black; */
 	width: 100%;
+	margin: 4%;
 }
 
-
-.bottom-content .hbp {
-	display: inline-block;
-	display: border-box;
-	width: 20%;
-	height: 5%;
-	
-
-}
-
- h2 .bottomOne {
+ .bottomOne {
 	display: inline-block; 
-	padding: 0%;
-	text-align: center;
+	max-width: 25%;
+	margin: 4%;
 	
-	
 }
-h2 .bottomTwo {
+.bottomTwo {
 	display: inline-block;
-	text-align: center;
-	padding: 0%;
-	margin: 0%;
-
+	max-width: 25%;
+	margin: 4%;
 }
-h2 .bottomThree {
+.bottomThree {
 	display: inline-block;
-	text-align: center;
-	padding: 0%;
-	right: 0px;
+	max-width: 25%;
+	margin: 4%;
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
 }
 
-
-.bottom-content .bp{
-	border: solid black;
+/* .contact {
 	display: inline-block;
-	display: border-box;
-	width: 12%;
-	padding: 0%;
+	max-width: 16%;
 	margin: 2%;
-	height: 200px;
-} 
-
-
+} */
+.contactus {
+	font-family: 'Bangers', cursive;
+	margin: 2%;
+}
+.address {
+	display: inline-block;
+	max-width: 16%;
+	margin: 2%;
+}
+.number {
+	/* display: inline-block; */
+	max-width: 14%;
+	margin: 2%
+}
+.email {
+	/* display: inline-block; */
+	max-width: 16%;
+	margin: 2%
+}
+footer {
+	text-align: center;
+}
