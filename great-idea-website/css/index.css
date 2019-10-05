@@ -64,3 +64,35 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	display: inline-block;
+	
+	
+}
+
+.navigation a {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navigation 
+
+h1 {
+	
+	font-size: 60px;
+
+
+}
+
+.nav {
+	width:70%;
+	display: inline-block;
+}
+
+.greatLogo {
+	width: 28%;
+	display: inline-block;
+}
