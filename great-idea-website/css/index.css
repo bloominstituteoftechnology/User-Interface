@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+-html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -64,49 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 .container {
 	width: 876px;
-	margin: auto;
+	margin: 0 auto;
 }
 
-header nav {
+.top-header nav {
+	margin: 30px 0;
 	display: inline-block;
 }
 
-header nav a {
-	height: auto;
-	width: auto;
-	color: grey;
+.top-header nav a {
+	margin: 0px 33px;
 	text-decoration: none;
-	margin: 0px 10px;
-	font-size: 14px;
-}
-.main-section{
-	display: inline-block;	
+	color: grey;
 }
 
-h1{
-	font-size: 77px;
+.top-header nav a:first-child {
+	margin-left: 0px;
 }
 
-.button{
-
+.container .top-header .logo {
+	margin-right: 0px;
+	vertical-align: middle;
 }
 
-.first-img{
+.main-section {
+	margin: 50px 0;
+}
+
+.main-section .cta {
 	display: inline-block;
-	height: 379px;
-	width: 379px;
-	margin: 0px 500px;
-}
-.one {
+	font-size: 75px;
+	text-align: center;
 	display: inline-block;
-	width: 378px;
-	margin: 10px 30px;
+  	width: 49.5%;
+	height: 250px;
+	margin-bottom: 0px;  
 }
 
-.two {
+.main-section .first-img {
 	display: inline-block;
-	width: 378px;
-	margin: 10px 20px;
+  	width: 49.5%;
+  	height: auto;
+  	margin-right: 0px;
+}
+
+.main-section .cta button {
+	margin-top: -70px;
+    background-color: white;
+    padding: 10px 40px;
+    border: 1px solid black;
+	vertical-align: text-top;
+}
+
+.main-section .cta button a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-section .cta button:active {
+	background-color: black;
+	color: white;
+}
+
+.main-section .cta button:hover {
+	background-color: black;
+}
+.main-section .cta button a:hover {
+	color: white;
+}
+
+.text-above-picture {
+	margin: 30px 0;
+}
+.text-above-picture .above-one {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.text-above-picture .above-two {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.text-below-picture {
+	margin: 30px 0;
+}
+
+.text-below-picture .below-one {
+	display: inline-block;
+	width: 33%;
+}
+
+.text-below-picture .below-two {
+	display: inline-block;
+	width: 33%;
+}
+
+.text-below-picture .below-three {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact-info {
+	margin: 30px 0;
+}
+
+.container footer {
+	text-align: center;
 }
