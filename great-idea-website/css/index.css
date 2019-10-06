@@ -79,6 +79,8 @@ a {
 
 h1{
 	font-size: 64px;
+	text-align: center;
+	/* display: inline-block; */
 }
 
 h3{
@@ -87,18 +89,111 @@ h3{
 
 footer{
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 
-
+/* 
 .inner-p{
 	display: inline-block;
 	width: 45%;
 	
-}
+} */
 
 .header{
-	display: inline-block
+	
+	/* display: inline-block;
 	height: 400px;
+	width: 45%; */
+}
+
+.header-left{
+	display:inline-block;
+	width: 48%;
+	text-align: center;
+}
+
+.header-right{
+	display:inline-block;
+	width: 48%;
+}
+
+#header{
+	/* display:inline-block; */
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#get-started{
+	display: inline-block;
+	height: 25px;
+	width: 125px;
+	border: solid 1px black
+}
+
+.upper-content{
+	display: inline-block;
 	width: 45%;
+}
+
+.middle-img{
+	/* display: block;
+	align-content: center;
+	width: 100%; */
+	display: block;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 99%;
+	/* display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%; */
+}
+
+.middle-picture{
+	display: inline-block;
+	margin: 25px;
+}
+
+.bottom-content{
+	display: inline-block;
+	width: 30%
+}
+
+.contact p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.upper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bottom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.logo{
+	display: inline-block;
+	width: 11%;
+}
+
+html {
+	margin: 35px;
+}
+
+.code-circle-img {
+	/* display: inline-block; */
+	display: block;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 43%;
+}
+
+nav{
+	margin-bottom: 50px;
 }
