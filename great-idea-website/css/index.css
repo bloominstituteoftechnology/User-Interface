@@ -90,11 +90,13 @@ a:hover {
 }
 
 .squareBoxed {
-	/* border: 2px solid black; */
+	border: 2px solid black;
 	display: inline-block;
 	font-size: 30px;
 	text-align: center;
-	margin: 0px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
  .containerTop {
 	 /* border: 1px solid black; */
