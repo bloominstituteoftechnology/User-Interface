@@ -65,34 +65,120 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {
-	display: inline-block;
-	
-	
+* {
+	box-sizing: content-box;
+}
+body {
+	margin: 0 auto;
+	max-width: 900px;
 }
 
-.navigation a {
-	display: inline-block;
-	padding: 30px;
+nav a {
+	padding-right: 20px;
 	text-decoration: none;
+	color: black;
+}
+
+nav {
 	font-size: 20px;
-}
-
-.navigation 
-
-h1 {
+	margin: 20px;
 	
+	
+h1 {
+	text-align: center;
+}
+	 
+}
+
+.thelogo {
+	text-align: right;
+	
+	display: inline-block;
+
+}
+
+
+
+.thetitle {
 	font-size: 60px;
+	margin-top: 50px;
+	
+}
 
+.inovation {
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+	width: 50%;
+	display: inline-block;
+	
 
 }
 
-.nav {
-	width:70%;
+
+.start {
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid black;
+	max-width: 120px;
+	padding-top: 16px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	margin: 50px;
+		
+}
+
+.headerimg {
 	display: inline-block;
 }
 
-.greatLogo {
-	width: 28%;
+.top-content {
 	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.features {
+	max-width: 40%;
+	display: inline-block;
+}
+
+.about {
+	max-width: 48%;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.middle-img {
+	margin-bottom: 40px;
+}
+
+.bottom-content {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.first {
+	max-width: 32.4%;
+	display: inline-block;
+}
+
+.second {
+	max-width: 32.4%;
+	display: inline-block;
+	
+}
+
+.third {
+	max-width: 32.4%;
+	display: inline-block;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.copyright {
+	text-align: center;
+	margin-bottom: 50px;
 }
