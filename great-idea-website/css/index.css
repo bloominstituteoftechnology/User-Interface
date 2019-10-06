@@ -63,4 +63,115 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+*{
+	margin: 5%;
+	text-align: center;
+}
+
+nav{
+	display: inline-block;
+	text-align: center;
+}
+.nav {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+} 
+
+.nav li{
+	display: inline;
+}
+.nav a{
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: grey;
+}
+h1{
+	font-size: 85px;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	top: -125px;
+	left: 17%;
+	box-sizing: border-box;
+}
+.intro{
+	display: inline-block;
+	width: 47%;
+	text-align: center;
+}
+.intro img{
+	padding-top: 20%;
+	padding-right: 40%;
+	padding-bottom: 5%;
+	position: relative;
+	top: -80px;
+}
+h5{
+	text-align: left;
+}
+.first{
+	width: 32%;
+	height: auto;
+	padding: 20px;
+	display: inline-block;
+	margin: 0;
+	text-align: left;
+	position: relative;
+	top: -175px;
+}
+.middle-img{
+	position: relative;
+	top: -150px;
+}
+hr{
+	width: 60%;
+	position: relative;
+	top: -25%;
+	left: 15%;
+}
+.gs {
+	border: solid 1px;
+	box-sizing: border-box;	
+	padding: 2%;
+	width: 200px;
+	margin-left: 50%;
+	margin-bottom: 10%;
+	position: relative;
+	top: -150px;
+}
+
+
+.second{
+	width: 22%;
+	height: auto;
+	display: inline-block;
+	padding: 30px;
+	text-align: left;
+	position: relative;
+	top: -100px;
+}
+
+.address{
+	text-align: left;
+	width: 30%;	
+	padding-left: 18%;
+	padding-top: 10px;
+	position: relative;
+	top: -32%;
+	left: .5%;
+	text-align: left;
+}
+footer{
+	text-align: center;
+	padding-bottom: 15%;
+	position: relative;
+	top: -15%;
+}
+
 /* Your code starts here! */
