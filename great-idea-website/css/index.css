@@ -74,26 +74,26 @@ body {
 }
 
 nav a {
-	padding-right: 20px;
+	padding: 10px;
 	text-decoration: none;
-	color: black;
+	color: gray;
+	text-align: center;
+	
 }
 
 nav {
 	font-size: 20px;
 	margin: 20px;
-	
-	
-h1 {
-	text-align: center;
-}
+	max-width: 100%;
 	 
 }
 
+
 .thelogo {
 	text-align: right;
-	
+	max-width: 140px;
 	display: inline-block;
+	padding-left: 100px;
 
 }
 
@@ -108,11 +108,8 @@ h1 {
 .inovation {
 	width: 50%;
 	text-align: center;
-	padding-top: 50px;
-	width: 50%;
 	display: inline-block;
 	
-
 }
 
 
@@ -131,6 +128,7 @@ h1 {
 
 .headerimg {
 	display: inline-block;
+	padding-top: 20px;
 }
 
 .top-content {
