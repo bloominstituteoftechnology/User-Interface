@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	
 }
 
 /* Set every element's box-sizing to border-box */
@@ -52,15 +53,161 @@ table {
     box-sizing: border-box;
 }
 
+
+
 html, body {
+	width:95%;
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	background:black;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color:rgba(44, 135, 238, 0.541);
 }
 
-/* Your code starts here! */
+
+h1{
+	font-size : 110px;
+	text-align:center;
+	position:relative;
+	top:100px;
+	width:500px;
+	left: 100px;
+	color: rgb(9, 207, 9);
+	
+	
+	
+	
+}
+
+p{
+	color:white;
+}
+
+
+
+nav a{
+	
+	margin:20px;
+	text-decoration: none;
+	color:green;
+	width:80px;
+	text-align:center;
+	display: inline-block;
+	border: 1px green solid;
+	background:black;
+}
+
+
+.logo{
+	background:rgb(5, 209, 5);
+	margin-left:90%;
+	position: relative;
+	bottom: 50px;
+	
+	
+	
+}
+
+
+
+#startButton{
+	
+	color:green;
+	background: black;
+	width:120px;
+	height:40px;
+	text-align:center;
+	padding-top:10px;
+	border:1px solid green;
+	position: relative;
+	left:280px;
+	top: 100px;
+	
+}
+
+#circlePic{
+	position: relative;
+	left:900px;
+	bottom:200px;
+	
+}
+
+.main{
+	position: relative;
+	
+}
+
+.midContent{
+	margin-left: 170px;
+	border-top: 2px solid rgb(3, 81, 184);
+	padding-top:40px;
+}
+
+
+
+.featureBox{
+	display:inline-block;
+	width: 40%;
+	margin-left:50px;
+}
+
+.aboutBox{
+	display: inline-block;
+	width: 40%;
+	margin-left:100px;
+}
+
+.middle-img{
+	position:relative;
+	left:290px;
+}
+
+.empty{
+	padding: 10px;
+}
+
+.servicesBox{
+	margin:10px;
+	width: 32%;
+	display: inline-block;
+}
+
+.productsBox{
+	display:inline-block;
+	width:32%;
+
+}
+
+.visionBox{
+	display:inline-block;
+	width:32%;
+	margin-left:10px;
+}
+
+.bottomContent{
+	margin-left: 180px;
+	border-bottom: 2px solid rgb(0, 65, 187);
+	padding-bottom: 40px;
+}
+
+.contactInfo{
+	width:25%;
+	padding:100px;
+}
+
+.topContent{
+	position: relative;
+	top:100px;
+}
+
+footer{
+	text-align: center;
+	
+
+}
+
