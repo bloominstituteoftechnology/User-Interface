@@ -65,94 +65,126 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
 .navigation {
 	text-align: center;
-		}
+}	
 
 a {
-	margin: 28px;
+	margin: 20px;
 	padding: 12px;
 }
 
 div h1 {
-	border: solid white 3px;
-	margin: 100px 300px 100px 100px;
+	margin: 100px 300px 10px 250px;
 	width: 230px;
 	height: 230px;
-	font-size: 56px;
+	font-size: 60px;
 	text-align: center;
 	}
 
-p barimage {
+/*p barimage {
 	border: green solid 2px;
 	margin: 200px;
 	padding: 20px;
+	}*/
+
+button {
+	margin-left: 255px;
+	margin-top: -680px;
+	width: 120px;
+	height: 30px;
 	}
 
-.div h2 {
-	border: solid black 3px;
-	margin-left: 250px;
-	font: bold black 22px;
-	height: 20px;
-	width:50px;
-	}
+div h2 img{
+	margin-left: 710px;
+	margin-top: -300px;
+}
 
-img {
-	border: red 2px;
+p img {
 	margin-left: 250px;
-	}
+	margin-top: -40px;
+}
+
+.solid-line{
+	border: black 1px;
+	width: 650px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 .features {
-	border: green solid 2px;
-	margin: 50px;
-	width: 450px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+	width: 420px;
 	height: 150px;
 }	
 
 .About {
 	margin-top: -200px;
-	margin-bottom: 50px;
-	margin-left: 560px;
-	width: 450px;
+	margin-bottom: 10px;
+	margin-left: 720px;
+	width: 418px;
 	height: 150px;
-	border: solid red 2px;
-}
+	}
 
 .Services {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
-	width: 350px;
+	margin-left: 250px;
+	width: 280px;
 	height: 150px;
-	border: solid magenta 2px;
-}
+	}
 
 .Product {
-	margin-top: 50px;
+	margin-top: -200px;
 	margin-bottom: 50px;
-	width: 350px;
+	margin-left: 555px;
+	width: 280px;
 	height: 150px;
-	border: solid orange 2px;
-}
+	}
 
 .Vision {
-	margin-top: 50px;
+	margin-top: -200px;
 	margin-bottom: 50px;
-	width: 350px;
+	margin-left: 850px;
+	width: 280px;
 	height: 150px;
-	border: solid brown 2px;
+	}
+
+.Contact h3 {
+	margin-left: 250px;
+	margin-top: -100;
 }
 
-.div Contact {
-	margin-top: 35px;
-	margin-right: 50px;
-	margin-bottom: 50px;
-	margin-left: 50px;
-	border: solid magenta 5px;
+.address p {
+	margin-left: 250px;
+	margin-bottom: 1px;
 	}	
 	
+.city p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.phone p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.email p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.business p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
 footer {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	border: black solid 3px;
 	}
