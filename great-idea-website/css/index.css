@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,171 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	/* border: 5px solid black; */
+	padding: 5px;
+  }
+  
+  .menubar nav {
+	margin-left: 1px;
+	/* border: 10px solid green; */
+	width: 65%;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+
+   }
+  
+  .menubar nav a {
+	margin-right: 60px;
+	margin-left: 30px ;
+	margin-top: 20px;
+	/* border: 5px solid; */
+	display: inline-block;
+	color: grey;
+	font-size: 20px;
+	/* padding: 10px; */
+	/* margin-bottom: 40px; */
+	text-decoration: none;
+  }
+
+  #title {
+	font-family: 'Bangers', cursive;
+
+}
+  
+  #logo {
+	display: inline-block;
+	font-size: 14px;
+	/* border: 5px solid black; */
+	height: 100px;
+	padding: 20px;
+	
+  }
+
+.content_1 {
+	  /* border: 5px solid; */
+	  padding: 5px;
+	  font-family: 'Titillium Web', sans-serif;
+
+  }
+
+  .content_1_box_text {
+	  /* border: 3px solid blue; */
+	  display: inline-block;
+	  vertical-align: top;
+	  width: 60%;
+	  text-align: center;
+	  font-family: 'Titillium Web', sans-serif;
+	  color: black;
+	  font-size: 85px;
+
+  }
+
+  #code-circle {
+	  /* border: 2px solid; */
+	  display: inline-block;
+	  margin: 30px;
+  }
+
+ ul :last-child {
+	background-color: #white; /* Green */
+	border: solid black;
+	color: black;
+	padding: 2px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+ }
+
+.top-content {
+	/* border: solid; */
+	border-top: solid;
+	margin: 30px;
+
+}
+
+	.about {
+		/* border: solid; */
+		display: inline-block;
+		vertical-align: top;
+		width: 45%;
+		margin: 2%;
+
+	}
+
+	.features {
+		/* border: solid; */
+		display: inline-block;
+		vertical-align: top;
+		width: 45%;
+		margin: 2%;
+
+	}
+
+.middle-img {
+	margin: 30px;
+	/* border: solid; */
+	/* max-width: 100%; */
+	height: auto;
+	/* display: inline-block;   */
+	/* width: 600px; */
+	margin-right: 50px;
+
+}	
+
+
+#code-block {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-content {
+	/* border: 2px solid; */
+	/* margin: 20px; */
+	
+
+}
+	.services {
+		/* border: solid; */
+		display: inline-block;
+		vertical-align: top;
+		width: 29%;
+		margin: 2%;
+	}
+
+	.product {
+		/* border: solid; */
+		display: inline-block;
+		vertical-align: top;
+		width: 29%;
+		margin: 2%;
+	}
+
+	.vision {
+		/* border: solid; */
+		display: inline-block;
+		vertical-align: top;
+		width: 28%;
+		margin: 2%;
+		
+	}
+
+.footer {
+	/* border: 3px solid; */
+	margin: 40px;
+	border-top: solid;
+	
+}	
+
+.contact {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+}
