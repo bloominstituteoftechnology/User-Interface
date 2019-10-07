@@ -56,59 +56,94 @@ table {
 
 
 html, body {
+	margin-top: 30px;
 	width:95%;
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	background:black;
+	background-size:cover;
+	background:url("https://jmd.im/wp-content/uploads/2017/06/blackiii_thumbnail.jpg");
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     letter-spacing: 1px;
 	margin-bottom: 15px;
 	color:rgba(44, 135, 238, 0.541);
+	font-weight:bold;
+	
+}
+
+h2, h3, h4, h5:hover{
+	font-size:20px;
 }
 
 
+
+
 h1{
-	font-size : 110px;
+	padding-top:150px;
+	font-size:100px;
 	text-align:center;
 	position:relative;
-	top:100px;
-	width:500px;
-	left: 100px;
-	color: rgb(9, 207, 9);
+	top:0px;
+	width:600px;
+	left: 200px;
+	height:700px;
+	color: rgb(0, 219, 0);
+	border:2px dotted green;
+	border-radius: 10%;
+	background: url("https://wallpaperaccess.com/full/675972.jpg");
+	background-size: cover;
+	text-shadow: 1px 0 black, 0 2px black, 2px 0 black, 0 1px black;
 	
-	
-	
+
 	
 }
 
 p{
 	color:white;
+	font-weight:bold;
+}
+
+nav{
+
+	width:55%;
+	position:fixed;
+	top:0;
+	z-index: 1;
+	
 }
 
 
 
 nav a{
-	
+	padding:10px;
 	margin:20px;
 	text-decoration: none;
 	color:green;
 	width:80px;
 	text-align:center;
-	display: inline-block;
+	display: block;
 	border: 1px green solid;
 	background:black;
+	border-radius:30%;
+}
+
+nav a:hover{
+	color:black;
+	background:green;
+	box-shadow: 0 8px 16px green;
 }
 
 
 .logo{
-	background:rgb(5, 209, 5);
-	margin-left:90%;
+	background:green;
+	margin-left:80%;
 	position: relative;
 	bottom: 50px;
-	
+	border-radius: 20%;
+	height:80px;
 	
 	
 }
@@ -117,30 +152,38 @@ nav a{
 
 #startButton{
 	
-	color:green;
+	color:rgb(10, 207, 10);
 	background: black;
-	width:120px;
-	height:40px;
+	width:220px;
+	height:80px;
 	text-align:center;
-	padding-top:10px;
-	border:1px solid green;
+	padding-top:30px;
+	border:3px solid green;
 	position: relative;
-	left:280px;
-	top: 100px;
+	left:400px;
+	font-weight: bold;
 	
 }
 
 #circlePic{
 	position: relative;
 	left:900px;
-	bottom:200px;
+	bottom:600px;
+	border-bottom:1px dotted white;
+	padding-bottom:30px;
+	height:600px;
 	
 }
 
-.main{
-	position: relative;
+.middle-img{
+	display: inline-block;
+	width:90%;
+	padding-right:400px;
+	height:300px;
 	
 }
+
+
 
 .midContent{
 	margin-left: 170px;
@@ -150,16 +193,19 @@ nav a{
 
 
 
-.featureBox{
+#featureBox{
 	display:inline-block;
-	width: 40%;
+	width: 38%;
 	margin-left:50px;
+	border-right:2px dotted blue;
 }
 
-.aboutBox{
+#aboutBox{
 	display: inline-block;
-	width: 40%;
+	width: 38%;
 	margin-left:100px;
+	border-left:2px dotted blue;
+	padding-left:20px;
 }
 
 .middle-img{
@@ -168,22 +214,24 @@ nav a{
 }
 
 .empty{
-	padding: 10px;
+	padding: 20px;
 }
 
-.servicesBox{
+#servicesBox{
 	margin:10px;
 	width: 32%;
 	display: inline-block;
+	border-right:2px dotted blue;
 }
 
-.productsBox{
+#productsBox{
 	display:inline-block;
 	width:32%;
+	border-right:2px dotted blue;
 
 }
 
-.visionBox{
+#visionBox{
 	display:inline-block;
 	width:32%;
 	margin-left:10px;
@@ -195,7 +243,7 @@ nav a{
 	padding-bottom: 40px;
 }
 
-.contactInfo{
+#contactInfo{
 	width:25%;
 	padding:100px;
 }
