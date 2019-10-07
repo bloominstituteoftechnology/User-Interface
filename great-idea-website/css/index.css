@@ -75,6 +75,37 @@ h1, h2, h3, h4, h5 {
   color: black;
 text-decoration: none;
 }
+.top-text nav:hover{
+	background: lightgreen;
+	
+}
+.top-text a:hover{
+color:  darkslategrey;
+font-weight: bold;
+}
+	
+.square button:hover{
+	background: none;
+	background: lightgreen;
+	color: darkslategrey;
+	font-weight: bold;	
+}
+.sphere #spinning-circle{
+		animation-name: spinning-circle;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		width: 350px;
+		height: 350px;
+		animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
 .top-text nav{
 	position: fixed;
 	background-color: skyblue;
