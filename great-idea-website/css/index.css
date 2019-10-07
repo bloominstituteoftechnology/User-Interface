@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+header nav a {
+	margin: 0 20px;
+	color: black;
+}
+
+header img.logo {
+	margin-left: 135px;
+}
+
+.cta {
+	display: inline-block;
+	width: 900px;
+	margin-bottom: 0px;
+}
+
+.cta-content-snip {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: -69px;
+    height: fit-content;
+}
+
+.cta-content-title {
+	display: inline-block;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 45px;
+}
+
+h1 {
+	margin-bottom: 80px;
+    font-size: 85px;
+    margin-left: 0px;
+}
+
+.snip {
+	margin-left: 120px
+}
+
+button {
+	border: 1px solid black;
+    font: inherit;
+    font-size: 17px;
+    background-color: white;
+}
+
+hr {
+	border-color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.top-middle-content {
+	display: inline-block;
+	width: 900px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.top-middle-text {
+	margin: 5px;
+	padding: 5px;
+	width: 48%;
+	display: inline-block;
+}
+
+.bottom-middle-text {
+	margin: 5px;
+	padding: 5px;
+	width: 31%;
+	display: inline-block;
+}
+
+.middle-img {
+	margin-bottom: 20px;
+}
+
+.copyright p {
+	text-align: center;
+	margin-top: 40px;
+}
