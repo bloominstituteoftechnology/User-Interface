@@ -64,3 +64,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Only allowed to use:
+	i) display: inline-block
+	ii) box model
+	*/
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav{
+
+}
+
+nav a{
+	text-decoration: none;
+	display: inline;
+	margin: 20px;
+	text-align: center;
+	color: grey;
+}
+
+.header-img.png{
+	border: 1px solid black;
+}
+
+.innovationOnDemand{
+	font-size: 100px;
+	display: inline;
+	padding: 100px;
+	margin: 100px;
+}
+
+.banner{
+	display: inline-block;
+	height: 600px;
+}
+
+.getStartedButton{
+	font-size: 25px;
+	border: 1px solid black;
+	padding: 15px 30px;
+	text-decoration: none;
+	color: grey; 
+}
+
+.box1{
+	display: inline-block;
+	width: 48%;
+	padding: 40px 0px;
+}
+
+.box2{
+	display: inline-block;
+	width: 33%;
+	padding: 40px 0px;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	background: grey;
+	margin: 10px 0px;
+}
