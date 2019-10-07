@@ -82,14 +82,12 @@ nav {
 	margin: 20px 20px 10px 100px;
 	
    
-
 }
 
 h1{
 	padding: 1% 5% 0% 5%;
 	font-size: 40px;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 header{
@@ -117,17 +115,19 @@ header{
 }
 
 hr {
-	margin: 0px 320px;
-	width: 62%;
-	
+	margin: 20px 320px;
+	width: 62%;	
+}
+
+h3{
+	font-size: 12px;
 }
 
 .first_content{
 	display: inline-block;
 	column-count: 2;
 	margin: 20px 30px 20px 320px;
-	width: 62%;
-	
+	width: 62%;	
 }
 
 .second_content{
@@ -135,18 +135,14 @@ hr {
 	column-count: 3;
 	margin: 20px 30px 20px 320px;
 	width: 62%;
-	
 }
-
-
 
 img{
 	padding: 0% 23% 0% 23%;
 }
 
  .contact{
-	
-	margin: 10px 40px 0px 320px;
+	margin: 15px 40px 0px 320px;
 
 }
 
@@ -156,4 +152,5 @@ img{
 
 .copyright {
 	text-align:center;
+	margin-bottom: 100px;
 }
