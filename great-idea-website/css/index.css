@@ -58,9 +58,102 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Press Start 2P', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+
+nav {
+	color:lightgray;
+	margin: 30px 0px 10px 110px;
+	word-spacing: 48px;
+	
+}
+
+.nav_bar {
+	column-count: 2;
+	display: inline-block;
+}
+
+.logo{
+	margin: 20px 20px 10px 100px;
+	
+   
+
+}
+
+h1{
+	padding: 1% 5% 0% 5%;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+header{
+	
+	margin: 120px 50px 10px 200px;
+	padding: 10px 150px;
+	
+}
+
+.snippet {
+	margin: 70px 50px 60px 0px;
+	padding: 10px 80px;
+}
+
+.header_1{
+	column-count: 2;
+}
+
+
+.button {
+	border: 1px solid gray;
+	margin: 10px 0px 20px 0px;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}
+
+hr {
+	margin: 0px 320px;
+	width: 62%;
+	
+}
+
+.first_content{
+	display: inline-block;
+	column-count: 2;
+	margin: 20px 30px 20px 320px;
+	width: 62%;
+	
+}
+
+.second_content{
+	display: inline-block;
+	column-count: 3;
+	margin: 20px 30px 20px 320px;
+	width: 62%;
+	
+}
+
+
+
+img{
+	padding: 0% 23% 0% 23%;
+}
+
+ .contact{
+	
+	margin: 10px 40px 0px 320px;
+
+}
+
+.info{
+	margin: 10px 40px 40px 320px;
+}
+
+.copyright {
+	text-align:center;
+}
