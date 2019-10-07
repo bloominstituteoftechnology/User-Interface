@@ -58,11 +58,10 @@ table {
 html, body {
 	margin-top: 30px;
 	width:95%;
-    height: 100%;
+    height: 90%;
 	font-family: 'Titillium Web', sans-serif;
 	background:black;
-	background-size:cover;
-	background:url("https://jmd.im/wp-content/uploads/2017/06/blackiii_thumbnail.jpg");
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -144,6 +143,7 @@ nav a:hover{
 	bottom: 50px;
 	border-radius: 20%;
 	height:80px;
+	border:2px solid black;
 	
 	
 }
