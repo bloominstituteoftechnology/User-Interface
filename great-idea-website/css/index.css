@@ -90,13 +90,16 @@ font-weight: bold;
 	color: darkslategrey;
 	font-weight: bold;	
 }
-.sphere #spinning-circle{
-		animation-name: spinning-circle;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		width: 350px;
-		height: 350px;
-		animation: rotation 2s infinite linear;
+
+.top-text nav{
+	position: fixed;
+	background-color: skyblue;
+	height: 50px;
+	z-index: 300;
+}
+#spinning-circle{
+	animation: rotation 2s infinite linear;
+	overflow-y:scroll;
 }
 @keyframes rotation {
 	from {
@@ -106,11 +109,6 @@ font-weight: bold;
 	  transform: rotate(359deg);
 	}
   }
-.top-text nav{
-	position: fixed;
-	background-color: skyblue;
-	height: 50px;
-}
 	@media (max-width: 500px){
 		.container{
 			width:80%;
@@ -288,6 +286,7 @@ margin-bottom: 40px;
 		}
 	}	
 	}
+
 
 
 
