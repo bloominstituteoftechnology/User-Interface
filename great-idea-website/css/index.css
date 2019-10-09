@@ -67,26 +67,32 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-	width: 900px;
-	margin: auto;
+	width: 880px;
+	margin: auto;	
 }
 
 header nav {
-	display: inline-block;
-	margin-top: 30px;
+	display: inline-block;	
 }
 
 header .logo {
-	margin-left: 90px;
+	margin-left: 159px;	
+	vertical-align: middle;
 }
 
 header nav a {
-	margin: 0 20px;
+	margin: 5px 20px;
 	color: #A9A9A9;
 	font-weight: bold;
 	font-size: 14px;
 	text-decoration: none;
 }
+
+.cta {
+	display: inline-block;
+	margin-top: 70px;	
+}
+
 .cta-text button {
 	
 	background-color: white;
@@ -94,19 +100,20 @@ header nav a {
 	
 }
 
-.cta {
-	
-	margin-top: 20px;
-}
-
 .cta .cta-text {
 	display: inline-block;
-	text-align: center;
+	text-align: center;	
+	
 }
 
 .cta .cta-text h1 {
 	font-size: 75px;
-	margin: 0px 60px;
+	margin: 60px 60px 15px 60px;
+	
+}
+.cta img {
+	margin-left: 70px;
+	vertical-align: top;
 }
 
 .main-content .top-content {
@@ -135,17 +142,13 @@ header nav a {
 
 hr {   
       
-    margin-top: 5em;
-	margin-right: 20px;
-    
+	margin-top: 5em;	   
 }
 
 .gray-line hr {
 	
 	margin: 2em 0em;
-	color: #ccc;
-	margin-right: 20px;
-	
+	color: #ccc;	
 }
 
 .contact .cell-contact
@@ -154,6 +157,6 @@ hr {
 }
 
 footer p {
- text-align: center;
- margin-top: 35px;
+   text-align: center;
+   margin-top: 35px;
 }
