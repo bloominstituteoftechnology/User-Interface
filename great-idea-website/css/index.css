@@ -75,7 +75,8 @@ a {
 h2 {
 	font-size: 50px;
 	float: left;
-	margin : 100px;
+	margin : 120px;
+	
 	
 	
 }
@@ -98,8 +99,8 @@ p {
     display: inline-block;
 	border:  1px solid;
 	position:relative; 
-	right: 240px;
-	top: -50px;
+	right: 260px;
+	top: -45px;
 	color: black;
 	text-shadow: 1px 1px gray;
 	}
@@ -190,4 +191,14 @@ footer {
 
 body {
 	background-image: url(https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
-  }
+	background-size: 63% 200%;  
+	background-position: fixed;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	width: 150px;
+	position:relative;
+	 margin: 8px;
+	 left: 75px;
+}
