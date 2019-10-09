@@ -203,3 +203,8 @@ html {
 nav{
 	margin-bottom: 50px;
 }
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
