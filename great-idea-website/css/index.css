@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+    box-sizing: border-box;
+}
+
+
+header nav a {
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 5px;
+	
+  }
+    
+.container {
+	max-width: 900px;
+	  margin: auto;
+	  background: white;
+	  padding: 10px;
+  }
+  
+p {
+	margin-bottom: 50px;
+	display: inline-block;
+  }
+  
+.big {
+	position: absolute;
+	display: inline-block;
+	text-align:center;
+	height: 383px;
+	width: 373px;
+	font-size: 70px;
+	padding: 50px;
+}
+ 
+  
+header .logo {
+	display: inline-block;
+	position: absolute;
+	margin-left: 650px;
+  }
+  
+  
+  
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+header nav a {
+	margin: 0 20px;
+}
+
+header .logo {
+	margin-top: 35px;
+	margin-left: 140px;
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+
+header .png {
+	margin-top: 35px;
+	margin-left: 600px;
+	vertical-align: top;
+	display: inline-block;
+	float: right; 
+}
+
+.img-container {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+section {
+	white-space: wrap;
+	width: 24%;
+	margin: 1%;
+}
+
+.line {
+	border-bottom: 2px solid
+}
+
+.top-content {
+    width: 100%;
+}
+.fifty {
+    width: 49.5%;
+    padding: 30px;
+    display: inline-block;
+}
+
+.thirty {
+    width: 32.5%;
+    padding: 30px;
+    display: inline-block;
+}
+
+section .contact {
+	margin: auto;
+	display: inline-block;
+	font-size: 15px;
+}
+
+
+footer {
+	width: 75%;
+	height: 200px;
+	padding: 20px 0;
+	margin-left: 550px;
+}
