@@ -1,4 +1,4 @@
-Anthony Hernandez
+Anthony Hernandez  
 
 # User Interface Project: Great Idea Web Page
 
