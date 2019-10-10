@@ -204,6 +204,11 @@ nav{
 	margin-bottom: 50px;
 }
 
+.index-bottom{
+	display: flex;
+	flex-direction: column;
+}
+
 .container {
 	max-width: 1000px;
 	margin: auto;
