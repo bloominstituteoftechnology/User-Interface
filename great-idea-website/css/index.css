@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	max-width: 99%;
+	min-width: 1px;
+	content: center;
+}
+.nav-bar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	max-width: 82%;
+	height: 8%;
+	margin: 2%;
+	padding-bottom: 8%;
+	background: white;
+}
+.nav-bar:hover {
+	background:whitesmoke;
+	color: black;
+}
+
+.nav-bar a {
+	
+	height: 5%;
+  	width: 5%;
+	  margin: 4%;
+	  padding-bottom: 3%;
+  	display: inline-block;
+  	text-align: center;
+
+}
+
+body {
+	margin-top: 19%;
+	background-image: url("img/header-img.png");
+	background-repeat: no-repeat, repeat;
+}
+
+.header h1 {
+	/* border: solid black; */
+	display: border-box;
+	font-size: 200%;
+	margin: 4%;
+	text-align: center;
+	width: 5%;
+	padding-left: 10%	
+
+}
+.header h1 {
+	
+	/* border: solid black;
+	display: border-box;
+	font-size: 200%;
+	margin: 4%;
+	text-align: center;
+	width: 5%;
+	padding-left: 10% */
+
+
+	display: border-box;
+	font-size: 250%;
+	margin: 1%;
+	text-align: center;
+	width: 40%;
+	padding-top: 1%;
+	padding-left: 0%
+}
+.header div {
+	
+	
+	/* display: border-box; */
+	font-size: 90%;
+	margin: 0%;
+	text-align: center;
+	width: 8%;
+	padding-top: 1%;
+	padding-left: 0%;
+	margin-left: 17%;
+	text-decoration: none;
+	
+}
+
+.header .roundImage {
+	
+	display: inline-block;
+	/* border: solid black; */
+	padding-left: 65%;
+	margin-top: -30%;
+}
+
+.button {
+	display: block;
+	border: solid black;
+	width: 1%;
+	padding-left: 22%;
+	margin: 40%;
+	padding-bottom: 1%;
+}
+
+.line {
+	border: solid 1px black;
+	height: 0%;
+}
+
+h2 {
+	padding-left: 0;
+	padding-bottom: 6%;	
+	height: 0%;
+  	width: 0%;
+	margin: 0%;
+	padding-top: 1%;
+  	display: inline-block;
+  	text-align: left;
+}
+
+.top-content {
+	display: inline-block;
+	/* border: solid black; */
+	width: 100%;
+	margin: 0%;
+}
+
+.top-content .left {
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	max-width: 41%;
+	margin: 4%;
+}
+.top-content .right {
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	max-width: 42%;
+	margin: 4%;
+}
+
+.middle-img {
+	width: 100%;
+	height: 40%;
+	margin: 2%;
+	
+}
+
+
+.bottom-content {
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	/* border: solid black; */
+	width: 100%;
+	margin: 4%;
+	
+}
+
+ .bottomOne {
+	display: inline-block; 
+	max-width: 25%;
+	margin: 4%;
+	
+}
+.bottomTwo {
+	display: inline-block;
+	max-width: 25%;
+	margin: 4%;
+}
+.bottomThree {
+	display: inline-block;
+	max-width: 25%;
+	margin: 4%;
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* .contact {
+	display: inline-block;
+	max-width: 16%;
+	margin: 2%;
+} */
+.contactus {
+	font-family: 'Bangers', cursive;
+	margin-left: 2%;
+	margin-bottom: 0%;
+}
+.address {
+	font-family: 'Mansalva', cursive;
+	display: inline-block;
+	max-width: 16%;
+	margin: 2%;
+}
+.number {
+	font-family: 'Mansalva', cursive;
+	/* display: inline-block; */
+	max-width: 14%;
+	margin: 2%
+}
+.email {
+	font-family: 'Mansalva', cursive;
+	/* display: inline-block; */
+	max-width: 16%;
+	margin: 2%
+}
+footer {
+	font-family: 'Mansalva', cursive;
+	text-align: center;
+}
