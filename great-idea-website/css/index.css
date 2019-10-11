@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#page-wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
+}
+
+header nav { 
+	display: flex;
+	
+
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;	
+	margin: 15px;
+}
+
+header nav a:hover {
+	color: black;
+	text-decoration: underline
+}
+ header .logo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*cta*/
+
+.cta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.cta .cta-text {
+	font-size: 77px;
+	text-align: center;
+	
+}
+
+.cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+	background: black;
+	color: white;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 34px;
+}
+
+.middle-img {
+	width: 800px;
+	margin-top: 45px;
+	margin-bottom: 45px; 
+}
+
+.bottom-content  {
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 34px;
+}
+
+.contact {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	
+}
+
+.contact p {
+	margin: 20px 0;
+  }
+  
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+ .services-header-img {
+	width: 100px;
+	
+ }
