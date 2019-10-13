@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* asdasd */
+nav {
+	position: relative;
+	left:500px;
+  	top:10px;
+  
+	color: lightgrey;
+	word-spacing: 50px;
+	font-size: 15px;
+}
+.logo {
+	position: relative;
+	left: 40px;
+	top: 10px;
+
+}
+/* header formatting */
+/* old header {
+	position: relative;
+	font-size: 60px;
+	top: 200px;
+	left: 500px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 100px;
+	vertical-align: center;
+
+}
+*/
+header {
+	width: 100%;
+	border-bottom: 1px solid #000000;
+	vertical-align: center;
+	
+}
+h1{
+	position: relative;
+	text-align: center;
+	font-size: 85px;
+	padding: 60px 60px;
+	vertical-align: center;
+	display: inline-block;
+	left: 400px;
+}
+
+/* adjust imagine position */
+
+.img-head {
+	position: relative;
+	top: 80px;
+	left: 400px;
+}
+
+/* make it a button */
+.button {
+	position:relative;
+	top: 50px;
+	left: 120px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.content1 {
+	position:relative;
+	vertical-align:center;
+	left: 450px;
+	width: 350px;
+	top: 40px;
+}
+
+.content2 {
+	position: relative;
+	left: 900px;
+	width: 350px;
+	bottom: 80px;
+}
+
+.middle-img {
+	position:relative;
+	left: 450px;
+}
+
+.content3 {
+	position: relative;
+	left: 450px;
+	width: 250px;
+	top: 30px;
+
+}
+
+.content4 {
+	position: relative;
+	left: 750px;
+	width: 250px;
+	bottom: 115px;
+}
+
+.content5 {
+	position: relative;
+	left: 1050px;
+	width: 250px;
+	bottom: 260px;
+	
+}
+/* wasn't exactly sure how to do another line without redoing all my code
+so made this */
+hr { 
+	position: relative;
+	bottom: 250px;
+	height: 1px;
+	color: black;
+	background-color:black;
+	border: none;
+  }
+  .contact {
+	  position: relative;
+	  bottom: 200px;
+	  width: 150px;
+	  left: 450px;
+	  
+  }
+  .copyright {
+	  position: relative;
+	  text-align: center;
+	  bottom: 150px;
+  }
