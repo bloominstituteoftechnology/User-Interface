@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -60,7 +60,235 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	  margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
+.container{
+  width: 1000px;
+  margin: 5px auto;
+}
+.top-text nav a{
+  display:inline;
+  margin: 30px;
+  color: black;
+text-decoration: none;
+}
+.top-text nav:hover{
+	background: lightgreen;
+	
+}
+.top-text a:hover{
+color:  darkslategrey;
+font-weight: bold;
+}
+	
+.square button:hover{
+	background: none;
+	background: lightgreen;
+	color: darkslategrey;
+	font-weight: bold;	
+}
+
+.top-text nav{
+	position: fixed;
+	background-color: skyblue;
+	height: 50px;
+	z-index: 300;
+}
+#spinning-circle{
+	animation: rotation 2s infinite linear;
+	overflow-y:scroll;
+}
+@keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+	@media (max-width: 500px){
+		.container{
+			width:80%;
+			margin: 2.5rem;
+		}
+
+			.top-text nav a{
+				display: block;
+				color: black;
+			  text-decoration: none;
+			  text-align: center;
+			}		
+		}			 
+@media (max-width: 500px){
+		.sphere{
+	  display: none;
+  }
+.top-text nav{
+		width: 100%;
+		position: static;
+		background: none;	
+	}
+	
+				
+}
+.idea{
+	margin-left: 100px;
+	padding: 3px 10px;
+}
+
+.square{
+	display: inline-block;
+	margin: 40px 80px;	
+	padding: 40px 50px;	
+}
+@media (max-width: 500px){
+	.square{
+  margin: 0 auto;
+  margin-top: 120px;
+}
+		}	
+.sphere{
+	display: inline;
+}
+
+@media (max-width: 500px){
+	.sphere{
+  display: none;
+}
+		}	
+h1{	
+	font-size: 80px;
+	width: 300px;
+	text-align: center;	
+	margin-right: 50px;	
+	margin-top: 150px;	
+}
+.square img{
+	margin-top: 100px;
+	width: 400px;
+}
+.orbit{
+	border-bottom: 1px solid lightgray;
+}
+	button{
+	width: 200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.main-content {
+display: inline;
+}
+.middle-text{	
+width: 460px;
+float: left;
+padding: 0;
+margin-top: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+}
+.mac{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.bottom-content{
+	display: inline;
+	padding: 0 0 20px;
+	
+}
+.text-orbit{
+width: 350px;
+float:left;
+margin-bottom: 40px;
+}
+.word-orbit{
+width: 350px;
+float:left;
+margin-bottom: 40px;
+}
+.last-orbit{
+margin-bottom: 40px;
+}
+
+
+.contact{
+	margin-top: 40px;
+}
+.copy{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+@media (max-width: 500px){
+	.container{
+		width:80%;
+		margin: 2.5rem;
+	}
+	 
+		
+	.middle-content button {
+		 width: 12.5rem;
+		 height: 40px;
+		 margin-top: 1.25rem;
+	 }
+	 .facts{
+	   display: flex;
+	   flex-direction: row;
+	   justify-content: space-between;
+	   align-content: inherit;
+	   flex-wrap: wrap;	 
+	 }
+   .facts p {
+	   width: 25rem;
+   }
+   .facts h4{
+	   margin-top: 1.25rem;
+   }
+   .bottom-img{
+	   margin-top: 1.25rem;
+   }
+   
+	ul{
+		Padding: 1.25rem;
+		flex-wrap: wrap;
+		
+	}
+	li{
+		padding: .625rem;
+		flex-wrap: wrap;
+	}
+	.copyright{
+		text-align: center;
+		margin-top: 5rem;
+	}
+	.services-header-img{
+		height: 150px;
+		width: 26.25rem;
+		margin-left: .6275rem;
+	}	
+	
+	 .square img{
+	   display: hidden;  
+	 }
+	 .mac{
+		 width: 26.875rem;
+		 height: 200px;
+	 }
+	 .sphere img{
+		 display: hidden;
+	 }
+	@media (max-width: 500px){
+		html,body{
+			max-width:100%;
+			overflow-x: hidden;
+		}
+	}	
+	}
+
+
+
+
+
+
