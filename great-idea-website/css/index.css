@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+	/* border: 1px solid red; */
+	position: relative;
+}
+/* header & nav */
+nav{
+	display: inline-block;
+}
+nav a {
+	margin: 20px;
+	position: relative;
+	left: 10%;
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+}
+.logo{
+	position: absolute;
+	top: -3px;
+	right: -3px;
+}
+h1 {
+	font-size: 80px;
+	width: 250px;
+	height: 300px;
+	margin: 50px; 
+	margin-top: 100px;
+	/* bg clr layout aid */
+	/* background-color: lightgray; */
+	text-align: center;
+	position: relative;
+	left: 10%;
+}
+.button {
+	height: 20px;
+    border: 1px solid black;
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	left: 20%;
+	top: 85%;
+}
+.codeSnippet{
+	position: absolute;
+	left: 58%;
+	top: 8%;
+}
+p{
+	display: inline-block;
+	/* background-color: grey; */
+	width: 45%;
+}
+#features{
+	position: absolute;	
+	left: 2%;
+	top: 100%;
+}
+#about{
+	position: absolute;	
+	left: 60%;
+	top: 100%;
+	width: 750px;
+}	
+.middle-img{
+	padding: 1.5%;
+	position: absolute;
+	top: 135%;
+}
+#services{
+	position: absolute;	
+	left: 2%;
+	top: 190%;
+	width: 50%;
+}
+#product{
+	position: absolute;	
+	left: 39%;
+	top: 190%;
+	width: 50%;
+}
+#vision{
+	position: absolute;	
+	left: 75%;
+	top: 190%;
+	width: 50%;
+}
+#contact{
+	position: absolute;
+	top: 240%;
+}
+address{
+	position: absolute;
+	top: 230%;
+}
+footer{
+	position: absolute;
+	top: 270%;
+	left: 45%;
+}
+	
+
