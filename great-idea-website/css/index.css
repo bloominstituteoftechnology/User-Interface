@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	width: 880px;
+	margin: auto;	
+}
+
+header nav {
+	display: inline-block;	
+}
+
+header .logo {
+	margin-left: 159px;	
+	vertical-align: middle;
+}
+
+header nav a {
+	margin: 5px 20px;
+	color: #A9A9A9;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.cta {
+	display: inline-block;
+	margin-top: 70px;	
+}
+
+.cta-text button {
+	
+	background-color: white;
+	padding: 5px 32px;
+	
+}
+
+.cta .cta-text {
+	display: inline-block;
+	text-align: center;	
+	
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	margin: 60px 60px 15px 60px;
+	
+}
+.cta img {
+	margin-left: 70px;
+	vertical-align: top;
+}
+
+.main-content .top-content {
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main-content .top-content .text-content1 {
+	width: 48%;
+	display: inline-block;
+}
+
+.main-content .top-content .text-content2 {
+	width: 48%;
+	display: inline-block;
+	margin-left: 14px;
+}
+
+
+.main-content .bottom-content .text-content {
+	width: 32%;
+	display: inline-block;
+	margin: 25px 0px 25px 5px;
+}
+
+hr {   
+      
+	margin-top: 5em;	   
+}
+
+.gray-line hr {
+	
+	margin: 2em 0em;
+	color: #ccc;	
+}
+
+.contact .cell-contact
+{
+	line-height: 3;
+}
+
+footer p {
+   text-align: center;
+   margin-top: 35px;
+}
