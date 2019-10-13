@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 878px;
+	margin: auto;
+	//border: 1px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+header nav a{
+	margin: 0 25px;
+	margin-top: 35px;
+	text-decoration: none;
+	color: silver;
+}
+
+header .logo {
+	margin-left: 70px;
+}
+
+.cta {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 50px 105px;
+}
+
+.cta-text {
+	font-size: 50pt;
+	float: left;
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+.cta img: {
+	float: :right;
+}
+
+button {
+	padding: 10px 45px;
+	background: none;
+	font-size: 10pt;
+	border-color: black;
+}
+
+hr {
+	border: 1px solid black;
+	border-bottom: none; 
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.above-img {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 878px;
+	height: 135px;
+}
+
+.features {
+	box-sizing: border-box;
+	width: 400px;
+	height: 100px;
+	margin: 0px 0px;
+}
+
+.about {
+	box-sizing: border-box;
+	width: 400px;
+	height: 100px;
+	float: right;
+	margin: -100px 0px;
+}
+
+.below-img {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 878px;
+	height: 135px;
+}
+
+.services {
+	box-sizing: border-box;
+	width: 300px;
+	height: 100px;
+	margin: 35px 0px;
+}
+
+.product{
+	box-sizing: border-box;
+	width: 270px;
+	height: 100px;
+	margin: -140px 324px;
+}
+
+.vision {
+	box-sizing: border-box;
+	width: 290px;
+	height: 100px;
+	margin: 40px 602px;
+}
+
+footer {
+	box-sizing: border-box;
+	width: 878px;
+	height: 300px;
+}
+
+footer address {
+	margin: 25px 0px;
+}
+
+#ph {
+	margin: 25px 0px;
+}
+
+
+.copyright {
+	text-align: center
+}
+
+#e-mail {
+	margin-bottom: 35px;
+}
+
+.copyright {
+	vertical-align: middle;
+}
