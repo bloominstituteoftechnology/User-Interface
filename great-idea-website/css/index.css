@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
+} 
 ol, ul {
 	list-style: none;
 }
@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.everything {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	/* margin-right: 515px;
+	margin-left: 515px;
+	margin-bottom: 515px; */
+}
+
+nav a {
+	display: inline-block;
+	width: 10.5%;
+	height: 5%;
+	margin: 1%;
+	color: grey;
+}
+a:hover {
+	color: blue;
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	margin: auto;
+}
+
+.squareBoxed {
+	border: 2px solid black;
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+ .containerTop {
+	 /* border: 1px solid black; */
+ }
+
+ /* .mid {
+	 border: 1px solid orangered; */
+ }
+.containerMid {
+	display: inline-block;
+	width: 100%;
+	/* height: 75px;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+	 */
+	/* border: 1px solid yellowgreen; */
+
+}
+.text {
+	display: inline-block;
+	width: 48%;
+	height: 390px;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-right: 10
+	/* border: 1px solid red; */
+}
+h1 {
+	font-size: 50px;
+	margin: 5%;
+}
+.upperImage {
+	/* border: 1px solid purple; */
+	display: inline-block;
+	width: 48%;
+	height: 390px;
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 10px;
+	
+	
+}
+
+.upperBodyText {
+	display: inline-block;
+	border-top: 1px solid black;
+	/* border: 1px solid blue; */
+	width: 100%;
+}
+.upperBodyLeft {
+	display: inline-block;
+	/* border: 1px solid green; */
+	width: 49%;
+
+}
+.upperBodyRight {
+	display: inline-block;
+	/* border: 1px solid blueviolet; */
+	width: 49%;
+}
+
+.midImage {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.lowerBody {
+	width: 100%;
+	/* border: 1px dotted blue; */
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+.lowerBodyLeft {
+	width: 30%;
+	display: inline-block;
+	margin: 1%;
+}
+.lowerBodyCenter {
+	width: 30%;
+	display: inline-block;
+	margin: 1%;
+}
+.lowerBodyRight {
+	width: 30%;
+	display: inline-block;
+	margin: 1%;
+}
+footer {
+	text-align: left;
+	margin-top: 10px;
+}
+.copyright {
+	margin: 10px;
+}
