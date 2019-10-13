@@ -108,12 +108,10 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 }
 .button {
-	display: flex;
-	position: absolute;
-	bottom: 50px;
+	display: inline-block;
 	width: auto;
 	padding: 5px 40px;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 /* try z index */
 button {
