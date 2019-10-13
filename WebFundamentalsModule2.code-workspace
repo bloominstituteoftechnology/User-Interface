@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "great-idea-website"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "great-idea-website"
+	}
+}

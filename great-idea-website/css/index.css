@@ -64,3 +64,227 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*HEADER*/
+
+header {
+	width: 876px;
+	position: fixed;
+	padding: 25px 0;
+	background-color: #708090;
+}
+
+nav {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 0 15px;
+	transition: 0.2s;
+}
+
+nav a:hover {
+	color: black;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+.logo {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+	padding-right: 15px;
+}
+
+/*BANNER*/
+
+.banner {
+	border-bottom: 1px solid black;
+	padding-top: 70px;
+}
+
+.bannerText {
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 95px;
+}
+
+.bannerText h1 {
+	font-size: 65px;
+	line-height: 50px;
+}
+
+.bannerText a {
+	border: 1px solid gray;
+	padding: 5px 30px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: gray;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.bannerText a:hover {
+	background-color: gray;
+	color: white;
+}
+
+.bannerImg {
+	padding: 50px;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.bannerImg img {
+	width: 310px;
+}
+
+/*SECTION ABOVE IMAGE*/
+
+.features, .about {
+	width: 48%;
+	display: inline-block;
+	padding: 40px 0px;
+}
+
+.features p, .about p, .services p, .product p, .vision p {
+	line-height: 19px;
+}
+
+/*SECTION BELOW IMAGE */
+
+.services, .product, .vision {
+	width: 33%;
+	display: inline-block;
+	padding: 40px 0px;
+}
+
+/*FOOTER*/
+
+footer {
+	border-top: 1px solid black;
+	width: 100%;
+	padding: 30px 0px;
+}
+
+footer p {
+	padding: 40px 0px 15px 0px;
+	text-align: center;
+}
+
+address {
+	line-height: 19px;
+}
+
+/* This is the sytles for the about page flip cards */
+
+.content-row {
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+}
+
+.team {
+	display: inline-block;
+  background-color: transparent;
+  width: 250px;
+	height: 250px;
+	padding: 20px 0px;
+	margin-bottom: 40px;
+}
+
+.team h1 {
+  padding: 5px 0px;
+	margin: 0px;
+	font-size: 30px;
+}
+
+.team h3 {
+	font-size: 15px;
+}
+
+.team img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #708090;
+}
+
+.team-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.team:hover .team-inner {
+  transform: rotateY(180deg);
+}
+
+.team-front, .team-back {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.team-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.team-back {
+  background-color: #708090;
+  color: white;
+	transform: rotateY(180deg);
+	height: 250px;
+	width: 250px;
+}
+
+.team p {
+	line-height: 20px;
+	font-size: 12px;
+}
+.team a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background-color: #708090;
+}
+
+.team a:hover {
+	background-color: white;
+  color: black;
+}
+
+.aboutus {
+	padding: 110px 0 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.aboutus h1 {
+	font-size: 30px;
+}
+
+.aboutus p {
+	line-height: 30px;
+}
