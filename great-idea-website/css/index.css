@@ -137,7 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
-  
+  color: white;
 }
 
 h1,
@@ -148,12 +148,10 @@ h5 {
   font-family: "Bangers", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
+  color: grey;
 }
 
 /* My code starts here! */
-
-/*Body*/
-
 
 /* nav bar */
 
@@ -168,9 +166,9 @@ h5 {
   overflow: hidden;
   width: 60%;
   border: 2px solid black;
+  border-radius: 10px;
   padding: 10px 10px 50px 10px;
   margin: auto;
-  
 }
 
 div nav a {
@@ -186,30 +184,38 @@ div nav a {
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
   background: -moz-linear-gradient(#656565, #444);
   background: linear-gradient(#656565, #444);
-  
+
   box-shadow: inset 0 0 0 1px #939393;
   color: #fff;
-  text-shadow: 0 1px 0 #2f2f2f; }
-    
+  text-shadow: 0 1px 0 #2f2f2f;
+}
+
 div nav a:hover {
   background: #4c4c4c;
-  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#4c4c4c), to(#565656));
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#4c4c4c),
+    to(#565656)
+  );
   background: -moz-linear-gradient(#4c4c4c, #565656);
   background: linear-gradient(#4c4c4c, #565656);
-   
-  box-shadow: inset 0 0 0 1px #818181; }
-    
+
+  box-shadow: inset 0 0 0 1px #818181;
+}
+
 div nav a:active {
   background: #474747;
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
   background: -moz-linear-gradient(#474747, #444);
   background: linear-gradient(#474747, #444);
   border: solid 2px #2f2f2f;
-  box-shadow: inset 0 10px 15px 0 #3e3e3e; }
-  
+  box-shadow: inset 0 10px 15px 0 #3e3e3e;
+}
 
 header nav a:hover {
-  color:red; 
+  color: red;
 }
 .logo {
   width: auto;
@@ -237,32 +243,35 @@ header nav a:hover {
   }
 }
 
-  /* nav bar end */
-  
-body{
-  height: 100%;
+/* nav bar end */
+/*master */
+body {
+  box-sizing: border-box;
   width: 60%;
-  border: 2px dotted black;
-  padding: 10px 10px 10px 10px;
+  padding-top: 60px;
   margin: auto;
-    
+  border: 2px solid black;
+  height: max-content;
 }
 
-  
-section#master {
-  display: inline-block;
+.master {
+  margin: 10px;
+  overflow: hidden;
+  background-color: darkslategrey;
   text-align: center;
-  padding: auto;
-  margin: auto;
+  border: 2px solid black;
 }
-section#master div.letters {
+.letters {
   margin-top: 60px;
-  margin-left: 20%;
-
+  margin-left: 80px;
+  float: left;
   font-size: 80px;
-  }
-  
-section#master div.letters button {
+  padding-bottom: 40px;
+  color: grey;
+  outline-color: red;
+}
+
+.letters button {
   text-shadow: 3px 3px 9px;
   text-decoration: none;
   border-radius: 10px;
@@ -274,105 +283,140 @@ section#master div.letters button {
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
   background: -moz-linear-gradient(#656565, #444);
   background: linear-gradient(#656565, #444);
-  
+
   box-shadow: inset 0 0 0 1px #939393;
   color: #fff;
-  text-shadow: 0 1px 0 #2f2f2f; }
-    
-  section#master div.letters button:hover {
+  text-shadow: 0 1px 0 #2f2f2f;
+}
+
+.letters button:hover {
   background: #4c4c4c;
-  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#4c4c4c), to(#565656));
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#4c4c4c),
+    to(#565656)
+  );
   background: -moz-linear-gradient(#4c4c4c, #565656);
   background: linear-gradient(#4c4c4c, #565656);
-   
-  box-shadow: inset 0 0 0 1px #818181; }
-    
-  section#master div.letters button:active {
+
+  box-shadow: inset 0 0 0 1px #818181;
+}
+
+.letters button:active {
   background: #474747;
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
   background: -moz-linear-gradient(#474747, #444);
   background: linear-gradient(#474747, #444);
   border: solid 2px #2f2f2f;
-  box-shadow: inset 0 10px 15px 0 #3e3e3e; 
-  }
-
-section#master div img {
-  margin: 30px 0 30px 0;
-  float: right;
+  box-shadow: inset 0 10px 15px 0 #3e3e3e;
 }
+
+section img {
+
+  float: right;
+  height: auto;
+  width: auto;
+  margin: 30px;
+  padding: 10px 30px 10px 10px;
+  
+}
+
+
+/* master end */
+/* main */
 
 main {
-  border: 4px solid black;
-  padding: 20px 10px 20px 0;
-  width: 100%;
-  
+  border: 2px solid black;
+  background-color: darkslategrey;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  overflow: auto;
 }
 
-
-
-#features {
-  float: left;
-  height: 100px;
-  width: 49%;
-  margin: 0 0 50px 0;
-}
-
-#about {
-  
-  text-align: left;
-  height: 100px;
-  width: 49%;
-  margin: 0 0 50px 0;
-}
-main #middle-img {
-  width: 380px;
-  height: 380px;
-  margin: 0 0 0 0;
-}
-
-#services {
-  
-  text-align: left;
-  height: 100px;
-  width: 32%;
-  margin: 0 0 50px 0;
-}
-
-#product {
- 
+.Features {
   text-align: center;
-  height: 100px;
-  width: 32%;
-  margin: 0 0 50px 1%;
+  float: left;
+  height: fit-content;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
 }
 
-#vision {
-  
-  text-align: right;
-  height: 100px;
-  width: 32%;
-  margin: 0 0 50px 1%;
+.About {
+  text-align: center;
+  float: right;
+  height: fit-content;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+.middle-img {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
 }
 
+.Services {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+.Product {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+.Vision {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+/* main end */
 /*Footer*/
 
-
 footer {
-  text-align: left;
-  padding: 0 0 0 10%;
+  
+  background-color: darkslategrey;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  
+
 }
 
 footer section {
-  padding: 0 0 50px 0;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
 }
 
 footer p {
   margin: 20px 0;
-  
 }
 
 footer div {
   text-align: center;
-  padding: 0 0 25px 0;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
 }
-
