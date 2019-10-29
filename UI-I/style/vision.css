@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+body {
+    width: 880px;
+    margin: 0 auto;
+}
+
+nav {
+
+    width: 100%;
+	display: inline-block;
+	background-color: black;
+}
+
+nav a {
+	font-size: 25px;
+    color: #0bb427;
+    text-decoration: none;
+    margin-left: 7%;
+    bottom: 5%;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#logocontainer {
+    position: relative;
+	display: inline-block;
+}
+
+
+.logo {
+	padding-top: 30px;
+    top: -25px;
+    display: block;
+	margin: 0 auto;
+}
+
+.top {
+    margin-top: 3em;
+    
+}
+.image {
+    display: block;
+    background: url("../img/header-img.png");
+    height: 23.7em;
+    width: 86.1%;
+    max-width: 100%;
+}
+
+
+h3 {
+   display:inline-block;
+   padding-left: 18em;
+   
+}
+.imageTwo {
+    display: block;
+    background: url("../img/mid-page-accent.jpg");
+    height: 10em;
+    width: 86.1%;
+    max-width: 100%;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    
+}
