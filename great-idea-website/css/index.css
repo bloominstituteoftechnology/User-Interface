@@ -89,6 +89,8 @@ nav {
 	background-color: rgb(9, 182, 9);
 	width: 100%;
 	margin: 0 auto;
+	white-space: nowrap;
+	position: sticky;
 }
 
 .navbar {
@@ -99,6 +101,10 @@ nav {
 	font-size: 15px;
 	text-align: center;
 	color: white;
+}
+
+.navbar:hover {
+	color: rebeccapurple;
 }
 
 .left{
@@ -118,9 +124,13 @@ nav {
 	padding: 1% 3%;
 	border: 1px black solid;
 	background-color: rgb(9, 182, 9);
+	font-size: 24px;
 	color: white;
 }
 
+.button:hover{
+	background-color: rebeccapurple;
+}
 
 .right{
 	width: 48%;
@@ -128,8 +138,6 @@ nav {
 	padding: 5% 10%;
 	display: inline-block;
 }
-
-
 
 h2 {
 	font-size: 26px;
@@ -142,22 +150,23 @@ h2 {
 	display: inline-block;
 	width: 48%;
 	margin: 0.5%;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .middle-img {
 	display: inline-block;width: 100%;
-	margin: 2% 0%;
+	margin: 4% 0 4% 0;
 }
 
 .box2 {
 	display: inline-block;
 	width: 32%;
 	margin: 0.44%;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .contact {
+	
 }
 
 footer {
