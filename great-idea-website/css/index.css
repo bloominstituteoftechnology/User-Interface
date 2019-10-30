@@ -60,7 +60,100 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	padding: 10px 0;
 }
 
 /* Your code starts here! */
+
+nav {
+	height: 100px;
+	width: 878px;
+	margin: 0 auto;
+	display: block;
+}
+
+nav a {
+	color: lightgray;
+	text-decoration: none;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.container {
+	width: 878px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.innovation {
+	height: 381px;
+	width: 50%;
+	float: left;
+	padding-top: 80px;
+	font-family: "bangers";
+	font-size: 70px;
+}
+
+.code-snippet {
+	width: 50%;
+	float: right;
+}
+
+.button1 {
+	padding: 4px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 4px ;
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.info {
+	border: 2px solid blue;
+}
+
+.features {
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.about {
+	width: 50%;
+	float: right;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+div .image {
+	display: block;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.triColumn {
+	width: 30%;
+	float: left;
+	text-align: left;
+	margin-right: 25px;
+	margin-bottom: 20px;S
+}
+
+.contact {
+	text-align: left;
+	padding-top: 20px;
+}
+
+.break1 {
+	clear: right;
+}
+
+.break2 {
+	clear: both;
+}
+
+.copyright {
+	padding-top: 50px;
+}
