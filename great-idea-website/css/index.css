@@ -80,6 +80,7 @@ nav a {
 .logo {
 	  display:inline-block;
 	  float: right;
+	  margin;5%;
   }
   
   h1{
@@ -91,5 +92,16 @@ nav a {
 	  width:25%;
 
   }
-  
+  /*.circle-pic{
+	  display:inline-block;
+	  /*foat:right;
+	  margin: 10%;
+	  padding: 5%;*/
+  }
+   
+  .feature-about {
+	display:inline-block;
+	width:25%;
+
+  }
   
