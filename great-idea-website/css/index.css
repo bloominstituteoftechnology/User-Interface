@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid red;
 }
 
 html, body {
@@ -64,3 +65,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.Home{
+	display:inline-block;
+
+	width:100%;
+	height: 10px;
+	color: blue;
+	padding: 40%;
+	border: 2px solid red;
+}
+.Top-Content{
+	display:inline-block 
+	height: 10%;
+	width: 100%;
+	border: 2px solid red;
+}
+	
+	
+.Middle-Content{
+	display:inline-block;
+	width:2100%;
+	margin:3%;
+	border: 2px solid red;
+}
+.footer{
+	Display:inline-block;
+	Height:20%;
+	width: 100%;
+	border: 2px solid red;
+}
