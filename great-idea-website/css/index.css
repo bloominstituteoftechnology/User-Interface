@@ -89,7 +89,7 @@ nav a {
 }
 
 a:hover {
-	color: blue;
+	color: black;
 }
 
 .logo {
@@ -129,9 +129,6 @@ a:hover {
 
 
 .innovation img {
-	/* position: absolute;
-	right: 340px;
-	top: 90px; */
 	display: inline-block;
 	margin: 70px 0;
 
