@@ -78,14 +78,16 @@ body{
 	*{
 		text-align: center;
 	}
-*{
-	background-color:blueviolet;
-}
+
  
   
 
 .main{
 display:inline-block;
 width:25%;
-margin:0 3.5%;	
+margin:0 3.5%;
+border:10px solid black;
 }	
+*{
+	background:blue;
+}
