@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,6 +50,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,5 +58,71 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+body {
+    width: 880px;
+    margin: 0 auto;
+}
 
-/* Your code starts here! */
+nav {
+
+    width: 100%;
+	display: inline-block;
+	background-color: black;
+}
+
+nav a {
+	font-size: 25px;
+    color: #0bb427;
+    text-decoration: none;
+    margin-left: 7%;
+    bottom: 5%;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#logocontainer {
+    position: relative;
+	display: inline-block;
+}
+
+
+.logo {
+	padding-top: 30px;
+    top: -25px;
+    display: block;
+	margin: 0 auto;
+}
+
+.top {
+    margin-top: 3em;
+    
+}
+.image {
+    display: block;
+    background: url("../img/header-img.png");
+    height: 23.7em;
+    width: 86.1%;
+    max-width: 100%;
+}
+
+
+h3 {
+   display:inline-block;
+   padding-left: 18em;
+   
+}
+.imageTwo {
+    display: block;
+    background: url("../img/mid-page-accent.jpg");
+    height: 10em;
+    width: 86.1%;
+    max-width: 100%;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    
+}
