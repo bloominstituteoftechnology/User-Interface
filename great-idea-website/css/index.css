@@ -64,3 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing:border-box;
+  margin:50px;
+  padding:100;
+  max-width:100%;
+  
+}
+body{
+	font-family: 'Red Hat Text', sans-serif;
+	line-height:1.5;
+}
+	*{
+		text-align: center;
+	}
+*{
+	background-color:blueviolet;
+}
+ 
+  
+
+.main{
+display:inline-block;
+width:25%;
+margin:0 3.5%;	
+}	
