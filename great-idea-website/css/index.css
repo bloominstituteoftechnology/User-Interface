@@ -137,7 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
-  
+  color: white;
 }
 
 h1,
@@ -148,22 +148,15 @@ h5 {
   font-family: "Bangers", cursive;
   letter-spacing: 1px;
   margin-bottom: 15px;
+  color: grey;
 }
 
 /* My code starts here! */
 
-/*Body*/
+/* nav bar */
 
-body{
-  
-  width: 60%;
-  border: 2px dotted black;
-  padding: 10px 10px 10px 10px;
-  margin: auto;
-  
-}
 .container {
-  text-align: center;
+  text-align: left;
   background-color: darkslategray;
   position: fixed;
   top: 0;
@@ -173,31 +166,60 @@ body{
   overflow: hidden;
   width: 60%;
   border: 2px solid black;
+  border-radius: 10px;
   padding: 10px 10px 50px 10px;
   margin: auto;
-  
 }
 
 div nav a {
   display: inline-block;
   text-shadow: 3px 3px 9px;
-  color: rgb(0, 225, 255);
   text-decoration: none;
-  background-color:black;
-  
   border-radius: 10px;
-	
   width: auto;
   border: 2px solid green;
   padding: 10px 10px 10px 10px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 20px 0px 20px;
+  background: #656565;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
+  background: -moz-linear-gradient(#656565, #444);
+  background: linear-gradient(#656565, #444);
+
+  box-shadow: inset 0 0 0 1px #939393;
+  color: #fff;
+  text-shadow: 0 1px 0 #2f2f2f;
 }
+
+div nav a:hover {
+  background: #4c4c4c;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#4c4c4c),
+    to(#565656)
+  );
+  background: -moz-linear-gradient(#4c4c4c, #565656);
+  background: linear-gradient(#4c4c4c, #565656);
+
+  box-shadow: inset 0 0 0 1px #818181;
+}
+
+div nav a:active {
+  background: #474747;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
+  background: -moz-linear-gradient(#474747, #444);
+  background: linear-gradient(#474747, #444);
+  border: solid 2px #2f2f2f;
+  box-shadow: inset 0 10px 15px 0 #3e3e3e;
+}
+
 header nav a:hover {
-  color:red; 
+  color: red;
 }
 .logo {
   width: auto;
-  border: 2px solid black;
+  border: 2px solid green;
   padding: 5px 5px 5px 5px;
   margin: 0px 10px 0px 0px;
   position: absolute;
@@ -206,24 +228,195 @@ header nav a:hover {
   transform: translate(-50%, -50%);
   border-radius: 10px;
   overflow: hidden;
-  background: linear-gradient(90deg, darkslategray, #fff, darkslategray);
-  background-repeat: repeat;
-  background-size: 80%;
-  animation: animate 10s linear infinite;
-  
-  -webkit-background-clip: background;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  animation: logobgch 3s infinite;
 }
 
-@keyframes animate {
+@keyframes logobgch {
   0% {
-    background-position: -500%;
+    background-color: rgb(243, 208, 9);
+  }
+  50% {
+    background-color: rgb(2, 102, 2);
   }
   100% {
-    background-position: 500%;
+    background-color: rgb(252, 15, 2);
   }
 }
 
+/* nav bar end */
+/*master */
+body {
+  box-sizing: border-box;
+  width: 60%;
+  padding-top: 60px;
+  margin: auto;
+  border: 2px solid black;
+  height: max-content;
+}
 
+.master {
+  margin: 10px;
+  overflow: hidden;
+  background-color: darkslategrey;
+  text-align: center;
+  border: 2px solid black;
+}
+.letters {
+  margin-top: 60px;
+  margin-left: 80px;
+  float: left;
+  font-size: 80px;
+  padding-bottom: 40px;
+  color: grey;
+  outline-color: red;
+}
+
+.letters button {
+  text-shadow: 3px 3px 9px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: auto;
+  border: 2px solid green;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 20px 0px 20px;
+  background: #656565;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
+  background: -moz-linear-gradient(#656565, #444);
+  background: linear-gradient(#656565, #444);
+
+  box-shadow: inset 0 0 0 1px #939393;
+  color: #fff;
+  text-shadow: 0 1px 0 #2f2f2f;
+}
+
+.letters button:hover {
+  background: #4c4c4c;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#4c4c4c),
+    to(#565656)
+  );
+  background: -moz-linear-gradient(#4c4c4c, #565656);
+  background: linear-gradient(#4c4c4c, #565656);
+
+  box-shadow: inset 0 0 0 1px #818181;
+}
+
+.letters button:active {
+  background: #474747;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
+  background: -moz-linear-gradient(#474747, #444);
+  background: linear-gradient(#474747, #444);
+  border: solid 2px #2f2f2f;
+  box-shadow: inset 0 10px 15px 0 #3e3e3e;
+}
+
+section img {
+
+  float: right;
+  height: auto;
+  width: auto;
+  margin: 30px;
+  padding: 10px 30px 10px 10px;
+  
+}
+
+
+/* master end */
+/* main */
+
+main {
+  border: 2px solid black;
+  background-color: darkslategrey;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.Features {
+  text-align: center;
+  float: left;
+  height: fit-content;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+.About {
+  text-align: center;
+  float: right;
+  height: fit-content;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+.middle-img {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.Services {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+.Product {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+.Vision {
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+/* main end */
+/*Footer*/
+
+footer {
+  
+  background-color: darkslategrey;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   
 
+}
+
+footer section {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
+
+footer p {
+  margin: 20px 0;
+}
+
+footer div {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+}
