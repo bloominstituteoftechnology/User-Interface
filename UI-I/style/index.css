@@ -147,9 +147,9 @@ nav a:hover {
 @keyframes buttonAnim {
     0% {background-color: black;
         color: green;}
-    50% {background-color: green;
+    40% {background-color: green;
          color: white;}
-    95% {background-color: aqua;
+    80% {background-color: aqua;
           color: black;}
     100% {background-color: black;
         color: green;}
@@ -168,7 +168,7 @@ nav a:hover {
 }
 
 #showcaseleft button:hover {
-    animation: buttonAnim 4s ease-out 0s infinite both;
+    animation: buttonAnim 4s ease-out 1s infinite both;
 }
 
 #showcaseright {
