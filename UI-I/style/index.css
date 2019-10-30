@@ -101,8 +101,15 @@ nav a {
     bottom: 5%;
 }
 
+@keyframes biggify {
+    from{font-size: 25px;}
+    to{font-size: 35px;}
+} 
+
 nav a:hover {
     color: white;
+    animation: biggify 2s ease 0s normal forwards;
+
 }
 
 #logocontainer {
@@ -137,6 +144,17 @@ nav a:hover {
     text-align: center;
 }
 
+@keyframes buttonAnim {
+    0% {background-color: black;
+        color: green;}
+    50% {background-color: green;
+         color: white;}
+    95% {background-color: aqua;
+          color: black;}
+    100% {background-color: black;
+        color: green;}
+    }
+
 #showcaseleft button {
     width: 40%;
     margin: 0 auto 0 120px;
@@ -150,8 +168,7 @@ nav a:hover {
 }
 
 #showcaseleft button:hover {
-	background-color: black;
-	color: green;
+    animation: buttonAnim 4s ease-out 0s infinite both;
 }
 
 #showcaseright {
