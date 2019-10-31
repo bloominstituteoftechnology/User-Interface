@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -49,18 +49,18 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -134,8 +134,8 @@ p {
 
 .middle-img {
 	display: block;
-  margin: 50px 0;
-  width: 100%;
+	margin: 50px 0;
+	width: 100%;
 }
 
 .textAreaOne {
@@ -144,11 +144,11 @@ p {
 }
 
 .box{
-		display: inline-block;
-		text-align: center;
-		width: 41%;
-		height: 450px;
-	}
+	display: inline-block;
+	text-align: center;
+	width: 41%;
+	height: 450px;
+}
 
 .box img {
 	width: 70%;
