@@ -71,11 +71,13 @@ body{
 header{
 	position: fixed;
 	top: 15px;
-	background-color: lightpink;
+	
 }
 header nav{
 	display: inline-block;
-	
+	background-color: lightskyblue;
+	padding: 10px 0;
+	vertical-align: super;
 }
 header .navigation a{
 	color: gray;
@@ -84,7 +86,7 @@ header .navigation a{
 	
 }
 header .logo{
-	background-image: url(logo.png);
+	height: 50px;
 	padding-left: 40px;
 	padding-top: 15px;
 }
