@@ -75,7 +75,6 @@ header{
 }
 header nav{
 	display: inline-block;
-	background-color: lightskyblue;
 	padding: 10px 0;
 	vertical-align: super;
 }
