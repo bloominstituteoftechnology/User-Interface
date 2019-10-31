@@ -65,29 +65,59 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 * {
-	box-sizing:border-box;
-  margin:50px;
-  padding:100;
-  max-width:100%;
-  
+	box-sizing: border-box;
 }
-body{
-	font-family: 'Red Hat Text', sans-serif;
-	line-height:1.5;
+* {
+  background-color: powderblue;
 }
-	*{
-		text-align: center;
-	}
-
- 
-  
-
-.main{
-display:inline-block;
-width:25%;
-margin:0 3.5%;
-border:10px solid black;
-}	
-*{
-	background:blue;
+.navigation{
+	height:100px;
+	word-spacing: 30px;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;		
+}
+.header{
+	display: inline-block;
+	margin:100px;
+	width: 70%;
+	height: 50px;
+	padding: 5px;
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.top-content{
+	line-height: 2.5;
+	font-size: large;
+	display: inline-block;
+	margin:50px;
+	width: 85%;
+	height: 100px;
+	padding: 5px;
+	border: 2px solid black;
+}
+.middle-image{
+	width: 100%;
+	padding:100px;
+}
+.bottom-content{
+	line-height: 2.5;
+	font-size: large;
+	display: inline-block;
+	margin:100px;
+	width: 85%;
+	height: 170px;
+	padding: 10px;
+	border: 2px solid black;
+}
+.contact{
+	display: inline-block;
+	margin:100px;
+	width: 10%;
+	height: 75px;
+	padding: 5px;
+	text-align: center;
+}.footer{
+	text-align: center;
 }
