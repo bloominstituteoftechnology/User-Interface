@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Great Idea!</title>
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
   <style>
   
@@ -13,9 +13,9 @@
 <body>
   <div id="container">
       
-  <header>
+  <header id="nav">
      
-    <nav>
+    <nav >
       
        <a href="#services">Services</a> 
        <a href="#product">Product</a> 
@@ -82,5 +82,24 @@
 </footer>
 
 </div>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var nav = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = nav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+  </script>
   </body>
 </html>

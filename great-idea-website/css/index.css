@@ -61,7 +61,7 @@ html, body {
 
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Staatliches', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -112,6 +112,11 @@ nav a{
 nav a:hover{
 	text-decoration: underline;
 	transition: 0.3;
+}
+
+#nav{
+	overflow: hidden;
+	background-color: white;
 }
 
 .logo{
@@ -227,3 +232,11 @@ hr{
 	margin-left:10%;
 	margin-top:2%;
 }
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 85%;
+}
+  
