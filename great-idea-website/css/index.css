@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 2px solid red;
+	
 }
 
 html, body {
@@ -67,31 +67,79 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .Home{
-	display:inline-block;
+	max-width: 900px;
+  	margin: 0 auto;
+}
+header{
+display: inline-block;
+width: 900px;
+padding: 30px 0;
+background-color: #fff;
+}
 
-	width:100%;
-	height: 10px;
-	color: blue;
-	padding: 40%;
-	border: 2px solid red;
+header nav a {
+text-decoration: none;
+color: rgb(158, 158, 158);
+margin-right: 40px;
+
 }
-.Top-Content{
-	display:inline-block 
-	height: 10%;
-	width: 100%;
-	border: 2px solid red;
+
 }
-	
-	
-.Middle-Content{
-	display:inline-block;
-	width:2100%;
-	margin:3%;
-	border: 2px solid red;
+.section-one{
+display: inline-block;
+height: 650px;
 }
-.footer{
-	Display:inline-block;
-	Height:20%;
-	width: 100%;
-	border: 2px solid red;
+
+.section-one div {
+text-align: center;
+margin: 0 auto;
 }
+
+.section-one div h1 {
+font-size: 70px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.section-one a {
+display: inline-block;
+text-decoration:none;
+color: rgb(0, 0, 0);
+padding: 2px 30px;
+border: 1px solid #000;
+}
+
+
+
+.section-two{
+display: inline-block;
+width: 100%;
+}
+.section-two div {
+margin: 50px 0;
+}
+
+.section-two .middle-img {
+width: 100%;
+
+.bottom {
+margin-top: 50px;
+}
+
+.bottom > * {
+margin: 20px 0;
+}
+
+.bottom a {
+color: #000;
+text-decoration: none;
+display: block;
+}
+  
+  /* footer section styleing */
+footer {
+text-align: center;
+margin: 75px auto;
+}
+  
+  
