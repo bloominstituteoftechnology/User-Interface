@@ -55,12 +55,24 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Liu Jian Mao Cao', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+@keyframes navigationAnimation {
+  0% {
+    border: 3px solid magenta;
+    border-radius: 50px;
+  
+  }
+  100% {
+    border: 3px solid lightgray;
+    border-radius: 50px;
+  }
+}
 
 body {
 	width: 50%;
@@ -69,10 +81,15 @@ body {
 nav {
 	padding: 20px 0 40px 0;
 	margin: 0 0 40px 0;
+	background-color: cornflowerblue;
+	position: fixed;
+	width: 951px ;
+	z-index: 1;
 }
 
 a {
 	text-decoration: none;
+
 }
 .navigation a {
   	color: lightgray;
@@ -80,10 +97,17 @@ a {
   	margin: 0 0 0 5%;
 }
 
+.navigation a:hover {
+	color: pink;
+	font-size: 120%;
+	text-decoration: underline;
+	font-weight: bold;
+	animation: navigationAnimation 1s infinite alternate;
+}
 .navigation img {
 	display: inline-block;
   	box-sizing: border-box;
-  	margin: 0 2% 0 5%;
+  	margin: 0 2% 0 9%;
 	position: relative;
 	top: 13px;
 }
@@ -109,7 +133,7 @@ header div {
 header {
 	display: inline-block;
 	width: 100%;
-	margin: 0 auto; 
+	margin: 150px auto 0; 
 	text-align: center;
 }
 
@@ -117,6 +141,10 @@ header a {
 	color: black;
 	padding: 0 25px 0 25px;
 	border: 2px solid black;
+}
+
+header a:hover {
+	background-image: url("http://bestanimations.com/Computers/funny-computer-animated-gif-7.gif")
 }
 
 .line {
