@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
  	margin:0;
   	padding:0;
 	max-width:100%;
- 	/* border:1px solid red !important; */
+	border:1px solid red !important;
 }
 
 hr {
@@ -105,6 +105,8 @@ nav {
 
 .navbar:hover {
 	color: rebeccapurple;
+	background-color:orangered;
+	border: dashed black;
 }
 
 .left{
@@ -140,8 +142,15 @@ nav {
 	display: inline-block;
 }
 
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+
 h2 {
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: bold;
 	display: inline-block;
 	font-style: italic;
@@ -167,7 +176,9 @@ h2 {
 }
 
 .contact {
-	
+	text-align:center;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 footer {
