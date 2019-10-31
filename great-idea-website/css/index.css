@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+/* Header */
+header{
+	display: inline;
+
+}
+header.section{
+	height: 10%;
+	width: 100%;
+	border: 2px solid silver;
+}
+
+/* Navigation Section */
+.nav-links{
+	width: 80%;
+	height: 10%;
+}
+header nav a{
+	text-decoration: none;
+	color: gray;
+	margin: 7% 1.5%;
+	padding: 3.2%;
+	margin-top: 70px;
+}
+
+.logo{
+	float: right;
+}
+
+/* Innovation Section */
+
+.innovation-section{
+	display: inline-block;
+	width: 88%;
+	height: 40%;
+	padding: 1%;
+	border-bottom: .5px solid black;
+	margin-left: 3%;
+}
+.innovation-section h1{
+	font-weight: bold;
+	font-size: 70px;
+	letter-spacing: 2px;
+}
+.innovation-section img{
+	float: right;
+}
+.innovation-section .get-started{
+	border: .5px solid black;
+	color: gray;
+	padding: 1.5% 17%;
+}
+.box{
+	width: 55%;
+	height: 100%;
+	padding: 5%;
+	float: left;
+	text-align: center;
+}
+ .box2{
+	width: 45%;
+	height: 100%;
+	position: relative;
+	float: right;
+	padding: 2% 3% 4% 0%;
+} 
+.box2 img{
+	max-width:100%;
+	max-height:100%;
+
+}
+.features-about{
+	width: 88%;
+	height: 21.5%;
+	font-size: 20px;
+}
+.features-about h3{
+	font-weight: bold;
+}
+.box3{
+	width: 50%;
+	height: 100%;
+	padding: 4%;
+	float: left;
+	margin: auto;
+
+}
+.box4{
+	width: 50%;
+	height: 100%;
+	padding: 4%;
+	float: right;
+	margin: auto;
+}
+.banner-img{
+	width: 88.5%;
+	display: block;
+	margin-left: 3%;
+	margin-right: 7%;
+}
+.banner-img img{
+	width: 100%;
+	max-height: 100%;
+}
+.big-service-section{
+	margin: 4% 8.5% 2.9% 2.9%;
+	border-bottom: .5px solid black;
+}
+.services{
+	height: 22%;
+	display: inline-block;
+	width: 23%;
+	margin: 2.9%;
+	font-size: 20px;
+}
+.services h3{
+	font-weight: bold;
+}
+.contact{
+	width: 88%;
+	margin: 2.9%;
+	font-size: 20px;
+}
+.copyright{
+	display: block;
+	text-align: center;
+}
+
+
