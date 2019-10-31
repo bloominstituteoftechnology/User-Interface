@@ -177,7 +177,7 @@ section {
 	color: black;
 }
 .last:after{
-	content:";
+	
 	height: 8rem;
 	display: inline-block;
 }
@@ -195,8 +195,4 @@ hr {
 footer {
 	margin-top: 12em;
 	text-align: center;
-}
-
-hi {
-	
 }
