@@ -87,10 +87,11 @@ body {
 
 nav {
 	background-color: rgb(9, 182, 9);
-	width: 100%;
-	margin: 0 auto;
+	position: fixed;
+	width: 80%;
+	margin: 0px auto;
 	white-space: nowrap;
-	position: sticky;
+	border: 3px solid dodgerblue
 }
 
 .navbar {
@@ -105,6 +106,10 @@ nav {
 
 .navbar:hover {
 	color: rebeccapurple;
+}
+
+.logo{
+	float:
 }
 
 .left{
