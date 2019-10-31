@@ -177,7 +177,7 @@ section {
 	color: black;
 }
 .last:after{
-	content:"";
+	content:";
 	height: 8rem;
 	display: inline-block;
 }
