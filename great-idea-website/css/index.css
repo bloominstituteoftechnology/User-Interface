@@ -49,13 +49,16 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -63,4 +66,164 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+html{
+	
+		scroll-behavior: smooth;
+	
+}
+
+body{
+	background-color:#000723;
+	padding:20px 100px;
+}
+
+#container{
+	background-color:white;
+	overflow: hidden;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding: 0 0 0 0;
+}
+
+h3{
+	text-align: center;
+}
+
+nav{
+	text-align:center;
+	width:80%;
+	height: 10vh;;
+	display: inline-block;
+	padding:30px;
+	vertical-align: top;
+}
+
+nav a{
+	color:#000723;
+	text-decoration: none;
+	font-size:17px;
+	font-weight: bold;
+	margin-top:20px;
+	margin-right:4.6%;
+	padding:15px 20px;
+}
+nav a:hover{
+	text-decoration: underline;
+	transition: 0.3;
+}
+
+.logo{
+	display:inline-block;
+	margin-top:20px;
+	
+}
+
+#features{
+	display: inline-block;
+	width:37%;
+	padding:10px 30px;
+	margin-left:11.5%;
+}
+
+
+#about{
+	display: inline-block;
+	width:37%;
+	padding:10px 30px;
+}
+
+#services, #product, #vision{
+	display: inline-block;
+	width:25%;
+	padding:10px;
+	margin-top:2%;
+}
+
+#services{
+	margin-left:11%;
+}
+
+img{
+	display: inline-block;
+	margin:0 auto;
+}
+
+h1{
+	font-size:70px;
+	text-align: center;
+}
+
+.title{
+	width:40%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top:7%;
+	margin-left:10%;
+}
+
+
+h6, h5{
+	width:45%;
+	text-align:center;
+	margin: 0 auto;
+	font-size: 20px;
+	padding:5% 10%;
+}
+
+h6{
+	border:1px solid #000723;
+
+}
+
+h6:hover{
+	box-shadow: 5px 5px;
+	cursor:pointer;
+}
+h6:active{
+	box-shadow: 4px 4px;
+	cursor:pointer;
+}
+.firstImage{
+	width:35%;
+	display: inline-block;
+	margin-left:5%;
+	margin-top:5%;
+}
+
+.info{
+	margin:0 auto;
+	margin-left:2%;;
+
+}
+
+p{
+margin-left:20%;}
+
+footer{
+	width:40%;
+	margin:0 auto;
+	font-size:20px;
+
+}
+ 
+.copy{
+	margin-left:25%;
+	width:50%;
+	text-align: center;
+	padding: 10px;
+}
+
+hr{
+	width:100%;
+	margin:7% auto;
+	height: 10px;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+
+}
+
+.middle-img{
+	margin-left:10%;
+	margin-top:2%;
+}
