@@ -78,11 +78,14 @@ header{
 	height:20%;
 	padding:15px;
 	vertical-align: middle;
+
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
 }
 img{
-	display: inline;
+	display: inline-block;
 	padding: 5px;
-	margin: 5px 10px 0px 45px;
 	vertical-align: middle;
 }
 
@@ -100,7 +103,7 @@ nav{
 	display: inline-block;
 	vertical-align: middle;
 	border-bottom: 1px solid;
-	margin:3% 200px 3% 3%;
+	margin:15% 200px 3% 3%;
 	padding:1%
 }
 
@@ -127,15 +130,22 @@ nav{
 .firsteyes button{
 	display:block;
 	margin: auto 10%;
-	width:150px;
+	width:175px;
 	height: 40px;
+	background-color: white; /* Green */
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	padding:0;
 }
 
 .mid{ 
 	display:inline-block;
 	border-bottom: 1px solid;
 	margin:3% 200px 3% 3%;
-	padding:1%
+	padding:1%;
+	width: 90%
 }
 
 .fa{
