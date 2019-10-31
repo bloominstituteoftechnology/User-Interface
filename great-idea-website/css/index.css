@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 100%;
+}
+nav {
+	display: inline;
+	text-align:center;
+	margin: 10px;
+  }
+  
+nav a {
+	margin: 5%;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+.logo {
+	  display:inline-block;
+	  float: right;
+	  margin;5%;
+  }
+  
+  h1{
+	  font-size: 50px;
+  }
+  .main-title{
+	  display:inline-block;
+	  margin: 10%;
+	  width:25%;
+
+  }
+  .circle-pic{
+	  display:inline-block;
+	  float:right;
+	  padding: 5%;
+	  vertical-align: right;
+	  
+  }
+  /*.all-content{
+	  display: inline-block;
+  }*/
+   .top-content {
+	border-top: 1px solid black;
+	margin: 2px;
+	width:100%;
+  }
+	.features{
+		display: inline-block;
+		width: 25%;
+		margin: 10%;
+	}
+	.about{
+		display: inline-block;
+		width: 25%;
+		margin: 5%;
+	}
+
+  .middle-img{
+		display: block;
+		margin:2% 8% 2% 8%;
+
+	}
+
+.bottom-content{
+	border-bottom: 1px solid black;
+	width:100%;
+	margin:2px;
+	
+}
+.text-content1{
+	display:inline-block;
+	margin:5%;
+	width:25%;
+	
+}
+.text-content2{
+	display:inline-block;
+	margin:2%;
+	width:25%;
+}
+.text-content3{
+	display:inline-block;
+	margin:1.5%;
+	width:25%;
+}
+	
+	address{
+	  margin:5%;
+	  padding: 2%;
+  }
+  footer .copy-right{
+	  text-align: center;
+	  margin: 2%;
+  }
