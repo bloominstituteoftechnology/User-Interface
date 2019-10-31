@@ -65,13 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-*{
-border:1px solid red !important;
-}
 
 div{
 	display:inline-block;
-	margin:20px;
 }
 
 header{
@@ -99,32 +95,76 @@ nav{
 }
 
 .firsteyes{
-	width:100%;
-	height:40%;
+	width:90%;
+	height:35%;
 	display: inline-block;
 	vertical-align: middle;
+	border-bottom: 1px solid;
+	margin:3% 200px 3% 3%;
+	padding:1%
 }
 
 .firsteyes h1{
-	width:30%;
+	width:38%;
 	font-size: 60px;
 	display:inline-block;
 	word-spacing: 100px;
 	text-align: center;
-	margin:5%;
+	margin:2%;
+	padding:2%;
 	border: 5px;
 	vertical-align: middle;
+	margin-right: 5%
 }
 
 .firsteyes img{
 	display: inline-block;
-	margin:5%;
+	margin:1%;
 	height: 300px;
-	
+	margin-left: 6%;
+	margin-bottom: 1px;
 }
-/* .firsteyes button{
-	
+.firsteyes button{
+	display:block;
+	margin: auto 10%;
+	width:150px;
+	height: 40px;
+}
+
+.mid{ 
+	display:inline-block;
+	border-bottom: 1px solid;
+	margin:3% 200px 3% 3%;
+	padding:1%
+}
+
+.fa{
+	width:45%;
+	height:100%;
+	display:inline-block;
+	margin:auto 2%;
+}
+
+.spv{
+	width:25%;
+	display:inline-block;
+	margin: 2% 2%;
+}
+
+.bot{
 	display: inline-block;
-	margin:5%;
-	height: 200px;
-} */
+	width:100%;
+}
+
+.contact{
+	width:300px;
+	display:block;
+	margin:auto 2%;
+	padding:1%
+}
+
+.copyright{
+	width: 100%;
+	text-align:center
+}
+
