@@ -64,3 +64,174 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 2rem auto;
+	margin-left: 8rem;
+}
+
+header {
+	margin-top: 10px 10px 10px 10px;
+}
+
+header nav {
+	display: inline-block;
+	margin: 20px 10px 20px 8px;
+	vertical-align: top;
+	padding: 1px;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 8px 24px 10px 40px;
+	color: gray;
+	font-size: 14px;
+	height: 10px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 17px 10px 10px 58px;
+}
+
+
+.txt-left {
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	font-size: 76px;
+	font-style: bold;
+	margin: 101px 10px 7px 41px;
+	text-align: center;
+	height: 235px;
+	width: 400px;
+	vertical-align: top;
+	letter-spacing: 4px;
+}
+
+.start-button {
+	background-color: white;
+	border: 1px solid black;
+	margin: 15px 116px 17px 111px;
+	padding: 6px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	display: block;
+	text-align: middle;
+	letter-spacing: 1px;
+	height: 33px;
+}
+
+.snippet {
+	display: inline;
+	margin: 45px 20px 10px 39px;
+}
+
+hr {
+	border-top: 1px solid black;
+	margin-top: 63px;
+	margin-right: 80px;
+	display: block;
+}
+
+
+.features {
+	display: inline-block;
+	margin-top: 14px;
+	width: 50%;
+}
+
+.features-par {
+	margin-top: 17px;
+    font-size: 16px;
+}
+
+.about-par {
+	margin-top: 17px;
+	font-size: 16px;
+}
+
+.about {
+	display: inline-block;
+	margin: 14px 0px 0px 0px; 
+	width: 444px;
+}
+
+.middle-img {
+	display: block;
+	margin: 43px 30px 17px 0px;
+
+}
+
+.services {
+	display: inline-block;
+	margin-top: 21px;
+	width: 280px;
+}
+
+.services-par {
+	margin-top: 17px;
+	font-size: 16px;
+}
+
+.product {
+	display: inline-block;
+	margin: 10px 0px 15px 8px;
+	width: 296px;
+}
+
+h4 .product {
+	margin: 10px 18px 15px 16px;
+    width: 56px;
+}
+
+.product-par {
+	margin: 2px 0px 12px 7px;
+	font-size: 16px;
+}
+
+.vision {
+	display: inline-block;
+	margin: 0px 0px 0px 3px;
+	width: 280px;
+}
+
+h4 .vision {
+	margin: 10px 18px 15px 16px;
+}
+
+.vision-par {
+	margin-top: 17px;
+	font-size: 16px;
+}
+
+.hr2 {
+	border-top: 1px solid black;
+	margin-top: 30px;
+	margin-right: 50px;
+	display: block;
+	width: 100%;
+}
+
+.contact {
+	margin: 38px 10px 40px 1px;
+	width: 140px;
+	left: 10px;
+}
+
+.phone {
+	margin: 6px 0px 0px 0px;
+}
+
+.email {
+	margin: 2px 0px 0px 0px;
+	text-decoration: none;
+	color: black;
+}
+
+footer .copy {
+	text-align: center;
+	margin: 4px 67px 9px 0px;
+	height: 50px;
+	font-size: 14px;
+}
