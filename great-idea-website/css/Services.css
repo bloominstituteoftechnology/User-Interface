@@ -140,14 +140,14 @@ body {
   color: white;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: "Bangers", cursive;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: larger;
   color: grey;
 }
 
@@ -156,7 +156,6 @@ h5 {
 /* nav bar */
 
 .container {
-  box-shadow: inset 0 10px 20px 0 #000000;
   text-align: left;
   background-color: darkslategray;
   position: fixed;
@@ -170,6 +169,7 @@ h5 {
   border-radius: 10px;
   padding: 10px 10px 50px 10px;
   margin: auto;
+  box-shadow: inset 0 10px 20px 0 #000000;
 }
 
 div nav a {
@@ -245,6 +245,15 @@ header nav a:hover {
 
 /* nav bar end */
 /*master */
+h1 {
+  font-family: "Bangers", cursive;
+}
+h1:hover {
+  color: red;
+  background: black;
+  border-radius: 10px;
+  box-shadow: inset 0 10px 20px 0 #ffffff;
+}
 body {
   box-sizing: border-box;
   width: 60%;
@@ -255,74 +264,31 @@ body {
 }
 
 .master {
+  text-align: center;
   margin: 10px;
   overflow: hidden;
   background-color: darkslategrey;
-  text-align: center;
   border: 2px solid black;
 }
 .letters {
-  margin-top: 60px;
-  margin-left: 80px;
-  float: left;
-  font-size: 80px;
-  padding-bottom: 40px;
-  color: grey;
-  outline-color: red;
-}
-
-.letters button {
-  text-shadow: 3px 3px 9px;
-  text-decoration: none;
   border-radius: 10px;
-  width: auto;
-  border: 2px solid green;
-  padding: 10px 10px 10px 10px;
-  margin: 0px 20px 0px 20px;
-  background: #656565;
-  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
-  background: -moz-linear-gradient(#656565, #444);
-  background: linear-gradient(#656565, #444);
-
-  box-shadow: inset 0 0 0 1px #939393;
-  color: #fff;
-  text-shadow: 0 1px 0 #2f2f2f;
+  box-shadow: inset 0 10px 20px 0 #000000;
+  font-size: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 1px;
 }
 
-.letters button:hover {
-  background: #4c4c4c;
-  background: -webkit-gradient(
-    linear,
-    0 0,
-    0 bottom,
-    from(#4c4c4c),
-    to(#565656)
-  );
-  background: -moz-linear-gradient(#4c4c4c, #565656);
-  background: linear-gradient(#4c4c4c, #565656);
-
-  box-shadow: inset 0 0 0 1px #818181;
+.master img {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  filter: grayscale(100%);
 }
-
-.letters button:active {
-  background: #474747;
-  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
-  background: -moz-linear-gradient(#474747, #444);
-  background: linear-gradient(#474747, #444);
-  border: solid 2px #2f2f2f;
-  box-shadow: inset 0 10px 15px 0 #3e3e3e;
+.master img:hover {
+  filter: unset;
 }
-
-section img {
-
-  float: right;
-  height: auto;
-  width: auto;
-  margin: 30px;
-  padding: 10px 30px 10px 10px;
-  
-}
-
 
 /* master end */
 /* main */
@@ -330,7 +296,7 @@ section img {
 main {
   border: 2px solid black;
   background-color: darkslategrey;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   margin: 10px;
   overflow: auto;
 }
@@ -340,8 +306,8 @@ main {
   float: left;
   height: fit-content;
   width: 400px;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
   border: 2px solid white;
 }
 
@@ -350,15 +316,21 @@ main {
   float: right;
   height: fit-content;
   width: 400px;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
   border: 2px solid white;
 }
 .middle-img {
   width: 100%;
   height: fit-content;
   margin: auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+.middle-img:hover {
+  filter: unset;
 }
 
 .Services {
@@ -366,8 +338,8 @@ main {
   display: inline-block;
   height: 200px;
   width: 30%;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
   border: 2px solid white;
 }
 
@@ -376,8 +348,8 @@ main {
   display: inline-block;
   height: 200px;
   width: 30%;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  padding: 10px;
   border: 2px solid white;
 }
 
@@ -386,7 +358,7 @@ main {
   display: inline-block;
   height: 200px;
   width: 30%;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   padding: 10px 10px 10px 10px;
   border: 2px solid white;
 }
@@ -394,14 +366,11 @@ main {
 /*Footer*/
 
 footer {
-  
   background-color: darkslategrey;
   border: 2px solid black;
   text-align: center;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
-  
-
 }
 
 footer section {
