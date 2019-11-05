@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	
+	width: 1000px;
+	Height: 1300px;
+}
+
+nav {
+	
+	
+	
+}
+
+a {
+	padding-left: 60px;
+	color: grey;
+}
+
+.logo {
+	padding-left: 90px;
+}
+
+h1 {
+	
+}
+.innovation {
+	
+	font-size: 70px;
+	
+	width: 250px;
+	text-align: center;
+	padding-top: 150px;
+		margin-left: 50px;
+	
+}
+
+h3 {
+	font-size: 20px;
+	color: grey;
+	border: 2px solid grey;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.bigpic {
+	
+	margin-left: 550px;
+	margin-top: -405px;
+	
+}
+
+.basicinfoupper {
+	
+	border-top: 2px solid grey;
+	height: 130px;
+}
+
+.Features {
+	margin-left: 20px;
+	height: 100px;
+	width: 420px;
+}
+
+.About {
+	
+	height: 100px;
+	width: 400px;
+	margin-left: 580px;
+	margin-top: -100px;
+}
+
+.basicinfolower {
+	
+	border-bottom: 2px solid grey;
+}
+
+.Services {
+	
+	height: 125px;
+	width: 330px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.Product {
+	
+	height: 125px;
+	width: 300px;
+	margin-left: 370px;
+	margin-top: -125px;
+}
+
+.Vision {
+	
+	height: 125px;
+	width: 300px;
+	margin-left: 690px;
+	Margin-top: -125px;
+}
+
+.middle-img {
+	width: 1000px;
+	height: 150px;
+}
+
+.address {
+	border: 2px solid red;
+	margin-top: 50px;
+	width: 150px;
+}
+
+footer {
+	text-align: center;
+margin-top: 100px;
+}
