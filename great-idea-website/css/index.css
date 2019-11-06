@@ -117,8 +117,9 @@ footer p, .box1 h1 {
 }
 
 .box1 h1 {
-	font-size: 52pt;
-	margin-bottom: 20px;
+	font-size: 58pt;
+	margin-bottom: 15px;
+
 }
 
 .box1 img {
@@ -143,7 +144,7 @@ footer p, .box1 h1 {
 }
 
 .center {
-	margin-top: 90px;
+	margin-top: 80px;
 }
 
 .box2 {
