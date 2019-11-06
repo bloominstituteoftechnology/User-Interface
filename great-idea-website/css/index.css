@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*
+* {
+	box-sizing: border-box;
+} */
+
+.container {
+	width: 900px;
+	height: 1300px;
+	margin: auto;
+/*	border: 1px solid red; */
+}
+
+#navbar {
+	background-color: blue;
+	position: sticky;
+	top: 0;
+	height: 90px;
+	width: 805px;
+	margin-left: 44px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left:-9px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+	margin: 0 20px;
+	font-family: 'Bowlby One SC';
+	font-size: 12px;
+}
+
+header nav a:hover {
+	color: black;
+}
+
+header .logo {
+	margin-left: 45px;
+}
+
+div .section1 button {
+	margin-left: 178px;
+	width: 136px;
+}
+
+.section1 {
+	/* border: 2px solid red; */
+	margin: 1%;
+	width:100%;
+}
+
+div .section1 h1 {
+	text-align: center;
+	margin-top: 78px;
+	margin-left:56px;
+	font-size: 72px;
+}
+
+div .section1 h2 {
+	text-align: center;
+}
+
+.content1 {
+	/* border: 2px solid blue; */
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+	width: 47%;
+}
+
+div .section1 img {
+	height: 330px;
+	width: 330px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+hr {
+	width: 800px;
+}
+
+.section2 {
+	margin: 1%;
+	width: 100%;
+}
+
+.content2 {
+	/* border: 2px solid blue; */
+	display: inline-block;
+	margin: 1%;
+	width: 42%;
+	margin-left:39px;
+}
+
+div .middle1 img {
+	width: 805px;
+	margin-top: 10px;
+	margin-left: 47px;
+}
+
+.section3 {
+	margin: 5%;
+	width: 100%;
+}
+
+.content3 {
+	/*border: 2px solid blue; */
+	display: inline-block;
+	width: 30%;
+}
+
+.contact {
+	margin: 5%;
+	width: 91%;
+}
+
+/* .contact1 {
+	border: 2px solid blue;
+} */
+
+footer {
+	text-align: center;
+}
