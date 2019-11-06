@@ -95,6 +95,8 @@ header nav a {
 	text-decoration: none;
 	color: gray;
 	margin: 0 20px;
+	font-family: 'Bowlby One SC';
+	font-size: 12px;
 }
 
 header nav a:hover {
@@ -102,7 +104,7 @@ header nav a:hover {
 }
 
 header .logo {
-	margin-left: 65px;
+	margin-left: 45px;
 }
 
 div .section1 button {
