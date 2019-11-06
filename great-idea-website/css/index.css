@@ -99,7 +99,7 @@ hr {
 	margin: 20px 0;
 }
 
-footer p, .box.box1 h1 {
+footer p, .box1 h1 {
 	text-align: center;
 }
 
@@ -116,32 +116,38 @@ footer p, .box.box1 h1 {
 	height: auto;
 }
 
-.box.box1 h1 {
+.box1 h1 {
 	font-size: 52pt;
-	margin: auto;
+	margin-bottom: 20px;
 }
 
-.box.box1 img {
-	width: 100%;
-	margin: 0 auto;
+.box1 img {
+	width: 85%;
+	height: 70%;
+	margin-left: 13%;
 }
 
-.box.box1 button.starting {
+.box1 button.starting {
 	border: thin solid black;
 	background-color: transparent;
 	color: black;
 	font-size: 12pt;
 	padding: 5px 15px;
-	margin: auto;
+	margin-left: 38%;
 }
 
 .box1 {
 	margin: 0%;
 	width: 49%;	
+	vertical-align: top;
+}
+
+.center {
+	margin-top: 90px;
 }
 
 .box2 {
-	margin: 0 2% 0 0;
+	margin: 0 1% 0 0;
 	width: 31%;
 }
 
