@@ -64,3 +64,151 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.whole-body{
+	width: 800px;
+	margin: 0 auto;
+}
+.header{
+	overflow:auto;
+}
+.navigation {
+  font-size: 20px;
+  color: grey;
+  text-align: left;
+  margin: 1%;
+  padding: 1%;
+  width: 70%;
+  display:inline-block;
+}
+
+.navigation a {
+  margin: 1%;
+}
+
+.anchor-style{
+  color: grey;
+  text-decoration: none;
+}
+
+.top-content {
+    margin: 1%;
+    width: 90%;
+}
+
+.top-left {
+    vertical-align: top;
+    margin: 1%;
+	width:48%;
+	float: left;
+}
+
+.top-right {
+    vertical-align: top;
+    margin: 1%;
+	width: 48%;
+	float: right;
+	height: 296px;
+}
+
+.logo {
+	float: right;
+	width: 15%;
+	display: inline-block;
+	padding: 17px 20px 0 0;
+}
+
+.img-one {
+  max-height: 100%;
+  float: right;
+
+}
+
+.middle-img {
+	width: 100%;
+
+}
+
+.innovation-text {
+  text-align: center;
+  font-size: 70px;
+
+}
+
+.button {
+  background-color: white; 
+  border: 2px solid black;
+  color: black;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 55%;
+  margin: 25px auto;
+}
+
+.section-content {
+  border-top: 2px solid black; 
+  width: 100%;
+  margin: 10px auto;
+  overflow: auto;
+}
+
+.content-bottom {
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.features {
+    display: inline;
+    min-height: 100px;
+    margin: 1%;
+    width: 48%;
+    float: left; 
+}
+
+.about {
+	display:inline;
+    min-height: 100px;
+    margin: 1%;
+    width: 48%;
+    float: right;
+}
+
+.services {
+    display: inline-block;
+    min-height: 100px;
+    margin: 1%;
+    width: 30%;
+	float: left;
+}
+
+.Product {
+	display: inline-block;
+	min-height: 100px;
+	margin: 1%;
+	width: 30%;
+	float: none;
+}
+
+.Vision {
+    display: inline-block;
+    min-height: 100px;
+    margin: 1%;
+    width: 30%;
+}
+
+.contact {
+	display: inline-block;
+    min-height: 100px;
+    margin: 1%;
+	width: 30%;
+
+	
+	
+}
+
+.footer-content {
+  text-align: center;
+}
