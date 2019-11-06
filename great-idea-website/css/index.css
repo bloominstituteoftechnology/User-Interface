@@ -65,6 +65,70 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-<header>
-	<nav>
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
 		
+.container header nav a {
+	padding: 30px;
+	border: ;
+	margin: ;
+	text-decoration: none;
+	color: gray;
+}
+
+img.logo {
+	display: block;
+	padding: 0px;
+	border: ;
+	margin: ;
+	float: right;
+}
+
+div.features {
+	width: 50%;
+	height: 80px;
+	padding: 10px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+div.about {
+	width: 50%;
+	height: 80px;
+	padding: 10px;
+	margin: 0px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+div.services {
+	width: 300px;
+	height: 80px;
+	padding: 10px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+div.product {
+	width: 300px;
+	height: 80px;
+	padding: 10px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+div.vision {
+	display: block;
+	width: 300px;
+	height: 80px;
+	padding: 0px 0px 0px 100px;
+	margin: 0px;
+	box-sizing: border-box;
+	display: inline-block;
+}
