@@ -158,6 +158,9 @@ html {
 .nav-bar {
   display: inline-block;
   width: 100%;
+  position: fixed;
+  top: 10px;
+  margin-bottom: 25px;
 }
 
 .nav-bar a {
@@ -178,9 +181,13 @@ html {
   margin-right: auto;
 }
 
+.header-image {
+  margin-top: 55px;
+}
+
 .heading-title {
   font-size: 80px;
-
+  font-family: "Liu Jian Mao Cao", cursive;
   text-align: center;
 }
 
