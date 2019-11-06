@@ -70,7 +70,7 @@ body {
 }
 
 .header {
-	display: inline
+	display: inline=block;
 }
 
 .nav {
@@ -88,7 +88,7 @@ nav a {
 	box-sizing: border-box;
 	margin: 30px 40px;
 	border: 1px solid gray;
-	width: 49%;
+	width: 30%;
 }
 
 .top-section {
