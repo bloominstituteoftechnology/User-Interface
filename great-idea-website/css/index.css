@@ -64,3 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation a {
+	/* text-align: center; */
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	margin:50px;
+}
+
+/* a {
+	text-decoration: none;
+	color: grey;
+	margin: 50px;
+} */
+
+.iod {
+	/* text-align: center; */
+	display: inline-block;
+	font-size: 80px;
+	width: 40%;
+	height: 100px;
+	padding: 80px;
+	
+}
+
+.iod button {
+	color: black;
+	border: 2px black solid;
+	padding: 5px 40px;
+}
+
+.iod .header-img {
+	display: inline-block;
+	padding-top: 50px;
+
+}
+
