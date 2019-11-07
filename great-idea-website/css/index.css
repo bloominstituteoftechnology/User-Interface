@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -48,9 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 html, body {
     height: 100%;
@@ -60,7 +60,75 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-top: 280px;
+	text-align:center;
+	/*vertical-align:center;*/
+	/*line-height:1.5px;*/
 }
 
 /* Your code starts here! */
+
+
+.container { 
+	margin: 1%;
+	width:800px;
+	border:2px solid red;
+}
+.property-1 {
+	margin-left: 510px;
+	/*display: inline;*/
+}
+a{
+	margin: 0 20px;
+}
+
+.sec1 {
+    
+    border: 2px solid blue;
+	display: inline-block;
+	font-size:26px;
+    width: 48%;
+}
+.sec2 {
+ border: 2px solid blue;
+ display: inline-block;
+  margin: 1%;
+ width: 48%;
+}
+
+
+.features {
+    border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 46%;
+}
+.features header{
+	text-transform: uppercase;
+}
+.about {
+    border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 46%;
+}
+.about header {
+	text-transform: uppercase;
+}
+
+.middle-img{
+	margin: 1%;
+	width:98%;
+}
+.services, .product, .vision {
+	border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    min-height: 20%;
+    width: 30.33%;
+}
