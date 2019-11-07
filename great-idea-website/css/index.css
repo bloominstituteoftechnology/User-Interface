@@ -63,4 +63,154 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+body{
+	width: 876px;
+	margin: 0 auto;
+	}
+header{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+nav{
+	display: inline-block;
+	height: auto;
+    width:75%;
+	height: auto;
+	padding-top: 15px;
+	box-sizing: border-box;				
+	background: #eee;
+	text-align:left;
+}
+
+nav a{
+	color:gray;
+	margin-right:50px;
+}
+footer{
+	text-align:center;
+}
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+	width:20%;
+	padding:0 0 0 40px;
+	box-sizing: border-box;			
+	background: #eee;
+}
+.titlelogo {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	margin: 20px 0;
+	box-sizing: border-box;
+}
+.left-side{
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+    width:50%;
+	min-height: 100px;
+	padding: 83px 0;
+	box-sizing: border-box;			
+	background: #eee;
+	text-align:center;
+  }
+.left-side h1{
+	font-size:70px;
+}
+.left-side button{
+	font-size:15px;
+	padding:6px 34px;
+}
+.code-snipet{
+	display: inline-block;
+	vertical-align: bottom;
+	height: auto;
+    width:49%;
+	min-height: 100px;
+	padding: 15px 0 15px 45px;
+	box-sizing: border-box;			
+	background: #eee;
+}
+.aboveimgcontent {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	margin: 20px 0;
+	box-sizing: border-box;
+	border-top: 1px solid;
+}
+.features{
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+    width:49%;
+	min-height: 100px;
+	padding: 15px 0;
+	box-sizing: border-box;			
+	background: #eee;
+  
+}
+.about{
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+    width:50%;
+	min-height: 100px;
+	padding: 15px 0;
+	box-sizing: border-box;			
+	background: #eee;
+}
+.belowimgcontent {
+	display: inline-block;
+	vertical-align: top;
+	width: 876px;
+	height: auto;
+	padding: 20px 0;
+	margin: 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid;
+}
+.Services{
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+    width:33%;
+	min-height: 100px;
+	padding: 15px 0;
+	box-sizing: border-box;			
+	background: #eee;
+  
+}
+.Product{
+	display: inline-block;
+	vertical-align: bottom;
+	height: auto;
+    width:33%;
+	min-height: 100px;
+	padding: 15px 10px;
+	box-sizing: border-box;			
+	background: #eee;
+}
+.Vision{
+	display: inline-block;
+	vertical-align: bottom;
+	height: auto;
+	width:33%;
+	min-height: 100px;
+	padding: 15px 0px;
+	box-sizing: border-box;			
+	background: #eee;
+}
+
+
