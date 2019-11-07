@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+nav {
+	display:inline-block;
+}
+
+header nav ul li{
+	display:inline-block;
+	/* padding:0px 20px 20px 20px; */
+	padding-right:40px;
+}
+
+header nav ul {
+	word-spacing: 10%;
+}
+
+.box {
+	padding:20px;
+	border:1px solid red;
+	display:inline-block;
+	visibility: hidden;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+
+.action {
+	padding:10px;
+	/* border-radius: 10px; */
+	text-align: center;
+	display:block;
+}
+
+.hero-statement, .hero-image {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%
+}
+
+.hero-statement {
+	font-size: 4em;
+}
+
+
+.hero-area:after {
+	display:block;
+	content:"";
+	clear: all;
+}
+
+.features {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%
+}
+
+.about {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%
+}
+
+.section2:after {
+	display:block;
+	content:"";
+	clear: both;
+}
+
+.middle-img {
+	width:100%;
+}
+
+.Services, .Product, .Vision {
+	float:left;
+	width:30%;
+	padding:.5%;
+	margin:.5%
+	box-sizing: border-box;
+}
+
+.third-section:after {
+	display:block;
+	content:"";
+	clear: both;
+}
+
+.Contact {
+	display:block;
+}
+
+footer {
+	background:black;
+	color:white;
+	padding:20px;
+	text-align: center;
+}
