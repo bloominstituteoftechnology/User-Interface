@@ -87,7 +87,12 @@ button{
 	width: 200px;
 
 }
-
+hr{
+	background-color: black;
+}
+i{
+	text-align: center;
+}
 .logo{
 	display:inline-block;
 
@@ -109,13 +114,13 @@ width: auto;
 
 }
 .hero-text{
-width: 49%  ;
+width: 48%  ;
 display:inline-block;
 text-align: center;
 
 }
 .aboveimage{
-padding-left: 400px;
+
 width: 1000px;
 
 }
@@ -131,6 +136,28 @@ width: 39%;
 	width: 39%;
 
 }
-.content_container{
-
+.belowimage{
+	padding-bottom: 100px;
+}
+.below_left{
+	display:inline-block;
+	height: 49%;
+	width: 29%;
+}
+.below_middle{
+	display:inline-block;
+	height: 49%;
+	width: 29%;
+}
+.below_right{
+	display:inline-block;
+	height: 49%;
+	width: 29%;
+}
+.belowimage{
+width: 1000px;
+}
+.middle-img{
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
