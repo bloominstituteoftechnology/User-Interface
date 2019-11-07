@@ -57,10 +57,119 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
+	margin-left: 75px;
+	margin-right: 50px;
+}
+
+.logo {
+	margin-left: 80%;
+	padding-top: 35px;
+	position: relative;
+}
+
+nav ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-right: 7%;
+	padding-top: 35px;
+
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	position: fixed;
+	z-index: 500;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
+header img {
+	margin-left: 650px;
+	z-index: 10;
+	position: absolute;
+	top: 200px;
+	left:1px;
+	
+}
+
+.mainheader {
+	text-align: center;
+	display: block;
+	font-size: 5em;
+	font-family: bangers, cursive;
+	
+	width: 300px;
+	height:100px;
+	margin-left: 10%;
+	margin-top: 15%;
+	z-index:20;
+	position: relative;
+
+}
+header button {
+	margin-left: 15%;
+	margin-top: 11%;
+	
+	box-sizing: border-box;
+	width: 150px;
+	height: 30px;
+	padding: 2px ;
+	
+	text-align: center;
+	
+}
+
+header button:hover {
+background-color: darkcyan;
+color: darkred;
+}
+
+.section1 {
+	width: 100%;
+	margin: 1%;
+
+}
+
+.section1 .p1 {
+	width:40%;
+	
+	display: inline-block;
+	margin: 1%;
+    min-width: 150px;
+
+}
+
+
+.section2 {
+	width: 100%;
+	margin: 1%;
+
+}
+
+.section2 .p2 {
+	width:30%;
+	
+	display: inline-block;
+	margin: 1%;
+	min-width: 200px;
+	
+}
+
+footer {
+	text-align: center;
+}
