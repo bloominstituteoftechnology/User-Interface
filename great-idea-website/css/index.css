@@ -81,25 +81,27 @@ h3{
 
 .header{
 	border-bottom: solid grey 0.5px;
+	padding-bottom: 50px;
 }
+
 nav{
 	display:inline-block;
 
 }
 
 nav a{
-	margin-right: 20px;
+	margin-right: 15px;
 	text-decoration:none;
 	color: #c2bebe;
 }
 
 .logo{
-	margin-left:150px;
+	margin-left:245px;
 }
 
 .header h1{
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 35px;
 }
 
 /*.header .row{
@@ -113,6 +115,7 @@ nav a{
 
 .section-1{
 	margin-top:25px;
+	margin-bottom:25px;
 }
 
 .column{
@@ -120,13 +123,25 @@ nav a{
 	width: 48%; /* this was right off of W3 Schools for how to do a 2 column row */
 	padding: 10px;
 	text-align: center;
-	position: relative;
+	position: inherit;
 	bottom:50px;
+	float:left;
+}
+
+.column img{
+	padding-top: 25px;
+	height: 300px;
+	width:300px;
 }
 
 .column-2{
+	float:left;
 	width: 33.3%; /* this was right off of W3 Schools for how to do a 2 column row */
 	padding: 10px;
+}
+
+.row{
+		margin-bottom:25px;
 }
 
 .row:after {
@@ -138,4 +153,15 @@ nav a{
 
 .section-2{
 	border-bottom: solid black 0.5px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+footer p{
+	line-height: 2em;
+}
+.copyright{
+	text-align: center;
+    padding-top: 25px;
+		padding-bottom: 35px;
 }
