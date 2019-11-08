@@ -64,3 +64,74 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+li{
+display: inline;
+padding: 50px;
+position: relative;
+left: 5%
+}
+li:hover{
+	cursor: pointer;
+	color: black;
+	/* border: 2px solid black; */
+	}
+
+nav{
+	margin-top: 2%;
+	/* background-color: red; */
+	width: fit-content;
+	color: grey;
+}
+
+
+.logo{
+	position: relative;
+	left: 75%;
+	bottom: 30px;
+	/* background: red; */
+}
+
+.circle{
+position: relative;
+bottom: 170px;
+left: 40%;
+/* background: red; */
+}
+
+.phrase{
+	font-size: 58px;
+	position: relative;
+	top: 15%;
+	left: 30%;
+}
+
+.on{
+	position: relative;
+left: 5%;
+}
+
+#CTA{
+	position: relative;
+	bottom: 250px;
+	left: 31%;
+	background: white;
+	border: 2px solid black;
+	width: 160px;
+	height: 25px;
+	text-align: center;
+	outline: none;
+}
+
+#CTA:hover{
+	background: grey;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+
+}
+
+#CTA:active{
+	border-bottom: 4px solid black;
+	transition: .3s smooth;
+}
