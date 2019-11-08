@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	padding-left: 100px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.container header nav {
+	display: block;
+	padding-top: 10px;
+}
+		
+.container header nav a {
+	padding: 0px 60px 0px 0px;
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.innovation {
+	width: 48%;
+    font-size: 100%;
+	font: inherit;
+	display: inline-block;
+}
+
+.innovation h1 {
+	font-size: 5rem;
+}
+
+.button a {
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+.circle-image {
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+	display: inline-block;
+}
+
+.features {
+	width: 450px;
+	height: 50px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.about {
+	width: 450px;
+	height: 50px;
+	padding-top: 40px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 900px;
+	padding: 40px 0px 40px 0px;
+}
+
+.content-bottom {
+	width: 900px;
+	padding-bottom: 40px;
+}
+
+.services {
+	width: 275px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.product {
+	width: 300px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.vision {
+	width: 300px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+hr {
+	margin-right: 120px;
+	background-color: black;
+}
+
+address {
+	display: block;
+	padding-top: 40px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
