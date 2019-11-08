@@ -60,7 +60,170 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+		margin-bottom: 15px;
+		font-family: 'Supermercado One', cursive;
 }
 
 /* Your code starts here! */
+
+*{
+width: fit-content;
+}
+
+li{
+display: inline;
+padding: 50px;
+position: relative;
+
+}
+li:hover{
+	cursor: pointer;
+	color: black;
+	/* border: 2px solid black; */
+
+	}
+
+nav{
+	margin-top: 2%;
+	/* background-color: red; */
+	width: fit-content;
+	color: white;
+}
+
+
+.top{
+position: fixed;
+background-color: lightgrey;
+width: 100%;
+z-index: 1;
+}
+
+
+.phrase-logo{
+	position: relative;
+	top: 120px;
+	left: 20%;
+}
+
+
+.logo{
+	position: relative;
+	left: 75%;
+	bottom: 30px;
+	/* background: red; */
+}
+
+.circle{
+position: relative;
+bottom: 170px;
+left: 40%;
+/* background: red; */
+}
+
+.phrase{
+	font-size: 58px;
+	position: relative;
+	top: 80px;
+	left: 20%;
+}
+
+.on{
+	position: relative;
+left: 25%;
+}
+
+#CTA{
+	position: relative;
+	bottom: 250px;
+	left: 23%;
+	background: white;
+	border: 2px solid black;
+	width: 160px;
+	height: 25px;
+	text-align: center;
+	outline: none;
+}
+
+#CTA:hover{
+	background: grey;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+
+}
+
+#CTA:active{
+	border-bottom: 4px solid black;
+	transition: .3s smooth;
+}
+
+.content{
+	border-top: 8px solid grey;
+	border-bottom: 8px solid grey;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	height: 400px;
+	top: 10%;
+}
+
+.features{
+	/* background: red; */
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	margin-top: 5px;
+}
+
+.about{
+	/* background: green; */
+	width: 50%;
+	margin-top: 5px;
+
+}
+
+.services{
+/* background: lightblue; */
+width: 30%;
+position: relative;
+left: 35%;
+top: 15px;
+}
+
+.product{
+/* background: greenyellow; */
+width: 30%;
+position: relative;
+bottom: 80px;
+}
+
+.vision{
+/* background: pink; */
+width: 30%;
+position: absolute;
+left: 70%;
+bottom: 5px;
+}
+
+.contact{
+position: relative;
+left: 5%;
+width: 150px;
+line-height: 25px;
+top: 15%;
+}
+
+.middle-img{
+	position: relative;
+	top: 13px;
+	left: 10%;
+}
+
+.copyright{
+	position: relative;
+	left: 45%;
+	padding-top: 20px;
+	top: 20%;
+/* background: red; */
+}
+
