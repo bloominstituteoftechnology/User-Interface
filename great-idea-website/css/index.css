@@ -74,19 +74,33 @@ li{
 display: inline;
 padding: 50px;
 position: relative;
-left: 5%
 }
 li:hover{
 	cursor: pointer;
 	color: black;
 	/* border: 2px solid black; */
+
 	}
 
 nav{
 	margin-top: 2%;
 	/* background-color: red; */
 	width: fit-content;
-	color: grey;
+	color: white;
+}
+
+
+.top{
+position: fixed;
+background-color: lightgrey;
+width: 100%;
+}
+
+
+.phrase-logo{
+	position: relative;
+	top: 120px;
+	left: 20%;
 }
 
 
@@ -107,8 +121,8 @@ left: 40%;
 .phrase{
 	font-size: 58px;
 	position: relative;
-	top: 15%;
-	left: 29%;
+	top: 80px;
+	left: 20%;
 }
 
 .on{
@@ -119,7 +133,7 @@ left: 25%;
 #CTA{
 	position: relative;
 	bottom: 250px;
-	left: 31%;
+	left: 23%;
 	background: white;
 	border: 2px solid black;
 	width: 160px;
@@ -148,7 +162,7 @@ left: 25%;
 	position: relative;
 	left: 5%;
 	height: 400px;
-	bottom: 4%;
+	top: 10%;
 }
 
 .features{
@@ -194,6 +208,7 @@ position: relative;
 left: 5%;
 width: 150px;
 line-height: 25px;
+top: 15%;
 }
 
 .middle-img{
@@ -206,6 +221,7 @@ line-height: 25px;
 	position: relative;
 	left: 45%;
 	padding-top: 20px;
+	top: 20%;
 /* background: red; */
 }
 
