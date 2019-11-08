@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+
+}
+
+li{
+  display:inline;
+  margin: 20%,20%,20%,20%;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  width: 13%;
+  text-decoration: none;
+}
+
+
+
+
+ .container2 > div {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align:center;
+  padding-top: 15px;
+  padding-right:15px;
+  padding-left:30px;
+  padding-bottom:15px;
+  margin:10px;
+  width: 45%;
+}
+
+.container2 > div > p{
+  box-sizing: border-box;
+  border: 1px solid #444;
+  text-align:center;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right:15px;
+  padding-left:30px;
+  padding-bottom:15px;
+  margin:10px;
+  width: 45%;
+}
+
+
+
+ .container3 > div {
+  box-sizing: border-box;
+  border-bottom: 1px solid #444;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right:15px;
+  padding-left:30px;
+  padding-bottom:15px;
+  margin:10px;
+  width: 45%;
+}
+
+.container4{
+  display:inline-block;
+  text-align:center;
+  width: 100%;
+  margin:10px 10px 10px 10px;
+}
+
+
+.container5 > div {
+  box-sizing: border-box;
+  border-top: 1px solid #444;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right:15px;
+  padding-left:30px;
+  padding-bottom:15px;
+  margin:10px;
+  width: 30%;
+}
+
+.container6{
+  margin:40px;
+  display:block;
+}
+
+.copyright{
+  text-align:center;
+}
