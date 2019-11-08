@@ -74,6 +74,7 @@ li{
 display: inline;
 padding: 50px;
 position: relative;
+
 }
 li:hover{
 	cursor: pointer;
@@ -94,6 +95,7 @@ nav{
 position: fixed;
 background-color: lightgrey;
 width: 100%;
+z-index: 1;
 }
 
 
