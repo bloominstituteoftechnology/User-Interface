@@ -101,8 +101,6 @@ i{
 margin-left: 100px;
 padding:60px;
 width: auto;
-display:inline-block;
-
 }
 .container{
 	margin:200px;
@@ -111,51 +109,52 @@ display:inline-block;
 .hero{
 padding: 40px;
 width: auto;
+display: flex;
 
 }
 .hero-text{
-width: 48%  ;
-display:inline-block;
+width: 48%;
 text-align: center;
 
 }
 .aboveimage{
-
 width: 1000px;
-
+display: flex;
 }
 .above_left{
-display:inline-block;
 height: 49%;
 width: 39%;
 
 }
 .above_right{
-	display:inline-block;
 	height: 49%;
 	width: 39%;
 
 }
 .belowimage{
 	padding-bottom: 100px;
+	display: flex;
 }
 .below_left{
-	display:inline-block;
+
 	height: 49%;
 	width: 29%;
 }
 .below_middle{
-	display:inline-block;
+
 	height: 49%;
 	width: 29%;
 }
 .below_right{
-	display:inline-block;
+
 	height: 49%;
 	width: 29%;
 }
 .belowimage{
 width: 1000px;
+}
+.navigation{
+	display: flex;
 }
 .middle-img{
 	padding-top: 100px;
