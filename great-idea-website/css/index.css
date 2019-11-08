@@ -65,96 +65,113 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-div {
-	box-sizing: border-box;
-}
-
 .container {
+	padding-left: 100px;
 	margin: 0 auto;
 	width: 80%;
 }
+
+.container header nav {
+	display: block;
+	padding-top: 10px;
+}
 		
 .container header nav a {
-	padding: 20px;
+	padding: 0px 60px 0px 0px;
 	text-decoration: none;
 	color: gray;
 }
 
 .logo {
-	display: block;
-	padding: 0px;
-	border: ;
-	margin: ;
-	float: right;
+	display: inline-block;
 }
 
+.innovation {
+	width: 48%;
+    font-size: 100%;
+	font: inherit;
+	display: inline-block;
+}
+
+.innovation h1 {
+	font-size: 5rem;
+}
+
+.button a {
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
 .circle-image {
-	width: 300px;
-	float: right;
-}
-
-div.features {
-	width: 45%;
-	height: 100px;
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
 	display: inline-block;
 }
 
-div.about {
-	width: 45%;
-	height: 100px;
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
-	display: inline-block;
-	float: right;
-}
-
-.middle-image {
-	
-}
-
-section.content-bottom {
-	width: 100%;
-}
-
-div.services {
-	width: 300px;
+.features {
+	width: 450px;
 	height: 50px;
-	padding: 10px;
-	margin: 0px;
 	box-sizing: border-box;
 	display: inline-block;
 }
 
-div.product {
-	width: 300px;
+.about {
+	width: 450px;
 	height: 50px;
-	padding: 10px;
-	margin: 0px;
+	padding-top: 40px;
+	padding-right: 20px;
 	box-sizing: border-box;
 	display: inline-block;
 }
 
-div.vision {
-	display: block;
-	width: 300px;
-	height: 50px;
-	padding: 10px;
-	margin: 0px;
+.middle-img {
+	width: 900px;
+	padding: 40px 0px 40px 0px;
+}
+
+.content-bottom {
+	width: 900px;
+	padding-bottom: 40px;
+}
+
+.services {
+	width: 275px;
 	box-sizing: border-box;
 	display: inline-block;
+}
+
+.product {
+	width: 300px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.vision {
+	width: 300px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+hr {
+	margin-right: 120px;
+	background-color: black;
 }
 
 address {
-	margin: 0 auto;
-	width: 80%;
+	display: block;
+	padding-top: 40px;
 }
 
 footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	text-align: center;
-	margin: 0 auto;
-	width: 80%;
 }
