@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	width: 880px;
-	margin: auto;
-	border: 1px solid red;
+	margin: 74px;
 }
 
 /* Header Section*/
@@ -75,22 +74,23 @@ h1 {
 	display: inline-block;
 	font-size: 65px;
 	text-align: center;
-	padding: 0 50px 0 50px;
+	padding-right: 130px;
+	vertical-align: inherit;
 }
 
 .logo {
 	vertical-align: middle;
-	margin-left: 100px;
+	display: inline-block;
 }
 img {
 	vertical-align: middle;
-	
 }
 
 .iod {
 	text-align: center;
 	vertical-align: middle;
 	margin: 50px 0 5px 0;
+	
 }
 
 .button {
@@ -98,6 +98,7 @@ img {
 	border: solid 1px black;
     color: black;
 	margin: 0 0 50px 116px;
+	padding: 5px 30px;
 }
 
 /* Navigation Section*/
@@ -107,51 +108,58 @@ nav {
 a {
 	color: lightgray;
 	text-decoration: none;
-	padding: 20px;
+	margin-right: 60px;
 }
 
 
 .upper {
 	display: inline-block;
+	margin-bottom: 40px;
 }
 
 /* Top Left Section*/
 .features {
 	display: inline-block;
-	width: 40%;
-	margin: 0 0 0 5%;
+	width: 48%;
+	margin-top: 20px;
 }
 
 
 /* Top Right Section*/
 .about {
 	display: inline-block;
-	width: 40%;	
-	margin: 0 5% 0 8%;
+	width: 48%;	
+	margin-left: 3%;
+	margin-top: 20px;
+}
+
+.middle-img
+{
+	width: 100%;
 }
 
 
 /* Bottom Left Section*/
 .services {
 	display: inline-block;
-	width: 25%;
-	margin-left: 5%;
+	width: 33%;
+	margin-top: 30px;
 }
 
 
 /* Bottom Middle Section*/
 .product {
 	display: inline-block;
-	width: 25%;
-	margin: 4%;
+	width: 33%;
+	margin-top: 30px;
 }
 
 
 /* Bottom Right Section*/
 .vision {
 display: inline-block;
-width: 25%;
-margin-right: 5%;
+width: 33%;
+margin-top: 30px;
 }
 
 
