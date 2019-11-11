@@ -64,23 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
+/* .container {
 	width:80%;
 	margin:0 auto;
-}
+} */
 
 header {
-	margin-bottom: 40px;
+	width:80%;
+	margin:0 auto;
+	background:orange;
+	box-sizing: border-box;
+	padding:10px;
 }
 
 nav {
 	display:inline-block;
+	padding-right:60px;
 }
 
 header nav ul li{
 	display:inline-block;
-	/* padding:0px 20px 20px 20px; */
-	padding-right:40px;
+	padding:0px 10px 10px 10px;
+	padding-right:20px;
 }
 
 header nav ul {
@@ -94,17 +99,43 @@ header nav ul {
 	visibility: hidden;
 }
 
+.logo-img {
+	width:20%;
+	display:inline-block;
+	text-align:right;
+}
+
 .logo {
 	margin-top: 20px;
+	width:100%;
+	text-align: right;
+	padding-right:0%;
 }
 
 
-.action {
+ .action {
 	padding:10px;
-	/* border-radius: 10px; */
-	text-align: center;
-	display:block;
+	border-radius: 10px;
+	/* text-align: center;
+	display:block; */
+} 
+
+.hero-area {
+	width:80%;
+	margin:0 auto;
+	padding-top:20px;
 }
+
+.hero-statement {
+	display:inline-block;
+	width:100%;
+	text-align: center;
+}
+
+.hero-image {
+	width:30%;
+	display:inline-block;
+} 
 
 .hero-statement, .hero-image {
 	float:left;
@@ -124,7 +155,7 @@ header nav ul {
 	clear: all;
 }
 
-.features {
+.col {
 	float:left;
 	width:46%;
 	padding:1%;
@@ -135,7 +166,22 @@ header nav ul {
 	float:left;
 	width:46%;
 	padding:1%;
-	margin:1%
+	margin:1%;
+}
+
+hr {
+	width:80%;
+	margin:0 auto;
+}
+
+.mid-image {
+	width:80%;
+	margin:0 auto;
+}
+
+.section2 {
+	width:80%;
+	margin:0 auto;
 }
 
 .section2:after {
@@ -153,7 +199,12 @@ header nav ul {
 	width:30%;
 	padding:.5%;
 	margin:.5%
-	box-sizing: border-box;
+	/* box-sizing:border-box; */
+}
+
+.third-section {
+	width:80%;
+	margin:0 auto;
 }
 
 .third-section:after {
@@ -163,12 +214,16 @@ header nav ul {
 }
 
 .Contact {
-	display:block;
+	width:80%;
+	margin:0 auto;
+	padding-bottom:20px;
 }
 
 footer {
+	width:80%;
+	margin:0 auto;
 	background:black;
 	color:white;
 	padding:20px;
 	text-align: center;
-}
+} 
