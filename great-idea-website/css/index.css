@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* .container {
+	width:80%;
+	margin:0 auto;
+} */
+
+header {
+	width:80%;
+	margin:0 auto;
+	background:orange;
+	box-sizing: border-box;
+	padding:10px;
+}
+
+nav {
+	display:inline-block;
+	padding-right:60px;
+}
+
+header nav ul li{
+	display:inline-block;
+	padding:0px 10px 10px 10px;
+	padding-right:20px;
+}
+
+header nav ul {
+	word-spacing: 10%;
+}
+
+.box {
+	padding:20px;
+	border:1px solid red;
+	display:inline-block;
+	visibility: hidden;
+}
+
+.logo-img {
+	width:20%;
+	display:inline-block;
+	text-align:right;
+}
+
+.logo {
+	margin-top: 20px;
+	width:100%;
+	text-align: right;
+	padding-right:0%;
+}
+
+
+ .action {
+	padding:10px;
+	border-radius: 10px;
+	/* text-align: center;
+	display:block; */
+} 
+
+.hero-area {
+	width:80%;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.hero-statement {
+	display:inline-block;
+	width:100%;
+	text-align: center;
+}
+
+.hero-image {
+	width:30%;
+	display:inline-block;
+} 
+
+.hero-statement, .hero-image {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%
+}
+
+.hero-statement {
+	font-size: 4em;
+}
+
+
+.hero-area:after {
+	display:block;
+	content:"";
+	clear: all;
+}
+
+.col {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%
+}
+
+.about {
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%;
+}
+
+hr {
+	width:80%;
+	margin:0 auto;
+}
+
+.mid-image {
+	width:80%;
+	margin:0 auto;
+}
+
+.section2 {
+	width:80%;
+	margin:0 auto;
+}
+
+.section2:after {
+	display:block;
+	content:"";
+	clear: both;
+}
+
+.middle-img {
+	width:100%;
+}
+
+.Services, .Product, .Vision {
+	float:left;
+	width:30%;
+	padding:.5%;
+	margin:.5%
+	/* box-sizing:border-box; */
+}
+
+.third-section {
+	width:80%;
+	margin:0 auto;
+}
+
+.third-section:after {
+	display:block;
+	content:"";
+	clear: both;
+}
+
+.Contact {
+	width:80%;
+	margin:0 auto;
+	padding-bottom:20px;
+}
+
+footer {
+	width:80%;
+	margin:0 auto;
+	background:black;
+	color:white;
+	padding:20px;
+	text-align: center;
+} 
