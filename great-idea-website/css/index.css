@@ -88,6 +88,12 @@ nav a {
 	color: #fff;
 }
 
+nav a:hover {
+	color: #000;
+	transition-duration: 1s;
+	box-shadow: 0 1.5px dodgerblue;
+}
+
 nav a:nth-child(1) {
 	padding-left: 10px;
 }
