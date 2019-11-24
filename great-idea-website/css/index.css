@@ -70,29 +70,34 @@ body {
 }
 
 nav {
-	width: 100%;
-	padding: 15px 0 20px 0;
+	width: 91.19%;
+	padding: 15px 0 15px 0;
+	background: rgba(136,136,136,.6);
+	position: fixed;
+	top: 0;
+	overflow: hidden;
 }
 
 nav a {
-	padding: 0 30px;
+	padding: 0 35px;
 	text-decoration: none;
-	color: grey;
+	color: #fff;
 }
 
 nav a:nth-child(1) {
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 .logo {
-	padding: 0 0 0 50px;
-	/* text-align: right; */
+	padding: 0 10px 0 50px;
 	float: right;
+	/* display: inline-block;
+	vertical-align: middle; */
 }
 
 header {
 	border-bottom: 1px solid black;
-	/* margin: 0 auto; */
+	margin: 60px 0 0 0;
 	padding: 60px 0 60px 0;
 	/* testing */
 }
