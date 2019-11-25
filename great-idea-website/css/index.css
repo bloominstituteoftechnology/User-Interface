@@ -66,18 +66,36 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav{
-	display: inline-block;
+  display: inline-block;
 	padding-top: 20px;
-  	padding-right: 50px;
+  /* padding-right: 10px; */
+  /* text-align: center; */
+
+    /* padding-left: 40px; */
+  /* padding-bottom: 20px; */
+  /* background-color: black; */
+  /* border: 2px solid red; */
+
 	
 }
 
 nav a{
-	display: inline-block;
-	padding-top: 20px;
-	padding-right: 50px;
-	text-decoration: none;
-	color: gray;
+
+  display: inline-block;
+  /* border: 1px solid red; */
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 30px;
+  background-color: black;
+  text-decoration: underline;
+  color:white;
+  
+}
+
+
+a:hover{
+  background-color: rgb(77, 77, 175);
 }
 
 .navigation {
@@ -87,11 +105,15 @@ nav a{
 
 
 .logo {
+
 	display: inline-block;
 	padding-top: 30px;
-  	padding-right: 120px;
+  /* padding-right: 120px; */
+  padding-right: 400px;
 	position: absolute;
-	right: 20px;
+  right: 20px;
+  /* border: 2px solid red; */
+
 	
 }
 
