@@ -67,13 +67,17 @@ h1, h2, h3, h4, h5 {
 
 nav{
   display: inline-block;
-	padding-top: 20px;
+  position: absolute;
+  position: fixed;
+  z-index: 9999;
+  /* padding-top: 20px; */
+
   /* padding-right: 10px; */
   /* text-align: center; */
 
     /* padding-left: 40px; */
   /* padding-bottom: 20px; */
-  /* background-color: black; */
+  background-color: black;
   /* border: 2px solid red; */
 
 	
@@ -87,44 +91,57 @@ nav a{
   padding-bottom: 30px;
   padding-right: 50px;
   padding-left: 30px;
-  background-color: black;
-  text-decoration: underline;
+  /* background-color: black; */
+  text-decoration: none;
   color:white;
+
   
 }
 
 
 a:hover{
-  background-color: rgb(77, 77, 175);
+  background-color: rgb(121, 172, 189);
+  color: black;
+  text-decoration: underline;
+
 }
 
 .navigation {
 	width: 1100px;
-	margin: 0 auto;
+  margin: 0 auto;
+  /* position: fixed; */
+  /* position: absolute; */
+
+
 }
-
-
+  
 .logo {
 
 	display: inline-block;
-	padding-top: 30px;
-  /* padding-right: 120px; */
+  padding-top: 20px;
   padding-right: 400px;
+  padding-left: 50px;
 	position: absolute;
   right: 20px;
   /* border: 2px solid red; */
+  /* position: fixed; */
+  /* z-index: 9999; */
+
 
 	
 }
 
 .title {
 	padding: 20px;
-	position: relative;
+  position: relative;
+
 }
 
 .title-image {
 	display: inline-block;
-	padding: 20px;
+  padding: 20px;
+  margin-top: 80px;
+
 }
 
 .header-title{
