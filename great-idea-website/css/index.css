@@ -64,3 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* { 
+	outline: 1px solid red;
+	outline-offset: -1px;
+  }
+
+  .navigation {
+	  padding: 2%;
+	  text-align: center;
+  }
+  .navigation a {
+	margin: 4%;
+}
+
+  .header {
+	  margin: 5%;
+	  width: 0;
+
+  }
+
+  .top-content {
+	  padding: 3%;
+  }
