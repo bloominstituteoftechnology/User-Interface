@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	max-width: 100%
+}
+
+.mainContainerBox {
+	margin: 0 auto;
+	border: 1px solid black;
+	margin: 1% 20% 5% 20%;
+	padding: 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	margin-right: 50px;
+	color: gray;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.headerBox {
+	border: 0px solid blue;
+}
+
+.innovationTitle {
+	display: inline-block;
+	border: 0px solid red;
+	margin-left: 50px;
+}
+
+.codeImage {
+	display: inline-block;
+	border: 0px solid red;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.getStartedButton {
+	border: 1px solid gray;
+	padding: 15px 30px 15px 30px;
+	margin: 10px;
+	font-size: 20px;
+	color: gray;
+}
+
+.bottomSection {
+	border: 0px solid blue;
+}
+
+.bottomBox {
+	display: inline-block;
+	border: 0px solid red;
+	width: 49%;
+	padding: 15px;
+}
+
+.codeImageBottom {
+	padding: 15px;
+}
+
+.bottomBoxLast {
+	display: inline-block;
+	border: 0px solid red;
+	width: 33%;
+	padding: 15px;
+}
+
+#copyright {
+	text-align: center;
+}
