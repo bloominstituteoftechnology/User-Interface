@@ -1,3 +1,5 @@
+
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +66,175 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+width: fit-content;
+}
+
+a{
+display: inline;
+padding: 50px;
+position: relative;
+text-decoration: none;
+color: grey;
+}
+a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	}
+
+nav{
+	margin-top: 2%;
+	margin-left: 50px;
+	width: fit-content;
+	color: white;
+}
+
+.logo{
+	position: relative;
+	left: 75%;
+	bottom: 30px;
+}
+
+.links{
+position: fixed;
+background-color: white;
+width: 100%;
+z-index: 1;
+}
+
+
+.header{
+	position: relative;
+	top: 120px;
+	left: 20%;
+}
+
+.circle{
+position: relative;
+bottom: 200px;
+left: 60%;
+/* background: red; */
+}
+
+.title{
+	font-size: 70px;
+	position: relative;
+	top: 80px;
+	left: 10%;
+}
+
+#centr{
+	position: relative;
+	left: 30%;
+}
+
+#centr2{
+	position: relative;
+	left: 10%;
+}
+
+#CTA{
+	position: relative;
+	font-size: 16px;
+	font-family: 'Gupter', serif;
+	color: black;
+	font-weight: normal;
+	bottom: 250px;
+	left: 18%;
+	background: white;
+	border: 2px solid grey;
+	width: 160px;
+	height: 30px;
+	text-align: center;
+	outline: none;
+}
+
+#CTA:hover{
+	background: grey;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+
+}
+
+#CTA:active{
+	border-bottom: 4px solid black;
+	transition: .3s smooth;
+}
+
+.line{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 80%;
+	position: relative;
+	height: 480px;
+	margin: auto;
+}
+
+#features{
+	width: 50%;
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding-right: 5px;
+}
+
+#about{
+	width: 50%;
+	position: absolute;
+	margin-top: 10px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#services{
+	width: 33%;
+	position: relative;
+	top: 15px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#product{
+	width: 33%;
+	position: relative;
+	top: 15px;
+	bottom: 10px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#vision{
+	width: 33%;
+	position: absolute;
+	left: 67%;
+	top: 363px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#contact{
+position: relative;
+left: 10%;
+width: 150px;
+line-height: 25px;
+top: 5%;
+}
+
+#middle-img{
+	position: relative;
+	top: 13px;
+	bottom: 30px;
+	width: 100%;
+	display: inline-block;
+	margin: o auto;
+}
+
+.copyright{
+	position: relative;
+	left: 45%;
+	padding-top: 20px;
+	top: 8%;
+	margin-bottom: 20px;
+}
