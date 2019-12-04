@@ -96,14 +96,17 @@ header nav a:first-child {
 header nav a:last-child {
   margin-right: 0;
 }
-
+header.fixed{
+	background-color: aqua;
+	position: fixed;
+}
 header .logo {
   margin-top: 25px;
 }
 
-/* cta */
+/* top */
 
-.cta .cta-text {
+.top .top-text {
   display: inline-block;
   vertical-align: top;
   font-size: 77px;
@@ -112,7 +115,7 @@ header .logo {
   padding: 0px 75px;
 }
 
-.cta .cta-text button {
+.top .top-text button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -122,12 +125,12 @@ header .logo {
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+.top .top-text button:hover {
   background: black;
   color: white;
 }
 
-.cta img {
+.top img {
   display: inline-block;
   margin-top: 69px;
 }
