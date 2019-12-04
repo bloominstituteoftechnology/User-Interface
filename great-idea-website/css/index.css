@@ -3,64 +3,264 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+.container {
+    width: 88%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+
+/* header content */
+
+header nav {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    color: lightslategray;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    vertical-align: super;
+    margin-right: 7%;
+}
+
+header .logo {
+    margin-left: 7%;
+    /* border: 2px solid red; */
+}
+
+.header {
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+    margin: 15%;
+    /* border: 2px solid red; */
+}
+
+.header img {
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.button {
+    font-size: 20px;
+    color: #000;
+    border: 1px solid black;
+}
+
+
+/* main content */
+
+.middle-img {
+    display: inline-block;
+    width: 100%;
+    margin: 0, 10%;
+}
+
+.upper-content {
+    border-top: 1px solid black;
+}
+
+.lower-content {
+    border-bottom: 1px solid black;
+}
+
+.features,
+.about {
+    display: inline-block;
+    width: 49%;
+    /* border: 1px solid red; */
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+.services,
+.product,
+.vision {
+    display: inline-block;
+    width: 32%;
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.features,
+.product,
+.services {
+    margin-right: 15px;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer {
+    text-align: center;
+}
