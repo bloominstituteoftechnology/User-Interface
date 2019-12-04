@@ -64,17 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+  width: 90%;
+  float: right;
+}
 nav {
   color:lightgrey;
   font-size: 18px;
   display:inline-block;
   width: 75%;
-
-  padding: 65px 15px;
+  padding: 55px 7px;
+  
 
 }
 a {
-  padding: 45px;
+  padding: 35px;
   text-decoration: none;
   color:lightgrey;
 
@@ -84,18 +89,20 @@ h5 {
    font-size: 22px;
 }
 
-.firstSection {
-  width: 95%;
-  padding: 7%;
+.firstSection div{
+  display:inline-block;
+  width: 35%;
+
 }
 
 
+
 .firstSecTxt {
-  font-size: 100px;
+  font-size: 75px;
   font-family: 'Bangers', cursive;
   letter-spacing: 2px;
-  margin-right: 20%;
-  padding-right: 25%;
+  margin-left:37%;
+
 }
 
 .firstSecStarted {
@@ -103,19 +110,20 @@ h5 {
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 2px;
   border: 1px solid black;
-  width:22%;
-  padding: 1%;
-  margin-left: 17%;
+  width:40%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-left: 45%;
   margin-top: 2%;
 }
 
 .firstSecTxtWrap {
   text-align:center;  
-
 }
 
 .firstSecImg {
-  float: right;
+ 
+  margin-left: 25%;
 }
 
 #secondSection {
@@ -139,7 +147,7 @@ h5 {
 
 .middle-img {
   display:block;
-  width: 45%;
+  width: 100%;
   height: 100%;
   margin-bottom: 5%;
 }
