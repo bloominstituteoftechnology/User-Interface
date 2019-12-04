@@ -151,6 +151,16 @@ h5 {
 
 /* Your code starts here! */
 
+/*html{width:1000px;
+padding:20px;}
+
+
+header{width: 120%}*/
+
+* {
+  box-sizing: border-box;
+}
+
 .navigation {
   display: inline-block;
   padding: 50px;
@@ -158,6 +168,9 @@ h5 {
 
 .navigation a {
   padding: 20px;
+
+  color: grey;
+  text-decoration: none;
 }
 
 .main-content {
@@ -167,28 +180,37 @@ h5 {
 
 .features {
   display: inline-block;
-  width: 350px;
+  width: 300px;
   height: 100px;
   padding: 30px;
+  position: relative;
+  right: 3%;
 }
 
 .about {
   display: inline-block;
-  width: 350px;
+  width: 300px;
   height: 100px;
   padding-left: 40px;
+  position: relative;
+  left: 25%;
 }
 
 .logo2 {
-  width: 45%;
+  width: 40%;
+  padding-left: 10px;
+  margin: right;
+  padding-top: 10px;
+  margin-left: 110px;
 }
 
 h1 {
   display: inline-block;
   width: 350px;
   height: 100px;
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
+  padding-bottom: 180px;
 }
 
 .services {
@@ -203,6 +225,8 @@ h1 {
   width: 250px;
   height: 100px;
   padding: 30px;
+  position: relative;
+  left: 10%;
 }
 
 .vision {
@@ -210,34 +234,56 @@ h1 {
   width: 250px;
   height: 100px;
   padding-right: 30px;
-}
-/* 
-.bottom-content{
-	
-	
+  position: relative;
+  left: 25%;
 }
 
-.top-content{
-	;
-} */
+.bottom-content {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
 
 .middle-img {
-  padding: 30px;
   align-items: center;
+  border-bottom: 1px solid black;
+  width: 1010px;
 }
 
 button {
   display: inline-block;
+  align-content: right;
+  margin-left: 100px;
+  padding: 5px 40px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 20px;
 }
 
 .hero-container {
-  margin: 0 10px;
+  margin: 0 1px;
   display: inline-block;
-  width: 100%;
+  width: 120%;
   vertical-align: top;
+  border-bottom: 1px solid black;
+  padding: 1px;
 }
 
 .iod {
-  width: 45%;
+  width: 43%;
+  height: 70%;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  bottom: 90px;
+}
+
+.feat {
+  width: 500px;
+  display: inline-block;
+}
+
+.secondd {
+  width: 300px;
   display: inline-block;
 }
