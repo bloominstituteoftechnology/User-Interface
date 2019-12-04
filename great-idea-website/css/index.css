@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,51 +16,51 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -69,30 +69,28 @@ header {
   width: 90%;
   float: right;
 }
+
 nav {
   color:lightgrey;
   font-size: 18px;
   display:inline-block;
   width: 75%;
   padding: 55px 7px;
-  
-
 }
+
 a {
   padding: 35px;
   text-decoration: none;
   color:lightgrey;
-
 }
 
 h5 {
-   font-size: 22px;
+  font-size: 22px;
 }
 
 .firstSection div{
   display:inline-block;
   width: 35%;
-
 }
 
 
@@ -102,7 +100,6 @@ h5 {
   font-family: 'Bangers', cursive;
   letter-spacing: 2px;
   margin-left:37%;
-
 }
 
 .firstSecStarted {
@@ -122,7 +119,6 @@ h5 {
 }
 
 .firstSecImg {
- 
   margin-left: 25%;
 }
 
@@ -130,14 +126,12 @@ h5 {
   width: 90%;
   margin: 0% auto;
   padding:5%;
-
 }
 
 .mainTopSec div {
   display:inline-block;
   width:45%;
   margin-bottom: 5%;
-
 }
 
 .mainTopSec {
@@ -166,11 +160,10 @@ h5 {
   font-size: 22px;
   margin-left: 10%;
   margin-bottom: 10%;
- 
 }
 
 phone {
-   line-height: 3;
+  line-height: 3;
 }
 
 copyright {
