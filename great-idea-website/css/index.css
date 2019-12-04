@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* header  */
+
+
+body{
+	position:absolute;
+	min-width:100%;
+	min-height:1200px;
+	padding:1% 5%;
+	box-sizing:padding-box;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+header{
+	height:60px;
+	width:100%;
+	display:block;
+}
+
+header nav{
+	display:inline-block;
+	justify-content:space-around;
+}
+header nav a{
+	display:inherit;
+	margin:0 35px;
+	font-weight:bolder;
+	-webkit-text-fill-color:rgba(0,0,0,.4);
+	text-shadow:0 0 2px rgba(0,0,0,.4);
+
+}
+
+
+figure{
+	float:right;
+	display:inline-block;
+}
+figure img{
+	width:100%;
+	height:100%;
+}
+
+
+/* header  */
+
+
+/* divs in between header and footer  */
+
+
+
+div{
+	height:
+}
+
+
+div.topp{
+	display:inline-block;
+	justify-content:space-around;
+	height:50%;
+	width:100%;
+	padding-top:150px;
+	
+}
+div.topp address{
+	display:inline-block;
+	margin:auto auto 0 150px;
+	
+}
+
+div.topp figure{
+	display:inline-block;
+	margin:auto 100px 0 auto;
+	
+}
+
+
+
+div.topp span{
+	font-weight:bolder;
+	font-size:3rem;
+	font-family: 'Bangers', cursive;
+	letter-spacing:.1rem;
+
+}
+
+address{
+	text-align:center;
+}
+
+button{
+	width:auto;
+	height:auto;
+	padding:5px 30px;
+	background-color:#fff;
+	font-weight:bolder;
+	border:solid 1.5px;
+	text-align:center;
+}
+
+
+	.cenDivz{
+		width:100%;
+		height:25%;
+		
+	}.cenDivz[data="img"]{
+		text-align:center;
+	}
+
+
+
+div p{
+	text-align:center;
+	padding:5px 100px 5px 100px;
+}
+
+	.cenDivz section{
+		width:50%;
+	}
+
+.cenDivz[data="btm3"] section{
+		width:33.333333333333336%;
+	}
+
+	
+.sec2l , .sec1l{
+	display:inline-block;
+		text-align:center;
+		float:left;
+}
+
+.sec2r , .sec1r{
+	display:inline-block;
+		text-align:center;
+		float:right;
+}
+.sec2c{
+	display:inline-block;
+	text-align:center;
+}
+
+.img2{
+	display:inline-block;
+}
+
+
+/* divs in between header and footer  */
+
+
+
+/* footer  */
+footer{
+	width:100%;
+	text-align:center;
+	margin:10px 0px;
+}
+/*  footer  */
