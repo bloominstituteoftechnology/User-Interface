@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+ 
 }
 
 html, body {
@@ -64,10 +65,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+
+}
 nav {
     color:lightgrey;
     font-size: 18px;
     display:inline-block;
+    width: 75%;
+  position:static;
     padding: 65px 15px;
     
   }
+  a {
+    padding: 45px;
+    text-decoration: none;
+    color:lightgrey;
+    
+  }
+
+  .firstSection {
+  width: 95%;
+  padding: 10%;
+  }
+
+
+.firstSecTxt {
+  font-size: 77px;
+  margin-right: 55%;
+  padding-right: 25%;
+}
+
+.firstSecStarted {
+  font-size: 25px;
+  border: 2px solid grey;
+  width:19%;
+  padding: 1%;
+  margin-left: 3%;
+}
+
+.firstSecTxtWrap {
+text-align:center;  
+  
+}
+
+.firstSecImg {
+  float: right;
+}
+
+#secondSection {
+  width: 90%;
+  margin: 0% auto;
+  padding:5%;
+ 
+}
+
+.mainTopSec div {
+  display:inline-block;
+  width:43%;
+  margin-bottom: 5%;
+}
