@@ -64,29 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
-	border:1px solid gray !important;
-}
 
-body {
-	margin: 0 5%;
+/* * { 
+	border:1px solid gray !important;
+}*/
+
+header {
+	position:fixed;
+	top:0;
+	background-color:gainsboro;
+	width:100%;
+	margin:0;
 }
 
 header div{
 	display: inline-block;
 }
 header .nav{
-	width:78%;
-}
+	width:70.5%;
+	vertical-align: top;
+	margin:1% 0 0 5%;
 
-.logo {
 }
 
 header a{
 	color: dimgray;
 	font-size:15px;
 	text-decoration: none;
-	margin:0 4%;
+	margin-right:8%;
+	
+}
+
+.title-section {
+	border-bottom: 1px solid black;
+	padding-bottom: 7%;
+	margin:7% 5% 0 5%
 }
 
 .title-section div{
@@ -106,30 +118,57 @@ header a{
 
 .title-section a {
 	color: black;
+	text-decoration: none;
+	padding:0 2%;
+	border: 1px solid black;
 }
 
 .title-section img {
 	margin-left:14%
 }
 
-.info-1 div{
-	display:inline-block;
-	width:40%;
-	margin:2%;
+.info-1 {
+	margin:0 5%;
 }
 
-.imddle-img {
-	width:100%;
-	margin:0 auto;
+.info-1 div{
+	display:inline-block;
+	width:48.8%;
+	margin:2% auto;
+}
+#features {
+	margin-right: 2%;
+}
+
+.middle-img {
+	margin:0 5% 0 5%;
+}
+
+.info-2 {
+	border-bottom: 1gitpx solid black;
+	margin:0 5%;
 }
 
 .info-2 div{
 	display:inline-block;
-	width:25%;
-	margin:1%;
+	width:32%;
+	margin:2% auto;
+}
+
+#product, #services {
+	margin-right: 1.5%;
+}
+
+.contact {
+	margin:4% 5% 0 5%;
+}
+
+.contact div {
+	margin:2% 0;
 }
 
 footer {
 	text-align:center;
-	margin:5%;
+	margin:7%;
+	margin-bottom: 10%;
 }
