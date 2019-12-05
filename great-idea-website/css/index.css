@@ -115,7 +115,6 @@ nav a:hover {
 }
 .section-a {
 	border-top:1px solid black;
-	border:1px solid black;
 	width:100%;
 }
 #features, #about, #services, #product, #vision, #contact {
@@ -123,14 +122,12 @@ nav a:hover {
 }
 #features {
 	display:inline-block;
-	border:1px solid black;
 	width:49%;
 	height:200px;
 	vertical-align:top;
 }
 #about {
 	display:inline-block;
-	border:1px solid black;
 	width:49%;
 	margin-left:1.51%;
 }
@@ -149,19 +146,16 @@ nav a:hover {
 }
 #services {
 	display:inline-block;
-	border:1px solid black;
 	width:30%;
 	margin-right:4.75%;
 }
 #product {
 	display:inline-block;
-	border:1px solid black;
 	width:30%;
 	margin-right:4.25%;
 }
 #vision {
 	display:inline-block;
-	border:1px solid black;
 	width:30%;
 }
 #contact {
