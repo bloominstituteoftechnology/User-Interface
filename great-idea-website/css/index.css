@@ -64,3 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 800px;
+	margin: auto;
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+header nav img.logo{
+	margin-left: 45px;
+}
+
+header nav a{
+	margin: 0 20px;
+}
+
+h1{
+	line-height: 1;
+	padding: 10%;
+	text-align: center;
+	margin-right: 500px;;
+}
+
+button{
+	align-items: center;
+}
+
+section class img{
+	float: right;
+}
+
+.main h3 p{
+margin-right:500;
+}
+
+.main h2 p{
+margin-left: 500%;
+}
