@@ -94,6 +94,8 @@ h1 {
 	display: inline-block;
 	border: 0px solid red;
 	margin-left: 50px;
+	margin-top: 40px;
+	vertical-align: top;
 }
 
 .codeImage {
@@ -134,5 +136,6 @@ h1 {
 }
 
 #copyright {
+	width: 100%;
 	text-align: center;
 }
