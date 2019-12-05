@@ -76,23 +76,30 @@ body	{
 	max-width: 100%;
 }
 
+header	{
+	margin-top: 30px;
+}
+
 nav	{
 	display: inline-block;
-	border: 1px solid green;
+
+
 	
 }
 
 nav	a	{
 	text-decoration: none;
-	border: 1px solid red;
 	margin-right: 47px;
-	margin-bottom: 20px;
+
 	padding-left: 5px;
 	padding-right: 5px;
 
-	color: black;
+
+	color: #AAAAAA;
 	font-weight: bold;
 	display: inline-block;
+
+
 
 	
 	
@@ -100,9 +107,9 @@ nav	a	{
 
 .logo	{
 	display: inline-block; 
-	border: 1px solid blue;
-	margin-left: 20px;
-	padding-top: 20px;	
+	margin-left: 40px;
+	vertical-align: middle;
+
 
 }
 
@@ -112,35 +119,34 @@ nav	a	{
 
 .sub-header	{
 	display: inline-block;
-	border: 1px solid green;
 	text-align: center;
-	margin-left: 80px;
+	margin-left: 75px;
 	margin-bottom: 100px;
+	vertical-align: middle;
+	margin-top: 100px;
 	
 
 }
 
 h1	{
-	font-size: 75px;
+	font-size: 85px;
 	text-align: center;
-	/* display: inline-block; */
-	border: 1px solid orange;
 }
 
 .get-started	{
 	text-decoration: none;
-	border: 1px solid black;
-	color: #333333;
-	padding: 0 10px;
+	color: #555555;
+	padding: 0 30px;
 	font-size: 18px;
-	/* display: block; */
 	text-align: center;
+	border: 1px solid #555555;
 }
 
 .code-snippet 	{
-	border: 1px solid purple;
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 85px;
+	vertical-align: middle;
+	margin-top: 50px;
 
 
 
@@ -148,19 +154,18 @@ h1	{
 
 .features, .about	{
 	width: 49%;
-	margin: 0 auto;
+	margin: 30px auto 30px;
 	display: inline-block;
-	margin-top: 10px;
 	
 }
 
 .middle-img	{
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .services, .product, .vision	{
-	margin: 0 auto;
+	margin: 0 auto 30px;
 	width: 33%;
 	display: inline-block;
 }
@@ -173,9 +178,13 @@ footer	{
  footer span	{
 	text-align: center;
 	display: block;
-	margin-top: 15px;
-	margin-bottom: 45px;
+	margin-top: 35px;
+	margin-bottom: 120px;
 
+}
+
+footer h2	{
+	margin-top: 30px;
 }
 
 
