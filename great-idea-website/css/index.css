@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin:0 auto;
+	width:60%;
+}
+nav {
+	margin-top:2%;
+}
+nav a {
+	display:inline-block;
+	padding-right:7%;
+	text-decoration:none;
+	color:grey;
+}
+nav a:hover {
+	color:black;
+}
+.logo {
+	padding-left:13%;
+}
+
+
+.container {
+	margin-top:5%;
+	width:100%;
+	vertical-align:top;
+}
+.boxes {
+	width:100%;
+	text-align:center;
+	
+}
+
+.box-a {
+	display:inline-block;
+	vertical-align:top;
+	height: 400px;
+	width:30%;
+	text-align:center;
+	padding-top:65px;
+	
+}
+.box-a h1 {
+	font-size: 75px;
+	
+}
+.img-box {
+	display:inline-block;
+	padding-left:12%;
+}
+.section-a {
+	border-top:1px solid black;
+	border:1px solid black;
+	width:100%;
+}
+#features, #about, #services, #product, #vision, #contact {
+	font-size:25px;
+}
+#features {
+	display:inline-block;
+	border:1px solid black;
+	width:49%;
+	height:200px;
+	vertical-align:top;
+}
+#about {
+	display:inline-block;
+	border:1px solid black;
+	width:49%;
+	margin-left:1.51%;
+}
+.section-b {
+	width:100%;
+	text-align:center;
+}
+.section-b img {
+	width:100%;
+	height:200px;
+}
+.section-c {
+	padding-top:20px;
+	border-bottom:1px black solid;
+	padding-bottom:2%;
+}
+#services {
+	display:inline-block;
+	border:1px solid black;
+	width:30%;
+	margin-right:4.75%;
+}
+#product {
+	display:inline-block;
+	border:1px solid black;
+	width:30%;
+	margin-right:4.25%;
+}
+#vision {
+	display:inline-block;
+	border:1px solid black;
+	width:30%;
+}
+#contact {
+	margin-top:2%;
+}
+.copyright {
+	text-align:center;
+	font-size:15pt;
+	margin-top:2%;
+}
