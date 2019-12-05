@@ -64,7 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-table {
-	column-count: 5;
+
+table td {
+	column-count: 6;
+	border: 1px solid blue;
+	box-sizing: border-box;
 	
+}
+table th {
+	box-sizing: border-box;
+}
+h3 {
+	margin-left: 200px;
 }
