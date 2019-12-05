@@ -100,32 +100,34 @@ h1{
 .about{
 	display:inline-block;
 	width:40%;
-	margin:0 auto;
+	margin:15px 70px;
 }
 .services{
 	display:inline-block;
 	width:30%;
-	margin 0 auto;
+	margin 15px auto;
 }
 .product{
 	display: inline-block;
 	width: 30%;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 .vision{
 	display: inline-block;
 	width: 30%;
-	margin: 0 auto;;
+	margin: 15px auto;;
 }
 .contact{
 	display:inline-block;
 	width:20%;
 }
 .contact p{
+	display: inline-block;
 	line-height: 26pt;
 }
 
-small{
+footer{
+	display: inline-block;
 	margin: 0 0 0 375px;
 	font-size: 12px;
 }
