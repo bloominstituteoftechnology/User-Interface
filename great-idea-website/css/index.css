@@ -54,13 +54,123 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* Apply to all elements */
+* {
+	max-width: 100%
+}
+
+/* Main box containing all elements on the page */
+.mainContainerBox {
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 1% 20% 5% 20%;
+	padding: 20px;
+}
+/* Navigation area */
+.nav a {
+	text-decoration: none;
+	border-radius: 4px;
+	margin-right: 20px;
+	color: white;
+	background: black;
+	padding: 10px;
+}
+
+.nav a:hover {
+	color: white;
+	background: gray;
+	padding: 10px;
+}
+
+/* Heading box including page title and code image */
+
+.headerBox {
+	border: 0px solid blue;
+}
+
+.innovationTitle {
+	display: inline-block;
+	border: 0px solid red;
+	margin-left: 50px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+
+.codeImage {
+	display: inline-block;
+	border: 0px solid red;
+	margin-left: 80px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.getStartedButton {
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 15px 30px 15px 30px;
+	margin: 10px;
+	font-size: 20px;
+	color: gray;
+}
+
+.getStartedButton:hover {
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 15px 30px 15px 30px;
+	margin: 10px;
+	font-size: 20px;
+	color: white;
+	background: black;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+/* Bottom content section */
+
+.bottomSection {
+	border: 0px solid blue;
+}
+
+.bottomBox {
+	display: inline-block;
+	border: 0px solid red;
+	width: 49%;
+	padding: 15px;
+}
+
+.codeImageBottom {
+	padding: 15px;
+}
+
+.bottomBoxLast {
+	display: inline-block;
+	border: 0px solid red;
+	width: 33%;
+	padding: 15px;
+}
+
+footer {
+	border: 0px solid red;
+	text-align: left;
+	padding: 14px;
+}
+
+#copyright {
+	width: 100%;
+	text-align: center;
+	border: 0px solid red;
+}
