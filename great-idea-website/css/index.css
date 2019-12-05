@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid green;
 }
 
 html, body {
@@ -64,3 +65,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*	{
+	border: 1px solid black;
+}
+
+
+body	{
+	width: 900px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+header	{
+	margin-top: 30px;
+}
+
+nav	{
+	display: inline-block;
+
+
+	
+}
+
+nav	a	{
+	text-decoration: none;
+	margin-right: 47px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+
+	color: #AAAAAA;
+	font-weight: bold;
+	display: inline-block;
+
+
+
+	
+	
+}
+
+.logo	{
+	display: inline-block; 
+	margin-left: 40px;
+	vertical-align: middle;
+
+
+}
+
+
+
+
+
+.sub-header	{
+	display: inline-block;
+	text-align: center;
+	margin-left: 75px;
+	margin-bottom: 100px;
+	vertical-align: middle;
+	margin-top: 100px;
+	
+
+}
+
+h1	{
+	font-size: 85px;
+	text-align: center;
+}
+
+.get-started	{
+	text-decoration: none;
+	color: #555555;
+	padding: 0 30px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #555555;
+}
+
+.code-snippet 	{
+	display: inline-block;
+	margin-left: 85px;
+	vertical-align: middle;
+	margin-top: 50px;
+
+
+
+}
+
+.features, .about	{
+	width: 49%;
+	margin: 30px auto 30px;
+	display: inline-block;
+	
+}
+
+.middle-img	{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.services, .product, .vision	{
+	margin: 0 auto 30px;
+	width: 33%;
+	display: inline-block;
+}
+
+footer	{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+ footer span	{
+	text-align: center;
+	display: block;
+	margin-top: 35px;
+	margin-bottom: 120px;
+
+}
+
+footer h2	{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
