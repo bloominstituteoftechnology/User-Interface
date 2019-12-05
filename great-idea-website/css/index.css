@@ -74,28 +74,65 @@ header nav li{
 	width:160px;
 
 }
-
 .innovation li{
 	display:block;
 	font-size: 60px;
-	margin:0 0% 1% 25%;
+	margin:0 20% 1% 25%;
 }
 .innovation{
 	margin:-10% 25% 0 0;
-	padding: 25px 0 25px 0;
+	padding: 25px 20% 25px 0;
 }
 .gs{
 	display:inline-block;
 	border:1px solid black;
 	padding:10px 35px 10px 35px;
-	margin: 0 45% 0 20%;
+	margin: 0 45% 0 15%;
 }
-.Circle{
-	margin: -15% 0 0 50%;
+.img{
+	display:inline-block;
+	margin: -25% 0 0 50%;
 }
 #middle{
 	margin: 100px -5% 0 100px;
 }
 #top{
-	
+	display: inline-block;
+	margin: 100px 0 50px 0;
+	padding-right: 550px;
+
+}
+#top .features{
+	margin: 0 45% 10px 60px;
+}
+#top .about{
+	margin: -6.25% -20% 5% 75%;
+}
+#top .codepic{
+	margin:5% 25% 0% 25%;
+}
+#bottom{
+	display:block;
+}
+#bottom .services{
+	margin: 10px 80% 0 65px;
+}
+#bottom .product{
+	margin: -6% 50% 0 30%;
+}
+#bottom .vision{
+	margin: -5.2% 10% 0 55%;
+}
+.foot{
+
+	display:block;
+	margin: 10% 60% 0% 0%;
+	padding-left:3%;
+}
+.foot li{
+	padding-bottom: 10px;
+	margin: 0 0 0 0;
+}
+.end{
+	margin: 10px 0 0 50%;
 }
