@@ -65,14 +65,34 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .Info {
-	border: 1px solid green;
-	margin-left: 10%;
+	margin-left: 0 auto;
+	margin-top: 50px;
 	padding: 5px; 
 	box-sizing: border-box;
+	font-size: 15px;
 }
 .Info a {
 	margin-left: 10%;
 }
+.topImg {
+	margin-left: 75%;
+}
 nav {
-	margin-left: 50%;
+	margin-left: 60%;
+}
+p {
+   margin: 0;
+   padding: 5px;
+   box-sizing: border-box;
+   text-align: center;
+
+}
+h3 {
+  font-size: 15px;
+  margin-left: 55px;
+}
+h5 {
+ text-align: center;
+ margin: 10px;
+ margin-left: 20px;
 }
