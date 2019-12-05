@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 30px;
 }
 
 
@@ -80,12 +81,35 @@ nav img {
 
 .second_img {
 	display: inline-block;
-	float: right;
 	width: 20%;
+	margin:20px;
+	margin-left: 30px;
+
 }
 
-div span {
-	font-size: 50px;
+.section_h1 {
+	font-size: 100px;
 	display: block;
 	
+	
+}
+
+.section_container div {
+display: inline-block;
+}
+
+.art_one_two_container {
+	display: inline-block;
+}
+
+.article1 {
+	font-size: 20px;
+	width: 30%;
+	display: block;
+}
+
+.article2 {
+	font-size: 20px;
+	width: 30%;
+	display: block;
 }
