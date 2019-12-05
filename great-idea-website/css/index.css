@@ -9,5 +9,81 @@
 
 body {
 	/* font-size: 69.5%; */
+	font-family: "Titillium Web", sans-serif;
+}
+
+#main-container {
+	background-color:peach;
+	width:1200px;
+	margin:0 auto;
+}
+
+#main-header {
+	background-color:lightblue;
+}
+
+.nav-container {
+	width:69%;
+	display:inline-block;
+}
+
+.nav-container a {
+	margin-right: 50px;
+}
+
+.logo-container {
+	width:29%;
+	display:inline-block;
+}
+
+.intro {
+	background-color:pink;
+	/* margin-top:0; */
+}
+
+.intro-header {
+	width:49%;
+	display:inline-block;
+	background-color:white;
+	padding:5% 15%;
+	text-align:center;
+	/* margin-top:0; */
+}
+
+.intro-header #title {
+	font-size:60px;
+}
+
+.intro-img {
+	width:49%;
+	display:inline-block;
+	/* margin-left:50%;
+	margin-right:50%; */
+	background-color:gray;
+	text-align:center;
+}
+
+button {
+	width: 125px;
+	padding: 5px;
+	font-size: 14px;
+	border:1px solid black;
+	background-color:white;
+}
+
+.main-top article {
+	width:49%;
+	display:inline-block;
+	padding-top:20px;
+}
+
+img {
+	width:100%;
+}
+
+.main-bottom article {
+	width:32%;
+	display:inline-block;
+	padding: 20px;
 }
 
