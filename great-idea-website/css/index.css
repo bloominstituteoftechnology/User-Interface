@@ -65,18 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container{
-	width: 900px;
+	width: 950px;
 	margin:0 auto;
 }
 header nav {
 	display: inline-block;
-	margin-top:50px;
+	margin-top:40px;
 }
 header nav a {
 	margin: 0 20px;
 }
 .logo{
-	margin: 0 90px;
+	margin: 0 80px;
 }
 h1{
 	font-size: 60px;
@@ -128,6 +128,5 @@ h1{
 
 footer{
 	display: inline-block;
-	margin: 0 0 0 375px;
-	font-size: 12px;
+	margin: 0 0 0 300px;
 }
