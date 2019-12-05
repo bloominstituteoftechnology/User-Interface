@@ -74,13 +74,14 @@ h1, h2, h3, h4, h5 {
 .mainContainerBox {
 	margin: 0 auto;
 	border: 1px solid black;
+	border-radius: 4px;
 	margin: 1% 20% 5% 20%;
 	padding: 20px;
 }
 /* Navigation area */
 .nav a {
 	text-decoration: none;
-	border-radius: 5px;
+	border-radius: 4px;
 	margin-right: 20px;
 	color: white;
 	background: black;
@@ -117,6 +118,7 @@ h1, h2, h3, h4, h5 {
 
 .getStartedButton {
 	border: 1px solid gray;
+	border-radius: 4px;
 	padding: 15px 30px 15px 30px;
 	margin: 10px;
 	font-size: 20px;
@@ -125,6 +127,7 @@ h1, h2, h3, h4, h5 {
 
 .getStartedButton:hover {
 	border: 1px solid gray;
+	border-radius: 4px;
 	padding: 15px 30px 15px 30px;
 	margin: 10px;
 	font-size: 20px;
