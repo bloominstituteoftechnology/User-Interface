@@ -66,19 +66,27 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 * {
+	margin:0 auto;
 	box-sizing: border-box;
 }
-.Info {
-	margin-left: 0 auto;
-	margin-top: 50px;
-	padding: 0px; 
-	box-sizing: border-box;
+.info {
+	margin: 30px;
+	
+	padding:20px;
+	width: 100%;
 	font-size: 15px;
+	display: inline-block;
 }
+a {
+	text-decoration: none;
+	color: gray;
+}
+
 h1 {
 	margin-left: 25px;
 	box-sizing: border-box;
-	margin-left: 10%;
+	margin-left: 15%;
+	margin-top: 20px;
 	font-size: 50px; 
 	width: 250px;
 	display: inline-block;
@@ -86,38 +94,53 @@ h1 {
 .gtBtn {
 	margin-left: 10%;
 	width: 100px; 
-	height: 50px; 
-	margin-top: 40px;
+	height: 25px; 
+	margin-top: 150px;
+	display: inline-block;
+
 }
 .middle-img {
-  box-sizing: border-box;
-  margin: 0 auto;
-  margin-left: 250px;
+	display:block;
+	margin: 0 auto;
+	width: 100%;
+	height: 150px;
 }
-.contain {
-	box-sizing: border-box;
-	margin-left: 20px;
-	
+/* .contain {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
 .contain p {
-	display: inline-block;
+	padding: 5px;
 	margin-left: 30px;
-	width: 50%;
+	width: 100%;
+	padding: 25px;
+	display: inline-block;
 }
 .contain nav {
-	margin:0;
-	margin-left: 60%;
+	margin-left: 70%;
 	display: inline-block;
 }
 .contain p {
 	display: inline-block;
 	width: 550px;
 	
+} */
+.contain {
+	display: block;
+	column-count: 2;
+	width: 100%;
 }
-.Info a {
-	margin-left: 10%;
+.contain .contain-two {
+	display: block;
 }
-.topImg {
+.contain .contain-img {
+	display: block;
+}
+.info a {
+	margin-left: 5%;
+}
+.logo {
 	margin-left: 85%;
 	margin-top: -30px;
 }
@@ -131,4 +154,7 @@ h1 {
 h5 {
  margin: 10px;
  margin-left: 20px;
+}
+.page-container {
+	width: 900px;
 }
