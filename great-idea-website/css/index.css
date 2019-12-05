@@ -71,11 +71,13 @@ body {
 }
 
 header {
-  width: 95%;
+  width: 100%;
   float: right;
   margin: 0 auto;
   position:fixed;
-  background-color:white;
+  background-color: ivory;
+  border: 1px solid black;
+  
 }
 
 nav {
@@ -85,6 +87,7 @@ nav {
   width: 75%;
   padding: 4.5% 5%;
   margin-bottom: 1%;
+
 }
 
 
@@ -170,7 +173,7 @@ h5 {
   padding-bottom: 3%
 }
 
-#contactInfo {
+#contact {
   font-size: 16px;
   margin-left: 5%;
  
