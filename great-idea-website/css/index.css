@@ -31,9 +31,18 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+
+
+ul li  {
+	display: inline-block;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	
+
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +73,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav img {
+	display: inline-block;
+}
+
+.second_img {
+	display: inline-block;
+	float: right;
+	width: 20%;
+}
+
+div span {
+	font-size: 50px;
+	display: block;
+	
+}
