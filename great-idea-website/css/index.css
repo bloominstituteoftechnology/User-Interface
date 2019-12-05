@@ -92,6 +92,7 @@ h1 {
 .middle-img {
   box-sizing: border-box;
   margin: 0 auto;
+  margin-left: 250px;
 }
 .contain {
 	box-sizing: border-box;
