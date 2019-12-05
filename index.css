@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+html, body {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+/* Your code starts here! */
+
+.logo {
+	display: inline-block;
+	width: 10%;
+	margin-left: 40%;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 5%;
+	padding:0px;
+	word-spacing: 50px;
+	color: gray;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.header {
+   display: inline-block;
+}
+
+.middle-img {
+	display: block;
+	margin-left: 10%;
+}
+
+button {
+  border-color: solid black 2px;
+  background-color: white;
+  width: 150px;
+  margin-left: 20%;
+  display: block;
+}
+
+h1 {
+	font-size: 100px;
+	padding: 5%;
+	width: 50%;
+	height: 90%;
+	display: inline-block;
+	text-align: center;
+}
+
+.col1 {
+	margin-left: 10%;
+	width: 30%;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.col2 {
+	margin-left: 2%;
+	width: 30%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+.col3 {
+	margin-left: 10%;
+	width: 17%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+.col4 {
+	margin-left: 2%;
+	width: 17%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+.col5 {
+	margin-left: 2%;
+	width: 17%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+#copyright {
+	text-align: center;
+}
