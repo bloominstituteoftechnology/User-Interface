@@ -3,6 +3,7 @@
 	padding:0;
 	margin:0;
 	max-width: 100%;
+	/* border:1px solid black; */
 }
 
 /* Your code starts here! */
@@ -10,48 +11,70 @@
 body {
 	/* font-size: 69.5%; */
 	font-family: "Titillium Web", sans-serif;
+	
 }
 
 #main-container {
-	background-color:peach;
+	/* background-color:peach; */
 	width:1200px;
 	margin:0 auto;
 }
 
 #main-header {
 	background-color:lightblue;
+	padding-top:20px;
+	position:sticky;
+	top:0;
+
 }
 
 .nav-container {
-	width:69%;
+	width:79%;
 	display:inline-block;
+	margin-bottom:20px;
 }
 
 .nav-container a {
-	margin-right: 50px;
+	margin:15px 30px;
 }
 
 .logo-container {
-	width:29%;
+	width:19%;
 	display:inline-block;
 }
 
 .intro {
-	background-color:pink;
+	/* background-color:pink; */
 	/* margin-top:0; */
+	/* border: solid 1px #ff0000; */
+    text-align: center;
+    margin: 0px auto;
+	width: 100%;
+	padding-top:25px;
+	padding-bottom:30px;
 }
+
+/* .intro > div {
+	display:inline-block;
+	border: solid 1px black;
+	width:49%;
+	padding:15%;
+	vertical-align: top;
+	height:100%;
+} */
 
 .intro-header {
 	width:49%;
 	display:inline-block;
-	background-color:white;
+	/* background-color:white; */
 	padding:5% 15%;
 	text-align:center;
-	/* margin-top:0; */
-}
+	margin-top:0;
+	vertical-align: top;
+} 
 
 .intro-header #title {
-	font-size:60px;
+	font-size:50px;
 }
 
 .intro-img {
@@ -59,7 +82,7 @@ body {
 	display:inline-block;
 	/* margin-left:50%;
 	margin-right:50%; */
-	background-color:gray;
+	/* background-color:gray; */
 	text-align:center;
 }
 
@@ -71,7 +94,12 @@ button {
 	background-color:white;
 }
 
-.main-top article {
+#main-top {
+	border-top:1px solid black;
+	padding-top:25px;
+}
+
+#main-top article {
 	width:49%;
 	display:inline-block;
 	padding-top:20px;
@@ -81,9 +109,26 @@ img {
 	width:100%;
 }
 
-.main-bottom article {
+#main-bottom article {
 	width:32%;
 	display:inline-block;
-	padding: 20px;
+	padding: 20px 0 40px 0;
 }
 
+.contact {
+	padding:20px 0;
+	border-top:1px solid black;
+}
+
+footer {
+	padding:20px 0 30px 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
