@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5 {
 * { 
 	outline: 1px solid red;
 	outline-offset: -1px;
+	box-sizing: border-box;
+	max-width: 100%;
+	
+	
   }
 
   .navigation {
@@ -79,11 +83,23 @@ h1, h2, h3, h4, h5 {
 }
 
   .header {
-	  margin: 5%;
-	  width: 0;
-
+	  margin: 0%;
+	  width: 50%;
+	  
   }
+
+.header h1 {
+	padding: 10%;
+	width : 40%;
+	margin: 0;
+}
+
+.header-image {
+	margin: 0;
+	
+}
 
   .top-content {
 	  padding: 3%;
   }
+
