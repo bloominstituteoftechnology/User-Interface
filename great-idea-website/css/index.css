@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	display: inline-block;
+	margin: 6px;
+	padding: 50px;
+	border-style: 30 dotted blue;
+}
+
+
+
+/* Navagation */
+
+nav a {
+	display: inline-block;
+	padding: 40px;
+	position: relative;
+	right: 40px;
+	font-family: auto;
+
+}
+
+img.logo {
+	display: inline-block;
+	margin: 12px;
+	position: relative;
+	left: 790px;
+	bottom: 82px;
+
+}
+
+.container {
+	position: relative;
+	top: 90px;
+	line-height: 345%;
+}
+
+
+ .oneh {
+	position: relative;
+	left: 100px;
+	font-size: 70px;
+	
+}
+
+.twoh {
+	position: relative;
+	left: 200px;
+	font-size: 70px;
+}
+
+.threeh {
+	position: relative;
+	left: 140px;
+	font-size: 70px;
+
+}
+
+h6 {
+	position: relative;
+	left: 150px;
+	width: 130px;
+	padding-left: 50px;
+	height: 60px;
+	box-sizing: content-box;
+	border: 1px solid black
+	
+	
+}
+
+.logo2 {
+	display: inline-block;
+	position: relative;
+	left: 490px;
+	bottom: 205px;
+}
+
+
+
+
+
