@@ -64,75 +64,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	max-width: 100%;
-}
-.mainContainerBox{
-	margin: 1% 20% 5% 20%;
-	border: 1px solid black;
-	padding: 20px;
 
+* {
+border: 0px solid grey;
 }
-.innovationTitle{
-	border: 0px solid blue;
-	display: inline-block;
-	margin-left: 50px;
-	text-align: center;
-	/*vertical-align: auto;*/
+
+/* top of page menu */ 
+.mainContainerBox{
+	border: 0px solid purple;
+	margin: 1% 20% 5% 20%;
 }
-.codeImage{
-	border: 0px solid red;
-	display: inline-block;
-	margin-left: 30px;
-}
-.headerBox{
-	border: 0px solid blue;
-}
-h1{
-	font-size: 60px;
-}
-.nav a{
-	text-decoration: none;
-	margin-right: 35px;
-	color: gray;
-	display: inline-block;
-}
-.nav{
+
+.navlogo{
+
 	border: 0px solid red;
 }
-.nav a:hover{
-	color: blue;
+.navlogo a{
+	color: orange;
 }
 .logo{
-	border: 0px solid purple;
-	margin-left: 75%;
+	margin-left: 50%;
+}
+.iod{
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+	display: inline-block;
+	width: 20%;
+	/*height: 120px;
 	
-}
-.bottomBox{
-	display: inline-block;
-	width: 49%;
-	padding: 15px;
-}
-.middle-img{
-	padding: 15px;
-}
-.bottom{
-	border: 0px solid orange;
-}
-.bottomBoxLast{
-	display: inline-block;
-	width: 33%;
-	padding: 15px;
-}
-.copyright{
-	width: 100%;
-	text-align: center;
-}
-.getStarted{
+	vertical-align: middle;*/
 
 }
-.getStarted{
-	font-size: 15px;
-	border: 1px solid gray;
-	padding: 5px 0px 5px 0px;
+.iod .headerBox{
+	border: 5px solid blue;
+}
+.iod img{
+	border:5px solid green;
+	display: inline-block;
+}
+.codeImage{
+	display: inline-block;
+}
+
+/* mid */
+
+.mid{
+
 }
