@@ -93,7 +93,19 @@ nav a:hover {
 .boxes {
 	width:100%;
 	text-align:center;
-	
+}
+.container .boxes .box-a p{
+	border:solid lightgrey 3px;
+	font-size:18px;
+	width:55%;
+	margin-left:23%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.container .boxes .box-a p:hover {
+	border:solid red 3px;
+	background-color:black;
+	color:white;
 }
 
 .box-a {
