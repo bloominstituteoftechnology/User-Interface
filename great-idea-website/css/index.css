@@ -70,12 +70,13 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 .page-container {
-	margin: 0 auto;
-	width: 100%;
-	
+	margin: 10 auto;
+	width: 1050px;
+	display: inline-block;
 }
 .info {
-	
+	display: inline-block;
+	margin: 20px;
 	color: gray;
 }
 .info a {
