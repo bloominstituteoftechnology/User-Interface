@@ -86,31 +86,31 @@ h1, h2, h3, h4, h5 {
 }
 .contain {
 	width: 100%;
-	margin: 0 ;
-	
+	margin: 0 auto;
 	border: 2px solid orange;
-	margin-left: 300px;
+	
 }
 .contain-two {
-	margin: 0;
-	width: 500px;
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
 	column-count: 2;
 	border: 2px solid orange;
 	padding: 5px; 
 }
-.contain-two p {
-	margin-left: 500px; 
-	width: 500px;
-	display: inline-block;
-}
+
 .middle-img {
 	width: 100%;
 }
 .contain-three {
-	width: 500px;
+	margin: 0 auto;
+	display: inline-block;
+	width: 100%;
+	column-count: 3;
 	border: 2px solid orange;
 	padding: 5px;
 }
+
 /* .head-container {
 	margin: 50px; 
 	
