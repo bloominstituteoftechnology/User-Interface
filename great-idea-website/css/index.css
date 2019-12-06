@@ -66,42 +66,109 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container{
-	width: 800px;
+	width: 900px;
 	margin: auto;
 }
 
+
 header nav{
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 12px;
 }
 
 header nav img.logo{
-	margin-left: 45px;
+	margin-left: 135px;
+	margin-bottom: -11px;
 }
 
 header nav a{
 	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
 }
 
-h1{
-	line-height: 1;
-	padding: 10%;
+.iod-t{
+	display: inline-block;
+	width: 50%;
+	font-size: 500%;
+	margin-top: 100px;
 	text-align: center;
-	margin-right: 500px;;
+
 }
 
 button{
-	align-items: center;
+	margin-left: 129px;
+	width:20%;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: large;
+	background: white
+	
 }
 
-section class img{
-	float: right;
+.iod img{
+	display: inline-block;
+	width: 45%;
+	margin-left: 53%;
+	margin-top: -311px;
 }
 
-.main h3 p{
-margin-right:500;
+.main{
+	border-top: 1px solid black;
+	margin-top: 60px;
+}
+.wordone{
+	display: inline-block;
+	width: 40%;
+	margin: 20px;
+
 }
 
-.main h2 p{
-margin-left: 500%;
+.wordtwo{
+	display: inline-block;
+	width: 40%;
+	margin: 50px;
+	font-stretch: 20px;
+	text-align: left;
+}
+
+.second{
+	border-bottom: 1px solid black;
+}
+.middle{
+	display: inline-block;
+	width: 26%;
+	margin: 30px;
+}
+
+.middletwo{
+	display: inline-block;
+	width: 26%;
+	margin: 30px;
+}
+
+.middlethree{
+	display: inline-block;
+	width: 26%;
+	margin: 20px;
+}
+
+.contact{
+	display: inline-block;
+	width: 30%;
+	margin: 20px;
+	text-align: left;
+	line-break: loose;
+
+}
+
+.last{
+	text-align: center;
+}
+
+.mi{
+	display: inline-block;
+	margin-right: 80%;
+	margin-top: -2%;
+	align-content: left;
 }
