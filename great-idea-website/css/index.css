@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	width: 1000px;
 	display: inline-block;
+	border: 2px solid blue;
 }
 .info {
 	width: 800px;
 	display: inline-block;
 	margin: 20px;
-	margino-left: 300px;
 	color: gray;
 }
 .info a {
@@ -90,19 +90,18 @@ h1, h2, h3, h4, h5 {
 
 .contain {
 	display: inline-block;
-	width: 100%;
+	width: 800px;
 	margin: 0;
 }
 .head-contain {
 	width: 100%;
-	margin: 0 auto;
 	display: inline-block;
 }
 .head-container {
 	display: inline-block;
-	width: 200px;
+	width: 400px;
 	font-size: 50px;  
-	 margin-left: 250px;
+	
 }
 .head-container img {
 	display: inline-block;
@@ -144,12 +143,19 @@ h1, h2, h3, h4, h5 {
 }
 .footnote {
 	display: inline-block;
-	width:800px;
+	width:1000px;
+	border: 2px solid blue;
 }
-.footnote p h5 {
-	margin: 0 ;
-	margin-left: 20px;
+.footnote p {
+	margin: 5px; 
 }
-.footnote .Rights {
-	text-align:center;
+.footnote h5 {
+	margin: 10px;
+}
+.footaddress p {
+	margin: 10px; 
+}
+.CRights {
+	text-align: center;
+	width: 800px;
 }
