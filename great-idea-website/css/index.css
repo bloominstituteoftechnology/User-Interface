@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	margin: 0; 
+	box-sizing: border-box;
+}
+.page-container {
+	margin: 0 auto;
+	width: 1000px;
+	display: inline-block;
+	border: 2px solid blue;
+}
+.info {
+	width: 800px;
+	display: inline-block;
+	margin: 20px;
+	color: gray;
+}
+.info a {
+	margin: 20px; 
+	width: 150px; 
+	color: gray;
+	text-decoration: none;
+}
+
+.contain {
+	display: inline-block;
+	width: 800px;
+	margin: 0;
+}
+.head-contain {
+	width: 100%;
+	display: inline-block;
+}
+.head-container {
+	display: inline-block;
+	width: 400px;
+	font-size: 50px;  
+	
+}
+.head-container img {
+	display: inline-block;
+	margin-left: 240px;
+	margin-top: -155px;
+}
+ .gtBtn {
+	display: inline-block;
+	margin: 0 auto;
+
+}
+/* img {
+	margin: 0;
+	width: 15%;
+	display: inline-block;
+	margin-left: 700px; 
+	margin-top: -50px;
+	border: 2px solid black;
+} */
+.contain-two {
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	column-count: 2;
+	
+	padding: 5px; 
+}
+.contain .middle-img {
+	margin: 0 auto;
+	width: 100%;
+}
+.contain-three {
+	margin: 0 auto;
+	display: inline-block;
+	width: 100%;
+	column-count: 3;
+	
+	padding: 5px;
+}
+.footnote {
+	display: inline-block;
+	width:1000px;
+	border: 2px solid blue;
+}
+.footnote p {
+	margin: 5px; 
+}
+.footnote h5 {
+	margin: 10px;
+}
+.footaddress p {
+	margin: 10px; 
+}
+.CRights {
+	text-align: center;
+	width: 800px;
+}
