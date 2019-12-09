@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 * { 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 	outline-offset: -1px;
 	box-sizing: border-box;
 	max-width: 100%;
@@ -77,29 +77,166 @@ h1, h2, h3, h4, h5 {
   .navigation {
 	  padding: 2%;
 	  text-align: center;
+	  
   }
   .navigation a {
 	margin: 4%;
+	
+	color: grey;
+
 }
 
   .header {
 	  margin: 0%;
-	  width: 50%;
+	  width: 90%;
+	  border-bottom: 1px solid black;
+	  
+
 	  
   }
 
 .header h1 {
 	padding: 10%;
 	width : 40%;
-	margin: 0;
+	margin-left: 300px;
+	
+	font-size: 5rem;
+	text-align: center;
+
 }
 
 .header-image {
-	margin: 0;
+	margin-left: 60%;
 	
+	height: 550px;
+	margin-top: -550px;
+
+	
+}
+.header div{
+	padding-left: 450px;
+	
+}
+.button {
+	
+	margin-left: 83px;
+	height: 35px;
+	width: 250px;
 }
 
   .top-content {
-	  padding: 3%;
-  }
+	  padding: 10px 25px;
+	  
+	  display: flex;
 
+  }
+  .top-content .Features h3{
+	  text-align: left;
+	  font-size: 1.5rem;
+	  width: 132px;
+	  height: 50px;
+	  
+	  display: flex;
+	  
+  }
+  .top-content .Features p {
+	  display:flex;
+	  
+	  width: 700px;
+	  font-size: 1.25rem;
+	  margin-right: 25px;
+
+  }
+.top-content .About h3{
+	text-align: left;
+	font-size: 1.5rem;
+	width: 500px;
+	height: 50px;
+	
+	display: flex;
+	
+}
+.top-content .About p {
+	display:flex;
+	
+	width: 750px;
+	font-size: 1.25rem;
+	
+
+}
+  .top-content p {
+	width: 250px;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+  }
+.middle-img{
+	
+	display: flex;
+	justify-content: center;
+	width: 1920px;
+}
+.bottom-content{
+	
+	display: flex;
+}
+.bottom-content{
+	text-align:center;
+	border-bottom:1px solid black;
+	
+	display: flex;
+	justify-content: space-around;
+}
+.bottom-content .services{
+	width:300px;
+	height:200px;
+	padding:20px;
+	margin:40px;
+	display:inline-block;
+	text-align:left;
+	font-size: 1.25rem;
+}
+.bottom-content .product{
+	width:300px;
+	height:200px;
+	padding:20px;
+	margin:40px;
+	display:inline-block;
+	text-align:left;
+	font-size: 1.25rem;
+}
+.bottom-content .vision{
+	width:300px;
+	height:200px;
+	padding:20px;
+	margin:40px;
+	display:inline-block;
+	text-align:left;
+	font-size: 1.25rem;
+}
+.contact{
+	width: 200px;
+	height:60px;
+	margin: 5px;
+	margin-left: 35px;
+	padding:5px;
+	font-size: 1rem;
+	display:inline-block;
+	text-align:left;
+}
+.contact address{
+	padding-bottom:20px;
+}
+.contact a{
+	color:black;
+}
+.copyright{
+	width:1300px;
+	height: 20px; 
+	margin:20px;
+	padding-left: 550px;
+	font-size: 1rem;
+	display:inline-block; 
+	text-align:center;
+}
