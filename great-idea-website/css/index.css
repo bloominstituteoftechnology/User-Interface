@@ -234,7 +234,8 @@ h1, h2, h3, h4, h5 {
 	text-align:center;
 }
 @media(max-width: 500px) {
- .button {
-	 font-size: 10rem;
- }
+	.button {
+		background-color: blueviolet;
+	}
+	
 }
