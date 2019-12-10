@@ -98,8 +98,7 @@ h1, h2, h3, h4, h5 {
 .header h1 {
 	padding: 10%;
 	width : 40%;
-	margin-left: 300px;
-	
+	margin-left: 15%;
 	font-size: 5rem;
 	text-align: center;
 
@@ -107,14 +106,11 @@ h1, h2, h3, h4, h5 {
 
 .header-image {
 	margin-left: 60%;
-	
 	height: 550px;
-	margin-top: -550px;
-
-	
+	margin-top: -40%;
 }
 .header div{
-	padding-left: 450px;
+	padding-left: 18%;
 	
 }
 .button {
@@ -142,7 +138,7 @@ h1, h2, h3, h4, h5 {
   .top-content .Features p {
 	  display:flex;
 	  
-	  width: 700px;
+	  width: 100%;
 	  font-size: 1.25rem;
 	  margin-right: 25px;
 
@@ -150,22 +146,20 @@ h1, h2, h3, h4, h5 {
 .top-content .About h3{
 	text-align: left;
 	font-size: 1.5rem;
-	width: 500px;
+	width: 100%;;
 	height: 50px;
-	
 	display: flex;
 	
 }
 .top-content .About p {
 	display:flex;
-	
-	width: 750px;
+	width: 100%;
 	font-size: 1.25rem;
 	
 
 }
   .top-content p {
-	width: 250px;
+	width: 100%;;
 	padding: 10px;
 	margin: 0 auto;
 	display: flex;
@@ -175,7 +169,7 @@ h1, h2, h3, h4, h5 {
 	
 	display: flex;
 	justify-content: center;
-	width: 1920px;
+	width: 100%;
 }
 .bottom-content{
 	
@@ -184,7 +178,6 @@ h1, h2, h3, h4, h5 {
 .bottom-content{
 	text-align:center;
 	border-bottom:1px solid black;
-	
 	display: flex;
 	justify-content: space-around;
 }
@@ -239,4 +232,9 @@ h1, h2, h3, h4, h5 {
 	font-size: 1rem;
 	display:inline-block; 
 	text-align:center;
+}
+@media(max-width: 500px) {
+ .button {
+	 font-size: 10rem;
+ }
 }
