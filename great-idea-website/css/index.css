@@ -64,12 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+header{
+	
+}
 nav a {
 	display: inline-block;
 	width: 13%;
 	margin: 1%;
-	border: 1px solid black;
+	
 	color: grey;
 	font-size: 30px;
 }
@@ -81,6 +83,16 @@ h1 {
 
 button {
 	align-content: center;
+	
+}
+
+.secondSection {
+	
+	
+	margin: 10px;
+	padding: 10px;
+	padding-left: 80px;
+	
 }
 
 .firstSection {
@@ -91,20 +103,72 @@ button {
 }
 
 .underLine {
-	border-bottom: 2px solid black;
+	border-bottom: 4px solid black;
 	padding: 50px;
 	
+	text-align: center;
 }
 
 
 
-/* .topSection, h2, p {
+ .topSection, h2, p {
 	display: inline-block; */
+	width: 100px;
+	text-align: 
+	margin: 50px;
 	
-}
+  }
+
+
+  .topSection2, h2, p {
+	display: inline-block; */
+	width: 30px;
+	margin: 20px;
+	
+	
+  }
+
+
+  .topTag{
+	  font-size: 30px;
+  }
+
+  .topPtag{
+	  font-size: px;
+	  width: 80%;
+  }
+
+  .middle-img{
+	 padding: 3%;
+	 width: 100%;
+	 height: 5%;
+  }
+
+  .threeRow{
+	  display: inline-block;
+	  width: 20%;
+	  margin: 5%;
+  }
+
+  .bottomUnderLine{
+	  border-bottom: 2px solid black;
+  }
 /* .topH1 {
 	font-size: 40px;
 	margin: 10px;
 	text-align: left;
 } */
 
+h2{
+	font-size: 30px;
+}
+
+.bottom {
+	font-size: 25px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
