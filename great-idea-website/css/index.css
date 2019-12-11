@@ -48,6 +48,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
+
 * {
     box-sizing: border-box;
 }
@@ -60,7 +62,108 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+	font-weight: 800px;
+}
+/* Your code starts here! */
+.container {
+	width: 70%;
+	margin: 2%;
+	}
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+header nav a {
+	margin: 0 20px;
+}
+header img.logo {
+	text-align: left;
+	display: inline-block;
+	margin: 3%;
+}
+h1 {
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	font-size: 60px;
+	box-sizing: border-box;
+	margin: 10%;
+	height: 100px;
+	padding: 10px;
+	text-align: center;
+	
+}
+h3 {
+	display: inline-block;
+	font-weight: 800;
+}
+.middle-img {
+	width: 100%;
+	z-index: 0;
+	height: 100%;
+}
+.contact{
+	font-family: 'Bangers', cursive;
+	display: block;
+}
+footer {
+	text-align: center;
 }
 
-/* Your code starts here! */
+.roundimage {
+	display: inline-block;
+	width: 60%;
+	height: 60%;
+	text-align: right;
+	transform: scale(1.5);
+}
+
+.hero-left, .hero-right {
+	display: inline-block;
+	width: 47%;
+}
+ .col-container{
+	display: inline-block;
+	width: 100%;
+	margin: 4px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.Features, .About {
+	display: inline-block;
+	width: 47%;
+
+}
+.Services, .Product, .Vision{
+	display: inline-block;
+	font-family: 'Bangers', cursive;
+	width: 30%;
+}
+address, phone, email {
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+}
+.col-3-container {
+	display: inline-block;
+	border: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 5%;
+	padding-top: 5%;
+    }
+.button{
+	border: black 1px solid;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 40%;
+	padding: 5px;
+	margin: 20%;
+	color: black;
+}
+p {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+}	
