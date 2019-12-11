@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
 
 div.logo, 
 div.logo img,
@@ -88,25 +91,35 @@ div.container {
 }
 
 header {
-	margin-top: 30px;
+	border-bottom: 1px solid black;
+	width: 100%;
+	padding: 0 calc((100% - 876px) / 2);
+	position: fixed;
+	top: 0;
+	background: white;
 }
 
 nav a {
-	text-decoration: none;
-	color: #ababab;
+	color: #888;
 	font-size: 14px;
-	padding: 12px 60px 0 0;
+	padding: 20px 30px 20px 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	animation: pulse 1s linear infinite;
 }
 
 div.logo {
 	float: right;
+	padding-top: 8px;
 }
 
 section.call-to-action {
 	height: 460px;
 	border-bottom: 1px solid black;
 	text-align: right;
-	margin: 80px 0 40px 0;
+	margin: 100px 0 40px 0;
 }
 
 section.call-to-action div {
@@ -115,11 +128,12 @@ section.call-to-action div {
 	padding: 60px 80px 0 0;
 }
 
-section.call-to-action div span {
+section.call-to-action div a {
+	text-decoration: none;
 	font-size: 16px;
 	border: 1px solid black;
-	width: 165px;
-	padding: 8px;
+	padding: 8px 40px;
+	color: black;
 }
 
 h1 {
@@ -159,7 +173,17 @@ footer p {
 	padding: 60px;
 }
 
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
 
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
 
 
 
