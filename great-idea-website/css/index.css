@@ -28,8 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+ body {
 	line-height: 1;
+	display: inline-block;
 }
 ol, ul {
 	list-style: none;
@@ -49,18 +50,116 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;	
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+	color: white;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Orbitron', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color: white;
 }
 
 /* Your code starts here! */
+.container {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav {
+	display: inline-block;
+	font-family: 'Anton', sans-serif;
+	background-color:white;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	color: gray;
+	margin-right: 83px;
+	margin-left: 50px;
+}
+
+.main-title-text {
+	display: block;
+	font-size: 50px;
+	padding: 200px;
+	height: 300px;
+	width: 100px;	
+}
+
+.button {
+	display: inline-block;
+	font-size: 22px;	
+	background-color: white;
+	color: black;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.main-title-pic {
+	display: block;
+	margin-top: -350px;
+	float: right;
+	margin-right: 250px;
+}
+
+#top-line {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.top-row {
+	display: inline-block;
+	margin-top: 50px;
+	width: 48%;
+	margin-right: 15px;
+}
+
+.middle-img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.bottom-row {
+	display: inline-block;
+	margin-top: 50px;
+	width: 33%; 
+}
+
+#bottom-line {
+	margin-top: 50px;
+	width: 100%;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.ser-heading {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 60px;
+}
+
+p {
+	font-size: 18px;
+}
