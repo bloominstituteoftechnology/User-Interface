@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+div.logo, 
+div.logo img,
+nav,
+nav a,
+section.call-to-action div,
+section.call-to-action img,
+section.first-section div,
+section.first-section div h2,
+section.first-section div p,
+section.second-section div,
+section.second-section div h2,
+section.second-section div p,
+h1,
+span {
+	display: inline-block;
+}
+
+div.container {
+	margin: 0 auto;
+	width: 876px;
+}
+
+header {
+	margin-top: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ababab;
+	font-size: 14px;
+	padding: 12px 60px 0 0;
+}
+
+div.logo {
+	float: right;
+}
+
+section.call-to-action {
+	height: 460px;
+	border-bottom: 1px solid black;
+	text-align: right;
+	margin: 80px 0 40px 0;
+}
+
+section.call-to-action div {
+	text-align: center;
+	vertical-align: top;
+	padding: 60px 80px 0 0;
+}
+
+section.call-to-action div span {
+	font-size: 16px;
+	border: 1px solid black;
+	width: 165px;
+	padding: 8px;
+}
+
+h1 {
+	font-size: 76px;
+}
+
+section.first-section div {
+	width: 49%;
+}
+
+img.middle-img {
+	margin: 40px 0;
+}
+
+section.second-section {
+	margin-bottom: 40px;
+}
+
+section.second-section div {
+	width: 33%
+}
+
+section.contact {
+	border-top: 1px solid black;
+}
+
+section.contact h2 {
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+	padding: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
