@@ -1,3 +1,8 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html,
 body,
 div,
@@ -87,40 +92,118 @@ video {
     vertical-align: baseline;
 }
 
-h1 {
-    display: inline-block;
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
-#Nav {
-    display: inline;
-    text-align: center;
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+
+.Nav {
+    display: block;
     padding: 30px;
     margin: 20px;
-}
-
-#scale {
-    height: 300px;
-    width: 300px;
-    display: inline;
-}
-
-#GI-img {
-    height: 80px;
-    width: 200px;
-}
-
-#prebutton {
-    display: inline-block;
-    margin: 30px;
-    padding: 30px;
-    font-size: 75px;
     text-align: center;
-    font-style: italic;
 }
 
-#button {
-    display: block;
-    margin: 30px;
-    margin-left: 200px;
-    padding: 20px;
+nav a {
+    padding: 4%;
+}
+
+.picture {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20%;
+}
+
+.adjust {
+    display: inline-block;
+    text-align: center;
+    margin-left: 250px;
+    vertical-align: middle;
+    width: 80px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#same {
+    vertical-align: none;
+    margin-left: 20px;
+    padding: 0 0 0 15px;
+}
+
+.prepic-title {
+    text-align: left;
+    margin-right: 60%;
+}
+
+.prepic-title2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
 }
