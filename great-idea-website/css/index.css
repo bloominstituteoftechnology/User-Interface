@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+  
 /* Your code starts here! */
 
 nav ul li{
-text: grey;
+  color: grey;
   display: inline-block;
   margin-right: 50px;
   margin-top: 5px;
@@ -81,6 +81,7 @@ text: grey;
 
 a {
   text-decoration: none;
+  padding: 1px;
 }
 
 
@@ -89,26 +90,28 @@ a:link {
 }
 
 a:visited {
-  color: grey;
+  color: black;
   
 }
 
 a:hover {
-  border-bottom: none;    
+  opacity: %;
+  max-height: inherit;
   background: grey;
   margin:0;
-  padding: 0;
+  color: white;
 
 }
 
 
 
 .container {
- 	 max-width: 900px;
+ 	  max-width: 900px;
     margin: auto;
     background: white;
-	padding: 10px;
-	vertical-align: middle;
+	  padding: 10px;
+    vertical-align: middle;
+ 
 }
 
 p {
@@ -142,7 +145,7 @@ h2 {
 }
 
 .round-img {
-  position: absolut;
+  height: 100px;
   display: inline-block;
   margin: 50px 10px 25px 450px;
   
@@ -160,14 +163,18 @@ span {
 
 
 .nav-container {
+  background-color: white;
   position: relative;
   height:20px;
+  display: fixed;
+  
+
   
 }
 
  .logo {
-  display: inline-block;
-  position: absolute;
+  display: inline-block;  
+  position: fixed;
   margin-left: 650px;
 }
 
@@ -175,7 +182,7 @@ span {
 
 nav {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   
 }
 
@@ -260,4 +267,17 @@ nav {
   position: absolute;
   margin-left: 40%;
   margin-top: 200px;
+}
+
+li {
+  color: grey;
+}
+
+.background{
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  max-width: 100%;
+  margin: 20px;
+  height: 400px;
+  margin-bottom: 300px;
 }
