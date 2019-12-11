@@ -50,31 +50,37 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;	
 }
 
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	width: 100%;
+	color: white;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Orbitron', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color: white;
 }
 
 /* Your code starts here! */
 .container {
-	width: 1024px;
-	margin: 0 auto;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 nav {
 	display: inline-block;
-	margin-left: 70px;
-	margin-top: 20px;
+	font-family: 'Anton', sans-serif;
+	background-color:white;
+	position: fixed;
+	top: 0%;
+	width: 100%;
 }
 
 nav a {
@@ -82,33 +88,33 @@ nav a {
 	text-decoration: none;
 	font-size: 18px;
 	color: gray;
-	margin-right: 40px;
+	margin-right: 83px;
+	margin-left: 50px;
 }
 
 .main-title-text {
 	display: block;
-	font-size: 80px;
-	width: 270px; 
-	margin-top: 170px; 
-	text-align: center;
-	margin-left: 30px;
+	font-size: 50px;
+	padding: 200px;
+	height: 300px;
+	width: 100px;	
 }
 
 .button {
-	display: block;
-	font-size: 16px;	
-	padding: -30px;
+	display: inline-block;
+	font-size: 22px;	
 	background-color: white;
 	color: black;
-	width: 175px;
-	margin-left: 20px;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 30px;
 }
 
 .main-title-pic {
 	display: block;
 	margin-top: -350px;
 	float: right;
-	margin-right: 50px;
+	margin-right: 250px;
 }
 
 #top-line {
@@ -131,7 +137,7 @@ nav a {
 .bottom-row {
 	display: inline-block;
 	margin-top: 50px;
-	width: 33%;
+	width: 33%; 
 }
 
 #bottom-line {
@@ -146,4 +152,14 @@ footer {
 .copyright {
 	text-align: center;
 	margin-top: 60px;
+}
+
+.ser-heading {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 60px;
+}
+
+p {
+	font-size: 18px;
 }
