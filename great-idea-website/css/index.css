@@ -65,19 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {
-	
-	width: 100px;
-	box-sizing: border-box;
-	padding: 10px;
-	border: none;
-	margin: 70px;
-	display: inline; 
+body {
+	width: 85%;
+	margin: 0 auto;
 }
 
-.navigation a {
-	margin: 20px 55px 30px 20px;
+nav {
+	margin-bottom: 2em;
+}
 
+nav a {
+	text-decoration: none;
+	color: grey;
+	margin: 0 4.5em;
 }
 
 .title-1 {
@@ -87,72 +87,14 @@ h1, h2, h3, h4, h5 {
 	margin: 50px 20px;
 }
 
-
 .image-1 {
 	display: inline-block;
-	width: 250px;
+	width: 2.5em;
 	margin-left: 150px;
 	margin-top: 50px;
 }
 
-.middle-img {
-	margin: 55px 20px;
-}
-
 h1 {
-	font-size: 50px;
+	font-size: 5em;
 	text-align: center;
-	
-}
-
-h2{
-	font-size: 35px;
-}
-
-
-h3 {
-	font-size: 25px;
-	display: inline-block;
-}
-
-/* .top-content {
-	width: 50%;
-	height: 20%;
-	margin: 20px;
-	text-align: center;
-	background: gray;
-	padding-top: 10px;
-	box-sizing: border-box;
-	display: inline-block;
-} */
-
-.top-class {
-	display: inline-block;
-	width: 500px;
-	margin: 5px 20px;
-
-}
-/* .bottom-content {
-	text-align: left;
-	background: gray;
-	display: inline-block; 
-	} */
-
-.bottom-class {
-	display: inline-block;
-	width: 333px;
-	text-align: center;
-	margin: 10px 20px;
-}
-
-.contact {
-	text-align: left;
-	width: 150px;
-	height: 150px;
-
-}
-
-.copyright {
-	text-align: center;
-	width: 100%;
 }
