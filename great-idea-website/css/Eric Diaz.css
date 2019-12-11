@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+
+.topSide {
+	display: inline-block;
+	text-align: center;
+	margin-left: 35%;
+	margin-top: 2%;
+
+}
+
+.Jumbo {
+	display: block;
+	float: left;
+	padding: 5%;
+	margin-top: 6%;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 20%;
+}
+
+#top{
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+button{
+	border-radius: 10px;
+}
+.hola{
+	border-top: solid black 1.5px;
+	margin-top: 5%;
+}
+
+.bodyMain .bodyChild {
+	display: inline-block;
+	margin-left: 10%;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+}
+
+
+.bodyMain .body3{
+	display: inline-block;
+	margin-left: 10%;
+	width: 20%;
+	padding: 2%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.bodyMain .body4{
+	display: inline-block;
+	margin-left: 8%;
+	width: 20%;
+	padding: 2%;
+	margin-top: 5%;
+	text-align: center;
+}
+.bodyMain .bodySon{
+	display: inline-block;
+	margin-left: 8%;
+	width: 20%;
+	padding: 2%;
+	margin-top: 5%;
+	text-align: center;
+}
+.bodyMain .body2{
+	display: inline-block;
+	margin-left: 35%;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+}
+
+
+.footer1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#segunda{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 5%;
+}
+.raja2{
+	border-top: solid black 1.5px;
+}
+
+h5{
+	display: block;
+	margin-left: 42%;
+	margin-right: auto;
+	width: 50%;
+}
