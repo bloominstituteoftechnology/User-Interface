@@ -199,11 +199,42 @@ h1 {
 
 .prepic-title {
     text-align: left;
-    margin-right: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin: 5%
 }
 
 .prepic-title2 {
     display: inline-block;
     vertical-align: middle;
-    width: 40%;
+    width: 30%;
+    margin: 5%;
+}
+
+.mid-pic {
+    display: block;
+    width: 100%;
+}
+
+.postpic-title {
+    text-align: left;
+    display: inline-block;
+    width: 31%;
+    vertical-align: middle;
+    margin-top: 2%;
+}
+
+.bottom {
+    font-size: 16px;
+    display: block;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 8px;
+}
+
+h3 {
+    font-size: 20px;
 }
