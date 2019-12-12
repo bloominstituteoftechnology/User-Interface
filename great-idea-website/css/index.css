@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -31,8 +32,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+
 }
 blockquote, q {
 	quotes: none;
@@ -62,5 +67,218 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+  
 /* Your code starts here! */
+
+nav ul li{
+  color: grey;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 5px;
+  max-block-size: 100px;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  padding: 1px;
+}
+
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+  
+}
+
+a:hover {
+  opacity: %;
+  max-height: inherit;
+  background: grey;
+  margin:0;
+  color: white;
+
+}
+
+
+
+.container {
+ 	  max-width: 900px;
+    margin: auto;
+    background: white;
+	  padding: 10px;
+    vertical-align: middle;
+ 
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+
+.top{
+  position: relative;
+}
+
+
+.big-text {
+  position: absolute;
+  display: inline-block;
+  text-align:center;
+  margin: 75px 250px 80px 50px;
+  height: 383px;
+  width: 373px;
+  padding-top: 70px;
+  
+}
+
+.round-img {
+  height: 100px;
+  display: inline-block;
+  margin: 50px 10px 25px 450px;
+  
+  
+}
+
+
+span {
+  border: solid 1px black;
+  padding: 1px 30px 1px 30px;
+  margin: 0;
+
+}
+
+
+
+.nav-container {
+  background-color: white;
+  position: relative;
+  height:20px;
+  display: fixed;
+  
+
+  
+}
+
+ .logo {
+  display: inline-block;  
+  position: fixed;
+  margin-left: 650px;
+}
+
+
+
+nav {
+  display: inline-block;
+  position: fixed;
+  
+}
+
+.sec1 {
+  position: relative;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.features {
+  display: inlinr-block;
+  width: 50%;
+  position: absolute;
+  
+  
+}
+
+.about {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  margin: 0px 50%;
+}
+
+
+.sec2{
+  position: relative;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.services {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  padding-left: 20px;
+  
+}
+
+.product {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  margin-left: 33.33%;
+  padding-left: 20px;
+}
+
+.vision {
+  display: inline-block;
+  width: 33.33%;
+  position: absolute;
+  margin-left: 66.66%;
+  padding-left: 20px;
+}
+
+
+
+.footer {
+  position: relative;
+  height: 150px
+}
+
+.contact {
+  display:inline-block;
+  position: absolute;
+  
+}
+
+.contact p {
+  margin-top: 20px
+  
+}
+.contact h2 {
+  margin-top: 20px;
+  color: inherit;
+  text-decoration: none; 
+}
+
+.copyr {
+  
+  display: inline-block;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 200px;
+}
+
+li {
+  color: grey;
+}
+
+.background{
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  max-width: 100%;
+  margin: 20px;
+  height: 400px;
+  margin-bottom: 300px;
+}
