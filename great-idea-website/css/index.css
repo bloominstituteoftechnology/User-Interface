@@ -64,3 +64,193 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.logo {
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	margin-right: 45px;
+}
+
+.topPage nav {
+	padding-left: 100px;
+	position: relative;
+	font-family: 'Titillium Web';
+	display: inline-block;
+	margin-top: 50px;
+	word-break: break-all;
+	word-spacing:4vw;
+}
+
+#navBtn {
+	color: black;
+	margin-left: 30px;
+	font-size: 10px;
+	border:solid lightblue;
+	border-radius: 7px;
+	border-width: 1px;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+#navBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+.midPage img {
+	position: relative;
+	margin-left: 34px;
+	margin-top: -255px;
+	margin-bottom: 80px; 
+	float: right;
+}
+
+.midPage h1 {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	font-size: 65px;
+	margin-left: -340px;
+	margin-right: 105px;
+	margin-top: 75px;
+	word-spacing: 100vw;
+}
+
+.midPage {
+	overflow:auto;
+}
+
+.midPage {
+	border-bottom: solid black;
+	width: 75%;
+	margin-left: 150px;
+	margin-top: 100px;
+	margin-bottom: 00px;
+}
+
+#startBtn {
+	position: relative;
+	display: inline-block;
+	margin-left: 179px;
+	margin-top: -700px;
+	padding: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+	font-size: 10px;
+	border:solid lightblue;
+	border-width: 1px;
+	text-decoration: none;
+}
+
+#startBtn:hover {
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.7s;
+	color: white;
+	background-color: blue;
+	border-color:blue;
+}
+
+.features {
+	font-size: 35px;
+	margin-top: 120px;
+	margin-left: 150px;
+}
+
+.fParagraph {
+	margin-left: 150px;
+	font-size: 17px;
+	display: block;
+	float: left;
+}
+
+.about {
+	display: block;
+	font-size: 35px;
+	margin-left: 650px;
+	margin-top: -45px;
+}
+
+.aParagraph {
+	margin-left: 650px;
+	margin-top: -5px;
+	font-size:17px;
+}
+
+.middlePic {
+	margin-top: 55px;
+	margin-left: 150px;
+	width: 75%;
+}
+
+.services {
+	display:block;
+	font-size: 35px;
+	margin-left: 150px;
+	margin-top: 55px;
+}
+
+.servicesParagraph {
+	font-size: 13px;
+	margin-left:150px;
+	margin-top: - 45px;;
+}
+
+.product {
+	display:block;
+	margin-top: -122px;
+	font-size: 35px;
+	margin-left: 500px;	
+}
+
+.productParagraph {
+	font-size: 13px;
+	margin-left: 500px;
+	margin-top: -8px;
+}
+
+.vision {
+	margin-left: 806px;
+	margin-top: -117px;
+	font-size: 35px;
+	display: block;
+}
+
+.visionParagraph {
+	margin-left: 806px;
+	margin-top: -7px;
+	font-size: 13px;
+	margin-bottom: 65px;
+}
+
+.midBottom div {
+	border-bottom: solid black;
+	width: 85%;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.bottom h3 {
+	font-family: 'Bangers';
+	margin-left: 60px;;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.bottom p {
+	margin-left: 60px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
