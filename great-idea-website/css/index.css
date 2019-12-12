@@ -65,34 +65,3 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.TopNav, .logo {
-
-	display: block;
-	margin: 20%
-	color: gray;
-
-}
-
-h1 {
-	display: inline-block;
-	width: 50%;
-	height: 500px;
-}
-
-img {
-	display: right-align;
-
-}
-
-.textareaone { 
-	display: block;
-	height: 100px;
-	width: 50%;
-	margin: 0 auto;
-
-}
-
-.middle-img {
-	margin: 0 auto;
-
-}
