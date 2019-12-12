@@ -64,3 +64,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.logo {
+	size: 95px;
+	position: relative;
+	display: inline;
+	margin-left: 100px;
+	margin-top: -20px;
+}
+
+.topPage nav {
+	position: relative;
+	font-family: 'Titillium Web';
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 15px;
+	word-break: break-all;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	word-spacing:5vw;
+}
+
+#navBtn {
+	background-color: #C3EBF4;
+	font-size: 12px;
+	margin-top: 20px;
+	border:solid lightblue;
+	border-radius: 60px;
+	border-width: 1px;
+	text-decoration: none;
+	padding: 12px;
+}
+
+.topPage {
+	display:inline-block;
+}
