@@ -64,3 +64,62 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav {
+	margin:2em 0 2em 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	margin: 0 1.8em;
+}
+
+.title-1 {
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	margin: 50px 20px;
+}
+
+.image-1 {
+	display: inline-block;
+	width: 250px;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+.top-class {
+	display: inline-block;
+	width: 25em;
+	margin: 2em 1em;
+}
+
+.bottom-class {
+	display: inline-block;
+	width: 16em;
+	margin: 1em 1em;
+}
+
+.contact {
+	text-align: left;
+	width: 15em;
+}
+
+.copyright {
+	text-align: center;
+	width: 65%;
+	margin: 4em 0 7em 0;
+}
+
+/* PUSH ORIGIN 'X-PINERO!!!!' */
