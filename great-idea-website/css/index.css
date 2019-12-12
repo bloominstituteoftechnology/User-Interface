@@ -71,13 +71,13 @@ body {
 }
 
 nav {
-	margin-bottom: 2em;
+	margin:2em 0 2em 0;
 }
 
 nav a {
 	text-decoration: none;
 	color: grey;
-	margin: 0 1.5em;
+	margin: 0 1.8em;
 }
 
 .title-1 {
@@ -103,6 +103,23 @@ h1 {
 	display: inline-block;
 	width: 25em;
 	margin: 2em 1em;
+}
+
+.bottom-class {
+	display: inline-block;
+	width: 16em;
+	margin: 1em 1em;
+}
+
+.contact {
+	text-align: left;
+	width: 15em;
+}
+
+.copyright {
+	text-align: center;
+	width: 65%;
+	margin: 4em 0 7em 0;
 }
 
 /* PUSH ORIGIN 'X-PINERO!!!!' */
