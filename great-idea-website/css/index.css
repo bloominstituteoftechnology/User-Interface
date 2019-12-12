@@ -75,6 +75,7 @@ nav ul li{
   display: inline-block;
   margin-right: 50px;
   margin-top: 5px;
+  max-block-size: 100px;
   
   
 }
