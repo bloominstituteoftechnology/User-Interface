@@ -64,8 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-left: 30px;
+	margin-right: 35px;
+}
+
 .navigation {
-	word-spacing: 2500%;
+	display: inline-block;
 	color: gray;
+	box-sizing: border-box;
+	margin-left: 40px;
+	margin-top: 1px;
+	margin-bottom: 100px;
+	text-align: center;
+	word-spacing: 50px;
+}
+
+
+header {
+	display: block;
+	font-size: 70px;
+	text-align: ;
+	margin-left: 100px;
+	margin-right: 25px;
+}
+.logo2{
+	margin-top: -34%;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+}
+
+button {
+	font-size: 20px;
+
+}
+
+.top-class {
+	display: inline-block;
+	border-top: 1px solid;
+	margin-bottom: 3%;
+	float: left;
+}
+
+.bottom-class {
+	border-bottom: 1px solid;
+	margin-bottom: 7%;
 	
+}
+.top-class .sec1 {
+	display: inline-block;
+ 	margin-left: 8%;
+ 	width: 20%;
+ 	padding: 2%;
+	text-align: center;
+}
+.top-class .sec2 {
+	display: inline-block;
+ 	margin-left: 8%;
+ 	width: 20%;
+ 	padding: 2%;
+ 	margin-top: 5%;
+	 text-align: center;
+}
+.bottom-class .sec3 {
+		display: inline-block;
+		 margin-left: 8%;
+		 width: 20%;
+		 padding: 2%;
+		 margin-top: 5%;
+		 text-align: center;
+	 }
+.bottom-class .sec4 {
+		display: inline-block;
+		 margin-left: 8%;
+		 width: 20%;
+		 padding: 2%;
+		 margin-top: 3%;
+		 text-align: center;
+	 }
+.bottom-class .sec5 {
+	 display: inline-block;
+	 margin-left: 8%;
+	 width: 20%;
+	 padding: 2%;
+	 margin-top: 5%;
+	 text-align: center;	 
+}
+	 
+.contact {
+	margin-top: 5%;
+ 	margin-bottom: 5%;
+}
+
+span {
+	display: block;
+ 	margin-left: 42%;
+ 	margin-right: auto;
+ 	width: 50%;
+
+}
+
+.top-class .sec1 {
+	display: inline-block;
+ 	margin-left: 8%;
+ 	width: 20%;
+ 	padding: 2%;
+ 	margin-top: 5%;
+ 	text-align: center;
 }
