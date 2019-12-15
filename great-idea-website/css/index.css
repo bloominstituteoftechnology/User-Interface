@@ -77,79 +77,94 @@ body{
 	margin-top: 1px;
 	margin-bottom: 100px;
 	text-align: center;
-	word-spacing: 50px;
+	word-spacing: 90px;
 }
 
 
 header {
 	display: block;
 	font-size: 70px;
-	text-align: ;
-	margin-left: 100px;
-	margin-right: 25px;
+	text-align: center;
+	margin-left: -200px;
+	margin-right: 20px;
 }
-.logo2{
-	margin-top: -34%;
-	margin-left: 10%;
+.logo2 {
+	display: inline;
+	margin-top: -20%;
+	margin-left: %;
 	margin-right: 15%;
-	margin-bottom: 10%;
+	margin-bottom: 1%;
+	padding: -50px;
+	
 }
 
 button {
-	font-size: 20px;
+	display: inline;
+	font-size: 25px;
+	margin-left: 37%;
 
 }
 
 .top-class {
 	display: inline-block;
 	border-top: 1px solid;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
+	margin-top: 5%;
 	float: left;
+	word-spacing: 2px;
+	line-height: 1.1;
 }
 
 .bottom-class {
 	border-bottom: 1px solid;
 	margin-bottom: 7%;
+	margin-top: -5%;
 	
 }
+
 .top-class .sec1 {
 	display: inline-block;
  	margin-left: 8%;
- 	width: 20%;
+ 	width: 40%;
  	padding: 2%;
-	text-align: center;
+	text-align: left;
 }
 .top-class .sec2 {
 	display: inline-block;
  	margin-left: 8%;
- 	width: 20%;
+ 	width: 40%;
  	padding: 2%;
  	margin-top: 5%;
-	 text-align: center;
+	 text-align: left;
 }
+
 .bottom-class .sec3 {
 		display: inline-block;
 		 margin-left: 8%;
-		 width: 20%;
+		 width: 30%;
 		 padding: 2%;
 		 margin-top: 5%;
-		 text-align: center;
+		 text-align: left;
 	 }
 .bottom-class .sec4 {
 		display: inline-block;
 		 margin-left: 8%;
-		 width: 20%;
+		 width: 30%;
 		 padding: 2%;
 		 margin-top: 3%;
-		 text-align: center;
+		 text-align: left;
 	 }
+.middle-img{
+	width: 95%;
+}
+
 .bottom-class .sec5 {
 	 display: inline-block;
 	 margin-left: 8%;
-	 width: 20%;
+	 width: 30%;
 	 padding: 2%;
 	 margin-top: 5%;
-	 text-align: center;	 
+	 text-align: left;	 
 }
 	 
 .contact {
@@ -162,14 +177,5 @@ span {
  	margin-left: 42%;
  	margin-right: auto;
  	width: 50%;
-
 }
 
-.top-class .sec1 {
-	display: inline-block;
- 	margin-left: 8%;
- 	width: 20%;
- 	padding: 2%;
- 	margin-top: 5%;
- 	text-align: center;
-}
