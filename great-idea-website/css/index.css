@@ -70,49 +70,28 @@ nav{
   position: absolute;
   position: fixed;
   z-index: 9999;
-  /* padding-top: 20px; */
-
-  /* padding-right: 10px; */
-  /* text-align: center; */
-
-    /* padding-left: 40px; */
-  /* padding-bottom: 20px; */
   background-color: black;
-  /* border: 2px solid red; */
-
-	
 }
 
 nav a{
-
   display: inline-block;
-  /* border: 1px solid red; */
   padding-top: 20px;
   padding-bottom: 30px;
   padding-right: 50px;
   padding-left: 30px;
-  /* background-color: black; */
   text-decoration: none;
   color:white;
-
-  
 }
-
 
 a:hover{
   background-color: rgb(121, 172, 189);
   color: black;
   text-decoration: underline;
-
 }
 
 .navigation {
 	width: 1100px;
   margin: 0 auto;
-  /* position: fixed; */
-  /* position: absolute; */
-
-
 }
   
 .logo {
@@ -123,12 +102,6 @@ a:hover{
   padding-left: 50px;
 	position: absolute;
   right: 20px;
-  /* border: 2px solid red; */
-  /* position: fixed; */
-  /* z-index: 9999; */
-
-
-	
 }
 
 .title {
