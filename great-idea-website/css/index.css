@@ -65,3 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.navigation {
+	width: 200%;
+	display:inline-block;
+	word-spacing: 20px;
+	margin: 10% 0% 5% 20%;
+
+}
+
+.logo {
+	width:20%;
+	display:inline-block;
+}
