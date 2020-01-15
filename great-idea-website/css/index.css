@@ -48,13 +48,15 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+ {
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width:100%;
+	border: 2px solid black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,15 +67,37 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation {
-	width: 200%;
+.navigation {width: 80%;
 	display:inline-block;
 	word-spacing: 20px;
 	margin: 10% 0% 5% 20%;
+	color:grey;
+
+	
 
 }
 
 .logo {
-	width:20%;
+	width:10%;
 	display:inline-block;
 }
+
+header {width: 80%;
+	display:inline-block;
+	word-spacing: 20px;
+	margin: 0 auto;
+	color:black;
+	font-size: xx-large;
+
+	
+}
+.started {
+	border: 1px solid black;
+	font-size: 12px;
+	width:5%;
+	
+}
+* {border: 2px solid black;}
+
+
+
