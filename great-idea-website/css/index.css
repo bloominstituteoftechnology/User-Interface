@@ -56,7 +56,7 @@ html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	width:100%;
-	border: 2px solid black;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,35 +69,46 @@ h1, h2, h3, h4, h5 {
 
 .navigation {width: 80%;
 	display:inline-block;
-	word-spacing: 20px;
-	margin: 10% 0% 5% 20%;
+	word-spacing: 30px;
+	margin: 10% 10%;
 	color:grey;
+	border:2px solid black;
+	text-align: center;
 
 	
 
 }
 
 .logo {
-	width:10%;
+	width: 20%;
 	display:inline-block;
+	border:2px solid black;
+	float: right;
+	
+	
 }
 
 header {width: 80%;
 	display:inline-block;
 	word-spacing: 20px;
-	margin: 0 auto;
+	margin: 5% 10%;
 	color:black;
 	font-size: xx-large;
+border:2px solid black;
+	
+}
+ #started {
+	 display: inline-block;
+	 border:2px solid red;
+ }
+.picc {
+	border: 3px solid blue;
+	display: inline-block;
+	margin-left: 50%;
+}
+	
 
-	
-}
-.started {
-	border: 1px solid black;
-	font-size: 12px;
-	width:5%;
-	
-}
-* {border: 2px solid black;}
+
 
 
 
