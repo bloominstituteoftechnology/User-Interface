@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
 	max-width:100%;
   }
 
+p {
+	font-family: "Cuprum";
+}
+
   .container {
 	width: 46%;
 	margin: 0 auto;
@@ -90,6 +94,9 @@ h1, h2, h3, h4, h5 {
 	padding-top: 5%;
 }
 
+a:hover, a:active {
+	font-size: 150%;
+}
 
 #header div {
 	text-align:center;
