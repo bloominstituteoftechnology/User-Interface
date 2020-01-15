@@ -64,3 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a{
+	width: 100%;
+	display: table-row;
+	color:grey;
+	text-decoration: none;
+	text-align: center;	
+}
