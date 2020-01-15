@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	display: block;
+	margin-left: 5%;	
+}
+.logo {
+	display: inline-block;
+	margin-left: 21%;
+}
+header {
+	display:inline-block;
+	
+}
+div {
+	display:inline-block;
+	margin: 0 auto;
+}
