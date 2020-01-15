@@ -64,3 +64,217 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*header starts here*/
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	position: fixed;
+	padding: 0 10%;
+	background-color: grey;
+	box-shadow: 0px 3px 10px black;
+	
+}
+
+.header #background{
+    background-color:yellow;
+    display:none;
+}
+
+
+.header, .header a {
+	text-decoration: none;
+}
+
+.header .navigation ul {
+	display: inline-block;
+	width: 75%;
+	overflow: hidden;
+}
+
+
+ul {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+li {
+	display: inline-block;
+	padding: 0 3.5%;
+	
+}
+
+li a {
+	font-family: 'Titillium Web';
+	color: #d1d1d1;
+	padding: 0 3.5%;
+}
+
+img.logo {
+	padding-bottom: 18px;
+}
+
+/*header ends here*/
+
+/* hero CTA stars here */
+
+.heroCTA {
+	padding-bottom: 100px;
+	border-bottom: 1px black solid;
+	padding-top: 125px;
+}
+
+.CTA {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.CTA button {
+
+	border-radius: 0;
+
+}
+
+.codeIMG {
+	width: 29%;
+	display: inline-block;
+	text-align: right;
+}
+
+.codeIMGlogo {
+	width: auto;
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+
+
+/* hero CTA ends here */
+
+/*body starts here*/
+
+.content {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* body ends here*/
+
+
+
+
+
+
+
+
+
+
+button {
+    padding:0; 
+    margin:0;
+	border: 1px solid black;
+	padding: 5px 30px;
+	background-color:transparent;
+	font-size: 1.1em;
+	box-shadow: 2px -2px black;
+}
+
+button:hover {
+
+	background: black;
+	color: white;
+	box-shadow: 0px 0px;
+
+
+}
+
+/* text mods*/
+
+h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 5em;
+}
+
+h2 {
+	font-family: 'Bangers', cursive;
+	font-size: 1.2em;
+}
+
+h3 {
+	font-family: 'Bangers', cursive;
+	font-size: 1.2em;
+}
+
+
+
+/*feature stuff */
+
+.col1 {
+	width: 49%;
+	padding-right: 1%;
+	display: inline-block;
+}
+
+
+.col2 {
+	width: 49%;
+	padding-left: 1%;
+	display: inline-block;
+}
+
+
+.featuresdiv {
+	padding-top: 50px;
+	border-bottom: 1px black solid;
+	margin-bottom: 50px;
+}
+
+p {
+	padding-bottom: 50px;
+}
+
+/* middle image */
+
+
+.middle-img {
+	max-width: 100%;
+}
+
+/*end middle image */
+
+/*bottom features*/
+
+.col3 {
+	width: 32.3%;
+	padding-right: 1%;
+	display: inline-block;
+}
+
+
+.col4 {
+	width: 32.3%;
+	padding-left: 1%;
+	display: inline-block;
+}
+
+.col5 {
+	width: 33.3%;
+	padding-left: %;
+	display: inline-block;
+}
+
+.contact {
+	margin-bottom: 100px;
+	
+}
