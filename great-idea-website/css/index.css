@@ -64,3 +64,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	margin:10px;
+	padding:10px;
+	border:2px solid black;
+}
+
+div{
+	border: 3px solid red;
+	display: inline-block;
+	max-width:100%;
+	margin:0 auto;
+
+}
+
+.logo{
+	width:33%;
+}
+
+.menu{
+	width:63%;
+}
+
+
+
+
+
+
+
+
+
+
+
