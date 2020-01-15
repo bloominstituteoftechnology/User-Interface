@@ -64,3 +64,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing:border-box;
+  	padding:0;
+  	margin:0;
+ 	max-width:100%;
+}
+
+header {
+	margin: 1%;
+	padding: 1%;
+	
+
+}
+
+/* ==== Header ====*/
+
+#topnav {
+	display: block;
+	border: 10px solid black;
+}
+
+/* nav.links {
+	display: inline-block;
+
+} */
+
+nav.links  { 
+	display: inline-block;
+}
+img.logo {
+	display: inline-block;
+}
+
+/* ========== Main Title ========== */
+
+.intro {
+	display: block;
+}
+
+.intro h1 {
+	display: inline-block;
+	margin: 1%;
+}
+
+header img {
+	display:inline-block;
+}
+
+/* ========== Middle Body ==========*/
+
+.mainbody {
+	 display: block;
+	 margin: 5%;
+	 border-top: 2% solid black;
+	 border-bottom: 2% solid black;
+ }
+
+ .top .features {
+	 display: inline-block;
+
+ }
+
+ /*.top-right {
+	 display: inline-block;
+	 margin: 5%;
+ } */
+
+ /* ========== Footer ========== */
