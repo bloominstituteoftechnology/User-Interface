@@ -64,3 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation{
+	display: inline-block;
+	text-align: center;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.top{
+	display: inline-block;
+}
+.top p{
+	width:30%;
+	
+}
