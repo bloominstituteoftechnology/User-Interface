@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* <!-- top header menu + great idea company logo on top --> */
+header nav{
+	box-sizing: border-box;
+	width: 100%
+}
+
+.toplinks{
+	width: 60%;
+	display:inline-block;
+	
+
+}
+
+.toplinks a{
+	margin: 0 3 5 15;
+	padding: 35px;
+	text-align:center;
+}
+
+.greatidea{
+	width:30%;
+	display: inline-block;
+	text-align:right;
+	padding: 2% 0 0 0;
+	margin: 2 3 5 5;
+}
+/* <!-- Call to action phrase w opt in box and circle image section  */
+.cta1{
+	box-sizing: border-box;
+	width: 100%;
+	border:3px solid green;
+}
+
+.container1{
+	display:inline-block;
+	font-size: 60px;
+	text-align: center;
+	width:40%;
+	margin:10%;
+}
+
+button{
+	display:inline-block;
+	font-size: 30px;
+	border: solid black 1px;
+	text-align: center;
+	width: 50%;
+	margin:10%;
+}
+
+.banner{
+	display:inline-block;
+	/* text-align:center;
+	width:35%;
+	border:1px solid blue; */
+	position: absolute;
+	top:200px;
+}
+
+/* <!-- services and other jargon section --> */
+
+.services2{
+	box-sizing: border-box;
+	width:100%;
+}
+
+.features{
+	display:inline-block;
+	border-top: 1px solid black;
+	width:45%
+}
+.about{
+	display:inline-block;
+	border-top: 1px solid black;
+	width:45%
+}
+
+.banner2{
+	display:inline-block;
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+/* under the computer banner content */
+
+.services4{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.services3{
+	box-sizing: inline-block;
+	position: relative;
+	top:125px;
+	left:350px;
+	width:30%;
+	border-bottom: 1px solid black;
+}
+
+.product{
+	box-sizing: inline-block;
+	width:30%;
+	position:relative;
+	bottom: -15px;
+	left: 0px;
+	border-bottom: 1px solid black;
+
+}
+
+.vision{
+	box-sizing: inline-block;
+	width:30%;
+	position: relative;
+	bottom: 100px;
+	left:700px;
+	border-bottom: 1px solid black;
+
+}
+/* FOOOOOOTER */
+
+.footer{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.copyright{
+	width:100%;
+	text-align:center;
+}
