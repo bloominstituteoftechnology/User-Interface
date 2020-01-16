@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -63,20 +64,21 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* Set every element's box-sizing to border-box */
+
 * {
 	box-sizing: border-box;
-	
-}
+		}
 /* nav */
+
 .navbar{
 	color:grey;
 	display:inline-block;
 	/* for navbar styling
 	background-color:blue;
 	border: 2px solid black; */
-	width:100%;
+	width:90%;
 	padding-bottom: 2px;
-	margin:0 auto;
+	
 }
 nav a{
 	color:grey;
@@ -85,28 +87,46 @@ nav a{
 	margin:0 5%;
 }
 /* header */
-h1 {
-	font-size:50px;
-}
+
 .headerBox{
-	background-color:blue;
-	border:2px solid black;
+	/*background-color:blue;
+	border:2px solid black;*/
 	display: inline-block;
-	margin:auto;
-	width:100%;
+	width:90%;
+	padding-top:5%;
+	padding-bottom:5%;
+	
 	
 }
 .headerBox .hTitle{
 	
 	display:inline-block;
 	text-align:center;
-	margin:0 auto;
-	width:49%
+	width:49%;
+	padding-top:;
+	padding-bottom:;
 }
-/*
-.headerBox .hTitle p{
-	border: 1px solid black;
-	background-color:grey;
-}*/
-	
-	
+/**/
+.headerBox .hTitle h1{
+	/*border: 1px solid black;
+	background-color:grey;*/
+	font-size:80px;
+}
+.headerBox img{
+	margin-left:10%;
+}
+	/*Main content*/
+.mainContent{
+	/**/
+	background-color:blue;
+	border:2px solid black;
+}
+.firstSection{
+	column-count:2;
+}
+.middle-img{
+	width:100%;
+}
+.secondSection{
+	column-count:3;
+}
