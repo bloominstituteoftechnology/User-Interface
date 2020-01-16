@@ -73,17 +73,29 @@ h1, h2, h3, h4, h5 {
 
 /* ==== Header ====*/
 /* ==== NavBar ====*/
-.navbar .links {
-	display: block;
-	text-align: center;
-	border: 2px solid black;
+.navbar{
+	display: inline;
+	margin: 0% 30%%;
+	height: 2%;
+	width: 0% auto;
+	padding: 0% 9%
+	
+	
 }
-.logo {
-	display: inline-block;
-	padding: 1%;
-	margin: 0% auto;
-	border: 2px solid black;
+a {
+	padding: 3%;
+	width: auto;
+	color: slategray;
+	text-decoration-line: none;
 }
+
+img{
+	margin-left: 10%;
+	margin-right: 0%;
+	margin-top: 1%
+
+}
+
 
 /* ========== Main Title ========== */
 
