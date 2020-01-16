@@ -176,7 +176,8 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 }
 .bottom-content{
-	text-align:center;
+	
+	text-align: center;
 	border-bottom:1px solid black;
 	display: flex;
 	justify-content: space-around;
@@ -195,8 +196,8 @@ h1, h2, h3, h4, h5 {
 	height:200px;
 	padding:20px;
 	margin:40px;
-	display:inline-block;
-	text-align:left;
+	display: inline-block;
+	text-align: left;
 	font-size: 1.25rem;
 }
 .bottom-content .vision{
@@ -204,8 +205,8 @@ h1, h2, h3, h4, h5 {
 	height:200px;
 	padding:20px;
 	margin:40px;
-	display:inline-block;
-	text-align:left;
+	display: inline-block;
+	text-align: left;
 	font-size: 1.25rem;
 }
 .contact{
@@ -215,8 +216,8 @@ h1, h2, h3, h4, h5 {
 	margin-left: 35px;
 	padding:5px;
 	font-size: 1rem;
-	display:inline-block;
-	text-align:left;
+	display: inline-block;
+	text-align: left;
 }
 .contact address{
 	padding-bottom:20px;
@@ -230,12 +231,36 @@ h1, h2, h3, h4, h5 {
 	margin:20px;
 	padding-left: 550px;
 	font-size: 1rem;
-	display:inline-block; 
-	text-align:center;
+	display: inline-block; 
+	text-align: center;
 }
-@media(max-width: 500px) {
+
+@media(max-width: 925px) {
+	.header-image {
+		height: 300px;
+	}
+	.header h1 {
+		font-size: 3.5rem;
+	}
+	.top-content {
+
+	}
+	.bottom-content {
+		padding-bottom: 40%;
+		
+		
+	}
+}
+
+/*  @media(max-width: 450px) {
 	.button {
 		background-color: blueviolet;
 	}
+	.header-image {
+		height: 160px;
+		margin-left: 70%;
+		margin-top: -40%;
+		padding-bottom: px
+		
 	
-}
+}/*
