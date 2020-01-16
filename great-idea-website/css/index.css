@@ -66,34 +66,105 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	margin:10px;
-	padding:10px;
+	margin:5%;
 	border:2px solid black;
 }
 
 div{
-	border: 3px solid red;
 	display: inline-block;
+	border: 2px solid darkblue;
 	max-width:100%;
 	margin:0 auto;
-
+	padding:5px;
 }
 
-.logo{
-	width:33%;
-}
+nav {
+	border: 1px solid black;
+	}
+
+nav a{
+	border: 1px solid black;
+	margin: 0 2% 0 2%;
+	color: gray;
+	}
 
 .menu{
-	width:63%;
+	border: 1px solid black;
+	padding:10px;
+	vertical-align: middle;
+	text-align: center;
+	margin:auto;
+	padding:auto;
+	width: 64%;
+}
+
+.menu-image{
+	border: 1px solid black;
+	width: 35%;
+	vertical-align: middle;
+	text-align: center;
 }
 
 
+.title-box{
+	width: 49%;
+	margin: 0 auto 0 auto;
+	vertical-align: middle;	
+	text-align: center;
+}
+
+.title-box h1{
+	font-size: 70px;;
+}
 
 
+.title-img{
+	width:50%;
+	display: inline-block;
+	margin: 0 auto 0 auto; 
+	text-align:center;
+	vertical-align: middle;
+}
 
+.middle-img, .mid-img{
+	width:100%;
+	margin:0 auto;
+}
 
+.features{
+	width:49.5%;
+	margin:0;
+}
+.about{
+	width:49.5%;
+	margin:0;
+}
 
+.services{
+	width:33%;
+	margin:0 auto;
+}
+.product{
+	width:33%;
+	margin:0 auto;
+}
+.vision{
+	width:33%;
+	margin:0 auto;
+}
 
+.contact{
+	width:100%;
+	margin:0 auto;
+	text-align: left;
+}
 
+.copyright{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
 
-
+footer{
+	margin:5%;
+}
