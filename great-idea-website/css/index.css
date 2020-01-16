@@ -77,29 +77,31 @@ nav a{
 	margin: 2% 5% 0 0;
 }
 .navigation{
-	width: 100%;
+	width: 50%;
 	text-align: center;
 	border:1px solid black;	
 	display: inline-block;
 }
 
 .first-content{
-	width: 80%;
+	width: 50%;
 	display: inline-block;
 	text-align: center;
 	border-top: 2px solid grey;
+	border: 1px solid red;
 }
 
 .top{
 	display: inline-block;
-	width: 40%;
+	width: 45%;
+	border: 1px solid red;
 }
 .bottom{
 	display: inline-block;
 	width: 30%;
 }
 .second-content{
-	width: 80%;
+	width: 50%;
 	display: inline-block;
 	text-align: center;
 	padding-bottom: 20px;
@@ -107,34 +109,46 @@ nav a{
 }
 .midimg{
 		width: 100%;
+		border: 1px solid red;
+		margin-top: 5%;
 }
 .headerimg{
-	
+	width: 45%;
 	border: 1px solid red;
-	margin-top: 10%;
 }
 header div{
 	display: inline-block;
 
 }
-.iod{
+h1 {
 	border: 1px solid red;
 	font-size: 90px;
 
 }
 .innovation{
-	display: inline-block;
 	border: 1px solid red;
-	width: 40%;
-	margin-right: 10%;
-	margin-bottom: 10%;	
-	
+	width: 45%;
+		
 }
 header{
 	display: inline-block;
+	width: 50%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	border: 1px solid red;
 }
 h3 {
 	text-align: left;
-	margin-top: 10%;
-	
+	margin-top: 10%;	
+}
+.start{
+	border: 1px solid red;
+}
+address {
+	border: 1px solid red;
+	text-align: left;
+	margin-left: 13%;
+}
+footer {
+	margin-top: 5%;
 }
