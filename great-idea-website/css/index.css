@@ -65,41 +65,90 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.nav{
-	display: inline-block;
+.container{
+	
+	display:inline-block;
 	box-sizing:border-box;
+	text-align: center;
+	
+	
 }
+.cta-text{
+	display:inline-block;
+	box-sizing:border-box;
+	font-size:75px;
+	margin-right:8%;
+}
+
+button{
+	margin-right:5%;
+	width:45%;
+	height:5%;
+}
+
+
+header nav{
+	padding-left:100px;
+	padding-right:100px;
+	margin:100px;
+	text-decoration: none;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-top:-5px;
+}
+.logo{
+	margin-right:20%;
+}
+
+nav{
+	text-decoration:none;
+	box-sizing:border-box;
+	display:inline-block;
+	text-align: center;
+    word-spacing:30px;
 	
 
+}
 
-.logo{
+h4{
+	margin-right:77%;
+}
+
+.top-content div{
+	box-sizing:border-box;
+	display:inline-block;
+	width:30%;
+	margin-top:10%;
+	text-align:center;
+	border-left: 15%;
+}
+
+.bottom-content div{
+	box-sizing:border-box;
+	display:inline-block;	
+	width:20%;
+	height:20%;
+	text-align:center;
+	border-bottom-style:blue line;
+	
+	
+	
+}
+.middle.img{
 	margin-left:100%;
 }
-
-
-header{
-	font-size:60px;
-	;
+.contact{
+margin-right:48%;
+margin-bottom:4%;
+line-height:50px;
 
 }
-
-.middle-img{
-margin:20%;
-    
+h5{
+	margin-right:10%;
 }
-
-.top{
-box-sizing:border-box;
-display:inline-block;
-width:25%;
-text-align:center;
+p .contact{
+	box-sizing:border-block;
 }
-.bottom{
-	
-	box-sizing: border-box;
-	padding:5%;
-	border:5px;
-	display: inline-block;
-	border-bottom:solid;
-	margin: 0 auto;
+footer{
+	margin-bottom:7%;
 }
