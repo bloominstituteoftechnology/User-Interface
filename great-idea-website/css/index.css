@@ -70,8 +70,6 @@ h1, h2, h3, h4, h5 {
   	margin:0;
  	max-width:100%;
 }
-
-/* ==== Header ====*/
 /* ==== NavBar ====*/
 .navbar{
 	display: inline;
@@ -95,12 +93,92 @@ img{
 	margin-top: 1%
 
 }
+/* ========= Header =========== */
 
 
-/* ========== Main Title ========== */
 
+.title{
+	display: inline-block;
+	margin: 0% 0% 10% 15%;
+	
+
+}
+.topblock {
+	width: 47%%;
+
+}
+
+.title h1 {
+	font-size: 80px;
+	text-align: center;
+	padding-left: 10%;
+	padding-bottom: 10%;
+}
+
+.title button{
+	font-size: 20px;
+	margin-left: 36%;
+	padding-bottom:	40%;
+	padding: 1%;
+	border: 3px outset slategray;
+}
+
+.title button:hover{
+	border: 3px inset slategray;
+}
+
+.title-img{
+	display: inline;
+	margin-left: 10%;
+	padding-top: 10%;
+
+
+}
+
+.title-img img {
+	padding: 5%;
+	margin-top: 1%;
+}
 
 /* ========== Middle Body ==========*/
 
+.mainbody {
+	margin: 0% 5%;
+	padding: 5%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 100%;
+}
+
+.mainbody .top-left  {
+	display: inline-block;
+	width: 47%;
+}
+
+.mainbody .top-right {
+	display: inline-block;
+	width: 47%;
+
+}
+
+.middle-img {
+	margin: 5%;
+	padding-left: 8%;
+}
+
+.mainbody .bottom-left {
+	display: inline-block;
+	width: 32%;
+}
+
+.mainbody .bottom-middle {
+	display: inline-block;
+	width: 32%;
+}
+
+.mainbody .bottom-right {
+	display: inline-block;
+	width: 32%;
+}
 
  /* ========== Footer ========== */
