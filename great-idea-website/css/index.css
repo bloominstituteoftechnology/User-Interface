@@ -66,30 +66,32 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	margin:5%;
+	margin:5% 10% 5% 10%;
+	/*
 	border:2px solid black;
+	*/
 }
 
 div{
 	display: inline-block;
-	border: 2px solid darkblue;
+	/* border: 2px solid darkblue; */
 	max-width:100%;
 	margin:0 auto;
 	padding:5px;
 }
 
 nav {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	}
 
 nav a{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin: 0 2% 0 2%;
 	color: gray;
 	}
 
 .menu{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	padding:10px;
 	vertical-align: middle;
 	text-align: center;
@@ -99,18 +101,18 @@ nav a{
 }
 
 .menu-image{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	width: 35%;
 	vertical-align: middle;
 	text-align: center;
 }
-
 
 .title-box{
 	width: 49%;
 	margin: 0 auto 0 auto;
 	vertical-align: middle;	
 	text-align: center;
+	padding-bottom: 15px;
 }
 
 .title-box h1{
@@ -124,6 +126,8 @@ nav a{
 	margin: 0 auto 0 auto; 
 	text-align:center;
 	vertical-align: middle;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .middle-img, .mid-img{
@@ -134,29 +138,41 @@ nav a{
 .features{
 	width:49.5%;
 	margin:0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .about{
 	width:49.5%;
 	margin:0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .services{
 	width:33%;
 	margin:0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .product{
 	width:33%;
 	margin:0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .vision{
 	width:33%;
 	margin:0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .contact{
 	width:100%;
 	margin:0 auto;
 	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .copyright{
