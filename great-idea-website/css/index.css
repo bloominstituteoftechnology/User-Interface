@@ -147,7 +147,7 @@ img{
 	padding: 5%;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	width: 100%;
+	width: 90%;
 }
 
 .mainbody .top-left  {
@@ -182,3 +182,12 @@ img{
 }
 
  /* ========== Footer ========== */
+
+ footer {
+	 margin: 5% 10%;
+ }
+
+ #copyright {
+	 margin-left: 40%;
+	 margin-top: 5%;
+ }
