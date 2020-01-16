@@ -91,7 +91,14 @@ p {
 	display: inline-block;
 	width: 49%
 	color: lightgray;
-	padding-top: 5%;
+}
+
+.navigation {
+	background-color: #66ccff;
+	position: fixed;
+	width: 47%;
+	padding-bottom: 1%;
+	padding-left: 1%;
 }
 
 a:hover, a:active {
