@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5 {
 	  
   }
   .top-content .Features p {
-	  display:flex;
+	  display: flex;
 	  
 	  width: 100%;
 	  font-size: 1.25rem;
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5 {
 	
 }
 .top-content .About p {
-	display:flex;
+	display: flex;
 	width: 100%;
 	font-size: 1.25rem;
 	
@@ -187,8 +187,8 @@ h1, h2, h3, h4, h5 {
 	height:200px;
 	padding:20px;
 	margin:40px;
-	display:inline-block;
-	text-align:left;
+	display: inline-block;
+	text-align: left;
 	font-size: 1.25rem;
 }
 .bottom-content .product{
@@ -226,13 +226,8 @@ h1, h2, h3, h4, h5 {
 	color:black;
 }
 .copyright{
-	width:1300px;
-	height: 20px; 
-	margin:20px;
-	padding-left: 550px;
-	font-size: 1rem;
-	display: inline-block; 
-	text-align: center;
+display: flex;
+justify-content: center;
 }
 
 @media(max-width: 925px) {
@@ -252,7 +247,7 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
-/*  @media(max-width: 450px) {
+  @media(max-width: 450px) {
 	.button {
 		background-color: blueviolet;
 	}
@@ -263,4 +258,4 @@ h1, h2, h3, h4, h5 {
 		padding-bottom: px
 		
 	
-}/*
+}
