@@ -71,64 +71,24 @@ h1, h2, h3, h4, h5 {
  	max-width:100%;
 }
 
-header {
-	margin: 1%;
-	padding: 1%;
-	
-
-}
-
 /* ==== Header ====*/
-
-#topnav {
+/* ==== NavBar ====*/
+.navbar .links {
 	display: block;
-	border: 10px solid black;
+	text-align: center;
+	border: 2px solid black;
 }
-
-/* nav.links {
+.logo {
 	display: inline-block;
-
-} */
-
-nav.links  { 
-	display: inline-block;
-}
-img.logo {
-	display: inline-block;
+	padding: 1%;
+	margin: 0% auto;
+	border: 2px solid black;
 }
 
 /* ========== Main Title ========== */
 
-.intro {
-	display: block;
-}
-
-.intro h1 {
-	display: inline-block;
-	margin: 1%;
-}
-
-header img {
-	display:inline-block;
-}
 
 /* ========== Middle Body ==========*/
 
-.mainbody {
-	 display: block;
-	 margin: 5%;
-	 border-top: 2% solid black;
-	 border-bottom: 2% solid black;
- }
-
- .top .features {
-	 display: inline-block;
-
- }
-
- /*.top-right {
-	 display: inline-block;
-	 margin: 5%;
- } */
 
  /* ========== Footer ========== */
