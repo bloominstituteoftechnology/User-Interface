@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	max-width:100%;
+  }
+
+p {
+	font-family: "Cuprum";
+}
+
+  .container {
+	width: 46%;
+	margin: 0 auto;
+}
+
+.navigation .links {
+	width: 78%;
+}
+
+.navigation .links a {
+	padding-right: 8%;
+	color: gray;
+}
+
+.navigation div {
+	display: inline-block;
+	width: 49%
+	color: lightgray;
+}
+
+.navigation {
+	background-color: #66ccff;
+	position: fixed;
+	width: 47%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+}
+
+a:hover, a:active {
+	font-size: 150%;
+}
+
+#header div {
+	text-align:center;
+	display: inline-block;
+	width: 49%;
+	margin: 0 auto;
+}
+
+#header {
+	padding: 8% 0;
+}
+
+#header div h1 {
+	padding: 5% 0;
+	font-size: 80px;
+}
+
+.button {
+	color: black;
+	border: 2px solid #555555;
+	padding: 1% 10%;
+  }
+
+#top-content {
+	border-top: 1px solid black;
+	padding: 5% 0;
+}
+
+#top-content div {
+	display: inline-block;
+	width: 49%;
+	padding: 0 1%;
+}
+
+#bottom-content div {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+#bottom-content {
+	border-bottom: 1px solid black;
+	padding: 5% 0;
+}
+
+#contact {
+	padding: 5% 0;
+}
+
+#footer {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10%;
+}
