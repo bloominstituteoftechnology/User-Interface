@@ -135,6 +135,7 @@ a:hover, a:active {
 #top-content div {
 	display: inline-block;
 	width: 49%;
+	padding: 0 1%;
 }
 
 #bottom-content div {
