@@ -109,11 +109,32 @@ nav a{
 		width: 100%;
 }
 .headerimg{
-	margin-left: 50%;
-	margin-top: 10%;
+	
 	border: 1px solid red;
+	margin-top: 10%;
 }
 header div{
 	display: inline-block;
 
+}
+.iod{
+	border: 1px solid red;
+	font-size: 90px;
+
+}
+.innovation{
+	display: inline-block;
+	border: 1px solid red;
+	width: 40%;
+	margin-right: 10%;
+	margin-bottom: 10%;	
+	
+}
+header{
+	display: inline-block;
+}
+h3 {
+	text-align: left;
+	margin-top: 10%;
+	
 }
