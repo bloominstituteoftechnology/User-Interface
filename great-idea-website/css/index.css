@@ -65,19 +65,115 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.navigation{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	-border: 1px solid grey;
+}
+/* === Navigation === */
+/*Classes*/
+.naviLeft{
 	display: inline-block;
-	text-align: center;
+	margin: 1%;
+	padding: 0.5% 5%;
+}
+.naviLeft a{
+	margin: 0%;
+	padding: 0px 50px;
+	color: grey;
+}
+.naviRight{
+	margin-left: 20%;
+	display: inline-block;
+}
+/*ID's*/
+
+
+/* === Showcase === */
+/*Classes*/
+.showLeft{
+	display: inline-block;
+
+}
+.showRight{
+	display: inline-block;
+}
+/*ID's*/
+#showcase{
+	margin: 5% 12%;
 }
 
-.logo{
+/* === Main Content === */
+/*Classes*/
+/*top*/
+.topTop{
 	display: inline-block;
-}
-
-.top{
-	display: inline-block;
-}
-.top p{
 	width:30%;
-	
+	margin:1% 10%;
+	padding:1%;
+	margin-left:7%;
+	margin-right:10%;
+}
+.topBot{
+	display: inline-block;
+	width:30%;
+	margin:1% 10%;
+	padding:1%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*mid*/
+.midTop{
+	display:block;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*bot*/
+.botTop{
+	display: inline-block;
+	margin:1% 6.25%;
+	width:20%;
+}
+.botMid{
+	display: inline-block;
+	margin:1% 6.25%;
+	width:20%;
+}
+.botBot{
+	display: inline-block;
+	margin:1% 6.25%;
+	width:20%;
+}
+
+/*ID's*/
+#top{
+	margin:0.5% 5%;
+	padding: 0px;
+}
+#mid{
+	margin:0.5% 5%;
+	padding: 30px;	
+}
+#bot{
+	margin:0.5% 5%;
+	padding: 30px;
+}
+
+/*Footer*/
+footer{
+	margin: 15%;
+}
+#copy{
+	text-align: center;
 }
