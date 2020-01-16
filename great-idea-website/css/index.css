@@ -69,6 +69,9 @@ body{
 	text-align: center;
 	width: 100%;
 }
+p {
+	text-align: left;
+}
 
 nav a{
 	color:grey;
@@ -79,8 +82,14 @@ nav a{
 .navigation{
 	width: 50%;
 	text-align: center;
-	border:1px solid black;	
 	display: inline-block;
+	background-color: yellow;
+	position: fixed;
+
+	
+}
+.headimg{
+	margin-left: 5%;
 }
 
 .first-content{
@@ -88,13 +97,11 @@ nav a{
 	display: inline-block;
 	text-align: center;
 	border-top: 2px solid grey;
-	border: 1px solid red;
 }
 
 .top{
 	display: inline-block;
 	width: 45%;
-	border: 1px solid red;
 }
 .bottom{
 	display: inline-block;
@@ -105,29 +112,26 @@ nav a{
 	display: inline-block;
 	text-align: center;
 	padding-bottom: 20px;
-	border-bottom: 2px solid grey;
+	margin-bottom: 3%;
 }
+
 .midimg{
 		width: 100%;
-		border: 1px solid red;
-		margin-top: 5%;
+		margin-top: 3%;
+		
 }
 .headerimg{
 	width: 45%;
-	border: 1px solid red;
 }
 header div{
 	display: inline-block;
 
 }
 h1 {
-	border: 1px solid red;
 	font-size: 90px;
-
 }
 .innovation{
-	border: 1px solid red;
-	width: 45%;
+	width: 47%;
 		
 }
 header{
@@ -135,20 +139,19 @@ header{
 	width: 50%;
 	margin-bottom: 5%;
 	margin-top: 5%;
-	border: 1px solid red;
 }
 h3 {
 	text-align: left;
 	margin-top: 10%;	
 }
-.start{
-	border: 1px solid red;
+
+.contact {
+	border-top: 2px solid grey;;
+	margin-left: 25%;
+	width: 50%;
+	padding-left: 3%;
 }
-address {
-	border: 1px solid red;
-	text-align: left;
-	margin-left: 13%;
-}
-footer {
-	margin-top: 5%;
+	
+.footer{
+	margin-top: 3%;
 }
