@@ -72,12 +72,16 @@ h1, h2, h3, h4, h5 {
 }
 nav {
 	display: block;
-	width:680px;
-	padding:40px 0;
+	width: 680px;
+	padding: 29px 0;
+	position: fixed;
+	top: 0;
+	background: white;
+	z-index: 10;
 }
 nav a {
     margin: 28px;
-        margin-left: 28px;
+    margin-left: 28px;
     text-decoration: none;
 }
 nav a:first-child {
@@ -90,10 +94,11 @@ nav a:hover {
 .logo {
 	position: absolute;
 	right: 0px;
-	top: 27px;
+	top:-76px;
 }
 header {
 	position: relative;
+	top: 50px;
 	height: 400px;
 }
 .hero-image {
