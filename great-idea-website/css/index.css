@@ -86,7 +86,7 @@ nav a{
   25%   {opacity: 0.3;}
   50%   {opacity: 0.5;}
   75%   {opacity: 0.8;}
-  100%   {opacity: 1;}
+  100%  {opacity: 1;}
 }
 nav a:hover {
   opacity: 1;
@@ -120,7 +120,7 @@ header p {
   padding: 8px 30px;
   position: absolute;
   left: -2%;
-  top: 25%;
+  top: 22%;
   display: inline;
   text-align: center;
 }
