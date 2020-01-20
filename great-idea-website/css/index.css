@@ -115,13 +115,14 @@ button:hover {
 	background: green;
 }
 .middle-img {
-	padding: 20px 0;
+	padding: 0;
 }
 .sect1 {
 	border-top: 1px solid #999999;
 }
 .sect2 {
 	border-bottom: 1px solid #999999;
+	margin-top: 33px;
 }
 section h3 {
 	width: 400px;
@@ -138,7 +139,6 @@ p {
 .sect2 .blurbs {
 	width: 290px;
 	float: left;
-	padding: 20px 0;
 }
 address {
 	clear: both;
