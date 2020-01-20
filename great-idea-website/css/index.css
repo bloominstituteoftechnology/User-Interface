@@ -64,19 +64,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-.container {width:876px; margin: 0 auto; position: relative; background:url('../../design-files/desktop.jpg') center top; }
-
-nav {display: block; width:680px; padding:40px 0;}
-nav a {margin:20px; text-decoration: none;}
-nav a:hover {background: #999999; color: black;}
-.logo {position: absolute; right: 0px; top: 27px;}
-
-header {position: relative; height: 350px;}
+.container {
+	width:876px;
+	margin: 0 auto;
+	position: relative;
+	background:url('../../design-files/desktop.jpg') center top;
+}
+nav {
+	display: block;
+	width:680px;
+	padding:40px 0;
+}
+nav a {
+	margin:20px;
+	text-decoration: none;
+}
+nav a:hover {
+	background: #999999;
+	color: black;
+}
+.logo {
+	position: absolute;
+	right: 0px;
+	top: 27px;
+}
+header {
+	position: relative;
+	height: 400px;
+}
 .hero-image {
-    position: absolute;
-    right: 0;
-    top: -56px;
+	position: absolute;
+	right: 0;
+	top: -56px;
 }
 .slogan-txt {
 	width: 474px;
@@ -88,19 +107,43 @@ header {position: relative; height: 350px;}
 button {
 	margin-left: 152px;
 	text-align: center;
-	border: 1px solid
-	#444444;
-	background:
-	white;
+	border: 1px solid#444444;
+	background:white;
 	padding: 10px 54px;
 }
-button:hover { background: green;}
-.middle-img {padding: 20px 0;}
-
-section {border-top: 1px solid #999999;}
-section h3 { width: 400px;}
-p {color: #444444; line-height: 1.6em;}
-.sect1 .blurbs {width: 430px; float: left; padding: 20px ;  }
-.sect2 .blurbs {width: 275px; float: left; padding: 20px; }
-address { clear: both; }
-.ft-copyright {text-align: center; padding: 20px;}
+button:hover {
+	background: green;
+}
+.middle-img {
+	padding: 20px 0;
+}
+.sect1 {
+	border-top: 1px solid #999999;
+}
+.sect2 {
+	border-bottom: 1px solid #999999;
+}
+section h3 {
+	width: 400px;
+}
+p {
+	color: #444444;
+	line-height: 1.2em;
+}
+.sect1 .blurbs {
+	width: 438px;
+	float: left;
+	padding: 36px 0;
+}
+.sect2 .blurbs {
+	width: 290px;
+	float: left;
+	padding: 20px 0;
+}
+address {
+	clear: both;
+}
+.ft-copyright {
+	text-align: center;
+	padding: 20px;
+}
