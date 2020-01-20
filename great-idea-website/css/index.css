@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+  opacity: 0.3;
+	font-size: 15px;
+  padding: 40px 40px;
+  position: relative;
+  top: 50%;
+  left: 0%;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+.header-content{
+  position: relative;
+  width: 100%;
+}
+
+
+header h1 {
+  display: inline-block;
+	text-align: center;
+  font-size: 80px;
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  
+}
+
+header p {
+  margin-left: 220px;
+  margin-top: 150px;
+  font-size: 17px;
+  border: 1px solid black;
+  width: 170px;
+  height: 35px;
+  padding: 8px 30px;
+  position: absolute;
+  left: -2%;
+  top: 25%;
+  display: inline;
+  text-align: center;
+}
+
+header p:hover {
+  background-color: grey;
+}
+
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 85%;
+}
+
+header img {
+  position: relative;
+  top: 50%;
+  left: 63%;
+  padding-top: 60px;
+}
+
+.top-content {
+  border-top: 1px solid black;
+  margin-top: 10%;
+ 
+}
+
+.top-content h2 {
+  margin-top: 40px;
+  position: relative;
+}
+
+.top-content2 h2 {
+  position: absolute;
+left: 50%;
+top: 680px;
+}
+.top-content p {
+  width: 430px;
+  position: relative;
+}
+
+.top-content2 p {
+  width: 430px;
+  position: absolute;
+  left: 50%;
+  top: 708px;
+  
+}
+
+.middle-img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.bottom-content {
+  margin-top: 40px;
+}
+
+.bc1 {
+  width: 275px;
+  position: relative;
+}
+
+.bc2 {
+  width: 275px;
+  position: absolute;
+  display: inline-block;
+  margin: -125px 0;
+  left: 36%;
+  
+}
+
+.bc3 {
+  width: 275px;
+  position: absolute;
+  display: inline-block;
+  margin: -125px 0;
+  left: 72%; 
+}
+
+.contact {
+  border-top: 1px solid black;
+  margin-top: 40px;
+}
+
+.contact h2 {
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top:20px;
+}
