@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 	width:876px;
 	margin: 0 auto;
 	position: relative;
-	background:url('../../design-files/desktop.jpg') center top;
+	/*background:url('../../design-files/desktop.jpg') center top;*/
 }
 nav {
 	display: block;
@@ -76,8 +76,12 @@ nav {
 	padding:40px 0;
 }
 nav a {
-	margin:20px;
-	text-decoration: none;
+    margin: 28px;
+        margin-left: 28px;
+    text-decoration: none;
+}
+nav a:first-child {
+    margin-left: 0;
 }
 nav a:hover {
 	background: #999999;
@@ -123,6 +127,7 @@ button:hover {
 .sect2 {
 	border-bottom: 1px solid #999999;
 	margin-top: 33px;
+	height: 188px;
 }
 section h3 {
 	width: 400px;
@@ -141,9 +146,21 @@ p {
 	float: left;
 }
 address {
-	clear: both;
+	clear: left;
+	height: 150px;
+	width: 150px;
+	padding: 40px 0;
+	margin: 20px 0;
+}
+address s {
+	text-decoration: none;
+}
+address span {
+    margin-top: 10px;
+    display: block;
 }
 .ft-copyright {
 	text-align: center;
 	padding: 20px;
+	font-size: 0.9em;
 }
