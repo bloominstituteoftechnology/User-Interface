@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width:876px;
+	margin: 0 auto;
+	position: relative;
+	/*background:url('../../design-files/desktop.jpg') center top;*/
+}
+nav {
+	display: block;
+	width: 680px;
+	padding: 29px 0;
+	position: fixed;
+	top: 0;
+	background: white;
+	z-index: 10;
+}
+nav a {
+    margin: 28px;
+    margin-left: 28px;
+    text-decoration: none;
+}
+nav a:first-child {
+    margin-left: 0;
+}
+nav a:hover {
+	background: #999999;
+	color: black;
+}
+.logo {
+	position: absolute;
+	right: 0px;
+	top:-76px;
+}
+header {
+	position: relative;
+	top: 50px;
+	height: 400px;
+}
+.hero-image {
+	position: absolute;
+	right: 0;
+	top: -56px;
+}
+.slogan-txt {
+	width: 474px;
+	font-size: 75px;
+	margin-top: 94px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+button {
+	margin-left: 152px;
+	text-align: center;
+	border: 1px solid#444444;
+	background:white;
+	padding: 10px 54px;
+}
+button:hover {
+	background: green;
+}
+.middle-img {
+	padding: 0;
+}
+.sect1 {
+	border-top: 1px solid #999999;
+}
+.sect2 {
+	border-bottom: 1px solid #999999;
+	margin-top: 33px;
+	height: 188px;
+}
+section h3 {
+	width: 400px;
+}
+p {
+	color: #444444;
+	line-height: 1.2em;
+}
+.sect1 .blurbs {
+	width: 438px;
+	float: left;
+	padding: 36px 0;
+}
+.sect2 .blurbs {
+	width: 290px;
+	float: left;
+}
+address {
+	clear: left;
+	height: 150px;
+	width: 150px;
+	padding: 40px 0;
+	margin: 20px 0;
+}
+address s {
+	text-decoration: none;
+}
+address span {
+    margin-top: 10px;
+    display: block;
+}
+.ft-copyright {
+	text-align: center;
+	padding: 20px;
+	font-size: 0.9em;
+}
