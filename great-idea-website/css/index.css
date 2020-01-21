@@ -54,11 +54,13 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Roboto Mono', monospace;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family:  'Bangers', cursive;
+	/* font-family:  'Bangers', cursive; */
+	font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
