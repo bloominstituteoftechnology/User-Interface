@@ -86,15 +86,24 @@ header h1 {
   	font-size: 80px;
 }
 
+header button a {
+  	text-decoration: none;
+}
+
 header img {
 	display: inline-block;	
-  	margin: auto;
-  	height: 25%;
+	margin: auto;
+	height: 25%;
  	width: 25%;
 }
 
 h3 {
   	font-size: 20px;
+}
+
+hr {
+	margin: 30px;
+	width: 90%;
 }
 
 .section1 div {
@@ -110,7 +119,8 @@ h3 {
 
 .middle-img {
 	display: inline-block;
-	margin: auto;
+	margin: 30px;
+	width: 90%;
 }
 
 .section2 div {
@@ -131,6 +141,6 @@ address{
 
 footer{
 	text-align: center;
-	font-size: 16px;
+	font-size: 12px;
 	margin: 20px 0px 0px 0px;
 }
