@@ -79,7 +79,12 @@ nav a {
 	margin: auto;
 	height: 10px;
 	width: 13%;
-	padding: 20px 0px 50px 0px;
+	padding: 10px 0px 50px 0px;
+}
+
+nav img {
+	position: absolute;
+	right: 30px;
 }
 
 header h1 {
