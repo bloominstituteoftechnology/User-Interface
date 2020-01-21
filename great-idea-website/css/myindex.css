@@ -1,0 +1,26 @@
+navigation.ideanav {
+    width: 900px;
+    display:block;
+}
+
+li.ideanavitem {
+color:rgb(180,180,180);
+margin-left:50px;
+display: inline-block;
+}
+
+navigation ul {
+    display:inline;
+}
+
+.mycontent {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.logo {
+    margin-left:90px;
+    display:inline-block;
+}
+
+
