@@ -65,9 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+* {
+	background: #EEEEEE;
+}
+
 nav a {
 	display: inline-block;
-	background: white;
 	color: black;
 	text-align: center;
 	text-decoration: none;
@@ -110,7 +113,6 @@ hr {
 	display: inline-block;
 	margin: auto;
 	width: 45%;
-	background: white;
 	color: black;
 	text-align: justified;
 	padding: 10px;
@@ -125,7 +127,6 @@ hr {
 
 .section2 div {
   	display: inline-block;
-	background: white;
 	color: black;
 	text-align: justified;
 	margin: auto;
@@ -139,8 +140,13 @@ address{
 	margin: 0px 0px 0px 30px;
 }
 
+address a {
+	text-decoration: none;
+}
+
 footer{
 	text-align: center;
 	font-size: 12px;
 	margin: 20px 0px 0px 0px;
 }
+
