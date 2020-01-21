@@ -88,7 +88,8 @@ img {
     margin: 0;
     padding-top: 0;
 	width: 100%;
-	background-color: #355ba3;
+	background-image: radial-gradient(farthest-corner at 20px 40px,
+	#355ba3 50%, #4c84b9 100%);
 }
 .navBar li {
 	float: left;
