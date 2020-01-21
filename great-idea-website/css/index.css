@@ -58,9 +58,26 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family:  'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 40px;
+	color: red;
+}
+header{
+	display: inline-block;
+}
+
+
+.section1 {
+	display: inline-block;
+}
+
+section2 {
+	display: inline-block;
+}
