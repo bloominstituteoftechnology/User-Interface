@@ -70,21 +70,28 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+header {
+	position: fixed;
+	top: 0;
+	background-color: #081379c9;
+}
+
 header nav {
 	display: inline-block;
 	width: 691px;
 	vertical-align: top;
-	margin-top: 35px;
+	margin-top: 13px;
 }
 
 header nav a {
 	margin-right: 65px;
 	font-size: 14px;
-	color: gray;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 header nav a:first-child {
-	margin-left: 0;
+	margin-left: 10px;
 }
 
 header nav a:last-child {
@@ -92,7 +99,12 @@ header nav a:last-child {
 }
 
 header .logo {
-	margin-top: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+header .logo:last-child {
+	margin-right: 10px;
 }
 
 .tagline .cta-text {
@@ -105,13 +117,18 @@ header .logo {
 }
 
 .tagline .cta-text button {
-	font-family: 'Bangers', cursive;
+	font-family: 'Permanent Marker', cursive;
 	font-size: 17px;
-	background: white;
+	background: #081379c9;
 	vertical-align: top;
 	margin-top: 6px;
 	padding: 8px 44px;
-	border: 1px solid black;
+	border: 1px solid #000000;
+}
+
+.tagline .cta-text button a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .tagline img {
@@ -120,7 +137,7 @@ header .logo {
 }
 
 .page-content {
-	border-top: 1px solid black;
+	border-top: 1px solid #000000;
 	margin-top: 76px;
 	padding-top: 39px;
 }
@@ -160,7 +177,7 @@ header .logo {
 
 address {
 	margin-top: 57px;
-	border-top: 1px solid black;
+	border-top: 1px solid #000000;
 	padding: 39px 10px 0;
 }
 
