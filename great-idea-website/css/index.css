@@ -65,41 +65,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 1024px;
+	padding: 0 75px;
+}
 
-#nav_bar{
-	width: 600px;
+nav ul {
 	display: inline-block;
-	align-items: center;
 }
 
-.main-content{
-  margin: 70px;
-  padding-top: 40px;
-}
-
-.main-content .top-content{
-	padding: 0 10px;
-    display: inline-block;
-}
-
-.main-content .top-content .content-box{
-	width: 410px;
-	margin-right: 35px;
+nav ul li {
 	display: inline-block;
-
+	padding-right: 45px;
 }
 
-.main-content .middle-img{
-	margin-top: 35px;
-}
-
-.content-2{
-	margin: 70px;
-	padding: 40px;
-    display: inline-block;
-}
-
-.container{
-	width: 800px;
+header div {
 	display: inline-block;
+}
+
+header h1 {
+	font-size: 4.5em;
+}
+
+.content-box {
+	display: inline-block;
+	width: 49%;
+}
+
+.content-2 {
+	display: inline-block;
+	width: 33%;
 }
