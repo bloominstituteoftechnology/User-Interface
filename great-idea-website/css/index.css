@@ -88,6 +88,7 @@ nav a{
   75%   {opacity: 0.8;}
   100%  {opacity: 1;}
 }
+
 nav a:hover {
   opacity: 1;
   animation: opacityFlash 2s linear infinite;
@@ -107,29 +108,32 @@ header h1 {
   position: absolute;
   top: 15%;
   left: 12%;
-  
 }
 
-header p {
+header button {
   margin-left: 220px;
   margin-top: 150px;
-  font-size: 17px;
   border: 1px solid black;
   width: 170px;
   height: 35px;
   padding: 8px 30px;
   position: absolute;
-  left: -2%;
+  left: -2.5%;
   top: 22%;
   display: inline;
   text-align: center;
 }
 
-header p:hover {
+header button:hover {
   background-color: grey;
   animation: opacityFlash 2s linear infinite;
   animation-delay: 2s;
-  
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
 }
 
 .logo {
@@ -148,7 +152,6 @@ header img {
 .top-content {
   border-top: 1px solid black;
   margin-top: 10%;
- 
 }
 
 .top-content h2 {
@@ -158,9 +161,10 @@ header img {
 
 .top-content2 h2 {
   position: absolute;
-left: 50%;
-top: 680px;
+  left: 50%;
+  top: 680px;
 }
+
 .top-content p {
   width: 430px;
   position: relative;
@@ -171,7 +175,6 @@ top: 680px;
   position: absolute;
   left: 50%;
   top: 708px;
-  
 }
 
 .middle-img {
@@ -194,7 +197,6 @@ top: 680px;
   display: inline-block;
   margin: -125px 0;
   left: 36%;
-  
 }
 
 .bc3 {
