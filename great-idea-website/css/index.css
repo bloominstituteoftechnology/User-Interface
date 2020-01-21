@@ -82,10 +82,13 @@ img {
 }
 
 .navBar {
-
-    margin: 0px;
-    padding: 1%;
-    width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+    margin: 0;
+    padding-top: 0;
+	width: 100%;
+	background-color: #355ba3;
 }
 .navBar li {
 	float: left;
@@ -96,11 +99,15 @@ img {
 	width: 78%;
 }
 .navItem {
+	color: #ebe2e2;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	padding: 16px;
 	margin: 2%;	
+}
+.navItem:hover {
+	color: rgb(241, 245, 17);
 }
 .nav20{
 	display: block;
@@ -111,15 +118,18 @@ img {
 .logo {
 	margin: 2%;
 }
+.main {
+	margin-top: 80px;
+}
 .content {
-
+	top: 50px;
     margin: 1%;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
 .lineBottom {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 .content50 {
 	display: inline-block;
@@ -132,12 +142,25 @@ img {
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
-	font-size: 80px;
+	font-size: 70px;
 	text-align: center;
 }
 .contentB{
-
 	text-align: center;
+}
+.content50 button {
+	background-color: white; 
+	border: 1px solid gray;
+	color: #355ba3;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.content50 button:hover {
+	color: white;
+	background-color: #355ba3;
 }
 .content50 img {
 	display: block;
@@ -149,7 +172,7 @@ img {
 }
 .content33 {
 	display: inline-block;
-	margin: 1%;
+	margin: 2.5%;
 	width: 31%
 }
 .contact p{
