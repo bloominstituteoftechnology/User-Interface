@@ -64,3 +64,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#page-conent {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 25px 75px 0 75px;
+}
+
+div.nav-bar {
+	display: block;
+	background-image: radial-gradient(circle, #20bf55, #01baef);
+	height: 45px;
+	width: 100%;
+	position: fixed;
+}
+
+nav {
+	width: 1080px;
+	margin: -2px auto;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 5%;
+	padding: 1% 0;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: white;
+	font-weight: bold;
+}
