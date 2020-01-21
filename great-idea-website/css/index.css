@@ -123,8 +123,6 @@ img {
 	margin-top: 80px;
 }
 .content {
-	top: 50px;
-    margin: 1%;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
