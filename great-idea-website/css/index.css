@@ -166,15 +166,20 @@ h5 {
   position: relative;
   text-decoration: none;
   text-align: center;
-  padding: 5%;
+  width: 12.25%;
+  padding: 4%;
   color: gray;
   top: 10px;
   transition: all 0.2s;
+  margin-left: 5px;
 }
 
 a img {
   position: relative;
   top: 10px;
+  width: 12.25%;
+  height: auto;
+  margin-left: 5%;
 }
 
 .navbar a:hover {
@@ -207,16 +212,18 @@ p {
   text-align: center;
   vertical-align: top;
   width: 48%;
-  margin: 1%;
-  padding: 4%;
+  height: auto;
+  margin: auto;
+  padding: 2%;
 }
 
 .section-one img {
   position: relative;
   display: inline-block;
-  right: 20%;
-  margin-right: auto;
-  width: 40%;
+  right: 15%;
+  margin: auto;
+  width: 48%;
+  height: auto;
   left: 5%;
   text-align: center;
 }
