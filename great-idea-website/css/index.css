@@ -74,11 +74,36 @@ nav a{
 
 nav img{
 	float: right;
+	margin-right: 2rem;
 	margin-top:-.5rem;
 }
 
 nav {
-	border: 2px solid red;
 	margin-top: 1rem;
 	margin-left: -4rem;
+}
+
+.innovation img{
+float:right;
+margin-top: -25rem;
+margin-right: 3rem;
+}
+
+.innovation {
+	border: 2px solid red;
+	padding-top: 15rem;
+	border-bottom: 2px dotted grey;
+}
+
+.innovation h2{
+	font-size: 5rem;
+	border:2px solid red;
+	margin-right: 28rem;
+	text-align: center;
+	
+}
+
+.iod {
+	margin-bottom: 4rem;
+	margin-left: 20rem;
 }
