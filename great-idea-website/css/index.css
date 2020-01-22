@@ -74,7 +74,7 @@ nav a{
 	/* padding-left: 7rem;
 	padding-right: 7rem;
 	*/
-	margin-right: 2rem;
+	margin-right: 1rem;
 	padding-top:3rem;
 	padding-bottom:3rem; 
 }
@@ -83,7 +83,7 @@ nav img{
 	float: right;
 	/* margin-right: 2rem; */
 	margin-top: 2rem;
-	margin-right: 2rem;
+	margin-right: 3rem;
 }
 
 nav {
@@ -93,9 +93,9 @@ nav {
 	/* padding-top: 2rem; */
 	padding-bottom: 4.5rem;
 	
-	margin-top: -12rem;
+	margin-top: -4rem;
 	background-color:white;
-	position: fixed;
+	/* position: fixed; */
 	/* top: 0; */
 	width: 100%;
 }
