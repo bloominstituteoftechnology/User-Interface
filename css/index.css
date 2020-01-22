@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+nav a{
+	color:grey;
+	text-decoration: none;
+	font-size: .5rem;
+	padding: 2rem;
+	margin-left: .5rem;
+	/* padding-left: 7rem;
+	padding-right: 7rem;
+	*/
+	margin-right: 1rem;
+	padding-top:3rem;
+	padding-bottom:3rem; 
+}
+
+nav img{
+	float: right;
+	/* margin-right: 2rem; */
+	margin-top: 2rem;
+	margin-right: -3.5rem;
+}
+
+nav {
+	/* margin-top: 1rem; */
+	margin-left: -4rem;
+	overflow: hidden;
+	/* padding-top: 2rem; */
+	padding-bottom: 4.5rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: -4rem;
+	background-color:white;
+	/* position: fixed; */
+	/* top: 0; */
+	width: 100%;
+}
+
+.innovation img{
+float:right;
+margin-top: -28rem;
+margin-right: 5rem;
+
+}
+
+.innovation {
+	padding-top: 10rem;
+	margin-top: -3rem;
+	border-bottom: 2px dotted grey;
+}
+
+.innovation h2{
+	font-size: 5rem;
+	margin-right: 22rem;
+	margin-left: -15rem;
+	text-align: center;
+	
+}
+
+.innovation h4{
+	border: 3px solid grey;
+	margin-right: 42rem;
+	margin-left: 6rem;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+
+}
+
+.iod {
+	margin-bottom: 4rem;
+	margin-left: 5rem;
+	margin-top: 0rem;
+
+}
+
+
+
+.middle-info img {
+width: 100%;
+}
+
+.Features {
+	margin-right: 37rem;
+	padding-top: 2rem;
+	padding-bottom: 2.5rem;
+	font-size: 1.5rem;
+
+
+}
+
+.About {
+	margin-left: 37rem;
+	padding-top:2rem;
+	padding-bottom: 2.5rem;
+	margin-top: -13.2rem;
+	font-size: 1.5rem;
+
+
+}
+
+.middle-top {
+	margin-bottom: 3rem;
+}
+
+.middle-lower {
+	border-bottom: 1px dotted grey;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+
+.services {
+	margin-right: 51rem;
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.product {
+	font-size: 1.5rem;
+	margin-right: 25rem;
+	margin-left: 25rem;
+	margin-top: -15rem;
+	padding-bottom: 2rem;
+}
+
+.vision {
+	float: right;
+	font-size: 1.5rem;
+	margin-left: 51rem;
+	margin-top: -15.2rem;
+	padding-bottom: 1.6rem;
+}
+
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.copyright {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+/* Testing button thing */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+
+
+a:after {
+  content: '';
+  background: linear-gradient(120deg, #5facc6, #927be5, #5facc6);
+  background-size: 400% 400%;
+  -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -moz-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+}
+
+a  > span{
+  display: block;
+  background: linear-gradient(120deg, #5facc6, #927be5, #5facc6);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: gradient 3s ease-in-out infinite;
+  -webkit-animation: gradient 3s ease-in-out infinite;
+  animation: gradient 3s ease-in-out infinite;
+}
+
+/* helpers */
+.absolute-centering, body:after, a, a:after {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.text-formatting, a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 70px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+/* motion */
+@-moz-keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-moz-keyframes border {
+  0% {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@-webkit-keyframes border {
+  0% {
+     -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@keyframes border {
+  0% {
+   -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+
+
+
+/*second btn*/
+
+
+/* .flex {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.bttn {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: relative;
+}
+.bttn:after {
+  transition: 0.3s all ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+ /* border: 3px solid #B15947;*/
+     -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -moz-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+}
+.bttn:before {
+  content: '';
+  position: absolute;
+  border-radius: 3px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #fff;
+  z-index: -1;
+}
+.bttn:hover:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+    
+}
+.bttn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bttn:active:before {
+  background-color:  linear-gradient(120deg, #5facc6, #927be5, #5facc6);;
+}
+.bttn:active:after {
+  border-color:  linear-gradient(120deg, #5facc6, #927be5, #5facc6);;
+}
