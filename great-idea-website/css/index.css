@@ -80,7 +80,7 @@ a {
 img {
     width: 100%;
 }
-
+/*Nav bar css*/
 .navBar {
 	position: fixed;
 	z-index: 1;
@@ -90,6 +90,11 @@ img {
 	width: 100%;
 	background-image: radial-gradient(farthest-corner at 20px 40px,
 	#355ba3 50%, #4c84b9 100%);
+}
+.navBar ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
 }
 .navBar li {
 	float: left;
@@ -119,17 +124,22 @@ img {
 .logo {
 	margin: 2%;
 }
+
+/*Main box to contain content behind navbar*/
 .main {
 	margin-top: 80px;
 }
+/*Content holder */
 .content {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
+/* divider line */
 .lineBottom {
 	border-bottom: 1px solid black;
 }
+/* Content divider for 50% */
 .content50 {
 	display: inline-block;
     vertical-align: middle;
@@ -137,16 +147,21 @@ img {
     width: 44%;
     min-width: 150px;
 }
+/* large lettering for website */
 .content50 header{
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	font-size: 70px;
 	text-align: center;
+	transform: rotate(-5deg);
+	text-shadow: 10px 5px 20px #536380;
 }
+/* button center */
 .contentB {
 	text-align: center;
 }
+/* button css settings */
 .content50 button {
 	background-color: white; 
 	border: 1px solid gray;
@@ -161,31 +176,45 @@ img {
 	color: white;
 	background-color: #355ba3;
 }
+/* image with attached animation */
 .content50 img {
-	display: block;
+	display: inline-block;
 	border-radius: 50%;
 	width: 75%;
-	float: right;
+	animation-name: aniRot;
+	animation-duration: 100s;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
 }
 .content50 img:hover {
-	animation-name: aniRot;
-	animation-duration: 2s;
-	animation-timing-function: ease-in-out;
+	animation-play-state: paused;
 }
+/* Content divider for 1/3 chunk */
 .content33 {
 	display: inline-block;
 	margin: 2.5%;
 	width: 31%
 }
+/* css for contact infor */
+.contact {
+	margin: 2%;
+}
 .contact p {
 	font-size: 14px;
 }
+/*footer css */
 .footer {
 	display: block;
 	text-align: center;
 	font-size: 12px;
 }
+/* animations */
 @keyframes aniRot {
-	0% { transform: rotate(0deg);}
-	100% { transform: rotate(360deg);}
+	0% { transform: rotate(0deg);
+	}
+   
+	100% { transform: rotate(359deg);
+	}
   }
