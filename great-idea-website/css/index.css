@@ -121,15 +121,14 @@ margin-right: 5rem;
 
 }
 
-.middle-info{
-}
+
 
 .middle-info img {
 width: 100%;
 }
 
 .Features {
-	margin-right: 40rem;
+	margin-right: 43rem;
 	padding-top: 2rem;
 	padding-bottom: 2.5rem;
 	font-size: 1.5rem;
@@ -137,6 +136,7 @@ width: 100%;
 
 .About {
 	margin-left: 40rem;
+	margin-right: 2rem;
 	padding-top:2rem;
 	/* padding-bottom: 5rem; */
 	margin-top: -13rem;
@@ -145,4 +145,31 @@ width: 100%;
 
 .middle-top {
 	margin-bottom: 3rem;
+}
+
+.middle-lower {
+	border: 1px dotted grey;
+	padding-bottom: 3rem;
+}
+
+.services {
+	margin-right: 56rem;
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.product {
+	font-size: 1.5rem;
+	margin-right: 28rem;
+	margin-left: 28rem;
+	margin-top: -13.2rem;
+	padding-bottom: 2rem;
+}
+
+.vision {
+	float: right;
+	font-size: 1.5rem;
+	margin-left: 56rem;
+	margin-top: -13.5rem;
+	padding-bottom: 1.6rem;
 }
