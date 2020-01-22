@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .nav {display: inline-block;
-	width: 85%;
+	width: 75%;
 	overflow: auto;}
 .nav a {width: 16.66%;
 	text-align: center;
@@ -85,7 +85,10 @@ h1 {font-size: 80px;}
 	padding: 10px;}
 .img2 {display: inline-block;
 	padding: 20px 0 20px 0;}
+hr {width: 90%;}
 .features {display: inline-block;
-	width: 40%;}
+	width: 40%;
+	padding: 5px 5px 5px 10px;}
 .about {display: inline-block;
-	width: 40%;}
+	width: 40%;
+	padding: 5px 10px 5px;}
