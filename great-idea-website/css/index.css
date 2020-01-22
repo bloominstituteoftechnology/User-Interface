@@ -68,19 +68,36 @@ h1, h2, h3, h4, h5 {
 nav a{
 	color:grey;
 	text-decoration: none;
-	margin-left: 7rem;
-	font-size: 1.4rem;
+	font-size: .5rem;
+	padding: 2rem;
+	margin-left: 1rem;
+	/* padding-left: 7rem;
+	padding-right: 7rem;
+	*/
+	margin-right: 2rem;
+	padding-top:3rem;
+	padding-bottom:3rem; 
 }
 
 nav img{
 	float: right;
 	/* margin-right: 2rem; */
-	margin-top: -2rem;
+	margin-top: 2rem;
+	margin-right: 2rem;
 }
 
 nav {
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 	margin-left: -4rem;
+	overflow: hidden;
+	/* padding-top: 2rem; */
+	padding-bottom: 4.5rem;
+	
+	margin-top: -12rem;
+	background-color:white;
+	position: fixed;
+	/* top: 0; */
+	width: 100%;
 }
 
 .innovation img{
@@ -91,7 +108,8 @@ margin-right: 5rem;
 }
 
 .innovation {
-	padding-top: 5rem;
+	padding-top: 10rem;
+	margin-top: 8rem;
 	border-bottom: 2px dotted grey;
 }
 
@@ -191,4 +209,203 @@ footer {
 body {
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+
+/* Testing button thing */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+
+
+a:after {
+  content: '';
+  background: linear-gradient(120deg, #5facc6, #927be5, #5facc6);
+  background-size: 400% 400%;
+  -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -moz-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+}
+
+a  > span{
+  display: block;
+  background: linear-gradient(120deg, #5facc6, #927be5, #5facc6);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: gradient 3s ease-in-out infinite;
+  -webkit-animation: gradient 3s ease-in-out infinite;
+  animation: gradient 3s ease-in-out infinite;
+}
+
+/* helpers */
+.absolute-centering, body:after, a, a:after {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.text-formatting, a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 70px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+/* motion */
+@-moz-keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-moz-keyframes border {
+  0% {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@-webkit-keyframes border {
+  0% {
+     -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@keyframes border {
+  0% {
+   -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+
+
+
+/*second btn*/
+
+
+.flex {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bttn {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: relative;
+}
+.bttn:after {
+  transition: 0.3s all ease;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+ /* border: 3px solid #B15947;*/
+     -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -moz-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+}
+.bttn:before {
+  content: '';
+  position: absolute;
+  border-radius: 3px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #fff;
+  z-index: -1;
+}
+.bttn:hover:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+    
+}
+.bttn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bttn:active:before {
+  background-color:  linear-gradient(120deg, #5facc6, #927be5, #5facc6);;
+}
+.bttn:active:after {
+  border-color:  linear-gradient(120deg, #5facc6, #927be5, #5facc6);;
 }
