@@ -85,25 +85,38 @@ nav {
 
 .innovation img{
 float:right;
-margin-top: -25rem;
-margin-right: 3rem;
+margin-top: -28rem;
+margin-right: 5rem;
+
 }
 
 .innovation {
-	border: 2px solid red;
-	padding-top: 15rem;
+	padding-top: 5rem;
 	border-bottom: 2px dotted grey;
 }
 
 .innovation h2{
 	font-size: 5rem;
-	border:2px solid red;
-	margin-right: 28rem;
+	margin-right: 22rem;
+	margin-left: -15rem;
 	text-align: center;
 	
 }
 
+.innovation h4{
+	border: 1px solid grey;
+	margin-right: 50rem;
+	margin-left: 13rem;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+}
+
 .iod {
 	margin-bottom: 4rem;
-	margin-left: 20rem;
+	margin-left: 5rem;
+	margin-top: 0rem;
+
 }
