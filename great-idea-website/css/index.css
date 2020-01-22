@@ -69,16 +69,20 @@ h1, h2, h3, h4, h5 {
   width: 1000px;
   margin: 0 auto;
 }
+
+
+
 nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-  opacity: 0.3;
-	font-size: 15px;
+  opacity: 0.5;
+	font-size: 20px;
   padding: 40px 40px;
   position: relative;
   top: 50%;
   left: 0%;
+  font-family: 'Amatic SC';
 }
 
 @keyframes opacityFlash {
@@ -220,4 +224,6 @@ footer p {
   text-align: center;
   margin-bottom: 100px;
   margin-top:20px;
+  font-family: 'Amatic SC';
+  font-size: 20px;
 }
