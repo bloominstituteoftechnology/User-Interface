@@ -66,32 +66,36 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 #page-conent {
 	position: relative;
-	width: 90%;
+	width: 100%;
 	padding: 25px 75px 0 75px;
 	box-sizing: border-box;
 	text-align: center;
 }
 
-div.nav-bar {
-	display: block;
+.nav-bar {
+	/*border: 2px solid red;*/
+	display: inline-block;
 	background-image: radial-gradient(circle, #20bf55, #01baef);
 	height: 45px;
 	width: 100%;
 	position: fixed;
+	z-index: 9999;
 }
 
 nav {
+
 	width: 1080px;
-	margin: -2px auto;
+	margin: auto;
 }
 
 nav a {
 	text-decoration: none;
 	display: inline-block;
 	margin-right: 5%;
-	padding: 1% 0;
+	padding: 20px;
 	color: #000000;
 	font-weight: bold;
+	vertical-align: bottom;
 }
 
 nav a:hover {
@@ -99,16 +103,21 @@ nav a:hover {
 	font-weight: bold;
 }
 
+.logo {
+	vertical-align: top;
+	padding: 5px;
+}
+
 .header {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	margin: auto;
-	width: 91%;
+	width: 70%;
 }
 
 h1 {
 	display: inline-block;
-	border: 2px solid red;
-	margin: 10%;
+	/*border: 2px solid red;*/
+	margin: 8%;
 	width: 30%;
 	font-size: 72px;
 	text-align: center;
@@ -116,8 +125,97 @@ h1 {
 
 #header-image {
 	display: inline-block;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin: auto;
 	vertical-align: bottom;
-	padding: 3%;
+	padding: 4%;
+}
+
+button{
+	/*border: 2px solid black;*/
+	position: relative;
+	top: 35px;
+	right: 385px;
+	width: 150px;
+	padding: 7px;
+	color: black;
+}
+
+button:hover{
+	cursor: pointer;
+	background: #5f9ea0;
+}
+
+hr {
+	display: block;
+	border-top: 5px solid lightgray;
+	border-radius: 5px;
+    margin: auto;
+	padding: 0;
+	width: 66%;
+}
+
+
+h2 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 16px;
+	margin: auto;
+}
+
+#content {
+	/*border: 2px solid blue;*/
+	display: block;
+	width: 70%;
+	margin: auto;
+	padding: 40px;
+}
+
+.top-content {
+	/*border: 2px solid red;*/
+	display: block;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.top-content article{
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.bottom-content {
+	/*border: 2px solid red;*/
+	display: block;
+	width: 100%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.bottom-content article{
+	display: inline-block;
+	width: 33%;
+}
+
+.contact {
+	/*border: 2px solid blue;*/
+	width: 1250px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+footer {
+	text-align: center;
 }
