@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.main {width: 75%}
 .nav {display: inline-block;
 	width: 75%;
 	overflow: auto;}
@@ -87,8 +88,23 @@ h1 {font-size: 80px;}
 	padding: 20px 0 20px 0;}
 hr {width: 90%;}
 .features {display: inline-block;
-	width: 40%;
-	padding: 5px 5px 5px 10px;}
+	width: 45%;
+	padding: 25px;}
 .about {display: inline-block;
-	width: 40%;
-	padding: 5px 10px 5px;}
+	width: 45%;
+	padding: 25px;}
+.img3 {padding: 20px 100px 20px 100px;}
+.center{margin: auto;}
+.services {display: inline-block;
+	width: 30%;
+	padding: 25px;}
+.product {display: inline-block;
+	width: 30%;
+	padding: 25px;}
+.vision {display: inline-block;
+	width: 30%;
+	padding: 25px;}
+.contact {padding: 25px;}
+.footer {text-align: center;
+	padding: 25px;}
+
