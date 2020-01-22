@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a{
+	color:grey;
+	text-decoration: none;
+	margin-left: 8rem;
+	font-size: 1.4rem;
+}
+
+nav img{
+	float: right;
+	margin-top:-.5rem;
+}
+
+nav {
+	border: 2px solid red;
+	margin-top: 1rem;
+	margin-left: -4rem;
+}
