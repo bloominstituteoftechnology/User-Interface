@@ -1,0 +1,45 @@
+header h1 h4 {
+    width: 80%;
+}
+
+nav h6 {
+    display: inline;
+    color: rgba(207, 206, 219, 0.988);
+    ;
+    padding: 1%;
+}
+
+nav img {
+    margin: 5%;
+}
+
+h1 {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h4 {
+    text-align: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    width: 20%;
+    padding: 2%;
+}
+
+h1,
+h4 {
+    display: vertical;
+}
+
+.top-content {
+    box-sizing: border-box;
+    width: 80%;
+    border-top-style: solid;
+}
+
+.bottom-content {
+    border-bottom-style: solid;
+}
+
+footer {}
