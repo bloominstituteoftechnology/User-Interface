@@ -120,3 +120,29 @@ margin-right: 5rem;
 	margin-top: 0rem;
 
 }
+
+.middle-info{
+}
+
+.middle-info img {
+width: 100%;
+}
+
+.Features {
+	margin-right: 40rem;
+	padding-top: 2rem;
+	padding-bottom: 2.5rem;
+	font-size: 1.5rem;
+}
+
+.About {
+	margin-left: 40rem;
+	padding-top:2rem;
+	/* padding-bottom: 5rem; */
+	margin-top: -13rem;
+	font-size: 1.5rem;
+}
+
+.middle-top {
+	margin-bottom: 3rem;
+}
