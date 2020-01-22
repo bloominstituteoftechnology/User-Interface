@@ -89,7 +89,6 @@ div a{
 
 .features{
 	width: 1000px;
-	box-sizing: content-box;
 	display: inline-block;
 }
 
@@ -110,6 +109,7 @@ div a{
 	padding: 50px;
 	padding-top: 20px;
 	margin: auto;
+	
 }
 
 .middle-img{
