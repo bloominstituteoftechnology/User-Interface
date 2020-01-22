@@ -159,7 +159,7 @@ h5 {
   position: relative;
   position: fixed;
   z-index: 1000;
-  background:rgba(120, 166, 240, .7)
+  background: rgba(120, 166, 240, 0.6);
 }
 
 .navbar a {
@@ -169,17 +169,17 @@ h5 {
   padding: 5%;
   color: gray;
   top: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 a img {
-	position: relative;
-	top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .navbar a:hover {
-	color: black;
-	font-weight: 1000;
+  color: black;
+  font-weight: 1000;
 }
 
 h1 {
@@ -232,14 +232,14 @@ p {
   border: solid 1px black;
   background: white;
   font-size: large;
-  transition: all .3s;
-  box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.5);
+  transition: all 0.3s;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.5);
 }
 
 #btn:hover {
-	color: white;
-	background: black;
-	cursor: pointer;
+  color: white;
+  background: black;
+  cursor: pointer;
 }
 
 .about {
