@@ -83,7 +83,7 @@ nav img{
 	float: right;
 	/* margin-right: 2rem; */
 	margin-top: 2rem;
-	margin-right: 3rem;
+	margin-right: -3.5rem;
 }
 
 nav {
@@ -92,7 +92,8 @@ nav {
 	overflow: hidden;
 	/* padding-top: 2rem; */
 	padding-bottom: 4.5rem;
-	
+	padding-left: 5%;
+	padding-right: 5%;
 	margin-top: -4rem;
 	background-color:white;
 	/* position: fixed; */
@@ -109,7 +110,7 @@ margin-right: 5rem;
 
 .innovation {
 	padding-top: 10rem;
-	margin-top: 8rem;
+	margin-top: -3rem;
 	border-bottom: 2px dotted grey;
 }
 
