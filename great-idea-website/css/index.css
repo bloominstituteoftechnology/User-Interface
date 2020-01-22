@@ -132,8 +132,7 @@ img {
 /*Content holder */
 .content {
 	width: 100%;
-	display: flex;
-	justify-content: space-around;
+	display: inline-block;
 }
 /* divider line */
 .lineBottom {
@@ -144,7 +143,7 @@ img {
 	display: inline-block;
     vertical-align: middle;
     margin: 3%;
-    width: 44%;
+    width: 40%;
     min-width: 150px;
 }
 /* large lettering for website */
@@ -156,6 +155,7 @@ img {
 	text-align: center;
 	transform: rotate(-5deg);
 	text-shadow: 10px 5px 20px #536380;
+	z-index: 0;
 }
 /* button center */
 .contentB {
@@ -181,12 +181,12 @@ img {
 	display: inline-block;
 	border-radius: 50%;
 	width: 75%;
+	z-index: -5;
 	animation-name: aniRot;
 	animation-duration: 100s;
 	animation-play-state: running;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	
 }
 .content50 img:hover {
 	animation-play-state: paused;
