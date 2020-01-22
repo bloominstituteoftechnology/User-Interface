@@ -94,7 +94,7 @@ img {
 .navBar li {
 	float: left;
 }
-.nav80{
+.nav80 {
 	display: inline-block;
 	margin: 1%;
 	width: 78%;
@@ -110,7 +110,7 @@ img {
 .navItem:hover {
 	color: rgb(241, 245, 17);
 }
-.nav20{
+.nav20 {
 	display: block;
 	margin: 1%;
 	width: 18%;
@@ -144,7 +144,7 @@ img {
 	font-size: 70px;
 	text-align: center;
 }
-.contentB{
+.contentB {
 	text-align: center;
 }
 .content50 button {
@@ -167,12 +167,17 @@ img {
 	width: 75%;
 	float: right;
 }
+.content50 img:hover {
+	animation-name: aniRot;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
 .content33 {
 	display: inline-block;
 	margin: 2.5%;
 	width: 31%
 }
-.contact p{
+.contact p {
 	font-size: 14px;
 }
 .footer {
@@ -180,3 +185,7 @@ img {
 	text-align: center;
 	font-size: 12px;
 }
+@keyframes aniRot {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+  }
