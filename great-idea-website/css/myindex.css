@@ -1,26 +1,132 @@
-navigation.ideanav {
-    width: 900px;
+h1 {font-size: 80px;
+  
+    font-family: 'Bangers', cursive;
+    display:inline-block;
+    text-align: center;
+   
+    box-sizing: border-box;
+}
+
+#callout {
+    width:500px;
+    padding:55px;
+    display: inline-block;
+}
+
+
+#hero {
+    margin-top:60px;
+}
+
+#main {
+    padding-top:25px;
+    padding-bottom:25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+#foot {
+    padding: 20px 0 20px 0;
+    width:900px;
+    box-sizing: border-box;
+}
+#foot p{
+    text-align:center;
+}
+
+.twocard {
+    width:40%;
+    margin-right:15px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.threecard {
+    width:25%;
+    margin-right:15px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+#main p{
+    display:inline-block;
+}
+
+#main h2 {
+    padding-top:25px;
+    display:inline-block;
+}
+
+#main img {
+    padding-top:25px;
+    display: inline-block;
+}
+/*
+header {
+  
+    
     display:block;
+    box-sizing:border-box;
+}
+*/
+
+.navcontainer {
+    height:90px;
+    float: left;
+    box-sizing:border-box;
+}
+nav {
+    
+    float:left;
+    height: 90px;
+    width: 760px;
+    display:inline-block;
+    box-sizing: border-box;
+    
 }
 
-li.ideanavitem {
-color:rgb(180,180,180);
-margin-left:50px;
-display: inline-block;
+nav a {
+    font-size: 14px;
+    margin-top:45px;
+    margin-left: 70px;
+    text-decoration:none;
+    color: rgb(160,160,160);
+    display: inline-block;
 }
 
-navigation ul {
-    display:inline;
+#logo {
+    
+    padding-top:25px;
+    margin-top:12px;
+    width:203px;
+   
+    display:inline-block;
+    box-sizing:border-box;
 }
 
+#start{
+    padding:10px;
+    width:185px;
+    height:40px;
+    display:inline-block;
+    border: 1px solid black;
+    text-align:center;
+    box-sizing: border-box;
+    margin-left:100px;
+}
+
+#start a {
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    
+}
 .mycontent {
     max-width: 1024px;
     margin: auto;
 }
 
-.logo {
-    margin-left:90px;
-    display:inline-block;
+
+
+img {
+    display:inline;
 }
-
-
