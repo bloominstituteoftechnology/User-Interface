@@ -141,7 +141,6 @@ img {
 /* Content divider for 50% */
 .content50 {
 	display: inline-block;
-    vertical-align: middle;
     margin: 3%;
     width: 40%;
     min-width: 150px;
