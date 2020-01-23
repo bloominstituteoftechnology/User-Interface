@@ -88,6 +88,7 @@ img {
     margin: 0;
     padding-top: 0;
 	width: 100%;
+	height: 60px;
 	background-image: radial-gradient(farthest-corner at 20px 40px,
 	#355ba3 50%, #4c84b9 100%);
 }
@@ -97,16 +98,19 @@ img {
 	padding: 0;
 }
 .navBar li {
-	float: left;
+	display: inline-block;
 }
 .nav80 {
 	display: inline-block;
-	margin: 1%;
-	width: 78%;
+	width: 75%;
+}
+.nav20 {
+	display: inline-block;
+	width: 20%;
 }
 .navItem {
 	color: #ebe2e2;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	text-decoration: none;
 	padding: 16px;
@@ -115,19 +119,15 @@ img {
 .navItem:hover {
 	color: rgb(241, 245, 17);
 }
-.nav20 {
-	display: block;
-	margin: 1%;
-	width: 18%;
-	float: right;
-}
+
 .logo {
+	display: inline-block;
 	margin: 2%;
 }
 
 /*Main box to contain content behind navbar*/
 .main {
-	margin-top: 80px;
+	margin-top: 60px;
 }
 /*Content holder */
 .content {
