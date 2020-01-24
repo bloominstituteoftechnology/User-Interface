@@ -1,5 +1,5 @@
-h1 {font-size: 80px;
-  
+h1 {font-size: 75px;
+    letter-spacing: 2px;
     font-family: 'Bangers', cursive;
     display:inline-block;
     text-align: center;
@@ -17,6 +17,11 @@ p {
     display: inline-block;
 }
 
+#heroimage {
+    padding-left:120px;
+    
+    display:inline-block;
+}
 
 #hero {
     margin-top:140px;
@@ -120,6 +125,7 @@ nav a {
 #start{
     padding:10px;
     width:185px;
+    margin-top: 5px;
     height:40px;
     display:inline-block;
     border: 1px solid black;
