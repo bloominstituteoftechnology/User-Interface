@@ -1,152 +1,137 @@
-h1 {font-size: 75px;
-    letter-spacing: 2px;
-    font-family: 'Bangers', cursive;
-    display:inline-block;
-    text-align: center;
+#callout
+{
+	display: inline-block;
+	padding: 55px;
+	width: 500px;
+}
+#foot
+{
+	box-sizing: border-box;
+	padding: 20px 0 20px 0;
+	width: 900px;
+}
+#foot p
+{
+	text-align: center;
+}
+#hero
+{
+	margin-top: 140px;
+}
+#heroimage
+{
+	display: inline-block;
+	padding-left: 120px;
+}
+#logo
+{width:183px;
+    height:72px;
+   margin-left:20px;
+	box-sizing: border-box;
+	display: inline-block;
    
-    box-sizing: border-box;
 }
-
-p {
-    font-family: 'Roboto';
+#main
+{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	box-sizing: border-box;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
-
-#callout {
-    width:500px;
-    padding:55px;
-    display: inline-block;
+#main h2
+{
+	display: inline-block;
+	padding-top: 25px;
 }
-
-#heroimage {
-    padding-left:120px;
-    
-    display:inline-block;
+#main img
+{
+	display: inline-block;
+	padding-top: 25px;
 }
-
-#hero {
-    margin-top:140px;
+#main p
+{
+	display: inline-block;
 }
-
-#main {
-    padding-top:25px;
-    padding-bottom:25px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-sizing: border-box;
+#start
+{
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 40px;
+	margin-left: 100px;
+	margin-top: 5px;
+	padding: 10px;
+	text-align: center;
+	width: 185px;
 }
-
-#foot {
-    padding: 20px 0 20px 0;
-    width:900px;
-    box-sizing: border-box;
+#start a
+{
+	color: black;
+	display: inline-block;
+	text-decoration: none;
 }
-#foot p{
-    text-align:center;
+.mycontent
+{
+	margin: auto;
+	max-width: 1024px;
 }
-
-.twocard {
-    width:40%;
-    margin-right:15px;
-    display:inline-block;
-    box-sizing: border-box;
-}
-.threecard {
-    width:25%;
-    margin-right:15px;
-    display:inline-block;
-    box-sizing: border-box;
-}
-#main p{
-    display:inline-block;
-}
-
-#main h2 {
-    padding-top:25px;
-    display:inline-block;
-}
-
-#main img {
-    padding-top:25px;
-    display: inline-block;
-}
-/*
-header {
-  
-    
-    display:block;
-    box-sizing:border-box;
-}
-*/
-
-.navcontainer {
-    height:90px;
+#nav-container
+{   background: white;
+	box-sizing: border-box;
     float: left;
-    box-sizing:border-box;
-}
-nav {
-    
-    float:left;
+    width:1024px;
     height: 90px;
+    position: fixed;
+	top: 0;
+}
+.threecard
+{
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 15px;
+	width: 25%;
+}
+.twocard
+{
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 15px;
+	width: 40%;
+}
+h1
+{
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: 'Bangers', cursive;
+	font-size: 75px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+img
+{
+	display: inline;
+}
+nav
+{
+	background-color: #333;
+	box-sizing: border-box;
+	display: inline-block;
+	
+	height: 90px;
     width: 760px;
-    display:inline-block;
-    box-sizing: border-box;
-    top:0;
-    background-color: #333;
-    position: fixed;
-    
+   
 }
-
-nav a {
-    font-size: 14px;
-    margin-top:45px;
-    margin-left: 70px;
-    text-decoration:none;
-    color: rgb(160,160,160);
-    display: inline-block;
+nav a
+{
+	color: rgb(160,160,160);
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 70px;
+	margin-top: 45px;
+	text-decoration: none;
 }
-
-#logo {
-    
-    padding-top:35px;
-    margin-top:0px;
-    padding-left:50px;
-    padding-right:50px;
-    padding-bottom:17px;
-    width:300px;
-    background :#FFF;
-    display:inline-block;
-    box-sizing:border-box;
-    top:0;
-    left: 930px;
-    position: fixed;
-    float: right;
-}
-
-#start{
-    padding:10px;
-    width:185px;
-    margin-top: 5px;
-    height:40px;
-    display:inline-block;
-    border: 1px solid black;
-    text-align:center;
-    box-sizing: border-box;
-    margin-left:100px;
-}
-
-#start a {
-    text-decoration: none;
-    display: inline-block;
-    color:black;
-    
-}
-.mycontent {
-    max-width: 1024px;
-    margin: auto;
-}
-
-
-
-img {
-    display:inline;
+p
+{
+	font-family: 'Roboto';
 }
