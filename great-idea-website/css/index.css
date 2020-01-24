@@ -139,6 +139,51 @@ body {
 }
 
 
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	font-style: italic;
+}
+
+
+.box-one {
+	display: inline-block;
+	width: 48%;
+	margin: 0.5%;
+	font-size: 22px;
+}
+.box-one:hover {
+	
+	font-size: 25px;
+	background-color: yellow;
+	border: 1px solid gold;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.important-img {
+	background: url(img/mid-page-accent.jpg);
+	display: inline-block;
+	width: 100%;
+	margin: 4% 0 4% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
