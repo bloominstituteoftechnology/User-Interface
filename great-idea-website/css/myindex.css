@@ -15,7 +15,7 @@ h1 {font-size: 80px;
 
 
 #hero {
-    margin-top:60px;
+    margin-top:140px;
 }
 
 #main {
@@ -81,6 +81,9 @@ nav {
     width: 760px;
     display:inline-block;
     box-sizing: border-box;
+    top:0;
+    background-color: #333;
+    position: fixed;
     
 }
 
@@ -95,12 +98,19 @@ nav a {
 
 #logo {
     
-    padding-top:25px;
-    margin-top:12px;
-    width:203px;
-   
+    padding-top:35px;
+    margin-top:0px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:17px;
+    width:300px;
+    background :#FFF;
     display:inline-block;
     box-sizing:border-box;
+    top:0;
+    left: 930px;
+    position: fixed;
+    float: right;
 }
 
 #start{
