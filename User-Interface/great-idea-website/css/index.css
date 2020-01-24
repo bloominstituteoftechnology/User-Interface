@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -104,6 +104,10 @@ img {
 /* Navigation Section*/
 nav {
 	display: inline-block;
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(to bottom right, black, blue, purple);
+	padding: 10px;
 }
 a {
 	color: lightgray;
