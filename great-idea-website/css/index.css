@@ -182,6 +182,17 @@ h2 {
 	font-size: 20px;
 }
 
+.box-two:hover {
+	
+	font-size: 25px;
+	background: grey;
+	color: red;
+	border: 2px solid blue;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
 .copy-right {
 	text-align: center;
 }
