@@ -66,67 +66,100 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	width: 880px;
-	margin: auto;
-	border: 1px solid red;
+	margin: 74px;
 }
 
 /* Header Section*/
 h1 {
-
-}
-
-
-/* Navigation Section*/
-.navigation {
 	display: inline-block;
-	margin-top: 40px;
+	font-size: 65px;
+	text-align: center;
+	padding-right: 130px;
+	vertical-align: inherit;
 }
 
 .logo {
-    margin-right: 20px;
-    margin-left: 112px;
+	vertical-align: middle;
+	display: inline-block;
 }
-.container a {
-	margin: 0 20px;
+img {
+	vertical-align: middle;
+}
+
+.iod {
+	text-align: center;
+	vertical-align: middle;
+	margin: 50px 0 5px 0;
+	
+}
+
+.button {
+	display: inline-block;
+	border: solid 1px black;
+    color: black;
+	margin: 0 0 50px 116px;
+	padding: 5px 30px;
+}
+
+/* Navigation Section*/
+nav {
+	display: inline-block;
+}
+a {
+	color: lightgray;
+	text-decoration: none;
+	margin-right: 60px;
+}
+
+
+.upper {
+	display: inline-block;
+	margin-bottom: 40px;
 }
 
 /* Top Left Section*/
-.top-left {
+.features {
 	display: inline-block;
-	width: 30%;
-	margin-right: 4%;
+	width: 48%;
+	margin-top: 20px;
 }
 
 
 /* Top Right Section*/
-.top-right {
+.about {
 	display: inline-block;
-	width: 30%;
-	margin-left: 4%;
+	width: 48%;	
+	margin-left: 3%;
+	margin-top: 20px;
+}
+
+.middle-img
+{
+	width: 100%;
 }
 
 
 /* Bottom Left Section*/
-.bottom-left {
+.services {
 	display: inline-block;
-	width: 30%;
-	margin-right: 4%;
+	width: 33%;
+	margin-top: 30px;
 }
 
 
 /* Bottom Middle Section*/
-.bottom-middle {
+.product {
 	display: inline-block;
-	width: 30%;
-	margin: 4%;
+	width: 33%;
+	margin-top: 30px;
 }
 
 
 /* Bottom Right Section*/
-.bottom-right {
+.vision {
 display: inline-block;
-width: 30%;
-margin-left: 4%;
+width: 33%;
+margin-top: 30px;
 }
 
 
