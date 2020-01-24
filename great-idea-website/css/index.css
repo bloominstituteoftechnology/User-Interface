@@ -72,9 +72,48 @@ nav {
 	margin: 0px auto;
 	white-space: nowrap;
 	border: 1px solid gold;
-	background-color: floralwhite;
+	background-color: forestgreen;
 
 }
+
+
+a {
+	display: inline-block;
+	width: 10%;
+	margin: 0.7%;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+
+a:hover {
+	font-size: 25px;
+	color: crimson;
+}
+
+hr {
+	display: block;
+	height: 2px;
+	border-top: 2px solid black;
+	margin: 2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
