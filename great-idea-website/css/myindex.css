@@ -7,6 +7,10 @@ h1 {font-size: 80px;
     box-sizing: border-box;
 }
 
+p {
+    font-family: 'Roboto';
+}
+
 #callout {
     width:500px;
     padding:55px;
