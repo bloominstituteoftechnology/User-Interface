@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container {
+	width: 880px;
+	margin: 74px;
+}
+
+/* Header Section*/
+h1 {
+	display: inline-block;
+	font-size: 65px;
+	text-align: center;
+	padding-right: 130px;
+	vertical-align: inherit;
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+}
+img {
+	vertical-align: middle;
+}
+
+.iod {
+	text-align: center;
+	vertical-align: middle;
+	margin: 50px 0 5px 0;
+	
+}
+
+.button {
+	display: inline-block;
+	border: solid 1px black;
+    color: black;
+	margin: 0 0 50px 116px;
+	padding: 5px 30px;
+	background: rgb(14, 105, 196);
+}
+
+.button:hover {background-color: rgb(110, 74, 241)}
+.button:active {
+background-color: rgb(201, 148, 245);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+/* Navigation Section*/
+nav {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(to bottom right, black, blue, purple);
+	padding: 10px;
+}
+a {
+	color: lightgray;
+	text-decoration: none;
+	margin-right: 60px;
+}
+
+
+.upper {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+/* Top Left Section*/
+.features {
+	display: inline-block;
+	width: 48%;
+	margin-top: 20px;
+}
+
+
+/* Top Right Section*/
+.about {
+	display: inline-block;
+	width: 48%;	
+	margin-left: 3%;
+	margin-top: 20px;
+}
+
+.middle-img
+{
+	width: 100%;
+}
+
+
+/* Bottom Middle Section*/
+.product {
+	display: inline-block;
+	width: 33%;
+	margin-top: 30px;
+}
+
+
+/* Bottom Right Section*/
+.vision {
+display: inline-block;
+width: 33%;
+margin-top: 30px;
+}
+
+
+/* Contact Section*/
+.contact {
+	margin: 40px 0;
+}
+
+
+/* footer section */
+footer {
+	text-align: center;
+	padding-bottom: 40px;
+    margin: 40px 0;
+}
+
+@media(max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 1%;
+    }
+    nav {
+        width: 100%;
+    }
+    a {
+        width: 100%;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    h1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5%;
+    }
+    .button {
+        width: 35%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3%;
+    }
+    .logo {
+        display: none;
+    }
+    .middle-img {
+        display: none;
+    }
+    img {
+        width:30%; 
+    }
+    .about {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .features {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .product {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .vision {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .contact {
+        text-align: center;
+    }
+    .upper {
+        margin: 0 auto;
+    }
+}
