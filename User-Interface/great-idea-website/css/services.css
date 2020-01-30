@@ -183,7 +183,7 @@ footer {
 @media(max-width: 500px) {
     .container {
         width: 100%;
-        margin: 1%;
+        margin: 0;
     }
     nav {
         width: 100%;
@@ -200,7 +200,7 @@ footer {
         padding: 5%;
     }
     .button {
-        width: 35%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         padding: 3%;
