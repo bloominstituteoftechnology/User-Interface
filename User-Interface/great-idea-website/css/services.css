@@ -65,31 +65,33 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 880px;
-	margin: 74px;
+	width: 100%;
+	margin: 5%;
 }
 
 /* Header Section*/
 h1 {
-	display: inline-block;
+	display: flex;
 	font-size: 65px;
 	text-align: center;
-	padding-right: 130px;
+	padding-right: 5%;
 	vertical-align: inherit;
 }
 
 .logo {
 	vertical-align: middle;
-	display: inline-block;
+	display: flex;
 }
 img {
 	vertical-align: middle;
 }
 
 .iod {
+    display: flex;
 	text-align: center;
 	vertical-align: middle;
-	margin: 50px 0 5px 0;
+    margin: 50px 0 5px 0;
+
 	
 }
 
@@ -181,6 +183,68 @@ footer {
 }
 
 @media(max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    nav {
+        width: 100%;
+    }
+    a {
+        width: 100%;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    h1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5%;
+    }
+    .button {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3%;
+    }
+    .logo {
+        display: none;
+    }
+    .middle-img {
+        display: none;
+    }
+    img {
+        width:30%; 
+    }
+    .about {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .features {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .product {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .vision {
+        width: 100%;
+        padding: 4%;
+        margin: 0 auto;
+    }
+    .contact {
+        text-align: center;
+    }
+    .upper {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 700px) {
     .container {
         width: 100%;
         margin: 0;
