@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 80%;
+	/* width: 900px; */
 	margin: 0px auto;
 	/* border: 1px solid blue; */
 }
@@ -107,20 +108,23 @@ header h1 {
 	margin-top: 150px;
 	font-size: 400%;
 	text-align: center;
+	margin-right: -75px;
 }
 
 header img {
 	display: inline-block;
+	margin-bottom: -75px;
 	/* border: 1px solid red; */
 }
 
 .button {
 	display: inline-block;
-	margin-left: 225px;
+	margin-left: 275px;
 	border: 1px solid black;
 	text-align: center;
 	padding: 10px 25px;
 	size: 110%;
+	/* margin-right: -50px; */
 }
 
 .info {
