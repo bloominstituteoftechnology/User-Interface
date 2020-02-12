@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 6%;
+	
 	
 }
 ol, ul {
@@ -51,7 +53,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid gray;
+	*border: 1px solid gray;*/
 }
 
 html, body {
@@ -66,3 +68,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*nav styling*/
+
+nav {
+	display: inline-block;
+	width: 100%;
+	padding: 1%;
+	font-family: inherit;
+	
+}
+
+nav a{
+	display: inline-block;
+	width:13%;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+}
+
+/*Beginning of header styling, Texts and Images*/
+
+#headingsection { 
+	text-align: center;
+	padding: 2%;
+}
+
+.headercontainer {
+	display: inline-block;
+	margin: 0 auto;
+	
+
+}
+
+.innovation {
+	font-size: 90px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.getStarted {
+	border: 1px solid gray;
+	/*font-size: 25px;*/
+	color: gray;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 4%;
+	text-decoration: none;
+	
+	
+
+}
+
+
+
+
+.headImg {
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 8%;
+}
+
+/*Main content area paragraphs and image*/
+
+#mainBody {
+	text-align:center;
+	border-top: 2px grey solid;
+	border-bottom: 2px grey solid;
+	width: 99%;
+	
+}
+
+.features {
+	display: inline-block;
+	margin: 0 auto;
+	width: 40%;
+	text-align:left;
+	padding: 1%;
+}
+
+.about{
+	display: inline-block;
+    margin: 0 auto;
+	width: 40%;
+	text-align:left;
+	padding: 2%;
+}
+
+.middle-img{
+	display: inline-block;
+	margin: 0 auto;
+	text-align:left;
+	
+}
+
+.services{
+	display: inline-block;
+	margin: 0 auto;
+	width: 29%;
+	text-align:left;
+	padding: 3%;
+}
+
+.product{
+	display: inline-block;
+	margin: 0 auto;
+	width:27%;
+	text-align:left;
+	padding: 2%;
+}
+
+.vision {
+	display: inline-block;
+	margin 0 auto;
+	width: 27%;
+	text-align: left;
+	padding: 2%;
+}
+
+/*footer styles for all those things.*/
+
+
+}
+.contact {
+	text-align: left;
+	display: inline-block;
+	margin: 0 auto;
+	text-decoration: none;
+	line-height: 
+}
+
+.phone{
+	display: inline-block;
+    padding-top: 1%
+}
+
+.email{
+	display: inline-block;
+  	padding-top: 1%
+}
+
+.copyright{
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 94%;
+	
+}
+
+footer {
+	margin: 0 auto;
+	padding-top: 2%;
+}
