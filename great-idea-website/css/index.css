@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*navagate*/
+.maxwidth{
+padding: 50px;
+}
+header{
+	height: 100px;
+
+}
+header nav{
+	width: 70%;
+	display: inline-block;
+	height: 40px;
+	vertical-align: middle;
+	
+}
+header nav a{
+padding-left: 30px;
+align-items: center;
+text-decoration: none;
+color: lightgrey;
+vertical-align: middle;
+}
+
+
+
+ .logo{
+display: inline-block;
+margin-left: 50px;
+vertical-align: middle;
+}
+
+/*pic/button*/
+.main{
+	padding: 4%;
+	margin-top: 20px;
+}
+.main .left {
+	display: inline-block;
+	width: 49%;
+	padding: 40px;
+	vertical-align: middle;
+}
+h1{
+	font-size: 5rem;
+	text-align: center;
+}
+.main .right{
+	display: inline-block;
+width: 50%;
+vertical-align: middle;
+}
+.main .right img{
+		width: 100%;
+	padding: 40px;
+}
+
+button{
+	margin-left: 18%;
+	padding: 10px 70px 10px 70px;
+	background-color: white;
+	border-color: black;
+	font-size: 1.1rem;
+	vertical-align: middle;
+}
+
+
+
+
+
+/*text area*/
+.toptext{
+	border-top: black solid 1px;
+}
+.toptext .left{
+	display: inline-block;
+	width: 49%;
+	padding: 40px;
+}
+.toptext .right{
+	display: inline-block;
+	width: 49%;
+	padding: 40px;
+}
+.middle-img{
+	width: 100%;
+}
+.bottomtext{
+	border-bottom: solid black 1px;
+	padding-bottom: 30px;
+}
+.bottomtext .left{
+	display: inline-block;
+	width: 33%;
+	padding: 20px;
+}
+.bottomtext .middle{
+	display: inline-block;
+	width: 33%;
+	padding: 20px;
+}
+.bottomtext .right{
+	display: inline-block;
+	width: 33%;
+	padding: 20px;	
+}
+footer{
+	padding-top: 30px;
+}
+footer .spaceoutmiddle{
+	padding: 10px 0 10px 0;
+}
+footer .spaceoutbottom{
+	padding: 10px 0 10px 0;
+}
+.bottom{
+	text-align: center;
+	padding: 100px;
+}
