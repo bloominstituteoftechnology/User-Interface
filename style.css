@@ -34,8 +34,8 @@ a{
 }
 
 #row-2{
-  display:flex;  
-    width:25%;
+  display: inline-block;
+    width: 50%;
 }
 
 #column-2{
@@ -52,9 +52,9 @@ h1 { font-family: "Arial Black", "Arial Bold", sans-serif;
 
 }
 span{
-    float: right;
+   float: right;
     width: 50%;
-    margin-top: -161px;
+   
 }
 
 
