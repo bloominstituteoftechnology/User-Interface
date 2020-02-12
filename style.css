@@ -33,6 +33,15 @@ a{
     
 }
 
+#row-2{
+  display:flex;  
+    width:25%;
+}
+
+#column-2{
+    flex:50%; 
+}
+
 h1 { font-family: "Arial Black", "Arial Bold", sans-serif; 
     font-size: 49px; 
     font-style: normal; 
@@ -41,6 +50,11 @@ h1 { font-family: "Arial Black", "Arial Bold", sans-serif;
     line-height: 49px; 
     letter-spacing: -5
 
+}
+span{
+    float: right;
+    width: 50%;
+    margin-top: -161px;
 }
 
 
