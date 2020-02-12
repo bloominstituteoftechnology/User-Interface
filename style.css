@@ -1,0 +1,20 @@
+*{
+/* all selector */    
+}
+
+ .nav li {
+/* targets unordered list and creates class "nav"*/
+    font-size: 16px;
+    color:lightgrey;
+    text-decoration: none;
+    padding: 20px;
+    display:inline-block;
+    font-family:serif;
+    list-style-type: none;
+}
+
+a{
+   text-decoration: none; 
+    font-family:serif;
+    color:lightgrey;
+}
