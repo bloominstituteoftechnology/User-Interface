@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width:100%;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {width: 80%;
+	display:inline-block;
+	word-spacing: 45px;
+	margin: 5% 5% 0%;
+	color:grey;
+	text-align: left;
+	font-size: 25px;
+	
+
+	
+
+	
+
+}
+
+.logo1 {
+	width: 20%;
+	display:inline-block;
+	float:right;
+	position: relative;
+	top: -16px;
+	right:60px;
+	
+	
+	
+	
+	
+	
+	
+}
+
+header {width: 80%;
+	display:inline-block;
+	word-spacing: 20px;
+	margin: 6% 1%;
+	color:black;
+	font-size: xx-large;
+	position: relative;
+	left: 180px;
+	bottom: -50px;
+	
+
+	
+}
+ #started {
+	 display: inline-block;
+	 border:1px solid grey;
+	 font-size: 15px;
+	 text-align: center;
+	 width: 15%;
+	 height: 25%;
+	 position: relative;
+	top: 40px;
+	left:-310px;
+	padding: 1% 1% 1% 1%;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	
+ }
+.picc {
+	
+	display: inline-block;
+	margin-left: 50%;
+	margin-bottom: -10%;
+	position: relative;
+	top: -400px;
+	right: -20px;
+	position: relative;
+	
+	
+}
+
+
+
+
+.innovation {
+	
+	font-size: 80px;
+	display: inline-block;
+	position: relative;
+	top: 65px;
+	text-align: center;
+	
+}
+
+#features {
+	width:49%;
+	display:inline-block;
+	text-align: left;
+	font-size: 25px;
+}	
+#about {
+	width: 49%;
+	display:inline-block;
+	text-align:left;
+	font-size: 25px;
+	margin-top: 5%;
+	
+}
+.top-section {
+	width: 70%;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	top: -300px;
+	right: -70px;
+	text-align: center;
+	border-top: 2px solid black;
+	
+}
+.pic2 {
+	width: 50%;
+	display: inline-block;
+	margin-top: -220%;
+	padding: 2% 10%;
+	position: relative;
+    right: 40px;
+}
+
+
+
+.bottom-content {
+	width: 70%;
+	display: inline-block;
+	margin-left: 10%;
+	position: relative;
+	top: 5%;
+	right: 70px;
+	
+	
+}
+
+#services {
+	width: 33%;
+	display: inline-block;
+	font-size: 25px;
+	
+}
+#product {
+	width:33%;
+	display: inline-block;
+	font-size: 25px;
+}
+#vision {
+	width: 33%;
+	display: inline-block;
+	font-size: 25px;
+}
+.contact {
+	font-size: 25px;
+}
+#footer {
+	text-align: center;
+	Margin: 10% 10%;
+}
