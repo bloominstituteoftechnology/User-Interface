@@ -18,3 +18,33 @@ a{
     font-family:serif;
     color:lightgrey;
 }
+
+.row {
+    display:flex;
+    
+}
+
+.column{
+    flex:50%;
+    padding:10px;
+    
+}
+
+h1 { font-family: "Arial Black", "Arial Bold", sans-serif; 
+    font-size: 49px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 49px; 
+    letter-spacing: -5
+
+}
+
+
+.btn-get-started, .btn-gets-tarted-white:hover{
+    color:#000!important;
+    background-color: #fff!important;
+    border: 1px solid #ccc!important;
+    margin-left: 120px;
+    height: 30px;
+}
