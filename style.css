@@ -1,7 +1,10 @@
 *{
 /* all selector */    
 }
-
+body{
+     border: 1px solid #000!important;
+      padding:10px;
+}
  .nav li {
 /* targets unordered list and creates class "nav"*/
     font-size: 16px;
@@ -41,10 +44,11 @@ h1 { font-family: "Arial Black", "Arial Bold", sans-serif;
 }
 
 
-.btn-get-started, .btn-gets-tarted-white:hover{
+a.container, .btn-get-started, .btn-gets-tarted-white:hover {
     color:#000!important;
     background-color: #fff!important;
-    border: 1px solid #ccc!important;
-    margin-left: 120px;
+    border: 1px solid #000!important;
+    margin-left: 65px;
     height: 30px;
+    width: 200px;
 }
