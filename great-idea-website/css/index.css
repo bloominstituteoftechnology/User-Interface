@@ -53,6 +53,7 @@ table {
 
 html, body {
 	height: 100%
+	width: 50%;
 	font-family: 'Titillium Web', sans-serif;
 }
 
@@ -75,6 +76,7 @@ h1, h2, h3, h4, h5 {
 p{
 	font-size:20px;
 }
+
 
 h2{
 	font-size:20px;
@@ -105,7 +107,6 @@ header nav a{
 #top .container{
 	display:inline-block;
 	width: 50%;
-	padding-top: 10%;
 }
 
 #top p{
@@ -128,6 +129,7 @@ header nav a{
 	display:inline-block;
 	width: 100%;
 	padding: 2%;
+	border-top: 1px solid black;
 }
 
 .features{
@@ -170,14 +172,17 @@ header nav a{
 
 address{
 	display:inline-block;
-	padding-top:2%;
+	padding-top:5%;
 	width: 100%;
+	border-top: 1px solid black;
+	margin-top: 30px;
 }
 
 address p{
-	line-height: normal;
+	line-height: 1.6;
 }
 
 footer{
+	padding-top: 25px;
 	text-align: center;
 }
