@@ -71,10 +71,14 @@ h1, h2, h3, h4, h5 {
 nav.navigation{
 	margin: 0 -16%;
 }
+a {
+	text-decoration: none;
+}
 
 .container{
 	width: 900px;
 	margin: auto;
+	
 }
 
 header {
