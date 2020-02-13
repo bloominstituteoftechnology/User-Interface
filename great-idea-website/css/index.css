@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* <!-- top header menu + great idea company logo on top --> */
+.royalBlue{
+	box-sizing: inline-block;
+	width: 100%;
+	background-color: #4287f5;
+	position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+
+.toplinks{
+	width: 60%;
+	display:inline-block;
+	background-color: #4287f5;
+
+}
+
+.toplinks a{
+	margin: 0 3 5 15;
+	padding: 35px;
+	text-align:center;
+	background-color: #4287f5;
+
+}
+
+.greatidea{
+	width:30%;
+	display: inline-block;
+	text-align:right;
+	padding: 2% 0 0 0;
+	margin: 2 3 5 5;
+}
+/* <!-- Call to action phrase w opt in box and circle image section  */
+.cta1{
+	width: 100%;
+}
+
+.container1{
+	display:inline-block;
+	font-size: 60px;
+	text-align: center;
+	width:40%;
+	margin:10%;
+}
+
+button{
+	display:inline-block;
+	font-size: 30px;
+	border: solid black 1px;
+	text-align: center;
+	width: 50%;
+	margin:10%;
+}
+
+.banner{
+	display:inline-block;
+	/* text-align:center;
+	width:35%;
+	border:1px solid blue; */
+	position: absolute;
+	top:200px;
+}
+
+/* <!-- services and other jargon section --> */
+
+.services2{
+	width:80%;
+	border-top:1px solid black;
+	margin:0 auto;
+}
+
+.features{
+	display:inline-block;
+	padding-top:10px;
+	width:45%;
+	margin-bottom: 30px;
+}
+.about{
+	display:inline-block;	
+	padding-top:10px;
+	width:45%;
+	margin-bottom: 30px;
+}
+
+.banner2{
+	display:inline-block;
+	width:100%;
+	align-items: center;
+}
+
+/* under the computer banner content */
+
+.services4{
+	display:inline-block;
+	width: 100%;
+	align-items: flex-end;
+}
+
+
+div.services3{
+	display: inline-block;
+	width:25%;
+	border-bottom: 1px solid black;
+	margin-left: 125px;
+	margin-top: 20px;
+}
+
+.product{
+	display: inline-block;
+	width:25%;
+	border-bottom: 1px solid black;
+}
+
+.vision{
+	display: inline-block;
+	width:25%;
+	border-bottom: 1px solid black;
+}
+/* FOOOOOOTER */
+
+.feet{
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 40px;
+	margin-left:125px;
+	margin-bottom: 30px;
+}
+
+.copyright{
+	width:100%;
+	text-align:center;
+}
