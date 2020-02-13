@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid grey;
+	box-sizing:border-box;
+  	padding:0;
+  	margin:0;
+  	max-width:100%; 
 }
 
 html, body {
@@ -64,3 +69,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation a {
+	color: grey;
+	margin : 20px
+}
+.main-heading {
+	font-size: 50px;
+}
