@@ -93,11 +93,14 @@ nav a{
 #headingsection { 
 	text-align: center;
 	padding: 2%;
+	width: 97%;
 }
 
 .headercontainer {
 	display: inline-block;
 	margin: 0 auto;
+	width: 35%;
+	
 	
 
 }
@@ -109,16 +112,15 @@ nav a{
 }
 
 .getStarted {
-	border: 1px solid gray;
-	/*font-size: 25px;*/
-	color: gray;
-	margin: 0 auto;
-	width: 50%;
-	padding-top: 4%;
+	border: 2px solid black;
+	background-color: white;
+	color: grey;
+	padding: 14px 28px;
+	font-size: 16px;
+	display: inline-block;
 	text-decoration: none;
+	color: grey;
 	
-	
-
 }
 
 
@@ -127,7 +129,7 @@ nav a{
 .headImg {
 	display: inline-block;
 	margin: 0 auto;
-	padding-left: 8%;
+	padding-left: 24%;
 }
 
 /*Main content area paragraphs and image*/
@@ -136,14 +138,14 @@ nav a{
 	text-align:center;
 	border-top: 2px grey solid;
 	border-bottom: 2px grey solid;
-	width: 99%;
+	width: 91%;
 	
 }
 
 .features {
 	display: inline-block;
 	margin: 0 auto;
-	width: 40%;
+	width: 47%;
 	text-align:left;
 	padding: 1%;
 }
@@ -166,7 +168,7 @@ nav a{
 .services{
 	display: inline-block;
 	margin: 0 auto;
-	width: 29%;
+	width: 31%;
 	text-align:left;
 	padding: 3%;
 }
@@ -174,7 +176,7 @@ nav a{
 .product{
 	display: inline-block;
 	margin: 0 auto;
-	width:27%;
+	width:31%;
 	text-align:left;
 	padding: 2%;
 }
@@ -182,31 +184,35 @@ nav a{
 .vision {
 	display: inline-block;
 	margin 0 auto;
-	width: 27%;
+	width: 29%;
 	text-align: left;
 	padding: 2%;
 }
 
+
+.minicont1 {
+
+}
 /*footer styles for all those things.*/
 
 
-}
+
 .contact {
 	text-align: left;
 	display: inline-block;
 	margin: 0 auto;
 	text-decoration: none;
-	line-height: 
+	padding-left: 7%; 
 }
 
 .phone{
 	display: inline-block;
-    padding-top: 1%
+    padding-top: 10%
 }
 
 .email{
 	display: inline-block;
-  	padding-top: 1%
+  	padding-top: 10%
 }
 
 .copyright{
@@ -220,4 +226,8 @@ nav a{
 footer {
 	margin: 0 auto;
 	padding-top: 2%;
+}
+
+a {
+	text-decoration: none;
 }
