@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Styles for your header */
+* { 
+	boerder: 1px solid blue; 
+}
+
+nav a{
+	text-decoration: none;
+	margin-left: 6%;
+}
+.logo{
+	margin-left: 5%;
+}
+
+.container{
+	width: 900px;
+	margin: 50px auto 100px auto;
+}
+.intro{
+	display: inline-block;
+	width: 100%;
+	margin: 20% 0;
+}
+button{
+	text-decoration: none;
+}
+.title-section {
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	/* margin: 0 0 0 0; */
+}
+.circle-pic{
+	display: inline-block;
+	width: 10%;
+	margin: 1px 0;
+}
+.title-section h1{
+	font-size: 80px;
+}
+.mid-border{
+	border: 1px solid black;
+	margin: 3% 0;
+}
+
+.top-mid{
+	display: inline-block;
+	width: 100%;
+	margin: 15% 0;
+}
+.ft h2{
+	text-align: left;
+}
+.ft p{
+	text-align: left;
+}
+
+.ft{
+
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin: 5% 0 5% 0;
+}
+.abt h2{
+	text-align: left;
+}
+.abt p{
+	text-align: left;
+}
+
+.abt{
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+	margin: 5% 0 5% 0;
+}
+.midPic{
+	margin: 2% 0
+}
+.bottomMid{
+	display: inline-block;
+	width: 100%;
+	margin: 15% 0;
+}
+.services{
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+	margin: 5% 0 5% 0;
+}
+.services h2{
+	text-align: left;
+}
+.services p{
+	text-align: left;
+	margin: 0 2% 0 0;
+}
+.products{
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+	margin: 5% 0 5% 0;
+}
+.products h2{
+	text-align: left;
+}
+.products p{
+	text-align: left;
+	margin: 0 2% 0 0;
+}
+.vision {
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+	margin: 5% 0 5% 0;
+}
+.vision h2{
+	text-align: left;
+}
+.vision p{
+	text-align: left;
+	margin: 0 2% 0 0;
+}
+footer{
+	text-align: center;
+	font-size: 12px;
+}
