@@ -65,15 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /* <!-- top header menu + great idea company logo on top --> */
-header nav{
-	box-sizing: border-box;
-	width: 100%
+.royalBlue{
+	box-sizing: inline-block;
+	width: 100%;
+	background-color: #4287f5;
+	position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
 }
 
 .toplinks{
 	width: 60%;
 	display:inline-block;
-	
+	background-color: #4287f5;
 
 }
 
@@ -81,6 +84,8 @@ header nav{
 	margin: 0 3 5 15;
 	padding: 35px;
 	text-align:center;
+	background-color: #4287f5;
+
 }
 
 .greatidea{
@@ -92,9 +97,7 @@ header nav{
 }
 /* <!-- Call to action phrase w opt in box and circle image section  */
 .cta1{
-	box-sizing: border-box;
 	width: 100%;
-	border:3px solid green;
 }
 
 .container1{
@@ -126,68 +129,66 @@ button{
 /* <!-- services and other jargon section --> */
 
 .services2{
-	box-sizing: border-box;
-	width:100%;
+	width:80%;
+	border-top:1px solid black;
+	margin:0 auto;
 }
 
 .features{
 	display:inline-block;
-	border-top: 1px solid black;
-	width:45%
+	padding-top:10px;
+	width:45%;
+	margin-bottom: 30px;
 }
 .about{
-	display:inline-block;
-	border-top: 1px solid black;
-	width:45%
+	display:inline-block;	
+	padding-top:10px;
+	width:45%;
+	margin-bottom: 30px;
 }
 
 .banner2{
 	display:inline-block;
-	position: relative;
-	left: 100px;
-	top: 50px;
+	width:100%;
+	align-items: center;
 }
 
 /* under the computer banner content */
 
 .services4{
-	box-sizing: border-box;
+	display:inline-block;
 	width: 100%;
+	align-items: flex-end;
 }
 
-.services3{
-	box-sizing: inline-block;
-	position: relative;
-	top:125px;
-	left:350px;
-	width:30%;
+
+div.services3{
+	display: inline-block;
+	width:25%;
 	border-bottom: 1px solid black;
+	margin-left: 125px;
+	margin-top: 20px;
 }
 
 .product{
-	box-sizing: inline-block;
-	width:30%;
-	position:relative;
-	bottom: -15px;
-	left: 0px;
+	display: inline-block;
+	width:25%;
 	border-bottom: 1px solid black;
-
 }
 
 .vision{
-	box-sizing: inline-block;
-	width:30%;
-	position: relative;
-	bottom: 100px;
-	left:700px;
+	display: inline-block;
+	width:25%;
 	border-bottom: 1px solid black;
-
 }
 /* FOOOOOOTER */
 
-.footer{
+.feet{
 	box-sizing: border-box;
 	width: 100%;
+	margin-top: 40px;
+	margin-left:125px;
+	margin-bottom: 30px;
 }
 
 .copyright{
