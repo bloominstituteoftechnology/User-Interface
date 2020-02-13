@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border:0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -70,7 +70,7 @@ padding: 50px;
 }
 header{
 	height: 100px;
-
+	
 }
 header nav{
 	width: 70%;
@@ -80,19 +80,23 @@ header nav{
 	
 }
 header nav a{
-padding-left: 30px;
+padding-left: 7%;
 align-items: center;
 text-decoration: none;
 color: lightgrey;
 vertical-align: middle;
+
+font-size: 1.1rem;
 }
 
 
 
  .logo{
 display: inline-block;
-margin-left: 50px;
+width: 200px;
 vertical-align: middle;
+
+float: right;
 }
 
 /*pic/button*/
@@ -102,9 +106,10 @@ vertical-align: middle;
 }
 .main .left {
 	display: inline-block;
-	width: 49%;
+	width: 400px;
 	padding: 40px;
 	vertical-align: middle;
+	
 }
 h1{
 	font-size: 5rem;
@@ -112,16 +117,24 @@ h1{
 }
 .main .right{
 	display: inline-block;
-width: 50%;
-vertical-align: middle;
+	width: 410px;
+
+float: right;
+
 }
 .main .right img{
 		width: 100%;
 	padding: 40px;
-}
+	
 
+}
+.btn{
+	
+	
+	
+}
 button{
-	margin-left: 18%;
+	margin-left: 50px;
 	padding: 10px 70px 10px 70px;
 	background-color: white;
 	border-color: black;
@@ -141,11 +154,13 @@ button{
 	display: inline-block;
 	width: 49%;
 	padding: 40px;
+	padding-left: 0;
 }
 .toptext .right{
 	display: inline-block;
 	width: 49%;
 	padding: 40px;
+	padding-left: 0;
 }
 .middle-img{
 	width: 100%;
@@ -158,16 +173,19 @@ button{
 	display: inline-block;
 	width: 33%;
 	padding: 20px;
+	padding-left: 0;
 }
 .bottomtext .middle{
 	display: inline-block;
 	width: 33%;
 	padding: 20px;
+	padding-left: 0;
 }
 .bottomtext .right{
 	display: inline-block;
 	width: 33%;
 	padding: 20px;	
+	padding-left: 0;
 }
 footer{
 	padding-top: 30px;
