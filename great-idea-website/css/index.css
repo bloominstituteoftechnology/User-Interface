@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*Code of the header*/
+body {
+	width: 1200px;
+	margin: 50px;
+}
+header {
+	width: 100%;
+}
+header nav {
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+}
+
+a{
+	display: inline-block;
+	margin: 10px 90px 3px 10px;
+	font-size:15px;
+	color: grey;
+	text-decoration: none;
+}
+img {
+	clear: right;
+}
+
+/*code for the section: innovations*/
+.innovation {
+	width: 100%;
+		margin: 10% 0px;
+
+}
+
+.innovation div{
+	text-align: center;
+	width: 75%;
+}
+h1 {
+	
+	font-size: 80px;
+}
+
+.getstarted{
+	display: inline-block;
+	height: 30px;
+	padding: 4px 5px;
+	border: 1px solid black;
+	color: black;
+	font-size: 17px;
+	margin: 0% 30% 0% 30%;
+}
+
+.innovation img {
+	display:inline-block;
+    width: 25%;
+    margin-right: auto;
+}
+
+/*Sections featureAbout*/
+
+.featureabout{
+	width: 100%;
+	
+}
+
+.featureabout p{
+	font-size: 17px;
+}
+
+.featureabout div{ 
+	display: inline-block;
+	width: 45%;
+	margin: 10px 0px 25px 55px; 
+}
+/*Working on section four with service, product, and vision*/
+.sectionf {
+	display: inline-block;
+	width: 100%;
+	margin: 40px 2px 40px 2px;
+}
+
+.fourservice{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: 2px;
+}
+
+.fourproduct{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: 2px;
+
+}.fourvision{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: 2px;
+}
+
+/*Footer information*/
+footer {
+	width: 100%;
+}
+address{
+	display: inline-block;
+	width: 25%;
+}
+footer p{
+	text-align: center;
+}
