@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +66,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header div{
+display:inline-block;
+}
+
+.links{
+	width: 10%;
+	margin: 0 1% 0 0;
+}
+#logo{
+	margin:0  0 0 75%;
+}
+
+#upperHalf section{
+	display: inline-block;
+}
+#lowerHalf{
+	
+}
+#leftside{
+margin:0 0 0 5%;
+}
+#leftside div{
+	display: block;
+}
+#tagline{
+	margin:30% 20% 10% 20%;
+	font-size: 70px;
+} 
+#start{
+	text-align: center;
+	margin:0 20% 30% 20%;
+}
+#topThird{
+	height:32%;
+}
+.middle-img{
+	
+	margin:0 10%;
+}
+
+#bottomThird{
+	height:32%;
+}
+#topThird div{
+	display: inline-block;
+	width: 49%;
+	
+}
+
+
+#bottomThird div{
+	display: inline-block;
+	width: 32%;
+}
+#Contact{
+	width: 12%;
+}
+footer{
+	text-align: center;
+}
