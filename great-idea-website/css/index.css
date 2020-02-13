@@ -67,11 +67,12 @@ h1, h2, h3, h4, h5 {
 .navigation{
 	display:inline-block;
 	margin:auto;
-	
+	width:20%;
 }
 .header{
 	display:inline-block;
 	margin:auto;
+	width:20%;
 }
 .button{
 	display:inline-block;
