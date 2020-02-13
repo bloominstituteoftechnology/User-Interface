@@ -70,9 +70,7 @@ h1, h2, h3, h4, h5 {
 	margin:0;
 	/* border:1px solid red; */
 	max-width:100%;
-}
-
-
+	
 p{
 	font-size:20px;
 }
@@ -101,6 +99,7 @@ header nav a{
 
 .logo{
 	margin-left: 80%;
+	border-top: 1px solid black;
 	max-width:100%;
 }
 
