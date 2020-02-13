@@ -64,3 +64,29 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation{
+	display:inline-block;
+	margin:auto;
+	width:20%;
+}
+.header{
+	display:inline-block;
+	margin:auto;
+	width:20%;
+}
+.button{
+	display:inline-block;
+	margin:auto;
+}
+.section1{
+	display:inline-block;
+	margin:auto;
+}
+.section2{
+	display:inline-block;
+	margin:auto;
+}
+.foot{
+	display:inline-block;
+	text-align:left;
+}
