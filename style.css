@@ -8,7 +8,7 @@ body{
  .nav li {
 /* targets unordered list and creates class "nav"*/
     font-size: 16px;
-    color:lightgrey;
+    color:grey;
     text-decoration: none;
     padding: 20px;
     display:inline-block;
@@ -20,6 +20,10 @@ a{
    text-decoration: none; 
     font-family:serif;
     color:lightgrey;
+}
+
+a:hover{
+    color:darkred;
 }
 
 .row {
@@ -65,4 +69,46 @@ a.container, .btn-get-started, .btn-gets-tarted-white:hover {
     margin-left: 65px;
     height: 30px;
     width: 200px;
+}
+
+ .wrapper{
+  font-size: 1rem;
+  display: inherit;
+  height: 100%;
+  width: calc(100% / 3);
+  margin: 0;
+  padding: 0;
+}
+#d1{
+       font-size: 1rem;
+    display: inline-block;
+    height: 100%;
+    width: calc(100% / 3);
+    margin: 0;
+    padding: 0;
+    
+    float: left;
+}
+
+.clear{
+     overflow: auto;
+    clear:both;
+}
+
+#d2{
+  font-size: 1rem;
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  margin: 0;
+  
+}
+
+#d3{
+    font-size: 1rem;
+    display: inherit;
+    height: 100%;
+    width: calc(100% / 3);
+    margin: 0;
+    padding: 0;
 }
