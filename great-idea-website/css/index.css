@@ -72,6 +72,9 @@ body{
 h1{
 	font-size:50px;
 }
+hr{
+	width:78%;
+}
 /* Nav styles */
 header nav{
 	width:100%;
@@ -95,8 +98,8 @@ nav a{
 	margin:0 4%;
 }
 .first-section{
-	margin-top:2%;
-	margin-bottom:2%;
+	margin-top:5%;
+	margin-bottom:10%;
 }
 .main-title{
 	display:inline-block;
