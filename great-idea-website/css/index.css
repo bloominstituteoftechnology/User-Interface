@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,8 +52,8 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +63,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	/* border:1px solid red; */
+	max-width:100%;
+}
+
+
+p{
+	font-size:20px;
+}
+
+h2{
+	font-size:20px;
+}
+
+.links{
+	display:inline-block;
+	width:40%;
+	color: grey;
+
+}
+
+header{
+	display:inline-block;
+	width:100%;
+}
+header nav a{
+	width:70%;
+	text-decoration:none;
+	padding: 15px;
+}
+
+.logo{
+	margin-left: 80%;
+	max-width:100%;
+}
+
+#top .container{
+	display:inline-block;
+	width: 50%;
+	padding-top: 10%;
+}
+
+#top p{
+	display:inline-block;
+	width: auto;
+	margin-left:275px;
+	margin-bottom:50px;
+	padding: 10px 15px;
+	border: 1px solid black;
+}
+
+#top h1{
+	font-size: 50px;
+	text-align: center;
+	padding: 15px;
+}
+
+
+#middletop .container{
+	display:inline-block;
+	width: 100%;
+	padding: 2%;
+}
+
+.features{
+	display:inline-block;
+	width:49%;
+}
+
+.about{
+	display:inline-block;
+	width:49%;
+}
+
+.middle-img{
+	display:inline-block;
+	margin: 25px auto;
+	width: 100%;
+	height: 180px;
+}
+
+#middlebottom .container2{
+	display:inline-block;
+	width: 100%;
+	padding: 2%;
+}
+
+.services{
+	display:inline-block;
+	width:33%;
+}
+
+.product{
+	display:inline-block;
+	width:33%;
+}
+
+.vision{
+	display:inline-block;
+	width:33%;
+}
+
+address{
+	display:inline-block;
+	padding-top:2%;
+	width: 100%;
+}
+
+address p{
+	line-height: normal;
+}
+
+footer{
+	text-align: center;
+}
