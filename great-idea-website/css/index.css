@@ -138,7 +138,6 @@ table {
 * {
 	box-sizing: border-box;
 	max-width: 100%;
-	border: 1px solid red;
 }
 
 html,
@@ -159,24 +158,20 @@ h5 {
 
 /* Your code starts here! */
 
-nav {
-	max-width: 100%;
-	color: red;
-	width: 100%;
-}
 
 nav a {
 	display: inline-block;
 	letter-spacing: 2px;
 	margin: 20px;
 	text-align: right;
+	vertical-align: top;
 
 }
 
 .logo {
 	position: reletive;
 	margin: 10px;
-
+	vertical-align: top;
 }
 
 .links {
@@ -186,10 +181,7 @@ nav a {
 	text-decoration: none;
 }
 
-#section1 {
 
-	background: yellow;
-}
 
 #section,
 h1 {
@@ -202,11 +194,21 @@ h1 {
 }
 
 .top-image {
-	margin: 0 10%;
+	position: absolute;
+	top: 10%;
+	left: 70%;
+	/* display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-top: -14%;
+	margin-bottom: 10%;
+	margin-right: 10%; */
+
+	/* margin: 0 10%;
 	width: 20%;
 	margin-top: -20%;
-	padding: 3% 0;
-	float: right;
+	
+	float: right; */
 }
 
 #section .container,
@@ -219,10 +221,63 @@ button {
 
 }
 
-.top-content div {
+.top-content {
+
+	margin: 3%;
+	;
+	padding: 10px;
+
+}
+
+.bottom-content {
+
+	margin: 3%;
+	;
+	padding: 10px;
+
+}
+
+.features {
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 42%;
+}
+
+.about {
+	display: inline-block;
+	margin-left: 5%;
+	width: 42%;
+}
+
+.middle-img {
+	display: inline-block;
+	width: 90%;
+	margin: 0 10%;
+	margin-left: 5%;
+
+}
+
+.one {
+	display: inline-block;
+	width: 28%;
+	margin-left: 5%;
+}
+
+.two {
+	display: inline-block;
+	width: 28%;
+	margin-left: 5%;
+}
+
+.three {
+	display: inline-block;
+	width: 28%;
+	margin-left: 5%;
+}
+
+.contact {
 	display: inline-block;
 	width: 20%;
-	margin: 0 10%;
-	padding: 10px;
-	float: right;
+	margin-left: 5%;
 }
