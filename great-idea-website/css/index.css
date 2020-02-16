@@ -65,4 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header nav{
+	color: red;
+	display: inline-block;
+	word-spacing: 10px;
+}
 
+header{
+	display: block;
+	margin: auto;
+}
