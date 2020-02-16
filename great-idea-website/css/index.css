@@ -64,14 +64,52 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-header nav{
-	color: red;
+/*
+for layout we can only use:
+the box model (content, padding, margin, border) and display:inline-block.
+ */
+header{
+	width: 1920px;
+}
+header a{
+	color: green;
+	padding: 0px 75px 0px 75px;
+	text-decoration: none;
+}
+.logo{
 	display: inline-block;
-	word-spacing: 10px;
+	padding: 10px 60px 0px 30px;
+	margin: auto;
 }
 
-header{
-	display: block;
+header nav{
+	display: inline-block;
+	text-align: center;
 	margin: auto;
+}
+
+.getStarted{
+	text-align: center;
+	vertical-align: center;
+}
+
+.getStarted h1{
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 48px;
+	padding: 50px;
+}
+
+.getStarted button{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.getStarted img{
+	display: inline-block;
+	padding: 50px 0px 50px 0px;
 }
