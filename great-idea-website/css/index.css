@@ -68,11 +68,12 @@ h1, h2, h3, h4, h5 {
 for layout we can only use:
 the box model (content, padding, margin, border) and display:inline-block.
  */
+
+
 header{
 	width: 1920px;
 }
 header a{
-	color: green;
 	padding: 0px 75px 0px 75px;
 	text-decoration: none;
 }
@@ -112,4 +113,11 @@ header nav{
 .getStarted img{
 	display: inline-block;
 	padding: 50px 0px 50px 0px;
+}
+
+
+
+.middleContent{
+	border-top: 2px solid lightgrey;
+	padding: 0px 10px 0px 10px;
 }
