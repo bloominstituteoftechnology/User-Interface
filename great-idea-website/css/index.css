@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*Nav and logo.............*/
+#main{
+	margin: auto;
+	max-width: 80%;
+	border: 1px solid lightgrey;
+	padding: 5px 10px;
+}
+
+
+nav{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: lightgrey;
+	padding-right: 60px;
+
+}
+
+.logo{
+	display: inline-block;
+	padding: 70px 0 5px 70px;
+	align-items: right;
+
+}
+
+
+/*header and image..........*/
+header{
+	padding: 5% 0 5% 0;
+}
+
+header h1{
+	font-size: 5em;
+	text-align: center;
+}
+
+.header-text{
+	display: inline-block;
+	padding: 5px 20px 5px 80px ;
+	max-width: 45%;
+}
+
+header img{
+	display: inline-block;
+	padding-left: 10%;
+	margin: auto;
+	max-width: 45%;
+}
+
+button{
+	font-size: 1em;
+	border: 1px solid grey;
+	margin: auto;
+	margin-left: 90px;
+	padding: 5px 40px;
+	border-radius: 5px;
+}
+
+
+.section-text-1 div{
+	display: inline-block;
+	max-width: 45%;
+	text-align: left;
+	padding: 30px;
+}
+
+.section-text-1{
+	margin: auto;
+	max-width: 100%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.middle-img{
+	padding: 5px 30px;
+	max-width: 100%;
+}
+
+.section-text-2 div{
+	display: inline-block;
+	max-width: 30%;
+	text-align: left;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+hr{ 
+	max-width: 95%;
+ }
+
+ .contact{
+ 	padding: 30px;
+ }
+
+ footer{
+ 	padding:150px;
+ 	text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
