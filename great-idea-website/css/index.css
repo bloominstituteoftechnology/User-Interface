@@ -64,3 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+a {
+	color: gray;
+	margin: 10px;
+	display:inline-block;
+}
+.header{
+	display: inline-block;
+	margin: 50px;
+	padding: 50px;
+}
