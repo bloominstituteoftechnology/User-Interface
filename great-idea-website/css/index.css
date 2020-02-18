@@ -82,6 +82,31 @@ body {
 	position: right;
 	 }
 
+.top-left {
+	width: 40%;
+	margin: 40px;
+	display: inline-block;
+
+}
+
+h1 {
+	font-size: 70px;
+	padding-top:50px;
+	text-align: center;
+	display: inline-block;
+}
+
+button {
+	display: block;
+	margin-left: 90px;
+	width: 125px;
+	background-color: white;
+	border: 1px solid black;
+
+
+	
+}
+
 	 
  
 
