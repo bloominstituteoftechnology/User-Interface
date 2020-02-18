@@ -71,7 +71,7 @@ the box model (content, padding, margin, border) and display:inline-block.
 
 
 header{
-	width: 1920px;
+	width: 100%;
 }
 header a{
 	padding: 0px 75px 0px 75px;
@@ -95,15 +95,21 @@ header nav{
 }
 
 .getStarted h1{
-	display: inline-block;
-	width: 200px;
+	display: block;
+	width: 200px;/*explicit pixels here to force new line for each word. It's a hacky solution I'm sure :]*/
 	text-align: center;
 	font-size: 48px;
 	padding: 50px;
 }
 
-.getStarted button{
+.getStarted .column{
 	display: inline-block;
+	width: 47%;
+	margin: 0 2%;
+}
+
+.getStarted button{
+	display: block;
 	width: 200px;
 	height: 50px;
 	background-color: white;
@@ -119,5 +125,45 @@ header nav{
 
 .middleContent{
 	border-top: 2px solid lightgrey;
-	padding: 0px 10px 0px 10px;
+	padding: 0 1% 0 1%;/*todo: put all padding on the body instead of individual elements. Except where needed...*/
+	display: block;
+	margin: 10px;
+	border-bottom: 2px solid lightgrey;
+}
+
+.middleContent .column1{
+	width: 100%;
+	display: block;
+	margin: 1%;
+}
+
+.middleContent .column2{
+	width: 100%;
+	display: block;
+	margin: 1%;
+}
+
+.middleContent .column1 section{
+	display: inline-block;
+	width: 47%;
+	margin: 0 1%;
+}
+
+.middleContent .column2 section{
+	display: inline-block;
+	width: 27%;
+	margin: 0 2%;
+}
+
+.middle-img{
+	display: block;
+	margin: auto;
+}
+
+.contact{
+
+}
+
+.copyright{
+	text-align: center;
 }
