@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* NAVIGATION */
+
+nav{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 125px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightslategrey;
+    margin-right: 60px;
+}
+
+.logo {
+    margin-top: 15px;
+}
+/* HEADER*/
+
+
+#intro {
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+
+#intro h1 {
+    font-size: 75px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    
+}
+
+#intro p {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 19%;
+    width: 150px;
+    height: 30px;
+    padding: 7px;  
+    border: 1px solid black;
+}
+
+/* FIRST SECTION */
+
+#top-part {
+    margin: 20px 0 20px 115px;
+}
+
+.two-col{
+    width: 43%;
+    display: inline-block;
+    margin: 5px;
+}
+
+hr {
+    width: 78%;
+}
+
+.middle-img {
+    margin-left: 120px;
+}
+
+
+/* SECOND SECTION */
+
+
+.three-col{
+    width: 29%;
+    display: inline-block;
+    margin-left: 2px;
+    padding: 1px;
+}
+
+#bottom-part {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+/* CONTACT */
+
+.contact {
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.contact p {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
