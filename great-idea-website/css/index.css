@@ -154,14 +154,11 @@ body {
   margin: auto;
   width: 900px;
   box-sizing: border-box;
-  
 }
 
 header {
   width: 900px;
   height: 70px;
-  /* border: 2px solid orange; */
-
   margin: 10px;
   text-align: center;
   padding-bottom: 40px;
@@ -171,12 +168,13 @@ nav {
   width: 600px;
   height: 50px;
   margin: 5px;
-  float: left;
+  display: inline-block;
   padding-top: 15px;
   text-align: center;
 }
+
 .logobox {
-  float: left;
+  display: inline-block;
   width: 250px;
   margin-top: 10px;
   text-align: right;
@@ -195,7 +193,6 @@ a:hover {
 }
 
 .sectionOne {
-  /* border: 2px dotted red; */
   height: 390px;
   width: 850px;
   padding: 5px;
@@ -203,13 +200,11 @@ a:hover {
 }
 
 .demand {
-	/* border: 1px solid blue;  */
-	width: 420px;
-	height:380px;
-	display: inline-block;
-	padding: 10px;
- 	text-align: center; 
-   	/* margin-left: 40px; */
+  width: 420px;
+  height: 380px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -226,25 +221,18 @@ button {
 
 .codepic {
   display: inline-block;
-  /* box-sizing: border-box; */
-  /* border: 1px solid yellow; */
   width: 300px;
-  /* margin-left: 0px; */
   vertical-align: top;
 }
 
 .sectionTwo {
   display: inline;
-  /* float: none; */
-  /* border: 2px solid blue; */
-  /* width: 850px; */
   padding: 30px;
 }
 
 div.features {
   width: 400px;
-  float: left;
-  /* border: 2px solid purple; */
+  display: inline-block;
   text-align: left;
   padding: 40px;
   margin-left: 60px;
@@ -252,8 +240,7 @@ div.features {
 
 div.about {
   width: 400px;
-  float: left;
-  /* border: 2px solid purple; */
+  display: inline-block;
   text-align: left;
   padding: 40px;
 }
@@ -267,7 +254,6 @@ div.about {
 
 .bot-content {
   width: 850px;
-  /* border: 2px purple solid; */
   margin: auto;
   padding: 10px;
   height: 200px;
