@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.intro {
+	width: 50%;
+}
+
+.top-part {
+    font-family: 'Titillium Web', cursive;
+}
+
+.two-col{
+    width: 45%;
+    float: left;
+    padding: 1px;
+    margin: 0 20px 0 25px;
+}
+
+.top-part:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.three-col{
+    width: 28%;
+    float: left;
+    margin: 0 20px 0 20px;
+    padding: 1px;
+}
+
+.bottom-part:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom-part {
+    font-family: 'Titillium web' , sans-serif;
+}
+
