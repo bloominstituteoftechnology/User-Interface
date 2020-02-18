@@ -102,9 +102,27 @@ button {
 	width: 125px;
 	background-color: white;
 	border: 1px solid black;
+}
 
+img {
+	padding-top: 50px;
+	position: center;
+}
+.About {
+	column-count: 2;
+	border-top: 1px solid black;
+}
+h4 {
+	padding-top: 50px;
+}
 
-	
+.middle-img {
+	width: 100%;
+}
+.bottom-text {
+	column-count: 3;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
 }
 
 	 
