@@ -67,4 +67,45 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	display: inline-block;
+	width: 80%;
+	text-align: center;
+
+}
+
+nav a {
+	margin-left: 5%;
+}
+
+nav img {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.first-section {
+	display: inline-block;
+	margin: 10%;
+	width: 20%;
+	height: 30%;
+	border: 3px black solid;
+}
+
+.cta-container {
+	width: 20%;
+}
+
+.second-section {
+	display:inline-block;
+}
+
+.sec1-article {
+	width: 30%;
+	height: 40%;
+	display: inline-block;
+	margin: 5%;
+}
+
+.middle-img {
+	text-align: center;
+	width: 80%;
+	margin: 5%;
+
 }
