@@ -101,18 +101,25 @@ header img.logo {
 .bottom-section div {
 	display: inline-block;
 	width: 30%;
+	margin: 0 2%;
 }
 
 .middle-img {
-	width: 100%;
+	width: 80%;
 }
 
-div .below-pic h3 p {
+.below-pic div {
 	display: inline-block;
 	width: 30%;
+	border: 1px solid green;
 }
 
 
 footer {
 	border: 2px solid blue;
+	margin: 1%;
+}
+
+footer p {
+	text-align: center;
 }
