@@ -30,10 +30,20 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 30px;
 }
-ol, ul {
-	list-style: none;
+
+
+
+ul li  {
+	display: inline-block;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	
+
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -64,3 +74,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+
+}
+
+nav a {
+	margin-left: 5%;
+}
+
+nav img {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.first-section {
+	display: inline-block;
+	margin: 5%;
+	width: 80%;
+	height: 40%;
+}
+
+.cta-container {
+	width: 50%;
+	font-size: 3rem;
+	text-align: center;
+	margin-left: 15%;
+}
+
+.button {
+	border: 3px solid black;
+	margin-top: 7%;
+	padding: 1%;
+	text-align: center;
+}
+
+.img1 {
+	width: 40%;
+	margin-left: 12%;
+	display: inline-block;
+	height: 40%;
+	
+}
+
+.second-section {
+	display:inline-block;
+}
+
+.sec1-article {
+	width: 30%;
+	height: 40%;
+	display: inline-block;
+	margin: 5%;
+}
+
+.middle-img {
+	text-align: center;
+	width: 80%;
+	margin-left: 5%;
+	display: inline-block;
+
+}
+
+.sec2-article {
+	width: 20%;
+	height: 30%;
+	margin: 5%;
+	display: inline-block;
+}
+
+.call-to-action {
+	display: inline-block;
+}
+
+.contact-section span {
+	margin-top: 5%;
+}
+
+.copyright {
+	margin-top: 5%;
+	text-align: center;
+}
