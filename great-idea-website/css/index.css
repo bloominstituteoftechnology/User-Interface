@@ -30,10 +30,20 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 30px;
 }
-ol, ul {
-	list-style: none;
+
+
+
+ul li  {
+	display: inline-block;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	
+
 }
+
 blockquote, q {
 	quotes: none;
 }
