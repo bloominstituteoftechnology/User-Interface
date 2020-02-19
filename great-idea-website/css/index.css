@@ -71,7 +71,11 @@ nav {
 	width: 75%;
 }
 
-h1 {
+a {
+	margin: 0 6%;
+}
+
+.top-section div p {
 	font-size: 4rem;
 }
 
@@ -79,12 +83,26 @@ h1 {
 .top-section {
 	border: 2px solid;
 	display: inline-block;
-	width: 50%;
+	width: 100%;
 }
 
 .bottom-section {
-	border: purple;
+	border: 2px solid purple;
 	display: inline-block;
+
+}
+
+.bottom-section div {
+	display: inline-block;
+	width: 25%;
+}
+
+.middle-img {
+	width: 100%;
+}
+.below-pic p {
+	display: inline-block;
+	width: 30%;
 }
 
 div {
