@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,26 +65,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo{
+	transition: transform .8s;
+}
+
+.logo:hover{
+	cursor: pointer;
+	transform: scale(1.55);
+}
 
 nav {
-	margin: 30px auto;
-	width: 80%;
+	width: 100%;
+  height: 120px;
+  padding: 10px 0px;
+  margin: 0px;
+  background: rgb(0,249,255);
+background: radial-gradient(circle, rgba(0,249,255,1) 0%, rgba(148,187,233,1) 100%);
+  text-align: center;
+  box-shadow: 0px 1px 10px black;
+  position: fixed;
+  top: 0px;
+  
 }
+
 
 .top-header ul li{
 
 	display: inline-block;
 	text-align: center;
 	width: 10%;
-	margin: 2%;
+	margin: 1%;
 	list-style-type: none;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	
+	}
+
+	.top-header ul li:hover{
+		transform: scale(1.15);
+		transition: 0.5s;
+		
+	}
+
+.box {
+  width:95%;
+  height: 450px;
+  margin: 200px auto;
+  background: lightgreen;
+  border-radius: 20px;
+	  }
+
+.box h2{
+	font-size: 100px;
+	padding: 30px;
+	text-align: center;
 }
 
+.box p{
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	margin: 1%;
+	list-style-type: none;
+	font-size: 40px;
+}
 .top-header ul li a{
 
 	text-decoration: none;
 	color: grey;
-    font-size: 16px;
+	font-size: 16px;
+	color: black;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Archivo Black', sans-serif;
+	
 }
 
 .title {
@@ -93,7 +148,7 @@ nav {
 	width: 51%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 50px
+	padding-top: 150px
 	
 }
 
@@ -103,13 +158,25 @@ nav {
 }
 
 .button {
-	border: 1px solid black;
+	border: 4px solid black;
+	border-radius: 20px;
 	padding: 7px 0px;
 	text-align: center;
 	display: block;
 	width: 17%;
 	margin: 20px auto;
 	font-weight: 600;
+	font-size: 30px;
+	transition: 0.8s;
+	text-decoration: none;
+}
+
+.button:hover{
+	cursor: pointer;
+	background: rgb(148,187,233);
+background: radial-gradient(circle, rgba(148,187,233,1) 100%, rgba(0,249,255,1) 100%);
+  color: white;
+  transform: scale(1.15);
 }
 
 .test {
@@ -130,6 +197,13 @@ nav {
 	display: block;
 	padding-bottom: 30px;
 	margin: 0px auto;
+	padding-top: 150px;
+	transition: 0.5s;
+}
+
+.round-image:hover{
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 .container-one {
@@ -156,6 +230,12 @@ nav {
 
 }
 
+h3:hover{
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: 0.3s;
+}
+
 .text-left {
 	text-align: left;
 }
@@ -174,6 +254,7 @@ nav {
 
 .footer-content .footer-info{
 	width: 10%;
+	font-size: 30px;
 }
 
 .footer-info a{
