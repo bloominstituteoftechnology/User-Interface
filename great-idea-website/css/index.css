@@ -73,8 +73,12 @@ h1, h2, h3, h4, h5 {
 nav {
 	display: inline-block;
 	margin-top:35px;
-	margin: 10px;
+	margin: 20px;
 	color: lightgray;
+	background: aqua;
+	color: black;
+	height: 60px;
+	position: fixed;
 }
 
 .logo {
@@ -82,7 +86,9 @@ nav {
 }
 
 nav a {
-	margin: 0 20px;
+	margin: 20px;
+	width: 70px;
+	height: 30px;
 }
 
 header h1 {
@@ -105,7 +111,7 @@ button {
 
 header-img. {
 	width: 200px;
-	height: 35px;
+	height: 20px;
 	margin: 0 50px;
 }
 
