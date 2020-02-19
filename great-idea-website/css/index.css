@@ -75,3 +75,58 @@ h1, h2, h3, h4, h5 {
 	width: 32%;
 	display: inline-block;
 }
+
+.logo{
+	position: absolute;
+  right: 100px;
+}
+
+.middle-img{
+text-align: center;
+}
+
+header {
+	margin: 5%;
+}
+#headerBox1{
+	width: 49%;
+	text-align: center;
+	font-size: 60px;
+}
+
+#headerBox2{
+	width: 49%;
+}
+
+header div{
+	display: inline-block;
+}
+
+
+
+.theDuo{
+	margin: 5%;
+}
+
+.theTrio{
+	margin: 5%;
+}
+
+.theImage{
+	text-align: center;
+}
+.copyright{
+	text-align: center;
+}
+
+footer{
+	margin: 5%
+}
+
+#headerBox1 button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+  }
