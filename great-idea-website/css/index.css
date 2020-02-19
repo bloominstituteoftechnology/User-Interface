@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	background-color: lightgreen;
+	display: inline-block;
+}
+
+section {
+	border: 2px solid;
+	display: inline-block;
+}
+
+div {
+	border: 2px solid red;
+}
+
+footer {
+	border: 2px solid blue;
+}
