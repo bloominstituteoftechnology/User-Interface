@@ -69,11 +69,16 @@ for layout we can only use:
 the box model (content, padding, margin, border) and display:inline-block.
  */
 
+body{
+	width: 60%;
+	margin: auto;
+}
+
 
 header{
 	width: 100%;
 }
-header a{
+/*header a{
 	padding: 0px 75px 0px 75px;
 	text-decoration: none;
 }
@@ -87,25 +92,26 @@ header nav{
 	display: inline-block;
 	text-align: center;
 	margin: auto;
+}*/
+
+header nav a, .logo{
+	display: inline-block;
+	width: 11%;
+	margin: 0 1%;
 }
 
 .getStarted{
 	text-align: center;
 	vertical-align: center;
+	margin: 2%;
 }
 
 .getStarted h1{
 	display: block;
 	width: 200px;/*explicit pixels here to force new line for each word. It's a hacky solution I'm sure :]*/
 	text-align: center;
-	font-size: 48px;
-	padding: 50px;
-}
-
-.getStarted .column{
-	display: inline-block;
-	width: 47%;
-	margin: 0 2%;
+	font-size: 80px;
+	/*padding: 50px;*/
 }
 
 .getStarted button{
@@ -116,9 +122,15 @@ header nav{
 	border: 1px solid black;
 }
 
+.getStarted .column{
+	display: inline-block;
+	width: 47%;
+	margin: 0 2%;
+}
+
 .getStarted img{
 	display: inline-block;
-	padding: 50px 0px 50px 0px;
+	/*padding: 50px 0px 50px 0px;*/
 }
 
 
@@ -161,9 +173,14 @@ header nav{
 }
 
 .contact{
+	padding: 1%;
+}
 
+.contact p{
+	padding: 5px 0;
 }
 
 .copyright{
 	text-align: center;
+	margin-bottom: 1%;
 }
