@@ -105,22 +105,24 @@ header div{
 
 
 .theDuo{
-	margin: 5%;
+	margin: 5% 10%;
 }
 
 .theTrio{
-	margin: 5%;
+	margin: 5% 10%;
 }
 
 .theImage{
 	text-align: center;
 }
+
 .copyright{
 	text-align: center;
+	margin: 5%
 }
 
 footer{
-	margin: 5%
+	margin: 15%;
 }
 
 #headerBox1 button {
@@ -130,3 +132,17 @@ footer{
 	text-align: center;
 	font-size: 16px;
   }
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 1em 4em;
+    padding: 0;
+}
+
+nav a{
+	margin: 2%;
+	text-decoration: none;
+	color: grey;
+}
