@@ -80,6 +80,11 @@ a {
 	font-size: 4rem;
 }
 
+header img.logo {
+	display: inline-block;
+
+}
+
 
 .top-section {
 	border: 2px solid;
@@ -101,9 +106,10 @@ a {
 .middle-img {
 	width: 100%;
 }
-.below-pic {
+
+.col-3 div {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 }
 
 div {
