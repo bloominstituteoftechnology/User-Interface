@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+nav {
+	display: inline-block;
+	margin-top:35px;
+	margin: 20px;
+	color: lightgray;
+	background: aqua;
+	color: black;
+	height: 60px;
+	position: fixed;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+nav a {
+	margin: 20px;
+	width: 70px;
+	height: 30px;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 55px;
+	margin: 50px;
+	width: 150px;
+	vertical-align: top;
+}
+
+button {
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 200px;
+	height: 35px;
+	margin: 0 50px;
+	background: none;
+}
+
+header-img. {
+	width: 200px;
+	height: 20px;
+	margin: 0 50px;
+}
+
+.top-content p {
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.into {
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	margin:120px;
+}
+
+
+h4 {
+	font-size: 25px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.bottom-content p {
+	display: inline-block;
+	width: 200px;
+	height: 75px;
+	text-align: left;
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.contact {
+	text-align: left;
+	font-size: 15px;
+}
+
+h5 {
+	text-align:left;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+}
+
