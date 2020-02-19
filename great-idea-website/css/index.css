@@ -78,26 +78,20 @@ body{
 header{
 	width: 100%;
 }
-/*header a{
-	padding: 0px 75px 0px 75px;
-	text-decoration: none;
-}
-.logo{
-	display: inline-block;
-	padding: 10px 60px 0px 30px;
-	margin: auto;
-}
-
-header nav{
-	display: inline-block;
-	text-align: center;
-	margin: auto;
-}*/
 
 header nav a, .logo{
 	display: inline-block;
 	width: 11%;
 	margin: 0 1%;
+}
+
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover{
+	color: green;
 }
 
 .getStarted{
