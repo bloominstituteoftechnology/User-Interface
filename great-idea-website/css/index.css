@@ -28,9 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
-}2
+}
 ol, ul {
 	list-style: none;
 }
@@ -64,3 +65,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Header */
+
+header {
+	text-align: center;
+	box-sizing: border-box;
+}
+
+header nav {
+	display: inline-block;
+	margin: 30px 0px;
+	width: 75%;
+}
+
+nav a {
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	text-decoration: none;
+	color: grey
+}
+
+/* Content1 section*/
+
+.content1 {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.content1 div {
+	display: inline-block;
+	width: 20%;
+}
+
+.content img {
+	width: 80%;
+	height:80%;
+}
+
+.content .left-content1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content1 .left-content1 h1 {
+	font-size: 80px;
+	margin-top: 10%;
+}
+
+button {
+	background-color: azure;
+	border-radius: 25%;
+	border: 1px solid black;
+	height: 35px;
+	width: 200px;
+	font-size: 20px;
+}
+
+
+/* Content2 */
+
+.content2 {
+	text-align: center;
+	/*margin: 50%; */
+	margin: 20px 0px 20px 0px;
+}
+
+.content2 div {
+	display: inline-block;
+	text-align: left;
+	width: 45%;
+}
+
+.bigimage {
+	text-align: center;
+}
+
+.content3 {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.content3 div {
+	display: inline-block;
+	text-align: left;
+	width: 33%
+}
+
+/* Contacts */
+
+.contact-section {
+	text-align: left;
+	width: 94%;
+	margin-left: 5%;
+}
+
+.contact-section div {
+	width: 92%;
+}
+
+.copyright {
+	text-align: center;;
+}
