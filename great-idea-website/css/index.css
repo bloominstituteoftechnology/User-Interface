@@ -102,8 +102,9 @@ background: radial-gradient(circle, rgba(0,249,255,1) 0%, rgba(148,187,233,1) 10
 	}
 
 	.top-header ul li:hover{
-		transform: scale(1.15);
-		transition: 0.5s;
+		color: white;
+		/* transform: scale(1.15);
+		transition: 0.5s; */
 		
 	}
 
@@ -232,7 +233,7 @@ background: radial-gradient(circle, rgba(148,187,233,1) 100%, rgba(0,249,255,1) 
 
 h3:hover{
 	cursor: pointer;
-	transform: scale(1.02);
+	transform: scale(1.05);
 	transition: 0.3s;
 }
 
