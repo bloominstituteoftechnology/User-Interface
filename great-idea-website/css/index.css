@@ -107,7 +107,7 @@ button {
 header-img. {
 	width: 200px;
 	height: 35px;
-	margin: 50px;
+	margin: 0 50px;
 }
 
 .top-content p {
@@ -115,6 +115,8 @@ header-img. {
 	width: 300px;
 	height: 100px;
 	text-align: left;
+	margin: 10px;
+	margin-top: 5px;
 }
 
 .into {
@@ -128,18 +130,19 @@ header-img. {
 h4 {
 	font-size: 25px;
 	text-align: left;
+	display: inline-block;
+	vertical-align: top;
 }
 
 
-.bottom-content {
-	width: 250px;
-	height: 30px;
-  	display: inline-block;
-  	margin: 0 5px;
-  	text-align: left;
+.bottom-content p {
+	display: inline-block;
+	width: 200px;
+	height: 75px;
+	text-align: left;
+	margin: 10px;
+	margin-top: 5px;
 }
-
-
 
 .contact {
 	text-align: left;
