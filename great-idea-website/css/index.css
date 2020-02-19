@@ -70,8 +70,13 @@ nav {
 	display: inline-block;
 }
 
-section {
+.top-section {
 	border: 2px solid;
+	display: inline-block;
+}
+
+.bottom-section {
+	border: purple;
 	display: inline-block;
 }
 
