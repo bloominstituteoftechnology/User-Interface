@@ -92,14 +92,31 @@ nav img {
 }
 .first-section {
 	display: inline-block;
-	margin: 10%;
-	width: 20%;
-	height: 30%;
-	border: 3px black solid;
+	margin: 5%;
+	width: 80%;
+	height: 40%;
 }
 
 .cta-container {
-	width: 20%;
+	width: 50%;
+	font-size: 3rem;
+	text-align: center;
+	margin-left: 15%;
+}
+
+.button {
+	border: 3px solid black;
+	margin-top: 7%;
+	padding: 1%;
+	text-align: center;
+}
+
+.img1 {
+	width: 40%;
+	margin-left: 12%;
+	display: inline-block;
+	height: 40%;
+	
 }
 
 .second-section {
@@ -116,6 +133,27 @@ nav img {
 .middle-img {
 	text-align: center;
 	width: 80%;
-	margin: 5%;
+	margin-left: 5%;
+	display: inline-block;
 
+}
+
+.sec2-article {
+	width: 20%;
+	height: 30%;
+	margin: 5%;
+	display: inline-block;
+}
+
+.call-to-action {
+	display: inline-block;
+}
+
+.contact-section span {
+	margin-top: 5%;
+}
+
+.copyright {
+	margin-top: 5%;
+	text-align: center;
 }
