@@ -87,10 +87,11 @@ nav a {
 }
 
 header h1 {
-	display: block;
+	display: inline-block;
 	font-size: 55px;
-	margin: 60px;
+	margin: 50px;
 	width: 150px;
+	vertical-align: top;
 }
 
 button {
@@ -104,9 +105,16 @@ button {
 }
 
 header-img. {
-	width: 50px;
-	height: 50px;
-	margin: 80px;
+	width: 200px;
+	height: 35px;
+	margin: 50px;
+}
+
+.top-content p {
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	text-align: left;
 }
 
 .into {
@@ -117,19 +125,10 @@ header-img. {
 }
 
 
-.top-class {
-	width: 350px;
-	height: 30px;
-  	display: inline-block;
-  	margin: 5px;
-  	text-align: left;
-}
-
 h4 {
 	font-size: 25px;
 	text-align: left;
 }
-
 
 
 .bottom-content {
