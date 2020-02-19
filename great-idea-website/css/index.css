@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	
 	line-height: 1;
 }
 ol, ul {
@@ -54,7 +56,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +66,112 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+body{
+
+}
+
+
+.container {
+width: 100%;
+margin: 0, auto;
+}
+
+header{
+margin: 0px 0px 60px 0px;
+text-align: center;
+width: 100%;
+padding: 10px 0px;
+
+
+}
+
+#menu, #logo1{
+display: inline-block;
+vertical-align: middle;
+font-size: 15px;
+
+}
+#menu{
+padding: 0px 100px 0px 0px;
+margin: 0px;
+}
+nav a {
+padding: 30px;
+color: grey;
+
+
+}
+
+h2{font-size:20px;}
+
+#section1{
+width:100%;
+padding: 10px 0px;
+text-align: center;
+margin: 0px 0px 100px 0px;
+}
+#Sect1, #logo2{
+display: inline-block;
+vertical-align: middle;
+margin-top: 100px;
+}
+#Sect1 {
+font-size: 75px;
+margin:0px;
+padding: 0px;
+text-align: center;
+}
+#button1{
+padding: 10px 40px;
+margin: 0px;
+
+border: 1px black solid;
+color:black;
+}
+
+#Innovation{
+padding: 0px;
+margin: 0px;
+font-size: 90px;
+}
+
+
+.wrapper{
+width: 100%;
+vertical-align: middle;
+}
+
+.block1 {
+display: inline-block;
+text-align: left;
+max-width: 49%;
+margin: 0px 5px 25px 0px;
+}
+
+.block2 {
+display: inline-block;
+text-align: left;
+max-width: 31%;
+margin: 25px 0px 25px 0px;
+}
+
+
+.wrapper img{
+width: 100%;
+padding: 10px;
+}
+
+
+
+footer {
+	margin: 35px 0px 0px 0px;
+}
+
+#copy {
+	text-align: center;
+}
+footer a {
+	
+	color: black;
+	margin-top: 8px;
+	}
