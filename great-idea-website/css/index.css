@@ -66,13 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav {
-	background-color: lightgreen;
 	display: inline-block;
 	width: 75%;
 }
 
 a {
 	margin: 0 6%;
+	text-decoration: none;
+	color: grey;
 }
 
 .top-section div p {
@@ -94,19 +95,19 @@ a {
 
 .bottom-section div {
 	display: inline-block;
-	width: 25%;
+	width: 30%;
 }
 
 .middle-img {
 	width: 100%;
 }
-.below-pic p {
+.below-pic {
 	display: inline-block;
-	width: 100;
+	width: 30%;
 }
 
 div {
-	border: 2px solid red;
+
 }
 
 footer {
