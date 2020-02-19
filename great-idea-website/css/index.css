@@ -68,11 +68,18 @@ h1, h2, h3, h4, h5 {
 nav {
 	background-color: lightgreen;
 	display: inline-block;
+	width: 75%;
 }
+
+h1 {
+	font-size: 4rem;
+}
+
 
 .top-section {
 	border: 2px solid;
 	display: inline-block;
+	width: 50%;
 }
 
 .bottom-section {
