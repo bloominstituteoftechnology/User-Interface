@@ -64,3 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.row1 {
+	width: 49%;
+	display: inline-block;
+}
+
+
+.row2{
+	width: 32%;
+	display: inline-block;
+}
