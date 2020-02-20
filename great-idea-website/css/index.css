@@ -76,8 +76,21 @@ a {
 	color: grey;
 }
 
-.top-section div p {
+.top-section {
+	display: inline-block;
 	font-size: 4rem;
+	width: 100%;
+}
+
+.top-section div {
+	border: 2px solid black;
+	width: 45%;
+	display: inline-block;
+}
+
+.top-section div img {
+	display: inline-block;
+	border: 2px solid crimson;
 }
 
 header img.logo {
@@ -85,12 +98,6 @@ header img.logo {
 
 }
 
-
-.top-section {
-	border: 2px solid;
-	display: inline-block;
-	width: 100%;
-}
 
 .bottom-section {
 	border: 2px solid purple;
