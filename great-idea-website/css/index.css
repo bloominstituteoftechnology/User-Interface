@@ -84,18 +84,22 @@ nav a {
 }
 .Big-content .heading {
 	display: inline-block;
-	width: 20%;
+	width: 10%;
 	padding-left: 15%;
 	padding-right: 20%;
 	padding-bottom: 10%;
 	/* text-align: center; */
 	/* font-size: 45px; */
 }
+h5 {
+	border: solid;
+}
 .Big-content img {
 	display: inline-block;
 	padding-left: 15%;
 	align-content: center;
 	padding-right: 10%;
+	padding-top: 150px;
 	/* width: 45%; */
 }
 .content {
@@ -121,7 +125,20 @@ nav a {
 .bottom .B {
 	display: inline-block;
 	width: 20%;
+	align-content: center;
 }
-footer {
+.bottom .Product {
+	align-content: center;
+}
+footer .contact {
 	display: inline-block;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 20%;
+}
+footer .copy {
+	display: block;
+	align-content: center;
+	padding-top: 3%;
+	padding-left: 35%;
 }
