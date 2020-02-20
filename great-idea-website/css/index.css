@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	border: 1px solid red;
+}
+
+body {
+ margin: 5%;
+}
+header {
+	display: inline;
+}	
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	/* border: 1px solid red; */
+	margin-right: 10%;
+}
+nav {
+	border: 1px solid red;
+	width: 99%;
+}
+.logo {
+	border:1px solid red;
+	/* width: 29%; */
+	position: absolute;
+    right: 5%;
+}
+#button {
+font-size: 20px;
+border: 2px solid black;
+padding: 0px 30px 0px 30px;
+}
+
+h2{
+	display: inline-block;
+	font-size: 60px;
+}
+.subsection1 {
+	border-top: 2px solid black;
+	columns: 2;
+}
+.subsection2 {
+	border-bottom: 2px solid black;
+	columns: 3;
+}
+.subsection1 div{
+	
+}
