@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/*header is complete */
+
 
 header{
 	box-sizing:border-box;
@@ -102,11 +102,6 @@ header{
 	text-decoration: none;
 }
 
-/* header is complete */
-
-
-/* section 1  "in demand" complete */
-
 .part-1{
 	padding-top:150px;
 	display:inline-block;
@@ -136,8 +131,6 @@ button{
 	width: 200px;
 	margin-left:150px;
 	margin-top:75px;
-
-
 }
 
 a {
@@ -150,18 +143,12 @@ a {
 	letter-spacing: 2px;
 }
 
-/* section 1 "In demand" complete */
-
-/* image complete */
 .img {
 	border:1px solid;
 	overflow: auto;
 	float:right;
 	margin:50px;
 }
-/* image complete */
-
-/* last portion */
 
 .parent {
 	margin:75px;
@@ -247,4 +234,31 @@ p.vision {
 	transform-origin: 0 0;
 	letter-spacing: .5px;
 	font-weight: 350;
+}
+
+
+h4 {
+	display: block;
+	margin-left: 85px;
+}
+
+.contact-info {
+	padding:2px;
+	display: inline-block;
+	margin-left: 85px;
+}
+
+.contact2 {
+	padding-top:15px;
+	margin-left: 85px;
+}
+
+.contact3 {
+	padding-top: 15px;
+	margin-left: 85px;
+}
+
+.copyright {
+	margin-left: 600px;
+	padding: 50px;
 }
