@@ -166,24 +166,85 @@ a {
 .parent {
 	margin:75px;
 	box-sizing: border-box;
-	border: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
 }
 
 h2 {
-	display: inline-block;
-	border: 1px solid;
+	display:block;
 	margin:5px;
-	float:left;
+	padding-top: 50px;
 }
 
 p.part1 {
-	border: 1px solid;
-	width:45%;
+	width:60%;
 	display: inline-block;
 	margin: 5px;
+	padding-bottom:50px;
 	text-align: left;
+	transform: scaleY(.9.9);
+	transform-origin: 0 0;
+	letter-spacing: .5px;
+	font-weight: 350;
+
+}
+
+p.part2 {
+	width:60%;
+	display: inline-block;
+	margin: 5px;
+	padding-bottom:50px;
+	text-align: left;
+	transform: scaleY(.9.9);
+	transform-origin: 0 0;
+	letter-spacing: .5px;
+	font-weight: 350;
+
 }
 
 .middle-img {
 	width:100%;
+	margin: 2px;
+}
+
+h3 {
+	display: block;
+	margin: 5px;
+	padding-top:30px;
+}
+
+p.services {
+	width:60%;
+	display: inline-block;
+	margin: 5px;
+	padding-bottom:50px;
+	text-align: left;
+	transform: scaleY(.9.9);
+	transform-origin: 0 0;
+	letter-spacing: .5px;
+	font-weight: 350;
+}
+
+p.products {
+	width:60%;
+	display: inline-block;
+	margin: 5px;
+	padding-bottom:50px;
+	text-align: left;
+	transform: scaleY(.9.9);
+	transform-origin: 0 0;
+	letter-spacing: .5px;
+	font-weight: 350;
+}
+
+p.vision {
+	width:60%;
+	display: inline-block;
+	margin: 5px;
+	padding-bottom:50px;
+	text-align: left;
+	transform: scaleY(.9.9);
+	transform-origin: 0 0;
+	letter-spacing: .5px;
+	font-weight: 350;
 }
