@@ -88,12 +88,7 @@ nav {
 	width: 99%;
 	margin: 30px;
 }
-.logo {
-	/* border:1px solid red; */
-	/* width: 29%; */
-	/* position: absolute; */
-    /* right: 5%; */
-}
+
 #button {
 font-size: 20px;
 border: 2px solid black;
@@ -105,7 +100,7 @@ h2{
 	font-size: 70px;
 	/* border: 2px solid red; */
 	height: 300px;
-	margin-right: 70px;
+	margin: 0px 50px;
 	width:250px;
 	text-align: center;
 }
@@ -113,6 +108,7 @@ h2{
 	border-top: 2px solid black;
 	columns: 2;
 	padding: 30px 0px;
+	margin-top: 50px;
 }
 .subsection2 {
 	border-bottom: 2px solid black;
@@ -124,4 +120,8 @@ h2{
 }
 .roundimg {
 	/* border: 2px solid red; */
+	padding-left: 130px;
+}
+footer {
+	padding-top: 30px;
 }
