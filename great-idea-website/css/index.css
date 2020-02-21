@@ -105,7 +105,7 @@ header{
 /* header is complete */
 
 
-/* section */
+/* section 1  "in demand" complete */
 
 .part-1{
 	padding-top:150px;
@@ -118,6 +118,7 @@ header{
 h1{
 	text-align:center;
 	margin:0px;
+	padding-right:150px;
 	font-size:100px;
 	transform: scaleY(1.2);
 	transform-origin: 0 0;
@@ -142,23 +143,52 @@ button{
 a {
 	color:#202020;
 	text-decoration:none;
-	font-weight:160;
+	font-size:15px;
+	font-weight:350;
 	transform: scaleY(1);
 	transform-origin: 0 0;
 	letter-spacing: 2px;
 }
 
-/* edit your image properties down here */
+/* section 1 "In demand" complete */
 
-.image {
-	float:right;
-	/*
-	box-sizing:border-box;
+/* image complete */
+.img {
 	border:1px solid;
-	padding-top:500px;
-	padding-left:75px
-	padding-bottom:50px;
-	margin-left:250px;
-	display: inline;
-	*/.
+	overflow: auto;
+	float:right;
+	margin:50px;
+}
+/* image complete */
+
+/* last portion */
+
+.parent {
+	margin:75px;
+	box-sizing: border-box;
+	border: 1px solid;
+}
+
+h2 {
+	margin:15px;
+	padding-top:25px;
+}
+
+.features {
+	margin:15px;
+	text-align:justify;
+	width:500px;
+}
+
+h3 {
+	margin: 15px;
+	padding-top:25px;
+	float: right;
+}
+
+.about {
+	margin:15px;
+	text-align:justify;
+	width:500px;
+	float:right;
 }
