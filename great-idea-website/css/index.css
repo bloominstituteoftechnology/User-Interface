@@ -81,11 +81,12 @@ nav a {
 	margin-right: 10%;
 }
 nav {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 99%;
+	margin: 30px;
 }
 .logo {
-	border:1px solid red;
+	/* border:1px solid red; */
 	/* width: 29%; */
 	position: absolute;
     right: 5%;
@@ -98,16 +99,26 @@ padding: 0px 30px 0px 30px;
 
 h2{
 	display: inline-block;
-	font-size: 60px;
+	font-size: 70px;
+	/* border: 2px solid red; */
+	height: 300px;
+	margin-right: 70px;
+	width:250px;
+	text-align: center;
 }
 .subsection1 {
 	border-top: 2px solid black;
 	columns: 2;
+	padding: 30px 0px;
 }
 .subsection2 {
 	border-bottom: 2px solid black;
 	columns: 3;
+	padding: 30px 0px;
 }
 .subsection1 div{
 	
+}
+.roundimg {
+	/* border: 2px solid red; */
 }
