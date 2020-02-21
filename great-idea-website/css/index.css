@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 
 body {
  margin: 5%;
+ width: 875px;
 }
 header {
 	display: inline;
@@ -78,9 +79,11 @@ nav a {
 	text-decoration: none;
 	color: lightgrey;
 	/* border: 1px solid red; */
-	margin-right: 10%;
+	margin-right: 9%;
+
 }
 nav {
+	/* display: inline-block; */
 	/* border: 1px solid red; */
 	width: 99%;
 	margin: 30px;
@@ -88,8 +91,8 @@ nav {
 .logo {
 	/* border:1px solid red; */
 	/* width: 29%; */
-	position: absolute;
-    right: 5%;
+	/* position: absolute; */
+    /* right: 5%; */
 }
 #button {
 font-size: 20px;
