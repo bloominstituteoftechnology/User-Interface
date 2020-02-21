@@ -170,25 +170,20 @@ a {
 }
 
 h2 {
-	margin:15px;
-	padding-top:25px;
+	display: inline-block;
+	border: 1px solid;
+	margin:5px;
+	float:left;
 }
 
-.features {
-	margin:15px;
-	text-align:justify;
-	width:500px;
+p.part1 {
+	border: 1px solid;
+	width:45%;
+	display: inline-block;
+	margin: 5px;
+	text-align: left;
 }
 
-h3 {
-	margin: 15px;
-	padding-top:25px;
-	float: right;
-}
-
-.about {
-	margin:15px;
-	text-align:justify;
-	width:500px;
-	float:right;
+.middle-img {
+	width:100%;
 }
