@@ -63,4 +63,120 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+nav {
+	display: flex;
+	text-align: center;
+	width: 100%;
+    justify-content: center;
+}
+nav a{
+	width: 10%;
+	color: gray;
+}
+.noHover{
+    pointer-events: none;
+}
+section{
+	margin: auto;
+	
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+
+	}
+	.titulo{
+		
+	
+	}
+	.round-img{
+	   margin-right: 150px;
+	   
+	
+	}
+
+	h1{
+		font-size: 60px;
+		text-align: center;
+		
+	}
+	
+	h1, h3{ 
+		width: 37%;
+		margin-left: 150px;
+	
+		
+	}
+	
+	h3{
+		border: solid 1px gray;
+		width: 20%;
+		margin-left: 200px;
+	    
+	}
+	.line{
+		
+		margin-top: 80px;
+		border: solid 1px gray;
+			}
+	#info{
+		display: flex;
+		
+		width: 30;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+.top-section{
+	
+	display: flex;
+	align-content: center;
+	align-items: center;
+
+}
+.bottom-section{
+	
+	display: flex;
+	align-content: center;
+	align-items: center;
+	
+}
+p{
+	
+	width: 45%;
+	margin-left: 200px;
+}
+#info h2 {
+	text-align: center;
+	padding:3% 0;
+}
+#info div p{
+	display: flex;
+}
+#contact{
+	display: flex;
+	align-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	
+}
+#contact footer div{
+
+
+}
+#contact footer div p{
+	margin: 0px;
+	
+}
+
+.end{
+	text-align: center;
+	
+
+}	
+
+}
+
