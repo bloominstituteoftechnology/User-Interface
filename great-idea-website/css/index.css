@@ -70,8 +70,8 @@ h1, h2, h3, h4, h5 {
 	padding: 2px 15px;
 }
 
-nav {
-	display: inline;
+.menu {
+	display: ;
 	padding: 10px;
 	margin: 5px 10px;
 }
