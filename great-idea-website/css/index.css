@@ -64,3 +64,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.logo {
+	text-align: right;
+	padding: 2px 15px;
+}
+
+nav {
+	display: inline;
+	padding: 10px;
+	margin: 5px 10px;
+}
