@@ -151,15 +151,19 @@ h5 {
 
 /* Your code starts here! */
 
-.logo {
-  text-align: right;
-  padding: 2px 15px;
-}
+
 
 .menu {
   display: inline-block;
-  padding: 10px;
-  margin: 5px 10px;
+  text-align: left;
+  padding: 2px 15px;
+  margin: 5px 5px;
+}
+
+.logo {
+  display: inline-block;
+  text-align: right;
+  float: right;
 }
 
 img {
@@ -174,15 +178,18 @@ img {
   float: left;
 }
 
+.image {
+  padding: 50px 5px  100px 50px;
+}
+
 .box h1 {
   font-size: 48px;
 }
 
-
-/** Im moving to somthing easier for a second, the text is pissing me off **/
 .wrapper {
-	width: 980px;
-	align-content: center;
+  display: block;
+	width: 960px;
+  align-content: center;
 }
 
 .image-wrapper {
@@ -191,7 +198,7 @@ img {
 }
 
 .content-item {
-	float: right;
+  float: right;
 	width: 47%;
 }
 
@@ -201,9 +208,9 @@ img {
 }
 
 section {
-	border-top: 1px solid black;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
