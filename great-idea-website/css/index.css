@@ -84,12 +84,21 @@ time,
 mark,
 audio,
 video {
+<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+=======
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -103,40 +112,66 @@ hgroup,
 menu,
 nav,
 section {
+<<<<<<< HEAD
 	display: block;
+=======
+  display: block;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
+<<<<<<< HEAD
 	list-style: none;
 }
 blockquote,
 q {
 	quotes: none;
+=======
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
+<<<<<<< HEAD
 	content: '';
 	content: none;
+=======
+  content: '';
+  content: none;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
+<<<<<<< HEAD
 	box-sizing: border-box;
+=======
+  box-sizing: border-box;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 
 html,
 body {
+<<<<<<< HEAD
 	height: 100%;
 	font-family: 'Titillium Web', sans-serif;
+=======
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 
 h1,
@@ -144,13 +179,20 @@ h2,
 h3,
 h4,
 h5 {
+<<<<<<< HEAD
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
+=======
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
 }
 
 /* Your code starts here! */
 
+<<<<<<< HEAD
 .container {
 	width: 880px;
 	margin: 0 auto;
@@ -248,3 +290,68 @@ main .contact {
 footer {
 	text-align: center;
 }
+=======
+
+
+.menu {
+  display: inline-block;
+  text-align: left;
+  padding: 2px 15px;
+  margin: 5px 5px;
+}
+
+.logo {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+img {
+  display: inline-block;
+}
+
+.box {
+  width: 200px;
+  height: 50px;
+  padding: 100px 100px 50px 50px;
+  text-align: center;
+  float: left;
+}
+
+.image {
+  padding: 50px 5px  100px 50px;
+}
+
+.box h1 {
+  font-size: 48px;
+}
+
+.wrapper {
+  display: block;
+	width: 960px;
+  align-content: center;
+}
+
+.image-wrapper {
+	margin: 40px;
+	display: inline-block;
+}
+
+.content-item {
+  float: right;
+	width: 47%;
+}
+
+.content-item-three {
+	float: right;
+	width: 32%;
+}
+
+section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+>>>>>>> b875eff9feee9a4c1dbd1937b597e3a04271b697
