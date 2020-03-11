@@ -63,110 +63,145 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-/*Code of the header*/
+/* Your code starts here!*/
 body {
-	width: 1200px;
-	margin: 50px;
+	width: 1000px;
+	margin: 50px auto;
 }
 header {
 	width: 100%;
 }
 header nav {
 	display: inline-block;
-	width: 80%;
+	width: 75%;
 	text-align: center;
 }
 
 a{
 	display: inline-block;
-	margin: 10px 90px 3px 10px;
-	font-size:15px;
-	color: grey;
+	color: lightslategrey;
+	font-size: 15px;
 	text-decoration: none;
+	margin:auto 90px auto 10px;
 }
 img {
+	display: inline-block;
+	width: 15;
 	clear: right;
+	margin: auto 0;
 }
 
 /*code for the section: innovations*/
 .innovation {
 	width: 100%;
-		margin: 10% 0px;
+	padding-bottom: 70px;
+	border-bottom: solid 1px black;
+	margin: 100px auto 0 auto;
 
 }
 
 .innovation div{
+	display: inline-block;
 	text-align: center;
-	width: 75%;
+	width: 60%;
 }
 h1 {
-	
 	font-size: 80px;
 }
-
-.getstarted{
+ 
+/*Everything to do with the button starts here*/
+.getStarted{
 	display: inline-block;
-	height: 30px;
-	padding: 4px 5px;
+	width: 25%;
+	height: 100px;
+	margin: 0 auto;
+
+}
+
+.getStarted button{
+	display: inline-block;
+	width: 100%;
+	height: 5vh;
+	font-size: 15px;
 	border: 1px solid black;
 	color: black;
-	font-size: 17px;
-	margin: 0% 30% 0% 30%;
 }
+/*Everything with the button ends here.*/
 
 .innovation img {
 	display:inline-block;
-    width: 25%;
-    margin-right: auto;
+	width: 30%;
+	margin-right: 5%;
 }
 
-/*Sections featureAbout*/
+/*Sections feature and about
+known class is sectionThree*/
 
-.featureabout{
+.sectionThree{
 	width: 100%;
+	margin: 50px auto;
 	
 }
 
-.featureabout p{
-	font-size: 17px;
+/*Section pharagraphs.*/
+.paraSection{
+	width: 100%;
+	margin: 0 auto 35px auto;
 }
 
-.featureabout div{ 
-	display: inline-block;
-	width: 45%;
-	margin: 10px 0px 25px 55px; 
+.paraSection p{
+	font-size: 17.5px;
 }
-/*Working on section four with service, product, and vision*/
-.sectionf {
+
+#sectionFeature {
+	display: inline-block;
+	width: 47%;
+}
+
+#sectionAbout{
+	display: inline-block;
+	width: 47%;
+	margin-left: 5.5%;
+}
+
+.middle-img {
 	display: inline-block;
 	width: 100%;
-	margin: 40px 2px 40px 2px;
 }
 
-.fourservice{
-	display: inline-block;
-	vertical-align: middle;
-	width: 30%;
-	margin: 2px;
+/*Working on section four with service, product, and vision
+This section is known as class sectionFour.
+*/
+
+.spv{
+	width: 100%;
+	padding-bottom: 45px;
+	border-bottom: black solid 1px; 
 }
 
-.fourproduct{
+.fourService{
 	display: inline-block;
 	vertical-align: middle;
 	width: 30%;
-	margin: 2px;
+}
 
-}.fourvision{
+.fourProduct{
 	display: inline-block;
 	vertical-align: middle;
 	width: 30%;
-	margin: 2px;
+	margin-left: 4.4%;
+
+}.fourVision{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin-left: 4.4%;
 }
 
 /*Footer information*/
 footer {
 	width: 100%;
+	margin-top: 35px;
 }
 address{
 	display: inline-block;
@@ -174,4 +209,6 @@ address{
 }
 footer p{
 	text-align: center;
+	margin-bottom: 30px;
+	color: black;
 }
