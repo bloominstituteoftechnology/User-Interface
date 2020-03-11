@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	width:100%;
+	padding:0%;
 	display;inline-block;
 	margin:3% 5%;
 	color:grey;
@@ -115,5 +116,24 @@ img {
 	column-fill: balance;
 	column-count: 3;
 	column-rule-width: 10px;
+	padding:0% 0% 6% 0%;
+	margin:-3% 23% -1% 18%;
 }
+
+.border {
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	border-right-style: hidden;
+	border-left-style: hidden;
+}
+
+.contact {
+	padding:0% 0% 6% 0%;
+	margin:-3% 23% -1% 18%;
+}
+
+footer {
+	padding:0% 0% 6% 0%;
+	margin:-3% 23% -1% 18%;
+	text-align: center;
 }
