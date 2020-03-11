@@ -64,14 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-img, div, h1, h2, button, a, section, address, header, footer{
-	border: 1px solid grey;
-}
-
 body{
 	padding: 0 5% 10%;
 }
-
+/* Navigation Styles */
 nav {
 	position: fixed;
 	background: #fff;
@@ -81,29 +77,18 @@ nav {
 nav a{
 	color: grey;
 	text-decoration: none;
+	width: 10%;
 }
 
 nav img {
 	margin-left: 10%;
 }
 
-.page-title h1 {
-	font-size: 50px;
-	text-align: center;
-}
-
-.page-title button {
-	margin: 0 auto;
-}
-
-nav a{
-	width: 10%;
-}
-
 nav a, nav img {
 	display: inline-block;
 }
 
+/* Header Styles */
 header {
 	padding: 10% 5%;
 	border-bottom: 3px solid black;
@@ -113,7 +98,49 @@ header div, header img {
 	display: inline-block;
 	width: 48%;
 }
+.page-title h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+.page-title button {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	padding: 2%;
+	border: 1px solid #000;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*Content Styles */
+.top-content div {
+	display: inline-block;
+	width: 45%;
+	margin: 2%;
+}
+
+.middle-img {
+	width: 100%;
+}
 
 .bottom-content {
 	border-bottom: 3px solid black;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 25%;
+	margin: 2% 4%;
+}
+
+.contact {
+	margin-top: 5%;
+}
+
+footer {
+	text-align: center;
+	padding: 5%;
 }
