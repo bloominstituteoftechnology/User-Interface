@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -68,9 +68,24 @@ body {
 	width: 1000px;
 	margin: 50px auto;
 }
+
+/* p{
+	font-family: 'Baloo Chettan 2', cursive;
+} */
+
 header {
-	width: 100%;
+	display: inline-block;
+	width: 1000px;
+	height: 10vh;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background-color: gray;
+	margin: 25px auto 20px auto;
+	z-index: 1;
+
 }
+
 header nav {
 	display: inline-block;
 	width: 75%;
@@ -79,20 +94,25 @@ header nav {
 
 a{
 	display: inline-block;
-	color: lightslategrey;
-	font-size: 15px;
+	color: white;
+	font-size: 17px;
 	text-decoration: none;
-	margin:auto 90px auto 10px;
+	width: 15%;
+	float: left;
+	margin: 3vh 0;
 }
-img {
+header img {
 	display: inline-block;
-	width: 15;
+	float: right;
+	width: 15%;
 	clear: right;
-	margin: auto 0;
+	margin: 2vh 5% 0 0;
+	z-index: 1;
 }
 
 /*code for the section: innovations*/
 .innovation {
+	display: inline-block;
 	width: 100%;
 	padding-bottom: 70px;
 	border-bottom: solid 1px black;
@@ -105,6 +125,7 @@ img {
 	text-align: center;
 	width: 60%;
 }
+
 h1 {
 	font-size: 80px;
 }
@@ -113,8 +134,8 @@ h1 {
 .getStarted{
 	display: inline-block;
 	width: 25%;
-	height: 100px;
-	margin: 0 auto;
+	height: 10px;
+	margin: 0 37.5%;
 
 }
 
