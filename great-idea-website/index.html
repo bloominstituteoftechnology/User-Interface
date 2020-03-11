@@ -7,6 +7,9 @@
   <title>Great Idea!</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+    </style>
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,50 +17,109 @@
   <![endif]-->
 </head>
 
-  <body>
-
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
-
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
-
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+<body>
 
 
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+<!--The header starts here, menu and main logo-->
+  <header>
+    <nav>
+      <a class="service" href="#">Services</a>
+      <a class="product" href="#">Product</a>
+      <a class="vision" href="#">Vision</a>
+      <a class="features" href="#">Features</a>
+      <a class="about" href="#">About</a>
+      <a class="contact" href="#">Contact</a>
+    </nav>
 
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+    <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+    
+  </header>
+
+
+<!--section for innovations start here-->
+  <section class="innovation">
+
+    <div class= "headerSentence">
+      <h1>Innovation</h1>
+      <h1>On</h1>
+      <h1>Demand </h1>
+
+      <a class="getStarted" href="#">
+        <button>Get Started</button>
+      </a>
+
+    </div>
+    <img src="img/header-img.png" alt="Image of a code snippet.">
+
+  </section>
+
+
+<!--third section: features and about-->
+  <section class="sectionThree">
+    <div class="paraSection">
+      <div id="sectionFeature">
+        <h3>Features</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. 
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+      <div id="sectionAbout"> 
+        <h3>About</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. 
+            Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>  
+    </div>
+
+<!--Image goes here,
+it is within the class sectionThree  -->
+    <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  </section> 
 
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  <!--Fourth section: Includes service, product, and vision.
+  the spv stands for Service Product Vision-->
+  <section class="spv">
 
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+    <div class="groupFour">
 
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
+      <div class="fourService">
+        <h3>Services</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+          Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
 
-  Copyright Great Idea! 2018
-  
-  </body>
+      <div class="fourProduct">
+        <h3>Product</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+        Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div>
+
+      <div class="fourVision">
+        <h3>Vision</h3>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.
+        Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+      </div> 
+
+    </div>
+  </section>
+
+
+<!--Footer which contains addres and copyright-->
+  <footer>
+
+    <h4>Contact</h4>
+
+    <address>   
+      <br>123 Way 456 Street
+      <br>Somewhere, USA
+      <br>
+      <br>1 (888) 888-8888
+      <br>
+      <br>sales@greatidea.io
+    </address>
+
+    <p>Copyright Great Idea! 2018</p>
+  </footer>
+</body>
 </html>
