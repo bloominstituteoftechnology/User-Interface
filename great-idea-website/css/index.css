@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,11 +21,11 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline; */
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    height: auto%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*  {
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+
+/* BIG CONTAINER SELECTION */
+
+.container{
+	width:60rem;
+	margin-left: 5rem;
+
+}
+
+
+/* NAV & ICON SECTION */
+.nav-container {
+	display: inline-block;
+	margin: 0px 0px 60px 0px;
+	width: 100%;
+	padding: 1rem 0px;
+}
+
+a {
+	display: inline-block;
+	width:4px;
+	padding: 0 auto;
+	height: 1px 0 0 0;
+	text-decoration: none;
+
+}
+
+a:hover {
+	font-size: 29px;
+	 
+}
+
+.nav-links a {
+	padding: 0 100px 0px 40px;
+	margin: 0px;
+	color: grey;
+}
+
+.logo  {
+	margin: -25px;
+	margin-left: 48rem;
+	
+}
+
+.main-header {
+	margin-bottom: 1rem;
+}
+
+/* TITLE & ROUND IMAGE SECTION */
+
+.title{
+	
+	width: 35%;
+	text-align: center;
+	font-size: 65px;
+    margin-bottom: 60px;
+	letter-spacing: 5px;
+	margin-top: 40px;
+}
+	
+
+
+.main-image {
+	padding: 10px;
+	margin-left: 100px;
+	height: 22rem;
+
+	
+}
+
+.main-header div {
+	display: inline-block;
+	vertical-align: middle; 
+	margin-left: 150px;
+}
+
+button {
+	font-size: 20px;
+	vertical-align: middle;
+	width: 11rem;
+	padding: 8px 5px 12px 0px;
+	background-color: white;
+}
+
+
+/* INFO  & LONG IMAGE SECTION*/
+
+
+.long-img {
+	vertical-align: middle;
+	border: 1px solid red;
+	width: 60rem;
+	
+}
+
+.info1 div{
+	text-align: left;
+	margin: 25px 0 25px 0;
+	display: inline-block;
+	max-width: 40%;
+	width: 74rem;
+	font-size: 22px;
+	
+}
+
+.info2 div{
+	display: inline-block;
+	text-align: left;
+	width:31%;
+	margin: 0;
+	padding: 25px 0px 20px 0;
+	font-size: 22px;
+	
+}
+.info2 {
+	border-bottom: 1px solid black;
+}
+
+.info1 {
+	border-top:	1px solid black;
+}
+
+/* FOOTER SECTION */
+
+.contact-bottom {
+	/* border: 1px solid red; */
+	width: 22%;
+	margin-top: 3rem;
+}
+
+.copyright {
+	/* border: 1px solid red; */
+	text-align: center;
+	margin: 4rem;
+}
