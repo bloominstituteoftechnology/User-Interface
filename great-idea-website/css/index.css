@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 800px;
+	margin: auto;
+}
+
+.top-nav {
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	margin: 0 0 10px;
+}
+
+nav a {
+	margin: 20px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.logo {
+	display: inline-block;
+	margin: 20px 0 -11px 50px;
+}
+
+.header-content {
+	display: block;
+}
+
+.section1 {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.main-heading {
+	text-align: center;
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.main-heading h1 {
+	margin: 80px;
+	padding: 0px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.main-heading button {
+	margin: -29px 78px 54px 100px; 
+	padding: 10px px;
+	font-size: 13px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.main-img {
+	width: 400px;
+	display: inline-black;
+}
+
+.section2 {
+	width: 800px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+
+.top-left {
+	width: 380px;
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.top-right {
+	width: 380px;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.section3 {
+	width: 800px;
+	margin-top: 20px;
+}
+
+.bottom-left {
+	width: 250px;
+	margin-right: 13px;
+	display: inline-block;
+}
+
+.bottom-middle {
+	width: 250px;
+	margin-right: 13px;
+	display: inline-block;
+}
+
+.bottom-right {
+	width: 250px;
+	margin-right: 0;
+	display: inline-block;
+}
+
+address h4 {
+	margin: 20px;
+}
+
+footer p {
+	margin: 30px 0;
+	text-align: center;
+}
