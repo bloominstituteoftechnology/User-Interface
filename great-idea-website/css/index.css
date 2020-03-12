@@ -193,10 +193,10 @@ PADDING: 3PX 5PX 2PX 5PX;
 
 #featAbout {
 
-	border: 2px pink solid;
+	/* border: 2px pink solid; */
 	/* display: inline-block; */
 
-	margin: 4%;
+	/* margin: 4%; */
 }
 
 #feat {
@@ -252,14 +252,14 @@ PADDING: 3PX 5PX 2PX 5PX;
 
 address {
 	font-size: 1em;
-	padding: 2% 5%;
+	/* padding: 2% 5%; */
 	}
 
 
 
 footer {
 	font-size: 2em;
-	padding: 2% 5%;
+	/* padding: 2% 5%; */
 	text-align: center;
 }
 
