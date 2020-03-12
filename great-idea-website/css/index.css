@@ -195,34 +195,72 @@ PADDING: 3PX 5PX 2PX 5PX;
 
 	border: 2px pink solid;
 	/* display: inline-block; */
+
+	margin: 4%;
 }
 
 #feat {
 
 	display: inline-block;
+	width: 48%;
+	text-align: justify;
+	margin: 1% 1% 3% 0;
 }
 
 #about {
 	display: inline-block;
+	width: 48%;
+	text-align: justify;
+	margin: 0% 1% 3% 1%;	
+
 }
 
 
 /* MIDDLE IMAGE AREA */
 
 #midImg img{
-	max-width: 100%;
+	/* max-width: 100%; */
+	width: 100%;
 }
 
 /* SERVICES PRODUCT VISION  */
 
+#servProdVis div {
 
+	margin: 1% 1% 0 2%;
+	display: inline-block;
+	width: 30%;
+}
 
+#serv {
+	display: inline-block;
+}
 
+#prod {
+	display: inline-block;
+
+}
+
+#vision {
+	display: inline-block;
+}
 
 
 
 /* BOTTOM SECTION */
 
 
+address {
+	font-size: 1em;
+	padding: 2% 5%;
+	}
+
+
+
+footer {
+	font-size: 2em;
+	padding: 2% 5%;
+	text-align: center;
+}
 
 
