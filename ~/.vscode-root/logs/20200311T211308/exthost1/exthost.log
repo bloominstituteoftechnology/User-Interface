@@ -1,0 +1,231 @@
+[2020-03-11 21:13:11.601] [exthost] [info] extension host started
+[2020-03-11 21:13:11.687] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-11 21:13:11.688] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-11 21:13:11.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-11 21:13:11.714] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-11 21:13:11.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-11 21:13:11.757] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-11 21:13:11.834] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-03-11 21:13:11.834] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-03-11 21:13:11.845] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-11 21:13:11.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-11 21:13:11.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-11 21:13:11.853] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-11 21:13:11.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-11 21:13:11.855] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-11 21:13:11.860] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-03-11 21:13:11.860] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-03-11 21:13:12.356] [exthost] [info] eager extensions activated
+[2020-03-11 21:15:13.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-11 21:15:13.799] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-03-11 21:15:32.331] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-03-11 21:15:32.332] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-03-11 21:15:47.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2020-03-11 21:15:47.829] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2020-03-11 21:28:01.421] [exthost] [info] extension host started
+[2020-03-11 21:28:01.601] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2020-03-11 21:28:01.601] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-11 21:28:01.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-11 21:28:01.626] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-03-11 21:28:01.652] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-03-11 21:28:01.652] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-03-11 21:28:01.663] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2020-03-11 21:28:01.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2020-03-11 21:28:01.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-11 21:28:01.668] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-11 21:28:01.690] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-11 21:28:01.690] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-11 21:28:01.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-03-11 21:28:01.714] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-03-11 21:28:01.722] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-11 21:28:01.722] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-11 21:28:01.727] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-11 21:28:01.727] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-11 21:28:01.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-11 21:28:01.749] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-11 21:28:01.761] [exthost] [info] eager extensions activated
+[2020-03-11 21:28:23.563] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":false,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-03-11 21:28:23.563] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-03-11 21:55:59.799] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-11 21:55:59.807] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191358)
+	at /snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196231
+	at Object.asCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196345)
+	at o (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:272
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:243)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:338
+	at V._withAdapter (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:604:832)
+	at V.$resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:316)
+	at p._doInvokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:464)
+	at p._invokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:156)
+	at p._receiveRequest (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:766)
+	at p._receiveOneMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:623)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:683:791
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:851:104
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:717)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:897
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at p.acceptChunk (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:897)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:249
+	at Socket.t (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:197:232)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-11 21:56:22.310] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-11 21:56:22.310] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191358)
+	at /snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196231
+	at Object.asCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196345)
+	at o (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:272
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:243)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:338
+	at V._withAdapter (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:604:832)
+	at V.$resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:316)
+	at p._doInvokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:464)
+	at p._invokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:156)
+	at p._receiveRequest (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:766)
+	at p._receiveOneMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:623)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:683:791
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:851:104
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:717)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:897
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at p.acceptChunk (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:897)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:249
+	at Socket.t (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:197:232)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-11 21:58:21.155] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-11 21:58:21.155] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191358)
+	at /snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196231
+	at Object.asCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196345)
+	at o (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:272
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:243)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:338
+	at V._withAdapter (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:604:832)
+	at V.$resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:316)
+	at p._doInvokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:464)
+	at p._invokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:156)
+	at p._receiveRequest (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:766)
+	at p._receiveOneMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:623)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:683:791
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:851:104
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:717)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:897
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at p.acceptChunk (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:897)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:249
+	at Socket.t (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:197:232)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-12 01:33:17.108] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-12 01:33:17.163] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191358)
+	at /snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196231
+	at Object.asCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196345)
+	at o (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:272
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:243)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:338
+	at V._withAdapter (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:604:832)
+	at V.$resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:316)
+	at p._doInvokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:464)
+	at p._invokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:156)
+	at p._receiveRequest (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:766)
+	at p._receiveOneMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:623)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:683:791
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:851:104
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:717)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:897
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at p.acceptChunk (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:897)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:249
+	at Socket.t (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:197:232)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-12 01:34:52.010] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-12 01:34:52.011] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:191358)
+	at /snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196231
+	at Object.asCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:196345)
+	at o (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22454)
+	at Object.n.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:22665)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:272
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:595:243)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:338
+	at V._withAdapter (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:604:832)
+	at V.$resolveCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:613:316)
+	at p._doInvokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:464)
+	at p._invokeHandler (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:688:156)
+	at p._receiveRequest (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:766)
+	at p._receiveOneMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:685:623)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:683:791
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:851:104
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at v.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:717)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:897
+	at l.fire (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:845)
+	at p.acceptChunk (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:897)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:249
+	at Socket.t (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:197:232)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-12 01:42:34.145] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-12 01:42:34.145] [exthost] [error] Error: INVALID selection range, must contain the previous range
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:58

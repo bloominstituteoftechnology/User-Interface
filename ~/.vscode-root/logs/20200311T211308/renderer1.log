@@ -1,0 +1,2 @@
+[2020-03-12 01:42:34.196] [renderer1] [error] INVALID selection range, must contain the previous range: Error: INVALID selection range, must contain the previous range
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:58

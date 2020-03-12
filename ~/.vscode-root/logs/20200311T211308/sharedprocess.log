@@ -1,0 +1,14 @@
+[2020-03-11 21:13:12.603] [sharedprocess] [info] main {"machineId":"d35e60972f936969a4ac0ca7610b3e12a28c537fcd8114a8273a811044e1597b","windowId":2}
+[2020-03-11 21:13:52.630] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-03-11 21:23:43.306] [sharedprocess] [info] Uninstalling extension: ritwickdey.liveserver
+[2020-03-11 21:23:43.310] [sharedprocess] [info] Successfully uninstalled extension: ritwickdey.liveserver
+[2020-03-11 21:23:47.494] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2020-03-11 21:23:48.155] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /tmp/d2743d69-ad1f-46a4-9f05-45a9817425d3
+[2020-03-11 21:23:48.263] [sharedprocess] [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+[2020-03-11 21:23:48.278] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver
+[2020-03-11 21:27:54.856] [sharedprocess] [info] Uninstalling extension: ritwickdey.liveserver
+[2020-03-11 21:27:54.866] [sharedprocess] [info] Successfully uninstalled extension: ritwickdey.liveserver
+[2020-03-11 21:28:23.070] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2020-03-11 21:28:23.237] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /tmp/b3b39370-068d-477c-8d08-27d306e74a43
+[2020-03-11 21:28:23.257] [sharedprocess] [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+[2020-03-11 21:28:23.269] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver
