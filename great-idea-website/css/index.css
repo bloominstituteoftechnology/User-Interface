@@ -54,7 +54,14 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+
+	/* 
+	CHANGE FONT FAMILY FOR STRETCH
+	
+	*/
+	
+	font-family: 'Merriweather', serif;
 }
 
 h1, h2, h3, h4, h5 {
