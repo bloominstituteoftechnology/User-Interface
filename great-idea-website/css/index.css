@@ -64,3 +64,187 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.site_nav {
+	display: inline-block;
+	margin: 35px;
+	height: 30px;
+	padding: 5px;
+}
+
+.nav_link {
+	color: grey;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+.row1 {
+	height: 400px;
+	width: 525px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.row1 h1 {
+
+	font-size: 75px;
+	text-align: center;
+	margin-top: 75px;
+	margin-left: 100px;
+	width: 350px;
+}
+
+.row1 h3 {
+	border: solid;
+	border-width: 1px;
+	width: 150px;
+	text-align: center;
+	padding: 5px;
+	margin-left: 200px;
+}
+
+.top-img {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+hr {
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	width: 875px;
+}
+
+.section1 {
+	display: inline-block;
+	width: 425px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+
+.section1 h4 {
+	text-decoration: bold;
+	display: inline;
+	vertical-align: top;
+}
+
+.section1 p {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.section2 {
+	display: inline-block;
+	width: 425px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section2 h4 {
+	text-decoration: bold;
+	display: inline;
+	vertical-align: top;
+}
+
+.section2 p {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+
+.middle-img {
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.section3 {
+	display: inline-block;
+	width: 280px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+
+.section3 h4 {
+	text-decoration: bold;
+	display: inline;
+	vertical-align: top;
+}
+
+.section3 p {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.section4 {
+	display: inline-block;
+	width: 280px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section4 h4 {
+	text-decoration: bold;
+	display: inline;
+	vertical-align: top;
+}
+
+.section4 p {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.section5 {
+	display: inline-block;
+	width: 280px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section5 h4 {
+	text-decoration: bold;
+	display: inline;
+	vertical-align: top;
+}
+
+.section5 p {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.contact h4 {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.contact p {
+	margin-left: 50px;
+}
+
+.copyright {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 400px;
+	height: 150px;
+	width: 200px;
+}
