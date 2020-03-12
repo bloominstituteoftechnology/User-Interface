@@ -69,16 +69,13 @@ h1, h2, h3, h4, h5 {
 
 #outerDiv {
 
-	border: 3px blueviolet dashed;
+	/* border: 3px blueviolet dashed; */
 
 	margin: 1%;
 }
 
 /*NAV*/
 
-section {
-
-}
 
 #navLinks {
 	display: inline-block;
@@ -114,8 +111,7 @@ section {
 
 #innoDiv {
 
-	margin: 0 auto;
-	border: 3px outset darkorchid;
+	/* border: 3px outset darkorchid; */
 	width: 40%;
 	text-align: center;
 	display: inline-block;
@@ -123,10 +119,33 @@ section {
 
 	}
 
+/* 
+
+PADDING ON THE INSIDE
+
+MARGIN ON THE OUTSIDE
+
+******
+
+TRBL
+PADDING: 29PX;
+
+TB RL
+PADDING: 29PX 20PX;
+
+T RL B
+PADDING: 1PX 49PX 22PX;
+
+T R B L
+PADDING: 3PX 5PX 2PX 5PX;
+
+*/
+
+
 #innoDiv h1{
 	font-size: 60px;
 	max-width: 100%;
-
+	padding-top: 25px;
 	
 }
 
@@ -136,14 +155,16 @@ section {
 }
 
 #circleImage {
-	border: 3px dashed lightseagreen;
+	/* border: 3px dashed lightseagreen; */
 	width: 49%;
 	display: inline-block;
+	/* margin: 12% auto; */
 
 }
 
 #circleImage img {
 	max-width: 100%;
+	/* margin: 0 auto; */	
 }
 
 
@@ -155,5 +176,53 @@ section {
 	border-bottom: 5px black solid;
 
 }
+
+#midSection h2 {
+
+	font-size: 30px;
+	text-align: left;
+	
+}
+
+#midSection p {
+
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+#featAbout {
+
+	border: 2px pink solid;
+	/* display: inline-block; */
+}
+
+#feat {
+
+	display: inline-block;
+}
+
+#about {
+	display: inline-block;
+}
+
+
+/* MIDDLE IMAGE AREA */
+
+#midImg img{
+	max-width: 100%;
+}
+
+/* SERVICES PRODUCT VISION  */
+
+
+
+
+
+
+
+/* BOTTOM SECTION */
+
+
 
 
