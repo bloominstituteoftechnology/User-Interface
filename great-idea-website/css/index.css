@@ -83,9 +83,10 @@ nav button {
 }
 
 header {
-	column-fill: auto;
+	column-fill: balance;
 	column-count: 2;
-	column-rule-width: 30px;
+	column-rule-widh: 30px;
+	text-align: left;
 }
 
 header h1 {
@@ -104,7 +105,7 @@ header button {
 .block1 {
 	column-count: 2;
 	padding:-1% 0% 0% 0%;
-	margin:5% 23% -3% 18%;
+	margin:3% 23% -3% 18%;
 }
 
 img {
@@ -117,7 +118,7 @@ img {
 	column-count: 3;
 	column-rule-width: 10px;
 	padding:0% 0% 6% 0%;
-	margin:-3% 23% -1% 18%;
+	margin:-3% 23% -2% 18%;
 }
 
 .border {
@@ -128,7 +129,7 @@ img {
 }
 
 .contact {
-	padding:0% 0% 6% 0%;
+	padding:6% 0% 6% 0%;
 	margin:-3% 23% -1% 18%;
 }
 
