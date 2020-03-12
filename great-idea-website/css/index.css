@@ -72,10 +72,12 @@ body{
 
 }
 .navigation{
+	/*Added a new font style from fonts.google*/
+	font-family: 'Dancing Script', cursive;
 	margin:40px;
 	text-align: center;
 	width: 100%;
-	/*color: grey;*/
+	background-color:Yellow;
 	display: inline-block;	
 }
 a{
@@ -146,6 +148,4 @@ h3{
 footer{
 	text-align: center;
 }
-/*button{
-	
-}*/
+

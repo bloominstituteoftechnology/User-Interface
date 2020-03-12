@@ -121,7 +121,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1474,9 +1475,9 @@
             "backupPath": "/home/owlspec3086/Lambda_assignments/User-Interface/~/.vscode-root/Backups/1583975589376",
             "uiState": {
                 "mode": 1,
-                "x": 2053,
+                "x": 1737,
                 "y": 68,
-                "width": 1226,
+                "width": 1547,
                 "height": 1012
             }
         },
