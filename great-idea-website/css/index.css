@@ -114,6 +114,8 @@ h1, h2, h3, h4, h5 {
 #firstSection {
 
 	/* border: 3px dotted magenta; */
+
+	height: 50vh;
 }
 
 #innoDiv {
@@ -123,6 +125,7 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	display: inline-block;
 	padding-bottom: 25%;
+
 
 	}
 
@@ -150,10 +153,9 @@ PADDING: 3PX 5PX 2PX 5PX;
 
 
 #innoDiv h1{
-	font-size: 60px;
+	font-size: 80px;
 	max-width: 100%;
-	padding-top: 25px;
-	
+	/* padding-top: 25px; */	
 }
 
 #innoDiv button {
@@ -166,6 +168,9 @@ PADDING: 3PX 5PX 2PX 5PX;
 	width: 49%;
 	display: inline-block;
 	/* margin: 12% auto; */
+
+	padding-left: 14%;
+	padding-top: 3%;
 
 }
 
