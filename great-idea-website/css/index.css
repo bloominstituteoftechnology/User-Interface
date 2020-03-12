@@ -64,24 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+/*This is the navigation bar*/
 nav {
 	width:100%;
-	padding:0%;
+	padding:4%;
 	display;inline-block;
-	margin:3% 5%;
+	margin:6% 10%;
 	color:grey;
 	background-color: white;
 	text-align: center;
+	
 }
 
 nav button {
 	background-color: white;
 	border:none;
 	color:grey;
-	padding:3%;
+	padding:3%; 
+	float:left;
 }
 
+nav .logo {
+	padding:2% 7% 0% 0%;
+	margin: 0% 9% 0% 0%;
+}
+
+/*This is the header section*/
 header {
 	column-count: 2;
 	padding:-0% 0% 2% 28%;
@@ -98,6 +106,8 @@ header img {
 
 header h1 {
 	font-size: 100px;
+	text-align: center;
+	padding-top: 68px;
 	
 }
 
@@ -105,42 +115,56 @@ header button {
 	background-color: white;
 	border:1px solid black;
 	height:10%;
-	width:45%;
+	width:53%;
 	padding:2.5% 0%;
 	text-align: center;
+	margin-left: 88px;
 }
-
+/*This is the content and middle image*/
 .block1 {
 	column-count: 2;
-	padding:-1% 0% 0% 0%;
-	margin:3% 23% -3% 18%;
+	margin-right: -29%;
+	margin-left: 0%;
+	padding-left:0px;
+	padding-right: 266px;
+	padding-top: 32px;
+
 }
 
 img {
-	padding: 5% 8%;
-	margin:0% 10%;
+	margin-right: -29%;
+	margin-left: 0%;
+	padding-left:0px;
+	padding-right: 266px;
+	padding-top: 24px;
+	padding-bottom:25px
 }
 
 .block2 {
 	column-fill: balance;
 	column-count: 3;
 	column-rule-width: 10px;
-	padding:0% 0% 6% 0%;
-	margin:-3% 23% -2% 18%;
+	margin-right: -29%;
+	margin-left: 0%;
+	padding-left:0px;
+	padding-right: 266px;
+	padding-bottom: 40px;
 }
-
+/*This is the border*/
 .border {
 	border-top:2px solid black;
 	border-bottom:2px solid black;
 	border-right-style: hidden;
 	border-left-style: hidden;
+	width: 60%;
+	margin-left: 264px;
 }
-
+/*This is the contact information*/
 .contact {
 	padding:6% 0% 6% 0%;
 	margin:-3% 23% -1% 18%;
 }
-
+/*This is the footer*/
 footer {
 	padding:0% 0% 6% 0%;
 	margin:-3% 23% -1% 18%;
