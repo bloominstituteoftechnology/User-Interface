@@ -54,7 +54,14 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+
+	/* 
+	CHANGE FONT FAMILY FOR STRETCH
+	
+	*/
+	
+	font-family: 'Merriweather', serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +71,208 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*OUTER DIV*/
+
+#outerDiv {
+
+	/* border: 3px blueviolet dashed; */
+
+	margin: 1%;
+}
+
+/*NAV*/
+
+
+#navLinks {
+	display: inline-block;
+	/* border: 5px red dashed; */
+	width: 70%;
+	padding: 15px;
+}
+
+#navLinks a {
+	padding: 3px;
+	letter-spacing: 4px;
+}
+
+#logo {
+
+	/* border: 3px darkgreen inset; */
+	display: inline-block;
+	width: 25%;
+	padding: 15px;
+	
+}
+
+#logo img {
+	max-width: 100%;
+}
+
+/*FIRST SECTION*/
+
+#firstSection {
+
+	/* border: 3px dotted magenta; */
+
+	height: 50vh;
+}
+
+#innoDiv {
+
+	/* border: 3px outset darkorchid; */
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 25%;
+
+
+	}
+
+/* 
+
+PADDING ON THE INSIDE
+
+MARGIN ON THE OUTSIDE
+
+******
+
+TRBL
+PADDING: 29PX;
+
+TB RL
+PADDING: 29PX 20PX;
+
+T RL B
+PADDING: 1PX 49PX 22PX;
+
+T R B L
+PADDING: 3PX 5PX 2PX 5PX;
+
+*/
+
+
+#innoDiv h1{
+	font-size: 80px;
+	max-width: 100%;
+	/* padding-top: 25px; */	
+}
+
+#innoDiv button {
+
+	font-size: 20px;
+}
+
+#circleImage {
+	/* border: 3px dashed lightseagreen; */
+	width: 49%;
+	display: inline-block;
+	/* margin: 12% auto; */
+
+	padding-left: 14%;
+	padding-top: 3%;
+
+}
+
+#circleImage img {
+	max-width: 100%;
+	/* margin: 0 auto; */	
+}
+
+
+/*MIDDLE SECTION*/
+
+#midSection {
+
+	border-top: 3px black solid;;
+	border-bottom: 5px black solid;
+
+}
+
+#midSection h2 {
+
+	font-size: 30px;
+	text-align: left;
+	
+}
+
+#midSection p {
+
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+#featAbout {
+
+	/* border: 2px pink solid; */
+	/* display: inline-block; */
+
+	/* margin: 4%; */
+}
+
+#feat {
+
+	display: inline-block;
+	width: 48%;
+	text-align: justify;
+	margin: 1% 1% 3% 0;
+}
+
+#about {
+	display: inline-block;
+	width: 48%;
+	text-align: justify;
+	margin: 0% 1% 3% 1%;	
+
+}
+
+
+/* MIDDLE IMAGE AREA */
+
+#midImg img{
+	/* max-width: 100%; */
+	width: 100%;
+}
+
+/* SERVICES PRODUCT VISION  */
+
+#servProdVis div {
+
+	margin: 1% 1% 0 2%;
+	display: inline-block;
+	width: 30%;
+}
+
+#serv {
+	display: inline-block;
+}
+
+#prod {
+	display: inline-block;
+
+}
+
+#vision {
+	display: inline-block;
+}
+
+
+
+/* BOTTOM SECTION */
+
+
+address {
+	font-size: 1em;
+	/* padding: 2% 5%; */
+	}
+
+
+
+footer {
+	font-size: 2em;
+	/* padding: 2% 5%; */
+	text-align: center;
+}
+
+
