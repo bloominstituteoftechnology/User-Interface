@@ -65,6 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/*OUTER DIV*/
+
+#outerDiv {
+
+	border: 3px blueviolet dashed;
+
+	margin: 1%;
+}
 
 /*NAV*/
 
@@ -74,5 +82,78 @@ section {
 
 #navLinks {
 	display: inline-block;
+	/* border: 5px red dashed; */
+	width: 70%;
+	padding: 15px;
 }
+
+#navLinks a {
+	padding: 3px;
+	letter-spacing: 4px;
+}
+
+#logo {
+
+	/* border: 3px darkgreen inset; */
+	display: inline-block;
+	width: 25%;
+	padding: 15px;
+	
+}
+
+#logo img {
+	max-width: 100%;
+}
+
+/*FIRST SECTION*/
+
+#firstSection {
+
+	/* border: 3px dotted magenta; */
+}
+
+#innoDiv {
+
+	margin: 0 auto;
+	border: 3px outset darkorchid;
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 25%;
+
+	}
+
+#innoDiv h1{
+	font-size: 60px;
+	max-width: 100%;
+
+	
+}
+
+#innoDiv button {
+
+	font-size: 20px;
+}
+
+#circleImage {
+	border: 3px dashed lightseagreen;
+	width: 49%;
+	display: inline-block;
+
+}
+
+#circleImage img {
+	max-width: 100%;
+}
+
+
+/*MIDDLE SECTION*/
+
+#midSection {
+
+	border-top: 3px black solid;;
+	border-bottom: 5px black solid;
+
+}
+
 
