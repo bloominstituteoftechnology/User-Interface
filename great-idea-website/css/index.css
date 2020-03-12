@@ -94,6 +94,12 @@ a {
 	padding: 0 auto;
 	height: 1px 0 0 0;
 	text-decoration: none;
+
+}
+
+a:hover {
+	font-size: 29px;
+	 
 }
 
 .nav-links a {
