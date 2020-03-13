@@ -49,18 +49,120 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
+
+/* Styles for Header Section */
+/* Head 1 */
+body{
+width: 81.8%;
+margin: 0 auto;
+}
+.head1{
+	overflow: hidden;
+}
+.navigation{
+	width: 73%;
+	float: left;
+	margin-top: 1%;
+	
+}
+.navigation a{
+padding-right: 8%;
+color: gray;
+text-decoration: none;
+}
+.logo{
+float: right;
+
+}
+/* Head 2 */
+.head2{
+overflow: hidden;
+margin-top: 8%;
+}
+.head-left{
+font-size: 500%;
+float: left;
+text-align: center;
+margin-top: 5%;
+margin-left: 10%;
+}
+button{
+border: silver 2px solid;
+font-size: 25%;
+padding-left: 10%;
+padding-right: 10%;
+}
+.head-right{
+float: right;
+}
+
+/*Styles for Mid-Section */
+.mid{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-top: silver 2px solid;
+	border-bottom: silver 2px solid;
+}
+/* Body1 */ 
+div.features{
+width: 50%;
+float: left;
+padding-right: 1%;
+margin-top: 5%;
+}
+div.about{
+overflow: hidden;
+margin-top: 5%;
+}
+/* Mid Image */
+div.midimg{
+
+margin-top: 2.5%;
+margin-bottom: 2.5%;
+}
+/* Body2 */
+
+div.services{
+width: 33.3%;
+padding-right: 1%;
+float: left;
+}
+div.product{
+width: 33.3%;
+padding-right: 1%;
+float: left;
+overflow: hidden;
+}
+div.vision{
+overflow: hidden;
+margin-bottom: 8%;
+}
+/* Styles for Footer Section*/
+div.contact address{
+	margin-bottom: 1.5%;
+}
+div.contact p{
+	line-height: 2;
+}
+div.copyright{
+	margin-top: 2.5%;
+	text-align: center;
+}
