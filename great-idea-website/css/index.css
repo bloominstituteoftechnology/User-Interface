@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,8 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 /* Set every element's box-sizing to border-box */
+/* No Flexbox or CSS Grid */
 * {
     box-sizing: border-box;
 }
@@ -64,3 +65,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#navbar a{
+	text-decoration: none;
+	color: black;
+	display: inline;
+}
+#features_about{
+	background: lightblue;
+}
+#features, #about{
+	display: inline;
+	background-color: lightcoral;
+}
