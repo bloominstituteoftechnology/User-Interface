@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 15px;
 }
 /*Defining the navigation*/
-
+/* 
 .navigation{
 		overflow: hidden;
 		background-color: white;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
   background-color: black;
   color:white;
 }
-/*
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -102,7 +102,33 @@ li a {
 li a:hover{
 	background-color: #111;
 }
-*/
 
-/*.nav_bar {
-  testing */
+ */
+ ul {
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 0;
+  overflow: hidden;
+  border: 0px solid #f3f3f3;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
