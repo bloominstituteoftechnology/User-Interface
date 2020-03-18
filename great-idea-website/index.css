@@ -80,17 +80,24 @@ html, body{
 }
 
 
-
 .container {
 	margin: 0 auto;
 	width: 600;
 	border: 50% solid black;
 }
 
+
+.box.logo {
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	text-align: right;
+	margin-bottom: 20px;
+}
 .navigation a {
 	margin: 0 15px;
   border: 1px solid transparent;
-  padding: 45px;
+  padding: 40px;
   display: inline-block;
   border-radius: 20px;
   color:#00BFFF;
@@ -133,3 +140,82 @@ button {
 	border-radius: 50%
 }
 
+.box1 {
+	border: 10px;
+	display: inline-block;
+	margin: 1px;
+	padding: 45px;
+	height: 40%;
+	width: 42%
+}
+.box2 {
+	border: 10px;
+	display: inline-block;
+	margin: 1px;
+	padding: 45px;
+	height: 40%;
+	width: 42%
+}
+
+.image_content.content_3_box {
+	text-align: center;
+}
+
+.box3 {
+	border: 2px;
+	display: inline-block;
+	margin: 5px;
+	padding: 40px;
+	height: 30%;
+	width: 28%
+}
+
+.middle-img {
+	width: 95%;
+	height: 10%;
+	
+}
+
+.box4 {
+	border: 2px ;
+	display: inline-block;
+	margin: 5px;
+	padding: 40px;
+	height: 30%;
+	width: 28%
+}
+
+.box5 {
+	border: 2px;
+	display: inline-block;
+	margin: 5px;
+	padding: 40px;
+	height: 30%;
+	width: 28%
+}
+
+.contact {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+address {
+	line-height: 2;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+address p {
+	line-height: 0px;
+}
+
+/*
+#street {
+	border: 1px dotted pink;
+}
+*/
