@@ -46,102 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*Set every element's box -sizing to border-box*/
-*{  
-    box-sizing: 100%;
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
 }
-html,body {
+
+html, body {
     height: 100%;
-    font-family: 'Titillium web' , 'sans-serif';
+    font-family: 'Titillium Web', sans-serif;
 }
+
 h1, h2, h3, h4, h5 {
-  font-family: 'Bangers', cursive;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
-}
-/*Defining the navigation*/
-/* 
-.navigation{
-		overflow: hidden;
-		background-color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
-.navigation a {
-  float: left;
-  display: block;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navigation a:hover {
-  background-color: black;
-  color:white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-	float: left	;	
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover{
-	background-color: #111;
-}
-
- */
- ul {
-  list-style-type: none;
-  margin: 0 10px;
-  padding: 0;
-  overflow: hidden;
-  border: 0px solid #f3f3f3;
-  background-color: #f3f3f3;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #4CAF50;
-}
-
-.content_1_box {
-  /*
-      Box Width = (100 - ((margin% * # of boxes) * 2)) / (# of boxes)
-      Example: Box Width = (100 - (1 * 2)) / 4 = 23%
-      So if you have 4 equal sized boxes with a margin
-      of 1% your box width will be 23% for dynamic sizing
-  */
-  margin: 1%;
-  width: 49%;
-  min-width: 150px;
-}
+/* Your code starts here! */
