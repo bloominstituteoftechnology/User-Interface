@@ -85,7 +85,6 @@ nav {
 .Main-header {
 	display: inline-block;
 	width: 50px;
-	padding: 25px;
 }
 
 header {
@@ -145,7 +144,7 @@ footer {
 
 .title {
 	font-size: 40px;
-	display: block;
+	display: inline-block;
 	margin: 20px;
 }
 
