@@ -48,6 +48,10 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -80,40 +84,52 @@ html, body{
 .container {
 	margin: 0 auto;
 	width: 600;
+	border: 50% solid black;
 }
 
 .navigation a {
-	margin: 0 6px;
-  border: 1px solid #eeebd9;
-  padding: 19px;
+	margin: 0 15px;
+  border: 1px solid transparent;
+  padding: 45px;
   display: inline-block;
   border-radius: 20px;
-  color: #eeebd9;
+  color:#00BFFF;
   text-decoration: none;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }	
 
-.content_2 {
-	border: 2px solid black;
-  margin: 1%;
-  width: 100%;
+
+.text_content.content_2_box {
+	font-family: 'Bangers', cursive;
+	font-size: 55px;
+	letter-spacing: 1px;
+	padding: 85px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+button {
+	line-height: 25px;
+	text-align: center;
+	font-size:16px;
+	text-transform: uppercase;
 }
 
 .content_2_box {
-    border: 2px solid blue;
     display: inline-block;
     vertical-align: top;
     margin: 1%;
     width: 48%;
-    min-width: 250px;
+		min-width: 250px;
+		vertical-align: middle;
 }
 
-button {
-    margin: 0 auto;
-    display: block;
-    float: left;
+.image_content.content_2_box {
+	float: right;
 }
+
 
 .logo {
 	border-radius: 50%
 }
+
