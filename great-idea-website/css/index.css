@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: lightgray;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,11 +64,67 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.content{
+.container{
 	display: inline-block;
+	margin: 0 auto;
+	width: 80%px;
+	overflow: hidden;
+}
+header{
+	background:#354249;
+	color:#ffffff
+	padding-top: 30px
+	min-height: 70px
+	border-bottom: #e8491d 3px solid;
+}
+header div a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float-left;
+	display:inline;
+	padding: 0 20px 20px
 }
 .navagtion{
+	display: inline-block;
 	color:spacing: 1px;
-	margin-bottom: 15px;
+	margin-bottom: 15px
+}
+.contact{
+	
 }		
-.
+.logo{
+
+}
+.middle-img{
+
+}
+.logo{
+	margin-left:500px
+}
+.inv-text{
+	display:inline-block
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 28px;
+}
+.sectionone{
+	display:inline-block;
+	margin-left: 200;
+}
+.sectiontwo{ 
+	display:inline-block;
+	margin left: 200;
+}
+
+ header div a{
+	display: inline-block
+	margin: 0 30px;
+}
