@@ -132,7 +132,7 @@ body {
 	padding-top: 1%;
 	padding-left: 0%
 }
-.header div {
+.header-mode div {
 	
 	
 	/* display: border-box; */
@@ -147,7 +147,7 @@ body {
 	
 }
 
-.header .roundImage {
+.header-mode .roundImage {
 	
 	display: inline-block;
 	/* border: solid black; */
