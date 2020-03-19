@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a{
+padding: 0px 36px;
+}
+
+nav{
+display:inline;
+margin:auto;
+width: 100%;
+}
+
+#Section1{
+display:inline-block;
+margin:30px 250px ;
+width:100%;
+align-content:center;
+
+}
+
+#Section2 {
+display:inline-block;
+border-top: 1px solid black;
+width:1000px;
+margin:50px;
+
+}
+.middle-img{
+	margin:50px;
+	width: 1000px;
+}
+
+#Section3{
+display: inline-block;
+border-bottom: 1px solid black;
+margin:50px;
+width:1000px;
+}
+
+#p1{
+	height:60px;
+width:45%;
+margin:auto;
+float:left;
+display:inline-block;
+}
+
+#p2{
+height:60px;
+width:45%;
+margin:auto;
+display: inline-block;
+}
+
+.secThree{
+	width: 30%;
+	display:inline-block;
+}
+
+.codePic {
+	display:inline-block;
+}
+#title {
+	font-size:58px;
+	width: 200px;
+	height:250px;
+	margin:auto;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+}
+
+p{
+	width:50;
+}
+
+ #start{
+height:18px;
+width:60px;
+padding:5px;
+border:1px solid black;
+margin:20px;
+position: relative;
+top:10;
+left:10;
+
+}
+content {
+	display:inline-block;
+}
+
+footer{
+text-align:center;
+}
