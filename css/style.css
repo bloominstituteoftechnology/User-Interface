@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+body {
+    width: 60%;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+.nav-menu {
+    width: 100%;
+    margin: auto;
+    padding: 5px,0px,5px,0px;
+}
+
+.nav-menu li{
+    display: inline-block;
+    width: 13%;
+    color: gray;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+/* Defining the main-heading class */
+.main-heading {
+    margin: auto;
+    padding: 0px 0px 5px 0px;
+}
+/* Content Separation Line*/
+hr.line-def{
+    border-top: 2px solid black;
+    border-radius: 2x;
+}
+/* Main heading Item One */
+.mh-itmone {
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 2.5%;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 6rem;
+    text-align: center;
+}
+/* Main heading Item One Button only */
+.mh-itmone button{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    min-width: 62px;
+    margin: auto;    
+}
+/* Main heading Item Two Circle img */
+.mh-itmtwo {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 45%;
+    height: 45%;
+    padding-left: 8%;
+}
+/* Middle Section*/
+.middle-sec {
+    display: inline-block;
+    margin: auto;
+    padding: 1.5% 0% 1.5% 0%;;
+ }
+
+ /* Middle Section first item Features*/
+.midse-fea {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 49%;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+
+ /* Middle Section second item About*/
+.midse-sabt {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 49%;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+ /* Middle Section Image item Image*/
+.midsec-img {
+    margin: auto;
+    width: 100%;  
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+/* Middle Section Services item Services*/
+.midse-ser {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 49%;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+/* Middle Section Product item Product*/
+.idse-pro{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 49%;
+}
+
+/* Middle Section Vision item Vision*/
+.midse-vis {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 49%;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+address {
+    padding: 0.5% 0% 1.5% 0%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer:hover{
+    color:blue;
+}
+
+
+
