@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,65 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+header{
+  margin-top: 10px;
+/* 	border: 2px solid red; */
+}
+nav{
+/* 	border: 2px solid green; */
+/*   float: left; */
+}
+nav a{
+	padding: 10px;
+}
+header img{
+	display: inline-block;
+}
+div{
+  border: 2px solid red;
+}
+div h1{
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+.box2 img{
+	margin-left: 60%;
+}
+
+.features{
+	width: 400px;
+  float: left;
+  margin: 1%;
+}
+.about{
+	width: 400px;
+}
+/*.test{display: table-cell;}*/
+.services{
+  display: inline-block;
+	width: 30%;
+}
+.product{
+	display: inline-block;
+	width: 30%;
+}
+.vision{
+	display: inline-block;
+	width: 30%;
+}
+.middle-img{
+  clear: right;
+	margin: 15px 0 15px 60px;
+}
+
+
+
+footer{
+  border-top: 1px solid #777;
+  margin-top: 20px;
+  padding-top: 10px;
+}
