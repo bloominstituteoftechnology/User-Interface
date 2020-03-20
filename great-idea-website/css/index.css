@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	position: relative;
+	left: 500px;
+	padding:50px;
+	margin: 55px;
+  }
+  nav ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+  }
+  
+  nav li {
+	 display:inline-block;
+	 margin-left:70px; 
+
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+  
+  }
+
+.right{
+	position: relative;
+	left: 500px;
+	bottom:335px;
+}
+
+
+
+.logo {
+	position: relative;
+	left:1500px;
+	bottom:110px;
+}
+
+.box1 {
+	width: 400px;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+  
+}
+.box2 {
+	width: 400px;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  left:250px;
+}
+
+
+.container {
+	display: inline;
+	margin: 0 auto;
+	position: relative;
+	right: 500px;
+}
+.container2 {
+	width: 10px; 
+	margin: px;
+	padding:20px ;
+}
+.container3 {
+	display: inline;
+	margin: 0 auto;
+	
+}
+.container4 {
+	display: inline;
+	margin: 0 auto;
+	
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.Innovation{
+	font-size:32px ;
+	display:inline-block;
+	width: 100px;
+	height: 500px;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+	left:500px;
+	
+	
+}
+
+button{
+	width: 120px;
+	height: 30px;
+	padding: 5px;
+	
+}
+.line{
+	border-style: solid;
+	border-width: thin;
+}
+footer{
+	text-align: center;
+}
+.middle-img{
+	width: 1200px;
+	position: relative;
+	left:300px;
+	text-align:center;
+}
+
+.max{
+	max-width: 100% ;
+}
+.right2{
+	position: relative;
+	left:300px;
+}
