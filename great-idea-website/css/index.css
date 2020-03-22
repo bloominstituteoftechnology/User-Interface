@@ -64,96 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width:85%;
+}
+header{
+
+margin:5%;
+padding:20px;
+width:100%;
+}
 
 a{
-padding: 0px 36px;
+margin:0px 35px;
 }
 
 nav{
-display:inline;
-margin:auto;
-width: 100%;
-}
-
-#Section1{
-display:inline-block;
-margin:30px 250px ;
-width:100%;
-align-content:center;
-
-}
-
-#Section2 {
-display:inline-block;
-border-top: 1px solid black;
-width:1000px;
-margin:50px;
-
-}
-.middle-img{
-	margin:50px;
-	width: 1000px;
-}
-
-#Section3{
-display: inline-block;
-border-bottom: 1px solid black;
-margin:50px;
-width:1000px;
-}
-
-#p1{
-	height:60px;
-width:45%;
-margin:auto;
-float:left;
-display:inline-block;
-}
-
-#p2{
-height:60px;
-width:45%;
-margin:auto;
-display: inline-block;
-}
-
-.secThree{
-	width: 30%;
 	display:inline-block;
 }
 
-.codePic {
-	display:inline-block;
+ .logo{
+	 float:right;
+ }
+
+.sec1{
+	margin:5%;
+	width:100%;	
 }
-#title {
-	font-size:58px;
-	width: 200px;
-	height:250px;
-	margin:auto;
+
+.sec1 section{
+	display:inline-block;
 	text-align:center;
+	width:49%;
+}
+
+.innovation{
+	vertical-align:top;
+	padding:80px 150px 0px 150px;
+	text-overflow: ellipsis;
+}
+
+h1{
+	font-size:80px;
+}
+
+button{
+	width:160px;
+	height:40px;
+}
+
+.sec2 {
 	display:inline-block;
-	vertical-align:center;
+	margin:5%;
+	padding:5px;
+	border-top: 2px solid black;
+	border-bottom:2px solid black;
+	width:100%;
 }
 
-p{
-	width:50;
-}
-
- #start{
-height:18px;
-width:60px;
-padding:5px;
-border:1px solid black;
-margin:20px;
-position: relative;
-top:10;
-left:10;
-
-}
-content {
+.sec2 .top section{
 	display:inline-block;
+	width:47%;
+	margin:10px;
+}
+
+.sec2 img{
+width:100%;
+}
+
+.sec2 .bottom section{
+	display:inline-block;
+	width: 31%;
+	margin: 10px;
 }
 
 footer{
-text-align:center;
+	margin:5%;
+}
+
+footer p {
+	text-align:center;
 }
