@@ -96,19 +96,9 @@ header li{
 	display: inline-block;
 	color:spacing: 1px;
 	margin-bottom: 15px
-}
-.contact{
 	
-}		
-.logo{
+}
 
-}
-.middle-img{
-
-}
-.logo{
-	margin-left:500px
-}
 .inv-text{
 	display:inline-block
 	margin: 0 auto;
@@ -128,3 +118,47 @@ header li{
 	display: inline-block
 	margin: 0 30px;
 }
+ li{
+	 float:left;
+	 padding:8px;
+ }
+
+li a{
+	display: inline-block;
+	padding: 8px;
+	background-color:red;
+	
+}
+ .logo{
+ float: right;
+ padding:8px;
+ margin-left:490px;
+ margin-top
+ display:inline-block;
+
+ }
+ .inv{
+	display:inline-block;
+	margin: auto;
+ }
+ 	h1{
+		letter-spacing: 1px;
+		margin-bottom: 10px;
+		margin-left: 100px;
+		font-size: 50px;
+		margin-top: 5px;
+	 }
+	 .button{
+		margin-left: 100px;
+	 }
+	 .image2{
+		 display:inline-block;
+		 float:right;
+		width:300px;
+		margin-left:500px
+	 }
+	 h3, p{
+		 display:block;
+		 
+
+	 }
