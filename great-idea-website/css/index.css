@@ -79,6 +79,7 @@ header {
 
 header div{
 	display: inline-block;
+	padding: 1% 0;
 }
 header .nav{
 	width:70.5%;
@@ -94,11 +95,14 @@ header a{
 	margin-right:8%;
 	
 }
+header a:hover {
+	color:black;
+}
 
 .title-section {
 	border-bottom: 1px solid black;
-	padding-bottom: 7%;
-	margin:7% 5% 0 5%
+	padding:13% 0 7% 0;
+	margin:0 5% 0 5%
 }
 
 .title-section div{
@@ -119,7 +123,7 @@ header a{
 .title-section a {
 	color: black;
 	text-decoration: none;
-	padding:0 2%;
+	padding:0 6%;
 	border: 1px solid black;
 }
 
@@ -141,11 +145,11 @@ header a{
 }
 
 .middle-img {
-	margin:0 5% 0 5%;
+	margin:1.5% 5% 1.5% 5%;
 }
 
 .info-2 {
-	border-bottom: 1gitpx solid black;
+	border-bottom: 1px solid black;
 	margin:0 5%;
 }
 
