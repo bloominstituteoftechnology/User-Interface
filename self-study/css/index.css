@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+  display: block;
+  background-color: beige;
+  width: 900px;
+  margin: auto;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav a {
+  display: inline-block;
+  background-color: aquamarine;
+  color: #808080;
+  font-size: 18px;
+  font-family: 'times new roman';
+  margin: 25px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  background-color: orange;
+  position: absolute;
+  top: 15px;
+  margin-left: 50px;
+}
