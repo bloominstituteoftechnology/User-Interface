@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 header {
   display: block;
-  background-color: beige;
   width: 900px;
   margin: auto;
 }
@@ -77,9 +76,8 @@ header nav {
 
 header nav a {
   display: inline-block;
-  background-color: aquamarine;
   color: #808080;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'times new roman';
   margin: 25px;
   text-decoration: none;
@@ -90,21 +88,18 @@ header nav a:hover {
 }
 
 .logo {
-  background-color: orange;
   position: absolute;
   top: 15px;
   margin-left: 50px;
 }
 
 .main-sec {
-  background-color: gainsboro;
   display: block;
   width: 900px;
   margin: auto;
 }
 
 .main-sec .main-text {
-  background-color: lightblue;
   display: inline-block;
   width: 320px;
   margin: 80px;
@@ -112,7 +107,6 @@ header nav a:hover {
 }
 
 h1 {
-  background-color: cornsilk;
   display: inline-block;
   width: 320px;
   font-size: 70px;
@@ -135,7 +129,6 @@ button:hover {
 }
 
 .main-img {
-  background-color: honeydew;
   position: absolute;
   margin-top: 45px;
 }
@@ -146,14 +139,12 @@ hr {
 }
 
 .top-info {
-  background-color: lightgoldenrodyellow;
   display: block;
   width: 900px;
   margin: auto;
 }
 
 .col-2 {
-  background-color: lightgreen;
   display: inline-block;
   width: 425px;
   margin: 35px 10px;
@@ -166,21 +157,18 @@ hr {
 }
 
 .btm-info {
-  background-color: lightgoldenrodyellow;
   display: block;
   width: 900px;
   margin: auto;
 }
 
 .col-3 {
-  background-color: lightgreen;
   display: inline-block;
   width: 280px;
   margin: 35px 8px;
 }
 
 footer {
-  background-color: lightsteelblue;
   display: block;
   width: 900px;
   margin: auto;
