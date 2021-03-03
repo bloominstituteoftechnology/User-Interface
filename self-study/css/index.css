@@ -158,3 +158,9 @@ hr {
   width: 425px;
   margin: 35px 10px;
 }
+
+.mid-img {
+  display: block;
+  width: 900px;
+  margin: auto;
+}
