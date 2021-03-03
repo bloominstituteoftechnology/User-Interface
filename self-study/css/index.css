@@ -164,3 +164,17 @@ hr {
   width: 900px;
   margin: auto;
 }
+
+.btm-info {
+  background-color: lightgoldenrodyellow;
+  display: block;
+  width: 900px;
+  margin: auto;
+}
+
+.col-3 {
+  background-color: lightgreen;
+  display: inline-block;
+  width: 280px;
+  margin: 35px 8px;
+}
