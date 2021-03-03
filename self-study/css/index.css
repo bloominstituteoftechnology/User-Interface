@@ -178,3 +178,19 @@ hr {
   width: 280px;
   margin: 35px 8px;
 }
+
+footer {
+  background-color: lightsteelblue;
+  display: block;
+  width: 900px;
+  margin: auto;
+}
+
+.contact {
+  margin: 30px 10px;
+}
+
+.copr {
+  text-align: center;
+  font-size: 14px;
+}
