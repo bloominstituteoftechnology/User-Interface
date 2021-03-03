@@ -139,3 +139,22 @@ button:hover {
   position: absolute;
   margin-top: 45px;
 }
+
+hr {
+  width: 900px;
+  margin: auto;
+}
+
+.top-info {
+  background-color: lightgoldenrodyellow;
+  display: block;
+  width: 900px;
+  margin: auto;
+}
+
+.col-2 {
+  background-color: lightgreen;
+  display: inline-block;
+  width: 425px;
+  margin: 35px 10px;
+}
