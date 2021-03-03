@@ -95,3 +95,47 @@ header nav a:hover {
   top: 15px;
   margin-left: 50px;
 }
+
+.main-sec {
+  background-color: gainsboro;
+  display: block;
+  width: 900px;
+  margin: auto;
+}
+
+.main-sec .main-text {
+  background-color: lightblue;
+  display: inline-block;
+  width: 320px;
+  margin: 80px;
+  text-align: center;
+}
+
+h1 {
+  background-color: cornsilk;
+  display: inline-block;
+  width: 320px;
+  font-size: 70px;
+}
+
+button {
+  background-color: white;
+  display: inline-block;
+  font-size: 18px;
+  width: 175px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.main-img {
+  background-color: honeydew;
+  position: absolute;
+  margin-top: 45px;
+}
