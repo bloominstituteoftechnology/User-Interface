@@ -88,8 +88,8 @@ header nav a:hover {
 }
 
 .logo {
-  position: absolute;
-  top: 15px;
+  display: inline-block;
+  margin-top: 15px;
   margin-left: 50px;
 }
 
