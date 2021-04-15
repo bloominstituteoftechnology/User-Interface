@@ -3,64 +3,238 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+header {
+  border: 1px solid red;
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  border: 1px solid red;
+  width: 100px;
+  margin: auto 0;
+  padding: 10px;
+  color: gray;
+  text-decoration: none;
+}
+
+#image {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.innovation {
+  margin-top: 80px;
+  font-size: 70px;
+}
+
+.innovation button {
+  background: white;
+  padding: 5px 30px;
+  vertical-align: top;
+  font-size: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.innovation button:hover {
+  background: black;
+  color: white;
+}
+
+.top div {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  vertical-align: top;
+}
+
+.top img {
+  display: inline-block;
+}
+.middle-img {
+  display: inline-block;
+  width: 880px;
+}
+.mid {
+  padding: 30px;
+  border-top: 1px solid black;
+}
+.mid div {
+  padding: 20px;
+  display: inline-block;
+  width: 400px;
+}
+.bot {
+  padding: 30px;
+}
+.bot div {
+  display: inline-block;
+  width: 230px;
+  margin: 20px;
+}
+footer {
+  padding: 50px;
+  border-top: 1px solid black;
+}
+.copy {
+  text-align: center;
+  margin: 10px 0px;
+}
