@@ -152,37 +152,46 @@ h5 {
 /* Your code starts here! */
 
 .container {
-  max-width: 100%;
-  margin: auto;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
-header {
-  border: 1px solid red;
+nav {
+  width: 100%;
   display: inline-block;
 }
 nav a {
+  width: 12%;
   display: inline-block;
-  border: 1px solid red;
-  width: 100px;
-  margin: auto 0;
+  margin: 1% auto;
   padding: 10px;
   color: gray;
   text-decoration: none;
+  text-align: center;
 }
 
 #image {
   display: inline-block;
   padding: 10px;
-  border: 1px solid red;
+  width: 16%;
+  margin: 0 0 0 7%;
 }
 
 header nav a:hover {
   text-decoration: underline;
 }
 
+.top {
+  width: 100%;
+  display: inline-block;
+  margin: 4% auto;
+}
+
 .innovation {
-  margin-top: 80px;
-  font-size: 70px;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .innovation button {
@@ -199,36 +208,37 @@ header nav a:hover {
   color: white;
 }
 
-.top div {
+#image2 {
   display: inline-block;
-  text-align: center;
-  padding: 50px;
-  vertical-align: top;
+  width: 49%;
 }
 
-.top img {
+#image3 {
   display: inline-block;
+  width: 100%;
 }
-.middle-img {
+.middle {
+  width: 100%;
   display: inline-block;
-  width: 880px;
-}
-.mid {
   padding: 30px;
   border-top: 1px solid black;
+  margin: 0 auto;
 }
-.mid div {
-  padding: 20px;
+.middle div {
+  padding: 1%;
   display: inline-block;
-  width: 400px;
+  width: 45%;
+  margin: 1%;
 }
-.bot {
+.bottom {
   padding: 30px;
-}
-.bot div {
   display: inline-block;
-  width: 230px;
-  margin: 20px;
+}
+.bottom div {
+  display: inline-block;
+  width: 30%;
+  padding: 1%;
+  margin: 1%;
 }
 footer {
   padding: 50px;
@@ -236,5 +246,5 @@ footer {
 }
 .copy {
   text-align: center;
-  margin: 10px 0px;
+  margin: 5% auto 0;
 }
