@@ -164,7 +164,7 @@ nav a {
   width: 12%;
   display: inline-block;
   margin: 1% auto;
-  padding: 10px;
+  padding: 2%;
   color: gray;
   text-decoration: none;
   text-align: center;
@@ -172,7 +172,7 @@ nav a {
 
 #image {
   display: inline-block;
-  padding: 10px;
+  padding: 1%;
   width: 16%;
   margin: 0 0 0 7%;
 }
@@ -183,7 +183,6 @@ header nav a:hover {
 
 .top {
   width: 100%;
-  display: inline-block;
   margin: 4% auto;
 }
 
@@ -196,9 +195,9 @@ header nav a:hover {
 
 .innovation button {
   background: white;
-  padding: 5px 30px;
+  padding: 1% 7%;
   vertical-align: top;
-  font-size: 15px;
+  font-size: 1rem;
   border: 1px solid black;
   cursor: pointer;
 }
@@ -214,34 +213,28 @@ header nav a:hover {
 }
 
 #image3 {
-  display: inline-block;
   width: 100%;
 }
 .middle {
   width: 100%;
-  display: inline-block;
-  padding: 30px;
   border-top: 1px solid black;
   margin: 0 auto;
 }
 .middle div {
-  padding: 1%;
   display: inline-block;
   width: 45%;
+  padding: 3%;
   margin: 1%;
 }
-.bottom {
-  padding: 30px;
-  display: inline-block;
-}
+
 .bottom div {
   display: inline-block;
   width: 30%;
-  padding: 1%;
+  padding: 3%;
   margin: 1%;
 }
 footer {
-  padding: 50px;
+  padding: 5%;
   border-top: 1px solid black;
 }
 .copy {
