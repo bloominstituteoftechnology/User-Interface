@@ -64,3 +64,54 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 890px;
+	margin: auto;
+}
+header nav{
+	display: inline-block;
+	margin-top: 36px;
+}
+header nav a{
+	margin: 0 23px;
+	text-decoration: none;
+}
+.logo{
+	margin-left: 100px;
+	vertical-align: middle;
+}
+.cta{
+	margin: 70px;
+}
+.cta-text{
+	display: inline-block;
+	text-align: center;
+	margin-right: 60px;
+	vertical-align: middle;
+}
+.cta-img{
+	 vertical-align: middle;
+ }
+.cta-text h1{
+	font-size: 75px;
+}
+.article{
+    display: inline-block;
+	width: 440px;
+	margin: 20px 0px;
+}
+.art-under{
+	display: inline-block;
+	width: 277px;
+	margin: 20px 8px;
+}
+footer{
+	margin: 30px 0px;
+}
+.contacts{
+	margin: 10px 0px;
+}
+.endLine{
+	margin-top: 40px;
+	text-align: center;
+}
