@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -12,55 +12,198 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+ height: 100%;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+ font-family: 'Bangers', cursive;
+ letter-spacing: 1px;
+ margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+ .navBar  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  background: #6192F6;
+  width: 100%;
+}
+
+.ops {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.logoImg {
+    display: flex;
+    align-items: center;
+    background: #6192F6
+}
+
+.serv, .prod, .vis, .feat, .abou, .cont {
+    background-color:#6192F6;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: 'Permanent Marker', cursive;
+     text-decoration: none;
+     padding: 30px;
+ }
+ 
+ .serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
+    background-color: #0034A3;
+    color: white;
+ }
+.logoImg {
+    margin-top: 50px;
+    height: 40px;
+}
+
+
+
+
+.frontTitle {   
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 85px;
+}
+
+.title, .headerImg {
+  margin: 200px auto 100px;
+}
+.innov {
+  width: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.topDesc {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 5px solid black;  
+  padding-top: 50px;
+}
+
+.started {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: white;
+    box-shadow: 0 5px #666;
+    border: solid black;
+    padding: 10px;
+    }
+
+
+p {
+  width: 300px; 
+  font-size: 20px;
+
+ }
+.middle-img {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+
+}
+.started:hover {
+    background-color: lightgrey;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 5px solid black;
+  padding-bottom: 50px;
+}
+
+
+h3 {
+    font-size: 30px;
+}
+.smallP {
+  width: 300px;
+ }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+
+}
+
+.number {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    
+}
+
+
+
+
