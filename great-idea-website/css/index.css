@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 50px 400px 50px 400px;
+}
+
+section1 div{
+	display:inline-block;
+	line-height:50px;
+	background-color: rgb(96, 240, 96);
+	position: fixed;
+	top: 0;
+	width:1103px;
+}
+
+	nav{
+		display: inline;
+		color: rgb(160, 156, 156);
+	}
+
+	nav ul:hover{
+		background-color: rgb(233, 75, 75);
+		color: white;
+		font-size: 20px;
+
+	}
+
+	ul{
+		display: inline;
+		margin: 30px 30px;
+	}
+
+	section1 div img{
+		position: absolute;
+		right: 100px;
+		top:5px;
+	}
+	.logo{
+		z-index: 1;
+	}
+
+section2{
+	display: block;
+	padding: 50px 100px;
+	margin: 0 auto;
+}
+
+	header{
+		display: inline-block;
+		font-family: 'Bangers', cursive;
+		font-size: 80px;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	box{
+		display: inline-block;
+		font-size: 20px;
+		border: solid 1px black;
+		font-family: sans-serif;
+		padding: 10px 50px;
+	}
+
+	.logo2{
+		position:absolute;
+		right: 500px;
+		z-index: -1;
+}
+
+section3 div{
+	display: block;
+	border-top: solid 2px black;
+	padding: 30px 0;
+	column-count: 2;
+}
+
+	.middle-img{
+		width:100%;
+	}
+
+section4 div{
+	padding: 30px 0;
+	column-count:3;
+}
+
+contact div{
+	padding: 30px 0;
+	border-top: solid 2px black;
+	font-family: Julius Sans One;
+	font-size: 15px;
+}
+
+.copy{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+h1{
+	font-family: Julius Sans One;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2{
+	font-family: Julius Sans One;
+}
