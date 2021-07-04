@@ -1,63 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Great Idea!</title>
+    <title>Great Idea!</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
   <body>
+    <header id="mainHeader">
+      <nav id="mainNavigation">
+        <ul class="navigationUl">
+          <li class="navigationListItems">
+            <a href="#">
+              Services
+            </a>
+          </li>
+          <li class="navigationListItems">
+            <a href="#">
+                Product
+            </a>
+          </li>
+          <li class="navigationListItems">
+            <a href="#">
+                Vision
+            </a>
+          </li>
+          <li class="navigationListItems">
+            <a href="#">
+                Features
+            </a>
+          </li>
+          <li class="navigationListItems">
+            <a href="#">
+                About
+            </a>
+          </li>
+          <li  class="navigationListItems">
+              <a href="#">
+                  Contact
+              </a>
+            </li>
+        </ul>
+        <div class="image-container">
+            <img class="logo" src="img/logo.png" alt="Great Idea! Company logo." />
+        </div>
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
+      </nav>
+    </header>
 
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
-
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+        
+<section id="cardOne">
+  <div class="cardOneContentWrapper welcomeText">
+    <h1>
+      <span>Innovation</span>
+      <span>On</span>
+      <span>Demand</span>
+    </h1>
+    <a href="#">
+        Get Started
+    </a>
+  </div>
+  <div class="cardOneContentWrapper imageCardOneWrapper">
+      <img src="img/header-img.png" alt="Image of a code snippet." />
+  </div>
+</section>
+<section id="cardTwo">
+  <div class="cardTwoContentWrapper">
+    <div class="double-column first">
+        <h3>
+            Features
+        </h3>
+        <p>
+            Aliquam elementum magna eros, ac posuere elvit tempus et.
+            Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl.
+            Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+        </p>
+    </div>
+    <div class="double-column second">
+        <h3>
+            About
+        </h3>
+        <p>
+            Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel
+            tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis
+            augue justo, at imperdiet metus scelerisque quis.
+        </p>
+    </div>
+  </div>
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  <img
+  class="middle-img"
+  src="img/mid-page-accent.jpg"
+  alt="Image of code snippets across the screen"
+/>
+<div class="cardTwoContentWrapper">
+    <div class="cardTwoContentWrapper">
+      <div class="tripple-column">
+          <h3>
+              Services
+          </h3>
+          <p>
+              Aliquam elementum magna eros, ac posuere elvit tempus et.
+              Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl.
+              Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+          </p>
+      </div>
+      <div class="tripple-column">
+          <h3>
+              Product
+          </h3>
+          <p>
+              Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel
+              tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis
+              augue justo, at imperdiet metus scelerisque quis. 
+          </p>
+      </div>
+      <div class="tripple-column">
+          <h3>
+              Vision
+          </h3>
+          <p>
+              Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel
+              tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis
+              augue justo, at imperdiet metus scelerisque quis.
+          </p>
+      </div>
+    </div>
+  </div>
+<footer>
+  <div class="address-information">
+      <h3>Contact</h3>
+  <p class="one">123 Way 456 Street</p>
+  <p class="two">Somewhere, USA</p>
+  <p class="three">1 (888) 888-8888</p>
+  <p class="four">sales@greatidea.io</p>
+  </div>
 
+  <p class="copyright">Copyright Great Idea! 2018</p>
+</footer>
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      
 
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
-
-  Copyright Great Idea! 2018
-  
   </body>
 </html>
