@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width:1024px;
+	margin: 0 auto;
+}
+
+img, h1 {
+	animation-name: fadein;
+	animation-duration: 10s;
+}
+
+nav{
+	margin-bottom: 15px;
+	display: inline-block;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 75%;
+	margin-right: 150px;
+	z-index: 500;
+}
+
+nav a {
+	margin: 0px 45px;
+	width: 12%;
+	text-decoration: none;
+	color: lightgray;
+	padding-top: 20px;
+}
+
+nav a:hover {
+	background-color: lightgray;
+	color: black;
+}
+
+nav img {
+	background-color: white;
+	display: inline-block;
+	width: 14%;
+	position: absolute;
+	right: 0;
+	animation-duration: 1s;
+}
+
+.header {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.header .header-left {
+	display: inline-block;
+	font-size: 4.5em;
+	padding: 75px 10px 75px;
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 100px;
+	white-space: normal;
+	word-wrap:break-word;
+}
+
+.header-left h1 {
+	margin-bottom: -25px;
+}
+
+.header-left button{
+	font-size: 15px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 35px;
+}
+
+.header img {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-bottom: 75px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+}
+
+.content {
+	margin-top: 25px;
+	font-size: 16px;
+	text-align: left;
+	width: 100%;
+}
+
+.lg {
+	display: inline-block;
+	width: 50%;
+	padding-left: 0px;
+}
+
+.content img {
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.sm {
+	display: inline-block;
+	width: 30%;
+	margin: 40px 45px 40px 0;
+}
+
+.contact {
+	width: 150px;
+	margin-top: 25px;
+}
+
+.squish {
+	padding-right: 50px;
+}
+
+.padded {
+	margin-top: 20px;
+}
+
+.stahp {
+	margin-right: 0px;
+}
+
+.footer {
+	text-align: center;
+	padding-bottom: 125px;
+}
+
+/* CSS Animations */
+@keyframes fadein {
+    0% {
+			opacity: 0;
+		}
+
+    100% {
+			opacity: 1;
+		}
