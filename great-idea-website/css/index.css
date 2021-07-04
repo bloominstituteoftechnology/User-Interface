@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	margin: 0 5% 0 5%;
+}
+nav{
+	margin-left: 2%;
+	width: 80%;
+	border-color: gray;
+	border-width: 1px;
+	display: inline-block;
+}
+
+nav a{
+	padding: 5%;
+	color: gray;
+	text-decoration: none;
+}
+
+.logo{
+	margin-top: 2%;
+}
+
+.call-to-action{
+	border-bottom: 2px solid black;
+}
+
+.left-cta{
+	width: 60%;
+	padding:2%;
+	float: left;
+	margin-top: 5%;
+}
+
+.left-cta h1{
+	font-size: 7em;
+	text-align: center;
+}
+
+.get-started{
+	border-width: 5px;
+	border: 1px solid black;
+	text-align: center;
+	width:20%;
+	padding: 1% 5%;
+	margin:auto;
+}
+
+.right-cta{
+	padding: 5%;
+	width:100%;
+}
+
+.right-cta img{
+	width:30%;
+}
+
+
+.two-box-content{
+	width:48%;
+	display: inline-block;
+	padding-top: 2%;
+	font-size: 2em;
+	
+
+}
+
+.two-box-content h2{
+	font-size: 1em;
+}
+
+.two-box-content p{
+	font-size: 20pt;
+	overflow-wrap: break-word;
+	padding-right: 5%;
+}
+
+
+.middle-img{
+	width:100%;
+	padding-top: 5%;
+}
+
+.three-box-content{
+	width:33%;
+	display: inline-block;
+	padding-top: 5%;
+
+}
+
+.three-box-content h2{
+	font-size: 2em;
+}
+
+.three-box-content p{
+	font-size: 20pt;
+	overflow-wrap: break-word;
+	padding-right: 15%;
+}
+
+.second-section{
+	border-bottom: 2px solid black;
+	padding-bottom: 5%;
+}
+
+.contact{
+	padding-top: 3%;
+}
+
+.contact h2{
+	font-size: 2em;
+}
+
+.info p{
+	padding-bottom: 2%;
+	font-size: 16pt;
+}
+
+address{
+	padding-bottom: 2%;
+	font-size: 16pt;
+}
+
+footer{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
