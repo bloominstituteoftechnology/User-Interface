@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,169 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+strong {
+	font-weight: bold;
+  }
+
+footer {
+	padding: 20px 0;
+	margin: 20px 0;
+}
+footer p {
+		text-align: center;
+	}
+
+ul.list {
+		list-style-type: square;
+		list-style-position: inside;
+		line-height: 1.75;
+	}
+
+.container {
+	width: 875px;
+	margin: 0 auto;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-div {
+	display: flex;
+	margin: 20px 0 20px;
+}
+
+.main-nav a {
+	margin-left: 40px;
+	text-decoration: none;
+	color: #d9d9d9;
+}
+
+.nav-div .logo {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.header.home {
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header.services {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.header-left {
+	font-size: 80px;
+	text-align: center;
+	padding: 50px 0px 50px 50px;
+	width: 45%;
+}
+
+.header-right {
+	width: 45%;
+}
+
+.header-button {
+	text-align: center;
+	padding: 10px 50px 10px 50px;
+	font-size: 18px;
+	background: white;
+	border: 1px solid black;
+}
+
+.top-home {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.features-p {
+	width: 49%;
+}
+
+.about-p {
+	width: 49%;
+}
+
+.middle-home {
+	padding: 20px 0;
+}
+
+.bottom-home {
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-p {
+	width: 32%;
+}
+
+.product-p {
+	width: 32%;
+}
+
+.vision-p {
+	width: 32%;
+}
+
+.main-services-p {
+	padding: 20px 0 20px;
+}
+
+.main-services-p strong {
+	font-size: 22px;
+}
+.contact {
+	padding: 20px 0;
+}
+
+.middle-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid black;
+}
+
+.bottom-services {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	margin: 20px 0 40px;
+}
+
+.half-pg-block {
+	background: #F0F0F0;
+	border: 1px solid black;
+	width: 48%;
+	padding: 20px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+.half-pg-block-plain {
+	width: 48%;
+	padding: 20px 0 20px;
+	margin-bottom: 20px;
+}
+
+.learn-more-btn {
+	margin: 20px 0 10px;
+	padding: 10px 40px 10px;
+	background: white;
+	border-radius: 10px;
+}
+
+@media(max-width: 600px) {
+	.middle-services {
+		flex-direction:column;
+	}
+}
