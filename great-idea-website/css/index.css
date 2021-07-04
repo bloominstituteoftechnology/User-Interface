@@ -58,9 +58,126 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Shadows Into Light', cursive;
+    /* font-family: 'Bangers', cursive; */
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	/* border: 1px solid red; */
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: grey;
+}
+header a {
+	display: inline-block;
+	margin: 0 77px;
+}
+
+header {
+	background-image: linear-gradient(#008cff, white, rgba(255,0,0,0));
+	padding-bottom: 150px;
+	position: fixed;
+	top: 0;
+}
+
+header nav a {
+	margin: 0 20px;
+	color: black;
+}
+
+header nav a:hover {
+	background: grey;
+	color: white;
+	transition: 0.8s;
+	padding: 5px 0;
+}
+
+section.cta {
+	margin: 35px;
+	margin-top: 150px;
+}
+section .cta-text {
+	display: inline-block;
+	margin: 0 50px;
+	text-align: center;
+}
+
+div.cta-text h1 {
+	font-size: 80px;
+}
+
+div.cta-text button {
+	padding: 5px 40px;
+	color: grey;
+	background-color: white;
+}
+
+div.top-content {
+	margin: 40px 0;
+}
+
+.text-content {
+	display: inline-block;
+	margin: 0;
+	width: 447px;
+}
+
+img.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	margin: 40px 0;
+}
+
+.bottom-text-content {
+	display: inline-block;
+	margin: 0;
+	width: 296px;
+}
+
+.contact {
+
+}
+
+footer {
+	text-align: center;
+	margin: 30px;
+}
+
+/* 
+#######################
+#######################
+Products Page
+#######################
+#######################
+*/
+
+div.main-product {
+	margin: 200px 0;
+}
+
+div.main-product h2 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 75px; 
+}
+
+div.text-product {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
+}
