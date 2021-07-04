@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,172 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* ___HEADER___ */
+
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+header {
+	position: fixed;
+	background: white;
+	height: 67px;
+}
+
+header nav {
+	display: inline-block;
+	/* position: fixed; */
+	/* top: 0;
+	z-index: 1000; */
+	vertical-align: top;
+	width: 691px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background: white;
+}
+
+header nav a {
+	display: inline-block;
+	margin-right: 65px;
+	font-size: 14px;
+	text-decoration: none;
+	color:lightgray;
+}
+
+header nav a:hover {
+	transition: all 1s ease;
+	text-decoration: underline;
+	color: #1b1d1b;
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+
+/* _____TITLE_____ */
+
+section .title-header {
+	padding-top: 100px;
+}
+
+.title-header .left {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 70px;
+	margin-top: 150px;
+	text-align: center;
+	padding: 0px 75px;
+}
+
+button {
+	font-size: 20px;
+	background-color: white;
+	vertical-align: top;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 8px 44px;
+	border: 1px solid black;
+	margin-top: 6px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+	box-shadow: 2px 2px 22px 4px rgba(0,0,0,0.35);
+	transition: all 0.2s ease;
+	background: #1b1d1b;
+	border: 1px solid #f3f4f3;
+	color: white;
+}
+
+.title-header img {
+	display: inline-block;
+	margin-top: 100px;
+	padding-left: 60px;
+}
+
+/* ____MAIN____ */
+
+.main {
+	border-top: solid-black;
+	margin-top: 60px;
+	padding-top: 39px;
+}
+
+
+.main .content-top .content-text {
+	display: inline-block;
+	width: 410px;
+	margin-right: 34px;
+	text-align: justify;
+}
+
+.main .content-top .content-text:first-child {
+	margin-left: 0;
+}
+
+.main .content-top .content-text:last-child {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.main .middle-image {
+	margin-top: 45px;
+}
+
+.main .content-bottom {
+	margin-top: 37px;
+	padding: 0;
+}
+
+.main .content-bottom .content-text {
+	width: 275px;
+	display: inline-block;
+	text-align: justify;
+	margin-right: 12px;
+}
+
+.main .content-bottom .content-text:first-child {
+	margin-left: 0;
+}
+.main .content-bottom .content-text:last-child {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/* ___CONTACT___ */
+
+.contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 0 0;
+}
+
+.contact p {
+	margin: 20px 0;
+	line-height: 1.5;
+}
+
+footer p {
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	
+}
