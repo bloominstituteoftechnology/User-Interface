@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 1024px;
+	position: relative;
+	margin: 40px auto;
+}
+
+header {
+	width: 100%;
+	height: 36px;
+	position: relative;
+	top: 0;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	line-height: 36px;
+}
+
+header nav a {
+  margin: 0 30px;
+	text-decoration: none;
+	font-size: .95rem;
+	color: gray;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header .logo {
+	position: absolute;
+	right: 40px;
+}
+
+section {
+ margin: 50px auto;
+ width: 876px;
+ line-height: 1.5;
+ 
+ 
+}
+
+.banner {
+	position: relative;
+	height: 450px;
+	border-bottom: 1px solid black;
+}
+
+.banner .banner-column {
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+}
+
+.banner #headline {
+	padding: 75px 0;
+	text-align: center;
+	line-height: 1;
+}
+
+.banner #headline h1 {
+	font-size: 4rem;
+}
+
+.banner #hero-image-wrapper {
+	right: 0;
+	text-align: center;
+}
+
+.banner #headline .button {
+	display: inline-block;
+	width: 150px;
+	padding: 5px 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+
+.introduction .intro-column {
+	display: inline-block;
+	width: 50%;
+}
+
+.middle-image-wrapper {
+	text-align: center;
+}
+
+.product-and-services {
+	padding: 0 0 40px 0;
+	border-bottom: 1px solid black;
+}
+
+.product-and-services .p-and-s-column {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact-info {
+	line-height: 1;
+}
+
+.contact-info a {
+	color: black;
+	text-decoration: none;
+}
+
+.contact-info a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	padding-bottom: 150px;
+	text-align: center;
+	font-size: .85rem;
+}
