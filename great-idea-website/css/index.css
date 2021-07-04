@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 880px;
+    margin: 0 auto;
+}
+
+/* header */
+
+
+header nav {
+  display: inline-block;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+a:link, a:visited {
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 60px;
+}
+
+a:hover {
+  color: #A5F0E0;
+  font-size: 14px;
+}
+
+/* content splash */
+
+.splash-text {
+	font-size: 75px;
+	font-family: 'Bangers', cursive;
+	margin-top: 85px;
+    text-align: center;
+	display: inline-block;
+	width: 49.5%;
+	float: left;
+}
+
+.splash-image {
+	float: right;
+	margin-top: 42px;
+	display: inline-block;
+	width: 49.5%;
+}
+
+button {
+  font-family: 'Titillium Web', sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  padding: 2px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.button-box {
+text-align:center;
+}
+
+
+
