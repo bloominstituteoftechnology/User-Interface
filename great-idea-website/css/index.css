@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+header {
+	width: 100%;
+	position: relative;
+}
+
+nav {
+	display: inline-block;
+	width: 70%;
+	margin: auto;
+	padding: 15px 0;
+}
+
+a {
+	color:grey;
+	text-decoration: none;
+	/* width: 10%; */
+	padding: 30px;
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+}
+
+.title-and-image {
+	display: block;
+	width: 100%;
+	padding: 40px 0;
+} 
+
+.title {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.round-img {
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.round-img img {
+	float: right;
+}
+
+h1 {
+	font-size: 500%;
+}
+
+.get-started {
+	border: 1px solid black;
+	padding: 10px;
+	width: 200px;
+	margin: auto;
+}
+
+.section-container {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.features, .about {
+	width: 49%;
+	padding: 40px 0;
+	display: inline-block;
+}
+
+.services, .product, .vision {
+	width: 33%;
+	padding: 40px 0;
+	display: inline-block;
+}
+
+footer {
+	padding: 40px 0;
+}
+
+.phone-number {
+	padding: 15px 0;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 40px 0;
+}
