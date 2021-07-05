@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,100 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+a{
+	font-size: 20px;
+	padding-right: 60px;
+	padding-left: 60px;
+	color:#008181;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	font-size: 150px;
+	box-sizing: border-box;
+	display:inline-block;
+}
+button{
+	background-color: Transparent;
+	border: black solid;
+	text-decoration: none;
+	font-size: 20px;
+	height: 60px;
+	width: 200px;
+
+}
+hr{
+	background-color: black;
+}
+i{
+	text-align: center;
+}
+.logo{
+	display:inline-block;
+
+}
+.circleimage{
+margin-left: 100px;
+padding:60px;
+width: auto;
+}
+.container{
+	margin:200px;
+
+}
+.hero{
+padding: 40px;
+width: auto;
+display: flex;
+
+}
+.hero-text{
+width: 48%;
+text-align: center;
+
+}
+.aboveimage{
+width: 1000px;
+display: flex;
+}
+.above_left{
+height: 49%;
+width: 39%;
+
+}
+.above_right{
+	height: 49%;
+	width: 39%;
+
+}
+.belowimage{
+	padding-bottom: 100px;
+	display: flex;
+}
+.below_left{
+
+	height: 49%;
+	width: 29%;
+}
+.below_middle{
+
+	height: 49%;
+	width: 29%;
+}
+.below_right{
+
+	height: 49%;
+	width: 29%;
+}
+.belowimage{
+width: 1000px;
+}
+.navigation{
+	display: flex;
+}
+.middle-img{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
