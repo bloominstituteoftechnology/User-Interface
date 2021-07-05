@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h4 {
+	font-weight: bold;
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+	text-align: center;
+}
+p {
+	font-size: 16px;
+}
+
+.navigation {
+	padding: 20px 0 20px 20px;
+	height: 100px;
+	background: white;
+	position: relative;
+	border-bottom: black solid 1px;
+}
+.navigation a {
+	margin-right: 63px;
+	color: grey;
+	font-size: 14px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 0;
+}
+.navigation a:hover {
+	text-decoration: underline;
+}
+.navigation img{
+	padding-top: 10px;
+	padding-right: 13px;
+	position: absolute;
+	right: 0;
+}
+
+.mid {
+	display: inline-block;
+	width: 100%;
+	border-bottom: solid;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.get-started {
+	display: inline-block;
+	text-align: center;
+	font-size: 75px;
+	width: 50%;
+	padding-bottom: 50px;
+}
+.get-started h1 {
+	margin: 0;
+}
+.get-started button {
+	margin: 0;
+}
+.top-img {
+	padding-top: 10px;
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+
+
+.features{
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+.about {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+.middle-img {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.post-img {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border-bottom: black solid 1px;
+}
+.post-img div {
+	padding-left: 10px;
+	display: inline-block;
+	width: 32%;
+	margin-right: 10px;
+}
+.post-img div p{
+	display: inline-block;
+}
+.contact {
+	display: inline-block;
+	width: 100%;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
