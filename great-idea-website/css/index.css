@@ -3,64 +3,317 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  font-size: 62.5%;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+/*General styles*/
+body {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+
+main {
+  margin: 15% auto;
+}
+
+nav {
+  background-color: gray;
+}
+
+h1 {
+  font-family: "Kumar One Outline", cursive;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 4em;
+  color: black;
+  display: inline-block;
+  margin: 25px 50px;
+}
+
+a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 7%;
+  width: 85%;
+  z-index: 1;
+  opacity: 0.99;
+}
+
+.divider {
+  height: 1px;
+  width: 1245px;
+  margin: 10px;
+  border: 0.5px solid black;
+}
+
+footer {
+  border-bottom: 15px solid gray;
+  position: absolute;
+  bottom: -350px;
+  width: 100%;
+}
+/* page style */
+
+.logo {
+  display: inline;
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  right: 1%;
+  width: 40%;
+}
+
+.main-section {
+  position: relative;
+  left: 10px;
+  width: 1245px;
+}
+
+.main-section h2 {
+  font-size: 3.5em;
+}
+.main-section p {
+  font-size: 2.5em;
+}
+
+.main-content {
+  display: inline-block;
+  margin: 35px 5px;
+  width: 400px;
+}
+
+/* specific styles */
+
+.motto-section {
+  font-size: 60px;
+  position: relative;
+  padding: 50px 25px;
+  margin: 50px 5px;
+}
+
+.motto {
+  margin-right: 400px;
+  text-align: center;
+}
+
+.motto-pic img {
+  height: 350px;
+  position: absolute;
+  top: 0;
+  right: 150px;
+}
+
+.button {
+  position: absolute;
+  left: 320px;
+  font-size: 25px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid gray;
+}
+
+.middle-img {
+  width: 100%;
+  height: 200px;
+}
+
+.about {
+  width: 605px;
+}
+
+.about-body {
+  position: relative;
+  height: auto;
+}
+.about-main {
+  width: 45%;
+  line-height: 1.25;
+}
+.about-main p {
+  font-size: 2.5em;
+}
+.about-main h2 {
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.features {
+  width: 605px;
+}
+
+address {
+  margin: 15px 10px;
+}
+address h2 {
+  font-size: 3.5em;
+}
+address p {
+  font-size: 2.5em;
+}
+
+.copy {
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 3em;
+}
