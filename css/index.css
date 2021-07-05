@@ -132,7 +132,6 @@ margin-right: 5rem;
 	padding-bottom: .3rem;
 
 }
-/* If you want to make this h4 act more like a button, you can add a pseudo-selector to change the cursor on hover. */
 
 .iod {
 	margin-bottom: 4rem;
@@ -141,7 +140,7 @@ margin-right: 5rem;
 
 }
 
-/* In order to prevent the sections below from overlapping, you'll want to set a width for each one. */
+
 
 .middle-info img {
 width: 100%;
@@ -213,7 +212,6 @@ body {
 	padding-right: 5%;
 }
 
-/* Fantastic work on the nav bar! 💯 */
 
 /* Testing button thing */
 
