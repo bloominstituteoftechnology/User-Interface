@@ -26,12 +26,10 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: flex;
+	display: block;
 }
 body {
-
 	line-height: 1;
-	padding: 20px 40px;
 }
 ol, ul {
 	list-style: none;
@@ -65,11 +63,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* Top section */
+
+body img {
+    margin: 2em;
+
+}
 
 .container {
 	width: 800px;
@@ -138,14 +139,6 @@ button {
 
 /* Bottom Section */
 
-.contact {
-	margin-top: 50px;
-	padding: 20px 10px 0;
-}
-
-.contact p {
-	margin: 10px 0px;
-}
 
 footer {
 	text-align: center;
