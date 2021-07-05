@@ -23,6 +23,21 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/*
+
+	Navbar, spaced out nicely, light crey color, soft font, logo on the right links to home
+	Title and Subtitle need bigger font, given display: block along with the first picture inline.
+	Horizontal divider
+	two sections with display: inline-block, bold h3, custom fonts, and a p
+	Image spanning full width
+	three section with display: inline-block, bold h3, custom fonts, and a p
+	Horizontal divider
+	Contact info
+	centered footer
+
+*/
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -58,9 +73,132 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+	min-width: 960px;
+	margin: auto;
+	width: 60%;
+	display: block;
+	margin-top: 100px;
+}
+
+.navbackground {
+	top: 0;
+	position: fixed;
+	height: 80px;
+	right: 0;
+	left: 0;
+	background: #B2B2B4;
+}
+
+nav {
+	margin: auto;
+	overflow: hidden;
+	padding: 10px 0px;
+	width: 60%;
+	min-width: 800px;
+}
+
+nav .navitem {
+	width: 12.5%;
+	display: inline-block;
+	padding: 20px 0;
+	text-decoration: none;
+	color: #202020;
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav img {
+	vertical-align: bottom;
+	padding-top: 9.12px;
+	padding-bottom: 9.12px;
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+}
+
+hr {
+	margin: 10px;
+	border: 0.5px solid black;
+}
+
+#bulbimg {
+	text-align: right;
+	width: auto;
+	max-width: 25%;
+}
+
+.defaulth1 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+
+article {
+	display: inline-block;
+	width: 49%;
+}
+
+button {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	width: 180px;
+	height: 35px;
+}
+
+button:hover {
+	background: black;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+#title {
+	vertical-align: top;
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	margin-top: 5%;
+	font-family: 'Rubik Mono One', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 72px;
+}
+
+p {
+	margin-right: 5px;
+}
+
+section {
+	display: block;
+	margin: 25px 0;
+}
+
+.titleSection {
+	display: inline-block;
+}
+
+.bottomSection {
+	width: 32.5%;
+	display: inline-block;
+}
