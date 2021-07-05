@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 900px;
+	margin: auto;
+}
+header nav{
+	display: inline-block;
+	margin: 0px;
+	background-color: aqua;
+	position: fixed;
+	top:0;
+	width:900px;
+}
+
+header nav a {
+	margin:25px;
+	text-decoration: none;
+	color: black;
+}
+
+.logo{
+	padding-top: 30px;
+}
+.cta{
+	font-size: 70px;
+	text-align: center;
+	margin: 80px auto; 
+	height: 400px;
+}
+.cta-div{
+	display: inline-block;
+	padding:85px;
+	vertical-align: top;
+}
+.cta div h1{
+	margin-bottom: 0px;
+}
+.cta img{
+	display: inline-block;
+}
+
+@keyframes buttonFade{
+	from{
+		background-color:white;
+		color: black;
+	}
+	to{
+		background-color: aqua;
+		color: white;
+	}
+}
+button{
+	background-color: white;
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 8px 50px;
+}
+button:hover{
+	animation-name: buttonFade;
+	animation-duration: 3s;
+	background-color: aqua;
+	color:white;
+}
+.two-column{
+	display: inline-block;
+	width: 48%;
+	padding: 15px;
+}
+
+.three-column{
+	display: inline-block;
+	width: 33%;
+	padding: 15px;
+}
+
+.main-content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 15px;
+}
+
+.contact{
+	margin: 30px;
+}
+
+footer{
+	text-align: center;
+	margin: 35px;
+}
