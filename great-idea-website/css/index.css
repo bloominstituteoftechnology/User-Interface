@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	
+	display:flex;
+	justify-content:space-evenly;
+	width:100%;
+	margin-bottom:20px;
+
+}
+
+nav a{
+	display:flex;
+	align-items:center;
+}
+
+
+
+
+header{
+	
+	display:flex;
+	width:100%;
+}
+
+.logo{
+	
+	display:flex;
+	margin-left:225px;
+}
+
+.cta{
+	display:flex;
+	justify-content:space-between;
+}
+
+.ctaleft{
+	display:flex;
+	font-size:104px;
+
+.ctaright{
+	
+	display:flex;
+}
+
+.main{
+	margin:50px 0px;
+	display:flex;
+}
+
+.main1{
+	
+	display:flex;
+	width:49%;
+}
+
+.main2{
+	
+	display:flex;
+	width:49%;
+}
+
+.middle-img{
+	
+	display:flex;
+}
+
+.subhead{
+	margin: 50px 0px;
+	display:flex;
+}
+
+.services{
+	
+	display:flex;
+	width:32%;
+}
+
+.product{
+	
+	display:flex;
+	width:32%;
+}
+
+.vision{
+	
+	display:flex;
+	width:32%;
+}
+
+.footer{
+	margin:50px 0px;
+}
+
+.bottom{
+	width:100%;
+	text-align:center;
+}
