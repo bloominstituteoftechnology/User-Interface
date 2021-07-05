@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+a{
+	text-decoration: none;
+}
+.nav-block nav {
+	margin-left: 2%;
+}
+.nav-block nav a{
+	display: inline-block;
+	 color: grey;	 
+	 margin-top: 15px;
+	 margin-left: 8%;
+	 margin-bottom: 45px;
+	 padding:10px;
+	 text-align: center;
+}
+.nav-block nav img{
+	display: inline-block;		 
+	 margin-left: 5%;	 
+}
+
+.header-block{
+	justify-content: space-evenly;
+	text-align: center;
+}
+.header-block a{
+	background-color: white;    
+	border:solid black;
+	color: black;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 25px;
+	
+}
+.innovation-div{
+	display: inline-block;
+	font-size:80px;
+	max-width:400px;
+	height: 280px;
+	margin-right: 15%;
+	text-align: center;	
+}
+.innovation-div button{
+	margin-top:-50px;
+}
+.header-block h1 span{
+	display:inline-block;
+}
+.header-block h1 a{
+	display: block;
+	font-size:35px;
+	padding: 10px;
+}
+
+.body-block{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 6%;
+	margin-right: 3%;
+	margin-bottom: 5px;
+	border-top: solid grey;
+}
+.body-child{
+	display: inline-block;
+	width: 45%;
+	font-size:25px;
+	padding:35px;
+}
+.body-block2{
+	display: inline-block;
+	margin-left: 6%;
+	margin-right: 3%;
+	margin-bottom: 40px;
+	border-bottom: solid grey;
+	
+}
+.body-child2{
+	display: inline-block;
+	width: 30%;
+	font-size:20px;
+	padding:35px;
+}
+.body-child2 img{
+	width:1700px;
+	height:300px;
+}
+footer {
+	display: inline-block;
+	width: 15%;
+	font-size:15px;
+	padding:35px;
+	margin-left: 6%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.copyright-block{
+	margin-left:45%;
+}
