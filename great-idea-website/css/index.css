@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+p{
+	color: #212121;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+header{
+	border-bottom: 1px solid #212121;
+	padding-bottom: 80px;
+	margin-bottom: 50px;
+}
+
+nav{
+	padding: 20px 0;
+	margin-bottom:35px;
+	position: fixed;
+	left: 0px;
+	width: 100%;
+	margin-bottom: 70px;
+	background-color: white;
+	box-shadow: 0px 0px 2px #a5a5a5;
+}
+
+section{
+	text-align: center;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #212121;
+	margin-bottom: 50px;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+address{
+	text-align: left;
+}
+
+nav a{
+	text-decoration: none;
+	color: lightslategray;
+	margin: 0px 90px 0px 0px;
+	border-bottom: 3px solid transparent;
+	transition: border-color 0.2s ease;
+}
+
+nav a:hover{
+	border-color: #212121;
+}
+
+.nav-cont{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.logo{
+	position: absolute;
+	top: -12px;
+	right: 0px;
+}
+
+.header-cont-left{
+	margin-top: 100px;
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.get-started-btn{
+	border: 1px solid #212121;
+	display: inline-block;
+	padding: 4px 35px;
+	font-size: 18px;
+	transition: background-color 0.2s ease, color 0.2s ease;
+	cursor: pointer;
+}
+
+.get-started-btn:hover{
+	background-color: #212121;
+	color: white;
+}
+
+.header-cont-right{
+	display: inline-block;
+	width: 49%;
+	height: 379px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.info-blocks{
+	display: inline-block;
+	padding-right: 20px;
+	text-align: left;
+}
+
+.above-image{
+	width: 548px;
+}
+
+.middle-img{
+	width: 100%;
+	margin: 45px 0;
+
+}
+
+.below-image{
+	width: 364px;
+}
+
+.copyright{
+	margin-top: 45px;
+}
