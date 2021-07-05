@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+
+width: 1200px;
+
+margin: auto;
+}
+
+nav {
+
+display: inline-block;
+
+padding-left: 0px;
+
+padding-bottom: 68px;
+}
+
+header nav {
+
+
+
+}
+
+header nav a {
+
+margin: 0px 9px 0px 48px;
+
+text-decoration: none;
+
+color: #bfbfbf;
+}
+
+header {
+
+
+
+}
+
+.logo {
+
+margin-left: 77px;
+}
+
+.container header {
+	margin-top: 20px;
+}
+
+.banner {
+
+padding-bottom: 0px;
+
+border-bottom: 2px solid black;
+
+display: inline-block;
+
+width: 100%;
+}
+
+ h1 {
+
+
+font-size: 75px;
+
+}
+
+.codeCircle {padding: 0px 0px 0px 238px;display: inline-block;margin-bottom: 75px;}
+
+.tagline {/* text-align: center; */left: 74px;display: inline-block;position: relative;bottom: 134px;left: 122px;text-align: center;}
+
+.tagline a {
+
+border: 1px solid black;
+text-decoration: none;
+color: black;
+padding: 3px 50px;
+}
+
+ #quoteDividerBlock {
+
+
+
+}
+
+.contentBox {
+
+width: 37%;
+
+display: inline-block;
+
+padding: 38px 0px 0px 50px;
+
+margin-bottom: 30px;
+}
+
+.contentBoxTriple {
+
+width: 24%;
+
+display: inline-block;
+
+padding: 38px 4px;
+
+}
+
+.contentBoxTriple {
+
+	width: 26%;
+    display: inline-block;
+    padding: 38px 0px;
+}
+
+	.tripleContainer {
+
+		border-bottom: 1px solid black;
+		margin-bottom: 58px;
+		margin-left: 46px;
+
+	}
+
+	footer p {
+
+padding: 8 px 0px;
+
+	}
+
+	.copyright {
+text-align: center;
+padding: 50px 100px;
+margin-bottom: 30px;
+
+	}
+
+	.middle-img {
+
+
+		margin: 15px 0px 0px 50px;
+	}
+
+	footer {
+
+padding: 0px 0px 0px 52px;
+
+	}
