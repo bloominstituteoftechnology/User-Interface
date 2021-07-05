@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.fixed-header {
+	position: fixed;
+	width: 100%;
+	background-color:rgb(255, 255, 255, 0.9);
+	z-index: 100;
+	padding: 30px 0;
+	display: block;
+}
+
+.main-header {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.main-nav {
+	display:inline-block;
+}
+
+.main-nav a{
+	padding: 0 40px 0 0;
+	color: #AFAFAF;
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	-webkit-transition: color 0.5s ease;
+}
+
+.main-nav a:hover {
+	color: #000;
+}
+
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: -11px;
+	right: 0;
+	z-index: 2;
+}
+
+.logo:hover{
+
+}
+
+
+.container {
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 auto;
+	padding: 100px 0 0;
+}
+
+.container-header {
+	position: relative;
+	width: 100%;
+	margin: 0 auto 20px;
+	height: 379px;
+	padding: 0 0 20px 0;
+	display: inline-block;
+}
+
+.logo-button-container {
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	top: 12%;
+	text-align: center;
+}
+
+.header-button {
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2vw;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px 50px;
+}
+
+.header-button:hover {
+	animation: rainbow 0.1s ease;
+	box-shadow: 5px 5px 5px #00B3FE;
+}
+
+.header-button:active {
+	outline: none;
+	box-shadow: 5px 5px 5px rgb(1, 72, 102);
+}
+
+.header-button:visted {
+	outline: none;
+}
+
+.header-button:focus {
+	outline: none;
+}
+
+@keyframes rainbow {
+    from  {box-shadow: 10px 10px 5px white;}
+	to  {box-shadow: 5px 5px 5px #00B3FE;}
+}
+
+.header-img {
+	display: inline-block;
+	max-width: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+h1 {
+	font-size: 5vw;
+}
+
+.two-column-content {
+	column-count: 2;
+	column-gap: 20px;
+	padding: 25px 0;
+	border-top: 1px solid black;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.three-column-content {
+	column-count: 3;
+	column-gap: 20px;
+	padding: 25px 0;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	padding: 20px 0;
+}
+
+address{
+	margin-bottom: 20px;
+}
+
+.block-address {
+	display:block;
+}
+
+footer {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+h3 {
+	margin: 0;
+}
