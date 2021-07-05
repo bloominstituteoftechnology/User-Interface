@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 20px auto;
+	padding:20px 0px 20px 0px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	height: 72px;
+}
+
+footer.footer {
+	text-align:center;
+	width:876;
+	margin: 7.5% auto;
+}
+
+.logo {
+	display:inline-block;
+	
+}
+
+
+header nav a:link {
+	text-decoration: none;
+	color:lightgray;
+}
+  
+header nav a:visited {
+	text-decoration: none;
+	color:lightgray;
+
+}
+  
+header nav a:hover {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+  
+header nav a:active {
+	text-decoration: underline;
+	color:lightgray;
+
+}
+
+header nav a {
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color:lightgray;
+	padding:20px;
+	vertical-align: center;
+	text-align:left;
+
+}
+
+#headerTOP {
+	width:100%;
+	display:inline-block;
+	vertical-align: center;
+	margin-bottom:10px;
+}
+
+
+.article2 {
+	width:33%;
+	display:inline-block;
+	padding:10px 0px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	vertical-align: top;
+}
+
+.headerTEXT {
+	width:475px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+header .divNAV {
+	width: 75%;
+	display:inline-block;
+	vertical-align: center;
+	
+}
+
+.middle-img {
+	text-align:center;
+}
+
+.IOD {
+	line-height: 1;
+	font-size: 72px;
+	display:inline-block;
+
+}
+.button {
+	display:inline-block;
+	vertical-align:center;
+	text-align:center;
+	width:475px;
+	
+}
+
+#button {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border: .75px solid black;
+	width:150px;
+	display:inline;
+	margin:0px auto;
+	font-size:16px;
+}
+
+.section1 {
+	border-top: 2px solid grey;
+	width:100%;
+	text-align:center;
+}
+
+.article {
+	width:435px;
+	display:inline-block;
+	padding:0px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	text-align:left;
+}
+
+
+.section2 {
+	border-bottom: 2px solid grey;
+}
+
+
+.copyright {
+	text-decoration:none;
+}
+
+.electronic {
+	line-height:.5;
+}
+
+.hr {
+
+	width:100%;
+	display:block;
+
+}
+
+section .text {
+	line-height: 1;
+	font-size:14;
+	text-align:left;
+}
+
+#codeSNIPPET {
+	display:inline;
+}
