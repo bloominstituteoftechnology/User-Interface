@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1000px;
+	padding: 20px 45px 20px 45px;
+	margin: 0 auto;
+
+}
+
+div nav a {
+	display: inline-block;
+	margin: 10px 40px 40px 40px;
+
+}
+
+.first-nav {
+	margin: 10px 40px 40px 0px;
+}
+
+.top-row nav img {
+	position: absolute;
+	vertical-align: middle;
+	padding: 0px 20px;
+	right: 45px;
+}
+
+.top-header {
+	margin: 20px 0px 20px 0px;
+	height: 400px;
+	width: 910px;
+	border-bottom: 2px solid black;
+}
+
+.top-header img {
+	display: inline-block;
+	position: relative;
+	float: right;
+	bottom: 20px;
+}
+
+.top-header h1 {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 5px 0px 5px 40px;
+	font-size: 80px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+}
+
+.top-header button {
+	position: relative;
+	float: bottom;
+	bottom: -50px;
+	left: -200px;
+
+}
+
+.top-content {
+	width: 950px;
+	height: 120px;
+	vertical-align: text-top;
+}
+
+.tb1, .tb2 {
+	display: inline-block;
+	width: 450px;
+	height: 100px;
+	vertical-align: middle;
+}
+
+.tb2 {
+	padding: 0px 0px 0px 20px;
+}
+
+.bottom-content {
+	width: 950;
+	height: 170px;
+	border-bottom: 2px solid black;
+	margin: 20px 0px 20px 0px;
+	vertical-align: text-top;
+}
+
+.tb3, .tb4, .tb5 {
+	display: inline-block;
+	width: 292px;
+	height: 170px;
+}
+
+.tb4, .tb5 {
+	margin: 0px 0px 0px 10px;
+}
+
+.middle-img {
+	margin: 15px 0px 15px 0px;
+	width: 910px;
+}
+
+.contact-info {
+	height: 175px;
+	width: 170px;
+}
+
+.contact-info h2 {
+	margin: 0px 0px 15px 0px;
+}
+
+.contact-info p {
+	margin: 15px 0px 15px 0px;
+}
+
+footer {
+	text-align: center;
+}
