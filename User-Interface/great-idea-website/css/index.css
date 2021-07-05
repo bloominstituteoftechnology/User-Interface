@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1024px;
+	padding: 75px 75px 20px;
+}
+
+header {
+	position: fixed;
+	height: 70px;
+	left: 0;
+	top: 0;
+	background: green;
+	border-bottom: 5px solid teal;
+
+}
+
+h1, h2 {
+	font-family: 'Bangers', cursive;
+}
+
+h1 {
+	font-size: 85px;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.first-box {
+	position: relative;
+
+	height: 500px;
+	border-bottom: 1px solid black;
+}
+
+.column-left {
+	display: inline;
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	width: 500px;
+	text-align: center;
+}
+
+.column-right {
+	display: inline;
+	position: absolute;
+	right: 0px;
+	top: 25px;
+}
+
+.start-button {
+	display: inline;
+	padding: 0 40px;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 5px auto;
+	
+}
+
+.second-box {
+	position: relative;
+	height: 200px;
+}
+
+.features {
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	top: 40px;
+	width: 460px;
+}
+
+.about {
+	position: absolute;
+	display: inline-block;
+	left: 450px;
+	top: 40px;
+	width: 460px;
+}
+
+/* .middle-img {
+	width: 920px;
+} */
+
+.third-box{
+	position: relative;
+	height: 200px;
+	border-bottom: 1px solid black;
+	padding-top: 40px;
+}
+
+.services {
+	position: absolute;
+	display: inline;
+	left: 0px;
+	width: 275px;
+}
+
+.product {
+	position: absolute;
+	display: inline;
+	width: 275px;
+	left: 300px;
+}
+
+.vision {
+	position: absolute;
+	display: inline;
+	right: 0px;
+	width: 275px;
+}
+
+address {
+	padding: 40px 0;
+}
+
+footer {
+	text-align: center;
+}
+
+header nav {
+	display: inline;
+	position: fixed;
+	top: 10px;
+	left: 75px;
+	width: 650px;
+	background-color: aqua;
+	height: 40px;
+
+}
+
+header nav a {
+	padding: 25px;
+}
+
+.header-image {
+	display: inline;
+	position: fixed;
+	left: 750px;
+	top: 10px;
+
+}
+
+.scroll-bg {
+	display: inline-block;
+	position: fixed;
+	top: 10px;
+	left: 75px;
+	height: 70px;
+	background-color: teal;
+	border-bottom: 5px solid black;
+}
