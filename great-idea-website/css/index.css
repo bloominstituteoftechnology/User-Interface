@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,11 +16,10 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,12 +50,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	border: 80%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +67,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav.navigation{
+	margin: 0 -16%;
+}
+a {
+	text-decoration: none;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+	
+}
+
+header {
+	margin: 9px 12%;
+	display: inline-block;
+	width: 75%;
+}
+.navigation{
+	overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+nav a{
+	margin-left: 6%;
+}
+nav img.logo{
+    margin-left: 5%;
+}
+.first-title-section{
+	display: inline-block;
+	width: 100%;
+}
+.main-title{
+	display: inline-block;
+	font-size:2rem;
+	font-family: 'Galada', cursive;
+	width: 50%;
+	margin: 35px 0px;
+
+}
+div .header-image-section{
+	display: inline-block;
+	width: 49%;
+}
+h1 {
+	text-align: center;
+    margin: 6px;
+	font-size: 80px;
+}
+#button1 {
+	margin: 0 40%;
+    font-size: 15px;
+    width: 23%;
+}
+.picture {
+    margin: 30px 18px -1px 18px;
+}
+
+.first-section{
+	display: inline-block;
+	width: 100%;
+	margin: 45px 0;
+}
+.first-paragraph{
+	display:inline-block;
+	width:50%;
+	text-align: left;
+}
+.second-paragraph{
+	display:inline-block;
+	width:49%;
+	text-align: left;
+}
+
+.second-section{
+	display: inline-block;
+	width: 100%;
+	margin: 45px 0;
+}
+.third-paragraph{
+	display:inline-block;
+	width: 30%;
+	text-align: left;
+}
+.fourth-paragraph{
+	display:inline-block;
+	width: 30%;
+	text-align: left;
+}
+.fifth-paragrahp{
+	display:inline-block;
+	width: 30%;
+	text-align: left;
+}
+
+.where-to {
+    margin: 45px 0
+}
+
+footer{
+	text-align: center;
+}
