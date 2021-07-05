@@ -54,13 +54,117 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body{
+	height: 1536px;
+	width: 1024px;
+	margin: auto;
+	padding: 50px;
+}
+.Navigation{
+	position: sticky;
+	top: 0;
+	height: 36px;
+	width: 100%;
+	background-color: white;
+	z-index: 2;
+}
+nav{
+	
+	word-spacing: 70px;
+	margin: 0px 0px 0px 20px;
+	
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	height: 18px;
+	margin-top: -9px;
+	
+}
+a{
+	color: gray;
+	text-decoration: none;
+	display: inline-block;
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 0
+}
+header{
+	margin: auto;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	padding: 30px;
+}
+h1 {
+	
+	padding: 0px;
+	font-size: 60px;
+	font-style: bold;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+header img{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 50;
+}
+.button1{
+	background-color: white;
+    color: black;
+	border: 2px solid black;
+	width: 150px;
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	left: 185px;
+	top: 350px;
+	
+}
+.button1:hover{
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.top-content{
+	border-top: 2px solid black;
+}
+.top-content div{
+	width: 460px;
+	display: inline-block;
+	padding: 40px 0px;
+}
+.bottom-content{
+	border-bottom: 2px solid black;
+}
+.bottom-content div{
+	width: 300px;
+	display: inline-block;
+	padding: 40px 0px;
+}
+.content{
+	padding:40px 0px;
+}
+footer{
+	text-align: center;
+}
+@keyframes example {
+    0% {background-color:white;}
+	50% {background-color: red;}
+	100% {background-color:white;}
+}
