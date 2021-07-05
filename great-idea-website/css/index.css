@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* why doesn't the margin-top property work on header nav to lower the nav bar? */
+header {
+	margin-top: 20px;
+	/* border: 1px solid green; */
+}
+header nav {
+	display: inline-block;
+	font-size: larger;
+}
+
+header nav a {
+	padding: 20px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.logo {
+	margin-left: 60px;
+	vertical-align: text-bottom;
+}
+
+.top-section {
+	margin-top:40px;
+	display: inline-block;
+	margin-bottom: 60px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 90px;
+	margin-top: 111px;
+	margin-left: 50px;
+}
+
+.get-started {
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 5px 50px;
+	margin-bottom: 40px;
+	margin-left: 130px;
+}
+
+.header-circle {
+	margin-left: 84px;
+	vertical-align: top;
+	margin-top: 110px;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+main p {
+	font-size: larger;
+}
+
+.top-columns {	
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.features, .about {
+	display: inline-block;
+	width: calc(100%/2);
+	vertical-align: top;
+}
+
+.about {
+	padding-left: 20px;
+}
+
+.bottom-columns {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 290px;
+	vertical-align: top;
+}
+
+.product, .vision {
+	padding-left: 20px;
+}
+
+footer {
+	margin-top: 60px;
+}
+
+.street-address {
+	margin-bottom: 20px;
+}
+
+.tel {
+	margin-bottom: 20px;
+}
+
+small {
+	margin: 100px 0;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
