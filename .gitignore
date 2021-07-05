@@ -1,1 +1,7 @@
 .DS_Store
+
+.swo
+.swp
+
+dist/
+.cache
