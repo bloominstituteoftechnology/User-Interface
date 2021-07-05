@@ -53,14 +53,197 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	
+	margin-bottom: 15px;
+	
+	font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* ************************************************
+*                    CONTAINER                     *
+***************************************************/
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* ************************************************
+*                       NAV                       *
+***************************************************/ 
+nav {
+	position: fixed;
+	width: 100%;
+
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	
+	text-align: center;
+	white-space: nowrap;
+	background-color: #007AF5;
+}
+
+nav > a {	
+	margin-right: 34px;
+	padding-right: 34px;
+	border-right: 1px solid black;
+
+	font-size: 14px;
+	color: black;
+
+	line-height: 50px;
+	text-decoration: none;
+}
+
+nav > a:last-of-type {
+	margin-right: 21px;
+	border-right: none;
+}
+
+nav > a:after {
+	content: "";
+	visibility: hidden;
+
+	position: absolute;
+	width: 80%;
+	height: 2px;
+	bottom: -3px;
+	left: -8px;
+
+	background-color: white;
+
+	transform: scaleX(0);
+	transition: all 150ms ease-in-out 0s;
+}
+
+nav > a:hover {
+	color: white;
+	transition: color 150ms linear;
+}
+
+nav > a:hover:after {
+	visibility: visible;
+	transform:scaleX(1);
+}
+
+nav > div, .logo-link {
+	display: inline-block;
+}
+
+.logo-link {
+	vertical-align: middle;
+}
+
+/* ************************************************
+*                     BANNER                      *
+***************************************************/ 
+.banner-container {
+	padding-top: 78px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.slogan-container {
+	display: inline-block;
+	vertical-align: middle;
+	
+	width: 50%;
+
+	text-align: center;
+}
+
+.slogan-container h1 {
+	display: inline-block;
+	font-size: 75px;
+}
+
+.slogan-container a {
+	display: inline-block;
+	
+	height: 34px;
+	width: 175px;
+
+	border: 1px solid black;
+
+	font-family: inherit;
+	font-size: 17px;
+	color: inherit;
+	line-height: 31px;
+	text-decoration: none;
+}
+
+.slogan-container a:hover {	
+	border: 2px solid black;
+	
+	line-height: 29px;
+	color: white;
+
+	background-color: #007AF5;
+
+	transition: color 150ms linear,
+				background-color 150ms linear;
+}
+
+.hero-image {
+	display: inline-block;
+	vertical-align: middle;
+	
+	width: 50%;
+	text-align: center;
+}
+
+/* ************************************************
+*                   MAIN CONTENT                  *
+***************************************************/ 
+.content-container {
+	border-bottom: 1px solid black;
+}
+
+.content-row-1 {
+	margin: 42px 0;
+}
+
+.content-row-2 {
+	margin-top: 35px;
+	margin-bottom: 61px;
+}
+
+.content-row-1 section {
+	display: inline-block;
+	width: 50%;
+	padding-right: 20px;
+}
+
+.content-row-2 section {
+	display: inline-block;
+	width: 33.3%;
+	padding-right: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* ************************************************
+*                      FOOTER                     *
+***************************************************/ 
+footer {
+	margin-top: 35px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.copyright {
+	margin-top: 40px;
+	font-size: 14px;
+	text-align: center;
+}
