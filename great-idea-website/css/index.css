@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +65,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-nav nav a {
+    display: inline-block;
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+    width: 12%;
+    height: 10px;
+    text-align: center;
+    margin: auto;
+    /* background: white; */
+    box-sizing: border-box;
+    /* border: solid red 2px; */
+}
+
+.logo {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.cmd {
+    display: inline-block;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Bangers', cursive;
+    width: 400px;
+    height: 400px;
+    margin-top: -250px;
+    /* border: solid red 1px; */
+}
+
+#button {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "sans-serif";
+    align-text: center;
+    /* width: 40px: */
+    padding: 10px;
+    border: solid black 1px;
+    box-sizing: border-box;
+}
+
+.circle-code {
+    display: inline-block;
+    box-sizing: border-box;
+    /* border: solid black 1px; */
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.features-about {
+    border-top: 2px solid black;
+    margin: auto;
+    width: 90%;
+}
+
+.features-about section {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+
+.middle img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 905;
+}
+
+.below-image section{   
+    display: inline-block;
+    box-sizing: border-box;
+    width: 23%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+address {
+    border-top: solid black 2px;
+    /* padding-top: 20px; */
+    padding-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 100px;
+}
