@@ -3,64 +3,285 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation .topnav {
+    /* margin: 25px 25px 25px 25px; */
+    color: grey;
+    margin-left: 35px;
+    /* border: 5px solid red; */
+}
+
+.navigation .logo {
+    /* margin: 25px 0px 0px 100px; */
+    margin-top: 20px;
+    margin-left: 175px;
+}
+
+.header {
+    display: inline-block;
+}
+
+.header>h1 {
+    font-size: 75px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.header .circle-code {
+    /* border: 5px solid red; */
+    position: relative;
+    left: 475px;
+    bottom: 200px;
+}
+
+.header .get-started {
+    border: 1px solid black;
+    padding: 5px 30px 5px 30px;
+    position: relative;
+    bottom: 250px;
+    left: 245px;
+}
+
+.line-top {
+    width: 90%;
+    position: relative;
+    bottom: 200px;
+}
+
+.line-bottom {
+    width: 90%;
+    position: relative;
+    bottom: 100px;
+}
+
+.top-content {
+    margin-left: 50px;
+    position: relative;
+    bottom: 180px;
+}
+
+.top-content .features {
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+}
+
+.top-content .about {
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.middle-img {
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+
+.bottom-content {
+    position: relative;
+    left: 25px;
+    bottom: 125px;
+}
+
+.bottom-content .services {
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.bottom-content .product {
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.bottom-content .vision {
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.contact {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+    margin-bottom: 75px;
+}
