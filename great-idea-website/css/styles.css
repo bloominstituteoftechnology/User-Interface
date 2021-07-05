@@ -1,0 +1,106 @@
+.container {
+    margin: 0px auto;
+    width: 900px;
+}
+
+.navSpace {
+    display:inline-block;
+    margin-right:55px;
+    padding-top:15px;
+}
+
+.navSpace.logo {
+    margin: 22px;  
+}
+
+.jumbotron {
+    display: inline-block;
+    width: 850px;
+    margin: 40px 0px 30px 0px;
+    vertical-align:top;
+    
+}
+.jumbotron.left {
+    width: 50%;
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+    
+}
+
+.jumbotron.right {
+    width: 50%;
+    float: right;
+    margin: 30px 0px 0px 0px;
+    padding-left:40px;
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Bangers';
+    font-size: 80px;
+}
+
+  p.button {
+      font-family: 'Titillum web';
+      font-size: 30px;
+      border: solid 1px;
+      border-color: black;
+      padding: 10px;
+      width: 250px;
+      border-radius: 3px;
+      margin: 10px auto;
+      text-align:center;
+      
+  }
+
+  hr {
+      color: black;
+      border: solid 1px;
+  }
+
+  .features {
+    display: inline-block;
+    width: 900px;
+    margin: 40px 0px 30px 0px;
+    vertical-align:top;
+    
+}
+h2 {
+
+}
+
+.bottom-rung {
+    text-align:left;
+}
+
+
+.middle-img {
+    margin: 40px 0px;
+}
+
+.left {
+    float: left;
+    width: 290px;
+    margin: 5px;
+}
+
+.middle {
+    display: inline-block;
+    width: 290px;
+    margin: 5px;
+}
+
+.right {
+    float: right;
+    width: 290px;
+    margin: 5px;
+}
+
+.contact {
+    padding: 20px 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+}
