@@ -57,10 +57,151 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+h1, h2, h3, h4, h5, span {
+    font-family: ;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-family: 'Lalezar', cursive;
+}
+
+span {
+
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/*******basics****************/
+* {
+	box-sizing: border-box;
+}
+.body {
+	width: 100%;
+	display: inline-block;
+}
+
+.container {
+	width: 90%;
+	margin-left: 70px;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	line-height: 1.5;
+}
+
+
+/*****nav and header********/
+
+.header-nav {
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background: #40a5ed;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+
+}
+nav {
+	padding-top: 15px;
+	width: 70%;
+	display: inline-block;
+}
+nav a {
+	margin-top: 15px;
+	margin-right: 60px;
+	text-decoration: none;
+	color: #ceedea;
+}
+.title-box {
+	vertical-align: top;
+	padding-top: 90px;
+}
+
+header {
+	padding-bottom: 30px;
+	background: #ceedea;
+	padding-top: 115px;
+
+}
+
+
+.logo {
+	display: inline-block;
+	float: right;
+}
+
+.code-snippet {
+	float: right;
+}
+
+
+.start-button {
+	text-align: center;
+	border: black 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+/*********main sections*************/
+
+.top{
+	border-top: 1px solid black;
+	
+}
+
+.bottom {
+	border-bottom: 1px solid black;
+}
+.halves {
+	display: inline-block;
+	width: 46%;
+}
+
+.info {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.middle {
+	margin-left: 16px; 
+	margin-right: 16px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.thirds {
+	display: inline-block;
+	width: 32%;
+}
+
+
+/*******footer**********/
+footer {
+	display: inline-block;
+	background: #40a5ed;
+	width: 100%;
+}
+footer p {
+	text-align: center;
+	color: #ceedea;
+	
+}
