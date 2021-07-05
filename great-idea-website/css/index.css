@@ -64,3 +64,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.body{ 
+	width: 870px;
+	margin: 0 auto;
+}
+.top {
+	width: 100%;
+	background: white;
+	letter-spacing: 3px;
+	color: gray;
+	border: 5px;
+	padding: 2px;
+text-align: center;
+}
+h2 {
+	position: relative;
+}
+.nav-item{
+	position: relative;
+padding: 5px;
+
+}
+.nav-item a:hover{
+	color:gray;;
+	text-decoration: none; 
+	padding-top: 5px solid yellow;
+}
+a:hover, a:active, a:link, a:visited {
+	color:gray;;
+	text-decoration: none;
+}
+.logo {
+	position: relative;
+	padding: 8px;
+	border: 10px;
+}
+.button {
+	background: gray;
+	color: white;
+	padding: 15px;
+	border: 0px;
+}
+.slagon { 
+	font-size: 50px;
+	font-family: 'Bangers', cursive;
+	column-count: 2;
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+}
+/* .slagon-img {
+	text-align: right;
+} */
+.section1{
+	border-top: 1px solid black;
+	column-count: 2;
+	padding: 10px;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+.section2 {
+	column-count: 3;
+	padding: 15px;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+
+.footer-line{
+	border-top: 1px dashed black;
+	padding: 15px;
+}
+.header-line{
+	border-top: 1px solid black;
+}
+
+  
