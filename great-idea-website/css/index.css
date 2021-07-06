@@ -54,7 +54,10 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin-right: 20px;
+	margin-left: 20px;
+    padding: 0 150px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +67,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	width: 900px;
+	margin: 10px auto 20px 0;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	padding: 20px;
+}
+
+
+.logo {
+	margin-left: 130px;
+}
+
+.header {
+	display: inline-block;
+	margin-left: 130px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.hero {
+	border-bottom: 1px solid #000;
+	margin-bottom: 45px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.btn {
+	border: 1px solid #000000;
+	width: 100%;
+	padding: 11px;
+	text-align: center;
+}
+
+.image {
+	display: inline-block;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-features {
+	display: inline-block;
+	width: 49%;
+	padding: 30px;
+}
+
+.section-about {
+	display: inline-block;
+	width: 49%;
+	padding: 30px;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 40px auto;
+}
+
+.row {
+	border-bottom: 1px solid #000;
+	margin-bottom: 45px;
+	padding-bottom: 50px;
+}
+
+.section-services {
+	display: inline-block;
+	width: 33%;
+	padding: 15px;
+}
+
+.section-product {
+	display: inline-block;
+	width: 33%;
+	padding: 15px;
+}
+
+.section-vision {
+	display: inline-block;
+	width: 33%;
+	padding: 15px;
+}
+
+.section-contact {
+	padding: 15px;
+	line-height: 2;
+}
+
+footer {
+	text-align: center;
+	margin: 60px auto 120px auto;
+}
