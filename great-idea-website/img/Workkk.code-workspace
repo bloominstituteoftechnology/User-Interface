@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\kketh\\day2"
+		},
+		{
+			"path": "C:\\Users\\kketh\\User-Interface\\great-idea-website\\img"
+		},
+		{
+			"path": "C:\\Users\\kketh\\User-Interface\\great-idea-website\\css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "day2",
+		"liveServer.settings.port": 5502
+	}
+}
