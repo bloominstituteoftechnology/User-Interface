@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	
+}*/
+h1 {
+	font-size: 80px;
+}
+.container {
+	margin: 0 auto;
+   	width: 900px;
+   	border: 1px solid gray;
+}
+
+body {
+	border-color: lightSlateGray;
+	font-size: 15px;
+	color:#3C373B;
+  }
+  
+  .tagsPic {
+	display: inline-block;
+  }
+  nav a {
+	margin: 20px 10px;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+  }
+  .box {
+	display: inline-block;
+	margin: 2% 3%;
+	width: 43%;
+  }
+  .boxTwo {
+	display: inline-block;
+	margin: 2% 3%;
+	width: 27%;
+  }
+  .main {
+	  width: 100%;
+	  text-align: center;
+	  padding: 35px 20px;
+  }
+  .imageGlobe {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+  }
+  .inlineClass {
+	  display: inline-block;
+	  width: 50%;
+	  text-align: center;
+	  vertical-align: middle;
+  }
+  div .bigImage img {
+	  padding: 1%;
+  }
+  .endPart {
+	  margin: 1% 1%;
+	  padding-block: 1%;
+  }
+  footer {
+	  border: 10%;
+	  text-align: center;
+  }
+  address {
+	  line-height: 1.5;
+  }
+.button {
+	border: 1px solid gray;
+	padding: 4px 27px;
+ }
+ #myScroll {
+	padding: 10px 16px;
+	background: blue;
+	color: white;
+	position: fixed;
+	top; 0;
+	width: 70%;
+ }
+ #myScroll:hover {
+    border: 6px dotted red;
+	box-sizing: border-box;
+	color: yellow;
+ }
+h2:hover {
+font-size: 30px;
+font-color: red;
+}
