@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+/*Nav bar css*/
+.navBar {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+    margin: 0;
+    padding-top: 0;
+	width: 100%;
+	height: 60px;
+	background-image: radial-gradient(farthest-corner at 20px 40px,
+	#355ba3 50%, #4c84b9 100%);
+}
+.navBar ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+.navBar li {
+	display: inline-block;
+}
+.nav80 {
+	display: inline-block;
+	width: 75%;
+}
+.nav20 {
+	display: inline-block;
+	width: 20%;
+}
+.navItem {
+	color: #ebe2e2;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+	margin: 2%;	
+}
+.navItem:hover {
+	color: rgb(241, 245, 17);
+}
+
+.logo {
+	display: inline-block;
+	margin: 2%;
+}
+
+/*Main box to contain content behind navbar*/
+.main {
+	margin-top: 60px;
+}
+/*Content holder */
+.content {
+	width: 100%;
+	display: inline-block;
+}
+/* divider line */
+.lineBottom {
+	border-bottom: 1px solid black;
+}
+/* Content divider for 50% */
+.content50 {
+	display: inline-block;
+    margin: 3%;
+    width: 40%;
+    min-width: 150px;
+}
+/* large lettering for website */
+.content50 header{
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 70px;
+	text-align: center;
+	transform: rotate(-5deg);
+	text-shadow: 10px 5px 20px #536380;
+	z-index: 0;
+}
+/* button center */
+.contentB {
+	text-align: center;
+}
+/* button css settings */
+.content50 button {
+	background-color: white; 
+	border: 1px solid gray;
+	color: #355ba3;
+	padding: 5px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.content50 button:hover {
+	color: white;
+	background-color: #355ba3;
+}
+/* image with attached animation */
+.content50 img {
+	display: inline-block;
+	border-radius: 50%;
+	width: 75%;
+	z-index: -5;
+	animation-name: aniRot;
+	animation-duration: 100s;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.content50 img:hover {
+	animation-play-state: paused;
+}
+/* Content divider for 1/3 chunk */
+.content33 {
+	display: inline-block;
+	margin: 2.5%;
+	width:28%;
+}
+/* css for contact infor */
+.contact {
+	margin: 2%;
+}
+.contact p {
+	font-size: 14px;
+}
+/*footer css */
+.footer {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+/* animations */
+@keyframes aniRot {
+	0% { transform: rotate(0deg);
+	}
+   
+	100% { transform: rotate(359deg);
+	}
+  }
