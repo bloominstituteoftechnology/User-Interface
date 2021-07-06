@@ -3,64 +3,287 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+  margin: auto;
+  width: 900px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 900px;
+  height: 70px;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+nav {
+  width: 600px;
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.logobox {
+  display: inline-block;
+  width: 250px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+a {
+  padding-right: 50px;
+  margin-top: 10px;
+  opacity: 0.4;
+  text-decoration-line: none;
+  text-align: justify;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.sectionOne {
+  height: 390px;
+  width: 850px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.demand {
+  width: 420px;
+  height: 380px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  letter-spacing: 6px;
+  display: inline-block;
+}
+
+button {
+  width: 150px;
+  height: 25px;
+}
+
+.codepic {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.sectionTwo {
+  display: inline;
+  padding: 30px;
+}
+
+div.features {
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  padding: 40px;
+  margin-left: 60px;
+}
+
+div.about {
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  padding: 40px;
+}
+
+.middle-img {
+  display: block;
+  margin: auto;
+  width: 850px;
+  padding: 10px;
+}
+
+.bot-content {
+  width: 850px;
+  margin: auto;
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  display: block;
+  box-sizing: content-box;
+}
+
+.box {
+  width: 28%;
+  height: 150px;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: content-box;
+  text-align: left;
+}
+
+.goright {
+  display: inline-block;
+}
+
+.contact {
+  margin: auto;
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
