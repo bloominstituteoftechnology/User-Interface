@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Body Margin Styling */
+body {
+    margin: 0 5% 10% 5%;
+}
+
+/* Horizontal Line Stylings */
+hr {
+    border: 1px solid black;
+}
+
+/* Header Nav And Logo Stylings */
+#headpiece {
+    width: 100%;
+    padding-top: 3%;
+}
+
+nav {
+    width: 75%;
+    display: inline-block;
+}
+
+nav a {
+    color: #bbbbbb;
+    text-decoration: none;
+    margin-left: 7%;
+    bottom: 5%;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#logocontainer {
+    position: relative;
+    display: inline-block;
+}
+
+.logo {
+    position: absolute;
+    top: -25px;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Showcase Section Slogan and Image Stylings */
+#showcase {
+    width: 100%;
+    padding-top: 3%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+#showcaseleft {
+    position: absolute;
+    bottom: 15%;
+    display: inline-block;
+    width: 47%;
+}
+
+#showcaseleft h1 {   
+    font-size: 64px;
+    text-align: center;
+}
+
+#showcaseleft h2 {
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 8px 2px 8px;
+    border: 1px black solid;
+}
+
+#showcaseright {
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    margin: 3% 0 3% 0;
+    display: inline-block;
+    width: 47%;
+}
+
+/* Content Block And Image Spanner Stylings */
+#contentblock1 {
+    width: 100%;
+}
+
+#contentblock1 div {
+    width: 45%;
+    display: inline-block;
+    padding: 3% 1% 4% 1%;
+}
+
+.middle-img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#contentblock2 {
+    width: 100%;
+}
+
+#contentblock2 div {
+    width: 30%;
+    display: inline-block;
+    padding: 3% 1% 4% 1%;
+}
+
+/* Contact Section Stylings */
+#contactinfo h3 {
+    margin-top: 5%;
+}
+
+#contactinfo h4 {
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Footer Stylings */
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0 10% 0;
+}
