@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Montserrat&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -12,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +50,192 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Barlow Condensed', 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Montserrat', 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #efefef;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+.header-nav {
+	width: 78%;
+	display: inline-block;
+}
+.header-nav a {
+	color: #6f6f6f;
+	text-decoration: none;
+	width: 16%;
+	display: inline-block;
+	position: relative;
+	padding: 40px 0;
+	text-align: center
+}
+.header-nav a:before {
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 0px;
+	bottom: 0px;
+	content: '';
+	background: #cfcfcf;
+	opacity: 0.3;
+	transition: all 0.5s;
+}
+.header-nav a:hover {
+	color: #000;
+}
+.header-nav a:hover:before {
+	height: 100%;
+}
+
+
+.header-logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-logo span {
+	background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/logo.png");
+	height: 36px;
+	width: 183px;
+	display: inline-block;
+}
+.content-section {
+	margin: 160px 0 0;
+	width: 100%;
+}
+.content-hero {
+	width: 100%;
+}
+.content-hero .hero-left {
+	text-align: center;
+	width: 56%;
+}
+.content-hero .hero-left .hero-text {
+}
+.content-hero .hero-left .hero-text h1 {
+	font-size: 70px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 50px;
+	line-height: 90%;
+}
+.content-hero .hero-left .hero-text .hero-button {
+	text-transform: uppercase;
+}
+.hero-button span.bttn {
+	color: #000;
+	text-decoration:none;
+	transition: 0.5s ease all;
+}
+.hero-button span.bttn:hover,
+.hero-button span.bttn:focus {
+	color: #fff;
+}
+.bttn {
+	font-size:20px;
+	padding: 8px 30px 10px;
+	text-transform:uppercase;
+	display:inline-block;
+	text-align:center;
+	border:1px solid gray;
+	position:relative;
+}
+.bttn:before {
+	transition:0.5s all ease;
+	position:absolute;
+	top:0;
+	left:50%;
+	right:50%;
+	bottom:0;
+	opacity:0;
+	content:'';
+	background-color:red;
+	z-index:-2;
+}
+.bttn:hover,
+.bttn:hover:before,
+.bttn:focus,
+.bttn:focus:before {
+	border: 1px solid red;
+	transition:0.5s all ease;
+	left:0;
+	right:0;
+	opacity:1;
+}
+
+.content-hero .hero-right {
+	width: 379px;
+}
+.content-hero .hero-left,
+.content-hero .hero-right {
+	display: inline-block;
+	min-width: 250px;
+	vertical-align: middle;
+}
+.hero-right span {
+	background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/header-img.png");
+	height: 379px;
+	width: 379px;
+	display: block;
+}
+.content-info {
+	border-top: 1px solid black;
+	margin-top: 80px;
+}
+.content-info .info-left,
+.content-info .info-right {
+	display: inline-block;
+	width: 49%;
+	padding: 45px 0;
+}
+.content-accent span {
+	background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/mid-page-accent.jpg");
+	height: 182px;
+	width: 872px;
+	display: block;
+}
+.content-cta {
+	border-bottom: 1px solid black;
+}
+.content-cta .cta-left,
+.content-cta .cta-center,
+.content-cta .cta-right {
+	display: inline-block;
+	width: 33%;
+	padding: 45px 0;
+}
+
+footer {
+	padding: 45px 0;
+}
+footer p {
+	padding-bottom: 15px;
+	display: inline-block;
+	margin-right: 15px;
+}
+footer .copyright {
+	display: block;
+	text-align: center;
+	margin-top: 45px;
+}
