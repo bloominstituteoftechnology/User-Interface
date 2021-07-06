@@ -3,64 +3,278 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+}
+
+p {
+  line-height: 1.25;
+  margin: 20px 0px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  /* border: 1px solid orange; */
+  padding: 0 70px;
+}
+
+header {
+  border-bottom: 0.5px solid black;
+  /* display: inline-block; */
+}
+
+.top-bar {
+  display: inline-block;
+  background-color: #6195ed;
+  padding: 1px 10px;
+  border: 1px solid grey;
+  margin: 25px 0;
+  position: fixed;
+  z-index: 4;
+}
+
+nav {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: 100%;
+}
+
+nav a {
+  margin-right: 64px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.cta {
+  margin: 45px 0;
+  margin-top: 140px;
+  padding-bottom: 30px;
+  vertical-align: 100%;
+  display: inline-block;
+  /* background-image: url("header-img.png"); */
+}
+
+.cta-text {
+  display: inline-block;
+  vertical-align: 170%;
+  margin: 0px 60px;
+  font-size: 54px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0px;
+}
+
+button {
+  display: block;
+  font-size: 18px;
+  padding: 5px 39.5px;
+  margin-left: 75.5px;
+  margin-top: 16px;
+}
+
+.top-descriptions {
+  margin-top: 35px;
+  position: relative;
+}
+
+.top-describe {
+  display: inline-block;
+  width: 48.5%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.bottom-descriptions {
+  margin-top: 35px;
+  border-bottom: 1px solid black;
+}
+
+.bottom-describe {
+  display: inline-block;
+  /* border: 2px solid red; */
+  width: 30%;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+address {
+  /* line-height: 30px; */
+}
+
+.copyright {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  letter-spacing: -0.25px;
+}
