@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 6%;
+	
+	
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +52,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	*border: 1px solid gray;*/
 }
 
 html, body {
@@ -64,3 +68,179 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*nav styling*/
+
+nav {
+	position: fixed;
+	top: 0;
+	display: inline-block;
+	width: 90%;
+	padding: 1%;
+	font-family: inherit;
+	background-color: lightcyan;
+	
+
+}
+
+nav a{
+	display: inline-block;
+	width:13%;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+}
+
+nav a: hover{
+	background-color: yellow;
+}
+
+/*Beginning of header styling, Texts and Images*/
+
+#headingsection { 
+	text-align: center;
+	padding: 2%;
+	width: 97%;
+}
+
+.headercontainer {
+	display: inline-block;
+	margin: 0 auto;
+	width: 35%;
+	
+	
+
+}
+
+.innovation {
+	font-size: 90px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.getStarted {
+	border: 2px solid black;
+	background-color: white;
+	color: grey;
+	padding: 2%;
+	font-size: 16px;
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	transition: width 2.5s;
+	width: 59%
+}
+
+
+
+
+
+.headImg {
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 24%;
+}
+
+/*Main content area paragraphs and image*/
+
+#mainBody {
+	text-align:center;
+	border-top: 2px grey solid;
+	border-bottom: 2px grey solid;
+	width: 90%;
+    margin: 0 auto;
+	
+}
+
+.features {
+	display: inline-block;
+	margin: 0 auto;
+	width: 47%;
+	text-align:left;
+	padding: 1%;
+}
+
+.about{
+	display: inline-block;
+    margin: 0 auto;
+	width: 40%;
+	text-align:left;
+	padding: 2%;
+}
+
+.middle-img{
+	display: inline-block;
+	margin: 0 auto;
+	text-align:left;
+	width: 100%;
+	
+}
+
+.services{
+	display: inline-block;
+	margin: 0 auto;
+	width: 31%;
+	text-align:left;
+	padding: 3%;
+}
+
+.product{
+	display: inline-block;
+	margin: 0 auto;
+	width:31%;
+	text-align:left;
+	padding: 2%;
+}
+
+.vision {
+	display: inline-block;
+	margin 0 auto;
+	width: 29%;
+	text-align: left;
+	padding: 2%;
+}
+
+
+.minicont1 {
+
+}
+/*footer styles for all those things.*/
+
+
+
+.contact {
+	text-align: left;
+	display: inline-block;
+	margin: 0 auto;
+	text-decoration: none;
+	padding-left: 7%; 
+}
+
+.phone{
+	display: inline-block;
+    padding-top: 10%
+}
+
+.email{
+	display: inline-block;
+  	padding-top: 10%
+}
+
+.copyright{
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 94%;
+	
+}
+
+footer {
+	margin: 0 auto;
+	padding-top: 2%;
+	font-family: 'Odibee Sans', cursive;
+}
+
+a {
+	text-decoration: none;
+}
