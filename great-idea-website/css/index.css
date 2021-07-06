@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header nav a {
+	display: inline-block;
+	padding-right: 50px;
+	margin-bottom: 25px;
+}
+
+header nav a:last-child {
+	padding: 0 !important;
+}
+
+/* header nav a, header nav a img {
+	vertical-align: baseline;
+} */
+
+header nav a:hover, header nav a:link, header nav a:visited, header nav a:active {
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:last-child {
+	float: right;
+}
+
+header nav a:nth-child(1), header nav a:nth-child(2), header nav a:nth-child(3), header nav a:nth-child(4), header nav a:nth-child(5), header nav a:nth-child(6) {
+	padding-top: 7px;
+}
+
+section {
+	margin: 30px 0 50px;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+footer p, .box1 h1 {
+	text-align: center;
+}
+
+.container {
+	width: 65%;
+	margin: 20px auto;
+}
+
+.row {
+	width: 100%;
+	content: "";
+	clear: both;
+	margin-bottom: 20px;
+	height: auto;
+}
+
+.box1 h1 {
+	font-size: 58pt;
+	margin-bottom: 15px;
+
+}
+
+.box1 img {
+	width: 85%;
+	height: 70%;
+	margin-left: 13%;
+}
+
+.box1 button.starting {
+	border: thin solid black;
+	background-color: transparent;
+	color: black;
+	font-size: 12pt;
+	padding: 5px 15px;
+	margin-left: 38%;
+}
+
+.box1 {
+	margin: 0%;
+	width: 49%;	
+	vertical-align: top;
+}
+
+.center {
+	margin-top: 80px;
+}
+
+.box2 {
+	margin: 0 1% 0 0;
+	width: 31%;
+}
+
+.box1, .box2 {
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	height: 150px;
+	margin: 20px 0;
+}
+
+.contact {
+	padding-top: 20px;
+}
