@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	margin: 0 auto;
+	width: 900px;
+}
+
+nav a{
+	text-decoration: none;
+	color: gray;
+	position: inline-block;
+	padding: 25px;
+}
+
+.logo{
+	position: absolute;
+	top: -6px;
+	left: 900px;
+}
+
+.title{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	font-size: 75px;
+	text-align: center;
+	Width: 200px;	
+}
+.button{
+	border: 1px solid black;
+	top: 350px;
+	left: 385px;
+	text-align: center;
+	position: absolute;
+	width: 150px;
+	height: 25px;
+}
+
+.headerimg{
+	position: relative;
+	top: 30px;
+	left: 450px;
+	padding: 10px;
+}
+
+.twosections{
+	position: relative;
+	top: 50px;
+	border-top: 1px solid black;
+	padding: 40px 0px 40px 0px;
+}
+
+.features{
+	position: inline-block;
+	width: 45%;
+}
+
+.about{
+	position:absolute;
+	top: 40px;
+	left: 450px;
+}
+
+.midimage{
+position: relative;
+top:30px;
+padding: 10px 0px 40px 0px;
+}
+
+.threesections{
+	position: relative;
+	top:30px;
+}
+
+.services{
+position: inline-block;
+width: 30%;
+}
+
+.product{
+position: absolute;
+top: 0px;
+left: 270px;
+width: 30%;
+}
+
+.vision{
+position: absolute;
+top: 0px;
+left: 550px;
+width: 30%;
+}
+
+.footer{
+	position: relative;
+	top: 60px;
+	border-top: 1px solid black;
+	padding: 40px 0px 40px 0px;
+}
+
+.footer .space{
+	line-height: 2.5;
+}
+
+.footer .copyright{
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
