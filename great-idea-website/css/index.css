@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;	
+}
+
+header .logo {
+	margin-left: 140px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 20px;
+}
+
+.cta h1 {
+	font-size: 50px;
+	
+}
+
+.cta img {
+	display: inline-block;
+	width: 200px;
+	
+}
+
+.cta {
+	border-bottom: 1px solid #000;
+	padding: 40px;
+	margin: 40px;
+}
+
+.cta .cta-text{
+	display: inline-block;
+	width: 400px;
+}
+
+.left-content {
+	display: inline-block;
+	width: 300px;
+	margin-left: 50px;
+}
+
+.right-content {
+	display: inline-block;
+	width: 300px;
+	margin-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.l-content {
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.middle-content {
+	display: inline-block;
+	width: 200px;
+	margin-left: 50px;
+	
+}
+
+.r-content {
+	display: inline-block;
+	width: 200px;
+	margin-left: 50px;
+
+}
+
+.bottom {
+	border-bottom: 1px solid #000;
+	padding: 40px;
+	margin: 40px;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.contact p {
+	margin-top: 10px;
+}
