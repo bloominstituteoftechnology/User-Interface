@@ -54,13 +54,153 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 18px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	background-color: steelblue;
+	width: 800px;
+}
+
+nav a {
+	color: lightgray;
+	display: inline-block;
+	padding: 25px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+	
+}
+
+.innovation {
+	margin-top: 7%;
+}
+
+.innovation .header-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 36px;
+	text-align: center;
+	padding: 0 50px;
+	margin-top: 150px;
+}
+
+.innovation .header-text button {
+	background-color: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border: 1px solid black;
+}
+
+.innovation .header-text button:hover {
+	background-color: steelblue;
+	color: lightgray;
+}
+
+
+.innovation img {
+	display: inline-block;
+	margin: 70px 0;
+
+
+}
+
+
+.main {
+	padding: 25px 0 10px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.div1 {
+	display: inline-block;
+	width: 49%;
+}
+
+
+.middle-img {
+	display: inline-block;
+	margin: 15px 0 30px 0;
+	max-width: 800px;
+	height: auto;
+}
+
+.div3 {
+	 display: inline-block;
+	 width: 32.3%;
+	 padding: 0 10px 0 0;
+}
+
+
+.div4 {
+	margin-top: 20px;
+}
+
+ footer {
+	 margin-top: 30px;
+	 text-align: center;
+ }
+
+ /* About page Styling */
+ .about-us {
+	 margin-top: 100px;
+	 padding: 4%;
+ }
+
+ .executives div, .employees div {
+	 display: inline-block;
+	 width: 45%;
+	 text-align: center;
+	 margin: 4% 0 2% 2%;
+ }
+
+ .executives img, .employees img {
+	 width: 60%;
+ }
+
+ .executives h2 {
+	 margin-top: 3%;
+ }
+
+ .people {
+	 border-top: 4px dotted black;
+	 border-bottom: 4px dotted black;
+ }
+
+ .about-footer {
+	 margin-top: 40px;
+ }
