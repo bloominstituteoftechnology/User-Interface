@@ -49,7 +49,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
 }
 
 html, body {
@@ -58,9 +61,143 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Russo One', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 /* Your code starts here! */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.container {
+	width: 66%;
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+nav {
+	/* border: 1px solid orange; */
+	margin-top: 10px;
+	position: fixed;
+	background: linear-gradient(0.25turn, #009FFE, #AFFFD9, #FEAAF5);
+}
+nav a{
+	color: black;
+	text-decoration: none;
+	margin: 25px;
+	}
+a:hover {
+	color: aliceblue;
+}
+
+/* HEADER */
+
+.logo {
+	position: fixed;
+	top: 0;
+	right: 170px;
+	margin-right: 60px;
+	width: 190px;
+	/* border: 1px solid green; */
+}
+.heading {
+	width: 100%;
+	padding: 10px;
+	/* border: 1px solid dodgerblue; */
+	display: inline-block;
+	margin-bottom: 60px;
+	
+}
+.innovation {
+	display: inline-block;
+	width: 40%;
+	margin: 0 auto;
+	margin-left: 70px;
+	margin-top: 70px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	border-radius: 40px;
+	background: radial-gradient(closest-side, #AFFFD9, #FEAAF5, #009FFE);
+	/* border: 1px solid green; */
+}
+.right {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 60px;
+	/* border: 1px solid red; */
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	}
+
+h2 h3{
+	font-size: 25px;
+	text-align: left;
+}
+button {
+	color: black;
+	padding: 5px 35px;
+	margin-top: 20px;
+	font-size: 18px;
+	background-color: #AFFFD9;
+	border: 1px solid black;
+}
+button:hover {
+	background: #009FFE;
+	color: white;
+}
+hr {
+	border: 2px solid lightgray;
+	margin-bottom: 40px;
+}
+
+/* TOP 2 PARAGRAPHS */
+
+.section2 div {
+	display: inline-block;
+	width: 49%;
+	line-height: 1.15;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+.middle-img {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: image(img/mid-page-accent.jpg)
+}
+
+/* BOTTOM PARAGRAPHS */
+
+.section3 div {
+	display: inline-block;
+	width: 32%;
+	margin: 0 auto;
+	padding: 10px;
+	/* border: 1px solid green; */
+}
+/* CONTACT/FOOTER */
+
+.contact {
+	margin-top: 20px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact, footer {
+	background: linear-gradient(0.25turn, #009FFE, #AFFFD9, #FEAAF5);
+}
