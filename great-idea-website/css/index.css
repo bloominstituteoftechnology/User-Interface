@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	height: 100%;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header, .main {
+	width: 100%;
+	padding: 20px;
+	border-bottom: 1px solid #000;
+
+}
+
+.header-nav nav a {
+	display: inline-block;
+	width: calc(97% / 6);
+	text-decoration: none;
+	color: #aaa;
+	vertical-align: middle;
+	padding-top: 1.5%;
+	padding-bottom: 10%;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-title {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+.header-item, .main-item {
+	display: inline-block;
+	padding: 15px;
+	margin: 5px;
+	width: calc(50% - 15px);
+	vertical-align: top;
+	height: 465px;
+}
+
+.buttonget {
+
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+}
+
+
+h1 {
+	font-size: 4.5rem;
+	padding: 10% 20% 7% 20%;
+	text-align: center;
+	margin: 0;
+}
+
+button {
+	background-color: transparent;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 5%;
+	padding: 14px 40px 14px 40px;
+	color: black;
+	font-size: 15px;
+}
+
+.main {
+	width: 100%;
+}
+
+.main > section > div {
+	height: 160px;
+	text-align: left;
+}
+
+.main > section > div.main-item-thirds {
+	height: 180px;
+}
+
+.main-item-thirds {
+	width: calc(33% - 15px);
+	padding-bottom: 20px;;
+}
+
+.middle-img {
+	width: calc(100% - 20px);
+	padding-bottom: 40px;
+}
+
+.footer {
+	width: 100%;
+	padding: 40px;
+}
+
+.footer ul {
+	padding: 10px 0;
+}
+
+.footer p {
+	padding: 10px 0;
+}
+
+.contact {
+	text-align: left;
+}
