@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,132 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+/*
+for layout we can only use:
+the box model (content, padding, margin, border) and display:inline-block.
+ */
+
+body{
+	width: 60%;
+	margin: auto;
+}
+
+
+header{
+	width: 100%;
+}
+
+header nav a, .logo{
+	display: inline-block;
+	width: 11%;
+	margin: 0 1%;
+}
+
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover{
+	color: green;
+}
+
+.getStarted{
+	text-align: center;
+	vertical-align: center;
+	margin: 2%;
+}
+
+.getStarted h1{
+	display: block;
+	width: 200px;/*explicit pixels here to force new line for each word. It's a hacky solution I'm sure :]*/
+	text-align: center;
+	font-size: 80px;
+	/*padding: 50px;*/
+}
+
+.getStarted button{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.getStarted .column{
+	display: inline-block;
+	width: 47%;
+	margin: 0 2%;
+}
+
+.getStarted img{
+	display: inline-block;
+	/*padding: 50px 0px 50px 0px;*/
+}
+
+
+
+.middleContent{
+	border-top: 2px solid lightgrey;
+	padding: 0 1% 0 1%;/*todo: put all padding on the body instead of individual elements. Except where needed...*/
+	display: block;
+	margin: 10px;
+	border-bottom: 2px solid lightgrey;
+}
+
+.middleContent .column1{
+	width: 100%;
+	display: block;
+	margin: 1%;
+}
+
+.middleContent .column2{
+	width: 100%;
+	display: block;
+	margin: 1%;
+}
+
+.middleContent .column1 section{
+	display: inline-block;
+	width: 47%;
+	margin: 0 1%;
+}
+
+.middleContent .column2 section{
+	display: inline-block;
+	width: 27%;
+	margin: 0 2%;
+}
+
+.middle-img{
+	display: block;
+	margin: auto;
+}
+
+.contact{
+	padding: 1%;
+}
+
+.contact p{
+	padding: 5px 0;
+}
+
+.copyright{
+	text-align: center;
+	margin-bottom: 1%;
+}
