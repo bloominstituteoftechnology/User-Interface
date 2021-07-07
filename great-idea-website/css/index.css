@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 0 auto;
+	max-width: 900px;
+}
+header{
+	position: fixed;
+	top: 15px;
+	
+}
+header nav{
+	display: inline-block;
+	padding: 10px 0;
+	vertical-align: super;
+}
+header .navigation a{
+	color: gray;
+	text-decoration: none;
+	padding-right: 55px;
+	
+}
+header .logo{
+	height: 50px;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+.main-content{
+	margin-top: 50px;
+	font-size: 70px;
+	border-bottom: solid 1px black;
+	padding-bottom: 50px;
+	width: 875px;
+}
+.main-content .title{
+	display: inline-block;
+	width: 49%;
+	margin-top: 55px;
+	text-align: center;
+	vertical-align: middle;
+}
+.main-content .title .button{
+	margin-top: -45px;
+}
+.main-content .title button{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 40px;	
+}
+.top-content{
+	margin-top: 30px;
+}
+.top-content .text-content{
+	display: inline-block;
+	width: 49%;
+}
+.middle-img{
+margin-top: 30px;
+}
+.bottom-content{
+	width: 876px;
+	margin-top: 30px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+.bottom-content .bottom-text{
+	display: inline-block;
+	width: 33%;
+}
+.contact{
+	margin-top: 30px;
+}
+footer{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	font-family: 'Dosis', sans-serif;
+}
