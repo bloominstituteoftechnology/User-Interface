@@ -54,20 +54,16 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Merriweather';
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Montserrat';
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-
-h1 {
-  line-height: 70px;
-}
 
 a {
   color: inherit;
@@ -81,12 +77,20 @@ a {
 }
 
 header {
-  margin-top: 27px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: darkslategray;
+  position: fixed;
+  top: 0;
+  left: 100px;
+  right: 100px;;
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
 }
 
 nav {
   display: inline-block;
-  margin-left: 75px;
   vertical-align: top;
   margin-top: 10px;
 }
@@ -94,6 +98,19 @@ nav {
 nav a {
   color: rgb(188,188,188);
   font-size: 14px;
+  background-image: linear-gradient(to bottom, transparent 65%, #161616 10%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+}
+
+#nav-services {
+  color: white;
+  font-weight: bold;
 }
 
 #nav-product {
@@ -119,20 +136,36 @@ nav a {
 #logo {
   vertical-align: middle;
   margin-left: 92px;
+  background-image: url("../img/logo.png");
+  width: 183px;
+  height: 36px;
 }
 
-#splash {
-  margin-top: 70px;
+#logo {
+  display: inline-block;
+}
+
+#splash, #splash2 {
+  margin-top: 132px;
   margin-bottom: 75px;
+  display: table;
 }
 
 .innovation {
   display:inline-block;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 65px;
   vertical-align: top;
   line-height: 0.85;
+}
+
+#splash2 .services {
+  display:inline-block;
+  text-align: center;
+  line-height: 0.85;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 h1 {
@@ -143,15 +176,32 @@ h1 {
   display:inline-block;
   border: 1px solid black;
   padding: 10px 50px;
-  margin-top: 10px;
+  margin-top: 40px;
+}
+
+
+.consulting {
+  display:inline-block;
+  margin-left: 100px;
+  overflow: hidden;
+  height: 260px;
+  /* made div 20px shorter than image, which effectively crops bottom of image */
+}
+
+img.code {
+  width: 450px;
+  height: auto;
 }
 
 .code-snippet {
   display:inline-block;
   margin-left: 125px;
+  width: 379px;
+  height: 379px;
+  background-image: url("../img/header-img.png");
 }
 
-main, footer {
+main, footer, #splash2 {
   margin-left: 74px;
   margin-right: 75px;
 }
@@ -180,8 +230,32 @@ p, .features, .about, h2, .services, .product, .vision {
   padding-top: 38px;
 }
 
+section h2 {
+  display:block;
+}
+
+div.text {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.text p {
+  width: 350px;
+}
+
+.top-section .architecture .text {
+  margin-right: 50px;
+}
+
+.bottom-section .scaling .text {
+  margin-left: 50px;
+}
+
 .middle-img {
   margin-left: 1px;
+  width: 876px;
+  height: 182px;
+  background-image: url("../img/mid-page-accent.jpg");
 }
 
 .bottom-section {
@@ -212,3 +286,4 @@ small {
   margin-top: 56px;
   margin-bottom: 114px;
 }
+
