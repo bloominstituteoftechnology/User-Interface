@@ -64,3 +64,149 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container header {
+	background-color: orange;
+	position: fixed;
+	width: 876px;
+	height: 100px;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+
+.container header nav {
+	position: relative;
+	display: inline-block;
+	top: 20px;
+	/* left: 180px; */
+	
+}
+
+.container header nav a {
+	color: lightgray;
+	margin-right: 30px;
+}
+.container	header .logo {
+	position: absolute;
+	top: 5%;
+	right: 0;
+}
+
+.container section  {
+	position: relative;
+	display: inline-block;
+	height: 379px;
+	width: 876px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.container section .logo2 {
+	position: absolute;
+	height: 379px;
+	width: 438px;
+	right: 0;
+}
+.container section h1{
+	font-size: 70px;
+	text-align: center;
+	padding-top: 60px;
+	position: absolute;
+	color: black;
+	height: 379px;
+	width: 438px;
+}
+.button {
+	border: 2px solid black;
+	display: inline-block;
+	position: absolute;
+	padding: 5px 20px;
+	bottom: 50px;
+	left: 160px;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+}
+.containerFirstSection {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	border-top: 1px solid black;
+	width: 876px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+.containerFirstSection .Features {
+	display: inline-block;
+	/* position: absolute; */
+	width: 49%;
+	left: 0;
+}
+
+.containerFirstSection .About {
+	display: inline-block;
+	/* position: absolute; */
+	width: 49%;
+	right: 0;
+}
+
+.middle-img {
+	display: block;
+	width: 876px;
+	margin-top: 30px;
+}
+
+.containerThirdSection {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	width: 876px;
+	height: 200px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.containerThirdSection .Services {
+	display: inline-block;
+	/* position: absolute; */
+	width: 280px;
+	left: 0;
+}
+
+.containerThirdSection .Product {
+	display: inline-block;
+	/* position: absolute; */
+	width: 280px;
+	left: 292px;
+	margin: 0 10px; 
+}
+
+.containerThirdSection .Vision {
+	display: inline-block;
+	width: 280px;
+	right: 0;
+}
+
+footer {
+	padding-top: 20px;
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 876px;
+	margin-bottom: 50px;
+}
+
+footer .Copyright {
+	padding-top: 30px;
+	width: 876px; 
+	text-align: center;
+	font-size: 14px;
+}
