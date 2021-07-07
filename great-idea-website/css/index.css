@@ -63,4 +63,134 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+.main-container {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	width: 875px;
+}
+header{
+	display: inline-block;
+	margin-bottom: 30px;
+
+}
+
+header nav, .idea-img-container{
+	display: inline-block;
+}
+
+
+header .idea-img-container {
+	text-align: right;
+	width: 239px;
+
+}
+
+header nav a{
+	text-decoration: none;
+	color: gray;
+	width: 102px;
+	display: inline-block;
+
+}
+
+#title {
+	margin-top: 30px;
+}
+#title-content, #title-img {
+	width: 375px;
+	display: inline-block;
+	margin: 0;
+}
+
+#title-content{
+	padding-top: 60px;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 68px;
+	margin-right: 45px;
+
+}
+
+#title-img{
+	text-align: right;
+}
+
+
+#title-content h1{
+	font-size: 64px;
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+
+#title-content button{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid gray;
+	width: 30%;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1;	
+	font-size: 12px;
+
+}
+
+
+#content {
+	margin-top: 50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.content-item {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#content-top .content-item {
+	display: inline-block;
+	width: 425px;
+}
+
+#features {
+	margin-right: 14px;
+}
+
+#content {
+	width: 100%;
+}
+#content-image {
+	display: inline-block;
+	width: 873px;
+	overflow: hidden;
+}
+
+#content-bottom .content-item {
+	display: inline-block;
+	width: 279px;
+}
+
+#services, #product {
+	margin-right: 14px;
+}
+
+#contact {
+	margin-top: 35px;
+	margin-bottom: 60px;
+}
+
+#phone {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer {
+	width: 100%;
+	text-align: center;
+}
+
