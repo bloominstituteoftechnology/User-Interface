@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.anchors {
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+	width: 100%; 
+	
+}
+
+.sidebyside {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	color: black;
+}
+
+.sidebyside h1 {
+	font-size: 60px;
+}
+
+.sidebyside p {
+	border: 1px solid black;
+	font-size: 20px;
+	color: black;
+	padding: 5px;
+	width: 200px;
+	text-align: center;
+	
+}
+.container {
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.anchors a {
+	color: gray;
+	text-decoration: none;
+}
+
+.notessidebyside  {
+	color: black;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom:50px;	
+}
+
+.spacebetween {
+	padding: 25px;
+}
+
+.middleimage {
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.bottomtexts {
+	display:flex; 
+	justify-content: center;
+}
+
+
+.bottomtexts div {
+	padding: 20px;
+}
+
+.copy {
+	text-align: center;
+}
+
+.spacebetween2 * {
+	padding:10px;
+}
+
+.all {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
