@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,21 +45,107 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	display: inline-block;
+}
+.nav-link {
+	text-align: center;
+	opacity: 0.5;
+	position: relative;
+	top: 1em;
+	font-size: 18px;
+	padding: 10px;
+	left: 40%;
+	right: 40%;
+	text-decoration: none;
+	color: black;
+	-webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+}
+.nav-link:hover {
+	color: black;
+	opacity: 1;
+	-webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+}
+.logo {
+	position: absolute;
+	right: 2em;
+	top: 0.5em;
+}
+h1 {
+	font-size: 65px;
+}
+.sect1 {
+		/*margin-top: 10%;*/
+		display: inline-block;
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+}
+.sect1 img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.innovate {
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+	vertical-align: middle;
+	text-align: center;
+}
+.sect2 {
+	text-align: center;
+	border-top: 2px solid black;
+}
+.sect2 div {
+	display: inline-block;
+	width: 25%;
+	margin: 15px;
+	text-align: left;
+}
+.middle-img {
+	margin-left: 10%;
+}
+.sect3 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+.sect3 div {
+	display: inline-block;
+	width: 30%;
+	margin: 15px;
+	text-align: left;
+	padding: 2%;
+}
+.contact {
+	text-align: left;
+	padding: 2%;
+}
+.number {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.copy {
+	text-align: center;
+}
