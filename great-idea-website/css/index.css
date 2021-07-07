@@ -64,3 +64,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	margin-top: 75px;
+
+}
+
+nav{
+	width: 100%;
+	position: fixed;
+	top:0px;
+	height: 75px;
+	background-color: #000723;
+	padding: 0 50px;
+	box-shadow:  1px 2px 3px rgba(0,0,0,0.3);
+}
+
+a.navBar{
+	box-sizing: border-box;
+	width: 15.66%;
+	height: 20px;
+	/*padding: 37.5px 0;*/
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px auto;
+	padding: 26.5px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all 0.78s ease-in-out;
+    -moz-transition: all 0.78s ease-in-out;
+    -o-transition: all 0.78s ease-in-out;
+    transition: all 0.78s ease-in-out;
+}
+
+.navBar:hover{
+	-webkit-transition: all 0.78s ease-in-out;
+    -moz-transition: all 0.78s ease-in-out;
+    -o-transition: all 0.78s ease-in-out;
+    transition: all 0.78s ease-in-out;
+    cursor: pointer;
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.navLinks{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.logo{
+	box-sizing: border-box;
+	width: 20%;
+	padding: 15px 0;
+	display: inline-block;
+}
+
+section.first-section{
+	width: 48%;
+	height: 300px;
+	padding: 20px 0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 75px;
+}
+
+section.second-section{
+	width: 48%;
+	height: 300px;
+	padding: 20px 0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 75px;
+}
+
+h1{
+	text-align: center;
+	height: 180px;
+	width: 100%;
+	font-size: 60px;
+	padding: 0 60px;
+
+}
+
+h3.buttonKey{
+	border: 1px solid black;
+	text-align: center;
+	width: 175px;
+	font-size: 20px;
+	height: 30px;
+	vertical-align: bottom;
+	display: block;
+	margin: auto;
+	box-shadow:  1px 2px 3px rgba(0,0,0,0.3);
+	
+	line-height: 30px;
+	-webkit-transition: all 0.28s ease-in-out;
+    -moz-transition: all 0.28s ease-in-out;
+    -o-transition: all 0.28s ease-in-out;
+    transition: all 0.28s ease-in-out;
+}
+
+h3.buttonKey:hover{
+	box-shadow:  0px 0px 0px rgba(0,0,0,0.3);
+	cursor: pointer;
+	-webkit-transition: all 0.28s ease-in-out;
+    -moz-transition: all 0.28s ease-in-out;
+    -o-transition: all 0.28s ease-in-out;
+    transition: all 0.28s ease-in-out;
+}
+
+.logo2{
+	height: 300px;
+	display: block;
+	margin: auto;
+
+
+}
+
+.mainContent{
+	width: 80%;
+	margin: 10% 10% 0 10%;
+	padding: 2.5% 0;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+img.middle-img{
+	width: 100%;
+	box-shadow:  1px 2px 3px rgba(0,0,0,0.3);
+}
+
+.top{
+	width: 48%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.bottom{
+	width: 32%;
+	display: inline-block;
+	padding: 5% 1%;
+}
+
+footer{
+	width: 80%;
+	margin: 0 10%;
+	padding: 2.5% 0;
+}
+
+.cr{
+	margin: 10% 0;
+	width: 100%;
+	text-align: center;
+}
