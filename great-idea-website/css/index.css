@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	max-width: 800px;
+}
+
+header{
+	margin: 50px 0px;
+	text-align: justify;
+}
+
+header a{
+	padding: 5px 20px;
+	font-size: 90%;
+	color: lightslategrey;
+	text-decoration: none;
+}
+
+header img{
+	display: inline-block;
+	margin-bottom:-10px;
+	margin-left: 60px;
+}
+
+#title{
+	margin-top: 75px;
+	margin-bottom: 110px;
+	height: 300px;
+}
+
+#title img{
+	width: 330px;
+	float: right;
+}
+
+h1{
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+	text-align:center;
+	font-size: 420%;
+	letter-spacing: 2px;
+}
+
+#getstarted{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 138px;
+	padding: 5px 30px;
+	border: 1px solid lightslategrey;
+}
+
+h3{
+	font-size: 120%;
+}
+#topsection{
+	padding: 50px 0px;
+	border-top: 1px solid lightslategrey;
+}
+
+.twobox1, .twobox2{
+	width: 390px;
+	box-sizing: border-box;
+	display:inline-block;
+	margin-bottom: 50px;
+}
+
+.twobox1{
+	float:left;
+}
+
+.twobox2{
+	float:right;
+}
+
+#bottomsection{
+	padding: 50px 0px;
+	border-bottom: 1px solid lightslategrey;
+}
+
+#threebox1, #threebox2, #threebox3{
+	width: 256px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+#copyright{
+	text-align:center;
+	margin:40px 0px;
+}
