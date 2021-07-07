@@ -64,3 +64,254 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+.button2 {
+	width: 150px;
+	border-radius: 10px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 0;
+	margin: 25px 5px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: white;
+}
+nav a {
+	display: inline-block;
+	padding: 10px;
+	margin-top: 5px;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+.button {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    border: 2px solid black;
+}
+section.block {
+    width: 100%;
+	display: flex;
+	align-content: flex-end;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 75px;
+}
+section.top {
+    vertical-align: middle;
+}
+hr {
+    margin: 50px;
+}
+.content {
+	width: 430px;
+}
+.content2 {
+	width: 280px
+}
+p {
+    margin-top: 0;
+}
+.contact {
+    margin-left: 100px;
+}
+.services-description {
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: space-between;
+}
+.services-description2 {
+  display: flex;
+  justify-content: space-between;
+}
+.services-description2 p {
+  margin-bottom: 30px;
+}
+.services-class {
+	background: lightgrey;
+	width: 48%;
+	padding: 15px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+ul {
+  list-style: square;
+  list-style-position: inside;
+  line-height: 2;
+}
+.Services-Left {
+  width: 48%;
+}
+.Services-Right {
+    width: 48%;
+
+}
+.ServicesP {
+  margin-top: 40px;
+}
+.contact address {
+    display: block;
+    width: 170px;
+    margin-bottom: 10px;
+}
+.contact a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.services-headerpic img {
+ width: 100%
+}
+h3 {
+	font-size: 18px;
+}
+.copy {
+  text-align: center;
+  margin: 20px 0px;
+}
