@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* { 
+	box-sizing: border-box;
+	
+	
+}
+	header {
+		/* border: 1px solid red; */
+		position: relative;
+		display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	
+	display: inline-block;
+	color: gray;
+	
+	
+}
+.logo {
+display: inline-block;
+position: absolute;
+/* border: 1px solid red; */
+top: 0px;
+left: 700px;
+height: 50px;	
+}
+
+.container{
+	
+	width: 950px;
+	margin: auto; 
+}
+
+.iod {
+	/* border-bottom: 1px solid black; */
+	
+
+}
+.iod img {
+/* border : 1px solid black; */
+display: inline-block;
+margin-left: 570px;
+margin-top:20px;
+
+}
+.iod-text h1 {
+	letter-spacing: 8px;
+	display: inline-block;
+	position: absolute;	
+	font-size:60px;
+	text-align: center;
+	line-height: 70px;
+	left: 300px;
+	top:90px;
+
+}
+.iod-text button {
+
+	position: absolute;
+	display: inline-block;
+	border: 1px solid gray;
+	background: white;
+	font-size: 30px;
+	top: 350px;
+	left: 380px;
+}
+.text-content{
+	/* border: 1px solid black; */
+	width: 400px;
+	line-height: 30px;
+	display: inline-block;
+	margin: 20px 0 20px 0;
+	text-align: justify;
+		
+}
+
+
+.middle-img {
+width: 950px;
+}
+
+.bottom-content {
+	
+	display: inline-block;
+	padding:0px;
+	
+	
+
+}
+.text3 {
+	width:300px;
+	margin-right: 8px;
+} 
+.text4 {
+	width:300px;
+	margin-right: 8px;
+}
+.text5{
+	width:300px;
+}
+
+
+
+
+ .text2 {
+	left:750px;
+	position:absolute;
+}
+
+
+.contact {
+	/* border: 1px solid black; */
+	line-height: 50px;
+}
+footer p {
+	text-align: center;
+	margin: 40px;
+}
