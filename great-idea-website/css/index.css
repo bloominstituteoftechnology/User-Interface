@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navigation {
+	text-align: center;
+}	
+
+a {
+	margin: 20px;
+	padding: 12px;
+}
+
+div h1 {
+	margin: 100px 300px 10px 310px;
+	width: 230px;
+	height: 230px;
+	font-size: 60px;
+	text-align: center;
+	}
+
+/*p barimage {
+	border: green solid 2px;
+	margin: 200px;
+	padding: 20px;
+	}*/
+
+button {
+	margin-left: 355px;
+	margin-top: -680px;
+	width: 120px;
+	height: 30px;
+	}
+
+div h2 img{
+	margin-left: 710px;
+	margin-top: -300px;
+	}
+
+p img {
+	margin-left: 250px;
+	margin-top: -40px;
+}
+
+.solid-line{
+	border: black 1px;
+	width: 650px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.features {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+	width: 420px;
+	height: 150px;
+	}	
+
+.About {
+	margin-top: -200px;
+	margin-bottom: 10px;
+	margin-left: 720px;
+	width: 418px;
+	height: 150px;
+	}
+
+.Services {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+	width: 280px;
+	height: 150px;
+	}
+
+.Product {
+	margin-top: -200px;
+	margin-bottom: 50px;
+	margin-left: 555px;
+	width: 280px;
+	height: 150px;
+	}
+
+.Vision {
+	margin-top: -200px;
+	margin-bottom: 50px;
+	margin-left: 850px;
+	width: 280px;
+	height: 150px;
+	}
+
+.Contact h3 {
+	padding-bottom: 15px;
+	border-top: solid 2px #000;
+	padding-top: 20px;
+	width: 880px;
+	margin-left: 250px;
+	margin-top: -100;
+}
+
+.address p {
+	margin-left: 250px;
+	margin-bottom: 1px;
+	}	
+	
+.city p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.phone p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.email p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}	
+
+.business p {
+	margin-left: 250px;
+	margin-bottom: 10px;
+	}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
