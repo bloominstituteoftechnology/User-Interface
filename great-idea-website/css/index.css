@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 50px;
+	width: 880px;
+	display: inline-block;
+}
+.top-navigation{
+	display: inline-block;
+}
+.top-navigation nav {
+	display: inline-block;
+}
+
+.top-navigation nav a {
+	margin-left: 40px;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.logo {
+	position: relative;
+	top: 10px;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+header {
+	height: 600px;
+	border-bottom: 1px solid black;
+}
+.header {
+	display: inline-block;
+}
+.right-header {
+	width: 350px;
+	padding-left: 60px;
+	display: inline-block;
+}
+
+.right-header img {
+	position: relative;
+	top: 70px;
+	display: inline-block;
+}
+
+.left-header h1 {
+	display: inline-block;
+}
+
+.left-header {
+	margin: 0 auto;
+	width: 379px;
+	text-align: center;
+	font-size: 90px;
+	display: inline-block;
+}
+
+.left-header button {
+	
+	height: 30px;
+	width: 150px;
+	position: absolute;
+	left: 8%;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.upper-content {
+	margin: 30px 0 30px;
+	display: inline-block;
+}
+
+.upper-content div {
+	width: 436px;
+	display: inline-block;
+}
+
+.lower-content {
+	margin: 30px 0 30px;
+	display: inline-block;
+}
+
+.lower-content div {
+	width: 290px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.middle-img {
+	margin-left: 0px;
+	display: inline-block;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: 1px solid black;
+}
+
+footer .footer-content .copyright {
+	padding: 20px 0;
+	/*======= center the text here */
+	text-align: center;
+}
+
+footer .footer-content {
+	margin-top: 30px;
+}
+
+footer .footer-content a {
+	color: black;
+	text-decoration: none;
+}
+
+.footer-content p {
+	margin: 12px 0 12px;
+}
