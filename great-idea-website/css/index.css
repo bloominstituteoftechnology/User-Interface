@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Set the box display */
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 40px;
+}
+
+header nav a{
+	margin: 0 20px;
+}
+
+.logo {
+	/* border: 15px solid green; */
+	position: relative;
+	left: 40px;
+	top: 5px;
+}
+/* Format INNOVATION section */
+.innovation{
+	position: relative;
+	width:100%;
+	margin-top: 50px;
+	
+
+}
+
+.innovation-text{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 45%;
+	
+	margin-top:0;
+	text-align: center;
+	
+	margin-bottom: 20px;
+	
+}
+.innovation-text h1{
+	display: inline-block;
+	font-size: 70px;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 1.8;
+}
+
+.innovation-text button{
+	display: inline-block;
+	font-size: 35px;
+	height: 50%;
+}
+.innovation img{
+	
+	display: inline-block;
+	/* box-sizing: border-box; */
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 10px;
+
+}
+/* END OF INNOVATION */
+
+/* MAIN-CONTENT */
+.main-content{
+	display: inline-block;
+
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.main-content div{
+	margin: 15px 5px 15px 5px;
+}
+.features{
+	display: inline-block;
+	
+	width: 47%;
+
+}
+.about{
+	display: inline-block;
+	
+	width: 47%;
+}
+.middle-img{
+	display: inline-block;
+	
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.product{
+	display: inline-block;
+	
+	width: 30%;
+
+}
+
+.vision{
+	display: inline-block;
+	
+	width: 30%;
+
+}
+
+.services{
+	display: inline-block;
+	
+	width: 30%;
+
+}
+
+.footer{
+	text-align: center;
+}
+
+
+
+
+
