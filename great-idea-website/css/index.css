@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	padding-bottom: 30px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+a.nav {
+	text-decoration: none;
+	color: gray;  
+  	display: inline-block;
+  	padding: 1rem 8rem 1rem 0rem;
+}
+
+a.nav:after {
+	content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 1rem;
+	margin-left: 1rem;
+}
+
+a.nav:hover span {
+	border-bottom: 2px solid black;
+	list-style-type: none;
+}
+.head {
+	float: right;
+}
+
+.center {
+	float: left;
+}
+
+h1 {
+	font-size: 600%;
+}
+
+.words {
+	margin-left: 12rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+.up {
+	padding-top: 3rem;
+}
+
+.content {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+section {
+	line-height: 12px;
+	margin-bottom: 1rem;
+}
+
+.boxes {
+	width: 50%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.middle {
+	width: 33%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.bottom {
+	width: 25%;
+	padding: 1em;
+	float: left;
+	margin-bottom: 1rem;
+	line-height: 16px;
+}
+
+.top {
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.button {
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.button a {
+	margin-top: 1rem;
+	padding: 0rem 2rem 0rem 2rem;
+	border: 2px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.mail a {
+	text-decoration: none;
+	color: black;
+}
+.last:after{
+	
+	height: 8rem;
+	display: inline-block;
+}
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  } 
+
+footer {
+	margin-top: 12em;
+	text-align: center;
+}
