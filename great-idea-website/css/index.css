@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 80%;
+	margin:0 auto;
+}
+
+header {
+	padding:10px 20px 50px;
+	position: relative;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+	margin-left: -20px;
+	width: 80%;
+	float: left;
+}
+
+header img {
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: center;
+	width: 20%;
+	float: right;	
+}
+header nav a {
+	padding:0 px 0;
+	text-decoration: none;
+	color: gray;
+	text-align: left;
+	float: left;
+	margin-right: 70px;
+	font-size: 14px;
+}
+
+.test {
+	position: relative;
+	display: inline-block;
+	/* vertical-align: center; */
+	width: 100%;
+	padding:25px 10px 25px;
+}
+
+.get-started {
+	display: inline-block;
+	/* position: relative; */
+	margin-left:100px;
+	vertical-align: top;
+	width: auto;
+	height: auto;
+	margin-top: 100px;
+}
+
+.get-started h1 {
+	font-size: 80px;
+	text-align: center;
+	float: center;
+	display: block;
+	margin:0 auto 10px;
+}
+
+.get-started button {
+	display: block;
+	text-align: center;
+	padding:5px 50px;
+	background-color: transparent;
+	border:1px solid grey;
+	margin-left: 85px;
+	font-size: 14px;
+	margin:0 auto;
+}
+
+.test img {
+	display: inline-block;
+	border-radius: 50px;
+	padding: 0px;
+	height: auto;
+	margin-left: 0px;
+	width: 50%;
+	float: right;
+}
+
+.information {
+	border-top:1px solid grey;
+	padding-top: 25px;
+}
+
+.information section {
+	display: inline-block;
+	text-align: justify;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.information .features {
+	display:inline-block;
+	width: 49%;
+	text-align: justify;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.information .about {
+	float: right;
+	margin:0 auto;
+	margin-left: px;
+}
+
+.information .middle-img {
+	display: block;
+	width: 100%;
+	height:auto;
+}
+
+.information .services {
+	width: 31%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto;
+}
+
+.information .product {
+	margin-left: 10px;
+	margin-right: 10px;
+	width:35%;
+	vertical-align:top;
+}
+
+.information .vision {
+	float: right;
+}
+
+footer {
+	border-top:1px solid grey;
+}
+
+footer h3 {
+	padding-top:30px;
+}
+
+footer p {
+	padding-bottom:15px;
+	font-size: 14px;
+}
+
+footer .copyright {
+	display: block;
+	margin: auto;
+	width: 250px;
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 75px;
+}
