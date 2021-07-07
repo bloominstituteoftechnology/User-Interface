@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.whole {
+	position:relative;
+	align-content: center;
+	margin: 0px auto;
+	width:880px;
+}
+header {
+	display: block;
+	margin: -50px auto;
+	text-align: center;
+	width: 880px;
+	background-color: blue;
+	position: fixed;
+	z-index: 1;
+}
+
+.logo {
+	width:125px;
+	position:relative;
+	top:5px;
+}
+
+#part1 {
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+	width: 880px;
+	position:relative;
+}
+
+#demand {
+	width: 300px;
+	display:inline-block;
+	text-align: center;
+	padding-right:75px;
+	position:relative;
+	bottom:50px;
+  }
+  
+  h1 {
+	  font-size: 30pt;
+	  display: block;
+	  position:relative;
+  }
+  
+  #start {
+	  display: inline-block;
+	  font-size:12pt;
+	  border: 2px solid black;
+	  padding-top:5px;
+	  color: gray;
+	  text-align: center;
+	  width: 150px;
+	  height: 30px;
+	  
+  }
+  
+  #center {
+	display:inline-block;
+	width: 400px;
+	position:relative;
+	padding-left:75px;
+  }
+
+a {
+	display: inline-block;
+	font-size: 12pt;
+	color: white;
+	width: 100px;
+	margin:10px;
+}
+
+
+
+h2 {
+	text-align: left;
+	font-family: "Condiment";
+}
+
+
+
+
+
+
+.middle-img {
+	display:block;
+	width:880px;
+	margin: 20px auto;
+}
+
+footer {
+	text-align: left;
+	padding-top: 50px;
+}
+
+p {
+	width:400px;
+	font-size:10pt;
+	text-align:left;
+}
+
+#copy {
+	font-size:8pt;
+	position:relative;
+	text-align:center;
+	display: block;
+	margin: 20px 0px 0px 0px;
+	width: 880px;
+}
+
+#p2 {
+	width:250px;
+	font-size:10pt;
+	text-align:left;
+}
+
+.sec1 {
+	display:inline-block;
+	padding:10px;
+	padding-right:60px;
+	padding-top:50px;
+}
+
+.sec2 {
+	display:inline-block;
+}
+
+.sec3 {
+	display:inline-block;
+}
+
+.sec4 {
+	display:inline-block;
+	padding: 10px 50px;
+	padding-bottom: 60px;
+}
+
+.sec5 {
+	display:inline-block;
+} */
+
+div {
+	width:880px;
+	margin: 0px auto;
+} */
+
+.middle {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	width: 880px;
+}
+
+#line {
+	background-color: black;
+	height:2px;
+	width:880px;
+}
