@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 30px;
+	/* border: 1px solid grey; */
+}
+
+header nav, header .logo {
+	display:inline-block;
+	/* width: 49%; */
+}
+
+header nav {
+	/* margin-right: 30px; */
+	padding-bottom: 40px;
+	width: 70%;
+}
+
+header nav a {
+	margin-right: 30px;
+}
+
+header .logo {
+	padding-top: 30px;
+}
+
+.mainTitle {
+	/* border: 1px solid grey; */
+	margin: 30px;
+	padding: 25px;
+}
+
+.mainTitle .leftSide {
+	display:inline-block;
+	width: 49%;
+	height: 80%;
+	/* padding-bottom:3rem; */
+}
+
+.mainTitle .leftSide h1 {
+	/* height: 50%; */
+	font-size:4rem;
+	text-align: center;
+}
+
+.mainTitle .leftSide button {
+	margin: 0 auto;
+	display: block;
+}
+
+/* .mainTitle h1 {
+	margin-bottom: 200px
+} */
+
+.mainTitle #picPic {
+	height: 100px;
+	width: 100px;
+}
+
+.content {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey
+}
+
+.topContent{
+	/* border: 1px solid grey; */
+	margin: 30px;
+}
+
+.topContent .features {
+	display: inline-block;
+}
+
+#mainImage {
+	margin: 30px;
+}
+
+.features, .about, .services, .product, .vision {
+	display: inline-block;
+}
+
+.features, .about {
+	width: 49%;
+}
+
+.services, .product, .vision {
+	width: 32%;
+}
+
+.bottomContent {
+	margin: 30px;
+	/* border: 1px solid grey; */
+}
+
+.services, .product, .vision {
+	display: inline-block;
+}
+
+.contact {
+	margin: 30px;
+}
+
+.contact p {
+	margin-bottom: 20px;
+}
+
+.titleOfContent {
+	font-weight:bold;
+	padding-bottom: 10px;
+}
+
+#mainImage img {
+	width: 100%;
+}
+
+footer {
+	margin: 30px;
+	text-align: center;
+}
