@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+
+/* header */
+header nav {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+header nav a {
+	margin: 0 20px;	
+	color: lightgray;
+	text-decoration: none;
+}
+
+header .logo {
+	margin-left: 150px;
+}
+
+.intro {
+	display: inline-block;
+}
+
+/* intro section */
+h1 {
+	font-size: 50px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	margin: 50px;
+	position: relative;
+	top: 8%;
+    right: -50%;
+}
+
+.intro p {
+	font-size: 10px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin: 50px;
+	padding: 5px;
+	position: relative;
+	top: 25%;
+	right: -67%;
+	border: 1px solid gray;
+}
+
+.circle {
+	width: 200px;
+	margin: 50px;
+	position: absolute;
+	top: 8%;
+    left: 50%;
+	
+}
+
+/* first content section */
+
+.firstContent {
+	display: inline-block;
+	border-top: 1px solid gray;
+}
+
+.features, .about {
+	width: 40%;
+	position: relative;
+	/* margin: 20px; */
+}
+
+.features {
+	margin: 0 0 0 50px;
+}
+
+.about {
+	top: -110px;
+	left: 55%;
+}
+
+/* middle image */
+.middle-img {
+	position: relative;
+	left: 1%;
+	margin: -77px 0;
+}
+
+/* second content section */
+
+.secondContent {
+	display: inline-block;
+}
+
+.secondContent div {
+	width: 30%;
+	position: relative;
+}
+
+.services {
+	top: 100px;
+    left: 45px;
+}
+
+.product {
+	top: -26px;
+    left: 335px;
+}
+
+.vision {
+	top: -154px;
+    left: 610px;
+}
+
+/* last section content */
+
+.lastSection {
+	border-top: 1px solid gray;
+}
+
+.lastSection div {
+	display: inline-block;
+	width: 18%;
+	margin: 10px 0 0 40px;
+	
+	
+}
+
+.lastSection h4 {
+	margin: 5px;
+}
+.lastSection p {
+	margin: 5px;
+}
+
+footer {
+	margin: 40px;
+	text-align: center;
+}
