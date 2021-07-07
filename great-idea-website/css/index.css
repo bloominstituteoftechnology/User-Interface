@@ -64,3 +64,186 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+                  /* Top Nav */
+
+.containerhome {
+	width: 85%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+.nav-header nav a {
+	display: inline-block;
+	margin: 50px; 
+	align-content: center;
+}
+
+.nav-header{
+	margin-bottom: 20px;
+}
+
+nav a {
+	padding-top: 38px;
+	align-content: center;
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center; 
+
+}
+
+nav a:hover {
+	background: white;
+	color: dimgray;
+}
+
+header nav .first-anchor {
+	margin-left: 0;
+	
+}
+
+.logo {
+	/* border: 1px solid green; */
+	margin-left: 150px;
+}
+
+				 /* topsection */
+				 
+.topsection {
+	display: inline-block;
+	/* border: 1px solid green; */
+	width: 100%; 
+	margin: 0 auto;
+
+}
+
+.textcontent   {
+	display: inline-block;
+	/* border: 1px solid blue; */
+	width: 49%;
+	align-content: center;
+	margin-bottom: 85px;
+	margin: 85px;
+	/* border: 1px solid green; */
+	
+}
+
+h1 {
+	font-size: 80px;
+	padding: 55px;
+	text-align: center;
+	
+}
+
+.topsection .textcontent button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+  
+.topsection .textcontent button:hover {
+	background: black;
+	color: white;
+}
+
+button {
+	display: block;
+	margin-left: 229px; 
+	position: relative;
+	cursor: pointer;
+}
+
+
+
+
+.circleimage {
+	display: inline-block;
+}
+
+	
+.middlecontent {
+	width: 85%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	
+	/* border: 1px solid green;
+	border: 1px solid red; */
+}
+
+.features {
+	display: inline-block;
+	width: 49%;
+	/* border: 1px solid red; */
+	padding: 30px;
+}
+
+.about {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 49%;
+	padding: 30px;
+}
+
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1258px;
+}
+	
+.bottomcontent {
+	width: 85%;
+	margin: 0 auto;
+	align-items: center;
+	border-bottom: 1px solid black;
+	margin-top: 20px;
+	/* border: 1px solid red; */
+}
+
+.services {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	margin-right: 25px;
+	
+	/* border: 1px solid green; */
+}
+
+.product {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	margin-right: 25px;
+}
+
+.vision {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+}
+
+footer {
+	box-sizing: border-box;
+
+}
+
+.footernav {
+	margin-left: 100px;
+	padding: 25px;
+}
+
+footer p {
+	text-align: center;
+}
