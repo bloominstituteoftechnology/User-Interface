@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+
+/* Header */
+header {
+	position: relative;
+	margin-top: 20px;
+	padding-top: 5px;
+	height: 40px;
+	margin-bottom: 100px;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+	padding: 0 5px;
+	margin: 0 30px;
+}
+
+header nav a:hover {
+	color: blue;
+}
+
+header .logo {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	
+}
+
+
+/* BANNER */
+
+.banner {
+	position: relative;
+	max-width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.banner .banner-title h1 {
+	font-size: 60px;
+	
+}
+
+.banner .banner-title p {
+	border: 1px solid black;
+	display: inline-block;
+	padding: 5px 30px;
+}
+
+.banner .banner-title {
+	text-align: center;
+	display: inline-block;
+	margin-right: 100px;
+	
+	
+}
+
+.banner img {
+	
+	height: 300px;
+	width: 300px;
+	margin-left: 100px;
+	
+}
+
+
+
+/*  CONTENT  */
+
+.top-content {
+	margin-top: 50px;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.features {
+	
+	display: inline-block;
+	max-width: 45%;
+	margin-right: 50px;
+	position: absolute;
+	left: 0;
+	line-height: 1.3;
+	
+}
+
+.about {
+	
+	display: inline-block;
+	max-width: 45%;
+	position: absolute;
+	right: 0;
+	line-height: 1.3;
+	
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	object-fit: fill;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+	
+}
+
+
+.bottom-content {
+	margin-bottom: 30px;
+}
+.services {
+	
+	display: inline-block;
+	width: 30%;
+	
+}
+
+.product {
+	
+	display: inline-block;
+	width: 30%;
+	margin-left: 30px;
+	
+}
+
+.vision {
+	
+	display: inline-block;
+	width: 30%;
+	margin-left: 40px;
+
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+}
