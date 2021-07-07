@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.navigation {
+	color: lightgray;
+	display: inline-block;
+	padding: 20px;
+}
+
+nav a {
+	margin: 25px;
+}
+
+h1 {
+	font-size: 450%;
+	text-align: center;
+	display: inline;
+	padding-bottom: 7px;
+}
+
+.logo	{
+	margin-left: 30px;
+}
+
+.header-div {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	padding-top: 10%;
+	padding-right: 60px;
+}
+
+.button {
+	background: white;
+	color: black;
+	padding: 8px 40px;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.button:hover {
+	background: black;
+	color: white;
+}
+
+.circle {
+	float: right;
+	padding-bottom: 10%;
+}
+
+header {
+	padding: 40px;
+	margin: 0 auto;
+}
+
+.top-content {
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 1px solid black;
+}
+
+.top-content2 {
+	width: 48%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.bottom-content {
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content2 {
+	width: 31%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contact {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer {
+	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 50px;
+}
