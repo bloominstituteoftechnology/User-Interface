@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	text-align: center;
+}
+
+
+header{
+	width: 1980;
+	height: 200px;
+}
+nav {
+	width: 1600px;
+	height: 200px;
+	padding-top: 15px;
+	padding-left: 25px;
+	position: fixed;
+	top: 0;
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	width: 10%;
+	display: inline-block;
+	font-size: 16px;
+}
+.main-banner{
+	width: 1980px;
+	height: 49%;
+	display: inline-block;
+	text-align: center;
+}
+.title{
+	width: 25%;
+	height: 100px;
+	display: inline-block;
+}
+.title h1{
+	font-size: 90px;
+}
+.title p {
+	border: 1px solid black;
+	width: 100%;
+	border-radius: 40px;
+	background: black;
+	color: white;
+	font-weight: 800;
+	height: 35px;
+	padding: 18px 20px 30px 20px;
+	cursor: pointer;
+}
+.title-img{
+	width: 50%;
+	height: 100px;
+	display: inline-block;
+}
+
+.Paragraph-1{
+	width: 1600px;
+	height: 200px;
+	display: inline-block;
+	border-top: 1px black solid;
+	padding-top: 20px;
+}
+
+.Paragraph-1 .Features{
+	width: 400px;
+	height: 100%;
+	display: inline-block;
+	text-align: left;
+	padding-right: 100px;
+}
+.Paragraph-1 .Features h2{
+ font-size: 36px;
+}
+.Paragraph-1 .Features p{
+font-size: 18px;
+font-weight: 500;
+}
+.Paragraph-1 .About {
+	width: 400px;
+	height: 100%;
+	display: inline-block;
+	padding-left: 100px;
+	text-align: left;
+}
+.Paragraph-1 .About h2{
+font-size: 36px;
+}
+.Paragraph-1 .About p {
+	font-size: 18px;
+	font-weight: 500;
+}
+.big-image {
+	width: 100%;
+	height: 200px;
+}
+.big-image img{
+	width: ;
+	height: 200px;
+	text-align: center;
+}
+
+.Paragraph-2{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	border-bottom: 1px black solid;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	justify-content: space-around;
+}
+.Paragraph-2 .Services{
+	height: 200px;
+	width: 400px;
+}
+.Paragraph-2 h2 {
+	font-size: 36px;
+}
+.Paragraph-2 p {
+	font-size: 18px;
+	font-weight: 500;
+}
+.Paragraph-2 .Product {
+	height: 200px;
+	width: 400px;
+}
+.Paragraph-2 .Vision{
+	height: 200px;
+	width: 400px;
+	padding-right: 20px;
+}
+.address {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	line-height: 2;
+}
+footer .Copyright{
+	display: flex;
+	justify-content: center;
+}
