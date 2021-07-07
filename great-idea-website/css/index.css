@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -57,10 +57,135 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+h2, h3, h4, h5 {
+    font-family: 'IM Fell English SC', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
 /* Your code starts here! */
+.nav-container {
+	padding: 20px 0 20px;
+	overflow: hidden;
+    position: fixed;
+    top: 0; 
+	width: 100%;
+	height: 80px;
+	background: lightblue;
+	z-index: 1;
+}
+
+.navigation li {
+	color: gray;
+	padding:  0px 30px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navigation li a{
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	text-decoration: underline;
+}
+
+.nav-starter {
+	margin-left: 45px;
+}
+
+.logo {
+	margin-left: 15px;
+}
+
+.custom-header {
+	position: relative;
+  	align-items: center;
+	margin: 125px 0px 75px 75px;
+	height: 385px;
+	width: 880px;
+}
+
+.title-container {
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+	width: 400px;
+	height: 385px;
+}
+
+.title-text {
+	font-size: 75px;
+	text-align: center;
+	padding: 50px 50px 5px 50px;
+}
+
+.button {
+	border: 1px solid;
+	width: 160px;
+	padding: 5px;
+	margin-left: 120px;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.cir-image {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	margin-left: 50px;
+}
+
+hr {
+	margin-left: 75px;
+	width: 880px;
+	border: .5px solid black;
+}
+
+.top-content {
+	margin: 30px 0px 40px 75px;
+}
+
+.top-content .top-content-block {
+	display: inline-block;
+	width: 48%;
+}
+
+.middle-img {
+	margin: 0px 75px;
+}
+
+.bottom-content {
+	margin: 30px 0px 40px 75px;
+}
+
+.bottom-content .bottom-content-block {
+	display: inline-block;
+	width: 30%;
+	margin-right: 20px;
+}
+
+.contact {
+	padding: 30px 75px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+}
