@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Rubik', 'Titillium Web', sans-serif; /*Rubik Font*/
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');  /* Import Google Font Rubik*/ 
+
+.container {
+margin: 0 auto;
+width: 1100px;
+}
+
+nav {
+margin-top: 30px;
+display: inline-block;
+}
+
+.image-box {
+display: inline-block;
+margin-left: 10px;
+margin-right: 100px;
+padding: 10px;
+margin-bottom: 70px;
+border: none;
+width: 20px;
+height: 379px;
+font-size: 100px;
+}
+
+.banner {
+font-size: 100px;	
+height: 40px;
+width: 170px; 
+margin-top: 80px ;
+margin-bottom: 200px;
+margin-left: 50px;
+margin-right: 50px;
+box-sizing: border-box;
+}
+
+.banner:hover {
+color: cadetblue;
+}
+
+.get-started-button {
+margin-top: 80px;
+margin-bottom: 70px;
+margin-left: 150px;
+border: solid 1px;
+background: transparent;
+width: 120px;
+height: 30px;
+margin-bottom: 300px;
+}
+
+img .logo {
+margin-left: 1270px;
+margin-bottom: auto;
+}
+
+nav .anchors {
+margin: 40px;
+text-decoration: none;
+color: rgb(82, 79, 79);
+}
+
+.line1 {
+margin-top: 50px;
+margin-bottom: 30PX;
+}
+.section1{
+display: inline-block;
+margin: 5px;
+border: none;
+width: 700px;
+height: 100px;
+box-sizing: border-box;
+}
+
+.section2 {
+display: inline-block;
+margin: 5px;
+border: none;
+width: 500px;
+height: 100px;
+box-sizing: border-box;
+font-size: 25px;
+}
+
+.middle-img {
+width: 100%;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.section-prime {
+display: inline-block;
+margin-top: 20px;;
+margin: 1px;
+border: 0;
+width: 350px;
+height: 90px;
+box-sizing: border-box;
+}
+
+div.ex1{
+width:30%;
+height: 30px ;
+display:inline-block;
+margin: 150;
+padding: 0;
+font-size: 25px;
+}
+	
+div.ex2{
+width:30%;
+height:200px;
+display:inline-block;
+margin: 150;
+padding: 0;
+font-size: 25px;
+
+}
+	
+	
+div.ex3{
+width:30%;
+height:200px;
+display:inline-block;
+margin: 150;
+padding: 0;
+font-size: 25px;
+
+}
+
+.line2 {
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+.address-box {
+box-sizing: border-box;
+display: inline-block;
+width: 190px;
+height: 50px;
+background-color: transparent;
+}
+
+.email {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.phone-number {
+margin-top: 40px;
+margin-bottom: 40px;
+width: 200px;
+}
+
+.copyright {
+margin-top: 150px;
+margin-bottom: 150px;
+text-align: center;
+}
