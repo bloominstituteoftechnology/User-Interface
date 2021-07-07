@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.main-container{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.menu{
+	display:block;
+	width:900px;
+	margin-right: 0px;
+}
+
+.nav-bar{
+	display:inline-block;
+	width:745px;
+	/* text-align:center; */
+	
+}
+
+ a{
+	text-decoration: none;
+	color: gray;
+	display:inline-block;
+	width:105px;
+	text-align:left;
+	/* padding-right:30px; */
+	padding-left: 0px;
+	font-size:12px;
+}
+
+.top-logo{
+	display:inline-block;
+	width:100px;
+}
+
+.logo{
+	display:inline-block; 
+	width: 120px;
+	/* border:2px solid green; */
+	
+}
+.slogan{
+	display:block;
+	height:480px;
+}
+
+.slogan-area{
+	display:inline-block;
+	width:400px;
+	height: 200px;
+	margin-bottom:200px;
+}
+
+ .motto{
+  font-size:70px;
+  height:225px;
+  width:250px;
+  margin: 0px 0px 0px 60px;
+  text-align: center;
+  display:inline-block; 
+}
+
+.motto-text{
+	display:inline-block;
+	margin-top:0px;
+	width:200px;
+	height:120px;
+	text-align:center;
+}
+
+.getclick{
+	border:1px solid black;
+	padding: 2px 15px 2px 15px;
+	text-align:center;
+	width: 120px;
+	margin: 0px 0px 0px 120px;
+	display:inline-block;
+	
+}
+
+.code-snippet{
+	margin:40px 0px 40px 0px;
+	padding-left:90px;
+	display:inline-block;
+	width:300px; 
+}
+
+.body-top{
+	margin-top:40px;
+	display:block;
+}
+
+.features{
+	display: inline-block;
+	width: 445px;
+}
+
+.about{
+	display: inline-block;
+	width: 445px;
+}
+
+.middle-img{
+	margin-top:40px;
+}
+
+.body-bottom{
+	margin-top:40px;
+	display:block;
+	margin-bottom:40px;
+}
+
+.services{
+	display:inline-block;
+	width:291px;
+}
+
+.product{
+	display:inline-block;
+	width:291px;
+}
+
+.vision{
+	display:inline-block;
+	width:291px;
+}
+
+.copyright{
+	margin-top:20px;
+	text-align:center;
+}
+
+.footer h3{
+	margin-top:40px;
+}
+
+
+
+
