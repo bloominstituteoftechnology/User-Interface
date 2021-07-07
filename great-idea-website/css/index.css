@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-container {
+	width: 980px;
+	margin: auto;
+	/*border:1px solid blue;*/
+}
+
+/*stetch 1 begin */
+header {
+	display: inline-block;
+    padding-right: 100px;
+    margin: 0;
+    position: fixed;
+    z-index: 9999;
+	background-color: white;
+	width:100%;
+	
+
+}
+
+
+/*stretch1 End */
+
+header nav {
+	display:inline-block;
+	margin-top: 50px;
+	background-color:whitesmoke        /*stretch ***/
+}
+
+header nav a {
+	margin:0 20px;
+	color:grey;
+	text-decoration:none;
+	
+}
+
+header nav a:hover {
+	background: green;
+	color: white;
+  }
+
+header img.logo {
+	margin-left: 223px;
+}
+
+.heading {
+	margin: 10%;
+	width:98%;
+	display:inline-block;
+}
+.heading h1{
+	text-align:center;
+    width: 300px;
+    /*height: 100px;*/
+	font-size: 60px;
+	
+	
+}
+/*.heading p {
+	
+	border: 1px solid black;
+    width: 170px;
+	height: 32px;
+	margin-left:60px;
+	padding: 10px;
+	text-align:center;
+	background-color: yellow;
+}*/
+.heading button {
+	
+	border: 1px solid black;
+    width: 140px;
+	height: 32px;
+	margin-left:70px;
+	padding: 10px;
+	text-align:center;
+	background-color: white;
+}
+.heading button:hover {
+	background: green;
+	color: white;
+  }
+.heading2 {
+	display:inline-block;
+	margin-right: 50px;
+	margin-left:0px;
+	vertical-align:top;
+	
+}
+
+.imgHeading {
+	
+	margin-left:130px;
+
+}
+
+.heading2 h1 {
+	font-size:80px;
+	padding:20px;
+	margin-left:0px;
+}
+
+
+.main-content .firstsection .two-column{
+	width: 420px;
+    margin-right:65px;
+ 
+ /*margin-left:54px;*/
+  
+	display:inline-block;
+}
+
+
+footer p {
+	
+	text-align:center;
+}
+
+.main-content .secondsection .three-column{
+	width:280px;
+	
+	margin-right:30px;
+ 
+	/*margin-left:54px;*/
+	
+	display:inline-block;
+	
+}
+
+.middle-img {
+	width: 980px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
