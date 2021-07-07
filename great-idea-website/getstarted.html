@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Getting Started!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="css/getstarted.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+    <body id="main-body">
+
+        <div id="main-page">
+            <h1 id="title">Company Information</h1>
+            
+            <hr>
+            
+            <p id="description">Please Fill Out With Your Company Information</p>
+            <form action="">
+                <label id="name-label">*Name:</label>
+                <input id="name" class="input-box" type="text" name="full-name" placeholder=" Enter your name" required><br>
+                <label id="email-label">*Email:</label>
+                <input id="email" class="input-box" type="email" name="email" placeholder=" Enter your email" required><br>
+                <label id="company-label">*Company:</label>
+                <input id="company" class="input-box" type="text" name="company" placeholder=" Enter your company name" required><br>
+            
+                <label>Current IT Provider:</label>
+                <select id="dropdown" class="input-select">
+                    <option value="select-one">Select One</option>
+                    <option value="tech-dudes">Tech Dudes</option>
+                    <option value="wonder-gals-tech">Wonder Gals Tech</option>
+                    <option value="tech-r-us">Tech R' Us</option>
+                    <option value="gigantic-tech-co">Gigantic Tech Co</option>
+                    <option value="other">Other</option>
+                </select><br>
+            
+                <label>Satisfaction Level With Current It Provider:</label>
+                <select class="input-select">
+                    <option value="select-one">Select One</option>
+                    <option value="low">What Do I Pay Them For</option>
+                    <option value="low-medium">They're Around When I Need Them</option>
+                    <option value="high-medium">Good Service</option>
+                    <option value="high">Doing An Awesome Job</option>
+                </select><br>
+            
+                <label id="looking-label">Are you currently looking to swicth IT Providers?</label>
+                <input type="radio" name="looking" value="yes" checked="checked">Yes
+                <input type="radio" name="looking" value="no">No<br>
+            
+                <label>IT services your company needs:</label>
+                <div id="div-cb">
+                    <input class="services-cb" type="checkbox" name="services" value="performance">Computer Performance Audits<br>
+                    <input class="services-cb" type="checkbox" name="services" value="consulting">Buiness Consulting<br>
+                    <input class="services-cb" type="checkbox" name="services" value="emergency">Emergency Technical Support<br>
+                    <input class="services-cb" type="checkbox" name="services" value="remote-training">Remote Training<br>
+                    <input class="services-cb" type="checkbox" name="services" value="on-site-training">On Site Training<br>
+                    <input class="services-cb" type="checkbox" name="services" value="web-design">Web Design<br>
+                    <input class="services-cb" type="checkbox" name="services" value="server">Server Setup and Maintenance<br>
+                </div>
+            
+                <label>Additional Comments</label>
+                <textarea id="features" rows="5" cols="30" placeholder="Additional Comments..."></textarea>
+            
+                <div class="nav-button">
+                    <a href="index.html">Home</a>
+                    <a href="index.html">Submit</a>
+                </div>
+            </form>
+        </div>
+
+    </body>

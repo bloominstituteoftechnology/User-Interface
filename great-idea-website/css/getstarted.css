@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://c.pxhere.com/photos/72/9c/close_up_code_coding_computer_computing_conceptual_data_design-911144.jpg!d);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+  
+#main-page{
+    width: 60%;
+    min-width: 400px;
+    margin: 0px auto;
+    background-color: #addfff;
+    border-radius: 30px;
+    padding: 20px;
+}
+  
+#title{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    font-size: 70px;
+    text-align: center;
+}
+  
+hr{
+    border: 0;
+    background-color: black;
+    height: 2px;
+}
+  
+#description{
+    font-size: 20px;
+    text-align: center;
+}
+  
+label{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+  
+.input-box{
+    height: 20px;
+}
+  
+#looking-label{
+    margin-bottom: 20px;
+}
+  
+.input-select{
+    height: 25px;
+}
+  
+#div-cb{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+  
+.services-cb{
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+  
+#features{
+    vertical-align: top;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.nav-button{
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: lightgrey;
+    padding: 10px 20px;
+    margin: 22px 10px;
+    font-family: 'Noto Serif', serif;
+    background-color: #2554c7;
+    border-radius: 5px;
+}
+
+a:hover{
+	color: #addfff;
+	background-color: #1589ff;
+}
