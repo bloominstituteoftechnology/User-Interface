@@ -49,7 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid red 
+	
+	
+	
 }
 
 html, body {
@@ -63,4 +67,90 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+body{
+	
+	
+}
+
+.todo{
+	width:80%;
+	margin: 0 auto
+	
+}
+.Big{
+	display:inline;
+	
+
+}
+.Big nav a{
+	margin: 5% 5%;
+	font-size:20px;
+	color:gray
+}
+.snippet{
+	
+}
+
+.main{
+	padding-bottom: 30px;
+	padding-bo
+	
+	
+}
+ 
+
+.section0{
+	display: inline-block;
+  	width:49%;
+  
+}
+.section1{
+	display: inline-block;
+	width: 33%
+}
+
+
+	
+
+
+/*
+
+nav {
+	margin-bottom: 10px;
+
+}
+nav a{
+	margin: 5% 2%;
+}
+
+div .snippet{
+	
+	margin: 0 auto;
+
+}
+.Big{
+	display: inline;
+	color:gray;
+	font-size: 20px;
+	text-align: center;
+	
+
+}
+.logo{
+	float:right;
+}
+ .snippet{
+	margin: 0 0 0 50%
+	
+}
+.main{
+	height: 80%;
+	width:80%;
+}
+
+
+/*div .section0, .section1{
+	display: block;
+	
+}*/
+
