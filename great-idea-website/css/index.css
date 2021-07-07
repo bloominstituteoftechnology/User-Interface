@@ -64,3 +64,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+header nav {
+	display: inline-block;
+	padding: 10px 0;
+}
+
+header nav a {
+	display: inline-block;
+	color: lightgrey;
+	font-size: 14px;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 95px;
+	padding: 20px 0;
+}
+
+header nav a:hover {
+	color: black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 20px 10px;
+	text-align: center;
+  animation: center 1s infinite;
+}
+
+img.logo {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+h1.hero-text {
+	font-size: 80px;
+}
+
+h1.hero-text span {
+	display: block;
+	text-align: center;
+}
+
+.hero-block {
+	display: inline-block;
+	width: 435px;
+	margin: 35px 0;
+	text-align: center;
+}
+
+.hero-block button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 15px;
+	font-size: 17px;
+}
+
+.hero-block button:hover {
+	background-color: lightgrey;
+	cursor: pointer;
+}
+
+.content {
+	padding: 40px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.sections-2 {
+	display: inline-block;
+	width: 435px;
+	padding: 10px 0;
+}
+
+.sections-3 {
+	display: inline-block;
+	width: 285px;
+	padding: 10px 0;
+}
+
+.contact-info {
+	margin: 20px 0;
+}
+
+.copyright {
+	text-align: center;
+	margin: 20px 0;
+}
