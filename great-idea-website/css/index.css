@@ -49,12 +49,18 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	text-align:center;
+	margin: auto;
+	
+
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +70,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* header area */
+
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+ header nav {
+	word-spacing: 50px;
+	color: gray;
+	margin-top: 35px;
+	width: 691px;
+	display: inline-block;
+}
+
+header nav a {
+  background: white;
+  margin: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: gray;
+  
+  
+
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+header nav a:first-child {
+	margin-left: 0;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+/* title logo area */
+
+.title-logo .tl-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .title-logo .tl-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 15px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .title-logo .tl-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .title-logo img {
+	display: inline-block;
+	margin-top: 69px;
+  }
+
+/* contant area */
+ 
+.main-section {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	
+  }
+  
+  .main-section .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-section .top-content .content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+  }
+  
+  .main-section .top-content .content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-section .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-section .last-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-section .last-content .content {
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+  }
+  
+  .main-section .last-content .content:last-child {
+	margin-right: 0;
+  }
+
+
+/* contact and footer */
+
+.contact {
+	margin-top: 37px;
+	padding: 0 10px;
+	margin-right: 12px;
+	border-top: 1px solid black;
+	padding: 60px 800px 90px 10px;
+	display: block;
+	
+
+	
+  }
+
+  .contact h4 {
+	margin: 20px 0;
+	padding: 0px;
+	width: 150px;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+	padding: 0px;
+	width: 150px;
+
+    
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+ 
