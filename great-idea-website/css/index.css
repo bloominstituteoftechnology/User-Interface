@@ -48,6 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -64,3 +65,154 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.main_container{
+	width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+header{
+	height: 80px;
+    display: flex;
+}
+
+.navbar{
+	width: 70%;
+	padding-top: 30px;
+}
+
+.navbar ul{
+	display: flex;
+    color: #aaa;
+}
+
+.navbar ul li{
+	margin-right: 12%;
+	cursor: pointer;
+}
+
+.logo_area{
+	padding-top: 20px;
+	width: 30%;
+}
+
+.logo{
+	background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: unset;
+    width: 200px;
+    height: 40px;
+    float: right;
+	display: block;
+	
+}
+
+.banner{
+	height: 500px;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.get_started{
+	width: 50%;
+}
+
+.banner_text{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: italic;
+    margin: 100px auto 30px;
+}
+
+.start_btn_area{
+	text-align: center;
+}
+
+.start_btn{
+    font-size: 1rem;
+    width: 38%;
+    height: 40px;
+    background: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.banner_img{
+    width: 50%;
+    text-align: center;
+}
+
+.banner_img img{
+	margin-top: 50px;
+}
+
+.content1{
+    display: flex;
+    height: 200px;
+    padding: 50px 0 10px;
+}
+
+.features{
+    width: 45%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.about{
+    width: 50%;
+    overflow: hidden;
+}
+
+.features_txt, .about_txt, .services_txt, .product_txt, .vision_txt{
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.content_img{
+	background-image: url(../img/mid-page-accent.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content2{
+	padding: 50px 0;
+	display: flex;
+	height: 200px;
+}
+
+.services, .product{
+	padding-right: 3%;
+}
+
+.main_content{
+	border-bottom: 1px solid #000;
+}
+
+footer{
+	padding: 50px 0;
+}
+
+.contact_title{
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.phone{
+	margin: 1.5rem 0;
+}
+
+.copyirght_area{
+	text-align: center;
+}
+
+
+
+
+
