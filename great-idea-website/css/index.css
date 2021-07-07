@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 876px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+header nav{
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+header .logo{
+	margin-left: 60px;
+}
+
+header nav a{
+	margin: 0 25px;
+	color: silver;
+	text-decoration: none;
+}
+
+.intro{
+	border-bottom: 1px solid black;
+	margin-top: 50px;
+	margin-bottom: 2em;
+}
+
+.intro .div{
+	display: inline-block;
+	width: 48%;
+}
+.intro .introtext p{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	border: 1px solid grey;
+	text-align: center;
+	margin-left: 120px;
+	
+}
+
+.introtext h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.introtext, .circleimg{
+	display: inline-block;
+	width:48%;
+}
+
+.content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.feature, .about{
+	display: inline-block;
+	width: 48%;
+	
+}
+
+.services, .product, .vision{
+	display: inline-block;
+	width: 33%;
+}
+
+
+.contact{
+	margin-top: 50px;
+	border-top: 1px solid black;
+}
+
+footer{
+	text-align: center;
+}
