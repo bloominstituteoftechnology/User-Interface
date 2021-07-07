@@ -48,7 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+*, *:before, *::after {
     box-sizing: border-box;
 }
 
@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+.navigation {
+	display: inline-block;
+	overflow: hidden;
+	position: fixed;
+	background: white;
+	top: 0;
+	width: 100%;
+}
+.navigation nav {
+	margin-top: 35px;
+	padding-bottom: 15px;
+}
+.navigation label {
+	margin: 0 25px;
+	color: gray;
+	opacity: 25%;
+	display: inline-block;
+}
+.navigation label:hover {
+	transform: scale(2.0);
+
+}
+.navigation :first-child {
+	margin-left: 0;
+}
+.navigation img {
+	margin-bottom: -15px;
+	margin-left: 96px;
+}
+header {
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding-bottom: 50px;
+	margin-top: 75px;
+}
+header div {
+	display: inline-block;
+}
+header .bottom-text {
+	margin-bottom: -20px;
+}
+
+.title {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-15%);
+}
+.title ul{
+	width: auto;
+	height: auto;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 100px;
+}
+.title ul button {
+	height: 30px;
+	width: 150px;
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	font-family: "Anton";
+}
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+.title ul button:hover {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-name: bounceIn;
+	animation-name: bounceIn;
+}
+.title-img {
+	margin-left: 100px;
+	margin-top: 70px;
+}
+.top-content {
+	padding: 40px 0;
+}
+.top-content div {
+	width: 435.5px;
+	display: inline-block;
+}
+.top-content .left {
+	margin-left: 0;
+}
+.top-content .right {
+	margin-left: 1px;
+}
+.middle-img {
+	display: block;
+	box-sizing: border-box;
+	background: url(img/mid-page-accent.jpg) no-repeat;
+	width: 876px;
+	height: 182px;
+}
+.bottom-content {
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding: 40px 0;
+}
+.bottom-content div {
+	width: 282px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.bottom-content .left {
+	margin-left: 0;
+}
+.bottom-content div h3 {
+	margin-block-start: 0;
+}
+.contact {
+	padding-top: 40px;
+}
+.contact .phone-number {
+	padding: 15px 0;
+}
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
