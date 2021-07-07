@@ -63,4 +63,167 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+body {
+	background: black;
+}
+
+nav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: lightyellow;
+	padding-bottom: 1%;
+	font-family: 'Sunflower';
+}
+
+nav a {
+	margin: 0 4%;
+}
+
+a {
+	color: rgb(87, 88, 90);
+	text-decoration: none;
+}
+
+header {
+	/* 
+	display: inline-block;    
+	padding: 0 10% 0 15%;
+	*/
+	margin: 10% auto;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 90%;
+	margin-top: 5%;
+}
+
+hr {
+	margin: 5%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	background: black;
+	/* margin-left: 25%; */
+	display: block;
+	margin: 0 auto;
+	padding: 2% 10% 2% 10%;
+	border: 1.5px solid lightslategray;
+	font-size: 100%;
+	transition-duration: .5s;
+}
+
+button a {
+	color: white;
+}
+
+button:hover {
+	background: lightslategray;
+	text-decoration: underline;
+}
+
+button:hover a {
+	color: darkslategray;
+}
+
+h1 {
+	font-size: 400%;
+	text-align: center;
+	color: darkcyan;
+}
+
+h3 {
+	color: darkcyan;
+}
+
+h3, section {
+	font-size: 110%;
+}
+
+p {
+	color: darkgray;
+}
+
+/* bottom content */
+div .bottom-content section {
+	display: inline-block;
+	width: 31.3%;
+	padding: 5% 0 3% 5%;
+}
+
+.heading {
+	background-image: url(https://image.ibb.co/dzua9d/header_img.png);
+	background-size: cover;
+}
+
+.top-content {
+	display: inline-block;
+	width: 47%;
+	padding: 0 0 3% 5%;
+}
+
+/* .top-img {
+	display: inline-block;    
+	padding-top: 5%;
+	padding-left: 6%;
+} */
+
+.center {
+	padding: 2%;
+	background-image: url(https://preview.ibb.co/jMzYUd/mid_page_accent.jpg);
+	background-size: cover;
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.contact-info {
+	padding-left: 5%;
+}
+
+.contact-info p {
+	color: white;
+}
+
+
+/* Code for great-idea.html */
+
+#opener {
+    position: relative;
+    top: 9%;
+    color: palevioletred;
+}
+
+.small-heading {
+    text-align: center;
+    color: darkcyan;
+}
+
+.lorem {
+    display: inline-block;
+    width: 48%;
+}
+
+/* For uniformity with the homepage. */
+.logo {
+    margin: 0 4%;
+}
+
+.main-content {
+    text-align: center;
+}
