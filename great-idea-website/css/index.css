@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+ .main-header {
+	 text-align: center;
+	margin: 100px 40px 0px 20px;
+	 font-size: 90px;
+	display: inline-block;
+	
+	
+  }
+  
+  .nav {
+	border-radius: 50px;
+	display: inline-block;
+	margin: 0 20px 90px 20px;
+	padding: 0;
+	width: auto;
+	text-decoration:  none;
+	background: whitesmoke;
+	color: black;
+
+  }
+  .nav:hover{
+	  color: aqua ;
+	  background-color: black;
+	  
+  }
+  .logo{
+	  display: inline-block;
+	  width: auto;
+	  padding: 20px;
+
+	  margin: 0 20px;
+	}
+	
+	
+  img{
+	  margin-left: 40px;
+	  width: 300px;
+	  height: auto;
+	
+	}
+	.header{
+		display: inline-block;
+	}
+	.image{
+		display: inline-block;
+	}
+
+  
+  
+  .button{
+	  vertical-align: top; 
+	  margin-left: 40px;
+	  border-radius: 30px;
+	  width: 200px;
+	  background: whitesmoke;
+	  font: black;
+	  font-size: 25px;
+	  border: black;
+	
+
+	  }
+
+  button:hover{
+	  background: black;
+	  color: aqua;
+  }
+ .container{
+	  margin: 0 auto;
+	  width: 1000px;
+  }
+  .features{
+	  padding: .5%;
+	  margin-left: 15%;
+	  display: inline-block;
+	  width: 40%
+	  
+	
+  }
+  .about{
+	  padding:.5%; 
+	  display: inline-block;
+	  width: 35%;
+	
+  }
+  .services{
+	display: inline-block;
+	width:25%;
+	padding: 2%;
+	margin-left: 15%;
+  }
+  .product{
+	display: inline-block;
+	width:25%;
+	padding: 2%;
+  }
+  .vision{
+	display: inline-block;
+	width:25%;
+	padding: 2%;
+  }
+  .middle-img{
+	margin-right: 0 70px 0 0;
+	margin-left: 0;
+	width: 1000px;
+	
+
+  }
+  .copyright{
+	  width: auto;
+	  text-align: center;
+	  
+  }
+  
