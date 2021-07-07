@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container { /* div container */
+	width: 100%;
+	max-width: 876px;
+	margin: 0 auto;
+}
+
+header { /* header */
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+
+nav { /* nav */
+	float: left;
+}
+
+nav a { /* things in nav */
+	display: inline-block;
+    margin-right: 60px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 15px;
+    vertical-align: -10px;
+}
+
+nav a:hover { /* nav hover */
+	color: orange;
+}
+
+.logo { /* GetStarted logo */
+	float: right;
+}
+
+section { /* section (cta, main-content, contact) */
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0;
+}
+
+hr { /*thematic break - line */
+	border: .5px solid black;
+	margin: 0;
+}
+
+.cta { /* section innovation on demand */
+	margin-bottom: 75px;
+	
+}
+
+
+.cta-text { /* div innovation on demand */
+	float: left;
+    text-align: center;
+    width: 54%;
+	padding-top: 60px;
+}
+
+.cta-text h1 { /* innovation on demand h1 */
+	font-size: 72px;
+}
+
+.cta-text button { /* get started button */
+	width: 155px;
+    padding: 4px;
+    margin-top: 15px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+.cta-text button:hover { /* get started button hover */
+	background-color: blue;
+	border: 1px solid rgb(51, 51, 163);
+	cursor: pointer;
+	color: white;
+}
+
+.text-content { /* features, about, services, product, vision */
+	padding-right: 15px;
+	font-family: 'Titillium Web';
+}
+
+.top-content .text-content { /* features, about, both descriptions */
+	width: 50%;
+	float: left;
+}
+
+.middle-img { /* middle codesnippet img */
+	margin: 40px 0;
+}
+
+.bottom-content .text-content { /* services, product, vision + descriptions */
+	width: 33.33%;
+	float: left;
+}
+
+footer { /*very bottom */
+	height: 100px;
+	text-align: center;
+	font-size: 12px;
+}
