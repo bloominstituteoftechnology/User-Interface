@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container header nav a {
+	color:orange;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+h4 {
+	color:black;
+}
+
+address {
+	color:grey;
+}
+
+footer {
+color: black;
+text-align: center;
+}
