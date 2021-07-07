@@ -60,7 +60,39 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 30px;
 }
 
 /* Your code starts here! */
+body {
+	width: 1024px;
+	padding: 0 75px;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 45px;
+}
+
+header div {
+	display: inline-block;
+}
+
+header h1 {
+	font-size: 4.5em;
+}
+
+.content-box {
+	display: inline-block;
+	width: 49%;
+}
+
+.content-2 {
+	display: inline-block;
+	width: 33%;
+}
