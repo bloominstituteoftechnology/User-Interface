@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +65,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 1000px;
+	margin:0 auto;
+	padding:20px 40px;
+	position: relative;
+}
+
+.fixed-nav{
+	position: fixed;
+	width: 920px;
+	background-color: gray;
+	z-index: 2;
+	
+}
+header{
+	position: relative;
+	height: 40px;
+	margin: auto 0;
+}
+
+.container section div{
+	display:inline-block;
+}
+
+header nav{
+	display:inline-block;
+	width: 80%;
+	padding: 10px;
+	position: absolute;
+}
+a{
+	color: lightgray;
+	text-decoration: none;
+}
+a:hover{
+	color:black;
+	text-decoration: underline;
+	transition-duration: .4s;
+}
+
+header nav a{
+	margin:0 30px;
+	font-size: 14px;
+}
+
+header .logo{
+	display: inline-block;
+	width: auto;
+	position: absolute;
+	right: 10px;
+}
+
+
+h1 {
+	font-size: 75px;
+}
+.page-title{
+	position: relative;
+	height: 525px;
+	border-bottom: solid black 1px;
+}
+
+.page-title .title-text{
+	position: absolute;
+	width: 48%;
+	left: 20px;
+	top: 125px;
+	text-align: center;
+}
+.page-title a{
+	border:solid black 1px;
+	padding: 1px 30px;
+	font-size: 18px;
+	color: black;
+}
+.page-title img{
+	position:absolute;
+	width: 48%;
+	padding: 20px 40px;
+	right: 20px;
+	top: 50px;
+}
+
+.two-column-text{
+	padding:20px 0;
+}
+
+.two-column-text .text-block{
+	display:inline-block;
+	width: 49%;
+	margin-right: 8px;
+	padding: 20px 0;
+}
+
+.two-column-text .text-block:last-of-type{
+	margin-right: 0px;
+	margin-left: 5px;
+}
+.middle-img{
+	width: 1000px;
+	padding: 0 80px 0 0;
+	margin: 0;
+}
+
+.three-column-text{
+	padding: 20px 0;
+	border-bottom: solid black 1px;
+}
+
+.three-column-text .text-block{
+	display:inline-block;
+	width: 33%;
+	margin-right: 1px;
+	padding: 20px 0;
+}
+.three-column-text .text-block:last-of-type{
+	margin-right: 0;
+}
+
+.contact{
+	padding: 40px 0;
+}
+.contact p{
+	margin-bottom: 15px;
+}
+
+footer{
+	text-align: center;
+	font-size: 14px;
+}
