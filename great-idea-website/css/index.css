@@ -64,3 +64,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.navigation {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.navigation a {
+	margin: 0 20px;
+}
+
+.logo {
+	margin: 0 25px;
+}
+
+header {
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+	margin-top: 75px;
+	font-size: 75px;
+	text-align: center;
+}
+
+header img {
+	margin: 75px 50px;
+	text-align: center;
+}
