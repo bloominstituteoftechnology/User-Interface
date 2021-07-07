@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 900px;
+}
+
+a {
+	padding: 32px;
+	text-decoration: none;
+	color: lightgray;
+	font-size: 85%;
+}
+
+h1 {
+	font-size: 75px;
+	margin-top: 70px;
+}
+
+button {
+	background-color: white;
+	font-size: 110%;
+	border: 1px black solid;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 48px;
+	padding-left: 48px;
+}
+
+header nav {
+	/* display: inline-block; */
+	float: left;
+	margin-top: 14px;
+}
+
+.logo {
+	display: inline-block;
+	padding-left: 50px;
+	margin-bottom: 60px;
+}
+
+section {
+	height: 379px;
+}
+
+.mid-left {
+	float: left;
+	width: 438px;
+	text-align: center;
+}
+
+#snippet {
+	float: right;
+	width: 379px;
+}
+
+h3 {
+	font-size: 105%;
+}
+article {
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	font-size: 105%;
+}
+
+#features {
+	width: 379px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+#about {
+	width: 379px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.middle-img {
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 12px;
+}
+
+#services {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#product {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#vision {
+	width: 292px;
+	display: inline-block;
+	padding: 10px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer div {
+	text-align: center;
+	padding: 40px;
+	font-size: 85%;
+}
