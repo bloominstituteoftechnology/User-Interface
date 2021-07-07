@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container{
+margin:50px;
+ 
+
+}
+a {
+	color:gray;
+	margin: 0 auto;
+	padding:20px;
+	text-decoration-line: none; 
+	display: inline-block;
+
+}
+nav {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Wallpoet';
+}
+a:hover{
+	color: darkblue;
+	transform: skewY(1deg);
+}
+.logo {
+	display:inline-block;
+}
+
+
+.title{
+
+font-size: 70px;
+width:600px;
+display:inline-block;
+vertical-align: 100px;
+padding:30px;
+}
+h1{
+font-family: 'Wallpoet', cursive;
+
+}
+.image{
+	
+	padding:20px;
+	display:inline-block;
+}
+
+button{
+	padding: 10px;
+	border-radius: 30px;
+	background: transparent;
+	
+}
+	button:hover{
+		background:rgb(9, 124, 153);
+		color:black;
+		transform: skewY(4deg);
+		border: 1px solid rgb(8, 72, 88);
+	}
+
+
+.Features{
+	width:400px;
+	display:inline-block;
+	padding: 20px;
+}
+.About{
+	width:400px;
+	display:inline-block;
+	padding: 20px
+}
+
+.Services{
+	
+	width:300px;
+	display:inline-block;
+	padding:20px;
+}
+.Product{
+	width:300px;
+	display:inline-block;
+	padding:20px;
+}
+.Vision{
+	width:300px;
+	display: inline-block;
+	padding: 20px;
+}
+.container2{
+	text-align: center;
+
+}
+.Contact{
+	padding: 20px;
+}
+footer{
+	padding:40px;
+}
+.section-titles{
+	font-size:20px;
+	font-family: 'Permanent Marker', cursive;
+}
+.section-titles:hover{
+	color: darkblue;
+	transform: skewY(5deg);
+}
