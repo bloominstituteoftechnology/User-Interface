@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.row1 {
+	width: 49%;
+	display: inline-block;
+}
+
+
+.row2{
+	width: 32%;
+	display: inline-block;
+}
+
+.logo{
+	position: absolute;
+  right: 100px;
+}
+
+.middle-img{
+text-align: center;
+}
+
+header {
+	margin: 5%;
+}
+#headerBox1{
+	width: 49%;
+	text-align: center;
+	font-size: 60px;
+}
+
+#headerBox2{
+	width: 49%;
+}
+
+header div{
+	display: inline-block;
+}
+
+
+
+.theDuo{
+	margin: 5% 10%;
+}
+
+.theTrio{
+	margin: 5% 10%;
+}
+
+.theImage{
+	margin-left: 10%;
+	background-image: url(/great-idea-website/img/mid-page-accent.jpg);
+	height: 200px;
+	width: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.copyright{
+	text-align: center;
+	margin: 5%
+}
+
+footer{
+	margin: 15%;
+}
+
+#headerBox1 {
+	margin-bottom: 15px;
+}
+
+.headerButton {
+	background-color: white;
+	border: 1px solid black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+
+  }
+
+  .headerButton:hover {
+	width: 200px;
+	height: 80px;
+	background-color: pink;
+	color:grey;
+	transition: background-color 2s ease-in;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 1em 4em;
+    padding: 0;
+}
+
+nav a{
+	margin: 2%;
+	text-decoration: none;
+	color: grey;
+}
+
+nav a:hover{
+	color: red;
+}
+
+nav{
+	background-color: aqua;
+	padding: 20px;
+	position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+nav:hover{
+	opacity: 70%;
+}
+
+.headerImageReplace{
+	background-image: url(/great-idea-website/img/header-img.png);
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
