@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 1px solid red;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: block;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+nav a, img {
+	display: inline-block;
+	padding : 0 2% 0 2%;
+	margin-top: 3%;
+}
+
+/*-------------------------------------------*/
+ 
+header {
+	margin: 3% 0;
+	text-align: center;
+}
+
+header > * {
+	display: inline-block;
+}
+
+
+header div{
+	width: 50%;	
+	height: 100%;
+	padding: 7%;
+	margin-top: 50px;
+}
+
+
+header div p {
+	font-family: 'Bangers', cursive;
+	font-size: 75px;
+	width: 280px;
+	padding-bottom: 5%;
+	margin: 0 auto;
+}
+
+header div a{
+	font-size: 20px;
+	padding: 0 10%;
+	color: black;
+	border: 1px solid black;
+}
+header img{
+	display: inline-block;
+	align-self: right;
+	padding: 2%;
+}
+
+/*-------------------------------------------*/
+hr{
+	width: 94%;
+	margin-bottom: 5%;
+}
+
+section {
+	text-align: center;	
+}
+
+section.section1 p {
+	width: 49%;
+}
+
+section img {
+	margin: 5% 0;
+}
+
+section.section2 p{
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 5%
+}
+
+section div {
+	text-align: left;
+}
+section div p{
+	display: inline-block;
+	padding: 0 3%;
+}
+
+section p {
+	
+  
+}
+strong {
+	font-family: 'Bangers';
+	font-weight: bold;
+	/*font-size: 30px;*/
+	display: inline-block;
+	margin-right: 90%;
+	padding-bottom: 1%;
+	
+}
+
+/*------------------------------------------*/
+
+footer {
+	margin: 0 3%;
+	width: 100%
+}
+
+footer p {
+	margin: 1%;
+	width: 140px;
+}
+
+div.contact {
+	/*width: 10px;*/
+}
+
+p.copyright {
+	margin: 0 auto;
+	width: 200px;
+}
+/*footer div > *{
+	margin: 0, 3%;
+}*/
