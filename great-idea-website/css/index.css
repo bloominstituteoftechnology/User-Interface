@@ -64,3 +64,173 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+body{
+	width: 880px;
+	margin: 0px auto;
+	/* padding: 25px; */
+}
+
+nav {
+	padding-top: 13px;
+	height: 50px;
+	width: 880px;
+	margin: 0px auto;
+	position: absolute;
+	/* border: solid black 5px; */
+	background-color: rgb(255, 255, 255);
+	z-index: 1;
+	
+}
+
+.logo {
+	padding-top: 13px;
+	position: absolute;
+	top: -10px;
+	left: 700px;
+}
+
+a {
+	font-size: 15px;
+	margin: 30px;
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color: black;
+	transition: 0.5s;
+}
+
+header {
+	width: 880px;
+	height: 500px;
+	/* border: solid black; */
+	margin: 15px auto;
+	
+}
+
+.circle {
+	position: relative;
+  	display: block;
+	left: 480px;
+	top: -220px;
+	box-sizing: border-box;  
+	/* z-index: 100; */
+	
+}
+
+h1 {
+	font-size: 80px;
+	/* position: relative; */
+	/* display: block;
+	left: 100px;
+	top: 100px;	 */
+	
+}
+
+.a {
+	position: relative;
+	display: block;
+	top: 135px;
+	left: 60px;
+}
+
+.b {
+	position: relative;
+	display: block;
+	top: 135px;
+	left: 175px;
+}
+
+.c {
+	position: relative;
+	display: block;
+	top: 135px;
+	left: 100px;
+}
+
+
+button {
+	font-size: 15px;
+	height: 45px;
+	width: 200px;
+	border: solid lightgrey 3px;
+	padding: 10px 30px;
+	position: relative;
+	display: block;
+	left: 110px;
+	top: 140px
+	}
+
+button:hover {
+	background-color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+article {
+	width: 880px;
+	border: solid black 1px;
+	margin-top: 45px;
+}
+
+.top-content {
+	width: 880px;
+	margin: 20px 0px 20px 0px;
+}
+
+#left {
+	width: 400px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 15px 10px 0px;
+}
+
+#right {
+	width: 400px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 0px 10px 15px;
+}
+
+.middle-img {
+	margin: 20px 0px 20px 0;
+}
+
+.bottom-content {
+	width: 880px;
+	margin: 20px 0px 20px 0px;
+}
+
+#top {
+	width: 285px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+#middle {
+	width: 285px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+#lower {
+	width: 285px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+.Contact {
+	height: 200px;
+	width: 140px;
+}
+
+footer {
+	text-align: center;
+	margin: 55px 0px 100px 0px;
+}
