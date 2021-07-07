@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ header {
+	 /* display: inline-block;
+	 border: 1px solid red;
+	 position: relative;
+width: 600px;
+margin: 0 auto; */
+
+ }
+
+ .fix {
+  /* position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 100; */
+}
+
+  nav {
+	
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		margin-top: 20px;
+		margin-bottom:10px;
+		/* top: 28px; */
+		 right: 20px;
+ }
+	nav a {
+		padding: 10px;
+		/* color: blue; */
+  text-decoration: none; /* no underline */
+	}
+  
+ .logo {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 14px;
+	right: 20px; 
+	/* width: 70px; */
+  /* height: auto; */
+
+ }
+ .mid {
+	border: 1px solid red;
+	margin-top: 50px;
+	height:500px; 
+
+	/* display: inline-block; */
+	}
+	.mid2 {
+		width:30%;
+		height: 400px;
+		border: 1px solid red;
+		margin: 40 0 10 20;
+
+	}
+ .mid2 h1 {
+	display: inline-block;
+	 font-size: 60px;
+	 /* position: absolute; */
+	 margin-top: 40px;
+	 margin-bottom: 20px;
+	 top: 18px;
+	 left: 20px;
+	 text-align: center;
+	 padding:10px
+	
+
+    
+ }
+ .mid2 {
+	text-align: center;
+	text-emphasis-position: center;
+ }
+.mid2 a button {
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+
+}
+ .mid img {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	margin-top:80px; 
+
+	/* margin-bottom: 60px; */
+	top: 28px;
+	right: 20px; 
+	/* margin: 0 auto; */
+
+
+ }
+
+ body {
+	display: inline-block;
+
+	border: 1px solid red;
+
+ } 
