@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 875px; 
+	margin: 0 auto;
+}
+
+hr{
+	width: 875px;
+	margin:0px;
+}
+
+.nav-logo-content {
+	display: inline-block;
+	margin-top: 15px;
+}
+.nav-logo-content nav{
+	display: inline-block;
+}
+.nav-logo-content img{
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.header-nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 5px 50px 5px 0px;
+}
+
+header .logo{
+	 width: 150px;
+	vertical-align: middle;
+}
+
+header h1{
+	font-size: 60px;
+	display: block;
+	width: 200px;
+	margin:30px auto;
+	
+}
+
+.header-bottom-wrapper{
+	margin: 40px auto;
+	
+}
+
+#header-button{
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 30px auto;
+	
+}
+
+
+#header-button button{
+	padding:4px 30px;
+	font-size: 13px;
+	background-color: white;
+	border: 1px solid black;
+	
+}
+
+#hero-img{
+	display: inline-block;
+	width: 390px;
+	padding-left: 80px;
+	vertical-align: middle;
+	
+}
+
+#hero-img img{
+	width: 300px;
+	height:300px;
+	vertical-align: middle;
+	
+}
+
+.contnent-section-upper .content{
+	display: inline-block;
+	width: 435px;
+	margin: 20px auto;
+	padding-right:10px;
+}
+
+.middle-img{
+	margin: 10px auto;
+	text-align: center;
+}
+
+
+.contnent-section-lower{
+	margin: 10px auto;
+}
+
+.contnent-section-lower .content{
+	display: inline-block;
+	width: 285px;
+	margin: 20px auto;
+	padding-right:10px;
+}
+
+.footer-section {
+	margin: 25px auto;
+}
+
+address{
+	width:150px
+}
+
+.footer-section p{
+	margin:15px 0;
+}
+
+footer{
+	text-align: center
+}
