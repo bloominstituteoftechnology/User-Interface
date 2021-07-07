@@ -62,5 +62,35 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+h1{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 100px;
+}
+button {
+	text-align:center;
+}
+h2{
+	font-size: 20px;
+}
+.container-center{
+	margin: auto; 
+	max-width: 300px;
+}
+div{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+hr {
+	margin-left: 70px;
+	margin-right: 120px;
+}
+.container-center2{
+	margin-left: 78px;
+	max-width: 300px;
+}
+button{
+	font-size: 30px;
+}
 
 /* Your code starts here! */
