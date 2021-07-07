@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+  
+  header {
+	position: relative;
+	width: 100%;
+	height: 120px;
+	margin: 0 0 0 40px;
+  }
+
+  header nav {
+	display:inline-block;
+	position: absolute;
+	line-height: 130px;
+	bottom:0;
+	left: 0; 
+  }
+  header nav a {
+	color: gray;
+	font-size: 14px;
+	margin: 0px 75px 0px 0px;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header img {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	line-height: 120px;
+	margin: 40px 70px ;
+  }
+  
+  .top-content {
+	margin: 10px;
+	padding: 5px 5px 5px ;
+  }
+  
+  .top-content .inner-content {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	padding: 10px 0 0 0;
+  }
+
+  .top-content .inner-content h1 {
+	font-size: 75px;
+	margin: auto;
+	width: 50%; 
+	text-align: center;
+	}
+	
+
+	.top-content .inner-content button {
+		
+		margin: 50px 0 0 200px;
+		
+		text-align: center;
+	}
+	
+	.top-content .inner-content img {
+		
+		margin: 0 0 0 30px;
+		
+	}
+  .middle-content {
+	margin: 10px;
+	padding: 5px 5px 5px ;
+	text-align: center;
+	border-top: 1px solid black;
+  }
+  
+  .middle-content .inner-content {
+	display: inline-block;
+	width: 50%;
+	padding: 10px 10px 10px 1px
+  }
+
+	.middle-content .inner-content h1 {
+		display: inline-block;
+		width: 50%;
+		text-align: center;
+		margin: 0 0 0 75px;
+	}
+	
+	.middle-image {
+		margin: 10px;
+		padding: 5px 5px 5px ;
+		text-align: center;
+	}
+
+  .bottom-content {
+	margin: 10px;
+	padding: 5px 5px 5px ;
+	text-align: center;
+	border-bottom: 1px solid black;
+  }
+  
+  .bottom-content .inner-content {
+	display: inline-block;
+	width: 33%;
+	padding: 10px 10px 10px 1px
+  }
+
+  .contact-content {
+	margin: 10px;
+	padding: 5px 5px 5px ;
+  }
+  
+  .contact-content .inner-content {
+	display: inline-block;
+	width: 33%;
+	padding: 10px 10px 10px 1px
+  }
+
+  .footer-content {
+	margin: 10px;
+	padding: 5px 5px 5px ;
+	text-align: center;
+  }
+  
+  .footer-content .inner-content {
+
+  }
