@@ -54,13 +54,131 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Margarine', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Pacifico', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+}
+
+body {
+	background-image: url('mid-page-accent.jpg');
+	background-color: #cccccc;
+	height: 100px;
+   }
+
+/* -----------------Header----------------- */
+.container{
+	margin-left: 100px;
+}
+.container .logo {
+	margin-top: 15px;
+	margin-left: 900px;
+}
+
+.container header nav a{
+	margin-top: 50px;
+	margin-right: 80px; 
+	text-decoration: none;
+	color: navy;
+	font-weight: bolder;
+}
+
+nav {
+	vertical-align: middle;
+	position: fixed;
+	top: 3%;
+	left: 10%;
+}
+
+/* ---------------Top Content--------------------- */
+.container .top-content h1, img {
+	display: inline-block;
+	margin-top: 70px;
+}
+
+.container .top-content img {
+	position: relative;
+	right: 100px;
+}
+
+.container .top-content h1{
+	font-size: 80px;
+	margin-left: 100px;
+	margin-top: 100px;
+	padding: 50px;
+	width: 500px;
+	vertical-align: top;
+}
+
+.container .top-content p{
+	font-size: 24px;
+	font-weight: 100;
+	margin-left: 60px;
+	margin-top: 30px;
+	border: 1px solid black;
+	background: gray;
+	color: silver;
+	padding: 7px 25px;
+	border-radius: 10px;
+	width: 200px;
+    height: 40px;
+}
+
+img {
+	margin-left: 5%;
+}
+/* ---------------Middle Content------------------ */
+
+.container .middle-content .middle {
+display: inline-block;
+margin-top: 50px; 
+width: 45%; 
+}
+
+.container .middle-content {
+	border-top: 1px solid black;
+	margin-top: 70px;
+	padding: 15px;
+	width: 90%;
+}
+
+.container .middle-img {
+	margin-left: 20px;
+	width: 85%;
+}
+
+/* ---------------Bottom Content------------------ */
+
+.container .bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 70px;
+	width: 90%;
+}
+
+.container .bottom-content .bottom {
+display: inline-block;
+width: 30%;
+margin-top: 70px;
+}
+
+.container footer {
+	margin-top: 40px;
+	margin-bottom: 150px;
+}
+
+.container footer .copyright {
+	margin-top: 6%;
+	margin-left: 35%;
+}
