@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* div, nav, header, section, footer, a {
+	border: 2px solid red;
+	margin: 2px;
+} */
+
+/* div {
+	background-color: green;
+}
+
+nav {
+	background-color: yellow;
+}
+
+header {
+	background-color: blue;
+}
+
+section {
+	background-color: brown;
+} */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid lightgrey;
+}
+
+.main {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.split {
+	display: inline-block;
+}
+
+.half {
+	width: 435px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.third {
+	width: 287px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.boxes {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header {
+	height: 400px;
+	width: 400px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.header.image, .logo {
+	padding-left: 90px;
+}
+.middle-img {
+	padding-left: 10px;
+}
+
+h1 {
+	font-size: 80px;
+	padding-top: 60px;
+}
+
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* img {
+	float: right;
+} */
+
+a {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	position: relative;
+	right: 10px;
+}
+.button {
+	display: inline;
+	padding: 2px 25px;
+	border: 1px solid black;
+}
+
+.contact {
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
