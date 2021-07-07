@@ -63,4 +63,134 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	/*	border: 1px solid red;*/
+		margin: 30px auto;
+		width: 880px;
+	}
+	.navigation {
+		/*border: 4px solid red;*/
+		display: flex;
+		flex-direction: row;
+		width: 870px;
+		background-color: #00FA9A;
+		border-radius: 10px;
+		position: fixed;
+		top: 0;
+	}
+	.navigation nav {
+		/*border: 4px solid red;*/
+		vertical-align: top;
+		margin-top:10px;
+		width:  666px;
+	}
+	
+	a {
+		margin: 0 25px;
+		color: grey;
+		/*GET RID OF UNDERLINE*/
+	}
+	a:hover {
+		color: black;
+	}
+	button:hover {
+		 background-color: grey;
+	}
+	.headerArt {
+	/*	border: 4px solid red;*/
+		display: flex;
+		flex-direction: row;
+	/*	margin: 80px 0px;*/
+		padding-top: 60px;
+		padding-bottom: 80px; 
+		justify-content: space-between;
+		border-bottom: 1px solid grey;
+		width: 870px;
+		
+	}
+	.headerArt h1 {
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	/*	border: 4px solid red;
+		vertical-align: top;
+		margin-top: 60px;
+		margin-bottom: 0px;*/
+		text-align: center;
+		font-size: 80px;
+		/*width: 470px;
+		height: 350px;*/
+	}
+	
+	button {
+		vertical-align: top;
+		margin-top: 20px;
+		width: 150px;
+		height: 25px;
+		background-color: white;
+		padding: 0px;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+		border-top: 1px solid grey;
+		border-left: 1px solid grey;
+	}
+	
+	.midContentSection1 {
+		display: flex;
+		flex-flow: row-reverse wrap;
+	/*	border: 1px solid red;*/
+		width: 870px;
+		margin: 30px 0px;
+		
+	}
+	.midContentSection1 p {
+		order: 1;
+	/*	border: 1px solid red;*/
+		
+		width: 425px;
+	}
+	.midContentSection1 h3 {
+		
+	/*	border: 1px solid red;*/
+		width: 430px;
+	}
+	
+	.midContentSection2 {
+		display: flex;
+		flex-flow: row-reverse wrap;
+	/*	border: 1px solid red;*/
+		width: 870px;
+		margin-top: 30px;
+		border-bottom: 1px solid grey;
+		padding-bottom: 40px;
+	}
+	
+	.midContentSection2 h3, .midContentSection2 p {
+		/*border: 1px solid red;*/
+		/*display: inline-block;*/
+		width: 280px;
+	
+	}
+	.midContentSection2 h3, p {
+	  margin-right: 6px;
+	}
+	/*
+	.midContentSection2.p:last-child {
+		margin-right: 0px;
+	}
+	.midContentSection2.h3:last-child {
+		margin-right: 0px;
+	}
+	*/
+	.contactSection{
+		margin-top: 40px;
+		margin-bottom: 50px;
+		display: flex;
+		flex-flow: column;
+	}
+	footer {
+		  text-align: center;
+	}
