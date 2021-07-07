@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	width: 100%;
+	text-align: center
+	
+	
+
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	color: rgb(172, 176, 180);
+	padding: 20px;
+	margin-right: 40px;
+	
+
+	
+
+
+}
+.logo {
+	margin-left: auto;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+
+}
+.top {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 50px;
+	
+
+}
+
+.headline {
+	display: inline-block;
+	font-size: 80px;
+	width: 30%;
+	text-align: center;
+	
+}
+	
+.header-image {
+	position: relative;
+	margin-left: 100px;
+	width: auto;
+	height: auto; 
+}	
+
+.start-button {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0px;
+	font-size: 16px;
+	background: transparent;
+
+	
+
+
+}
+
+.mid-box {
+
+	width: auto;
+	padding: 20px;
+	 
+}
+	.content1 {
+		font-size: 16px;
+		display: inline-block;
+		width: 47%;
+		margin-right: 10px;
+	
+
+		
+	}
+		
+	.content2 {
+		display: inline-block;
+		width: 47%;
+		font-size: 16px;
+		
+		
+
+	}
+	.middle-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 95%;
+	height: auto;
+	display: inline-block;
+
+
+	}
+	.content3 {
+		display: inline-block;
+		width: 30%;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	.content4 {
+		display: inline-block;
+		width: 30%;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	.content5 {
+		display: inline-block;
+		width: 30%;
+		font-size: 16px;
+
+	}
+
+.contact {
+	padding: 20px;
+}
+footer {
+	position: bottom;
+	text-align: center;
+	font-size: 14px;
+	margin: 40px;
+}
