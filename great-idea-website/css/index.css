@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 0 300px
+}
+header {
+	width:100px;
+	height:40px;
+	margin-bottom:50px;
+}
+header nav {
+	display:flex;
+	line-height: 1;
+}
+header nav a {
+	padding:1px 5px;
+	margin:5px 60px 0 0;
+	text-decoration: none;
+	color: gray;
+}
+header img {
+	position:absolute;
+	display:inline-block;
+	left:1000px;
+	top:0px
+}
+article {
+	position:top;
+	width:100%;
+	height:379px;
+	margin-bottom:30px;
+	display:flex;
+}
+article h1 {
+	display:inline-block;
+	text-align:center;
+	margin-right: 45px;
+	font-size:96px;
+	padding:40px;
+	width:100%;
+}
+button {
+	color: black;
+	background-color:white;
+	border:1px solid black;
+	width:300px;
+	font-size:24px;
+	margin-right:50px;
+
+}
+section {
+	width: 150%;
+	display: flex;
+}
+section div {
+	padding-right: 10px;
+	display: inline-block;
+	margin-right: 36px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}	
+section div h3{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+h3.about {
+	margin-left: 40px;
+	margin-bottom: 20px;
+	width: 250px;
+}
+section div p {
+	margin-bottom: 10px;
+	width: 250px;
+}
+p.about-paragraph {
+	width: 350px;
+	margin-left: 40px;
+}
+img.middle-img {
+	width: 900px;
+}
+footer {
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+	height: 200px;
+	font-weight: bold;
+}
+footer h3 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+footer address {
+	font-family: "courier New", 'Courier New', Courier, monospace;
+}
+footer small {
+	text-align: center;
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 310px;
