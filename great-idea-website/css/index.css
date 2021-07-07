@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navClass {
+	display:inline-block;
+	height: 50px;
+	width:50px;
+	padding:20px;
+	margin: 20px;
+}
+
+a {
+	text-decoration:none;
+	color:grey;
+}
+
+.logo {
+	margin: 0px 0px 0px 100px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+button {
+	background-color:white;
+	border: 2px solid black;
+	color: black;
+	padding: 3px 30px 3px 30px;
+}
+/*TRBL*/
+.sectionClass {
+	display:inline-block;
+	margin: 0px 100px 150px 50px;
+	text-align:center;
+}
+
+#imgId {
+	display:inline-block;
+	margin-top: 50px;
+}
+
+.sectionOne {
+	width:400px;
+	height:150px;
+	display:inline-block;
+	margin-left:40px;
+	text-align:left;
+}
+
+.middle-img {
+	width:843px;
+	display:inline-block;
+	margin-left:40px;
+}
+
+.sectionTwo {
+	width:255px;
+	height:150px;
+	display:inline-block;
+	margin-left:40px;
+	margin-top: 40px;
+	text-align:left;
+}
+
+
+.divClass {
+	width:200px;
+	height:150px;
+	display:inline-block;
+	margin-left:40px;
+	text-align:left;
+}
+
+.copyClass {
+	text-align: center;
+}
+
+hr {
+	width:1000;
+	margin-left:40px;
+	margin-right:630px;
+}
