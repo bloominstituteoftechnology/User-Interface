@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,178 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.pg-container {
+	width: 880px;
+	margin: auto;
+	position: relative;
+}
+
+.top-header {
+	width: 800px;
+	display: inline-block;
+	position: fixed;
+	background-image: linear-gradient(to left, white, rgb(25, 37, 148), black);
+	z-index: 1;
+	height: 40px;
+} 
+
+.top-header nav {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.top-header nav a {
+	padding-right: 60px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.top-header nav a:first-child {
+	margin-left: 15px;
+}
+
+.top-header nav a:last-child {
+	padding-right: 0
+}
+
+.header-img {
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: -80px;
+	z-index: 1;
+	background-color: white;
+}
+
+.top-header img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 183px;
+}
+
+h1 {
+	font-size: 78px;
+	letter-spacing: 3px;
+	line-height: 0.95;
+}
+
+.header-sans-nav {
+	height: 550px;
+	width: 880px;
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 30px;
+	position: relative;
+	border-bottom: 2px solid black;
+}
+
+.header-sans-nav h1 {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	top: 130px;
+	left: 70px;
+}
+
+.header-sans-nav img {
+	display: inline-block;
+	position: absolute;
+	top: 80px;
+	right: 0;
+}
+
+button {
+	position: absolute;
+	top: 370px;
+	left: 140px;
+	border: 1px solid black;
+	padding: 5px 45px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+	transition: background-color ease-out 0.5s;
+}
+
+main {
+	width: 880px;
+	height: 560px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 2px solid black;
+}
+
+main p {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.features {
+	width: 430px;
+	position: absolute;
+	left: 0;
+}
+
+.about {
+	width: 430px;
+	position: absolute;
+	right: 0;
+}
+
+.mid-page-img-break {
+	position: absolute;
+	top: 140px;
+}
+
+.services {
+	width: 280px;
+	position: absolute;
+	top: 360px;
+	left: 0;
+}
+
+.product {
+	width: 280px;
+	position: absolute;
+	top: 360px;
+	left: 300px;
+}
+
+.vision {
+	width: 280px;
+	position: absolute;
+	top: 360px;
+	right: 0;
+}
+
+footer {
+	height: 350px;
+	position: relative;
+	font-size: 16px;
+}
+
+.contact {
+	width: 140px;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	line-height: 1.2;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 80px;
+	width: 880px;
+	text-align: center;
+}
