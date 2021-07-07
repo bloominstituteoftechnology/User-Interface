@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+  }
+
+  
+  header nav {
+	display: inline-block;
+	width: 900px;
+	vertical-align: top;
+	margin-top: 65px;
+  }
+  
+  
+  header nav a {
+	display: inline-block;
+	margin-right: 65px;
+	font-size: 18px;
+	color:grey;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+	
+  }
+  
+  header .logo {
+	display: inline-block;
+	margin-top: 10px;
+	
+  }
+  .logo {
+	  display: inline-block;
+	  margin-top:-100px;
+	  margin-left:750px;
+  }
+ 
+  
+  .iod .iod-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 89px;
+  }
+  
+  .iod .iod-text button {
+	background: rgb(248, 245, 245);
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px black;
+	cursor: pointer;
+	border-radius: 12px;
+}
+  
+.iod .iod-text button {
+  background: white;
+  color:black;
+  border: 1px solid black;
+}
+  
+  .iod img {
+	display: inline-block;
+	margin-top: 100px;
+  }
+  
+  .main {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	border-bottom: 1px solid black;
+	margin-bottom: 76px;
+	padding-bottom: 39px;
+  }
+  
+  .main .top {
+	padding: 0 10px;
+  }
+  
+  .main .top .top-text {
+	width: 400px;
+	display: inline-block;
+	margin-right: 24px;
+  }
+  
+  .main .top .top-text:last-child {
+	margin-right: 0;
+  }
+  
+  .main .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main .bottom {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main .bottom .bottom-text{
+	width: 271px;
+	display: inline-block;
+	margin-right: 12px;
+  }
+  
+  .main .bottom .bottom-text :last-child {
+	margin-right: 0;
+  }
+  
+  .contact-text {
+	margin-top: 10px;
+	padding: 39px 10px 0;
+  }
+  
+  .contact-text p {
+	margin: 10px 0;
+  }
+  
+
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  } 
