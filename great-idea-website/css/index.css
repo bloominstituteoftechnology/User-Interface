@@ -61,6 +61,69 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
+} 
 
 /* Your code starts here! */
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 20px;
+
+	text-align: center;
+	display: block;
+}
+
+nav a {
+	padding: 20px;
+}
+
+header {
+	margin: 75px;
+	align-content: center;
+	display: inline-block;
+}
+
+.top-box{
+	display: inline-block;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+}
+
+.middle-stuff {
+	border-top: 1px solid black;
+	display: block;
+	margin: 0 auto;
+	/* width: 800px; */
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.mid {
+	padding: 20px 0;
+	width: 49%;
+	display: inline-block;
+}
+
+p {
+	font-size: 18px;
+}
+
+.middle-img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
