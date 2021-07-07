@@ -64,3 +64,235 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+hr {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav {
+	background-color: teal;
+	position: fixed;
+	width: 100%;
+	padding: 7px;
+	z-index: 1000;
+}
+
+nav .nav-text {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 10px 10px 50px;
+	word-spacing: 50px;
+	width: 80%;
+	font-family: 'Jua';
+}
+nav .nav-text a {
+	text-decoration: none;
+	color: white;
+}
+
+nav .nav-text a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+nav .logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+}
+
+header {
+	padding: 70px 0 0 0;
+}
+
+.title {
+	display: inline-block;
+	width:50%;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 100px;
+}
+
+.title .title-text {
+	font-size: 70px;
+	text-align: center;
+}
+
+.title button {
+	background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.title button:hover {
+	color: white;
+	background-color: black;
+}
+
+.title button:focus {
+	outline: 0;
+}
+
+.title .test {
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.title-logo {
+	display: inline-block;
+	width: 50%;
+}
+
+.main-content {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px 0px 20px 0px;
+}
+
+.main-content .features {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+
+.main-content .about {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+
+.main-content .middle-img {
+	padding: 50px 0 50px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.main-content .services {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.main-content .product {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.main-content .vision {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+}
+
+.contact-info {
+	display: inline-block;
+	margin-left: 50px;
+	width: 200px;
+	padding: 10px;
+}
+
+.copyright {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Services Page Specific CSS */
+
+header .services-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0px 50px 50px 50px;
+}
+
+header .header-content h1 {
+	font-size: 24px;
+}
+
+.services-main-content {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px 0px 20px 0px;
+}
+
+.services-main-content .main-box-left {
+	display: inline-block;
+	background-color: lightgrey;
+	border: 1px solid black;
+	height: 200px;
+	width: 47.5%;
+	padding: 20px;
+	margin: 5px 2.5% 5px 0;
+}
+
+.services-main-content .main-box-right {
+	display: inline-block;
+	background-color: lightgrey;
+	border: 1px solid black;
+	height: 200px;
+	width: 47.5%;
+	padding: 20px;
+	margin: 5px 0px 5px 2.5%;
+}
+
+.services-main-content button {
+	background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.services-main-content button:hover {
+	color: white;
+	background-color: black;
+}
+
+.services-main-content button:focus {
+	outline: 0;
+}
+
+.end {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.services-facts {
+	display: inline-block;
+	width:50%;
+	vertical-align:top;
+	padding: 20px 20px 20px 0;
+	line-height: 1.2;
+}
+
+.services-facts ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.6;
+}
+
+.services-facts-image {
+	display: inline-block;
+	width: 47.5%;
+	margin: 5px 0px 5px 2.5%;
+	height:300px;
+}
+
+
