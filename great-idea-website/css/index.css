@@ -64,3 +64,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*ENTIRE PAGE*/
+.container {
+    margin:auto;
+	width: 900px;
+	text-align: left;
+	}
+
+/*NAV @ TOP OF PAGE*/
+header nav {
+	display: inline-block;
+	margin: 50px 0 0 0;
+}
+/*GREAT IDEA LIGHTBULB*/
+header .logo{
+	margin: -25px 140px 2px 637px;
+
+}
+header nav a {
+		  /*TB LR*/
+	margin: 0 20px; 
+	color: gray;
+	text-decoration: none;
+}
+/*INOVATION ON DEMAND TITLE*/
+.innovte{
+	margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	font-size: 100px;
+	text-align: inherit;
+	
+}
+/*GET STARTED BUTTON*/
+button{
+	background: white;
+    border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	margin: 0 150px 0 150px;
+}
+
+/*ROUND IMAGE*/
+.round-img{ 
+position: absolute;
+top: 150px;
+right: 350px;
+bottom: 500px;
+}
+
+/*TOP BORDER LINE IN MAIN CONTENT*/
+.main-content .text-content1{
+	/*border-top: 1px solid black;*/
+	border-top: 1px solid black;
+	margin: 30px;
+}
+/*BOTTOM BORDER LINE IN MAIN CONTENT*/
+.main-content .text-content5{
+	/*border-top: 1px solid black;*/
+	border-bottom: 1px solid black;
+	margin: 30px;
+}
+/*HEADERS IN MAIN CONTENT*/	
+h4{
+	text-align: left;
+}
+p{
+	text-align: left;
+}
