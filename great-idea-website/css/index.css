@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width:980px;
+	margin: auto;
+}
+.topnavbarwrapper{
+	width: 980px;
+	display: inline-block;
+}
+.topnavbarmenu {
+	padding:10px 0 10px 0;
+	width: 980px;
+	display:inline-block;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+li {
+	float:left;
+}
+li a {
+	display:block;
+	text-align:center;
+	text-decoration: none;
+	padding:35px 35px;
+	color:grey;
+}
+
+.topnavbarlogo {
+display:inline-block;
+margin-top:23px;
+margin-left: 48px;
+}
+.midwrapper {
+	display:inline-block;
+padding:20px 0 20px 0;
+width:980px;
+border-bottom: 1px solid black;
+}
+.midwrapcol1{
+	width:580px;
+	float:left;
+}
+.midwrapcol2 {
+	width:400px;
+	float:left;
+}
+.bigtext {
+	font-size:80px;
+	padding:20px;
+	text-align: center;
+}
+.midbutton {
+	border: 1px solid black;
+	font-size:16px;
+	width:240px;
+	margin:auto;
+	text-align:center;
+	padding:10px;
+}
+.textcol1 {
+	margin-top:30px;
+	width:480px;
+	padding: 0 20px 0 20px;
+	float:left;
+}
+.midpicture {
+	display: inline-block;
+	padding:30px;
+}
+.thirdcol {
+	float:left;
+	padding: 0 20px 0 20px;
+	width: 326px;
+}
+.footer {
+margin-top: 20px;
+width:980px;
+}
+.footercol {
+	float:left;
+	padding: 0 20px 0 20px;
+	width: 980px;
+}
+.copyright {
+	width:650px;
+	text-align: center;
+	margin-bottom:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
