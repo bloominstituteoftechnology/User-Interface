@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container{
+	width: 800px;
+	margin: 0 auto;
+}
+ 
+hr {
+	width: 90%;
+}
+
+ header {
+	 width: 800px;
+	 position: fixed;
+	 top: 0;
+	 z-index: 10;
+	 background: white;
+ }
+
+ nav {
+	 margin-top: 20px;
+	 position: relative;
+ }
+
+ .logo {
+	 margin-left: 25px;
+	 position: absolute;
+	 top: 25px;
+ }
+
+  nav a{
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 20px;
+	  color: gray;
+  }
+
+  nav a:first-child {
+	  margin-left: 25px;
+  }
+
+  nav a:hover {
+	  color: black;
+  }
+
+  nav, .logo {
+	  display: inline-block;
+  }
+
+  /* START OF INNOVATION SECTION */
+
+  .innovation {
+	  width: 100%;
+	  height: 400px;
+	  margin-top: 75px;
+	  position: relative;
+  }
+
+  .circle-logo {
+	  position: absolute;
+	  width: 300px;
+	  height: 300px;
+	  right: 30px;
+	  top: 30px;
+  }
+
+  .ondemand {
+	position: absolute;
+	top: 60px;
+	left: 95px;
+}
+
+  .on {
+	  padding-left: 95px;
+  }
+
+  .demand {
+	  padding-left: 35px;
+  }
+
+  .ondemand h2 {
+	  font-size: 60px;
+  }
+
+  .ondemand p {
+	  width: 170px;
+	  margin-left: 40px;
+	  text-align: center;
+	  padding: 7px 40px;
+	  border: 1px solid black;
+  }
+
+  .moreinfo {
+	  width: 100%;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+  }
+
+  .features, .about {
+	  display: inline-block;
+	  width: 42%;
+	  margin-left: 40px;
+  }
+/* image in middle */
+  .middle-img {
+	  width: 90%;
+	  margin: 0 auto;
+	  display: block;
+  }
+
+  .services, .product, .vision {
+	  display: inline-block;
+	  width: 26%;
+	  margin-left: 40px;
+  }
+
+  /*footer section */
+  footer {
+	  width: 100%;
+	  position: relative;
+  }
+
+  address {
+	  padding-top: 40px;
+	  padding-bottom: 150px;
+  }
+
+  address {
+	  margin-left: 40px;
+  }
+
+  .copyright {
+	position: absolute;
+	top: 230px;
+	left: 300px;
+  }
