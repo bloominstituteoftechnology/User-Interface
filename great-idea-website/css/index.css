@@ -60,7 +60,106 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color: blue;
 }
 
 /* Your code starts here! */
+
+.navigation{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+}
+a{
+	padding: 20px;
+	margin: 20px;
+	text-decoration: none;
+}
+.head{
+	display: inline-block;
+	width: 100%;
+	margin: 10px;
+	padding: 20px;
+	border-bottom: solid red;
+}
+.header{
+	display: inline-block;
+	width: 35%;
+	padding: 40px;
+	margin: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.top-content{
+	display: inline-block;
+
+}
+.left-content{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	width: 45%;
+	height: 50px;
+	margin: 10px;
+}
+.right-content{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	width: 45%;
+	height: 50px;
+	margin: 10px;
+}
+.codepic{
+	width: 45%;
+	display: inline-block;
+	padding: 50px;
+	margin: 10px;
+	text-align: center;
+
+}
+.left{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	width: 30%;
+	margin: 10px;
+}
+
+.middle{
+	display: inline-block;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	width: 30%;
+	margin: 10px;
+}
+
+.right{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	width: 30%;
+	margin: 10x;
+}
+.bottom-content{
+	border-bottom: solid red;
+}
+.middle-img{
+	width: 80%;
+	margin: 50px;
+	height: 150px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+.contact {
+	text-align: left;
+	width: 200px;
+	margin: 10px;
+}
