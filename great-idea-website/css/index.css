@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,12 +22,49 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}*/
+#innovate{
+	font-size: 75px;
+	line-height: 10px;
+}
+
+.item{
+	color:gray ;
+	font-size: 15px;
+}
+.button {
+  background-color: white;
+  border: solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.top{
+	display: inline-block;
+	width:49% 
+}
+
+address p {
+	line-height: 1px
+}
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: flex-end;
+	/*align-content: center; */
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+}*/
 body {
 	line-height: 1;
 }
