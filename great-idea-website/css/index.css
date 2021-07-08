@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Global */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Header */
+.container, header.main-navigation {
+	width: 874px;
+	margin: 0 auto;
+}
+header.main-navigation {
+	position: relative;
+	padding: 26px 0px;
+	line-height: 36px;
+}
+.logo, header.main-navigation a {
+	display: inline-block;
+}
+header.main-navigation a {
+	margin-right: 66px;
+	font-size: 14px;
+	color: #bbb;
+}
+.logo {
+	position: absolute;
+	right: 0px;
+	vertical-align: middle;
+}
+
+/* Splash Section */
+.splash {
+	margin: 30px 0;
+	vertical-align: top;
+}
+.splash .call-to-action, .splash img{
+	display: inline-block;
+	vertical-align: top;
+}
+.splash .call-to-action{
+	width: 475px;
+	height: 420px;
+	text-align: center;
+}
+.splash .call-to-action h1 {
+	margin-top: 45px;
+	font-size: 80px;
+}
+.splash .call-to-action h1 .header-word {
+	display: block;
+}
+.splash .button {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 7px 45px;
+}
+
+/* Main Content */
+.content {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0px;
+}
+
+.blerb {
+	display: inline-block;
+	margin: 30px 10px 30px 0px;
+}
+
+.blerb.blerb-high {
+	width: 425px;
+}
+
+.blerb.blerb-low {
+	width: 278px;
+}
+
+/* Footer */
+footer {
+	padding: 30px 0px;
+}
+footer address{
+	display: block;
+	margin-bottom: 1em;
+}
+footer .copyright{
+	display: block;
+	text-align: center;
+}
