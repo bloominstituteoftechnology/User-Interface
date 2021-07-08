@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +65,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0% 2%; 
+}
+
+/* The next segments customize the nav bar and logo*/
+#navbar {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#nav-text {
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+}
+
+#nav-text a {
+	text-decoration: none;
+	padding: 0 35px 0 35px;
+	color: gray;
+}
+
+#nav-icon {
+	display: inline-block;
+	padding-left: 35px;
+}
+
+/* The next five segments customize the big title and circular picture */
+#title {
+	text-align: center;
+}
+
+#title-letter {
+	display: inline-block;
+	position: relative;
+	bottom: 60px;
+	right: 30px;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+#button {
+	border: 1px solid black;
+	padding: 5px 10px;
+	margin: 0px 50px;
+}
+
+#title-image {
+	display: inline-block;
+	margin: 25px -15% 25px 25px;
+}
+
+/* The next three segments customize the five paragraphs and coding picture */
+#info {
+	text-align: center;
+}
+
+.upper-info {
+	display: inline-block;
+	width: 45%;
+	margin: 30px 0px;
+	text-align: left;
+}
+
+.middle-img {
+	width: 90%;
+}
+
+.lower-info {
+	display: inline-block;
+	width: 30%;
+	margin: 30px 0px;
+	text-align: left;
+}
+
+/* The next three segments customize the contact info section */
+#contact-info {
+	display: inline-block;
+	text-align: left;
+	margin: 30px 0 0 5%;
+}
+
+#contact-cyr {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.contact-item {
+	padding: 8px 0px;
+}
+
+/* The following segment customizes the divider lines */
+hr {
+	width: 90%;
+}
