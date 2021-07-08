@@ -54,13 +54,129 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	/* border: 2px solid red;
+	margin: 2% auto;
+	width: 80%; */
 }
 
 /* Your code starts here! */
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 878px;
+  /* border: 1px solid green;  */
+  word-spacing: 3.5em;
+  color: lightgray;
+  margin: 5%;
+  padding: 2%;
+  position: relative;
+  /* text-decoration: none; */
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+}
+.logo {
+	position: absolute;
+	right: 0;
+	bottom: 18px;
+}
+
+header {
+	border-bottom: 1px solid black;
+	width: 878px;
+	/* border: 1px solid red; */
+	margin-left: 5%;
+	padding-bottom: 3%;
+}
+
+.banner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  /* border-bottom: 1px solid black; */
+  text-align: center;
+}
+
+ .banner-text {
+  font-size: 75px;
+  width: 297px;
+  /* border: 1px solid blue; */
+  margin-left: 20%;
+  text-align: center;
+  
+}
+
+ .banner-button {
+	border: 1px solid;
+    width: 130px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 2px;
+	margin-left: 174px;
+}
+
+.image-display {
+  display: inline-block;
+  vertical-align: middle;
+  width: 438px;
+  /* border: 1px solid blue; */
+  padding-left: 7%;
+}
+.two-columns {
+  display: inline-block;
+  vertical-align: top;
+  width: 438px;
+  /* border: 1px solid blue; */
+}
+
+.three-columns {
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	/* border: 1px solid red; */
+}
+
+section {
+	width: 80%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	/* border: 1px solid blue; */
+}
+
+.middle-img {
+	/* border: 1px solid red; */
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.services {
+	border-bottom: 1px solid black;
+	/* border: 1px solid red; */
+	width: 889px;
+	padding-bottom: 3%;
+}
+
+.contact {
+	/* border: 1px solid red; */
+	margin-left: 5%;
+	width: 878px;
+}
+
+footer {
+	margin-left: 5%;
+	text-align: center;
+	width: 878px;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
