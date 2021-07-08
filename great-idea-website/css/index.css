@@ -53,14 +53,126 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Exo 2', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	font-family: 'Merienda', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/* Body */
+body {
+	width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navigation */
+.navigation {
+    background-color: lightblue;
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    bottom: 870px;
+    top: 20px;
+    z-index: 1;
+}
+.navigation li {
+    display: inline;
+}
+a {
+	vertical-align: middle;
+	padding: 20px 0 33px 0;
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+}
+a:hover {
+    text-decoration: underline;
+	color: black;
+}
+
+/* Header */
+header {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* display under the nav */
+	margin-top: 150px;
+}
+
+header div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+header div h1 {
+	padding: 20px;
+	font-size: 70px;
+	text-align: center;
+}
+
+header div button {
+	text-decoration: none;
+    background: white;
+	margin-top: 15px;
+	border: solid black 1px;
+	padding: 10px 50px;
+}
+button:hover {
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+/* Section 1 top */
+section {
+	display: flex;
+	justify-content: center;
+}
+
+section .top-content{
+	padding: 30px 10px 10px 0px;
+	margin-top: 80px;
+	border-top: black solid 2px;
+}
+/* Section 2 bottom */
+
+section .bottom-content{
+	padding: 10px 10px 30px 0px;
+	border-bottom: black solid 2px;
+}
+
+/* Contact */
+.contact {
+    position: absolute;
+	justify-content: flex-start;
+	flex-direction: column;
+    left: -200px;
+	width: 80%;
+	margin: 15px 0;
+}
+
+.contact h2 {
+	padding: 10px 0;
+}
+ a {
+	padding: 10px 0;
+}
+.mail {
+    color: gray;
+}
+/* Footer */
+.copyright {
+    position: relative;
+    top: 157px;
+}
