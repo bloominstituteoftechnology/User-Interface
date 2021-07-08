@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black;
 }
 
 html, body {
@@ -64,3 +65,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+nav .logo {
+	padding-left: 50px;
+}
+
+header {
+	display: flex;
+	line-height: 0.75;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
+}
+header div{
+	
+		display: flex;
+	justify-content: flex-start;
+}
+header .title {
+	font-size: 68px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 15px;
+	margin-right: 100px;
+}
+
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+}
+
+header img {
+	display: flex;
+justify-content: stretch;
+}
+
+.top-content {
+	display: flex;
+}
+.middle-img {
+	margin: 30px 0px;
+}
+
+.bottom-content {
+	display: flex;
+	
+}
+
+.bottom-content div {
+	display: flex;
+	
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
+
+footer {
+	display: flex;
+}
+
+
+
