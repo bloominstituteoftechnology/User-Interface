@@ -1,8 +1,6 @@
--Jennifer Hott
-
 # User Interface Project: Great Idea Web Page
 
-Being able to create a user interface from scratch based on a design file is considered a basic necessity for front-end developers. We will be building a single page website using HTML and CSS.
+Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
 
 Given this [design file](design-files/desktop.jpg), use HTML and CSS to build the web page layout. Remember, you can only use `display:inline-block` and box model CSS properties for this project. **Note: you are NOT permitted to use Flexbox or CSS Grid. This is an exercise in basic layout techniques.**
 
@@ -20,7 +18,7 @@ Given this [design file](design-files/desktop.jpg), use HTML and CSS to build th
 
 Project objectives are meant to increase your knowledge by giving you practice on the principles learned earlier in the day. Aim to complete every objective on this list. Get as far as you can on the design as we will be using your work today for tomorrow's project as well.
 
-**Watch this short guide on how to set up your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
+**Watch this short guide on how to setup your project:**  [UI Project Setup 101](https://youtu.be/UU9WjpMsaLE)
 
 - [ ] Study the [desktop design file](design-files/desktop.jpg). Visualize how you would convert the design into HTML and CSS. Make a quick sketch of how you would build the HTML structure.  Use your sketch as a plan of action for the next two objectives.  Challenge yourself to only use 10 minutes for this particular objective.
 
@@ -35,7 +33,7 @@ Stretch goals are not required. Complete the project objectives before working o
 - [ ] Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
 - [ ] Introduce a new font family from [google fonts](https://fonts.google.com/)
 
-- [ ] Create a new page based on of a navigation item. Create your own layout using box model and `display: inline-block;`
+- [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
 - [ ] Change all the image tags into background images instead
 
