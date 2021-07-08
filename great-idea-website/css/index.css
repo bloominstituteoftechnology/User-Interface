@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+
+header nav{
+	display: inline-block;
+	position: absolute;
+	line-height: 30px;
+	text-align: center;
+}
+
+header nav a{
+	margin: 0 20px 0 20px;
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+}
+
+header .logo{
+	position: absolute;
+	right: 30px;
+}
+
+.title {
+	border: 1px solid yellow;
+	position: relative;
+	width: 100%;
+	height: 380px;
+	display: inline-block;
+}
+
+.getting-strarted{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	border: 1px solid green;
+	bottom: 90px;
+}
+
+.title .getting-strarted h1{
+	padding: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.getting-started-button{
+	margin-left: 35%;
+}
+
+.title .header-img {
+	position: absolute;
+	right: 30px;
+	border: 1px solid black;
+}
+
+.middle-section{
+	display: inline-block;
+	margin: 30px;
+}
+
+.content{
+	display: inline-block;
+	width: 32%;
+	box-sizing: border-box;
+	margin: 10px 1px 10px 0;
+	padding: 2px;
+}
+
+.content-1{
+	display: inline-block;
+	width: 49%;
+	box-sizing: border-box;
+	margin: 10px 1px 10px 0;
+}
+
+.middle-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+footer {
+	padding: 30px;
+}
