@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	background-color: white;
+	width: 880px;
+	margin: 0px auto;
+}
+
+.navigation nav {
+	margin-top: 37px;
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-left: 2px;
+}
+
+.navigation nav a {
+	margin-top: 14px;
+	text-decoration: none;
+	margin-right: 60px;
+	font-size: 15px;
+	color: #bdbdbd;
+}
+
+.logo {
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 32px;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	padding-bottom: 94px;
+	border-bottom: 1px solid black;
+}
+
+.header-cta {
+	display: inline-block;
+	text-align: center;
+	height: 300px;
+	width: 348px;
+	margin-top: 122px;
+	margin-left: 73px;
+}
+
+.header-cta h1 {
+	font-size: 72px;
+	letter-spacing: 7px;
+	line-height: 1.04;
+}
+
+.header-cta a {
+	border: 1px solid black;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	width: 174px;
+	height: 34px;
+	text-align: center;
+	margin-right: 11px;
+	padding-top: 7px;
+	margin-top: 2px;
+	letter-spacing: 1.4px;
+}
+
+.header-cta-img {
+	display: inline-block;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 75px;
+}
+
+.center-img {
+	display: block;
+}
+
+.top-content .content-item {
+	width: 48%;
+	display: inline-block;
+}
+
+.bottom-content {
+	padding-bottom: 7px;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content .content-item {
+	width: 30%;
+	display: inline-block;
+}
+
+.content-item {
+	margin-top: 38px;
+	margin-left: 2px;
+	margin-bottom: 38px;
+}
+
+.content-item-left-top {
+	margin-left: 27px;
+}
+
+.content-item-left-bottom {
+	margin-left: 35px;
+}
+
+.content-item p {
+	line-height: 1.18;
+	padding-right: 10px;
+	color: black;
+}
+
+.contact {
+	display: block;
+	height: 180px;
+}
+
+.contact h2 {
+	margin-top: 39px;
+	margin-left: 2px;
+	margin-bottom: 4px;
+}
+
+.contact p {
+	margin-top: 19px;
+	margin-left: 4px;
+}
+
+footer {
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+footer p {
+	font-size: 14px;
+	color: black;
+	margin-top: 3px;
+}
