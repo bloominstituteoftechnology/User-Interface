@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 975px;
+	margin: auto;
+	padding: 10px 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray; 
+	vertical-align: top;
+	margin: 10px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+nav {
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	vertical-align: middle;
+	padding: 10px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	position: relative;
+	display: block;
+	width: 100%; 
+	padding: 70px 70px;
+}
+
+button {
+	font-size: 20px;
+	margin: 0 auto; 
+	padding: 5px 20px 5px;
+	display: block; 
+	display: inline-block;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.headerImage {
+	margin-left: 70px;
+
+}
+
+.topsection {
+	display: inline-block; 
+	width: 100%;
+	vertical-align: middle;
+}
+
+.topsection-text {
+	display: inline-block; 
+	text-align: center; 
+}
+
+header {
+	margin-left: 100px;
+	vertical-align: middle; 
+}
+
+.getItCentered {
+	display: block; 
+}
+
+.middle-img {
+	width: 80%;
+	box-align: center; 
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.top {
+	width: 100%;
+}
+
+
+
+
+.features,
+.about {
+	display: inline-block;
+	width: 49%;
+	padding: 30px;
+	
+}
+
+.services, 
+.product,
+.vision {
+	display: inline-block;
+	width: 33%;
+	padding: 30px;
+	
+}
