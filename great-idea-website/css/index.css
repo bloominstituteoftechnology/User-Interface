@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	display:inline-block;
 }
 
 html, body {
@@ -64,3 +65,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.entirePage{
+	width:80%;
+	margin:auto;
+}
+.headerLinks a{
+	margin:0% 2%;;
+	padding:0%;
+}
+.logo{
+	margin-left: 120%;
+	margin-top: 5%;
+}
+.innovation{
+	margin:auto;
+	margin-top: 5%;
+	width:100%;
+	text-align: center;
+}
+.imgHeader{
+	margin: 0% 3% 3%;
+	vertical-align: top;
+	width:20%;
+	display:flex;
+	float:right;
+}
+.innovation nav h1{
+	text-align: center;
+	margin: 0% auto;;
+}
+.featuresLeft{
+	width:45%;
+	float:left;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom:2%;
+}
+.aboutRight{
+	width:45%;
+	margin-left:3%;
+	text-align: center;
+	margin-left:10%;
+	text-align: center;
+	float:left;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+.middle-img{
+	width:100%;
+	height:15%;
+
+}
+.services{
+	width:30%;
+	float:left;
+	text-align: center;
+	margin:3% 0%;
+}
+.product{
+	width:30%;
+	float:left;
+	text-align: center;
+	margin:3% 2%;
+}
+.vision{
+	width:30%;
+	float:left;
+	text-align:center;
+	margin: 3% 3%;
+}
+.contact{
+	width:100%;
+	margin-top:5%;
+}
+.featuresAbout{
+	border: 2px solid black;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	display:inline-block;
+}
+.bottomPara{
+	width:100%;
+	height:20%;
+	border: 2px solid black;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+}
+.copyright{
+	text-align: center;
+	width:100%;
+}
+.midHeading{
+	font-size: 50px;
+}
+.midHeading button{
+	font-size: 40px;
+	margin-bottom: 10%;;
+}
